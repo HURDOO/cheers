@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    { "id": "orig-1", "title": "Don't Stop Me Now", "artist": "Queen", "year": 1978, "genre": "Rock", "country": "영국", "status": "draft", "sources": [] },
+    { "id": "orig-2", "title": "눈의 꽃", "artist": "박효신", "year": 2004, "genre": "발라드", "country": "대한민국", "status": "draft", "sources": [] },
+    { "id": "orig-3", "title": "Dynamite", "artist": "BTS", "year": 2020, "genre": "K-Pop", "country": "대한민국", "status": "draft", "sources": [] },
+    { "id": "orig-4", "title": "We Will Rock You", "artist": "Queen", "year": 1977, "genre": "Rock", "country": "영국", "status": "draft", "sources": [] },
+    { "id": "orig-5", "title": "갈래", "artist": "이승환", "year": 2003, "genre": "팝록", "country": "대한민국", "status": "draft", "sources": [] },
+    { "id": "orig-6", "title": "Boom Boom Boom", "artist": "Vengaboys", "year": 1998, "genre": "유로댄스", "country": "네덜란드", "status": "draft", "sources": [] }
+  ]
+}
+

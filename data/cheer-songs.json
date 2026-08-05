@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cs-1", "title": "호랑이 군단 돌격가", "teamId": "kia-tigers", "originalSongId": "orig-1", "year": 2005, "durationSeconds": 134,
+      "lyrics": ["달려라 호랑이", "광주를 불태워라"],
+      "description": "KIA 타이거즈의 대표 응원가. 타자 등장 시 전구장이 하나로 물드는 광주-기아 챔피언스 필드의 명물.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-2", "title": "고려대 파이팅송", "teamId": "korea-university", "originalSongId": "orig-1", "year": 2009, "durationSeconds": 118,
+      "lyrics": ["고려 고려 파이팅", "정기전을 지배한다"],
+      "description": "고려대-연세대 정기전에서 빠지지 않는 응원가. 전야제에서 전통적으로 불린다.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-3", "title": "공룡의 포효", "teamId": "nc-dinos", "originalSongId": "orig-1", "year": 2013, "durationSeconds": 141,
+      "lyrics": ["포효하라 다이노스", "창원을 뒤흔들어라"],
+      "description": "창단 첫 해부터 구단이 공식 채택한 응원가. 창원 NC 파크 홈 경기 9회 공격 시 필수 곡.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-4", "title": "한양의 함성", "teamId": "hanyang-university", "originalSongId": "orig-1", "year": 2018, "durationSeconds": 122,
+      "lyrics": ["한양의 이름으로", "승리를 외쳐라"],
+      "description": "한양대 농구부 응원가로 시작해 대학 전반 체육대회 응원가로 확장된 곡.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-5", "title": "삼성 라이온즈 임팩트", "teamId": "samsung-lions", "originalSongId": "orig-2", "year": 2006, "durationSeconds": 108,
+      "lyrics": ["대구의 하늘 아래", "라이온즈가 간다"],
+      "description": "삼성 라이온즈 4번 타자 등장 시 사용되던 응원가. 2006~2010년 전성기 세대가 가장 기억하는 곡.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-6", "title": "성균의 별", "teamId": "sungkyunkwan-university", "originalSongId": "orig-2", "year": 2008, "durationSeconds": 97,
+      "lyrics": ["육백 년 성균의 빛", "우리가 별이 된다"],
+      "description": "성균관대 전통 응원가. 졸업식과 입학식에서도 울려 퍼지는 대학 대표 응원곡.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-7", "title": "이화의 노래", "teamId": "ewha-womans-university", "originalSongId": "orig-2", "year": 2011, "durationSeconds": 103,
+      "lyrics": ["이화의 이름으로", "우리 함께 나아가"],
+      "description": "이화여대 체전 응원 필수 레퍼토리. 화음을 살린 여성 4성부 합창 버전이 유명하다.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-8", "title": "트윈스 파이팅", "teamId": "lg-twins", "originalSongId": "orig-3", "year": 2021, "durationSeconds": 126,
+      "lyrics": ["잠실의 밤을 밝혀", "트윈스가 터뜨린다"],
+      "description": "2021 시즌 BTS 선율에 가사를 새로 써 만든 곡. 잠실 구장 홈경기 승리 후 단골.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-9", "title": "연세 다이너마이트", "teamId": "yonsei-university", "originalSongId": "orig-3", "year": 2022, "durationSeconds": 115,
+      "lyrics": ["연세의 이름으로", "폭발하듯 달려가"],
+      "description": "연고전 2022년 응원단이 새로 제작. 상대방 점수 이후 팀을 끌어올리는 역할로 쓰인다.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-10", "title": "다이노스 불꽃", "teamId": "nc-dinos", "originalSongId": "orig-3", "year": 2022, "durationSeconds": 119,
+      "lyrics": ["불꽃처럼 타올라", "공룡의 심장으로"],
+      "description": "NC 다이노스 2022 홈 개막전에 첫 공개. 젊은 팬층에게 빠르게 확산된 신세대 응원가.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-11", "title": "베어스 온 파이어", "teamId": "doosan-bears", "originalSongId": "orig-4", "year": 2003, "durationSeconds": 138,
+      "lyrics": ["곰의 발톱이 간다", "잠실을 뒤엎어라"],
+      "description": "두산 베어스 가장 오래된 응원가 중 하나. 중요한 찬스 상황에 팬들이 자발적으로 합창한다.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-12", "title": "서울대 록파이팅", "teamId": "seoul-national-university", "originalSongId": "orig-4", "year": 2007, "durationSeconds": 111,
+      "lyrics": ["관악의 함성이여", "하늘까지 울려라"],
+      "description": "서울대 관악 축제 기간 운동장에서 응원단과 함께 부르는 전통 응원가.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-13", "title": "부경대 함성", "teamId": "pukyong-national-university", "originalSongId": "orig-4", "year": 2010, "durationSeconds": 109,
+      "lyrics": ["바다여 들어라", "부경의 거대한 파도"],
+      "description": "부산·경남 지역 대학 연합 체전에서도 자주 쓰이는 응원가로 자리잡은 곡.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-14", "title": "롯데의 갈래", "teamId": "lotte-giants", "originalSongId": "orig-5", "year": 2005, "durationSeconds": 129,
+      "lyrics": ["사직의 밤이 온다", "부산 갈매기 날아라"],
+      "description": "이승환의 '갈래'를 변주한 롯데 응원가. 사직구장 야간 경기 7회에 필수 합창.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-15", "title": "부산 파이팅", "teamId": "donga-university", "originalSongId": "orig-5", "year": 2009, "durationSeconds": 117,
+      "lyrics": ["동아의 기상으로", "부산을 뒤덮어라"],
+      "description": "동아대 응원단이 제작. 부산 더비 때마다 같은 선율로 대결하는 명장면을 만든다.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-16", "title": "SSG 붐붐", "teamId": "ssg-landers", "originalSongId": "orig-6", "year": 2022, "durationSeconds": 143,
+      "lyrics": ["인천을 흔들어라", "붐붐 랜더스 간다"],
+      "description": "신세계 그룹 인수 후 새단장한 SSG 랜더스 대표 응원가. 인천SSG랜더스필드 1루 응원석 핵심곡.",
+      "status": "draft", "sources": []
+    },
+    {
+      "id": "cs-17", "title": "인하 붐붐", "teamId": "inha-university", "originalSongId": "orig-6", "year": 2019, "durationSeconds": 112,
+      "lyrics": ["인하의 이름 아래", "인천을 울려라"],
+      "description": "인천 지역 대학 연합 체육대회에서 유행처럼 퍼진 응원가. 신나는 리듬 덕에 비 응원가로도 활용.",
+      "status": "draft", "sources": []
+    }
+  ]
+}
+
