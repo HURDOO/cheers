@@ -1,44 +1,83 @@
-# 응원가 데이터 관리
+# 응원가 정본 데이터
 
-앱이 사용하는 정본(canonical) 데이터는 이 폴더의 JSON 세 파일입니다.
+이 폴더에는 사람이 출처와 게시 권한을 확인해 앱에 공개할 수 있는 정본(canonical) 데이터만 둡니다. 현재 정본은 비어 있습니다.
 
 - `teams.json`: 구단·학교 이름, 유형, 지역, 대표 색상
 - `original-songs.json`: 원곡 정보
-- `cheer-songs.json`: 응원가와 팀·원곡의 연결, 가사 미리보기, 출처, 오디오
+- `cheer-songs.json`: 응원가와 팀·원곡 계보, 도입 시점, 별칭, 사용 맥락과 출처
+- `media.json`: 응원가에 연결할 YouTube 영상
 
-현재 항목은 Figma 시안에서 옮긴 예시이며 사실 검증을 거치지 않았습니다. 모두 `status: "draft"`로 두었고, 실제 서비스에 공개할 데이터는 신뢰할 수 있는 `sources`를 추가한 뒤 `verified`로 바꿔야 합니다.
+## 응원가
 
-## 새 응원가 추가 순서
+`year`는 확정된 도입 연도만 저장합니다. 정확한 도입 연도가 불명확하면 `null`로 두고, 정렬용 `timelineYear`, 상태를 나타내는 `yearStatus`, 사용자에게 보여 줄 `yearLabel`을 함께 기록합니다.
 
-1. 팀이 없으면 `teams.json`에 먼저 추가합니다.
-2. 원곡이 없으면 `original-songs.json`에 추가합니다.
-3. `cheer-songs.json`에 `teamId`와 `originalSongId`를 연결해 추가합니다.
-4. `npm run data:validate`로 중복 ID, 필수값, 연결 관계, URL을 검사합니다.
-5. `npm run build`로 화면 빌드를 확인합니다.
+`lyrics`는 카드용 문구가 아니라 게시 권리가 확인된 전체 가사를 줄 단위로 저장합니다. 아직 공개할 수 없는 경우 빈 배열을 사용하며, 연 사이를 띄우려면 빈 문자열을 넣을 수 있습니다.
 
-ID는 `lotte-giants`처럼 영문 소문자·숫자·하이픈만 사용합니다. `lyrics`의 첫 두 줄이 카드와 상세 화면에 표시됩니다. `durationSeconds`는 초 단위 정수입니다.
+카드 상단에 사용할 두 줄짜리 문구는 전체 가사와 분리해 `symbolicLines`에 저장합니다. 화면에 하드코딩하지 않고 반드시 정본 데이터에서 읽습니다.
 
 ```json
 {
   "id": "cheer-song-id",
   "title": "응원가 제목",
+  "aliases": ["통용 별칭"],
+  "symbolicLines": ["첫 번째 상징문구", "두 번째 상징문구"],
   "teamId": "team-id",
   "originalSongId": "original-song-id",
-  "year": 2026,
-  "durationSeconds": 120,
-  "lyrics": ["첫 번째 미리보기", "두 번째 미리보기"],
-  "description": "확인된 설명",
-  "status": "draft",
+  "secondaryOriginalSongIds": [],
+  "sourceCheerSongId": "직접-차용한-응원가-id",
+  "originType": "adaptation",
+  "originNote": "직접 차용 응원가와 기반 원곡의 관계",
+  "year": null,
+  "timelineYear": 2020,
+  "yearStatus": "earliest-documented",
+  "yearLabel": "최초 확인 2020 · 공식 도입 연도 불명확",
+  "chronologyNote": "연도 판단 근거와 불확실성",
+  "lyrics": [],
+  "description": "출처로 확인한 설명",
+  "usageContext": "언제, 어떤 상황에서 쓰이는지",
+  "status": "verified",
   "sources": [
-    { "label": "공식 소개", "url": "https://example.com/source" }
-  ],
-  "audio": {
-    "url": "/audio/example.mp3",
-    "credit": "권리자 또는 제공자",
-    "licenseUrl": "https://example.com/license"
-  }
+    {
+      "label": "공식 소개",
+      "url": "https://example.com/source",
+      "scope": "chronology"
+    }
+  ]
 }
 ```
 
-`audio`는 선택 사항입니다. 로컬 파일은 `public/audio/`에 두고 `/audio/파일명.mp3`로 지정할 수 있습니다. 저작권자에게 사용 허가를 받은 오디오만 저장하거나 연결하세요.
+`yearStatus`는 `confirmed`, `earliest-documented`, `reported` 중 하나이고, `originType`은 `adaptation`, `arrangement`, `combined-adaptation`, `commissioned-original` 중 하나입니다. `sourceCheerSongId`와 `secondaryOriginalSongIds`는 해당 관계가 있을 때만 작성합니다. `sources[].scope`는 `title`, `origin`, `chronology`, `usage` 중 하나입니다.
 
+전체 가사를 공개하기 전에는 정확한 출처뿐 아니라 게시 권한도 별도로 확인합니다. 권리가 불분명한 후보 가사는 정본에 저장하지 않습니다.
+
+## YouTube 미디어
+
+직접 음원 URL과 로컬 오디오 파일은 지원하지 않습니다. YouTube 영상 ID와 원본 URL을 `media.json`에 등록합니다. 공식 권리자·구단·학교 채널을 우선하고, 한 응원가에 여러 영상을 연결할 때 대표 영상 하나만 `preferred: true`로 지정합니다.
+
+```json
+{
+  "id": "youtube-cheer-song-id",
+  "cheerSongId": "cheer-song-id",
+  "videoId": "YOUTUBE_ID",
+  "title": "YouTube에 표시된 영상 제목",
+  "channelName": "채널명",
+  "channelType": "team-official",
+  "role": "official-performance",
+  "sourceUrl": "https://www.youtube.com/watch?v=YOUTUBE_ID",
+  "preferred": true,
+  "availability": "playable",
+  "startSeconds": 0,
+  "durationSeconds": 120,
+  "checkedAt": "2026-08-07"
+}
+```
+
+`role`은 `official-audio`, `official-performance`, `stadium-recording`, `reference` 중 하나이고, `channelType`은 `rights-holder`, `team-official`, `school-official`, `fan` 중 하나입니다.
+
+## 반영 전 검사
+
+1. `npm run data:validate`
+2. `npm run typecheck`
+3. `npm run build`
+
+ID는 영문 소문자·숫자·하이픈만 사용합니다.

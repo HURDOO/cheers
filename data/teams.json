@@ -1,22 +1,4 @@
 {
   "schemaVersion": 1,
-  "items": [
-    { "id": "kia-tigers", "name": "KIA 타이거즈", "abbreviation": "KIA", "type": "baseball", "region": "광주", "colors": { "primary": "#C8102E", "secondary": "#8B0000" } },
-    { "id": "korea-university", "name": "고려대학교", "abbreviation": "KU", "type": "university", "region": "서울", "colors": { "primary": "#8B1A1A", "secondary": "#4A0000" } },
-    { "id": "nc-dinos", "name": "NC 다이노스", "abbreviation": "NC", "type": "baseball", "region": "창원", "colors": { "primary": "#1B4A9A", "secondary": "#0D2B60" } },
-    { "id": "hanyang-university", "name": "한양대학교", "abbreviation": "HYU", "type": "university", "region": "서울", "colors": { "primary": "#003DA5", "secondary": "#001E5C" } },
-    { "id": "samsung-lions", "name": "삼성 라이온즈", "abbreviation": "삼성", "type": "baseball", "region": "대구", "colors": { "primary": "#074CA1", "secondary": "#002060" } },
-    { "id": "sungkyunkwan-university", "name": "성균관대학교", "abbreviation": "SKKU", "type": "university", "region": "수원", "colors": { "primary": "#003896", "secondary": "#001848" } },
-    { "id": "ewha-womans-university", "name": "이화여자대학교", "abbreviation": "EWU", "type": "university", "region": "서울", "colors": { "primary": "#005EB8", "secondary": "#003070" } },
-    { "id": "lg-twins", "name": "LG 트윈스", "abbreviation": "LG", "type": "baseball", "region": "서울", "colors": { "primary": "#C30452", "secondary": "#7A0032" } },
-    { "id": "yonsei-university", "name": "연세대학교", "abbreviation": "YU", "type": "university", "region": "서울", "colors": { "primary": "#00205B", "secondary": "#000E2A" } },
-    { "id": "doosan-bears", "name": "두산 베어스", "abbreviation": "OB", "type": "baseball", "region": "서울", "colors": { "primary": "#131230", "secondary": "#050418" } },
-    { "id": "seoul-national-university", "name": "서울대학교", "abbreviation": "SNU", "type": "university", "region": "서울", "colors": { "primary": "#004B8D", "secondary": "#002248" } },
-    { "id": "pukyong-national-university", "name": "부경대학교", "abbreviation": "PKNU", "type": "university", "region": "부산", "colors": { "primary": "#0060A9", "secondary": "#003060" } },
-    { "id": "lotte-giants", "name": "롯데 자이언츠", "abbreviation": "롯데", "type": "baseball", "region": "부산", "colors": { "primary": "#D50032", "secondary": "#8A0020" } },
-    { "id": "donga-university", "name": "동아대학교", "abbreviation": "DAU", "type": "university", "region": "부산", "colors": { "primary": "#003087", "secondary": "#00154A" } },
-    { "id": "ssg-landers", "name": "SSG 랜더스", "abbreviation": "SSG", "type": "baseball", "region": "인천", "colors": { "primary": "#CE0E2D", "secondary": "#7A0018" } },
-    { "id": "inha-university", "name": "인하대학교", "abbreviation": "INU", "type": "university", "region": "인천", "colors": { "primary": "#003DA5", "secondary": "#001A5C" } }
-  ]
+  "items": []
 }
-
