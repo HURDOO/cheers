@@ -132,6 +132,36 @@ async function handleApi(request, response, url) {
     return sendJson(response, 201, result);
   }
 
+  if (url.pathname === "/api/organizations" && request.method === "POST") {
+    const body = await readRequestJson(request);
+    const organization = await withMutation(() => store.createOrganization(body.organization));
+    return sendJson(response, 201, { organization });
+  }
+
+  const organizationMatch = url.pathname.match(/^\/api\/organizations\/([a-z0-9-]+)$/u);
+  if (organizationMatch && request.method === "PUT") {
+    const body = await readRequestJson(request);
+    const organization = await withMutation(() => (
+      store.saveOrganization(organizationMatch[1], body.organization, body.expectedRevision)
+    ));
+    return sendJson(response, 200, { organization });
+  }
+  if (organizationMatch && request.method === "DELETE") {
+    const body = await readRequestJson(request);
+    const result = await withMutation(() => store.deleteOrganization(
+      organizationMatch[1],
+      body.expectedRevision,
+      { cascade: url.searchParams.get("cascade") === "true" },
+    ));
+    return sendJson(response, 200, result);
+  }
+
+  if (url.pathname === "/api/songs" && request.method === "POST") {
+    const body = await readRequestJson(request);
+    const song = await withMutation(() => store.createSong(body.song));
+    return sendJson(response, 201, { song });
+  }
+
   const songMatch = url.pathname.match(/^\/api\/songs\/([a-z0-9-]+)$/u);
   if (songMatch && request.method === "PUT") {
     const body = await readRequestJson(request);
@@ -142,6 +172,11 @@ async function handleApi(request, response, url) {
     const body = await readRequestJson(request);
     const result = await withMutation(() => jobStore.createResearchJob(songMatch[1], body.expectedRevision));
     return sendJson(response, result.created ? 201 : 200, result);
+  }
+  if (songMatch && request.method === "DELETE") {
+    const body = await readRequestJson(request);
+    const result = await withMutation(() => store.deleteSong(songMatch[1], body.expectedRevision));
+    return sendJson(response, 200, result);
   }
 
   return sendJson(response, 404, { error: "API 경로를 찾을 수 없습니다." });

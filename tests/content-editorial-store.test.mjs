@@ -148,3 +148,84 @@ test("오래된 revision으로 저장하면 덮어쓰지 않는다", async () =>
     (error) => error instanceof EditorialError && error.code === "REVISION_CONFLICT",
   );
 });
+
+test("대학·구단을 추가하고 모든 기본 필드를 수정한다", async () => {
+  const { store } = await fixture();
+  const created = await store.createOrganization({
+    id: "new-baseball-team",
+    name: "새 야구단",
+    abbreviation: "NEW",
+    type: "baseball",
+    region: "대구",
+    colors: { primary: "#123abc", secondary: "#fedcba" },
+  });
+
+  assert.equal(created.id, "new-baseball-team");
+  assert.equal(created.colors.primary, "#123ABC");
+  assert.equal(created.songCount, 0);
+
+  const updated = await store.saveOrganization(created.id, {
+    name: "수정 야구단",
+    abbreviation: "EDIT",
+    type: "baseball",
+    region: "부산",
+    colors: { primary: "#112233", secondary: "#445566" },
+  }, created.revision);
+
+  assert.equal(updated.name, "수정 야구단");
+  assert.equal(updated.region, "부산");
+  assert.equal(updated.revision, 2);
+});
+
+test("응원가가 연결된 대학·구단은 확인 없이 삭제하지 않고 명시적 일괄 삭제를 지원한다", async () => {
+  const { store } = await fixture();
+  const organization = await store.getOrganization("test-university");
+
+  await assert.rejects(
+    () => store.deleteOrganization(organization.id, organization.revision),
+    (error) => error instanceof EditorialError && error.code === "ORGANIZATION_HAS_SONGS",
+  );
+
+  const deleted = await store.deleteOrganization(organization.id, organization.revision, { cascade: true });
+  const state = await store.state();
+  assert.deepEqual(deleted.deletedSongIds, ["approved-song"]);
+  assert.equal(state.organizations.length, 0);
+  assert.equal(state.songs.length, 0);
+});
+
+test("응원가를 추가하고 다른 구단으로 이동한 뒤 삭제한다", async () => {
+  const { store } = await fixture();
+  const destination = await store.createOrganization({
+    id: "destination-team",
+    name: "이동 대상 구단",
+    abbreviation: "DST",
+    type: "baseball",
+    region: "대전",
+    colors: { primary: "#112233", secondary: "#445566" },
+  });
+  const created = await store.createSong({
+    id: "new-cheer-song",
+    organizationId: "test-university",
+    title: "새 응원가",
+    aliases: ["새응원"],
+    descriptionText: "직접 작성한 TMI",
+  });
+
+  assert.equal(created.workflowStage, "listed");
+  assert.equal(created.organizationId, "test-university");
+
+  const moved = await store.saveSong(created.id, {
+    ...created,
+    organizationId: destination.id,
+    workflowStage: "editing",
+    descriptionText: "수정한 TMI",
+  }, created.revision);
+  assert.equal(moved.organizationId, "destination-team");
+  assert.equal(moved.descriptionText, "수정한 TMI");
+
+  await store.deleteSong(moved.id, moved.revision);
+  await assert.rejects(
+    () => store.getSong(moved.id),
+    (error) => error instanceof EditorialError && error.code === "SONG_NOT_FOUND",
+  );
+});
