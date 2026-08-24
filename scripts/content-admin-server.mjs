@@ -1,5 +1,6 @@
 import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
+import { networkInterfaces } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { EditorialError, EditorialStore } from "./content-editorial-store.mjs";
@@ -11,7 +12,7 @@ const projectRoot = process.env.CONTENT_PROJECT_ROOT
   : path.resolve(scriptDirectory, "..");
 const adminDirectory = path.join(projectRoot, "admin");
 const sharedDirectory = path.join(projectRoot, "shared");
-const host = "127.0.0.1";
+const host = process.env.CONTENT_ADMIN_HOST?.trim() || "0.0.0.0";
 const parsedPort = Number.parseInt(process.env.CONTENT_ADMIN_PORT ?? "4175", 10);
 const port = Number.isInteger(parsedPort) && parsedPort > 0 ? parsedPort : 4175;
 const store = new EditorialStore(projectRoot);
@@ -55,6 +56,34 @@ function sendJson(response, status, payload) {
 function sendText(response, status, body, contentType = "text/plain; charset=utf-8") {
   response.writeHead(status, securityHeaders(contentType));
   response.end(body);
+}
+
+function isPrivateNetworkAddress(value) {
+  const address = String(value ?? "").toLowerCase().replace(/^::ffff:/u, "");
+  if (address === "::1") return true;
+  if (address.startsWith("fc") || address.startsWith("fd") || address.startsWith("fe80:")) return true;
+
+  const octets = address.split(".").map((part) => Number.parseInt(part, 10));
+  if (octets.length !== 4 || octets.some((part) => !Number.isInteger(part) || part < 0 || part > 255)) return false;
+  const [first, second] = octets;
+  return first === 10
+    || first === 127
+    || (first === 100 && second >= 64 && second <= 127)
+    || (first === 169 && second === 254)
+    || (first === 172 && second >= 16 && second <= 31)
+    || (first === 192 && second === 168);
+}
+
+function lanAccessUrls() {
+  if (host !== "0.0.0.0") return [`http://${host}:${port}`];
+  const candidates = Object.entries(networkInterfaces()).flatMap(([name, addresses = []]) => (
+    addresses
+      .filter((address) => address.family === "IPv4" && !address.internal && isPrivateNetworkAddress(address.address))
+      .map((address) => ({ name, address: address.address }))
+  ));
+  const physical = candidates.filter(({ name }) => !/^(?:awdl|bridge|docker|gif|llw|lo|stf|utun|vmenet)/u.test(name));
+  const selected = physical.length > 0 ? physical : candidates;
+  return ["http://127.0.0.1:" + port, ...selected.map(({ address }) => `http://${address}:${port}`)];
 }
 
 async function readRequestJson(request) {
@@ -120,7 +149,10 @@ async function handleApi(request, response, url) {
 
 async function handleRequest(request, response) {
   try {
-    const url = new URL(request.url ?? "/", `http://${request.headers.host ?? `${host}:${port}`}`);
+    if (!isPrivateNetworkAddress(request.socket.remoteAddress)) {
+      return sendJson(response, 403, { error: "내부망에서만 Admin에 접속할 수 있습니다." });
+    }
+    const url = new URL(request.url ?? "/", "http://admin.internal");
     if (url.pathname.startsWith("/api/")) return await handleApi(request, response, url);
 
     const asset = staticFiles.get(url.pathname.replace(/\/$/u, "") || "/");
@@ -142,6 +174,7 @@ async function handleRequest(request, response) {
 await Promise.all([store.initialize(), jobStore.initialize()]);
 const server = createServer(handleRequest);
 server.listen(port, host, () => {
-  console.log(`응원가 콘텐츠 Admin: http://${host}:${port}`);
-  console.log("로컬 전용 서버입니다. 종료하려면 Ctrl+C를 누르세요.");
+  console.log("응원가 콘텐츠 Admin");
+  for (const url of lanAccessUrls()) console.log(`- ${url}`);
+  console.log("루프백과 사설 내부망에서만 접속할 수 있습니다. 종료하려면 Ctrl+C를 누르세요.");
 });
