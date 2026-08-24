@@ -35,6 +35,15 @@ export interface YouTubeMedia {
   startSeconds?: number;
   durationSeconds?: number;
   checkedAt?: string;
+  /** 차기 스키마에서 사용자가 정한 1~5 표시 순서입니다. */
+  rank?: number;
+  /** 화면에 그대로 표시할 선택적 출처·크레딧 문구입니다. */
+  attributionText?: string;
+}
+
+export interface QuickFact {
+  label: string;
+  value: string;
 }
 
 export interface Team {
@@ -59,7 +68,7 @@ export interface OriginalSong {
   genre?: string | null;
   country?: string | null;
   status: RecordStatus;
-  sources: SourceReference[];
+  sources?: SourceReference[];
 }
 
 export type CheerSongYearStatus =
@@ -93,12 +102,15 @@ export interface CheerSongRecord {
   yearLabel: string;
   chronologyNote: string;
   durationSeconds?: number;
-  /** 권리가 확인된 전체 가사를 줄 단위로 저장합니다. 미확인 상태에서는 빈 배열입니다. */
+  /** 전체 가사를 줄 단위로 저장합니다. */
   lyrics: string[];
   description: string;
+  /** 차기 스키마의 소개·사용 맥락·TMI 통합 본문입니다. */
+  descriptionText?: string;
   usageContext: string;
+  quickFacts?: QuickFact[];
   status: RecordStatus;
-  sources: SourceReference[];
+  sources?: SourceReference[];
 }
 
 /** UI가 바로 사용할 수 있도록 팀 정보를 결합한 응원가 레코드입니다. */
@@ -115,6 +127,7 @@ export interface CheerSong extends CheerSongRecord {
   symbolicLine1: string;
   symbolicLine2: string;
   youtubeMedia?: YouTubeMedia;
+  youtubeMediaList: YouTubeMedia[];
 }
 
 export interface CatalogFile<T> {

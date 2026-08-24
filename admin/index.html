@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>응원가 콘텐츠 Admin</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">응</span>
+        <div>
+          <p class="eyebrow">CHEERS EDITORIAL</p>
+          <h1>응원가 콘텐츠 Admin</h1>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <span id="save-status" class="save-status">불러오는 중…</span>
+        <button id="refresh-button" type="button" class="button button-secondary">새로고침</button>
+      </div>
+    </header>
+
+    <div class="workspace">
+      <aside class="inventory-panel" aria-label="응원가 목록">
+        <div class="inventory-controls">
+          <label for="organization-select">대학·구단</label>
+          <select id="organization-select"></select>
+
+          <div id="bucket-tabs" class="bucket-tabs" role="tablist" aria-label="조사 범위"></div>
+
+          <label class="search-field">
+            <span class="sr-only">곡 검색</span>
+            <input id="search-input" type="search" placeholder="곡명이나 별칭 검색" />
+          </label>
+        </div>
+
+        <nav id="song-list" class="song-list" aria-label="응원가"></nav>
+
+        <details class="import-panel">
+          <summary>목록 가져오기</summary>
+          <form id="import-form">
+            <p class="help-copy">한 줄에 한 곡씩 붙여 넣으세요. 번호와 불릿은 자동으로 제거됩니다.</p>
+            <label for="target-titles">지금 조사할 곡</label>
+            <textarea id="target-titles" name="targetText" rows="4" placeholder="민족의 아리아&#10;엘리제를 위하여"></textarea>
+            <label for="deferred-titles">나중에 조사할 곡</label>
+            <textarea id="deferred-titles" name="deferredText" rows="3"></textarea>
+            <label for="discovered-titles">AI가 추가 발견한 곡</label>
+            <textarea id="discovered-titles" name="discoveredText" rows="3"></textarea>
+            <button class="button button-primary button-wide" type="submit">세 목록에 추가</button>
+          </form>
+        </details>
+      </aside>
+
+      <main class="editor-shell">
+        <section id="empty-state" class="empty-state">
+          <span class="empty-mark" aria-hidden="true">♪</span>
+          <h2>편집할 응원가를 선택하세요</h2>
+          <p>왼쪽에서 곡을 고르거나 새 목록을 가져오면 TMI와 영상을 편집할 수 있습니다.</p>
+        </section>
+
+        <form id="song-form" class="song-editor" hidden>
+          <header class="editor-header">
+            <div>
+              <div class="badge-row">
+                <span id="origin-badge" class="badge"></span>
+                <span id="stage-badge" class="badge badge-muted"></span>
+                <span id="published-badge" class="badge badge-published" hidden>사이트 공개 중</span>
+              </div>
+              <h2 id="editor-heading">응원가 편집</h2>
+              <p id="editor-subtitle" class="editor-subtitle"></p>
+            </div>
+            <button class="button button-primary" type="submit">변경 저장</button>
+          </header>
+
+          <div class="editor-grid">
+            <div class="form-column">
+              <section class="form-section">
+                <div class="section-heading">
+                  <div>
+                    <p class="eyebrow">BASIC</p>
+                    <h3>기본 정보</h3>
+                  </div>
+                </div>
+                <div class="field-grid">
+                  <label class="field field-wide">
+                    <span>곡 제목</span>
+                    <input id="title-input" name="title" required maxlength="200" />
+                  </label>
+                  <label class="field field-wide">
+                    <span>별칭 <small>쉼표 또는 줄바꿈으로 구분</small></span>
+                    <input id="aliases-input" name="aliases" />
+                  </label>
+                  <label class="field">
+                    <span>조사 범위</span>
+                    <select id="scope-select" name="scopeStatus">
+                      <option value="target">조사 대상</option>
+                      <option value="deferred">나중에 조사</option>
+                      <option value="discovered_pending">AI 추가 발견</option>
+                      <option value="rejected">제외</option>
+                    </select>
+                  </label>
+                </div>
+              </section>
+
+              <section class="form-section story-section">
+                <div class="section-heading">
+                  <div>
+                    <p class="eyebrow">STORY</p>
+                    <h3>소개·사용 맥락·TMI</h3>
+                  </div>
+                  <div class="section-actions">
+                    <button id="research-button" class="button button-small button-secondary" type="button">AI 조사 요청</button>
+                    <button id="insert-note-button" class="button button-small button-secondary" type="button">[* 주석] 넣기</button>
+                  </div>
+                </div>
+                <p class="help-copy">출처는 선택 사항입니다. 필요할 때만 <code>[* 원문 출처: https://...]</code> 형식으로 본문에 넣으세요.</p>
+                <div id="research-panel" class="research-panel" hidden></div>
+                <textarea id="description-input" class="story-input" name="descriptionText" rows="14" placeholder="사용자가 직접 작성하는 이야기"></textarea>
+              </section>
+
+              <section class="form-section">
+                <div class="section-heading">
+                  <div>
+                    <p class="eyebrow">LYRICS</p>
+                    <h3>가사</h3>
+                  </div>
+                  <span class="section-note">공개 화면에서는 두 줄만 먼저 표시</span>
+                </div>
+                <textarea id="lyrics-input" name="lyrics" rows="8" placeholder="한 줄씩 입력"></textarea>
+              </section>
+
+              <section class="form-section">
+                <div class="section-heading">
+                  <div>
+                    <p class="eyebrow">QUICK FACTS</p>
+                    <h3>간단 정보</h3>
+                  </div>
+                </div>
+                <div id="facts-editor" class="facts-editor"></div>
+              </section>
+
+              <section class="form-section">
+                <div class="section-heading">
+                  <div>
+                    <p class="eyebrow">VIDEOS</p>
+                    <h3>영상 다섯 개</h3>
+                  </div>
+                  <span class="section-note">선택과 순서는 사용자 전용</span>
+                </div>
+                <div id="videos-editor" class="videos-editor"></div>
+              </section>
+            </div>
+
+            <aside class="preview-column" aria-label="사이트 미리보기">
+              <div class="preview-sticky">
+                <div class="preview-label-row">
+                  <p class="eyebrow">LIVE PREVIEW</p>
+                  <span>실제 저장 전 미리보기</span>
+                </div>
+                <article id="site-preview" class="site-preview"></article>
+              </div>
+            </aside>
+          </div>
+        </form>
+      </main>
+    </div>
+
+    <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

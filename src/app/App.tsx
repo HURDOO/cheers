@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import {
   Search, Play, Music2, Trophy, University, X, ExternalLink,
 } from "lucide-react";
+import { InlineNotes } from "./components/InlineNotes";
 import { CHEER_SONGS, ORIGINAL_SONGS, getCheerSong, getOriginalSong } from "../data/catalog";
 import type { CheerSong, OriginalSong } from "../data/types";
 
@@ -109,8 +110,14 @@ const ORIGINAL_ART_PALETTES = [
 // ── YouTube Player ────────────────────────────────────────────────────────────
 
 function YouTubePlayer({ song }: { song: CheerSong }) {
-  const media = song.youtubeMedia;
+  const [activeMediaId, setActiveMediaId] = useState(song.youtubeMedia?.id ?? "");
+  const mediaList = song.youtubeMediaList;
+  const media = mediaList.find(({ id }) => id === activeMediaId) ?? mediaList[0];
   const isPlayable = media && media.availability !== "unavailable";
+
+  useEffect(() => {
+    setActiveMediaId(song.youtubeMedia?.id ?? song.youtubeMediaList[0]?.id ?? "");
+  }, [song.id, song.youtubeMedia?.id, song.youtubeMediaList]);
 
   if (!isPlayable) {
     return (
@@ -161,6 +168,23 @@ function YouTubePlayer({ song }: { song: CheerSong }) {
           YouTube <ExternalLink size={9} />
         </a>
       </div>
+      {mediaList.length > 1 && (
+        <div className="mt-3 flex gap-1.5 overflow-x-auto pb-1" aria-label="추가 영상 선택">
+          {mediaList.slice(0, 5).map((item, index) => (
+            <button
+              key={item.id}
+              type="button"
+              aria-pressed={item.id === media.id}
+              onClick={() => setActiveMediaId(item.id)}
+              className={`flex min-w-0 shrink-0 items-center gap-2 rounded-lg border px-2.5 py-2 text-left transition-colors ${item.id === media.id ? "border-primary bg-primary text-primary-foreground" : "border-border bg-secondary text-muted-foreground hover:border-foreground/20 hover:text-foreground"}`}
+            >
+              <span className="font-mono text-[9px] font-bold">{index + 1}</span>
+              <span className="max-w-28 truncate text-[10px] font-semibold">{item.title}</span>
+            </button>
+          ))}
+        </div>
+      )}
+      {media.attributionText && <p className="mt-2 text-[9px] leading-relaxed text-muted-foreground">{media.attributionText}</p>}
     </section>
   );
 }
@@ -284,6 +308,48 @@ function OriginalSourceMarker({ original, index }: { original: OriginalSong; ind
   );
 }
 
+function LyricsPanel({ song }: { song: CheerSong }) {
+  const [expanded, setExpanded] = useState(false);
+  const meaningfulLines = song.lyrics.filter((line) => line.trim() !== "");
+  const hasLyrics = meaningfulLines.length > 0;
+  const canExpand = meaningfulLines.length > 2;
+  const visibleLines = expanded ? song.lyrics : meaningfulLines.slice(0, 2);
+
+  return (
+    <section aria-labelledby={`${song.id}-lyrics-title`}>
+      <div className="mb-2.5 flex items-center justify-between gap-3">
+        <p id={`${song.id}-lyrics-title`} className="font-mono text-[9px] uppercase tracking-[0.15em] text-muted-foreground">가사</p>
+        {hasLyrics && <span className="font-mono text-[9px] tabular-nums text-muted-foreground/70">{meaningfulLines.length}줄</span>}
+      </div>
+      <div className="rounded-xl border border-border bg-background px-5 py-5 shadow-[0_2px_8px_rgba(32,31,29,0.03)]">
+        {hasLyrics ? (
+          <>
+            <div className="text-[14px] font-medium leading-[1.9] tracking-[-0.01em] text-foreground">
+              {visibleLines.map((line, index) => line.trim() ? (
+                <p key={`${index}-${line}`}>{line}</p>
+              ) : (
+                <div key={`space-${index}`} className="h-3" aria-hidden="true" />
+              ))}
+            </div>
+            {canExpand && (
+              <button
+                type="button"
+                aria-expanded={expanded}
+                onClick={() => setExpanded((current) => !current)}
+                className="mt-4 w-full rounded-lg border border-border bg-secondary px-3 py-2 text-[11px] font-semibold text-foreground transition-colors hover:border-foreground/20 hover:bg-muted focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+              >
+                {expanded ? "가사 접기" : `나머지 ${meaningfulLines.length - 2}줄 펼치기`}
+              </button>
+            )}
+          </>
+        ) : (
+          <p className="text-[12px] text-muted-foreground">가사가 아직 입력되지 않았습니다.</p>
+        )}
+      </div>
+    </section>
+  );
+}
+
 // ── Detail Panel ──────────────────────────────────────────────────────────────
 
 function DetailPanel({ song, onClose }: { song: CheerSong; onClose: () => void }) {
@@ -297,6 +363,12 @@ function DetailPanel({ song, onClose }: { song: CheerSong; onClose: () => void }
   const titleId = `detail-${song.id}-title`;
   const descriptionId = `detail-${song.id}-description`;
   const palette = gradientPalette(song.teamColor, song.teamColorAlt);
+  const storyText = song.descriptionText ?? [song.description, song.usageContext].filter((value, index, values) => value && values.indexOf(value) === index).join("\n\n");
+  const quickFacts = song.quickFacts?.slice(0, 3) ?? [
+    { label: "사용 시작", value: song.yearLabel },
+    { label: "길이", value: fmt(song.duration) },
+    { label: "지역", value: song.region },
+  ];
 
   useEffect(() => {
     const previouslyFocused = document.activeElement as HTMLElement | null;
@@ -344,7 +416,7 @@ function DetailPanel({ song, onClose }: { song: CheerSong; onClose: () => void }
         <div className="relative pr-12">
           <span className="inline-flex items-center gap-1 font-mono text-[9px] uppercase tracking-[0.13em]" style={{ color: palette.subtle }}>
             {song.teamType === "baseball" ? <Trophy size={8} /> : <University size={8} />}
-            {song.teamType === "baseball" ? "야구" : "대학"} · {song.region} · {yearBadge(song)} · {song.status === "verified" ? "검증됨" : "검증 전"}
+            {song.teamType === "baseball" ? "야구" : "대학"} · {song.region} · {yearBadge(song)} · {song.status === "verified" ? "공개" : "편집 중"}
           </span>
           <h2 id={titleId} className="mt-2 text-[22px] font-bold leading-tight tracking-[-0.025em]" style={{ color: palette.text }}>
             {song.title}
@@ -364,38 +436,21 @@ function DetailPanel({ song, onClose }: { song: CheerSong; onClose: () => void }
       <div className="flex-1 space-y-5 overflow-y-auto px-5 py-5 sm:px-6">
         <YouTubePlayer song={song} />
 
-        <section aria-labelledby={`${song.id}-lyrics-title`}>
-          <div className="mb-2.5 flex items-center justify-between gap-3">
-            <p id={`${song.id}-lyrics-title`} className="font-mono text-[9px] uppercase tracking-[0.15em] text-muted-foreground">가사 전체</p>
-            <span className="font-mono text-[9px] tabular-nums text-muted-foreground/70">{song.lyrics.filter((line) => line.trim()).length}줄</span>
-          </div>
-          <div className="rounded-xl border border-border bg-background px-5 py-5 shadow-[0_2px_8px_rgba(32,31,29,0.03)]">
-            {song.lyrics.some((line) => line.trim()) ? (
-              <div className="text-[14px] font-medium leading-[1.9] tracking-[-0.01em] text-foreground">
-                {song.lyrics.map((line, index) => line.trim() ? (
-                  <p key={`${index}-${line}`}>{line}</p>
-                ) : (
-                  <div key={`space-${index}`} className="h-3" aria-hidden="true" />
-                ))}
-              </div>
-            ) : (
-              <p className="text-[12px] text-muted-foreground">검증된 가사를 준비하고 있습니다.</p>
-            )}
-          </div>
-        </section>
+        <LyricsPanel key={song.id} song={song} />
 
         <div className="grid grid-cols-3 gap-2">
-          {[["기준 연도", yearBadge(song)], ["길이", fmt(song.duration)], ["지역", song.region]].map(([k, v]) => (
-            <div key={k} className="rounded-lg bg-secondary px-2 py-3 text-center">
-              <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-muted-foreground">{k}</p>
-              <p className="mt-1 text-[13px] font-semibold text-foreground">{v}</p>
+          {quickFacts.map(({ label, value }, index) => (
+            <div key={`${index}-${label}`} className="rounded-lg bg-secondary px-2 py-3 text-center">
+              <p className="font-mono text-[9px] uppercase tracking-[0.14em] text-muted-foreground">{label || "정보"}</p>
+              <p className="mt-1 text-[13px] font-semibold text-foreground">{value || "—"}</p>
             </div>
           ))}
         </div>
 
-        <p id={descriptionId} className="text-[13px] leading-6 text-muted-foreground">
-          {song.description}
-        </p>
+        <section id={descriptionId} aria-label="이야기">
+          <p className="mb-2 font-mono text-[9px] uppercase tracking-[0.15em] text-muted-foreground">이야기</p>
+          <InlineNotes text={storyText} className="text-[13px] leading-6 text-muted-foreground" />
+        </section>
 
         {song.aliases.length > 0 && (
           <section aria-label="별칭">
@@ -418,22 +473,17 @@ function DetailPanel({ song, onClose }: { song: CheerSong; onClose: () => void }
           <p className="mt-2 text-[11px] leading-relaxed text-muted-foreground">{song.chronologyNote}</p>
         </section>
 
-        <section aria-label="사용 맥락">
-          <p className="mb-1.5 font-mono text-[9px] uppercase tracking-[0.15em] text-muted-foreground">사용 맥락</p>
-          <p className="text-[12px] leading-relaxed text-muted-foreground">{song.usageContext}</p>
-        </section>
-
         {song.status === "draft" && (
           <div className="rounded-lg border border-border bg-secondary px-4 py-3 text-[11px] leading-relaxed text-muted-foreground">
-            아직 검증되지 않은 테스트 데이터입니다. 공개 전 출처와 가사를 확인해 주세요.
+            아직 사용자가 최종 승인하지 않은 편집 데이터입니다.
           </div>
         )}
 
-        {song.sources.length > 0 && (
+        {(song.sources?.length ?? 0) > 0 && (
           <div>
-            <p className="text-[9px] font-mono tracking-widest uppercase text-muted-foreground mb-2">출처</p>
+            <p className="text-[9px] font-mono tracking-widest uppercase text-muted-foreground mb-2">기존 참고 링크</p>
             <div className="space-y-1.5">
-              {song.sources.map((source) => (
+              {song.sources?.map((source) => (
                 <a key={`${source.scope ?? "source"}-${source.url}`} href={source.url} target="_blank" rel="noreferrer" className="flex items-start gap-2 text-xs text-primary hover:underline">
                   {source.scope && (
                     <span className="mt-px shrink-0 rounded bg-secondary px-1.5 py-0.5 font-mono text-[8px] font-semibold text-muted-foreground no-underline">
@@ -471,7 +521,7 @@ function DetailPanel({ song, onClose }: { song: CheerSong; onClose: () => void }
               <p className="font-semibold text-foreground text-sm leading-tight">{orig.title}</p>
               <p className="text-[12px] text-muted-foreground mt-0.5">{orig.artist}</p>
               <p className="text-[10px] font-mono text-muted-foreground/70 mt-1">{originalMetadata(orig)}</p>
-              {orig.sources[0] && (
+              {orig.sources?.[0] && (
                 <a href={orig.sources[0].url} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 text-[9px] font-medium text-primary hover:underline">
                   원곡 출처 <ExternalLink size={8} />
                 </a>

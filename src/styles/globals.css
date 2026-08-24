@@ -1,0 +1,70 @@
+.annotated-text {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.annotated-text p {
+  margin: 0;
+}
+
+.inline-note {
+  position: relative;
+  display: inline-flex;
+  margin-left: 0.12rem;
+  vertical-align: baseline;
+}
+
+.inline-note__marker {
+  display: inline;
+  padding: 0;
+  border: 0;
+  color: var(--primary);
+  background: transparent;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72em;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.inline-note__marker:hover,
+.inline-note__marker:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+.inline-note__popover {
+  position: absolute;
+  z-index: 60;
+  bottom: calc(100% + 0.45rem);
+  left: 0;
+  visibility: hidden;
+  width: min(19rem, calc(100vw - 2rem));
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 0.65rem;
+  opacity: 0;
+  color: var(--foreground);
+  background: var(--popover);
+  box-shadow: 0 12px 32px rgb(32 31 29 / 16%);
+  font-size: 0.72rem;
+  font-weight: 400;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+  transform: translateY(0.25rem);
+  transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease;
+}
+
+.inline-note__popover a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.inline-note:hover .inline-note__popover,
+.inline-note:focus-within .inline-note__popover,
+.inline-note.is-open .inline-note__popover {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}

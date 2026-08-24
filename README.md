@@ -4,7 +4,7 @@
 
 현재 정본에는 사용자가 검수한 응원가 23곡만 포함되어 있습니다. 앞으로도 사용자가 최종 검수·승인한 항목만 사이트에 추가합니다.
 
-응원가 목록, AI 조사, 사용자 작성, 영상 선별과 최종 승인에 관한 다음 운영 방향은 [콘텐츠 수집·편집·배포 운영 규칙](docs/CONTENT_WORKFLOW.md)에 정리되어 있습니다. 이 문서는 확정된 차기 방향이며, 현행 데이터 스키마와 Admin에는 아직 구현되지 않았습니다.
+응원가 목록, AI 조사, 사용자 작성, 영상 선별과 최종 승인에 관한 운영 방향은 [콘텐츠 수집·편집·배포 운영 규칙](docs/CONTENT_WORKFLOW.md)에 정리되어 있습니다. 현재는 목록 관리, 사용자 편집, AI 조사 요청·회수까지 구현되어 있고 최종 배포 데이터 생성은 다음 단계입니다.
 
 ## 로컬 실행
 
@@ -19,6 +19,26 @@ npm run dev
 npm run check
 ```
 
+## 콘텐츠 Admin과 AI 조사
+
+로컬 Admin은 다음 명령으로 실행한 뒤 <http://127.0.0.1:4175>에서 엽니다.
+
+```bash
+node scripts/content-admin-server.mjs
+```
+
+Admin에서는 대학·구단별 목록을 조사 대상, 사용자 보류, AI 추가 발견으로 나누고, 설명 본문과 `[* 주석 또는 URL]`, 가사, 간단 정보 3개, 사용자 선별 영상 5개를 편집할 수 있습니다. 권리 확인 기록은 저장하지 않습니다.
+
+Admin에서 AI 조사를 요청하면 Naru/Codex가 같은 저장소에서 아래 명령으로 작업을 가져와 결과를 돌려줍니다.
+
+```bash
+node scripts/content-workflow-cli.mjs next
+node scripts/content-workflow-cli.mjs submit <job-id> <markdown-file>
+node scripts/content-workflow-cli.mjs status
+```
+
+사용자 편집본과 AI 조사 결과는 `content/editorial/songs/<song-id>/`에 버전 관리되고, 로컬 작업 큐는 Git에 포함되지 않는 `.local/`에 저장됩니다. AI 조사 결과는 사용자 본문을 자동으로 덮어쓰지 않습니다.
+
 ## 데이터 구조
 
 - `data/teams.json`: 구단과 학교
@@ -27,6 +47,8 @@ npm run check
 - `data/media.json`: 응원가에 연결된 YouTube 영상
 - `src/data/catalog.ts`: 정본 데이터를 연결해 UI용 데이터로 변환
 - `scripts/validate-data.mjs`: 필수값, 중복 ID, 연결 관계와 출처 검사
+- `content/editorial/songs/`: 사용자 편집본과 AI 조사 결과
+- `admin/`: 로컬 콘텐츠 편집 화면
 
 현재 필드와 입력 순서는 [data/README.md](data/README.md)를 참고하세요. 차기 편집 데이터와 배포 흐름은 [콘텐츠 수집·편집·배포 운영 규칙](docs/CONTENT_WORKFLOW.md)을 따릅니다.
 

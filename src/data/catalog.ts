@@ -76,16 +76,22 @@ export const YOUTUBE_MEDIA: readonly YouTubeMedia[] = mediaFile.items;
 
 const teamById = new Map(TEAMS.map((team) => [team.id, team]));
 const originalSongById = new Map(ORIGINAL_SONGS.map((song) => [song.id, song]));
-const mediaByCheerSongId = new Map<string, YouTubeMedia>();
+const mediaByCheerSongId = new Map<string, YouTubeMedia[]>();
 
 YOUTUBE_MEDIA.forEach((media) => {
-  const current = mediaByCheerSongId.get(media.cheerSongId);
-  if (!current || media.preferred) mediaByCheerSongId.set(media.cheerSongId, media);
+  const current = mediaByCheerSongId.get(media.cheerSongId) ?? [];
+  current.push(media);
+  mediaByCheerSongId.set(media.cheerSongId, current);
 });
 
 export const CHEER_SONGS: readonly CheerSong[] = cheerSongsFile.items.map((song) => {
   const team = teamById.get(song.teamId)!;
-  const youtubeMedia = mediaByCheerSongId.get(song.id);
+  const youtubeMediaList = [...(mediaByCheerSongId.get(song.id) ?? [])].sort((left, right) => {
+    const leftRank = left.rank ?? (left.preferred ? 1 : Number.MAX_SAFE_INTEGER);
+    const rightRank = right.rank ?? (right.preferred ? 1 : Number.MAX_SAFE_INTEGER);
+    return leftRank - rightRank || left.id.localeCompare(right.id, "en");
+  });
+  const youtubeMedia = youtubeMediaList[0];
   const previewLines = song.lyrics.filter((line) => line.trim() !== "");
 
   return {
@@ -102,6 +108,7 @@ export const CHEER_SONGS: readonly CheerSong[] = cheerSongsFile.items.map((song)
     symbolicLine1: song.symbolicLines[0],
     symbolicLine2: song.symbolicLines[1],
     youtubeMedia,
+    youtubeMediaList,
   };
 });
 
