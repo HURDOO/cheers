@@ -1,4 +1,104 @@
 {
   "schemaVersion": 1,
-  "items": []
+  "items": [
+    {
+      "id": "korea-university",
+      "name": "고려대학교",
+      "abbreviation": "KU",
+      "type": "university",
+      "region": "서울",
+      "colors": {
+        "primary": "#8B0029",
+        "secondary": "#540018"
+      }
+    },
+    {
+      "id": "yonsei-university",
+      "name": "연세대학교",
+      "abbreviation": "YU",
+      "type": "university",
+      "region": "서울",
+      "colors": {
+        "primary": "#003876",
+        "secondary": "#001F4D"
+      }
+    },
+    {
+      "id": "hanyang-university",
+      "name": "한양대학교",
+      "abbreviation": "HYU",
+      "type": "university",
+      "region": "서울",
+      "colors": {
+        "primary": "#0E4A84",
+        "secondary": "#00A5E3"
+      }
+    },
+    {
+      "id": "doosan-bears",
+      "name": "두산 베어스",
+      "abbreviation": "DOO",
+      "type": "baseball",
+      "region": "서울",
+      "colors": {
+        "primary": "#131230",
+        "secondary": "#ED1C24"
+      }
+    },
+    {
+      "id": "lg-twins",
+      "name": "LG 트윈스",
+      "abbreviation": "LG",
+      "type": "baseball",
+      "region": "서울",
+      "colors": {
+        "primary": "#C30452",
+        "secondary": "#241F20"
+      }
+    },
+    {
+      "id": "hanwha-eagles",
+      "name": "한화 이글스",
+      "abbreviation": "HAN",
+      "type": "baseball",
+      "region": "대전",
+      "colors": {
+        "primary": "#F37321",
+        "secondary": "#111111"
+      }
+    },
+    {
+      "id": "kia-tigers",
+      "name": "KIA 타이거즈",
+      "abbreviation": "KIA",
+      "type": "baseball",
+      "region": "광주",
+      "colors": {
+        "primary": "#EA0029",
+        "secondary": "#06141F"
+      }
+    },
+    {
+      "id": "kiwoom-heroes",
+      "name": "키움 히어로즈",
+      "abbreviation": "KIW",
+      "type": "baseball",
+      "region": "서울",
+      "colors": {
+        "primary": "#570514",
+        "secondary": "#B07F4A"
+      }
+    },
+    {
+      "id": "lotte-giants",
+      "name": "롯데 자이언츠",
+      "abbreviation": "LOT",
+      "type": "baseball",
+      "region": "부산",
+      "colors": {
+        "primary": "#041E42",
+        "secondary": "#D00F31"
+      }
+    }
+  ]
 }
