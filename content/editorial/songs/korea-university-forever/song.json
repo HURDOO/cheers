@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-forever",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "Forever",
+    "aliases": [
+      "FOREVER",
+      "포에버",
+      "포레버"
+    ],
+    "symbolicLines": [
+      "우리의 함성은",
+      "신화가 되리라"
+    ],
+    "descriptionText": "한 곡 안에 핀란드 메탈 발라드와 이탈리아 영화음악이 같이 들어 있다. 기본 선율은 Stratovarius가 1996년 앨범 ‘Episode’에 실은 ‘Forever’이고, 간주에는 영화 ‘Cinema Paradiso’의 ‘Love Theme’를 결합했다.[* Stratovarius 공식 디스코그래피: https://stratovarius.com/portfolio-items/episode/][* 두 원곡을 명시한 고려대 응원단 공식 OT: https://www.youtube.com/watch?v=GxSU75-9n4M]\n\n고려대판은 2007년에 등장했다. 사용자가 지정한 2026 입실렌티 영상에서도 시작 직후 화면에 ‘Since 2007’이 표시된다. 같은 해 등장한 ‘들어라 보아라 그리고 기억하라’와 함께 2000년대 후반 고려대 대표곡 층을 만들었다.[* 2026 입실렌티 2:34: https://www.youtube.com/watch?v=C8jjjhSHK18&t=154s]\n\n가사는 짧고 후렴을 반복하지만 선율이 워낙 크게 상승해 수만 명의 떼창을 만들기 좋다. 민족의 아리아와 함께 인기 응원가의 양대 축으로 취급되며, 합동응원전이나 입실렌티 후반부에 두 곡이 연이어 배치되는 경우도 많다.\n\n관중은 어깨를 걸고 좌우로 움직이다가 후렴에서 점프한다. 야간에는 휴대전화 조명을 켜고 흔드는 연출까지 붙어, 단순한 반복 가사가 빛과 몸동작을 포함한 집단 퍼포먼스로 커진다.\n\n중간의 ‘Cinema Paradiso’ 간주는 빠르게 달리던 응원을 잠시 서정적으로 가라앉힌다. 한 곡 안에서 메탈 발라드와 영화음악이 교대하기 때문에, 처음 듣는 사람은 서로 다른 두 노래를 이어 붙였다고 느끼기도 한다. 실제로 공식 응원단도 원곡을 두 개로 안내한다.\n\n오늘날 널리 들리는 ‘에버’ 추임새가 처음부터 있던 요소는 아니라는 이야기도 있다. 후대에 더해졌고 도입 초기에는 호불호가 있었다고 전해지지만, 언제 누가 넣었는지 보여 주는 공식 기록은 아직 없다. 오래된 영상과 현재 영상을 비교해 볼 만한 포인트다.\n\n초청 가수도 자주 부른다. 에이핑크는 2013년 공연 전례가 알려져 있고, 2024년 석탑대동제에서도 다시 라이브로 불렀다. 정은지의 높은 음역과 관중 합창이 맞물린 장면이 특히 좋은 반응을 얻었다.[* KUTV 2024 에이핑크 공연: https://www.youtube.com/watch?v=5G8MgU63K5A]\n\n신입생 응원 OT에서는 동작을 배우는 입문곡이고, 입실렌티에서는 판쓸이 응원의 시작이나 마무리를 맡는 피날레곡이다. 2018년 영상은 3부 판쓸이 응원의 시작을 이 곡으로 여는 장면을 남겼다.[* 2018 입실렌티 판쓸이 응원: https://www.youtube.com/watch?v=l1AgotJWBCw]\n\n합동응원전에서도 막바지 카드로 쓰인다. 2025년 고대신문 보도는 행사 끝부분에 Forever와 민족의 아리아가 배치됐다고 기록한다. 짧은 가사라 상대 학교 학생이나 처음 온 관객도 끝날 무렵에는 자연스럽게 따라 부를 수 있다.[* 2025 상반기 합동응원전 보도: https://www.kunews.ac.kr/news/articleView.html?idxno=43692]\n\n표기는 `Forever`, `FOREVER`, ‘포에버’, ‘포레버’가 모두 통한다. 2026 입실렌티에서도 현재 사용이 확인되며, 노래 제목 하나가 학교의 영속성을 그대로 말해 주기 때문에 별도의 설명 없이도 마지막 곡처럼 느껴지는 응원가다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2007"
+      },
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      }
+    ],
+    "videos": [
+      {
+        "rank": 1,
+        "role": "official-or-lyrics",
+        "sourceUrl": "https://www.youtube.com/watch?v=GxSU75-9n4M",
+        "videoId": "GxSU75-9n4M",
+        "title": "Forever | 고려대학교 응원단 온라인 응원 OT",
+        "channelName": "고려대학교 응원단",
+        "attributionText": ""
+      }
+    ],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "stratovarius-forever"
+      }
+    ],
+    "legacy": {
+      "year": 2007,
+      "timelineYear": 2007,
+      "yearStatus": "confirmed",
+      "yearLabel": "since 2007",
+      "originType": "adaptation",
+      "originNote": "Stratovarius의 ‘Forever’를 바탕으로 하며 간주에는 영화 ‘Cinema Paradiso’의 Love Theme가 쓰인다.",
+      "chronologyNote": "사용자가 지정한 2026 입실렌티 영상의 곡 시작 화면에 ‘Since 2007’이 표시된다."
+    },
+    "revision": 1,
+    "createdAt": null,
+    "updatedAt": "2026-08-26T05:18:30.127Z"
+  }
+}

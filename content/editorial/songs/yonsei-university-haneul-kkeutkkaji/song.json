@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "yonsei-university-haneul-kkeutkkaji",
+    "organizationId": "yonsei-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "하늘끝까지",
+    "aliases": [
+      "하늘 끝까지",
+      "하늘끝"
+    ],
+    "symbolicLines": [
+      "승리를 향해 외쳐랴",
+      "하늘 끝까지"
+    ],
+    "descriptionText": "영화 ‘클래식’의 애절한 OST가 13년 뒤 독수리와 승리를 외치는 응원가가 됐다. 원곡은 한성민의 ‘사랑하면 할수록’이며, 서정적인 후렴을 선창과 대규모 응답이 두드러지는 현대 대표곡으로 바꿨다.[* 영화 ‘클래식’ OST 정보: https://music.bugs.co.kr/album/29611]\n\n첫 공개는 2016년 5월 21일 아카라카였다. 행사 직후 올라온 영상 제목부터 ‘신곡_하늘끝까지’라고 적혀 있고, 후대의 전체 영상 설명도 해당 구간을 신곡 첫 공개로 명시한다.[* 2016년 당일 신곡 영상: https://www.youtube.com/watch?v=QRn673QHZbg][* 2016 아카라카 전체 기록 10:05: https://www.youtube.com/watch?v=Zqtk3gIPuKU&t=605s]\n\n제작자 회고도 비교적 구체적이다. 당시 부단장이던 임현택 동문은 단장과 함께 가사와 응원 동작을 만들었다고 밝혔다. 오래 쓰일 수 있는 곡을 목표로 여러 요소를 다듬었다고 회고하지만, 함께한 당시 단장의 이름과 녹음 제작진은 기사에서 확인되지 않는다.[* 임현택 동문 연세춘추 인터뷰: https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=31561]\n\n경영학과 임강우가 원곡 선율을 추천했다는 옛 기록도 있다. 제작자 인터뷰와 연결하면 곡 추천, 가사·동작 제작, 실제 녹음이 여러 사람에게 나뉘었을 가능성이 있지만 개인별 역할을 확정할 자료는 아직 부족하다.\n\n선창 뒤 관중이 넓은 음역의 후렴을 받아 부르고, 팔을 크게 펼치는 동작과 어깨동무가 장중한 선율을 시각화한다. 아카라카와 합동응원 후반부에서 분위기를 끌어올리기에 좋고, 신입생 OT에서는 구호와 동작을 따로 배운다.\n\n같은 원곡을 한화 이글스의 ‘사랑한다 이글스’가 2015년에 먼저 사용했다. 연세대판은 2016년 후발이고 합창 구조도 닮아 한화판의 영향을 받았다는 설명이 유력하다. 다만 임현택의 제작 회고에는 한화를 참고했다는 말이 없어 직접적인 제작 경로는 아직 확정할 수 없다.\n\n첫 공개 영상 댓글부터 ‘한화 응원가와 같다’는 지적이 등장했다. 즉 후대 인터넷 정리자가 만든 비교가 아니라, 신곡이 나온 바로 그 시점부터 원곡 공유와 영향 관계가 팬들에게 인식됐다는 점이 재미있다.\n\n2024년에는 고려대 교육TV방송국과 협업해 고려대 ‘Forever’와 이 곡을 합친 `하늘 끝까지 FOREVER` 리믹스가 제작됐다. 양교 밴드 보컬이 참여해 라이벌 학교 응원가를 대결시키는 대신 한 곡 안에서 전환시켰다.[* 연세대×고려대 응원가 리믹스: https://www.youtube.com/watch?v=i0xQzFzU9V8]\n\n2022년 현장 영상 댓글에는 드라마 ‘치얼업’을 보고 실제 응원가와 동작을 찾아왔다는 반응이 다수 보인다. 대학 응원문화를 소재로 한 드라마가 실제 학교의 응원가를 다시 외부 관객에게 유통한 셈이다.[* 2022 아카라카 현장: https://www.youtube.com/watch?v=VDBqyV-0WPs]\n\n2026 신입생 OT와 아카라카에서 모두 사용돼 현재성을 확인할 수 있다. 원곡은 사랑의 상실을 노래하지만 연세대판은 승리를 향해 목소리를 ‘하늘 끝까지’ 올리는 곡이 됐다.[* 2026 신입생 OT 7:07: https://www.youtube.com/watch?v=wlcxZc5APPE&t=427s][* 2026 아카라카 18:30: https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1110s]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2016"
+      },
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      }
+    ],
+    "videos": [
+      {
+        "rank": 1,
+        "role": "official-or-lyrics",
+        "sourceUrl": "https://www.youtube.com/watch?v=-UYGsQLVJgc",
+        "videoId": "-UYGsQLVJgc",
+        "title": "하늘끝까지",
+        "channelName": "아카라카TV [연세대학교 응원단]",
+        "attributionText": ""
+      }
+    ],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "han-sung-min-saranghamyeon-halssurok"
+      }
+    ],
+    "legacy": {
+      "year": 2016,
+      "timelineYear": 2016,
+      "yearStatus": "confirmed",
+      "yearLabel": "since 2016",
+      "originType": "adaptation",
+      "originNote": "한성민의 ‘사랑하면 할수록’을 원곡으로 한다. 먼저 사용된 한화 이글스 ‘사랑한다 이글스’의 영향을 받은 관계로 보되, 공개 제작자 자료에서 직접 언급되지 않아 유력한 영향으로 표시한다.",
+      "chronologyNote": "임현택 동문의 제작 회고와 2016년 5월 21일 아카라카의 ‘신곡 첫 공개’ 영상이 일치한다."
+    },
+    "revision": 1,
+    "createdAt": null,
+    "updatedAt": "2026-08-26T05:28:32.189Z"
+  }
+}
