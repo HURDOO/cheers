@@ -23,9 +23,18 @@ try {
     }
   } else if (command === "submit") {
     const [jobId, resultPath] = args;
-    if (!jobId || !resultPath) throw new EditorialError("USAGE", "사용법: content-workflow-cli.mjs submit <job-id> <markdown-file>");
+    if (!jobId || !resultPath) throw new EditorialError("USAGE", "사용법: content-workflow-cli.mjs submit <job-id> <result-json-file>");
     const absoluteResultPath = path.resolve(resultPath);
-    const result = await jobStore.submitResearch(jobId, await readFile(absoluteResultPath, "utf8"));
+    let payload;
+    try {
+      payload = JSON.parse(await readFile(absoluteResultPath, "utf8"));
+    } catch (error) {
+      if (error instanceof SyntaxError) {
+        throw new EditorialError("INVALID_RESULT_JSON", "AI 결과 파일이 올바른 JSON이 아닙니다.");
+      }
+      throw error;
+    }
+    const result = await jobStore.submitEnrichment(jobId, payload);
     console.log(JSON.stringify(result, null, 2));
     if (result.stale) process.exitCode = 3;
   } else if (command === "status") {
@@ -35,7 +44,7 @@ try {
       "응원가 콘텐츠 작업 CLI",
       "",
       "  node scripts/content-workflow-cli.mjs next",
-      "  node scripts/content-workflow-cli.mjs submit <job-id> <markdown-file>",
+      "  node scripts/content-workflow-cli.mjs submit <job-id> <result-json-file>",
       "  node scripts/content-workflow-cli.mjs status",
     ].join("\n"));
   }

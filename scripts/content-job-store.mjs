@@ -3,7 +3,7 @@ import { mkdir, open, readFile, rename, unlink, writeFile } from "node:fs/promis
 import path from "node:path";
 import { EditorialError } from "./content-editorial-store.mjs";
 
-const POLICY_VERSION = "2026-08-25";
+const POLICY_VERSION = "2026-08-25-loop-v2";
 const ACTIVE_STATUSES = new Set(["queued", "running"]);
 const SAFE_JOB_ID = /^[a-z0-9-]+$/u;
 
@@ -29,7 +29,7 @@ export class ContentJobStore {
     return (await this.#readQueue()).items;
   }
 
-  async createResearchJob(songId, expectedRevision) {
+  async createEnrichmentJob(songId, expectedRevision) {
     const song = await this.editorialStore.getSong(songId);
     if (!Number.isInteger(expectedRevision) || song.revision !== expectedRevision) {
       throw new EditorialError("REVISION_CONFLICT", "곡이 변경되었습니다. 새로고침한 뒤 다시 요청해 주세요.", 409);
@@ -37,15 +37,13 @@ export class ContentJobStore {
 
     return this.#withLock(async () => {
       const queue = await this.#readQueue();
-      const existing = queue.items.find((job) => (
-        job.type === "research_song" && job.songId === songId && ACTIVE_STATUSES.has(job.status)
-      ));
+      const existing = queue.items.find((job) => job.songId === songId && ACTIVE_STATUSES.has(job.status));
       if (existing) return { job: existing, created: false };
 
       const now = new Date().toISOString();
       const job = {
-        id: `research-${songId}-${Date.now().toString(36)}-${randomBytes(3).toString("hex")}`,
-        type: "research_song",
+        id: `enrich-${songId}-${Date.now().toString(36)}-${randomBytes(3).toString("hex")}`,
+        type: "enrich_song",
         songId,
         songTitle: song.title,
         organizationId: song.organizationId,
@@ -62,6 +60,10 @@ export class ContentJobStore {
       await this.#writeQueue(queue);
       return { job, created: true };
     });
+  }
+
+  async createResearchJob(songId, expectedRevision) {
+    return this.createEnrichmentJob(songId, expectedRevision);
   }
 
   async claimNext() {
@@ -86,24 +88,26 @@ export class ContentJobStore {
         return {
           job,
           song,
+          previousResearchText: await this.editorialStore.readResearch(job.songId),
           instructions: [
-            "완성된 소개문을 쓰지 말고 사용자가 참고할 조사 메모를 작성한다.",
-            "TMI 후보는 2~4개를 목표로 하되 흥미를 우선하고 수량을 억지로 채우지 않는다.",
-            "출처는 선택 사항이다. 찾은 URL은 후보 아래 평문으로 적고, 없으면 '별도 출처 없음'이라고 적을 수 있다.",
-            "상충하는 설명은 Claim/Evidence 구조로 만들지 말고 서로 다른 내용을 평문으로 함께 적는다.",
+            "수집·작성·자체 검토를 직렬 단계로 나누지 말고, 조사 중 원고를 쓰고 원고의 빈틈을 다시 조사하는 식으로 반복한다.",
+            "현재 descriptionText를 반드시 먼저 읽고, 가치 있는 사용자 문장은 보존하면서 부족한 맥락과 TMI를 보완한다.",
+            "흥미로운 소재 약 10개를 목표로 폭넓게 찾되 자료가 적거나 많으면 억지로 수량을 맞추지 않는다.",
+            "결과는 사실 목록이 아니라 나무위키처럼 편하게 읽히는 공개용 본문으로 완성한다. 뻔한 대표곡 소개보다 의외성 있는 이야기부터 쓴다.",
+            "카더라·구전·상충하는 설도 흥미가 있으면 포함할 수 있다. 단정하지 말고 '~라고 전해진다', '~라는 이야기가 있다'처럼 자연스럽게 범위를 드러낸다.",
+            "출처는 선택 사항이며 본문 흐름을 끊지 않도록 필요한 문장 뒤에 [* 주석 내용: URL] 형식으로 넣는다.",
+            "각 문단은 한 가지 이야기에 집중하고, 중복·AI식 총평·근거 없는 인과관계·과도한 수식은 자체 검토에서 걷어낸다.",
             "추가 응원가를 발견하면 '## 추가 발견곡' 아래에 제목과 발견 경로를 적는다.",
-            "사용자 원고, 영상 순서와 승인 상태는 수정하지 않는다.",
+            "영상 순서, 가사, 간단 정보, 관계 데이터는 수정하지 않는다. 공개 본문 descriptionText와 AI 작업 기록 researchText만 제출한다.",
+            "제출된 공개 본문은 사용자 검수 대상이며 작업 라벨은 자동으로 '수집 완료'가 된다. 최종 승인은 사용자가 한다.",
           ],
-          suggestedFormat: [
-            "# 조사 메모 — 응원가 제목",
-            "## TMI 후보",
-            "- 흥미로운 이야기",
-            "  - 참고: https://example.com 또는 별도 출처 없음",
-            "## 서로 다른 설명",
-            "- 필요한 경우에만 작성",
-            "## 추가 발견곡",
-            "- 필요한 경우에만 작성",
-          ].join("\n"),
+          outputFormat: {
+            fileType: "json",
+            fields: {
+              descriptionText: "사용자 기존 글을 반영해 완성한 공개용 전체 본문. 부분 패치가 아니라 전체 문자열.",
+              researchText: "사용자 검수용 작업 기록. 새로 확인한 핵심, 불확실한 부분, 추가 발견곡을 간결한 Markdown으로 정리.",
+            },
+          },
         };
       }
 
@@ -115,13 +119,11 @@ export class ContentJobStore {
     });
   }
 
-  async submitResearch(jobId, resultText) {
+  async submitEnrichment(jobId, result) {
     if (!SAFE_JOB_ID.test(String(jobId ?? ""))) {
       throw new EditorialError("INVALID_JOB_ID", "작업 ID가 올바르지 않습니다.");
     }
-    const text = String(resultText ?? "").replace(/\r\n/gu, "\n").trim();
-    if (!text) throw new EditorialError("EMPTY_RESULT", "조사 결과가 비어 있습니다.");
-    if (text.length > 150_000) throw new EditorialError("RESULT_TOO_LARGE", "조사 결과가 너무 깁니다.", 413);
+    const normalized = normalizeEnrichmentResult(result);
 
     return this.#withLock(async () => {
       const queue = await this.#readQueue();
@@ -133,8 +135,8 @@ export class ContentJobStore {
 
       const song = await this.editorialStore.getSong(job.songId);
       if (song.revision !== job.inputRevision) {
-        const stalePath = path.join(this.resultsDirectory, `${job.id}.md`);
-        await this.#writeTextAtomic(stalePath, `${text}\n`);
+        const stalePath = path.join(this.resultsDirectory, `${job.id}.json`);
+        await this.#writeTextAtomic(stalePath, `${JSON.stringify(normalized, null, 2)}\n`);
         job.status = "stale";
         job.completedAt = new Date().toISOString();
         job.staleResultPath = path.relative(this.projectRoot, stalePath);
@@ -144,17 +146,11 @@ export class ContentJobStore {
       }
 
       const updatedSong = await this.editorialStore.saveSong(job.songId, {
-        title: song.title,
-        aliases: song.aliases,
-        scopeStatus: song.scopeStatus,
         workflowStage: "research_ready",
-        descriptionText: song.descriptionText,
-        lyrics: song.lyrics,
-        quickFacts: song.quickFacts,
-        videos: song.videos,
+        descriptionText: normalized.descriptionText,
       }, song.revision);
       const researchPath = path.join(this.projectRoot, "content", "editorial", "songs", job.songId, "research.md");
-      await this.#writeTextAtomic(researchPath, `${text}\n`);
+      await this.#writeTextAtomic(researchPath, `${normalized.researchText}\n`);
 
       job.status = "completed";
       job.completedAt = new Date().toISOString();
@@ -163,6 +159,10 @@ export class ContentJobStore {
       await this.#writeQueue(queue);
       return { job, stale: false, song: updatedSong, researchPath: path.relative(this.projectRoot, researchPath) };
     });
+  }
+
+  async submitResearch(jobId, result) {
+    return this.submitEnrichment(jobId, result);
   }
 
   async #readQueue() {
@@ -209,4 +209,18 @@ export class ContentJobStore {
       await unlink(this.lockPath).catch(() => {});
     }
   }
+}
+
+function normalizeEnrichmentResult(result) {
+  if (!result || typeof result !== "object" || Array.isArray(result)) {
+    throw new EditorialError("INVALID_RESULT_FORMAT", "AI 결과는 descriptionText와 researchText가 있는 JSON 객체여야 합니다.");
+  }
+  const descriptionText = String(result.descriptionText ?? "").replace(/\r\n/gu, "\n").trim();
+  const researchText = String(result.researchText ?? "").replace(/\r\n/gu, "\n").trim();
+  if (!descriptionText) throw new EditorialError("EMPTY_DESCRIPTION", "AI가 작성한 공개 본문이 비어 있습니다.");
+  if (!researchText) throw new EditorialError("EMPTY_RESEARCH_LOG", "AI 작업 기록이 비어 있습니다.");
+  if (descriptionText.length > 60_000 || researchText.length > 150_000) {
+    throw new EditorialError("RESULT_TOO_LARGE", "AI 결과가 너무 깁니다.", 413);
+  }
+  return { descriptionText, researchText };
 }

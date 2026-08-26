@@ -1,10 +1,13 @@
 import { createServer } from "node:http";
-import { readFile } from "node:fs/promises";
+import { createReadStream } from "node:fs";
+import { readFile, stat } from "node:fs/promises";
 import { networkInterfaces } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { EditorialError, EditorialStore } from "./content-editorial-store.mjs";
 import { ContentJobStore } from "./content-job-store.mjs";
+import { ReelStore, validateReel } from "./reel-store.mjs";
+import { detectReelTools, renderReel } from "./reel-renderer.mjs";
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = process.env.CONTENT_PROJECT_ROOT
@@ -17,6 +20,8 @@ const parsedPort = Number.parseInt(process.env.CONTENT_ADMIN_PORT ?? "4175", 10)
 const port = Number.isInteger(parsedPort) && parsedPort > 0 ? parsedPort : 4175;
 const store = new EditorialStore(projectRoot);
 const jobStore = new ContentJobStore(projectRoot, store);
+const reelStore = new ReelStore(projectRoot);
+const activeReelRenders = new Map();
 let mutationInProgress = false;
 
 const staticFiles = new Map([
@@ -41,11 +46,54 @@ function securityHeaders(contentType) {
       "style-src 'self'",
       "img-src 'self' data: https://i.ytimg.com",
       "frame-src https://www.youtube-nocookie.com",
+      "media-src 'self' blob:",
       "connect-src 'self'",
       "base-uri 'none'",
       "form-action 'self'",
     ].join("; "),
   };
+}
+
+async function sendVideo(request, response, filePath) {
+  let fileStats;
+  try {
+    fileStats = await stat(filePath);
+  } catch (error) {
+    if (error?.code === "ENOENT") return sendJson(response, 404, { error: "아직 렌더링된 영상이 없습니다." });
+    throw error;
+  }
+  const range = request.headers.range?.match(/^bytes=(\d*)-(\d*)$/u);
+  if (!range) {
+    response.writeHead(200, {
+      ...securityHeaders("video/mp4"),
+      "Accept-Ranges": "bytes",
+      "Content-Length": fileStats.size,
+    });
+    return createReadStream(filePath).pipe(response);
+  }
+  const start = range[1] ? Number.parseInt(range[1], 10) : 0;
+  const end = range[2] ? Math.min(Number.parseInt(range[2], 10), fileStats.size - 1) : fileStats.size - 1;
+  if (!Number.isInteger(start) || !Number.isInteger(end) || start < 0 || end < start || start >= fileStats.size) {
+    response.writeHead(416, { "Content-Range": `bytes */${fileStats.size}` });
+    return response.end();
+  }
+  response.writeHead(206, {
+    ...securityHeaders("video/mp4"),
+    "Accept-Ranges": "bytes",
+    "Content-Length": end - start + 1,
+    "Content-Range": `bytes ${start}-${end}/${fileStats.size}`,
+  });
+  return createReadStream(filePath, { start, end }).pipe(response);
+}
+
+function startReelRender(reelId) {
+  const existing = activeReelRenders.get(reelId);
+  if (existing) return false;
+  const task = renderReel(projectRoot, reelId)
+    .catch((error) => console.error(`릴스 렌더 실패 (${reelId})`, error))
+    .finally(() => activeReelRenders.delete(reelId));
+  activeReelRenders.set(reelId, task);
+  return true;
 }
 
 function sendJson(response, status, payload) {
@@ -114,17 +162,34 @@ async function withMutation(operation) {
   }
 }
 
+async function validateSongBatch(items) {
+  if (!Array.isArray(items) || items.length === 0) {
+    throw new EditorialError("EMPTY_SONG_BATCH", "일괄 작업할 응원가를 한 곡 이상 선택해 주세요.");
+  }
+  if (items.length > 200) throw new EditorialError("SONG_BATCH_TOO_LARGE", "한 번에 최대 200곡까지 처리할 수 있습니다.", 413);
+  const ids = items.map(({ id }) => String(id ?? ""));
+  if (new Set(ids).size !== ids.length) throw new EditorialError("DUPLICATE_SONG_BATCH", "일괄 작업 목록에 같은 응원가가 중복되었습니다.");
+  const songs = await Promise.all(items.map(async (item) => {
+    const song = await store.getSong(item.id);
+    if (!Number.isInteger(item.expectedRevision) || song.revision !== item.expectedRevision) {
+      throw new EditorialError("REVISION_CONFLICT", `${song.title}이 변경되었습니다. 새로고침한 뒤 다시 시도해 주세요.`, 409);
+    }
+    return song;
+  }));
+  return songs;
+}
+
 async function handleApi(request, response, url) {
   if (url.pathname === "/api/health" && request.method === "GET") {
     return sendJson(response, 200, { ok: true });
   }
   if (url.pathname === "/api/state" && request.method === "GET") {
-    const [editorialState, jobs] = await Promise.all([store.state(), jobStore.list()]);
+    const [editorialState, jobs, reels] = await Promise.all([store.state(), jobStore.list(), reelStore.list()]);
     const songs = await Promise.all(editorialState.songs.map(async (song) => ({
       ...song,
       researchText: await store.readResearch(song.id),
     })));
-    return sendJson(response, 200, { ...editorialState, songs, jobs });
+    return sendJson(response, 200, { ...editorialState, songs, jobs, reels, reelTools: detectReelTools() });
   }
   if (url.pathname === "/api/import" && request.method === "POST") {
     const body = await readRequestJson(request);
@@ -162,20 +227,91 @@ async function handleApi(request, response, url) {
     return sendJson(response, 201, { song });
   }
 
+  if (url.pathname === "/api/songs/bulk" && request.method === "PUT") {
+    const body = await readRequestJson(request);
+    const patch = body.patch ?? {};
+    const patchKeys = Object.keys(patch);
+    if (patchKeys.length !== 1 || !["workflowStage", "scopeStatus"].includes(patchKeys[0])) {
+      throw new EditorialError("INVALID_SONG_BULK_PATCH", "일괄 변경은 작업 라벨 또는 조사 범위 한 항목씩만 지원합니다.");
+    }
+    const songs = await withMutation(async () => {
+      await validateSongBatch(body.items);
+      const updated = [];
+      for (const item of body.items) updated.push(await store.saveSong(item.id, patch, item.expectedRevision));
+      return updated;
+    });
+    return sendJson(response, 200, { songs });
+  }
+
+  if (url.pathname === "/api/songs/bulk" && request.method === "POST" && url.searchParams.get("action") === "request-enrichment") {
+    const body = await readRequestJson(request);
+    const results = await withMutation(async () => {
+      await validateSongBatch(body.items);
+      const created = [];
+      const existing = [];
+      for (const item of body.items) {
+        const result = await jobStore.createEnrichmentJob(item.id, item.expectedRevision);
+        (result.created ? created : existing).push(result.job);
+      }
+      return { created, existing };
+    });
+    return sendJson(response, results.created.length > 0 ? 201 : 200, results);
+  }
+
   const songMatch = url.pathname.match(/^\/api\/songs\/([a-z0-9-]+)$/u);
   if (songMatch && request.method === "PUT") {
     const body = await readRequestJson(request);
     const result = await withMutation(() => store.saveSong(songMatch[1], body.song, body.expectedRevision));
     return sendJson(response, 200, { song: result });
   }
-  if (songMatch && request.method === "POST" && url.searchParams.get("action") === "request-research") {
+  if (songMatch && request.method === "POST" && ["request-enrichment", "request-research"].includes(url.searchParams.get("action"))) {
     const body = await readRequestJson(request);
-    const result = await withMutation(() => jobStore.createResearchJob(songMatch[1], body.expectedRevision));
+    const result = await withMutation(() => jobStore.createEnrichmentJob(songMatch[1], body.expectedRevision));
     return sendJson(response, result.created ? 201 : 200, result);
   }
   if (songMatch && request.method === "DELETE") {
     const body = await readRequestJson(request);
     const result = await withMutation(() => store.deleteSong(songMatch[1], body.expectedRevision));
+    return sendJson(response, 200, result);
+  }
+
+  if (url.pathname === "/api/reels" && request.method === "POST") {
+    const body = await readRequestJson(request);
+    const reel = await withMutation(() => reelStore.create(body.reel));
+    return sendJson(response, 201, { reel });
+  }
+
+  const reelOutputMatch = url.pathname.match(/^\/api\/reels\/([a-z0-9-]+)\/output$/u);
+  if (reelOutputMatch && request.method === "GET") {
+    await reelStore.get(reelOutputMatch[1]);
+    return sendVideo(request, response, reelStore.outputPath(reelOutputMatch[1]));
+  }
+
+  const reelMatch = url.pathname.match(/^\/api\/reels\/([a-z0-9-]+)$/u);
+  if (reelMatch && request.method === "PUT") {
+    const body = await readRequestJson(request);
+    const reel = await withMutation(() => reelStore.save(reelMatch[1], body.reel, body.expectedRevision));
+    return sendJson(response, 200, { reel });
+  }
+  if (reelMatch && request.method === "POST" && url.searchParams.get("action") === "render") {
+    const body = await readRequestJson(request);
+    const reel = await reelStore.get(reelMatch[1]);
+    if (reel.revision !== body.expectedRevision) {
+      throw new EditorialError("REVISION_CONFLICT", "릴스 프로젝트가 변경되었습니다. 새로고침한 뒤 다시 시도해 주세요.", 409);
+    }
+    if (!detectReelTools().ready) {
+      throw new EditorialError("REEL_TOOLS_MISSING", "영상 렌더링에는 ffmpeg와 yt-dlp 설치가 필요합니다.", 503);
+    }
+    validateReel(reel, { requireRenderable: true });
+    if (!activeReelRenders.has(reel.id)) {
+      await reelStore.writeRenderStatus(reel.id, { status: "queued", progress: 0, phase: "렌더 대기", error: null, outputReady: false });
+    }
+    const started = startReelRender(reel.id);
+    return sendJson(response, started ? 202 : 200, { started, render: await reelStore.readRenderStatus(reel.id) });
+  }
+  if (reelMatch && request.method === "DELETE") {
+    const body = await readRequestJson(request);
+    const result = await withMutation(() => reelStore.delete(reelMatch[1], body.expectedRevision));
     return sendJson(response, 200, result);
   }
 
@@ -206,7 +342,7 @@ async function handleRequest(request, response) {
   }
 }
 
-await Promise.all([store.initialize(), jobStore.initialize()]);
+await Promise.all([store.initialize(), jobStore.initialize(), reelStore.initialize()]);
 const server = createServer(handleRequest);
 server.listen(port, host, () => {
   console.log("응원가 콘텐츠 Admin");

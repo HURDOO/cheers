@@ -7,6 +7,7 @@ const DISCOVERED_BY = new Set(["user", "ai"]);
 const SCOPE_STATUSES = new Set(["target", "deferred", "discovered_pending", "rejected"]);
 const WORKFLOW_STAGES = new Set([
   "listed",
+  "needs_work",
   "researching",
   "research_ready",
   "editing",
@@ -284,10 +285,6 @@ export class EditorialStore {
     assertRevision(current, expectedRevision);
 
     const fields = normalizeSongInput(input, current);
-    if (["listed", "research_ready", "published"].includes(current.workflowStage)
-      && fields.workflowStage === current.workflowStage) {
-      fields.workflowStage = "editing";
-    }
     ensureOrganizationExists(state.organizations, fields.organizationId);
     ensureUniqueSong(state.songs, fields, id);
     const updated = {

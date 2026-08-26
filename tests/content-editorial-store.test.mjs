@@ -105,7 +105,7 @@ test("사용자 대상·보류와 AI 발견곡을 서로 다른 범위로 가져
   );
 });
 
-test("출처와 권리 확인 필드 없이 자유 본문과 영상 공개 문구를 저장한다", async () => {
+test("작업 라벨을 강제 전환하지 않고 자유 본문과 영상 공개 문구를 저장한다", async () => {
   const { store } = await fixture();
   const current = await store.getSong("approved-song");
   const saved = await store.saveSong("approved-song", {
@@ -126,10 +126,13 @@ test("출처와 권리 확인 필드 없이 자유 본문과 영상 공개 문�
   }, 0);
 
   assert.equal(saved.revision, 1);
-  assert.equal(saved.workflowStage, "editing");
+  assert.equal(saved.workflowStage, "published");
   assert.equal(saved.descriptionText.includes("출처 없는"), true);
   assert.equal("rights" in saved.videos[0], false);
   assert.equal("permission" in saved.videos[0], false);
+
+  const relabeled = await store.saveSong("approved-song", { workflowStage: "needs_work" }, saved.revision);
+  assert.equal(relabeled.workflowStage, "needs_work");
 });
 
 test("오래된 revision으로 저장하면 덮어쓰지 않는다", async () => {
