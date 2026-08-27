@@ -31,6 +31,15 @@ export default defineConfig({
     },
   },
 
+  build: {
+    rollupOptions: {
+      input: {
+        archive: path.resolve(__dirname, 'index.html'),
+        'gilgeonneo-friends': path.resolve(__dirname, 'events/gilgeonneo-friends/index.html'),
+      },
+    },
+  },
+
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
 })
