@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-yonsei-university-d",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-yonsei-sinchon",
+    "name": "연세대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사, 영상 설명 전문과 댓글 원문은 저장하지 않는다. 가사는 합법적으로 열람 가능한 출처 URL, 권리 상태, 반복 구조와 주제만 요약한다. 공개 댓글은 작성자 식별정보를 제외하고 도입 이력·현장 사용·수용을 확인하는 데 필요한 반응만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "yonsei-university-blue-yonsei",
+      "title": "푸른 연세",
+      "aliases": ["푸른연세"],
+      "currentStatus": "current-directly-verified-at-2026-freshman-cheer-ot",
+      "summary": "사토 나오키가 작곡한 2003년 일본 TBS 드라마 `GOOD LUCK!!` OST의 `Departure`를 바탕으로 만든 2025년 연세대학교 신곡이다. 나무위키는 2025년 9월 1일 응원단 Instagram 최초 공개와 원곡 1분 1초 이후 구간 사용을 기록하고, 9월 12일 양교 합동응원과 9월 20일 정기 연고전 영상이 신곡 실연을 직접 확인한다. 짧은 네 개 합창 블록과 다섯 번 박수 응답을 두 차례 묶는 구조이며, 2026 신입생 응원 OT에서도 첫 곡으로 사용됐다. 영상 제목에는 붙여 쓴 `푸른연세`도 많지만 문서 표제와 곡별 영상 표기를 따라 띄어 쓴 형태를 대표 제목으로 둔다.",
+      "claims": [
+        {
+          "field": "officialTitleAndAlias",
+          "value": "대표 제목 `푸른 연세`; 영상·해시태그의 `푸른연세`는 붙여쓰기 별칭",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-d-namu-2020s", "yt-yu-d-blue-2025-duel", "yt-yu-d-blue-2025-rivalry", "yt-yu-d-blue-2026-ot"],
+          "notes": "띄어쓰기 차이만 있는 같은 곡이다. 합동응원·연고전·신입생 OT의 곡별 타임라인으로 확인했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2025년 신곡; 2025-09-01 응원단 Instagram 최초 공개로 보고됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-d-namu-2020s", "yt-yu-d-blue-2025-joint", "yt-yu-d-blue-2025-joint-long", "yt-yu-d-blue-2025-closing"],
+          "notes": "현재 직접 보존한 가장 이른 실연 표본은 9월 12일 합동응원이다. 9월 1일 Instagram 게시물은 나무위키의 링크·서술을 통해 확인한 2차 주장이라 원문 게시물 보존 전까지 구분한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "사토 나오키 `Departure`, TBS 드라마 `GOOD LUCK!!` OST(2003); 응원가는 원곡 약 1:01 이후 선율을 사용한다는 주장",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-d-namu-2020s", "ev-yu-d-nichion-departure", "ev-yu-d-vgmdb-good-luck", "yt-yu-d-blue-2025-duel", "yt-yu-d-blue-2025-joint-long"],
+          "notes": "음악출판사 관리 페이지와 OST 카탈로그가 곡·작곡가·발매일을 확인한다. 응원가와의 연결 및 시작 구간은 나무위키와 실연 청취를 교차했고, 댓글의 원곡 식별은 보조 반응으로만 사용했다."
+        },
+        {
+          "field": "performanceStructure",
+          "value": "네 개의 짧은 합창 블록을 두 번 반복하고 학교명 선창 뒤 다섯 번 박수, MC 멘트, 합창 재현과 후반 반복으로 마감",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-d-namu-2020s", "yt-yu-d-blue-2025-duel", "yt-yu-d-blue-2025-rivalry", "yt-yu-d-blue-2026-ot"],
+          "notes": "전체 가사 대신 공개된 순서·타임스탬프와 현장 동작만 요약했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-02-13 연세대학교 신입생 응원 OT에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-blue-2026-ot"],
+          "notes": "영상의 행사일과 타임라인이 곡을 00:00 첫 순서로 적는다."
+        }
+      ],
+      "usageContexts": [
+        "2025 하반기 양교 합동응원에서 고려대 신곡 `승리의 함성`과 한 쌍의 신곡 순서로 공연됐다.",
+        "2025 정기 연고전 하프타임과 폐막제에서 승리 흐름을 고조하는 짧은 곡으로 사용됐다.",
+        "2026 신입생 응원 OT에서 `친구야`, `바다새`, `오늘 밤새`보다 앞선 첫 곡으로 배치됐다.",
+        "학교명 선창 뒤 관중이 정해진 박수로 응답하는 구간이 핵심 참여 동작이다."
+      ],
+      "trivia": [
+        {
+          "id": "blue-yonsei-new-song-pair",
+          "summary": "2025 합동응원 자료는 연세대 `푸른 연세`와 고려대 `승리의 함성`을 양교 신곡으로 나란히 소개한다. 두 곡의 학교 귀속을 바로잡는 결정적 자료이기도 하다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-blue-2025-joint", "yt-yu-d-blue-2025-duel", "yt-yu-d-blue-2025-joint-long"]
+        },
+        {
+          "id": "blue-yonsei-five-claps",
+          "summary": "곡의 짧은 합창 뒤 응원단의 학교명 선창에 맞춰 관중이 다섯 번 박수치는 동작이 식별 포인트다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-d-namu-2020s", "yt-yu-d-blue-2025-rivalry", "yt-yu-d-blue-2026-ot"]
+        },
+        {
+          "id": "blue-yonsei-original-recognition",
+          "summary": "합동응원 영상 댓글 여러 개가 공개 직후 원곡을 일본 드라마 `GOOD LUCK!!`의 `Departure`로 알아보았다. 출처 판정은 댓글이 아니라 음악 카탈로그와 나무위키·실연 교차검증으로 했다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-blue-2025-duel", "yt-yu-d-blue-2025-joint-long", "ev-yu-d-vgmdb-good-luck"]
+        },
+        {
+          "id": "blue-yonsei-initial-reception",
+          "summary": "초기 댓글은 양교 신곡을 비교하거나 연세대판의 중독성을 긍정하는 반응과 행사·응원단 운영에 대한 별도 논평으로 갈린다. 전체 선호도로 일반화하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yu-d-blue-2025-joint", "yt-yu-d-blue-2025-duel", "yt-yu-d-blue-2025-closing"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 2003 Naoki Sato soundtrack and 2025 university cheer adaptation; derivative lyric, arrangement, choreography and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80",
+          "https://www.youtube.com/watch?v=2IGQJiu_5dI",
+          "https://www.nichion.co.jp/music_manage/departure%EF%BC%88good-luckbgm%EF%BC%89/"
+        ],
+        "structureSummary": "`Departure`의 상승하는 관현악 선율 일부를 짧은 승리 합창으로 압축한다. 네 개 블록을 두 번 부른 뒤 학교명 선창과 다섯 번 박수를 두 차례 넣고, 진행 멘트 뒤 같은 네 블록을 되풀이하되 마지막 승리 블록을 한 번 더 반복해 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-d-blue-2025-joint",
+        "yt-yu-d-blue-2025-duel",
+        "yt-yu-d-blue-2025-joint-long",
+        "yt-yu-d-blue-2025-rivalry",
+        "yt-yu-d-blue-2025-closing",
+        "yt-yu-d-blue-2026-ot"
+      ],
+      "unresolved": [
+        "2025-09-01 최초 공개 Instagram 게시물의 영구 보존 URL·정확한 게시 시각과 9월 12일 전 실연 여부",
+        "연세대판 작사·편곡·보컬·연주·안무·음원 제작진의 공식 전체 크레딧",
+        "원곡 중 실제 사용한 정확한 마디·편곡 범위와 참조 녹음판",
+        "원곡의 개사·편곡·공연·녹음 이용 허락 관계"
+      ]
+    },
+    {
+      "id": "yonsei-university-eternal-shout",
+      "title": "영원한 함성",
+      "aliases": ["영원한함성", "영원한 힘성"],
+      "currentStatus": "current-directly-verified-at-2026-freshman-cheer-ot",
+      "summary": "히사이시 조가 작곡한 1989년 영화 `마녀 배달부 키키` OST `海の見える街`(A Town with an Ocean View, 통용 번역 `바다가 보이는 마을`)의 선율을 바탕으로 한 연세대학교 응원가다. 연세대 응원단 공식 영상이 제목·원곡·작곡가를 직접 밝힌다. 현행판은 2017 정기 연고전 전승을 기념해 2011년 곡을 고친 2018년 리뉴얼로 소개되므로, `2018 신곡`과 `2011 전신`을 함께 보존한다. 하나 된 관중의 함성과 열정을 번갈아 반복하는 어깨동무곡이며 2025 아카라카·합동응원, 2026 신입생 응원 OT에서 계속 쓰였다.",
+      "claims": [
+        {
+          "field": "organizationAttribution",
+          "value": "연세대학교 응원가이며 고려대학교 곡이 아님",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-eternal-official-2020", "yt-yu-d-eternal-2025-joint", "yt-yu-d-eternal-2026-ot", "ev-yu-d-namu-2010s"],
+          "notes": "연세대 응원단 공식 채널과 총동문회 자료, 양교 합동응원 설명의 `(YU)` 표기가 일치한다. 고려대의 `012: 영원히`·`승리의 함성`과는 별도 곡이다."
+        },
+        {
+          "field": "introductionLineage",
+          "value": "2011년 전신을 2017 전승 기념으로 리뉴얼해 2018 신입생 응원 OT에서 현행판 공개",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-eternal-2018-new", "yt-yu-d-eternal-2024-alumni", "ev-yu-d-namu-2010s"],
+          "notes": "2018 현장 영상과 연세대 총동문회 설명이 같은 계보를 적는다. 2011 원판의 제목·음원·최초 공연은 별도 1차 자료가 없어 현행판 도입연도를 2018로 두고 전신을 병기한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "히사이시 조 `海の見える街` / `A Town with an Ocean View`, 영화 `마녀 배달부 키키` OST(1989)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-eternal-official-2020", "ev-yu-d-hisaishi-official-track", "ev-yu-d-hisaishi-kiki-catalog", "yt-yu-d-eternal-2024-alumni"],
+          "notes": "응원단 공식 설명이 원곡과 작곡가를 밝히고, 권리자 제공 음원과 Apple Music Classical 카탈로그가 원작 정보를 교차 확인한다."
+        },
+        {
+          "field": "performancePractice",
+          "value": "어깨동무 상태에서 두 개의 짧은 합창 문장을 교대 반복하며, 추임새 구간에서 상체를 숙였다 펴는 동작",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-d-namu-2010s", "yt-yu-d-eternal-official-2020", "yt-yu-d-eternal-2025-akaraka", "yt-yu-d-eternal-2026-ot"],
+          "notes": "가사 전문은 저장하지 않고 반복 블록과 동작만 요약했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 상반기 합동응원·아카라카와 2026 신입생 응원 OT에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-eternal-2025-joint", "yt-yu-d-eternal-2025-akaraka", "yt-yu-d-eternal-2026-ot"],
+          "notes": "서로 다른 세 행사에서 곡별 타임스탬프와 실제 공연을 확인했다."
+        },
+        {
+          "field": "sharedMelodyInSports",
+          "value": "KIA 타이거즈 응원에서도 같은 원곡 선율을 사용한다는 인식·보고가 존재",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-d-namu-2010s", "yt-yu-d-eternal-official-2020"],
+          "notes": "공식 영상 댓글과 나무위키가 KIA판을 언급한다. 어느 조직이 다른 조직을 직접 차용했다는 뜻이 아니라 같은 외부 원곡을 공유하는 관계로 기록한다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT와 아카라카에서 관중이 어깨동무하고 함께 부르는 합창곡으로 사용한다.",
+        "양교 합동응원에서 고려대 곡 사이에 연세대 대표곡으로 교차 배치된다.",
+        "2024 동문 아카라카에서 2020·2021 현역 연합 응원단이 공연해 동문 행사 레퍼토리로도 확인됐다.",
+        "짧고 동일한 두 주제 블록을 누적 반복해 군중의 일체감과 기억을 강조한다."
+      ],
+      "trivia": [
+        {
+          "id": "eternal-shout-2011-2018-lineage",
+          "summary": "2018 영상은 이를 신곡이라 부르면서도 설명에서 2011년 곡을 2017 전승 기념으로 리뉴얼했다고 적는다. 따라서 `2018 신곡`은 완전 신규 작곡보다 현행판 공개를 뜻한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-eternal-2018-new", "yt-yu-d-eternal-2024-alumni"]
+        },
+        {
+          "id": "eternal-shout-early-memory",
+          "summary": "2018 영상 댓글 중 한 명은 2012년에도 들었다고 회상해 2011 전신 서술과 정합적이지만, 개인 기억이므로 정확한 초연 증거로 쓰지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yu-d-eternal-2018-new"]
+        },
+        {
+          "id": "eternal-shout-title-typo",
+          "summary": "2018 영상 설명에는 `영원한 힘성`이라는 오기가 한 차례 있지만 제목·다른 공식 자료는 모두 `영원한 함성`이므로 별도 곡이 아닌 검색용 오기로만 보존한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-eternal-2018-new", "yt-yu-d-eternal-official-2020", "yt-yu-d-eternal-2024-alumni"]
+        },
+        {
+          "id": "eternal-shout-kiki-reception",
+          "summary": "댓글은 원곡을 지브리 영화 음악으로 빠르게 식별하고 서정적인 분위기를 호평하며, 일부는 KIA 응원에서 같은 선율을 들었다고 인식한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-eternal-official-2020", "yt-yu-d-eternal-2018-new"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 1989 Joe Hisaishi/Studio Ghibli music and university derivative lyrics, arrangement, choreography and recordings; adaptation permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=B8FMZwfsz7o",
+          "https://www.youtube.com/watch?v=aA36nhG2S_k",
+          "https://classical.music.apple.com/us/album/882658777"
+        ],
+        "structureSummary": "원곡의 부드러운 상승 선율 위에 하나가 된 관중의 목소리와 기억될 열정을 각각 표현하는 짧은 두 블록을 얹는다. 추임새와 상체 동작을 포함한 두 블록을 여러 번 교대하고, 중간에는 추임새를 덜어 군중 합창을 강조한 뒤 원래 형태로 돌아온다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-d-eternal-2018-new",
+        "yt-yu-d-eternal-official-2020",
+        "yt-yu-d-eternal-2024-alumni",
+        "yt-yu-d-eternal-2025-joint",
+        "yt-yu-d-eternal-2025-akaraka",
+        "yt-yu-d-eternal-2026-ot"
+      ],
+      "unresolved": [
+        "2011 전신의 당시 공식 제목·가사·편곡·최초 공연과 2018판에서 바뀐 정확한 범위",
+        "2018 리뉴얼의 작사·편곡·보컬·연주·안무·음원 제작진 전체 크레딧",
+        "연세대판이 참조한 히사이시 조 곡의 정확한 녹음·편곡판",
+        "원곡의 개사·편곡·공연·녹음 이용 허락 관계",
+        "KIA판과 연세대판의 제작상 직접 관계 또는 독립적인 공통 원곡 사용 여부"
+      ]
+    },
+    {
+      "id": "yonsei-university-apartment",
+      "title": "아파트",
+      "aliases": ["APT", "이파트"],
+      "currentStatus": "current-directly-verified-at-2025-freshman-cheer-ot-and-akaraka",
+      "summary": "윤수일이 작사·작곡해 1982년 발표한 동명곡을 연세대식 선창·후창과 동작으로 운용하는 장기 응원곡이다. 나무위키는 1980년 전후 선배들이 동문회에서 즐겨 부른 대표곡이라고 서술하지만 정확한 대학 도입연도는 제시하지 않는다. 현재 보존한 가장 이른 직접 영상은 1996 신입생 응원 OT이므로 대표 연도는 `1996 (가장 이른 확인; 1980년대 사용 주장)`으로 둔다. 원곡의 전화 장면을 이용한 벨소리·전화 응답과 즉흥 액션이 특징이며, 한동안 동문 공연 중심이었다는 댓글 기억과 달리 2025 신입생 응원 OT와 아카라카에서 현역 사용이 직접 확인됐다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "1996년 (현재 확인한 가장 이른 직접 공연); 1980년 전후부터 동문 대표곡이었다는 2차 주장",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yu-d-apartment-1996-archive", "ev-yu-d-namu-pre2000"],
+          "notes": "1996 신입생 응원 OT는 영상으로 직접 확인된다. 나무위키의 `80년대 전후 선배` 표현은 세대 사용을 가리킬 뿐 정확한 도입연도·초연을 특정하지 않아 대표값에 추정 표시를 유지한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "윤수일 `아파트`, 윤수일 작사·작곡, 1982년 발표",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-d-namu-pre2000", "ev-yu-d-asiae-apartment", "ev-yu-d-riak-apartment", "ev-yu-d-apple-apartment"],
+          "notes": "언론 보도와 음원·권리자 채널이 원곡·가수·크레딧을 확인한다. RIAK 영상은 1995 모음집 녹음이므로 1982 최초 발매의 음반 증거로 오인하지 않았다."
+        },
+        {
+          "field": "performancePractice",
+          "value": "원곡의 전화 장면에 벨소리 동작, 선창·전화 응답, 라이벌 학교를 소재로 한 즉흥 액션을 추가",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-d-namu-pre2000", "yt-yu-d-apartment-official-class-2023", "yt-yu-d-apartment-2025-ot", "yt-yu-d-apartment-2025-akaraka"],
+          "notes": "공식 대학 교육 콘텐츠와 실연에서 동작을 확인하고, 구체적인 선창 의미는 나무위키를 보조로 사용했다. 전체 가사는 저장하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 신입생 응원 OT와 개교 140주년 아카라카에서 현역 응원단이 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-apartment-2025-ot", "yt-yu-d-apartment-2025-akaraka"],
+          "notes": "2025 OT 단독 영상과 아카라카 부단장 순서 타임라인을 각각 확인했다. 2026 곡별 실연은 아직 찾지 못했다."
+        },
+        {
+          "field": "alumniUse",
+          "value": "동문 아카라카와 역대 응원단 공연에서 장기 레퍼토리로 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-apartment-2014-rivalry", "yt-yu-d-apartment-2024-alumni", "yt-yu-d-apartment-official-class-2023", "ev-yu-d-namu-pre2000"],
+          "notes": "2014 연고전·2024 동문 아카라카 직접 영상과 2023 대학 공식 교육 콘텐츠가 세대 간 사용을 보여 준다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT에서 전화 응답과 동작을 배우는 참여형 곡으로 사용한다.",
+        "아카라카 부단장 순서에서 `야생마`, `ONO`, `고밟꿈` 뒤에 이어지는 빠른 액션곡으로 배치됐다.",
+        "동문 아카라카와 역대 응원단 무대에서는 1980~1990년대 세대가 함께 부르는 추억의 레퍼토리로 사용된다.",
+        "원곡의 벨소리·전화 소재를 활용해 관중과 응원단 사이에 짧은 문답과 즉흥 동작을 삽입한다."
+      ],
+      "trivia": [
+        {
+          "id": "apartment-official-class-pun",
+          "summary": "연세대 공식 `아카라카 101` 1화는 `같은 아파트 사는 사람에게 아파트 응원가 배워봤습니다`라는 제목으로 곡명과 주거 공간을 이용한 말장난을 했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-apartment-official-class-2023"]
+        },
+        {
+          "id": "apartment-revival-reception",
+          "summary": "2025 OT 댓글에서는 그동안 동문 중심으로 들리던 곡이 현역 레퍼토리로 돌아왔다고 반기는 반응과 편곡·완성도를 비판하는 반응이 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yu-d-apartment-2025-ot", "yt-yu-d-apartment-2024-alumni"]
+        },
+        {
+          "id": "apartment-apt-timing",
+          "summary": "2025 OT 제목·해시태그는 `APT`와 초인종 표현을 함께 사용했고, 댓글은 로제·브루노 마스의 동명 히트곡 유행과 시기가 맞았다고 받아들였다. 그러나 연세대 응원가의 원곡은 윤수일 곡이다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-apartment-2025-ot", "ev-yu-d-asiae-apartment", "ev-yu-d-riak-apartment"]
+        },
+        {
+          "id": "apartment-1996-archive",
+          "summary": "1996 신입생 응원 OT 아카이브는 `한잔의 추억`과 `아파트`를 함께 수록해 최소 30년 가까운 직접 공연 연속성을 확인할 수 있는 가장 이른 현재 표본이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-d-apartment-1996-archive", "yt-yu-d-apartment-2025-ot"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted Yoon Soo-il song and university performance adaptation; school-specific call-and-response, choreography and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=WvP1g7eic0U",
+          "https://www.youtube.com/watch?v=wI5s2FfSzaM",
+          "https://www.namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84"
+        ],
+        "structureSummary": "윤수일 원곡의 두 절과 반복 후렴 골격을 유지하면서 전화 장면 앞뒤에 벨소리 동작과 관중 문답을 삽입한다. 학교 응원에서는 긴 감상보다 액션과 즉흥 응답을 강조하고, 공연·세대에 따라 문답과 부가 동작이 달라질 수 있다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-d-apartment-1996-archive",
+        "yt-yu-d-apartment-2014-rivalry",
+        "yt-yu-d-apartment-official-class-2023",
+        "yt-yu-d-apartment-2024-alumni",
+        "yt-yu-d-apartment-2025-ot",
+        "yt-yu-d-apartment-2025-akaraka"
+      ],
+      "unresolved": [
+        "연세대 응원가로 처음 도입한 정확한 연도·행사·제안자·편곡자",
+        "1980년대 전후 대학 사용을 직접 보여 주는 날짜가 명시된 가장 이른 영상·악보·행사 프로그램",
+        "연세대판 반주·선창·동작이 시대별로 바뀐 상세 연표와 현행 정식 진행안",
+        "원곡의 대학 공연·편곡·녹음 이용 허락 관계",
+        "2026년 현역 응원단의 곡별 직접 사용 표본"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-yu-d-namu-2020s",
+      "type": "community-encyclopedia",
+      "url": "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80",
+      "title": "연세대학교/응원가/2020년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "`푸른 연세`를 2025년 9월 1일 응원단 Instagram 최초 공개 신곡으로 분류하고, `Departure` 1분 1초 이후 선율·반복 순서·학교명 뒤 다섯 번 박수를 설명한다. 편집형 출처라 현장 영상과 음악 카탈로그로 교차했다.",
+      "supports": ["푸른 연세 도입", "원곡·사용 구간", "곡 구조", "박수 동작"]
+    },
+    {
+      "id": "ev-yu-d-namu-2010s",
+      "type": "community-encyclopedia",
+      "url": "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80",
+      "title": "연세대학교/응원가/2010년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "`영원한 함성`을 2018 신입생 응원 OT 공개곡으로 분류하고 2011년 곡의 2018 리뉴얼, 히사이시 조 원곡, 추임새 동작과 KIA의 같은 선율 사용을 서술한다.",
+      "supports": ["영원한 함성 연도·계보", "원곡", "동작", "KIA 공통 선율"]
+    },
+    {
+      "id": "ev-yu-d-namu-pre2000",
+      "type": "community-encyclopedia",
+      "url": "https://www.namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84",
+      "title": "연세대학교/응원가/2000년 이전",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "`아파트`를 윤수일 동명곡 기반의 과거 대표 응원곡이자 1980년 전후 선배들이 동문회에서 부르는 곡으로 소개하고 전화·벨 동작을 설명한다. 정확한 도입연도는 적지 않는다.",
+      "supports": ["아파트 원곡", "1980년 전후 세대 사용 주장", "동문 사용", "전화·벨 동작", "도입연도 불명확"]
+    },
+    {
+      "id": "ev-yu-d-nichion-departure",
+      "type": "rights-publisher-catalog",
+      "url": "https://www.nichion.co.jp/music_manage/departure%EF%BC%88good-luckbgm%EF%BC%89/",
+      "title": "Departure（GOOD LUCK!! BGM）",
+      "publisher": "株式会社日音 / Nichion",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "음악출판사 관리 레퍼토리에서 `Departure`를 `GOOD LUCK!!` BGM으로 확인한다.",
+      "supports": ["Departure 작품·드라마 연결", "권리 관리"]
+    },
+    {
+      "id": "ev-yu-d-vgmdb-good-luck",
+      "type": "soundtrack-catalog",
+      "url": "https://vgmdb.net/album/98938",
+      "title": "GOOD LUCK!! ORIGINAL SOUNDTRACK",
+      "publisher": "VGMdb",
+      "publishedAt": "2003-03-05",
+      "accessedAt": "2026-08-09",
+      "summary": "카탈로그 번호 BVCR-17023의 2003년 3월 5일 발매 OST에서 `Departure`를 2번 트랙으로 싣고, 예외 트랙을 제외한 음악의 작곡·편곡자를 사토 나오키로 명시한다.",
+      "supports": ["Departure 제목·작곡가", "2003 발매", "GOOD LUCK!! OST", "트랙 정보"]
+    },
+    {
+      "id": "ev-yu-d-hisaishi-official-track",
+      "type": "rights-holder-video-metadata",
+      "url": "https://www.youtube.com/watch?v=cZlrc8JCeWw",
+      "title": "A Town with an Ocean View",
+      "publisher": "Joe Hisaishi - Topic",
+      "publishedAt": "2020-06-29",
+      "accessedAt": "2026-08-09",
+      "summary": "권리자 제공 음원 설명이 곡을 `Kiki's Delivery Service Soundtrack Music Collection` 수록곡, 1989년 8월 10일 발매, Joe Hisaishi 작곡으로 명시한다.",
+      "supports": ["영원한 함성 원곡 제목·작곡가", "1989 발매", "Studio Ghibli 권리"]
+    },
+    {
+      "id": "ev-yu-d-hisaishi-kiki-catalog",
+      "type": "music-catalog",
+      "url": "https://classical.music.apple.com/us/album/882658777",
+      "title": "Kiki's Delivery Service (Original Soundtrack)",
+      "publisher": "Apple Music Classical",
+      "publishedAt": "1989-08-10",
+      "accessedAt": "2026-08-09",
+      "summary": "1989년 영화 사운드트랙과 Joe Hisaishi의 `A Town with an Ocean View` 수록을 확인한다.",
+      "supports": ["영원한 함성 원곡", "영화 OST", "작곡가·발매일"]
+    },
+    {
+      "id": "ev-yu-d-asiae-apartment",
+      "type": "news",
+      "url": "https://www.asiae.co.kr/article/2024111315413484262",
+      "title": "42년 된 윤수일 '아파트', 장범준이 재건축…오늘 공개",
+      "publisher": "아시아경제",
+      "publishedAt": "2024-11-13",
+      "accessedAt": "2026-08-09",
+      "summary": "윤수일의 원곡 `아파트`가 1982년 발표됐고 42년 뒤 장범준이 리메이크했다고 보도한다.",
+      "supports": ["아파트 원곡 가수", "1982 발표"]
+    },
+    {
+      "id": "ev-yu-d-riak-apartment",
+      "type": "rights-association-video-metadata",
+      "url": "https://www.youtube.com/watch?v=WvP1g7eic0U",
+      "title": "[Official Audio] 윤수일 - 아파트",
+      "publisher": "RIAK OFFICIAL",
+      "publishedAt": "2018-12-18",
+      "accessedAt": "2026-08-09",
+      "summary": "한국음반산업협회 공식 오디오가 윤수일의 `아파트`와 1995년 골든 히트 모음집 녹음을 제공한다. 설명의 가사 전문은 저장하지 않았다.",
+      "supports": ["아파트 원곡·가수", "권리자 제공 음원", "1995 모음집 판본"]
+    },
+    {
+      "id": "ev-yu-d-apple-apartment",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/song/1677088403",
+      "title": "아파트 - 윤수일의 노래",
+      "publisher": "Apple Music",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "윤수일의 `아파트` 음원과 후대 수록 앨범을 확인한다. 표시된 1987년 수록일은 1982 최초 발표일이 아니라 재수록 판본으로 구분한다.",
+      "supports": ["아파트 원곡·가수", "후대 음원 판본"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-yu-d-blue-2025-joint",
+      "songId": "yonsei-university-blue-yonsei",
+      "url": "https://www.youtube.com/watch?v=9Essku9fWrQ",
+      "videoId": "9Essku9fWrQ",
+      "title": "2025.09.12 합동 응원OT 2025양교 신곡[승리의 함성(KU)+푸른  연세(YU)]",
+      "channel": "KODA",
+      "publishedAt": "2025-09-16",
+      "descriptionSummary": "2025년 9월 12일 합동응원에서 양교 신곡을 수록하고 제목이 `푸른 연세(YU)`와 `승리의 함성(KU)`의 학교 귀속을 직접 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 양교 신곡을 비교하며 연세대 곡의 중독성을 긍정하거나 고려대 곡을 더 선호하는 등 반응이 갈린다."],
+      "supports": ["2025 신곡", "YU 소속", "합동응원", "초기 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-blue-2025-duel",
+      "songId": "yonsei-university-blue-yonsei",
+      "url": "https://www.youtube.com/watch?v=2IGQJiu_5dI",
+      "videoId": "2IGQJiu_5dI",
+      "title": "양교 신곡대결, \"푸른 연세\", \"승리의 함성\" | 2025 하반기 연고대 합동응원전",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-10-08",
+      "descriptionSummary": "2025년 9월 12일 합동응원 영상으로 `푸른 연세`를 00:00, 고려대 `승리의 함성`을 02:14에 분리한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 댓글은 원곡을 일본 드라마 `GOOD LUCK!!`의 `Departure`로 추정하며, 다른 댓글은 응원단 구성에 관해 질문한다."],
+      "supports": ["정확한 띄어쓰기", "합동응원", "양교 신곡 분리", "원곡 수용 인식"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-blue-2025-joint-long",
+      "songId": "yonsei-university-blue-yonsei",
+      "url": "https://www.youtube.com/watch?v=CNDcUtNrIkI",
+      "videoId": "CNDcUtNrIkI",
+      "title": "2025 정기 고연전 D-Day! 합응 마지막 3부 판쓸이 진검승부 37분! #포에버 #하늘끝까지 #민족의아리아 #연세여사랑한다 #푸른연세 #승리의함성 #합동응원 [4k60p]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-09-18",
+      "descriptionSummary": "고려대 응원단 촬영팀 제공 합동응원 영상이다. 타임라인이 07:00의 `푸른연세 (YU)`를 2025 연세대 신곡으로, 09:01의 `승리의 함성 (KU)`를 고려대 신곡으로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 양교 응원 열기와 청춘 문화를 회상·응원하고, 한 댓글은 `푸른 연세`의 원곡을 `Departure`로 식별한다."],
+      "supports": ["2025 연세대 신곡", "YU 소속", "합동응원", "원곡 수용 인식"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-blue-2025-rivalry",
+      "songId": "yonsei-university-blue-yonsei",
+      "url": "https://www.youtube.com/watch?v=tjKxzGM5eMA",
+      "videoId": "tjKxzGM5eMA",
+      "title": "승리하고 있는 이 순간! 분위기는 최고조 하프타임 '해야' '푸른 연세' '하늘끝까지' '원시림' | 2025 정기 연고전",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-10-10",
+      "descriptionSummary": "2025년 9월 20일 정기 연고전 하프타임 영상으로 `푸른 연세`를 03:08부터 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 응원단 구성과 양교 관중 규모를 논평하며 곡의 연혁에 관한 추가 정보는 없다."],
+      "supports": ["2025 정기 연고전 사용", "정확한 띄어쓰기", "하프타임"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-blue-2025-closing",
+      "songId": "yonsei-university-blue-yonsei",
+      "url": "https://www.youtube.com/watch?v=42lydO_Qelc",
+      "videoId": "42lydO_Qelc",
+      "title": "2025연고전 폐막제 푸른연세 2025신곡 #yonseiuniversity #연고전 #응원단 #폐막제",
+      "channel": "신촌아이",
+      "publishedAt": "2025-09-20",
+      "descriptionSummary": "2025 정기 연고전 폐막제의 1분 39초 곡별 기록으로 제목·해시태그가 `푸른연세`를 2025 신곡으로 표시한다. 별도 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": ["두 댓글은 도로 사용과 라이벌 학교를 공격적으로 논평할 뿐 곡 정보는 제공하지 않는다."],
+      "supports": ["2025 신곡", "연고전 폐막제", "붙여쓰기 별칭"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-blue-2026-ot",
+      "songId": "yonsei-university-blue-yonsei",
+      "url": "https://www.youtube.com/watch?v=HofMsKPsr1o",
+      "videoId": "HofMsKPsr1o",
+      "title": "[4K] 연대생이랑 친구 할 사람? “푸른 연세” “친구야” “바다새” “오늘밤새” | 2026 연세대학교 신입생 응원 오리엔테이션",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-02-17",
+      "descriptionSummary": "2026년 2월 13일 신입생 응원 OT로 `푸른 연세`를 00:00 첫 곡으로 수록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현행 사용", "신입생 응원 OT", "대표 띄어쓰기"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-eternal-2018-new",
+      "songId": "yonsei-university-eternal-shout",
+      "url": "https://www.youtube.com/watch?v=aA36nhG2S_k",
+      "videoId": "aA36nhG2S_k",
+      "title": "[2018 연세대 아카라카] 영원한 함성 (신곡) - 연세대학교 응원단 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-05-22",
+      "descriptionSummary": "2018년 5월 19일 아카라카 공연이다. 설명은 2017 전승을 기념해 2011년 곡을 리뉴얼한 신곡이라고 적고 본문에 `영원한 힘성` 오기가 있다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 지브리 원곡을 식별하고 곡을 호평하며, 한 시청자는 2012년에도 들었다고 회상한다."],
+      "supports": ["2018 현행판", "2011 전신·2017 전승 리뉴얼 주장", "제목 오기", "초기 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-eternal-official-2020",
+      "songId": "yonsei-university-eternal-shout",
+      "url": "https://www.youtube.com/watch?v=B8FMZwfsz7o",
+      "videoId": "B8FMZwfsz7o",
+      "title": "영원한 함성",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "연세대 응원단 공식 곡별 영상이다. 제목을 확정하고 원곡을 `바다가 보이는 마을`, 작곡가를 히사이시 조로 직접 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 지브리 원곡을 알아보고 연세대 응원가를 호평하며, 일부는 KIA 응원의 같은 선율을 떠올리거나 이용 허락을 질문한다."],
+      "supports": ["공식 제목·소속", "원곡·작곡가", "KIA 공통 선율 인식", "권리 질문"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-eternal-2024-alumni",
+      "songId": "yonsei-university-eternal-shout",
+      "url": "https://www.youtube.com/watch?v=Sjchl33DyBw",
+      "videoId": "Sjchl33DyBw",
+      "title": "[4K] AKARAKA (2020, 2021 현역 연합 응원단) FAN ver. 영원한 함성 240526 @동문 아카라카",
+      "channel": "연세대학교 총동문회(연세톡톡)",
+      "publishedAt": "2024-06-12",
+      "descriptionSummary": "총동문회가 2024 동문 아카라카 공연을 공개하고 2018 OT 공개, 히사이시 조 원곡, 2011년 곡의 2018 리뉴얼 계보를 함께 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글 한 건은 연세대 승리를 짧게 응원한다."],
+      "supports": ["총동문회 사용", "2011·2018 계보", "원곡", "동문 아카라카"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-eternal-2025-joint",
+      "songId": "yonsei-university-eternal-shout",
+      "url": "https://www.youtube.com/watch?v=EY_OjeeKpeg",
+      "videoId": "EY_OjeeKpeg",
+      "title": "2025 합동응원 3부 I 고려대/연세대 A급 응원곡 모음집 I 영원한 함성/엘리제/하늘아래/석탑/온누리에/고래사냥/하늘이여/하늘끝까지/FOREVER/연세여 사랑한다/민족의 아리아",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-03-22",
+      "descriptionSummary": "2025년 3월 14일 양교 합동응원 3부다. 곡별 시간표가 00:20의 `영원한 함성 (YU)`와 02:28의 고려대 곡을 번갈아 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 양교 응원단의 체력과 군중 열기를 평가하고, 동문은 과거 응원 경험을 회상하며 수험생은 참여를 목표로 삼는다."],
+      "supports": ["2025 현행 사용", "YU 소속 직접 표기", "합동응원", "양교 곡 구분"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-eternal-2025-akaraka",
+      "songId": "yonsei-university-eternal-shout",
+      "url": "https://www.youtube.com/watch?v=Zd-wMMZgxMI",
+      "videoId": "Zd-wMMZgxMI",
+      "title": "노천을 함성으로 'WeCanFly' '승리의물결' '내이름그리고연세' '영원한함성' '하늘과더불어' [2025 아카라카를 온누리에 | 연세대학교 Yonsei university]",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-08-24",
+      "descriptionSummary": "2025년 5월 24일 개교 140주년 아카라카 영상이며 `영원한 함성`은 06:38부터 시작한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 영상을 잘 보았다는 짧은 감사 반응이다."],
+      "supports": ["2025 아카라카", "연세대 소속", "현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-eternal-2026-ot",
+      "songId": "yonsei-university-eternal-shout",
+      "url": "https://www.youtube.com/watch?v=BwHi-vUYhWg",
+      "videoId": "BwHi-vUYhWg",
+      "title": "[4K] 연뽕 가득한 어깨동무곡 모음 “영원한 함성” \"온누리에\" \"서시\" \"룩셈부르크\" | 2026 연세대학교 신입생 응원 오리엔테이션",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-02-22",
+      "descriptionSummary": "2026년 2월 13일 연세대 신입생 응원 OT 어깨동무곡 모음으로 `영원한 함성`을 00:00 첫 곡에 둔다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 2026 응원단의 열정과 진행을 긍정하고 영상 제작에 감사를 전한다."],
+      "supports": ["2026 현행 사용", "신입생 응원 OT", "어깨동무곡"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-apartment-1996-archive",
+      "songId": "yonsei-university-apartment",
+      "url": "https://www.youtube.com/watch?v=bZ-PEp2yMyY",
+      "videoId": "bZ-PEp2yMyY",
+      "title": "1996 연세대 새내기 응원OT 둘째날 / 한잔의 추억, 아파트 / Yonsei AKARAKA Freshman Orientation in 1996",
+      "channel": "AKARAKA ARCHIVE",
+      "publishedAt": "2021-11-30",
+      "descriptionSummary": "1996년 연세대 신입생 응원 OT 둘째 날의 `한잔의 추억`과 `아파트`를 보존한 아카이브다. 현재 찾은 가장 이른 날짜 명시 실연이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["방송 제작진이 자료 화면 사용 허가를 문의한 댓글이 있으며 곡 연혁 정보는 없다."],
+      "supports": ["1996 직접 사용", "신입생 응원 OT", "가장 이른 현재 표본"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-apartment-2014-rivalry",
+      "songId": "yonsei-university-apartment",
+      "url": "https://www.youtube.com/watch?v=mmb1u3jP-Y0",
+      "videoId": "mmb1u3jP-Y0",
+      "title": "아파트",
+      "channel": "baekjongik",
+      "publishedAt": "2016-04-03",
+      "descriptionSummary": "설명이 2014 연고전 공연이라고 밝히는 2분 34초 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["짧은 댓글은 연세대 상징과 곡을 응원한다."],
+      "supports": ["2014 연고전 사용", "장기 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-apartment-official-class-2023",
+      "songId": "yonsei-university-apartment",
+      "url": "https://www.youtube.com/watch?v=wI5s2FfSzaM",
+      "videoId": "wI5s2FfSzaM",
+      "title": "1화 | 같은 아파트 사는 사람에게 아파트 응원가 배워봤습니다 | 아카라카 101 | 연세대학교 응원단×기록영상단",
+      "channel": "연세대학교 Yonsei University",
+      "publishedAt": "2023-05-19",
+      "descriptionSummary": "연세대 기록영상단 제작, 연세대 응원단 출연의 공식 교육 콘텐츠다. 곡을 세대에 전하는 특별 강의 형식으로 동작과 참여 방식을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 교육 형식을 반기고 당시 현역 응원단에서 곡을 왜 자주 하지 않는지 질문한다."],
+      "supports": ["대학 공식 소속", "응원가 교육", "동작", "과거 사용 빈도 인식"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-apartment-2024-alumni",
+      "songId": "yonsei-university-apartment",
+      "url": "https://www.youtube.com/watch?v=vy7tSfj_n4c",
+      "videoId": "vy7tSfj_n4c",
+      "title": "[4K] AKARAKA (OB회 응원단) 2024 Avengers FAN ver. 아파트 @동문 아카라카",
+      "channel": "연세여 사랑한다",
+      "publishedAt": "2024-06-02",
+      "descriptionSummary": "제1회 동문 아카라카에서 OB 응원단이 공연한 곡별 영상이다. 설명은 1992년도 여단장의 공연임을 적고 `이파트` 오기가 한 번 있다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 동문 응원단의 동작과 에너지를 호평한다."],
+      "supports": ["2024 동문 아카라카", "OB 응원단", "세대 연속성", "이파트 오기"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-apartment-2025-ot",
+      "songId": "yonsei-university-apartment",
+      "url": "https://www.youtube.com/watch?v=2HGMpagSdxs",
+      "videoId": "2HGMpagSdxs",
+      "title": "2025.02.12 연세대학교 신입생 응원OT [아파트]",
+      "channel": "KODA",
+      "publishedAt": "2025-02-22",
+      "descriptionSummary": "2025년 2월 12일 신입생 응원 OT 곡별 영상이다. 해시태그가 `APT`, 초인종과 벨소리 의태어를 함께 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 현역 레퍼토리 복귀를 반기거나 편곡을 비판하고, 당시 동명 신곡 유행과 시의성이 맞았다고 해석한다."],
+      "supports": ["2025 현역 사용", "신입생 응원 OT", "APT 별칭", "부활 수용"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-d-apartment-2025-akaraka",
+      "songId": "yonsei-university-apartment",
+      "url": "https://www.youtube.com/watch?v=PMxlFdd0GC4",
+      "videoId": "PMxlFdd0GC4",
+      "title": "연세대학교 응원단 부단장,2학년 ‘야생마’ ’ONO’ ‘고밟꿈‘ ’아파트’ ‘여행을 떠나요’ ‘해피송‘[2025 아카라카를 온누리에 | 연세대학교 Yonsei university]",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-09-14",
+      "descriptionSummary": "2025년 5월 24일 개교 140주년 아카라카 부단장 순서로 `아파트`를 07:22부터 수록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 아카라카", "현역 응원단", "부단장 순서", "현행 사용"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 3,
+    "youtubeSampleCount": 18,
+    "songsMeetingYoutubeMinimum": 3,
+    "openIssueCount": 14
+  }
+}

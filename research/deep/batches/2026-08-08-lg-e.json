@@ -1,0 +1,1254 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-lg-e",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-lg-twins",
+    "name": "LG 트윈스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문은 저장하지 않는다. 가사는 출처·권리 상태·구조 요약만 기록하고, 전문은 사용자 제공 또는 이용 허락이 확인된 경우에만 별도 승인 뒤 저장한다.",
+  "items": [
+    {
+      "id": "lg-twins-mujeogui-lg",
+      "title": "무적의 LG",
+      "aliases": ["무적의 엘지"],
+      "currentStatus": "current",
+      "summary": "주영훈이 작곡해 2007년 잠실 홈 개막전부터 선보일 예정으로 발표된 구단 제작 응원가다. 보도자료성 기사에는 캔(배기성·이종원)이 불렀다고 적혀 있으나 현행 나무위키 미러는 배기성만 가수로 표기한다. 2025년 구단 공식 응원가 영상과 2026년 현장 직캠으로 현재 사용을 확인했다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "LG 트윈스 신규 제작 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-mujeog-osen-2007", "ev-lg-e-namu"],
+          "notes": "외부 대중가요를 개사한 곡으로 소개되지 않고 2007년 신규 제작 프로젝트의 신곡으로 발표됐다."
+        },
+        {
+          "field": "composer",
+          "value": "주영훈",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-mujeog-osen-2007", "ev-lg-e-namu"],
+          "notes": "동시대 기사와 현행 문서가 일치한다."
+        },
+        {
+          "field": "lyricist",
+          "value": "김태희",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu"],
+          "notes": "현재 확인한 독립 기사·음원 카탈로그에는 작사가가 나오지 않아 나무위키 단독 주장으로 남긴다."
+        },
+        {
+          "field": "recordedVocal",
+          "value": "캔(배기성·이종원)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-mujeog-osen-2007"],
+          "notes": "2007년 발표 기사는 인기 보컬그룹 캔의 두 멤버가 직접 불렀다고 적었다."
+        },
+        {
+          "field": "recordedVocal",
+          "value": "배기성",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu"],
+          "notes": "현행 나무위키 미러의 단독 가수 표기다. 배기성이 주 보컬이고 음원 명의는 캔이었을 가능성이 있으나 현재 자료만으로 확정하지 않는다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2007",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-mujeog-osen-2007", "ev-lg-2009-bugs-album"],
+          "notes": "2007년 3월 28일 기사에서 4월 6일 잠실 홈 개막전부터 선보일 계획을 발표했다. 2009년 LG 응원가 정규 음원에도 수록됐다."
+        },
+        {
+          "field": "historicalUsage",
+          "value": "1회 공격 종료 뒤 안무 공연; 2007년에는 1회 공격 시작 무렵, 2016년에는 경기 전·3회 말 공격 전에도 자주 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu"],
+          "notes": "시기별 운용이 달랐다는 문서 서술이므로 현재의 고정 이닝으로 일반화하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 시즌에도 치어리더 안무와 함께 현장에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-mujeog-official-2025", "yt-mujeog-field-2025", "yt-mujeog-field-2026", "yt-mujeog-cheer-2026"],
+          "notes": "2025 구단 공식 모음과 2025·2026 현장 직캠이 이어지는 사용을 직접 확인한다."
+        },
+        {
+          "field": "officialCompilationScope",
+          "value": "2026 구단 공식 모음집의 장 목록에는 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-e-official-2026-scope", "yt-mujeog-field-2026"],
+          "notes": "같은 해 현장 사용 영상이 있으므로 미수록을 폐기·중단의 증거로 해석하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "경기 초반 공수교대 시간의 치어리더 안무 공연",
+        "경기 시작을 알리는 분위기 조성과 입장·예열용 음악",
+        "시즌과 운영 방식에 따라 경기 전 또는 다른 이닝의 공수교대에도 배치"
+      ],
+      "trivia": [
+        {
+          "id": "mujeog-free-donation",
+          "summary": "주영훈은 자신이 LG 팬임을 밝히며 신규 응원곡 제작을 총괄했고 곡을 구단에 무상 헌정하겠다고 했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-mujeog-osen-2007"]
+        },
+        {
+          "id": "mujeog-2007-project",
+          "summary": "같은 2007 프로젝트에서 ‘서울의 찬가’와 ‘서울의 모정’도 주영훈 편곡으로 다시 녹음돼 함께 공개될 예정이었다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-mujeog-osen-2007"]
+        },
+        {
+          "id": "mujeog-jamsil-arrival-memory",
+          "summary": "공개 댓글에서는 종합운동장역 도착, 잠실 입장, 경기 시작 전 설렘과 이 곡을 연결하는 회고가 반복돼 일종의 ‘입장 의식’처럼 기억되는 양상이 보인다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-mujeog-audio-2012", "yt-mujeog-fan-mv-2020"]
+        },
+        {
+          "id": "mujeog-karaoke",
+          "summary": "현행 나무위키 미러는 이 곡이 TJ미디어 노래방에 수록됐다고 기록한다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-lg-e-namu"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=Y-cBDnUl5k4&t=173s",
+          "https://www.youtube.com/watch?v=c1Mw3S-OYVA",
+          "https://music.bugs.co.kr/album/182045"
+        ],
+        "structureSummary": "짧은 팀명 구호로 시작해 승리와 돌진을 촉구하는 벌스, 손을 들고 함께 외치게 하는 연결구, 제목을 반복하는 후렴으로 진행된다. 후반에는 웃음소리형 콜앤드리스폰스와 후렴 재현을 거쳐 팀명 구호로 마무리한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-mujeog-official-2023",
+        "yt-mujeog-official-2025",
+        "yt-mujeog-audio-2012",
+        "yt-mujeog-fan-mv-2020",
+        "yt-mujeog-field-2025",
+        "yt-mujeog-field-2026",
+        "yt-mujeog-cheer-2026"
+      ],
+      "unresolved": [
+        "김태희 작사 크레딧의 독립 자료 확인",
+        "음원 보컬 명의가 캔 전체인지 배기성 단독인지와 실제 파트 분담",
+        "2026 시즌의 고정 재생 시점과 안무 운영 규칙",
+        "2026 구단 공식 모음집 미수록 이유와 해당 모음집의 선정 범위"
+      ]
+    },
+    {
+      "id": "lg-twins-lg-ui-seungni-wihae",
+      "title": "LG의 승리 위해",
+      "aliases": ["승리 위한 함성(가제)"],
+      "currentStatus": "current",
+      "summary": "명카드라이브의 2009년 곡 ‘냉면’을 바탕으로 한 응원가로, 2021년 자작곡 ‘LG의 승리를 위하여’와는 별개다. 확인한 가장 오래된 현장 기록은 2019년이며 2022년 플레이오프에서는 이닝 시작 전에 사용됐다. 현행 나무위키 미러는 현재 경기장 밖 재생용으로만 남았다고 적고, 2026 팬 제작 현행 목록에도 수록되지만 구단 공식 모음에는 빠져 있어 사용 범위는 추가 확인이 필요하다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "명카드라이브(박명수·제시카) — 냉면",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-e-namu", "ev-victory-naengmyeon-mbc"],
+          "notes": "현행 응원가 문서가 원곡을 특정하고 MBC 공식 가요제 영상이 원곡의 제목과 참여자를 확인한다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "명카드라이브(박명수·제시카), 작곡 E-TRIBE",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-victory-naengmyeon-mbc", "ev-victory-naengmyeon-karaoke"],
+          "notes": "LG판의 개사·편곡 크레딧과 원곡 크레딧은 구분한다."
+        },
+        {
+          "field": "earliestDocumentedUse",
+          "value": "2019-04-13 현장 영상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-victory-earliest-2019"],
+          "notes": "영상 설명에 응원 문구가 기록돼 대상 곡임을 식별할 수 있다. 실제 도입 연도와 같다는 뜻은 아니다."
+        },
+        {
+          "field": "historicalUsage",
+          "value": "과거 2회 말 공격 시작 전",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu"],
+          "notes": "독립적인 이닝별 운용 자료는 확인하지 못했다."
+        },
+        {
+          "field": "documentedUsageVariation",
+          "value": "2022 플레이오프에서는 3회 말 및 4회 초 시작 전에 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-victory-po2-2022", "yt-victory-po4-2022"],
+          "notes": "과거 2회 말 전용이라는 서술과 달리 포스트시즌 현장에서는 다른 이닝에도 배치됐다."
+        },
+        {
+          "field": "currentUse",
+          "value": "현행 문서는 경기장 밖 재생용으로만 사용된다고 서술; 2026 팬 제작 현행 목록에는 수록",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu", "yt-victory-playlist-2026", "yt-victory-playlist2-2026"],
+          "notes": "팬 목록은 곡의 현행 인지도를 보여 주지만 실제 외부 스피커 운용을 직접 촬영한 자료는 아니다."
+        },
+        {
+          "field": "disambiguation",
+          "value": "‘LG의 승리를 위하여’는 2021년 공개된 별도 구단 자작곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-e-namu", "yt-mujeog-official-2023"],
+          "notes": "두 제목이 비슷하지만 원곡·선율·길이·사용 맥락이 다르므로 병합하지 않는다."
+        },
+        {
+          "field": "officialCompilationScope",
+          "value": "2026 구단 공식 모음집에는 미수록, 같은 해 복수 팬 목록에는 수록",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-official-2026-scope", "yt-victory-playlist-2026", "yt-victory-playlist2-2026"],
+          "notes": "공식 미수록이 경기장 외부 전용이라는 설명과 부합할 수 있으나 폐기 여부를 확정하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "과거 정규 경기의 초반 이닝 시작 전 단체 응원",
+        "2022 플레이오프의 공수교대·이닝 시작 전",
+        "현행 문서 기준으로는 경기장 외부 스피커 재생"
+      ],
+      "trivia": [
+        {
+          "id": "victory-working-title",
+          "summary": "2019년 현장 영상 업로더는 정식 제목 대신 ‘승리 위한 함성(가제)’이라고 적어 팬 사이 제목 정착이 늦었음을 보여 준다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-victory-earliest-2019"]
+        },
+        {
+          "id": "victory-rare-use-comments",
+          "summary": "음원 영상 댓글에서는 웅장하고 중독성 있다는 호평과 함께 평소 자주 쓰이지 않아 아쉽다는 반응이 나온다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-victory-audio-2021"]
+        },
+        {
+          "id": "victory-origin-festival",
+          "summary": "원곡 ‘냉면’은 2009년 MBC 무한도전 올림픽대로 듀엣가요제에서 명카드라이브가 선보인 곡이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-victory-naengmyeon-mbc"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-derivative-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=JHZ70GxjjeI",
+          "https://www.youtube.com/watch?v=LmnP7-jGXUk",
+          "https://www.youtube.com/watch?v=akCeqQCbyO8&t=491s"
+        ],
+        "structureSummary": "팀의 승리를 촉구하는 짧은 도입 뒤, 네 개 문장마다 관중이 한 박자 구호로 답하는 블록을 반복한다. 중간에는 응원단과 관중이 팀명과 승리 선언을 주고받고 다시 처음의 구호 블록으로 돌아간다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-victory-audio-2021",
+        "yt-victory-earliest-2019",
+        "yt-victory-po2-2022",
+        "yt-victory-po4-2022",
+        "yt-victory-playlist-2026",
+        "yt-victory-playlist2-2026"
+      ],
+      "unresolved": [
+        "LG판의 정확한 도입 연도와 첫 사용 경기",
+        "LG판 개사·편곡·녹음 담당자와 이용 허락 범위",
+        "2025~2026 경기장 외부 재생을 직접 확인할 수 있는 현장 자료",
+        "2026 구단 공식 모음집 미수록이 제한적 운용을 뜻하는지 여부"
+      ]
+    },
+    {
+      "id": "lg-twins-saranghaeyo-lg",
+      "title": "사랑해요 LG",
+      "aliases": ["사랑해요 엘지", "사랑해요"],
+      "currentStatus": "current",
+      "summary": "1995년 럭키금성에서 LG로 사명을 바꿀 때 만든 기업 캠페인 CM송이 뿌리다. 김도향은 자신이 즉흥적으로 만들고 ‘사랑해요’라는 핵심 발상을 붙였다고 회고했다. 야구장에서는 2002년 자료, 2009년 응원가 음반, 2011년 느린 퇴장곡, 후대의 빠른 리믹스 등 여러 판본이 확인되며, 현행 문서는 리믹스를 경기 종료 뒤 튼다고 적는다. 판본마다 가사와 편곡이 크게 달라 하나의 동일 음원으로 취급하지 않았다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "1995년 LG그룹 사명 변경 캠페인 ‘사랑해요 LG’ CM송",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-love-mk-2017", "ev-love-kimdohyang-2024", "ev-lg-e-namu"],
+          "notes": "럭키금성에서 LG로 그룹명을 바꾼 사실을 알리기 위해 제작된 캠페인이다."
+        },
+        {
+          "field": "originalCreator",
+          "value": "김도향",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-love-kimdohyang-2024"],
+          "notes": "김도향 본인이 대표 CM송으로 꼽으며 즉흥적으로 만들었다고 직접 설명했다. 세부 작사·작곡·편곡 크레딧은 별도 원자료가 필요하다."
+        },
+        {
+          "field": "baseballCatalogRelease",
+          "value": "2009-04-15 LG 트윈스 응원가 정규 음반의 ‘사랑해요’ 트랙",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-2009-bugs-album"],
+          "notes": "벅스에는 아티스트가 Unknown으로 남고 재생·다운로드 권리가 비활성화돼 있다."
+        },
+        {
+          "field": "earlyBaseballMedia",
+          "value": "1996 시즌 회원용 응원곡 CD에 1995 CF 버전 수록",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-love-cd-history"],
+          "notes": "업로더는 당시 CD 말미에 실렸지만 그 시점 야구장에서는 쓰이지 않았다고 설명한다. 원본 CD 목록의 독립 확인은 남았다."
+        },
+        {
+          "field": "earliestDocumentedStadiumUse",
+          "value": "2002년 전광판·추억 영상 자료",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-love-2002"],
+          "notes": "2020년 업로드된 아카이브 영상 제목이 2002년 자료로 특정한다. 원본 촬영일 메타데이터는 없다."
+        },
+        {
+          "field": "historicalExitVersion",
+          "value": "2011년에는 느린 원형 계열 버전을 경기 종료 뒤 작별곡으로 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-love-exit-2011"],
+          "notes": "공개 댓글에는 2013년에도 사용됐다는 회고가 있으나 추가 검증 전에는 연혁으로 확정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "빠른 리믹스 버전을 경기 종료 후 관중 퇴장 시간에 재생",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu", "yt-love-remix-current-2020", "yt-love-cd-history"],
+          "notes": "2020년 업로더와 2026년 현행 문서가 일치하지만 2025~2026 현장 직접 영상은 찾지 못했다."
+        },
+        {
+          "field": "versionLineage",
+          "value": "1995 CF 원형, 2002 야구 영상판, 2008~2009 장르별 브랜드 리믹스, 2009 야구 음반판, 2011 느린 퇴장판, 후대 빠른 리믹스가 공존",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-love-hsad-2008", "ev-love-adcenter-2009", "ev-lg-2009-bugs-album", "yt-love-cd-history", "yt-love-2002", "yt-love-exit-2011", "yt-love-remix-current-2020", "yt-love-hiphop-lproject-2012"],
+          "notes": "현행 나무위키의 확장형 문구는 벅스의 2009 트랙 문구와도 달라, 어떤 리믹스를 가리키는지 별도 식별이 필요하다."
+        },
+        {
+          "field": "officialCompilationScope",
+          "value": "2026 구단 공식 응원가 모음집의 장 목록에는 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-e-official-2026-scope", "ev-lg-e-namu"],
+          "notes": "경기 종료 뒤 배경 재생곡은 응원단 중심 모음집에서 빠질 수 있으므로 미수록만으로 사용 중단을 결론내리지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "역사적으로 경기 종료 뒤 관중을 배웅하는 작별곡",
+        "일부 시기에는 8회 불꽃 응원과 경기 상황별 전광판 배경음으로 사용",
+        "기업·공장·전화 대기음 등 LG 그룹 전반의 브랜드 사운드로도 널리 인지"
+      ],
+      "trivia": [
+        {
+          "id": "love-best-lg-ad",
+          "summary": "2017년 HS애드가 광고인과 일반인 525명을 조사했을 때 응답자 30%가 이 캠페인을 LG 최고의 광고로 골랐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-love-mk-2017"]
+        },
+        {
+          "id": "love-creator-intuition",
+          "summary": "김도향은 럭키와 금성이 하나가 되는 상황을 생각해 사랑의 메시지를 붙였고 음악은 즉흥적으로 만들었는데 곧바로 채택됐다고 회고했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-love-kimdohyang-2024"]
+        },
+        {
+          "id": "love-genre-remixes",
+          "summary": "HSAD는 2008년 힙합·클럽댄스·재즈 등 장르별 UCC 리믹스를 제작했고, 첫 힙합판은 L Project가 맡아 약 10만 조회 성과를 냈다고 기록했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-love-hsad-2008", "yt-love-hiphop-lproject-2012"]
+        },
+        {
+          "id": "love-bong-hiphop",
+          "summary": "2009년에는 투수 봉중근과 래퍼 이비아의 힙합 배틀 UCC가 제작돼 구단 홈페이지와 홈경기 전광판에 공개될 예정이었고 여러 LG 선수가 엔딩에 출연했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-love-adcenter-2009"]
+        },
+        {
+          "id": "love-plagiarism-case",
+          "summary": "최진희의 ‘가버린 당신’과 유사하다는 소송에서 법원은 도입부 리듬·화성의 유사성은 인정했지만 멜로디와 감흥이 달라 별개 저작물이라고 봤고, 대법원이 비표절 결론을 확정했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-love-tbs-2013"]
+        },
+        {
+          "id": "love-cross-company-memory",
+          "summary": "영상 댓글은 야구장뿐 아니라 LG 공장 출근 음악, 임직원 전화·서비스 대기음, 다른 LG 스포츠 현장에서 들었다는 기억을 반복해 기업 로고송과 야구 응원가의 경계가 흐린 곡임을 보여 준다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-love-2002", "yt-love-audio-2021"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-catalog-playback-and-download-disabled-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://music.bugs.co.kr/track/1727546",
+          "https://www.youtube.com/watch?v=tv-Gfw2xuYU",
+          "https://www.youtube.com/watch?v=cLDnq7DIqTM",
+          "https://v.daum.net/v/20240620101753200"
+        ],
+        "structureSummary": "모든 판본은 짧은 제목형 후렴을 반복하지만, 1990년대·2009년 야구 음반 계열은 미소와 사랑의 확산을 노래하는 짧은 기업 로고송 구조이고, 현행 문서의 확장판은 랩·영어 혼용 벌스와 동행 메시지를 더한 뒤 같은 후렴으로 돌아간다. 빠른 경기 종료 리믹스의 정확한 편집 구조는 별도 확인이 필요하다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-love-cd-history",
+        "yt-love-2002",
+        "yt-love-exit-2011",
+        "yt-love-remix-current-2020",
+        "yt-love-hiphop-lproject-2012",
+        "yt-love-audio-2021",
+        "yt-love-fireworks-2011"
+      ],
+      "unresolved": [
+        "LG 트윈스가 경기장에서 처음 사용한 정확한 연도와 첫 경기",
+        "현재 경기 종료 리믹스의 제작 연도·편곡자·보컬·정식 음원명",
+        "현행 나무위키의 확장형 문구가 어느 브랜드·야구 리믹스 음원에 해당하는지",
+        "2025~2026 경기 종료 뒤 실제 재생을 직접 확인하는 현장 자료",
+        "각 판본별 작사·작곡·편곡·이용 허락과 권리 상태"
+      ]
+    },
+    {
+      "id": "lg-twins-seoul-medley",
+      "title": "서울 메들리",
+      "aliases": ["서울메들리"],
+      "currentStatus": "current",
+      "summary": "이용의 ‘서울’과 정수라의 ‘아! 대한민국’ 후렴을 이어 부르는 서울 연고 정체성의 메들리다. 현행 문서는 ‘서울’ 부분이 MBC 청룡 시절부터 쓰였고 두 곡을 합친 현재 형태는 2006년에 확립됐다고 적는다. 2023·2025 구단 공식 영상과 2026년 여러 이닝·원정 현장 직캠으로 현재 사용을 확실히 확인했다.",
+      "claims": [
+        {
+          "field": "recordedMedleySource",
+          "value": "건아들 — 대학 가요 메들리의 후반부 ‘서울’·‘아! 대한민국’ 연결 구간",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu", "ev-seoul-geonadeul-1985-video"],
+          "notes": "현행 문서는 건아들의 녹음물을 직접 원곡으로 적고, 영상 설명은 두 곡의 연속 배치와 작사·작곡 정보를 확인한다."
+        },
+        {
+          "field": "componentSongs",
+          "value": "이용 — 서울(1982), 정수라 — 아! 대한민국(1984)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-e-namu", "ev-seoul-channel-yes-2015", "ev-seoul-geonadeul-1985-video"],
+          "notes": "서울 메들리의 실질적인 두 선율 원천이다. 건아들 음원은 이 두 곡을 연속 편곡한 매개 버전으로 본다."
+        },
+        {
+          "field": "componentCredits",
+          "value": "두 곡 모두 박건호 작사; ‘서울’ 이범희 작곡, ‘아! 대한민국’ 김재일 작곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-seoul-geonadeul-1985-video"],
+          "notes": "현재 확인한 건아들 영상 설명의 크레딧이며 정식 음반 라이너의 독립 확인은 남았다."
+        },
+        {
+          "field": "earliestComponentUse",
+          "value": "‘서울’ 부분은 1982년 MBC 청룡 시절부터 사용",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-lg-e-namu"],
+          "notes": "당시 중계·구단 자료를 직접 확인하지 못했으므로 원곡 발표연도와 팀 사용연도를 동일시하지 않는다."
+        },
+        {
+          "field": "currentFormEstablished",
+          "value": "2006",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu"],
+          "notes": "두 곡이 하나의 서울 메들리로 결합된 시점에 대한 현행 문서의 주장이다."
+        },
+        {
+          "field": "rightsHiatus",
+          "value": "2017년 저작인격권 논란으로 시즌 중반까지 중단됐다가 8월경 재개",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu"],
+          "notes": "재개 날짜와 권리 합의 문서는 찾지 못해 월 단위 서술로 유지한다."
+        },
+        {
+          "field": "chantVariantChange",
+          "value": "2018-06-22 롯데전부터 응원단장이 팀의 서울 정체성을 강조한 구호를 유도",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu"],
+          "notes": "가사 전문은 저장하지 않고 구호의 방향 변화만 기록한다."
+        },
+        {
+          "field": "historicalUsage",
+          "value": "팀이 앞서거나 결정적 상황·쐐기 득점 뒤, 과거에는 안타 또는 7~8회 승기 확보 때 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu", "ev-seoul-channel-yes-2015", "yt-medley-qf2014"],
+          "notes": "2015년 음악 칼럼과 현행 문서의 설명을 합치되 특정 상황 전용이라고 보지는 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 시즌에도 홈·원정의 중후반 투수 교체와 리드 확보 뒤 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-medley-official-2025", "yt-medley-official-ks2025", "yt-medley-2026-kia", "yt-medley-2026-ssg", "yt-medley-2026-lead", "yt-medley-2026-away"],
+          "notes": "5·6·7회와 원정 9회까지 서로 다른 상황의 2026 직캠이 있어 현재 운용이 유연함을 확인한다."
+        },
+        {
+          "field": "officialCompilationScope",
+          "value": "2026 구단 공식 모음집 장 목록에는 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-e-official-2026-scope", "yt-medley-2026-kia", "yt-medley-2026-ssg"],
+          "notes": "같은 해 다수 현장 영상이 사용을 직접 확인하므로 공식 모음집 미수록은 중단 근거가 아니다."
+        }
+      ],
+      "usageContexts": [
+        "리드 확보나 쐐기 득점 뒤의 대형 떼창",
+        "중후반 상대 투수 교체 때 분위기를 이어가는 응원",
+        "홈뿐 아니라 지방 원정 경기 후반에도 서울 연고 정체성을 강조하는 응원"
+      ],
+      "trivia": [
+        {
+          "id": "medley-two-layer-origin",
+          "summary": "‘원곡’을 건아들의 1985년 메들리 녹음으로 적는 자료와, 실제 구성 선율을 이용·정수라의 두 원곡으로 설명하는 자료가 함께 있어 ‘녹음 매개’와 ‘작품 원천’을 나눠 기록해야 한다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-e-namu", "ev-seoul-geonadeul-1985-video", "ev-seoul-channel-yes-2015"]
+        },
+        {
+          "id": "medley-abba-claim",
+          "summary": "음악웹진 이즘의 2015년 칼럼은 이용의 ‘서울’이 ABBA의 ‘Does Your Mother Know’를 가져온 곡이라고 평하지만, 정식 권리·라이너 자료로 교차 확인되지 않아 참고 주장으로만 남긴다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-seoul-channel-yes-2015"]
+        },
+        {
+          "id": "medley-seoul-identity",
+          "summary": "2026 현장 댓글에서는 ‘서울을 사랑하는 팀’이라는 표현과 함께 이 곡을 LG의 서울 대표성에 연결하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-medley-2026-kia", "yt-medley-2026-ssg", "yt-medley-2026-lead", "yt-medley-2026-away"]
+        },
+        {
+          "id": "medley-postseason-scale",
+          "summary": "2014 준플레이오프 현장 댓글은 원정 응원석까지 채운 관중 규모와 소리의 압도감, 해당 경기의 기억을 반복해서 회고한다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-medley-qf2014"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-medley-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=wOj5d6QGnHU&t=453s",
+          "https://www.youtube.com/watch?v=Y-cBDnUl5k4&t=700s",
+          "https://ch.yes24.com/article/details/28080"
+        ],
+        "structureSummary": "첫 부분은 ‘서울’의 후렴을 세 차례 반복하며 각 회차에 팀 구호를 결합한다. 짧은 간주와 응원단장 멘트 뒤 ‘아! 대한민국’의 후렴 선율로 넘어가 서울과 팀을 연결하는 합창을 두 차례 이상 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-medley-official-2023",
+        "yt-medley-official-2025",
+        "yt-medley-official-ks2025",
+        "yt-medley-qf2014",
+        "yt-medley-2026-kia",
+        "yt-medley-2026-ssg",
+        "yt-medley-2026-lead",
+        "yt-medley-2026-away"
+      ],
+      "unresolved": [
+        "1982년 MBC 청룡 첫 사용을 직접 확인할 당시 중계·구단 기록",
+        "2006년 현행 결합형 확립과 첫 사용 경기의 독립 자료",
+        "2017년 중단·재개의 정확한 날짜와 저작권 합의 내용",
+        "LG판 메들리의 편곡·응원 설계·녹음 담당자"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-lg-e-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "LG 트윈스/응원가",
+      "publisher": "namu.moe",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "무적의 LG의 제작진·시기별 사용, LG의 승리 위해의 원곡과 제한적 현행 사용, 사랑해요 LG의 광고음악 계보와 경기 종료 리믹스, 서울 메들리의 구성·연혁·저작권 중단·구호 변화를 확인했다. 문서 단독 연혁은 reported 또는 contested로 낮췄다.",
+      "supports": [
+        "lg-twins-mujeogui-lg",
+        "lg-twins-lg-ui-seungni-wihae",
+        "lg-twins-saranghaeyo-lg",
+        "lg-twins-seoul-medley"
+      ]
+    },
+    {
+      "id": "ev-lg-e-official-2026-scope",
+      "type": "official",
+      "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8",
+      "title": "[𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧] 엘팬들 직관 준비 끝! 26시즌 LG트윈스 응원가 모음집🎶",
+      "publisher": "LGTWINSTV",
+      "publishedAt": "2026-04-09",
+      "accessedAt": "2026-08-08",
+      "summary": "구단의 2026 응원가 모음집 장 목록에는 이 배치의 네 곡이 모두 빠져 있다. 그러나 무적의 LG와 서울 메들리는 같은 시즌 현장 직캠으로 사용이 직접 확인되므로, 이 영상의 미수록을 곧바로 사용 중단으로 해석하지 않았다.",
+      "supports": [
+        "lg-twins-mujeogui-lg:officialCompilationScope",
+        "lg-twins-lg-ui-seungni-wihae:officialCompilationScope",
+        "lg-twins-saranghaeyo-lg:officialCompilationScope",
+        "lg-twins-seoul-medley:officialCompilationScope"
+      ]
+    },
+    {
+      "id": "ev-mujeog-osen-2007",
+      "type": "press",
+      "url": "https://www.osen.co.kr/article/G0703280026",
+      "title": "LG, 주영훈 작곡의 새 응원가 '무적의 LG' 발표",
+      "publisher": "OSEN",
+      "publishedAt": "2007-03-28",
+      "accessedAt": "2026-08-08",
+      "summary": "주영훈 작곡, 캔(배기성·이종원) 보컬, 2007년 4월 6일 잠실 홈 개막전 공개 계획, 신규 응원곡 프로젝트와 무상 헌정 의사를 동시대 기사로 확인한다.",
+      "supports": [
+        "lg-twins-mujeogui-lg:origin",
+        "lg-twins-mujeogui-lg:composer",
+        "lg-twins-mujeogui-lg:recordedVocal",
+        "lg-twins-mujeogui-lg:introductionYear"
+      ]
+    },
+    {
+      "id": "ev-lg-2009-bugs-album",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/182045",
+      "title": "프로야구 응원가 - 엘지 트윈스 (LG Twins)",
+      "publisher": "벅스",
+      "publishedAt": "2009-04-15",
+      "accessedAt": "2026-08-08",
+      "summary": "2009년 4월 15일 발매된 16곡짜리 LG 트윈스 응원가 정규 음반에서 ‘사랑해요’와 ‘무적의 LG’를 확인한다. 두 트랙의 아티스트는 Unknown이며 현재 권리사 요청으로 재생·다운로드가 불가능하다.",
+      "supports": [
+        "lg-twins-mujeogui-lg:introductionYear",
+        "lg-twins-saranghaeyo-lg:baseballCatalogRelease",
+        "lyrics-rights"
+      ]
+    },
+    {
+      "id": "ev-victory-naengmyeon-mbc",
+      "type": "official-broadcaster",
+      "url": "https://www.youtube.com/watch?v=akCeqQCbyO8&t=491s",
+      "title": "Infinite Challenge Song Festival Compilation | 무도띵곡모음 :: 2009 올림픽대로 듀엣가요제",
+      "publisher": "MBCkpop",
+      "publishedAt": "2019-07-23",
+      "accessedAt": "2026-08-08",
+      "summary": "MBC 공식 영상이 08:11 장에서 2009 올림픽대로 듀엣가요제의 명카드라이브(박명수·제시카) ‘냉면’을 수록한다.",
+      "supports": [
+        "lg-twins-lg-ui-seungni-wihae:origin",
+        "lg-twins-lg-ui-seungni-wihae:originalCredits",
+        "lg-twins-lg-ui-seungni-wihae:originFestival"
+      ]
+    },
+    {
+      "id": "ev-victory-naengmyeon-karaoke",
+      "type": "official-karaoke",
+      "url": "https://www.youtube.com/watch?v=nobiQfOFoVY",
+      "title": "냉면(차가운 얼굴) - 명카드라이브(박명수,제시카)(KY.84372) / KY Karaoke",
+      "publisher": "금영 노래방 공식 유튜브 채널",
+      "publishedAt": "2019-08-22",
+      "accessedAt": "2026-08-08",
+      "summary": "금영 공식 반주 영상이 원곡 가수를 명카드라이브(박명수·제시카), 작곡자를 E-TRIBE로 표기한다.",
+      "supports": ["lg-twins-lg-ui-seungni-wihae:originalCredits"]
+    },
+    {
+      "id": "ev-love-mk-2017",
+      "type": "press",
+      "url": "https://www.mk.co.kr/news/business/7749242",
+      "title": "[Biz Now] LG 70년…최고의 광고는? `사랑해요 LG`",
+      "publisher": "매일경제",
+      "publishedAt": "2017-03-16",
+      "accessedAt": "2026-08-08",
+      "summary": "1995년 럭키금성에서 LG로 사명을 바꿀 때 제작한 캠페인임을 확인하고, HS애드 조사에서 525명 중 30%가 LG 최고의 광고로 골랐다고 보도한다.",
+      "supports": [
+        "lg-twins-saranghaeyo-lg:origin",
+        "lg-twins-saranghaeyo-lg:bestAd"
+      ]
+    },
+    {
+      "id": "ev-love-kimdohyang-2024",
+      "type": "interview",
+      "url": "https://v.daum.net/v/20240620101753200",
+      "title": "김도향 ‘사랑해요∼사랑해요∼죽는 날까지 노래로 세상 아름답게 할 것’",
+      "publisher": "연합뉴스·다음",
+      "publishedAt": "2024-06-20",
+      "accessedAt": "2026-08-08",
+      "summary": "김도향이 자신의 대표 CM송으로 사랑해요 LG를 꼽고, 럭키와 금성의 결합을 생각해 사랑의 문구를 만들었으며 음악을 즉흥적으로 만들어 곧바로 채택됐다고 직접 회고한다.",
+      "supports": [
+        "lg-twins-saranghaeyo-lg:origin",
+        "lg-twins-saranghaeyo-lg:originalCreator"
+      ]
+    },
+    {
+      "id": "ev-love-hsad-2008",
+      "type": "official-agency",
+      "url": "https://blog.hsad.co.kr/1170",
+      "title": "2008 : LG브랜드",
+      "publisher": "HSAD 공식 블로그 HSADzine",
+      "publishedAt": "2010-08-18",
+      "accessedAt": "2026-08-08",
+      "summary": "2008년 캠페인에서 사랑해요 LG를 여러 장르로 다시 편곡했고, Napper 중심의 L Project 힙합 UCC와 클럽댄스·재즈 후속판을 제작했으며 첫 영상이 약 10만 조회를 기록했다고 설명한다.",
+      "supports": [
+        "lg-twins-saranghaeyo-lg:versionLineage",
+        "lg-twins-saranghaeyo-lg:genreRemixes"
+      ]
+    },
+    {
+      "id": "ev-love-adcenter-2009",
+      "type": "trade-press",
+      "url": "https://www.ad.co.kr/journal/column/show.do?ukey=56069",
+      "title": "재주 많은 야구선수 봉중근, 힙합 배틀 놀라워! 외",
+      "publisher": "광고정보센터 광고계동향",
+      "publishedAt": "2009-07-14",
+      "accessedAt": "2026-08-08",
+      "summary": "봉중근과 이비아가 참여한 사랑해요 LG 힙합 UCC를 LG가 공개했고, 구단 홈페이지와 홈경기 전광판에서 상영할 예정이었다고 기록한다. 박용택·심수창·최동수·이범준도 엔딩에 출연했다.",
+      "supports": [
+        "lg-twins-saranghaeyo-lg:versionLineage",
+        "lg-twins-saranghaeyo-lg:bongHipHop"
+      ]
+    },
+    {
+      "id": "ev-love-tbs-2013",
+      "type": "press",
+      "url": "https://m.tbs.seoul.kr/news/newsView.do?seq_800=506083&typ_800=6",
+      "title": "‘사랑해요 LG’ 표절시비 4년 송사, LG승소로 마무리",
+      "publisher": "서울특별시 미디어재단 TBS",
+      "publishedAt": "2013-03-07",
+      "accessedAt": "2026-08-08",
+      "summary": "‘가버린 당신’과의 표절 소송에서 1·2심과 대법원이 도입부 리듬·화성의 유사성에도 멜로디와 감흥이 달라 별개의 저작물이라고 판단해 비표절 결론을 확정했다고 보도한다.",
+      "supports": ["lg-twins-saranghaeyo-lg:plagiarismCase"]
+    },
+    {
+      "id": "ev-seoul-channel-yes-2015",
+      "type": "music-press",
+      "url": "https://ch.yes24.com/article/details/28080",
+      "title": "지금은 야구 시즌! 야구 응원가 특집",
+      "publisher": "이즘·채널예스",
+      "publishedAt": "2015-05-19",
+      "accessedAt": "2026-08-08",
+      "summary": "서울 메들리의 구성곡을 이용 ‘서울’(1982)과 정수라 ‘아! 대한민국’(1984)으로 소개하고, LG가 리드하거나 결정적 상황·쐐기 득점 때 사용한다고 설명한다. ‘서울’과 ABBA 곡의 유사 계보 주장도 있으나 별도 교차 전에는 참고로만 쓴다.",
+      "supports": [
+        "lg-twins-seoul-medley:componentSongs",
+        "lg-twins-seoul-medley:historicalUsage",
+        "lg-twins-seoul-medley:abbaClaim"
+      ]
+    },
+    {
+      "id": "ev-seoul-geonadeul-1985-video",
+      "type": "youtube-archive",
+      "url": "https://www.youtube.com/watch?v=wOj5d6QGnHU",
+      "title": "건아들 - 대학가요 메들리 1985",
+      "publisher": "상상공작소",
+      "publishedAt": "2012-11-30",
+      "accessedAt": "2026-08-08",
+      "summary": "1985년 건아들 음반 수록 메들리를 소개하며 07:33 ‘서울’, 08:45 ‘아! 대한민국’을 연속 배치하고 두 곡의 작사·작곡 크레딧을 제공한다.",
+      "supports": [
+        "lg-twins-seoul-medley:recordedMedleySource",
+        "lg-twins-seoul-medley:componentSongs",
+        "lg-twins-seoul-medley:componentCredits"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-mujeog-official-2023",
+      "songId": "lg-twins-mujeogui-lg",
+      "url": "https://www.youtube.com/watch?v=Y-cBDnUl5k4&t=173s",
+      "videoId": "Y-cBDnUl5k4",
+      "title": "🌟직관 전 필수 시청!🌟 2023 LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2023-08-22",
+      "descriptionSummary": "구단 공식 직관 가이드로 02:53 장에 무적의 LG를 수록하고 안무를 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 영상이 직관 예습에 유용하고 실제 야구장에 가고 싶게 만든다는 반응이 반복된다.",
+        "곡별 댓글보다 전체 응원가 모음과 경기 개시 분위기에 대한 반응이 중심이라는 한계가 있다."
+      ],
+      "supports": ["official-2023-use", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mujeog-official-2025",
+      "songId": "lg-twins-mujeogui-lg",
+      "url": "https://www.youtube.com/watch?v=BW1RSDqQQhE&t=1014s",
+      "videoId": "BW1RSDqQQhE",
+      "title": "오렌지석이 말아주는 직관가이드, LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2025-04-21",
+      "descriptionSummary": "2025 구단 공식 응원가·율동 가이드의 16:54 장에 무적의 LG를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "야구 없는 날에도 듣고 직관을 준비한다는 반응과 율동이 더 잘 보이는 촬영을 원하는 반응이 있다.",
+        "댓글은 전체 모음집 반응이므로 개별 곡의 연혁 근거로 사용하지 않았다."
+      ],
+      "supports": ["official-2025-use", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mujeog-audio-2012",
+      "songId": "lg-twins-mujeogui-lg",
+      "url": "https://www.youtube.com/watch?v=c1Mw3S-OYVA",
+      "videoId": "c1Mw3S-OYVA",
+      "title": "LG twins 응원가 - 무적의 LG",
+      "channel": "워즈굿",
+      "publishedAt": "2012-04-19",
+      "descriptionSummary": "LG 트윈스 홈페이지 주소만 적은 응원가 음원 영상으로 2012년 온라인 유통과 팬 인지도를 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "잠실 입장 전과 경기 시작 전에 들을 때의 설렘을 떠올리는 댓글이 반복된다.",
+        "2023 우승 뒤 다시 찾아왔다는 반응과 오래된 잠실의 기억을 연결하는 반응도 있다."
+      ],
+      "supports": ["2012-online-presence", "fan-memory"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mujeog-fan-mv-2020",
+      "songId": "lg-twins-mujeogui-lg",
+      "url": "https://www.youtube.com/watch?v=Bd0ufD-2iUY",
+      "videoId": "Bd0ufD-2iUY",
+      "title": "LG트윈스 응원가｜무적의 LG 뮤직비디오｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2020-05-03",
+      "descriptionSummary": "경기 장면을 엮어 제작한 팬 뮤직비디오로 곡을 경기 시작의 대표 응원가로 제시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "‘시작을 알리는 근본 응원가’라는 평가와 잠실 입구에서 듣던 기억이 여러 댓글에서 반복된다.",
+        "코로나19 시기 업로드라 직관을 다시 가고 싶다는 반응도 많다."
+      ],
+      "supports": ["fan-reception", "opening-association"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mujeog-field-2025",
+      "songId": "lg-twins-mujeogui-lg",
+      "url": "https://www.youtube.com/watch?v=OhZjS1SEOsY",
+      "videoId": "OhZjS1SEOsY",
+      "title": "[안방1열_엘지트윈스] 250506 팀응원가 '무적의 LG' ㅣ 이주은 우혜준 박예은 차영현 치어리더",
+      "channel": "GRIJUA 그리주아TV",
+      "publishedAt": "2025-05-06",
+      "descriptionSummary": "2025년 5월 6일 네 치어리더가 무적의 LG에 맞춰 공연하는 현장 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡을 ‘근본 응원가’라고 부르는 반응이 있다.",
+        "대부분의 댓글은 치어리더 공연 반응이라 곡의 연혁 자료로 쓰지 않았다."
+      ],
+      "supports": ["2025-field-use", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mujeog-field-2026",
+      "songId": "lg-twins-mujeogui-lg",
+      "url": "https://www.youtube.com/watch?v=nPIlqQybCKQ",
+      "videoId": "nPIlqQybCKQ",
+      "title": "무적의 LG 2026년",
+      "channel": "Cheesecaps Champiret",
+      "publishedAt": "2026-07-14",
+      "descriptionSummary": "2026년 전반기 장면을 바탕으로 만든 무적의 LG 팬 뮤직비디오라고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026-recognition", "current-season-footage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mujeog-cheer-2026",
+      "songId": "lg-twins-mujeogui-lg",
+      "url": "https://www.youtube.com/watch?v=DvCpV2VRZ9Q",
+      "videoId": "DvCpV2VRZ9Q",
+      "title": "[4K] \"데뷔전 승리요정\" 양효주 신입 치어리더 직캠 | 무적의 LG & 서울의 찬가 (260425)",
+      "channel": "엘트",
+      "publishedAt": "2026-04-25",
+      "descriptionSummary": "2026년 4월 25일 잠실에서 무적의 LG와 서울의 찬가 안무를 촬영한 현장 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 신입 치어리더의 데뷔와 안무 반응이 중심이다.",
+        "곡 자체의 유래나 사용 시점에 관한 댓글은 확인되지 않았다."
+      ],
+      "supports": ["2026-field-use", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-audio-2021",
+      "songId": "lg-twins-lg-ui-seungni-wihae",
+      "url": "https://www.youtube.com/watch?v=JHZ70GxjjeI",
+      "videoId": "JHZ70GxjjeI",
+      "title": "LG트윈스 응원가 - LG의 승리 위해",
+      "channel": "LG윤빠",
+      "publishedAt": "2021-02-27",
+      "descriptionSummary": "설명 없이 곡 전체를 제시하는 음원형 영상으로 비슷한 제목의 2021 신곡과 구분되는 선율을 확인할 수 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "웅장하고 중독성 있다는 호평과 좋아하는 LG 응원가로 꼽는 반응이 있다.",
+        "평소에는 자주 사용하지 않아 아쉽다는 댓글이 제한적 현행 사용 주장과 부합한다."
+      ],
+      "supports": ["song-identity", "fan-reception", "limited-use-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-earliest-2019",
+      "songId": "lg-twins-lg-ui-seungni-wihae",
+      "url": "https://www.youtube.com/watch?v=LmnP7-jGXUk",
+      "videoId": "LmnP7-jGXUk",
+      "title": "LG twins 팀응원가 열광 및 승리위한함성(가제)_20190413",
+      "channel": "sg l",
+      "publishedAt": "2019-04-16",
+      "descriptionSummary": "2019년 4월 13일 현장 사용을 기록하고, 설명에 곡의 콜앤드리스폰스 전체 흐름을 적어 대상 곡임을 식별할 수 있다. 설명 전문은 저장하지 않았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliest-documented-use", "working-title", "structure"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-po2-2022",
+      "songId": "lg-twins-lg-ui-seungni-wihae",
+      "url": "https://www.youtube.com/watch?v=kKD5pwQa1cc",
+      "videoId": "kKD5pwQa1cc",
+      "title": "[4K] 3회말 전 LG의 승리 위해! [2022.10.25 (VS 키움 PO 2차전) LG의 승리 위해 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2022-10-25",
+      "descriptionSummary": "2022 플레이오프 2차전 3회 말 시작 전 사용을 날짜·경기와 함께 기록한 직캠이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2022-postseason-use", "third-inning-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-po4-2022",
+      "songId": "lg-twins-lg-ui-seungni-wihae",
+      "url": "https://www.youtube.com/watch?v=fIuHDJU38js",
+      "videoId": "fIuHDJU38js",
+      "title": "[4K] 4회초 전 LG의 승리 위해! [2022.10.28 (VS 키움 PO 4차전) LG의 승리 위해 버건디석 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2022-10-28",
+      "descriptionSummary": "2022 플레이오프 4차전 4회 초 시작 전 원정 응원석에서 사용된 장면을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 1건이며 상대 팀 관점의 도발성 문구라 곡 정보에는 활용하지 않았다."
+      ],
+      "supports": ["2022-postseason-use", "away-section-use", "fourth-inning-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-playlist-2026",
+      "songId": "lg-twins-lg-ui-seungni-wihae",
+      "url": "https://www.youtube.com/watch?v=Z7xpvQI9Usw&t=2327s",
+      "videoId": "Z7xpvQI9Usw",
+      "title": "2026 LG트윈스 응원가 플레이리스트",
+      "channel": "장미정원",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "고정 댓글의 상세 시간표가 38:47에 LG의 승리 위해를 수록하고, 제목이 비슷한 LG의 승리를 위하여를 52:10에 별도로 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관 전 응원가를 익히거나 개막을 기다리며 반복 청취한다는 반응이 많다.",
+        "고정 댓글이 두 유사 제목 곡을 별도 장으로 분리해 곡 식별에 도움이 된다."
+      ],
+      "supports": ["2026-fan-catalog", "disambiguation"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-playlist2-2026",
+      "songId": "lg-twins-lg-ui-seungni-wihae",
+      "url": "https://www.youtube.com/watch?v=_qYAEvdjZ54&t=805s",
+      "videoId": "_qYAEvdjZ54",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 2026.03ver. LG 트윈스 선수&팀응원가 (신규 응원가 포함)",
+      "channel": "석민대디",
+      "publishedAt": "2026-03-28",
+      "descriptionSummary": "2026년 3월판 팬 플레이리스트가 13:25 장에 LG의 승리 위해를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원가 구성과 타임라인에 대한 피드백, 팀 응원가에 대한 호평이 중심이다.",
+        "곡별 현재 경기장 운용을 직접 증언하는 댓글은 확인되지 않았다."
+      ],
+      "supports": ["2026-fan-catalog", "current-recognition"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-cd-history",
+      "songId": "lg-twins-saranghaeyo-lg",
+      "url": "https://www.youtube.com/watch?v=cLDnq7DIqTM",
+      "videoId": "cLDnq7DIqTM",
+      "title": "사랑해요 LG(1995 CD Ver) with 사랑해요 LG 변천사 / LG 트윈스 추억의 응원 & BGM",
+      "channel": "LGGOLSU",
+      "publishedAt": "2020-10-01",
+      "descriptionSummary": "1996 시즌 회원용 응원곡 CD에 1995 CF 버전이 실렸지만 당시 경기장 사용 목적은 아니었고, 후대에는 리믹스가 관중 퇴장 때 쓰인다고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "과거 8회 불꽃 응원에 이 곡을 사용했던 기억과 그 방식의 부활을 바라는 반응이 있다.",
+        "기타 댓글 중 곡과 무관한 개인정보성 내용은 요약에서 제외했다."
+      ],
+      "supports": ["1996-member-cd", "version-history", "postgame-remix"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-2002",
+      "songId": "lg-twins-saranghaeyo-lg",
+      "url": "https://www.youtube.com/watch?v=E8dIuqR_hP0",
+      "videoId": "E8dIuqR_hP0",
+      "title": "사랑해요 LG(2002) / LG 트윈스 추억의 영상&전광판",
+      "channel": "LGGOLSU",
+      "publishedAt": "2020-05-01",
+      "descriptionSummary": "2002년 LG 경기·전광판 장면을 편집한 아카이브 영상으로, 업로더는 후대에 더 빠른 리믹스가 쓰인다고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "과거 LG가 앞설 때 8회 뒤, 지면 경기 종료 뒤 들었다는 구체적 회고가 있으나 팬 기억이므로 참고로만 남겼다.",
+        "LG 치타스와 기업 전화 대기음에서도 들었다는 반응이 있어 그룹 공통 브랜드 사운드로 인지된 양상을 보여 준다."
+      ],
+      "supports": ["2002-archive", "historical-use-recollection", "cross-company-memory"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-exit-2011",
+      "songId": "lg-twins-saranghaeyo-lg",
+      "url": "https://www.youtube.com/watch?v=CEfUa33VMXw",
+      "videoId": "CEfUa33VMXw",
+      "title": "사랑해요 LG - 경기 종료 후 작별곡(2011) / LG 트윈스 추억의 영상&전광판",
+      "channel": "LGGOLSU",
+      "publishedAt": "2020-05-09",
+      "descriptionSummary": "2011년에 현재의 빠른 리믹스가 아닌 느린 원형 계열 버전을 경기 종료 작별곡으로 사용한 장면이라고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 1건은 2013년에도 이 버전을 사용했다고 회고하지만 독립 자료가 없어 확정하지 않았다."
+      ],
+      "supports": ["2011-exit-song", "slow-version"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-remix-current-2020",
+      "songId": "lg-twins-saranghaeyo-lg",
+      "url": "https://www.youtube.com/watch?v=tv-Gfw2xuYU",
+      "videoId": "tv-Gfw2xuYU",
+      "title": "사랑해요 LG(Remix ver) - 경기 종료 후 작별곡",
+      "channel": "LGGOLSU",
+      "publishedAt": "2020-05-09",
+      "descriptionSummary": "업로드 당시 사용 중인 경기 종료 작별곡의 빠른 리믹스 버전이라고 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "LG 임직원 전화 연결음에서 들었다는 추억과 음원 파일을 구하고 싶다는 요청이 있다.",
+        "곡에 대한 애정 표현이 중심이고 제작진·도입 연도 정보는 없다."
+      ],
+      "supports": ["2020-current-use-report", "postgame-remix", "fan-demand"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-hiphop-lproject-2012",
+      "songId": "lg-twins-saranghaeyo-lg",
+      "url": "https://www.youtube.com/watch?v=N-CWTrOI1h4",
+      "videoId": "N-CWTrOI1h4",
+      "title": "L Project No6 hiphop2 사랑해요LG트윈스 big size",
+      "channel": "LG챌린저스[LG Challengers]",
+      "publishedAt": "2012-05-31",
+      "descriptionSummary": "L Project 명의의 사랑해요 LG 트윈스 힙합 변형을 담은 영상으로, HSAD가 기록한 장르별 브랜드 리믹스 계보와 연결된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "후대 야구 예능에서 이 영상을 접하고 찾아왔다는 반응이 다수다.",
+        "한 댓글은 2009년에 이미 영상을 봤다고 회고하지만 업로드일 이전 원본 공개 시점을 확정하는 근거로 쓰지 않았다."
+      ],
+      "supports": ["hiphop-variant", "l-project", "version-lineage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-audio-2021",
+      "songId": "lg-twins-saranghaeyo-lg",
+      "url": "https://www.youtube.com/watch?v=xnSjikwlPHM",
+      "videoId": "xnSjikwlPHM",
+      "title": "LG트윈스 응원가 - 사랑해요 LG",
+      "channel": "LG윤빠",
+      "publishedAt": "2021-02-27",
+      "descriptionSummary": "별도 설명 없이 LG 트윈스 응원가 버전을 들려주는 음원형 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "과거 잠실에서 분위기가 가라앉을 때 들었다는 팬 회고가 있다.",
+        "LG 공장 출근 음악과 전화 대기음으로 들었다는 기업 생활권의 기억이 반복된다."
+      ],
+      "supports": ["baseball-version", "cross-company-memory", "fan-recollection"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-fireworks-2011",
+      "songId": "lg-twins-saranghaeyo-lg",
+      "url": "https://www.youtube.com/watch?v=gkJur0jFOLU",
+      "videoId": "gkJur0jFOLU",
+      "title": "사랑해요 LG - 8회 불꽃 응원 버전 포함(~2011) / LG 트윈스 추억의 응원",
+      "channel": "LGGOLSU",
+      "publishedAt": "2020-05-09",
+      "descriptionSummary": "2011년 무렵까지 고정 레퍼토리로 자리잡지는 못했지만 8회 불꽃 응원에 잠시 사용한 시기가 있었다고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["historical-eighth-inning-use", "fireworks-version"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-medley-official-2023",
+      "songId": "lg-twins-seoul-medley",
+      "url": "https://www.youtube.com/watch?v=Y-cBDnUl5k4&t=700s",
+      "videoId": "Y-cBDnUl5k4",
+      "title": "🌟직관 전 필수 시청!🌟 2023 LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2023-08-22",
+      "descriptionSummary": "구단 공식 직관 가이드의 11:40 장에 서울 메들리를 수록하고 응원단과 관중의 합창 방식을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 영상이 직관 예습에 유용하고 잠실 현장을 떠올리게 한다는 반응이 많다.",
+        "댓글은 전체 응원가 모음 반응이 중심이라 개별 곡의 연혁 근거로 쓰지 않았다."
+      ],
+      "supports": ["official-2023-use", "structure", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-medley-official-2025",
+      "songId": "lg-twins-seoul-medley",
+      "url": "https://www.youtube.com/watch?v=BW1RSDqQQhE&t=1064s",
+      "videoId": "BW1RSDqQQhE",
+      "title": "오렌지석이 말아주는 직관가이드, LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2025-04-21",
+      "descriptionSummary": "2025 구단 공식 응원가·율동 가이드의 17:44 장에 서울 메들리를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들이 야구 없는 날에도 반복 재생하고 직관 전 연습에 활용한다는 반응이 있다.",
+        "율동을 더 잘 볼 수 있는 별도 각도를 원하는 의견도 확인된다."
+      ],
+      "supports": ["official-2025-use", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-medley-official-ks2025",
+      "songId": "lg-twins-seoul-medley",
+      "url": "https://www.youtube.com/watch?v=_HcGMcKsOFk&t=564s",
+      "videoId": "_HcGMcKsOFk",
+      "title": "한국시리즈 직관 준비! 타자 응원가&팀 응원가 복습 타임🎶 [트윈스 치얼업]",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2025-10-21",
+      "descriptionSummary": "2025 한국시리즈 직관 준비용 구단 공식 영상이 09:24 장에 정규시즌 관중석의 서울 메들리를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한국시리즈 티켓 여부와 무관하게 응원가를 연습하고 현장 팬에게 열정적인 응원을 부탁하는 반응이 많다.",
+        "서울 메들리만을 특정한 댓글보다 전체 한국시리즈 예열 반응이 중심이다."
+      ],
+      "supports": ["official-2025-postseason-use", "crowd-performance"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-medley-qf2014",
+      "songId": "lg-twins-seoul-medley",
+      "url": "https://www.youtube.com/watch?v=jtXiyoXFwbU",
+      "videoId": "jtXiyoXFwbU",
+      "title": "2014프로야구 준플레이오프3차전 서울 메들리, 이병규9 등장 현장응원(NC DINOS VS LG TWINS)",
+      "channel": "live curious-리브 큐리어스",
+      "publishedAt": "2014-10-24",
+      "descriptionSummary": "2014 준플레이오프 3차전 홈경기에서 서울 메들리 뒤 이병규가 등장하는 대형 현장 응원을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "외야와 원정 응원석까지 채운 LG 팬 규모와 육성 응원의 압도감을 회고하는 반응이 많다.",
+        "서울 메들리를 들으면 소름이 돋는다는 곡 자체의 강한 현장 반응도 확인된다."
+      ],
+      "supports": ["2014-postseason-use", "fan-reception", "large-crowd-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-medley-2026-kia",
+      "songId": "lg-twins-seoul-medley",
+      "url": "https://www.youtube.com/watch?v=prX1DV4WgHY",
+      "videoId": "prX1DV4WgHY",
+      "title": "\"아름다운 서울을 사랑하리라~\" 6회말 투수교체때 서울 메들리 떼창! [2026.04.01 VS 기아 2차전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2026-04-01",
+      "descriptionSummary": "2026년 4월 1일 KIA전 6회 말 상대 투수 교체 때 서울 메들리를 부르는 잠실 현장 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "LG를 서울을 사랑하고 대표하는 팀으로 표현하는 반응과 이 곡을 팀 응원가 중 최고로 꼽는 반응이 있다.",
+        "노란 응원 수건 물결의 장관도 언급된다."
+      ],
+      "supports": ["2026-field-use", "pitching-change-use", "seoul-identity"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-medley-2026-ssg",
+      "songId": "lg-twins-seoul-medley",
+      "url": "https://www.youtube.com/watch?v=BSvqd22mpoA",
+      "videoId": "BSvqd22mpoA",
+      "title": "5회말 오지환의 멀티히트! 상대 선발 강판! 그리고, 잠실을 노랗게 물들인 서울 메들리 떼창! [2026.04.12 VS SSG 3차전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2026-04-12",
+      "descriptionSummary": "2026년 4월 12일 SSG전 5회 말 오지환의 멀티히트와 상대 선발 강판 뒤 서울 메들리를 부른 장면이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 해당 경기의 오지환 활약과 응원석 현장감을 중심으로 반응한다.",
+        "상대 팬의 스윕 결과 언급도 있으나 곡 정보에는 활용하지 않았다."
+      ],
+      "supports": ["2026-field-use", "momentum-use", "pitching-change-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-medley-2026-lead",
+      "songId": "lg-twins-seoul-medley",
+      "url": "https://www.youtube.com/watch?v=8Zwbo9aQWww",
+      "videoId": "8Zwbo9aQWww",
+      "title": "7회말 다시 리드 잡고 부르는 서울 메들리 떼창! [2026.07.28 VS 키움 10차전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2026-07-28",
+      "descriptionSummary": "2026년 7월 28일 키움전 7회 말 재역전·리드 확보 뒤 서울 메들리를 부른 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "영상으로도 야구장 직관의 기분이 전해진다는 반응과 서울 정체성에 관한 반응이 있다.",
+        "해당 이닝을 만든 타자들을 언급하는 경기 맥락 댓글도 확인된다."
+      ],
+      "supports": ["2026-field-use", "lead-change-use", "seventh-inning-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-medley-2026-away",
+      "songId": "lg-twins-seoul-medley",
+      "url": "https://www.youtube.com/watch?v=kaKqmv8Grss",
+      "videoId": "kaKqmv8Grss",
+      "title": "마무리는 서울을 대표하는 야구팀답게, 서울 메들리로~ (9회초 서울 메들리 떼창!) [2026.04.19 VS 삼성 2차전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2026-04-19",
+      "descriptionSummary": "2026년 4월 19일 대구 원정 삼성전 9회 초에 서울 메들리를 부른 장면으로 원정 사용을 직접 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "지방 원정에서도 서울 메들리를 부른다는 사실을 처음 알았다는 반응이 있다.",
+        "LG 팬의 원정 응원 규모와 서울 대표 팀 정체성을 칭찬하는 반응이 반복된다."
+      ],
+      "supports": ["2026-away-use", "ninth-inning-use", "seoul-identity"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 4,
+    "youtubeSampleCount": 28,
+    "songsMeetingYoutubeMinimum": 4,
+    "openIssueCount": 17
+  }
+}

@@ -1,0 +1,1567 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kiwoom-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kiwoom-heroes",
+    "name": "키움 히어로즈",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 구단 응원가·편곡은 합법적으로 열람 가능한 출처 URL, 권리 상태, 구성·주제 요약만 남긴다. 공개 댓글은 작성자 식별정보와 원문 인용 없이 반복되는 반응만 익명 요약한다. 전통곡 계보가 있는 경우에도 구단용 개사·편곡·녹음의 권리는 별도로 존중한다.",
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 31,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 26
+  },
+  "items": [
+    {
+      "id": "kiwoom-heroes-new-heroes-come-here",
+      "title": "New Heroes Come Here",
+      "currentStatus": "current-official-2026-team-cheer",
+      "summary": "2019년 키움 히어로즈 출범기에 등장한 팀 응원가다. 구단 응원가 페이지의 음원 경로는 2019년 3월 27일자로 남아 있고, 3월 29일 경기 표기의 현장 영상과 2019 단독 음원이 뒤따른다. 2025·2026 구단 공식 플레이리스트에도 수록돼 현행성을 확인했다. ‘키움’ 명칭으로 처음 만든 신규 팀곡이라는 설명과 비디오 판독 때 사용한다는 설명은 나무위키 계열 자료에 있으나, 정확한 최초 공개일·제작 크레딧·공식 상황별 운용 지침은 확인되지 않았다.",
+      "aliases": [
+        "뉴 히어로즈 컴 히어",
+        "New Heroes",
+        "키움 새 응원가"
+      ],
+      "usageContexts": [
+        "키움 히어로즈 팀명과 정체성을 강조하는 집단 제창",
+        "시즌 전·직관 전 공식 응원가 학습용 플레이리스트",
+        "비디오 판독 대기 중 사용된다고 알려진 경기장 운용"
+      ],
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2019년 키움 히어로즈 출범기 도입; 공식 사이트 음원 경로 2019-03-27, 2019-03-29 현장 사용 확인",
+          "assessment": "verified-earliest-direct-window",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-official-cheer-page",
+            "ev-kiwoom-a-launch-2019",
+            "yt-kiwoom-a-new-field-2019",
+            "yt-kiwoom-a-new-audio-2019"
+          ],
+          "notes": "1월 출범식 자료는 새 응원가 소개 자체를 보여 주지만 곡명을 직접 특정하지 않아, 이 곡의 확실한 도입 경계는 3월 공식 음원 경로와 현장 영상으로 잡았다."
+        },
+        {
+          "field": "namingContext",
+          "value": "키움 히어로즈 명칭 출범 뒤 제작된 첫 신규 팀 응원가로 알려짐",
+          "assessment": "reported-with-contemporary-context",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-namu-snapshot",
+            "ev-kiwoom-a-launch-2019",
+            "yt-kiwoom-a-new-launch-vlog-2019"
+          ],
+          "notes": "2019년 1월 공식 출범 구호와 신곡 소개는 동시대 자료로 확인된다. 다만 공개 자료가 출범식의 신곡을 이 제목으로 명시하지 않아 ‘첫 곡’의 세부 정의는 검토 여지가 있다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 목록 27:18, 2026 공식 목록 25:08 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-official-cheer-page",
+            "yt-kiwoom-a-new-official-2025",
+            "yt-kiwoom-a-new-official-2026"
+          ],
+          "notes": "연속 두 시즌 구단 공식 채널과 현행 구단 페이지가 곡명과 사용 상태를 확인한다."
+        },
+        {
+          "field": "situationalUse",
+          "value": "비디오 판독 대기 때 사용하는 곡으로 알려짐",
+          "assessment": "reported-unverified",
+          "confidence": "low-medium",
+          "evidenceRefs": [
+            "ev-kiwoom-a-namu-snapshot"
+          ],
+          "notes": "나무위키 미러 스냅샷의 설명이다. 구단 공지나 판독 장면 원본 영상으로 아직 교차하지 못했다."
+        },
+        {
+          "field": "originAndCredits",
+          "value": "외부 원곡이 확인되지 않은 구단 응원가; 작사·작곡·편곡·보컬 미확인",
+          "assessment": "unresolved-credits",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kiwoom-a-official-cheer-page",
+            "yt-kiwoom-a-new-audio-2019"
+          ],
+          "notes": "공식 음원은 제공되지만 페이지와 표본 영상에서 제작진 크레딧이나 별도의 원곡 표기를 찾지 못했다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "new-launch-slogan-echo",
+          "summary": "제목은 2019년 1월 구단 출범식의 핵심 표어 ‘NEW HEROES, KIWOOM HEROES’와 어휘를 공유한다. 같은 행사 영상에서 치어리더가 새 응원가를 소개한 사실도 확인되지만, 그 장면의 곡명이 곧 이 곡이었다고 단정하지는 않는다.",
+          "assessment": "verified-context-with-inference-boundary",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-launch-2019",
+            "yt-kiwoom-a-new-launch-vlog-2019"
+          ]
+        },
+        {
+          "id": "new-playlist-gap",
+          "summary": "2024 공식 장편 플레이리스트 표본에는 이 곡이 빠졌지만 2025·2026 공식 목록에는 다시 명시된다. 한 해의 선별형 영상 누락만으로 당시 미사용이나 폐지를 판단할 수 없다는 사례다.",
+          "assessment": "verified-omission-with-caution",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kiwoom-a-new-official-2025",
+            "yt-kiwoom-a-new-official-2026",
+            "yt-kiwoom-a-haneul-official-2024"
+          ]
+        },
+        {
+          "id": "new-early-reception",
+          "summary": "2019년 단독 영상의 소수 댓글은 새 구단명과 밝은 인상의 곡을 반기거나, 구단 창작곡인지 원곡이 있는지 묻는 반응을 보인다. 제작 정보가 공개적으로 잘 알려지지 않았다는 점을 함께 드러낸다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kiwoom-a-new-field-2019",
+            "yt-kiwoom-a-new-audio-2019"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-song-arrangement-and-recording",
+        "sourceUrls": [
+          "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+          "https://www.youtube.com/watch?v=bGoso_4ibeo&t=1508s",
+          "https://www.youtube.com/watch?v=Gn4C84Te8XM"
+        ],
+        "structureSummary": "영어 제목 구호로 문을 열고 한국어 승리 지향 절을 진행한 뒤, 키움과 히어로즈를 번갈아 외치는 응답부와 제목 후렴을 반복한다. 마지막은 팀의 도착과 승리를 강조하는 제목 구호로 수렴한다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "정확한 최초 공개일·초연 경기와 2019년 1월 출범식 신곡의 동일성",
+        "작사·작곡·편곡·보컬·음원 제작의 공식 전체 크레딧",
+        "외부 원곡 또는 샘플 사용 여부와 저작권 등록 정보",
+        "비디오 판독 때 사용한다는 설명의 구단 공식 근거와 2026 실제 운용 빈도",
+        "2024 공식 장편 목록에서 빠진 이유와 당시 사용 여부"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kiwoom-a-new-official-2026",
+        "yt-kiwoom-a-new-official-2025",
+        "yt-kiwoom-a-new-field-2019",
+        "yt-kiwoom-a-new-audio-2019",
+        "yt-kiwoom-a-new-launch-vlog-2019",
+        "yt-kiwoom-a-new-fan-medley-2020"
+      ]
+    },
+    {
+      "id": "kiwoom-heroes-haneul-kkeutkkaji",
+      "title": "하늘 끝까지",
+      "currentStatus": "current-official-2026-flash-cheer",
+      "summary": "2019년 공식 사이트 음원 경로와 같은 해 단독 영상으로 확인되는 키움 팀 응원가다. 현재는 휴대전화 조명을 켜고 부르는 감성적인 경기 후반 대표곡으로 알려졌으며, 2024·2025·2026 구단 공식 플레이리스트에 연속 수록된다. 팬 투표 기사와 2019 한국시리즈 진출 직후 사용 사례가 상징성을 뒷받침하지만, 나무위키가 적은 ‘홈 8회말 시작 전’과 2022 현장 영상 제목의 ‘7회 플래시 응원’ 사이에는 운영 시점 표기 차이가 남는다.",
+      "aliases": [
+        "하늘끝까지",
+        "키움 플래시 응원",
+        "플래시 응원가"
+      ],
+      "usageContexts": [
+        "경기 후반 휴대전화 플래시를 켜고 하는 집단 제창",
+        "홈 경기 8회말 시작 전 사용으로 알려진 응원 순서",
+        "포스트시즌 진출·역전 기대 등 감정이 고조되는 장면"
+      ],
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2019년 도입; 공식 사이트 음원 경로 2019-03-27",
+          "assessment": "verified-earliest-official-artifact",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-official-cheer-page",
+            "yt-kiwoom-a-haneul-audio-2019"
+          ],
+          "notes": "공식 페이지 자산 경로와 2019년 6월 단독 영상이 같은 시즌 사용을 확인한다. 정확한 최초 경기와 공개 시각은 미확인이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 공식 목록 13:06, 2025 1:51, 2026 11:25 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-official-cheer-page",
+            "yt-kiwoom-a-haneul-official-2024",
+            "yt-kiwoom-a-haneul-official-2025",
+            "yt-kiwoom-a-haneul-official-2026"
+          ],
+          "notes": "세 시즌 연속 구단 공식 채널 수록과 현행 응원가 페이지로 현재 사용을 확정한다."
+        },
+        {
+          "field": "flashUsage",
+          "value": "휴대전화 조명을 흔들며 부르는 경기 후반 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-dugout-2022",
+            "ev-kiwoom-a-namu-snapshot",
+            "yt-kiwoom-a-haneul-flash-2022",
+            "yt-kiwoom-a-haneul-fan-mv-2022"
+          ],
+          "notes": "팬 투표 기사, 현장 영상과 댓글 반응이 조명 응원의 핵심 참여 방식을 일관되게 보여 준다."
+        },
+        {
+          "field": "inningPlacement",
+          "value": "홈 8회말 시작 전으로 알려졌으나 7회 표기 현장 영상도 존재",
+          "assessment": "conflicted-operational-detail",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kiwoom-a-namu-snapshot",
+            "yt-kiwoom-a-haneul-flash-2022"
+          ],
+          "notes": "경기별 순서 변화, 촬영자의 회차 표기 방식, 공수 전환 기준 차이 중 무엇 때문인지 확인하지 못했다."
+        },
+        {
+          "field": "postseasonSymbolism",
+          "value": "2019-10-17 한국시리즈 진출 확정 뒤 사용된 대표 감성곡",
+          "assessment": "reported-by-feature",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-dugout-2022",
+            "yt-kiwoom-a-haneul-fan-mv-2022"
+          ],
+          "notes": "DUGOUT 팬 투표 특집이 날짜와 장면을 회고한다. 당시 경기 전체 중계나 구단 원본으로 별도 확인하지는 못했다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "haneul-fan-vote-third",
+          "summary": "2022년 DUGOUT의 키움 팬 최애 응원가 투표에서 21%로 3위를 기록했다. 기사는 휴대전화 불빛이 만드는 장관과 경기 후반의 감정적 효과를 인기 이유로 꼽았다.",
+          "assessment": "verified-published-poll",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-dugout-2022"
+          ]
+        },
+        {
+          "id": "haneul-cross-team-praise",
+          "summary": "단독 음원과 팬 제작 뮤직비디오 댓글에는 다른 구단 팬도 선율과 현장 불빛 연출을 높게 평가하거나 국가대표 응원으로 듣고 싶다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "yt-kiwoom-a-haneul-audio-2019",
+            "yt-kiwoom-a-haneul-fan-mv-2022"
+          ]
+        },
+        {
+          "id": "haneul-mv-memory",
+          "summary": "2022년 말 팬 뮤직비디오는 당시 주요 선수 장면을 묶어 곡의 회고적 성격을 강화했다. 댓글은 특정 선수의 이적과 시즌 기억 때문에 곡이 더 뭉클해졌다는 식의 반응을 보인다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kiwoom-a-haneul-fan-mv-2022"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-song-arrangement-and-recording",
+        "sourceUrls": [
+          "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+          "https://www.youtube.com/watch?v=bGoso_4ibeo&t=685s",
+          "https://www.youtube.com/watch?v=4YNAvO63mVA"
+        ],
+        "structureSummary": "지나온 기억과 변하지 않는 열정을 돌아보는 절에서 시작해 승리를 향한 외침을 하늘 끝까지 보내자는 후렴으로 커진다. 박수와 팀명 철자 구호가 들어간 연결부 뒤 절과 후렴을 반복하고 길게 늘인 팀명으로 마친다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "정확한 최초 공개일·초연 경기와 2019년 구장 운용 순서",
+        "작사·작곡·편곡·보컬·음원 제작의 공식 전체 크레딧",
+        "외부 원곡·샘플 존재 여부와 저작권 등록 정보",
+        "2026 기준 공식 사용 회차가 8회말 전인지, 경기별로 달라지는지",
+        "2022 영상의 ‘7회’ 표기가 실제 운용 변화인지 촬영자 표기 차이인지"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kiwoom-a-haneul-official-2026",
+        "yt-kiwoom-a-haneul-official-2025",
+        "yt-kiwoom-a-haneul-official-2024",
+        "yt-kiwoom-a-haneul-audio-2019",
+        "yt-kiwoom-a-haneul-fan-mv-2022",
+        "yt-kiwoom-a-haneul-flash-2022"
+      ]
+    },
+    {
+      "id": "kiwoom-heroes-yeongung-chuljeongga",
+      "title": "영웅출정가",
+      "currentStatus": "current-official-2026-long-running-team-cheer",
+      "summary": "히어로즈 창단기인 2008년 크라잉넛이 직접 작사·작곡해 부른 대표 팀 응원가다. 2009년 4월 16일 ‘프로야구 응원가 - 넥센히어로즈 (Heroes)’ 싱글에 정식 음원으로 실렸으며, 현재 구단 페이지와 2025·2026 공식 플레이리스트에도 남아 있다. 홈 7회말 종료 뒤 부르는 곡으로 알려졌고 크라잉넛이 2024년 고척에서 직접 공연했다. 초기 ‘우리 히어로즈’ 표현이 2012년 전후 ‘서울 히어로즈’로 바뀌어 재녹음됐다는 설명은 문서와 영상 계보가 뒷받침하지만 정확한 재녹음일은 미확인이다.",
+      "aliases": [
+        "영웅 출정가",
+        "히어로즈 출정가",
+        "Heroes March"
+      ],
+      "usageContexts": [
+        "홈 경기 7회말 종료 뒤 하는 대표 팀 제창",
+        "포스트시즌·대형 경기에서 사기를 높이는 장편 응원",
+        "크라잉넛의 구장 특별공연과 노래방 합창"
+      ],
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "히어로즈 창단기인 2008년 제작·사용 시작",
+          "assessment": "verified-by-creator-and-contemporary-retrospective",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-cryingnut-club-2017",
+            "ev-kiwoom-a-cryingnut-news-2024",
+            "ev-kiwoom-a-namu-snapshot"
+          ],
+          "notes": "구단과 연합뉴스가 크라잉넛이 히어로즈 창단 때부터 이 곡을 불렀다고 설명한다. 정확한 초연 날짜는 공개 자료에서 찾지 못했다."
+        },
+        {
+          "field": "creatorAndVocal",
+          "value": "크라잉넛 작사·작곡·가창",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-cryingnut-club-2017",
+            "ev-kiwoom-a-cryingnut-news-2024",
+            "ev-kiwoom-a-bugs-2009",
+            "yt-kiwoom-a-march-topic-release"
+          ],
+          "notes": "구단 공식 기사와 2024 보도가 작사·작곡을, 음원 서비스와 Topic 영상이 가창·발매 음원을 교차 확인한다. 세부 편곡·연주 크레딧은 미확인이다."
+        },
+        {
+          "field": "commercialRelease",
+          "value": "2009-04-16 디지털 싱글 수록, 재생시간 2분 58초",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-bugs-2009",
+            "yt-kiwoom-a-march-topic-release"
+          ],
+          "notes": "벅스와 음원 유통 Topic 메타데이터가 앨범·가수·발매일을 일치시킨다. 일부 해외 스토어의 4월 15일 표기는 국가별 등록 시각 차이일 수 있어 보류했다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "초기 ‘우리 히어로즈’ 계열에서 2012년 전후 ‘서울 히어로즈’ 계열로 변경·재녹음됐다고 알려짐",
+          "assessment": "partially-verified-version-change",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-namu-snapshot",
+            "yt-kiwoom-a-march-field-2012",
+            "yt-kiwoom-a-march-club-2017",
+            "ev-kiwoom-a-official-cheer-page"
+          ],
+          "notes": "2012 현장 영상과 2017·현행 공식 자료는 후대 문구를 확인한다. 초기 음원과 정확한 재녹음 날짜·발매 표기는 추가 확인이 필요하다."
+        },
+        {
+          "field": "usage",
+          "value": "홈 7회말 종료 뒤 제창; 특별행사에서는 클리닝 타임 라이브 공연도 확인",
+          "assessment": "verified-with-event-exception",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-namu-snapshot",
+            "ev-kiwoom-a-cryingnut-news-2024",
+            "yt-kiwoom-a-march-live-2024"
+          ],
+          "notes": "정규 운용은 편집형 문서 설명이며, 2024년 6월 16일 크라잉넛의 클리닝 타임 공연은 구단 행사 보도로 직접 확인된다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 목록 4:00, 2026 공식 목록 1:10 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-official-cheer-page",
+            "yt-kiwoom-a-march-official-2025",
+            "yt-kiwoom-a-march-official-2026"
+          ],
+          "notes": "현행 구단 페이지와 연속 시즌 공식 채널 목록이 현재 사용을 확정한다."
+        },
+        {
+          "field": "karaokeListing",
+          "value": "TJ미디어 곡번호 89342",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kiwoom-a-march-tj-2023"
+          ],
+          "notes": "TJ노래방 공식 채널의 제목·설명이 곡명, 가수, 곡번호를 직접 명시한다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "march-creator-return-2024",
+          "summary": "크라잉넛은 2024년 6월 16일 고척 키움 경기에서 시구·시타와 함께 클리닝 타임에 이 곡을 직접 공연했다. 창단기 헌정곡의 원가수가 16년 뒤 홈구장에 돌아온 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-cryingnut-news-2024",
+            "yt-kiwoom-a-march-live-2024"
+          ]
+        },
+        {
+          "id": "march-fan-vote-second",
+          "summary": "2022 DUGOUT 팬 투표에서 26%로 키움 최애 응원가 2위를 기록했다. 기사는 창단 서사와 크라잉넛 특유의 힘찬 밴드 사운드를 장점으로 꼽았다.",
+          "assessment": "verified-published-poll",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-dugout-2022"
+          ]
+        },
+        {
+          "id": "march-cross-team-reception",
+          "summary": "구단 단독 영상 댓글에는 다른 구단 팬까지 야구 종목의 서사와 잘 맞는 대표곡으로 평가하는 반응이 많고, 오래된 목동·넥센 시절의 향수를 말하는 의견도 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "yt-kiwoom-a-march-club-2017",
+            "yt-kiwoom-a-march-field-2012"
+          ]
+        },
+        {
+          "id": "march-karaoke-demand",
+          "summary": "TJ 공식 반주 영상 댓글은 응원가의 노래방 수록을 반기면서 다른 히어로즈 곡도 추가해 달라고 요청한다. 경기장 밖 합창곡으로도 소비되는 모습을 보여 준다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kiwoom-a-march-tj-2023"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-crying-nut-club-song-and-recording",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/album/182098",
+          "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+          "https://www.youtube.com/watch?v=antR6UYqZKk"
+        ],
+        "structureSummary": "행진곡처럼 팀의 출정을 알리는 후렴으로 시작한 뒤, 어려움과 갈증을 견딘 영웅의 서사를 길게 전개한다. 집단 명령형 구호와 야구 경기 이미지를 거쳐 처음의 출정 후렴으로 돌아오는 완결형 밴드곡이다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "2008년 정확한 제작 의뢰일·음원 최초 공개일·초연 경기",
+        "초기 문구가 담긴 원본 공식 음원과 ‘서울’ 버전의 정확한 재녹음·배포일",
+        "작사·작곡 외 편곡·연주·녹음 스태프의 공식 전체 크레딧",
+        "홈 7회말 종료 뒤 사용한다는 2026 구단 공식 운용 문서와 경기별 예외",
+        "국내외 음원 서비스의 2009-04-15/16 발매일 차이가 시차인지 별도 발매인지"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kiwoom-a-march-official-2026",
+        "yt-kiwoom-a-march-official-2025",
+        "yt-kiwoom-a-march-club-2017",
+        "yt-kiwoom-a-march-topic-release",
+        "yt-kiwoom-a-march-live-2024",
+        "yt-kiwoom-a-march-field-2012",
+        "yt-kiwoom-a-march-tj-2023"
+      ]
+    },
+    {
+      "id": "kiwoom-heroes-gireul-nopyeora",
+      "title": "기를 높여라",
+      "currentStatus": "current-official-2026-adapted-team-cheer",
+      "summary": "늦어도 2009시즌 목동에서 사용된 짧은 반복형 팀 응원가로, 현재는 ‘서울’과 자주색 깃발을 강조하는 키움 버전이 쓰인다. 선율의 뿌리는 작자 미상의 전통 영가 ‘I Shall Not Be Moved’이며, 국내 자료가 자주 원곡으로 부르는 찰리 패튼의 1929년 녹음은 대표적인 초기 상업 녹음이지 작곡자 표시는 아니다. 수원 삼성 응원 구호가 먼저 널리 알려진 뒤 히어로즈가 지명·색상 문구를 바꿔 사용했다는 계보는 기사로 교차된다. 서한국이 만들거나 가져왔다는 팬덤 서술은 사용 시점과 주장 시점이 맞지 않고 직접 출처도 없어 미확정으로 남긴다.",
+      "aliases": [
+        "깃발송",
+        "목동의 푸른 하늘에",
+        "서울의 푸른 하늘에"
+      ],
+      "usageContexts": [
+        "적시타·득점 등 공격 분위기가 오른 직후",
+        "첫 반복 뒤 속도를 높여 점프하거나 어깨동무하는 집단 응원",
+        "짧은 장소·구단 색상·깃발 문구의 반복 제창"
+      ],
+      "claims": [
+        {
+          "field": "earliestUse",
+          "value": "늦어도 2009시즌 ‘목동의’ 버전 사용",
+          "assessment": "verified-earliest-direct-textual-record",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-flag-earliest-2010",
+            "yt-kiwoom-a-flag-archive-2012"
+          ],
+          "notes": "2010년 1월 팬 회고문이 직전 시즌에 불렀던 문구를 구체적으로 적고, 2012 현장 아카이브가 사용 지속을 보여 준다. 정확한 도입일은 미확인이다."
+        },
+        {
+          "field": "melodicOrigin",
+          "value": "작자 미상의 전통 영가 ‘I Shall Not Be Moved’; 찰리 패튼 1929 녹음이 널리 인용되는 계보",
+          "assessment": "verified-with-attribution-correction",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-yes24-flag-origin",
+            "ev-kiwoom-a-spiritual-history",
+            "ev-kiwoom-a-dugout-2022"
+          ],
+          "notes": "한국 대중 기사와 팬 자료는 흔히 찰리 패튼을 원곡자로 부르지만, 찬송가 역사 자료는 더 오래된 전통 영가와 불확실한 기원을 설명한다. 따라서 패튼을 작곡자로 단정하지 않는다."
+        },
+        {
+          "field": "koreanCheerLineage",
+          "value": "수원 삼성 응원 구호가 먼저 유명해진 뒤 히어로즈가 장소·색상 문구를 바꿔 채택",
+          "assessment": "reported-by-published-cross-check",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-yes24-flag-origin",
+            "ev-kiwoom-a-dugout-2022",
+            "ev-kiwoom-a-namu-snapshot"
+          ],
+          "notes": "복수의 출판 자료가 같은 계보를 설명한다. 정확한 제안자, 허가·편곡 절차와 최초 도입 경기는 확인되지 않았다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "초기 ‘목동의’ 버전에서 현행 ‘서울의’ 버전으로 문구 변경",
+          "assessment": "verified-version-change",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-flag-earliest-2010",
+            "ev-kiwoom-a-official-cheer-page",
+            "yt-kiwoom-a-flag-standalone-2018",
+            "yt-kiwoom-a-flag-field-2025"
+          ],
+          "notes": "2010 회고문과 현행 공식 페이지의 장소 표현이 다르다. 변경 연도는 확정하지 못했다."
+        },
+        {
+          "field": "seoHangukAttribution",
+          "value": "서한국이 도입·개사했다는 주장은 미확정이며 연대상 단독 도입자 설명과 충돌",
+          "assessment": "contested-unverified",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-kiwoom-a-seohanguk-2014",
+            "ev-kiwoom-a-flag-earliest-2010",
+            "ev-kiwoom-a-namu-snapshot"
+          ],
+          "notes": "보도는 서한국이 2012년까지 넥센 응원단장이었다는 사실만 확인한다. 곡의 도입·개사자로 지목하는 1차 자료는 찾지 못했고, 2009 사용 기록은 후대 단독 도입설과 시간상 맞지 않는다."
+        },
+        {
+          "field": "usage",
+          "value": "득점·역전 기회에 부르며 반복 시 템포를 올리고 점프·어깨동무",
+          "assessment": "verified-with-direct-current-use",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-dugout-2022",
+            "yt-kiwoom-a-flag-field-2025",
+            "yt-kiwoom-a-flag-official-2026"
+          ],
+          "notes": "팬 투표 기사가 운용과 동작을 설명하고, 2025 적시타 직후 현장 영상이 실제 득점 상황을 보여 준다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 공식 목록 22:54, 2025 30:32, 2026 27:35 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-official-cheer-page",
+            "yt-kiwoom-a-flag-official-2024",
+            "yt-kiwoom-a-flag-official-2025",
+            "yt-kiwoom-a-flag-official-2026"
+          ],
+          "notes": "세 시즌 연속 구단 공식 채널 수록과 현행 응원가 페이지가 현재 사용을 확정한다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "flag-patton-not-composer",
+          "summary": "국내 응원가 소개 글은 찰리 패튼의 1929년 녹음을 흔히 ‘원곡’이라고 부르지만, 곡 자체는 더 오래된 미국 전통 영가 계열이다. 데이터에서는 패튼을 작곡가가 아니라 널리 알려진 초기 녹음자로 구분했다.",
+          "assessment": "verified-attribution-correction",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-yes24-flag-origin",
+            "ev-kiwoom-a-spiritual-history"
+          ]
+        },
+        {
+          "id": "flag-fan-vote-fourth",
+          "summary": "2022 DUGOUT 팬 투표에서 8%로 4위를 기록했다. 기사는 첫 묶음보다 두 번째 묶음이 빨라지고 관중이 함께 뛰거나 어깨동무하는 점을 현장 매력으로 설명한다.",
+          "assessment": "verified-published-poll",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-dugout-2022"
+          ]
+        },
+        {
+          "id": "flag-origin-debate",
+          "summary": "2018 단독 영상 댓글에는 수원 응원의 모방인지, 더 오래된 영가의 공동 차용인지에 대한 논쟁이 이어진다. 법적 허가나 구단 간 합의는 댓글만으로 판단할 수 없어 의견 분포만 남긴다.",
+          "assessment": "anecdotal-conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kiwoom-a-flag-standalone-2018",
+            "ev-kiwoom-a-yes24-flag-origin"
+          ]
+        },
+        {
+          "id": "flag-place-name-history",
+          "summary": "2009 사용을 회고한 자료에는 목동이라는 장소가 들어가지만 현행 공식판은 서울을 쓴다. 연고지는 유지하면서 홈구장과 브랜드 표현이 바뀐 구단사의 흔적이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-flag-earliest-2010",
+            "ev-kiwoom-a-official-cheer-page"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "traditional-melody-with-copyrighted-club-adaptation-arrangement-and-recording",
+        "sourceUrls": [
+          "https://www.umcdiscipleship.org/articles/history-of-hymns-i-shall-not-be-moved",
+          "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+          "https://www.youtube.com/watch?v=mr_Zd8_d35I"
+        ],
+        "structureSummary": "장소와 하늘색 이미지를 제시하고 구단의 상징색 깃발을 높이라는 한 묶음을 두 번 반복한다. 이어 같은 문장을 더 빠른 템포로 두 번 되풀이해 점프와 집단 동작을 유도하는 매우 짧은 구조다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "히어로즈판 정확한 최초 도입일·초연 경기와 제안자",
+        "수원 삼성 응원에서 채택할 때의 허가·편곡·개사 절차",
+        "‘목동의’에서 ‘서울의’로 바뀐 정확한 날짜와 최초 공식 음원",
+        "서한국의 실제 역할과 이를 입증할 구단·당사자 1차 자료",
+        "구단용 편곡·녹음의 작사·편곡·보컬·제작 전체 크레딧",
+        "2026 득점 상황별 실제 사용 기준과 두 번째 반복 템포의 공식 수치"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kiwoom-a-flag-official-2026",
+        "yt-kiwoom-a-flag-official-2025",
+        "yt-kiwoom-a-flag-official-2024",
+        "yt-kiwoom-a-flag-standalone-2018",
+        "yt-kiwoom-a-flag-archive-2012",
+        "yt-kiwoom-a-flag-field-2025"
+      ]
+    },
+    {
+      "id": "kiwoom-heroes-kkumiyeo-hanaga-doeja",
+      "title": "꿈이여 하나가 되자",
+      "currentStatus": "current-official-2026-long-running-team-cheer",
+      "summary": "크라잉넛이 작사·작곡해 부른 히어로즈 초기 대표곡으로, 2009년 4월 16일 같은 이름의 음원이 ‘프로야구 응원가 - 넥센히어로즈 (Heroes)’ 싱글에 수록됐다. 2011년 영상은 초기 ‘우리 히어로즈’ 계열을, 2017 공식 영상과 현행 구단 페이지는 ‘서울 히어로즈’ 계열을 보여 줘 문구 변경이 확인된다. 2024·2025·2026 공식 플레이리스트에도 연속 수록된다. 구단 전화 연결음으로 쓰인다는 설명은 나무위키 스냅샷 외의 현재 직접 자료를 찾지 못해 미확정이다.",
+      "aliases": [
+        "꿈이여",
+        "꿈이여 하나가 되자!",
+        "夢よ一つになれ"
+      ],
+      "usageContexts": [
+        "팀의 단결과 재도약을 강조하는 장편 집단 제창",
+        "경기장 공식 팀 응원가 순서와 시즌 전 학습용 목록",
+        "구단 전화 연결음으로도 쓰인다고 알려진 구단 상징곡"
+      ],
+      "claims": [
+        {
+          "field": "creatorAndVocal",
+          "value": "크라잉넛 작사·작곡·가창",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-cryingnut-club-2017",
+            "ev-kiwoom-a-cryingnut-news-2024",
+            "ev-kiwoom-a-bugs-2009",
+            "yt-kiwoom-a-dream-topic-release"
+          ],
+          "notes": "구단 공식 기사와 보도, 음원 메타데이터가 제작·가창을 교차 확인한다. 세부 편곡·연주 크레딧은 공개 자료에서 찾지 못했다."
+        },
+        {
+          "field": "commercialRelease",
+          "value": "2009-04-16 디지털 싱글 수록, 재생시간 3분 13초",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-bugs-2009",
+            "yt-kiwoom-a-dream-topic-release"
+          ],
+          "notes": "벅스 앨범 정보와 음원 유통 Topic 영상이 앨범명·가수·발매일을 일치시킨다. 제작 시점이 2008년인지 2009년인지는 별도 확인이 필요하다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "초기 ‘우리 히어로즈’ 계열에서 후대 ‘서울 히어로즈’ 계열로 문구 변경",
+          "assessment": "verified-version-change-date-unresolved",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kiwoom-a-dream-archive-2011",
+            "yt-kiwoom-a-dream-club-2017",
+            "ev-kiwoom-a-official-cheer-page",
+            "ev-kiwoom-a-namu-snapshot"
+          ],
+          "notes": "2011 아카이브의 초기판과 2017·현행 공식판을 비교하면 문구 변화는 확실하다. 나무위키는 재녹음 계보도 서술하지만 정확한 변경·녹음일은 미확인이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 공식 목록 5:10, 2025 17:13, 2026 15:00 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-official-cheer-page",
+            "yt-kiwoom-a-dream-official-2024",
+            "yt-kiwoom-a-dream-official-2025",
+            "yt-kiwoom-a-dream-official-2026"
+          ],
+          "notes": "세 시즌 연속 구단 공식 채널 수록과 현행 응원가 페이지로 현재 사용을 확정한다."
+        },
+        {
+          "field": "phoneHoldMusic",
+          "value": "구단 대표전화 연결음으로 사용된다고 알려짐",
+          "assessment": "reported-unverified-current-state",
+          "confidence": "low-medium",
+          "evidenceRefs": [
+            "ev-kiwoom-a-namu-snapshot"
+          ],
+          "notes": "문서형 자료의 서술만 확인했다. 전화를 실제 연결하거나 구단 안내를 확인하지 않았으므로 현재 운용 사실로 확정하지 않는다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "dream-companion-single",
+          "summary": "이 곡과 ‘영웅출정가’는 같은 2009년 크라잉넛 싱글의 두 트랙이다. 하나는 꿈과 결속, 다른 하나는 출정과 투지를 전면에 내세워 히어로즈 초기 팀 서사를 서로 보완한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-a-bugs-2009",
+            "ev-kiwoom-a-cryingnut-club-2017"
+          ]
+        },
+        {
+          "id": "dream-old-version-archive",
+          "summary": "2011년 일본어 제목을 병기한 해외 팬 영상은 초기 음원판을 보존한다. 한국어·일본어 댓글은 곡을 높게 평가하면서 후대판과 다른 팀명 문구도 짚는다.",
+          "assessment": "verified-with-anecdotal-reception",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kiwoom-a-dream-archive-2011"
+          ]
+        },
+        {
+          "id": "dream-emotional-roster-memory",
+          "summary": "2017 구단 영상 댓글은 팀의 부침과 선수단 변화가 클수록 곡의 재기 서사가 더 감정적으로 들린다고 말하며, 중요한 순간에 더 자주 틀어 달라는 요청도 보인다.",
+          "assessment": "anecdotal",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "yt-kiwoom-a-dream-club-2017"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-crying-nut-club-song-and-recording",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/album/182098",
+          "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+          "https://www.youtube.com/watch?v=jFkiL_xb5aU"
+        ],
+        "structureSummary": "흩어진 꿈이 하나가 된다는 선언으로 시작해 시련과 재도약의 서사를 전개한다. 잠든 힘을 깨우는 연결부와 짧은 감탄 구호가 속도를 높이고, 마지막에는 하나가 된 팀의 정체성을 거듭 확인하며 닫는다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "2008 창단기 제작인지 2009 음원 발매기에 제작됐는지와 정확한 초연 경기",
+        "초기판에서 ‘서울’판으로 바뀐 정확한 날짜·재녹음 여부·배포 경로",
+        "작사·작곡 외 편곡·연주·녹음 스태프의 공식 전체 크레딧",
+        "구단 대표전화 연결음의 과거 시작일·현재 사용 여부",
+        "2026 경기 중 주로 사용하는 정확한 회차·득점 상황과 빈도"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kiwoom-a-dream-official-2026",
+        "yt-kiwoom-a-dream-official-2025",
+        "yt-kiwoom-a-dream-official-2024",
+        "yt-kiwoom-a-dream-topic-release",
+        "yt-kiwoom-a-dream-club-2017",
+        "yt-kiwoom-a-dream-archive-2011"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kiwoom-a-official-cheer-page",
+      "type": "official-current-catalog",
+      "url": "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+      "title": "응원가",
+      "publisher": "키움 히어로즈",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "구단의 현행 응원가 페이지에 다섯 곡이 모두 제목·재생 음원·가사 보기와 함께 수록돼 있다. 음원 자산 경로에는 New Heroes Come Here·하늘 끝까지가 2019-03-27, 기를 높여라가 2018-06-29, 영웅출정가·꿈이여 하나가 되자가 2018-03-20에 업로드된 흔적이 있으나 이는 도입 연도가 아니라 사이트 자산 일자다. 가사 전문은 저장하지 않고 현행 문구와 구조만 대조했다.",
+      "supports": [
+        "all.currentOfficialCatalog",
+        "all.officialTitles",
+        "all.currentLyricsStructure",
+        "newAndHaneul.assetDate2019"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-a-namu-snapshot",
+      "type": "community-reference-snapshot",
+      "url": "https://m.namu.moe/w/%ED%82%A4%EC%9B%80%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "키움 히어로즈/응원가",
+      "publisher": "나무모에 미러(나무위키 문서 미러)",
+      "publishedAt": "2025-10-04",
+      "accessedAt": "2026-08-09",
+      "summary": "2025-10-04 시점 스냅샷은 곡별 사용 상황과 버전 변화를 정리한다. 영웅출정가의 7회말 뒤 사용·우리/서울판, 하늘 끝까지의 8회말 전 플래시, 기를 높여라의 수원 응원 계보, 꿈이여 하나가 되자의 우리/서울판과 전화 연결음, New Heroes Come Here의 2019 신곡·비디오 판독 사용 설명을 참고했다. 최종 접근 때 미러가 점검 화면을 반환해 독립 자료로 교차되지 않은 세부 주장은 신뢰도를 낮췄다.",
+      "supports": [
+        "new.reportedVideoReviewUse",
+        "haneul.reportedInning",
+        "march.reportedVersionAndUsage",
+        "flag.reportedLineage",
+        "dream.reportedVersionAndPhoneUse"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-a-launch-2019",
+      "type": "contemporary-news",
+      "url": "https://www.yna.co.kr/amp/view/AKR20190115083700007",
+      "title": "프로야구 키움 히어로즈 공식 출범…‘NEW HEROES, KIWOOM HEROES’",
+      "publisher": "연합뉴스",
+      "publishedAt": "2019-01-15",
+      "accessedAt": "2026-08-09",
+      "summary": "2019년 1월 15일 키움 히어로즈 공식 출범과 새 구단명·엠블럼·유니폼 공개, 출범 구호를 보도한다. New Heroes Come Here의 제목이 출범기 브랜드 언어와 연결되는 동시대 맥락 자료이며, 곡 자체의 초연을 직접 확정하는 자료로는 쓰지 않았다.",
+      "supports": [
+        "new.launchContext",
+        "new.namingSlogan"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-a-cryingnut-club-2017",
+      "type": "official-club-news",
+      "url": "https://heroesbaseball.co.kr/story/nexenNews/view.do?num=15533",
+      "title": "크라잉넛, 시구 및 시타 실시",
+      "publisher": "키움 히어로즈",
+      "publishedAt": "2017-04-01",
+      "accessedAt": "2026-08-09",
+      "summary": "구단은 크라잉넛이 영웅출정가와 꿈이여 하나가 되자를 직접 작사·작곡해 히어로즈에 헌정한 인연을 소개한다. 두 곡의 제작자 관계를 확인하는 구단 1차 자료다.",
+      "supports": [
+        "march.creatorCredits",
+        "dream.creatorCredits",
+        "both.clubDedication"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-a-cryingnut-news-2024",
+      "type": "contemporary-news",
+      "url": "https://www.yna.co.kr/view/AKR20240614091600007",
+      "title": "크라잉넛, 고척 키움 경기 시구·시타…영웅출정가 공연",
+      "publisher": "연합뉴스",
+      "publishedAt": "2024-06-14",
+      "accessedAt": "2026-08-09",
+      "summary": "크라잉넛이 히어로즈 창단 당시부터 영웅출정가를 부르고 여러 팀·선수 응원가를 만든 인연, 2024년 6월 16일 고척 경기의 시구·시타와 클리닝 타임 공연 계획을 보도한다. 영웅출정가와 꿈이여 하나가 되자의 작사·작곡 관계도 확인한다.",
+      "supports": [
+        "march.introduction2008",
+        "march.livePerformance2024",
+        "march.creatorCredits",
+        "dream.creatorCredits"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-a-bugs-2009",
+      "type": "licensed-music-catalog",
+      "url": "https://music.bugs.co.kr/album/182098",
+      "title": "프로야구 응원가 - 넥센히어로즈 (Heroes)",
+      "publisher": "벅스",
+      "publishedAt": "2009-04-16",
+      "accessedAt": "2026-08-09",
+      "summary": "크라잉넛 명의 싱글의 발매일을 2009년 4월 16일로 표기하고, 꿈이여 하나가 되자 3분 13초와 영웅출정가 2분 58초 두 트랙을 수록한다. 유통사는 오감엔터테인먼트로 표시된다.",
+      "supports": [
+        "march.release2009",
+        "dream.release2009",
+        "both.trackDurations",
+        "both.artist"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-a-dugout-2022",
+      "type": "published-fan-poll-feature",
+      "url": "https://v.daum.net/v/ZKIBJ9C29x?f=m",
+      "title": "[DUGOUT Live] 팬이 뽑은 최애 응원가 7탄 – 키움 히어로즈",
+      "publisher": "대단한미디어·DUGOUT",
+      "publishedAt": "2022-09",
+      "accessedAt": "2026-08-09",
+      "summary": "키움 팬 투표와 곡별 현장 사용을 소개한다. 영웅출정가 26% 2위, 하늘 끝까지 21% 3위, 기를 높여라 8% 4위를 기록했다고 적고, 하늘 끝까지의 휴대전화 조명과 2019 한국시리즈 진출 뒤 사용, 기를 높여라의 득점·역전 상황과 가속·점프 동작 및 찰리 패튼 녹음 계보를 설명한다.",
+      "supports": [
+        "march.pollRank",
+        "haneul.pollRankAndFlash",
+        "haneul.postseasonMemory",
+        "flag.pollRankAndUsage",
+        "flag.commonPattonAttribution"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-a-yes24-flag-origin",
+      "type": "published-music-feature",
+      "url": "https://m.ch.yes24.com/article/details/28080",
+      "title": "지금은 야구 시즌! 야구 응원가 특집",
+      "publisher": "채널예스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "‘기를 높여라’의 선율을 찰리 패튼이 1929년에 녹음한 I Shall Not Be Moved와 연결하고, 국내에서는 수원 삼성의 응원이 먼저 유명해진 뒤 넥센 히어로즈가 채택했다고 설명한다. 패튼을 작곡자로 확정하는 근거로는 사용하지 않았다.",
+      "supports": [
+        "flag.pattonRecording1929",
+        "flag.suwonToHeroesLineage"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-a-spiritual-history",
+      "type": "music-history-reference",
+      "url": "https://www.umcdiscipleship.org/articles/history-of-hymns-i-shall-not-be-moved",
+      "title": "History of Hymns: ‘I Shall Not Be Moved’",
+      "publisher": "Discipleship Ministries, The United Methodist Church",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "I Shall Not Be Moved를 작자 미상의 전통 아프리카계 미국인 영가로 설명하고, 구전 계보와 1927년 인쇄 자료 등 찰리 패튼의 1929년 녹음보다 앞선 흔적을 정리한다. 패튼을 원작자·작곡가로 오인하지 않기 위한 교정 자료다.",
+      "supports": [
+        "flag.traditionalSpiritualOrigin",
+        "flag.unknownAuthorship",
+        "flag.pattonNotComposer"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-a-flag-earliest-2010",
+      "type": "contemporary-fan-retrospective",
+      "url": "https://kini.kr/952",
+      "title": "히어로즈는 우리에게 무엇이었나",
+      "publisher": "kini.kr",
+      "publishedAt": "2010-01-03",
+      "accessedAt": "2026-08-09",
+      "summary": "히어로즈 팬의 2010년 1월 회고문이 직전 시즌 목동에서 불렀던 ‘기를 높여라’의 당시 장소·색상 문구를 기록한다. 전문은 저장하지 않고, 곡이 늦어도 2009시즌에 존재했으며 초기에는 ‘목동’ 표현을 썼다는 시간 경계만 활용했다.",
+      "supports": [
+        "flag.useNoLaterThan2009",
+        "flag.earlyMokdongVersion"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-a-seohanguk-2014",
+      "type": "contemporary-news-profile",
+      "url": "https://www.chosun.com/site/data/html_dir/2014/01/22/2014012202437.html",
+      "title": "전 넥센 응원단장 서한국 관련 인터뷰",
+      "publisher": "조선일보",
+      "publishedAt": "2014-01-22",
+      "accessedAt": "2026-08-09",
+      "summary": "서한국을 2012년까지 넥센 응원단장으로 활동한 인물로 소개한다. 이 기사는 ‘기를 높여라’의 도입·개사 크레딧을 말하지 않으므로, 팬덤에서 제기되는 서한국 제작설을 입증하는 자료가 아니라 그의 활동 시기를 제한하는 자료로만 사용했다.",
+      "supports": [
+        "flag.seoHangukCareerBoundary",
+        "flag.attributionNotProven"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kiwoom-a-new-official-2026",
+      "songId": "kiwoom-heroes-new-heroes-come-here",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo&t=1508s",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐈𝐒𝐓] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20T20:00:28-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 모음으로 25:08부터 New Heroes Come Here를 수록한다. 설명의 시간표가 곡명과 위치를 직접 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 시즌 현장 관람 전에 공식 음원과 순서를 익힐 수 있는 목록으로 활용한다.",
+        "일부는 음향 품질 개선과 더 많은 구단 콘텐츠 공개를 요청한다."
+      ],
+      "supports": [
+        "new.currentOfficial2026",
+        "new.officialTitle",
+        "new.lyricsStructure"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-new-official-2025",
+      "songId": "kiwoom-heroes-new-heroes-come-here",
+      "url": "https://www.youtube.com/watch?v=phqdZsLhyJ8&t=1638s",
+      "videoId": "phqdZsLhyJ8",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 직관 가기 전 필수 예습 코스⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2025-06-30T02:30:29-07:00",
+      "descriptionSummary": "구단 공식 2025 플레이리스트이며 설명의 시간표에서 27:18부터 곡을 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "새 응원가까지 한 번에 익힐 수 있어 직관 준비에 유용하다는 반응이 있다.",
+        "구장 전광판에도 가사를 더 잘 보여 달라는 요청이 반복된다."
+      ],
+      "supports": [
+        "new.currentOfficial2025",
+        "new.officialTitle",
+        "new.fanLearning"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-new-field-2019",
+      "songId": "kiwoom-heroes-new-heroes-come-here",
+      "url": "https://www.youtube.com/watch?v=Gn4C84Te8XM",
+      "videoId": "Gn4C84Te8XM",
+      "title": "New Heroes Come Here 키움 새응원가 (19.03.29)",
+      "channel": "KOBI",
+      "publishedAt": "2019-03-30T00:07:46-07:00",
+      "descriptionSummary": "2019년 3월 29일로 표기된 키움 새 응원가의 현장 자료이며 설명에는 같은 영상의 네이버TV 링크가 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡이 별도 원곡을 편곡한 것인지 구단이 새로 만든 것인지 묻는 반응이 있다."
+      ],
+      "supports": [
+        "new.fieldUseMarch2019",
+        "new.earlyTitle",
+        "new.creditsUncertainty"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-new-audio-2019",
+      "songId": "kiwoom-heroes-new-heroes-come-here",
+      "url": "https://www.youtube.com/watch?v=AlNOAp6IkEo",
+      "videoId": "AlNOAp6IkEo",
+      "title": "[KBO] 키움 히어로즈 팀응원가 - New Heroes Come Here",
+      "channel": "붐붐콜라",
+      "publishedAt": "2019-10-22T05:23:44-07:00",
+      "descriptionSummary": "2019시즌 키움 명칭과 정식 곡명을 붙인 단독 음원형 영상이다. 설명란은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "소수 댓글은 새 응원가의 밝고 시원한 인상을 긍정적으로 평가한다."
+      ],
+      "supports": [
+        "new.circulation2019",
+        "new.title",
+        "new.audioStructure"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-new-launch-vlog-2019",
+      "songId": "kiwoom-heroes-new-heroes-come-here",
+      "url": "https://www.youtube.com/watch?v=6bxiZZAYdUQ",
+      "videoId": "6bxiZZAYdUQ",
+      "title": "[스포츠기자 VLOG] 키움 히어로즈 출범식 | 김한나 치어리더의 새 응원가 소개, 키움 히어로즈 새 유니폼, 장정석 감독 박병호 서건창 인터뷰까지",
+      "channel": "주간신기자",
+      "publishedAt": "2019-01-15T03:51:44-08:00",
+      "descriptionSummary": "2019년 1월 15일 키움 히어로즈 출범식 현장을 담아 새 구단명·유니폼과 치어리더의 새 응원가 소개를 기록한다. 제목과 설명은 해당 신곡을 New Heroes Come Here라고 직접 특정하지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "새 구단명과 유니폼, 응원가가 함께 공개되는 출범 장면에 관심을 보이는 반응이 있다.",
+        "기존 히어로즈 전통이 새 스폰서 명칭 아래 이어지길 바라는 의견도 보인다."
+      ],
+      "supports": [
+        "new.launchContextOnly",
+        "contextOnly",
+        "new.newSongPresentation",
+        "new.identityTransition"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-new-fan-medley-2020",
+      "songId": "kiwoom-heroes-new-heroes-come-here",
+      "url": "https://www.youtube.com/watch?v=lnj2fqUS1kE",
+      "videoId": "lnj2fqUS1kE",
+      "title": "런닝맨 10주년 진심으로 축하합니다~~^O^  - 강진성(키움히어로즈팬겸런닝맨팬) - (New heroes come here, 영웅출정가, 하늘끝까지(창작곡))",
+      "channel": "강진성tv",
+      "publishedAt": "2020-07-15T23:25:39-07:00",
+      "descriptionSummary": "팬이 New Heroes Come Here·영웅출정가·하늘 끝까지를 제목에 직접 병기해 이어 부른 2020년 응원가 메들리다. 구단 공식 자료나 현장 실연은 아니며 팬 유통·재가창 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "new.directFanRendition2020",
+        "new.fanCirculation",
+        "new.medleyContext"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-haneul-official-2026",
+      "songId": "kiwoom-heroes-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo&t=685s",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐈𝐒𝐓] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20T20:00:28-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 모음으로 11:25부터 하늘 끝까지를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 새 시즌 응원 순서를 익히고 현장 분위기를 미리 떠올리는 목록으로 활용한다.",
+        "오래된 팀 응원가가 계속 수록되는 점을 반기는 반응이 있다."
+      ],
+      "supports": [
+        "haneul.currentOfficial2026",
+        "haneul.officialTitle",
+        "haneul.lyricsStructure"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-haneul-official-2025",
+      "songId": "kiwoom-heroes-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=phqdZsLhyJ8&t=111s",
+      "videoId": "phqdZsLhyJ8",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 직관 가기 전 필수 예습 코스⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2025-06-30T02:30:29-07:00",
+      "descriptionSummary": "구단 공식 2025 플레이리스트의 1:51부터 하늘 끝까지를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관 전 대표 팀곡을 복습하는 데 유용하다는 반응이 이어진다.",
+        "현장 전광판에 가사와 참여 동작을 더 잘 안내해 달라는 의견도 있다."
+      ],
+      "supports": [
+        "haneul.currentOfficial2025",
+        "haneul.fanLearning",
+        "haneul.emotionalReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-haneul-official-2024",
+      "songId": "kiwoom-heroes-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=OjoYnwcZMOI&t=786s",
+      "videoId": "OjoYnwcZMOI",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 안그래도 뜨거운 가슴🔥 더 뜨겁게 달궈줄 응원가 플레이리스트 #이걸로_직관준비_끝",
+      "channel": "키움히어로즈",
+      "publishedAt": "2024-04-04T05:30:29-07:00",
+      "descriptionSummary": "구단 공식 2024 플레이리스트가 13:06부터 하늘 끝까지를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "구단이 팀 응원가를 공식 목록으로 묶어 준 점을 환영하는 반응이 많다.",
+        "타 구단 팬도 키움의 장편 팀곡과 감성적인 선율을 높게 평가한다."
+      ],
+      "supports": [
+        "haneul.currentOfficial2024",
+        "haneul.officialTitle",
+        "haneul.crossTeamReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-haneul-audio-2019",
+      "songId": "kiwoom-heroes-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=4YNAvO63mVA",
+      "videoId": "4YNAvO63mVA",
+      "title": "[KBO] 키움 히어로즈 팀응원가 - '하늘 끝까지'",
+      "channel": "붐붐콜라",
+      "publishedAt": "2019-06-14T20:05:41-07:00",
+      "descriptionSummary": "2019시즌 키움 명칭으로 곡을 단독 수록한 음원형 영상이며 설명란은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "키움 팬은 경기 후반에 들을 때 감정이 고조되는 곡이라고 회고한다.",
+        "다른 구단 팬도 선율과 합창의 울림을 칭찬하는 반응이 반복된다."
+      ],
+      "supports": [
+        "haneul.circulation2019",
+        "haneul.audioStructure",
+        "haneul.fanReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-haneul-fan-mv-2022",
+      "songId": "kiwoom-heroes-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=PvqICHL1hl8",
+      "videoId": "PvqICHL1hl8",
+      "title": "키움 히어로즈 응원가｜하늘 끝까지 뮤직비디오｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2022-12-31T21:16:18-08:00",
+      "descriptionSummary": "키움 경기 하이라이트를 편집한 팬 제작 뮤직비디오로 당시 주요 선수와 팀 장면을 곡의 서사에 맞춰 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "구장에서 플래시와 함께 들을 때 특히 뭉클하다는 반응이 많다.",
+        "다른 팀 팬도 국가대표 응원곡으로 확장해 듣고 싶다는 의견을 남긴다.",
+        "선수 이적과 지난 시즌 기억 때문에 영상이 회고적으로 느껴진다는 반응도 있다."
+      ],
+      "supports": [
+        "haneul.flashReception",
+        "haneul.fanMemory",
+        "haneul.crossTeamReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-haneul-flash-2022",
+      "songId": "kiwoom-heroes-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=7Tjcg8yT-Ng",
+      "videoId": "7Tjcg8yT-Ng",
+      "title": "20220709 키움 7회 플래시응원 (하늘 끝까지)",
+      "channel": "DJ Landers",
+      "publishedAt": "2022-07-09T08:54:42-07:00",
+      "descriptionSummary": "2022년 7월 9일 키움 관중석의 휴대전화 플래시 제창을 담은 현장 영상이다. 제목은 이를 7회 응원으로 표기해 8회말 전이라는 문서 설명과 차이를 남긴다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 경기 결과와 응원석 음향에 주로 반응하며 현장감이 잘 전달되는지를 논한다."
+      ],
+      "supports": [
+        "haneul.directFlashUse2022",
+        "haneul.inningLabelConflict",
+        "haneul.fieldParticipation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-march-official-2026",
+      "songId": "kiwoom-heroes-yeongung-chuljeongga",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo&t=70s",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐈𝐒𝐓] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20T20:00:28-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 모음으로 1:10부터 영웅출정가를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 대표 팀곡이 새 시즌 목록 앞부분에 유지된 점을 반긴다.",
+        "경기장에서 긴 곡을 더 자주 완창하고 싶다는 기대가 보인다."
+      ],
+      "supports": [
+        "march.currentOfficial2026",
+        "march.officialTitle",
+        "march.lyricsStructure"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-march-official-2025",
+      "songId": "kiwoom-heroes-yeongung-chuljeongga",
+      "url": "https://www.youtube.com/watch?v=phqdZsLhyJ8&t=240s",
+      "videoId": "phqdZsLhyJ8",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 직관 가기 전 필수 예습 코스⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2025-06-30T02:30:29-07:00",
+      "descriptionSummary": "구단 공식 2025 플레이리스트가 4:00부터 영웅출정가를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오래된 대표 응원가를 신규 팬도 익힐 수 있어 좋다는 반응이 있다.",
+        "현장 전광판 가사 안내와 공식 음원 품질을 보완해 달라는 의견도 있다."
+      ],
+      "supports": [
+        "march.currentOfficial2025",
+        "march.fanLearning",
+        "march.longRunningStatus"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-march-club-2017",
+      "songId": "kiwoom-heroes-yeongung-chuljeongga",
+      "url": "https://www.youtube.com/watch?v=antR6UYqZKk",
+      "videoId": "antR6UYqZKk",
+      "title": "[영웅 응원가] 영웅출정가",
+      "channel": "키움히어로즈",
+      "publishedAt": "2017-08-15T21:21:25-07:00",
+      "descriptionSummary": "구단 공식 단독 응원가 영상이다. 설명에는 당시 전체 가사가 있으나 데이터에는 원문을 복제하지 않고 구조와 후대 ‘서울’판 확인에만 사용했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "키움과 타 구단 팬 모두 야구의 출정 서사와 잘 맞는 대표곡이라고 평가한다.",
+        "목동·넥센 시절부터 이어진 기억과 팀의 어려운 시기를 떠올리는 반응이 반복된다."
+      ],
+      "supports": [
+        "march.official2017",
+        "march.laterSeoulVersion",
+        "march.lyricsStructure",
+        "march.fanReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-march-topic-release",
+      "songId": "kiwoom-heroes-yeongung-chuljeongga",
+      "url": "https://www.youtube.com/watch?v=WK_9LSPwkl4",
+      "videoId": "WK_9LSPwkl4",
+      "title": "영웅출정가",
+      "channel": "Release - Topic",
+      "publishedAt": "2024-07-29T08:03:15-07:00",
+      "descriptionSummary": "음원 유통 메타데이터가 크라잉넛, 오감엔터테인먼트, 2009년 앨범과 2009년 4월 16일 발매 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "march.releaseMetadata",
+        "march.artist",
+        "march.distributor"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-march-live-2024",
+      "songId": "kiwoom-heroes-yeongung-chuljeongga",
+      "url": "https://www.youtube.com/watch?v=4YJGGF1OgR0",
+      "videoId": "4YJGGF1OgR0",
+      "title": "[4K] 크라잉넛 - 영웅출정가 | 크라잉넛 키움 히어로즈 특별공연 (240616)",
+      "channel": "세미네 꽃밭",
+      "publishedAt": "2024-06-19T10:11:27-07:00",
+      "descriptionSummary": "2024년 6월 16일 고척 경기에서 크라잉넛이 영웅출정가를 직접 부른 특별공연 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "march.creatorLive2024",
+        "march.eventUse",
+        "march.performanceContinuity"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-march-field-2012",
+      "songId": "kiwoom-heroes-yeongung-chuljeongga",
+      "url": "https://www.youtube.com/watch?v=ZOn8Y5YUtkQ",
+      "videoId": "ZOn8Y5YUtkQ",
+      "title": "120407 넥센vs두산 넥센치어리더 영웅출정가",
+      "channel": "miziwang",
+      "publishedAt": "2012-04-07T02:50:15-07:00",
+      "descriptionSummary": "2012년 4월 7일 넥센-두산 경기에서 치어리더와 관중이 곡을 사용하는 모습을 기록한 현장 아카이브다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "march.fieldUse2012",
+        "march.versionBoundary",
+        "march.longRunningUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-march-tj-2023",
+      "songId": "kiwoom-heroes-yeongung-chuljeongga",
+      "url": "https://www.youtube.com/watch?v=aA1OyOs94p4",
+      "videoId": "aA1OyOs94p4",
+      "title": "[TJ노래방] 영웅출정가 - 크라잉넛 / TJ Karaoke",
+      "channel": "TJ KARAOKE TJ 노래방 공식 유튜브채널",
+      "publishedAt": "2023-01-08T21:17:07-08:00",
+      "descriptionSummary": "TJ미디어 공식 반주 영상으로 곡명·가수와 곡번호 89342를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "야구 응원가가 정식 노래방 반주로 제공된 점을 반기는 반응이 있다.",
+        "다른 히어로즈 대표곡도 노래방에 추가해 달라는 요청이 보인다."
+      ],
+      "supports": [
+        "march.karaoke89342",
+        "march.artistCredit",
+        "march.offFieldCirculation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-flag-official-2026",
+      "songId": "kiwoom-heroes-gireul-nopyeora",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo&t=1655s",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐈𝐒𝐓] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20T20:00:28-07:00",
+      "descriptionSummary": "구단 공식 2026 플레이리스트가 27:35부터 기를 높여라를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 현행 팀곡 순서와 음원을 확인하는 학습 자료로 활용한다.",
+        "경기장에서 대표 단체 응원을 더 자주 듣고 싶다는 의견이 있다."
+      ],
+      "supports": [
+        "flag.currentOfficial2026",
+        "flag.officialTitle",
+        "flag.currentVersion"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-flag-official-2025",
+      "songId": "kiwoom-heroes-gireul-nopyeora",
+      "url": "https://www.youtube.com/watch?v=phqdZsLhyJ8&t=1832s",
+      "videoId": "phqdZsLhyJ8",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 직관 가기 전 필수 예습 코스⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2025-06-30T02:30:29-07:00",
+      "descriptionSummary": "구단 공식 2025 플레이리스트의 30:32부터 기를 높여라를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "짧고 반복적인 곡이라 새 팬도 현장에서 빠르게 따라 할 수 있다는 반응이 있다.",
+        "공식 목록의 시간표가 원하는 응원가를 찾는 데 유용하다는 의견이 보인다."
+      ],
+      "supports": [
+        "flag.currentOfficial2025",
+        "flag.fanLearning",
+        "flag.shortStructure"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-flag-official-2024",
+      "songId": "kiwoom-heroes-gireul-nopyeora",
+      "url": "https://www.youtube.com/watch?v=OjoYnwcZMOI&t=1374s",
+      "videoId": "OjoYnwcZMOI",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 안그래도 뜨거운 가슴🔥 더 뜨겁게 달궈줄 응원가 플레이리스트 #이걸로_직관준비_끝",
+      "channel": "키움히어로즈",
+      "publishedAt": "2024-04-04T05:30:29-07:00",
+      "descriptionSummary": "구단 공식 2024 응원가 모음으로 22:54부터 기를 높여라를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 채널이 오랜 팀 응원가를 함께 정리한 점을 반기는 반응이 많다.",
+        "크라잉넛 계열 대표곡과 짧은 집단곡을 모두 현장에서 듣고 싶다는 의견이 있다."
+      ],
+      "supports": [
+        "flag.currentOfficial2024",
+        "flag.officialTitle",
+        "flag.playlistContinuity"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-flag-standalone-2018",
+      "songId": "kiwoom-heroes-gireul-nopyeora",
+      "url": "https://www.youtube.com/watch?v=mr_Zd8_d35I",
+      "videoId": "mr_Zd8_d35I",
+      "title": "[히어로즈 야구가 보고싶다] 기를 높여라",
+      "channel": "보틀 0Bottle",
+      "publishedAt": "2018-11-28T20:16:39-08:00",
+      "descriptionSummary": "히어로즈 버전의 짧은 응원가를 단독으로 올린 팬 영상이며 설명란은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 수원 응원의 모방인지 오래된 원곡을 함께 차용한 것인지 두고 의견이 갈린다.",
+        "법적 허가 여부를 단정하는 주장도 있으나 이를 뒷받침하는 공식 자료는 댓글에 제시되지 않는다."
+      ],
+      "supports": [
+        "flag.circulation2018",
+        "flag.originDebate",
+        "flag.currentSeoulVersion"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-flag-archive-2012",
+      "songId": "kiwoom-heroes-gireul-nopyeora",
+      "url": "https://www.youtube.com/watch?v=xlq0iJ4Wy-k",
+      "videoId": "xlq0iJ4Wy-k",
+      "title": "2012 승리가,기를 높여라",
+      "channel": "공놀이_GWB(GameWithBall)",
+      "publishedAt": "2020-02-11T09:12:27-08:00",
+      "descriptionSummary": "2012년 히어로즈의 ‘승리가’와 ‘기를 높여라’를 이어 정리한 아카이브 영상이다. 설명에는 가사가 있으나 전문을 저장하지 않고 당시 사용 확인에만 활용했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "소수 댓글은 2012년 당시 응원과 선수단을 떠올리는 향수를 보인다."
+      ],
+      "supports": [
+        "flag.fieldUse2012",
+        "flag.longRunningUse",
+        "flag.archiveVersion"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-flag-field-2025",
+      "songId": "kiwoom-heroes-gireul-nopyeora",
+      "url": "https://www.youtube.com/watch?v=7tzpxsKk6mM",
+      "videoId": "7tzpxsKk6mM",
+      "title": "키움히어로즈 팀 응원가 \"기를 높여라\" + \"Let's go together Hero\" 20250930",
+      "channel": "DJ Landers",
+      "publishedAt": "2025-09-30T10:25:27-07:00",
+      "descriptionSummary": "2025년 9월 30일 적시타 뒤 ‘기를 높여라’가 나온 뒤 다른 팀곡으로 이어지는 현장 영상이다. 설명의 시간표가 0:00과 0:44 구간을 구분한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "flag.directScoringUse2025",
+        "flag.currentFieldUse",
+        "flag.songSequence"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-dream-official-2026",
+      "songId": "kiwoom-heroes-kkumiyeo-hanaga-doeja",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo&t=900s",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐈𝐒𝐓] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20T20:00:28-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 모음으로 15:00부터 꿈이여 하나가 되자를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오래된 크라잉넛 팀곡이 현행 목록에 유지된 점을 반기는 반응이 있다.",
+        "팬들은 직관 전 긴 곡의 순서와 후렴을 복습하는 데 목록을 사용한다."
+      ],
+      "supports": [
+        "dream.currentOfficial2026",
+        "dream.officialTitle",
+        "dream.lyricsStructure"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-dream-official-2025",
+      "songId": "kiwoom-heroes-kkumiyeo-hanaga-doeja",
+      "url": "https://www.youtube.com/watch?v=phqdZsLhyJ8&t=1033s",
+      "videoId": "phqdZsLhyJ8",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 직관 가기 전 필수 예습 코스⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2025-06-30T02:30:29-07:00",
+      "descriptionSummary": "구단 공식 2025 플레이리스트의 17:13부터 꿈이여 하나가 되자를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팀의 오래된 서사를 담은 곡을 신규 팬도 배울 수 있다는 반응이 있다.",
+        "현장 가사 안내를 강화해 긴 절까지 함께 부르게 해 달라는 요청도 보인다."
+      ],
+      "supports": [
+        "dream.currentOfficial2025",
+        "dream.fanLearning",
+        "dream.longFormParticipation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-dream-official-2024",
+      "songId": "kiwoom-heroes-kkumiyeo-hanaga-doeja",
+      "url": "https://www.youtube.com/watch?v=OjoYnwcZMOI&t=310s",
+      "videoId": "OjoYnwcZMOI",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 안그래도 뜨거운 가슴🔥 더 뜨겁게 달궈줄 응원가 플레이리스트 #이걸로_직관준비_끝",
+      "channel": "키움히어로즈",
+      "publishedAt": "2024-04-04T05:30:29-07:00",
+      "descriptionSummary": "구단 공식 2024 플레이리스트가 5:10부터 꿈이여 하나가 되자를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "구단 공식 채널이 대표 팀곡을 한데 모아 준 점을 환영하는 반응이 많다.",
+        "크라잉넛이 만든 히어로즈 곡을 구장에서 더 자주 듣고 싶다는 의견이 있다."
+      ],
+      "supports": [
+        "dream.currentOfficial2024",
+        "dream.officialTitle",
+        "dream.creatorReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-dream-topic-release",
+      "songId": "kiwoom-heroes-kkumiyeo-hanaga-doeja",
+      "url": "https://www.youtube.com/watch?v=qv5v4_Uq4To",
+      "videoId": "qv5v4_Uq4To",
+      "title": "꿈이여 하나가 되자",
+      "channel": "Release - Topic",
+      "publishedAt": "2024-07-29T08:02:55-07:00",
+      "descriptionSummary": "음원 유통 메타데이터가 크라잉넛, 오감엔터테인먼트, 2009년 앨범과 2009년 4월 16일 발매 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "dream.releaseMetadata",
+        "dream.artist",
+        "dream.distributor"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-dream-club-2017",
+      "songId": "kiwoom-heroes-kkumiyeo-hanaga-doeja",
+      "url": "https://www.youtube.com/watch?v=jFkiL_xb5aU",
+      "videoId": "jFkiL_xb5aU",
+      "title": "[영웅 응원가] 꿈이여 하나가 되자",
+      "channel": "키움히어로즈",
+      "publishedAt": "2017-08-15T21:28:05-07:00",
+      "descriptionSummary": "구단 공식 단독 응원가 영상이다. 설명의 전체 가사는 복제하지 않고 후대 ‘서울’판과 곡 구조 확인에만 사용했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 팀의 어려움과 재도약을 함께 떠올리게 하는 감정적인 곡이라고 말한다.",
+        "선수단 변화로 과거 장면이 더 그립다는 반응과 중요한 순간에 더 자주 사용해 달라는 요청이 있다."
+      ],
+      "supports": [
+        "dream.official2017",
+        "dream.laterSeoulVersion",
+        "dream.lyricsStructure",
+        "dream.emotionalReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-a-dream-archive-2011",
+      "songId": "kiwoom-heroes-kkumiyeo-hanaga-doeja",
+      "url": "https://www.youtube.com/watch?v=AL9OLSYhhe4",
+      "videoId": "AL9OLSYhhe4",
+      "title": "NEXEN HEROS　(꿈이여 하나가 되자/夢よ一つになれ)　song by CRYING NUT",
+      "channel": "Baseballtraveler",
+      "publishedAt": "2011-11-03T19:16:43-07:00",
+      "descriptionSummary": "넥센 히어로즈 응원가라는 짧은 일본어 설명과 함께 초기 음원판을 보존한 영상이다. 후대 공식판과 다른 ‘우리’ 계열 팀명 문구를 들을 수 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한국어와 일본어 댓글 모두 힘찬 밴드 응원가로서 곡을 긍정적으로 평가한다.",
+        "한 댓글은 후대 ‘서울’판과 달리 초기 ‘우리’판이라는 점을 구분한다."
+      ],
+      "supports": [
+        "dream.earlyOurVersion",
+        "dream.circulation2011",
+        "dream.crossLanguageReception"
+      ],
+      "accessedAt": "2026-08-09"
+    }
+  ]
+}

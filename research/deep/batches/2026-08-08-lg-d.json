@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-lg-d",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-lg-twins",
+    "name": "LG 트윈스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문은 저장하지 않는다. 가사는 출처·권리 상태·구조 요약만 기록하고, 전문은 사용자 제공 또는 이용 허락이 확인된 경우에만 별도 승인 뒤 저장한다.",
+  "items": [
+    {
+      "id": "lg-twins-victory-lg",
+      "title": "승리하라 LG여",
+      "aliases": [
+        "승리하라 LG",
+        "승리하라 엘지여"
+      ],
+      "currentStatus": "current",
+      "summary": "짧은 구호형 후렴을 반복하는 구단 자작 팀 응원가다. 2023년 구단 공식 응원가 모음과 2025년 통합우승 뒤풀이 현장 영상으로 사용을 직접 확인했다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "구단 자체 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu"
+          ],
+          "notes": "제작자·보컬·발표 공지는 아직 찾지 못했다."
+        },
+        {
+          "field": "earliestDirectEvidenceYear",
+          "value": 2021,
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lg-d-victory-1"
+          ],
+          "notes": "2021년 2월 공개된 전용 음원 영상이 현재 확인한 가장 오래된 직접 자료다. 도입 연도 자체를 뜻하지 않는다."
+        },
+        {
+          "field": "officialCollectionAppearance",
+          "value": "2023년 LG 트윈스 공식 응원가 모음 10분 57초에 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lg-d-victory-2"
+          ],
+          "notes": "구단 공식 채널 영상의 장 제목으로 확인했다."
+        },
+        {
+          "field": "recentUse",
+          "value": "2025년 통합우승 뒤 잠실 떼창에서 사용",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lg-d-victory-5"
+          ],
+          "notes": "팬 촬영 현장 영상이라 행사 장면의 실제 사용은 확인되지만 구단 운영 규칙 전체를 뜻하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "팀 단체 떼창",
+        "깃발 응원곡 뒤 연속 응원",
+        "우승 뒤풀이·세리머니"
+      ],
+      "trivia": [
+        {
+          "text": "2022년 박용택 은퇴식 영상에서는 ‘LG여 비상하라’ 다음 곡으로 이어져 두 곡이 한 응원 블록처럼 기록됐다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lg-d-victory-4"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyright-status-unverified",
+        "sourceUrls": [
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=Y-cBDnUl5k4"
+        ],
+        "structureSummary": "팀명과 승리 명령형 구호를 반복한 뒤 관중의 함성으로 이긴다는 결론을 되풀이하는 매우 짧은 구호형 구성이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lg-d-victory-1",
+        "yt-lg-d-victory-2",
+        "yt-lg-d-victory-3",
+        "yt-lg-d-victory-4",
+        "yt-lg-d-victory-5"
+      ],
+      "unresolved": [
+        "정확한 최초 도입 연도",
+        "작사·작곡·편곡·가창 크레딧"
+      ]
+    },
+    {
+      "id": "lg-twins-victory-roar",
+      "title": "승리의 포효",
+      "aliases": [],
+      "currentStatus": "current",
+      "summary": "2023년 개막 무렵 공개된 구단 자작 응원가다. 말이 없는 합창 도입부와 승리 구호를 결합하며, 2025년 현장 사용까지 확인된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "구단 자체 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu"
+          ],
+          "notes": "별도 원곡은 제시되지 않지만 제작자 크레딧은 미확인이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": 2023,
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lg-d-roar-2",
+            "yt-lg-d-roar-5"
+          ],
+          "notes": "2023년 3월 29일 ‘새로운 팀 응원가’ 영상과 4월 7일 홈 개막전 ‘신규 팀 응원가’ 현장 영상이 일치한다."
+        },
+        {
+          "field": "usageTiming",
+          "value": "2023년 홈 개막전에서는 8회말 종료 뒤 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lg-d-roar-5"
+          ],
+          "notes": "특정 경기의 직접 관찰이며 매 경기의 고정 규칙인지는 미확인이다."
+        },
+        {
+          "field": "recentUse",
+          "value": "2025년 10월 현장 응원에서 사용",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lg-d-roar-4"
+          ],
+          "notes": "팬 촬영 현장 영상으로 최근 사용을 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "경기 후반 팀 떼창",
+        "치어리더·응원단 현장 공연"
+      ],
+      "trivia": [
+        {
+          "text": "공개 댓글에서는 반복 합창의 현장감과 도입부 타악 리듬을 좋아한다는 반응이 반복됐다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": [
+            "yt-lg-d-roar-1",
+            "yt-lg-d-roar-5"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyright-status-unverified",
+        "sourceUrls": [
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=i9Sw0sCwMkM"
+        ],
+        "structureSummary": "말이 없는 장음 합창을 여러 차례 반복한 뒤 팀의 승리·사랑 구호로 넘어가고 다시 합창으로 닫는 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lg-d-roar-1",
+        "yt-lg-d-roar-2",
+        "yt-lg-d-roar-3",
+        "yt-lg-d-roar-4",
+        "yt-lg-d-roar-5"
+      ],
+      "unresolved": [
+        "작사·작곡·편곡·가창 크레딧",
+        "정규 경기의 고정 재생 이닝 여부"
+      ]
+    },
+    {
+      "id": "lg-twins-fly-high",
+      "title": "LG여 비상하라",
+      "aliases": [
+        "깃발 응원",
+        "깃발송",
+        "LG 트윈스 깃발 응원가"
+      ],
+      "currentStatus": "current",
+      "summary": "베토벤 피아노 소나타 8번 ‘비창’ 2악장의 선율을 변형한 2018년 도입 깃발 응원가다. 2025년 한국시리즈 현장 영상으로 최근 사용도 확인했다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "루트비히 판 베토벤 ‘피아노 소나타 8번 C단조 작품 13’ 2악장",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "e-lg-d-namu",
+            "yt-lg-d-fly-3"
+          ],
+          "notes": "응원가가 고전 선율의 리듬을 변형했다는 설명과 가창자 채널의 영상 제목이 일치한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": 2018,
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu",
+            "yt-lg-d-fly-2"
+          ],
+          "notes": "나무위키의 2018년 도입 주장과 2019년 1월 ‘New 팀응원가’ 직접 영상이 시간상 부합한다."
+        },
+        {
+          "field": "vocal",
+          "value": "황석빈",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu",
+            "yt-lg-d-fly-3"
+          ],
+          "notes": "나무위키가 가창자로 적고 있으며 황석빈 본인 채널에서 이 곡의 라이브 영상을 공개했다."
+        },
+        {
+          "field": "usage",
+          "value": "깃발을 흔들며 부르는 응원으로, 과거 홈경기 7회초 종료 뒤 주로 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu",
+            "yt-lg-d-fly-4",
+            "yt-lg-d-fly-5"
+          ],
+          "notes": "현장 영상은 깃발 응원 형태를 직접 확인시키며, 이닝 설명은 나무위키 서술이다."
+        },
+        {
+          "field": "recentUse",
+          "value": "2025년 10월 한국시리즈 잠실 응원전에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lg-d-fly-4"
+          ],
+          "notes": "2025년 10월 29일 한국시리즈 3차전 현장 영상이다."
+        }
+      ],
+      "usageContexts": [
+        "대형 깃발 응원",
+        "홈경기 이닝 사이",
+        "포스트시즌 응원전"
+      ],
+      "trivia": [
+        {
+          "text": "kt wiz의 ‘kt의 승리 위해’도 같은 고전 선율을 쓰며, 나무위키는 두 곡의 보컬도 황석빈으로 같다고 설명한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu"
+          ]
+        },
+        {
+          "text": "컴투스프로야구V24 광고에 삽입됐다는 기록이 있다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": [
+            "e-lg-d-namu"
+          ]
+        },
+        {
+          "text": "창원 LG 세이커스도 팀 표기 일부를 바꾼 판본을 사용한다는 기록이 있다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu"
+          ]
+        },
+        {
+          "text": "공개 댓글에는 타 구단 팬도 반복해서 찾아 듣는다는 반응과 경기장 입장 때의 기억을 회상하는 반응이 여러 영상에서 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": [
+            "yt-lg-d-fly-1",
+            "yt-lg-d-fly-3"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "adaptation-rights-unverified",
+        "sourceUrls": [
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=h2fbKf6xZfU"
+        ],
+        "structureSummary": "고전 선율 위에 긴 모음 합창을 얹고 비상·승리 구호와 팀명 철자 구호를 교대로 반복하는 2회 반복형이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lg-d-fly-1",
+        "yt-lg-d-fly-2",
+        "yt-lg-d-fly-3",
+        "yt-lg-d-fly-4",
+        "yt-lg-d-fly-5"
+      ],
+      "unresolved": [
+        "응원가 편곡·작사 크레딧의 1차 자료",
+        "2018년 최초 공개일"
+      ]
+    },
+    {
+      "id": "lg-twins-go-twins",
+      "title": "GO! TWINS",
+      "aliases": [
+        "GO TWINS",
+        "고 트윈스",
+        "트윈스 고"
+      ],
+      "currentStatus": "current",
+      "summary": "2018년 LG 트윈스 응원가 공모전 수상작으로 알려진 워커홀릭의 곡이다. 경기 전·클리닝타임 등에 쓰였고 2025년 리마스터 음원이 정식 발매됐다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "2018년 LG 트윈스 응원가 공모전 수상작",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "e-lg-d-bugs-go",
+            "e-lg-d-contest-notice",
+            "yt-lg-d-go-4"
+          ],
+          "notes": "공모전 개최 자료와 2019년 수상작 표기 영상, 음원 서비스 소개가 서로 부합한다."
+        },
+        {
+          "field": "awardPlacement",
+          "value": "우수상",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu"
+          ],
+          "notes": "나무위키는 우수상이라고 적지만 Bugs와 당시 영상은 ‘당선작·수상작’으로만 소개한다. 정확한 수상 등급의 1차 발표문은 아직 찾지 못했다."
+        },
+        {
+          "field": "credits",
+          "value": "워커홀릭 노래; 한철종·주강훈 작사·작곡; 한철종·주강훈·전승환 편곡; 주강훈 보컬",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "e-lg-d-bugs-go"
+          ],
+          "notes": "2025 리마스터 음원 크레딧 기준이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": 2018,
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "e-lg-d-bugs-go",
+            "yt-lg-d-go-4"
+          ],
+          "notes": "2018 공모전 수상작이라는 독립 자료가 일치한다."
+        },
+        {
+          "field": "usage",
+          "value": "경기 전·5회초 몸풀기 및 클리닝타임·우천 지연 때 사용됐고, 최근에는 홈 시구 때 재생된다는 기록",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu",
+            "yt-lg-d-go-4"
+          ],
+          "notes": "2019 영상 설명은 경기 전·클리닝타임 사용을 직접 적고, 최근 시구 사용은 나무위키의 현행 서술이다."
+        },
+        {
+          "field": "remasterRelease",
+          "value": "2025-10-10 리마스터 음원 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "e-lg-d-bugs-go",
+            "yt-lg-d-go-2"
+          ],
+          "notes": "음원 페이지와 아티스트 채널의 리마스터 영상 날짜가 일치한다."
+        }
+      ],
+      "usageContexts": [
+        "경기 전 장내 음악",
+        "클리닝타임·선수 몸풀기",
+        "우천 지연",
+        "홈경기 시구"
+      ],
+      "trivia": [
+        {
+          "text": "2023년 통합우승 뒤 임찬규와 오지환이 출연한 ‘유 퀴즈 온 더 블럭’에서 배경음악으로 쓰였다는 기록이 있다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu"
+          ]
+        },
+        {
+          "text": "2025 리마스터 소개는 2023년 통합우승 이후 다시 조명된 곡이라는 맥락을 제시한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "e-lg-d-bugs-go"
+          ]
+        },
+        {
+          "text": "댓글에서는 정규 응원에 더 자주 활용해 달라는 요구, 야구장 입장 전의 설렘과 연결하는 회상, 타 구단 팬의 호평이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": [
+            "yt-lg-d-go-1",
+            "yt-lg-d-go-2",
+            "yt-lg-d-go-3",
+            "yt-lg-d-go-4"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "commercial-release-copyrighted",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/album/4129585",
+          "https://www.youtube.com/watch?v=Iz5lhn85eco"
+        ],
+        "structureSummary": "달리기·비상·연대의 이미지를 쌓는 두 개의 절과 영문 구호가 섞인 후렴을 반복하며, 마지막 후렴에서 결의를 확장하는 대중가요형 완곡이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lg-d-go-1",
+        "yt-lg-d-go-2",
+        "yt-lg-d-go-3",
+        "yt-lg-d-go-4",
+        "yt-lg-d-go-5"
+      ],
+      "unresolved": [
+        "공모전의 정확한 수상 등급을 확인할 1차 발표문",
+        "2026시즌 홈 시구 사용 빈도"
+      ]
+    },
+    {
+      "id": "lg-twins-loving-lg",
+      "title": "사랑하는 LG",
+      "aliases": [],
+      "currentStatus": "current",
+      "summary": "‘사랑한다 LG’와는 별개의 짧은 구단 자작곡이다. 2025시즌부터 응원단 소개에 쓰인다는 문서 기록을 2025·2026 응원단 소개 현장 영상으로 보강했다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "구단 자체 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu"
+          ],
+          "notes": "제작자·가창자 크레딧은 미확인이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": 2025,
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu",
+            "yt-lg-d-loving-2",
+            "yt-lg-d-loving-3"
+          ],
+          "notes": "나무위키가 2025시즌부터의 사용을 명시하고, 2025년 4월과 8월 응원단 소개 현장 영상이 존재한다."
+        },
+        {
+          "field": "usage",
+          "value": "응원단 소개 배경 응원가",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "e-lg-d-namu",
+            "yt-lg-d-loving-2",
+            "yt-lg-d-loving-3",
+            "yt-lg-d-loving-4",
+            "yt-lg-d-loving-5"
+          ],
+          "notes": "현장 영상 제목은 모두 응원단 소개 장면임을 명시한다. 곡명과의 연결은 나무위키 서술 및 검색 색인을 함께 사용했다."
+        },
+        {
+          "field": "distinctFrom",
+          "value": "‘사랑한다 LG’와 별개의 곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "e-lg-d-namu",
+            "yt-lg-d-loving-1"
+          ],
+          "notes": "2026 팀응원가 목록 영상이 두 제목을 서로 다른 타임스탬프로 구분한다."
+        },
+        {
+          "field": "recentUse",
+          "value": "2026년 4월 응원단 소개에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lg-d-loving-5"
+          ],
+          "notes": "2026년 부응원단장 데뷔전 응원단 소개 현장 영상이다."
+        }
+      ],
+      "usageContexts": [
+        "경기 전 응원단 소개",
+        "응원단 신규 구성원 소개"
+      ],
+      "trivia": [
+        {
+          "text": "2026년 3월 팀응원가 플레이리스트에서는 ‘사랑한다 LG’ 다음에 ‘사랑하는 LG’를 별도 곡으로 배치한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lg-d-loving-1"
+          ]
+        },
+        {
+          "text": "응원단 소개 영상 댓글은 곡 자체보다 응원단 인선과 과거 응원단장에 관한 반응이 대부분이라 곡 평가 자료로는 제한적이다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": [
+            "yt-lg-d-loving-3",
+            "yt-lg-d-loving-5"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyright-status-unverified",
+        "sourceUrls": [
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=_qYAEvdjZ54&t=943s"
+        ],
+        "structureSummary": "팀을 사랑한다는 짧은 핵심 구절을 여러 번 반복해 소개 장면에 맞춘 초단형 구호곡이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lg-d-loving-1",
+        "yt-lg-d-loving-2",
+        "yt-lg-d-loving-3",
+        "yt-lg-d-loving-4",
+        "yt-lg-d-loving-5"
+      ],
+      "unresolved": [
+        "작사·작곡·편곡·가창 크레딧",
+        "2025년 최초 사용 경기"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-lg-d-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "LG 트윈스/응원가",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "현행 팀 응원가 분류, 원곡, 사용 시점, 도입 연도 및 관련 여담을 제공한다. 위키성 자료이므로 직접 영상·공식 음원과 교차 검증했다.",
+      "supports": [
+        "lg-twins-victory-lg.origin",
+        "lg-twins-victory-roar.origin",
+        "lg-twins-fly-high.origin",
+        "lg-twins-fly-high.introductionYear",
+        "lg-twins-go-twins.usage",
+        "lg-twins-loving-lg.usage"
+      ]
+    },
+    {
+      "id": "e-lg-d-bugs-go",
+      "type": "music-service",
+      "url": "https://music.bugs.co.kr/album/4129585",
+      "title": "Go Twins",
+      "publisher": "Bugs",
+      "publishedAt": "2025-10-10",
+      "accessedAt": "2026-08-08",
+      "summary": "2018 LG 트윈스 응원가 공모전 당선 맥락, 2025 리마스터 발매일, 워커홀릭과 작사·작곡·편곡·보컬 크레딧을 제공한다.",
+      "supports": [
+        "lg-twins-go-twins.origin",
+        "lg-twins-go-twins.credits",
+        "lg-twins-go-twins.remasterRelease"
+      ]
+    },
+    {
+      "id": "e-lg-d-contest-notice",
+      "type": "web-article",
+      "url": "https://thenotemusic.tistory.com/m/826",
+      "title": "LG Twins Seoul - LG 트윈스 응원가 공모전",
+      "publisher": "The Note Music",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "2018년 3월 30일 마감 LG 트윈스·셀바이뮤직 응원가 공모전의 개최 사실과 모집 조건을 전한 당시 안내 글이다.",
+      "supports": [
+        "lg-twins-go-twins.origin"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-lg-d-victory-1",
+      "songId": "lg-twins-victory-lg",
+      "url": "https://www.youtube.com/watch?v=tiZ6xJIWO0c",
+      "videoId": "tiZ6xJIWO0c",
+      "title": "LG트윈스 응원가 - 승리하라 LG여",
+      "channel": "LG윤빠",
+      "publishedAt": "2021-02-27",
+      "descriptionSummary": "별도 설명이 없는 50초 전용 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "현재도 사용하는 곡인지 묻는 댓글이 있고 답글 토론이 이어진다."
+      ],
+      "supports": [
+        "earliestDirectEvidenceYear"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-victory-2",
+      "songId": "lg-twins-victory-lg",
+      "url": "https://www.youtube.com/watch?v=Y-cBDnUl5k4&t=657s",
+      "videoId": "Y-cBDnUl5k4",
+      "title": "🌟직관 전 필수 시청!🌟 2023 LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2023-08-22",
+      "descriptionSummary": "구단 공식 2023 응원가 모음으로, 설명의 타임라인에서 10분 57초에 이 곡을 명시한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "officialCollectionAppearance",
+        "currentStatus"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-victory-3",
+      "songId": "lg-twins-victory-lg",
+      "url": "https://www.youtube.com/watch?v=UPWS4EcrFic",
+      "videoId": "UPWS4EcrFic",
+      "title": "[4K] 220925 LG트윈스 팀 응원가 (LG여 비상하라 + 승리하라 LG)",
+      "channel": "엘코너",
+      "publishedAt": "2022-09-25",
+      "descriptionSummary": "2022년 9월 25일 두 곡이 연속된 현장 응원을 촬영했으며 별도 본문 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬 복장 구매를 이야기하는 짧은 현장 반응 한 건이 확인된다."
+      ],
+      "supports": [
+        "pairedUsageWithFlyHigh"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-victory-4",
+      "songId": "lg-twins-victory-lg",
+      "url": "https://www.youtube.com/watch?v=DCPmchbUrDg",
+      "videoId": "DCPmchbUrDg",
+      "title": "[Mr. FOR3V3R] LG여 비상하라 깃발 응원 & 승리하라 LG여 육성 떼창 응원가 (2022.07.03 박용택 은퇴식)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2022-07-15",
+      "descriptionSummary": "박용택 은퇴식에서 깃발 응원 뒤 육성 떼창이 이어지는 장면이며 곡명 해시태그를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "pairedUsageWithFlyHigh",
+        "ceremonialUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-victory-5",
+      "songId": "lg-twins-victory-lg",
+      "url": "https://www.youtube.com/watch?v=2_CNYCocjO4",
+      "videoId": "2_CNYCocjO4",
+      "title": "2025년 통합우승, 11월1일 LG트윈스 잠실 \"승리하라 LG여\" 떼창!!",
+      "channel": "삼봉이",
+      "publishedAt": "2025-11-01",
+      "descriptionSummary": "2025년 통합우승 뒤 잠실의 관중 떼창 장면이라고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "recentUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-roar-1",
+      "songId": "lg-twins-victory-roar",
+      "url": "https://www.youtube.com/watch?v=RBSW-o72hwg",
+      "videoId": "RBSW-o72hwg",
+      "title": "LG트윈스 응원가 - 승리의 포효",
+      "channel": "LG윤빠",
+      "publishedAt": "2024-07-29",
+      "descriptionSummary": "별도 본문 설명이 없는 전용 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "포스트시즌 직관에서 특히 좋았다는 반응이 있다.",
+        "도입부 타악 리듬을 장점으로 꼽는 반응이 있다."
+      ],
+      "supports": [
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-roar-2",
+      "songId": "lg-twins-victory-roar",
+      "url": "https://www.youtube.com/watch?v=i9Sw0sCwMkM",
+      "videoId": "i9Sw0sCwMkM",
+      "title": "LG트윈스 새로운 팀 응원가! 승리의 포효! (노래방 자막 포함)",
+      "channel": "엘트",
+      "publishedAt": "2023-03-29",
+      "descriptionSummary": "2023시즌 개막 직전 ‘새로운 팀 응원가’로 소개하고 노래방 자막을 덧붙인 영상이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "introductionYear"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-roar-3",
+      "songId": "lg-twins-victory-roar",
+      "url": "https://www.youtube.com/watch?v=LGCpg868Hcw",
+      "videoId": "LGCpg868Hcw",
+      "title": "8/31 [직관영상] 엘지트윈스 2023 신규 응원가!! 승리의 포효 응원가를 떼창하는 엘지팬들!!",
+      "channel": "합법갑",
+      "publishedAt": "2023-09-03",
+      "descriptionSummary": "잠실 현장에서 2023 신규 응원가를 관중이 함께 부르는 장면이라고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "crowdUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-roar-4",
+      "songId": "lg-twins-victory-roar",
+      "url": "https://www.youtube.com/watch?v=rReVxwOlGo0",
+      "videoId": "rReVxwOlGo0",
+      "title": "승리의 포효 - 엘지트윈스 팀응원가 ❤️ 우혜준 치어리더 2025.10.22",
+      "channel": "GRIJUA 그리주아TV",
+      "publishedAt": "2025-10-26",
+      "descriptionSummary": "2025년 10월 22일 치어리더가 참여한 현장 팀응원가 장면을 기록한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "recentUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-roar-5",
+      "songId": "lg-twins-victory-roar",
+      "url": "https://www.youtube.com/watch?v=fU-OuicVOe4",
+      "videoId": "fU-OuicVOe4",
+      "title": "[4K] 8회말 종료 후 신규 팀 응원가 승리의 포효! [2023.4.7 홈개막전 (VS 삼성 1차전) 승리의 포효 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2023-04-07",
+      "descriptionSummary": "2023 홈 개막전 8회말 종료 뒤 이 신곡을 부른 장면을 날짜·상대·이닝과 함께 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "가족과 함께한 직관 추억과 세대 간 팬 경험을 연결한 댓글이 있다.",
+        "추운 홈 개막전을 현장에서 보고 승리를 기뻐한 반응이 여러 건이다."
+      ],
+      "supports": [
+        "introductionYear",
+        "usageTiming",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-fly-1",
+      "songId": "lg-twins-fly-high",
+      "url": "https://www.youtube.com/watch?v=X2KkDJIlhaE",
+      "videoId": "X2KkDJIlhaE",
+      "title": "LG트윈스 응원가 - LG여 비상하라 (깃발응원)",
+      "channel": "LG윤빠",
+      "publishedAt": "2021-02-27",
+      "descriptionSummary": "별도 본문 설명이 없는 1분 길이 깃발 응원 전용 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "롯데·두산 등 타 구단 팬도 중독성이 강해 찾아 듣는다는 반응이 반복된다."
+      ],
+      "supports": [
+        "flagCheerAlias",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-fly-2",
+      "songId": "lg-twins-fly-high",
+      "url": "https://www.youtube.com/watch?v=M4i8oLnSCm8",
+      "videoId": "M4i8oLnSCm8",
+      "title": "LG트윈스 New 팀응원가 LG여 비상하라",
+      "channel": "잭참새",
+      "publishedAt": "2019-01-16",
+      "descriptionSummary": "곡을 ‘New 팀응원가’로 소개한 2019년 초 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원가 앱에 표시된 공식형 제목이 ‘LG여 비상하라’라는 정보성 댓글이 있다."
+      ],
+      "supports": [
+        "introductionYear",
+        "title"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-fly-3",
+      "songId": "lg-twins-fly-high",
+      "url": "https://www.youtube.com/watch?v=h2fbKf6xZfU",
+      "videoId": "h2fbKf6xZfU",
+      "title": "LG트윈스 깃발 응원가 ‘LG여 비상하라’ | 베토벤 소나타8번'비창' | 황석빈 응원가 라이브",
+      "channel": "무적로커 황석빈",
+      "publishedAt": "2025-08-20",
+      "descriptionSummary": "황석빈 본인 채널의 라이브로, 제목에서 깃발 응원·베토벤 비창 선율과의 관계를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "잠실에서 라이브로 듣고 싶다는 요청과 가장 좋아하는 곡이라는 반응이 있다.",
+        "경기장으로 이동하며 들었던 경험과 2025 우승을 연결하는 회상이 보인다."
+      ],
+      "supports": [
+        "origin",
+        "vocal",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-fly-4",
+      "songId": "lg-twins-fly-high",
+      "url": "https://www.youtube.com/watch?v=RRtK5Dqn1P0",
+      "videoId": "RRtK5Dqn1P0",
+      "title": "이번엔 1루와 3루를 나눠서 깃발송! 2회초 전 깃발송 (LG여 비상하라) [2025.10.29 KS 3차전 잠실 응원전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2025-10-29",
+      "descriptionSummary": "2025 한국시리즈 3차전에서 1루·3루 관중을 나눠 진행한 2회초 전 깃발 응원 장면이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "recentUse",
+        "flagCheerFormat"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-fly-5",
+      "songId": "lg-twins-fly-high",
+      "url": "https://www.youtube.com/watch?v=z93HrFZSVPE",
+      "videoId": "z93HrFZSVPE",
+      "title": "[잠실더비] 우리는 승리하리라~⭐️ 7회 LG여 비상하라 깃발 응원 & 승리하라 LG여 육성 떼창 응원가 (2023.10.01 vs 두산)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2023-10-01",
+      "descriptionSummary": "두산과의 잠실 경기 7회에 깃발 응원과 다음 육성 떼창이 이어진 장면이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "선율과 메시지가 모두 뭉클하다는 호평이 있다."
+      ],
+      "supports": [
+        "usageTiming",
+        "pairedUsageWithVictoryLg"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-go-1",
+      "songId": "lg-twins-go-twins",
+      "url": "https://www.youtube.com/watch?v=Jic2tGtyHEw",
+      "videoId": "Jic2tGtyHEw",
+      "title": "LG트윈스 응원가｜GO TWINS 뮤직비디오｜2020 업데이트｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2020-03-14",
+      "descriptionSummary": "2019시즌 경기 장면으로 만든 기존 뮤직비디오의 2020 업데이트판이라고 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "구단이 곡을 더 적극적으로 활용해 달라는 반응이 있다.",
+        "타 구단 팬의 호평과 스포츠 애니메이션 주제가처럼 완성도가 높다는 반응이 보인다."
+      ],
+      "supports": [
+        "continuedFanCirculation",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-go-2",
+      "songId": "lg-twins-go-twins",
+      "url": "https://www.youtube.com/watch?v=Iz5lhn85eco",
+      "videoId": "Iz5lhn85eco",
+      "title": "LG트윈스 응원가 Go Twins! 고트윈스 [2025 REMASTER VER]",
+      "channel": "워커홀릭",
+      "publishedAt": "2025-10-10",
+      "descriptionSummary": "원 아티스트 채널이 공개한 2025 리마스터 판본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "경기장에 일찍 도착해 음식을 사거나 자리를 둘러보던 순간과 이 곡을 연결한 회상이 반복된다.",
+        "비시즌에 야구장을 그리워하는 반응이 있다."
+      ],
+      "supports": [
+        "remasterRelease",
+        "artist",
+        "pregameUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-go-3",
+      "songId": "lg-twins-go-twins",
+      "url": "https://www.youtube.com/watch?v=nSNkobX__LI",
+      "videoId": "nSNkobX__LI",
+      "title": "LG트윈스 응원가 - GO TWINS",
+      "channel": "LG윤빠",
+      "publishedAt": "2021-02-27",
+      "descriptionSummary": "별도 본문 설명이 없는 3분대 전곡 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡을 매우 좋아한다는 짧은 호평이 반복된다.",
+        "정식 음원을 찾기 어렵다는 당시 반응이 있다."
+      ],
+      "supports": [
+        "fanReception",
+        "preRemasterAvailability"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-go-4",
+      "songId": "lg-twins-go-twins",
+      "url": "https://www.youtube.com/watch?v=w9Gxy-6rDsA",
+      "videoId": "w9Gxy-6rDsA",
+      "title": "LG트윈스 응원가｜GO TWINS 뮤직비디오｜2018 응원가 공모전 수상작｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2019-04-03",
+      "descriptionSummary": "2018 응원가 공모전 수상작이며 경기 전과 클리닝타임에 구장에서 재생된다고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "더 자주 사용되길 바란다는 반응과 음원 서비스 등록 여부를 묻는 반응이 있다.",
+        "서정적이고 경쾌한 완성도를 높게 평가하는 댓글이 보인다."
+      ],
+      "supports": [
+        "origin",
+        "introductionYear",
+        "usage"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-go-5",
+      "songId": "lg-twins-go-twins",
+      "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8",
+      "videoId": "BhwoJFjkAf8",
+      "title": "[𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧] 엘팬들 직관 준비 끝! 26시즌 LG트윈스 응원가 모음집🎶",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2026-04-09",
+      "descriptionSummary": "구단 공식 2026 응원가 모음이다. 이 곡은 장 목록에는 없으므로 현행 시구용 사용 주장과 일반 관중 응원 목록을 구분하는 반증 자료로 보존한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "라인업송 박자와 선수 응원가 수정 요청 등 최신 응원 운영에 관한 팬 반응이 주를 이룬다."
+      ],
+      "supports": [
+        "notIn2026StandardCheerPlaylist"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-loving-1",
+      "songId": "lg-twins-loving-lg",
+      "url": "https://www.youtube.com/watch?v=_qYAEvdjZ54&t=943s",
+      "videoId": "_qYAEvdjZ54",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 2026.03ver. LG 트윈스 선수&팀응원가 (신규 응원가 포함)",
+      "channel": "석민대디",
+      "publishedAt": "2026-03-28",
+      "descriptionSummary": "설명 타임라인에서 ‘사랑한다 LG’를 14분 45초, ‘사랑하는 LG’를 15분 43초로 따로 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 선수 번호·이름 표기의 오류를 교정하고 재생 순서를 제안하는 정보성 반응이 중심이다."
+      ],
+      "supports": [
+        "distinctFrom",
+        "currentStatus"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-loving-2",
+      "songId": "lg-twins-loving-lg",
+      "url": "https://www.youtube.com/watch?v=EP6CWpGBO1A",
+      "videoId": "EP6CWpGBO1A",
+      "title": "무적LG 응원단에 우승 요정 이주은 합류! LG트윈스 응원단 소개! [2025.04.12 VS 두산 2차전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2025-04-12",
+      "descriptionSummary": "2025년 4월 두산전의 LG 응원단 소개와 신규 합류 인사를 기록한 현장 영상이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "introductionYear",
+        "usage"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-loving-3",
+      "songId": "lg-twins-loving-lg",
+      "url": "https://www.youtube.com/watch?v=LZ9GQQk8HYU",
+      "videoId": "LZ9GQQk8HYU",
+      "title": "정말 오랜만에 보는 최동훈 응원단장의 큰 절 인사! 썸머홀릭 첫 날 LG트윈스 응원단 소개! [2025.08.05 VS 두산 12차전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2025-08-05",
+      "descriptionSummary": "2025년 8월 썸머홀릭 첫날의 응원단 소개와 전 응원단장 인사를 담은 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "과거 응원단장의 복귀 장면을 반가워하고 당시 응원가 제작을 회상하는 반응이 많다."
+      ],
+      "supports": [
+        "usage",
+        "2025Continuity"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-loving-4",
+      "songId": "lg-twins-loving-lg",
+      "url": "https://www.youtube.com/watch?v=alm3k-PRvjY",
+      "videoId": "alm3k-PRvjY",
+      "title": "[2025 LG트윈스] 응원단 소개",
+      "channel": "Hink",
+      "publishedAt": "2025-08-18",
+      "descriptionSummary": "별도 본문 설명 없이 2025 LG 응원단 소개 장면만 담은 짧은 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "usage",
+        "2025Continuity"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-d-loving-5",
+      "songId": "lg-twins-loving-lg",
+      "url": "https://www.youtube.com/watch?v=wlkBgj1bbxc",
+      "videoId": "wlkBgj1bbxc",
+      "title": "응원단 NEW FACE! 최서용 부 응원단장 데뷔전! (LG트윈스 응원단 소개!) [2026.04.10 VS SSG 1차전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2026-04-10",
+      "descriptionSummary": "2026년 4월 SSG전에서 신규 부응원단장을 포함한 응원단 소개 장면을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "신규 부응원단장을 응원하거나 응원단 구성 변화를 묻는 반응이 중심이다."
+      ],
+      "supports": [
+        "recentUse",
+        "usage"
+      ],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 25,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 10
+  }
+}

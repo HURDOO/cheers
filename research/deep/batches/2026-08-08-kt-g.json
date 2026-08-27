@@ -1,0 +1,933 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kt-g",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kt-wiz",
+    "name": "kt wiz",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 원곡·응원가와 AI 생성물은 출처·크레딧·구조·사용 이력만 요약하며, 공개 댓글은 작성자를 식별하지 않는 반복 반응만 익명·재서술해 기록한다. AI가 특정 실연자의 목소리를 모사했다는 미확인 주장에는 동의·학습 데이터·퍼블리시티권 쟁점이 있을 수 있어 음원 자체를 복제하지 않는다.",
+  "items": [
+    {
+      "id": "kt-wiz-seungriharira-ai-fan-song",
+      "title": "승리하리라 kt wiz",
+      "aliases": ["승리하리라 KT WIZ", "AI 팬 자작 팀응원가 승리하리라 kt wiz"],
+      "currentStatus": "unofficial-fan-made-not-current-official-cheer",
+      "summary": "2025년 팬 채널이 공개한 AI 제작 팬 응원가다. 확인된 단독 영상은 2025년 3월 26일 수원 경기 영상을 소재로 삼고 제목에서 스스로 ‘AI 팬 자작 팀응원가’라고 명시한다. 나무위키는 2025시즌 전 공개됐고 황석빈의 목소리도 AI로 만들었다고 적지만, 이번 조사에서 확인한 최초 영상은 한국시간 3월 29일 공개됐으며 업로더 설명은 황석빈 모사·AI 모델·동의 여부를 밝히지 않는다. 2025·2026 팬 플레이리스트에는 널리 수록되지만 구단 현행 API, 응원가 저작권표, 2026 구단 공식 ‘전곡’ 영상에는 모두 없다. 경기장 화면을 쓴 팬 영상도 장내 음원 재생을 주장하지 않으므로 공식·현행 응원가가 아니라 팬 창작곡으로 분류한다.",
+      "claims": [
+        {
+          "field": "provenance",
+          "value": "팬 채널이 AI로 만든 비공식 자작 팀 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-ai-standalone-2025", "ev-kt-g-namu-cheers"],
+          "notes": "단독 영상 제목이 ‘AI 팬 자작’을 직접 명시한다. 구단 제작이나 응원단 채택을 뜻하는 표현은 없다."
+        },
+        {
+          "field": "firstVerifiedPublication",
+          "value": "확인된 영상 공개 2025-03-29 한국시간; 영상 소재 경기는 2025-03-26",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-ai-standalone-2025"],
+          "notes": "나무위키의 ‘2025 시즌을 앞두고 공개’ 서술과 달리 이번 조사에서 확인한 직접 업로드는 정규시즌 개막 뒤다. 더 이른 원본·음원 게시물이 있었는지는 미확정이다."
+        },
+        {
+          "field": "aiVoiceClaim",
+          "value": "황석빈의 목소리를 AI로 제작했다는 주장",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "ev-kt-g-hwang-interview", "ev-kt-g-hwang-namu"],
+          "notes": "나무위키만 구체적으로 황석빈 AI 보컬을 지목한다. 황석빈은 인터뷰에서 창단기 KT 응원가 녹음을 맡았다고 밝혔지만 이 팬 곡의 생성·동의·실연에는 관여를 확인해 주지 않았다. 업로더 설명에도 보이스 모델 정보가 없다."
+        },
+        {
+          "field": "officialStatus",
+          "value": "구단 현행 API·응원가 저작권표·2026 공식 플레이리스트에 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kt-g-official-song-api", "ev-kt-g-official-copyright", "ev-kt-g-official-2026-playlist", "yt-kt-g-ai-official-omission-2026"],
+          "notes": "공식 목록 누락만으로 모든 저빈도곡의 폐지를 판정할 수는 없지만, 이 곡은 팬 제작이라는 직접 표기와 장내 사용 표본 부재까지 겹친다."
+        },
+        {
+          "field": "fanCirculation",
+          "value": "2025년 두 팬 플레이리스트와 2026년 두 팬 플레이리스트에 지속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-ai-playlist-apr-2025", "yt-kt-g-ai-playlist-aug-2025", "yt-kt-g-ai-playlist-a-2026", "yt-kt-g-ai-playlist-b-2026"],
+          "notes": "팬이 듣는 응원가 모음에 포함된 사실은 확인되지만 구단 채택·현장 PA 사용을 의미하지 않는다."
+        },
+        {
+          "field": "sloganUse",
+          "value": "2025 구단 공식 슬로건 ‘한계를 넘어 더욱 위대하게’를 도입부에 활용",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "yt-kt-g-ai-official-slogan-2025", "yt-kt-g-ai-standalone-2025"],
+          "notes": "구단 공식 개막 영상이 같은 슬로건을 사용하지만 팬 곡의 공식 채택 근거는 아니다. 팬 제작자가 시즌 캠페인 문구를 가져온 것으로 보는 것이 안전하다."
+        },
+        {
+          "field": "titleDisambiguation",
+          "value": "기존 짧은 곡 ‘kt wiz 승리하라/kt wiz 승리하리라’ 및 장편 ‘승리하라 kt wiz’와 별개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kt-g-official-song-api", "yt-kt-g-ai-playlist-apr-2025", "yt-kt-g-ai-playlist-aug-2025"],
+          "notes": "팬 플레이리스트가 AI 신곡과 기존 짧은 곡을 각각 다른 시간표로 싣는다. 단어 순서만 보고 병합하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "공식 응원단 운영곡이 아니라 팬 영상·팬 플레이리스트에서 듣는 비공식 창작곡으로 확인된다.",
+        "단독 영상은 수원KT위즈파크 경기 영상을 배경으로 사용하지만 장내 스피커에서 이 곡이 재생됐다는 설명은 없다.",
+        "팬 플레이리스트에서는 긴 팀 응원가처럼 맨 앞이나 팀 곡 구간에 배치되기도 한다.",
+        "구단 공식 슬로건을 활용해 공식곡처럼 보일 수 있으므로 출처 표시에 ‘팬메이드 AI’를 반드시 유지한다."
+      ],
+      "trivia": [
+        {
+          "id": "ai-song-slogan-confusion",
+          "summary": "곡의 첫 문구가 2025 구단 공식 슬로건과 같고 경기장 영상까지 붙어 있어 공식 신곡으로 오인하기 쉽다. 그러나 단독 업로드 제목은 팬 자작임을 명시한다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-ai-official-slogan-2025", "yt-kt-g-ai-standalone-2025"]
+        },
+        {
+          "id": "ai-song-name-collision",
+          "summary": "2025 팬 모음 한 편에는 0분의 AI곡 ‘승리하리라 kt wiz’와 16분대의 기존 짧은 곡 ‘kt wiz 승리하리라’가 동시에 실려 제목 순서가 실질적인 식별자 역할을 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-ai-playlist-aug-2025"]
+        },
+        {
+          "id": "ai-song-hwang-context",
+          "summary": "황석빈은 2023년 인터뷰에서 KT 창단 당시 김주일 응원단장이 응원가 보컬 작업을 폭넓게 맡겼다고 회고했다. 이 배경 때문에 AI 목소리 모사 주장이 설득력 있게 유통되지만, 해당 팬 곡에 대한 본인 확인은 아니다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kt-g-hwang-interview", "ev-kt-g-namu-cheers"]
+        },
+        {
+          "id": "ai-song-official-ai-confusion",
+          "summary": "2026 구단 공식 플레이리스트 댓글에도 공식 수록곡들의 AI 보컬을 비판하는 반응이 많다. 구단의 별도 AI 보컬 정책과 2025 팬메이드 AI곡의 출처는 서로 혼동하지 않아야 한다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kt-g-ai-official-omission-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "unofficial-ai-generated-fan-song; copyright, training-data, voice-likeness and performer-consent status unresolved",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=ahKmUKBWIGY",
+          "https://namu.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=t9k2hE63SJw"
+        ],
+        "structureSummary": "2025 시즌 슬로건을 짧게 제시한 뒤 모음 중심의 합창과 수원·KT 철자 구호를 반복한다. 중간 절은 마법·기적·두려움 없는 승리를 서술하고, 제목을 네 차례 강조하는 후렴 뒤 처음의 구호 블록으로 돌아간다. AI 생성·편집의 세부 방식과 보이스 모델은 공개되지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-g-ai-standalone-2025",
+        "yt-kt-g-ai-official-slogan-2025",
+        "yt-kt-g-ai-playlist-apr-2025",
+        "yt-kt-g-ai-playlist-aug-2025",
+        "yt-kt-g-ai-playlist-a-2026",
+        "yt-kt-g-ai-playlist-b-2026",
+        "yt-kt-g-ai-official-omission-2026"
+      ],
+      "unresolved": [
+        "팬 곡의 실제 작사·작곡·프롬프트·편집 담당자와 사용한 생성 모델",
+        "나무위키가 주장하는 황석빈 보이스 모사의 1차 출처와 당사자 동의 여부",
+        "2025-03-29 영상보다 이른 원본 음원·게시물이 있었는지 여부",
+        "구단 또는 응원단이 경기장 PA에서 시험 재생하거나 채택을 검토한 적이 있는지",
+        "AI 학습 데이터·원음 샘플·보이스 라이선스와 팬 영상 재사용 범위"
+      ]
+    },
+    {
+      "id": "kt-wiz-passion",
+      "title": "Passion",
+      "aliases": ["KT WIZ Passion", "패션", "베토벤 바이러스 Passion 응원가"],
+      "currentStatus": "low-frequency-current-directly-verified-2026",
+      "summary": "이필호·박종미가 작곡·편곡한 2008년 드라마 ‘베토벤 바이러스’ OST ‘Passion’을 구호형 팀 응원으로 바꾼 곡이다. KT 1군 첫 시즌인 2015년 7월 현장 영상이 사용을 직접 확인한다. 나무위키는 김주일 응원단장이 이전에 맡았던 대전 삼성화재 블루팡스의 응원을 가져왔고, 2018년 권리 분쟁 뒤 중단된 동안 2019년부터 NC 양의지 응원가로 선물했으며 양의지가 두산으로 돌아간 뒤 2023년 10월 KT에서 부활했다고 전한다. 실제로 2023년 10월 1일 직캠부터 2024 와일드카드, 2025 현장, 2026년 4·5·6월 직캠이 이어진다. 현재 구단 API와 2026 공식 ‘전곡’ 영상에는 없지만 직접 현장 표본이 이를 반박하므로 저빈도 현행곡으로 판정한다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "드라마 베토벤 바이러스 OST — Passion, 2008-09-17",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-passion-original-topic", "ev-kt-g-namu-cheers"],
+          "notes": "YouTube Topic의 배급 메타데이터가 앨범·발매일·작곡·편곡을 직접 제공한다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "작곡·편곡 이필호, 박종미",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-passion-original-topic"],
+          "notes": "OST 원곡 크레딧이다. 응원가 개사·구호 제작과는 구분한다."
+        },
+        {
+          "field": "introduction",
+          "value": "2015년부터 사용; 2015-07-16 경기 현장 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "yt-kt-g-passion-field-2015"],
+          "notes": "최초 사용일 자체는 아니지만 KT 1군 첫 시즌의 날짜가 특정된 직접 표본이다."
+        },
+        {
+          "field": "adaptationLineage",
+          "value": "대전 삼성화재 블루팡스에서 쓰던 김주일 응원을 KT가 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "ev-kt-g-hwang-interview"],
+          "notes": "김주일이 여러 종목 응원을 옮겨 쓰는 맥락은 인터뷰와 맞지만, 블루팡스판 원음·공식 크레딧은 이번 조사에서 교차하지 못했다."
+        },
+        {
+          "field": "usageHistory",
+          "value": "2015~2017 사용, 2018 권리 분쟁 뒤 중단, 2023년 10월 부활",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "yt-kt-g-passion-field-2015", "yt-kt-g-passion-revival-field-2023", "yt-kt-g-passion-fan-mv-2023"],
+          "notes": "중단 사유·기간은 편집형 문서에 의존하지만 2015와 2023의 직접 영상 경계가 연혁을 지지한다. 2023년 가장 이른 확인 표본은 10월 1일이다."
+        },
+        {
+          "field": "crossTeamUse",
+          "value": "2019~2022 NC 다이노스 양의지 응원가로 같은 선율·구조가 사용됨",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "ev-kt-g-hwang-namu", "yt-kt-g-passion-fan-mv-2023"],
+          "notes": "팬 영상 댓글도 NC 양의지 응원가와의 동일성을 반복해서 알아본다. 김주일이 NC 응원단장에게 선물했다는 과정은 나무위키 서술이다."
+        },
+        {
+          "field": "stadiumCredits",
+          "value": "김주일이 응원 구호·개사를 제작한 것으로 알려지고 보컬은 황석빈으로 정리됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "ev-kt-g-hwang-namu", "ev-kt-g-hwang-interview"],
+          "notes": "나무위키의 ‘작곡자 김주일’ 표기는 OST 원곡 작곡과 충돌하므로 응원용 구호·편곡 제작 크레딧으로 제한해 해석한다. 황석빈 인터뷰는 KT 전반의 보컬 작업을 확인하지만 이 곡 제목을 직접 말하지는 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 와일드카드, 2025 정규시즌, 2026-04-12·05-14·05-15·06-21 직접 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-passion-wildcard-2024", "yt-kt-g-passion-field-aug-2025", "yt-kt-g-passion-field-sep-2025", "yt-kt-g-passion-field-apr-2026", "yt-kt-g-passion-field-may-a-2026", "yt-kt-g-passion-field-may-b-2026", "yt-kt-g-passion-field-jun-2026"],
+          "notes": "공식 2026 영상·API 미수록에도 불구하고 여러 날짜와 채널의 현장 영상이 현행성을 직접 입증한다."
+        },
+        {
+          "field": "officialListingConflict",
+          "value": "현재 구단 API와 2026 공식 ‘전곡’ 영상에는 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kt-g-official-song-api", "ev-kt-g-official-2026-playlist", "yt-kt-g-passion-official-omission-2026"],
+          "notes": "공식 카탈로그가 저빈도·권리 제한곡을 모두 포괄하지 않는 사례다. 직접 영상이 있으므로 미수록을 폐지로 해석하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "OST의 빠른 반복 선율 위에 팀명과 승리 구호를 주고받는 약 2분 길이의 전곡 응원이다.",
+        "창단 초기에는 경기 뒤 승리 순간에도 사용된 것으로 나무위키가 구단 페이스북 영상을 인용해 전한다.",
+        "2024 와일드카드 현장에서는 여러 팀 응원가를 연속 진행하는 열광응원 구간에 포함됐다.",
+        "2026 직접 영상은 치어리더 군무와 함께 전곡 또는 일부를 진행하는 저빈도 현행 레퍼토리임을 보여 주지만 고정 이닝·점수 조건은 확인되지 않았다."
+      ],
+      "trivia": [
+        {
+          "id": "passion-three-team-route",
+          "summary": "같은 응원 구조가 대전 삼성화재 블루팡스에서 KT로, 다시 2019년 NC 양의지 개인 응원가로 이동했다가 2023년 KT 팀 곡으로 돌아온 것으로 전해진다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "ev-kt-g-hwang-namu"]
+        },
+        {
+          "id": "passion-yang-recognition",
+          "summary": "2023 KT 팬 뮤직비디오와 2025 아카이브 영상 댓글에는 곡을 듣자마자 NC 시절 양의지 응원가를 떠올리는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-passion-fan-mv-2023", "yt-kt-g-passion-archive-2025"]
+        },
+        {
+          "id": "passion-official-listing-gap",
+          "summary": "공식 2026 ‘전곡’ 영상과 현재 API에서 빠졌지만 2026년 석 달에 걸쳐 네 개의 날짜 특정 직캠이 남아 있다. KT의 온라인 공식 목록과 실제 저빈도 선곡이 일치하지 않는 대표 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kt-g-official-song-api", "yt-kt-g-passion-official-omission-2026", "yt-kt-g-passion-field-apr-2026", "yt-kt-g-passion-field-may-a-2026", "yt-kt-g-passion-field-may-b-2026", "yt-kt-g-passion-field-jun-2026"]
+        },
+        {
+          "id": "passion-credit-layering",
+          "summary": "OST 메타데이터는 이필호·박종미를 원곡 작곡·편곡자로 적지만 야구 응원 자료는 김주일을 작곡자로 부르기도 한다. 원곡과 응원용 구호·편곡의 크레딧 층위를 나눠야 한다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-passion-original-topic", "ev-kt-g-namu-cheers"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-television-OST-and-stadium-adaptation; current field use verified but online redistribution rights unknown",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=Ih1yTrh3O10",
+          "https://namu.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=Ud3YN0Er7SU",
+          "https://www.youtube.com/watch?v=UN35gQKnF4Y"
+        ],
+        "structureSummary": "빠른 현악·타악 중심 OST 주제를 반복하면서 짧은 팀명 선창, 승리 선언, 철자 응답을 한 묶음으로 구성한다. 비슷한 묶음을 세 차례 돌되 끝부분에서 팀명 반복을 늘려 마무리한다. NC 양의지판은 같은 선율·호흡을 개인 이름과 타격 구호로 바꾼 별도 개사다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-g-passion-original-topic",
+        "yt-kt-g-passion-field-2015",
+        "yt-kt-g-passion-revival-field-2023",
+        "yt-kt-g-passion-fan-mv-2023",
+        "yt-kt-g-passion-wildcard-2024",
+        "yt-kt-g-passion-archive-2025",
+        "yt-kt-g-passion-field-aug-2025",
+        "yt-kt-g-passion-field-sep-2025",
+        "yt-kt-g-passion-field-apr-2026",
+        "yt-kt-g-passion-field-may-a-2026",
+        "yt-kt-g-passion-field-may-b-2026",
+        "yt-kt-g-passion-field-jun-2026",
+        "yt-kt-g-passion-official-omission-2026"
+      ],
+      "unresolved": [
+        "2015년 정확한 최초 사용일과 대전 삼성화재판에서 KT판으로 넘어온 공식 경위",
+        "2018년 중단을 초래한 권리 분쟁의 계약·권리자·쟁점 원문",
+        "2023년 부활 첫 경기와 재사용 권리 협의 여부",
+        "KT판 개사·편곡·녹음의 전체 공식 크레딧과 김주일 ‘작곡’ 표기의 정확한 범위",
+        "2026 정규시즌의 고정 선곡 이닝·점수 조건과 공식 목록에서 빠진 이유"
+      ]
+    },
+    {
+      "id": "kt-wiz-kt-wiz-fighting",
+      "title": "kt wiz 화이팅",
+      "aliases": ["KT WIZ 화이팅", "케이티 위즈 화이팅"],
+      "currentStatus": "officially-delisted-current-field-use-unverified",
+      "summary": "2018년부터 사용한 것으로 기록된 짧은 구단 창작형 응원가다. 나무위키가 연결한 구형 wizzap 공식 MP3는 현재도 내려받을 수 있고 URL 경로가 2018년 3월을 가리키지만 서버 최종 수정 시각은 2019년 3월이어서 정확한 최초 공개일은 확정하지 않았다. 곡은 짧은 제목 구호, 승리를 함께 외치자는 문장, 팀명 철자 응답을 같은 단위로 네 번 반복한다. 나무위키는 원래부터 사용 빈도가 낮았고 2025년부터 공식 사이트·앱에서 사라졌다고 적으며, 실제 현재 구단 API와 2026 공식 영상에도 없다. 2024~2026 팬 플레이리스트에는 계속 들어가지만 최신 직접 현장 영상은 찾지 못해 현행 공식곡으로 승인하지 않고 ‘공식 아카이브 잔존·현행 미확인’으로 둔다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2018시즌부터 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "ev-kt-g-fighting-old-audio"],
+          "notes": "구형 공식 음원 URL의 경로는 2018-03-21을 포함하고 나무위키 연도와 맞는다. 다만 서버 Last-Modified는 2019-03-12라 최초 공개일로 단정하지 않는다."
+        },
+        {
+          "field": "origin",
+          "value": "상업 원곡이 확인되지 않은 구단 창작형 반복 응원가",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "ev-kt-g-official-copyright", "ev-kt-g-fighting-old-audio"],
+          "notes": "나무위키와 구단 저작권표가 원곡을 제시하지 않는다. 원곡이 없다는 계약상 확정 자료는 아니므로 중간 신뢰도로 남긴다."
+        },
+        {
+          "field": "recordingCredits",
+          "value": "보컬 황석빈으로 알려짐; 작사·작곡·편곡 미확인",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kt-g-hwang-namu", "ev-kt-g-hwang-interview"],
+          "notes": "황석빈 문서의 KT 녹음 목록에 곡명이 있고, 본인은 인터뷰에서 창단기 KT 응원가 보컬 전반을 맡았다고 밝혔다. 공식 트랙별 크레딧은 없다."
+        },
+        {
+          "field": "historicalUseFrequency",
+          "value": "2018년부터 사용했으나 빈도가 낮은 곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "yt-kt-g-fighting-field-2019"],
+          "notes": "2019 경기 방문 영상은 제목이 곡명과 같고 현장 촬영이지만 설명에 곡 시작·전체 재생을 명시하지 않아 보조 표본으로만 쓴다."
+        },
+        {
+          "field": "officialDelisting",
+          "value": "2025년부터 공식 사이트·앱 응원가 탭에서 제외; 현재 API와 2026 공식 영상에도 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kt-g-namu-cheers", "ev-kt-g-official-song-api", "ev-kt-g-official-2026-playlist", "yt-kt-g-fighting-official-omission-2026"],
+          "notes": "구형 MP3 직접 URL은 살아 있지만 현행 목록 항목은 아니다. 파일 존속과 현행 카탈로그 노출을 구분한다."
+        },
+        {
+          "field": "fanPlaylistContinuity",
+          "value": "2024·2025·2026 팬 팀 응원가 모음에는 계속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-fighting-playlist-2024", "yt-kt-g-fighting-playlist-apr-2025", "yt-kt-g-fighting-playlist-aug-2025", "yt-kt-g-fighting-playlist-2026"],
+          "notes": "팬 모음은 음원 기억과 학습 수요를 확인하지만 실제 그 시즌 경기장 선곡을 자동으로 증명하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 정규시즌 직접 현장 사용 미확인",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-kt-g-official-song-api", "yt-kt-g-fighting-playlist-2026", "yt-kt-g-fighting-official-omission-2026"],
+          "notes": "나무위키 현행 단락과 팬 플레이리스트는 사용 가능성을 남기지만 공식 미수록과 직접 표본 부재가 더 강한 반대 근거다."
+        },
+        {
+          "field": "pre2018TitleConflict",
+          "value": "2017-10-09 업로드된 동명 제목 영상이 있으나 정확히 같은 트랙인지는 미확인",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["yt-kt-g-fighting-title-conflict-2017", "ev-kt-g-namu-cheers"],
+          "notes": "영상 제목은 일반적인 팀 격려 표현일 수도 있어 나무위키의 2018 도입 연도를 앞당기는 근거로 쓰지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "짧은 제목 선창과 관중의 팀명 철자 응답을 같은 단위로 반복하는 기본 군무형 응원이다.",
+        "과거에도 사용 빈도가 높지 않았다는 기록이 있어 독립 영상보다 팬 전곡 모음에서 더 자주 확인된다.",
+        "2019 경기 방문 영상은 현장 응원의 일부를 담지만 정확한 전체 트랙 식별과 사용 상황은 설명되지 않았다.",
+        "2025 이후에는 공식 목록에서 빠져 최신 정규 경기 선곡을 직접 확인하기 전까지 현행곡으로 확정하지 않는다."
+      ],
+      "trivia": [
+        {
+          "id": "fighting-live-file-dead-list",
+          "summary": "구형 공식 MP3 주소는 2026년에도 정상 응답하지만 곡은 현재 API 목록에 없다. 서버 파일이 살아 있다는 사실과 구단이 현행 목록으로 노출한다는 사실은 다르다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kt-g-fighting-old-audio", "ev-kt-g-official-song-api"]
+        },
+        {
+          "id": "fighting-fan-list-after-delisting",
+          "summary": "공식 탭에서 빠진 뒤에도 대형 팬 플레이리스트는 2025년 두 차례와 2026년에 곡을 수록해 팬 기억 속 레퍼토리와 응원단 실제 선곡표가 다를 수 있음을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kt-g-fighting-playlist-apr-2025", "yt-kt-g-fighting-playlist-aug-2025", "yt-kt-g-fighting-playlist-2026"]
+        },
+        {
+          "id": "fighting-vocal-context",
+          "summary": "황석빈은 KT 창단 당시 김주일 응원단장이 응원가 보컬을 폭넓게 맡겼다고 회고했고, 편집형 보컬 목록은 이 곡을 그의 녹음작으로 분류한다. 트랙별 공식 크레딧 부재 때문에 확정 표기는 보류한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kt-g-hwang-interview", "ev-kt-g-hwang-namu"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-recording; old official audio remains reachable but current listing and redistribution rights are unclear",
+        "sourceUrls": [
+          "https://wizzap.ktwiz.co.kr/files/520/2018/03/21/audio/617fb37309c14a3c9d3c9bc26ad0913b.mp3",
+          "https://namu.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=ISfiqt6wnAI",
+          "https://www.youtube.com/watch?v=Lw45jev4IxI"
+        ],
+        "structureSummary": "팀을 격려하는 제목 구호, 모두 함께 승리를 외치자는 한 문장, 팀명 철자 응답을 한 묶음으로 만들고 거의 같은 묶음을 네 차례 반복한다. 선율·가사가 짧고 박이 분명해 치어리더의 반복 군무와 초보 관중의 즉시 참여를 염두에 둔 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-g-fighting-title-conflict-2017",
+        "yt-kt-g-fighting-field-2019",
+        "yt-kt-g-fighting-playlist-2024",
+        "yt-kt-g-fighting-playlist-apr-2025",
+        "yt-kt-g-fighting-playlist-aug-2025",
+        "yt-kt-g-fighting-playlist-2026",
+        "yt-kt-g-fighting-official-omission-2026"
+      ],
+      "unresolved": [
+        "정확한 최초 공개·경기 사용일과 2017 동명 영상이 같은 트랙인지 여부",
+        "작사·작곡·편곡·보컬의 트랙별 공식 전체 크레딧",
+        "2024 이후 날짜와 경기 상황이 특정된 직접 현장 사용 표본",
+        "2025 공식 사이트·앱 목록 제외가 폐지인지 저빈도 보류인지",
+        "구형 공식 MP3의 현재 외부 재생·재사용 허락 범위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kt-g-official-song-api",
+      "type": "official-api",
+      "url": "https://www.ktwiz.co.kr/api/v2/guide/cheerSongWithPlayerImg?cheerSong.cheerSongCate=0",
+      "title": "kt wiz 응원가 목록 API",
+      "publisher": "kt wiz",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "구단 응원가 화면이 호출하는 현행 공개 데이터다. 조사 시점의 팀 응원가 항목에 승리하리라 kt wiz·Passion·kt wiz 화이팅은 모두 없고, 이름이 비슷한 기존 곡 ‘kt wiz 승리하라’와 ‘승리하라 kt wiz’는 별도 항목으로 존재한다. 가사·음원 전문은 저장하지 않았다.",
+      "supports": ["all.currentOfficialListingAbsence", "aiSong.titleDisambiguation", "fighting.oldFileVersusCurrentList"]
+    },
+    {
+      "id": "ev-kt-g-official-2026-playlist",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=2kJf0pbtajA",
+      "title": "직관 전 필수시청 2026 kt wiz 응원가 전곡 플레이리스트",
+      "publisher": "kt wiz - 위즈TV",
+      "publishedAt": "2026-03-23",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 공식 35분 영상은 팀·상황·선수 응원가 챕터를 제공하지만 세 대상곡은 모두 수록하지 않는다. Passion은 이후 날짜 특정 현장 영상이 반복돼 미수록과 실제 사용이 충돌하고, AI 팬곡과 kt wiz 화이팅은 직접 현장 반례를 찾지 못했다.",
+      "supports": ["all.officialPlaylistOmission", "passion.listingConflict", "aiSong.unofficialAssessment", "fighting.currentStatusCaveat"]
+    },
+    {
+      "id": "ev-kt-g-official-copyright",
+      "type": "official-rights-table",
+      "url": "https://www.ktwiz.co.kr/player/song-copyright",
+      "title": "kt wiz 응원가 저작권",
+      "publisher": "kt wiz",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "구단이 공개한 응원가 원곡·저작자 표다. 조사 시점에 세 대상곡은 모두 없으며, 따라서 AI 팬곡의 공식 등록이나 Passion·kt wiz 화이팅의 현행 권리 크레딧을 이 표에서 확인할 수 없다. 표가 모든 저빈도·과거곡을 포괄한다고 단정하지 않았다.",
+      "supports": ["all.currentRightsListingAbsence", "aiSong.noOfficialRegistration", "fighting.originUnresolved"]
+    },
+    {
+      "id": "ev-kt-g-namu-cheers",
+      "type": "community-encyclopedia",
+      "url": "https://namu.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "kt wiz/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "최신 열광응원 단락은 승리하리라 kt wiz를 2025~ 팬메이드 AI곡, Passion을 2015~2017·2023~, kt wiz 화이팅을 2018~로 분류한다. AI 황석빈 음성 주장, Passion의 블루팡스→KT→NC 양의지→KT 계보와 2023년 10월 부활, kt wiz 화이팅의 저빈도·2025 공식 탭 제외도 제공한다. 편집형 자료이므로 직접 영상·공식 API와 충돌하는 부분은 낮은 등급으로 보존했다.",
+      "supports": ["all.historyClaims", "aiSong.aiVoiceClaim", "passion.crossTeamLineage", "passion.revival", "fighting.delisting"]
+    },
+    {
+      "id": "ev-kt-g-hwang-interview",
+      "type": "first-person-press-interview",
+      "url": "https://v.daum.net/v/Pnna1XBEsH",
+      "title": "[DUGOUT Inside The Park] 응원가 가수 황석빈",
+      "publisher": "대단한미디어 DUGOUT",
+      "publishedAt": "2023-05",
+      "accessedAt": "2026-08-09",
+      "summary": "황석빈이 KT 창단 당시 김주일 응원단장이 응원가 보컬 작업을 폭넓게 맡겼고 자신은 작사·작곡이 아니라 보컬 녹음만 담당한다고 직접 설명한 인터뷰다. 특정 세 곡의 트랙별 크레딧이나 2025 AI 팬곡의 보이스 모사는 확인하지 않는다.",
+      "supports": ["hwang.ktVocalContext", "roleSeparation", "aiVoiceClaimLimit", "passionAndFighting.vocalContext"]
+    },
+    {
+      "id": "ev-kt-g-hwang-namu",
+      "type": "community-encyclopedia",
+      "url": "https://namu.wiki/w/%ED%99%A9%EC%84%9D%EB%B9%88",
+      "title": "황석빈",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "황석빈의 KT 녹음 목록에 Passion과 kt wiz 화이팅을 포함하고, Passion이 2018년 이후 NC 양의지 응원가로 넘어갔다가 2023년 부활했다고 정리한다. 공식 트랙 크레딧이 아니라 커뮤니티 보컬그래피이므로 DUGOUT 인터뷰의 일반 맥락과 함께 중간 신뢰도로 사용했다.",
+      "supports": ["passion.vocalClaim", "fighting.vocalClaim", "passion.transferAndRevival"]
+    },
+    {
+      "id": "ev-kt-g-fighting-old-audio",
+      "type": "official-audio-asset",
+      "url": "https://wizzap.ktwiz.co.kr/files/520/2018/03/21/audio/617fb37309c14a3c9d3c9bc26ad0913b.mp3",
+      "title": "kt wiz 화이팅 공식 음원",
+      "publisher": "kt wiz wizzap",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "나무위키가 공식 음원으로 연결한 구형 wizzap MP3가 2026년에도 HTTP 200으로 재생 가능하다. URL 경로는 2018-03-21, 서버 Last-Modified는 2019-03-12다. 음원 파일은 저장·재배포하지 않았으며 현재 API 목록에서의 제거와 구분했다.",
+      "supports": ["fighting.officialHistoricalAsset", "fighting.introductionWindow", "fighting.oldFileStillReachable"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kt-g-ai-standalone-2025",
+      "songId": "kt-wiz-seungriharira-ai-fan-song",
+      "url": "https://www.youtube.com/watch?v=ahKmUKBWIGY",
+      "videoId": "ahKmUKBWIGY",
+      "title": "수원 위팍 | 두산 vs kt | AI 팬 자작 팀응원가 - 승리하리라 kt wiz",
+      "channel": "응하컬 - 응원가로 하나되는 컬렉션",
+      "publishedAt": "2025-03-28T18:11:45-07:00",
+      "descriptionSummary": "2025년 3월 26일 수원KT위즈파크 두산-KT 경기 영상을 배경으로 쓴 1분 40초 팬 편집물이다. 제목과 설명이 곡을 AI 팬 자작으로 명시하며 장내 재생이나 구단 채택을 주장하지 않는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fanMadeAI", "firstVerifiedUpload", "stadiumFootageNotFieldPlayback", "unofficialStatus"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-ai-official-slogan-2025",
+      "songId": "kt-wiz-seungriharira-ai-fan-song",
+      "url": "https://www.youtube.com/watch?v=0U-oOIdapss",
+      "videoId": "0U-oOIdapss",
+      "title": "UP! GREAT! : 한계를 넘어 더욱 위대하게, 2025시즌 공식 개막 영상 [위즈티비]",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2025-03-22T21:50:29-07:00",
+      "descriptionSummary": "구단 공식 개막 전광판 영상으로 2025 슬로건 ‘한계를 넘어 더욱 위대하게’의 공식 사용을 확인한다. 팬 AI곡의 공식 음원이나 채택 근거는 아니다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 개막 승리와 V2를 기원하고 영상의 감정적·마법사 콘셉트를 긍정적으로 평가한다.",
+        "댓글은 팬 AI 응원가나 황석빈 보이스 모사를 언급하지 않는다."
+      ],
+      "supports": ["official2025Slogan", "sloganContext", "notSongAdoptionEvidence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-ai-playlist-apr-2025",
+      "songId": "kt-wiz-seungriharira-ai-fan-song",
+      "url": "https://www.youtube.com/watch?v=t9k2hE63SJw",
+      "videoId": "t9k2hE63SJw",
+      "title": "[Playlist] 2025시즌 Ver. kt wiz 팀응원가 모음 (04.02 Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2025-04-02T05:39:38-07:00",
+      "descriptionSummary": "팬 제작 2025 모음이 53:34에 승리하리라 kt wiz를 신곡으로 수록한다. 01:48의 기존 ‘kt wiz 승리하리라’와 별도 챕터다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 새 곡의 시즌 슬로건을 따라 외치고 우리의 자랑과 함께 현장에서 부르길 기대한다.",
+        "Passion이 NC 양의지 응원가와 익숙하다는 반응도 있으나 AI곡의 공식성에 대한 논의는 거의 없다."
+      ],
+      "supports": ["fanPlaylist2025", "newSongLabel", "titleDisambiguation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-ai-playlist-aug-2025",
+      "songId": "kt-wiz-seungriharira-ai-fan-song",
+      "url": "https://www.youtube.com/watch?v=Il0V0qK7GKY",
+      "videoId": "Il0V0qK7GKY",
+      "title": "[Playlist] 마지막 총력전 2025 kt wiz 응원가 통합 모음집 (08.09 Ver. 스티븐슨 등장곡 추가)",
+      "channel": "마법의 성",
+      "publishedAt": "2025-08-08T19:12:17-07:00",
+      "descriptionSummary": "팬 제작 2025 통합 모음이 AI곡 승리하리라 kt wiz를 00:00에, 기존 짧은 곡 kt wiz 승리하리라를 16:34에 따로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "청취자들은 비시즌 복습·운전·게임용으로 활용하며 다음 시즌 신곡을 기대한다.",
+        "구체적인 AI 제작·보컬 권리 논의보다는 전체 KT 응원가와 선수 곡에 대한 반응이 중심이다."
+      ],
+      "supports": ["fanPlaylist2025", "titleCollision", "fanCirculation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-ai-playlist-a-2026",
+      "songId": "kt-wiz-seungriharira-ai-fan-song",
+      "url": "https://www.youtube.com/watch?v=JF2TEiYUUPM",
+      "videoId": "JF2TEiYUUPM",
+      "title": "2026 🧙‍♂️KT 위즈 PLAYLIST⚾️ (신규응원가 포함, 끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-04-04T20:00:32-07:00",
+      "descriptionSummary": "팬 제작 2026 통합 목록이 00:00에 승리하리라 KT WIZ를 배치한다. 수익화를 목적으로 하지 않는 팬 플레이리스트임을 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 시즌 우승과 부상 없는 경기를 기원하고 출근·하원길 재생 목록으로 활용한다.",
+        "곡의 구단 채택이나 황석빈 AI 보이스 출처를 확인하는 댓글은 보이지 않는다."
+      ],
+      "supports": ["fanPlaylist2026", "fanCirculation", "unofficialCompilation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-ai-playlist-b-2026",
+      "songId": "kt-wiz-seungriharira-ai-fan-song",
+      "url": "https://www.youtube.com/watch?v=Lw45jev4IxI",
+      "videoId": "Lw45jev4IxI",
+      "title": "[Playlist] kt wiz 2026 팀응원가 플레이리스트 (응원가 Only Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2026-04-17T18:37:18-07:00",
+      "descriptionSummary": "팬 제작 2026 팀 응원가 모음이 08:05에 ‘kt wiz 승리하리라’로 표기해 수록한다. 2025 신곡의 어순을 뒤집은 표기일 가능성이 있어 이름 충돌 주의가 필요하다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 직관 전 학습과 일상 재생에 유용하다고 평가한다.",
+        "특정 곡의 반복본이나 새 곡 현장 사용을 바라는 반응은 있으나 AI곡의 공식성은 논의하지 않는다."
+      ],
+      "supports": ["fanPlaylist2026", "namingAmbiguity", "fanCirculation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-ai-official-omission-2026",
+      "songId": "kt-wiz-seungriharira-ai-fan-song",
+      "url": "https://www.youtube.com/watch?v=2kJf0pbtajA",
+      "videoId": "2kJf0pbtajA",
+      "title": "✨직관 전 필수시청✨ 2026 kt wiz 응원가 전곡 플레이리스트 [2026 위즈티비]",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2026-03-23T02:30:25-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 영상의 전체 챕터에 승리하리라 kt wiz가 없다. 팬 플레이리스트 수록과 공식 채택을 구분하는 음성 근거다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 공식 수록곡의 AI 보컬을 비판하고 황석빈 같은 인간 보컬 재녹음을 요구하는 반응이 주를 이룬다.",
+        "이 반응은 2026 공식 수록곡의 녹음 방식에 관한 것이며 2025 팬메이드 AI곡이 공식곡이라는 뜻은 아니다."
+      ],
+      "supports": ["officialOmission2026", "unofficialAssessment", "officialAiPolicyDistinction"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-original-topic",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=Ih1yTrh3O10",
+      "videoId": "Ih1yTrh3O10",
+      "title": "Passion",
+      "channel": "Various Artists - Topic",
+      "publishedAt": "2015-06-23T07:03:50-07:00",
+      "descriptionSummary": "지니뮤직 배급 메타데이터가 베토벤 바이러스 OST 수록곡, 2008년 9월 17일 발매, 작곡·편곡 이필호·박종미를 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["originalSong", "releaseDate", "originalCredits", "instrumentalSource"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-field-2015",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=Ud3YN0Er7SU",
+      "videoId": "Ud3YN0Er7SU",
+      "title": "passion ktwiz응원가 7/16 VS 두산",
+      "channel": "GKTBT FCSEL",
+      "publishedAt": "2015-07-19T08:05:12-07:00",
+      "descriptionSummary": "2015년 7월 16일 KT-두산 경기에서 약 2분간 Passion을 진행한 창단 초기 직접 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2015", "introductionYear", "originalEraPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-revival-field-2023",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=fajebx3RTwo",
+      "videoId": "fajebx3RTwo",
+      "title": "[4K] 231001 ktwiz 류혜민 치어리더 (kt응원가 - Passion)",
+      "channel": "구운동마법사",
+      "publishedAt": "2023-11-10T04:31:27-08:00",
+      "descriptionSummary": "2023년 10월 1일 KT 경기에서 Passion과 치어리더 동작을 촬영한 4K 직캠으로, 2023년 10월 부활 주장을 직접 뒷받침한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["revivalByOctober2023", "fieldUse2023", "choreography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-fan-mv-2023",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=dbt7MElNBFA",
+      "videoId": "dbt7MElNBFA",
+      "title": "KT WIZ-PASSION M/V",
+      "channel": "-DEYCO-",
+      "publishedAt": "2023-11-05T05:48:44-08:00",
+      "descriptionSummary": "부활 시기 KT 경기 장면을 Passion에 맞춰 편집한 2분가량의 팬 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "여러 댓글이 NC 시절 양의지 응원가와 선율·구조가 같다는 점을 즉시 알아본다.",
+        "KT의 포스트시즌·우승을 기원하는 반응도 있다."
+      ],
+      "supports": ["revivalReception", "yangEuiJiAssociation", "fanReuse2023"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-wildcard-2024",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=HGXiMJE5lnU",
+      "videoId": "HGXiMJE5lnU",
+      "title": "⚾️2024 와일드카드 최종전서 잠실 3루를 꽉 채워버린 KT 위즈 선수 & 팀 응원가 현장 직캠 45분 총모음!!🧙🏻‍♂️ (2024.10.03 WC 최종전 vs 두산)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2024-10-03T15:05:00-07:00",
+      "descriptionSummary": "2024년 10월 3일 와일드카드 결정전 원정 응원 직캠이며 25:36 챕터가 Passion을 직접 식별한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "상대 팀 팬까지 KT 원정 응원의 규모·절도·합창을 높게 평가한다.",
+        "김주일 응원단장의 장기간 기여와 팬덤 성장에 대한 감사·회고가 반복된다."
+      ],
+      "supports": ["fieldUse2024", "postseasonUse", "awayCrowd", "chapterIdentification"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-archive-2025",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=O3B9JPDSajw",
+      "videoId": "O3B9JPDSajw",
+      "title": "KT위즈 팀응원가 Passion(2015~2017, 2023~)",
+      "channel": "응원가 아카이브",
+      "publishedAt": "2025-09-27T04:12:49-07:00",
+      "descriptionSummary": "사용 연혁을 2015~2017·2023~로 표시하고 ‘가을야구 단골 응원곡’으로 설명한 팬 아카이브형 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 NC 양의지 응원가를 떠올리는 짧은 반응이 중심이다."
+      ],
+      "supports": ["fanHistoryLabel", "postseasonAssociation", "yangEuiJiRecognition"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-field-aug-2025",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=WFbUFDLWf98",
+      "videoId": "WFbUFDLWf98",
+      "title": "2025.08.24 KT WIZ 승리를 위하여 KT WIZ PASSION",
+      "channel": "JOWONGITV SKT 옛날방송 MBC GAME 온게임넷",
+      "publishedAt": "2025-09-07T06:16:00-07:00",
+      "descriptionSummary": "2025년 8월 24일 경기에서 승리를 위하여에 이어 Passion을 진행한 모습을 담은 직접 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2025", "teamCheerSequence", "currentUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-field-sep-2025",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=6q_UGf-VZZk",
+      "videoId": "6q_UGf-VZZk",
+      "title": "2025.09.16 수원 KT 위즈파크 KT WIZ PASSION OF KT",
+      "channel": "JOWONGITV SKT 옛날방송 MBC GAME 온게임넷",
+      "publishedAt": "2026-01-27T05:29:59-08:00",
+      "descriptionSummary": "2025년 9월 16일 수원KT위즈파크에서 Passion을 진행한 장면을 곡명·날짜·장소로 특정한 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2025", "homeUse", "datedEvidence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-field-apr-2026",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=UN35gQKnF4Y",
+      "videoId": "UN35gQKnF4Y",
+      "title": "2026.04.12 수원 KT 위즈파크 KT WIZ PASSION",
+      "channel": "JOWONGITV SKT 옛날방송 MBC GAME 온게임넷",
+      "publishedAt": "2026-05-29T17:23:45-07:00",
+      "descriptionSummary": "2026년 4월 12일 수원KT위즈파크에서 Passion을 진행한 모습을 담은 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2026", "currentUse", "homeUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-field-may-a-2026",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=1-fpoaT6vCU",
+      "videoId": "1-fpoaT6vCU",
+      "title": "260514 PASSION",
+      "channel": "만두매니아",
+      "publishedAt": "2026-05-22T08:03:28-07:00",
+      "descriptionSummary": "2026년 5월 14일 KT 경기의 Passion과 치어리더 동작을 담은 직접 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2026", "currentUse", "choreography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-field-may-b-2026",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=bVfJYRRdQVo",
+      "videoId": "bVfJYRRdQVo",
+      "title": "260515 PASSION",
+      "channel": "만두매니아",
+      "publishedAt": "2026-05-24T05:37:32-07:00",
+      "descriptionSummary": "2026년 5월 15일 바로 다음 경기에서도 Passion을 진행한 모습을 담아 연속 선곡 가능성을 보여 주는 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2026", "currentUse", "consecutiveDateEvidence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-field-jun-2026",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=VgGqNV4_jnE",
+      "videoId": "VgGqNV4_jnE",
+      "title": "260621 PASSION",
+      "channel": "만두매니아",
+      "publishedAt": "2026-07-05T06:17:06-07:00",
+      "descriptionSummary": "2026년 6월 21일 KT 경기에서 Passion과 치어리더 응원을 촬영한 직접 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2026", "currentUse", "multiMonthContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-passion-official-omission-2026",
+      "songId": "kt-wiz-passion",
+      "url": "https://www.youtube.com/watch?v=2kJf0pbtajA",
+      "videoId": "2kJf0pbtajA",
+      "title": "✨직관 전 필수시청✨ 2026 kt wiz 응원가 전곡 플레이리스트 [2026 위즈티비]",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2026-03-23T02:30:25-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 영상의 챕터에는 Passion이 없다. 이후 네 개의 2026 현장 영상이 직접 사용을 확인하므로 미수록은 저빈도·편집 누락으로 해석해야 한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 AI 보컬에 대한 불만과 인간 보컬 재녹음, 빠진 선수·과거 응원가 추가 요청을 주로 남긴다.",
+        "Passion을 직접 지목한 반복 반응은 확인되지 않는다."
+      ],
+      "supports": ["officialOmission2026", "listingConflict", "omissionNotRetirement"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-fighting-title-conflict-2017",
+      "songId": "kt-wiz-kt-wiz-fighting",
+      "url": "https://www.youtube.com/watch?v=JHFh9zBDREs",
+      "videoId": "JHFh9zBDREs",
+      "title": "KT위즈 화이팅",
+      "channel": "Kk Kk",
+      "publishedAt": "2017-10-09T14:51:21-07:00",
+      "descriptionSummary": "2017년 10월 공개된 35초 동명 제목 영상이다. 설명과 곡별 메타데이터가 없어 2018년 도입곡과 같은 음원인지, 일반적인 팀 응원 제목인지 확정하지 못했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["pre2018TitleConflict", "exactTrackUnresolved", "doNotMoveIntroductionYear"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-fighting-field-2019",
+      "songId": "kt-wiz-kt-wiz-fighting",
+      "url": "https://www.youtube.com/watch?v=ODVfK68ecTU",
+      "videoId": "ODVfK68ecTU",
+      "title": "[MOMOREAL] KT wiz 화이팅!!",
+      "channel": "Jinpi Welcome",
+      "publishedAt": "2019-06-16T04:38:00-07:00",
+      "descriptionSummary": "직원들과 KT 경기 응원을 다녀온 현장 영상으로 선수와 응원단에 감사를 전한다. 제목은 곡명과 같지만 설명에 정확한 트랙 시작·전곡 재생은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["possibleFieldUse2019", "historicalContext", "exactSegmentUnresolved"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-fighting-playlist-2024",
+      "songId": "kt-wiz-kt-wiz-fighting",
+      "url": "https://www.youtube.com/watch?v=ISfiqt6wnAI",
+      "videoId": "ISfiqt6wnAI",
+      "title": "[Playlist] kt wiz 팀 응원가 모음 (최신곡 포함)",
+      "channel": "마법의 성",
+      "publishedAt": "2024-03-28T21:07:52-07:00",
+      "descriptionSummary": "팬 제작 2024 팀 응원가 모음이 09:31에 kt wiz 화이팅을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 직관·노동요로 활용하고 성적과 무관하게 팀을 응원한다는 반응을 남긴다.",
+        "kt wiz 화이팅만의 사용 빈도나 현행성을 논의하는 댓글은 제한적이다."
+      ],
+      "supports": ["fanPlaylist2024", "titleIdentification", "archiveContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-fighting-playlist-apr-2025",
+      "songId": "kt-wiz-kt-wiz-fighting",
+      "url": "https://www.youtube.com/watch?v=t9k2hE63SJw",
+      "videoId": "t9k2hE63SJw",
+      "title": "[Playlist] 2025시즌 Ver. kt wiz 팀응원가 모음 (04.02 Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2025-04-02T05:39:38-07:00",
+      "descriptionSummary": "공식 사이트·앱 제외가 보고된 2025년에도 팬 제작 목록은 09:54에 kt wiz 화이팅을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "청취자들은 직관 전 학습과 이동·공부용 재생 목록으로 활용한다.",
+        "이 곡의 공식 탭 삭제나 최근 현장 사용을 직접 논의하는 댓글은 보이지 않는다."
+      ],
+      "supports": ["fanPlaylistAfterDelisting", "titleIdentification", "notFieldProof"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-fighting-playlist-aug-2025",
+      "songId": "kt-wiz-kt-wiz-fighting",
+      "url": "https://www.youtube.com/watch?v=Il0V0qK7GKY",
+      "videoId": "Il0V0qK7GKY",
+      "title": "[Playlist] 마지막 총력전 2025 kt wiz 응원가 통합 모음집 (08.09 Ver. 스티븐슨 등장곡 추가)",
+      "channel": "마법의 성",
+      "publishedAt": "2025-08-08T19:12:17-07:00",
+      "descriptionSummary": "팬 제작 2025 통합 목록이 24:03에 kt wiz 화이팅을 수록해 시즌 중반에도 음원 아카이브가 이어졌음을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 비시즌 복습과 운전·게임용으로 전체 응원가를 반복 재생한다.",
+        "개별 곡의 실제 경기장 선곡 여부보다 전체 목록의 포괄성을 높게 평가한다."
+      ],
+      "supports": ["fanPlaylist2025", "archiveContinuity", "notFieldProof"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-fighting-playlist-2026",
+      "songId": "kt-wiz-kt-wiz-fighting",
+      "url": "https://www.youtube.com/watch?v=Lw45jev4IxI",
+      "videoId": "Lw45jev4IxI",
+      "title": "[Playlist] kt wiz 2026 팀응원가 플레이리스트 (응원가 Only Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2026-04-17T18:37:18-07:00",
+      "descriptionSummary": "팬 제작 2026 팀 목록이 11:48에 kt wiz 화이팅을 수록한다. 직접 현장 영상이 아닌 팬의 포괄적 음원 모음이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 직관 전 학습과 노동요로 유용하다고 평가한다.",
+        "구형·저빈도 곡의 실제 2026 선곡 여부를 확인하는 댓글은 없다."
+      ],
+      "supports": ["fanPlaylist2026", "archiveContinuity", "currentUseUnresolved"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kt-g-fighting-official-omission-2026",
+      "songId": "kt-wiz-kt-wiz-fighting",
+      "url": "https://www.youtube.com/watch?v=2kJf0pbtajA",
+      "videoId": "2kJf0pbtajA",
+      "title": "✨직관 전 필수시청✨ 2026 kt wiz 응원가 전곡 플레이리스트 [2026 위즈티비]",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2026-03-23T02:30:25-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 영상의 전체 챕터에 kt wiz 화이팅이 없다. 현재 API에서도 빠져 있어 팬 목록만으로 현행성을 확정할 수 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 포함곡의 AI 보컬과 빠진 선수·과거 응원가를 보완해 달라는 요청을 주로 남긴다.",
+        "kt wiz 화이팅을 직접 복원해 달라는 반복 반응은 확인되지 않는다."
+      ],
+      "supports": ["officialOmission2026", "currentStatusCaveat", "fanVsOfficialList"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 3,
+    "youtubeSampleCount": 27,
+    "songsMeetingYoutubeMinimum": 3,
+    "openIssueCount": 15
+  }
+}

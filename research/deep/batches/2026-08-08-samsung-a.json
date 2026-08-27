@@ -1,0 +1,1422 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-samsung-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-samsung-lions",
+    "name": "삼성 라이온즈",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 가사는 출처와 구조·주제만 요약하고, 공개 댓글은 개인정보와 원문 인용을 배제한 반복 반응만 기록한다.",
+  "items": [
+    {
+      "id": "samsung-lions-lineup-song",
+      "title": "라인업송",
+      "aliases": ["라인업 송", "Lineup Song", "2020 라인업 송"],
+      "currentStatus": "current",
+      "summary": "김상헌 응원단장이 작사·작곡하고 박유진이 편곡한 허니크루의 2020년 구단 창작곡이다. 음원은 2020년 4월 14일 발매됐고 구단은 5월 28일 한국시간 공식 학습 영상에서 2020 시즌 새 응원가로 소개했다. 홈에서는 1회말, 원정에서는 1회초 시작 전에 선발 타순과 투수를 호명하며, 보통 ‘환희’로 이어진다. 2021 포스트시즌부터 2026년 7월 원정까지 직접 사용이 확인되고 2026 구단 공식 목록 첫 곡으로 수록돼 있다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2020 시즌",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-lineup-official-teach-2020", "yt-samsung-a-lineup-licensed-2020", "ev-samsung-a-lineup-spotify", "ev-samsung-a-namu"],
+          "notes": "구단 공식 영상이 ‘2020시즌 새 응원가’라고 명시하고 음원 서비스도 2020 앨범에 수록한다. 2021년 Topic 업로드일을 도입일로 보지 않는다."
+        },
+        {
+          "field": "recordingReleaseDate",
+          "value": "2020-04-14",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-lineup-licensed-2020", "ev-samsung-a-lineup-spotify"],
+          "notes": "YouTube Topic 설명과 Spotify 앨범 메타데이터가 일치한다."
+        },
+        {
+          "field": "credits",
+          "value": "작사·작곡 김상헌, 편곡 박유진, 아티스트 허니크루",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-lineup-licensed-2020", "ev-samsung-a-lineup-spotify"],
+          "notes": "YG PLUS 제공 음원 설명의 역할별 크레딧을 사용했다."
+        },
+        {
+          "field": "usageContext",
+          "value": "홈 1회말·원정 1회초 시작 전 선발 타순과 선발투수 호명",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-lineup-postseason-2021", "yt-samsung-a-lineup-field-2026"],
+          "notes": "위키의 운용 설명과 날짜·타순이 적힌 직접 현장 영상이 기능을 교차 확인한다. 구단 공식 운영표는 찾지 못했다."
+        },
+        {
+          "field": "sequence",
+          "value": "사이렌과 응원단장 구령 뒤 진행하며 보통 ‘환희’로 연결",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-lineup-playoff-2024", "yt-samsung-a-lineup-opening-2025"],
+          "notes": "2024 플레이오프와 2025 개막전 영상 제목·구성이 두 곡의 연속 사용을 직접 보여 준다."
+        },
+        {
+          "field": "2025RecordingChange",
+          "value": "2025 시즌부터 타순 번호를 부르는 녹음이 추가됐다는 주장",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-lineup-playoff-2024", "yt-samsung-a-lineup-opening-2025"],
+          "notes": "위키 서술을 보존했으며 두 현장 음원의 차이를 제작 크레딧 수준에서 확인하지는 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-07-03 인천 원정까지 직접 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-lineup-official-2026", "yt-samsung-a-lineup-field-2026"],
+          "notes": "구단 공식 2026 목록의 00:00 수록과 날짜가 특정된 원정 현장 10:50 사용을 함께 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "경기 첫 공격 직전에 오늘의 1번부터 9번 타자와 선발투수를 관중이 응답하는 선수 소개",
+        "사이렌·응원단장 선창·관중의 선수명 응답으로 구성되는 초반 분위기 조성",
+        "라인업 호명 뒤 ‘환희’와 공통 타자 구호로 연결되는 경기 시작 루틴"
+      ],
+      "trivia": [
+        {
+          "id": "lineup-pandemic-learning",
+          "summary": "2020년 공식 학습 영상 댓글에는 코로나19 때문에 경기장에서 새 곡을 부르지 못하는 아쉬움과 미리 외우겠다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-lineup-official-teach-2020"]
+        },
+        {
+          "id": "lineup-postseason-silence",
+          "summary": "2021 플레이오프 영상 댓글은 당시 육성응원이 제한돼 익숙한 관중 합창이 들리지 않는 점을 아쉬워한다. 곡 자체 중단이 아니라 방역 시기 현장 맥락이다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-lineup-postseason-2021"]
+        },
+        {
+          "id": "lineup-fan-ranking",
+          "summary": "2024·2025 현장 영상 댓글에서는 구단의 역사성과 응원 화력을 상징하는 도입부라고 평가하거나 KBO 라인업송 중 특히 좋다는 반응이 보인다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-samsung-a-lineup-playoff-2024", "yt-samsung-a-lineup-opening-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-distributed-by-midum-yg-plus-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=cuB-N2sY_wY",
+          "https://www.youtube.com/watch?v=AmQC5K6_HUs",
+          "https://open.spotify.com/track/7C7xOuzn5utzfGDXZfAsw4",
+          "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "팀의 강함과 동행을 알리는 짧은 도입 뒤 1번부터 9번 타자와 선발투수를 차례로 호명하고, 팀 정체성을 묻고 답하는 구호와 도입 선율의 재현으로 끝난다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-samsung-a-lineup-official-teach-2020",
+        "yt-samsung-a-lineup-licensed-2020",
+        "yt-samsung-a-lineup-postseason-2021",
+        "yt-samsung-a-lineup-playoff-2024",
+        "yt-samsung-a-lineup-opening-2025",
+        "yt-samsung-a-lineup-official-2026",
+        "yt-samsung-a-lineup-field-2026"
+      ],
+      "unresolved": [
+        "2020년 음원 발매 전 실제 무관중 경기에서 처음 재생된 정확한 날짜",
+        "2025년 타순 번호 녹음 추가 버전의 별도 제작·가창 크레딧",
+        "2026 시즌 홈·원정에서 ‘환희’까지 항상 연속 재생하는지 여부",
+        "구단 음원과 가사의 외부 재사용·전재 허락 범위"
+      ]
+    },
+    {
+      "id": "samsung-lions-jijunghae",
+      "title": "지중해",
+      "aliases": ["지중해 응원가", "박상민 지중해", "용짜르트 지중해"],
+      "currentStatus": "revived-current",
+      "summary": "박상민의 상업곡 ‘지중해’를 짧은 삼성 팀 구호로 개사한 응원가다. 나무위키는 김용일 전 응원단장이 제작했다고 기록한다. 온라인에는 시민구장 시절 원본이 2012년까지였다는 팬 아카이브 주장과 2016년 라이온즈파크 직접 사용 영상이 함께 있어 버전 단절을 한 연도로 단정할 수 없다. 2018년 응원가 저작권 분쟁기 이후 사라졌다가 2026년 3월 28일 개막전에서 부활했고, 4월 구단 공식 학습·플레이리스트와 7월 원정 현장까지 현행 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "underlyingSong",
+          "value": "박상민 — 지중해",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-namu", "ev-samsung-a-jijunghae-apple", "ev-samsung-a-jijunghae-bugs", "ev-samsung-a-jijunghae-kumyoung"],
+          "notes": "위키와 음원·노래방 자료가 원곡과 가수를 일치시킨다."
+        },
+        {
+          "field": "underlyingCredits",
+          "value": "작사 오윤성, 작곡·편곡 유해준",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-a-jijunghae-kumyoung", "ev-samsung-a-jijunghae-credits"],
+          "notes": "금영 공식 자료는 작곡 유해준을, 악보 판매 자료는 작사·편곡까지 제시한다. 음반 북클릿 원문은 찾지 못했다."
+        },
+        {
+          "field": "underlyingReleaseDate",
+          "value": "Apple Music 1998-09-01, 벅스·국내 CD 자료 1999-04",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-a-jijunghae-apple", "ev-samsung-a-jijunghae-bugs"],
+          "notes": "서비스별 동일 베스트앨범 발매일이 충돌하므로 정확한 원곡 발매일은 확정하지 않았다."
+        },
+        {
+          "field": "adaptationCreator",
+          "value": "김용일 전 응원단장 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-med-version-compare-2026"],
+          "notes": "위키의 창작자 서술이며 공식 구단 크레딧 원문은 확인하지 못했다. 팬들은 김용일 버전을 ‘용짜르트’라고 구분한다."
+        },
+        {
+          "field": "oldVersionTimeline",
+          "value": "팬 아카이브는 원 버전을 ‘미상~2012’로 표기하지만 2016-06-04 라팍 직접 사용 영상이 존재",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-med-archive-2025", "yt-samsung-a-med-old-field-2016"],
+          "notes": "2013년 이후 재녹음판으로 교체됐을 가능성이 있으나 두 버전의 공식 음원 식별 정보가 없다. ‘곡 자체’와 ‘특정 녹음’의 종료 연도를 분리했다."
+        },
+        {
+          "field": "copyrightHiatus",
+          "value": "2018년 프로야구 응원가 저작권 분쟁기 이후 사용 중단",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-a-namu", "ev-samsung-a-lawsuit-2018", "ev-samsung-a-copyright-case"],
+          "notes": "위키가 이 곡의 중단을 저작권 사태와 연결한다. 판례 자료는 삼성 응원가 전반의 분쟁을 확인하지만 ‘지중해’가 소송 대상 곡이었는지는 별도 특정하지 않는다."
+        },
+        {
+          "field": "revival",
+          "value": "2026-03-28 시즌 개막전 부활",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-med-revival-2026", "yt-samsung-a-med-official-teach-2026", "yt-samsung-a-med-official-playlist-2026", "ev-samsung-a-namu"],
+          "notes": "개막전 직접 영상과 한 달 뒤 구단 공식 학습·목록이 부활을 교차 확인한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-07-03 인천 원정까지 직접 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-med-current-field-2026", "yt-samsung-a-med-official-playlist-2026"],
+          "notes": "현장 모음 설명의 18:16 구간과 공식 목록 30:16 수록이 일치한다."
+        },
+        {
+          "field": "openingWord",
+          "value": "공식·현행 표기는 ‘달려라’; 일부 옛 영상 설명의 ‘날려라’는 오기로 판단",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-med-old-field-2016", "yt-samsung-a-med-official-teach-2026"],
+          "notes": "가사 전문이 아니라 혼동되는 한 단어만 식별 정보로 기록했다."
+        }
+      ],
+      "usageContexts": [
+        "박수를 이어가다가 무가사 합창 구간에 오른팔을 위로 원형으로 돌리는 짧은 팀 응원",
+        "옛 시민구장 응원 문화를 환기하는 복원 레퍼토리",
+        "2026년 신규·복원 응원가 학습 영상과 공식 목록에 포함된 현행 곡"
+      ],
+      "trivia": [
+        {
+          "id": "mediterranean-citizens-stadium-nostalgia",
+          "summary": "옛 버전 아카이브와 비교 영상 댓글은 시민구장 특유의 음향과 김용일 단장 시절을 떠올린다는 반응을 반복한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-med-archive-2025", "yt-samsung-a-med-version-compare-2026"]
+        },
+        {
+          "id": "mediterranean-revival-chain",
+          "summary": "부활 영상 댓글에서는 이 곡의 복귀를 반기면서 ‘새가 되어 날으리’ 등 다른 왕조·시민구장 시절 곡도 복원해 달라는 요청이 이어진다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-med-revival-2026"]
+        },
+        {
+          "id": "mediterranean-recording-confusion",
+          "summary": "2026 비교 영상 제작자는 처음에 현행 음원을 김상헌 버전으로 분류했다가 시청자 제보 뒤 김용일 재녹음 버전이라고 정정했다. 공식 크레딧 부재가 팬 분류의 혼선을 만든 사례다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-samsung-a-med-version-compare-2026"]
+        },
+        {
+          "id": "mediterranean-first-revival-participation",
+          "summary": "개막전 부활 영상에는 처음 접한 관중이 많아 응원석이 조용해 보였다는 반응이 있어, 복원 직후 재학습이 필요했던 정황을 보여 준다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-samsung-a-med-revival-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-composition-adapted-for-stadium-use-revival-license-and-text-redistribution-rights-unconfirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=76Qg2IlGRDY",
+          "https://www.youtube.com/watch?v=rKNS2Hw0DO4",
+          "https://music.apple.com/kr/song/1804615387",
+          "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡의 짧은 선율을 반복해 팀명과 전진 구호를 두 차례 주고받고, 사이사이에 길게 늘이는 무가사 합창을 배치한 약 30초짜리 경기장 편집이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-samsung-a-med-old-field-2016",
+        "yt-samsung-a-med-archive-2025",
+        "yt-samsung-a-med-revival-2026",
+        "yt-samsung-a-med-official-teach-2026",
+        "yt-samsung-a-med-official-playlist-2026",
+        "yt-samsung-a-med-current-field-2026",
+        "yt-samsung-a-med-version-compare-2026"
+      ],
+      "unresolved": [
+        "삼성 응원가로 처음 도입된 실제 연도와 김용일 단장의 구체적 작사·편곡 범위",
+        "2012 종료 주장이 곡 전체가 아니라 원 녹음 버전에만 해당하는지 여부",
+        "2013·2016·2026 버전 각각의 녹음 보컬·편곡·음원 제작 크레딧",
+        "2018 소송 대상 목록에 ‘지중해’가 직접 포함됐는지 여부",
+        "2026 부활을 가능하게 한 원곡 이용 허락과 경기장·영상 라이선스 범위",
+        "2026 시즌 고정 재생 상황과 홈·원정 운용 차이"
+      ]
+    },
+    {
+      "id": "samsung-lions-2020-seungrihara-choegang-samsung",
+      "title": "2020 승리하라 최강삼성",
+      "aliases": ["승리하라 최강삼성", "사자후", "2020 사자후"],
+      "currentStatus": "current",
+      "summary": "김상헌이 작사·작곡하고 박유진이 편곡한 허니크루의 2020년 구단 창작 팀 응원가다. 정식 유통 음원명은 ‘2020 승리하라 최강삼성’이고 팬과 나무위키는 ‘사자후’라는 이름을 함께 쓴다. 2021년부터 경기 상태에 따라 정규이닝 마지막 공격 직전인 9회초 또는 9회말에 사용된다고 전해지며, 관중이 앉았다가 구호에 맞춰 일어나고 응원단장이 대형 깃발을 흔드는 연출이 특징이다. 2026 공식 목록과 5월 홈 직캠으로 현행 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2020",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-roar-fan-release-2020", "yt-samsung-a-roar-licensed-2020", "ev-samsung-a-saja-spotify", "ev-samsung-a-namu"],
+          "notes": "팬 영상과 음원은 2020년 4월 같은 날 공개됐고 위키도 2020 신규곡으로 기록한다."
+        },
+        {
+          "field": "recordingReleaseDate",
+          "value": "2020-04-14",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-roar-licensed-2020", "yt-samsung-a-roar-fan-release-2020", "ev-samsung-a-saja-spotify"],
+          "notes": "허니크루 2020 삼성 응원가 앨범의 발매일이다. Topic 영상 자체 게시일은 2021년이라 구분했다."
+        },
+        {
+          "field": "credits",
+          "value": "작사·작곡 김상헌, 편곡 박유진, 아티스트 허니크루",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-roar-licensed-2020", "ev-samsung-a-saja-spotify"],
+          "notes": "YG PLUS 제공 음원 설명과 Spotify 메타데이터를 사용했다."
+        },
+        {
+          "field": "title",
+          "value": "유통 정식명 ‘2020 승리하라 최강삼성’; ‘사자후’는 널리 쓰이는 별칭 또는 곡명 주장",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-roar-licensed-2020", "yt-samsung-a-roar-fan-release-2020", "ev-samsung-a-namu"],
+          "notes": "위키는 음원명과 곡명을 별개로 설명하지만 유통 서비스에는 ‘사자후’가 정식 제목으로 표시되지 않는다. 두 표기를 모두 보존했다."
+        },
+        {
+          "field": "origin",
+          "value": "선행 상업 원곡이 확인되지 않은 구단 창작곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-roar-licensed-2020", "ev-samsung-a-saja-spotify"],
+          "notes": "유통 음원이 별도 작사·작곡·편곡 크레딧을 제공한다."
+        },
+        {
+          "field": "usageContext",
+          "value": "2021년부터 리드 중이면 9회초, 동점·열세면 9회말 시작 전 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-roar-last-attack-2025"],
+          "notes": "2025년 원정 9회초 마지막 공격 영상이 한 사례를 뒷받침하지만 모든 경기의 고정 규칙은 확인하지 못했다."
+        },
+        {
+          "field": "choreography",
+          "value": "관중이 앉았다가 구호에 맞춰 일어나고 응원단장이 대형 라이온즈 깃발을 흔드는 연출",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-roar-finale-2024", "yt-samsung-a-roar-field-2026"],
+          "notes": "위키 서술과 만원관중·블루존 직접 영상에서 연출 형태를 확인한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-05-06 홈경기까지 직접 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-roar-official-2026", "yt-samsung-a-roar-field-2026"],
+          "notes": "공식 2026 목록 30:48 수록과 날짜·상대가 특정된 직캠이 일치한다."
+        }
+      ],
+      "usageContexts": [
+        "정규이닝 마지막 공격을 앞두고 경기장 전체의 참여를 끌어올리는 후반 대표곡",
+        "앉은 상태에서 시작해 구호에 맞춰 일어나고 대형 깃발과 함께 절정으로 가는 연출",
+        "긴 무가사 합창과 팀명·승리 구호를 결합한 만원관중 떼창"
+      ],
+      "trivia": [
+        {
+          "id": "roar-pandemic-debut-reception",
+          "summary": "2020년 공개 영상 댓글은 웅장하고 대규모 합창에 잘 맞는다고 평가하며, 코로나19가 끝나 경기장에서 직접 부르기를 기다린다는 반응을 반복한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-roar-fan-release-2020"]
+        },
+        {
+          "id": "roar-volleyball-test",
+          "summary": "나무위키는 김상헌 단장이 맡던 삼성화재 블루팡스에서 응원가를 시험한 뒤 삼성 라이온즈 팀곡으로 확정한 사례라고 설명한다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-samsung-a-namu"]
+        },
+        {
+          "id": "roar-season-finale",
+          "summary": "2024 시즌 최종전 영상은 만원관중 전체 합창을 전면에 내세워 곡이 후기 대표 응원으로 정착했음을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-roar-finale-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-distributed-by-midum-yg-plus-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=bqcFYGbIqKc",
+          "https://www.youtube.com/watch?v=7s7Gursz0nE",
+          "https://open.spotify.com/track/2B8TqslLMswGgJ5rZ0rY6e",
+          "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "긴 무가사 합창으로 긴장을 만든 뒤 승리와 팀명을 음절 단위로 외치고, 하나 됨을 강조하는 짧은 절과 응답 구호를 반복해 마지막 외침으로 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-samsung-a-roar-licensed-2020",
+        "yt-samsung-a-roar-fan-release-2020",
+        "yt-samsung-a-roar-field-2022",
+        "yt-samsung-a-roar-finale-2024",
+        "yt-samsung-a-roar-last-attack-2025",
+        "yt-samsung-a-roar-official-2026",
+        "yt-samsung-a-roar-field-2026"
+      ],
+      "unresolved": [
+        "‘사자후’가 제작 당시 공식 곡명이었는지 사후 팬 별칭인지",
+        "삼성화재 블루팡스 시험 사용의 최초 날짜와 해당 음원",
+        "2026 시즌 리드·동점·열세별 9회 고정 운용 규칙의 유지 여부",
+        "녹음 보컬과 음원 제작의 전체 크레딧 및 외부 재사용 허락 범위"
+      ]
+    },
+    {
+      "id": "samsung-lions-seungriui-geu-ireum",
+      "title": "승리의 그 이름",
+      "aliases": ["승리의그이름", "The Name of Victory"],
+      "currentStatus": "current",
+      "summary": "김상헌이 작사·작곡하고 박유진이 편곡한 허니크루의 2021년 구단 창작곡이다. 음원은 2021년 4월 3일 발매됐다. 2021~2022년에는 ‘승리의 라이온즈’를 대신해 8회말 시작 전 쓰였고, 적은 관중을 더 크게 보이게 하려던 즉석 제안에서 유니폼을 흔드는 응원 방식이 정착했다고 전해진다. 2023년부터는 상대 투수 교체 때 등으로 용례가 옮겨갔으며, 2025 원정과 2026 공식 목록·7월 현장까지 사용이 이어진다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2021",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-victory-name-licensed-2021", "ev-samsung-a-victory-name-spotify", "ev-samsung-a-namu"],
+          "notes": "음원 발매와 위키의 2021 시즌 운용 서술이 일치한다."
+        },
+        {
+          "field": "recordingReleaseDate",
+          "value": "2021-04-03",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-victory-name-licensed-2021", "ev-samsung-a-victory-name-spotify"],
+          "notes": "YouTube Topic과 Spotify가 같은 EP와 날짜를 제공한다."
+        },
+        {
+          "field": "credits",
+          "value": "작사·작곡 김상헌, 편곡 박유진, 아티스트 허니크루",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-victory-name-licensed-2021", "ev-samsung-a-victory-name-spotify"],
+          "notes": "YG PLUS 제공 음원 설명의 역할별 크레딧이다."
+        },
+        {
+          "field": "origin",
+          "value": "선행 상업 원곡이 확인되지 않은 구단 창작곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-victory-name-licensed-2021", "ev-samsung-a-victory-name-spotify"],
+          "notes": "독립 작사·작곡·편곡 크레딧이 있고 차용 원곡 표기가 없다."
+        },
+        {
+          "field": "usage2021To2022",
+          "value": "2021~2022 시즌 8회말 시작 전 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-victory-name-aerial-2022"],
+          "notes": "위키 운용 서술과 2022 응원석 항공뷰가 시기와 연출을 보조한다."
+        },
+        {
+          "field": "usageSince2023",
+          "value": "2023 시즌부터 상대 투수 교체 때 등을 중심으로 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-victory-name-away-2023", "yt-samsung-a-victory-name-busan-2025"],
+          "notes": "직접 영상은 연도별 사용을 확인하지만 촬영 구간만으로 상대 투수 교체 여부를 모두 확인하지는 못했다."
+        },
+        {
+          "field": "uniformChoreography",
+          "value": "2021-04-10 제한 관중 경기에서 유니폼 흔들기를 즉석 제안한 뒤 정착",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-victory-name-aerial-2022"],
+          "notes": "위키가 구체적 날짜와 일화를 제시하지만 당시 구단 원문 영상은 찾지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-07-03 인천 원정까지 직접 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-victory-name-official-2026", "yt-samsung-a-victory-name-field-2026"],
+          "notes": "공식 목록 32:38과 현장 모음 26:56이 현행 사용을 교차 확인한다."
+        }
+      ],
+      "usageContexts": [
+        "2021~2022년에는 8회말 시작을 알리며 유니폼을 흔드는 후반 응원",
+        "2023년 이후 상대 투수 교체와 긴 경기 중단 때 분위기를 잇는 팀 응원",
+        "무가사 합창과 팀명 철자 구호를 대형 깃발·유니폼 동작과 결합"
+      ],
+      "trivia": [
+        {
+          "id": "victory-name-spontaneous-uniform-wave",
+          "summary": "거리두기 좌석으로 관중이 적어 보이던 2021년 4월 경기에서 김상헌 단장이 사람이 많아 보이도록 유니폼을 흔들자고 제안한 것이 이후 대표 동작이 됐다는 일화가 있다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-a-namu"]
+        },
+        {
+          "id": "victory-name-large-flag",
+          "summary": "나무위키는 같은 해 5월부터 ‘사자후’처럼 응원단장이 대형 깃발을 들고 이 곡을 지휘하는 경우가 늘었다고 기록한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-a-namu"]
+        },
+        {
+          "id": "victory-name-current-medley",
+          "summary": "2026년 7월 원정 현장 모음에서는 ‘사자후’ 뒤 이 곡, 이어 경기 종료 승리곡으로 연결돼 후반 팀 응원 메들리의 일부로 쓰인다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-victory-name-field-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-distributed-by-midum-yg-plus-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=7ep-7_xHRSs",
+          "https://open.spotify.com/track/1TtRzKEAKXMbOfDg3bXSjB",
+          "https://www.youtube.com/watch?v=HAPsuHspHn8",
+          "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "무가사 합창과 승리를 팀의 이름에 연결하는 후렴으로 시작해 모두 일어나 외치자는 절, 팀명 철자 구호, 후렴 재현과 끝까지 달리자는 종결부로 이어진다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-samsung-a-victory-name-licensed-2021",
+        "yt-samsung-a-victory-name-aerial-2022",
+        "yt-samsung-a-victory-name-away-2023",
+        "yt-samsung-a-victory-name-busan-2025",
+        "yt-samsung-a-victory-name-official-2026",
+        "yt-samsung-a-victory-name-field-2026"
+      ],
+      "unresolved": [
+        "2021년 경기장 최초 사용일과 4월 3일 음원 발매의 선후 관계",
+        "2021년 4월 10일 유니폼 응원 제안의 구단 원본 영상",
+        "2026 시즌 상대 투수 교체 외 고정 재생 조건과 홈·원정 차이",
+        "녹음 보컬·추가 제작 참여자와 가사 외부 재사용 허락 범위"
+      ]
+    },
+    {
+      "id": "samsung-lions-seungnireul-wihae",
+      "title": "승리를 위해",
+      "aliases": ["승리를 위한 노래", "외쳐라 삼성", "짭도라도", "승리를위해"],
+      "currentStatus": "current",
+      "summary": "2018년 프로야구 응원가 저작권 문제로 ‘엘도라도’를 쓰기 어려워진 시기에 김상헌 응원단장과 제작 업체의 협업으로 만든 구단 창작곡이다. 원래 이원석 선수 응원가로 구상했지만 편곡 규모가 커져 팀 응원가가 됐다. 2018년 4월 ‘새 응원가’ 영상과 10월 구단 공식 뮤직비디오가 확인되며, 허니크루 음원은 2019년 5월 20일 ‘승리를 위해’라는 제목으로 뒤늦게 발매됐다. 첫 득점·동점·역전과 홈런 뒤 어깨동무 합창으로 사용되며, 2024년 엘도라도가 부활한 뒤에도 병행되고 2026년 6월 홈런 직후까지 현행 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2018",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-for-early-2018", "yt-samsung-a-for-official-mv-2018", "ev-samsung-a-honey-2019-interview", "ev-samsung-a-namu"],
+          "notes": "4월 팬 업로드가 ‘2018 New’로 소개하고 10월 구단 공식 영상이 사용을 확인한다. 2019 음원 발매일과 실제 도입을 분리했다."
+        },
+        {
+          "field": "officialClubVideo",
+          "value": "2018-10-05 한국시간 LionsTV가 ‘승리를 위한 노래’로 뮤직비디오 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-for-official-mv-2018"],
+          "notes": "YouTube 시각은 미국 시간 10월 5일 저녁으로 표시되며 한국시간은 다음 날이 될 수 있어 게시 메타데이터 원문도 보존한다."
+        },
+        {
+          "field": "recordingReleaseDate",
+          "value": "2019-05-20",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-for-licensed-2019", "ev-samsung-a-victory-for-apple"],
+          "notes": "2019 삼성 라이온즈 응원가 앨범의 ‘승리를 위해’ 발매일이다."
+        },
+        {
+          "field": "creditsMetadata",
+          "value": "유통 메타데이터상 작사·작곡·편곡 김상헌, 아티스트 허니크루",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-for-licensed-2019", "ev-samsung-a-victory-for-apple"],
+          "notes": "YG PLUS 제공 Topic 설명의 등록 크레딧이다."
+        },
+        {
+          "field": "productionHistory",
+          "value": "김상헌이 작사·멜로디를 만들고 외부 음향 업체가 초기 제작·편곡에 협력",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-honey-2019-interview"],
+          "notes": "김상헌 본인은 인터뷰에서 자신이 전부 만든 것은 아니며 업체 대표가 등록을 사양해 자신의 이름이 올라갔다고 설명했다. 등록 크레딧과 실제 협업 과정을 별도로 보존했다."
+        },
+        {
+          "field": "developmentOrigin",
+          "value": "이원석 선수 응원가로 시작했으나 엘도라도를 염두에 둔 편곡 규모 때문에 팀 응원가로 전환",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-honey-2019-interview", "yt-samsung-a-for-fan-mv-2020", "ev-samsung-a-namu"],
+          "notes": "김상헌 당사자 인터뷰와 후속 팬 MV 설명이 일치한다."
+        },
+        {
+          "field": "titleHistory",
+          "value": "2019 인터뷰의 개인 선호 제목 ‘외쳐라 삼성’, 팬 별칭 ‘짭도라도’, 2019 음원·2026 공식명 ‘승리를 위해’",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-honey-2019-interview", "yt-samsung-a-for-licensed-2019", "yt-samsung-a-for-nickname-2020", "yt-samsung-a-for-official-2026", "ev-samsung-a-namu"],
+          "notes": "당사자는 제작 당시 고정 제목이 없었다고 말했지만 이후 유통·구단 목록은 ‘승리를 위해’를 사용한다. 시대별 표기를 합치지 않았다."
+        },
+        {
+          "field": "usageContext",
+          "value": "첫 득점·동점·역전 또는 홈런 직후 관중이 어깨동무하고 부르는 득점 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-for-home-run-2024", "yt-samsung-a-for-comeback-2025", "yt-samsung-a-for-home-run-2026"],
+          "notes": "서로 다른 시즌의 날짜·득점 상황이 특정된 직접 영상이 반복되는 용례를 확인한다."
+        },
+        {
+          "field": "continuedAfterEldoradoRevival",
+          "value": "2024년 엘도라도 부활 뒤에도 병행 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-namu", "yt-samsung-a-for-home-run-2024", "yt-samsung-a-for-comeback-2025", "yt-samsung-a-for-official-2026"],
+          "notes": "2024·2025 직접 영상과 2026 공식 목록이 폐기되지 않았음을 확인한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-06-02 박승규 3점 홈런 직후까지 직접 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-for-official-2026", "yt-samsung-a-for-home-run-2026"],
+          "notes": "구단 공식 목록 33:52와 날짜·상황이 특정된 홈 직캠이 일치한다."
+        }
+      ],
+      "usageContexts": [
+        "첫 득점·동점·역전·홈런 뒤 관중이 어깨동무해 부르는 대표 득점 응원",
+        "엘도라도 사용 중단기의 대체곡에서 출발했지만 복원 뒤에도 독립 레퍼토리로 병행",
+        "원정 응원석에서도 홈처럼 큰 합창과 팀 정체성을 만드는 곡"
+      ],
+      "trivia": [
+        {
+          "id": "victory-for-advertisement",
+          "summary": "2019년 SK텔레콤 5GX 광고에 팀명이 드러나지 않는 일부 구간만 삽입돼 어느 구단 응원가인지 묻는 반응이 늘었고 대중적 인지도가 커졌다고 당사자 인터뷰와 위키가 설명한다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-a-honey-2019-interview", "ev-samsung-a-namu"]
+        },
+        {
+          "id": "victory-for-nickname",
+          "summary": "팬들은 엘도라도의 공백을 메운 탄생 배경과 웅장한 어깨동무 응원 때문에 ‘짭도라도’라고 부른다. 댓글에는 오히려 이 곡을 더 좋아하거나 두 곡을 함께 유지하자는 반응도 많다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-for-fan-mv-2020", "yt-samsung-a-for-nickname-2020", "ev-samsung-a-honey-2019-interview"]
+        },
+        {
+          "id": "victory-for-subway",
+          "summary": "나무위키는 대구도시철도 2호선 수성알파시티역 안내방송 초반에 사용된 적이 있으나 현재는 나오지 않는다고 기록한다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-samsung-a-namu"]
+        },
+        {
+          "id": "victory-for-karaoke",
+          "summary": "나무위키는 TJ미디어 노래방 89343번으로 수록됐다고 기록한다. 현행 곡번호는 이번 조사에서 TJ 공식 검색으로 재확인하지 못했다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-samsung-a-namu"]
+        },
+        {
+          "id": "victory-for-away-reception",
+          "summary": "2024·2025 원정 홈런 영상 댓글에서는 원정석을 홈구장처럼 만든다고 표현하고 직접 목이 쉬도록 합창했다는 현장 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-a-for-home-run-2024", "yt-samsung-a-for-comeback-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-with-registered-metadata-and-reported-production-collaboration-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=NdhSpZWAh5M",
+          "https://music.apple.com/kr/song/1561097876",
+          "https://www.youtube.com/watch?v=kzh0Ea2wDKs",
+          "https://v.daum.net/v/20190529080303024?s=print_news",
+          "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "짧은 무가사 도입과 팀명 음절 구호를 두 차례 반복한 뒤 승리를 향해 달려가자는 후렴과 팀 응답을 왕복하고, 다시 팀명 구호로 닫는 약 1분대 구성이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-samsung-a-for-early-2018",
+        "yt-samsung-a-for-official-mv-2018",
+        "yt-samsung-a-for-licensed-2019",
+        "yt-samsung-a-for-fan-mv-2020",
+        "yt-samsung-a-for-nickname-2020",
+        "yt-samsung-a-for-home-run-2024",
+        "yt-samsung-a-for-comeback-2025",
+        "yt-samsung-a-for-official-2026",
+        "yt-samsung-a-for-home-run-2026"
+      ],
+      "unresolved": [
+        "2018년 경기장 최초 사용일과 최초 공개 원본 영상",
+        "외부 음향 업체와 참여자들의 실명·편곡·연주·가창별 실제 제작 범위",
+        "‘외쳐라 삼성’에서 ‘승리를 위해’로 공식 표기가 정착된 시점과 결정 주체",
+        "2026 시즌 첫 득점·동점·역전 외 고정 재생 규칙과 엘도라도와의 선택 기준",
+        "구단 자산이라는 인터뷰 표현과 실제 저작권·음원·가사 재사용 허락 범위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-samsung-a-namu",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "삼성 라이온즈/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "삼성의 공식·과거 응원가별 도입 시기, 이닝·상황 운용, 안무, 별칭과 부활을 정리한 문서다. 위키 주장은 구단 공식 영상·유통 음원·날짜가 특정된 현장 영상과 분리해 교차검증했다.",
+      "supports": ["aliases", "usageContext", "historicalUse", "revival", "trivia"]
+    },
+    {
+      "id": "ev-samsung-a-lineup-spotify",
+      "type": "music-service",
+      "url": "https://open.spotify.com/track/7C7xOuzn5utzfGDXZfAsw4",
+      "title": "라인업 송",
+      "publisher": "Spotify",
+      "publishedAt": "2020-04-14",
+      "accessedAt": "2026-08-09",
+      "summary": "허니크루의 2020 삼성 라이온즈 응원가 앨범 수록곡으로 곡명·아티스트·1분 54초 길이·발매일·MIDUM Entertainment 및 YG PLUS 유통 정보를 제공한다.",
+      "supports": ["lineup-title", "lineup-artist", "lineup-release", "lineup-duration", "lineup-label"]
+    },
+    {
+      "id": "ev-samsung-a-saja-spotify",
+      "type": "music-service",
+      "url": "https://open.spotify.com/track/2B8TqslLMswGgJ5rZ0rY6e",
+      "title": "2020 승리하라 최강삼성",
+      "publisher": "Spotify",
+      "publishedAt": "2020-04-14",
+      "accessedAt": "2026-08-09",
+      "summary": "허니크루 2020 삼성 응원가 앨범의 정식 유통 제목·아티스트·1분 50초 길이·발매일과 레이블을 확인한다. 서비스 제목에는 ‘사자후’가 포함되지 않는다.",
+      "supports": ["roar-formal-title", "roar-artist", "roar-release", "roar-duration", "titleConflict"]
+    },
+    {
+      "id": "ev-samsung-a-victory-name-spotify",
+      "type": "music-service",
+      "url": "https://open.spotify.com/track/1TtRzKEAKXMbOfDg3bXSjB",
+      "title": "승리의 그 이름",
+      "publisher": "Spotify",
+      "publishedAt": "2021-04-03",
+      "accessedAt": "2026-08-09",
+      "summary": "허니크루 2021 삼성 응원가 EP 수록곡의 곡명·아티스트·1분 18초 길이·발매일·미듬엔터테인먼트와 YG PLUS 유통을 확인한다.",
+      "supports": ["victory-name-title", "victory-name-artist", "victory-name-release", "victory-name-duration"]
+    },
+    {
+      "id": "ev-samsung-a-victory-for-apple",
+      "type": "music-service",
+      "url": "https://music.apple.com/kr/song/1561097876",
+      "title": "승리를 위해",
+      "publisher": "Apple Music",
+      "publishedAt": "2019-05-20",
+      "accessedAt": "2026-08-09",
+      "summary": "허니크루의 2019 삼성 라이온즈 프로야구 응원가 앨범 수록곡으로 현행 유통 제목과 아티스트·발매일을 확인한다.",
+      "supports": ["victory-for-formal-title", "victory-for-artist", "victory-for-release"]
+    },
+    {
+      "id": "ev-samsung-a-honey-2019-interview",
+      "type": "press-interview",
+      "url": "https://v.daum.net/v/20190529080303024?s=print_news",
+      "title": "통신사 광고 강타한 삼성 응원가, ‘짭도라도’를 아시나요",
+      "publisher": "스포츠한국",
+      "publishedAt": "2019-05-29",
+      "accessedAt": "2026-08-09",
+      "summary": "김상헌 응원단장이 저작권 사태 뒤 구단 자산으로 쓸 창작곡 제작을 시작한 과정, 허니크루·외부 음향 업체의 협업, 승리를 위해가 이원석 응원가에서 팀곡으로 커진 과정, 광고 반응과 당시 제목 혼선을 직접 설명한다.",
+      "supports": ["creatorProcess", "victory-for-origin", "victory-for-production", "victory-for-player-origin", "victory-for-titleHistory", "advertisementTrivia"]
+    },
+    {
+      "id": "ev-samsung-a-lawsuit-2018",
+      "type": "press",
+      "url": "https://sports.khan.co.kr/article/201804041913003/amp",
+      "title": "작곡·작사가들 삼성과 ‘프로야구 응원가 소송’",
+      "publisher": "스포츠경향",
+      "publishedAt": "2018-04-04",
+      "accessedAt": "2026-08-09",
+      "summary": "21명의 작가가 삼성의 원곡 개사·사용이 저작인격권과 동일성유지권을 침해했다며 공동소송에 나선 경위와 당시 쟁점을 보도한다.",
+      "supports": ["copyrightDisputeContext", "2018-timeline", "clubOriginalShift"]
+    },
+    {
+      "id": "ev-samsung-a-copyright-case",
+      "type": "legal-summary",
+      "url": "https://www.kcopa.or.kr/lay1/bbs/S1T11C480/A/80/view.do?article_seq=4089&condition=&cpage=&keyword=&mode=view&rows=",
+      "title": "삼성라이온즈 응원가에 사용된 음악저작물의 저작인격권 침해 판단 사건",
+      "publisher": "한국저작권보호원",
+      "publishedAt": "2022",
+      "accessedAt": "2026-08-09",
+      "summary": "2021년 서울고등법원 확정 판결을 정리하며 원곡 작가들의 문제 제기 뒤 구단들이 응원가 변경·창작곡 전환으로 대응한 맥락과 공동저작물·동일성유지권 쟁점을 설명한다.",
+      "supports": ["copyrightCaseOutcome", "clubOriginalShift", "adaptationRightsContext"]
+    },
+    {
+      "id": "ev-samsung-a-jijunghae-apple",
+      "type": "music-service",
+      "url": "https://music.apple.com/kr/song/1804615387",
+      "title": "지중해 (地中海)",
+      "publisher": "Apple Music",
+      "publishedAt": "1998-09-01",
+      "accessedAt": "2026-08-09",
+      "summary": "박상민의 ‘지중해’를 Park Sang Min Best Album 수록곡으로 식별하고 서비스상 1998년 9월 1일 날짜를 제공한다.",
+      "supports": ["mediterranean-origin", "mediterranean-artist", "originalReleaseConflict"]
+    },
+    {
+      "id": "ev-samsung-a-jijunghae-bugs",
+      "type": "music-service",
+      "url": "https://music.bugs.co.kr/album/32591",
+      "title": "Park Sang Min Best Album",
+      "publisher": "벅스",
+      "publishedAt": "1999-04",
+      "accessedAt": "2026-08-09",
+      "summary": "박상민 베스트앨범 13번 트랙으로 ‘지중해’를 수록하며 발매일을 1999년 4월로 제시한다. Apple Music 날짜와 달라 상충값으로 보존했다.",
+      "supports": ["mediterranean-origin", "albumTrack", "originalReleaseConflict"]
+    },
+    {
+      "id": "ev-samsung-a-jijunghae-kumyoung",
+      "type": "official-karaoke",
+      "url": "https://www.youtube.com/watch?v=mTMdpr4cmGk",
+      "title": "[KY ENTERTAINMENT] 지중해 - 박상민 (KY.5621)",
+      "publisher": "금영엔터테인먼트 공식 유튜브",
+      "publishedAt": "2020-03-31",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 노래방 영상이 원곡 가수와 곡명, 작곡자 유해준, 금영 곡번호를 제공한다. 가사 전문은 연구 데이터에 복제하지 않았다.",
+      "supports": ["mediterranean-origin", "originalComposer", "lyricsSource"]
+    },
+    {
+      "id": "ev-samsung-a-jijunghae-credits",
+      "type": "music-notation",
+      "url": "https://drumakbo.com/kpop/?idx=344",
+      "title": "지중해 - 박상민",
+      "publisher": "드럼악보닷컴",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "악보 판매 정보가 박상민·베스트앨범·1999년 4월 발매와 함께 작사 오윤성, 작곡·편곡 유해준 및 세션 정보를 제시한다. 음반 북클릿보다 낮은 보조 크레딧 근거로 사용했다.",
+      "supports": ["originalLyricist", "originalComposer", "originalArranger", "creditUncertainty"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-samsung-a-lineup-official-teach-2020",
+      "songId": "samsung-lions-lineup-song",
+      "url": "https://www.youtube.com/watch?v=cuB-N2sY_wY",
+      "videoId": "cuB-N2sY_wY",
+      "title": "[라이온즈tv] '팀 응원가' 안타기도송 & 라인업송 🎼 #응원가배우기",
+      "channel": "LionsTV",
+      "publishedAt": "2020-05-27T23:39:43-07:00",
+      "descriptionSummary": "김상헌 응원단장과 블루팅커스가 ‘안타기도송’과 ‘라인업송’을 2020 시즌 새 응원가로 직접 가르치는 구단 공식 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "김상헌 단장의 창작과 응원가 완성도를 칭찬하는 반응이 반복된다.",
+        "코로나19 때문에 야구장에 갈 수 없지만 곡과 안무를 미리 익히겠다는 반응이 많다.",
+        "라인업송의 중독성과 경기 시작 분위기에 잘 맞는다는 평가가 있다."
+      ],
+      "supports": ["introductionYear", "officialTeaching", "choreography", "pandemicContext", "reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-lineup-licensed-2020",
+      "songId": "samsung-lions-lineup-song",
+      "url": "https://www.youtube.com/watch?v=AmQC5K6_HUs",
+      "videoId": "AmQC5K6_HUs",
+      "title": "라인업 송",
+      "channel": "Honey Crew - Topic",
+      "publishedAt": "2021-01-26T00:39:44-08:00",
+      "descriptionSummary": "YG PLUS가 자동 생성한 허니크루 음원 영상이다. 설명은 2020년 4월 14일 발매와 작사·작곡 김상헌, 편곡 박유진, MIDUM Entertainment 음원임을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recordingReleaseDate", "credits", "artist", "duration", "lyricsSourcePointer"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-lineup-postseason-2021",
+      "songId": "samsung-lions-lineup-song",
+      "url": "https://www.youtube.com/watch?v=x1mAK4pgaAQ",
+      "videoId": "x1mAK4pgaAQ",
+      "title": "#삼성라이온즈 #라인업송 #환희 20211109 2021 포스트시즌 플레이오프1차전 두산전 삼성라이온즈 라인업송 + 환희",
+      "channel": "밍'삼",
+      "publishedAt": "2021-11-09T02:51:13-08:00",
+      "descriptionSummary": "2021년 11월 9일 라팍 개장 후 첫 포스트시즌에서 라인업송과 환희를 연속 사용한 직접 영상이다. 설명은 당시 1~9번 타자와 선발투수를 모두 열거한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "육성응원이 제한된 포스트시즌이라 관중 합창이 들리지 않는 점을 아쉬워하는 반응이 반복된다.",
+        "당시 타순과 시즌 결과를 회고하는 댓글이 많아 영상의 경기 맥락을 보조한다."
+      ],
+      "supports": ["2021FieldUse", "postseasonUse", "lineupFunction", "sequenceWithHwanhee", "pandemicContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-lineup-playoff-2024",
+      "songId": "samsung-lions-lineup-song",
+      "url": "https://www.youtube.com/watch?v=groFeGL7ACw",
+      "videoId": "groFeGL7ACw",
+      "title": "[4K] 삼성은 이게 근본이지. 라인업송 + 환희 (2024 플레이오프/24.10.17)",
+      "channel": "라이온즈필름 LionsFilm",
+      "publishedAt": "2024-10-17T19:04:07-07:00",
+      "descriptionSummary": "2024년 10월 17일 플레이오프에서 라인업송과 환희를 연속 촬영한 4K 직접 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "두 곡의 연속 구성을 삼성 응원의 ‘근본’으로 부르며 역사성과 감동을 강조하는 반응이 있다.",
+        "환희의 구호 방식이 과거와 달라졌다는 세부 의견도 있어 연출 변화 가능성을 보여 준다."
+      ],
+      "supports": ["2024FieldUse", "playoffUse", "sequenceWithHwanhee", "reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-lineup-opening-2025",
+      "songId": "samsung-lions-lineup-song",
+      "url": "https://www.youtube.com/watch?v=IAel2u6Sdw4",
+      "videoId": "IAel2u6Sdw4",
+      "title": "[4K] 250322 #삼성라이온즈 개막전 #라인업송 #환희",
+      "channel": "취미생활tv",
+      "publishedAt": "2025-03-22T05:30:22-07:00",
+      "descriptionSummary": "2025년 3월 22일 개막전에서 라인업송과 환희를 이어 사용한 4K 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "구단의 역사와 왕조 이미지를 떠올리거나 응원 화력이 강하다고 평가하는 반응이 반복된다.",
+        "개막전 전광판 이벤트 자료를 추가로 찾는 질문도 있어 경기 시작 루틴의 일부로 소비됨을 보여 준다."
+      ],
+      "supports": ["2025OpeningUse", "sequenceWithHwanhee", "2025VersionSample", "reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-lineup-official-2026",
+      "songId": "samsung-lions-lineup-song",
+      "url": "https://www.youtube.com/watch?v=HAPsuHspHn8",
+      "videoId": "HAPsuHspHn8",
+      "title": "2026 삼성라이온즈 응원가 PLAYLIST 🎧",
+      "channel": "LionsTV",
+      "publishedAt": "2026-04-28T06:02:19-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 모음의 첫 곡으로 00:00에 라인업송을 수록한다. 설명은 저작권 제한으로 일부 다른 곡이 빠졌다는 주의도 함께 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 연패 뒤 승리 직후 여러 영상을 한꺼번에 공개한 구단 채널을 반기는 내용이 중심이다.",
+        "라인업송만을 특정한 평가는 드물어 댓글보다 공식 현행 목록 근거로 활용했다."
+      ],
+      "supports": ["currentUse", "official2026Catalogue", "officialTrackOrder"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-lineup-field-2026",
+      "songId": "samsung-lions-lineup-song",
+      "url": "https://www.youtube.com/watch?v=5KNf0J6kxJ8",
+      "videoId": "5KNf0J6kxJ8",
+      "title": "2026 삼성 라이온즈 응원 직관 영상 모음 | 삼성 응원가 직캠",
+      "channel": "시운 siwoon",
+      "publishedAt": "2026-07-05T18:40:13-07:00",
+      "descriptionSummary": "2026년 7월 3일 SSG 원정 응원 모음이며 설명은 라인업송을 10분 50초, 환희를 12분 26초부터 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "전체 원정 응원 모음을 술자리·반복 감상용으로 즐겼다는 반응과 영상 제공에 대한 감사가 확인된다.",
+        "개별 라인업송보다 수록 시점과 원정 현장성 확인에 유용한 표본이다."
+      ],
+      "supports": ["currentUse", "2026AwayUse", "sequenceWithHwanhee", "usageContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-med-old-field-2016",
+      "songId": "samsung-lions-jijunghae",
+      "url": "https://www.youtube.com/watch?v=rKNS2Hw0DO4",
+      "videoId": "rKNS2Hw0DO4",
+      "title": "(6.4) 삼성라이온즈파크 삼성 팀 응원가 지중해",
+      "channel": "[삼성라이온즈]불꽃사자",
+      "publishedAt": "2016-06-04T21:17:10-07:00",
+      "descriptionSummary": "2016년 6월 4일 라이온즈파크에서 ‘지중해’를 사용한 22초 직접 현장 기록이다. 설명은 첫 단어를 ‘날려라’로 적지만 현행 공식 표기와 위키는 ‘달려라’로 정정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "2026년에 곡이 부활했다는 후대 댓글이 있어 옛 표본과 현행 사용을 연결한다.",
+        "나머지 댓글은 현장 남성 목소리나 짧은 감상으로 창작·운용 정보를 추가하지 않는다."
+      ],
+      "supports": ["oldVersionTimeline", "2016FieldUse", "openingWordConflict", "historicalContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-med-archive-2025",
+      "songId": "samsung-lions-jijunghae",
+      "url": "https://www.youtube.com/watch?v=tmkb5x2DCiM",
+      "videoId": "tmkb5x2DCiM",
+      "title": "삼성라이온즈 팀응원가 지중해(?~2012)",
+      "channel": "응원가 아카이브",
+      "publishedAt": "2025-01-10T00:25:38-08:00",
+      "descriptionSummary": "팬 아카이브가 옛 녹음을 ‘미상~2012’로 분류하고 2013년 이후 리메이크가 있었다고 설명한다. 공식 자료가 아니므로 2016 직접 영상과 상충값으로 보존했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시민구장과 김용일 단장 시절의 음색을 그리워하며 옛 버전을 더 좋아한다는 반응이 반복된다.",
+        "2026 부활 뒤 다시 찾아왔다는 댓글과 다른 옛 응원가 복원을 요청하는 반응이 많다.",
+        "2013년 이후 버전의 제작자를 둘러싼 정정 댓글이 있어 녹음 계보가 불명확함을 보여 준다."
+      ],
+      "supports": ["oldVersionTimeline", "versionConflict", "fanArchive", "nostalgia", "revivalReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-med-revival-2026",
+      "songId": "samsung-lions-jijunghae",
+      "url": "https://www.youtube.com/watch?v=kEZ5pTguUKg",
+      "videoId": "kEZ5pTguUKg",
+      "title": "삼성라이온즈 응원가 지중해 부활의 순간",
+      "channel": "46채널",
+      "publishedAt": "2026-03-28T06:45:35-07:00",
+      "descriptionSummary": "2026년 3월 28일 개막전에서 옛 팀 응원가가 다시 나온 순간을 담은 31초 직접 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "왕조 시절 대표곡의 부활을 반기고 다른 시민구장 시절 응원가도 복원해 달라는 요청이 이어진다.",
+        "복원 첫날 관중 참여가 아직 조용해 보였다는 아쉬움도 있다."
+      ],
+      "supports": ["revival", "2026OpeningDayUse", "revivalReception", "participationAnecdote"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-med-official-teach-2026",
+      "songId": "samsung-lions-jijunghae",
+      "url": "https://www.youtube.com/watch?v=76Qg2IlGRDY",
+      "videoId": "76Qg2IlGRDY",
+      "title": "2026 신규 응원가 배우기 l 최형우, 박세혁, 지중해, 신규안타송",
+      "channel": "LionsTV",
+      "publishedAt": "2026-04-28T06:02:00-07:00",
+      "descriptionSummary": "구단 공식 학습 영상이 1분 8초부터 ‘지중해’를 신규·복원 학습 항목으로 가르친다. 최형우·박세혁 응원가와 신규 안타송도 함께 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "신규 응원가 안무를 요청했는데 공식 영상으로 제공돼 반갑다는 반응이 있다.",
+        "대부분은 연패 뒤 승리 직후 업로드가 재개된 구단 채널을 반기며 대상 곡만의 평가는 드물다."
+      ],
+      "supports": ["officialRevival", "currentUse", "choreography", "lyricsSourcePointer"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-med-official-playlist-2026",
+      "songId": "samsung-lions-jijunghae",
+      "url": "https://www.youtube.com/watch?v=HAPsuHspHn8",
+      "videoId": "HAPsuHspHn8",
+      "title": "2026 삼성라이온즈 응원가 PLAYLIST 🎧",
+      "channel": "LionsTV",
+      "publishedAt": "2026-04-28T06:02:19-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 모음이 ‘지중해’를 30분 16초부터 별도 팀 응원가로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 구단 채널의 업로드 재개와 전체 선수·팀 응원가 공개를 반기는 내용이 중심이다.",
+        "대상 곡별 평가는 드물어 공식 부활·현행 목록 확인에 더 유용하다."
+      ],
+      "supports": ["currentUse", "official2026Catalogue", "officialTitle"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-med-current-field-2026",
+      "songId": "samsung-lions-jijunghae",
+      "url": "https://www.youtube.com/watch?v=5KNf0J6kxJ8",
+      "videoId": "5KNf0J6kxJ8",
+      "title": "2026 삼성 라이온즈 응원 직관 영상 모음 | 삼성 응원가 직캠",
+      "channel": "시운 siwoon",
+      "publishedAt": "2026-07-05T18:40:13-07:00",
+      "descriptionSummary": "2026년 7월 3일 SSG 원정 현장 모음으로 ‘지중해’를 18분 16초부터 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "현장 응원 전체를 반복 감상하기 좋다는 반응과 영상 제공에 대한 감사가 확인된다.",
+        "대상 곡만의 반응보다 2026년 7월 원정 직접 사용을 확인하는 표본이다."
+      ],
+      "supports": ["currentUse", "2026AwayUse", "usageContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-med-version-compare-2026",
+      "songId": "samsung-lions-jijunghae",
+      "url": "https://www.youtube.com/watch?v=wfLqAjb0cF4",
+      "videoId": "wfLqAjb0cF4",
+      "title": "[삼성 라이온즈 응원가 비교] 용짜르트 버전 vs 허니단장 버전",
+      "channel": "다양다양tv",
+      "publishedAt": "2026-07-13T00:19:09-07:00",
+      "descriptionSummary": "팬 제작 비교 영상이 1분 13초와 1분 45초에 서로 다른 ‘지중해’ 녹음을 배치한다. 제작자는 댓글 정정으로 두 번째 구간도 김용일 재녹음이라고 밝혀 분류 불확실성을 드러낸다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "김용일 버전에서 시민구장 바닥·음향·어린 시절 직관 기억이 떠오른다는 향수 반응이 매우 많다.",
+        "옛 버전의 장터·트로트풍 음색과 현행 버전의 정돈된 음색을 비교하는 반응이 반복된다.",
+        "영상 제작자가 시청자 제보를 받아 버전 분류를 정정해 공식 크레딧 부재의 혼선을 보여 준다."
+      ],
+      "supports": ["adaptationCreator", "versionConflict", "recordingLineage", "nostalgia", "reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-roar-licensed-2020",
+      "songId": "samsung-lions-2020-seungrihara-choegang-samsung",
+      "url": "https://www.youtube.com/watch?v=bqcFYGbIqKc",
+      "videoId": "bqcFYGbIqKc",
+      "title": "2020 승리하라 최강삼성",
+      "channel": "Honey Crew - Topic",
+      "publishedAt": "2021-01-26T00:39:45-08:00",
+      "descriptionSummary": "YG PLUS가 자동 생성한 허니크루 음원 영상이다. 설명은 2020년 4월 14일 발매와 작사·작곡 김상헌, 편곡 박유진, MIDUM Entertainment 음원임을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recordingReleaseDate", "credits", "formalTitle", "artist", "lyricsSourcePointer"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-roar-fan-release-2020",
+      "songId": "samsung-lions-2020-seungrihara-choegang-samsung",
+      "url": "https://www.youtube.com/watch?v=7s7Gursz0nE",
+      "videoId": "7s7Gursz0nE",
+      "title": "삼성 라이온즈 응원가 \"사자후\" (승리하라 최강삼성) / samsung lions song",
+      "channel": "[노.Fan.T]노래하는 Fan들을 위한 Team 응원가 (OKeol PAPA)",
+      "publishedAt": "2020-04-14T07:19:11-07:00",
+      "descriptionSummary": "허니크루 음원 발매일에 팬 채널이 고음질 자료로 게시하고, 유통 제목과 팬들이 아는 이름 ‘사자후’를 함께 적었다. 설명은 허니크루 2집 음원을 출처로 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "웅장하고 대규모 떼창에 잘 맞는 곡이라는 호평이 반복된다.",
+        "코로나19 뒤 잠실과 포스트시즌에서 목이 쉬도록 부르고 싶다는 기대가 많다.",
+        "기존 대표곡 공백을 새 창작곡으로 채울 수 있다는 긍정 반응이 보인다."
+      ],
+      "supports": ["introductionYear", "releaseDate", "titleConflict", "fanAlias", "initialReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-roar-field-2022",
+      "songId": "samsung-lions-2020-seungrihara-choegang-samsung",
+      "url": "https://www.youtube.com/watch?v=5tKNS5q51e4",
+      "videoId": "5tKNS5q51e4",
+      "title": "20220612 삼성 사자후 응원가 (2020 승리하라 최강삼성)",
+      "channel": "DJ Landers",
+      "publishedAt": "2022-06-12T09:28:38-07:00",
+      "descriptionSummary": "2022년 6월 12일 경기장에서 ‘사자후’와 정식 음원명을 함께 표기한 108초 직접 사용 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2022FieldUse", "titleAlias", "historicalContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-roar-finale-2024",
+      "songId": "samsung-lions-2020-seungrihara-choegang-samsung",
+      "url": "https://www.youtube.com/watch?v=yvq_NbD1jgc",
+      "videoId": "yvq_NbD1jgc",
+      "title": "[시즌피날레] 삼성라이온즈 2024 시즌 마지막 만원관중 2020 승리하라 최강삼성 떼창",
+      "channel": "46채널",
+      "publishedAt": "2024-09-28T11:08:52-07:00",
+      "descriptionSummary": "2024 시즌 마지막 경기의 만원관중 합창과 응원 연출을 담은 직접 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024FieldUse", "seasonFinaleUse", "crowdSingalong", "choreography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-roar-last-attack-2025",
+      "songId": "samsung-lions-2020-seungrihara-choegang-samsung",
+      "url": "https://www.youtube.com/watch?v=HatlZC39uVA",
+      "videoId": "HatlZC39uVA",
+      "title": "20250417 연패 탈출을 위한 삼성라이온즈의 마지막 공격 9회초 응원 (2020 승리하라 최강삼성, 언제나, 박병호, 심재훈, 김성윤)",
+      "channel": "46채널",
+      "publishedAt": "2025-04-17T09:08:22-07:00",
+      "descriptionSummary": "2025년 4월 17일 원정 9회초 마지막 공격에서 00:11부터 대상 곡을 사용하고 이후 타자·상황 응원으로 이어진 11분대 직접 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025FieldUse", "ninthInningUse", "lastAttackContext", "usageContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-roar-official-2026",
+      "songId": "samsung-lions-2020-seungrihara-choegang-samsung",
+      "url": "https://www.youtube.com/watch?v=HAPsuHspHn8",
+      "videoId": "HAPsuHspHn8",
+      "title": "2026 삼성라이온즈 응원가 PLAYLIST 🎧",
+      "channel": "LionsTV",
+      "publishedAt": "2026-04-28T06:02:19-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 모음이 ‘승리하라 최강삼성’을 30분 48초부터 수록한다. 공식 표기에는 ‘2020’과 ‘사자후’가 빠져 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 연패 뒤 승리 직후 공식 영상이 공개된 상황과 전체 응원가 목록을 주로 반긴다.",
+        "대상 곡만을 특정한 평가는 드물어 공식 현행 표기·수록 근거로 활용했다."
+      ],
+      "supports": ["currentUse", "official2026Catalogue", "currentOfficialTitle"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-roar-field-2026",
+      "songId": "samsung-lions-2020-seungrihara-choegang-samsung",
+      "url": "https://www.youtube.com/watch?v=13uT-qFaiGk",
+      "videoId": "13uT-qFaiGk",
+      "title": "삼성라이온즈 응원가 2020 승리하라 최강삼성 고음질 블루존 직캠영상, 2026. 05. 06 수요일 vs 키움히어로즈 주중 시리즈 2차전",
+      "channel": "라희온 | rahuion | 삼성라이온즈",
+      "publishedAt": "2026-05-12T03:00:05-07:00",
+      "descriptionSummary": "2026년 5월 6일 키움전 블루존에서 촬영한 고음질 직접 현장 영상으로, 제목이 날짜·상대·곡명을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "2026HomeUse", "choreography", "usageContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-victory-name-licensed-2021",
+      "songId": "samsung-lions-seungriui-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=7ep-7_xHRSs",
+      "videoId": "7ep-7_xHRSs",
+      "title": "승리의 그 이름",
+      "channel": "Honey Crew - Topic",
+      "publishedAt": "2021-04-14T23:27:44-07:00",
+      "descriptionSummary": "YG PLUS가 자동 생성한 허니크루 음원 영상이다. 설명은 2021년 4월 3일 발매와 작사·작곡 김상헌, 편곡 박유진, 미듬엔터테인먼트 음원임을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["introductionYear", "recordingReleaseDate", "credits", "artist", "lyricsSourcePointer"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-victory-name-aerial-2022",
+      "songId": "samsung-lions-seungriui-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=Uqr3iu3VTYI",
+      "videoId": "Uqr3iu3VTYI",
+      "title": "[삼성라이온즈] 승리의 그 이름 (응원석 항공뷰)",
+      "channel": "써밀",
+      "publishedAt": "2022-04-09T08:51:31-07:00",
+      "descriptionSummary": "2022년 응원석을 높은 각도에서 촬영해 유니폼 흔들기와 관중 동작을 한눈에 보여 주는 직접 현장 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["usage2021To2022", "uniformChoreography", "crowdMovement", "2022FieldUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-victory-name-away-2023",
+      "songId": "samsung-lions-seungriui-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=woiwRF2hOEQ",
+      "videoId": "woiwRF2hOEQ",
+      "title": "23.09.08 잠실 두산전 삼성 라이온즈 팀 응원가 '승리의 그 이름'",
+      "channel": "제구왕 김무신",
+      "publishedAt": "2023-09-09T05:18:40-07:00",
+      "descriptionSummary": "2023년 9월 8일 잠실 두산전에서 곡을 사용한 원정 직접 현장 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["usageSince2023", "2023AwayUse", "historicalContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-victory-name-busan-2025",
+      "songId": "samsung-lions-seungriui-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=sqV_jVOpWWE",
+      "videoId": "sqV_jVOpWWE",
+      "title": "부산 광복80주년 | 삼성 vs 롯데 | 삼성 팀응원가 - 승리의 그 이름",
+      "channel": "응하컬 - 응원가로 하나되는 컬렉션",
+      "publishedAt": "2025-08-15T22:43:29-07:00",
+      "descriptionSummary": "2025년 8월 15일 광복 80주년 부산 사직 삼성 대 롯데 경기에서 사용한 원정 직접 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025AwayUse", "historicalContinuity", "usageSince2023"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-victory-name-official-2026",
+      "songId": "samsung-lions-seungriui-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=HAPsuHspHn8",
+      "videoId": "HAPsuHspHn8",
+      "title": "2026 삼성라이온즈 응원가 PLAYLIST 🎧",
+      "channel": "LionsTV",
+      "publishedAt": "2026-04-28T06:02:19-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 모음이 ‘승리의 그 이름’을 32분 38초부터 별도 팀 응원가로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 전체 응원가 영상 공개와 당시 승리 뒤 구단 채널의 복귀를 주로 반긴다.",
+        "대상 곡만의 평가는 드물어 공식 현행 수록 근거로 활용했다."
+      ],
+      "supports": ["currentUse", "official2026Catalogue", "officialTitle"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-victory-name-field-2026",
+      "songId": "samsung-lions-seungriui-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=5KNf0J6kxJ8",
+      "videoId": "5KNf0J6kxJ8",
+      "title": "2026 삼성 라이온즈 응원 직관 영상 모음 | 삼성 응원가 직캠",
+      "channel": "시운 siwoon",
+      "publishedAt": "2026-07-05T18:40:13-07:00",
+      "descriptionSummary": "2026년 7월 3일 SSG 원정 응원 모음으로 ‘승리하라 최강삼성’ 뒤 26분 56초에 ‘승리의 그 이름’, 이어 경기 종료 승리곡을 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원정 응원 전체를 반복 감상하기 좋다는 반응과 영상 제공에 대한 감사가 있다.",
+        "곡별 평가보다 2026년 후반 메들리 안에서 대상 곡이 실제 사용된 순서를 확인하는 데 유용하다."
+      ],
+      "supports": ["currentUse", "2026AwayUse", "currentMedley", "usageContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-for-early-2018",
+      "songId": "samsung-lions-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=SRziExv03-0",
+      "videoId": "SRziExv03-0",
+      "title": "[프로야구 응원가] 삼성라이온즈 응원가 - 승리를 위한 노래 (2018 New)",
+      "channel": "슈퍼코리안",
+      "publishedAt": "2018-04-28T02:00:03-07:00",
+      "descriptionSummary": "2018년 신곡이라는 표기와 함께 음원 출처 채널을 밝힌 초기 팬 업로드다. 구단 공식 영상보다 앞선 4월 공개 기록이어서 실제 사용 개시 시점을 뒷받침하되, 최초 경기 날짜 자체를 확정하지는 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "초기 댓글은 곡을 호평하며 삼성 왕조의 재기를 바라는 반응을 보인다.",
+        "넥센전에서 들었다거나 도입부가 바뀌었는지 묻는 반응이 있어 당시 신곡으로 받아들여졌음을 간접적으로 보여 준다."
+      ],
+      "supports": ["introductionYear", "earliestOnlineEvidence", "titleHistory", "earlyReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-for-official-mv-2018",
+      "songId": "samsung-lions-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=kzh0Ea2wDKs",
+      "videoId": "kzh0Ea2wDKs",
+      "title": "[LionsTV] #라팍 뮤비 #승리의라이온즈 #승리를위한노래",
+      "channel": "LionsTV",
+      "publishedAt": "2018-10-05T17:12:49-07:00",
+      "descriptionSummary": "구단 공식 채널이 시즌 마지막 3경기를 앞두고 ‘승리의 라이온즈’와 ‘승리를 위한 노래’를 라팍 경기 장면으로 엮은 뮤직비디오다. 미국 시각 표시는 한국 날짜로 2018년 10월 6일에 해당한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "삼성 팬들은 시즌 장면과 결합된 영상이 벅차고 힘이 난다며 선호 곡으로 꼽는다.",
+        "다른 팀 팬이라고 밝힌 이용자들도 노래와 영상의 완성도를 호평한다."
+      ],
+      "supports": ["officialClubVideo", "2018Use", "officialTitleAtTime", "reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-for-licensed-2019",
+      "songId": "samsung-lions-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=NdhSpZWAh5M",
+      "videoId": "NdhSpZWAh5M",
+      "title": "승리를 위해",
+      "channel": "Release - Topic",
+      "publishedAt": "2021-08-29T18:12:48-07:00",
+      "descriptionSummary": "YG PLUS가 제공한 자동 생성 음원 영상이다. 설명은 허니크루의 2019년 앨범 수록곡, 2019년 5월 20일 발매, 미듬엔터테인먼트 음원이며 작사·작곡·편곡자를 김상헌으로 기재한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recordingReleaseDate", "creditsMetadata", "formalTitle", "artist", "lyricsSourcePointer"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-for-fan-mv-2020",
+      "songId": "samsung-lions-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=kazir1PRqG0",
+      "videoId": "kazir1PRqG0",
+      "title": "삼성 라이온즈 응원가｜승리를  위해 경기영상 M/V｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2020-07-21T21:30:04-07:00",
+      "descriptionSummary": "팬 제작 경기 영상 뮤직비디오다. 설명은 김상헌이 만든 곡으로 광고에도 쓰였고, 처음에는 이원석 개인 응원가였다가 규모가 커져 팀 응원가가 되었다고 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "삼성 팬과 타 팀 팬 모두 현장감과 곡의 힘을 호평하며 포스트시즌에서 듣고 싶다는 반응을 보인다.",
+        "엘도라도와 견주어도 손색없다는 평가가 반복되지만 이는 팬 선호 의견으로만 취급했다."
+      ],
+      "supports": ["developmentOrigin", "playerOrigin", "advertisingAwareness", "fanReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-for-nickname-2020",
+      "songId": "samsung-lions-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=4MVtccSdgc4",
+      "videoId": "4MVtccSdgc4",
+      "title": "삼성라이온즈 응원가 승리를 위해 짭도라도",
+      "channel": "46채널",
+      "publishedAt": "2020-12-31T10:21:00-08:00",
+      "descriptionSummary": "제목에 팬 별칭 ‘짭도라도’를 병기한 현장 응원 영상이다. 별도 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 ‘짭도라도’라는 별칭을 실제로 사용하며 엘도라도를 부르지 못하던 시기의 공백을 채운 곡으로 회고한다.",
+        "엘도라도만큼 또는 그보다 좋다는 개인 선호와 코로나19 시기 현장 응원에 대한 그리움이 함께 나타난다."
+      ],
+      "supports": ["nickname", "replacementRole", "reception", "pandemicContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-for-home-run-2024",
+      "songId": "samsung-lions-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=aDa-lblNbQg",
+      "videoId": "aDa-lblNbQg",
+      "title": "20240712 삼성라이온즈 강민호 홈런 후 아파트 + 승리를위해(짭도라도) + Jump Up Lions 만원관중 떼창",
+      "channel": "46채널",
+      "publishedAt": "2024-07-12T09:07:56-07:00",
+      "descriptionSummary": "2024년 7월 12일 강민호 홈런 뒤 사직 원정 만원 관중석에서 ‘아파트’, ‘승리를 위해’, ‘Jump Up Lions’를 연달아 부른 직접 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원정 구장이 홈처럼 느껴질 정도로 삼성 응원 규모와 함성이 컸다는 반응이 많다.",
+        "현장 관람자가 목이 쉴 만큼 외쳤다고 회고하며 제목과 댓글 모두 팬 별칭 사용이 이어짐을 보여 준다."
+      ],
+      "supports": ["homeRunContext", "2024AwayUse", "postEldoradoRevivalContinuity", "reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-for-comeback-2025",
+      "songId": "samsung-lions-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=tE2FlfV_C6w",
+      "videoId": "tE2FlfV_C6w",
+      "title": "20250831 삼성라이온즈 강민호 역전 투런 홈런 후 승리를 위해 짭도라도 + 모두 외쳐라",
+      "channel": "46채널",
+      "publishedAt": "2025-08-31T08:27:25-07:00",
+      "descriptionSummary": "2025년 8월 31일 강민호의 역전 투런 홈런 직후 원정 응원석에서 ‘승리를 위해’와 ‘모두 외쳐라’를 이어 부른 직접 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "짧은 댓글들은 원정인데도 홈처럼 보이는 응원 규모와 팀을 향한 지지를 강조한다.",
+        "곡 자체의 상세 평가는 적지만 역전 홈런 직후 사용 맥락은 제목과 화면으로 확인된다."
+      ],
+      "supports": ["comebackContext", "2025AwayUse", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-for-official-2026",
+      "songId": "samsung-lions-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=HAPsuHspHn8",
+      "videoId": "HAPsuHspHn8",
+      "title": "2026 삼성라이온즈 응원가 PLAYLIST 🎧",
+      "channel": "LionsTV",
+      "publishedAt": "2026-04-28T06:02:19-07:00",
+      "descriptionSummary": "구단 공식 2026 응원가 모음이 ‘승리를 위해’를 33분 52초부터 별도 팀 응원가로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 연패 뒤 승리 직후 공식 응원가 영상이 공개된 상황과 구단 채널의 복귀를 주로 반긴다.",
+        "대상 곡만의 평가는 드물어 공식 현행 제목과 수록 여부를 확인하는 근거로 활용했다."
+      ],
+      "supports": ["currentUse", "official2026Catalogue", "currentOfficialTitle"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-samsung-a-for-home-run-2026",
+      "songId": "samsung-lions-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=pJydT9T7JYI",
+      "videoId": "pJydT9T7JYI",
+      "title": "삼성 응원가 승리를 위해 - 8회말 박승규 3점홈런 직후 블루존 직캠영상, 2026. 6. 2 화요일 vs NC 주중 시리즈 1차전",
+      "channel": "라희온 | rahuion | 삼성라이온즈",
+      "publishedAt": "2026-06-02T19:26:26-07:00",
+      "descriptionSummary": "2026년 6월 2일 NC전 8회말 박승규의 3점 홈런 직후 블루존에서 촬영한 직접 현장 영상이다. 설명은 해시태그 중심이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "대상 곡과 관련된 댓글은 허리를 크게 쓰는 안무가 힘들어 보인다는 관찰 한 건뿐이다.",
+        "나머지 댓글은 외야 수비 기용에 관한 의견으로 곡 조사 근거에서는 제외했다."
+      ],
+      "supports": ["currentUse", "2026HomeUse", "homeRunContext", "choreography"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 36,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 23
+  }
+}

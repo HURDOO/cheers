@@ -1,0 +1,1132 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-yonsei-university-b",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-yonsei-sinchon",
+    "name": "연세대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 도입 연도·원곡·사용법·수용을 확인하는 데 필요한 내용만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "yonsei-university-onnurie",
+      "title": "온누리에",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-2025-akaraka-and-2026-freshman-ot",
+      "summary": "Alan Walker·Sabrina Carpenter·Farruko의 2019년 곡 ‘On My Way’를 바탕으로 만든 2022년 연세대 응원가다. 2022 아카라카 현장 영상이 이 곡을 신곡으로 명시하고, 나무위키는 미래캠퍼스 밴드동아리 커런트가 제작했다고 기록한다. 제작자 개인별 크레딧은 찾지 못했지만 커런트의 교내 동아리 실재는 대학 자료로 교차했고, 2025 아카라카와 2026 신입생 응원 OT에서 현행 사용을 직접 확인했다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "온누리에",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-b-namu-2020s", "yt-yu-b-onnurie-2022-new", "yt-yu-b-onnurie-2026-ot"],
+          "notes": "도입 당시 신곡 영상과 2023·2024·2026 응원 OT 영상이 같은 제목을 사용한다."
+        },
+        {
+          "field": "introductionYearAndFirstKnownEvent",
+          "value": "2022년, 아카라카를 온누리에에서 신곡으로 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-b-namu-2020s", "yt-yu-b-onnurie-2022-new"],
+          "notes": "2022년 현장 영상 제목이 직접 ‘2022 신곡’이라고 표시하고, 편집형 연대기 자료의 서술과 일치한다. 정확한 최초 공연 일자는 별도 1차 프로그램으로 확인하지 못했다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Alan Walker, Sabrina Carpenter & Farruko ‘On My Way’(2019)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-b-namu-2020s", "ev-yu-b-apple-on-my-way", "ev-yu-b-alan-walker-on-my-way"],
+          "notes": "나무위키의 원곡 표기와 권리자·아티스트 제공 음원 및 Apple Music의 가수·발매일이 일치한다."
+        },
+        {
+          "field": "creator",
+          "value": "연세대학교 미래캠퍼스 밴드동아리 커런트가 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-b-namu-2020s", "ev-yu-b-current-club-directory"],
+          "notes": "제작설은 나무위키에 의존한다. 대학의 2026 동아리 자료는 커런트를 미래캠퍼스 록 밴드로 확인하지만 이 곡의 제작 크레딧 자체를 확인하지는 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 아카라카와 2026 신입생 응원 OT에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-onnurie-2025-akaraka", "yt-yu-b-onnurie-2026-ot"],
+          "notes": "서로 다른 연도의 실제 공연 영상에서 곡 전체 사용을 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT에서 학교명 구호와 집단 응답을 익히는 현행 교육곡으로 사용한다.",
+        "아카라카의 대표곡 메들리와 후반 집단 응원에서 대규모 떼창·어깨동무 응원으로 배치한다.",
+        "짧은 선율 단위를 반복하고 학교 이름을 음절별로 응답해 처음 듣는 관중도 빠르게 참여하도록 구성한다."
+      ],
+      "trivia": [
+        {
+          "id": "onnurie-event-name-echo",
+          "summary": "곡명은 응원단의 대표 행사명 ‘아카라카를 온누리에’에 이미 들어 있던 표현을 그대로 가져와, 행사명과 신곡의 후렴 이미지를 연결한다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-b-official-cheer-team", "yt-yu-b-onnurie-2022-new"]
+        },
+        {
+          "id": "onnurie-mirae-campus-lineage",
+          "summary": "신촌 응원단의 대표 레퍼토리이지만 제작 주체로는 미래캠퍼스 록 밴드 커런트가 거론된다. 교내 자료로 동아리의 존재와 성격은 확인되나, 참여 단원과 역할은 공개되지 않았다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-b-namu-2020s", "ev-yu-b-current-club-directory"]
+        },
+        {
+          "id": "onnurie-source-recognition",
+          "summary": "2022 신곡 영상 댓글에서는 공개 직후부터 원곡 ‘On My Way’를 알아본 반응과 응원가 음원 공개를 바라는 반응이 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-onnurie-2022-new"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 2019 popular song and university cheer adaptation; adaptation, lyric, arrangement, recording, and performance permissions are not documented here",
+        "sourceUrls": [
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80",
+          "https://www.youtube.com/watch?v=Yovi2X-rGew",
+          "https://www.youtube.com/watch?v=dhYOPzcsbGM"
+        ],
+        "structureSummary": "원곡의 전자음악 훅 위에 짧은 호명·응답형 구절을 반복하고, 학교 이름을 음절별 구호로 끊어 받는다. 중간에는 선창과 후창이 교차하며, 후반에 같은 핵심 후렴을 거듭해 함성과 동작의 강도를 높인다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-b-onnurie-2022-new",
+        "yt-yu-b-onnurie-2023-ot",
+        "yt-yu-b-onnurie-2024-ot",
+        "yt-yu-b-onnurie-2025-akaraka",
+        "yt-yu-b-onnurie-2026-ot"
+      ],
+      "unresolved": [
+        "2022년 최초 공개의 정확한 일자와 당시 공식 프로그램·공지",
+        "커런트 참여 단원별 작사·편곡·연주 크레딧과 응원단의 공동 제작 범위",
+        "원곡을 개사·편곡해 사용하는 권리 승인 및 현행 음원 제작 크레딧"
+      ]
+    },
+    {
+      "id": "yonsei-university-yasaengma",
+      "title": "야생마",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-2025-joint-cheer-and-2026-official-campus-guide",
+      "summary": "노라조의 2013년 동명곡을 본체로 삼고, 전주에는 Ludacris의 ‘Move B***H’를 삽입한 2014년 연세대 응원가다. 공식 응원단 영상 설명이 두 원곡을 함께 적고, 2014 아카라카 영상도 남아 있다. 나무위키에는 원곡 후렴의 발음 문제를 이유로 총여학생회 반발 뒤 구호가 바뀌었다는 서술이 있으나 이를 입증하는 당시 공문·회의록·보도는 찾지 못해 낮은 신뢰도의 보고로 분리했다. 2025 합동응원과 대학 공식 2026 국제학생 응원문화 안내에서 현행 사용을 확인했다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "야생마",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-yasaengma-official-2020", "ev-yu-b-gosc-2026", "yt-yu-b-yasaengma-2026-gosc"],
+          "notes": "공식 응원단의 곡 단위 영상과 대학 GOSC의 2026 안내가 같은 제목을 쓴다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2014년",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-b-namu-2010s", "yt-yu-b-yasaengma-2014-akaraka"],
+          "notes": "나무위키가 2014년 신곡으로 기록하고 2014년 9월 아카라카 실연 영상이 이를 시기상 뒷받침한다. 최초 공개라고 명시한 1차 자료는 확보하지 못했다."
+        },
+        {
+          "field": "originalSongAndIntro",
+          "value": "본체는 노라조 ‘야생마’(2013), 전주는 Ludacris ‘Move B***H’(2001 녹음·공식 영상 표기)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-yasaengma-official-2020", "ev-yu-b-apple-norazo-yasaengma", "ev-yu-b-ludacris-move"],
+          "notes": "연세대 응원단 공식 설명이 두 곡을 분리해 적으며, 음원 카탈로그와 권리자 공식 영상이 각각 가수·발매 정보를 보완한다."
+        },
+        {
+          "field": "chorusWordingChange",
+          "value": "원곡의 ‘생마’ 반복을 ‘달려’ 반복으로 바꾼 배경에 총여학생회의 반발이 있었다는 주장",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-yu-b-namu-2010s", "ev-yu-b-donga-norazo"],
+          "notes": "2013년 원곡 인터뷰는 원래 후렴의 중의적 발음이 의도된 표현이었음을 확인하지만, 연세대 총여학생회의 개입 자체는 나무위키 외 1차 기록을 찾지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 합동응원과 2026 연세대 공식 국제학생 응원문화 안내·신입생 OT에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-yasaengma-2025-joint", "ev-yu-b-gosc-2026", "yt-yu-b-yasaengma-2026-ot"],
+          "notes": "합동응원 실연, 2026 신입생 OT, 대학 기관이 게시한 교육 콘텐츠가 현행성을 함께 지지한다."
+        }
+      ],
+      "usageContexts": [
+        "응원 OT와 합동응원에서 말의 질주를 흉내 낸 구호·동작으로 체력을 끌어올리는 액션형 곡이다.",
+        "전주에서는 라이벌을 향한 영어 구호를 반복하고, 본체에서는 관중이 달리는 소리와 응답을 주고받는다.",
+        "2026 대학 공식 국제학생 안내가 역사·안무·가사를 함께 가르칠 대표 응원가로 선정했다."
+      ],
+      "trivia": [
+        {
+          "id": "yasaengma-two-song-splice",
+          "summary": "한 곡 안에서 미국 힙합의 명령형 전주와 노라조의 코믹 록·댄스 본체가 이어지는 이중 출처 구조다. 공식 응원단 설명도 두 저작물을 나란히 크레딧한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-yasaengma-official-2020", "ev-yu-b-apple-norazo-yasaengma", "ev-yu-b-ludacris-move"]
+        },
+        {
+          "id": "yasaengma-pandemic-choreography-gap",
+          "summary": "2022 아카라카 영상 댓글에는 대면 응원 공백 뒤 관중이 동작을 충분히 익히지 못했다는 아쉬움이 남아 있어, 응원 OT의 교육 기능이 끊겼던 시기의 체감을 보여준다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yu-b-yasaengma-2022-akaraka"]
+        },
+        {
+          "id": "yasaengma-wording-change-caution",
+          "summary": "원곡 후렴의 성적 중의성은 당시 노라조 인터뷰에서도 드러나지만, 연세대판 변경을 특정 학생기구의 요구로 돌리는 서술은 독립된 당대 기록이 없어 사실로 확정하면 안 된다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-b-donga-norazo", "ev-yu-b-namu-2010s"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted Norazo and Ludacris source recordings plus a university cheer adaptation; adapted lyrics, splice, arrangement, and performance permissions are not documented here",
+        "sourceUrls": [
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80",
+          "https://www.youtube.com/watch?v=ALZW7IGS86A",
+          "https://music.apple.com/kr/album/%EC%95%BC%EC%83%9D%EB%A7%88-single/1848951026",
+          "https://www.youtube.com/watch?v=tw429JGL5zo"
+        ],
+        "structureSummary": "상대를 비켜서게 하는 짧은 영어 전주 뒤, 제목을 잘게 끊은 선창·후창과 말발굽을 흉내 낸 의성 구호가 이어진다. 달리기 이미지를 담은 본체를 여러 차례 반복하며 마지막에는 같은 구절을 연속해 속도감과 군중 반응을 높인다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-b-yasaengma-2014-akaraka",
+        "yt-yu-b-yasaengma-official-2020",
+        "yt-yu-b-yasaengma-2022-akaraka",
+        "yt-yu-b-yasaengma-2025-joint",
+        "yt-yu-b-yasaengma-2026-ot",
+        "yt-yu-b-yasaengma-2026-gosc"
+      ],
+      "unresolved": [
+        "2014년 최초 공개의 정확한 행사·일자와 당시 공식 프로그램",
+        "연세대판 개사·편곡 담당자와 두 원곡을 결합한 제작 크레딧",
+        "총여학생회 반발 및 후렴 변경 경위를 확인할 당시 공문·회의록·당사자 증언"
+      ]
+    },
+    {
+      "id": "yonsei-university-one-night-only",
+      "title": "One Night Only",
+      "aliases": ["ONO", "One night only", "원 나잇 온리"],
+      "currentStatus": "current-directly-verified-at-2025-akaraka",
+      "summary": "영화 ‘Dreamgirls’ 사운드트랙의 ‘One Night Only (Disco Version)’을 바탕으로 한 2007년 연세대 응원가로, 현장에서는 ONO라는 약칭도 쓴다. 공식 응원단 영상 설명은 원곡 저작자를 Jennifer Hudson으로 적지만, Columbia·DreamWorks 제공 음원과 Apple Music은 디스코 판본의 실연자를 Beyoncé, Sharon Leal, Anika Noni Rose로, 작사·작곡자를 Tom Eyen과 Henry Krieger로 명시한다. Jennifer Hudson이 부른 별도 발라드 판본과의 혼동으로 보이며, 2007 정기 연고전부터 2025 아카라카까지 장기 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "officialTitleAndAliases",
+          "value": "대표 표기는 ‘One Night Only’, 현장 약칭은 ‘ONO’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-ono-official-2020", "yt-yu-b-ono-official-mv-2021", "yt-yu-b-ono-2025-akaraka"],
+          "notes": "공식 응원단 영상은 영문 제목을 쓰고 2025 현장 영상 설명은 ONO를 함께 표기한다. 대소문자 차이는 별칭으로 보존했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2007년",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-b-namu-2000s", "yt-yu-b-ono-2007-koyeonjeon"],
+          "notes": "나무위키가 2007년 신곡으로 기록하며, 2007년 10월 업로드된 당해 정기 연고전 실연 영상이 같은 제목을 직접 확인한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "‘Dreamgirls’의 ‘One Night Only (Disco Version)’ — Beyoncé Knowles, Sharon Leal, Anika Noni Rose; Henry Krieger·Tom Eyen 작사·작곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-b-namu-2000s", "ev-yu-b-apple-ono-disco", "ev-yu-b-beyonce-topic-ono"],
+          "notes": "응원가가 사용하는 빠른 디스코 판본의 공식 음원 크레딧을 기준으로 실연자와 작가를 분리했다."
+        },
+        {
+          "field": "officialVideoAttributionConflict",
+          "value": "연세대 응원단 공식 설명의 ‘저작자: Jennifer Hudson’ 표기는 디스코 판본의 공식 실연·작가 크레딧과 불일치",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-ono-official-2020", "ev-yu-b-apple-ono-disco", "ev-yu-b-beyonce-topic-ono"],
+          "notes": "Jennifer Hudson은 영화에서 느린 발라드 판본을 부르지만, 응원가가 따른 디스코 판본에는 Beyoncé·Sharon Leal·Anika Noni Rose가 기재된다. 더구나 ‘저작자’는 실연자와 작사·작곡자를 혼합한 표현이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 개교 140주년 아카라카에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-ono-2025-akaraka"],
+          "notes": "2025년 5월 24일 공연에서 J에게와 연속 배치된 실연을 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "아카라카와 응원 OT에서 영어 후렴을 관중이 크게 따라 부르고 팔을 돌리는 동작을 결합하는 댄스형 레퍼토리다.",
+        "다른 빠른 액션곡과 묶어 중반 분위기를 전환하며, 2021 공식 MV에서는 ‘오늘밤새’와 한 영상으로 편성됐다.",
+        "원곡의 영어 한 줄을 일부 유지하면서 한국어로 열정·현재 순간을 강조하는 고유 개사를 반복한다."
+      ],
+      "trivia": [
+        {
+          "id": "ono-two-film-versions",
+          "summary": "영화에는 Jennifer Hudson의 발라드 판본과 Beyoncé·Sharon Leal·Anika Noni Rose의 디스코 판본이 따로 있어, 공식 응원단 설명의 Jennifer Hudson 표기는 두 판본을 섞은 것으로 보인다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-ono-official-2020", "ev-yu-b-apple-ono-disco", "ev-yu-b-beyonce-topic-ono"]
+        },
+        {
+          "id": "ono-chorus-centered-participation",
+          "summary": "나무위키는 관중이 동작을 따라가다가 제목이 반복되는 후렴에서 특히 크게 합창한다고 설명한다. 공식 MV의 반복 구조와 현장 영상도 이런 참여 방식을 뒷받침한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-b-namu-2000s", "yt-yu-b-ono-official-mv-2021", "yt-yu-b-ono-2023-ot"]
+        },
+        {
+          "id": "ono-long-running-video-record",
+          "summary": "YouTube에는 2007 정기 연고전 영상이 그해 10월부터 남아 있고, 2025 아카라카 영상까지 이어져 최소 18년의 공개 실연 기록을 이룬다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-ono-2007-koyeonjeon", "yt-yu-b-ono-2025-akaraka"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted Dreamgirls composition, film soundtrack recording, and university cheer adaptation; lyric and arrangement permissions are not documented here",
+        "sourceUrls": [
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+          "https://www.youtube.com/watch?v=xTpw0L6VMLc",
+          "https://music.apple.com/ca/song/464321088"
+        ],
+        "structureSummary": "한국어로 방해받지 않는 열정과 현재 순간을 선언하는 짧은 절 뒤, 원곡의 영어 제목구를 중심으로 한 후렴을 반복한다. 전주와 간주를 사이에 두고 절–후렴을 두 차례 순환하며 군중의 제목구 합창이 중심이 된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-b-ono-2007-koyeonjeon",
+        "yt-yu-b-ono-official-2020",
+        "yt-yu-b-ono-official-mv-2021",
+        "yt-yu-b-ono-2022-akaraka",
+        "yt-yu-b-ono-2023-ot",
+        "yt-yu-b-ono-2025-akaraka"
+      ],
+      "unresolved": [
+        "2007년 신곡의 최초 공개 행사·일자와 당시 프로그램 원본",
+        "연세대판 개사자·편곡자와 원곡 디스코 판본을 선택한 제작 경위",
+        "공식 응원단 영상에 Jennifer Hudson을 ‘저작자’로 기재한 출처와 수정 여부"
+      ]
+    },
+    {
+      "id": "yonsei-university-go-bal-kum",
+      "title": "고.밟.꿈",
+      "aliases": ["고밟꿈", "고대도 밟으면 꿈틀거린다"],
+      "currentStatus": "current-directly-verified-at-2025-and-2026-freshman-ot",
+      "summary": "‘고대도 밟으면 꿈틀거린다’라는 라이벌전 말장난을 전면에 둔 연세대 안티콜 응원가다. 나무위키는 1998년 도입과 ‘Jesus Is the Rock’이라는 찬송가 계보를 기록하고, 공식 응원단 영상도 원곡명을 적지만 제목을 ‘Gesus’로 오기하고 작자를 단순히 ‘찬송가’라고만 표시한다. 동명 복음곡이 여러 개라 특정 작곡·녹음으로 연결할 근거는 부족하다. 2005 미래캠퍼스 공연부터 2025·2026 신입생 OT까지 장기 사용은 직접 확인된다.",
+      "claims": [
+        {
+          "field": "canonicalTitleAndAliases",
+          "value": "문서 표기는 ‘고.밟.꿈’, 공식·현장 영상의 실사용 표기는 ‘고밟꿈’; ‘고대도 밟으면 꿈틀거린다’로 풀이",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-b-namu-pre2000", "yt-yu-b-gobalkkum-official-2020", "yt-yu-b-gobalkkum-2025-ot"],
+          "notes": "나무위키는 점을 찍은 제목을, 응원단 공식 영상은 붙여 쓴 제목을 사용한다. 2025 영상 제목이 풀어 쓴 말장난을 명시한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "1998년",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-b-namu-pre2000", "yt-yu-b-gobalkkum-2005-festival"],
+          "notes": "1998년은 현재 나무위키 서술이 유일한 직접 연도 근거다. 2005년 미래캠퍼스 대동제 실연은 적어도 그 이전에 보급됐음을 보여주지만 1998년 자체를 증명하지는 않는다."
+        },
+        {
+          "field": "originalSong",
+          "value": "‘Jesus Is the Rock’으로 알려진 찬송·복음곡; 특정 작곡자·판본 미확정",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-b-namu-pre2000", "yt-yu-b-gobalkkum-official-2020", "ev-yu-b-tony-congi-jesus-rock", "ev-yu-b-hymnary-jesus-rock"],
+          "notes": "공식 영상과 나무위키는 제목만 제시한다. Tony Congi의 동명곡 등 여러 서로 다른 작품이 검색되므로, 악보·편곡자 증언 없이 특정 녹음을 원곡으로 확정하지 않았다."
+        },
+        {
+          "field": "rivalryFunction",
+          "value": "고려대를 직접 겨냥하는 안티콜·라이벌전 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-gobalkkum-official-2020", "yt-yu-b-gobalkkum-2025-ot", "ev-yu-b-namu-pre2000"],
+          "notes": "제목 풀이, 공식 영상의 준비 멘트와 곡 주제가 모두 상대 학교를 직접 지칭한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 신입생 응원 OT에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-gobalkkum-2025-ot", "yt-yu-b-gobalkkum-2026-ot"],
+          "notes": "연속 두 해의 신입생 응원 OT 영상에서 단독 곡으로 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT와 연고전·합동응원에서 상대 학교를 직접 도발하는 안티콜로 사용한다.",
+        "초반에는 팔을 크게 젓고 밟는 이미지를 반복한 뒤, 후반에는 제목의 ‘꿈틀’ 말장난에 맞춘 트위스트형 동작으로 전환한다.",
+        "가사 어휘가 공격적이므로 일반 학교 찬가가 아니라 양교 라이벌 문화의 맥락을 함께 표시해야 한다."
+      ],
+      "trivia": [
+        {
+          "id": "gobalkkum-title-wordplay",
+          "summary": "짧은 제목 자체가 ‘고대도 밟으면 꿈틀거린다’를 압축한 언어유희다. 점을 찍은 문서 표기와 붙여 쓰는 현장 표기가 병존한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-b-namu-pre2000", "yt-yu-b-gobalkkum-2025-ot"]
+        },
+        {
+          "id": "gobalkkum-original-title-ambiguity",
+          "summary": "‘Jesus Is the Rock’이라는 제목에는 Tony Congi 작품, Velma Wade 작품 등 서로 다른 복음곡이 존재한다. 연세대 공식 설명은 작가나 판본을 주지 않아 어느 곡을 직접 사용했는지 아직 특정할 수 없다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-gobalkkum-official-2020", "ev-yu-b-tony-congi-jesus-rock", "ev-yu-b-hymnary-jesus-rock"]
+        },
+        {
+          "id": "gobalkkum-long-use-record",
+          "summary": "2005 미래캠퍼스 대동제, 2010 정기 고연전, 2018 아카라카, 2025·2026 신입생 OT 영상이 남아 있어 세대와 캠퍼스를 넘는 장기 사용을 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-gobalkkum-2005-festival", "yt-yu-b-gobalkkum-2010-koyeonjeon", "yt-yu-b-gobalkkum-2018-akaraka", "yt-yu-b-gobalkkum-2026-ot"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "source composition and recording are not conclusively identified; the university cheer lyrics and arrangement are separately protected, so no full text is stored",
+        "sourceUrls": [
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84",
+          "https://www.youtube.com/watch?v=OUcWoN6-gUo",
+          "https://music.apple.com/ca/song/1254471007"
+        ],
+        "structureSummary": "상대를 지목하는 짧은 도입 구절과 밟는 이미지를 반복하는 전반부 뒤, 전환 구호를 거쳐 제목의 말장난을 연속 반복하는 후반부로 이어진다. 곡 전체가 다시 한 번 순환하며 큰 팔 동작과 트위스트 동작이 대비된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-b-gobalkkum-2005-festival",
+        "yt-yu-b-gobalkkum-2010-koyeonjeon",
+        "yt-yu-b-gobalkkum-2018-akaraka",
+        "yt-yu-b-gobalkkum-official-2020",
+        "yt-yu-b-gobalkkum-2025-ot",
+        "yt-yu-b-gobalkkum-2026-ot"
+      ],
+      "unresolved": [
+        "1998년 최초 공개 행사·일자와 당시 프로그램·음원",
+        "‘Jesus Is the Rock’의 정확한 작곡자·판본·직접 참조 녹음",
+        "연세대판 개사자·편곡자 및 제목 표기의 최초 형태",
+        "원곡과 연세대판의 편곡·공연·음원 사용 권리"
+      ]
+    },
+    {
+      "id": "yonsei-university-seogok",
+      "title": "서곡",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-2025-and-2026-freshman-ot",
+      "summary": "응원의 시작을 알리는 역할 때문에 ‘서곡’이라 불리는 1994년 연세대 응원가다. 공식 응원단 영상은 Village People의 1979년 ‘Go West’를 원곡으로 적고, 나무위키는 1993년 Pet Shop Boys 커버를 직접적인 편곡 모델로 설명한다. 따라서 원작과 즉시 참조한 편곡 층위를 분리해 보존했다. 2023년 대학 공식 어쿠스틱 MV, 2025 신입생 OT, 2026 YBS 응원 OT 기록에서도 현행 사용과 상징적 개막 기능이 확인된다.",
+      "claims": [
+        {
+          "field": "officialTitleAndFunction",
+          "value": "정식 표기는 ‘서곡’, 응원 행사의 시작을 여는 곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-seogok-official-2020", "yt-yu-b-seogok-university-mv-2023", "yt-yu-b-seogok-2025-ot"],
+          "notes": "공식 응원단 설명과 대학 공식 MV가 제목을 일치시킨다. 2025 영상 제목과 2026 YBS 타임라인에서 첫 곡으로 배치된다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "1994년",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-b-namu-pre2000"],
+          "notes": "현존 공개 자료 중 정확한 도입 연도를 적는 자료는 나무위키다. 당시 공식 프로그램이나 제작자 증언은 확보하지 못했다."
+        },
+        {
+          "field": "underlyingOriginalSong",
+          "value": "Village People ‘Go West’(1979)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-seogok-official-2020", "ev-yu-b-village-people-go-west", "ev-yu-b-pet-shop-boys-go-west"],
+          "notes": "연세대 응원단 공식 영상이 Village People을 저작자로 적고, Village People 공식 영상과 Pet Shop Boys 공식 페이지가 원작 계보를 확인한다."
+        },
+        {
+          "field": "immediateArrangementLineage",
+          "value": "Pet Shop Boys의 1993년 커버 ‘Go West’가 연세대판의 직접적인 편곡 모델이라는 설명",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-b-namu-pre2000", "ev-yu-b-pet-shop-boys-go-west"],
+          "notes": "도입 1년 전 발매된 Pet Shop Boys 판본을 나무위키가 직접 원곡처럼 서술한다. 공식 응원단은 더 오래된 Village People만 표기하므로 원작과 편곡 영향의 두 층위로 정리했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 신입생 응원 OT의 시작 곡으로 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-seogok-2025-ot", "yt-yu-b-seogok-2026-ot"],
+          "notes": "두 해 영상 모두 서곡을 첫 구간에 배치하고 실제 공연을 수록한다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT와 아카라카 3부의 문을 여는 개막곡으로 자주 배치한다.",
+        "짧은 선창·후창 뒤 어깨동무하고 함께 뛰는 동작으로 관중을 한 대열로 묶는다.",
+        "경기·축제 현장뿐 아니라 대학 공식 어쿠스틱 MV처럼 학교 정체성을 소개하는 재해석에도 사용된다."
+      ],
+      "trivia": [
+        {
+          "id": "seogok-layered-go-west-lineage",
+          "summary": "공식 응원단은 원작자인 Village People을, 나무위키는 1993년 Pet Shop Boys 판본을 원곡으로 든다. 서로 배타적인 오류라기보다 1979년 작품과 1993년 편곡 영향이라는 서로 다른 계보 층위를 가리킨다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-seogok-official-2020", "ev-yu-b-namu-pre2000", "ev-yu-b-pet-shop-boys-go-west", "ev-yu-b-village-people-go-west"]
+        },
+        {
+          "id": "seogok-acoustic-reinterpretation",
+          "summary": "연세대학교 공식 채널은 2023년에 미디어센터 SNS기자단이 제작한 어쿠스틱 버전 MV를 공개해, 대형 응원장의 빠른 군중곡을 차분한 학교 홍보 콘텐츠로 다시 해석했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-seogok-university-mv-2023"]
+        },
+        {
+          "id": "seogok-opening-memory",
+          "summary": "공식·대학 채널 댓글에서는 ‘응원의 시작을 알리는 곡’이라는 기억, 입학을 목표로 삼는 수험생의 반응, 동문의 오랜 선호가 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-b-seogok-official-2020", "yt-yu-b-seogok-university-mv-2023"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted Village People composition, Pet Shop Boys cover arrangement, and university cheer adaptation; lyrics, arrangement, recording, and performance permissions are not documented here",
+        "sourceUrls": [
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84",
+          "https://www.youtube.com/watch?v=ps0jHnpqZcc",
+          "https://www.petshopboys.co.uk/product/single/go-west",
+          "https://www.youtube.com/watch?v=1wc-AQJ2MYo"
+        ],
+        "structureSummary": "짧은 승리 구호 전주 뒤 선창과 학교 응답이 교차하는 절, 함께 전진하고 하나가 되자는 후렴으로 이어진다. 절–후렴을 반복한 다음 마지막 후렴을 한 키 높여 부르며 개막의 상승감을 만든다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-b-seogok-official-2020",
+        "yt-yu-b-seogok-university-mv-2023",
+        "yt-yu-b-seogok-2024-ot",
+        "yt-yu-b-seogok-2025-ot",
+        "yt-yu-b-seogok-2026-ot"
+      ],
+      "unresolved": [
+        "1994년 최초 공개의 정확한 행사·일자와 당시 공식 프로그램",
+        "Pet Shop Boys 판본을 바탕으로 연세대판을 만든 편곡자·개사자와 직접 제작 증언",
+        "Village People 원작·Pet Shop Boys 편곡·연세대판 사이의 사용 및 편곡 권리"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-yu-b-official-cheer-team",
+      "type": "official-university-organization",
+      "url": "https://akaraka.yonsei.ac.kr/",
+      "title": "연세대학교 응원단",
+      "publisher": "연세대학교 응원단",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "응원단이 1927년 연보전과 함께 시작됐고 현재 신입생 응원 OT, 합동응원전, 아카라카를 온누리에, 연고전을 주관한다고 설명한다. 2026 아카라카 관련 공지도 게시한다.",
+      "supports": ["응원단 공식성", "주요 사용 행사", "아카라카를 온누리에 행사명", "2026 활동"]
+    },
+    {
+      "id": "ev-yu-b-official-faq",
+      "type": "official-university-organization",
+      "url": "https://akaraka.yonsei.ac.kr/faq",
+      "title": "FAQ — 응원곡은 어떻게 만들어지나요?",
+      "publisher": "연세대학교 응원단",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "응원단이 매년 신곡 회의를 열고 단원과 학우가 제안한 곡을 검토한 뒤 응원 동작과 접목해 만든다고 설명한다. 특정 다섯 곡의 개인 크레딧은 제공하지 않는다.",
+      "supports": ["일반적인 응원가 제작 절차", "응원단 편곡·동작 결합", "개인 크레딧 미공개"]
+    },
+    {
+      "id": "ev-yu-b-namu-2020s",
+      "type": "community-wiki",
+      "url": "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80",
+      "title": "연세대학교/응원가/2020년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "온누리에를 2022년 아카라카 공개 신곡으로 분류하고 원곡을 Alan Walker의 ‘On My Way’, 제작 주체를 미래캠퍼스 밴드동아리 커런트로 적는다. 가사 전문은 저장하지 않고 연도·원곡·동작 설명만 요약했다.",
+      "supports": ["온누리에 2022", "아카라카 최초 공개 주장", "On My Way 원곡", "커런트 제작설", "곡 구조·동작"]
+    },
+    {
+      "id": "ev-yu-b-namu-2010s",
+      "type": "community-wiki",
+      "url": "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80",
+      "title": "연세대학교/응원가/2010년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "야생마를 2014년 신곡으로 분류하고 노라조 동명곡을 본체, Ludacris의 ‘Move Bitch’를 전주로 적는다. 후렴 변경에 총여학생회 반발이 있었다는 서술은 별도 1차 출처가 없어 낮은 신뢰도의 주장으로만 보존했다.",
+      "supports": ["야생마 2014", "노라조 원곡", "Ludacris 전주", "후렴 변경 주장", "곡 구조·동작"]
+    },
+    {
+      "id": "ev-yu-b-namu-2000s",
+      "type": "community-wiki",
+      "url": "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+      "title": "연세대학교/응원가/2000년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "One Night Only를 2007년 신곡으로 분류하고 ‘Dreamgirls’의 Beyoncé ‘One Night Only (Disco)’를 원곡으로 적는다. 제목 후렴에서 호응이 집중된다는 현장 일화도 제공한다.",
+      "supports": ["One Night Only 2007", "Dreamgirls 디스코 판본", "현장 호응 방식"]
+    },
+    {
+      "id": "ev-yu-b-namu-pre2000",
+      "type": "community-wiki",
+      "url": "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84",
+      "title": "연세대학교/응원가/2000년 이전",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "서곡을 1994년 도입·Pet Shop Boys ‘Go West’ 계열, 고.밟.꿈을 1998년 도입·‘Jesus Is the Rock’ 찬송가 계열로 정리한다. 두 곡의 동작·사용 맥락도 제공하지만 개인별 제작 크레딧은 없다.",
+      "supports": ["서곡 1994", "Pet Shop Boys 편곡 영향", "고.밟.꿈 1998", "Jesus Is the Rock 원곡명 주장", "곡 구조·동작"]
+    },
+    {
+      "id": "ev-yu-b-current-club-directory",
+      "type": "official-university-publication",
+      "url": "https://yiec.yonsei.ac.kr/yiec_en/board/data-useful.do?articleNo=53352&attachNo=57200&mode=download",
+      "title": "연세대학교 미래캠퍼스 동아리 안내",
+      "publisher": "연세대학교 미래캠퍼스",
+      "publishedAt": "2026",
+      "accessedAt": "2026-08-09",
+      "summary": "미래캠퍼스 교내 동아리 목록에서 커런트를 음악연주 분야의 록 밴드로 확인한다. 온누리에 제작 참여는 이 자료에 적혀 있지 않아 존재·성격 교차 확인에만 사용했다.",
+      "supports": ["커런트 동아리 실재", "미래캠퍼스 소속", "록 밴드 성격", "제작 크레딧 미확인"]
+    },
+    {
+      "id": "ev-yu-b-gosc-2026",
+      "type": "official-university",
+      "url": "https://gsis.yonsei.ac.kr/gosc/about/media.do?article.offset=0&articleLimit=10&articleNo=469248&mode=view",
+      "title": "[Ep. 22] YONSEI CHEERING CULTURE | The Complete Guide for Yonsei International Students (2026)",
+      "publisher": "연세대학교 Global One-Stop Service Center",
+      "publishedAt": "2026-04-16",
+      "accessedAt": "2026-08-09",
+      "summary": "대학 GOSC가 국제학생을 위해 응원문화의 역사와 대표곡의 이야기·안무를 소개한다. 야생마를 04:12부터 별도 교육 구간으로 배치해 2026년 현행 대표곡임을 직접 확인한다.",
+      "supports": ["야생마 2026 현행 사용", "공식 교육 맥락", "응원문화 안내"]
+    },
+    {
+      "id": "ev-yu-b-apple-on-my-way",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/us/song/1596240700",
+      "title": "On My Way — Alan Walker, Sabrina Carpenter & Farruko",
+      "publisher": "Apple Music",
+      "publishedAt": "2019-03-21",
+      "accessedAt": "2026-08-09",
+      "summary": "‘On My Way’의 아티스트를 Alan Walker, Sabrina Carpenter, Farruko로, 발매일을 2019년 3월 21일로 제공한다.",
+      "supports": ["온누리에 원곡 제목", "원곡 아티스트", "원곡 2019"]
+    },
+    {
+      "id": "ev-yu-b-alan-walker-on-my-way",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=dhYOPzcsbGM",
+      "title": "Alan Walker, Sabrina Carpenter & Farruko - On My Way",
+      "publisher": "Alan Walker",
+      "publishedAt": "2019-03-21",
+      "accessedAt": "2026-08-09",
+      "summary": "Alan Walker 공식 아티스트 채널의 뮤직비디오로 곡 제목과 세 아티스트를 직접 확인한다.",
+      "supports": ["온누리에 원곡", "원곡 공식 영상", "원곡 아티스트"]
+    },
+    {
+      "id": "ev-yu-b-apple-norazo-yasaengma",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/album/%EC%95%BC%EC%83%9D%EB%A7%88-single/1848951026",
+      "title": "야생마 - Single — 노라조",
+      "publisher": "Apple Music",
+      "publishedAt": "2013-11-13",
+      "accessedAt": "2026-08-09",
+      "summary": "노라조 싱글 ‘야생마’가 2013년 11월 13일 발매됐음을 확인한다.",
+      "supports": ["야생마 원곡 가수", "야생마 원곡 2013"]
+    },
+    {
+      "id": "ev-yu-b-ludacris-move",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=tw429JGL5zo",
+      "title": "Ludacris - Move B***H (Official Music Video) ft. Mystikal, I-20",
+      "publisher": "LudacrisVEVO",
+      "publishedAt": "2009-10-08",
+      "accessedAt": "2026-08-09",
+      "summary": "권리자 공식 영상 설명이 Ludacris의 곡과 2001 Island Def Jam 저작권 표기를 제공한다. 연세대 야생마에서는 전주 구간의 출처로 쓰인다.",
+      "supports": ["야생마 전주 원곡", "Ludacris 가창", "2001 권리 표기"]
+    },
+    {
+      "id": "ev-yu-b-donga-norazo",
+      "type": "news-interview",
+      "url": "https://www.donga.com/news/Culture/article/all/20131204/59327938/1",
+      "title": "노라조, 돌아온 고품격 싼티…‘흥겨운 대한민국’ 책임집니다",
+      "publisher": "동아일보",
+      "publishedAt": "2013-12-06",
+      "accessedAt": "2026-08-09",
+      "summary": "노라조의 원곡 후렴이 ‘생마’를 반복하며 다른 단어처럼 들리는 중의성을 의도한 퍼포먼스였다고 보도한다. 연세대판 변경의 이유를 설명할 배경은 되지만 총여학생회 개입은 다루지 않는다.",
+      "supports": ["노라조 원곡 후렴", "중의적 발음", "총여학생회 개입 미확인"]
+    },
+    {
+      "id": "ev-yu-b-apple-ono-disco",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/ca/song/464321088",
+      "title": "One Night Only (Disco Version) — Sharon Leal, Anika Noni Rose & Beyoncé",
+      "publisher": "Apple Music",
+      "publishedAt": "2006-08-15",
+      "accessedAt": "2026-08-09",
+      "summary": "Dreamgirls 디스코 판본의 실연자를 Sharon Leal, Anika Noni Rose, Beyoncé로 제공한다. Jennifer Hudson의 별도 발라드 판본과 구별하는 핵심 카탈로그다.",
+      "supports": ["ONO 원곡 디스코 판본", "실연자 세 명", "Jennifer Hudson 표기와 상충"]
+    },
+    {
+      "id": "ev-yu-b-beyonce-topic-ono",
+      "type": "rights-holder-youtube-catalog",
+      "url": "https://www.youtube.com/watch?v=EZk1HsQvi5Q",
+      "title": "One Night Only (Disco Version)",
+      "publisher": "Beyoncé - Topic / Music World Music·Columbia",
+      "publishedAt": "2015-01-18",
+      "accessedAt": "2026-08-09",
+      "summary": "Columbia 제공 음원이 Beyoncé Knowles, Sharon Leal, Anika Noni Rose를 실연자로, Henry Krieger와 Tom Eyen을 작사·작곡자로, 2006 DreamWorks를 권리자로 명시한다.",
+      "supports": ["ONO 원곡 실연자", "Henry Krieger·Tom Eyen 크레딧", "2006 Dreamgirls 사운드트랙", "Jennifer Hudson 표기와 상충"]
+    },
+    {
+      "id": "ev-yu-b-tony-congi-jesus-rock",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/ca/song/1254471007",
+      "title": "Jesus Is the Rock — Tony Congi",
+      "publisher": "Apple Music",
+      "publishedAt": "1997-01-01",
+      "accessedAt": "2026-08-09",
+      "summary": "Tony Congi의 ‘Jesus Is the Rock’ 녹음을 제공한다. 연세대 자료가 작가·녹음을 특정하지 않으므로 동명 후보의 존재를 확인하는 용도로만 사용했다.",
+      "supports": ["Jesus Is the Rock 동명곡", "Tony Congi 후보", "고밟꿈 원곡 판본 미확정"]
+    },
+    {
+      "id": "ev-yu-b-hymnary-jesus-rock",
+      "type": "hymn-catalog",
+      "url": "https://hymnary.org/text/jesus_is_the_rock_of_our_salvation",
+      "title": "Jesus Is the Rock — Velma Wade",
+      "publisher": "Hymnary.org",
+      "publishedAt": "1955",
+      "accessedAt": "2026-08-09",
+      "summary": "Velma Wade의 1955년 찬송가도 ‘Jesus Is the Rock’이라는 제목으로 수록돼 있음을 보여준다. 동일 제목이 한 작품만을 가리키지 않는다는 반례다.",
+      "supports": ["Jesus Is the Rock 제목 중복", "고밟꿈 원곡 판본 미확정"]
+    },
+    {
+      "id": "ev-yu-b-pet-shop-boys-go-west",
+      "type": "official-artist-discography",
+      "url": "https://www.petshopboys.co.uk/product/single/go-west",
+      "title": "Go West",
+      "publisher": "Pet Shop Boys",
+      "publishedAt": "1993-09-06",
+      "accessedAt": "2026-08-09",
+      "summary": "Pet Shop Boys 공식 사이트가 ‘Go West’를 1993년 9월 6일 발매했고 Village People의 곡을 커버한 것이라고 설명한다.",
+      "supports": ["서곡 편곡 영향 후보", "Pet Shop Boys 1993", "Village People 원작 계보"]
+    },
+    {
+      "id": "ev-yu-b-village-people-go-west",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=1wc-AQJ2MYo",
+      "title": "Village People - Go West OFFICIAL Music Video 1979",
+      "publisher": "Village People",
+      "publishedAt": "2008-09-22",
+      "accessedAt": "2026-08-09",
+      "summary": "Village People 공식 채널이 1979년 ‘Go West’ 뮤직비디오를 제공해 Pet Shop Boys 이전 원작의 가수와 연도를 확인한다.",
+      "supports": ["서곡 원작", "Village People", "Go West 1979"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-yu-b-onnurie-2022-new",
+      "songId": "yonsei-university-onnurie",
+      "url": "https://www.youtube.com/watch?v=Yovi2X-rGew",
+      "videoId": "Yovi2X-rGew",
+      "title": "2022 아카라카를 온누리에 [2022 신곡 \"온누리에\"]",
+      "channel": "KODA",
+      "publishedAt": "2022-09-30",
+      "descriptionSummary": "2022 아카라카 현장의 단독 곡 영상이다. 제목이 온누리에를 2022 신곡으로 직접 표시하고, 설명은 대면 행사가 다시 열린 분위기와 연세대 응원단·아카라카 해시태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 곡의 중독성과 연세대 응원을 호평하고 공식 음원 공개를 요청한다.", "일부 시청자는 공개 직후 선율을 Alan Walker의 ‘On My Way’로 알아본다."],
+      "supports": ["온누리에 2022 신곡", "아카라카 공개", "원곡 대중 인지", "수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-onnurie-2023-ot",
+      "songId": "yonsei-university-onnurie",
+      "url": "https://www.youtube.com/watch?v=0mU9ZZ0kIIg",
+      "videoId": "0mU9ZZ0kIIg",
+      "title": "2023.02.15 연세대학교 신입생 응원 OT [온누리에]",
+      "channel": "KODA",
+      "publishedAt": "2023-02-25",
+      "descriptionSummary": "4년 만에 돌아온 2023 신입생 응원 OT에서 온누리에를 교육·공연한 단독 영상이다. 설명의 해시태그는 곡의 핵심을 외침과 학교명 구호로 요약한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 신곡의 중독성을 높게 평가하고, 예비 수험생은 미래의 응원 OT 참여를 목표로 삼는다."],
+      "supports": ["2023 현행 사용", "신입생 응원 OT", "곡 주제", "수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-onnurie-2024-ot",
+      "songId": "yonsei-university-onnurie",
+      "url": "https://www.youtube.com/watch?v=cxt4ldm2LQM",
+      "videoId": "cxt4ldm2LQM",
+      "title": "2024.02.15 연세대학교 신입생 응원OT [온누리에 - 서시]",
+      "channel": "KODA",
+      "publishedAt": "2024-02-17",
+      "descriptionSummary": "2024 신입생 응원 OT에서 온누리에와 서시를 연속 수록한다. 제목과 설명이 두 곡을 명확히 구분하고 온누리에의 학교명 외침을 강조한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["참가 학생의 가족이 현장 참여를 자랑스러워하며 학교를 응원하고, 시청자는 양교 응원단의 진행을 비교한다."],
+      "supports": ["2024 현행 사용", "신입생 응원 OT", "서시와 연속 배치", "가족 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-onnurie-2025-akaraka",
+      "songId": "yonsei-university-onnurie",
+      "url": "https://www.youtube.com/watch?v=mEO8nmKMWYM",
+      "videoId": "mEO8nmKMWYM",
+      "title": "아카라카 레전드 응원가 모음 '온누리에' '서시' '하늘끝까지' '연세여 사랑한다' '원시림' [2025 아카라카를 온누리에 | 연세대학교 Yonsei university]",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-06-03",
+      "descriptionSummary": "2025년 5월 24일 개교 140주년 아카라카의 대표곡 메들리다. 온누리에를 00:00 첫 곡으로 배치하고 뒤이어 서시·하늘끝까지·연세여 사랑한다·원시림을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문과 과거 교환학생은 응원가를 통해 학창 시절과 한국 생활을 회상하고, 시청자는 연도별 응원단 진행과 현장 에너지를 평가한다."],
+      "supports": ["2025 현행 사용", "개교 140주년 아카라카", "대표곡 메들리", "첫 곡 배치"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-onnurie-2026-ot",
+      "songId": "yonsei-university-onnurie",
+      "url": "https://www.youtube.com/watch?v=XHL7Ojh4F9s",
+      "videoId": "XHL7Ojh4F9s",
+      "title": "2026.02.11 신입생 응원OT[온누리에]",
+      "channel": "KODA",
+      "publishedAt": "2026-02-21",
+      "descriptionSummary": "2026 신입생 응원 OT의 온누리에 단독 영상이다. 설명은 외침·학교명·떼창·새내기·26학번을 곡과 행사의 핵심 태그로 제시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 곡 자체보다 2026 응원단의 역할 배치와 진행 역량을 주로 평가한다."],
+      "supports": ["2026 현행 사용", "신입생 응원 OT", "떼창", "새내기 교육"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-yasaengma-2014-akaraka",
+      "songId": "yonsei-university-yasaengma",
+      "url": "https://www.youtube.com/watch?v=kBje_VPWeJs",
+      "videoId": "kBje_VPWeJs",
+      "title": "야생마 - 2014 아카라카를 온누리에",
+      "channel": "YS190",
+      "publishedAt": "2015-06-27",
+      "descriptionSummary": "연세대학교 원주캠퍼스에서 2014년 9월 25일 열린 아카라카를 온누리에의 야생마 단독 실연이라고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2014 실연", "미래캠퍼스 아카라카", "도입 연도 시기 보조"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-yasaengma-official-2020",
+      "songId": "yonsei-university-yasaengma",
+      "url": "https://www.youtube.com/watch?v=ALZW7IGS86A",
+      "videoId": "ALZW7IGS86A",
+      "title": "야생마",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-11",
+      "descriptionSummary": "연세대 응원단 공식 곡 단위 영상이다. 노라조 ‘야생마’와 Ludacris ‘Move bitch get out da way’를 원곡·전주 출처로 함께 적고 말발굽 의성 구호를 준비 멘트에 반영한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["짧은 댓글들은 곡의 대표 구호를 따라 쓰거나 말 달리기 이미지를 유머로 받아들인다."],
+      "supports": ["공식 제목", "노라조 원곡", "Ludacris 전주", "말 달리기 구호"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-yasaengma-2022-akaraka",
+      "songId": "yonsei-university-yasaengma",
+      "url": "https://www.youtube.com/watch?v=Tj-Pk7tLbxM",
+      "videoId": "Tj-Pk7tLbxM",
+      "title": "[2022 아카라카 3부 응원 #2]  에너지 / 흔들흔들 / 야생마   - 연세대학교 응원가 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-09-30",
+      "descriptionSummary": "3년 만에 열린 2022 아카라카 3부에서 에너지·흔들흔들 뒤 05:04부터 야생마를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["일부 시청자는 대면 응원 공백 탓에 관중이 전통 동작을 충분히 모르는 듯하다고 아쉬워하고, 다른 댓글은 메들리의 에너지를 호평한다."],
+      "supports": ["2022 현행 사용", "아카라카 3부", "대면 응원 공백", "동작 전승"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-yasaengma-2025-joint",
+      "songId": "yonsei-university-yasaengma",
+      "url": "https://www.youtube.com/watch?v=jRNe4i7ZK-o",
+      "videoId": "jRNe4i7ZK-o",
+      "title": "2025.03.14 합동 응원OT[야생마(YU)]",
+      "channel": "KODA",
+      "publishedAt": "2025-03-26",
+      "descriptionSummary": "2025년 3월 14일 고려대·연세대 합동 응원 OT 영상으로 제목의 YU 표기가 야생마를 연세대 곡으로 명확히 구분한다. 설명은 전주 영어 구호와 달리기 동작을 태그로 요약한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 현행 사용", "합동응원", "연세대 소속", "전주 구호"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-yasaengma-2026-ot",
+      "songId": "yonsei-university-yasaengma",
+      "url": "https://www.youtube.com/watch?v=J48MoBf-rAw",
+      "videoId": "J48MoBf-rAw",
+      "title": "[4K] 연대생은 지치지 않아 ! “야생마” \"하늘아래\" \"Oh my friend\" | 2026 연세대학교 신입생 응원 오리엔테이션",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-02-21",
+      "descriptionSummary": "2026년 2월 13일 신입생 응원 OT에서 야생마를 00:00 첫 곡으로, 하늘아래와 Oh My Friend를 이어 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 응원단원의 열정과 차기 진행 역할을 중심으로 평가한다."],
+      "supports": ["2026 현행 사용", "신입생 응원 OT", "액션곡 메들리", "첫 곡 배치"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-yasaengma-2026-gosc",
+      "songId": "yonsei-university-yasaengma",
+      "url": "https://www.youtube.com/watch?v=4MobKTW0MCU",
+      "videoId": "4MobKTW0MCU",
+      "title": "[Ep.22] YONSEI CHEERING CULTURE | The Complete Guide for Yonsei International Students (2026)",
+      "channel": "YONSEI CAMPUS HARMONY 서포터즈",
+      "publishedAt": "2026-04-10",
+      "descriptionSummary": "연세대 GOSC 캠퍼스 하모니 서포터즈가 국제학생을 위해 만든 2026 응원문화 안내다. 04:12~04:59에 야생마의 이야기·안무·가사를 별도 교육 구간으로 다루며 대학 공식 페이지에도 임베드됐다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 공식 교육", "야생마 대표곡", "안무·사용법", "국제학생 안내"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-ono-2007-koyeonjeon",
+      "songId": "yonsei-university-one-night-only",
+      "url": "https://www.youtube.com/watch?v=3hC89e6ADho",
+      "videoId": "3hC89e6ADho",
+      "title": "2007 정기 연고전 - One Night Only",
+      "channel": "thomasjang0310",
+      "publishedAt": "2007-10-16",
+      "descriptionSummary": "2007 정기 연고전에서 연세대 학생들이 One Night Only에 맞춰 응원하는 58초 현장 기록이다. 업로드 시점도 2007년 10월로 도입 연도의 직접적인 동시대 자료다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2007 실연", "정기 연고전", "동시대 기록", "제목 표기"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-ono-official-2020",
+      "songId": "yonsei-university-one-night-only",
+      "url": "https://www.youtube.com/watch?v=HS3jqcR3TFw",
+      "videoId": "HS3jqcR3TFw",
+      "title": "One night only",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-11",
+      "descriptionSummary": "연세대 응원단 공식 곡 단위 영상이다. 원곡 제목을 동일하게 적지만 ‘저작자: Jennifer Hudson’이라고 표기해 디스코 판본의 공식 실연자·작가 카탈로그와 상충한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 제목 후렴과 곡의 순간성을 짧게 따라 쓰며 애정을 표현한다."],
+      "supports": ["공식 제목", "공식 원곡 표기", "Jennifer Hudson 귀속 주장", "메타데이터 상충"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-ono-official-mv-2021",
+      "songId": "yonsei-university-one-night-only",
+      "url": "https://www.youtube.com/watch?v=xTpw0L6VMLc",
+      "videoId": "xTpw0L6VMLc",
+      "title": "[응원곡 MV]  오늘밤새 + One Night Only",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2021-11-21",
+      "descriptionSummary": "연세대 대표 응원가 오늘밤새와 One Night Only를 묶은 공식 MV다. 설명은 두 곡의 전주·절·후렴·간주 배열을 제공하지만 전체 가사는 저장하지 않고 ONO의 반복 구조만 요약했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 응원단의 존재감과 영상 공개를 호평하고, 다른 과거 레퍼토리의 존속 여부를 묻는다."],
+      "supports": ["공식 MV", "ONO 곡 구조", "오늘밤새와 연속 편성", "대표 응원가"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-ono-2022-akaraka",
+      "songId": "yonsei-university-one-night-only",
+      "url": "https://www.youtube.com/watch?v=oSC8k9PbTd8",
+      "videoId": "oSC8k9PbTd8",
+      "title": "[2022 아카라카 3부 응원 #3]  아리요 / One Night Only / 바다새   - 연세대학교 응원가 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-10-02",
+      "descriptionSummary": "3년 만에 열린 2022 아카라카 3부에서 아리요·One Night Only·바다새를 연속 수록한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문은 후배들을 응원하고, 일부는 대면 행사 공백 뒤 특정 곡의 동작 전승이 약해졌다고 아쉬워하며 다음 합동응원을 기대한다."],
+      "supports": ["2022 현행 사용", "아카라카 3부", "대면 행사 복귀", "동문 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-ono-2023-ot",
+      "songId": "yonsei-university-one-night-only",
+      "url": "https://www.youtube.com/watch?v=4lyDUnO262s",
+      "videoId": "4lyDUnO262s",
+      "title": "2023.02.15 연세대학교 신입생 응원 OT [One Night Only]",
+      "channel": "KODA",
+      "publishedAt": "2023-02-19",
+      "descriptionSummary": "2023 신입생 응원 OT의 One Night Only 단독 영상이다. 설명은 제목 후렴, 현재 순간, 팔을 돌리는 동작을 해시태그로 요약한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 공연자와 무대를 짧게 호평하며 해외 시청자 반응도 보인다."],
+      "supports": ["2023 현행 사용", "신입생 응원 OT", "후렴", "회전 동작"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-ono-2025-akaraka",
+      "songId": "yonsei-university-one-night-only",
+      "url": "https://www.youtube.com/watch?v=SZjovrQEm_Y",
+      "videoId": "SZjovrQEm_Y",
+      "title": "2025.05.24 개교 140주년 아카라카를 온누리에 [one night only + J에게]",
+      "channel": "KODA",
+      "publishedAt": "2025-07-08",
+      "descriptionSummary": "2025년 5월 24일 개교 140주년 아카라카에서 One Night Only와 J에게를 연속 수록한다. 설명은 ONO 약칭도 함께 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 공연을 간단히 호평한다."],
+      "supports": ["2025 현행 사용", "개교 140주년 아카라카", "ONO 약칭", "J에게와 연속 배치"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-gobalkkum-2005-festival",
+      "songId": "yonsei-university-go-bal-kum",
+      "url": "https://www.youtube.com/watch?v=atJYmFBoLzA",
+      "videoId": "atJYmFBoLzA",
+      "title": "고밟꿈 - 2005 연희 대동제",
+      "channel": "BS190",
+      "publishedAt": "2016-03-04",
+      "descriptionSummary": "연세대학교 원주캠퍼스의 2005년 5월 19일 연희 대동제에서 중앙응원동아리 비상이 공연한 고밟꿈 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2005 실연", "미래캠퍼스", "장기 사용", "고밟꿈 붙임 표기"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-gobalkkum-2010-koyeonjeon",
+      "songId": "yonsei-university-go-bal-kum",
+      "url": "https://www.youtube.com/watch?v=DCgwb7jt6Gs",
+      "videoId": "DCgwb7jt6Gs",
+      "title": "[SPORTS KU] 2010 정기 고연전 - 연세대응원가 - 고밟꿈",
+      "channel": "SPORTS KU",
+      "publishedAt": "2010-09-25",
+      "descriptionSummary": "고려대 스포츠 전문 매체가 촬영한 2010 정기 고연전의 연세대 고밟꿈 현장 영상이다. 상대 학교 관점의 기록도 곡명과 라이벌전 사용을 명확히 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2010 실연", "정기 고연전", "라이벌전 사용", "연세대 곡 식별"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-gobalkkum-2018-akaraka",
+      "songId": "yonsei-university-go-bal-kum",
+      "url": "https://www.youtube.com/watch?v=QNeMSJCX5GY",
+      "videoId": "QNeMSJCX5GY",
+      "title": "[2018 연세대 아카라카] J에게 & 고밟꿈 - 연세대학교 응원단 / AKARAKA / 연세대 축제 / 연세대 응원가",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-06-14",
+      "descriptionSummary": "2018년 5월 19일 아카라카 3부에서 J에게와 고밟꿈을 연속 수록한 공연 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문은 시간이 지나도 명곡으로 기억된다고 회상하고, 시청자는 당시 응원단 구성과 무대의 존재감을 평가한다."],
+      "supports": ["2018 현행 사용", "아카라카 3부", "J에게와 연속 배치", "동문 기억"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-gobalkkum-official-2020",
+      "songId": "yonsei-university-go-bal-kum",
+      "url": "https://www.youtube.com/watch?v=OUcWoN6-gUo",
+      "videoId": "OUcWoN6-gUo",
+      "title": "고밟꿈",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-11",
+      "descriptionSummary": "연세대 응원단 공식 곡 단위 영상이다. 준비 멘트가 제목의 라이벌 말장난을 풀어 설명하고, 원곡을 ‘Gesus is the rock’, 저작자를 ‘찬송가’로 표기한다. ‘Gesus’는 ‘Jesus’의 오기로 보인다.",
+      "commentsStatus": "available",
+      "commentSummary": ["최근 인터넷 콘텐츠를 계기로 실제 응원가를 다시 찾았다는 반응과 제목의 과격한 유머를 놀라워하는 반응이 반복된다."],
+      "supports": ["공식 제목 실사용", "제목 말장난", "Jesus Is the Rock 원곡 주장", "원곡 메타데이터 불충분"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-gobalkkum-2025-ot",
+      "songId": "yonsei-university-go-bal-kum",
+      "url": "https://www.youtube.com/watch?v=SGM8pWJsocs",
+      "videoId": "SGM8pWJsocs",
+      "title": "고대도 밟으면 꿈틀거린다, ‘고밟꿈‘ [2025 연세대학교 신입생 응원OT]",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-03-02",
+      "descriptionSummary": "2025년 2월 14일 신입생 응원 OT의 단독 곡 영상으로 제목과 설명이 고밟꿈을 ‘고대도 밟으면 꿈틀거린다’라고 풀어 쓴다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 ‘밟으면 꿈틀거린다’는 표현을 현실의 폭력 이미지와 연결해 비판적으로 반응한다."],
+      "supports": ["2025 현행 사용", "신입생 응원 OT", "제목 풀이", "비판적 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-gobalkkum-2026-ot",
+      "songId": "yonsei-university-go-bal-kum",
+      "url": "https://www.youtube.com/watch?v=RSiKb9AHqL0",
+      "videoId": "RSiKb9AHqL0",
+      "title": "[4K] 예쁜 누나랑 고대 밟으러 가자 “고밟꿈” | 2026 연세대학교 신입생 응원 오리엔테이션",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-02-21",
+      "descriptionSummary": "2026년 2월 13일 연세대학교 신입생 응원 OT에서 고밟꿈을 단독 수록한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 곡보다 응원단원의 학년별 잔류와 무대 퍼포먼스를 주로 언급한다."],
+      "supports": ["2026 현행 사용", "신입생 응원 OT", "고밟꿈 붙임 표기", "단독 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-seogok-official-2020",
+      "songId": "yonsei-university-seogok",
+      "url": "https://www.youtube.com/watch?v=ps0jHnpqZcc",
+      "videoId": "ps0jHnpqZcc",
+      "title": "서곡",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "연세대 응원단 공식 곡 단위 영상이다. 서곡을 어둠 속의 시작을 여는 곡으로 소개하고 원곡을 ‘Go west’, 저작자를 Village People로 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 편곡의 웅장함과 개막 효과를 높게 평가하고, 동문은 오래전부터 Go West 계보를 인식했다고 회상한다."],
+      "supports": ["공식 제목", "응원 시작 역할", "Go West 원곡", "Village People 귀속", "편곡 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-seogok-university-mv-2023",
+      "songId": "yonsei-university-seogok",
+      "url": "https://www.youtube.com/watch?v=xhsdz4rLl7k",
+      "videoId": "xhsdz4rLl7k",
+      "title": "[MV] 연세대학교 응원곡 서곡 뮤직비디오(Acoustic ver.)",
+      "channel": "연세대학교 Yonsei University",
+      "publishedAt": "2023-01-17",
+      "descriptionSummary": "연세대학교 공식 채널이 공개한 서곡 어쿠스틱 버전 MV다. 미디어센터 SNS기자단 네 명의 제작 크레딧을 제공하며, 원 응원가의 개사·편곡자는 제시하지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 서곡을 응원의 시작으로 기억하고, 수험생은 입학 목표와 학교에 대한 애정을 표현하며, 어쿠스틱 재해석도 호평한다."],
+      "supports": ["대학 공식 제목", "어쿠스틱 재해석", "2023 사용", "미디어센터 제작 크레딧", "개막 상징"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-seogok-2024-ot",
+      "songId": "yonsei-university-seogok",
+      "url": "https://www.youtube.com/watch?v=4xv5YO7c0ZY",
+      "videoId": "4xv5YO7c0ZY",
+      "title": "[2024 응원 OT] 🦅 연세대 응원곡 모음집 🔥 서곡/서시/온누리에/하늘끝까지/연세여 사랑한다",
+      "channel": "연세교육방송국 YBS",
+      "publishedAt": "2024-02-16",
+      "descriptionSummary": "연세대학교 공식 학내 방송 YBS가 2024년 2월 15일 신입생 응원 OT를 기록했다. 서곡을 00:00 첫 곡으로 배치하고 네 대표곡을 이어 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["신입생 가족들은 자녀의 입학과 현장 참여를 자랑스러워하고, 수험생은 미래 참여를 다짐하며, 시청자는 응원단의 큰 동작을 호평한다."],
+      "supports": ["2024 현행 사용", "신입생 응원 OT", "첫 곡 배치", "공식 학내방송 기록"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-seogok-2025-ot",
+      "songId": "yonsei-university-seogok",
+      "url": "https://www.youtube.com/watch?v=CDLkpxlclmo",
+      "videoId": "CDLkpxlclmo",
+      "title": "25학번 새내기들의 시작을 알립니다, ‘서곡’ [2025 연세대학교 신입생 응원OT]",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-03-02",
+      "descriptionSummary": "2025년 2월 14일 신입생 응원 OT의 서곡 단독 영상이다. 제목이 새내기의 시작을 알리는 곡이라는 기능을 직접 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 양교의 연대감을 함께 응원하거나 해외 시청자가 무대를 짧게 호평한다."],
+      "supports": ["2025 현행 사용", "신입생 응원 OT", "개막 기능", "단독 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-b-seogok-2026-ot",
+      "songId": "yonsei-university-seogok",
+      "url": "https://www.youtube.com/watch?v=wlcxZc5APPE",
+      "videoId": "wlcxZc5APPE",
+      "title": "[2026 응원 OT] 💙🦅 연세대 응원곡 모음집 (1부) 🦅💙 _서곡 / 파란 / 서시 / 하늘 끝까지 / Oh My Friend / 연세여 사랑한다",
+      "channel": "연세교육방송국 YBS",
+      "publishedAt": "2026-02-21",
+      "descriptionSummary": "YBS가 기록한 2026 연세대 신입생 응원 OT 1부다. 서곡을 00:00 첫 곡으로 배치하고 파란·Oh My Friend·하늘끝까지·서시·연세여 사랑한다를 이어 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 응원단의 힘과 열정을 호평하고, 가족과 예비 학생은 현장 참여를 기대하며, 일부는 연도별 진행을 비교한다."],
+      "supports": ["2026 현행 사용", "신입생 응원 OT", "첫 곡 배치", "공식 학내방송 기록"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 28,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 16
+  }
+}

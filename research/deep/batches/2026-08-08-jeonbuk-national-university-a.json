@@ -1,0 +1,1190 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-jeonbuk-national-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-jeonbuk-national",
+    "name": "전북대학교",
+    "type": "university"
+  },
+  "rightsNote": "전체 가사·악보·음원·영상 설명·댓글 전문은 저장하지 않는다. 전북대는 2017 공모에서 수상작 저작권이 대학에 귀속된다고 고지했고 현재 음원·악보/가사를 내려받을 수 있게 제공하지만, 개인 저작인격권·음원 마스터·편곡·안무·재사용 허락의 정확한 범위는 공개 자료만으로 확정하지 않는다.",
+  "items": [
+    {
+      "id": "jeonbuk-national-university-seungriharira",
+      "title": "승리하리라",
+      "aliases": [],
+      "currentStatus": "current-official-catalog-and-directly-performed-by-current-squad-in-2026",
+      "summary": "정진영이 작사·작곡한 전북대학교 자체 창작 응원가다. 2017년 개교 70주년 공모의 공식 수상곡 목록에 실렸고, 현재 대학 상징 페이지에도 음원·악보와 함께 수록된다. 2026 입학식에서 신설 2년 차 학생지원과 소속 응원단이 곡명을 직접 소개한 뒤 공연해, 이 7곡 가운데 최근 현장 사용까지 가장 강하게 검증됐다.",
+      "claims": [
+        {
+          "field": "originAndEarliestVerifiedYear",
+          "value": "2017년 전북대학교 개교 70주년 응원가 공모 수상곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-contest-call", "ev-jbnu-a-archive-winners"],
+          "notes": "공모는 기존 미발표 순수 창작곡을 요구했고, 2017년 공식 수상곡 페이지가 제목과 제작자를 직접 공개했다. 정확한 시상 등급은 가나다순 페이지에서 확인되지 않는다."
+        },
+        {
+          "field": "creator",
+          "value": "작사·작곡 정진영",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog", "ev-jbnu-a-archive-winners"],
+          "notes": "2017 공식 아카이브와 현행 학교 페이지가 일치한다. 동명이인 식별 및 세부 제작 이력은 공개되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026학년도 입학식에서 현 전북대학교 응원단이 곡명을 소개하고 직접 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-current-squad", "yt-jbnu-a-seungri-2026-entrance-full"],
+          "notes": "영상 자막 2:27:38 부근의 곡 소개와 2:28대 공연을 함께 확인했다. 같은 무대의 다음 곡은 재학생 밴드 신곡으로 소개되어 구분된다."
+        },
+        {
+          "field": "sourceRelationshipAndRights",
+          "value": "외부 원곡 차용이 아닌 공모 순수 창작곡; 공모 고지상 수상작 저작권은 전북대학교 귀속",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-contest-rules", "ev-jbnu-a-official-catalog"],
+          "notes": "공모 규정과 학교 제공물에 근거한다. 저작인격권·음원 마스터·안무 권리와 제3자 재사용 조건은 별도 확인이 필요하다."
+        }
+      ],
+      "usageContexts": [
+        "약 1분 59초의 빠른 곡으로 학교 약칭을 주고받는 도입, 세 가지 짧은 절 변형, 승리 후렴을 결합한다.",
+        "2026 입학식에서는 응원단장이 신입생 환영 인사 뒤 첫 응원곡으로 소개했고, 관중을 향한 큰 팔 동작과 대형 이동을 곁들인 액션 치어 형식으로 공연됐다.",
+        "현행 홈페이지의 기준 음원과 악보는 응원단 교육·행사 준비에 사용할 수 있는 공식 레퍼런스지만, 모든 행사에서의 고정 세트리스트를 뜻하지는 않는다."
+      ],
+      "trivia": [
+        {
+          "id": "seungri-fast-three-verse-form",
+          "summary": "공식 악보는 분당 160박의 빠른 속도와 세 가지 절 선택지를 제시한다. 학교 약칭을 끊어 외친 뒤 각 절이 동일한 제목 후렴으로 모이는 구조다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog"]
+        },
+        {
+          "id": "seungri-archive-like-count",
+          "summary": "2017년 6월 11일 공식 수상곡 아카이브에는 ‘좋아요 18개’가 표시되어 7곡 중 당시 화면상 가장 큰 수치였지만, 페이지가 곡을 가나다순으로만 제시하므로 수상 등급이나 심사 점수로 해석하지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-archive-winners"]
+        },
+        {
+          "id": "seungri-only-recent-direct",
+          "summary": "공식 7곡 전체가 현행 목록에 남아 있으나, 이번 최근 영상 표본에서 현 응원단이 곡명을 말하고 실제 연주한 장면까지 연결된 곡은 승리하리라뿐이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog", "yt-jbnu-a-seungri-2026-entrance-full"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "2017 contest-winning original; contest notice reports copyright vested in Jeonbuk National University, while moral rights, recording master, arrangement, choreography, and reuse permissions remain incompletely documented",
+        "sourceUrls": [
+          "https://www.jbnu.ac.kr/resources/user/web/audio/lyric/%EC%8A%B9%EB%A6%AC%ED%95%98%EB%A6%AC%EB%9D%BC.jpg",
+          "https://www.jbnu.ac.kr/web/intro/university/sub04.do"
+        ],
+        "structureSummary": "학교 약칭을 주고받는 호출형 도입 뒤 세 가지 짧은 절 중 하나를 택하고, 가능·전진·열정·단결·승리를 압축한 동일 후렴으로 돌아간다. 빠른 반복과 명확한 휴지가 관중 구호와 큰 동작을 넣기 쉽게 만든다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-jbnu-a-seungri-2026-entrance-full",
+        "yt-jbnu-a-seungri-2025-entrance-full",
+        "yt-jbnu-a-seungri-2026-entrance-sketch",
+        "yt-jbnu-a-seungri-2026-festival-day1",
+        "yt-jbnu-a-seungri-2026-festival-day2",
+        "yt-jbnu-a-seungri-2019-leopard"
+      ],
+      "unresolved": [
+        "2017 공모의 대상·최우수·우수 중 정확한 수상 등급과 시상일",
+        "정진영의 신원·당시 소속 및 녹음·편곡·연주 참여자",
+        "현행 음원 마스터와 안무 제작자의 권리·재사용 조건",
+        "2026 입학식 외 2025~2026 거국제전·대동제의 곡별 공연 기록"
+      ]
+    },
+    {
+      "id": "jeonbuk-national-university-rise-up",
+      "title": "RISE UP",
+      "aliases": ["Rise up"],
+      "currentStatus": "current-official-catalog-recent-song-specific-performance-unresolved",
+      "summary": "박승범과 이필호가 작사·작곡한 2017 개교 70주년 공모 수상 창작곡이다. 현행 홈페이지는 대문자 제목을 쓰고 악보는 ‘Rise up’으로 표기한다. 현재 MP3의 ID3에는 연도 2016과 아티스트 ‘ParkSoo’가 남아 있어 제작 선행 가능성을 보여 주지만, 이는 공개·사용 연도나 제작자 동일성을 확정하는 근거가 아니며 2017 수상 기록과 함께 상충 가능 정보로 보존했다.",
+      "claims": [
+        {
+          "field": "originAndEarliestVerifiedPublicYear",
+          "value": "2017년 개교 70주년 공모 수상곡으로 공개 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-contest-call", "ev-jbnu-a-archive-winners"],
+          "notes": "현행 MP3 태그의 2016은 제작 메타데이터일 수 있으나 공개일을 증명하지 않으므로 최초 공개 확인 연도는 2017로 둔다."
+        },
+        {
+          "field": "creatorCurrentCredit",
+          "value": "작사·작곡 박승범, 이필호",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog", "ev-jbnu-a-rise-up-audio"],
+          "notes": "현행 표와 악보가 이필호로 일치한다. 음원 태그의 ParkSoo가 누구인지 확인되지 않았다."
+        },
+        {
+          "field": "creatorArchivedSpelling",
+          "value": "2017 수상곡 페이지는 두 번째 이름을 ‘이필효’로 표기",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-archive-winners", "ev-jbnu-a-official-catalog"],
+          "notes": "현행 공식 페이지·악보의 이필호와 한 글자 충돌한다. 오래된 페이지의 오타로 추정할 수 있으나 원문을 그대로 보존한다."
+        },
+        {
+          "field": "embeddedMediaYear",
+          "value": "현행 공식 MP3 ID3 year=2016, artist=ParkSoo",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-jbnu-a-rise-up-audio", "ev-jbnu-a-archive-winners"],
+          "notes": "파일 태그는 제작 과정의 단서일 뿐 2016년 발표·사용을 입증하지 않는다. 공모 규정은 기존 미발표 순수 창작곡을 요구했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "현행 공식 목록·음원·악보 수록; 최근 현 응원단의 곡별 실연은 미확인",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog", "ev-jbnu-a-current-squad", "yt-jbnu-a-rise-up-2026-entrance-full"],
+          "notes": "2026 입학식에서 현 응원단은 공연했지만 자막상 소개된 공식 목록 곡은 승리하리라뿐이다."
+        }
+      ],
+      "usageContexts": [
+        "약 2분 길이의 록·팝형 응원곡으로 영어 제목·짧은 영어 구호, 무의미 음절 합창, 한국어 본절을 교차한다.",
+        "도입부의 즉각적인 구호와 반복 리프는 관중 참여용, 뒤의 본절은 서로에 대한 신뢰·격려와 꿈·희망을 전달하는 합창용으로 읽힌다.",
+        "현재 학교가 기준 음원·악보를 제공하지만 최근 행사에서 이 곡이 실제 선택됐는지는 별도 세트리스트 확인이 필요하다."
+      ],
+      "trivia": [
+        {
+          "id": "rise-up-title-case",
+          "summary": "현행 목록은 ‘RISE UP’, 공식 악보 제목은 ‘Rise up’으로 대소문자가 다르다. 동일 음원·동일 크레딧이므로 별곡이 아닌 표기 변형으로 처리했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog"]
+        },
+        {
+          "id": "rise-up-search-noise",
+          "summary": "제목이 매우 일반적이라 유튜브·웹 검색에서 국악원 음원, 스포츠 곡, 일반 동기부여 음악이 대량 혼입됐다. 학교명·제작자·공식 행사 맥락이 없는 결과는 직접 표본에서 제외했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-namu-scope"]
+        },
+        {
+          "id": "rise-up-archive-like-count",
+          "summary": "2017년 6월 11일 수상곡 페이지의 화면상 좋아요 수는 1개였다. 이는 일시적 웹 반응 수치이며 심사 결과나 현재 인지도를 뜻하지 않는다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-archive-winners"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "2017 contest-winning original; the contest notice reports university copyright ownership, but individual shares, the identity behind the MP3 artist tag, master ownership, and reuse terms are unresolved",
+        "sourceUrls": [
+          "https://www.jbnu.ac.kr/resources/user/web/audio/lyric/Rise%20up.jpg",
+          "https://www.jbnu.ac.kr/resources/user/web/audio/rise%20up.mp3",
+          "https://www.jbnu.ac.kr/web/intro/university/sub04.do"
+        ],
+        "structureSummary": "짧은 제목 구호와 영어 감탄사로 시작해 반복되는 음절 합창을 거친 뒤, 신뢰·격려·꿈·희망을 말하는 한국어 본절로 이어진다. 악보의 되돌이 지시로 처음 구호에 복귀해 마치는 순환형 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-jbnu-a-rise-up-2026-entrance-full",
+        "yt-jbnu-a-rise-up-2025-entrance-full",
+        "yt-jbnu-a-rise-up-2026-entrance-sketch",
+        "yt-jbnu-a-rise-up-2026-festival-day1",
+        "yt-jbnu-a-rise-up-2026-festival-day2",
+        "yt-jbnu-a-rise-up-2019-leopard"
+      ],
+      "unresolved": [
+        "ID3 연도 2016이 작곡·녹음·태깅 중 어느 시점을 뜻하는지",
+        "ID3 아티스트 ParkSoo와 박승범·이필호의 관계",
+        "이필호와 2017 아카이브의 이필효 중 원래 공모자 표기의 정확한 철자",
+        "2017 공모의 정확한 수상 등급과 최초 공연",
+        "2025~2026 현 응원단의 곡별 실연·안무 및 음원 권리 정보"
+      ]
+    },
+    {
+      "id": "jeonbuk-national-university-nalgaereul-pyeogo",
+      "title": "날개를 펴고",
+      "aliases": [],
+      "currentStatus": "current-official-catalog-recent-song-specific-performance-unresolved",
+      "summary": "유혜림 작사·전계리 작곡의 2017 개교 70주년 공모 수상 창작곡이다. 2절형 본문과 상승형 후렴, 짧은 영어·무의미 음절 구호를 결합해 어려움 속에서도 서로를 지지하며 더 큰 세상으로 나아가는 내용을 만든다. 현재 공식 음원·악보는 확인되지만 최근 현 응원단의 제목 확인 가능한 실연은 찾지 못했다.",
+      "claims": [
+        {
+          "field": "originAndEarliestVerifiedYear",
+          "value": "2017년 개교 70주년 응원가 공모 수상곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-contest-call", "ev-jbnu-a-archive-winners"],
+          "notes": "공식 아카이브가 제목과 제작자를 직접 수상곡으로 제시한다."
+        },
+        {
+          "field": "creator",
+          "value": "작사 유혜림, 작곡 전계리",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog", "ev-jbnu-a-archive-winners"],
+          "notes": "2017 페이지와 현행 학교 표·악보가 일치한다."
+        },
+        {
+          "field": "sourceRelationship",
+          "value": "공모 요강상 외부 원곡 없는 순수 창작곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-contest-rules", "ev-jbnu-a-archive-winners"],
+          "notes": "공개 검색에서도 별도의 원곡·차용 주장은 확인되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "현행 학교 공식 목록 수록; 최근 곡별 실연 미확인",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog", "ev-jbnu-a-current-squad", "yt-jbnu-a-nalgae-2026-entrance-full"],
+          "notes": "공식 목록의 현행성과 현 조직의 존재는 확인되지만 행사 세트리스트는 별개다."
+        }
+      ],
+      "usageContexts": [
+        "약 2분 19초로 7곡 중 현행 공식 음원 기준 두 번째로 길며, 두 절이 같은 후렴으로 합류한다.",
+        "도입의 짧은 영어 음절, 학교명 구호, 고난을 견디는 본절, 함께 날아오르는 후렴 순서라 신입생 환영·격려형 무대에 어울리는 구성이다.",
+        "공식 악보는 독창 서사보다 관중과 함께 부를 수 있는 짧은 구호와 반복 후렴을 강조한다."
+      ],
+      "trivia": [
+        {
+          "id": "nalgae-two-verse-support-theme",
+          "summary": "공식 악보의 두 절은 각각 햇살과 꿈을 이미지로 삼고, 어려움 속에서도 곁을 지키자는 메시지를 같은 비상 후렴으로 연결한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog"]
+        },
+        {
+          "id": "nalgae-archive-like-count",
+          "summary": "2017년 6월 11일 공식 수상곡 페이지에는 좋아요 9개가 표시됐다. 일시적 웹 반응일 뿐 수상 등급은 페이지에 적혀 있지 않다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-archive-winners"]
+        },
+        {
+          "id": "nalgae-video-gap",
+          "summary": "정확한 제목 검색에서는 학교 공식 교가와 전북현대·타 대학 결과가 주로 노출되어, 이 곡을 제목·설명으로 식별하는 독립 영상은 확보하지 못했다. 최근 행사 영상은 맥락 표본으로만 보존했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-jbnu-a-nalgae-2026-entrance-full", "yt-jbnu-a-nalgae-2026-festival-day1"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "2017 contest-winning original with university copyright ownership reported by the contest notice; individual publishing, master, arrangement, choreography, and reuse terms are not public",
+        "sourceUrls": [
+          "https://www.jbnu.ac.kr/resources/user/web/audio/lyric/%EB%82%A0%EA%B0%9C%EB%A5%BC%20%ED%8E%B4%EA%B3%A0.jpg",
+          "https://www.jbnu.ac.kr/web/intro/university/sub04.do"
+        ],
+        "structureSummary": "짧은 영어 음절 도입 뒤 두 절이 번갈아 제시되고, 고난을 견디며 서로를 지지한다는 전개가 학교명 구호와 상승형 후렴으로 모인다. 후반에는 모음 합창과 함께 더 큰 세상으로 날아가자는 결말을 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-jbnu-a-nalgae-2026-entrance-full",
+        "yt-jbnu-a-nalgae-2025-entrance-full",
+        "yt-jbnu-a-nalgae-2026-entrance-sketch",
+        "yt-jbnu-a-nalgae-2026-festival-day1",
+        "yt-jbnu-a-nalgae-2026-festival-day2",
+        "yt-jbnu-a-nalgae-2019-leopard"
+      ],
+      "unresolved": [
+        "2017 공모의 정확한 수상 등급과 최초 공연일",
+        "유혜림·전계리의 당시 소속과 녹음·편곡 참여자",
+        "현행 음원 마스터·안무·재사용 권리",
+        "2025~2026 현 응원단의 곡별 실연 여부"
+      ]
+    },
+    {
+      "id": "jeonbuk-national-university-cheonnyeonui-ungbi",
+      "title": "천년의 웅비",
+      "aliases": ["천년(千年)의 웅비(雄飛)"],
+      "currentStatus": "current-official-catalog-recent-song-specific-performance-unresolved",
+      "summary": "이혜윤 작사, 이혜윤·전재은 작곡의 2017 공모 수상 창작곡이다. 곡명은 2015년부터 학교 공식 슬로건 이미지에 쓰인 ‘천년의 웅비 전북대학교’를 이어받았고, 악보는 느린 선언부에서 빠른 전진부로 전환하며 교시와 학교의 역사·모험을 압축한다. 현재 공식 수록은 확실하지만 최근 실연은 곡별로 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "originAndEarliestVerifiedYear",
+          "value": "2017년 개교 70주년 응원가 공모 수상곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-contest-call", "ev-jbnu-a-archive-winners"],
+          "notes": "곡은 2017 수상작이지만 제목의 핵심 표현은 학교가 적어도 2015년부터 슬로건으로 사용했다."
+        },
+        {
+          "field": "creator",
+          "value": "작사 이혜윤, 작곡 이혜윤·전재은",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog", "ev-jbnu-a-archive-winners"],
+          "notes": "과거·현재 공식 크레딧이 일치한다."
+        },
+        {
+          "field": "titleContext",
+          "value": "‘천년의 웅비 전북대학교’는 2015년 공식 대학 슬로건 자료에 이미 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-2015-slogan", "ev-jbnu-a-official-catalog"],
+          "notes": "응원가가 슬로건 표현을 계승한 것으로 해석되지만, 작명 과정의 직접 인터뷰는 찾지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "현행 공식 목록 수록; 최근 현 응원단 실연 미확인",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog", "ev-jbnu-a-current-squad", "yt-jbnu-a-ungbi-2026-entrance-full"],
+          "notes": "최근 영상은 조직과 행사 맥락을 보이지만 곡명을 특정하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "약 1분 57초의 짧은 학교 찬가형 응원곡으로, 분당 95박의 장중한 도입이 분당 132박의 빠른 본체로 바뀐다.",
+        "자유·정의·창조라는 교시, 학교의 역사와 미래, 힘찬 모험을 한 덩어리로 묶어 기념식·입학식 같은 의례적 맥락에도 맞는 구성을 갖는다.",
+        "구호 반복보다 선언적 선율 비중이 커서 공식 7곡 안에서도 행진·교가형 성격이 상대적으로 강하다."
+      ],
+      "trivia": [
+        {
+          "id": "ungbi-slogan-before-song",
+          "summary": "2015년 대학 홍보실 공지는 부서 문서와 홈페이지에 ‘천년의 웅비 전북대학교’ 슬로건 이미지를 반영하라고 안내했다. 따라서 2017 곡명은 학교가 먼저 사용하던 브랜드 문구와 겹친다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-2015-slogan"]
+        },
+        {
+          "id": "ungbi-two-tempi",
+          "summary": "공식 악보는 중간에 템포를 95에서 132로 바꾸며, 같은 핵심 선언을 더 빠르게 되풀이한 뒤 학교명과 모험 메시지로 닫는다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog"]
+        },
+        {
+          "id": "ungbi-archive-like-count",
+          "summary": "2017년 6월 11일 공식 아카이브의 화면상 좋아요는 3개였다. 순위 자료가 아니므로 인기도·수상 등급 판단에는 쓰지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-archive-winners"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "2017 contest-winning original using pre-existing university slogan language; university copyright ownership is reported, but individual shares, master, arrangement, choreography, and reuse terms remain undocumented",
+        "sourceUrls": [
+          "https://www.jbnu.ac.kr/resources/user/web/audio/lyric/%EC%B2%9C%EB%85%84%EC%9D%98%20%EC%9B%85%EB%B9%84.jpg",
+          "https://www.jbnu.ac.kr/web/intro/university/sub04.do"
+        ],
+        "structureSummary": "느린 선언부가 교시와 역사 이미지를 제시한 뒤 템포가 빨라지고 핵심 문장을 다시 부른다. 마지막은 학교의 이름, 웅비, 모험과 전진을 압축한 짧은 종결부로 이어진다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-jbnu-a-ungbi-2026-entrance-full",
+        "yt-jbnu-a-ungbi-2025-entrance-full",
+        "yt-jbnu-a-ungbi-2026-entrance-sketch",
+        "yt-jbnu-a-ungbi-2026-festival-day1",
+        "yt-jbnu-a-ungbi-2026-festival-day2",
+        "yt-jbnu-a-ungbi-2019-leopard"
+      ],
+      "unresolved": [
+        "2017 공모의 정확한 수상 등급과 최초 공연",
+        "이혜윤·전재은의 당시 소속 및 녹음·편곡 참여자",
+        "2015 슬로건을 곡명으로 채택한 구체적 제작 경위",
+        "2025~2026 현 응원단의 곡별 실연 및 안무·음원 권리"
+      ]
+    },
+    {
+      "id": "jeonbuk-national-university-miraereul-hyanghae-narabwa",
+      "title": "미래를 향해 날아봐",
+      "aliases": [],
+      "currentStatus": "current-official-catalog-recent-song-specific-performance-unresolved",
+      "summary": "한대용이 작사·작곡한 2017 개교 70주년 공모 수상 창작곡이다. 별빛·젊음·도전·희망을 전개한 뒤 영어 감탄사와 학교명 구호를 끼워 넣는 1분 51초짜리 합창형 곡이다. 현행 공식 음원·악보와 저작자 표기는 확실하지만 최근 현 응원단의 직접 실연은 확인하지 못했다.",
+      "claims": [
+        {
+          "field": "originAndEarliestVerifiedYear",
+          "value": "2017년 개교 70주년 응원가 공모 수상곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-contest-call", "ev-jbnu-a-archive-winners"],
+          "notes": "공식 아카이브가 제목과 한대용 크레딧을 직접 공개한다."
+        },
+        {
+          "field": "creator",
+          "value": "작사·작곡 한대용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog", "ev-jbnu-a-archive-winners"],
+          "notes": "과거 수상곡 페이지와 현행 홈페이지·악보가 일치한다."
+        },
+        {
+          "field": "sourceRelationship",
+          "value": "공모 요강상 순수 창작곡이며 외부 원곡 근거 없음",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-contest-rules", "ev-jbnu-a-archive-winners"],
+          "notes": "동명의 일반 응원·동기부여 영상은 검색되지만 이 곡의 원곡으로 연결할 근거가 없다."
+        },
+        {
+          "field": "currentUse",
+          "value": "현행 공식 목록 수록; 최근 곡별 실연 미확인",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog", "ev-jbnu-a-current-squad", "yt-jbnu-a-mirae-2026-entrance-full"],
+          "notes": "공식 목록과 현 조직의 존재는 확인되나 두 근거만으로 실제 세트리스트를 확정하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "약 1분 51초의 밝은 장조 곡으로 두 줄씩 대응하는 절과 학교명·영어 감탄사 구호를 교차한다.",
+        "젊음과 희망, 함께 도전해 미래로 나아간다는 내용이어서 입학식·새내기 환영·출정식 같은 시작 장면에 자연스럽다.",
+        "관중은 반복되는 영어 단어와 학교명, 짧은 응답부에 참여하고 주선율은 응원단 또는 보컬이 이끌 수 있는 형태다."
+      ],
+      "trivia": [
+        {
+          "id": "mirae-callouts",
+          "summary": "공식 악보는 한국어 문장 사이에 여러 짧은 영어 감탄사와 ‘GO’ 구호를 명시해, 같은 2017 수상곡 중에서도 팝 응원가 성격이 두드러진다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-official-catalog"]
+        },
+        {
+          "id": "mirae-archive-like-count",
+          "summary": "2017년 6월 11일 공식 수상곡 페이지에는 좋아요 6개가 표시됐다. 영원하리라 나의 전북대와 같은 화면상 수치지만 공식 인기 순위나 심사 점수는 아니다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-jbnu-a-archive-winners"]
+        },
+        {
+          "id": "mirae-search-gap",
+          "summary": "정확한 제목을 학교명과 함께 검색해도 이 곡을 식별하는 독립 유튜브 결과가 거의 나오지 않았다. 따라서 최근 행사 영상은 직접 실연이 아닌 맥락 표본으로 분류했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-jbnu-a-mirae-2026-entrance-full", "yt-jbnu-a-mirae-2026-festival-day2"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "2017 contest-winning original with university copyright ownership reported by the contest notice; individual publishing, master, arrangement, choreography, and reuse terms are not public",
+        "sourceUrls": [
+          "https://www.jbnu.ac.kr/resources/user/web/audio/lyric/%EB%AF%B8%EB%9E%98%EB%A5%BC%20%ED%96%A5%ED%95%B4%20%EB%82%A0%EC%95%84%EB%B4%90.jpg",
+          "https://www.jbnu.ac.kr/web/intro/university/sub04.do"
+        ],
+        "structureSummary": "별빛과 젊음을 제시하는 두 절형 문장, 학교명·감탄사 응답, 세계·도전·하늘·희망을 향해 함께 나아가는 반복 구간으로 구성된다. 끝에서는 손을 맞잡고 미래를 향한다는 메시지를 길게 유지한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-jbnu-a-mirae-2026-entrance-full",
+        "yt-jbnu-a-mirae-2025-entrance-full",
+        "yt-jbnu-a-mirae-2026-entrance-sketch",
+        "yt-jbnu-a-mirae-2026-festival-day1",
+        "yt-jbnu-a-mirae-2026-festival-day2",
+        "yt-jbnu-a-mirae-2019-leopard"
+      ],
+      "unresolved": [
+        "2017 공모의 정확한 수상 등급과 최초 공연",
+        "한대용의 당시 소속 및 녹음·편곡 참여자",
+        "현행 음원 마스터·안무·재사용 권리",
+        "2025~2026 현 응원단의 곡별 실연 여부"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-jbnu-a-official-catalog",
+      "type": "official",
+      "url": "https://www.jbnu.ac.kr/web/intro/university/sub04.do",
+      "title": "상징 — 응원가",
+      "publisher": "전북대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "현행 상징 페이지가 7곡의 제목·작사·작곡, 공식 MP3, 악보/가사 이미지와 다운로드를 제공한다. 최종수정일은 2024-10-31로 표시된다. 이 페이지는 공식 카탈로그 현행성을 입증하지만 최근 공연 세트리스트 자체는 아니다.",
+      "supports": ["officialTitle", "creator", "officialAudio", "officialSheet", "currentCatalog"]
+    },
+    {
+      "id": "ev-jbnu-a-archive-winners",
+      "type": "official-archive",
+      "url": "https://web.archive.org/web/20170611152021/http://www.jbnu.ac.kr/70th/event/song/prize.php",
+      "title": "하나되는 함성으로 함께 불러요 ‘우리의 응원가!’ — 수상곡",
+      "publisher": "전북대학교",
+      "publishedAt": "2017-06-11",
+      "accessedAt": "2026-08-09",
+      "summary": "2017년 6월 11일 보존된 학교 공식 수상곡 페이지다. ‘수상곡_가나다순’ 아래 현재의 7곡과 작사·작곡자를 모두 열거하고 당시 음원·악보·좋아요 버튼을 제공한다. 곡별 수상 등급은 적지 않는다. RISE UP의 두 번째 제작자 이름은 현행 표기와 다른 ‘이필효’다.",
+      "supports": ["2017ContestWinner", "creator", "historicalAudio", "historicalSheet", "archivedLikeCount", "creditConflict"]
+    },
+    {
+      "id": "ev-jbnu-a-contest-call",
+      "type": "press",
+      "url": "https://www.jjan.kr/article/20170328607293",
+      "title": "전북대학교 개교 70주년 맞아 응원가·교호 공모",
+      "publisher": "전북일보",
+      "publishedAt": "2017-03-29",
+      "accessedAt": "2026-08-09",
+      "summary": "개교 70주년을 맞아 전 국민 대상 응원가 공모를 열었고, 전북대를 응원하는 가사·멜로디의 1분 30초 안팎 순수 창작곡을 2017년 4월 10~17일 접수해 5월 10일 결과를 발표할 예정이었다고 보도한다. 대상 1·최우수 2·우수 4편으로 총 7편을 계획했다.",
+      "supports": ["contestContext", "2017Date", "pureOriginalRequirement", "sevenAwards"]
+    },
+    {
+      "id": "ev-jbnu-a-contest-rules",
+      "type": "contest-listing",
+      "url": "https://thinkyou.co.kr/contest/5803",
+      "title": "들려주세요 당신의 응원가! (전북대학교 응원가 공모전)",
+      "publisher": "씽유",
+      "publishedAt": "2017-04-10",
+      "accessedAt": "2026-08-09",
+      "summary": "주최 측 제공 요강을 보존한 공모 정보 페이지다. 미발표 순수 창작, 약 1분 30초, MP3와 가사 포함 악보 제출, 총 7편 시상, 수상작 저작권의 전북대학교 귀속, 당선자 협의 수정 가능 조건을 적는다.",
+      "supports": ["pureOriginalRequirement", "submissionFormat", "copyrightNotice", "modificationClause"]
+    },
+    {
+      "id": "ev-jbnu-a-current-squad",
+      "type": "official",
+      "url": "https://www.jbnu.ac.kr/web/Board/209796/detailView.do?menu=2378",
+      "title": "(학생지원과)전북대학교 응원단 2기 신입 단원 모집",
+      "publisher": "전북대학교 학생취업진로처 학생지원과",
+      "publishedAt": "2026-03-04",
+      "accessedAt": "2026-08-09",
+      "summary": "2026학년도 2기 모집 공고다. 응원단이 학생지원과 소속으로 학교 이름을 걸고 활동하며 OT·거국제전·대동제 등 학교 행사에서 공연하고 주 2회 연습한다고 밝힌다. 조직의 현행성을 입증하지만 7곡 각각의 최근 사용을 자동으로 입증하지는 않는다.",
+      "supports": ["currentOrganization", "studentSupportAffiliation", "eventContexts", "secondCohort"]
+    },
+    {
+      "id": "ev-jbnu-a-70th-theme",
+      "type": "press",
+      "url": "https://www.jjan.kr/articleAmp/20171009622385",
+      "title": "[개교 70주년 전북대학교] (상) 태동·성장의 발자취",
+      "publisher": "전북일보",
+      "publishedAt": "2017-10-10",
+      "accessedAt": "2026-08-09",
+      "summary": "전북대가 2017년 개교 70주년을 맞아 ‘성장을 이룬 70년, 성숙을 향한 100년’을 캐치프레이즈로 정하고 과거 70년에서 미래 100년으로의 도약을 강조했다고 설명한다.",
+      "supports": ["70thAnniversary", "70To100Theme"]
+    },
+    {
+      "id": "ev-jbnu-a-2015-slogan",
+      "type": "official",
+      "url": "https://plantmed.jbnu.ac.kr/bbs/agribio/959/128950/artclView.do",
+      "title": "전북대학교 슬로건 사용 방법",
+      "publisher": "전북대학교",
+      "publishedAt": "2015-04-16",
+      "accessedAt": "2026-08-09",
+      "summary": "홍보실이 공식 문서와 홈페이지에 새 슬로건을 반영하라고 안내하고 ‘천년의 웅비 전북대학교’ 이미지 파일을 첨부했다. 응원가 제목보다 적어도 2년 앞선 공식 표현이다.",
+      "supports": ["preExistingSlogan", "titleContext"]
+    },
+    {
+      "id": "ev-jbnu-a-namu-scope",
+      "type": "community-wiki",
+      "url": "https://namu.moe/w/%EC%A0%84%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90",
+      "title": "전북대학교",
+      "publisher": "나무위키 미러",
+      "publishedAt": "2026-06-25",
+      "accessedAt": "2026-08-09",
+      "summary": "일반 학교 문서는 교시 자유·정의·창조, 상징 표범, 학교 축제 등 배경을 제공하지만 이번 7곡의 제목·제작자·공모·사용 이력을 다루는 전용 응원가 서술은 확인되지 않았다. 요청된 나무위키 교차검증의 범위 공백으로 기록하고 곡별 사실 근거로 과대 사용하지 않았다.",
+      "supports": ["institutionalBackground", "namuwikiScopeGap"]
+    },
+    {
+      "id": "ev-jbnu-a-zenith-2024",
+      "type": "official",
+      "url": "https://www.jbnu.ac.kr/web/Board/91935/detailView.do?menu=2377",
+      "title": "2024 학문체 : EPILOGUE 공연 안내",
+      "publisher": "전북대학교 총학생회",
+      "publishedAt": "2024-10-05",
+      "accessedAt": "2026-08-09",
+      "summary": "2024 학문체에서 ‘대학 연합 응원단 제니스’를 초청해 응원 문화를 조성한다고 안내한다. 2025년에 신설됐다고 밝힌 현 학생지원과 응원단과 동일 조직으로 단정할 수 없는 선행 응원 공연 맥락이다.",
+      "supports": ["preCurrentSquadContext", "organizationDistinction"]
+    },
+    {
+      "id": "ev-jbnu-a-rise-up-audio",
+      "type": "official-media",
+      "url": "https://www.jbnu.ac.kr/resources/user/web/audio/rise%20up.mp3",
+      "title": "RISE UP 공식 MP3",
+      "publisher": "전북대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "현행 공식 페이지가 제공하는 약 2분 00초 MP3다. 파일 ID3에 year ‘2016’, artist ‘ParkSoo’가 있으나 현행 작사·작곡 표의 인물과 연결 설명은 없고 파일 서버 수정일은 사이트 이전 시점으로 보이는 2025-05-14라 제작일 근거로 쓰지 않았다.",
+      "supports": ["officialAudio", "duration", "embedded2016Metadata", "metadataConflict"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-jbnu-a-seungri-2026-entrance-full",
+      "songId": "jeonbuk-national-university-seungriharira",
+      "url": "https://www.youtube.com/watch?v=avtZfB4ykYM",
+      "videoId": "avtZfB4ykYM",
+      "title": "JBNU 2026 전북대학교 입학식 및 오리엔테이션",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2026-02-11T23:46:08-08:00",
+      "descriptionSummary": "학교 공식 2026 입학식·오리엔테이션 전체 생중계다. 영상 자막 2:27:38 부근에서 현 응원단이 ‘승리하리라’를 다음 곡으로 소개하고 2:28대에 공연해 제목·조직·실연을 직접 연결한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "direct-performance",
+        "current-squad",
+        "title-spoken",
+        "2026"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-seungri-2025-entrance-full",
+      "songId": "jeonbuk-national-university-seungriharira",
+      "url": "https://www.youtube.com/watch?v=E52VtlflQjs",
+      "videoId": "E52VtlflQjs",
+      "title": "JBNU 2025 입학식 및 오리엔테이션",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2025-02-13T23:42:02-08:00",
+      "descriptionSummary": "학교 공식 2025 입학식·오리엔테이션 전체 영상이며 설명은 2025년 2월 14일 전주실내체육관 개최를 명시한다. ‘승리하리라’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-seungri-2026-entrance-sketch",
+      "songId": "jeonbuk-national-university-seungriharira",
+      "url": "https://www.youtube.com/watch?v=l2ULgC4E3R4",
+      "videoId": "l2ULgC4E3R4",
+      "title": "설렘으로 가득 찬 첫걸음✨ | 2026학년도 전북대학교 신입생 입학식 현장",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2026-02-12T16:30:29-08:00",
+      "descriptionSummary": "학교 공식 101초 현장 스케치로 신입생의 출발과 선배·교직원·가족의 환영을 요약한다. ‘승리하리라’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-seungri-2026-festival-day1",
+      "songId": "jeonbuk-national-university-seungriharira",
+      "url": "https://www.youtube.com/watch?v=zDvwyaQC40w",
+      "videoId": "zDvwyaQC40w",
+      "title": "2026 전북대학교 건지대동제 - 1일차",
+      "channel": "UBS전북대학교 방송국",
+      "publishedAt": "2026-05-06T04:24:34-07:00",
+      "descriptionSummary": "교내 방송국의 2026 건지대동제 1일차 전체 영상으로 설명은 5월 6일 대운동장 개최와 연예인 공연 미송출을 안내한다. ‘승리하리라’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 특정 참가자의 무대를 칭찬했으며 응원가 정보는 언급하지 않았다.",
+        "다른 공개 댓글은 동방신기 ‘Hug’ 선곡을 가장 좋았다고 평가했으며 조사 대상 곡과는 무관했다."
+      ],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-seungri-2026-festival-day2",
+      "songId": "jeonbuk-national-university-seungriharira",
+      "url": "https://www.youtube.com/watch?v=kHciWqq3gzk",
+      "videoId": "kHciWqq3gzk",
+      "title": "2026 전북대학교 건지대동제 - 2일차",
+      "channel": "UBS전북대학교 방송국",
+      "publishedAt": "2026-05-07T15:20:24-07:00",
+      "descriptionSummary": "교내 방송국의 2026 건지대동제 2일차 전체 영상으로 설명은 5월 7일 대운동장 개최와 연예인 공연 미송출을 안내한다. ‘승리하리라’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "확인 가능한 공개 댓글은 축제의 소음·통행 방해를 비판했으며 응원가나 곡명은 논하지 않았다.",
+        "다른 공개 댓글도 음주·다툼 단속을 요구해 조사 대상 곡 정보와 무관했다."
+      ],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-seungri-2019-leopard",
+      "songId": "jeonbuk-national-university-seungriharira",
+      "url": "https://www.youtube.com/watch?v=h2e2G776W0w",
+      "videoId": "h2e2G776W0w",
+      "title": "전북대학교 레오파드 입시설명회, 대학응원단, 퀸의 위윌락",
+      "channel": "박한빈",
+      "publishedAt": "2019-04-08T07:07:23-07:00",
+      "descriptionSummary": "2019년 개인 업로드는 ‘레오파드’와 Queen ‘We Will Rock You’ 공연을 제목·설명에 적는다. 2025년 신설된 현 학생지원과 응원단과 동일 조직·레퍼토리로 보지 않는 역사적 비사례다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "historical-non-example",
+        "different-repertoire",
+        "pre-current-squad-context",
+        "contextOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-rise-up-2026-entrance-full",
+      "songId": "jeonbuk-national-university-rise-up",
+      "url": "https://www.youtube.com/watch?v=avtZfB4ykYM",
+      "videoId": "avtZfB4ykYM",
+      "title": "JBNU 2026 전북대학교 입학식 및 오리엔테이션",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2026-02-11T23:46:08-08:00",
+      "descriptionSummary": "학교 공식 2026 입학식·오리엔테이션 전체 생중계다. 2:27~2:35에 현 응원단 공연이 있으나 소개로 특정된 공식 7곡은 승리하리라뿐이며 ‘RISE UP’는 식별되지 않아 조직·행사 맥락으로만 쓴다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "current-squad-context",
+        "non-direct-sample",
+        "song-not-identified",
+        "contextOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-rise-up-2025-entrance-full",
+      "songId": "jeonbuk-national-university-rise-up",
+      "url": "https://www.youtube.com/watch?v=E52VtlflQjs",
+      "videoId": "E52VtlflQjs",
+      "title": "JBNU 2025 입학식 및 오리엔테이션",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2025-02-13T23:42:02-08:00",
+      "descriptionSummary": "학교 공식 2025 입학식·오리엔테이션 전체 영상이며 설명은 2025년 2월 14일 전주실내체육관 개최를 명시한다. ‘RISE UP’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-rise-up-2026-entrance-sketch",
+      "songId": "jeonbuk-national-university-rise-up",
+      "url": "https://www.youtube.com/watch?v=l2ULgC4E3R4",
+      "videoId": "l2ULgC4E3R4",
+      "title": "설렘으로 가득 찬 첫걸음✨ | 2026학년도 전북대학교 신입생 입학식 현장",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2026-02-12T16:30:29-08:00",
+      "descriptionSummary": "학교 공식 101초 현장 스케치로 신입생의 출발과 선배·교직원·가족의 환영을 요약한다. ‘RISE UP’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-rise-up-2026-festival-day1",
+      "songId": "jeonbuk-national-university-rise-up",
+      "url": "https://www.youtube.com/watch?v=zDvwyaQC40w",
+      "videoId": "zDvwyaQC40w",
+      "title": "2026 전북대학교 건지대동제 - 1일차",
+      "channel": "UBS전북대학교 방송국",
+      "publishedAt": "2026-05-06T04:24:34-07:00",
+      "descriptionSummary": "교내 방송국의 2026 건지대동제 1일차 전체 영상으로 설명은 5월 6일 대운동장 개최와 연예인 공연 미송출을 안내한다. ‘RISE UP’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 특정 참가자의 무대를 칭찬했으며 응원가 정보는 언급하지 않았다.",
+        "다른 공개 댓글은 동방신기 ‘Hug’ 선곡을 가장 좋았다고 평가했으며 조사 대상 곡과는 무관했다."
+      ],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-rise-up-2026-festival-day2",
+      "songId": "jeonbuk-national-university-rise-up",
+      "url": "https://www.youtube.com/watch?v=kHciWqq3gzk",
+      "videoId": "kHciWqq3gzk",
+      "title": "2026 전북대학교 건지대동제 - 2일차",
+      "channel": "UBS전북대학교 방송국",
+      "publishedAt": "2026-05-07T15:20:24-07:00",
+      "descriptionSummary": "교내 방송국의 2026 건지대동제 2일차 전체 영상으로 설명은 5월 7일 대운동장 개최와 연예인 공연 미송출을 안내한다. ‘RISE UP’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "확인 가능한 공개 댓글은 축제의 소음·통행 방해를 비판했으며 응원가나 곡명은 논하지 않았다.",
+        "다른 공개 댓글도 음주·다툼 단속을 요구해 조사 대상 곡 정보와 무관했다."
+      ],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-rise-up-2019-leopard",
+      "songId": "jeonbuk-national-university-rise-up",
+      "url": "https://www.youtube.com/watch?v=h2e2G776W0w",
+      "videoId": "h2e2G776W0w",
+      "title": "전북대학교 레오파드 입시설명회, 대학응원단, 퀸의 위윌락",
+      "channel": "박한빈",
+      "publishedAt": "2019-04-08T07:07:23-07:00",
+      "descriptionSummary": "2019년 개인 업로드는 ‘레오파드’와 Queen ‘We Will Rock You’ 공연을 제목·설명에 적는다. 2025년 신설된 현 학생지원과 응원단과 동일 조직·레퍼토리로 보지 않는 역사적 비사례다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "historical-non-example",
+        "different-repertoire",
+        "pre-current-squad-context",
+        "contextOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-nalgae-2026-entrance-full",
+      "songId": "jeonbuk-national-university-nalgaereul-pyeogo",
+      "url": "https://www.youtube.com/watch?v=avtZfB4ykYM",
+      "videoId": "avtZfB4ykYM",
+      "title": "JBNU 2026 전북대학교 입학식 및 오리엔테이션",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2026-02-11T23:46:08-08:00",
+      "descriptionSummary": "학교 공식 2026 입학식·오리엔테이션 전체 생중계다. 2:27~2:35에 현 응원단 공연이 있으나 소개로 특정된 공식 7곡은 승리하리라뿐이며 ‘날개를 펴고’는 식별되지 않아 조직·행사 맥락으로만 쓴다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "current-squad-context",
+        "non-direct-sample",
+        "song-not-identified",
+        "contextOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-nalgae-2025-entrance-full",
+      "songId": "jeonbuk-national-university-nalgaereul-pyeogo",
+      "url": "https://www.youtube.com/watch?v=E52VtlflQjs",
+      "videoId": "E52VtlflQjs",
+      "title": "JBNU 2025 입학식 및 오리엔테이션",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2025-02-13T23:42:02-08:00",
+      "descriptionSummary": "학교 공식 2025 입학식·오리엔테이션 전체 영상이며 설명은 2025년 2월 14일 전주실내체육관 개최를 명시한다. ‘날개를 펴고’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-nalgae-2026-entrance-sketch",
+      "songId": "jeonbuk-national-university-nalgaereul-pyeogo",
+      "url": "https://www.youtube.com/watch?v=l2ULgC4E3R4",
+      "videoId": "l2ULgC4E3R4",
+      "title": "설렘으로 가득 찬 첫걸음✨ | 2026학년도 전북대학교 신입생 입학식 현장",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2026-02-12T16:30:29-08:00",
+      "descriptionSummary": "학교 공식 101초 현장 스케치로 신입생의 출발과 선배·교직원·가족의 환영을 요약한다. ‘날개를 펴고’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-nalgae-2026-festival-day1",
+      "songId": "jeonbuk-national-university-nalgaereul-pyeogo",
+      "url": "https://www.youtube.com/watch?v=zDvwyaQC40w",
+      "videoId": "zDvwyaQC40w",
+      "title": "2026 전북대학교 건지대동제 - 1일차",
+      "channel": "UBS전북대학교 방송국",
+      "publishedAt": "2026-05-06T04:24:34-07:00",
+      "descriptionSummary": "교내 방송국의 2026 건지대동제 1일차 전체 영상으로 설명은 5월 6일 대운동장 개최와 연예인 공연 미송출을 안내한다. ‘날개를 펴고’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 특정 참가자의 무대를 칭찬했으며 응원가 정보는 언급하지 않았다.",
+        "다른 공개 댓글은 동방신기 ‘Hug’ 선곡을 가장 좋았다고 평가했으며 조사 대상 곡과는 무관했다."
+      ],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-nalgae-2026-festival-day2",
+      "songId": "jeonbuk-national-university-nalgaereul-pyeogo",
+      "url": "https://www.youtube.com/watch?v=kHciWqq3gzk",
+      "videoId": "kHciWqq3gzk",
+      "title": "2026 전북대학교 건지대동제 - 2일차",
+      "channel": "UBS전북대학교 방송국",
+      "publishedAt": "2026-05-07T15:20:24-07:00",
+      "descriptionSummary": "교내 방송국의 2026 건지대동제 2일차 전체 영상으로 설명은 5월 7일 대운동장 개최와 연예인 공연 미송출을 안내한다. ‘날개를 펴고’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "확인 가능한 공개 댓글은 축제의 소음·통행 방해를 비판했으며 응원가나 곡명은 논하지 않았다.",
+        "다른 공개 댓글도 음주·다툼 단속을 요구해 조사 대상 곡 정보와 무관했다."
+      ],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-nalgae-2019-leopard",
+      "songId": "jeonbuk-national-university-nalgaereul-pyeogo",
+      "url": "https://www.youtube.com/watch?v=h2e2G776W0w",
+      "videoId": "h2e2G776W0w",
+      "title": "전북대학교 레오파드 입시설명회, 대학응원단, 퀸의 위윌락",
+      "channel": "박한빈",
+      "publishedAt": "2019-04-08T07:07:23-07:00",
+      "descriptionSummary": "2019년 개인 업로드는 ‘레오파드’와 Queen ‘We Will Rock You’ 공연을 제목·설명에 적는다. 2025년 신설된 현 학생지원과 응원단과 동일 조직·레퍼토리로 보지 않는 역사적 비사례다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "historical-non-example",
+        "different-repertoire",
+        "pre-current-squad-context",
+        "contextOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-ungbi-2026-entrance-full",
+      "songId": "jeonbuk-national-university-cheonnyeonui-ungbi",
+      "url": "https://www.youtube.com/watch?v=avtZfB4ykYM",
+      "videoId": "avtZfB4ykYM",
+      "title": "JBNU 2026 전북대학교 입학식 및 오리엔테이션",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2026-02-11T23:46:08-08:00",
+      "descriptionSummary": "학교 공식 2026 입학식·오리엔테이션 전체 생중계다. 2:27~2:35에 현 응원단 공연이 있으나 소개로 특정된 공식 7곡은 승리하리라뿐이며 ‘천년의 웅비’는 식별되지 않아 조직·행사 맥락으로만 쓴다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "current-squad-context",
+        "non-direct-sample",
+        "song-not-identified",
+        "contextOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-ungbi-2025-entrance-full",
+      "songId": "jeonbuk-national-university-cheonnyeonui-ungbi",
+      "url": "https://www.youtube.com/watch?v=E52VtlflQjs",
+      "videoId": "E52VtlflQjs",
+      "title": "JBNU 2025 입학식 및 오리엔테이션",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2025-02-13T23:42:02-08:00",
+      "descriptionSummary": "학교 공식 2025 입학식·오리엔테이션 전체 영상이며 설명은 2025년 2월 14일 전주실내체육관 개최를 명시한다. ‘천년의 웅비’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-ungbi-2026-entrance-sketch",
+      "songId": "jeonbuk-national-university-cheonnyeonui-ungbi",
+      "url": "https://www.youtube.com/watch?v=l2ULgC4E3R4",
+      "videoId": "l2ULgC4E3R4",
+      "title": "설렘으로 가득 찬 첫걸음✨ | 2026학년도 전북대학교 신입생 입학식 현장",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2026-02-12T16:30:29-08:00",
+      "descriptionSummary": "학교 공식 101초 현장 스케치로 신입생의 출발과 선배·교직원·가족의 환영을 요약한다. ‘천년의 웅비’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-ungbi-2026-festival-day1",
+      "songId": "jeonbuk-national-university-cheonnyeonui-ungbi",
+      "url": "https://www.youtube.com/watch?v=zDvwyaQC40w",
+      "videoId": "zDvwyaQC40w",
+      "title": "2026 전북대학교 건지대동제 - 1일차",
+      "channel": "UBS전북대학교 방송국",
+      "publishedAt": "2026-05-06T04:24:34-07:00",
+      "descriptionSummary": "교내 방송국의 2026 건지대동제 1일차 전체 영상으로 설명은 5월 6일 대운동장 개최와 연예인 공연 미송출을 안내한다. ‘천년의 웅비’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 특정 참가자의 무대를 칭찬했으며 응원가 정보는 언급하지 않았다.",
+        "다른 공개 댓글은 동방신기 ‘Hug’ 선곡을 가장 좋았다고 평가했으며 조사 대상 곡과는 무관했다."
+      ],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-ungbi-2026-festival-day2",
+      "songId": "jeonbuk-national-university-cheonnyeonui-ungbi",
+      "url": "https://www.youtube.com/watch?v=kHciWqq3gzk",
+      "videoId": "kHciWqq3gzk",
+      "title": "2026 전북대학교 건지대동제 - 2일차",
+      "channel": "UBS전북대학교 방송국",
+      "publishedAt": "2026-05-07T15:20:24-07:00",
+      "descriptionSummary": "교내 방송국의 2026 건지대동제 2일차 전체 영상으로 설명은 5월 7일 대운동장 개최와 연예인 공연 미송출을 안내한다. ‘천년의 웅비’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "확인 가능한 공개 댓글은 축제의 소음·통행 방해를 비판했으며 응원가나 곡명은 논하지 않았다.",
+        "다른 공개 댓글도 음주·다툼 단속을 요구해 조사 대상 곡 정보와 무관했다."
+      ],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-ungbi-2019-leopard",
+      "songId": "jeonbuk-national-university-cheonnyeonui-ungbi",
+      "url": "https://www.youtube.com/watch?v=h2e2G776W0w",
+      "videoId": "h2e2G776W0w",
+      "title": "전북대학교 레오파드 입시설명회, 대학응원단, 퀸의 위윌락",
+      "channel": "박한빈",
+      "publishedAt": "2019-04-08T07:07:23-07:00",
+      "descriptionSummary": "2019년 개인 업로드는 ‘레오파드’와 Queen ‘We Will Rock You’ 공연을 제목·설명에 적는다. 2025년 신설된 현 학생지원과 응원단과 동일 조직·레퍼토리로 보지 않는 역사적 비사례다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "historical-non-example",
+        "different-repertoire",
+        "pre-current-squad-context",
+        "contextOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-mirae-2026-entrance-full",
+      "songId": "jeonbuk-national-university-miraereul-hyanghae-narabwa",
+      "url": "https://www.youtube.com/watch?v=avtZfB4ykYM",
+      "videoId": "avtZfB4ykYM",
+      "title": "JBNU 2026 전북대학교 입학식 및 오리엔테이션",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2026-02-11T23:46:08-08:00",
+      "descriptionSummary": "학교 공식 2026 입학식·오리엔테이션 전체 생중계다. 2:27~2:35에 현 응원단 공연이 있으나 소개로 특정된 공식 7곡은 승리하리라뿐이며 ‘미래를 향해 날아봐’는 식별되지 않아 조직·행사 맥락으로만 쓴다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "current-squad-context",
+        "non-direct-sample",
+        "song-not-identified",
+        "contextOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-mirae-2025-entrance-full",
+      "songId": "jeonbuk-national-university-miraereul-hyanghae-narabwa",
+      "url": "https://www.youtube.com/watch?v=E52VtlflQjs",
+      "videoId": "E52VtlflQjs",
+      "title": "JBNU 2025 입학식 및 오리엔테이션",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2025-02-13T23:42:02-08:00",
+      "descriptionSummary": "학교 공식 2025 입학식·오리엔테이션 전체 영상이며 설명은 2025년 2월 14일 전주실내체육관 개최를 명시한다. ‘미래를 향해 날아봐’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-mirae-2026-entrance-sketch",
+      "songId": "jeonbuk-national-university-miraereul-hyanghae-narabwa",
+      "url": "https://www.youtube.com/watch?v=l2ULgC4E3R4",
+      "videoId": "l2ULgC4E3R4",
+      "title": "설렘으로 가득 찬 첫걸음✨ | 2026학년도 전북대학교 신입생 입학식 현장",
+      "channel": "전북대학교 Jeonbuk National University",
+      "publishedAt": "2026-02-12T16:30:29-08:00",
+      "descriptionSummary": "학교 공식 101초 현장 스케치로 신입생의 출발과 선배·교직원·가족의 환영을 요약한다. ‘미래를 향해 날아봐’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-mirae-2026-festival-day1",
+      "songId": "jeonbuk-national-university-miraereul-hyanghae-narabwa",
+      "url": "https://www.youtube.com/watch?v=zDvwyaQC40w",
+      "videoId": "zDvwyaQC40w",
+      "title": "2026 전북대학교 건지대동제 - 1일차",
+      "channel": "UBS전북대학교 방송국",
+      "publishedAt": "2026-05-06T04:24:34-07:00",
+      "descriptionSummary": "교내 방송국의 2026 건지대동제 1일차 전체 영상으로 설명은 5월 6일 대운동장 개최와 연예인 공연 미송출을 안내한다. ‘미래를 향해 날아봐’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 특정 참가자의 무대를 칭찬했으며 응원가 정보는 언급하지 않았다.",
+        "다른 공개 댓글은 동방신기 ‘Hug’ 선곡을 가장 좋았다고 평가했으며 조사 대상 곡과는 무관했다."
+      ],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-mirae-2026-festival-day2",
+      "songId": "jeonbuk-national-university-miraereul-hyanghae-narabwa",
+      "url": "https://www.youtube.com/watch?v=kHciWqq3gzk",
+      "videoId": "kHciWqq3gzk",
+      "title": "2026 전북대학교 건지대동제 - 2일차",
+      "channel": "UBS전북대학교 방송국",
+      "publishedAt": "2026-05-07T15:20:24-07:00",
+      "descriptionSummary": "교내 방송국의 2026 건지대동제 2일차 전체 영상으로 설명은 5월 7일 대운동장 개최와 연예인 공연 미송출을 안내한다. ‘미래를 향해 날아봐’의 제목·설명상 직접 실연은 확인되지 않아 최근 대학 행사 맥락 표본으로만 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "확인 가능한 공개 댓글은 축제의 소음·통행 방해를 비판했으며 응원가나 곡명은 논하지 않았다.",
+        "다른 공개 댓글도 음주·다툼 단속을 요구해 조사 대상 곡 정보와 무관했다."
+      ],
+      "supports": [
+        "event-context-only",
+        "contextOnly",
+        "song-not-identified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-jbnu-a-mirae-2019-leopard",
+      "songId": "jeonbuk-national-university-miraereul-hyanghae-narabwa",
+      "url": "https://www.youtube.com/watch?v=h2e2G776W0w",
+      "videoId": "h2e2G776W0w",
+      "title": "전북대학교 레오파드 입시설명회, 대학응원단, 퀸의 위윌락",
+      "channel": "박한빈",
+      "publishedAt": "2019-04-08T07:07:23-07:00",
+      "descriptionSummary": "2019년 개인 업로드는 ‘레오파드’와 Queen ‘We Will Rock You’ 공연을 제목·설명에 적는다. 2025년 신설된 현 학생지원과 응원단과 동일 조직·레퍼토리로 보지 않는 역사적 비사례다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "historical-non-example",
+        "different-repertoire",
+        "pre-current-squad-context",
+        "contextOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 30,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 21
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-unist-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-unist",
+    "name": "UNIST",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 응원가·영상 설명·댓글의 전문은 저장하지 않는다. 가사는 구조와 주제만 요약하고 공개 댓글은 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "unist-a-right-right",
+      "title": "맞아, 맞아",
+      "aliases": ["맞아맞아", "오 내 사랑 유니스트", "오 내사랑 유니스트"],
+      "currentStatus": "historically-verified-as-right-right-in-2019; current-related-routine-under-oh-my-love-unist-directly-verified-through-2026-but-alias-relationship-unconfirmed",
+      "summary": "UNIST 공식 소식지 2019년 가을호가 유니크의 참여형 응원가 가운데 하나를 ‘맞아, 맞아’라고 부르고, 관객에게 일어나 옆 사람과 어깨동무하라고 요청하는 대표 장면을 소개한다. 그러나 유니크 공식 유튜브 채널에는 이 제목의 곡별 영상이 없고, 2016년부터 2026년까지 같은 학교 참여형 응원 순서는 일관되게 ‘오 내 사랑 유니스트’로 게시된다. 같은 2019년에도 소식지는 ‘맞아, 맞아’, 공식 채널은 ‘오 내 사랑 유니스트’를 동시에 사용했기 때문에 단순 개명이라기보다 후렴·통칭과 공식 영상명이 병존했을 가능성이 크다. 두 이름이 같은 곡이라는 제작 당사자 자료는 찾지 못해 별칭 관계와 ‘맞아, 맞아’라는 정확한 제목의 현행성은 미확정으로 남긴다.",
+      "claims": [
+        {
+          "field": "officialMagazineTitle",
+          "value": "2019 UNIST Magazine은 응원가 이름을 ‘맞아, 맞아’로 표기",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-unist-a-magazine-2019"],
+          "notes": "학교 공식 소식지 28~29쪽의 유니크 인터뷰가 곡명을 직접 적고 관객 참여 멘트를 설명한다."
+        },
+        {
+          "field": "officialChannelTitle",
+          "value": "유니크 공식 채널은 2016~2026 연속 공연을 ‘오 내 사랑 유니스트’로 표기",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-unist-a-love-unistadium-2016", "yt-unist-a-love-raonnuri-2017", "yt-unist-a-love-raonnuri-2018", "yt-unist-a-love-raonnuri-2019", "yt-unist-a-love-uniplex-2022", "yt-unist-a-love-ot-2024", "yt-unist-a-love-ot-2026"],
+          "notes": "띄어쓰기와 쉼표 차이는 있지만 곡명 핵심은 장기간 일관된다."
+        },
+        {
+          "field": "titleRelationship",
+          "value": "‘맞아, 맞아’와 ‘오 내 사랑 유니스트’가 같은 참여형 레퍼토리를 가리킬 가능성이 높으나 직접 확인 문서 없음",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-unist-a-magazine-2019", "yt-unist-a-love-spring-2019", "yt-unist-a-love-raonnuri-2019", "ev-unist-a-youtube-search-audit"],
+          "notes": "2019년 같은 시기에 공식 소식지와 응원단 채널의 명칭이 다르다. 소식지의 어깨동무·관객 참여 설명과 채널의 응원가 역할은 맞지만, 동일곡·별칭·후렴명 중 무엇인지 명시한 자료가 없다."
+        },
+        {
+          "field": "exactTitleCurrentUse",
+          "value": "‘맞아, 맞아’라는 정확한 제목은 2019 학교 소식지 이후 직접 확인되지 않음",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-unist-a-magazine-2019", "ev-unist-a-youtube-search-audit", "ev-unist-a-inventory"],
+          "notes": "인벤토리는 현행 확정으로 두었지만 이번 심층 조사에서는 정확 제목의 2020년대 공식 표본을 찾지 못했다."
+        },
+        {
+          "field": "relatedRoutineCurrentUse",
+          "value": "‘오 내 사랑 유니스트’는 2026 신입생 OT까지 공식 공연 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-unist-a-love-ot-2025", "yt-unist-a-love-spring-2025", "yt-unist-a-love-stadium-2025", "yt-unist-a-love-fall-2025", "yt-unist-a-love-ot-2026", "ev-unist-a-official-admission-2025"],
+          "notes": "두 이름의 동일성이 확인될 경우 현행 근거가 되지만, 현재는 관련 루틴의 현행성으로만 기록한다."
+        },
+        {
+          "field": "earliestDirectlyConfirmedRelatedUse",
+          "value": "2016 유니스타디움 ‘오 내 사랑 유니스트’ 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-unist-a-love-unistadium-2016"],
+          "notes": "영상은 2017-03-01 게시됐으며 제목이 행사연도를 2016으로 특정한다. ‘맞아, 맞아’라는 명칭의 도입연도는 아니다."
+        },
+        {
+          "field": "teamHistory",
+          "value": "UNICH는 2010년 창단된 UNIST 대표 응원단",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-unist-a-magazine-2019", "ev-unist-a-umff-2025"],
+          "notes": "학교 소식지와 2025 울주세계산악영화제 공식 소개가 같은 연도를 제시한다. 곡의 제작연도와 같다는 뜻은 아니다."
+        },
+        {
+          "field": "creatorsAndOriginal",
+          "value": "작사·작곡·편곡자, 원곡 또는 창작곡 여부 모두 미확인",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-unist-a-magazine-2019", "ev-unist-a-namu-general-gap", "ev-unist-a-namu-cheer-missing", "ev-unist-a-youtube-search-audit"],
+          "notes": "공식 소식지와 영상 설명에는 창작자·원곡·권리 정보가 없고, 나무위키에도 곡별 문서가 없다."
+        },
+        {
+          "field": "documentedRelatedContinuity",
+          "value": "2016·2017·2018·2019·2022·2023·2024·2025·2026 ‘오 내 사랑 유니스트’ 공식 영상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-unist-a-love-unistadium-2016", "yt-unist-a-love-raonnuri-2017", "yt-unist-a-love-raonnuri-2018", "yt-unist-a-love-spring-2019", "yt-unist-a-love-raonnuri-2019", "yt-unist-a-love-uniplex-2022", "yt-unist-a-love-munsu-2023", "yt-unist-a-love-stadium-2024", "yt-unist-a-love-fall-2025", "yt-unist-a-love-ot-2026"],
+          "notes": "2020·2021 공백은 감염병기 행사 축소와 검색·게시 공백 가능성이 있어 비사용으로 해석하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "2019 학교 소식지에 따르면 공연 중 관객에게 자리에서 일어나 옆 사람과 어깨동무해 달라고 요청해 처음 만난 학생들을 한 무대로 묶는 참여형 응원가다.",
+        "관련 공식 채널 레퍼토리 ‘오 내 사랑 유니스트’는 신입생 OT, 봄·가을 축제, 유니스타디움·STadium, 라온누리, 문수응원대제전에서 반복 공연된다.",
+        "입학식·교내 체육 및 응원행사뿐 아니라 지역 축제와 외부 초청 무대까지 활동하는 UNICH의 학교 정체성 순서로 기능한다."
+      ],
+      "trivia": [
+        {
+          "id": "unist-same-year-title-conflict",
+          "summary": "2019년 공식 학교 소식지는 ‘맞아, 맞아’라고 적었지만 같은 해 유니크 공식 채널의 봄축제·라온누리 영상은 ‘오 내 사랑 유니스트’라고 적었다. 시간순 개명만으로 설명하기 어려운 동시대 명칭 충돌이다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-unist-a-magazine-2019", "yt-unist-a-love-spring-2019", "yt-unist-a-love-raonnuri-2019"]
+        },
+        {
+          "id": "unist-participation-origin-story",
+          "summary": "2019 인터뷰에서 당시 단장은 이 곡의 어깨동무 안내로 처음 보는 학생들이 하나가 되는 모습을 보고 UNISTAR가 됐다는 실감을 느꼈고, 그 경험이 유니크 입단 계기였다고 회고했다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-unist-a-magazine-2019"]
+        },
+        {
+          "id": "unist-video-duration-change",
+          "summary": "관련 공식 영상은 2016 유니스타디움 293초, 2017 두 곡 묶음 536초, 2018~2019 라온누리 185~211초에서 2024~2026 곡별 영상 79~101초로 짧아졌다. 공연 자체 축약인지 편집 방식 변화인지는 미확인이다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-unist-a-love-unistadium-2016", "yt-unist-a-love-raonnuri-2017", "yt-unist-a-love-raonnuri-2018", "yt-unist-a-love-raonnuri-2019", "yt-unist-a-love-ot-2024", "yt-unist-a-love-spring-2025", "yt-unist-a-love-ot-2026"]
+        },
+        {
+          "id": "unist-sparse-comments",
+          "summary": "조사한 공식 영상 대부분은 공개 댓글이 비어 있었다. 댓글이 확인된 2023·2024 영상도 멋지다·최고라는 짧은 응원 위주여서 곡의 연혁이나 명칭 관계를 뒷받침하지 못한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-unist-a-love-stadium-2023", "yt-unist-a-love-munsu-2023", "yt-unist-a-love-stadium-2024"]
+        },
+        {
+          "id": "unist-title-orthography",
+          "summary": "공식 영상 제목은 ‘오 내사랑’, ‘오 내 사랑’, ‘오, 내 사랑’을 병용한다. 대표 별칭은 최근 제목의 쉼표·띄어쓰기형으로 두고 나머지를 검색 별칭으로 보존했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-unist-a-love-raonnuri-2017", "yt-unist-a-love-raonnuri-2018", "yt-unist-a-love-stadium-2024", "yt-unist-a-love-ot-2025"]
+        },
+        {
+          "id": "unist-wiki-and-search-gap",
+          "summary": "나무위키에는 울산과학기술원 응원가 별도 문서가 없고 일반 문서에서도 곡과 유니크 항목을 찾지 못했다. 유튜브 정확 제목 검색도 ‘맞아, 맞아’ 곡별 영상을 반환하지 않아 공식 소식지와 채널 자료의 충돌을 해소하지 못했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-unist-a-namu-general-gap", "ev-unist-a-namu-cheer-missing", "ev-unist-a-youtube-search-audit"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyright status undetermined; lyricist, composer, arranger, source-song relationship, choreography, recording ownership and permission are undocumented",
+        "sourceUrls": [
+          "https://webzine.unist.ac.kr/pdf/unist_No.34.pdf",
+          "https://www.youtube.com/watch?v=aabSRmXLyds",
+          "https://www.youtube.com/watch?v=Mu_vxNJX4MM"
+        ],
+        "structureSummary": "접근 가능한 공식 텍스트는 2019 소식지의 곡명과 공연 전 어깨동무 안내뿐이며, 공식 영상 설명에는 가사가 없다. 따라서 학교 사랑을 표방하는 반복형 참여곡이라는 범위만 기록하고 정확한 절·후렴·구호 순서는 전사하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-unist-a-love-unistadium-2016",
+        "yt-unist-a-love-raonnuri-2017",
+        "yt-unist-a-love-raonnuri-2018",
+        "yt-unist-a-love-spring-2019",
+        "yt-unist-a-love-raonnuri-2019",
+        "yt-unist-a-love-uniplex-2022",
+        "yt-unist-a-love-stadium-2023",
+        "yt-unist-a-love-munsu-2023",
+        "yt-unist-a-love-ot-2024",
+        "yt-unist-a-love-stadium-2024",
+        "yt-unist-a-love-ot-2025",
+        "yt-unist-a-love-spring-2025",
+        "yt-unist-a-love-stadium-2025",
+        "yt-unist-a-love-fall-2025",
+        "yt-unist-a-love-ot-2026"
+      ],
+      "unresolved": [
+        "‘맞아, 맞아’와 ‘오 내 사랑 유니스트’가 동일곡·후렴명·통칭·별개곡 중 무엇인지에 대한 제작 당사자 확인",
+        "‘맞아, 맞아’라는 정확한 명칭의 2020년대 현행 사용 여부",
+        "두 명칭이 병존하게 된 시점과 공식 표기 변경 또는 행사별 명명 규칙",
+        "작사·작곡·편곡자와 원곡 또는 창작곡 여부",
+        "도입·초연 행사와 2016년 이전 사용 기록",
+        "공인 가사·악보·응원법과 연도별 편곡·안무 변화",
+        "음원·공연·영상·안무의 권리 주체와 이용 허락 범위",
+        "공식 채널에서 ‘맞아, 맞아’ 정확 제목 영상이 검색되지 않는 이유",
+        "2016~2019 장편과 2024~2026 단편 영상의 길이 차이가 공연 축약인지 편집 차이인지"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-unist-a-inventory",
+      "type": "internal-inventory",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/universities.md#unist--unich유니크",
+      "title": "대학 응원단·현행 응원가 인벤토리 — UNIST",
+      "publisher": "project research",
+      "publishedAt": "2026-08-08",
+      "accessedAt": "2026-08-09",
+      "summary": "UNIST 현행 확정곡을 ‘맞아, 맞아’ 한 곡으로 제시한다. 이번 심층 조사에서 정확 제목의 최근 직접 표본이 없어 현행 판정 재검토가 필요하다.",
+      "supports": ["unist-a-right-right"]
+    },
+    {
+      "id": "ev-unist-a-magazine-2019",
+      "type": "official-magazine",
+      "url": "https://webzine.unist.ac.kr/pdf/unist_No.34.pdf",
+      "title": "UNIST Magazine No.34 — UNIST를 하나로 만드는 에너자이저 ‘유니크’ 응원단",
+      "publisher": "UNIST",
+      "publishedAt": "2019-autumn",
+      "accessedAt": "2026-08-09",
+      "summary": "유니크를 2010년 창단된 교내 유일 응원단으로 소개하고, 응원가 ‘맞아, 맞아’ 때 관객에게 일어나 옆 사람과 어깨동무하라고 안내해 처음 보는 사람들을 하나로 묶는다고 단장 인터뷰를 싣는다.",
+      "supports": ["unist-a-right-right"]
+    },
+    {
+      "id": "ev-unist-a-official-admission-2025",
+      "type": "official",
+      "url": "https://www.unist.ac.kr/unist/center/news.do?article.offset=0&articleLimit=9&articleNo=244556&mode=view",
+      "title": "[2025 입학식] 498명 신입생, UNIST서 첫발",
+      "publisher": "UNIST",
+      "publishedAt": "2025-02-21",
+      "accessedAt": "2026-08-09",
+      "summary": "2025 입학식에서 응원동아리 유니크가 신입생 환영 공연을 펼쳤고 교학부총장과 합동 특별무대도 했다고 기록한다. 곡명은 특정하지 않는다.",
+      "supports": ["unist-a-right-right"]
+    },
+    {
+      "id": "ev-unist-a-umff-2025",
+      "type": "official-festival",
+      "url": "https://www.umff.kr/kor/addon/00000001/program_view.asp?QueryStep=2&QueryType=B&QueryYear=2025&c_idx=243&m_idx=102376",
+      "title": "유니크 UNICH — 울주세계산악영화제 거리공연",
+      "publisher": "울주세계산악영화제",
+      "publishedAt": "2025",
+      "accessedAt": "2026-08-09",
+      "summary": "UNICH를 2010년 창단 이래 입학식·체육대회·연합공연·외부 무대에서 관객과 호흡해 온 UNIST 대표 응원단으로 소개한다.",
+      "supports": ["unist-a-right-right"]
+    },
+    {
+      "id": "ev-unist-a-namu-general-gap",
+      "type": "editorial-wiki-gap",
+      "url": "https://namu.wiki/w/%EC%9A%B8%EC%82%B0%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90",
+      "title": "울산과학기술원",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "접근한 일반 문서에서 유니크·맞아, 맞아·오 내 사랑 유니스트·응원가에 해당하는 곡별 정보를 찾지 못했다.",
+      "supports": ["unist-a-right-right"]
+    },
+    {
+      "id": "ev-unist-a-namu-cheer-missing",
+      "type": "editorial-wiki-gap",
+      "url": "https://namu.wiki/w/%EC%9A%B8%EC%82%B0%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "울산과학기술원/응원가 — 문서 없음",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "접근 시 해당 문서가 존재하지 않아 곡명 관계·제작자·원곡·연혁을 나무위키로 교차검증할 수 없었다.",
+      "supports": ["unist-a-right-right"]
+    },
+    {
+      "id": "ev-unist-a-youtube-search-audit",
+      "type": "search-audit",
+      "url": "https://www.youtube.com/results?search_query=UNIST+%EB%A7%9E%EC%95%84+%EB%A7%9E%EC%95%84+%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "YouTube 정확 제목·공식 채널 검색 감사",
+      "publisher": "YouTube search",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "‘UNIST 맞아 맞아’, ‘UNICH 맞아 맞아’, 연도·라온누리 조합으로 반복 검색했으나 정확 제목 곡별 영상은 찾지 못했다. 반면 공식 UNICH 채널의 ‘오 내 사랑 유니스트’는 2016~2026 연속 표본이 검색됐다.",
+      "supports": ["unist-a-right-right"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-unist-a-love-unistadium-2016",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=z1dUoBDpIaE",
+      "videoId": "z1dUoBDpIaE",
+      "title": "[유니스트응원단 UNICH] 2016 유니스타디움 - 응원가 ‘오 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2017-02-28T22:33:23-08:00",
+      "descriptionSummary": "공개 설명은 비어 있으나 제목이 2016 유니스타디움의 오 내 사랑 유니스트 공연을 특정한다. 4분 53초로 후대 곡별 편집보다 길다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestRelatedUse2016", "titleOhMyLove"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-raonnuri-2017",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=K2P31pgMEVs",
+      "videoId": "K2P31pgMEVs",
+      "title": "[유니스트 응원단 UNICH] 2017 라온누리 - 응원가 ‘승리를 향하여’ & ‘오 내사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2017-10-29T07:27:17-07:00",
+      "descriptionSummary": "UNISTATION이 연출한 2017 라온누리 두 응원가 묶음 영상으로 오 내사랑 유니스트를 공식 제목에 포함한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["continuity2017", "titleOhMyLove"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-raonnuri-2018",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=X0740XZmZYY",
+      "videoId": "X0740XZmZYY",
+      "title": "[UNIST 응원단 UNICH] 2018 라온누리 - 응원가 ‘오 내사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2019-01-30T09:45:11-08:00",
+      "descriptionSummary": "공개 설명은 비어 있으나 제목이 2018 라온누리의 곡별 응원가 무대를 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["continuity2018", "titleOhMyLove"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-spring-2019",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=y7ipv7B5CKw",
+      "videoId": "y7ipv7B5CKw",
+      "title": "[UNIST 응원단 UNICH] 2019 봄축제 ‘오 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2019-05-23T07:47:19-07:00",
+      "descriptionSummary": "공개 설명은 비어 있으나 제목이 2019 봄축제에서의 오 내 사랑 유니스트 무대를 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["sameYearTitleConflict2019", "springFestival2019"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-raonnuri-2019",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=aabSRmXLyds",
+      "videoId": "aabSRmXLyds",
+      "title": "[UNIST 응원단 UNICH] 2019 라온누리 응원가 ‘오 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2019-11-10T06:16:48-08:00",
+      "descriptionSummary": "제목과 설명이 모두 2019 라온누리 응원가를 오 내 사랑 유니스트로 표기해 같은 해 학교 소식지의 맞아, 맞아 명칭과 충돌한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["sameYearTitleConflict2019", "raonnuri2019"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-uniplex-2022",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=J8NDml4ijCo",
+      "videoId": "J8NDml4ijCo",
+      "title": "[UNIST 응원단 UNICH] 2022 가을축제 ‘UNIPLEX’ - 응원가 ‘오 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2023-02-08T23:32:35-08:00",
+      "descriptionSummary": "제목과 설명이 2022 가을축제 UNIPLEX의 곡별 응원가 무대로 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["continuity2022", "fallFestival2022"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-stadium-2023",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=5WwEocAGGII",
+      "videoId": "5WwEocAGGII",
+      "title": "[UNIST 응원단 UNICH] 2023 STadium 스타디움 - 응원가 ‘오 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2023-11-13T23:43:49-08:00",
+      "descriptionSummary": "공개 설명은 비어 있으나 제목이 2023 STadium의 곡별 응원가 무대를 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["무대를 멋지다고 평가한 짧은 댓글이 확인된다."],
+      "supports": ["continuity2023", "stadium2023"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-munsu-2023",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=GLm7MNGwXOg",
+      "videoId": "GLm7MNGwXOg",
+      "title": "[UNIST 응원단 UNICH] 2023 문수응원대제전 - 응원가 ‘오 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2023-10-06T10:09:57-07:00",
+      "descriptionSummary": "공개 설명은 비어 있으나 제목이 2023 문수응원대제전의 곡별 응원가 무대를 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["축하 이모지로 호응한 짧은 댓글이 확인된다."],
+      "supports": ["continuity2023", "munsuFestival2023"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-ot-2024",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=WalBiB9L8gI",
+      "videoId": "WalBiB9L8gI",
+      "title": "[UNIST 응원단 UNICH] 2024 OT 동아리 공연 응원가 - ‘오 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2024-02-25T23:22:31-08:00",
+      "descriptionSummary": "공개 설명은 비어 있으나 제목이 2024 신입생 OT 동아리 공연의 곡별 응원가 무대를 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["continuity2024", "freshmanUse2024"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-stadium-2024",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=qZMxAmW7ddg",
+      "videoId": "qZMxAmW7ddg",
+      "title": "[UNIST 응원단 UNICH] 2024 STadium - 응원가 ‘오, 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2024-11-11T06:55:38-08:00",
+      "descriptionSummary": "UNIST·울산과학기술원·대학교응원단·치어리딩 태그를 단 2024 STadium 곡별 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["제목을 되풀이하며 응원단이 멋지고 최고라는 짧은 호평이 있다."],
+      "supports": ["continuity2024", "stadium2024", "titlePunctuation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-ot-2025",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=pXduXhu42gc",
+      "videoId": "pXduXhu42gc",
+      "title": "[UNIST 응원단 UNICH] 2025 OT 동아리 공연-응원가 ‘오, 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2025-03-21T12:34:59-07:00",
+      "descriptionSummary": "2025 OT 곡별 무대이며 UNIST·UNICH·치어리딩 태그와 사진 출처 Studio INGAM을 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["relatedCurrentUse2025", "freshmanUse2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-spring-2025",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=SDBx742Rn-Y",
+      "videoId": "SDBx742Rn-Y",
+      "title": "[UNIST 응원단 UNICH] 2025 봄축제 ‘universe’ - 응원가 ‘오, 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2025-09-01T09:06:13-07:00",
+      "descriptionSummary": "2025 봄축제 universe 곡별 무대이며 UNIST·응원단 태그와 Studio INGAM x universe 사진 출처를 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["relatedCurrentUse2025", "springFestival2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-stadium-2025",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=04QU5CQpsC8",
+      "videoId": "04QU5CQpsC8",
+      "title": "[UNIST 응원단 UNICH] 2025 STadium - 응원가 ‘오 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2025-11-14T13:39:02-08:00",
+      "descriptionSummary": "2025 STadium 곡별 영상이며 UNIST·울산과학기술원·대학교 응원단 태그를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["relatedCurrentUse2025", "stadium2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-fall-2025",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=vlgIsLOYBGM",
+      "videoId": "vlgIsLOYBGM",
+      "title": "[UNIST 응원단 UNICH] 2025 가을축전 - 응원가 ‘오, 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2025-10-04T11:58:33-07:00",
+      "descriptionSummary": "2025 가을축전 곡별 무대이며 UNIST·울산과학기술원·응원단 태그를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["relatedCurrentUse2025", "fallFestival2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-unist-a-love-ot-2026",
+      "songId": "unist-a-right-right",
+      "url": "https://www.youtube.com/watch?v=Mu_vxNJX4MM",
+      "videoId": "Mu_vxNJX4MM",
+      "title": "[UNIST 응원단 UNICH] 2026 OT 동아리 공연-응원가 ‘오, 내 사랑 유니스트’",
+      "channel": "유니스트 응원단 UNICH",
+      "publishedAt": "2026-03-17T02:15:19-07:00",
+      "descriptionSummary": "2026 신입생 OT 곡별 무대이며 UNIST·UNICH·치어리딩 태그와 촬영 주체 UNISTATION을 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["relatedCurrentUse2026", "freshmanUse2026"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 1,
+    "youtubeSampleCount": 15,
+    "songsMeetingYoutubeMinimum": 1,
+    "openIssueCount": 9
+  }
+}

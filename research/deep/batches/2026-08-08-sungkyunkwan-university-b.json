@@ -1,0 +1,781 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-sungkyunkwan-university-b",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-sungkyunkwan",
+    "name": "성균관대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 역사·사용법·수용을 확인하는 데 필요한 내용만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "sungkyunkwan-university-dawn",
+      "title": "여명",
+      "aliases": ["성대 여명", "킹고 여명"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-festival",
+      "summary": "킹고응원단이 최근 공식 영상에서 2011년 곡으로 표기하는 성균관대학교 응원가다. 2014년 신입생 OT부터 2015 웰컴파티, 2016 인사캠·2019 율전 대동제, 2024·2025 ESKARA, 2026 응원 OT·문행대동제까지 장기 사용이 직접 확인된다. 공식 응원법 가이드는 이 곡을 Chapter 8로 다루고, 공개 댓글에서는 따라 하기 쉽고 대표곡으로 삼고 싶다는 반응이 보인다. 다만 상업 원곡, 최초 작사·작곡·편곡자와 2011년 최초 공개 행사는 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2011년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-dawn-2025-eskara", "yt-skku-b-dawn-2026-ot", "yt-skku-b-dawn-2026-festival"],
+          "notes": "2025·2026 공식 곡별 영상이 제목 또는 설명에 반복해서 2011을 표시한다. 2011년 당시의 최초 공개 자료는 아직 확보하지 못했으므로 정확한 날짜는 별도 미해결로 둔다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026년 상반기 응원 OT와 2026-05-15 문행대동제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-dawn-2026-ot", "yt-skku-b-dawn-2026-festival", "ev-skku-b-2026-ot-program", "ev-skku-b-2026-festival-program"],
+          "notes": "응원 교육·본 공연과 통합 대동제 곡별 영상에서 모두 직접 확인된다."
+        },
+        {
+          "field": "documentedUseSpan",
+          "value": "2014년 신입생 OT부터 2026년 문행대동제까지 공개 공식 표본이 이어짐",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-dawn-2014-ot", "yt-skku-b-dawn-2015-welcome", "yt-skku-b-dawn-2016-festival", "yt-skku-b-dawn-2019-festival", "yt-skku-b-dawn-2024-eskara", "yt-skku-b-dawn-2025-eskara", "yt-skku-b-dawn-2026-ot", "yt-skku-b-dawn-2026-festival"],
+          "notes": "공개 영상이 없는 해의 개별 행사 사용까지 연속적이었다고 단정하지는 않는다."
+        },
+        {
+          "field": "sourceLineage",
+          "value": "확인한 공식 곡별 영상·응원법 가이드에는 상업 원곡이나 최초 제작진이 표기되지 않음",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-skku-b-dawn-2014-ot", "yt-skku-b-dawn-guide-2024", "yt-skku-b-dawn-2025-eskara", "ev-skku-b-linktree"],
+          "notes": "원곡 미표기는 자작곡이라는 증거가 아니다. 자동 음악 식별과 한·영 검색에서도 신뢰할 만한 대응곡을 얻지 못해 자작·번안 여부를 미확정으로 남긴다."
+        }
+      ],
+      "usageContexts": [
+        "수시·전체 OT와 웰컴파티에서 신입생에게 학교 응원 문화를 소개하는 곡으로 사용됐다.",
+        "인문사회과학캠퍼스와 자연과학캠퍼스 대동제, ESKARA, 통합 문행대동제에서 모두 공연돼 양 캠퍼스를 가로지르는 레퍼토리로 확인된다.",
+        "2024 공식 가이드에서 별도 Chapter 8로 동작을 교육하고, 2026 응원 OT에서는 교육 직후 본 공연과 피날레에 다시 배치했다.",
+        "2016 인사캠 대동제 영상의 진행 멘트는 이 곡을 당시 공연의 마지막 곡으로 소개해 피날레 용례도 보여준다."
+      ],
+      "trivia": [
+        {
+          "id": "dawn-hope-framing",
+          "summary": "2014년 공식 영상 설명은 곡을 ‘희망의 빛’이라는 이미지로 소개한다. 이후 제목의 새벽 이미지와 전진·열정 중심의 노래 주제가 결합돼 장중한 고조곡으로 기능한다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-dawn-2014-ot", "yt-skku-b-dawn-2025-eskara"]
+        },
+        {
+          "id": "dawn-representative-song-reception",
+          "summary": "2019 현장 영상과 2024 응원법 가이드의 공개 댓글에서는 이 곡이 성균관대답고 쉽게 따라 할 수 있다며 세대가 함께 부르는 대표곡이 되길 바란다는 반응이 각각 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-dawn-2019-festival", "yt-skku-b-dawn-guide-2024"]
+        },
+        {
+          "id": "dawn-cross-campus-history",
+          "summary": "2016 인사캠 대동제와 2019 율전 대동제라는 서로 다른 캠퍼스 표본이 남아 있고, 2026 통합 문행대동제에서도 다시 공연됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-dawn-2016-festival", "yt-skku-b-dawn-2019-festival", "yt-skku-b-dawn-2026-festival"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "modern university cheer song; author, composer, arranger, adaptation status, and reuse permissions are not documented in the reviewed official sources",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=drLq_CVJsIE",
+          "https://www.youtube.com/watch?v=3RBUSWVOKCU",
+          "https://www.youtube.com/watch?v=Qfsj86fEoCk",
+          "https://www.youtube.com/watch?v=_WXaVWEQTlY"
+        ],
+        "structureSummary": "공식 2025 영상이 1절과 2절을 구분한다. 희망과 전진, 성균 공동체의 열정을 전개하는 절 뒤에 관중이 함께 외치는 반복 합창이 돌아오며, 현장에서는 어깨동무·점프와 결합해 장중하게 고조된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-b-dawn-2014-ot",
+        "yt-skku-b-dawn-2015-welcome",
+        "yt-skku-b-dawn-2016-festival",
+        "yt-skku-b-dawn-2019-festival",
+        "yt-skku-b-dawn-guide-2024",
+        "yt-skku-b-dawn-2024-eskara",
+        "yt-skku-b-dawn-2025-eskara",
+        "yt-skku-b-dawn-2026-ot",
+        "yt-skku-b-dawn-2026-festival"
+      ],
+      "unresolved": [
+        "2011년 최초 공개 행사·날짜를 확인할 동시대 프로그램 또는 영상",
+        "최초 작사·작곡·편곡자와 이후 편곡 개정 이력",
+        "상업 원곡이 없는 완전 자작곡인지 여부",
+        "현행 가사·편곡·녹음·영상의 재사용 권리 범위"
+      ]
+    },
+    {
+      "id": "sungkyunkwan-university-love-sungdae",
+      "title": "성대를 사랑해",
+      "aliases": ["성대 사랑해", "성대를 사랑해요"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-festival",
+      "summary": "현재 킹고응원단이 2014년 곡으로 표기하는 사랑·소속감 중심 응원가다. 다만 2015년 2월 총OT 영상 설명은 이를 ‘2015 신곡’이라고 불러 도입 연도 표기가 상충한다. 반복되는 최근 공식 연도 표기를 기준값 2014로 두되, 15학번 시즌을 가리킨 표현인지 실제 2015년 공개였는지는 별도 보존했다. 2024 공식 가이드는 관중이 중간 문구를 따라 외치고 잔잔해지는 구간을 목소리로 채우는 참여법을 설명하며, 2026 응원 OT와 문행대동제까지 현재 사용이 확인된다. 상업 원곡·최초 제작진은 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2014년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-love-2025-eskara", "yt-skku-b-love-2026-ot", "yt-skku-b-love-2026-festival"],
+          "notes": "2025·2026 공식 곡별 영상 세 편이 모두 2014로 표기한다. 현재 데이터의 기준값은 이 반복된 최신 공식 표기를 따른다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2015년 신곡이라는 동시기 표기",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-love-2015-ot", "yt-skku-b-love-2025-eskara", "yt-skku-b-love-2026-ot"],
+          "notes": "2015-02-11 총OT 영상 설명은 ‘2015 신곡’이라고 직접 쓴다. 2014년 말 제작·도입 후 15학번 대상 신곡으로 홍보한 것일 수 있지만 공식 설명은 없으므로 충돌을 제거하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026년 상반기 응원 OT와 2026-05-15 문행대동제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-love-2026-ot", "yt-skku-b-love-2026-festival", "ev-skku-b-2026-ot-program", "ev-skku-b-2026-festival-program"],
+          "notes": "2026 공식 프로그램과 곡별 영상이 일치한다."
+        },
+        {
+          "field": "participationDesign",
+          "value": "중간 구절 선창·후창과 잔잔한 구간의 관중 합창을 결합",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-love-guide-2024"],
+          "notes": "공식 가이드가 관중이 중간 문구를 따라 외치고, 곡이 잔잔해지는 부분을 목소리로 채우라고 직접 교육한다."
+        },
+        {
+          "field": "sourceLineage",
+          "value": "확인한 공식 영상에는 상업 원곡·최초 작사·작곡·편곡자 표기가 없음",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-skku-b-love-2015-ot", "yt-skku-b-love-guide-2024", "yt-skku-b-love-2025-eskara", "ev-skku-b-linktree"],
+          "notes": "공식 자료의 원곡 미표기만으로 자작곡이라고 단정하지 않는다. 제목·가사 검색과 자동 음악 식별에서도 신뢰할 만한 상업 원곡을 확정하지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "2015 총OT에서 새내기 대상 신곡으로 소개됐고, 이후 대동제와 ESKARA의 정규 합창곡으로 반복됐다.",
+        "2022년에는 율전과 명륜 대동제 각각의 공식 곡별 영상이 남아 양 캠퍼스 공연을 직접 보여준다.",
+        "공식 응원법 가이드에서는 관중이 선창 뒤 학교 사랑 문구를 함께 외치고, 반주가 잔잔해지는 부분을 떼창으로 채우도록 교육한다.",
+        "2026 응원 OT에서는 교육과 본 공연에, 문행대동제에서는 9곡 공식 플레이리스트와 현장 세트에 포함됐다."
+      ],
+      "trivia": [
+        {
+          "id": "love-year-label-conflict",
+          "summary": "곡 연도는 최근 공식 영상의 2014와 동시기 2015 총OT 설명의 ‘2015 신곡’이 충돌한다. 2014년 제작·2015학년도 홍보라는 해석이 가능하지만 현재는 추론으로만 남긴다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-love-2015-ot", "yt-skku-b-love-2025-eskara", "yt-skku-b-love-2026-festival"]
+        },
+        {
+          "id": "love-two-campus-2022",
+          "summary": "같은 2022년 5월에 율전과 명륜 대동제의 별도 영상이 게시돼, 한 캠퍼스에만 한정되지 않은 사용을 잘 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-love-2022-yuljeon", "yt-skku-b-love-2022-myeongnyun"]
+        },
+        {
+          "id": "love-quiet-section",
+          "summary": "빠른 구호만 반복하는 곡이 아니라 반주가 잔잔해지는 구간을 관중의 목소리로 채우도록 설계됐다는 점을 공식 가이드가 강조한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-love-guide-2024"]
+        },
+        {
+          "id": "love-comment-reception",
+          "summary": "2022 영상 댓글에서는 학교 사랑을 직접 표현하는 반응이, 2025 영상에서는 제작 품질 향상과 졸업생 정체성을 언급하는 반응이 나타난다. 일부 대학 간 비방성 답글은 사실 자료에서 제외했다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-love-2022-yuljeon", "yt-skku-b-love-2025-eskara"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "modern university cheer song; author, composer, arranger, source-song status, and reuse permissions are not documented in the reviewed official sources",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=wAmRg2yLjiA",
+          "https://www.youtube.com/watch?v=bfia6tm0yu0",
+          "https://www.youtube.com/watch?v=Cg2Apue7eig",
+          "https://www.youtube.com/watch?v=U5tLx_cZXA8"
+        ],
+        "structureSummary": "공식 2025 영상은 1절과 2절을 구분한다. 학교에 대한 사랑을 반복하는 합창 사이에 관중이 짧은 문구를 되받는 구간이 있고, 중간의 잔잔한 반주에서는 관중 떼창이 전면에 나오도록 공식 가이드가 안내한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-b-love-2015-ot",
+        "yt-skku-b-love-2016-festival",
+        "yt-skku-b-love-official-2021",
+        "yt-skku-b-love-2022-yuljeon",
+        "yt-skku-b-love-2022-myeongnyun",
+        "yt-skku-b-love-guide-2024",
+        "yt-skku-b-love-2025-eskara",
+        "yt-skku-b-love-2026-ot",
+        "yt-skku-b-love-2026-festival"
+      ],
+      "unresolved": [
+        "2014와 2015 연도 표기의 차이를 설명할 제작·초연 기록",
+        "최초 작사·작곡·편곡자와 이후 개정 이력",
+        "상업 원곡이 없는 완전 자작곡인지 여부",
+        "가사·편곡·녹음·공연 영상의 재사용 권리 범위"
+      ]
+    },
+    {
+      "id": "sungkyunkwan-university-sungdae-man",
+      "title": "성대맨",
+      "aliases": ["성대맨 응원가", "성균관대 슈퍼맨"],
+      "currentStatus": "recent-use-directly-verified-at-2025-eskara-current-status-needs-review",
+      "summary": "노라조의 2008년 곡 ‘슈퍼맨’을 바탕으로 2025 ESKARA에서 사용한 번안 응원가다. 공식 곡별 영상은 제목에 2025를, 해시태그에 노라조와 슈퍼맨을 직접 표시하며, 14곡 전체 세트와 ‘봉지응원’ 모음에서도 성대맨 구간을 확인할 수 있다. 공개 댓글은 개사 사실, 학교 응원문화의 성장, 양 캠퍼스 관계로 읽히는 메시지에 반응한다. 다만 확인한 2026 공식 응원 OT·문행대동제 세트에는 곡명이 없어, 인벤토리의 현행 분류와 2025의 직접 사용 사이를 구분해 현재 상태를 재검토 대상으로 남겼다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2025년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-sungdae-man-2025", "yt-skku-b-sungdae-man-fullset-2025"],
+          "notes": "공식 곡별 영상이 2025를 직접 표기하고 2025 ESKARA 전체 세트에 포함한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "노라조 ‘슈퍼맨’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-sungdae-man-2025", "yt-skku-b-norazo-superman-audio", "ev-skku-b-apple-norazo"],
+          "notes": "성대맨 공식 영상의 노라조·슈퍼맨 표기와 배급사 공식 음원·음원 카탈로그가 일치한다."
+        },
+        {
+          "field": "originalSongRelease",
+          "value": "2008-11-20, 노라조 정규 앨범 《Three GO》 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-norazo-superman-audio", "ev-skku-b-apple-norazo"],
+          "notes": "배급사 공식 오디오 설명과 Apple Music의 발매 메타데이터를 교차 확인했다."
+        },
+        {
+          "field": "arrangementLineage",
+          "value": "원곡의 빠른 대중가요 골격을 유지하고 학교 정체성 중심의 가사와 현장 동작으로 바꾼 응원가 번안",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-sungdae-man-2025", "yt-skku-b-sungdae-man-bag-mix", "yt-skku-b-norazo-superman-audio"],
+          "notes": "공식 원곡 표기와 두 녹음의 대응, 댓글의 개사 인지가 근거다. 성균관대판 개사·편곡자의 개인 크레딧은 공개되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 ESKARA 사용은 직접 확인되지만 확인한 2026 공식 응원 OT·문행대동제 세트에는 미수록",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-sungdae-man-2025", "yt-skku-b-sungdae-man-fullset-2025", "ev-skku-b-2026-ot-program", "ev-skku-b-2026-festival-program", "ev-skku-b-2026-festival-fullset"],
+          "notes": "2026 표본의 누락이 곧 폐기나 비현행을 뜻하지는 않는다. 다만 최신 직접 사용을 2025까지만 확인했으므로 현행 확정 문구는 쓰지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "2025 ESKARA ‘응원제 1398’에서 1·2절을 갖춘 곡별 무대로 공연됐다.",
+        "공식 ‘봉지응원’ 모음에서 예술이야·붉은 노을과 함께 묶여 초록색 응원봉지를 흔드는 고강도 참여 구간에 배치됐다.",
+        "14곡 전체 세트에서는 후반부 대중가요 번안 묶음의 시작 부분에 놓여 분위기를 전환한다.",
+        "2026 응원 OT와 문행대동제의 공개 공식 목록에서는 확인되지 않아 행사별 선곡인지 정규 레퍼토리 유지인지 추가 확인이 필요하다."
+      ],
+      "trivia": [
+        {
+          "id": "sungdae-man-green-bag-cheer",
+          "summary": "2025 ESKARA에서 새로 도입한 초록 응원봉지 동작과 결합됐다. 공식 모음은 성대맨을 예술이야·붉은 노을과 함께 ‘봉지응원’ 세 곡으로 분류한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-sungdae-man-bag-mix", "ev-skku-b-official-ot-news-2025"]
+        },
+        {
+          "id": "sungdae-man-lyric-reception",
+          "summary": "곡별 영상 댓글에서는 현장에서 신나게 뛰었지만 영상을 보고서야 가사가 바뀐 사실을 알았다는 반응과, 학교 응원문화가 성장했다는 반응이 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-sungdae-man-2025"]
+        },
+        {
+          "id": "sungdae-man-campus-message-reading",
+          "summary": "한 공개 댓글은 개사 내용을 양 캠퍼스 차별을 줄이자는 메시지로 해석한다. 이는 수용자의 독해일 뿐 응원단이 밝힌 공식 제작 의도로 보지는 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-skku-b-sungdae-man-2025"]
+        },
+        {
+          "id": "sungdae-man-2026-gap",
+          "summary": "2025 전체 세트에는 14곡 중 하나로 명시되지만, 2026 응원 OT와 문행대동제의 상세 타임라인에는 빠져 있다. 단기 신곡·선택곡·휴지기 중 어느 경우인지는 아직 판단할 수 없다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-b-sungdae-man-fullset-2025", "ev-skku-b-2026-ot-program", "ev-skku-b-2026-festival-fullset"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 2008 NORAZO song and a 2025 university adaptation; the adaptation, arrangement, performance, recording, and reuse permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=-pKt0nRhhMs",
+          "https://www.youtube.com/watch?v=cmcQVcDG1Dc",
+          "https://www.youtube.com/watch?v=F6nweq7GexY",
+          "https://music.apple.com/kr/song/1449536686"
+        ],
+        "structureSummary": "원곡의 유쾌하고 빠른 영웅 캐릭터 구성을 학교 정체성 중심의 2절짜리 개사로 바꾸고, 짧은 구호와 반복 후렴을 점프·봉지응원에 맞게 배치한다. 공식 영상은 1절과 2절의 시작 시점을 별도로 표시한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-b-sungdae-man-2025",
+        "yt-skku-b-sungdae-man-bag-mix",
+        "yt-skku-b-sungdae-man-fullset-2025",
+        "yt-skku-b-norazo-superman-audio",
+        "yt-skku-b-norazo-superman-dance"
+      ],
+      "unresolved": [
+        "2026년 이후 정규 레퍼토리 유지 여부와 공식 현행 상태",
+        "성균관대판 개사자·편곡자 및 제작 과정의 개인별 크레딧",
+        "원곡 이용·개사·편곡 허락의 구체적 범위",
+        "2025 ESKARA 이전에 공개·교육된 정확한 날짜와 장소",
+        "가사·편곡·공연 영상의 재사용 권리 범위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-skku-b-official-squad",
+      "type": "university-primary",
+      "url": "https://www.skku.edu/skku_bak/campus/activities/cheering_party.do",
+      "title": "성균관대학교 응원단",
+      "publisher": "성균관대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "킹고응원단을 학교 운동경기·교내외 행사에서 학우를 하나로 묶는 단체로 소개하고, 1977년 이래 활동과 신입생 OT·가을 건학기념제 ‘킹고인의 함성’ 응원대제전의 역할을 설명한다.",
+      "supports": ["응원단 공식성", "신입생 OT", "대동제·응원대제전 맥락", "공동체 기능"]
+    },
+    {
+      "id": "ev-skku-b-linktree",
+      "type": "official-social-index",
+      "url": "https://linktr.ee/eskarakinggo",
+      "title": "성균관대학교 킹고응원단 Official",
+      "publisher": "성균관대학교 킹고응원단",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "공식 YouTube·Instagram과 응원가 플레이리스트, 응원법 가이드를 연결한다. 현재 노출된 가이드에서 성대를 사랑해는 Chapter 5, 여명은 Chapter 8로 확인된다.",
+      "supports": ["공식 채널", "여명 가이드", "성대를 사랑해 가이드", "현행 응원법"]
+    },
+    {
+      "id": "ev-skku-b-official-ot-news-2025",
+      "type": "university-news-primary",
+      "url": "https://www.skku.edu/skku/campus/skk_comm/news04.do?article.offset=0&articleLimit=10&articleNo=129845&mode=view",
+      "title": "킹고응원단, 제1회 응원 오리엔테이션 개최",
+      "publisher": "성균관대학교",
+      "publishedAt": "2025-09-12",
+      "accessedAt": "2026-08-09",
+      "summary": "2025-09-05 자연과학캠퍼스 대강당에서 500명을 대상으로 응원가와 구호를 익히는 1부 교육과 2부 공연을 진행했고, 응원문화혁신위원회를 구성했다고 보도한다.",
+      "supports": ["2025 응원 OT", "응원가·구호 교육", "응원문화 혁신", "관중 참여"]
+    },
+    {
+      "id": "ev-skku-b-webzine-2025",
+      "type": "university-webzine",
+      "url": "https://www.skku.edu/skkuzine/section/coverStory.do?articleNo=129860&mode=list&pager.offset=60&pagerLimit=10",
+      "title": "2025 ESKARA: 초록의 파도 현장과 응원 OT",
+      "publisher": "성균웹진",
+      "publishedAt": "2025",
+      "accessedAt": "2026-08-09",
+      "summary": "응원 OT에서 구호와 동작을 미리 익히고 어깨동무하며 양 캠퍼스 구성원의 유대감을 형성하려 했고, 신곡 제작·기존 응원가 개편·흥몰이 동작 개선을 고유 응원문화 정착의 출발점으로 삼았다고 총학생회 인터뷰로 설명한다.",
+      "supports": ["2025 ESKARA 맥락", "응원 OT 목적", "신곡 제작", "기존곡 개편", "양 캠퍼스 결속"]
+    },
+    {
+      "id": "ev-skku-b-alumni",
+      "type": "official-alumni-interview",
+      "url": "https://swb.skku.edu/alumni/circular/interview.do?article.offset=30&articleLimit=10&articleNo=59367&mode=view",
+      "title": "모교 학생 동아리 탐방 - 킹고응원단, 세대를 뛰어넘어 ‘응원 열정’",
+      "publisher": "성균관대학교 총동창회",
+      "publishedAt": "2025-10-24",
+      "accessedAt": "2026-08-09",
+      "summary": "응원단 인터뷰가 입학식·응원 OT·대동제·ESKARA 활동, 2024년 2부 응원제와 독자적 어깨동무 응원, 2025년 응원가 공모전·응원문화혁신위원회, 2026년 음악부 신설 계획을 기록한다.",
+      "supports": ["공식 응원단", "행사 맥락", "어깨동무 응원", "신곡 제작 체계", "세대 교류"]
+    },
+    {
+      "id": "ev-skku-b-namu-access",
+      "type": "community-encyclopedia-access-limited",
+      "url": "https://namu.wiki/w/%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "성균관대학교/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "곡별 교차 확인 대상으로 문서 URL과 제목은 확인했으나 조사 환경에서 본문 접근이 차단·점검 상태여서 내용을 직접 검토하지 못했다. 따라서 이 배치의 연도·원곡·현행 판정에는 나무위키만을 근거로 한 주장을 넣지 않았다.",
+      "supports": ["나무위키 교차검토 시도", "본문 미확인 고지", "단독 근거 배제"]
+    },
+    {
+      "id": "ev-skku-b-apple-norazo",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/song/1449536686",
+      "title": "슈퍼맨 - 노라조의 노래",
+      "publisher": "Apple Music",
+      "publishedAt": "2008-11-20",
+      "accessedAt": "2026-08-09",
+      "summary": "노라조의 ‘슈퍼맨’을 2008-11-20 발매된 앨범 《Three GO》 수록곡으로 확인한다.",
+      "supports": ["성대맨 원곡", "노라조", "Three GO", "2008-11-20 발매"]
+    },
+    {
+      "id": "ev-skku-b-2026-ot-program",
+      "type": "official-youtube-program",
+      "url": "https://www.youtube.com/watch?v=LZPuqk93SqQ",
+      "title": "2026 성균관대학교 상반기 응원 OT LIVE",
+      "publisher": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-06",
+      "accessedAt": "2026-08-09",
+      "summary": "상세 타임라인이 여명·성대를 좋아해·성대를 사랑해·우리가 누구·출정의 교육과 공연을 명시한다. 성대맨은 1·2부 전체 타임라인에 기재되지 않는다.",
+      "supports": ["2026 응원 OT 현행곡", "교육과 공연", "성대맨 미기재"]
+    },
+    {
+      "id": "ev-skku-b-2026-festival-program",
+      "type": "official-youtube-program",
+      "url": "https://www.youtube.com/watch?v=5TuN6DY8fdQ",
+      "title": "Playlist | 2026 문행대동제 성균관대학교 응원가 플레이리스트",
+      "publisher": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-05-11",
+      "accessedAt": "2026-08-09",
+      "summary": "문행대동제에서 중심으로 공연할 9곡에 여명·성대를 사랑해·성대를 좋아해·우리가 누구·출정을 명시한다. 성대맨은 이 선곡 목록에 없다.",
+      "supports": ["2026 문행대동제 선곡", "다섯 곡 현행 확인", "성대맨 미기재"]
+    },
+    {
+      "id": "ev-skku-b-2026-festival-fullset",
+      "type": "official-youtube-program",
+      "url": "https://www.youtube.com/watch?v=pGRrsJsPMe4",
+      "title": "[Mix] 성균관대 응원가 한번에 모아보기!",
+      "publisher": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-06-29",
+      "accessedAt": "2026-08-09",
+      "summary": "2026-05-15 문행대동제 전체 응원 세트의 13개 구간을 타임라인으로 제공한다. 여명·성대를 사랑해·성대를 좋아해·우리가 누구·출정은 포함되지만 성대맨은 없다.",
+      "supports": ["2026 문행대동제 실공연", "성대맨 미수록", "행사별 선곡 확인"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-skku-b-dawn-2014-ot",
+      "songId": "sungkyunkwan-university-dawn",
+      "url": "https://www.youtube.com/watch?v=drLq_CVJsIE",
+      "videoId": "drLq_CVJsIE",
+      "title": "[2014.12.22] 여명 - 킹고응원단",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2014-12-28",
+      "descriptionSummary": "2014-12-22 공학계열 15학번 수시 OT 무대이며 곡을 희망의 빛 이미지로 소개한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2014 수시 OT", "신입생 행사", "희망 이미지", "공식 영상"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-dawn-2015-welcome",
+      "songId": "sungkyunkwan-university-dawn",
+      "url": "https://www.youtube.com/watch?v=XT861ihnQy8",
+      "videoId": "XT861ihnQy8",
+      "title": "[2015.12.12] 웰컴파티 - 여명",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2015-12-18",
+      "descriptionSummary": "2015-12-12 웰컴파티의 여명 공연을 담은 공식 기록이며 별도 설명은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2015 웰컴파티", "공식 영상"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-dawn-2016-festival",
+      "songId": "sungkyunkwan-university-dawn",
+      "url": "https://www.youtube.com/watch?v=kiBGYASgH9Y",
+      "videoId": "kiBGYASgH9Y",
+      "title": "[킹고응원단] 여명 - 2016.05.18 (2016 성균관대학교 인사캠 대동제)",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2016-05-22",
+      "descriptionSummary": "2016-05-18 인문사회과학캠퍼스 대동제 공연이다. 영상 속 진행자는 당시 세트의 마지막 곡으로 소개한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2016 인사캠 대동제", "피날레 용례", "공식 영상"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-dawn-2019-festival",
+      "songId": "sungkyunkwan-university-dawn",
+      "url": "https://www.youtube.com/watch?v=UAoroCT2azM",
+      "videoId": "UAoroCT2azM",
+      "title": "[킹고응원단] 여명 - 2019.05.24(율전 대동제)",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2019-08-28",
+      "descriptionSummary": "2019-05-24 자연과학캠퍼스 율전 대동제의 곡별 공연이며 설명란은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 시청자는 성균관대다운 곡이라며 여러 세대의 동문이 함께 부르는 대표곡이 되기를 바란다."],
+      "supports": ["2019 율전 대동제", "대표곡 수용", "양 캠퍼스 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-dawn-guide-2024",
+      "songId": "sungkyunkwan-university-dawn",
+      "url": "https://www.youtube.com/watch?v=3RBUSWVOKCU",
+      "videoId": "3RBUSWVOKCU",
+      "title": "킹고응원단 응원법 가이드 영상 : Chapter 8. 여명",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-09-23",
+      "descriptionSummary": "관객이 무대를 더 잘 즐기도록 제작한 공식 Chapter 8 응원법 영상이다. 총괄·촬영·편집·출연 제작진도 설명란에 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 시청자는 가장 좋아하는 곡이자 쉽게 따라 할 수 있는 곡이라며 대표 응원가가 되기를 희망한다."],
+      "supports": ["공식 응원법", "Chapter 8", "쉬운 참여 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-dawn-2024-eskara",
+      "songId": "sungkyunkwan-university-dawn",
+      "url": "https://www.youtube.com/watch?v=QnMkwIw1vvs",
+      "videoId": "QnMkwIw1vvs",
+      "title": "[성균관대학교 킹고응원단] RE-PLAY 킹고 : 2024 ESKARA 2부 여명",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-11-04",
+      "descriptionSummary": "2024 ESKARA 2부 여명 무대이며 총괄 조지훈과 촬영·편집 제작진을 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글에는 응원단을 격려하는 짧은 반응이 있다."],
+      "supports": ["2024 ESKARA 2부", "공식 공연", "제작진"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-dawn-2025-eskara",
+      "songId": "sungkyunkwan-university-dawn",
+      "url": "https://www.youtube.com/watch?v=Qfsj86fEoCk",
+      "videoId": "Qfsj86fEoCk",
+      "title": "[2025 ESKARA] ‘여명’ 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-27",
+      "descriptionSummary": "2025-09-12 ESKARA ‘응원제 1398’ 공연이다. 곡 연도를 2011로 표시하고 하이라이트와 1·2절 시작 시점을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 시청자는 응원단에 감사를 표하며 이 곡을 가장 좋아하는 곡으로 꼽는다."],
+      "supports": ["2011 연도", "2025 ESKARA", "1·2절 구조", "선호 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-dawn-2026-ot",
+      "songId": "sungkyunkwan-university-dawn",
+      "url": "https://www.youtube.com/watch?v=_WXaVWEQTlY",
+      "videoId": "_WXaVWEQTlY",
+      "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '여명' (2011) 4K",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026-03-06 상반기 응원 OT의 곡별 영상으로 여명을 2011년 곡으로 직접 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 시청자는 이 곡을 선호곡으로 꼽고 무대를 이끈 단원의 패기와 카리스마를 호평한다."],
+      "supports": ["2026 현행 사용", "응원 OT", "2011 연도", "무대 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-dawn-2026-festival",
+      "songId": "sungkyunkwan-university-dawn",
+      "url": "https://www.youtube.com/watch?v=9YAk27vwRFA",
+      "videoId": "9YAk27vwRFA",
+      "title": "[2026 문행대동제] '여명' (2011) 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-06-26",
+      "descriptionSummary": "2026-05-15 통합 문행대동제 공연이며 곡 연도를 2011로 표시하고 00:16부터 곡 본편을 안내한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 문행대동제", "현재성", "2011 연도"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-love-2015-ot",
+      "songId": "sungkyunkwan-university-love-sungdae",
+      "url": "https://www.youtube.com/watch?v=wAmRg2yLjiA",
+      "videoId": "wAmRg2yLjiA",
+      "title": "[2015.02.11] 성대를 사랑해 - 킹고응원단",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2015-02-23",
+      "descriptionSummary": "전자전기컴퓨터·자연과학계열 15학번과 함께한 총OT 무대이며 설명란이 이 곡을 2015년 신곡으로 소개한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2015 총OT", "15학번", "2015 신곡 표기", "연도 충돌"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-love-2016-festival",
+      "songId": "sungkyunkwan-university-love-sungdae",
+      "url": "https://www.youtube.com/watch?v=rAlcgJ1jl08",
+      "videoId": "rAlcgJ1jl08",
+      "title": "[킹고응원단] 성대를 사랑해 - 2016.05.18 (2016 성균관대학교 인사캠대동제)",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2016-05-22",
+      "descriptionSummary": "2016-05-18 인문사회과학캠퍼스 대동제 공연 기록이며 설명란에는 구체 정보가 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2016 인사캠 대동제", "공식 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-love-official-2021",
+      "songId": "sungkyunkwan-university-love-sungdae",
+      "url": "https://www.youtube.com/watch?v=g_gQaRuMA6Y",
+      "videoId": "g_gQaRuMA6Y",
+      "title": "성대를 사랑해",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2021-11-02",
+      "descriptionSummary": "별도 설명 없이 게시된 킹고응원단 공식 곡별 음원·퍼포먼스 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2021 공식 음원", "곡명", "공식 채널"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-love-2022-yuljeon",
+      "songId": "sungkyunkwan-university-love-sungdae",
+      "url": "https://www.youtube.com/watch?v=I6U5cSZmzKo",
+      "videoId": "I6U5cSZmzKo",
+      "title": "[2022 율전 대동제 ESKARA] - 성대를 사랑해(2022.05.04)",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2022-06-07",
+      "descriptionSummary": "2022-05-04 율전 대동제 ESKARA 공연으로 행사 슬로건과 정확한 공연 날짜를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 시청자는 학교에 대한 애정을 짧게 표현한다."],
+      "supports": ["2022 율전 대동제", "자과캠 사용", "학교 사랑 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-love-2022-myeongnyun",
+      "songId": "sungkyunkwan-university-love-sungdae",
+      "url": "https://www.youtube.com/watch?v=XiwhEb8RSHQ",
+      "videoId": "XiwhEb8RSHQ",
+      "title": "[2022 명륜 대동제 ESKARA] - 성대를 사랑해(2022.05.13)",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2022-06-07",
+      "descriptionSummary": "2022-05-13 명륜 대동제 ESKARA 공연으로 행사 슬로건과 정확한 날짜를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2022 명륜 대동제", "인사캠 사용", "양 캠퍼스 비교"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-love-guide-2024",
+      "songId": "sungkyunkwan-university-love-sungdae",
+      "url": "https://www.youtube.com/watch?v=bfia6tm0yu0",
+      "videoId": "bfia6tm0yu0",
+      "title": "킹고응원단 응원법 가이드 영상 : Chapter 5. 성대를 사랑해",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-09-23",
+      "descriptionSummary": "공식 Chapter 5 가이드다. 영상은 중간 문구를 따라 외치고 잔잔한 구간을 관중의 목소리로 채우는 참여법을 단계적으로 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["공식 응원법", "선창·후창", "잔잔한 떼창 구간", "Chapter 5"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-love-2025-eskara",
+      "songId": "sungkyunkwan-university-love-sungdae",
+      "url": "https://www.youtube.com/watch?v=Cg2Apue7eig",
+      "videoId": "Cg2Apue7eig",
+      "title": "[2025 ESKARA] ‘성대를 사랑해’ 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-26",
+      "descriptionSummary": "2025-09-12 ESKARA ‘응원제 1398’ 공연이다. 곡 연도를 2014로 표시하고 하이라이트와 1·2절 시작 시점을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 음향·영상 품질 향상을 호평하거나 졸업생 정체성을 드러낸다.", "대학 간 비방성 답글은 사실 판정에 사용하지 않았다."],
+      "supports": ["2014 연도", "2025 ESKARA", "1·2절 구조", "제작 품질 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-love-2026-ot",
+      "songId": "sungkyunkwan-university-love-sungdae",
+      "url": "https://www.youtube.com/watch?v=U5tLx_cZXA8",
+      "videoId": "U5tLx_cZXA8",
+      "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '성대를 사랑해' (2014) 4K",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026-03-06 상반기 응원 OT 공식 곡별 영상이며 제목과 설명에서 2014년 곡으로 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 응원 OT", "현재성", "2014 연도"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-love-2026-festival",
+      "songId": "sungkyunkwan-university-love-sungdae",
+      "url": "https://www.youtube.com/watch?v=_LwNAuhBdC4",
+      "videoId": "_LwNAuhBdC4",
+      "title": "[2026 문행대동제] '성대를 사랑해' (2014) 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-06-26",
+      "descriptionSummary": "2026-05-15 문행대동제의 곡별 공연이며 2014년 곡 표기와 00:18 본편 시작 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 문행대동제", "현재성", "2014 연도"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-sungdae-man-2025",
+      "songId": "sungkyunkwan-university-sungdae-man",
+      "url": "https://www.youtube.com/watch?v=-pKt0nRhhMs",
+      "videoId": "-pKt0nRhhMs",
+      "title": "[2025 ESKARA] ‘성대맨’ 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-26",
+      "descriptionSummary": "2025-09-12 ESKARA ‘응원제 1398’ 공연이다. 곡 연도를 2025로, 1·2절 시작 시점을 각각 표시하고 노라조·슈퍼맨 해시태그로 원곡 계보를 직접 드러낸다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 시청자는 현장에서는 뛰는 데 집중했다가 영상으로 개사를 알아차렸다고 반응한다.", "다른 시청자들은 학교 응원문화의 성장과 가사에 담겼다고 읽은 양 캠퍼스 관계를 논평한다."],
+      "supports": ["2025 도입", "2025 ESKARA", "노라조 슈퍼맨", "2절 구조", "개사 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-sungdae-man-bag-mix",
+      "songId": "sungkyunkwan-university-sungdae-man",
+      "url": "https://www.youtube.com/watch?v=cmcQVcDG1Dc",
+      "videoId": "cmcQVcDG1Dc",
+      "title": "[Mix] 미친듯이 흔드는 초록빛 봉지응원! – ‘예술이야 / 붉은 노을 / 성대맨’",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-28",
+      "descriptionSummary": "2025 ESKARA의 봉지응원 모음으로 예술이야, 붉은 노을 뒤 06:35부터 성대맨을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["성대맨 공연", "2025 ESKARA", "봉지응원", "메들리 배치"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-sungdae-man-fullset-2025",
+      "songId": "sungkyunkwan-university-sungdae-man",
+      "url": "https://www.youtube.com/watch?v=fTeHh_EvuVw",
+      "videoId": "fTeHh_EvuVw",
+      "title": "[Mix] 성균관대 응원가 전곡 총출동! – 응원가 14개 모음.zip",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-28",
+      "descriptionSummary": "2025-09-12 ESKARA 공식 14곡 전체 세트이며 21:49부터 성대맨을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자들은 응원가와 백밴드·보컬 수준의 향상을 호평하고, 동문은 후배에 대한 자부심을, 수험생은 입학 의지를 표현한다."],
+      "supports": ["2025 전체 세트", "성대맨 타임스탬프", "밴드·보컬 수용", "세대 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-norazo-superman-audio",
+      "songId": "sungkyunkwan-university-sungdae-man",
+      "url": "https://www.youtube.com/watch?v=F6nweq7GexY",
+      "videoId": "F6nweq7GexY",
+      "title": "[Official Audio] 노라조 - 슈퍼맨",
+      "channel": "OGAM Entertainment",
+      "publishedAt": "2026-06-25",
+      "descriptionSummary": "배급사 공식 오디오다. 원곡의 아티스트·곡명·앨범 《Three GO》와 원 발매일 2008-11-20을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["원곡 확인", "노라조", "Three GO", "2008-11-20 발매"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-b-norazo-superman-dance",
+      "songId": "sungkyunkwan-university-sungdae-man",
+      "url": "https://www.youtube.com/watch?v=g_K9F5S8Bb0",
+      "videoId": "g_K9F5S8Bb0",
+      "title": "[DANCE] 노라조 - 슈퍼맨 | 가사포함",
+      "channel": "OGAM Entertainment",
+      "publishedAt": "2020-07-29",
+      "descriptionSummary": "배급사 채널의 원곡 댄스·가사 영상이다. 성균관대 공연이 아니라 원곡의 음악·동작 계보를 비교하기 위한 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자들은 리듬 게임과 과거 대중문화 경험을 통해 원곡을 다시 찾았다고 반응한다."],
+      "supports": ["원곡 비교", "대중문화 수용", "성균관대판과 구분"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 3,
+    "youtubeSampleCount": 23,
+    "songsMeetingYoutubeMinimum": 3,
+    "openIssueCount": 13
+  }
+}

@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kangwon-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-kangwon",
+    "name": "강원대학교",
+    "type": "university"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명·댓글 원문은 저장하지 않는다. 2022년 프로젝트의 세 곡을 함께 조사하되, 2025~2026 직접 사용이 확인되는 곡과 공식 목록에는 남아 있으나 최근 독립 실연이 부족한 곡을 구분한다.",
+  "items": [
+    {
+      "id": "kangwon-echo-of-gangwon",
+      "title": "강원의 울림으로",
+      "aliases": [],
+      "currentStatus": "current-confirmed-through-2026",
+      "summary": "2022년 총학생회 주도의 프로젝트 ‘백령’에서 만든 공식 응원가 세 곡 중 하나다. 강원도 아리랑을 편곡하고 연적지 ‘깨우침의 종’ 비문의 뜻을 대학의 진리 탐구·자유 수호·발전과 연결했다. 2025 대동제와 입학식, 2026 신입생 OT에서 백령응원단이 계속 사용해 세 곡 가운데 현행성이 가장 직접적으로 확인된다.",
+      "claims": [
+        {
+          "field": "release",
+          "value": "2022년 8월 24일 선공개, 2022년 9월 20~22일 백령대동제에서 공식 발표",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kangwon-a-echo-official", "ev-kangwon-a-festival-program", "ev-kangwon-a-launch-interview"],
+          "notes": "유튜브 공개일과 대동제 발표일을 구분했다. 교내신문은 발표 예정일을 9월 21일로 설명한다."
+        },
+        {
+          "field": "melodicOrigin",
+          "value": "강원도 아리랑 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kangwon-a-echo-official", "ev-kangwon-a-launch-interview", "ev-kangwon-a-arirang-archive"],
+          "notes": "총학생회 영상과 제작 인터뷰가 동일하게 밝힌다. 전통 민요의 특정 채보·편곡판을 그대로 썼는지는 공개되지 않았다."
+        },
+        {
+          "field": "creators",
+          "value": "강원대 총학생회·백령응원단과 기타치노, 꾼, 울음큰새, RMPC, KNUS 등 학생 단체 공동 제작; 작사는 총학생회장·부총학생회장·인문대 학생회장·미디어 차장이 참여하고 최홍열·신성환 교수가 조언",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kangwon-a-launch-interview", "yt-kangwon-a-echo-official"],
+          "notes": "공식 설명은 단체 단위 크레딧을 제공하며 개별 편곡·연주·녹음 엔지니어 크레딧은 완전하지 않다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 대동제·신입생 입학식과 2026 신입생 OT에서 백령응원단 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kangwon-a-echo-2025-entrance", "yt-kangwon-a-echo-2025-festival", "yt-kangwon-a-echo-2026-ot"],
+          "notes": "세 영상 설명이 곡명을 해시태그 또는 세트리스트로 직접 표기한다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 입학식·OT에서 학교 정체성을 소개하는 고유곡으로 사용된다.",
+        "대동제 1부 세트에서 인트로 다음에 배치돼 관중 합창과 액션 치어리딩을 잇는다.",
+        "교내 공식 응원전·체육제전·홍보 영상 BGM 등으로 활용된다는 대학신문의 2023년 후속 설명이 있다."
+      ],
+      "trivia": [
+        {
+          "id": "kangwon-echo-bell-inscription",
+          "summary": "곡의 대학 고유 서사는 연적지 ‘깨우침의 종’에 새긴 비문에서 출발했다. 국어국문학과 교수들이 제작팀에 종 뒤 비문을 살펴보라고 조언한 뒤 작사에 반영됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kangwon-a-launch-interview"]
+        },
+        {
+          "id": "kangwon-echo-benchmark",
+          "summary": "프로젝트 팀은 고려대 응원문화를 벤치마킹해 안암캠퍼스를 방문했다. 이는 선율 차용 주장이 아니라 제작·운영 방식 참고에 관한 인터뷰 내용이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kangwon-a-launch-interview"]
+        },
+        {
+          "id": "kangwon-echo-comments",
+          "summary": "공식 음원 댓글은 곡의 대표 구호를 따라 부르는 짧은 반응이, 2026 OT 댓글은 신입생을 응원하는 반응이 확인된다. 댓글 수가 적어 선호도 통계로 확대 해석하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kangwon-a-echo-official", "yt-kangwon-a-echo-2026-ot"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "adaptation of a traditional folk melody with newly written university lyrics and a 2022 arrangement; lyric and arrangement reuse terms are not published",
+        "sourceUrls": ["https://www.youtube.com/watch?v=LMfM9ldyQ4o", "https://knup.kangwon.ac.kr/index.php?BID=14377&cmd=view&cpage=7&mm=oxbbs&mp=2_5&mt=page&oxid=10"],
+        "structureSummary": "짧은 도입 뒤 강원의 소리와 깨우침의 메아리를 호출하는 절, 구성원의 함성이 학교와 세계로 퍼진다는 합창형 후렴으로 이어진다. 강원도 아리랑의 반복성과 지역 이미지를 학교 발전 서사에 맞춘 약 1분 30초대 응원곡이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-kangwon-a-echo-official", "yt-kangwon-a-echo-2025-entrance", "yt-kangwon-a-echo-2025-festival", "yt-kangwon-a-echo-2026-ot", "yt-kangwon-a-echo-promo", "yt-kangwon-a-echo-making", "yt-kangwon-a-echo-inst"],
+      "unresolved": [
+        "개인별 작곡·편곡·연주·녹음·가창 크레딧과 저작권 등록 정보",
+        "편곡에 기준으로 삼은 강원도 아리랑의 구체 채보·음원판",
+        "공식 가사·악보·MR의 현재 배포 위치와 재사용 조건",
+        "나무위키에서 곡 단위 연혁을 직접 다룬 문서는 검색으로 확인하지 못함"
+      ]
+    },
+    {
+      "id": "kangwon-unchanging-baekryeong",
+      "title": "백령으로 불변하라",
+      "aliases": [],
+      "currentStatus": "official-catalog-recent-use-confirmed-2024-current-uncertain",
+      "summary": "2022 프로젝트 ‘백령’의 첫 번째 공식 응원가로, 드라마 ‘하얀거탑’ OST ‘B Rossette’에 강원대의 잣나무·백령 상징과 공동체 결속을 담은 새 노랫말을 붙였다. 학교 공식 영상과 2024 신입생 입학식 실연은 명확하지만, 2025~2026 세트리스트에서 곡명을 직접 확인하지 못해 현행 판정은 유보한다.",
+      "claims": [
+        {
+          "field": "release",
+          "value": "2022년 8월 24일 선공개, 2022년 9월 백령대동제 공식 발표",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kangwon-a-baekryeong-official", "ev-kangwon-a-festival-program", "ev-kangwon-a-launch-interview"],
+          "notes": "2023년 대학 공식 채널이 별도의 안무·캠퍼스 영상을 다시 공개했다."
+        },
+        {
+          "field": "melodicOrigin",
+          "value": "김수진 작곡의 ‘B Rossette’(드라마 ‘하얀거탑’ OST) 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kangwon-a-baekryeong-official", "ev-kangwon-a-launch-interview", "ev-kangwon-a-b-rossette-catalog"],
+          "notes": "총학생회 설명과 음원 카탈로그의 작곡자 표기가 일치한다."
+        },
+        {
+          "field": "theme",
+          "value": "교목 잣나무의 영지를 뜻하는 ‘백령’을 꺾이지 않는 절개·강직함과 학생 공동체의 영속성에 연결",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kangwon-a-launch-interview", "yt-kangwon-a-baekryeong-official-university"],
+          "notes": "교내신문 제작 인터뷰와 공식 영상의 구조가 이를 뒷받침한다."
+        },
+        {
+          "field": "latestDirectUse",
+          "value": "2024년 신입생 입학식에서 백령응원단이 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kangwon-a-baekryeong-2024-entrance"],
+          "notes": "2025~2026 공개 영상 설명에는 이 곡명이 확인되지 않아 ‘현재 사용 확정’으로 승격하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "2022 공식 응원가 프로젝트의 첫 곡이자 학교 상징 ‘백령’을 직접 제목에 둔 대표곡으로 제작됐다.",
+        "2024 신입생 입학식에서는 대중가요 액션곡 두 곡 뒤 학교 고유곡으로 마무리하는 세트에 배치됐다.",
+        "2023년 공식 대학 영상은 캠퍼스 소개, 연주, 응원단 안무를 결합한 홍보 콘텐츠로 재제작했다."
+      ],
+      "trivia": [
+        {
+          "id": "kangwon-baekryeong-symbol",
+          "summary": "‘백령’은 단순한 응원단 이름이 아니라 교목인 잣나무의 영지라는 설명에서 가져온 프로젝트 전체 명칭이자 이 곡의 핵심 상징이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kangwon-a-launch-interview"]
+        },
+        {
+          "id": "kangwon-baekryeong-video-feedback",
+          "summary": "학교 공식 재제작 영상 댓글에서는 캠퍼스 영상과 응원단 동작을 칭찬하거나 흰 장갑으로 손동작을 더 잘 보이게 하자는 공연 연출 의견이 반복된다. 비방성·개인정보성 댓글은 조사 요약에서 제외했다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kangwon-a-baekryeong-official-university"]
+        },
+        {
+          "id": "kangwon-baekryeong-direct-sample-limit",
+          "summary": "공식 음원 두 편과 2024 실연은 직접 표본이지만, 나머지 영상은 제작·연주·공식 발표 맥락을 보충한다. 2025~2026 반복 사용을 입증하는 독립 표본은 찾지 못했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kangwon-a-baekryeong-official", "yt-kangwon-a-baekryeong-official-university", "yt-kangwon-a-baekryeong-2024-entrance", "yt-kangwon-a-baekryeong-making", "yt-kangwon-a-baekryeong-inst"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation: original composition credited to Kim Su-jin; 2022 university lyrics/arrangement and reuse terms are not fully documented",
+        "sourceUrls": ["https://www.youtube.com/watch?v=civbrReVyVA", "https://www.youtube.com/watch?v=-oiS5kv3BaE", "https://knup.kangwon.ac.kr/index.php?BID=14377&cmd=view&cpage=7&mm=oxbbs&mp=2_5&mt=page&oxid=10"],
+        "structureSummary": "‘B Rossette’의 점층적 관현악 흐름 위에 백령의 절개, 강원의 의지, 구성원과 영원히 함께한다는 내용을 1·2절과 반복 종결부로 배치한다. 공식 재제작 영상은 1절·2절과 안무 구간을 명시한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-kangwon-a-baekryeong-official", "yt-kangwon-a-baekryeong-official-university", "yt-kangwon-a-baekryeong-2024-entrance", "yt-kangwon-a-baekryeong-making", "yt-kangwon-a-baekryeong-inst", "yt-kangwon-a-baekryeong-launch-stage"],
+      "unresolved": [
+        "2025~2026 백령응원단의 반복 실연 여부와 최근 세트리스트",
+        "대학판 개사·편곡의 개인별 크레딧과 원저작물 이용 허락 범위",
+        "공식 악보·가사·MR의 현재 배포 위치",
+        "나무위키 곡 단위 정보 부재와 학생사회 내부 별칭 여부"
+      ]
+    },
+    {
+      "id": "kangwon-silsagusi",
+      "title": "실사구시",
+      "aliases": [],
+      "currentStatus": "official-catalog-current-use-not-directly-confirmed-after-2023",
+      "summary": "2022 프로젝트 ‘백령’의 두 번째 공식 응원가다. 영화 ‘시네마 천국’ OST ‘Love Theme’을 편곡하고 강원대 건학이념인 실사구시를 사실·이성·진리 탐구의 공동체 메시지로 옮겼다. 대학신문은 2023년에 세 공식곡이 응원전·체육제전·홍보 영상에 쓰인다고 설명하지만, 이 곡을 특정한 2024~2026 실연 영상은 찾지 못했다.",
+      "claims": [
+        {
+          "field": "release",
+          "value": "2022년 8월 24일 선공개, 2022년 9월 백령대동제 공식 발표",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kangwon-a-silsagusi-official", "ev-kangwon-a-festival-program", "ev-kangwon-a-launch-interview"],
+          "notes": "세 곡이 같은 프로젝트와 발표 일정으로 묶였다."
+        },
+        {
+          "field": "melodicOrigin",
+          "value": "‘Cinema Paradiso’ OST ‘Love Theme’ 편곡; 대학 표기는 작곡자 Ennio Morricone",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kangwon-a-silsagusi-official", "ev-kangwon-a-launch-interview", "ev-kangwon-a-love-theme-catalog"],
+          "notes": "대학 영상과 공식 음원 메타데이터가 Ennio Morricone을 작곡자로 적는다. 세부 판본·공동 크레딧 문제는 권리 확인 대상으로 남겼다."
+        },
+        {
+          "field": "theme",
+          "value": "강원대 건학이념 ‘실사구시’를 사실에 토대를 둔 진리 탐구, 이성, 인류의 지평이라는 내용으로 전개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kangwon-a-launch-interview", "ev-kangwon-a-education-philosophy", "yt-kangwon-a-silsagusi-official"],
+          "notes": "대학 헌장·교육목표의 표현과 제작 인터뷰에서 밝힌 곡의 취지가 일치한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2023년 대학신문은 세 공식 응원가가 응원전·체육제전·홍보 영상에 사용된다고 기록; 이후 곡별 직접 실연은 미확인",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kangwon-a-symbol-feature", "yt-kangwon-a-silsagusi-promo"],
+          "notes": "공식 목록 존속과 실제 2026 세트리스트 사용을 구분했다."
+        }
+      ],
+      "usageContexts": [
+        "강원대의 건학이념을 직접 가르치고 합창하는 서사형 공식 응원가로 설계됐다.",
+        "2022 대동제의 공식 응원가 발표 무대와 이후 대학 홍보 영상 묶음에 사용됐다.",
+        "활동성이 큰 액션곡보다는 느린 영화음악 선율 위에서 교훈을 공유하는 의식곡 성격이 강하다."
+      ],
+      "trivia": [
+        {
+          "id": "kangwon-silsagusi-charter",
+          "summary": "가사는 새 구호를 임의로 만든 것이 아니라 1999년 대학헌장이 설명한 사실 기반 탐구·이성·진리·인류 공동선의 어휘를 응원가 문맥으로 압축한 것으로 보인다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kangwon-a-education-philosophy", "ev-kangwon-a-launch-interview"]
+        },
+        {
+          "id": "kangwon-silsagusi-sample-limit",
+          "summary": "독립 음원 한 편 외의 유튜브 표본은 메이킹필름, 방송국 홍보 영상, 대동제 발표 기록, 같은 프로젝트의 동반곡 영상이다. 곡 자체의 공개 댓글과 최근 실연 반응이 사실상 비어 있다는 한계를 명시했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kangwon-a-silsagusi-official", "yt-kangwon-a-silsagusi-making", "yt-kangwon-a-silsagusi-promo", "yt-kangwon-a-silsagusi-launch-stage", "yt-kangwon-a-silsagusi-companion"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Cinema Paradiso's Love Theme with new university lyrics; soundtrack and university adaptation rights/reuse terms remain separate and unpublished",
+        "sourceUrls": ["https://www.youtube.com/watch?v=xQpXIXL7b2I", "https://knup.kangwon.ac.kr/index.php?BID=14377&cmd=view&cpage=7&mm=oxbbs&mp=2_5&mt=page&oxid=10"],
+        "structureSummary": "서정적인 영화음악 선율에 사실에서 출발한 진리 탐구와 이성의 힘을 선언하는 절을 얹고, 동일한 교훈 문장을 반복해 마무리한다. 빠른 구호보다 길게 이어지는 합창에 맞춘 약 2분의 의식형 응원가다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-kangwon-a-silsagusi-official", "yt-kangwon-a-silsagusi-making", "yt-kangwon-a-silsagusi-promo", "yt-kangwon-a-silsagusi-launch-stage", "yt-kangwon-a-silsagusi-companion"],
+      "unresolved": [
+        "2024~2026 실제 행사에서의 곡별 반복 사용과 세트리스트",
+        "대학판 개사·편곡의 개인별 크레딧 및 원곡 이용 허락 범위",
+        "원곡 ‘Love Theme’의 대학이 사용한 정확한 판본과 공동 저작 크레딧 처리",
+        "공식 악보·MR·응원법 영상의 현재 배포 여부",
+        "나무위키 곡 단위 정보와 공개 댓글 표본 부족"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kangwon-a-launch-interview",
+      "type": "campus-press",
+      "url": "https://knup.kangwon.ac.kr/index.php?BID=14377&cmd=view&cpage=7&mm=oxbbs&mp=2_5&mt=page&oxid=10",
+      "title": "우리 대학교 공식 응원가 제작",
+      "publisher": "강대신문",
+      "publishedAt": "2022-09-05",
+      "accessedAt": "2026-08-09",
+      "summary": "프로젝트 ‘백령’의 동기·참여 단체·작사 참여자·세 곡의 상징과 원곡·9월 21일 발표 계획을 담당 부총학생회장 인터뷰로 기록한다. 2017년 첫 공식 응원가는 정착하지 못했다는 선행 역사도 구분한다.",
+      "supports": ["release", "creators", "melodicOrigin", "theme", "projectHistory"]
+    },
+    {
+      "id": "ev-kangwon-a-symbol-feature",
+      "type": "campus-press",
+      "url": "https://knup.kangwon.ac.kr/index.php?BID=15288&cmd=view&cpage=6&mm=oxbbs&mp=2_11&mt=page&oxid=22",
+      "title": "상징물로 알아보는 개교 76주년(2)",
+      "publisher": "강대신문",
+      "publishedAt": "2023-06-12",
+      "accessedAt": "2026-08-09",
+      "summary": "2022년 9월 세 공식 응원가가 발표됐고 당시 공식 응원전·체육제전·홍보 영상 BGM 등으로 사용되고 있다고 후속 확인한다. 1979년 오동일 교수의 옛 응원가는 별도 역사로 설명한다.",
+      "supports": ["officialCatalog", "useThrough2023", "historicalDistinction"]
+    },
+    {
+      "id": "ev-kangwon-a-festival-program",
+      "type": "official",
+      "url": "https://geology.kangwon.ac.kr/geology/community/notice-department.do?article.offset=330&articleLimit=10&articleNo=388345&mode=view",
+      "title": "2022학년도 백령대동제 행사 안내",
+      "publisher": "강원대학교",
+      "publishedAt": "2022-09-19",
+      "accessedAt": "2026-08-09",
+      "summary": "2022년 9월 20~22일 백령대동제의 주요 행사로 ‘강원대학교 공식 응원가 발표’를 명시한다.",
+      "supports": ["officialLaunchEvent"]
+    },
+    {
+      "id": "ev-kangwon-a-education-philosophy",
+      "type": "official",
+      "url": "https://wwwk.kangwon.ac.kr/www/contents.do?key=2108",
+      "title": "교육목표와 인재상",
+      "publisher": "강원대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "건학이념 실사구시를 실제에서 진리를 탐구하고 올바른 마음·열린 정신으로 공동선에 이바지하는 교육철학으로 설명한다.",
+      "supports": ["silsagusiMeaning", "theme"]
+    },
+    {
+      "id": "ev-kangwon-a-b-rossette-catalog",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/20790373?wl_ref=list_ab_01",
+      "title": "B rossette (하얀거탑 OST)",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "‘B rossette’를 하얀거탑 OST로 분류하고 작곡자를 김수진으로 표기한다. 대학 응원가의 별도 개사·편곡 크레딧은 제공하지 않는다.",
+      "supports": ["originalWork", "composer"]
+    },
+    {
+      "id": "ev-kangwon-a-love-theme-catalog",
+      "type": "music-catalog",
+      "url": "https://www.youtube.com/watch?v=p-AmSfc5KtE",
+      "title": "Love Theme",
+      "publisher": "Musica e Oltre Srl / YouTube Music",
+      "publishedAt": "2015-07-02",
+      "accessedAt": "2026-08-09",
+      "summary": "‘Love Theme’을 Cinema Paradiso 공식 사운드트랙 수록곡으로 제공하며 1988 EMI General Music, 작곡 Ennio Morricone으로 표기한다.",
+      "supports": ["originalWork", "composer", "rightsContext"]
+    },
+    {
+      "id": "ev-kangwon-a-arirang-archive",
+      "type": "heritage-archive",
+      "url": "https://iha.go.kr/service/search_all_item_view.nihc?content_type_=&contentid=12147&filetypeid=0&itemid=619&media_type=audio",
+      "title": "강원도아리랑 소장음원자료",
+      "publisher": "국가유산청 국립무형유산원",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "강원도 민요 ‘강원도아리랑’의 전승 음원을 보존한 공공 아카이브다. 응원가가 어떤 특정 전승판을 편곡했는지는 밝히지 않는다.",
+      "supports": ["traditionalSourceContext"]
+    },
+    {
+      "id": "ev-kangwon-a-namuwiki-gap",
+      "type": "wiki-search",
+      "url": "https://namu.wiki/Search?q=%EA%B0%95%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "나무위키 강원대학교 응원가 검색 점검",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "세 곡명과 백령응원단 조합으로 검색했으나 곡 단위 제작·사용 연혁을 검증할 수 있는 색인 결과를 확보하지 못했다. 이는 정보가 없다는 단정이 아니라 이번 조사에서의 출처 공백이다.",
+      "supports": ["sourceGap"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kangwon-a-echo-official",
+      "songId": "kangwon-echo-of-gangwon",
+      "url": "https://www.youtube.com/watch?v=LMfM9ldyQ4o",
+      "videoId": "LMfM9ldyQ4o",
+      "title": "[2022 강원대학교 응원가] 강원의 울림으로",
+      "channel": "강원대학교 총학생회",
+      "publishedAt": "2022-08-24T02:00:09-07:00",
+      "descriptionSummary": "강원과 세계로 퍼지는 함성이라는 곡의 주제, 총학생회·백령응원단·학생 예술단체 공동 제작, 원곡이 강원도 아리랑임을 밝힌 공식 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["짧은 호응과 곡의 대표 구절을 따라 부르는 반응이 확인된다."],
+      "supports": ["title", "release", "melodicOrigin", "creators", "directRecording"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-echo-2025-entrance",
+      "songId": "kangwon-echo-of-gangwon",
+      "url": "https://www.youtube.com/watch?v=xMiYYRiTEhk",
+      "videoId": "xMiYYRiTEhk",
+      "title": "[강원대학교 백령응원단] 2025 신입생 입학식 OT 무대",
+      "channel": "백령응원단",
+      "publishedAt": "2025-10-03T04:03:04-07:00",
+      "descriptionSummary": "2025 신입생 입학식·OT 무대 세트에 ‘강원의 울림으로’와 ‘투혼가’를 명시한 응원단 공식 실연 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "entranceUse", "directPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-echo-2025-festival",
+      "songId": "kangwon-echo-of-gangwon",
+      "url": "https://www.youtube.com/watch?v=bnwoB9Q2J4w",
+      "videoId": "bnwoB9Q2J4w",
+      "title": "[강원대학교 백령응원단] 2025 대동제 1부",
+      "channel": "백령응원단",
+      "publishedAt": "2025-10-26T06:29:08-07:00",
+      "descriptionSummary": "2025 대동제 1부 세트에 인트로·‘강원의 울림으로’·대중 응원곡들을 순서대로 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "festivalUse", "directPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-echo-2026-ot",
+      "songId": "kangwon-echo-of-gangwon",
+      "url": "https://www.youtube.com/watch?v=8lkMOfP_tqc",
+      "videoId": "8lkMOfP_tqc",
+      "title": "[강원대학교 백령응원단] 2026 신입생 오리엔테이션",
+      "channel": "백령응원단",
+      "publishedAt": "2026-04-02T23:49:03-07:00",
+      "descriptionSummary": "2026 신입생 OT 세트에 ‘강원의 울림으로’를 곡명으로 명시한 최신 직접 실연이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["신입생과 후배를 응원하는 짧은 축하 반응이 확인된다."],
+      "supports": ["currentUse", "orientationUse", "directPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-echo-promo",
+      "songId": "kangwon-echo-of-gangwon",
+      "url": "https://www.youtube.com/watch?v=nVcHlbfrxHI",
+      "videoId": "nVcHlbfrxHI",
+      "title": "[2022 강원대학교 응원가] 응원가로 보는 당신이 꿈꾸는 강원대",
+      "channel": "KUBS 강원대학교 방송국",
+      "publishedAt": "2022-10-04T06:01:44-07:00",
+      "descriptionSummary": "교내 방송국이 응원가와 캠퍼스 이미지를 결합한 정규 홍보 영상이다. 제목은 개별곡을 특정하지 않아 프로젝트 활용 맥락 표본으로 분류했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["영상의 완성도를 칭찬하는 반응이 확인된다."],
+      "supports": ["promotionalUse", "projectContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-echo-making",
+      "songId": "kangwon-echo-of-gangwon",
+      "url": "https://www.youtube.com/watch?v=Q3UepHWj0tQ",
+      "videoId": "Q3UepHWj0tQ",
+      "title": "강원대학교 공식응원가 메이킹필름",
+      "channel": "강원대학교 총학생회",
+      "publishedAt": "2022-10-14T02:00:14-07:00",
+      "descriptionSummary": "총학생회가 공개한 세 공식 응원가의 제작 비하인드로, 참여 단체를 다시 열거한다. 개별곡 독립 실연이 아닌 제작 맥락 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["creators", "productionContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-echo-inst",
+      "songId": "kangwon-echo-of-gangwon",
+      "url": "https://www.youtube.com/watch?v=74soV6bmm98",
+      "videoId": "74soV6bmm98",
+      "title": "[음원제작]응원가 INST트랙 제작(2022 강원대학교 응원가 강원의 울림으로)",
+      "channel": "MR제작&음원제작 l 뮤직헬퍼",
+      "publishedAt": "2022-12-06T06:25:02-08:00",
+      "descriptionSummary": "음원 제작 업체가 공개한 짧은 인스트루멘털 제작 사례다. 상세 개인 크레딧은 없고 제작 문의 정보만 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["arrangementSample", "productionContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-baekryeong-official",
+      "songId": "kangwon-unchanging-baekryeong",
+      "url": "https://www.youtube.com/watch?v=civbrReVyVA",
+      "videoId": "civbrReVyVA",
+      "title": "[2022 강원대학교 응원가] 백령으로 불변하라",
+      "channel": "강원대학교 총학생회",
+      "publishedAt": "2022-08-24T02:00:17-07:00",
+      "descriptionSummary": "공동 제작 단체와 원곡 ‘B rossette’, 작곡자 김수진을 명시한 총학생회 공식 음원 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["title", "release", "melodicOrigin", "creators", "directRecording"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-baekryeong-official-university",
+      "songId": "kangwon-unchanging-baekryeong",
+      "url": "https://www.youtube.com/watch?v=-oiS5kv3BaE",
+      "videoId": "-oiS5kv3BaE",
+      "title": "강원대학교 응원가 - 백령으로 불변하라",
+      "channel": "강원대학교",
+      "publishedAt": "2023-01-03T00:33:38-08:00",
+      "descriptionSummary": "대학 본채널이 캠퍼스 소개·연주·응원단 안무를 결합해 재제작한 공식 영상이며 1절·2절·아웃트로 구간을 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["영상과 응원단을 칭찬하고 손동작 가시성을 위해 흰 장갑을 제안하는 반응이 보인다.", "입학을 희망하거나 학교를 응원하는 반응도 확인된다."],
+      "supports": ["officialStatus", "structure", "theme", "directRecording"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-baekryeong-2024-entrance",
+      "songId": "kangwon-unchanging-baekryeong",
+      "url": "https://www.youtube.com/watch?v=0uwJW2cDakM",
+      "videoId": "0uwJW2cDakM",
+      "title": "「강원대학교 백령응원단」 2024 신입생 입학식 공연 _ 우리의 꿈, 그대에게, 백령으로 불변하라",
+      "channel": "백령응원단",
+      "publishedAt": "2024-03-01T07:57:43-08:00",
+      "descriptionSummary": "2024 신입생 입학식 공연 제목에 세트의 마지막 곡으로 ‘백령으로 불변하라’를 직접 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["latestDirectUse", "entranceUse", "directPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-baekryeong-making",
+      "songId": "kangwon-unchanging-baekryeong",
+      "url": "https://www.youtube.com/watch?v=Q3UepHWj0tQ",
+      "videoId": "Q3UepHWj0tQ",
+      "title": "강원대학교 공식응원가 메이킹필름",
+      "channel": "강원대학교 총학생회",
+      "publishedAt": "2022-10-14T02:00:14-07:00",
+      "descriptionSummary": "세 공식 응원가 제작 과정과 공동 참여 단체를 담은 공식 메이킹필름이다. 개별곡 독립 표본은 아니지만 제작 맥락을 직접 보충한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["creators", "productionContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-baekryeong-inst",
+      "songId": "kangwon-unchanging-baekryeong",
+      "url": "https://www.youtube.com/watch?v=9l5B5c6y_WM",
+      "videoId": "9l5B5c6y_WM",
+      "title": "[음원제작]응원가 INST트랙 제작(2022 강원대학교 응원가 백령으로 불변하라)",
+      "channel": "MR제작&음원제작 l 뮤직헬퍼",
+      "publishedAt": "2022-12-06T06:00:41-08:00",
+      "descriptionSummary": "음원 제작 업체가 포트폴리오로 공개한 짧은 인스트루멘털 제작 사례다. 업체 외의 세부 크레딧은 설명에 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["arrangementSample", "productionContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-baekryeong-launch-stage",
+      "songId": "kangwon-unchanging-baekryeong",
+      "url": "https://www.youtube.com/watch?v=rPOHwlY2unc",
+      "videoId": "rPOHwlY2unc",
+      "title": "2022 강원대 대동제 공연",
+      "channel": "junny",
+      "publishedAt": "2022-09-21T08:34:15-07:00",
+      "descriptionSummary": "공식 응원가가 발표된 2022년 9월 21일 대동제 현장을 담은 비공식 영상이다. 설명과 제목이 곡을 특정하지 않아 발표일 현장 맥락으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["launchEventContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-silsagusi-official",
+      "songId": "kangwon-silsagusi",
+      "url": "https://www.youtube.com/watch?v=xQpXIXL7b2I",
+      "videoId": "xQpXIXL7b2I",
+      "title": "[2022 강원대학교 응원가] 실사구시",
+      "channel": "강원대학교 총학생회",
+      "publishedAt": "2022-08-24T02:00:28-07:00",
+      "descriptionSummary": "곡의 주제를 사실에 입각한 진리 탐구로 요약하고 공동 제작 단체, 원곡 ‘시네마천국’ OST ‘Love Theme’, 작곡자 Ennio Morricone을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["title", "release", "melodicOrigin", "theme", "directRecording"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-silsagusi-making",
+      "songId": "kangwon-silsagusi",
+      "url": "https://www.youtube.com/watch?v=Q3UepHWj0tQ",
+      "videoId": "Q3UepHWj0tQ",
+      "title": "강원대학교 공식응원가 메이킹필름",
+      "channel": "강원대학교 총학생회",
+      "publishedAt": "2022-10-14T02:00:14-07:00",
+      "descriptionSummary": "세 공식 응원가의 제작 비하인드와 참여 단체를 기록한 공식 영상이다. ‘실사구시’ 독립 실연이 아닌 프로젝트 제작 표본으로 분류했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["creators", "productionContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-silsagusi-promo",
+      "songId": "kangwon-silsagusi",
+      "url": "https://www.youtube.com/watch?v=nVcHlbfrxHI",
+      "videoId": "nVcHlbfrxHI",
+      "title": "[2022 강원대학교 응원가] 응원가로 보는 당신이 꿈꾸는 강원대",
+      "channel": "KUBS 강원대학교 방송국",
+      "publishedAt": "2022-10-04T06:01:44-07:00",
+      "descriptionSummary": "교내 방송국 정규 영상으로 응원가를 대학 홍보 서사에 사용한다. 설명은 개별곡을 특정하지 않아 프로젝트 활용 맥락으로만 연결했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["홍보 영상의 완성도를 칭찬하는 반응이 확인된다."],
+      "supports": ["promotionalUse", "projectContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-silsagusi-launch-stage",
+      "songId": "kangwon-silsagusi",
+      "url": "https://www.youtube.com/watch?v=rPOHwlY2unc",
+      "videoId": "rPOHwlY2unc",
+      "title": "2022 강원대 대동제 공연",
+      "channel": "junny",
+      "publishedAt": "2022-09-21T08:34:15-07:00",
+      "descriptionSummary": "세 공식 응원가 발표일의 대동제 공연을 담은 비공식 영상이다. 곡별 타임스탬프가 없어 발표 현장 맥락으로만 보존한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["launchEventContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kangwon-a-silsagusi-companion",
+      "songId": "kangwon-silsagusi",
+      "url": "https://www.youtube.com/watch?v=LMfM9ldyQ4o",
+      "videoId": "LMfM9ldyQ4o",
+      "title": "[2022 강원대학교 응원가] 강원의 울림으로",
+      "channel": "강원대학교 총학생회",
+      "publishedAt": "2022-08-24T02:00:09-07:00",
+      "descriptionSummary": "같은 날 같은 제작진이 공개한 프로젝트 동반곡이다. ‘실사구시’ 자체 표본이 아니라 공동 제작 범위와 출시 묶음을 확인하는 보조 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡을 따라 부르는 짧은 호응이 확인된다."],
+      "supports": ["companionRelease", "projectContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 3,
+    "youtubeSampleCount": 18,
+    "songsMeetingYoutubeMinimum": 3,
+    "openIssueCount": 13
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kaist-d",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-kaist",
+    "name": "KAIST",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고 공개 댓글은 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "kaist-d-beautiful-woman",
+      "title": "미인",
+      "aliases": [],
+      "currentStatus": "current-inventory-listed-and-directly-verified-through-2025-libera-me",
+      "summary": "신중현이 작사·작곡하고 신중현과 엽전들이 1974년에 발표한 록 곡 ‘미인’을 바탕으로 한 KAIST 응원가다. ELKA 공식 채널에는 2011 새내기배움터 응원 OT와 입학수속 영상이 있어 그해 사용은 직접 확인되지만 도입·초연 연도는 미확인이다. 이 기록은 울랄라세션의 2011-10-14 슈퍼스타K3 무대보다 이르므로 KAIST판의 최초 채택을 그 커버에서 비롯됐다고 볼 수 없다. 반면 2024·2025 공식 설명은 울랄라세션을 태그하므로 최근 공연이 그 버전의 편곡·퍼포먼스를 참고했을 가능성은 있으나, 언제 어떤 요소가 바뀌었는지는 직접 자료가 없다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2011년 새내기배움터 응원 OT",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-d-beauty-2011-ot"],
+          "notes": "영상 제목과 설명이 행사를 2011 새내기배움터 응원 OT로 특정하며 게시일은 2011-07-21이다. 현재 확보한 KAIST 직접 기록 중 가장 이르지만 초연을 뜻하지는 않는다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 늦어도 2011년에는 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-d-beauty-2011-ot", "yt-kaist-d-beauty-2011-admission", "ev-kaist-d-namu-cheers"],
+          "notes": "2011년 서로 다른 신입생 행사 표본은 있으나 신곡·초연·제작연도를 밝힌 자료는 찾지 못했다."
+        },
+        {
+          "field": "originalSongAndCreators",
+          "value": "신중현과 엽전들 ‘미인’; 작사·작곡 신중현",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-d-beauty-source-topic", "ev-kaist-d-korea-net", "ev-kaist-d-korean-culture", "ev-kaist-d-bugs-original", "ev-kaist-d-kumyoung-credit"],
+          "notes": "문화기관 자료와 음원 카탈로그가 1974년 신중현과 엽전들 작품으로 식별하고, 금영 공식 반주 영상은 작사·작곡을 신중현으로 명시한다."
+        },
+        {
+          "field": "sourceReleaseDate",
+          "value": "1974-08-25(문화기관 기사) / 1974-11-01(Apple Music 카탈로그)",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-d-korean-culture", "ev-kaist-d-apple-original"],
+          "notes": "두 자료의 날짜가 달라 단일 날짜로 합치지 않았다. 작품과 1집의 1974년 귀속에는 충돌이 없다."
+        },
+        {
+          "field": "relationshipToUlalaSessionVersion",
+          "value": "최초 KAIST 기록은 울랄라세션 슈퍼스타K3 무대보다 약 3개월 이르며, 2024·2025 KAIST 영상은 울랄라세션을 참고 태그로 표기",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-d-beauty-2011-ot", "yt-kaist-d-beauty-ulala", "yt-kaist-d-beauty-2024-freshman", "yt-kaist-d-beauty-2024-libera", "yt-kaist-d-beauty-2025-libera", "ev-kaist-d-apple-ulala"],
+          "notes": "연대상 최초 채택의 원천은 울랄라세션 버전일 수 없다. 최근 표기만으로 편곡 전체가 동일하다고 확정하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 현행 인벤토리에 수록되고 2025 제12회 Libera Me까지 공식 곡별 공연 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-d-inventory", "yt-kaist-d-beauty-2025-libera", "ev-kaist-d-kaist-official"],
+          "notes": "2026년 직접 공연 영상은 확보하지 못했으므로 인벤토리 판정과 2025년 최신 직접 표본을 분리했다."
+        },
+        {
+          "field": "documentedContinuity",
+          "value": "2011 새터·입학수속, 2012 입학수속·제1회 응원제, 2024 후기 새내기 응원대제전·제11회 응원제, 2025 제12회 응원제",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-d-beauty-2011-ot", "yt-kaist-d-beauty-2011-admission", "yt-kaist-d-beauty-2012-admission", "yt-kaist-d-beauty-2012-libera", "yt-kaist-d-beauty-2024-freshman", "yt-kaist-d-beauty-2024-libera", "yt-kaist-d-beauty-2025-libera"],
+          "notes": "2013~2023 구간은 이번 정확 제목 표본에 비어 있으며, 그 기간의 비사용을 뜻하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "새내기배움터 응원 OT·입학수속·후기 새내기 응원대제전에서 신입생에게 응원가와 동작을 소개하는 순서로 사용된다.",
+        "교내 응원제 Libera Me에서 약 2분 안팎의 곡별 집단응원 순서로 공연된다.",
+        "1974년 원곡의 반복적 록 리듬을 학교 응원 구호와 군무에 맞게 활용하지만, KAIST판의 공인 가사·편곡표는 확인되지 않았다."
+      ],
+      "trivia": [
+        {
+          "id": "beauty-ulala-chronology-correction",
+          "summary": "KAIST의 2011 새터 영상은 7월에 게시됐고 울랄라세션의 유명한 슈퍼스타K3 무대는 10월 14일 방송·게시됐다. 따라서 ‘처음부터 울랄라세션 버전을 원곡으로 삼았다’는 식의 설명은 시간상 성립하지 않으며, 최근 공식 태그는 후대 편곡 영향 가능성으로만 보존해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-d-beauty-2011-ot", "yt-kaist-d-beauty-ulala", "ev-kaist-d-apple-ulala", "yt-kaist-d-beauty-2024-libera"]
+        },
+        {
+          "id": "beauty-two-2011-freshman-contexts",
+          "summary": "같은 2011년에 새내기배움터 응원 OT와 입학수속이라는 서로 다른 제목의 108초 영상이 하루 간격으로 게시됐다. 단발 공연이 아니라 신입생 대상 레퍼토리였다는 직접 흔적이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-d-beauty-2011-ot", "yt-kaist-d-beauty-2011-admission"]
+        },
+        {
+          "id": "beauty-duration-and-version-question",
+          "summary": "2011·2012 영상은 108~110초, 2024 응원제 영상은 125초, 2025 영상은 104초다. 공연 길이 변화와 울랄라세션 태그는 버전 변화 가능성을 시사하지만 영상 편집·행사 운영 차이도 있어 편곡 변천으로 단정하지 않았다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kaist-d-beauty-2011-ot", "yt-kaist-d-beauty-2012-libera", "yt-kaist-d-beauty-2024-libera", "yt-kaist-d-beauty-2025-libera"]
+        },
+        {
+          "id": "beauty-original-youth-reception",
+          "summary": "공식 문화기관의 회고는 1974년 첫 앨범의 첫 곡 ‘미인’이 당시 학생과 젊은 층에서 즉각적인 인기를 얻었다고 설명한다. 수십 년 뒤 대학 응원가로 쓰이는 배경과 연결되는 문화사적 맥락이지만 KAIST 채택 경위를 직접 입증하지는 않는다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-d-korean-culture"]
+        },
+        {
+          "id": "beauty-ulala-comment-reception",
+          "summary": "울랄라세션 무대의 공개 댓글은 오디션을 넘어선 공연 완성도, 첫 소절과 군무, 무대 기획, 고 임윤택에 대한 기억, 여러 해에 걸친 재시청을 반복해 언급한다. 이는 원곡 커버의 대중적 수용이며 KAIST 현장 반응으로 계산하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-d-beauty-ulala"]
+        },
+        {
+          "id": "beauty-wiki-omission",
+          "summary": "접근한 현행 나무위키 KAIST 응원가 문서에는 ‘미인’ 항목이 없지만 2024·2025 ELKA 공식 공연과 2026 현행 인벤토리는 존재한다. 편집형 문서의 누락을 비현행 판정 근거로 쓰지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-d-namu-cheers", "yt-kaist-d-beauty-2025-libera", "ev-kaist-d-inventory"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Shin Jung-hyeon and Yupjuns' 미인; KAIST lyric adaptation, arrangement, choreography, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=GPrx_omo8pA",
+          "https://www.youtube.com/watch?v=4YSMGlz7IM0",
+          "https://music.bugs.co.kr/track/58900",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "공식 곡별 영상은 원곡의 반복적 록 리듬과 제목 후렴을 학교 집단응원에 맞춰 약 2분으로 압축한 공연임을 보여준다. 그러나 접근 가능한 공식 가사본이 없고 나무위키 현행 판본에도 항목이 없어 KAIST판의 정확한 절·구호·반복 순서는 전사하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-d-beauty-2011-ot",
+        "yt-kaist-d-beauty-2011-admission",
+        "yt-kaist-d-beauty-2012-admission",
+        "yt-kaist-d-beauty-2012-libera",
+        "yt-kaist-d-beauty-2024-freshman",
+        "yt-kaist-d-beauty-2024-libera",
+        "yt-kaist-d-beauty-2025-libera",
+        "yt-kaist-d-beauty-ulala",
+        "yt-kaist-d-beauty-source-topic"
+      ],
+      "unresolved": [
+        "2011년 이전 사용 여부와 정확한 제작·초연 행사",
+        "KAIST판 작사·편곡·안무 제작자와 최초 채택 경위",
+        "초기 신중현과 엽전들 기반 공연에서 최근 울랄라세션 태그 버전으로의 편곡 변화 시점과 범위",
+        "공인 가사본·응원법·버전 기록과 원곡 이용 허락 범위",
+        "2013~2023년 연속 사용을 보여 주는 곡별 영상·세트리스트",
+        "원작 1집의 1974-08-25와 1974-11-01 발매일 메타데이터 차이 원인",
+        "2026년 현행 인벤토리 이후의 직접 공연 영상"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kaist-d-inventory",
+      "type": "internal-inventory",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/universities.md#kaist--elka",
+      "title": "대학 응원단·현행 응원가 인벤토리 — KAIST",
+      "publisher": "project research",
+      "publishedAt": "2026-08-08",
+      "accessedAt": "2026-08-09",
+      "summary": "ELKA 공식 사이트·채널을 바탕으로 한 현행 16곡 목록에 ‘미인’을 포함한다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-kaist-official",
+      "type": "official",
+      "url": "https://www.kaist.ac.kr/kr/html/campus/053401.html",
+      "title": "학생자치기구 — 카이스트 응원단 ELKA",
+      "publisher": "KAIST",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "ELKA를 2005년 창단된 KAIST 공식 응원단으로 소개하고 입학식·새터/OT·축제·카포전에서 공연과 응원리드를 한다고 설명한다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-elka-events",
+      "type": "official",
+      "url": "https://elka.kaist.ac.kr/%EC%9D%91%EC%9B%90%EB%8B%A8-%ED%99%9C%EB%8F%99-events",
+      "title": "응원단 활동 EVENTS",
+      "publisher": "KAIST 응원단 ELKA",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "새내기 응원대제전을 응원가 교육 자리로, Libera Me를 신곡 발표와 집단 어깨동무·점프가 이뤄지는 대표 응원제로 설명한다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-times-freshman",
+      "type": "campus-press",
+      "url": "https://times.kaist.ac.kr/news/articleView.html?idxno=21187",
+      "title": "4년 만에 대면으로 돌아온 새내기새로배움터, 새출발의 설렘과 함께하다",
+      "publisher": "카이스트신문",
+      "publishedAt": "2023-03-07",
+      "accessedAt": "2026-08-09",
+      "summary": "새터에서 ELKA가 학교 응원가와 응원법을 소개하고 학생들이 소리 지르며 어깨동무하는 참여형 응원을 했다고 보도한다. 곡명은 특정하지 않는다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-namu-cheers",
+      "type": "editorial-wiki",
+      "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "한국과학기술원/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "접근한 현행 판본의 목차와 본문에는 ‘미인’ 항목이 없다. 공식 최근 영상과의 범위 불일치를 누락으로 기록했으며 비현행 근거로 사용하지 않았다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-korea-net",
+      "type": "official-cultural-article",
+      "url": "https://www.korea.net/NewsFocus/Culture/view?articleId=118133",
+      "title": "Korean rock godfather Shin Jung-hyeon",
+      "publisher": "Korea.net",
+      "publishedAt": "2014-02-24",
+      "accessedAt": "2026-08-09",
+      "summary": "신중현과 엽전들의 ‘미인’을 1974년 가장 인기 있었던 곡 가운데 하나로 소개하고 같은 해 첫 앨범에 실렸다고 설명한다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-korean-culture",
+      "type": "official-cultural-article",
+      "url": "https://www.korean-culture.org/koreanet/view.do?seq=2493",
+      "title": "Korean rock godfather Shin Jung-hyeon",
+      "publisher": "Korean Cultural Center",
+      "publishedAt": "2014-02-24",
+      "accessedAt": "2026-08-09",
+      "summary": "신중현과 엽전들 1집을 1974-08-25 발매로 설명하고 첫 트랙 ‘미인’이 학생과 젊은 층에서 즉각적인 인기를 얻었다고 회고한다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-bugs-original",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/58900",
+      "title": "미인 / 신중현과 엽전들",
+      "publisher": "Bugs",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "신중현과 엽전들의 원곡을 3분 1초 트랙으로 식별한다. 페이지에 노출되는 전체 가사는 저장하지 않았다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-apple-original",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/song/355018238",
+      "title": "Beautiful Woman (미인)",
+      "publisher": "Apple Music",
+      "publishedAt": "1974-11-01",
+      "accessedAt": "2026-08-09",
+      "summary": "곡을 신중현과 엽전들 1집 수록작으로 식별하고 날짜를 1974-11-01로 표시해 문화기관 자료의 8월 25일과 차이가 난다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-kumyoung-credit",
+      "type": "official-karaoke-reference",
+      "url": "https://www.youtube.com/watch?v=FlewdrR-0a0",
+      "title": "[KY ENTERTAINMENT] 미인 - 울랄라 세션 (KY.47633)",
+      "publisher": "금영노래방 공식 유튜브",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "울랄라세션 가창 버전의 반주 영상이 원작 작사·작곡자를 모두 신중현으로 표기한다. 가사 화면은 전사하지 않았다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-apple-ulala",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/song/1684454825",
+      "title": "미인 / 울랄라세션",
+      "publisher": "Apple Music",
+      "publishedAt": "2011-10-17",
+      "accessedAt": "2026-08-09",
+      "summary": "울랄라세션의 음원을 ‘슈퍼스타K3 TOP 11, Pt. 3’ 수록작으로 식별하고 2011-10-17 발매로 표시한다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    },
+    {
+      "id": "ev-kaist-d-bugs-ulala",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/2471212",
+      "title": "미인 / 울랄라세션",
+      "publisher": "Bugs",
+      "publishedAt": "2011-10-17",
+      "accessedAt": "2026-08-09",
+      "summary": "울랄라세션의 슈퍼스타K3 음원과 3분 20초 길이를 확인한다. 페이지의 전체 가사는 저장하지 않았다.",
+      "supports": ["kaist-d-beautiful-woman"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kaist-d-beauty-2011-ot",
+      "songId": "kaist-d-beautiful-woman",
+      "url": "https://www.youtube.com/watch?v=GPrx_omo8pA",
+      "videoId": "GPrx_omo8pA",
+      "title": "[카이스트 응원단 ELKA] 2011 새터 응원 OT - 미인",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2011-07-21",
+      "descriptionSummary": "설명이 2011 새내기배움터 응원 OT를 명시한 108초 공식 곡별 영상이다. 현재 확보한 가장 이른 KAIST 직접 사용 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "freshmanOrientationUse", "preUlalaChronology"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-d-beauty-2011-admission",
+      "songId": "kaist-d-beautiful-woman",
+      "url": "https://www.youtube.com/watch?v=RcpMZiD05oA",
+      "videoId": "RcpMZiD05oA",
+      "title": "[카이스트 응원단 ELKA] 2011 입학수속 - 미인",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2011-07-22",
+      "descriptionSummary": "설명이 2011 입학수속을 밝힌 108초 공식 곡별 영상으로, 같은 해 새터 응원 OT와 별개의 신입생 맥락을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earlyContinuity", "admissionUse", "preUlalaChronology"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-d-beauty-2012-admission",
+      "songId": "kaist-d-beautiful-woman",
+      "url": "https://www.youtube.com/watch?v=9R4yqQmjCaY",
+      "videoId": "9R4yqQmjCaY",
+      "title": "[카이스트 응원단 ELKA] 2012 입학수속 - 미인",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2012-06-27",
+      "descriptionSummary": "별도 설명은 없고 제목이 2012 입학수속의 110초 곡별 공연임을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earlyContinuity", "admissionUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-d-beauty-2012-libera",
+      "songId": "kaist-d-beautiful-woman",
+      "url": "https://www.youtube.com/watch?v=fWbPPD8ISHg",
+      "videoId": "fWbPPD8ISHg",
+      "title": "[카이스트 응원단 ELKA] 2012 제1회 KAIST 응원제 리베라메 - 1부 미인",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2013-01-15",
+      "descriptionSummary": "별도 설명은 없고 제목이 2012년 제1회 Libera Me 1부에서 사용된 110초 공식 공연임을 밝힌다. 행사연도와 게시일을 분리했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earlyContinuity", "liberaMeUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-d-beauty-2024-freshman",
+      "songId": "kaist-d-beautiful-woman",
+      "url": "https://www.youtube.com/watch?v=DcGO18Q82UY",
+      "videoId": "DcGO18Q82UY",
+      "title": "[카이스트 응원단 ELKA] 응원가 '미인' - 2024 후기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-09-04",
+      "descriptionSummary": "KAIST·ELKA·미인과 함께 울랄라세션을 태그한 115초 공식 영상이다. 후기 새내기 응원대제전에서의 최근 교육·공연 맥락을 확인하되, 태그만으로 편곡의 완전한 동일성을 단정하지 않았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recentContinuity", "freshmanEducation", "ulalaReference"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-d-beauty-2024-libera",
+      "songId": "kaist-d-beautiful-woman",
+      "url": "https://www.youtube.com/watch?v=AnVlj1vwMk8",
+      "videoId": "AnVlj1vwMk8",
+      "title": "[카이스트 응원단 ELKA] 응원가 '미인' - 2024 제11회 응원제 Libera Me: 靑龍",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-11-08",
+      "descriptionSummary": "제11회 Libera Me ‘청룡’과 곡명·울랄라세션을 태그한 125초 공식 곡별 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recentContinuity", "liberaMeUse", "ulalaReference", "durationVariation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-d-beauty-2025-libera",
+      "songId": "kaist-d-beautiful-woman",
+      "url": "https://www.youtube.com/watch?v=GKn1PQ6HYic",
+      "videoId": "GKn1PQ6HYic",
+      "title": "[카이스트 응원단 ELKA] 응원가 '미인' - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "제12회 Libera Me ‘바람’과 미인·울랄라세션을 태그한 104초 공식 영상으로 현재 확보한 가장 최근 직접 사용 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "recentContinuity", "liberaMeUse", "ulalaReference"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-d-beauty-ulala",
+      "songId": "kaist-d-beautiful-woman",
+      "url": "https://www.youtube.com/watch?v=cwUIhqPNrP4",
+      "videoId": "cwUIhqPNrP4",
+      "title": "슈퍼스타K3_울랄라세션_미인_신중현",
+      "channel": "Mnet K-POP",
+      "publishedAt": "2011-10-14",
+      "descriptionSummary": "Mnet이 공개한 218초 슈퍼스타K3 무대로 울랄라세션의 흥겨운 퍼포먼스와 팀 무대를 소개한다. KAIST 직접 사용이 아닌 후대 편곡·대중 수용 및 연대 비교용 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 오디션 무대라는 범주를 넘어선 콘서트급 완성도와 기획·안무·군무를 반복해 높이 평가한다.",
+        "첫 소절과 특정 춤 장면을 기억하는 반응, 여러 해 뒤에도 다시 찾아본다는 회고가 많다.",
+        "고 임윤택의 리더십·투병 중 무대와 팀을 향한 헌신을 기억하고 존경한다는 반응이 이어진다."
+      ],
+      "supports": ["ulalaVersionChronology", "ulalaPerformanceReference", "sourceCommentReception", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-d-beauty-source-topic",
+      "songId": "kaist-d-beautiful-woman",
+      "url": "https://www.youtube.com/watch?v=4YSMGlz7IM0",
+      "videoId": "4YSMGlz7IM0",
+      "title": "미인",
+      "channel": "신중현과 엽전들 - Topic",
+      "publishedAt": "2023-05-29",
+      "descriptionSummary": "KBS Media Music 제공 자동 생성 음원으로 가수·곡명·권리자 지구레코드를 표시한다. 설명의 1989-01-01은 이 음원의 재발매 메타데이터이므로 1974년 원작 발표일로 사용하지 않았다. KAIST 직접 사용이 아닌 원곡 확인 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["sourceIdentification", "sourceRights", "reissueDateDisambiguation", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 1,
+    "youtubeSampleCount": 9,
+    "songsMeetingYoutubeMinimum": 1,
+    "openIssueCount": 7
+  }
+}

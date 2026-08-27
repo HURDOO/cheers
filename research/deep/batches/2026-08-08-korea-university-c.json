@@ -1,0 +1,1344 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-korea-university-c",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-korea",
+    "name": "고려대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 역사·사용법·수용을 확인하는 데 필요한 내용만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "korea-university-champs-elysees",
+      "title": "샹젤리제",
+      "aliases": ["오 샹젤리제", "Champs-Élysées"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-ipselenti",
+      "summary": "Joe Dassin의 1969년 프랑스어 곡 ‘Les Champs-Élysées’를 바탕으로 만든 봉지응원곡이다. 고려대학교 응원단이 2013년에 올린 공식 온라인 OT 설명은 제작년도를 2003년으로 명시하지만, 현존하는 2003년 행사 프로그램이나 초연 영상은 찾지 못했다. 2025 입실렌티와 2026 신입생 응원 OT·입실렌티에서 계속 사용되며, 관중은 붉은 봉지를 흔들고 간주에서 나팔을 부는 듯한 동작을 한다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "고려대학교 응원단의 2013 공식 OT 설명에 제작년도 2003년으로 표기",
+          "assessment": "verified-official-retrospective-production-year-not-exact-premiere",
+          "confidence": "medium-high",
+          "evidenceRefs": ["yt-ku-c-champs-official-2013", "yt-ku-c-champs-audio-2018", "ev-ku-c-namu-2000s"],
+          "notes": "2013년 공식 채널 설명과 2018년 음원형 영상 설명이 2003년에 일치한다. 다만 2003년 당시의 프로그램·공지·날짜 특정 영상이 없어 ‘최초 공연일’로 확대하지 않는다. 2020 공식 OT와 나무위키 미러는 연도를 적지 않는다."
+        },
+        {
+          "field": "originalSongAndLineage",
+          "value": "Joe Dassin — Les Champs-Élysées(1969); 상위 계보는 Jason Crest의 Waterloo Road(1968)",
+          "assessment": "verified-direct-source-and-catalog-lineage",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-champs-official-2020", "ev-ku-c-sony-joe-dassin", "ev-ku-c-musicbrainz-champs", "ev-ku-c-namu-2000s"],
+          "notes": "응원단 공식 OT는 Joe Dassin판을 원곡으로 직접 명시한다. 음악 카탈로그는 이 프랑스어 곡이 Michael Deighan·Michael Wilshaw의 Waterloo Road를 Pierre Delanoë가 번안한 계보임을 보완한다. 고려대판이 어느 마스터·편곡을 직접 참조했는지는 미확인이다."
+        },
+        {
+          "field": "participationForm",
+          "value": "붉은 공기 봉지를 머리 위로 흔들고 간주에서 나팔 모션을 하는 경쾌한 집단 응원",
+          "assessment": "verified-official-instruction-and-field-use",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-champs-official-2020", "yt-ku-c-champs-2026-ot", "ev-ku-c-namu-2000s", "yt-ku-c-champs-2025"],
+          "notes": "공식 OT 설명·시범과 2025~2026 현장이 일치한다. 쓰레기봉투가 응원 뒤 실제 수거에 쓰인다는 효용은 팬 영상 설명과 회고 수준으로 구분한다."
+        },
+        {
+          "field": "versionContinuity",
+          "value": "2013 공식 OT와 2020 공식 OT의 핵심 절·후렴·간주 배열이 같고 2026에도 같은 형태 사용",
+          "assessment": "verified-stable-core-with-possible-audio-variants",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-champs-official-2013", "yt-ku-c-champs-official-2020", "yt-ku-c-champs-2026-ot", "yt-ku-c-champs-2026-ipselenti"],
+          "notes": "댓글에는 과거 록 편곡을 찾거나 음원을 새로 다듬어 달라는 반응이 있으나, 공식 버전명·교체 연도는 확인되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 입실렌티, 2026-03-17 신입생 응원 OT, 2026-05-22 입실렌티에서 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-champs-2025", "yt-ku-c-champs-2026-ot", "yt-ku-c-champs-2026-ipselenti", "ev-ku-c-official-2026-ipselenti"],
+          "notes": "최근 두 시즌 행사와 교육 영상이 모두 현행성을 지지한다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT에서는 봉지에 공기를 넣고 흔드는 법과 간주 동작을 교육하는 입문용 곡으로 쓰인다.",
+        "입실렌티의 빠르고 밝은 곡 묶음에서 KOREA 같은 다른 봉지응원곡과 연속 배치된다.",
+        "관중이 짧은 구음과 제목 후렴을 반복해 신규 참가자도 바로 합류할 수 있는 전곡형 응원이다."
+      ],
+      "trivia": [
+        {
+          "id": "champs-official-year-hidden-in-old-description",
+          "summary": "현재 널리 보이는 2020 공식 OT와 나무위키 미러에는 연도가 없지만, 응원단의 2013 공식 영상 설명에는 ‘제작년도 2003년’이 남아 있다. 검색 노출만으로는 놓치기 쉬운 메타데이터 근거다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-champs-official-2013", "yt-ku-c-champs-official-2020", "ev-ku-c-namu-2000s"]
+        },
+        {
+          "id": "champs-bag-memory",
+          "summary": "졸업생 댓글은 붉은 봉지를 들고 뛰던 기억을 반복해서 회상한다. 2026 OT에서도 같은 도구가 살아 있어, 단순 음원보다 응원도구와 결합된 기억이 강한 곡임을 보여 준다.",
+          "assessment": "anecdotal-with-current-visual-corroboration",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-champs-audio-2018", "yt-ku-c-champs-2026-ot"]
+        },
+        {
+          "id": "champs-upstream-english-song",
+          "summary": "학교 자료가 원곡으로 적는 Joe Dassin판은 그 자체가 영국 밴드 Jason Crest의 Waterloo Road를 프랑스어로 옮긴 곡이다. 응원가의 직접 참조곡과 더 오래된 작곡 계보를 분리해 기록해야 한다.",
+          "assessment": "verified-catalog-lineage",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-c-sony-joe-dassin", "ev-ku-c-musicbrainz-champs", "yt-ku-c-champs-official-2020"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted French song and modern university adaptation; upstream English composition and French adaptation credits are known, but Korea University arrangement, lyric and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=HqTxg0K6Uus",
+          "https://www.youtube.com/watch?v=XkVmvKwo6Kc",
+          "https://www.sonymusic.fr/artist/joe-dassin-2/",
+          "https://musicbrainz.org/work/07fad918-e68c-333c-a602-7791c21897d3"
+        ],
+        "structureSummary": "짧은 구음 절을 두 번 부른 뒤 제목을 반복하는 후렴과 모두 함께 부르자는 종결로 넘어간다. 간주 뒤 같은 두 덩어리를 재현하고 마지막 후렴을 한 차례 더 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-c-champs-official-2013",
+        "yt-ku-c-champs-audio-2018",
+        "yt-ku-c-champs-official-2020",
+        "yt-ku-c-champs-2023",
+        "yt-ku-c-champs-playlist-2024",
+        "yt-ku-c-champs-2025",
+        "yt-ku-c-champs-2026-ot",
+        "yt-ku-c-champs-2026-ipselenti"
+      ],
+      "unresolved": [
+        "2003년 제작 당시 공지·프로그램·최초 공연의 정확한 날짜와 장소",
+        "고려대판 편곡자·개사자·보컬·음원 제작진의 공식 전체 크레딧",
+        "Joe Dassin판과 Waterloo Road 중 고려대 제작자가 직접 참조한 녹음 및 편곡 범위",
+        "댓글에서 언급되는 록 편곡과 현행 음원의 공식 버전명·교체 시점",
+        "현행 음원·가사·영상의 게시 및 재사용 권리와 행사별 고정 배치"
+      ]
+    },
+    {
+      "id": "korea-university-korea",
+      "title": "KOREA",
+      "aliases": ["K.O.R.E.A", "코리아"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "Henry Clay Work가 1876년에 발표한 ‘Grandfather's Clock’ 선율 계열을 바탕으로 만든 2012년 신곡이다. 응원단 공식 2013 영상이 ‘2012 정기 고연전 신곡’이라고 명시하고, 2020 공식 OT는 한국에서 익숙한 동요 ‘할아버지의 낡은 시계’를 원곡으로 적는다. 학교 영문명 철자를 관중이 함께 외치고 붉은 봉지를 흔드는 응원이며 2025·2026 입실렌티에서 현행 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2012 정기 고연전 신곡",
+          "assessment": "verified-official-retrospective",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-korea-official-2013", "yt-ku-c-korea-audio-2018", "ev-ku-c-namu-2010s"],
+          "notes": "응원단 공식 영상 제목·설명과 나무위키 미러가 같은 연도를 제시한다. 정확한 첫 경기와 공개일은 확인되지 않았다."
+        },
+        {
+          "field": "originalSongAndRights",
+          "value": "Henry Clay Work — Grandfather's Clock(1876), 한국어권 동요명 ‘할아버지의 낡은 시계’",
+          "assessment": "verified-official-identification-and-primary-source-lineage",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-korea-official-2020", "ev-ku-c-loc-grandfather", "ev-ku-c-namu-2010s"],
+          "notes": "공식 OT가 동요명을, 미국 의회도서관이 작자와 1876년 계보 및 원자료의 퍼블릭 도메인 상태를 확인한다. 고려대판 녹음·편곡·가사는 별도 현대 저작물이다."
+        },
+        {
+          "field": "titleAndParticipation",
+          "value": "학교 영문명 철자를 끊어 외치고 승리 선창·후창을 주고받으며 붉은 봉지를 흔드는 응원",
+          "assessment": "verified-official-instruction-and-field-use",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-korea-official-2020", "ev-ku-c-namu-2010s", "yt-ku-c-korea-2025", "yt-ku-c-korea-2026"],
+          "notes": "공식 제목은 점 없는 KOREA와 점을 넣은 K.O.R.E.A가 모두 쓰이므로 하나의 곡에 별칭으로 병합한다."
+        },
+        {
+          "field": "versionContinuity",
+          "value": "2012 신곡판의 핵심 절·철자 후렴·승리 응답 구조가 2026까지 유지",
+          "assessment": "verified-stable-core",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-korea-official-2013", "yt-ku-c-korea-official-2020", "yt-ku-c-korea-playlist-2024", "yt-ku-c-korea-2026"],
+          "notes": "2013과 2020 공식 설명 사이에 반복 횟수 표기가 조금 다르지만 핵심 구간과 현장 음원은 같은 계열이다. 별도 리뉴얼 공지는 찾지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 현행곡 모음, 2025 입실렌티, 2026-05-22 입실렌티에서 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-korea-playlist-2024", "yt-ku-c-korea-2025", "yt-ku-c-korea-2026", "ev-ku-c-official-2026-ipselenti"],
+          "notes": "세 시즌의 날짜 특정 영상이 연속성을 보여 준다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT에서 붉은 봉지 동작과 학교 영문명 철자 구호를 교육한다.",
+        "입실렌티의 밝고 빠른 봉지응원 묶음에서 샹젤리제·붉은 노을 등과 연속 배치된다.",
+        "짧은 승리 문장 뒤 응원단과 관중이 학교명·승리 구호를 교환하는 선창·후창형 곡이다."
+      ],
+      "trivia": [
+        {
+          "id": "korea-public-domain-source-modern-adaptation",
+          "summary": "1876년 원곡 악보 계열은 미국 의회도서관 컬렉션에서 퍼블릭 도메인으로 안내되지만, 고려대판 편곡·가사·녹음까지 자동으로 자유 이용되는 것은 아니다.",
+          "assessment": "verified-rights-distinction",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-c-loc-grandfather", "yt-ku-c-korea-official-2020"]
+        },
+        {
+          "id": "korea-name-format",
+          "summary": "공식 채널도 2013년에는 K.O.R.E.A, 2020년에는 KOREA라고 표기한다. 검색과 카드 중복 제거를 위해 점을 넣은 표기를 별칭으로 유지한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-korea-official-2013", "yt-ku-c-korea-official-2020"]
+        },
+        {
+          "id": "korea-cross-sport-melody",
+          "summary": "편집형 자료와 댓글은 같은 선율이 FC 서울 클럽송과 롯데 자이언츠 응원에도 쓰인다고 지적한다. 이는 공통 원곡 계열을 보여 주지만 고려대에서 다른 팀으로 직접 전파된 순서와 허가 관계는 입증하지 않는다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-c-namu-2010s", "yt-ku-c-korea-audio-2018"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "the 1876 source composition is public domain in the cited Library of Congress collection; the university lyrics, arrangement and recording are modern works with reuse rights not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=LayccNNj_k0",
+          "https://www.youtube.com/watch?v=KgXrobzx2No",
+          "https://www.loc.gov/item/sm1876.7601869/"
+        ],
+        "structureSummary": "승리를 노래하자는 짧은 절을 반복한 뒤 학교 영문명 철자와 학교명을 외치는 후렴으로 넘어간다. 다시 첫 절을 부르고 응원단 선창에 관중이 학교 정체성과 승리를 답한 뒤 첫 절을 재현한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-c-korea-official-2013",
+        "yt-ku-c-korea-audio-2018",
+        "yt-ku-c-korea-official-2020",
+        "yt-ku-c-korea-2023",
+        "yt-ku-c-korea-playlist-2024",
+        "yt-ku-c-korea-2025",
+        "yt-ku-c-korea-2026"
+      ],
+      "unresolved": [
+        "2012년 최초 공개일·첫 경기·당시 공식 배포 음원",
+        "고려대판 편곡자·개사자·보컬·녹음 제작진과 사용 허가",
+        "제작자가 1876년 원곡, 한국어 동요판, 다른 편곡 중 어느 녹음을 직접 참조했는지",
+        "FC 서울·롯데 자이언츠와의 공통 선율 사용 순서 및 직접 차용·권리 관계",
+        "현행 행사 진행표상 고정 순서와 공식 반복 횟수 표기의 차이"
+      ]
+    },
+    {
+      "id": "korea-university-tiger",
+      "title": "호랑이",
+      "aliases": ["우리는 호랑이", "안암골의 호랑이"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "라이프 앤 타임의 2014년 곡 ‘호랑이’를 바탕으로 한 2017년 신곡이다. 발표 당시 응원 OT 영상과 2020 공식 온라인 OT가 원곡·제목·구조를 확인하며, 할퀴는 동작과 호랑이 인사 동작을 결합한 밝고 장난스러운 팀 응원이다. 2025 안암 응원 OT와 2026 입실렌티에서도 같은 핵심 구조로 사용된다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2017 고연전 응원 신곡",
+          "assessment": "verified-contemporaneous-release-video",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-tiger-new-2017", "yt-ku-c-tiger-official-2020", "ev-ku-c-namu-2010s"],
+          "notes": "2017년 9월 영상이 당시 안암 응원 OT의 ‘2017 대박 신곡’으로 직접 소개한다. 정확한 최초 무대는 미확인이다."
+        },
+        {
+          "field": "originalSong",
+          "value": "라이프 앤 타임 — 호랑이; 2014-05-07 공식 MV와 첫 EP 수록",
+          "assessment": "verified-official-cheer-credit-and-label-source",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-tiger-official-2020", "ev-ku-c-life-time-original", "ev-ku-c-namu-2010s"],
+          "notes": "응원단 공식 OT와 레이블 공식 MV가 원곡을 직접 연결한다. 고려대판의 편곡·개사 크레딧은 공개되지 않았다."
+        },
+        {
+          "field": "officialTitleAndAlias",
+          "value": "공식 제목은 ‘호랑이’; 현장·팬 영상에서 ‘우리는 호랑이’도 사용",
+          "assessment": "verified-title-with-persistent-alias",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-tiger-official-2020", "yt-ku-c-tiger-2023", "yt-ku-c-tiger-2026"],
+          "notes": "2023 합본 영상 댓글에서도 두 번째 곡 제목을 ‘호랑이’로 바로잡는 반응이 있다. 별개 곡으로 분리하지 않는다."
+        },
+        {
+          "field": "participationForm",
+          "value": "공격 구호에 맞춘 할퀴기, 동물 소리 발사, 음절별 호랑이 인사 동작",
+          "assessment": "verified-field-and-reported-official-explanation",
+          "confidence": "medium-high",
+          "evidenceRefs": ["yt-ku-c-tiger-new-2017", "yt-ku-c-tiger-official-2020", "ev-ku-c-namu-2010s", "yt-ku-c-tiger-2025"],
+          "notes": "동작은 여러 시즌 영상으로 직접 확인된다. 마지막 동작이 ‘안암골 호랑이끼리의 인사’라는 설명은 편집형 자료가 응원단 설명으로 전한 내용이며 원본 인터뷰는 찾지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 응원 OT·현행곡 모음, 2025 안암 응원 OT, 2026 입실렌티에서 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-tiger-2024", "yt-ku-c-tiger-playlist-2024", "yt-ku-c-tiger-2025", "yt-ku-c-tiger-2026", "ev-ku-c-official-2026-ipselenti"],
+          "notes": "최근 세 시즌의 교육·행사 현장이 연속성을 보여 준다."
+        }
+      ],
+      "usageContexts": [
+        "응원 OT와 입실렌티의 밝고 장난스러운 중반 묶음에서 관중의 큰 동작을 끌어내는 전곡형 응원이다.",
+        "응원단이 공격 구호를 넣으면 관중이 손으로 할퀴는 동작과 호랑이 음절 동작을 함께 수행한다.",
+        "음악부 리허설 영상에서는 관중 없이도 밴드·보컬 음원과 반복 구조를 연습하는 레퍼토리로 확인된다."
+      ],
+      "trivia": [
+        {
+          "id": "tiger-original-chorus-fit",
+          "summary": "원곡 자체가 호랑이 정체성을 반복하는 후렴을 갖고 있어 학교 상징 동물과 자연스럽게 맞아떨어진다. 공식 MV는 리듬체조 선수의 훈련과 공연을 소재로 해 응원가와는 다른 원래 맥락을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-c-life-time-original", "yt-ku-c-tiger-official-2020"]
+        },
+        {
+          "id": "tiger-cute-reception",
+          "summary": "여러 시즌 영상과 댓글에서 이 곡은 웅장한 대표곡보다 귀엽고 발랄한 ‘아기호랑이’ 이미지로 반복해서 소비된다. 이는 수용 양상이며 공식 장르 분류는 아니다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-tiger-new-2017", "yt-ku-c-tiger-official-2020", "yt-ku-c-tiger-2026"]
+        },
+        {
+          "id": "tiger-name-correction",
+          "summary": "현장 합본 영상이 곡을 ‘우리는 호랑이’로 적기도 하지만 댓글에서 공식 제목 ‘호랑이’로 정정된다. 제목 후렴이 별칭으로 굳은 사례다.",
+          "assessment": "verified-title-variation",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-tiger-official-2020", "yt-ku-c-tiger-2023"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 2014 song and modern university adaptation; label recording is identified, but university lyric, arrangement and performance permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=JROvTLnWPPk",
+          "https://www.youtube.com/watch?v=WLwifYE-jYY",
+          "https://www.youtube.com/watch?v=ALGPoGFvSz4"
+        ],
+        "structureSummary": "학교의 밤·대표 응원가·호랑이 이미지를 잇는 짧은 절에 응원단의 상승 구호가 응답처럼 끼어든다. 동물 소리 구호 뒤 학교 구성원을 호랑이로 선언하는 짧은 후렴을 반복하고 간주 뒤 후렴을 두 차례 더 부른다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-c-tiger-new-2017",
+        "yt-ku-c-tiger-rehearsal-2019",
+        "yt-ku-c-tiger-official-2020",
+        "yt-ku-c-tiger-2022",
+        "yt-ku-c-tiger-2023",
+        "yt-ku-c-tiger-2024",
+        "yt-ku-c-tiger-playlist-2024",
+        "yt-ku-c-tiger-2025",
+        "yt-ku-c-tiger-2026"
+      ],
+      "unresolved": [
+        "2017년 최초 공연의 정확한 날짜·행사와 당시 공식 배포 음원",
+        "고려대판 편곡자·개사자·보컬·녹음 제작진 및 원저작자 사용 허가",
+        "호랑이 인사 동작에 관한 응원단의 원본 설명·안무 문서",
+        "2017~2026 사이 음원 믹스·반복 횟수의 공식 버전 변경 여부",
+        "현행 행사별 고정 사용 순서와 경기 종목별 운용 차이"
+      ]
+    },
+    {
+      "id": "korea-university-we-are-korea",
+      "title": "우리는 고대",
+      "aliases": ["우리는 고대!", "승리호 응원가"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "고려대학교의 승리호를 모티브로 만든 2014년 신곡이다. 고대신문의 발표 기사와 공식 응원 OT는 슈퍼키드 ‘Rock Star’와 Glen Check ‘60's Cardin’을 결합한 빠른 선창·후창 및 랩형 응원임을 보여 준다. 응원단은 운동부 선수들도 승부 전 의기를 모을 때 승리호를 외친다고 설명하며, 2024 KUBS 목록과 2025·2026 입실렌티에서도 현행 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2014 정기 고연전 신곡",
+          "assessment": "verified-contemporaneous-university-news",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-c-kunews-we-2014", "yt-ku-c-we-official-2020", "ev-ku-c-namu-2010s"],
+          "notes": "고대신문이 2014년 10월 새 응원곡으로 직접 소개한다. 나무위키 미러와 공식 OT가 같은 계보를 보완한다."
+        },
+        {
+          "field": "motifAndFunction",
+          "value": "고려대학교 고유의 승리호를 되살려 집단 선창·후창으로 만든 응원",
+          "assessment": "verified-contemporaneous-and-official-explanation",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-c-kunews-we-2014", "yt-ku-c-we-official-2020", "ev-ku-c-namu-2010s"],
+          "notes": "고대신문은 승리호 모티브를, 공식 OT는 운동부 선수들도 의기 투합에 사용한다고 설명한다. 승리호 자체의 최초 기원은 확인되지 않았다."
+        },
+        {
+          "field": "originalSongs",
+          "value": "슈퍼키드 — Rock Star; Glen Check — 60's Cardin",
+          "assessment": "verified-official-cheer-credit-and-licensed-catalogs",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-we-official-2020", "ev-ku-c-apple-superkid-rockstar", "ev-ku-c-apple-glencheck-cardin", "ev-ku-c-namu-2010s"],
+          "notes": "공식 OT가 두 곡을 함께 원곡으로 적고 음원 카탈로그가 각각의 발매를 확인한다. 어느 구간이 어느 원곡을 사용했는지와 추가 편곡 크레딧은 공식 설명에 없다."
+        },
+        {
+          "field": "participationForm",
+          "value": "짧은 승리호를 빠르고 느리게 교환한 뒤, 전원 합창과 라이벌을 겨냥한 랩형 구간으로 전개",
+          "assessment": "verified-structure-and-field-use",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-c-kunews-we-2014", "yt-ku-c-we-official-2020", "yt-ku-c-we-joint-2022", "yt-ku-c-we-2025"],
+          "notes": "합동응원전에서는 연세대 응원곡과 맞대응 형태로 연속 배치되는 사례도 확인된다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 KUBS 공식 플레이리스트, 2025 입실렌티, 2026-05-22 입실렌티에서 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-we-kubs-2024", "yt-ku-c-we-2025", "yt-ku-c-we-2026", "ev-ku-c-official-2026-ipselenti"],
+          "notes": "교내 방송·응원단 촬영팀 자료가 세 시즌에 걸쳐 일치한다."
+        }
+      ],
+      "usageContexts": [
+        "응원 OT에서 전통 승리호를 소개하고 빠른 선창·후창과 전원 합창을 교육한다.",
+        "입실렌티의 경쾌한 중반 응원 묶음에서 호랑이·싱글벙글과 연속 배치되는 경우가 많다.",
+        "합동응원전에서는 라이벌 학교 곡과 교차 배치해 학교 정체성과 승리 의지를 직접 대조한다."
+      ],
+      "trivia": [
+        {
+          "id": "we-victory-chant-revival",
+          "summary": "2014 고대신문은 전년도 교호 모티브 신곡과 대비해 이 곡을 승리호 모티브 신곡으로 소개했다. 편집형 자료는 잊혀 가던 승리호를 되살린 곡이라고 덧붙이지만 그 표현의 원본 게시물은 현재 직접 확인하지 못했다.",
+          "assessment": "verified-core-reported-revival-wording",
+          "confidence": "medium-high",
+          "evidenceRefs": ["ev-ku-c-kunews-we-2014", "ev-ku-c-namu-2010s"]
+        },
+        {
+          "id": "we-two-source-correction",
+          "summary": "독립 음원 영상 댓글에는 원곡을 한 곡으로만 오해하지 말고 Rock Star와 60's Cardin 두 곡을 함께 표기해 달라는 정정이 남아 있다. 공식 OT 설명도 두 곡을 병기한다.",
+          "assessment": "verified-official-source-corroborated-comment",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-we-audio-2018", "yt-ku-c-we-official-2020"]
+        },
+        {
+          "id": "we-athlete-use",
+          "summary": "공식 OT는 승리호를 일반 관중뿐 아니라 고려대 운동부 선수들이 경기 전 결의를 모을 때도 외친다고 설명한다. 다만 특정 종목·경기의 1차 영상은 이번 표본에서 별도 확보하지 못했다.",
+          "assessment": "officially-reported",
+          "confidence": "medium-high",
+          "evidenceRefs": ["yt-ku-c-we-official-2020"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted source songs and modern university medley/adaptation; source recordings are identified, but the university arrangement, lyric and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=A05Mp1fJbvw",
+          "https://www.kunews.ac.kr/news/articleView.html?idxno=21014",
+          "https://music.apple.com/kr/song/1436383647",
+          "https://music.apple.com/th/song/1811550029"
+        ],
+        "structureSummary": "학교명·전진·승리를 응원단과 관중이 짧게 주고받는 구간을 두 번 부른 뒤 전원이 같은 내용을 빠르게 합창한다. 이어 라이벌을 겨냥한 랩형 절로 넘어가며 이 세 덩어리를 되풀이해 마지막 합창으로 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-c-we-audio-2018",
+        "yt-ku-c-we-official-2020",
+        "yt-ku-c-we-ipselenti-2022",
+        "yt-ku-c-we-joint-2022",
+        "yt-ku-c-we-kubs-2024",
+        "yt-ku-c-we-2025",
+        "yt-ku-c-we-2026"
+      ],
+      "unresolved": [
+        "2014년 최초 공연의 정확한 날짜·경기와 당시 공식 배포 음원",
+        "두 원곡의 구간별 사용 범위와 고려대판 편곡·개사·보컬·녹음 제작진",
+        "두 원곡 및 음원에 대한 편곡·개사·공연·녹음 사용 허가",
+        "승리호 자체의 최초 문헌·창안자와 운동부 종목별 실제 사용 기록",
+        "현행 행사 진행표상 고정 순서와 합동응원전·경기장별 운용 차이"
+      ]
+    },
+    {
+      "id": "korea-university-singgeulbeonggeul",
+      "title": "싱글벙글",
+      "aliases": ["싱글 벙글", "싱글! 싱글벙글!"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "고려대학교 응원단 음악부 ‘엘리제’가 직접 작사·작곡한 2015년 신곡으로 전해지는 빠르고 장난스러운 응원가다. 2015년 9월 8일 세종 응원 OT 영상이 당해 사용을 직접 보여 주고, 2018 회고 영상과 나무위키 미러가 신곡 연도에 일치한다. 얼굴 앞에서 카메라 틀을 만들고 서로 마주 보며 까꿍 동작을 하는 것이 특징이며 2025 KUTV 응원 OT와 2026 입실렌티에서도 현행 사용된다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2015년 신곡; 늦어도 2015-09-08 세종 응원 OT에서 직접 사용 확인",
+          "assessment": "verified-year-with-date-specific-field-boundary",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-smile-field-2015", "yt-ku-c-smile-new-songs-2018", "yt-ku-c-smile-retrospective-2021", "ev-ku-c-namu-2010s"],
+          "notes": "동시대 영상과 복수의 후대 자료가 2015년에 일치한다. 정확한 최초 공개 행사는 미확인이다."
+        },
+        {
+          "field": "authorshipAndOrigin",
+          "value": "외부 원곡 없이 고려대학교 응원단 음악부 엘리제가 직접 작사·작곡했다는 기록",
+          "assessment": "reported-by-edited-source-with-official-absence-corroboration",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-c-namu-2010s", "yt-ku-c-smile-official-2020"],
+          "notes": "나무위키 미러는 엘리제의 직접 창작이라고 명시한다. 공식 OT가 다른 개사곡과 달리 원곡을 적지 않는 점은 부합하지만, 작곡자명·등록 자료·제작 인터뷰는 찾지 못했다."
+        },
+        {
+          "field": "participationForm",
+          "value": "짧은 말놀이 절, 제목 선창·후창, 안암으로 모이라는 라이벌전 구간과 카메라·까꿍 동작",
+          "assessment": "verified-official-instruction-and-field-use",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-smile-official-2020", "ev-ku-c-namu-2010s", "yt-ku-c-smile-kutv-2025", "yt-ku-c-smile-2026"],
+          "notes": "공식 OT와 최근 현장 화면에서 얼굴 앞 손동작과 서로 마주 보는 참여 방식이 확인된다."
+        },
+        {
+          "field": "choreographyChange",
+          "value": "과거에는 싱글인 친구를 향한 동작으로 설명됐으나 최근에는 주변 참가자끼리 마주 보는 동작으로 일반화됐다는 주장",
+          "assessment": "reported-not-dated-by-primary-source",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-c-namu-2010s", "yt-ku-c-smile-official-2020", "yt-ku-c-smile-kutv-2025"],
+          "notes": "2020·2025 영상은 현재형 동작을 보여 주지만, 변화 전 공식 안무 지침과 정확한 전환 연도는 없다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2023 공식 응원가 플레이리스트, 2025 KUTV 응원 OT, 2026-05-22 입실렌티에서 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-smile-official-playlist-2023", "yt-ku-c-smile-kutv-2025", "yt-ku-c-smile-2026", "ev-ku-c-official-2026-ipselenti"],
+          "notes": "공식 응원단 채널·교내 방송·최근 현장이 연속성을 지지한다."
+        }
+      ],
+      "usageContexts": [
+        "응원 OT에서 참가자들이 서로 마주 보고 카메라 틀과 까꿍 동작을 익히는 밝은 입문곡으로 사용된다.",
+        "입실렌티의 경쾌한 중반 응원 묶음에서 우리는 고대·호랑이·연세치킨 등과 연속 배치된다.",
+        "짧은 언어유희와 라이벌전 문장을 반복해 관중의 웃음과 즉각적인 선창·후창을 유도한다."
+      ],
+      "trivia": [
+        {
+          "id": "smile-first-kubs-cheer-mv-project",
+          "summary": "KUBS는 2019년에 이 곡으로 ‘고려대 최초 응원가 뮤비 프로젝트’를 제작했다. 이는 곡 자체가 최초 응원가라는 뜻이 아니라 교내 방송국의 첫 응원가 뮤직비디오 프로젝트라는 제목으로 해석해야 한다.",
+          "assessment": "verified-with-scope-clarification",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-smile-kubs-mv-2019"]
+        },
+        {
+          "id": "smile-single-pun",
+          "summary": "현장 선곡 멘트는 ‘싱글’과 ‘벙글’을 주고받는 말장난으로 곡을 시작한다. 2025·2026 영상 설명에도 같은 도입이 남아 제목 자체가 관객 참여 장치로 쓰인다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-smile-2025", "yt-ku-c-smile-2026"]
+        },
+        {
+          "id": "smile-rapid-popularity",
+          "summary": "2015년 신곡 시절 영상은 후대에 ‘지금은 모두가 사랑하는 곡’으로 회고됐고, 음원·현장 영상 댓글에서도 가장 재미있거나 좋아하는 곡이라는 반응이 반복된다. 인기도는 정량 조사 없이 수용 사례로만 남긴다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-c-smile-retrospective-2021", "yt-ku-c-smile-ipselenti-2022", "yt-ku-c-smile-kubs-mv-2019"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "modern university original as reported; individual authorship, composition registration, arrangement, recording ownership and reuse permissions are not documented in the checked primary sources",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=54LdboZa0QU",
+          "https://www.youtube.com/watch?v=nfncHlFoz60",
+          "https://d.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80"
+        ],
+        "structureSummary": "비슷한 말끝을 이어 붙인 짧은 절 뒤 제목을 선창·후창으로 두 차례 외친다. 첫 절과 제목 응답을 반복한 다음 안암과 신촌을 대비하는 라이벌전 구간을 두 번 부르고, 제목 응답과 라이벌전 구간을 교차해 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-c-smile-field-2015",
+        "yt-ku-c-smile-new-songs-2018",
+        "yt-ku-c-smile-kubs-mv-2019",
+        "yt-ku-c-smile-official-2020",
+        "yt-ku-c-smile-retrospective-2021",
+        "yt-ku-c-smile-ipselenti-2022",
+        "yt-ku-c-smile-official-playlist-2023",
+        "yt-ku-c-smile-kutv-2025",
+        "yt-ku-c-smile-2025",
+        "yt-ku-c-smile-2026"
+      ],
+      "unresolved": [
+        "2015년 최초 공개 행사의 정확한 날짜·장소와 당시 공식 신곡 공지",
+        "음악부 엘리제 직접 창작설을 확인할 공식 제작기·저작권 등록·작곡자 실명",
+        "편곡자·보컬·연주·녹음 제작진과 음원·안무 재사용 권리",
+        "싱글인 친구를 향하던 동작에서 모든 참가자가 마주 보는 동작으로 바뀐 정확한 시점과 공식 지침",
+        "현행 행사별 고정 순서와 신촌 관련 반복 구간의 공식 음원·현장 변형 구분"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ku-c-namu-2000s",
+      "type": "namuwiki-mirror",
+      "url": "https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+      "title": "나무위키 미러 — 고려대학교/응원가/2000년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "2025-11-02 수정 스냅샷으로 샹젤리제의 Joe Dassin 원곡, 붉은 봉지·나팔 동작과 곡 구조를 정리한다. 도입 연도는 적지 않으므로 공식 2013 OT 설명의 2003년 표기와 구분했다.",
+      "supports": ["샹젤리제 원곡·동작·구조", "샹젤리제 연도 미기재"]
+    },
+    {
+      "id": "ev-ku-c-namu-2010s",
+      "type": "namuwiki-mirror",
+      "url": "https://d.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80",
+      "title": "나무위키 미러 — 고려대학교/응원가/2010년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "2025-04-16 수정 스냅샷으로 KOREA의 2012년·할아버지의 시계·봉지응원, 우리는 고대의 2014년·두 원곡·승리호, 싱글벙글의 2015년·엘리제 창작설·까꿍 동작, 호랑이의 2017년·원곡·할퀴기 동작을 모은 편집형 자료다. 연도와 원곡은 공식 영상·교내 언론·권리자 자료로 별도 교차했다.",
+      "supports": ["KOREA", "우리는 고대", "싱글벙글", "호랑이"]
+    },
+    {
+      "id": "ev-ku-c-kunews-we-2014",
+      "type": "university-news",
+      "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=21014",
+      "title": "따라해요. 고대인이 외치는 흥겨운 승리호",
+      "publisher": "고대신문",
+      "publishedAt": "2014-10-09",
+      "accessedAt": "2026-08-09",
+      "summary": "2014 정기 고연전을 앞두고 ‘우리는 고대’를 당해 신곡으로 소개하고, 고려대 승리호를 모티브로 삼았으며 빠른·느린 승리호와 랩형 구간을 결합했다고 설명하는 동시대 교내 기사다.",
+      "supports": ["우리는 고대 2014 신곡", "승리호 모티브", "초기 동작·구조"]
+    },
+    {
+      "id": "ev-ku-c-kunews-culture-2022",
+      "type": "university-news",
+      "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=33731",
+      "title": "자유정의진리, 응원제, 막걸리에 숨겨진 이야기",
+      "publisher": "고대신문",
+      "publishedAt": "2022-05-08",
+      "accessedAt": "2026-08-09",
+      "summary": "입실렌티가 1977년부터 응원단 주최로 이어지며 학교 구성원의 자부심과 하나 됨을 만드는 응원제라는 문화적 맥락을 교내 언론이 설명한다.",
+      "supports": ["입실렌티의 응원 문화·집단 사용 맥락"]
+    },
+    {
+      "id": "ev-ku-c-official-2026-ipselenti",
+      "type": "official-university-event-record",
+      "url": "https://nanochem.korea.ac.kr/bbs/digb/463/270197/artclView.do?layout=unknown",
+      "title": "[제10대 학생회] 2026학년도 입실렌티",
+      "publisher": "고려대학교 세종캠퍼스 디지털경영전공",
+      "publishedAt": "2026-06-10",
+      "accessedAt": "2026-08-09",
+      "summary": "2026년 5월 22일 입실렌티가 열렸고 학생들이 한자리에 모여 응원가를 부르는 축제였음을 학교 도메인의 행사 기록으로 확인한다. 개별 곡 순서는 같은 날짜의 영상 표본으로 교차했다.",
+      "supports": ["2026 입실렌티 날짜·행사 성격"]
+    },
+    {
+      "id": "ev-ku-c-sony-joe-dassin",
+      "type": "official-label-artist-page",
+      "url": "https://www.sonymusic.fr/artist/joe-dassin-2/",
+      "title": "Joe Dassin",
+      "publisher": "Sony Music Entertainment France",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "권리자 레이블의 Joe Dassin 페이지가 ‘Les Champs-Élysées’ 공식 영상을 제공해 응원단 공식 OT가 지목한 직접 원곡과 가수를 교차한다.",
+      "supports": ["샹젤리제 직접 원곡·가수"]
+    },
+    {
+      "id": "ev-ku-c-musicbrainz-champs",
+      "type": "music-credit-catalog",
+      "url": "https://musicbrainz.org/work/07fad918-e68c-333c-a602-7791c21897d3",
+      "title": "Les Champs‐Élysées — work",
+      "publisher": "MusicBrainz",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Les Champs-Élysées가 Waterloo Road의 번안 관계에 있음을 정리하는 음악 저작물 카탈로그다. 응원가의 직접 원곡은 공식 OT 표기대로 Joe Dassin판으로 유지한다.",
+      "supports": ["샹젤리제 상위 원곡 계보"]
+    },
+    {
+      "id": "ev-ku-c-loc-grandfather",
+      "type": "primary-archive",
+      "url": "https://www.loc.gov/item/sm1876.7601869/",
+      "title": "Grandfather's clock",
+      "publisher": "Library of Congress",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Henry Clay Work의 1876년 노래 ‘Grandfather's Clock’ 원자료 계보와 작자, 해당 의회도서관 컬렉션의 퍼블릭 도메인 상태를 확인한다.",
+      "supports": ["KOREA 원곡 작자·연도·원자료 권리"]
+    },
+    {
+      "id": "ev-ku-c-life-time-original",
+      "type": "official-label-video",
+      "url": "https://www.youtube.com/watch?v=ALGPoGFvSz4",
+      "title": "라이프 앤 타임(Life and Time) - 호랑이 Official MV",
+      "publisher": "MPMG MUSIC",
+      "publishedAt": "2014-05-07",
+      "accessedAt": "2026-08-09",
+      "summary": "레이블 공식 MV가 라이프 앤 타임의 첫 EP ‘the great deep’ 3번 트랙 ‘호랑이’의 음원과 발매 맥락을 제공한다.",
+      "supports": ["호랑이 원곡·아티스트·2014 공개"]
+    },
+    {
+      "id": "ev-ku-c-apple-superkid-rockstar",
+      "type": "licensed-music-catalog",
+      "url": "https://music.apple.com/kr/song/1436383647",
+      "title": "Rock Star — 슈퍼키드",
+      "publisher": "Apple Music",
+      "publishedAt": "2006-03-23",
+      "accessedAt": "2026-08-09",
+      "summary": "슈퍼키드의 ‘Rock Star’ 곡과 2006년 발매 정보를 확인하는 음원 카탈로그다.",
+      "supports": ["우리는 고대 원곡 1"]
+    },
+    {
+      "id": "ev-ku-c-apple-glencheck-cardin",
+      "type": "licensed-music-catalog",
+      "url": "https://music.apple.com/th/song/1811550029",
+      "title": "60's Cardin — Glen Check",
+      "publisher": "Apple Music",
+      "publishedAt": "2011-09-29",
+      "accessedAt": "2026-08-09",
+      "summary": "Glen Check의 ‘60's Cardin’과 June One의 작사·작곡 크레딧, 2011년 싱글 발매 정보를 확인하는 음원 카탈로그다.",
+      "supports": ["우리는 고대 원곡 2"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ku-c-champs-official-2013",
+      "songId": "korea-university-champs-elysees",
+      "url": "https://www.youtube.com/watch?v=XkVmvKwo6Kc",
+      "videoId": "XkVmvKwo6Kc",
+      "title": "샹젤리제 - [고려대학교 응원단 온라인 응원OT]",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2013-04-23T18:15:42-07:00",
+      "descriptionSummary": "응원단 공식 온라인 OT가 절·후렴·간주 배열과 원곡을 안내하고 제작년도를 2003년으로 명시한다. 이번 조사에서 도입 연도를 판단한 가장 직접적인 공식 근거다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "짧은 댓글들은 학교의 승리를 기원하거나 응원단과 함께 사진을 남기고 싶다는 친근한 반응을 보인다."
+      ],
+      "supports": ["champs.officialProductionYear2003", "champs.officialStructure", "champs.originalSong"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-champs-audio-2018",
+      "songId": "korea-university-champs-elysees",
+      "url": "https://www.youtube.com/watch?v=bhPi3rMVEB8",
+      "videoId": "bhPi3rMVEB8",
+      "title": "샹젤리제 - 고려대학교 응원가 | KU LEADERS",
+      "channel": "MELOM",
+      "publishedAt": "2018-11-22T03:15:13-08:00",
+      "descriptionSummary": "Joe Dassin의 Les Champs-Élysées를 원곡으로 한 2003년 신곡이라고 정리하고, 붉은 쓰레기봉지를 부풀려 흔드는 응원과 행사 뒤 수거에 활용되는 효과를 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "졸업생은 봉지를 들고 뛰어다니던 당시 응원 경험을 그리운 기억으로 회상한다."
+      ],
+      "supports": ["champs.reportedYear2003", "champs.bagCheer", "champs.alumniMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-champs-official-2020",
+      "songId": "korea-university-champs-elysees",
+      "url": "https://www.youtube.com/watch?v=HqTxg0K6Uus",
+      "videoId": "HqTxg0K6Uus",
+      "title": "샹젤리제  |  고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-09T20:49:46-08:00",
+      "descriptionSummary": "응원단이 붉은 봉지 사용, 구음·제목 후렴과 반복 순서를 시범으로 안내하고 원곡을 Joe Dassin의 Les Champs-Élysées로 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 간주에서 크게 몸을 숙여 연주하는 듯한 동작과 서로의 머리 위로 손을 움직이는 안무 팁을 공유한다.",
+        "일부는 예전 록 느낌 음원을 찾거나 현행 음원을 새롭게 다듬어 달라고 제안한다."
+      ],
+      "supports": ["champs.officialOriginal", "champs.currentChoreography", "champs.audioVariantMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-champs-2023",
+      "songId": "korea-university-champs-elysees",
+      "url": "https://www.youtube.com/watch?v=Bko61SSOVk0",
+      "videoId": "Bko61SSOVk0",
+      "title": "'샹젤리제 / 붉은 노을'  [2023 고려대 신입생 응원OT 1부 응원_3] 고려대 응원가 / 고려대학교 응원단",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2023-03-15T00:30:08-07:00",
+      "descriptionSummary": "2023년 3월 10일 신입생 응원 OT에서 샹젤리제와 붉은 노을을 연속 교육한 날짜 특정 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 시청자는 오래된 곡을 신곡으로 오인해 물을 만큼 새내기 교육에서 다시 소개되는 모습이 자연스럽다고 반응한다.",
+        "다른 댓글은 응원단 보컬과 밝은 분위기를 호평한다."
+      ],
+      "supports": ["champs.fieldUse2023", "champs.freshmanTraining", "champs.recurringRediscovery"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-champs-playlist-2024",
+      "songId": "korea-university-champs-elysees",
+      "url": "https://www.youtube.com/watch?v=loKoFegoNU8&t=2286s",
+      "videoId": "loKoFegoNU8",
+      "title": "[Playlist] 2024년 고려대학교 응원가 라이브 버전 플레이리스트 (대박신곡을 곁들인)",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-09-26T01:29:00-07:00",
+      "descriptionSummary": "2024년 사용 중인 응원가를 라이브로 정리한 목록이 38:06부터 샹젤리제를 수록한다. 다른 곡에는 연도를 붙이면서 이 곡에는 연도를 적지 않아, 2003년 판단을 이 영상에 기대지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "졸업생들은 연도별 목록 덕분에 자신의 재학 시절 곡을 찾는다고 말하고, 오래된 누락곡의 추가 여부를 묻는다."
+      ],
+      "supports": ["champs.current2024", "champs.yearOmissionInPlaylist", "champs.alumniReferenceUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-champs-2025",
+      "songId": "korea-university-champs-elysees",
+      "url": "https://www.youtube.com/watch?v=S065GyU_nYI&t=370s",
+      "videoId": "S065GyU_nYI",
+      "title": "[2025 입실렌티 응원] 응원단장 & 신입단원과 함께 봉지응원! I  '붉은 노을 + Go!100! + 너 그리고 나 +샹젤리제  + KOREA' I 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-05-31T17:07:05-07:00",
+      "descriptionSummary": "2025 입실렌티 1부의 봉지응원 묶음에서 06:10부터 샹젤리제를 수록하며 신입단원과 응원단장이 붉은 봉지 동작을 함께 수행한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "졸업생은 과거와 선곡이 달라져도 학교 응원의 핵심 정체성은 이어진다고 회상한다.",
+        "시청자들은 연예인 공연보다 응원단 무대를 더 기다린다는 반응과 새 단원의 활기를 호평한다."
+      ],
+      "supports": ["champs.current2025", "champs.bagCheer", "champs.intergenerationalReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-champs-2026-ot",
+      "songId": "korea-university-champs-elysees",
+      "url": "https://www.youtube.com/watch?v=pZnAKBeS46w&t=178s",
+      "videoId": "pZnAKBeS46w",
+      "title": "[2026 고려대 응원OT] 봉쥬르~ 너도 나도 룰루랄라 '샹젤리제' + 'Go100' #고려대학교응원단 #고려대응원가 #응원OT #서울OT #신입생OT #봉지응원 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-04-30T05:51:45-07:00",
+      "descriptionSummary": "2026년 3월 17일 신입생 응원 OT의 교육 멘트와 샹젤리제 실연을 02:58부터 담는다. 현행 봉지응원 교육과 동작을 직접 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 교육 멘트·샹젤리제·다음 곡의 정확한 장면 위치를 정리해 복습을 돕는다."
+      ],
+      "supports": ["champs.current2026Ot", "champs.currentInstruction", "champs.directEventDate"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-champs-2026-ipselenti",
+      "songId": "korea-university-champs-elysees",
+      "url": "https://www.youtube.com/watch?v=rjmj1xH5Y1w&t=16s",
+      "videoId": "rjmj1xH5Y1w",
+      "title": "[2026 고려대 입실렌티] 신나는 응원곡만 모아! 2부 응원#3 조단장턴 '샹젤리제 + 코리아 + 호랑이 + 우리는 고대 + 싱글벙글 + 쎄쎄쎄 + 연세치킨 + 입실렌티'[4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-02T18:00:08-07:00",
+      "descriptionSummary": "고려대학교 응원단 프레스 촬영으로 2026년 5월 22일 입실렌티 2부의 첫 곡 샹젤리제를 00:16부터 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 후속 응원 영상 공개를 기다리며 신입 단원들의 활기와 현장 기록을 반긴다."
+      ],
+      "supports": ["champs.current2026", "champs.ipselentiUse", "champs.currentSequence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-korea-official-2013",
+      "songId": "korea-university-korea",
+      "url": "https://www.youtube.com/watch?v=KgXrobzx2No",
+      "videoId": "KgXrobzx2No",
+      "title": "K.O.R.E.A ( 2012 대박 신곡 ) - [고려대학교 응원단 온라인 응원OT]",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2013-04-23T18:08:18-07:00",
+      "descriptionSummary": "응원단 공식 온라인 OT가 이 곡을 2012 정기 고연전 신곡으로 규정하고 세 부분과 당시 반복 순서를 안내한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "짧은 댓글들은 곡에서 학교에 대한 감동을 느끼거나 앞으로 학교에서 직접 부르고 싶다는 기대를 드러낸다."
+      ],
+      "supports": ["korea.introduction2012", "korea.officialDottedTitle", "korea.earlyStructure"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-korea-audio-2018",
+      "songId": "korea-university-korea",
+      "url": "https://www.youtube.com/watch?v=CACgVFcSRm8",
+      "videoId": "CACgVFcSRm8",
+      "title": "KOREA (코리아) - 고려대학교 응원단 / 고려대 응원가",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-09-04T01:37:19-07:00",
+      "descriptionSummary": "2012년도 신곡이라는 표기와 세 구간·반복 배열을 음원형 영상으로 정리해 공식 2013 설명을 교차한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "졸업생은 과거 응원 경험을 떠올리며 곡의 경쾌함과 단합감을 높게 평가한다.",
+        "일부 시청자는 할아버지의 시계 선율을 알아보거나 롯데 응원가와 비교한다."
+      ],
+      "supports": ["korea.reportedYear2012", "korea.structure", "korea.sharedMelodyRecognition"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-korea-official-2020",
+      "songId": "korea-university-korea",
+      "url": "https://www.youtube.com/watch?v=LayccNNj_k0",
+      "videoId": "LayccNNj_k0",
+      "title": "KOREA  |  고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-10T04:30:43-08:00",
+      "descriptionSummary": "응원단이 봉지응원의 선창·후창과 전체 배열을 시범 보이고 원곡을 동요 ‘할아버지의 낡은 시계’로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 익숙하지만 바로 떠오르지 않던 원곡을 댓글에서 확인하고 반복되는 선율의 중독성을 언급한다.",
+        "일부는 롯데 응원가와 같은 선율임을 알아본다."
+      ],
+      "supports": ["korea.officialOriginal", "korea.bagCheer", "korea.currentStructure2020"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-korea-2023",
+      "songId": "korea-university-korea",
+      "url": "https://www.youtube.com/watch?v=07ehgeONgOg&t=286s",
+      "videoId": "07ehgeONgOg",
+      "title": "뽀시래기들 응원 보고가실게요❤️ '붉은노을 +샹젤리제 + KOREA' IPSELENTI 입실렌티 고대 Korea University 4k 60p @녹지운동장",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2023-05-28T20:49:26-07:00",
+      "descriptionSummary": "2023 입실렌티 봉지응원 묶음에서 04:46부터 KOREA를 수록해 대면 축제 복귀 뒤의 현장 사용을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 응원단의 체력과 밝은 분위기, 곡을 연달아 이끄는 현장 에너지를 호평한다.",
+        "졸업생은 당시의 함성과 친구들을 떠올리며 현재 학생들이 젊음을 충분히 누리길 바란다고 회상한다."
+      ],
+      "supports": ["korea.fieldUse2023", "korea.bagCheerSequence", "korea.alumniReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-korea-playlist-2024",
+      "songId": "korea-university-korea",
+      "url": "https://www.youtube.com/watch?v=loKoFegoNU8&t=1936s",
+      "videoId": "loKoFegoNU8",
+      "title": "[Playlist] 2024년 고려대학교 응원가 라이브 버전 플레이리스트 (대박신곡을 곁들인)",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-09-26T01:29:00-07:00",
+      "descriptionSummary": "2024년 사용 중인 고려대 응원가 목록에서 32:16부터 KOREA를 수록하고 도입 연도를 2012년으로 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 연도와 장면 위치가 정리된 장시간 목록을 고연전 예습과 재학 시절 회상에 활용한다."
+      ],
+      "supports": ["korea.current2024", "korea.year2012", "korea.liveVersion"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-korea-2025",
+      "songId": "korea-university-korea",
+      "url": "https://www.youtube.com/watch?v=2V6SMuW_DI8&t=260s",
+      "videoId": "2V6SMuW_DI8",
+      "title": "[2025 입실렌티 응원] 신나는 봉지응원! '붉은 노을 + Go!100! 고백 + K.O.R.E.A 코리아' I 고려대 축제 I 고려대 응원단 I 신나는 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-06-27T16:47:53-07:00",
+      "descriptionSummary": "2025 입실렌티 2부의 봉지응원 묶음에서 04:20부터 K.O.R.E.A를 담고 붉은 응원봉지 사용을 직접 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "짧은 댓글들은 현장의 젊음과 축제 분위기를 그리워하거나 학생들을 응원한다."
+      ],
+      "supports": ["korea.current2025", "korea.bagCheer", "korea.officialAliasUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-korea-2026",
+      "songId": "korea-university-korea",
+      "url": "https://www.youtube.com/watch?v=rjmj1xH5Y1w&t=165s",
+      "videoId": "rjmj1xH5Y1w",
+      "title": "[2026 고려대 입실렌티] 신나는 응원곡만 모아! 2부 응원#3 조단장턴 '샹젤리제 + 코리아 + 호랑이 + 우리는 고대 + 싱글벙글 + 쎄쎄쎄 + 연세치킨 + 입실렌티'[4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-02T18:00:08-07:00",
+      "descriptionSummary": "고려대학교 응원단 프레스 촬영으로 2026년 5월 22일 입실렌티의 KOREA를 02:45부터 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 2학년 응원단원들의 열정과 장시간 이어지는 밝은 곡 묶음의 현장감을 반긴다."
+      ],
+      "supports": ["korea.current2026", "korea.ipselentiUse", "korea.currentSequence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-tiger-new-2017",
+      "songId": "korea-university-tiger",
+      "url": "https://www.youtube.com/watch?v=WLwifYE-jYY",
+      "videoId": "WLwifYE-jYY",
+      "title": "2017 고연전 응원 신곡 - 호랑이  (2017 고려대학교 응원단 안암응원OT)",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2017-09-25T01:52:16-07:00",
+      "descriptionSummary": "2017 안암 응원 OT의 당해 신곡으로 호랑이를 소개하고, 공격·할퀴기 구호와 절·후렴·동물 소리 구간을 설명하는 초기 직접 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["tiger.introduction2017", "tiger.earlyChoreography", "tiger.earlyStructure"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-tiger-rehearsal-2019",
+      "songId": "korea-university-tiger",
+      "url": "https://www.youtube.com/watch?v=mh4Dpzm0LdM",
+      "videoId": "mh4Dpzm0LdM",
+      "title": "[고려대 응원가 / 엘리제 플레이] 호랑이 - 고려대학교 응원단 음악부 / 고연전 리허설",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2019-09-01T07:34:11-07:00",
+      "descriptionSummary": "2019 정기 고연전 리허설에서 음악부 엘리제가 연주·재생하는 호랑이를 기록하고 2017 신곡 표기와 당시 구조를 재확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 음악부가 한 공간에서 곡을 반복 연습하는 모습을 ‘호랑이 소굴’에 빗대어 장난스럽게 반응한다."
+      ],
+      "supports": ["tiger.rehearsalUse2019", "tiger.musicDepartmentPractice", "tiger.year2017"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-tiger-official-2020",
+      "songId": "korea-university-tiger",
+      "url": "https://www.youtube.com/watch?v=JROvTLnWPPk",
+      "videoId": "JROvTLnWPPk",
+      "title": "호랑이  |  고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-16T20:54:30-08:00",
+      "descriptionSummary": "응원단 공식 OT가 제목·전체 배열·동물 소리 구호를 안내하고 원곡을 라이프 앤 타임의 호랑이로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 동작을 귀여운 아기호랑이 이미지로 받아들이고 당시 단원의 리듬감과 활기를 호평한다."
+      ],
+      "supports": ["tiger.officialTitle", "tiger.officialOriginal", "tiger.currentStructure2020"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-tiger-2022",
+      "songId": "korea-university-tiger",
+      "url": "https://www.youtube.com/watch?v=2MZbtAWAvrQ&t=264s",
+      "videoId": "2MZbtAWAvrQ",
+      "title": "[2022 고려대 입실렌티 3부 응원제(5)] 'Go!100! - 예예예 Yeah Yeah Yeah - 호랑이' / 고려대 축제 IPSELENTI",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-06-08T06:09:27-07:00",
+      "descriptionSummary": "3년 만에 대면으로 돌아온 2022 입실렌티 3부에서 약 2만 관중과 함께 부른 마지막 곡 호랑이를 담는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 대면 응원 복귀의 단결력과 응원단의 에너지를 높게 평가한다.",
+        "코로나 시기 학번에게 실제 동작 교육이 더 필요하다는 의견도 남아 있다."
+      ],
+      "supports": ["tiger.fieldUse2022", "tiger.postPandemicReturn", "tiger.largeCrowdParticipation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-tiger-2023",
+      "songId": "korea-university-tiger",
+      "url": "https://www.youtube.com/watch?v=26bfNPFHXW4&t=133s",
+      "videoId": "26bfNPFHXW4",
+      "title": "우리가 바로 고대 호랑이 입니다 '우리는 고대 + 우리는 호랑이' 입실렌티 IPSELENTI 2023 고려대학교 축제 4k 60p 고대 Korea University",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2023-06-09T05:00:02-07:00",
+      "descriptionSummary": "2023년 5월 26일 입실렌티에서 우리는 고대 다음에 호랑이를 02:13부터 담는다. 영상 제목은 ‘우리는 호랑이’라는 통용 별칭을 쓴다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자는 두 번째 곡의 공식 제목이 ‘호랑이’라고 정정하며 별칭과 정식 제목을 구분한다.",
+        "다른 댓글은 라이프 앤 타임 원곡을 알아보고 공식 MV 링크를 공유한다."
+      ],
+      "supports": ["tiger.aliasWeAreTigers", "tiger.officialTitleCorrection", "tiger.originalRecognition", "tiger.fieldUse2023"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-tiger-2024",
+      "songId": "korea-university-tiger",
+      "url": "https://www.youtube.com/watch?v=WcFeCsST9sM",
+      "videoId": "WcFeCsST9sM",
+      "title": "2024.03.12 고려대학교 서울 응원OT [호랑이]",
+      "channel": "KODA",
+      "publishedAt": "2024-04-18T06:29:56-07:00",
+      "descriptionSummary": "2024년 3월 12일 서울 응원 OT에서 호랑이를 단독으로 기록해 당해 교육 레퍼토리 사용을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["tiger.current2024Ot", "tiger.directEventDate", "tiger.choreographyContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-tiger-playlist-2024",
+      "songId": "korea-university-tiger",
+      "url": "https://www.youtube.com/watch?v=loKoFegoNU8&t=3866s",
+      "videoId": "loKoFegoNU8",
+      "title": "[Playlist] 2024년 고려대학교 응원가 라이브 버전 플레이리스트 (대박신곡을 곁들인)",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-09-26T01:29:00-07:00",
+      "descriptionSummary": "2024년 사용 중인 라이브 응원가 목록이 1:04:26부터 호랑이를 수록하고 도입 연도를 2017년으로 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "졸업생들은 세대별 응원가 연표를 반기면서 과거에 불렀던 곡의 존속·누락 여부를 비교한다."
+      ],
+      "supports": ["tiger.current2024", "tiger.year2017", "tiger.liveVersion"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-tiger-2025",
+      "songId": "korea-university-tiger",
+      "url": "https://www.youtube.com/watch?v=1PInH8ROFRg&t=250s",
+      "videoId": "1PInH8ROFRg",
+      "title": "'꿇어라 연세 + 연세치킨 + 호랑이' I 2025 고연전 안암응원OT I #고려대응원가 #고려대학교응원단 #응원OT [4k60p]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-09-10T04:40:13-07:00",
+      "descriptionSummary": "2025 정기 고연전 안암 응원 OT에서 라이벌전 성격의 두 곡 다음에 호랑이를 배치한 현행 교육 영상을 응원단 촬영팀이 기록했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 응원 진행자의 활기찬 인상을 짧게 호평한다."
+      ],
+      "supports": ["tiger.current2025", "tiger.otUse", "tiger.rivalrySequence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-tiger-2026",
+      "songId": "korea-university-tiger",
+      "url": "https://www.youtube.com/watch?v=rjmj1xH5Y1w&t=278s",
+      "videoId": "rjmj1xH5Y1w",
+      "title": "[2026 고려대 입실렌티] 신나는 응원곡만 모아! 2부 응원#3 조단장턴 '샹젤리제 + 코리아 + 호랑이 + 우리는 고대 + 싱글벙글 + 쎄쎄쎄 + 연세치킨 + 입실렌티'[4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-02T18:00:08-07:00",
+      "descriptionSummary": "고려대학교 응원단 프레스 촬영으로 2026년 5월 22일 입실렌티의 호랑이를 04:38부터 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자는 호랑이 구간의 조단장이 귀여운 호랑이 동작을 하면서도 힘차게 뛰는 모습을 인상적으로 꼽는다."
+      ],
+      "supports": ["tiger.current2026", "tiger.currentChoreography", "tiger.ipselentiUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-we-audio-2018",
+      "songId": "korea-university-we-are-korea",
+      "url": "https://www.youtube.com/watch?v=F1njeAPsX3g",
+      "videoId": "F1njeAPsX3g",
+      "title": "[음원] 고려대학교 응원가 - 우리는 고대 - 가사 (lyrics)",
+      "channel": "고려대학교 연세대학교 응원가 TV",
+      "publishedAt": "2018-12-22T23:32:41-08:00",
+      "descriptionSummary": "승리호 발사와 곡의 핵심 음원을 예습용으로 정리한 비공식 영상이다. 설명은 원곡을 적지 않지만 댓글의 정정과 공식 OT를 함께 대조했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글에는 원곡을 슈퍼키드와 Glen Check의 두 곡으로 함께 표시해 달라는 출처 정정이 남아 있다.",
+        "팬들은 이 곡을 가장 좋아하는 응원곡으로 꼽거나 공부할 때 반복해서 듣는다고 말한다."
+      ],
+      "supports": ["we.twoSourceCorrection", "we.fanLearning", "we.fanPreference"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-we-official-2020",
+      "songId": "korea-university-we-are-korea",
+      "url": "https://www.youtube.com/watch?v=A05Mp1fJbvw",
+      "videoId": "A05Mp1fJbvw",
+      "title": "우리는 고대  |  고려대학교 응원단 온라인 응원 OT (원곡: rock star-슈퍼키드, 60' cardin-글랜체크)",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-10-26T04:52:35-07:00",
+      "descriptionSummary": "응원단 공식 OT가 승리호의 운동부 사용과 전체 선창·후창 구조를 설명하고 원곡으로 슈퍼키드 Rock Star와 Glen Check 60's Cardin을 함께 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 짧고 강한 학교 구호를 따라 적거나 영상을 보며 즐거워한다.",
+        "일부는 현장 종결 방식과 영상판의 끝맺음이 다르게 기억된다고 말한다."
+      ],
+      "supports": ["we.officialOriginals", "we.victoryChantAthleteUse", "we.officialStructure"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-we-ipselenti-2022",
+      "songId": "korea-university-we-are-korea",
+      "url": "https://www.youtube.com/watch?v=NoI-epCENMw&t=130s",
+      "videoId": "NoI-epCENMw",
+      "title": "[2022 고려대 입실렌티 3부 응원제(2)] 고래사냥 - 우리는 고대 / 고려대 축제 IPSELENTI",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-06-04T21:00:11-07:00",
+      "descriptionSummary": "3년 만에 돌아온 2022 입실렌티 3부에서 약 2만 관중과 함께 부른 우리는 고대를 고래사냥 다음 곡으로 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "졸업생들은 오래된 곡과 새 곡이 함께 이어지는 전통을 반기며 단결력과 현장 규모를 높게 평가한다.",
+        "교외 시청자도 고려대 응원 영상을 연속해서 찾아본다고 말한다."
+      ],
+      "supports": ["we.fieldUse2022", "we.largeCrowdParticipation", "we.postPandemicReturn"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-we-joint-2022",
+      "songId": "korea-university-we-are-korea",
+      "url": "https://www.youtube.com/watch?v=Rq6yc2Pi3kQ&t=135s",
+      "videoId": "Rq6yc2Pi3kQ",
+      "title": "[2022 합동응원] '아리요' vs '우리는 고대'  - 합응 I 고연전 I 연고전",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-10-11T06:08:32-07:00",
+      "descriptionSummary": "고려대·연세대 합동응원 OT에서 연세대 아리요 뒤에 우리는 고대를 맞대응 형태로 배치한 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 코로나 시기 학번이 양교 응원 동작을 충분히 배우지 못한 점을 아쉬워하며 정확한 교육을 요청한다.",
+        "일부는 두 학교의 현장 에너지와 응원 진행을 비교한다."
+      ],
+      "supports": ["we.jointCheerUse", "we.rivalryPairing", "we.choreographyLearningGap"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-we-kubs-2024",
+      "songId": "korea-university-we-are-korea",
+      "url": "https://www.youtube.com/watch?v=20rmeIk6bt0&t=357s",
+      "videoId": "20rmeIk6bt0",
+      "title": "[응원가 플레이리스트] 기억하라 우리의 붉은 함성을🔥ㅣ 고려대학교 응원가 플레이리스트",
+      "channel": "고려대학교 교육방송국 KUBS",
+      "publishedAt": "2024-09-24T02:00:01-07:00",
+      "descriptionSummary": "고연전 직전 KUBS가 공개한 공식 교내 응원가 목록이 05:57부터 우리는 고대를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "수험생들은 합격 의지를 다지는 공부 자극용 목록으로 사용하고, 재학생은 고연전 뒤에도 과제 중 반복해서 듣는다고 말한다.",
+        "일부 타교 출신 시청자도 고려대 응원가의 리듬과 구성을 호평한다."
+      ],
+      "supports": ["we.currentOfficial2024", "we.fanLearning", "we.crossSchoolReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-we-2025",
+      "songId": "korea-university-we-are-korea",
+      "url": "https://www.youtube.com/watch?v=qI7BLpCP8C8&t=13s",
+      "videoId": "qI7BLpCP8C8",
+      "title": "[2025 입실렌티 응원] '우리는 고대 + 싱글 벙글!' I 고려대 축제 I 고려대 응원단 I 신나는 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-06-27T05:16:16-07:00",
+      "descriptionSummary": "2025 입실렌티 2부에서 승리호 준비 선창 뒤 00:13부터 우리는 고대를 부르고, 다음 곡 싱글벙글로 이어지는 현장을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 경쾌한 곡을 이끄는 젊은 응원단원들을 응원하고 더운 날씨의 수고를 언급한다."
+      ],
+      "supports": ["we.current2025", "we.victoryChantOpening", "we.sequenceWithSmile"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-we-2026",
+      "songId": "korea-university-we-are-korea",
+      "url": "https://www.youtube.com/watch?v=rjmj1xH5Y1w&t=400s",
+      "videoId": "rjmj1xH5Y1w",
+      "title": "[2026 고려대 입실렌티] 신나는 응원곡만 모아! 2부 응원#3 조단장턴 '샹젤리제 + 코리아 + 호랑이 + 우리는 고대 + 싱글벙글 + 쎄쎄쎄 + 연세치킨 + 입실렌티'[4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-02T18:00:08-07:00",
+      "descriptionSummary": "고려대학교 응원단 프레스 촬영으로 2026년 5월 22일 입실렌티의 우리는 고대를 06:40부터 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 신나는 곡들을 한 영상에서 연속해 볼 수 있는 기록과 2학년 단원들의 열정을 반긴다."
+      ],
+      "supports": ["we.current2026", "we.ipselentiUse", "we.currentSequence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-smile-field-2015",
+      "songId": "korea-university-singgeulbeonggeul",
+      "url": "https://www.youtube.com/watch?v=nfncHlFoz60",
+      "videoId": "nfncHlFoz60",
+      "title": "2015/09/08 세종 응원OT - 싱글벙글",
+      "channel": "KODA",
+      "publishedAt": "2015-10-12T06:34:26-07:00",
+      "descriptionSummary": "2015년 9월 8일 세종 응원 OT에서 싱글벙글을 단독으로 담은 가장 이른 날짜 특정 직접 표본이다. 별도 영상 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 당시 신입 단원으로 보이는 인물이 훗날 응원단장으로 성장했는지 추억을 더듬는다."
+      ],
+      "supports": ["smile.directUse2015", "smile.earliestDatedSample", "smile.sejongOtUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-smile-new-songs-2018",
+      "songId": "korea-university-singgeulbeonggeul",
+      "url": "https://www.youtube.com/watch?v=5oxMNTIGAEU&t=355s",
+      "videoId": "5oxMNTIGAEU",
+      "title": "신곡만 나오면 조용해지는 분들을 위한 영상 - 호랑이 호들갑 쎄쎄쎄 싱글벙글",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-03-11T00:17:14-08:00",
+      "descriptionSummary": "복학생의 신곡 학습을 돕는 모음으로 싱글벙글을 2015년 곡으로 분류하며 호랑이·호들갑·쎄쎄쎄와 발표 연도를 비교한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 라이벌 학교를 겨냥한 짧은 응원 반응을 남긴다."
+      ],
+      "supports": ["smile.year2015", "smile.newSongLearning", "smile.rivalryTone"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-smile-kubs-mv-2019",
+      "songId": "korea-university-singgeulbeonggeul",
+      "url": "https://www.youtube.com/watch?v=C2VdrieH-SU",
+      "videoId": "C2VdrieH-SU",
+      "title": "[고연전 특집] 고려대 최초 응원가 뮤비 프로젝트 : 싱글벙글",
+      "channel": "고려대학교 교육방송국 KUBS",
+      "publishedAt": "2019-08-26T02:00:03-07:00",
+      "descriptionSummary": "KUBS가 고연전 특집으로 제작한 첫 응원가 뮤직비디오 프로젝트다. 교내 여러 장소를 돌며 싱글벙글의 동작과 밝은 이미지를 재구성한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 학교 곳곳을 활용한 촬영과 귀여운 안무, 교내 방송국의 독특한 기획을 호평한다.",
+        "수험생은 공부할 때 들을 새 응원곡을 발견했다며 입학 의지를 드러낸다."
+      ],
+      "supports": ["smile.kubsFirstCheerMvProject", "smile.campusCulture", "smile.choreographyReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-smile-official-2020",
+      "songId": "korea-university-singgeulbeonggeul",
+      "url": "https://www.youtube.com/watch?v=54LdboZa0QU",
+      "videoId": "54LdboZa0QU",
+      "title": "싱글벙글  |  고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-06T06:57:12-08:00",
+      "descriptionSummary": "응원단 공식 OT가 세 구간과 전체 반복 순서를 시범으로 안내한다. 다른 개사곡 영상과 달리 별도 원곡 표기가 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 이 곡을 가장 재미있는 응원가로 꼽고 안암으로 가고 싶은 기분을 표현한다.",
+        "오래전 졸업생도 신곡의 밝은 분위기를 반기며 실제 행사에서 자주 쓰이길 바란다."
+      ],
+      "supports": ["smile.officialStructure", "smile.noExternalOriginalListed", "smile.crossGenerationReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-smile-retrospective-2021",
+      "songId": "korea-university-singgeulbeonggeul",
+      "url": "https://www.youtube.com/watch?v=PShNLo9Js0c",
+      "videoId": "PShNLo9Js0c",
+      "title": "[랜선 고연전] 혼자야? / 어 아직 싱글이야 / 싱글벙글! - 2015 고연전 야구장 응원 / 고려대 응원가",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2021-10-01T06:43:58-07:00",
+      "descriptionSummary": "대면 응원이 어려웠던 시기에 2015 고연전 야구장의 신곡 시절 싱글벙글을 되돌아보며, 후대에 널리 사랑받는 곡으로 자리 잡았다고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자는 과거처럼 현장에서 다시 응원하고 싶다는 그리움을 짧게 표현한다."
+      ],
+      "supports": ["smile.2015StadiumUse", "smile.retrospectivePopularity", "smile.pandemicMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-smile-ipselenti-2022",
+      "songId": "korea-university-singgeulbeonggeul",
+      "url": "https://www.youtube.com/watch?v=6dllaPAkPRE&t=145s",
+      "videoId": "6dllaPAkPRE",
+      "title": "[2022 고려대 입실렌티 3부 응원제(4)] '연세치킨 - 싱글벙글 - 붉은 노을' / 고려대 축제 IPSELENTI",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-06-07T20:00:02-07:00",
+      "descriptionSummary": "3년 만에 돌아온 2022 입실렌티 3부에서 약 2만 관중이 연세치킨과 붉은 노을 사이에 싱글벙글을 부르는 현장을 담는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "여러 시청자가 싱글벙글을 해당 묶음에서 가장 재미있거나 좋아하는 곡으로 꼽는다.",
+        "오래전 졸업생 가족도 영상을 함께 보며 세대를 잇는 응원 기억을 나눈다."
+      ],
+      "supports": ["smile.fieldUse2022", "smile.largeCrowdParticipation", "smile.fanPreference"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-smile-official-playlist-2023",
+      "songId": "korea-university-singgeulbeonggeul",
+      "url": "https://www.youtube.com/watch?v=O3Q_sjGJUpE&t=225s",
+      "videoId": "O3Q_sjGJUpE",
+      "title": "[Playlist] [KUBS X 고려대학교 응원단 | 응원가 플레이리스트]",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2023-09-02T02:00:11-07:00",
+      "descriptionSummary": "고려대학교 응원단과 KUBS의 공식 응원WEEK 플레이리스트가 03:45부터 싱글벙글을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "수험생들은 합격 목표를 적고 응원가를 공부 동력으로 삼으며, 합격생은 실제 학교에서 들을 기대를 나눈다.",
+        "재학생과 팬들은 공식 채널이 여러 응원가를 한데 모은 점을 반긴다."
+      ],
+      "supports": ["smile.currentOfficial2023", "smile.fanLearning", "smile.officialPlaylist"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-smile-kutv-2025",
+      "songId": "korea-university-singgeulbeonggeul",
+      "url": "https://www.youtube.com/watch?v=f5C6erLyEwE",
+      "videoId": "f5C6erLyEwE",
+      "title": "2025 고려대학교 응원OT | 싱글벙글 🐯",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2025-03-13T02:00:55-07:00",
+      "descriptionSummary": "KUTV가 2025 고려대학교 응원 OT의 싱글벙글을 단독 편집하고 다음 날 합동응원전 중계를 예고한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자는 2학년 응원단원들이 각자 뚜렷한 매력을 보여 준다고 호평한다."
+      ],
+      "supports": ["smile.current2025Ot", "smile.currentChoreography", "smile.universityMediaCoverage"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-smile-2025",
+      "songId": "korea-university-singgeulbeonggeul",
+      "url": "https://www.youtube.com/watch?v=qI7BLpCP8C8&t=167s",
+      "videoId": "qI7BLpCP8C8",
+      "title": "[2025 입실렌티 응원] '우리는 고대 + 싱글 벙글!' I 고려대 축제 I 고려대 응원단 I 신나는 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-06-27T05:16:16-07:00",
+      "descriptionSummary": "2025 입실렌티 2부에서 02:47부터 싱글벙글을 수록하고, 곡 시작 전 ‘싱글’과 ‘벙글’을 주고받는 제목 말장난을 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 경쾌한 곡과 밝게 웃으며 진행하는 단원들의 분위기가 잘 맞는다고 반응한다.",
+        "더운 날씨에도 응원을 이어 간 단원들의 수고를 언급한다."
+      ],
+      "supports": ["smile.current2025Ipselenti", "smile.titlePunOpening", "smile.sequenceAfterWe"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-c-smile-2026",
+      "songId": "korea-university-singgeulbeonggeul",
+      "url": "https://www.youtube.com/watch?v=rjmj1xH5Y1w&t=537s",
+      "videoId": "rjmj1xH5Y1w",
+      "title": "[2026 고려대 입실렌티] 신나는 응원곡만 모아! 2부 응원#3 조단장턴 '샹젤리제 + 코리아 + 호랑이 + 우리는 고대 + 싱글벙글 + 쎄쎄쎄 + 연세치킨 + 입실렌티'[4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-02T18:00:08-07:00",
+      "descriptionSummary": "고려대학교 응원단 프레스 촬영으로 2026년 5월 22일 입실렌티의 싱글벙글을 08:57부터 기록하고 제목 말장난 선곡 멘트를 함께 남긴다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 영상의 세부 장면 위치를 공유하고 다음 현장 기록을 기다리며 응원단의 열정을 호평한다."
+      ],
+      "supports": ["smile.current2026", "smile.titlePunOpening", "smile.ipselentiUse"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 41,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 25
+  }
+}

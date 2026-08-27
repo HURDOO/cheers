@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kwangwoon-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-kwangwoon",
+    "name": "광운대학교",
+    "type": "university"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명·댓글 원문은 저장하지 않는다. 2026년 신곡이라 직접 녹화가 두 편뿐인 한계도 숨기지 않고, 나머지 유튜브 표본은 같은 제작팀의 프로젝트 진행 자료로 구분해 기록한다.",
+  "items": [
+    {
+      "id": "kwangwoon-bisang",
+      "title": "비상(飛上)",
+      "aliases": ["비상"],
+      "currentStatus": "current-premiered-2026-05-13",
+      "summary": "광운대 비마응원단과 중앙 록밴드 PEGASUS가 학생 공동체 활성화 공모전 ‘KW: Archiving’의 ARMA 프로젝트를 거쳐 만든 학교 응원가다. 프로젝트는 2025년 11월 성과발표회에서 대상을 받았고, 완성곡 ‘비상(飛上)’은 2026년 5월 13일 ‘응원 2026! 비상’에서 처음 공개됐다. 현재 공개된 곡 자체의 유튜브 영상은 같은 초연을 담은 무대·전광판 두 편뿐이며 개인별 창작 크레딧도 아직 공개 자료에서 확인되지 않는다.",
+      "claims": [
+        {
+          "field": "projectOrigin",
+          "value": "비마응원단 X PEGASUS의 ‘ARMA: 광운대학교 응원가 제작 프로젝트’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kwangwoon-a-archiving", "yt-kwangwoon-a-arma-process"],
+          "notes": "대학 공식 기사는 해당 팀이 공모전 대상을 받았다고 밝히고, 제작 과정 영상은 새 광운대 응원가를 만들고 있다고 직접 설명한다."
+        },
+        {
+          "field": "projectRecognition",
+          "value": "2025년 11월 27일 KW: Archiving 성과발표회 대상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kwangwoon-a-archiving"],
+          "notes": "기사는 2026년 1월 15일 게시됐으나 본문 행사는 11월 27일 목요일로 적혀 있어 2025년 행사로 판정했다."
+        },
+        {
+          "field": "premiere",
+          "value": "2026년 5월 13일 ‘응원 2026! 비상’에서 첫 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kwangwoon-a-bisang-stage", "yt-kwangwoon-a-bisang-screen"],
+          "notes": "비마응원단 공식 설명이 PEGASUS와 만든 광운대 응원가를 이 공연에서 처음 공개했다고 명시한다."
+        },
+        {
+          "field": "creatorCredits",
+          "value": "단체 제작 주체는 비마응원단·PEGASUS; 개인별 작사·작곡·편곡·가창 크레딧은 미확인",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kwangwoon-a-archiving", "yt-kwangwoon-a-bisang-stage"],
+          "notes": "공식 기사와 초연 영상 모두 협업 단체만 밝힌다. ARMA 이전 비공식곡 ‘비마가 되어’의 개인 크레딧을 이 곡에 전용하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "2026년 비마응원단의 연례 최대 응원제에서 PEGASUS의 라이브 밴드 반주와 액션 안무를 결합한 학교 고유곡으로 첫선을 보였다.",
+        "프로젝트 단계에서는 기존 응원문화의 의미를 현대적으로 확장하고 학생이 자발적으로 참여할 수 있는 콘텐츠·확산 방안을 만드는 것을 목표로 삼았다.",
+        "직접 영상은 정면 무대판과 전광판판 두 시점으로 공개돼 현장 동작과 관중용 시각 연출을 각각 확인할 수 있다."
+      ],
+      "trivia": [
+        {
+          "id": "kwangwoon-bisang-project-sequence",
+          "summary": "PEGASUS는 2025년 8월 별도 비공식 응원가 ‘비마가 되어’를 공개했고, 11월에는 비마응원단과 N.EX.T ‘그대에게’ 커버를 제작 과정의 일환으로 내놓았다. 2026년 공식 초연된 ‘비상(飛上)’과는 제목·지위·음원이 다른 작품이므로 전사 관계로 단정하지 않고 제작 프로젝트의 전사로만 연결했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kwangwoon-a-unofficial-precursor", "yt-kwangwoon-a-arma-process", "yt-kwangwoon-a-bisang-stage"]
+        },
+        {
+          "id": "kwangwoon-bisang-award-purpose",
+          "summary": "대상 선정 기사에 따르면 ARMA는 새 노래 한 곡뿐 아니라 참여형 응원 콘텐츠와 확산 방안까지 제안한 프로젝트였다. 학교 공동체 의식과 사기 진작이 명시된 목적이었다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kwangwoon-a-archiving"]
+        },
+        {
+          "id": "kwangwoon-bisang-sample-limit",
+          "summary": "2026년 8월 조사 시점에 곡을 직접 담은 공개 유튜브 영상은 같은 초연의 무대판·전광판판 두 편만 확인됐다. 나머지 세 표본은 동일 협업팀의 제작 전사 자료이며 곡 자체의 설명·댓글 표본으로 오인하지 않도록 분리했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kwangwoon-a-bisang-stage", "yt-kwangwoon-a-bisang-screen", "yt-kwangwoon-a-unofficial-precursor", "yt-kwangwoon-a-arma-process", "yt-kwangwoon-a-band-collab"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university original; collaborating organizations are known, but individual lyric/composition/arrangement/master owners and reuse terms are not publicly documented in the checked sources",
+        "sourceUrls": ["https://www.youtube.com/watch?v=JHeSERmVbgk", "https://www.youtube.com/watch?v=vt8TFks3rqU"],
+        "structureSummary": "약 2분 22초의 라이브 록 응원곡으로, PEGASUS의 밴드 반주 위에 비마와 비상의 이미지를 연결하는 절, 학교 공동체가 함께 상승하는 메시지의 후렴, 응원단 액션과 관중 합창을 집중시키는 반복 종결부가 놓인다. 현장 녹음만 공개돼 스튜디오판 기준 구조와 전체 가사는 추가 확인이 필요하다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-kwangwoon-a-bisang-stage", "yt-kwangwoon-a-bisang-screen", "yt-kwangwoon-a-unofficial-precursor", "yt-kwangwoon-a-arma-process", "yt-kwangwoon-a-band-collab"],
+      "unresolved": [
+        "개인별 작사·작곡·편곡·가창·연주·녹음 크레딧",
+        "스튜디오 음원·공식 가사·응원법 영상의 공개 여부와 권리 조건",
+        "2026년 5월 13일 뒤 다른 행사에서의 반복 사용 및 독립적인 직접 영상 3편 이상",
+        "비공식곡 ‘비마가 되어’와 ARMA 완성곡 사이의 작곡·가사 재사용 여부",
+        "나무위키에서 곡의 제작·사용 연혁을 직접 다룬 문서는 검색으로 확인하지 못함"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kwangwoon-a-archiving",
+      "type": "official",
+      "url": "https://www.kw.ac.kr/ko/life/newsletter.jsp?BoardMode=view&DUID=51608&tpage=1",
+      "title": "광운대, 학생 공동체 활성화 공모전 ‘KW: Archiving’ 성료",
+      "publisher": "광운대학교 홍보기획실",
+      "publishedAt": "2026-01-15",
+      "accessedAt": "2026-08-09",
+      "summary": "비마응원단 X 페가수스 팀의 ‘ARMA: 광운대학교 응원가 제작 프로젝트’가 2025년 11월 27일 성과발표회에서 대상을 받았고, 참여형 응원 콘텐츠·확산으로 공동체 의식과 사기를 높이는 목적이었다고 밝힌다.",
+      "supports": ["projectOrigin", "projectRecognition", "projectPurpose"]
+    },
+    {
+      "id": "ev-kwangwoon-a-bima-official",
+      "type": "official",
+      "url": "https://www.kw.ac.kr/ko/life/activity05.jsp",
+      "title": "광운대학교 비마응원단",
+      "publisher": "광운대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "비마응원단을 학교의 홍보기관으로 소개하며 애교심 고취, 월계축전 응원, 대학 응원문화 보급을 활동 목적으로 제시한다.",
+      "supports": ["organizationStatus", "usageContext"]
+    },
+    {
+      "id": "ev-kwangwoon-a-namuwiki-gap",
+      "type": "wiki-search",
+      "url": "https://namu.wiki/Search?q=%EA%B4%91%EC%9A%B4%EB%8C%80%ED%95%99%EA%B5%90%20%EB%B9%84%EB%A7%88%EC%9D%91%EC%9B%90%EB%8B%A8%20%EB%B9%84%EC%83%81",
+      "title": "나무위키 광운대 비마응원단·비상 검색 점검",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "광운대·비마응원단·비상·ARMA 조합으로 확인했으나 곡 단위 제작·사용 정보를 담은 색인 결과를 확보하지 못했다. 정보 부재의 단정이 아니라 이번 조사에서의 출처 공백이다.",
+      "supports": ["sourceGap"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kwangwoon-a-bisang-stage",
+      "songId": "kwangwoon-bisang",
+      "url": "https://www.youtube.com/watch?v=JHeSERmVbgk",
+      "videoId": "JHeSERmVbgk",
+      "title": "[광운대학교 비마응원단] 응원 2026! 비상 - 비상(飛上) (with. PEGASUS)",
+      "channel": "광운대학교 비마응원단",
+      "publishedAt": "2026-05-20T23:03:25-07:00",
+      "descriptionSummary": "2026년 5월 13일 응원제에서 PEGASUS와 만든 광운대 응원가를 처음 공개했다고 명시한 정면 무대 영상이다. 공연 전체 세트와 참여 단원·찬조단도 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["premiere", "title", "directPerformance", "projectParticipants"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kwangwoon-a-bisang-screen",
+      "songId": "kwangwoon-bisang",
+      "url": "https://www.youtube.com/watch?v=vt8TFks3rqU",
+      "videoId": "vt8TFks3rqU",
+      "title": "[광운대학교 비마응원단] 응원 2026! 비상 - 비상(飛上) (with. PEGASUS | 전광판)",
+      "channel": "광운대학교 비마응원단",
+      "publishedAt": "2026-05-26T01:54:32-07:00",
+      "descriptionSummary": "동일 초연의 전광판 시점 공식 영상으로, 첫 공개·PEGASUS 협업·2026 응원제 세트리스트 정보를 정면판과 동일하게 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["premiere", "directPerformance", "screenPresentation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kwangwoon-a-unofficial-precursor",
+      "songId": "kwangwoon-bisang",
+      "url": "https://www.youtube.com/watch?v=vYFPgALEOeI",
+      "videoId": "vYFPgALEOeI",
+      "title": "비마가 되어 (Be My PEGASUS) | 대학생 밴드 자작곡",
+      "channel": "광운대학교 PEGASUS",
+      "publishedAt": "2025-08-31T17:01:08-07:00",
+      "descriptionSummary": "PEGASUS가 ‘2025 광운대학교 응원가 프로젝트’ 아래 공개한 별도의 비공식 응원가다. 제작·녹음·작곡 박지환, 작사 이현승·박지환 등 상세 크레딧과 가사 전문이 설명에 있으나 여기에는 구조만 요약했다. ‘비상’ 직접 녹화 표본이 아닌 제작 전사 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문과 청취자가 후배들의 창작을 응원하고 곡의 아름다움을 칭찬하는 반응이 확인된다."],
+      "supports": ["projectPrehistory", "distinctWork", "rightsContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kwangwoon-a-arma-process",
+      "songId": "kwangwoon-bisang",
+      "url": "https://www.youtube.com/watch?v=jLduvDlq4sA",
+      "videoId": "jLduvDlq4sA",
+      "title": "[ARMA] 그대에게 - N.EX.T (COVERED BY PEGASUS & 비마응원단)",
+      "channel": "광운대학교 PEGASUS",
+      "publishedAt": "2025-11-19T17:27:20-08:00",
+      "descriptionSummary": "비마응원단 X PEGASUS가 KW: Archiving에서 새 광운대 응원가를 제작 중이며 그 과정의 일환으로 만든 커버라고 설명한다. ‘비상’ 자체 영상이 아니라 두 단체의 공동 제작을 직접 연결하는 전사 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문이 추억과 감동을 표현하고 두 단체의 협업을 응원하는 반응이 반복된다."],
+      "supports": ["projectOrigin", "collaboration", "projectPrehistory", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kwangwoon-a-band-collab",
+      "songId": "kwangwoon-bisang",
+      "url": "https://www.youtube.com/watch?v=IaBTKyY32xw",
+      "videoId": "IaBTKyY32xw",
+      "title": "[광운대학교 비마응원단] 연촌체전 파이널 : 승리를 위하여 - 힘 내! (with. Pegasus)",
+      "channel": "광운대학교 비마응원단",
+      "publishedAt": "2025-10-03T04:52:06-07:00",
+      "descriptionSummary": "2025 연촌체전에서 비마응원단과 PEGASUS가 함께한 대중가요 액션곡 무대다. ‘비상’ 녹화는 아니지만 ARMA 완성 전 두 단체가 실전 무대를 함께 운영한 맥락을 보여준다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["collaborationPrehistory", "liveBandContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 1,
+    "youtubeSampleCount": 5,
+    "songsMeetingYoutubeMinimum": 1,
+    "openIssueCount": 5
+  }
+}

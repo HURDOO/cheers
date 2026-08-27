@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-seoul-womens-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-seoul-womens",
+    "name": "서울여자대학교",
+    "type": "university"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명·댓글 원문은 저장하지 않는다. 학교 공식 페이지가 제공하는 두 곡의 저작자·악보·가사 존재는 기록하되, 가사는 구조와 주제만 요약한다. 현재 SWURS 실연이 반복 확인되는 RUNNING과 공식 목록에 남았으나 최근 실연이 확인되지 않는 하나되는 우리를 구분한다.",
+  "items": [
+    {
+      "id": "swu-running",
+      "title": "RUNNING",
+      "aliases": ["Running", "러닝"],
+      "currentStatus": "current-confirmed-through-2026",
+      "summary": "2012년 서울여대 응원가 가사 공모전 선정작을 바탕으로 만든 공식 응원가 두 곡 중 두 번째 곡이다. 조성경·박세현 작사, 박세현 작곡, 운형 노래로 학교 공식 페이지에 등재돼 있다. 2013 플래시몹과 SWURS의 안무 보급을 거쳐 2023~2026 새내기 새로배움터에서 매년 직접 사용된 현행 대표곡이다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "2012년 재학생·여고생 대상 서울여대 응원가 가사 공모전 선정작을 토대로 제작",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-swu-a-official-song-page", "yt-swu-a-one-flashmob-report"],
+          "notes": "공식 페이지와 당시 보도가 공모전 연도와 두 곡 제작을 일치되게 설명한다."
+        },
+        {
+          "field": "credits",
+          "value": "작사 조성경·박세현, 작곡 박세현, 노래 운형",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-swu-a-official-song-page"],
+          "notes": "편곡·연주·녹음·마스터 권리자는 공식 페이지에 별도 표기되지 않는다."
+        },
+        {
+          "field": "earlyAdoption",
+          "value": "2013년 5월 구성원 플래시몹과 SWURS 안무 보급",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-swu-a-running-flashmob", "yt-swu-a-one-flashmob-report", "yt-swu-a-running-training"],
+          "notes": "보도는 행사일을 2013년 5월 29일로 밝히고, 연습 영상은 2012 제작곡에 SWURS가 안무를 만들어 보급한다고 설명한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "SWURS가 2023·2024·2025·2026 새내기 새로배움터에서 연속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-swu-a-running-2023", "yt-swu-a-running-2024", "yt-swu-a-running-2025", "yt-swu-a-running-2026"],
+          "notes": "각 세대 응원단 공식 설명이 행사일과 세트리스트에서 곡명을 직접 적는다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 새로배움터에서 입학 환영과 대학생활의 출발을 응원하는 학교 고유곡으로 매년 배치된다.",
+        "2013년에는 총학생회·SWURS·학생 동아리·외국인 유학생·학교 캐릭터가 참여한 대규모 플래시몹 곡으로 사용됐다.",
+        "학교 본채널은 2020 안무 커버·피아노 커버, 2021 러닝 챌린지, 2025 공식 환영 영상 등으로 장르를 바꾸어 재활용했다."
+      ],
+      "trivia": [
+        {
+          "id": "swu-running-cooperation-message",
+          "summary": "2013년 플래시몹 보도는 경쟁에서 이기는 구호보다 협력·공유와 ‘나보다 우리’의 가치를 보여주기 위해 이 곡을 선택했다고 설명한다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-swu-a-one-flashmob-report"]
+        },
+        {
+          "id": "swu-running-challenge",
+          "summary": "코로나19 시기에는 학교 공식 인스타그램 참여형 ‘러닝챌린지’와 피아노 편곡으로 이어져 집단 플래시몹 곡이 온라인 참여 콘텐츠로 변형됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-swu-a-running-challenge", "yt-swu-a-running-piano"]
+        },
+        {
+          "id": "swu-running-comment-pattern",
+          "summary": "공식 영상 댓글은 응원단의 절도와 에너지, 신입생 환영, 입학을 바라는 마음을 반복해 표현한다. 졸업 뒤 학교 풍경과 곡이 반갑다는 동문 반응도 확인된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-swu-a-running-official-2025", "yt-swu-a-running-challenge", "yt-swu-a-running-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university original; named lyricists, composer and singer are public, but arrangement/master ownership and reuse license are not stated",
+        "sourceUrls": ["https://www.swu.seoul.kr/swu/620/subview.do", "https://www.youtube.com/watch?v=HfmQeGXvV-c"],
+        "structureSummary": "숫자를 세며 한 걸음씩 출발하는 절, 어려움에도 함께 달린다는 전개, 함성과 승리를 연결하는 반복 후렴으로 구성된다. 1·2절은 개인의 발걸음에서 공동체의 발걸음으로 주체를 넓히며 영어 구호가 동작 전환점으로 쓰인다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-swu-a-running-official-2025", "yt-swu-a-running-2023", "yt-swu-a-running-2024", "yt-swu-a-running-2025", "yt-swu-a-running-2026", "yt-swu-a-running-flashmob", "yt-swu-a-running-training", "yt-swu-a-running-challenge", "yt-swu-a-running-piano"],
+      "unresolved": [
+        "공모전 선정 원고와 최종 가사 사이의 수정 과정 및 심사 기록",
+        "편곡·연주·녹음·마스터 제작자와 음원 권리 주체",
+        "공식 페이지 음원·악보의 재사용 허락 범위",
+        "나무위키에서 곡 단위 연혁을 검증할 수 있는 문서는 검색으로 확인하지 못함"
+      ]
+    },
+    {
+      "id": "swu-one-together",
+      "title": "하나되는 우리",
+      "aliases": ["하나 되는 우리"],
+      "currentStatus": "official-catalog-current-performance-unconfirmed",
+      "summary": "2012년 가사 공모전에서 함께 만들어진 서울여대 공식 응원가 1번 곡이다. 최소현 작사, 이선택 작곡, 최예나·한나찬양단 노래로 학교 현행 응원가 페이지에 악보·가사·음원과 함께 남아 있다. 2013년 공개 음원 이후 최근 SWURS 공연이나 독립 영상이 확인되지 않아, 공식 목록 존속과 현재 실연을 분리해 유보한다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "2012년 서울여대 응원가 가사 공모전에서 RUNNING과 함께 제작된 첫 번째 곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-swu-a-official-song-page", "ev-swu-a-2013-brochure", "yt-swu-a-one-flashmob-report"],
+          "notes": "공식 페이지·브로슈어·당시 보도가 두 곡을 하나의 사업 결과로 설명한다."
+        },
+        {
+          "field": "credits",
+          "value": "작사 최소현, 작곡 이선택, 노래 최예나·한나찬양단",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-swu-a-official-song-page"],
+          "notes": "공식 페이지에 직접 표기된 크레딧이다."
+        },
+        {
+          "field": "officialCatalogStatus",
+          "value": "2026년 조사 시점 학교 공식 ‘응원가’ 페이지에 두 공식곡 중 하나로 계속 등재",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-swu-a-official-song-page"],
+          "notes": "웹페이지 존속은 공식성 근거지만 실제 응원단의 최근 공연을 자동으로 뜻하지는 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2013년 이후 공개된 곡별 SWURS 실연을 확인하지 못함",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-swu-a-one-original", "ev-swu-a-swurs-2026", "ev-swu-a-namuwiki-gap"],
+          "notes": "검색 결과 부재를 비사용 확정으로 바꾸지 않고 현행성 미확인으로 남긴다."
+        }
+      ],
+      "usageContexts": [
+        "서로 다른 구성원이 한 학교에서 발맞춰 도약한다는 공동체 의식곡으로 제작됐다.",
+        "2013년 공식 브로슈어는 두 응원가의 플래시몹 사업을 함께 소개하지만 당시 현장 보도는 RUNNING을 실제 플래시몹 곡으로 특정한다.",
+        "현재는 학교 공식 상징 페이지의 음원·악보·가사 아카이브에서 접근 가능하나 SWURS의 최근 세트에서는 확인되지 않는다."
+      ],
+      "trivia": [
+        {
+          "id": "swu-one-title-spacing",
+          "summary": "학교 공식 페이지의 곡 제목은 붙여 쓴 ‘하나되는 우리’이고, 당시 보도와 브로슈어는 ‘하나 되는 우리’로 띄어 쓰기도 한다. 공식 표기를 제목으로, 띄어쓰기 변형을 별칭으로 보존했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-swu-a-official-song-page", "yt-swu-a-one-flashmob-report"]
+        },
+        {
+          "id": "swu-one-sample-limit",
+          "summary": "유튜브에서 곡 자체를 담은 표본은 2013년 음원 한 편뿐이었다. 나머지 네 표본은 두 곡의 공동 탄생과 당시 플래시몹, 동반곡 RUNNING의 보급을 설명하는 맥락 자료이며 직접 실연으로 세지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-swu-a-one-original", "yt-swu-a-one-flashmob-report", "yt-swu-a-one-flashmob", "yt-swu-a-one-companion-original", "yt-swu-a-one-companion-training"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university original; lyricist, composer and singers are named, but arrangement/master ownership and public reuse terms are not stated",
+        "sourceUrls": ["https://www.swu.seoul.kr/swu/620/subview.do", "https://www.youtube.com/watch?v=jTv-R3FVPGo"],
+        "structureSummary": "꿈과 열정을 품고 어려움을 함께 넘는 1절, 서로 다른 구성원이 서울여대에서 하나가 되어 발맞춰 도약한다는 2절로 이루어진 서정적 공동체 노래다. 각 절은 학교 이름을 중심으로 합창이 모이도록 설계됐다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-swu-a-one-original", "yt-swu-a-one-flashmob-report", "yt-swu-a-one-flashmob", "yt-swu-a-one-companion-original", "yt-swu-a-one-companion-training"],
+      "unresolved": [
+        "2014~2026 SWURS 또는 학교 행사에서의 실제 사용 여부",
+        "공식 페이지 음원과 2013 유튜브 업로더의 제작 관계",
+        "편곡·연주·녹음·마스터 크레딧 및 재사용 조건",
+        "공모전 원안과 최종 가사 사이의 수정 내역",
+        "직접 유튜브 영상 4편 이상과 공개 댓글 표본 부족"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-swu-a-official-song-page",
+      "type": "official",
+      "url": "https://www.swu.seoul.kr/swu/620/subview.do",
+      "title": "응원가",
+      "publisher": "서울여자대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "2012년 재학생·여고생 대상 가사 공모전에서 두 응원가를 만들었다고 설명하고, ‘하나되는 우리’와 ‘Running’의 작사·작곡·가창 크레딧, 악보·음원·가사를 제공한다.",
+      "supports": ["origin", "officialCatalogStatus", "credits", "lyricsSource"]
+    },
+    {
+      "id": "ev-swu-a-2013-brochure",
+      "type": "official-publication",
+      "url": "https://www.swu.seoul.kr/sites/swu/files/brochure/2013%EB%85%84%20%EA%B5%AD%EB%AC%B8%EB%B8%8C%EB%A1%9C%EC%8A%88%EC%96%B4.pdf",
+      "title": "Seoul Women's University 2013 국문 브로슈어",
+      "publisher": "서울여자대학교",
+      "publishedAt": "2013",
+      "accessedAt": "2026-08-09",
+      "summary": "2013년 5월 잔디광장에서 ‘하나 되는 우리’와 ‘Running’ 두 응원가의 플래시몹 사업이 열렸다고 대학 활동사로 기록한다.",
+      "supports": ["earlyAdoption", "twoSongProject"]
+    },
+    {
+      "id": "ev-swu-a-swurs-2021",
+      "type": "campus-press",
+      "url": "https://swupress.swu.ac.kr/news/articleView.html?idxno=10906",
+      "title": "무대로 응원의 메시지를 전달하는 SWURS",
+      "publisher": "서울여대학보",
+      "publishedAt": "2021-10-11",
+      "accessedAt": "2026-08-09",
+      "summary": "SWURS를 30년 넘은 학교 유일의 액션 치어리딩 동아리로 소개하고 새내기 배움터·응원대제전·교외 찬조 공연 등 활동 맥락을 설명한다.",
+      "supports": ["organizationStatus", "usageContext"]
+    },
+    {
+      "id": "ev-swu-a-swurs-2026",
+      "type": "official-interview",
+      "url": "https://www.swu.ac.kr/bbs/swu/158/137393/artclView.do",
+      "title": "막힘 없이 피어라, 서울여자대학교 응원단 SWURS!",
+      "publisher": "서울여자대학교",
+      "publishedAt": "2026-06-21",
+      "accessedAt": "2026-08-09",
+      "summary": "35대 SWURS의 현재 조직·주요 무대·응원대제전 신곡 제작·2026 활동을 단원 인터뷰로 확인한다. 기존 공식곡별 세트리스트는 제시하지 않는다.",
+      "supports": ["organizationCurrent", "performanceContext", "sourceLimit"]
+    },
+    {
+      "id": "ev-swu-a-namuwiki-gap",
+      "type": "wiki-search",
+      "url": "https://namu.wiki/Search?q=%EC%84%9C%EC%9A%B8%EC%97%AC%EC%9E%90%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "나무위키 서울여자대학교 응원가 검색 점검",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "학교명·SWURS·두 곡명 조합으로 검색했으나 제작·사용 연혁을 직접 검증할 곡 단위 문서를 확보하지 못했다. 출처 공백으로만 기록한다.",
+      "supports": ["sourceGap"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-swu-a-running-official-2025",
+      "songId": "swu-running",
+      "url": "https://www.youtube.com/watch?v=Ro7TTvO4a1g",
+      "videoId": "Ro7TTvO4a1g",
+      "title": "[서울여자대학교 공식 응원가] RUNNING 💙WELCOME TO SWU💙",
+      "channel": "서울여자대학교, Seoul Women's University (Official)",
+      "publishedAt": "2025-02-25T16:00:21-08:00",
+      "descriptionSummary": "25학번 신입생 환영을 위해 SWURS의 RUNNING 안무와 서울여대의 열정·에너지를 소개한 대학 본채널 공식 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원단의 힘 있는 손동작과 에너지를 칭찬하고 신입생을 환영하는 반응이 반복된다.", "서울여대 합격을 바라는 예비 학생 반응도 확인된다."],
+      "supports": ["officialStatus", "currentUse", "welcomeContext", "directPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-running-2023",
+      "songId": "swu-running",
+      "url": "https://www.youtube.com/watch?v=rrEGdNn8OzE",
+      "videoId": "rrEGdNn8OzE",
+      "title": "[서울여자대학교 응원단 SWURS] 서울여자대학교 응원가 Running_230221-22 새내기 새로배움터 중앙행사판 공연",
+      "channel": "서울여자대학교 응원단 SWURS (슐스)",
+      "publishedAt": "2023-02-28T18:33:56-08:00",
+      "descriptionSummary": "32대 SWURS 첫 공식 무대에서 신입생 입학 환영 메시지와 함께 힘차고 밝은 학교 응원가로 공연했다고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "welcomeContext", "directPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-running-2024",
+      "songId": "swu-running",
+      "url": "https://www.youtube.com/watch?v=iWXwcRcCEgI",
+      "videoId": "iWXwcRcCEgI",
+      "title": "서울여대 응원가 Running | 새내기 새로배움터 [서울여자대학교 응원단 SWURS]",
+      "channel": "서울여자대학교 응원단 SWURS (슐스)",
+      "publishedAt": "2024-02-24T23:10:00-08:00",
+      "descriptionSummary": "2024 새내기 새로배움터에서 캐논변주곡 다음에 RUNNING을 배치하고 신입생과 함께 호응한 세트를 상세히 적은 공식 실연이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡과 공연을 칭찬하고 응원단을 격려하는 반응이 보인다."],
+      "supports": ["currentUse", "setlist", "directPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-running-2025",
+      "songId": "swu-running",
+      "url": "https://www.youtube.com/watch?v=Y1E7rmC9eGY",
+      "videoId": "Y1E7rmC9eGY",
+      "title": "Running | 서울여자대학교 2025학년도 새내기 새로배움터 [서울여자대학교 응원단 SWURS]",
+      "channel": "서울여자대학교 응원단 SWURS (슐스)",
+      "publishedAt": "2025-02-23T03:13:42-08:00",
+      "descriptionSummary": "2025 새내기 배움터 세트리스트에서 RUNNING을 서울여대 응원가로 괄호 표기하고 입학 첫 시작을 응원하는 맥락을 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["고정 안내 댓글이 공연 맥락과 세트리스트를 반복 제공하며 별도 공개 반응은 확인되지 않는다."],
+      "supports": ["currentUse", "officialLabel", "directPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-running-2026",
+      "songId": "swu-running",
+      "url": "https://www.youtube.com/watch?v=QtFo5nowNpc",
+      "videoId": "QtFo5nowNpc",
+      "title": "Running | 서울여자대학교 2026학년도 새내기 새로배움터 [서울여자대학교 응원단 SWURS]",
+      "channel": "서울여자대학교 응원단 SWURS (슐스)",
+      "publishedAt": "2026-03-01T05:01:00-08:00",
+      "descriptionSummary": "2026년 2월 24일 새내기 배움터에서 RUNNING을 서울여대 응원가로 포함한 네 곡 세트를 35대 SWURS가 공연했다고 밝힌 최신 직접 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원단의 고정 안내가 공연일·세트리스트·신입생 응원 메시지를 다시 제공한다."],
+      "supports": ["currentUse", "officialLabel", "directPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-running-flashmob",
+      "songId": "swu-running",
+      "url": "https://www.youtube.com/watch?v=zVIVnvevR3M",
+      "videoId": "zVIVnvevR3M",
+      "title": "서울여자대학교 응원가 Running 플래시몹(FlashMob)",
+      "channel": "서울여자대학교, Seoul Women's University (Official)",
+      "publishedAt": "2013-12-25T22:51:42-08:00",
+      "descriptionSummary": "대학 본채널이 공개한 2013년 RUNNING 플래시몹 기록이다. 별도 설명은 없지만 제목과 영상 형식으로 초기 집단 보급을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["SWURS와 참가자를 응원하며 멋지다는 짧은 반응이 확인된다."],
+      "supports": ["earlyAdoption", "flashmob", "directPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-running-training",
+      "songId": "swu-running",
+      "url": "https://www.youtube.com/watch?v=zwr6zSHTpBs",
+      "videoId": "zwr6zSHTpBs",
+      "title": "서울여대 응원가2 Running 안무(연습용) 슐스",
+      "channel": "김명주 클래스",
+      "publishedAt": "2013-05-17T02:36:14-07:00",
+      "descriptionSummary": "2012년에 제작한 두 응원가 중 두 번째 곡이며 SWURS가 안무를 제작해 보급하는 연습 영상이라고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["origin", "choreography", "trainingUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-running-challenge",
+      "songId": "swu-running",
+      "url": "https://www.youtube.com/watch?v=8fWPnxx_EaQ",
+      "videoId": "8fWPnxx_EaQ",
+      "title": "#서울여대_러닝챌린지 모음🎸💃",
+      "channel": "서울여자대학교, Seoul Women's University (Official)",
+      "publishedAt": "2021-01-03T19:46:18-08:00",
+      "descriptionSummary": "인스타그램에서 진행한 러닝챌린지의 학우 참여 영상을 대학 본채널이 모아 공개했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["졸업생이 익숙한 캠퍼스 풍경과 곡을 반가워하고 참여작을 응원한다."],
+      "supports": ["onlineParticipation", "adaptationContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-running-piano",
+      "songId": "swu-running",
+      "url": "https://www.youtube.com/watch?v=jjse_s8eJgk",
+      "videoId": "jjse_s8eJgk",
+      "title": "서울여자대학교 응원가 \"Running\" Piano Cover 피아노 커버",
+      "channel": "서울여자대학교, Seoul Women's University (Official)",
+      "publishedAt": "2020-05-31T21:42:11-07:00",
+      "descriptionSummary": "대학 본채널이 희망적 가사와 선율을 소개하며 피아노 편곡과 악보 링크, 2013 원곡 영상 링크를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["이모지 중심의 짧은 긍정 반응이 확인된다."],
+      "supports": ["officialCover", "sheetMusic", "adaptationContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-one-original",
+      "songId": "swu-one-together",
+      "url": "https://www.youtube.com/watch?v=jTv-R3FVPGo",
+      "videoId": "jTv-R3FVPGo",
+      "title": "서울여대 응원가1 하나되는 우리",
+      "channel": "민찬기",
+      "publishedAt": "2013-04-21T17:10:52-07:00",
+      "descriptionSummary": "서울여대의 첫 번째 응원가 ‘하나되는 우리’라는 짧은 설명과 함께 공개된 곡 전체 음원 영상이다. 업로더와 학교 제작 사업의 공식 관계는 설명되지 않는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["title", "directRecording", "earlyPublication"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-one-flashmob-report",
+      "songId": "swu-one-together",
+      "url": "https://www.youtube.com/watch?v=cf7rH1hkAtI",
+      "videoId": "cf7rH1hkAtI",
+      "title": "[아투TV] 서울여대 학생들 모두 모여라! 응원가 플래쉬몹 진행 현장 단독 공개",
+      "channel": "atooTV",
+      "publishedAt": "2013-06-10T00:02:51-07:00",
+      "descriptionSummary": "2012년 공모전으로 ‘하나 되는 우리’와 RUNNING 두 곡을 만들었다고 설명하되, 2013년 5월 29일 실제 플래시몹 사용곡은 RUNNING으로 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["origin", "twoSongProject", "usageDistinction", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-one-flashmob",
+      "songId": "swu-one-together",
+      "url": "https://www.youtube.com/watch?v=zVIVnvevR3M",
+      "videoId": "zVIVnvevR3M",
+      "title": "서울여자대학교 응원가 Running 플래시몹(FlashMob)",
+      "channel": "서울여자대학교, Seoul Women's University (Official)",
+      "publishedAt": "2013-12-25T22:51:42-08:00",
+      "descriptionSummary": "동반곡 RUNNING의 공식 플래시몹 기록이다. ‘하나되는 우리’ 직접 표본이 아니라 같은 공모전 결과 두 곡의 보급 격차를 확인하는 비교 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": ["참가자와 응원단을 격려하는 짧은 반응이 확인된다."],
+      "supports": ["companionPromotion", "usageDistinction", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-one-companion-original",
+      "songId": "swu-one-together",
+      "url": "https://www.youtube.com/watch?v=HfmQeGXvV-c",
+      "videoId": "HfmQeGXvV-c",
+      "title": "서울여대 응원가2 - Running",
+      "channel": "민찬기",
+      "publishedAt": "2013-04-10T18:46:40-07:00",
+      "descriptionSummary": "같은 업로더가 열흘 먼저 공개한 두 번째 응원가 RUNNING 음원이다. 두 곡의 번호·출시 묶음을 확인하는 보조 자료이며 직접 표본은 아니다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["companionRelease", "twoSongProject", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-swu-a-one-companion-training",
+      "songId": "swu-one-together",
+      "url": "https://www.youtube.com/watch?v=zwr6zSHTpBs",
+      "videoId": "zwr6zSHTpBs",
+      "title": "서울여대 응원가2 Running 안무(연습용) 슐스",
+      "channel": "김명주 클래스",
+      "publishedAt": "2013-05-17T02:36:14-07:00",
+      "descriptionSummary": "2012년 두 응원가 제작 사실과 SWURS가 RUNNING 안무를 제작·보급했다는 설명을 제공한다. 첫 곡의 안무 부재를 보여주는 비교 맥락 자료다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["twoSongProject", "usageDistinction", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 2,
+    "youtubeSampleCount": 14,
+    "songsMeetingYoutubeMinimum": 2,
+    "openIssueCount": 9
+  }
+}

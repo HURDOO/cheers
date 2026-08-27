@@ -1,0 +1,564 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kia-e",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kia-tigers",
+    "name": "KIA 타이거즈",
+    "type": "kbo"
+  },
+  "rightsNote": "응원가 개사·편곡과 구단 녹음의 전체 가사·음원·영상 설명 전문은 저장하지 않는다. 원곡 및 응원용 편곡의 권리를 구분해 출처·구조·주제만 기록하며, 공개 댓글은 작성자 정보와 원문 장문 인용 없이 반복되는 반응을 익명 요약한다.",
+  "items": [
+    {
+      "id": "kia-tigers-sing-together-for-victory",
+      "title": "승리를 위해 함께 부르자",
+      "aliases": [
+        "승리를 위해 함께 부르자 응원가",
+        "바다가 보이는 마을 응원가",
+        "승리 배달부 기아"
+      ],
+      "currentStatus": "current-official-2026",
+      "summary": "히사이시 조가 작곡한 애니메이션 영화 《마녀 배달부 키키》의 1989년 OST ‘A Town with an Ocean View(바다가 보이는 마을)’ 선율에 KIA의 승리 구호를 붙인 짧은 합창곡이다. 구단이 2025년 3월 14일 새 팀 응원가로 공식 공개했고, 2026 공식 안무 모음 19분 26초에도 수록해 현행성을 확인했다. 공개 직후에는 빠른 템포에 대한 의견이 갈렸지만 익숙한 원곡 덕분에 외우기 쉽다는 반응도 반복됐다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "히사이시 조의 ‘A Town with an Ocean View(바다가 보이는 마을)’ 선율",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-e-namu-cheers",
+            "ev-kia-e-hisaishi-catalog",
+            "yt-kia-e-sing-official-2025",
+            "yt-kia-e-sing-field-2025"
+          ],
+          "notes": "Apple Music의 1989년 OST 크레딧은 히사이시 조를 작곡·편곡자로 적는다. KIA용 개사·편곡자의 별도 크레딧은 구단 영상에서 확인되지 않았다."
+        },
+        {
+          "field": "introduction",
+          "value": "2025-03-14 구단 공식 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-e-sing-official-2025",
+            "ev-kia-e-namu-cheers"
+          ],
+          "notes": "나무위키의 ‘2025 시즌 개막전 공개’ 서술보다 구단 영상 게시일이 이르므로, 정확한 공개일과 첫 경기 사용일을 구분한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 팀 응원가 및 안무 교육 목록에 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-e-official-2026",
+            "yt-kia-e-sing-official-2026",
+            "yt-kia-e-sing-fanlist-2026"
+          ],
+          "notes": "2026 공식 영상 19분 26초에서 곡명과 안무를 직접 확인한다."
+        },
+        {
+          "field": "form",
+          "value": "짧은 두 문장과 팀명 응답을 두 차례 반복하는 합창형 잔응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-e-sing-official-2025",
+            "yt-kia-e-sing-mv-2025",
+            "yt-kia-e-sing-repeat-2025"
+          ],
+          "notes": "공식 공개 영상은 48초이며 실제 핵심 구절은 약 37초다."
+        }
+      ],
+      "usageContexts": [
+        "공격 중 짧게 승리 구호를 반복하는 팀 합창",
+        "응원단의 선창 뒤 관중이 팀명으로 응답하는 구간",
+        "익숙한 영화 음악 선율을 이용한 신규 관중용 입문 응원"
+      ],
+      "trivia": [
+        {
+          "id": "sing-victory-delivery-wordplay",
+          "summary": "원곡이 《마녀 배달부 키키》 OST라서 공개 댓글에서는 ‘승리 배달부 기아’, ‘우승이 보이는 마을’처럼 영화 제목과 원곡 한국어 제목을 바꾼 별명이 자연스럽게 생겼다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kia-e-sing-official-2025",
+            "yt-kia-e-sing-mv-2025"
+          ]
+        },
+        {
+          "id": "sing-tempo-reaction",
+          "summary": "공식 공개 직후 댓글에는 선율이 익숙해 빨리 외울 수 있다는 호평과, 템포를 조금 낮추면 더 웅장할 것 같다는 의견이 함께 반복됐다. 이는 편곡 반응이지 실제 음원 변경의 증거는 아니다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kia-e-sing-official-2025",
+            "yt-kia-e-sing-mv-2025"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-film-score-adaptation-and-club-arrangement-no-redistribution-permission",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=S-WV0dUw01w",
+          "https://www.youtube.com/watch?v=l7XROs9lYSo",
+          "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://music.apple.com/gb/song/882658780"
+        ],
+        "structureSummary": "원곡의 밝은 주제 선율 위에서 팀명과 긴 모음 합창을 먼저 제시하고, 함께 노래해 승리를 부르자는 문장과 타이거즈가 승리하리라는 문장을 팀명 응답과 함께 짝지어 두 번 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-e-sing-official-2025",
+        "yt-kia-e-sing-mv-2025",
+        "yt-kia-e-sing-fan-edit-2025",
+        "yt-kia-e-sing-field-2025",
+        "yt-kia-e-sing-repeat-2025",
+        "yt-kia-e-sing-paired-2025",
+        "yt-kia-e-sing-official-2026",
+        "yt-kia-e-sing-fanlist-2026"
+      ],
+      "unresolved": [
+        "2025년 최초 경기장 사용의 정확한 경기와 이닝",
+        "KIA용 개사·편곡·녹음 보컬의 전체 크레딧",
+        "공식 공개 뒤 템포나 음원이 실제로 수정됐는지 여부",
+        "2026 정규시즌 경기별 사용 빈도와 고정 사용 상황"
+      ]
+    },
+    {
+      "id": "kia-tigers-oh-strongest-kia",
+      "title": "오! 최강기아!",
+      "aliases": [
+        "오 최강기아",
+        "오! 최강 KIA!",
+        "트랜스픽션 응원가"
+      ],
+      "currentStatus": "current-reported-low-frequency-official-2025",
+      "summary": "트랜스픽션이 KIA를 위해 만든 오리지널 록 응원가로, 해랑과 전호진이 공동 작사·작곡하고 트랜스픽션이 노래했다. 구단은 2025년 3월 25일 새 팀 응원가로 공식 공개했으며 6월 챔피언스필드 현장 영상도 남아 있다. 2026년 팬 플레이리스트와 나무위키 현행 구간에는 계속 등장하지만 구단의 2026 핵심 안무 모음에서는 빠졌으므로, 폐지로 단정하지 않고 저빈도 현행 보고와 공식 목록 누락을 함께 보존한다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "트랜스픽션이 KIA를 위해 새로 만든 오리지널 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-e-oh-official-2025",
+            "yt-kia-e-oh-artist-2025",
+            "ev-kia-e-namu-cheers"
+          ],
+          "notes": "공식·아티스트 자료 모두 외부 원곡을 언급하지 않고 새 응원가로 소개한다."
+        },
+        {
+          "field": "credits",
+          "value": "해랑·전호진 공동 작사·작곡, 트랜스픽션 가창",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-e-oh-artist-2025",
+            "yt-kia-e-oh-official-2025"
+          ],
+          "notes": "트랜스픽션 공식 채널 설명이 직접 크레딧을 제공한다. 구단 영상은 제작 주체를 트랜스픽션으로 명시한다."
+        },
+        {
+          "field": "introduction",
+          "value": "2025-03-25 구단 공식 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-e-oh-official-2025",
+            "ev-kia-e-namu-cheers"
+          ],
+          "notes": "최초 현장 사용일은 공식 영상 게시일과 별도로 확인되지 않았다."
+        },
+        {
+          "field": "fieldUse2025",
+          "value": "2025-06-18 광주-기아 챔피언스필드 직접 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-e-oh-field-2025"
+          ],
+          "notes": "영상 제목은 곡을 정확히 특정하지만 설명이 이를 ‘라인업송’이라 잘못 부르고 상대도 KT·키움으로 상충한다. 날짜·구장·곡 자체만 사용 근거로 삼고 상대 구단은 미확정으로 둔다."
+        },
+        {
+          "field": "currentUse2026",
+          "value": "2026 팬 현행 목록과 나무위키 현행 구간에는 있으나 구단 2026 핵심 안무 모음에는 미수록",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kia-e-official-2026",
+            "ev-kia-e-namu-cheers",
+            "yt-kia-e-oh-fanlist-2026",
+            "yt-kia-e-oh-study-2026"
+          ],
+          "notes": "공식 2026 목록 누락만으로 폐지를 뜻하지는 않지만 2026 직접 현장 영상도 아직 확보하지 못했다. 현행 저빈도 또는 보류 판정이 적절하다."
+        }
+      ],
+      "usageContexts": [
+        "관중이 팀명과 승리 구호를 반복하는 록 합창",
+        "응원단 안무와 함께 분위기를 끌어올리는 긴 팀 응원",
+        "큰 점수 차의 우세 또는 하이라이트 장면에 어울린다는 팬 인상이 많은 곡"
+      ],
+      "trivia": [
+        {
+          "id": "oh-transfixion-lineage",
+          "summary": "트랜스픽션은 KIA의 기존 곡 ‘광주의 함성’과 ‘우리는 하나’도 제작했다. 공개 댓글에서 이 곡을 ‘광주의 함성 2’처럼 부르는 반응이 나온 배경이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-e-namu-cheers",
+            "yt-kia-e-oh-artist-2025"
+          ]
+        },
+        {
+          "id": "oh-initial-comment-context",
+          "summary": "구단 공식 영상은 4연패 직후 올라와 댓글 상당수가 곡보다 당시 경기력과 선수 운용을 비판했다. 이를 곡의 부정적 평가로 합산하면 왜곡되므로, 곡 자체에 대한 ‘신난다·현장에서 더 좋겠다’는 반응과 경기 비판을 분리했다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-e-oh-official-2025"
+          ]
+        },
+        {
+          "id": "oh-title-spacing",
+          "summary": "구단·트랜스픽션 공식 표기는 느낌표를 포함한 ‘오! 최강기아!’이고, 현장 영상·팬 목록에서는 ‘오 최강 KIA’처럼 띄어쓰기와 영문 표기가 달라진다. 동일 곡으로 병합하되 공식 표기를 대표 제목으로 삼았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-e-oh-official-2025",
+            "yt-kia-e-oh-artist-2025",
+            "yt-kia-e-oh-field-2025"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-original-club-song-by-transfixion-no-lyrics-or-recording-redistribution-permission",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=Hw0xWjbMLxo",
+          "https://www.youtube.com/watch?v=o438IgKX6lk",
+          "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "짧은 팀명·승리 구호 후렴을 네 번 반복해 시작하고, 관중의 함성이 승리를 부른다는 서술형 중간 절과 영어 승리 구호를 거친 뒤 같은 후렴을 두 번 되풀이한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-e-oh-official-2025",
+        "yt-kia-e-oh-artist-2025",
+        "yt-kia-e-oh-audio-2025",
+        "yt-kia-e-oh-field-2025",
+        "yt-kia-e-oh-fanlist-2025",
+        "yt-kia-e-oh-study-2026",
+        "yt-kia-e-oh-fanlist-2026"
+      ],
+      "unresolved": [
+        "최초 경기장 사용의 정확한 경기와 이닝",
+        "편곡·연주·녹음 엔지니어의 전체 크레딧",
+        "2026 구단 공식 핵심 안무 모음에서 빠진 이유",
+        "2026 정규시즌 직접 현장 사용 여부와 빈도",
+        "2025-06-18 현장 영상 설명에 적힌 상대 구단 KT·키움 상충"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kia-e-official-2026",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (카스트로 & 데일 응원가)",
+      "publisher": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24",
+      "accessedAt": "2026-08-08",
+      "summary": "구단의 2026 팀·선수 응원가 안무 모음은 ‘승리를 위해 함께 부르자’를 19분 26초에 수록한다. ‘오! 최강기아!’는 이 핵심 목록에는 없어 후자의 현행성 판정에 누락 사실을 함께 보존했다.",
+      "supports": [
+        "kia-tigers-sing-together-for-victory.currentUse",
+        "kia-tigers-oh-strongest-kia.official2026Omission"
+      ]
+    },
+    {
+      "id": "ev-kia-e-namu-cheers",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "KIA 타이거즈/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "2026 현행 응원가 구간에서 ‘승리를 위해 함께 부르자’를 2025 개막 신곡이자 히사이시 조 ‘바다가 보이는 마을’ 개사곡으로, ‘오! 최강기아!’를 2025년 트랜스픽션 제작 신곡으로 설명한다. 편집형 2차 자료이므로 구단·아티스트 공식 영상과 교차했다.",
+      "supports": [
+        "kia-tigers-sing-together-for-victory.origin",
+        "kia-tigers-sing-together-for-victory.introduction",
+        "kia-tigers-oh-strongest-kia.introduction",
+        "kia-tigers-oh-strongest-kia.currentSection"
+      ]
+    },
+    {
+      "id": "ev-kia-e-hisaishi-catalog",
+      "type": "official-streaming-catalog",
+      "url": "https://music.apple.com/gb/song/882658780",
+      "title": "A Town with an Ocean View",
+      "publisher": "Apple Music",
+      "publishedAt": "1989-08-10",
+      "accessedAt": "2026-08-08",
+      "summary": "《Kiki's Delivery Service》 오리지널 사운드트랙 수록곡으로, 히사이시 조를 연주·지휘·작곡·편곡자로 표기한다. KIA 응원가가 차용한 원곡의 제목·작곡자·1989년 발매 계보를 확인한다.",
+      "supports": [
+        "kia-tigers-sing-together-for-victory.origin",
+        "kia-tigers-sing-together-for-victory.sourceCredits"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kia-e-sing-official-2025",
+      "songId": "kia-tigers-sing-together-for-victory",
+      "url": "https://www.youtube.com/watch?v=S-WV0dUw01w",
+      "videoId": "S-WV0dUw01w",
+      "title": "[오피셜] 새로운 팀 응원가 '승리를 위해 함께 부르자' 공개!",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2025-03-14",
+      "descriptionSummary": "구단이 곡명과 짧은 반복 구조를 직접 공개한 최초 공식 영상이다. 전체 설명의 가사는 복제하지 않고 공개일·공식명·구조만 추출했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "익숙한 영화 OST라 빨리 외울 수 있고 새 떼창곡으로 어울린다는 호평이 반복된다.",
+        "현재 템포보다 약간 느리게 편곡하면 더 웅장할 것 같다는 의견도 여러 건 있다.",
+        "영화 제목을 바꾼 ‘승리 배달부’류의 말장난이 반복된다."
+      ],
+      "supports": ["officialRelease", "title", "lyricsStructure", "initialReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-sing-mv-2025",
+      "songId": "kia-tigers-sing-together-for-victory",
+      "url": "https://www.youtube.com/watch?v=_WNBzAS40_w",
+      "videoId": "_WNBzAS40_w",
+      "title": "승리를 위해 함께 부르자 Music Video",
+      "channel": "야쏭",
+      "publishedAt": "2025-03-14",
+      "descriptionSummary": "공식 공개 당일 올라온 37초 팬 뮤직비디오로 곡의 실제 핵심 길이와 반복을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 직후 응원가가 좋고 야구장에 빨리 가고 싶다는 반응이 많다.",
+        "원곡 제목을 묻거나 《마녀 배달부 키키》 선율을 알아보는 댓글이 반복된다."
+      ],
+      "supports": ["sameDayReception", "originRecognition"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-sing-fan-edit-2025",
+      "songId": "kia-tigers-sing-together-for-victory",
+      "url": "https://www.youtube.com/watch?v=k9Frn6JSDs8",
+      "videoId": "k9Frn6JSDs8",
+      "title": "타이거즈ㅣ승리를 위해 함께 부르자",
+      "channel": "IMAX타이거즈",
+      "publishedAt": "2025-03-14",
+      "descriptionSummary": "신곡 공개 당일 제작된 53초 합성 팬 영상이다. 제목과 해시태그가 KIA 신곡을 정확히 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "타 구단 팬도 한 번 듣고 중독됐다는 반응과 ‘우승 배달부’라는 별명이 보인다.",
+        "영상 편집의 갑작스러운 속도 변화에 대한 반응은 공식 음원 편곡 평가와 분리했다."
+      ],
+      "supports": ["fanReception", "nickname"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-sing-field-2025",
+      "songId": "kia-tigers-sing-together-for-victory",
+      "url": "https://www.youtube.com/watch?v=CFYWzxJflOk",
+      "videoId": "CFYWzxJflOk",
+      "title": "KIA타이거즈 2025시즌 새 응원가 승리를 위해 함께 부르자 (마녀 배달부 키키 ost)",
+      "channel": "46채널",
+      "publishedAt": "2025-04-11",
+      "descriptionSummary": "2025 시즌 구장 음향으로 재생된 36초 신곡 현장 표본이며 제목이 원곡 관계까지 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 앰프 음량이 커 관중 육성이 묻힌다고 지적한다. 곡 자체 평가와 구장 음향 평가는 구분했다."
+      ],
+      "supports": ["fieldUse2025", "originRecognition"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-sing-repeat-2025",
+      "songId": "kia-tigers-sing-together-for-victory",
+      "url": "https://www.youtube.com/watch?v=9b9D80-yi0g",
+      "videoId": "9b9D80-yi0g",
+      "title": "KIA 타이거즈 팀 응원가 '승리를 위해 함께 부르자' 1시간 반복재생",
+      "channel": "야옹",
+      "publishedAt": "2025-05-29",
+      "descriptionSummary": "공식 신곡 음원을 장시간 반복한 팬 영상으로 제목·음원 정체와 2025년 팬 학습 수요를 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 다른 응원가 제작 요청 위주라 이 곡의 역사나 사용법에 대한 추가 주장은 없다."
+      ],
+      "supports": ["fanCirculation2025"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-sing-paired-2025",
+      "songId": "kia-tigers-sing-together-for-victory",
+      "url": "https://www.youtube.com/watch?v=lAEigRCxtk0",
+      "videoId": "lAEigRCxtk0",
+      "title": "기아 타이거즈 2025 시즌 신규 팀 응원가 승리를 위해 함께 부르자&승리를 위해",
+      "channel": "우빈이의 철도채널",
+      "publishedAt": "2025-03-14",
+      "descriptionSummary": "2025년 같은 날 공개된 두 신규 응원가를 1분 17초에 묶은 영상이다. 비슷한 제목의 ‘승리를 위해’와 이 곡이 별개임을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 새 시즌 승리를 기원하며 두 신곡을 함께 받아들이는 반응이다."
+      ],
+      "supports": ["disambiguation", "releaseContext2025"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-sing-official-2026",
+      "songId": "kia-tigers-sing-together-for-victory",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "videoId": "l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (카스트로 & 데일 응원가)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24",
+      "descriptionSummary": "구단 공식 2026 안무 모음이 이 곡을 19분 26초에 독립 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 전체 응원가의 안무·가사 복습 자료로 유용하다는 반응이 중심이다.",
+        "팬들이 타임스탬프를 재공유해 공식 설명의 곡 순서를 교차 확인한다."
+      ],
+      "supports": ["officialCurrentUse2026", "officialChoreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-sing-fanlist-2026",
+      "songId": "kia-tigers-sing-together-for-victory",
+      "url": "https://www.youtube.com/watch?v=GiM8SNYBvFo",
+      "videoId": "GiM8SNYBvFo",
+      "title": "Playlist 기아타이거즈 응원가 모음 Ver.2026",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2026-05-19",
+      "descriptionSummary": "2026 팬 종합 목록이 27분 18초에 이 곡을 수록해 공식 목록 이후의 팬 학습·유통을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "전체 목록과 타임스탬프를 제공한 데 대한 감사와 2026 시즌 응원이 멋지다는 반응이 반복된다."
+      ],
+      "supports": ["fanCurrentList2026"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-oh-official-2025",
+      "songId": "kia-tigers-oh-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=Hw0xWjbMLxo",
+      "videoId": "Hw0xWjbMLxo",
+      "title": "트랜스픽션이 만든 새로운 팀 응원가, '오! 최강기아!'",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2025-03-25",
+      "descriptionSummary": "구단이 트랜스픽션 제작 신곡의 공식 제목과 반복형 가사 구조를 공개했다. 설명 전문은 저장하지 않고 제작 주체·공개일·구조만 요약했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "트랜스픽션답게 신나고 현장에서 더 좋을 것이라는 곡 자체의 호평이 있다.",
+        "영상 게시 당시 팀의 연패와 경기력 비판이 댓글 다수를 차지하므로 이를 곡 평가와 분리했다.",
+        "더 자주 틀어 달라는 후대 반응은 사용 빈도가 높지 않다는 팬 인상을 보여 준다."
+      ],
+      "supports": ["officialRelease", "producer", "officialTitle", "initialReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-oh-artist-2025",
+      "songId": "kia-tigers-oh-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=o438IgKX6lk",
+      "videoId": "o438IgKX6lk",
+      "title": "트랜스픽션 '오! 최강기아!'(기아 타이거즈 공식응원가 )",
+      "channel": "트랜스픽션 Transfixion",
+      "publishedAt": "2025-03-30",
+      "descriptionSummary": "아티스트 공식 채널이 해랑·전호진 공동 작사·작곡과 트랜스픽션 가창 크레딧을 직접 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "‘광주의 함성 2’라는 별명과 트랜스픽션의 KIA 곡을 반기는 반응이 보인다.",
+        "다른 구단에도 트랜스픽션 응원가가 생기면 좋겠다는 타 팀 팬 반응이 있다."
+      ],
+      "supports": ["credits", "officialSong", "fanNickname"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-oh-audio-2025",
+      "songId": "kia-tigers-oh-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=5AfPsKPMnGQ",
+      "videoId": "5AfPsKPMnGQ",
+      "title": "기아타이거즈 팀응원가 '오! 최강 기아!'",
+      "channel": "JSK야구채널",
+      "publishedAt": "2025-06-21",
+      "descriptionSummary": "1분 53초짜리 단독 음원 팬 업로드로 공식 음원 길이와 띄어쓰기 변형 제목을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 다른 선수 영상 요청과 짧은 부정적 평가뿐이라 역사 정보로 사용하지 않았다."
+      ],
+      "supports": ["standaloneAudio", "titleVariant"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-oh-field-2025",
+      "songId": "kia-tigers-oh-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=J6usZy8uNmc",
+      "videoId": "J6usZy8uNmc",
+      "title": "오 최강 KIA!_ 0618 KT",
+      "channel": "홍고흐",
+      "publishedAt": "2025-06-19",
+      "descriptionSummary": "2025년 6월 18일 광주-기아 챔피언스필드에서 촬영한 직접 현장 영상이다. 제목은 KT, 설명은 키움전이라 상대 구단 표기가 상충하고 설명은 곡을 라인업송으로 오기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2025", "metadataConflict"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-oh-fanlist-2025",
+      "songId": "kia-tigers-oh-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=Y55NxjqfP6s",
+      "videoId": "Y55NxjqfP6s",
+      "title": "Playlist 기아타이거즈 응원가 모음 Ver.2025",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2025-06-27",
+      "descriptionSummary": "2025 팬 종합 플레이리스트가 52분 7초에 이 곡을 팀 응원가로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "2025 버전을 기다렸고 직관 전에 복습한다는 반응이 많다.",
+        "댓글의 선수 관련 논쟁은 곡 정보와 무관해 요약에서 제외했다."
+      ],
+      "supports": ["fanCurrentList2025"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-oh-study-2026",
+      "songId": "kia-tigers-oh-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=HmeLV9vuqvc",
+      "videoId": "HmeLV9vuqvc",
+      "title": "KIA 팀응원가 - 오! 최강기아! 원음 Ver. | 응하컬 X 프로야구 응원가 | 야구 응원가 연구",
+      "channel": "응하컬 - 응원가로 하나되는 컬렉션",
+      "publishedAt": "2026-04-19",
+      "descriptionSummary": "2026년 4월 원음 연구 표본으로 구단 공식 채널을 음원 출처로 밝히고 트랜스픽션 제작을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["circulation2026", "officialAudioSource"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-e-oh-fanlist-2026",
+      "songId": "kia-tigers-oh-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=GiM8SNYBvFo",
+      "videoId": "GiM8SNYBvFo",
+      "title": "Playlist 기아타이거즈 응원가 모음 Ver.2026",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2026-05-19",
+      "descriptionSummary": "2026 팬 종합 목록이 48분 36초에 이 곡을 팀 응원가로 수록한다. 구단 공식 2026 핵심 목록 누락과 대비되는 현재성 보조 근거다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "전체 2026 목록을 정리해 준 데 대한 감사와 팀 응원을 즐긴다는 반응이 중심이다."
+      ],
+      "supports": ["fanCurrentList2026", "currentStatusConflict"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 2,
+    "youtubeSampleCount": 15,
+    "songsMeetingYoutubeMinimum": 2,
+    "openIssueCount": 9
+  }
+}

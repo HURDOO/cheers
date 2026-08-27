@@ -1,0 +1,1967 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-lotte-a",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-lotte-giants",
+    "name": "롯데 자이언츠",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 원곡·롯데 개사·편곡·녹음물은 공식 열람 경로와 가사 구조·주제만 기록한다. 전통 민요나 퍼블릭 도메인 선율도 롯데용 가사·편곡·녹음물의 권리가 별개일 수 있으므로 전문을 재배포하지 않는다. 공개 댓글은 작성자 이름·계정·원문 인용을 제외하고 반복되는 반응만 익명 요약한다.",
+  "evidence": [
+    {
+      "id": "ev-lotte-a-official-2026",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "publisher": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "accessedAt": "2026-08-08",
+      "summary": "구단 공식 2026 플레이리스트다. 승전가 13분 27초, 부산 갈매기 29분 33초, 돌아와요 부산항에 30분 51초, 바다새 31분 56초를 각각 공식 표기로 수록한다. 뱃노래는 이 영상의 챕터와 본편에 없지만 2026 직접 현장 영상이 따로 있어, 미수록을 폐지의 근거로 사용하지 않았다.",
+      "supports": [
+        "lotte-giants-busan-gull.currentUse",
+        "lotte-giants-return-to-busan-port.currentUse",
+        "lotte-giants-seabird.currentUse",
+        "lotte-giants-victory-hymn.officialTitle",
+        "coverage.boatPlaylistCaveat"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-namu-cheers",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "롯데 자이언츠/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "현행 팀 응원가의 공식·통용 표기, 연주 순서, 홈·원정 변형, 중단과 부활, 편곡 변화, 현장 사용 시점 및 여담을 확인했다. 편집형 2차 자료이므로 도입 연도·저작권 협상·원곡 크레딧은 공식 영상, 언론, 음원·공공기관 자료와 교차 검증했으며 단독 서술은 ‘reported’로 낮춰 기록했다.",
+      "supports": [
+        "all.namingHistoryUsage",
+        "lotte-giants-busan-gull.arrangementAndVariants",
+        "lotte-giants-return-to-busan-port.continuity",
+        "lotte-giants-seabird.versionHistory",
+        "lotte-giants-baennorae.returnHistory",
+        "lotte-giants-victory-hymn.usage"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-busan-revival-busan-ilbo",
+      "type": "news",
+      "url": "https://www.busan.com/view/busan/view.php?code=2023040615093749547&invenCode=vnmWeVaU&pageSeq=e01b4905995352526329e10ea666e813&recCode=preset",
+      "title": "롯데 자이언츠 응원가 ‘부산 갈매기’ 5년 만에 돌아온다",
+      "publisher": "부산일보",
+      "publishedAt": "2023-04-06",
+      "accessedAt": "2026-08-08",
+      "summary": "롯데가 2018년 3월부터 저작권 협의 문제로 구장 음향을 통한 부산 갈매기 사용을 중단했고, 팬의 자발적 육성 합창은 가능했다고 설명한다. 권리자 신동훈과 합의해 공식 응원가로 지정하고 2023년 4월 7일 이조아의 공연과 7회 관중 합창으로 복귀시킨 일정을 보도한다.",
+      "supports": [
+        "lotte-giants-busan-gull.suspension",
+        "lotte-giants-busan-gull.rightsScope",
+        "lotte-giants-busan-gull.revival"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-busan-rightsholder-interview",
+      "type": "news-interview",
+      "url": "https://v.daum.net/v/20230602111301656?f=m",
+      "title": "5년 만에 돌아온 ‘부산 갈매기’…저작권자가 밝힌 뒷이야기",
+      "publisher": "MBN",
+      "publishedAt": "2023-06-02",
+      "accessedAt": "2026-08-08",
+      "summary": "권리자 신동훈 인터뷰를 통해 구단 관계자와 응원단장의 설득, 별도 조건 없이 사용을 허락한 과정, 2023년 4월 7일 공식 응원가 재지정을 확인한다. 곡은 문성재가 1982년에 불렀고, 롯데 팬들이 1990년대 초 자연스럽게 부르기 시작했다고 설명한다.",
+      "supports": [
+        "lotte-giants-busan-gull.adoptionEra",
+        "lotte-giants-busan-gull.revivalNegotiation",
+        "lotte-giants-busan-gull.originalRelease"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-busan-history-joongang",
+      "type": "news",
+      "url": "https://koreajoongangdaily.joins.com/2023/04/17/englishStudy/bilingualNews/Busan-Lotte-seagull/20230417152153386.html",
+      "title": "‘Busan Seagull’ returns as Lotte Giants' official fight song",
+      "publisher": "Korea JoongAng Daily",
+      "publishedAt": "2023-04-17",
+      "accessedAt": "2026-08-08",
+      "summary": "김중순 작사·작곡, 문성재 가창, 1982년 발표라는 원곡 크레딧과 팬들이 1990년대 초부터 응원가로 채택했다는 추정, 7회 대표 합창과 팀·선수·팬의 별칭으로 확장된 지역적 의미를 정리한다. 2018년 3월 중단과 2023년 공식 복귀도 함께 확인한다.",
+      "supports": [
+        "lotte-giants-busan-gull.origin",
+        "lotte-giants-busan-gull.adoptionEra",
+        "lotte-giants-busan-gull.regionalIdentity",
+        "lotte-giants-busan-gull.suspensionAndRevival"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-busan-original-bugs",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/522827",
+      "title": "문성재 앨범 음원 정보",
+      "publisher": "벅스",
+      "publishedAt": "1982-02-28",
+      "accessedAt": "2026-08-08",
+      "summary": "문성재의 부산 갈매기가 포함된 음반의 발매일을 1982년 2월 28일로 표기한다. 응원가 개사·편곡 크레딧이 아니라 상업 원곡의 발매 시점과 가수를 확인하는 자료로만 사용했다.",
+      "supports": [
+        "lotte-giants-busan-gull.originalRelease"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-return-history-ktv",
+      "type": "official-broadcast-article",
+      "url": "https://www.ktv.go.kr/program/home/PG2240033D/content/712366",
+      "title": "시대의 노래, 돌아와요 부산항에",
+      "publisher": "KTV 국민방송",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "조용필이 1972년과 1976년에 각각 발표·재녹음한 돌아와요 부산항에의 시대적 배경과 대중적 확산을 설명한다. 롯데 응원가 도입 연도 자료가 아니라 원곡 버전 계보를 분리하기 위한 공공 방송 자료다.",
+      "supports": [
+        "lotte-giants-return-to-busan-port.sourceWorkVersions"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-return-lineage-seoul",
+      "type": "news",
+      "url": "https://www.seoul.co.kr/news/newsView.php?id=20211018022003",
+      "title": "‘돌아와요 부산항에’가 품은 노래의 계보",
+      "publisher": "서울신문",
+      "publishedAt": "2021-10-17",
+      "accessedAt": "2026-08-08",
+      "summary": "김해일이 부른 1970년 돌아와요 충무항에에서 황선우의 부산항 버전과 조용필의 1972·1976년 음반으로 이어진 복잡한 계보를 다룬다. 단순히 1976년 조용필 창작곡으로 축약하지 않기 위한 보조 자료다.",
+      "supports": [
+        "lotte-giants-return-to-busan-port.sourceWorkLineage"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-return-copyright-kbs",
+      "type": "news",
+      "url": "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=41148&lang=k",
+      "title": "‘돌아와요 부산항에’ 저작권 분쟁 판결",
+      "publisher": "KBS World",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "법원이 황선우의 부산항 가사가 고 김성술의 충무항 가사를 동의 없이 바탕으로 한 2차적 저작물이라고 판단한 저작권 분쟁을 전한다. 롯데판의 현행 사용 허락을 판정하는 자료가 아니라 원곡 가사 계보가 법적으로도 단순하지 않음을 보여 준다.",
+      "supports": [
+        "lotte-giants-return-to-busan-port.sourceWorkRightsHistory"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-stadium-songs-archives",
+      "type": "official-archive",
+      "url": "https://www.archives.go.kr/archivesdata/upFile/palgan/1396486391118.pdf",
+      "title": "프로야구와 응원가",
+      "publisher": "국가기록원",
+      "publishedAt": "2014",
+      "accessedAt": "2026-08-08",
+      "summary": "롯데의 지역 대표 응원가로 돌아와요 부산항에와 부산 갈매기를 함께 소개하는 공공 기록 자료다. 두 곡이 구장과 지역 정체성에 결합한 사실을 뒷받침하지만, 정확한 도입 경기나 저작권 중단 이력을 특정하지는 않는다.",
+      "supports": [
+        "lotte-giants-busan-gull.regionalIdentity",
+        "lotte-giants-return-to-busan-port.regionalIdentity"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-lotte-magazine-2021",
+      "type": "official-corporate-magazine",
+      "url": "https://www.lotte.co.kr/upload/post/magazine/210406091753714.pdf",
+      "title": "롯데그룹 사보: 자이언츠 팬의 노래 기억",
+      "publisher": "롯데",
+      "publishedAt": "2021",
+      "accessedAt": "2026-08-08",
+      "summary": "잠실 원정에서 돌아와요 부산항에를 관중과 끝까지 불렀다는 팬의 기억을 실어, 이 곡이 부산 갈매기 사용 중단기에도 팬 문화에서 독립적으로 이어졌음을 보조한다.",
+      "supports": [
+        "lotte-giants-return-to-busan-port.continuity",
+        "lotte-giants-return-to-busan-port.awayCulture"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-seabird-imbc",
+      "type": "broadcast-article",
+      "url": "https://enews.imbc.com/News/ViewAmp/182195",
+      "title": "MBC 강변가요제의 명곡들",
+      "publisher": "iMBC",
+      "publishedAt": "2016",
+      "accessedAt": "2026-08-08",
+      "summary": "김혜정이 부른 바다새를 1986년 강변가요제의 대표적 명곡으로 소개한다. 롯데의 곡은 동명이곡이 아니라 부산 출신 그룹사운드 바다새의 자기제목 곡을 바탕으로 했다는 원곡 식별 자료다.",
+      "supports": [
+        "lotte-giants-seabird.exactSourceWork",
+        "lotte-giants-seabird.originalSinger"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-seabird-bugs",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/musicpd/albumview/34224",
+      "title": "제7회 MBC 강변가요제 수록곡 정보",
+      "publisher": "벅스",
+      "publishedAt": "1986",
+      "accessedAt": "2026-08-08",
+      "summary": "그룹 바다새의 동명곡 바다새가 1986년 제7회 MBC 강변가요제 동상 수상곡임을 정리한다. 같은 제목의 다른 가수 곡과 혼동하지 않도록 가수·연도·대회 버전을 함께 고정했다.",
+      "supports": [
+        "lotte-giants-seabird.exactSourceWork",
+        "lotte-giants-seabird.award"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-boat-2009-press",
+      "type": "news",
+      "url": "https://sports.donga.com/article/all/20090929/23101123/1",
+      "title": "롯데 응원문화와 뱃놀이",
+      "publisher": "스포츠동아",
+      "publishedAt": "2009-09-29",
+      "accessedAt": "2026-08-08",
+      "summary": "2009년 롯데 현장 응원문화에서 뱃놀이를 직접 언급한다. 정확한 최초 도입 연도는 아니지만, 현재 확보한 동시대 문헌 중 가장 이른 사용 증거여서 ‘2009년 이전 도입’의 하한으로만 기록했다.",
+      "supports": [
+        "lotte-giants-baennorae.earliestDocumentedUse"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-boat-2014-nate",
+      "type": "news",
+      "url": "https://sports.news.nate.com/view/20140208n04707",
+      "title": "롯데 응원가 뱃놀이의 현장 사용",
+      "publisher": "일간스포츠·네이트",
+      "publishedAt": "2014-02-08",
+      "accessedAt": "2026-08-08",
+      "summary": "2014시즌 이전의 롯데 뱃놀이 응원과 군중 참여 방식을 다룬 동시대 기사다. 역사 표기와 현장 구조를 확인하는 자료로 사용하고 가사 문장은 저장하지 않았다.",
+      "supports": [
+        "lotte-giants-baennorae.preSuspensionUse",
+        "lotte-giants-baennorae.historicalName"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-boat-2014-newspim",
+      "type": "news",
+      "url": "https://www.newspim.com/news/view/20140417000468",
+      "title": "프로야구 응원가 운영 변경",
+      "publisher": "뉴스핌",
+      "publishedAt": "2014-04-17",
+      "accessedAt": "2026-08-08",
+      "summary": "세월호 참사 직후 프로야구 구단들이 응원과 음향을 축소한 당시 상황을 보도한다. 이후 롯데의 뱃노래가 장기간 빠진 계기를 설명하는 시대 자료이지만, 영구 폐지나 저작권 문제로 해석하지 않는다.",
+      "supports": [
+        "lotte-giants-baennorae.2014SuspensionContext"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-gugak-boat-song",
+      "type": "official-score",
+      "url": "https://www.gugak.go.kr/userfiles/files/%EA%B5%90%EA%B3%BC%EC%84%9C%ED%91%9C%EC%A4%80%EC%95%85%EB%B3%B4%EC%A7%91%20%EB%82%B4%EC%A7%80%20%EC%88%98%EC%A0%95%20%EC%B5%9C%EC%A2%85%282%29.pdf",
+      "title": "교과서 표준악보집: 자진뱃노래",
+      "publisher": "국립국악원",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "자진뱃노래를 노 젓는 소리를 바탕으로 널리 불린 경상도 민요로 분류한다. 롯데판의 직접 원음원이나 개사 크레딧을 뜻하지 않으며, 전통 민요 계열이라는 가장 앞단의 계보만 뒷받침한다.",
+      "supports": [
+        "lotte-giants-baennorae.folkLineage"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-battle-hymn-loc",
+      "type": "official-archive",
+      "url": "https://www.loc.gov/collections/patriotic-melodies/articles-and-essays/battle-hymn-of-the-republic/",
+      "title": "Battle Hymn of the Republic",
+      "publisher": "Library of Congress",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "승전가가 차용한 미국 선율의 계보를 정리한다. 선율은 1850년대 William Steffe 계열로 거슬러 올라가고 Julia Ward Howe의 Battle Hymn of the Republic 가사는 1862년 2월 발표됐다. 롯데판 개사자·편곡자 자료는 아니다.",
+      "supports": [
+        "lotte-giants-victory-hymn.melodyOrigin",
+        "lotte-giants-victory-hymn.publicDomainLayer"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-dugout-victory-label",
+      "type": "magazine-article",
+      "url": "https://v.daum.net/v/EoQcWypgcy",
+      "title": "롯데 자이언츠의 승전가",
+      "publisher": "더그아웃매거진",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "공식 표기 승전가가 반복 구절 때문에 승리의 롯데라고도 불린다고 설명하고, 보통 7회말 공격 전이나 득점·역전 상황에서 웅장한 오케스트라·합창형 반주로 사용된다고 소개한다.",
+      "supports": [
+        "lotte-giants-victory-hymn.naming",
+        "lotte-giants-victory-hymn.usage"
+      ]
+    },
+    {
+      "id": "ev-lotte-a-digital-chosun-medley",
+      "type": "news-feature",
+      "url": "https://digitalchosun.dizzo.com/site/data/html_dir/2015/05/22/2015052212363.html",
+      "title": "프로야구 구단별 대표 응원가",
+      "publisher": "디지틀조선일보",
+      "publishedAt": "2015-05-22",
+      "accessedAt": "2026-08-08",
+      "summary": "롯데의 대표 메들리를 부산 갈매기, 돌아와요 부산항에, 승리의 롯데라는 통용 표기로 묶어 소개한다. 승리의 롯데가 오래 쓰인 별칭임을 보조하되 공식 곡명은 2026 구단 영상의 승전가를 우선한다.",
+      "supports": [
+        "lotte-giants-victory-hymn.commonAlias",
+        "lotte-giants-busan-gull.medley",
+        "lotte-giants-return-to-busan-port.medley"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "lotte-giants-busan-gull",
+      "title": "부산 갈매기",
+      "aliases": [
+        "부산갈매기",
+        "Busan Seagull",
+        "마산 갈매기",
+        "울산 갈매기"
+      ],
+      "currentStatus": "current-officially-revived-2023",
+      "summary": "김중순이 작사·작곡하고 문성재가 1982년에 발표한 대중가요를 롯데 팬들이 1990년대 초부터 자연스럽게 팀의 노래로 만든 대표 지역 응원가다. 저작권 협의가 풀리지 않아 2018년 3월부터 구장 음향 재생이 중단됐지만 관중의 육성 합창 자체는 가능했다. 권리자 신동훈과의 합의 뒤 2023년 4월 7일 공식 응원가로 재지정되어 5년 만에 돌아왔고, 2026 구단 공식 플레이리스트와 현장 영상에서 계속 사용된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "김중순 작사·작곡, 문성재 가창의 1982년 대중가요 ‘부산 갈매기’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-busan-history-joongang",
+            "ev-lotte-a-busan-original-bugs"
+          ],
+          "notes": "현 권리자 신동훈과 원 창작자 김중순을 같은 인물로 오기하지 않았다. 롯데판의 별도 편곡·녹음 크레딧은 확인되지 않았다."
+        },
+        {
+          "field": "introductionEra",
+          "value": "1990년대 초 팬들이 자연스럽게 부르기 시작한 것으로 추정",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-busan-rightsholder-interview",
+            "ev-lotte-a-busan-history-joongang"
+          ],
+          "notes": "구단이 특정 경기에서 공식 도입한 연도가 아니라 복수 기사에 나온 팬 채택 시기다. 정확한 첫 경기 기록은 미확인이다."
+        },
+        {
+          "field": "suspensionHistory",
+          "value": "2018년 3월부터 2022시즌까지 구장 음향 사용 중단",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-busan-revival-busan-ilbo",
+            "ev-lotte-a-busan-history-joongang"
+          ],
+          "notes": "팬이 육성으로 자발적으로 부르는 행위까지 금지된 것은 아니며, 구단의 음원 재생·공식 사용이 중단된 범위로 적었다."
+        },
+        {
+          "field": "revival",
+          "value": "권리자 신동훈과 합의 후 2023년 4월 7일 공식 응원가로 재지정·현장 복귀",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-busan-revival-busan-ilbo",
+            "ev-lotte-a-busan-rightsholder-interview",
+            "yt-lotte-a-busan-official-return-2023"
+          ],
+          "notes": "4월 6일 합의·복귀 발표와 4월 7일 기념 공연·7회 합창을 구분했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 팀 응원가 플레이리스트와 2026 정규시즌 홈·원정 현장에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-official-2026",
+            "yt-lotte-a-busan-official-2026",
+            "yt-lotte-a-busan-field-june-2026",
+            "yt-lotte-a-busan-field-july-2026"
+          ],
+          "notes": "공식 영상 챕터는 29분 33초다."
+        },
+        {
+          "field": "arrangement",
+          "value": "2025년 후반부터 경기 전 새 편곡, 경기 중 기존 MR을 병행",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers",
+            "ev-lotte-a-official-2026"
+          ],
+          "notes": "새 편곡의 제작자·정확한 첫 사용일은 공식 크레딧으로 확인하지 못했다."
+        },
+        {
+          "field": "regionalVariants",
+          "value": "과거 마산 경기의 ‘마산 갈매기’, 2014년 이후 울산 경기의 ‘울산 갈매기’ 변형",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers"
+          ],
+          "notes": "지역명만 바꾼 관중 변형으로, 별도 공식 음원 여부는 확인하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "전통적으로 홈 8회말·원정 8회초와 승리 직전의 대규모 육성 합창",
+        "돌아와요 부산항에, 뱃노래, 승전가로 이어지는 롯데 지역 응원 메들리의 첫머리",
+        "2023 복귀 이후 경기 전·이닝 교대·후반 응원에서 신·구 편곡을 상황에 따라 병행",
+        "사직뿐 아니라 원정석에서도 반주를 낮추고 관중 목소리를 전면에 두는 떼창"
+      ],
+      "trivia": [
+        {
+          "id": "busan-gull-team-nickname",
+          "summary": "노래 제목의 갈매기는 팀·선수·팬 전체를 부르는 별칭으로까지 확장됐다. 지역 대중가요가 팬의 자발적 채택을 거쳐 구단의 공식 응원가가 된 역방향 계보다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-busan-history-joongang",
+            "ev-lotte-a-stadium-songs-archives"
+          ]
+        },
+        {
+          "id": "busan-gull-singing-never-illegal",
+          "summary": "2018~2022년에도 관중이 무반주로 부르는 행위는 가능했고, 제한된 것은 구단이 구장 음향으로 음악을 재생하는 공식 사용이었다. 그래서 현장 기억과 ‘중단’ 기록이 동시에 존재한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-busan-revival-busan-ilbo",
+            "yt-lotte-a-busan-archive-2019"
+          ]
+        },
+        {
+          "id": "busan-gull-return-reception",
+          "summary": "복귀 첫날과 이후 영상 댓글에는 반주보다 관중 육성이 더 크게 들리는 점, 가족과 장기 팬의 기억, 타 구단 팬도 인정하는 대표성, 우승 뒤 다시 부르고 싶다는 기대가 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lotte-a-busan-official-return-2023",
+            "yt-lotte-a-busan-official-combo-2016",
+            "yt-lotte-a-busan-archive-2019"
+          ]
+        },
+        {
+          "id": "busan-gull-amount-rumor-excluded",
+          "summary": "온라인에서 반복된 거액 사용료 설은 이번 데이터의 사실 항목에서 제외했다. 확인된 핵심은 권리자와의 협의 실패로 음향 사용이 중단됐다가 2023년 합의됐다는 점이며, 구체 금액은 신뢰할 자료로 확정하지 못했다.",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-lotte-a-busan-revival-busan-ilbo",
+            "ev-lotte-a-busan-rightsholder-interview"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-official-club-use-agreement-confirmed-lyrics-redistribution-not-permitted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+          "https://music.bugs.co.kr/album/522827",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "고향을 떠난 화자가 부산 바다와 갈매기, 떠난 사람을 회상하는 서정적 절과 제목을 반복하는 후렴으로 이루어진다. 구장에서는 전체 가사를 길게 합창하며 후렴과 지역명이 집단 정체성을 만드는 중심 구간이 된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-a-busan-official-2026",
+        "yt-lotte-a-busan-official-return-2023",
+        "yt-lotte-a-busan-official-combo-2016",
+        "yt-lotte-a-busan-field-june-2026",
+        "yt-lotte-a-busan-field-july-2026",
+        "yt-lotte-a-busan-field-homer-2026",
+        "yt-lotte-a-busan-archive-2019"
+      ],
+      "unresolved": [
+        "롯데 팬이 처음 부른 정확한 경기·연도와 구단이 최초로 음원을 사용한 시점",
+        "2025~2026 새 편곡의 편곡자·가수·음원 권리 크레딧",
+        "롯데 현장판이 상업 원곡과 다른 개사·편집을 포함하는지에 대한 공식 대조표"
+      ]
+    },
+    {
+      "id": "lotte-giants-return-to-busan-port",
+      "title": "돌아와요 부산항에",
+      "aliases": [
+        "돌아와요 부산항",
+        "Return to Busan Port"
+      ],
+      "currentStatus": "current-continuous-no-suspension-documented",
+      "summary": "조용필의 대표곡을 부산이라는 지명과 귀향 정서 때문에 롯데가 지역 응원가로 사용하는 곡이다. 나무위키는 프로야구 원년인 1982년부터 사용했다고 적지만 이를 특정하는 동시대 첫 경기 자료는 아직 없다. 중요한 구분은 부산 갈매기가 2018년부터 공식 음향 사용을 멈춘 동안에도 이 곡은 2018 현장 영상, 2021 롯데 사보, 2022·2026 영상에서 이어진다는 점이다. 따라서 두 곡에 동일한 저작권 중단·부활 이력을 부여하지 않았다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "조용필의 ‘돌아와요 부산항에’ 현장 합창 버전",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-return-history-ktv",
+            "ev-lotte-a-official-2026"
+          ],
+          "notes": "1972년판과 1976년 재녹음·히트판이 존재하므로 단일 발매 연도로 축약하지 않았다. 현재 롯데 MR이 어느 상업 음원·편곡을 직접 바탕으로 했는지는 미확인이다."
+        },
+        {
+          "field": "sourceWorkLineage",
+          "value": "1970년 ‘돌아와요 충무항에’ 계열에서 1972년 부산항 버전과 1976년 재녹음으로 이어진 복합 계보",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-return-history-ktv",
+            "ev-lotte-a-return-lineage-seoul",
+            "ev-lotte-a-return-copyright-kbs"
+          ],
+          "notes": "법원 판결로 확인된 2차적 저작물 분쟁까지 포함해 원곡 크레딧을 단순화하지 않았다. 이 분쟁과 롯데의 현행 구장 사용 허락은 별개의 문제다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "1982년부터 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers",
+            "ev-lotte-a-stadium-songs-archives"
+          ],
+          "notes": "나무위키의 연도는 프로야구 원년과 일치하지만 독립적인 동시대 첫 사용 자료를 찾지 못했다. 확정 연도 대신 보고된 연도로 보존한다."
+        },
+        {
+          "field": "suspensionHistory",
+          "value": "부산 갈매기와 같은 2018~2022 공식 중단은 확인되지 않으며 해당 기간에도 사용 증거가 존재",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-a-return-field-2018",
+            "ev-lotte-a-lotte-magazine-2021",
+            "yt-lotte-a-return-field-2022",
+            "ev-lotte-a-busan-revival-busan-ilbo"
+          ],
+          "notes": "‘한 번도 쉬지 않았다’는 절대 명제보다, 부산 갈매기 기사에서 이 곡의 중단을 언급하지 않고 2018·2021·2022 직접 사용이 이어진다는 범위로 판정했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 플레이리스트와 홈·원정 현장 메들리에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-official-2026",
+            "yt-lotte-a-return-official-2026",
+            "yt-lotte-a-return-field-may-2026",
+            "yt-lotte-a-return-field-july-2026"
+          ],
+          "notes": "공식 영상 챕터는 30분 51초다."
+        },
+        {
+          "field": "usageContext",
+          "value": "부산 갈매기 뒤 또는 독립적으로 부르고 승전가·뱃노래와 연결하는 장시간 지역 메들리",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers",
+            "ev-lotte-a-digital-chosun-medley",
+            "yt-lotte-a-return-official-combo-2016",
+            "yt-lotte-a-return-field-may-2026"
+          ],
+          "notes": "2018년 부산 갈매기 음향 중단 뒤에도 승전가와 직접 연결되며 메들리의 축으로 남았다."
+        },
+        {
+          "field": "recordingVariant",
+          "value": "경기 전에는 임영웅의 2019년 커버가 간헐적으로, 경기 중에는 기존 MR이 사용된다는 서술",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers"
+          ],
+          "notes": "구단의 공식 편성표·음원 크레딧을 확보하지 못해 버전 운용은 보조 정보로만 남겼다."
+        }
+      ],
+      "usageContexts": [
+        "부산 갈매기 다음에 이어 부르는 대표 지역 합창",
+        "부산 갈매기 음향 중단기에는 승전가와 직접 연결되는 메들리의 첫 곡",
+        "잠실·수원·대전 등 원정에서도 전 절을 길게 합창하는 원정석 결집 응원",
+        "경기 전 지역 분위기 조성용 커버와 경기 중 기존 MR의 구분 사용"
+      ],
+      "trivia": [
+        {
+          "id": "return-port-not-shared-suspension",
+          "summary": "부산 갈매기와 연달아 불린다는 이유로 두 곡의 저작권 중단 이력을 합치면 안 된다. 2018년 3월 31일 직접 영상은 부산 갈매기 음향 중단이 시작된 같은 달에도 돌아와요 부산항에를 불렀음을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-busan-revival-busan-ilbo",
+            "yt-lotte-a-return-field-2018"
+          ]
+        },
+        {
+          "id": "return-port-complex-origin",
+          "summary": "널리 알려진 조용필 1976년판 앞에 1970년 충무항 계열과 조용필의 1972년판이 있으며, 가사 저작권 관련 법원 판단도 존재한다. 응원가 소개에서는 ‘조용필 원곡’이라는 통용 설명과 이 복합 계보를 함께 보존한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-return-history-ktv",
+            "ev-lotte-a-return-lineage-seoul",
+            "ev-lotte-a-return-copyright-kbs"
+          ]
+        },
+        {
+          "id": "return-port-away-karaoke",
+          "summary": "댓글에서는 원정 구장이 부산처럼 들린다는 반응, 대형 노래방 같은 전 절 합창, 성적과 무관한 충성심과 귀향 정서를 강조하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lotte-a-return-field-2018",
+            "yt-lotte-a-return-field-may-2026",
+            "yt-lotte-a-return-field-july-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-complex-derivative-rights-history-current-club-performance-rights-not-independently-documented",
+        "sourceUrls": [
+          "https://www.ktv.go.kr/program/home/PG2240033D/content/712366",
+          "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=41148&lang=k",
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE"
+        ],
+        "structureSummary": "부산항의 형제·고향·귀환을 부르는 서정적 절과 항구로 돌아오라는 반복 후렴으로 구성된다. 롯데 현장에서는 상업 원곡의 긴 노래 구조를 유지한 채 전 관중이 합창하고, 다음 응원가로 끊김 없이 넘어간다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-a-return-official-2026",
+        "yt-lotte-a-return-field-july-2026",
+        "yt-lotte-a-return-field-may-2026",
+        "yt-lotte-a-return-field-suwon-2026",
+        "yt-lotte-a-return-field-2018",
+        "yt-lotte-a-return-field-2022",
+        "yt-lotte-a-return-official-combo-2016"
+      ],
+      "unresolved": [
+        "1982년 도입설을 입증하는 동시대 구단 자료와 정확한 첫 사용 경기",
+        "현행 롯데 MR이 1972·1976년판 또는 후대 편곡 중 어느 녹음 계열인지",
+        "경기 전 임영웅 커버와 경기 중 MR을 구분하는 공식 운영 자료",
+        "구장 재생·개사·편곡에 관한 현행 권리자 및 구단 크레딧"
+      ]
+    },
+    {
+      "id": "lotte-giants-seabird",
+      "title": "바다새",
+      "aliases": [
+        "바다새(그룹 바다새 원곡)",
+        "바다새 부산 버전",
+        "바다새 최강 버전"
+      ],
+      "currentStatus": "current-rearranged-2026",
+      "summary": "1986년 제7회 MBC 강변가요제에서 동상을 받은 부산 그룹사운드 바다새의 자기제목 곡을 롯데용으로 바꾼 응원가다. 같은 제목의 다른 노래가 아니라 김혜정이 부른 이 버전임을 가수·연도·대회로 고정했다. 과거 홈의 ‘부산’ 버전과 원정의 ‘최강’ 버전이 있었고 지금은 최강 계열로 통합된 것으로 정리된다. 2026 공식 플레이리스트에는 새 편곡이 실려 있으며 직접 현장 영상도 최신 사용을 보여 준다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "그룹 바다새의 동명곡 ‘바다새’—1986년 제7회 MBC 강변가요제 동상곡, 김혜정 가창",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-seabird-imbc",
+            "ev-lotte-a-seabird-bugs",
+            "yt-lotte-a-seabird-kimhyejung-2012"
+          ],
+          "notes": "동명이곡을 배제하기 위해 그룹명·가수·1986년 강변가요제 정보를 묶었다. 일부 후대 자료의 1987 정규앨범 표기는 응원가가 차용한 곡의 최초 발표 연도와 구분했다."
+        },
+        {
+          "field": "adaptationCreator",
+          "value": "조지훈 응원단장이 롯데 응원가로 개사·도입",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers"
+          ],
+          "notes": "구단 음원 크레딧이나 인터뷰 원문을 별도로 확보하지 못해 편집형 자료의 보고 주장으로 남겼다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2009년까지는 현장 사용이 직접 확인됨; 최초 도입 연도 미상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-a-seabird-postseason-2009"
+          ],
+          "notes": "2009년 10월 준플레이오프 영상은 현재 확보한 가장 이른 직접 표본이며 도입 연도로 등치하지 않았다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "과거 홈 ‘부산’ 구절 버전과 원정 ‘최강’ 구절 버전, 이후 최강 계열로 통합",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers",
+            "yt-lotte-a-seabird-archive-2017",
+            "yt-lotte-a-seabird-field-2026"
+          ],
+          "notes": "각 버전의 공식 명칭·교체 연도는 확인되지 않아 통용 설명으로 보존했다."
+        },
+        {
+          "field": "originalSingerAppearances",
+          "value": "원가수 김혜정이 2012년 8월 15일과 2019년 4월 18일 사직 현장에서 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-a-seabird-kimhyejung-2012",
+            "yt-lotte-a-seabird-kimhyejung-2019"
+          ],
+          "notes": "2019 영상은 6년 만의 사직 복귀라고 소개한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 플레이리스트와 2026 사직·원정 현장에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-official-2026",
+            "yt-lotte-a-seabird-official-2026",
+            "yt-lotte-a-seabird-field-2026",
+            "yt-lotte-a-seabird-classic-2026"
+          ],
+          "notes": "공식 영상 챕터는 31분 56초다."
+        },
+        {
+          "field": "arrangement",
+          "value": "2026시즌 새 편곡과 새 보컬 음원을 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers",
+            "ev-lotte-a-official-2026"
+          ],
+          "notes": "공식 플레이리스트는 2026 음원의 존재를 확인하지만 새 편곡자와 보컬 이름은 밝히지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "팀명·지역명을 길게 끌어 관중이 후렴을 함께 부르는 전곡형 응원",
+        "부산 갈매기·돌아와요 부산항에 뒤에 붙는 지역 노래 메들리",
+        "홈과 원정 모두 사용하되 과거에는 부산·최강 구절을 구분",
+        "원가수 초청 공연 때 관중 합창과 무대 퍼포먼스를 결합"
+      ],
+      "trivia": [
+        {
+          "id": "seabird-exact-version",
+          "summary": "응원가의 바다새는 제목만 같은 다른 음원이 아니라, 부산 그룹사운드 바다새가 1986년 강변가요제에서 부른 곡이다. 원가수 김혜정의 사직 공연 영상이 이 식별을 직접 보강한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-seabird-imbc",
+            "ev-lotte-a-seabird-bugs",
+            "yt-lotte-a-seabird-kimhyejung-2012"
+          ]
+        },
+        {
+          "id": "seabird-original-singer-return",
+          "summary": "김혜정은 2012년 사직 무대에 올랐고 2019년에는 시구와 공연을 위해 6년 만에 돌아왔다. 댓글에는 1986년 무대 기억, 변치 않은 목소리, 다시 초청해 달라는 반응이 이어진다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-a-seabird-kimhyejung-2012",
+            "yt-lotte-a-seabird-kimhyejung-2019"
+          ]
+        },
+        {
+          "id": "seabird-field-reception",
+          "summary": "현장 댓글은 후렴이 시작되면 군무보다 떼창의 흥이 앞선다는 반응, 원정에서도 지역 응원가가 크게 들린다는 반응, 다른 부산 프로스포츠 경기에서도 듣고 싶다는 요청을 남긴다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lotte-a-seabird-field-2025",
+            "yt-lotte-a-seabird-archive-2017",
+            "yt-lotte-a-seabird-official-playlist-2022"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-adaptation-and-2026-club-recording-credits-unverified-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://enews.imbc.com/News/ViewAmp/182195",
+          "https://music.bugs.co.kr/musicpd/albumview/34224",
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE"
+        ],
+        "structureSummary": "새와 바다를 부르는 원곡의 상승형 후렴을 팀·지역 구호로 바꾼 전곡형 구조다. 짧은 선창 뒤 관중이 길게 받는 핵심 후렴을 여러 차례 반복하고, 홈·원정 역사 버전은 ‘부산’과 ‘최강’ 계열 구절에서 갈린다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-a-seabird-official-2026",
+        "yt-lotte-a-seabird-field-2026",
+        "yt-lotte-a-seabird-classic-2026",
+        "yt-lotte-a-seabird-field-2025",
+        "yt-lotte-a-seabird-official-playlist-2022",
+        "yt-lotte-a-seabird-archive-2017",
+        "yt-lotte-a-seabird-kimhyejung-2012",
+        "yt-lotte-a-seabird-kimhyejung-2019",
+        "yt-lotte-a-seabird-postseason-2009"
+      ],
+      "unresolved": [
+        "2009년 이전의 정확한 롯데 도입 연도와 최초 사용 경기",
+        "조지훈의 개사·도입을 확인하는 구단 원문 또는 인터뷰와 전체 제작 크레딧",
+        "2026 새 편곡의 편곡자·가수·녹음 권리자",
+        "홈 ‘부산’ 버전과 원정 ‘최강’ 버전의 공식 교체·통합 연도"
+      ]
+    },
+    {
+      "id": "lotte-giants-baennorae",
+      "title": "뱃노래(뱃놀이)",
+      "aliases": [
+        "뱃노래",
+        "뱃놀이",
+        "롯데 뱃노래",
+        "롯데 뱃놀이"
+      ],
+      "currentStatus": "current-arranged-version-full-version-low-frequency",
+      "summary": "현재 구단·문서 표기는 뱃노래이고 과거 영상과 기사에서는 뱃놀이라는 이름이 널리 쓰인 같은 계열의 응원가다. 전통 민요 뱃노래·자진뱃노래에서 고려대학교 응원가를 거쳐 롯데식 팀 구호와 반주로 이어진 계보다. 정확한 도입 연도는 모르지만 2009년 기사와 현장 자료가 사용을 확인한다. 2014년 사회적 참사 뒤 응원 축소 과정에서 중단됐고, 2022년 짧은 편곡판이 돌아온 뒤 2024년 전곡판도 간헐적으로 복귀했다. 2026 공식 플레이리스트에는 없지만 2026 현장 직접 영상이 현재 사용을 확인한다.",
+      "claims": [
+        {
+          "field": "officialAndHistoricalNaming",
+          "value": "현행 대표 표기 ‘뱃노래’, 역사적 통용 표기 ‘뱃놀이’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers",
+            "ev-lotte-a-boat-2009-press",
+            "yt-lotte-a-boat-archive-2012",
+            "yt-lotte-a-boat-current-2026"
+          ],
+          "notes": "기존 승인 카드의 제목 뱃노래와 별칭 뱃놀이를 유지하면서, 이번 인벤토리의 복합 제목을 그대로 사용했다."
+        },
+        {
+          "field": "origin",
+          "value": "전통 민요 뱃노래·자진뱃노래 → 고려대학교 뱃노래 → 롯데 자이언츠 개사·응원 편곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-gugak-boat-song",
+            "ev-lotte-a-namu-cheers",
+            "yt-lotte-a-boat-field-2024"
+          ],
+          "notes": "민요 계보는 공식 국악 자료로 확인되지만 고려대판에서 롯데판으로 넘어온 구체 제작자·허락 과정은 공식 원문이 없어 보고 주장으로 남겼다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2009년 9월까지 사용 확인; 정확한 최초 도입 연도 미상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-boat-2009-press",
+            "yt-lotte-a-boat-victory-medley-2011",
+            "yt-lotte-a-boat-archive-2012"
+          ],
+          "notes": "가장 이른 확인 연도 2009를 도입 연도로 단정하지 않는다."
+        },
+        {
+          "field": "suspensionHistory",
+          "value": "2014년 4월 사회적 참사 뒤 프로야구 응원 축소 과정에서 사용 중단",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-boat-2014-newspim",
+            "ev-lotte-a-namu-cheers"
+          ],
+          "notes": "사건을 응원 소재로 다루지 않고, 당시 음향·응원 자제와 이후 장기 미사용의 계기로만 기록했다. 저작권 중단으로 오기하지 않는다."
+        },
+        {
+          "field": "revivalHistory",
+          "value": "2022년 7월 26일 짧은 편곡판 복귀, 2024년 전곡판도 간헐적으로 복귀",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers",
+            "yt-lotte-a-boat-recording-2022",
+            "yt-lotte-a-boat-field-2024",
+            "yt-lotte-a-boat-afterparty-2024"
+          ],
+          "notes": "2022 업로드가 새 편곡의 존재를, 2024 현장 영상이 긴 버전의 실제 사용을 교차 확인한다. 정확한 공식 명칭과 사용 규칙은 미확정이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 직접 현장 영상에서 사용 확인; 2026 구단 공식 전곡 플레이리스트에는 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-a-boat-current-2026",
+            "yt-lotte-a-boat-combo-2025",
+            "ev-lotte-a-official-2026"
+          ],
+          "notes": "공식 플레이리스트 미수록 때문에 폐지로 판정하지 않았고, 빈도 낮은 현행곡으로 분류했다."
+        },
+        {
+          "field": "usageContext",
+          "value": "수비 9회 2사·호수비 뒤, 공격의 결정적 득점 뒤에 짧은 편곡판을 주로 사용; 전곡판은 특별한 흐름에서 간헐 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers",
+            "yt-lotte-a-boat-field-2024",
+            "yt-lotte-a-boat-current-2026"
+          ],
+          "notes": "경기별 응원단 운용에 따라 달라질 수 있으며 구단의 고정 공식 규칙은 찾지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "수비 9회 2사와 결정적 호수비 뒤의 짧고 빠른 편곡 응원",
+        "공격에서 중요한 득점·역전 뒤 분위기를 이어 가는 승리 메들리",
+        "부산 갈매기와 돌아와요 부산항에 뒤에 붙는 역사적 전곡 메들리",
+        "경기 뒤풀이에서 전곡을 길게 부르는 팬 문화"
+      ],
+      "trivia": [
+        {
+          "id": "boat-name-transition",
+          "summary": "2009~2012 기사·영상에는 뱃놀이라는 제목이 많지만, 2022 이후 단독 음원과 현행 문서는 뱃노래를 쓴다. 서로 다른 두 곡으로 분리하지 않고 시대별 표기 차이로 보존했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-boat-2009-press",
+            "yt-lotte-a-boat-archive-2012",
+            "yt-lotte-a-boat-recording-2022",
+            "ev-lotte-a-namu-cheers"
+          ]
+        },
+        {
+          "id": "boat-pickoff-call",
+          "summary": "옛 전곡판 도중 상대 투수가 견제하면 관중이 정해진 감탄사 대신 롯데 특유의 짧은 견제 구호를 넣었다는 현장 관습이 전한다. 공식 규칙이 아니라 팬 운용 여담으로만 둔다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-namu-cheers",
+            "yt-lotte-a-boat-archive-2012"
+          ]
+        },
+        {
+          "id": "boat-intergenerational-reception",
+          "summary": "복귀 영상 댓글에는 오래된 유니폼과 응원단을 기억하는 팬, 2024 전곡판 복귀를 반기는 팬, 부모와 자녀가 함께 부르는 세대 경험, 타 구단 팬도 따라 부르는 장관을 강조하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lotte-a-boat-archive-2012",
+            "yt-lotte-a-boat-recording-2022",
+            "yt-lotte-a-boat-field-2024",
+            "yt-lotte-a-boat-afterparty-2024"
+          ]
+        },
+        {
+          "id": "boat-official-playlist-omission",
+          "summary": "2026 구단 공식 플레이리스트에는 이 곡이 없지만 2026년 5월 직접 현장 영상에는 짧은 편곡이 나온다. 목록 미수록과 현장 폐지는 같은 뜻이 아니라는 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-official-2026",
+            "yt-lotte-a-boat-current-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "traditional-folk-source-likely-public-domain-but-university-and-lotte-adaptation-arrangement-recording-rights-unverified",
+        "sourceUrls": [
+          "https://www.gugak.go.kr/userfiles/files/%EA%B5%90%EA%B3%BC%EC%84%9C%ED%91%9C%EC%A4%80%EC%95%85%EB%B3%B4%EC%A7%91%20%EB%82%B4%EC%A7%80%20%EC%88%98%EC%A0%95%20%EC%B5%9C%EC%A2%85%282%29.pdf",
+          "https://www.youtube.com/watch?v=3Wd6axSUBEY",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "노 젓는 노동요의 메기고 받는 틀을 빠른 장단과 팀 구호로 바꾼다. 짧은 편곡판은 선창·추임새·승리 구호를 압축 반복하고, 역사적 전곡판은 여러 절과 속도가 붙는 후반을 포함해 관중이 점층적으로 합창한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-a-boat-current-2026",
+        "yt-lotte-a-boat-archive-2012",
+        "yt-lotte-a-boat-recording-2022",
+        "yt-lotte-a-boat-field-2024",
+        "yt-lotte-a-boat-afterparty-2024",
+        "yt-lotte-a-boat-combo-2025",
+        "yt-lotte-a-boat-field-recording-2022",
+        "yt-lotte-a-boat-victory-medley-2011"
+      ],
+      "unresolved": [
+        "정확한 최초 도입 연도와 고려대학교판에서 롯데판으로 이식한 제작자·경위",
+        "2022 짧은 편곡판의 공식 제목·편곡자·가수·녹음 권리",
+        "2024 이후 전곡판의 공식 복귀일과 경기별 사용 조건·빈도",
+        "전통 민요, 고려대 개사, 롯데 개사·편곡 사이의 구체적인 권리 관계"
+      ]
+    },
+    {
+      "id": "lotte-giants-victory-hymn",
+      "title": "승전가(통용 구절 승리의 롯데)",
+      "aliases": [
+        "승전가",
+        "승리의 롯데",
+        "자이언츠 전투찬가",
+        "롯데 승전가"
+      ],
+      "currentStatus": "current-official-title-verified",
+      "summary": "구단의 2026 공식 곡명은 승전가이고, 관중이 반복하는 핵심 구절 때문에 승리의 롯데라는 이름도 오래 통용된다. 자이언츠 전투찬가라는 별칭도 있다. 선율은 미국의 Battle Hymn of the Republic 계열이며 한국에서는 찬송가 선율로도 익숙하다. 정확한 롯데 도입 연도와 개사자는 확인되지 않았지만 2012 직접 영상과 2015 기사, 2026 공식·현장 영상이 장기 사용을 보여 준다. 보통 7회 공격 전, 득점·역전, 부산 지역 노래 메들리의 마무리에 쓰인다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "승전가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-official-2026",
+            "ev-lotte-a-namu-cheers",
+            "yt-lotte-a-victory-opening-2026"
+          ],
+          "notes": "인벤토리의 괄호 설명을 유지하되 데이터상 공식명과 통용명을 분리했다."
+        },
+        {
+          "field": "commonAlias",
+          "value": "반복 구절에서 나온 ‘승리의 롯데’; 별칭 ‘자이언츠 전투찬가’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-dugout-victory-label",
+            "ev-lotte-a-digital-chosun-medley",
+            "yt-lotte-a-victory-alias-2017",
+            "yt-lotte-a-victory-suwon-2026"
+          ],
+          "notes": "승리의 롯데는 별도 곡으로 분리하지 않고 승전가의 통용 제목·가사 구절로 처리했다."
+        },
+        {
+          "field": "origin",
+          "value": "미국 선율 ‘Battle Hymn of the Republic’의 롯데 개사·응원 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-battle-hymn-loc",
+            "ev-lotte-a-namu-cheers",
+            "yt-lotte-a-victory-archive-2012"
+          ],
+          "notes": "1850년대 선율과 1862년 Julia Ward Howe 가사는 역사적 층위이며, 롯데판 가사·편곡은 별도 권리·크레딧 대상이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2012년까지는 현장 사용이 직접 확인됨; 정확한 최초 도입 연도 미상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-a-victory-archive-2012",
+            "ev-lotte-a-digital-chosun-medley"
+          ],
+          "notes": "2012 직접 영상은 가장 이른 확보 표본일 뿐 도입 연도가 아니다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 플레이리스트와 2026 홈·원정 현장에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-official-2026",
+            "yt-lotte-a-victory-official-2026",
+            "yt-lotte-a-victory-opening-2026",
+            "yt-lotte-a-victory-sajik-2026",
+            "yt-lotte-a-victory-suwon-2026"
+          ],
+          "notes": "공식 영상 챕터는 13분 27초다."
+        },
+        {
+          "field": "usageContext",
+          "value": "주로 7회 공격 전, 득점·역전 또는 부산 갈매기·돌아와요 부산항에 뒤 메들리의 마무리",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-dugout-victory-label",
+            "ev-lotte-a-namu-cheers",
+            "yt-lotte-a-victory-field-2022",
+            "yt-lotte-a-victory-suwon-2026"
+          ],
+          "notes": "경기 흐름과 응원단 판단에 따라 단독 또는 메들리로 사용된다."
+        },
+        {
+          "field": "sharedMelody",
+          "value": "찬송가·군가·해외 축구와 다른 스포츠 응원에서도 널리 쓰이는 공용 역사 선율",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-battle-hymn-loc",
+            "ev-lotte-a-namu-cheers",
+            "yt-lotte-a-victory-archive-2012"
+          ],
+          "notes": "선율 공유만으로 특정 타 팀의 곡을 직접 차용했다고 단정하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "홈 7회말 공격 전 관중이 일어나 부르는 웅장한 합창",
+        "득점·역전·승리 흐름에서 반복되는 짧은 팀명 후렴",
+        "부산 갈매기와 돌아와요 부산항에 뒤를 잇는 지역 메들리의 마무리",
+        "원정석에서도 오케스트라·합창형 반주에 맞춘 대규모 떼창"
+      ],
+      "trivia": [
+        {
+          "id": "victory-official-vs-common-name",
+          "summary": "팬 영상과 기사에는 승리의 롯데가 많이 보이지만 2026 Giants TV의 공식 챕터명은 승전가다. 전자는 반복 가사에서 생긴 통용명이고 후자는 구단 표기다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-a-official-2026",
+            "ev-lotte-a-dugout-victory-label",
+            "yt-lotte-a-victory-alias-2017"
+          ]
+        },
+        {
+          "id": "victory-old-melody-many-associations",
+          "summary": "댓글에는 찬송가, 군가, 영국 축구 응원 등 서로 다른 기억이 동시에 나온다. 이는 여러 곳에서 오래 사용된 역사 선율의 특성이며, 롯데판의 직접 원곡을 특정 현대 스포츠팀으로 돌릴 근거는 아니다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-a-battle-hymn-loc",
+            "yt-lotte-a-victory-archive-2012",
+            "yt-lotte-a-victory-archive-2019"
+          ]
+        },
+        {
+          "id": "victory-third-party-2026-recording",
+          "summary": "2026년 부산청년 명의의 자동 생성 음원이 검색되지만 제3자 DistroKid 배급 녹음이다. 구단 공식 플레이리스트와 별개이므로 공식 음원·권리 크레딧 근거로 사용하지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-a-victory-thirdparty-2026",
+            "ev-lotte-a-official-2026"
+          ]
+        },
+        {
+          "id": "victory-field-reception",
+          "summary": "현장 댓글은 장엄한 반주와 7회 관중 합창, 포스트시즌 깃발 기억, 원정 응원의 규모를 강조한다. 일부는 익숙한 선율 때문에 곡 제목을 뒤늦게 찾았다고 말한다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lotte-a-victory-archive-2012",
+            "yt-lotte-a-victory-alias-2017",
+            "yt-lotte-a-victory-field-2022"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "underlying-historical-melody-public-domain-lotte-lyrics-arrangement-and-recording-rights-unverified",
+        "sourceUrls": [
+          "https://www.loc.gov/collections/patriotic-melodies/articles-and-essays/battle-hymn-of-the-republic/",
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "장엄한 행진 선율 위에 팀명 선창, 승리 선언, 짧은 모음 합창을 얹고 같은 후렴을 반복한다. 긴 절보다 즉시 따라 부를 수 있는 구절 중심이며, 현장에서는 관현악·합창형 반주가 7회와 득점 상황의 규모감을 키운다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-a-victory-official-2026",
+        "yt-lotte-a-victory-opening-2026",
+        "yt-lotte-a-victory-sajik-2026",
+        "yt-lotte-a-victory-suwon-2026",
+        "yt-lotte-a-victory-field-2022",
+        "yt-lotte-a-victory-archive-2012",
+        "yt-lotte-a-victory-alias-2017",
+        "yt-lotte-a-victory-archive-2019",
+        "yt-lotte-a-victory-thirdparty-2026"
+      ],
+      "unresolved": [
+        "롯데판의 정확한 최초 도입 연도와 도입 주체",
+        "롯데 가사 개사자·편곡자·현행 공식 녹음 가수와 권리자",
+        "승리의 롯데 및 자이언츠 전투찬가 별칭이 처음 쓰인 시점",
+        "2026 공식 음원의 편곡 버전과 과거 현장 MR 사이의 정확한 계보"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-lotte-a-busan-official-2026",
+      "songId": "lotte-giants-busan-gull",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 팀 응원가 모음이며 부산 갈매기를 29분 33초 챕터에 수록한다. 공식 표기와 최신 음원 사용을 함께 확인하는 44분대 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 새 시즌 음질과 목록 정리를 호평하고 직관 이동 중 예습용으로 반복 재생한다는 반응이 많다.",
+        "장기 팬은 부산 지역 대표곡을 특히 꼽고, 타 구단 팬도 롯데 응원가의 완성도와 떼창을 높이 평가한다."
+      ],
+      "supports": [
+        "officialTitleAndCurrentRecording2026",
+        "officialChapter29m33s",
+        "fanReception2026"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-busan-official-return-2023",
+      "songId": "lotte-giants-busan-gull",
+      "url": "https://www.youtube.com/watch?v=-CLzJsuoka0",
+      "videoId": "-CLzJsuoka0",
+      "title": "돌아온 부산갈매기 떼창",
+      "channel": "Giants TV",
+      "publishedAt": "2023-04-07",
+      "descriptionSummary": "롯데 공식 채널이 복귀 당일 올린 짧은 현장 영상이다. 관중 육성이 반주를 덮는 2023년 4월 7일 첫 공식 복귀 장면을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 증폭된 반주보다 관중 목소리가 크게 들리는 장면을 더 감동적으로 받아들인다.",
+        "가족·장기 팬의 기억과 롯데 지역 정체성을 잇는 노래라는 반응, 우승 뒤 다시 부르고 싶다는 기대가 반복된다.",
+        "타 구단 팬도 부산 갈매기를 KBO의 대표 응원가로 인정하는 반응을 남긴다."
+      ],
+      "supports": [
+        "officialReturnDate2023",
+        "crowdLedSingalong",
+        "regionalIdentityReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-busan-official-combo-2016",
+      "songId": "lotte-giants-busan-gull",
+      "url": "https://www.youtube.com/watch?v=mdyi580LeO8",
+      "videoId": "mdyi580LeO8",
+      "title": "[사직동930번지] 진리의 '부산갈매기+돌아와요 부산항에' (04.22)",
+      "channel": "Giants TV",
+      "publishedAt": "2016-04-22",
+      "descriptionSummary": "구단 공식 채널이 두 지역 대표곡의 연속 합창을 담은 저작권 중단 전 현장 영상이다. 설명은 두 노래가 언제나 감동을 준다고 요약한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글에는 2023년 복귀 뒤 과거 영상을 다시 찾았다는 반응과 비닐봉지 응원·만원 관중의 기억이 많다.",
+        "성적과 무관하게 대표 응원가가 계속 이어지길 바란다는 반응, 타 구단 팬의 호평이 섞여 있다."
+      ],
+      "supports": [
+        "officialPreSuspensionUse2016",
+        "traditionalTwoSongMedley",
+        "historicalFanMemory"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-busan-field-june-2026",
+      "songId": "lotte-giants-busan-gull",
+      "url": "https://www.youtube.com/watch?v=ssJO3GlApBQ",
+      "videoId": "ssJO3GlApBQ",
+      "title": "롯데자이언츠 응원 부산갈매기 260621 4k",
+      "channel": "S깡통",
+      "publishedAt": "2026-06-23",
+      "descriptionSummary": "2026년 6월 21일 롯데 현장의 부산 갈매기 응원을 4K로 담은 직접 영상이다. 설명의 해시태그가 구단·응원단·촬영 대상을 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 응원단장에 초점을 두며, 곡의 역사나 사실을 추가로 제시하지 않는다."
+      ],
+      "supports": [
+        "directFieldUseJune2026",
+        "currentCrowdPerformance"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-busan-field-july-2026",
+      "songId": "lotte-giants-busan-gull",
+      "url": "https://www.youtube.com/watch?v=1cdrQUcrhlo",
+      "videoId": "1cdrQUcrhlo",
+      "title": "롯데자이언츠 부산갈매기 & 돌아와요부산항에 떼창응원 260707",
+      "channel": "TWOBINPAPA",
+      "publishedAt": "2026-07-07",
+      "descriptionSummary": "2026년 7월 7일 두 지역 대표곡을 연속으로 부른 직접 현장 영상이다. 제목이 촬영일과 두 곡의 메들리 구성을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directFieldUseJuly2026",
+        "currentTwoSongMedley"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-busan-field-homer-2026",
+      "songId": "lotte-giants-busan-gull",
+      "url": "https://www.youtube.com/watch?v=0FMp7so7Vhw",
+      "videoId": "0FMp7so7Vhw",
+      "title": "롯데자이언츠 레이예스 역전 쓰리런 홈런 순간 + 팀 응원가 \"부산갈매기\" 20260503",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-05-03",
+      "descriptionSummary": "2026년 5월 3일 역전 3점 홈런 직후의 현장을 기록하며 설명은 부산 갈매기 2분, 뱃놀이 3분 7초 구간을 안내한다. 상대 응원 앰프가 겹친 상황도 함께 담겼다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 원정 응원 음향이 겹친 현장 상황과 역전 홈런의 극적 분위기에 주로 반응한다.",
+        "응원가가 나온 순간을 현장음으로 남겨 준 데 대한 감사가 있다."
+      ],
+      "supports": [
+        "directFieldUseMay2026",
+        "postComebackUsage",
+        "sameGameBoatSongEvidence"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-busan-archive-2019",
+      "songId": "lotte-giants-busan-gull",
+      "url": "https://www.youtube.com/watch?v=n5FY9EBaGWs",
+      "videoId": "n5FY9EBaGWs",
+      "title": "롯데 자이언츠 응원가 부산 갈매기 (원곡) [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-10-20",
+      "descriptionSummary": "구장 음향 중단기인 2019년에 과거 응원가 음원을 기록한 아카이브 영상이다. 설명도 당시 현재 사용하지 않는 곡이라고 명시해 중단기 인식을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "2023년 이전 댓글은 복귀를 바라고 이후 댓글은 실제 복귀를 확인하며 다시 영상을 찾는다.",
+        "부산 정체성, 가족과 함께한 사직 기억, 타 구단 팬도 인정하는 대표성을 강조하는 반응이 반복된다."
+      ],
+      "supports": [
+        "archiveDuringSuspension2019",
+        "fanDemandForReturn",
+        "regionalMemory"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-return-official-2026",
+      "songId": "lotte-giants-return-to-busan-port",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 플레이리스트가 돌아와요 부산항에를 30분 51초에 별도 수록한다. 부산 갈매기와 연속 챕터지만 독립 곡으로 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 직관 전 예습과 이동 중 반복 재생에 유용하다는 반응, 오래된 지역 응원가가 새 곡들과 함께 남은 점을 반기는 반응이 많다.",
+        "타 구단 팬도 롯데의 장시간 떼창형 노래를 높이 평가한다."
+      ],
+      "supports": [
+        "officialCurrentListing2026",
+        "officialChapter30m51s",
+        "distinctSongListing"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-return-field-july-2026",
+      "songId": "lotte-giants-return-to-busan-port",
+      "url": "https://www.youtube.com/watch?v=GBrTi-JEgBw",
+      "videoId": "GBrTi-JEgBw",
+      "title": "롯데자이언츠 오랜만에 불러보는 레전드 응원가 💙돌아와요부산항에 260726",
+      "channel": "TWOBINPAPA",
+      "publishedAt": "2026-07-26",
+      "descriptionSummary": "2026년 7월 26일 현장에서 오랜만에 길게 부른 돌아와요 부산항에를 담은 직접 영상이다. 제목이 곡명과 촬영일을 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directFieldUseJuly2026",
+        "longFormSongUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-return-field-may-2026",
+      "songId": "lotte-giants-return-to-busan-port",
+      "url": "https://www.youtube.com/watch?v=nAerA6ppn7Q",
+      "videoId": "nAerA6ppn7Q",
+      "title": "20260523 롯데자이언츠 장두성 응원가 + 결승 2타점 + 부산갈매기, 돌아와요부산항에, 뱃노래",
+      "channel": "46채널",
+      "publishedAt": "2026-05-23",
+      "descriptionSummary": "2026년 5월 23일 결승 득점 뒤 선수 응원과 세 지역·팀 응원가를 이어 담은 현장 영상이다. 제목이 돌아와요 부산항에와 뱃노래까지 메들리 범위를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 현장 기록을 올린 데 대한 짧은 감사이며 추가 사실 주장은 없다."
+      ],
+      "supports": [
+        "directFieldUseMay2026",
+        "regionalMedleyWithBoatSong",
+        "postKeyScoreContext"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-return-field-suwon-2026",
+      "songId": "lotte-giants-return-to-busan-port",
+      "url": "https://www.youtube.com/watch?v=CQd8nDD-SWE",
+      "videoId": "CQd8nDD-SWE",
+      "title": "(260506) 수원 원정 떼창 : 부산갈매기 뒷부분 + 돌아와요 부산항에 + 승리의 롯데 + 최강롯데 + 장두성 응원가",
+      "channel": "DooGhi KIM",
+      "publishedAt": "2026-05-06",
+      "descriptionSummary": "2026년 5월 6일 수원 원정석에서 부산 갈매기 후반, 돌아와요 부산항에, 통용명 승리의 롯데를 이어 부른 현장 메들리다. 설명은 경기·구단 관련 해시태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 수원 원정석이 부산 홈처럼 들릴 만큼 큰 떼창이었다고 평가한다.",
+        "현장 합창과 녹음 상태에 대한 호평이 중심이다."
+      ],
+      "supports": [
+        "directAwayUse2026",
+        "medleyOrder",
+        "victorySongCommonAlias"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-return-field-2018",
+      "songId": "lotte-giants-return-to-busan-port",
+      "url": "https://www.youtube.com/watch?v=rayobhHAfG4",
+      "videoId": "rayobhHAfG4",
+      "title": "18.03.31 사직야구장 돌아와요 부산항에~ 떼창",
+      "channel": "가을바람",
+      "publishedAt": "2018-03-31",
+      "descriptionSummary": "부산 갈매기 구장 음향 중단이 시작된 2018년 3월 말 사직에서 돌아와요 부산항에를 부른 직접 영상이다. 설명은 경기 결과와 무관하게 현장을 즐긴 소감을 남긴다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 만원 관중의 합창을 거대한 노래방에 비유하고 성적과 무관한 팬 충성심을 강조한다.",
+        "부산의 일상과 야구가 돌아온 듯한 감정적 기억을 공유하는 반응이 있다."
+      ],
+      "supports": [
+        "directUseDuringBusanGullSuspensionStart",
+        "separateRightsHistory",
+        "fullStadiumSingalong"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-return-field-2022",
+      "songId": "lotte-giants-return-to-busan-port",
+      "url": "https://www.youtube.com/watch?v=2uXW8_sRXS0",
+      "videoId": "2uXW8_sRXS0",
+      "title": "22.92.22 잠실 롯데자이언츠 팀응원가 메들리2 돌아와요 부산항에 - 승전가",
+      "channel": "현장응원맛집",
+      "publishedAt": "2022-09-23",
+      "descriptionSummary": "제목의 날짜 표기에는 오타가 있지만 2022년 9월 22일 잠실 현장의 돌아와요 부산항에와 승전가 연속 응원을 담은 직접 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 원정 응원의 웅장함과 관중 육성이 크게 들리는지 묻는 반응이 중심이다.",
+        "1992년 우승을 떠올리는 언급과 승전가 선율을 해외 축구 응원과 연결하는 반응이 있다."
+      ],
+      "supports": [
+        "directFieldUse2022",
+        "continuityBeforeBusanGullReturn",
+        "transitionToVictorySong"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-return-official-combo-2016",
+      "songId": "lotte-giants-return-to-busan-port",
+      "url": "https://www.youtube.com/watch?v=mdyi580LeO8",
+      "videoId": "mdyi580LeO8",
+      "title": "[사직동930번지] 진리의 '부산갈매기+돌아와요 부산항에' (04.22)",
+      "channel": "Giants TV",
+      "publishedAt": "2016-04-22",
+      "descriptionSummary": "롯데 공식 채널의 2016년 현장 영상으로 부산 갈매기 다음 돌아와요 부산항에를 이어 부르는 전통적 두 곡 메들리를 직접 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글에는 과거 사직의 만원 관중과 비닐봉지 응원 기억, 두 지역 대표곡을 다시 온전히 듣고 싶다는 반응이 많다.",
+        "타 구단 팬도 연속 떼창의 규모를 높이 평가한다."
+      ],
+      "supports": [
+        "officialFieldUse2016",
+        "traditionalTwoSongOrder",
+        "preSuspensionBaseline"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-seabird-official-2026",
+      "songId": "lotte-giants-seabird",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 팀 응원가 영상이 바다새를 31분 56초 챕터에 수록한다. 같은 제목의 원곡 정보는 없지만 최신 롯데판 음원과 공식 곡명을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 2026 플레이리스트의 음질 개선과 직관 전 학습 효용을 호평한다.",
+        "오래된 팀 응원가와 신규곡을 한 목록에서 들을 수 있어 좋다는 반응이 많다."
+      ],
+      "supports": [
+        "officialCurrentRecording2026",
+        "officialChapter31m56s",
+        "newArrangementEvidence"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-seabird-field-2026",
+      "songId": "lotte-giants-seabird",
+      "url": "https://www.youtube.com/watch?v=9S67PmPlT1I",
+      "videoId": "9S67PmPlT1I",
+      "title": "롯데자이언츠 응원가 바다새 💙 흥이 안나네요 260512",
+      "channel": "TWOBINPAPA",
+      "publishedAt": "2026-05-13",
+      "descriptionSummary": "2026년 5월 12일 경기의 바다새 응원을 담은 직접 현장 영상이다. 제목은 이날 현장 분위기가 충분히 오르지 않았다는 촬영자의 감상을 함께 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 지역 방송 관련 농담으로 곡의 사실관계와 직접 관련이 없다."
+      ],
+      "supports": [
+        "directFieldUseMay2026",
+        "currentArrangementPerformance"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-seabird-classic-2026",
+      "songId": "lotte-giants-seabird",
+      "url": "https://www.youtube.com/watch?v=NvtbjCXj394",
+      "videoId": "NvtbjCXj394",
+      "title": "부산 클래식-S | 삼성 vs 롯데 | 롯데 팀 연고응원가 - 바다새",
+      "channel": "응하컬 - 응원가로 하나되는 컬렉션",
+      "publishedAt": "2026-05-23",
+      "descriptionSummary": "2026년 5월 22일 사직 삼성전의 롯데 연고 응원가 바다새를 기록한 영상이다. 설명이 경기 날짜·대진·사직 구장을 특정하고 이 곡을 지역 응원가로 분류한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directSajikUse2026",
+        "regionalCheerClassification"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-seabird-field-2025",
+      "songId": "lotte-giants-seabird",
+      "url": "https://www.youtube.com/watch?v=wOLi9FDoHuc",
+      "videoId": "wOLi9FDoHuc",
+      "title": "대전에서 처음 불리는 롯데자이언츠 바다새 + 부산갈매기 + 돌아와요 부산항 250524 4k",
+      "channel": "S깡통",
+      "publishedAt": "2025-05-24",
+      "descriptionSummary": "2025년 5월 24일 대전 원정에서 바다새, 부산 갈매기, 돌아와요 부산항에를 이어 부른 4K 현장 영상이다. 설명의 해시태그가 원정 경기와 응원단을 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 우천·원정 상황에서도 이어진 응원과 응원단장·관중 상호작용에 반응한다.",
+        "영상 속 다른 응원가의 제목을 묻는 반응도 있어 메들리형 소비를 보여 준다."
+      ],
+      "supports": [
+        "directAwayUse2025",
+        "threeSongRegionalMedley",
+        "fanSongIdentification"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-seabird-official-playlist-2022",
+      "songId": "lotte-giants-seabird",
+      "url": "https://www.youtube.com/watch?v=CkXmVbXTqSc",
+      "videoId": "CkXmVbXTqSc",
+      "title": "#playlist 롯데자이언츠 팀 응원가 2022ver.(new 응원가 포함!!!)",
+      "channel": "Giants TV",
+      "publishedAt": "2022-08-02",
+      "descriptionSummary": "롯데 공식 채널의 2022 팀 응원가 모음으로 바다새의 당시 음원과 현행곡 지위를 확인하는 비교 기준이다. 설명란에는 별도 장문 설명이 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 잠실에서 바다새를 부를 때의 웅장한 떼창을 특히 꼽는다.",
+        "롯데 응원가 전반의 완성도를 호평하고 당시 빠져 있던 부산 갈매기를 그리워하는 반응이 섞여 있다."
+      ],
+      "supports": [
+        "officialCurrentListing2022",
+        "pre2026ArrangementBaseline",
+        "awaySingalongReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-seabird-archive-2017",
+      "songId": "lotte-giants-seabird",
+      "url": "https://www.youtube.com/watch?v=eGZDP6vX8Go",
+      "videoId": "eGZDP6vX8Go",
+      "title": "롯데자이언츠 응원가 - 바다새",
+      "channel": "실버불렛S",
+      "publishedAt": "2017-10-28",
+      "descriptionSummary": "2017년 롯데판 바다새를 단독으로 보존한 아카이브 영상이다. 설명은 현장감을 위해 음량을 크게 들을 것을 권하며 당시 편곡과 가사 구조의 비교 표본이 된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 곡의 빠르고 흥겨운 에너지를 유머러스하게 표현한다.",
+        "부산의 다른 프로스포츠 경기장에서도 이 노래를 듣고 싶다는 요청이 있다."
+      ],
+      "supports": [
+        "archiveVersion2017",
+        "pre2026ArrangementBaseline",
+        "regionalCrossSportReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-seabird-kimhyejung-2012",
+      "songId": "lotte-giants-seabird",
+      "url": "https://www.youtube.com/watch?v=9To0850N4VQ",
+      "videoId": "9To0850N4VQ",
+      "title": "사직 야구장 바다새 공연.avi",
+      "channel": "더문이앤엘 영상제작부",
+      "publishedAt": "2012-12-12",
+      "descriptionSummary": "원가수 김혜정이 사직구장에서 롯데 공식 응원가 바다새를 부른 공연 영상이다. 설명이 가수 이름과 곡의 응원가 지위를 직접 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 김혜정의 가창력과 관중 합창을 호평하고 1986년 강변가요제 무대를 기억한다.",
+        "원가수가 다시 사직 무대에 오르길 바라는 반응이 반복된다."
+      ],
+      "supports": [
+        "exactOriginalSingerIdentification",
+        "originalSingerStadiumPerformance2012",
+        "officialCheerStatusBy2012"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-seabird-kimhyejung-2019",
+      "songId": "lotte-giants-seabird",
+      "url": "https://www.youtube.com/watch?v=se_YXgd-bek",
+      "videoId": "se_YXgd-bek",
+      "title": "6년만에 다시 날아온 바다새 김혜정!",
+      "channel": "더문이앤엘 영상제작부",
+      "publishedAt": "2019-04-18",
+      "descriptionSummary": "김혜정이 6년 만에 사직으로 돌아와 시구와 바다새 공연을 한 2019년 4월 18일 현장 영상이다. 원곡과 롯데 응원가의 연결을 다시 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 원가수에게 감사를 전하고 세월이 지나도 목소리가 변하지 않았다는 반응을 남긴다.",
+        "부산 갈매기 저작권 갈등과 대비해 이 공연을 반기는 반응도 있으나 개인을 공격하는 표현은 저장하지 않았다."
+      ],
+      "supports": [
+        "originalSingerReturn2019",
+        "sixYearReturnInterval",
+        "originalSongContinuity"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-seabird-postseason-2009",
+      "songId": "lotte-giants-seabird",
+      "url": "https://www.youtube.com/watch?v=3tuGQZ6MZEQ",
+      "videoId": "3tuGQZ6MZEQ",
+      "title": "롯데자이언츠 - 준PO 바다새",
+      "channel": "shindongyoun",
+      "publishedAt": "2009-10-11",
+      "descriptionSummary": "2009년 준플레이오프 현장에서 바다새를 부른 짧은 직접 영상이다. 현재 확보한 표본 중 가장 오래돼, 정확한 도입 연도가 아닌 ‘2009년까지 사용’의 근거로 쓴다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 짧은 웃음 반응으로 곡의 역사나 사용 정보를 제공하지 않는다."
+      ],
+      "supports": [
+        "earliestDirectSample2009",
+        "postseasonUse2009"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-boat-current-2026",
+      "songId": "lotte-giants-baennorae",
+      "url": "https://www.youtube.com/watch?v=QCDdVzz4sTw",
+      "videoId": "QCDdVzz4sTw",
+      "title": "ロッテ・ジャイアンツの船歌　롯데자이언츠 뱃노래",
+      "channel": "Dntlwls84",
+      "publishedAt": "2026-05-18",
+      "descriptionSummary": "2026년 5월 롯데 현장의 35초짜리 뱃노래 직접 영상이다. 공식 플레이리스트 미수록과 달리 짧은 편곡판이 현장에서 여전히 쓰임을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 영상을 올린 데 대한 감사이며 추가 사실은 제시하지 않는다."
+      ],
+      "supports": [
+        "directCurrentUse2026",
+        "shortArrangementForm",
+        "officialPlaylistOmissionCaveat"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-boat-archive-2012",
+      "songId": "lotte-giants-baennorae",
+      "url": "https://www.youtube.com/watch?v=OZg9JzXXkLc",
+      "videoId": "OZg9JzXXkLc",
+      "title": "[12.5.27] 롯데자이언츠 - 뱃놀이",
+      "channel": "Daniel Jang",
+      "publishedAt": "2012-05-29",
+      "descriptionSummary": "2012년 5월 27일 롯데 응원단의 전곡형 뱃놀이를 담은 직접 영상이다. 제목과 설명 모두 역사적 통용명 뱃놀이를 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 전곡판이 더 자주 돌아오길 바라고 과거 유니폼·응원단을 그리워한다.",
+        "최근에도 간헐적으로 전곡을 쓰는지 서로 확인하는 반응이 있어 복귀 뒤 낮은 빈도를 보여 준다."
+      ],
+      "supports": [
+        "historicalNameBoatPlay",
+        "fullVersionUse2012",
+        "preSuspensionFieldForm"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-boat-recording-2022",
+      "songId": "lotte-giants-baennorae",
+      "url": "https://www.youtube.com/watch?v=3Wd6axSUBEY",
+      "videoId": "3Wd6axSUBEY",
+      "title": "롯데자이언츠 응원가 - 뱃노래",
+      "channel": "쉬미시미의 롯데역사창고",
+      "publishedAt": "2022-08-14",
+      "descriptionSummary": "설명은 2012년 구단 홈페이지 공식 영상을 출처로 밝히며 뱃노래라는 현행 표기로 음원 구조를 보존한다. 2022 복귀기에 다시 공유된 아카이브다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 2024년 전곡판 복귀를 반기고 실제 경기에서 긴 버전을 얼마나 자주 쓰는지 묻는다.",
+        "오래된 응원가의 복귀가 반갑다는 향수 반응이 많다."
+      ],
+      "supports": [
+        "currentNameBoatSong",
+        "archivedOfficialRecordingClaim",
+        "fullVersionReturnReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-boat-field-2024",
+      "songId": "lotte-giants-baennorae",
+      "url": "https://www.youtube.com/watch?v=8pobs1TMEY4",
+      "videoId": "8pobs1TMEY4",
+      "title": "[잠실야구장] 승리는 누구 - 뱃노래 - 윤동희 현장감 100% 떼창 응원!! | 24.06.15",
+      "channel": "롯데 현장 직캠",
+      "publishedAt": "2024-06-18",
+      "descriptionSummary": "2024년 6월 15일 잠실에서 승리 구호, 뱃노래, 선수 응원을 이어 담은 직접 현장 영상이다. 설명은 업로더의 합창과 경기 관련 해시태그를 덧붙인다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 롯데 응원의 규모와 곡이 들어가는 타이밍을 호평하고 타 구단 팬도 따라 부른다고 말한다.",
+        "고려대학교 응원가 계보를 언급하는 댓글도 있으나 공식 크레딧 근거로는 사용하지 않았다."
+      ],
+      "supports": [
+        "directFullVersionUse2024",
+        "awayFieldContext",
+        "universityLineageFanRecognition"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-boat-afterparty-2024",
+      "songId": "lotte-giants-baennorae",
+      "url": "https://www.youtube.com/watch?v=cw3cfWsLrQk",
+      "videoId": "cw3cfWsLrQk",
+      "title": "뱃노래 부를때 개신남😍 뒷풀이에서 부르니 더 신난다!! #롯데자이언츠 #롯데응원 #롯데떼창 #롯데응원가 #롯데잠실응원 #최강롯데 #야구 #롯데뒷풀이 #롯데뒷풀이응원",
+      "channel": "롯창근",
+      "publishedAt": "2024-04-19",
+      "descriptionSummary": "경기 뒤풀이에서 팬들이 뱃노래를 길게 부르는 2024 영상이다. 설명은 이 같은 합창이 롯데 야구문화의 일부가 됐다는 촬영자 평가를 담는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글에는 가족을 따라 팬이 된 세대 경험과 선수도 팬의 열기를 느낄 것이라는 반응이 있다.",
+        "패배 뒤에도 뒤풀이를 하는 문화를 비판하는 반응도 있어, 호평과 논쟁이 함께 존재한다."
+      ],
+      "supports": [
+        "afterGameFanCulture2024",
+        "intergenerationalReception",
+        "fullSongCommunityUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-boat-combo-2025",
+      "songId": "lotte-giants-baennorae",
+      "url": "https://www.youtube.com/watch?v=P4YmD--oue4",
+      "videoId": "P4YmD--oue4",
+      "title": "#부산갈매기 #돌아와요부산항에 #뱃노래 떼창 모음🎧 (25.04.25) ⚾ 롯데자이언츠 - 어게인1992자이언츠",
+      "channel": "어게인1992자이언츠",
+      "publishedAt": "2025-04-26",
+      "descriptionSummary": "2025년 4월 25일 두산전의 세 곡 합창 모음이다. 설명은 부산 갈매기 0초, 돌아와요 부산항에 1분 6초, 뱃노래 2분 13초의 챕터를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 경기 결과와 무관하게 팀을 지지하는 감정과 세 곡을 연속으로 들은 감동을 표현한다.",
+        "현장 기록을 공유한 데 대한 감사가 중심이다."
+      ],
+      "supports": [
+        "directUse2025",
+        "threeSongMedleyOrder",
+        "fullSongChapter2m13s"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-boat-field-recording-2022",
+      "songId": "lotte-giants-baennorae",
+      "url": "https://www.youtube.com/watch?v=3Dudjohandk",
+      "videoId": "3Dudjohandk",
+      "title": "2022년 롯데 자이언츠 팀 응원가 - 뱃노래",
+      "channel": "다현",
+      "publishedAt": "2022-08-31",
+      "descriptionSummary": "2022년 복귀 시기의 롯데 뱃노래를 현행 제목으로 단독 기록한 영상이다. 짧은 편곡판의 시즌 내 공개와 팬 수용을 확인하는 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 비시즌에 사직 현장을 그리워하며 곡을 다시 듣는다고 말한다.",
+        "롯데 응원의 뿌리 같은 고전성과 승리 분위기를 높이는 힘을 강조한다."
+      ],
+      "supports": [
+        "returnSeasonRecording2022",
+        "currentNameUse",
+        "classicCheerReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-boat-victory-medley-2011",
+      "songId": "lotte-giants-baennorae",
+      "url": "https://www.youtube.com/watch?v=sffpQ58qlHI",
+      "videoId": "sffpQ58qlHI",
+      "title": "롯데 - 승리 메들리(부산갈매기, 돌아와요 부산항에, 뱃놀이)",
+      "channel": "Daniel Jang",
+      "publishedAt": "2011-10-21",
+      "descriptionSummary": "2011년 부산 갈매기, 돌아와요 부산항에, 뱃놀이를 순서대로 묶은 역사적 승리 메들리 영상이다. 뱃놀이 표기와 세 곡의 고전적 순서를 직접 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 롯데 응원이 KBO에서 손꼽힐 만큼 크다는 평가와 포스트시즌 기억을 공유한다.",
+        "부산을 떠난 팬의 향수와 타 구단 팬의 호평도 반복된다."
+      ],
+      "supports": [
+        "historicalVictoryMedley2011",
+        "historicalNameBoatPlay",
+        "regionalHomesicknessReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-victory-official-2026",
+      "songId": "lotte-giants-victory-hymn",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 플레이리스트가 이 곡을 승전가라는 제목으로 13분 27초에 수록한다. 공식명과 최신 음원의 가장 강한 기준 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 새 시즌 응원가 음질과 편집을 호평하고 직관 전 예습·이동 중 반복 재생에 활용한다.",
+        "전통 응원가와 신규곡이 함께 정리돼 좋다는 반응이 많다."
+      ],
+      "supports": [
+        "officialTitleVictoryHymn",
+        "officialChapter13m27s",
+        "currentOfficialRecording2026"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-victory-opening-2026",
+      "songId": "lotte-giants-victory-hymn",
+      "url": "https://www.youtube.com/watch?v=cUrhZOxWlls",
+      "videoId": "cUrhZOxWlls",
+      "title": "[개막전] 롯데 응원가 \"승전가\" 떼창 (삼성라이온즈파크) | 26.03.28",
+      "channel": "롯데 현장 직캠",
+      "publishedAt": "2026-03-28",
+      "descriptionSummary": "2026년 3월 28일 삼성라이온즈파크 개막전 원정석의 승전가 떼창을 담은 직접 영상이다. 제목과 해시태그가 공식명·날짜·장소를 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 원정 응원석의 좌석 위치와 참여 응원단원을 묻는 내용이 중심이며 곡의 역사 정보는 추가하지 않는다."
+      ],
+      "supports": [
+        "directOpeningDayUse2026",
+        "officialTitleInFieldUpload",
+        "awayCrowdPerformance"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-victory-sajik-2026",
+      "songId": "lotte-giants-victory-hymn",
+      "url": "https://www.youtube.com/watch?v=A164dOtYxJc",
+      "videoId": "A164dOtYxJc",
+      "title": "2026.06.27 부산 사직야구장 LG트윈스전 롯데자이언츠 응원가 승전가 동영상",
+      "channel": "세계인 에스티",
+      "publishedAt": "2026-07-14",
+      "descriptionSummary": "2026년 6월 27일 사직 LG전의 승전가를 기록한 직접 현장 영상이다. 설명은 제목과 같은 경기 날짜·장소·대진 정보를 반복한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directSajikUseJune2026",
+        "currentHomeUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-victory-suwon-2026",
+      "songId": "lotte-giants-victory-hymn",
+      "url": "https://www.youtube.com/watch?v=CQd8nDD-SWE",
+      "videoId": "CQd8nDD-SWE",
+      "title": "(260506) 수원 원정 떼창 : 부산갈매기 뒷부분 + 돌아와요 부산항에 + 승리의 롯데 + 최강롯데 + 장두성 응원가",
+      "channel": "DooGhi KIM",
+      "publishedAt": "2026-05-06",
+      "descriptionSummary": "2026년 5월 6일 수원 원정 메들리에서 승전가를 통용명 승리의 롯데로 표기한 직접 영상이다. 부산 지역곡 뒤에 이 곡이 이어지는 순서를 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 원정 구장이 부산처럼 느껴질 만큼 큰 떼창과 깨끗한 현장 녹음을 호평한다."
+      ],
+      "supports": [
+        "directAwayUse2026",
+        "commonAliasVictoryLotte",
+        "traditionalMedleyOrder"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-victory-field-2022",
+      "songId": "lotte-giants-victory-hymn",
+      "url": "https://www.youtube.com/watch?v=2uXW8_sRXS0",
+      "videoId": "2uXW8_sRXS0",
+      "title": "22.92.22 잠실 롯데자이언츠 팀응원가 메들리2 돌아와요 부산항에 - 승전가",
+      "channel": "현장응원맛집",
+      "publishedAt": "2022-09-23",
+      "descriptionSummary": "제목 날짜에는 오타가 있지만 2022년 9월 22일 잠실 현장에서 돌아와요 부산항에 뒤 승전가를 부르는 직접 영상이다. 공식명과 메들리 전환을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 원정 응원의 웅장함과 관중 목소리가 크게 담긴 점에 반응한다.",
+        "익숙한 선율을 해외 축구 응원과 연결하는 반응도 있어 공유 선율 인식을 보여 준다."
+      ],
+      "supports": [
+        "directUse2022",
+        "officialTitleInFanUpload",
+        "transitionFromReturnPort"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-victory-archive-2012",
+      "songId": "lotte-giants-victory-hymn",
+      "url": "https://www.youtube.com/watch?v=NSR5kAxIEi0",
+      "videoId": "NSR5kAxIEi0",
+      "title": "롯데자이언츠 응원가 - 승전가",
+      "channel": "아이고 대다",
+      "publishedAt": "2012-10-26",
+      "descriptionSummary": "2012년 승전가 음원을 단독으로 기록한 오래된 영상이다. 설명에는 전체 가사가 있지만 복제하지 않고 팀명 선창과 승리 후렴의 반복 구조만 연구 데이터에 요약했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 이 곡을 전투가 같은 응원가로 부르고 사직 합창의 장엄함을 강조한다.",
+        "찬송가·군가·해외 축구에서 선율을 들었다는 서로 다른 연상과 팀 충성 반응이 함께 나타난다."
+      ],
+      "supports": [
+        "earliestDirectSample2012",
+        "lyricsStructureWithoutFullText",
+        "sharedMelodyReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-victory-alias-2017",
+      "songId": "lotte-giants-victory-hymn",
+      "url": "https://www.youtube.com/watch?v=uuQF8k5zgYA",
+      "videoId": "uuQF8k5zgYA",
+      "title": "롯데자이언츠 응원가 [승리의 롯데(승전가)]",
+      "channel": "Step2",
+      "publishedAt": "2017-12-07",
+      "descriptionSummary": "2017년 준플레이오프 현장 영상으로 통용명 승리의 롯데와 공식명 승전가를 제목에서 함께 표기한다. 두 이름이 같은 곡을 가리킴을 직접 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 사직의 가을야구와 대형 깃발 응원을 추억한다.",
+        "선율을 해외 축구 노래와 비교하는 반응도 반복된다."
+      ],
+      "supports": [
+        "commonAndOfficialNameEquivalence",
+        "postseasonUse2017",
+        "flagCheerMemory"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-victory-archive-2019",
+      "songId": "lotte-giants-victory-hymn",
+      "url": "https://www.youtube.com/watch?v=_96Gvb8N_TY",
+      "videoId": "_96Gvb8N_TY",
+      "title": "롯데 자이언츠 응원가 승전가 [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-10-10",
+      "descriptionSummary": "2019년 승전가 음원을 공식명으로 보존한 아카이브 영상이다. 채널 소개 외 긴 설명은 없으며, 장기 사용과 선율 인식의 교차 표본으로 쓴다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 오랜 사직 기억과 함께 찬송가·군가·축구 등 여러 곳에서 같은 선율을 들었다고 말한다.",
+        "타 구단 팬이 현장에서 듣고 제목을 찾았다는 반응도 있다. 선율 차용을 둘러싼 단정적 비난은 사실 주장으로 채택하지 않았다."
+      ],
+      "supports": [
+        "archivePresence2019",
+        "officialNamePersistence",
+        "sharedMelodyRecognition"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-a-victory-thirdparty-2026",
+      "songId": "lotte-giants-victory-hymn",
+      "url": "https://www.youtube.com/watch?v=9W1jr0nbu-E",
+      "videoId": "9W1jr0nbu-E",
+      "title": "롯데 자이언츠 승전가 - Lotte Giants victory song",
+      "channel": "부산청년 - Topic",
+      "publishedAt": "2026-02-23",
+      "descriptionSummary": "DistroKid를 통해 자동 생성된 부산청년 명의의 2026 제3자 단독 녹음이다. 검색 표본으로만 남기며 Giants TV 공식 음원이나 구단 권리 크레딧으로 취급하지 않는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "thirdPartyStandaloneRecording2026",
+        "notOfficialClubEvidence"
+      ],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 40,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 19
+  }
+}

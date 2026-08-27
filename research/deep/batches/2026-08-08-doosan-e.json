@@ -1,0 +1,1163 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-doosan-e",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-doosan-bears",
+    "name": "두산 베어스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사와 영상 설명·댓글 원문은 저장하지 않는다. 상업곡을 그대로 쓰거나 경기장용으로 편집·개사한 경우 원곡 계보, 반복 구조, 사용 맥락과 권리 상태만 요약하고 lyrics.fullTextStored는 false로 둔다. 공개 댓글은 작성자를 식별하지 않는 반복 반응만 익명으로 재서술한다. 나무위키 미러의 연표·사용 관행은 구단 공식 목록, 날짜가 특정된 현장 기록, 원곡자·음악 메타데이터 및 보도와 교차하며 단독 근거인 세부 사항은 reported로 낮춘다.",
+  "items": [
+    {
+      "id": "doosan-bears-haeya-haeya",
+      "title": "해야 해야",
+      "aliases": ["해야해야", "헤이 헤이 해야", "김학래 해야 해야 응원가"],
+      "currentStatus": "current-core-official-directly-verified-2026",
+      "summary": "김학래가 작사·작곡해 1986년에 발표한 동명곡의 후렴을 두산식 승리 문구와 팀명 구호로 바꾼 팀 응원가다. 편집형 문서는 한재권 응원단장이 2014년 부임 뒤 처음 만든 곡이라고 적고, 2014년 10월 12일 경기로 표시된 현장 영상이 같은 시즌 사용을 직접 뒷받침한다. 구단 공식 음원은 관중이 첫 구절을 다른 방식으로 부르는 오류를 별도로 교정하면서 ‘헤이 헤이 해야’를 정답으로 안내한다. 큰 흰 수건·깃발을 머리 위에서 돌리는 장면, 역전이나 분위기 최고조에서의 웅장한 떼창이 영상과 댓글에 반복된다. 2025·2026 구단 공식 플레이리스트에 연속 수록되어 현재성은 확실하며, 연세대·두산의 별도곡 ‘해야’와는 같은 원곡 계보가 아니라 완전히 다른 제목·원곡의 응원가다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "한재권 응원단장이 2014년 부임 뒤 처음 제작한 두산 응원가로 알려짐; 2014-10-12 표기 현장 사용 확인",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-namu-cheers", "yt-doosan-e-haeya-early-2014"],
+          "notes": "제작자·‘첫 곡’은 편집형 문서의 서술이고, 2014년 사용 자체는 당시 현장 영상이 보강한다. 최초 경기 날짜는 확인하지 못했다."
+        },
+        {
+          "field": "originalSong",
+          "value": "김학래 — 해야 해야; 김학래 작사·작곡, 1986년 발표",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-bugs-haeya", "ev-doosan-e-bugs-haeya-cover", "yt-doosan-e-haeya-original-kbs"],
+          "notes": "KBS Media의 1986 표기, 벅스 원곡·리메이크 크레딧, KBS 1988 방송 아카이브가 제목·가수·작가를 교차 확인한다."
+        },
+        {
+          "field": "officialPronunciation",
+          "value": "두산 공식 음원 안내는 첫 구호를 ‘해야 해야 해야’가 아니라 ‘헤이 헤이 해야’로 교정",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-haeya-official-audio-2016", "ev-doosan-e-namu-cheers"],
+          "notes": "원곡의 음원·가사 표기인 ‘해 해 해야’와 경기장 발음 안내를 구분했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 두산 구단 공식 팀 응원가 플레이리스트 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-haeya-official-2025", "yt-doosan-e-haeya-official-2026"],
+          "notes": "공식 챕터는 각각 26:29와 26:35에 ‘해야 해야’로 표기한다."
+        },
+        {
+          "field": "disambiguation",
+          "value": "두산의 ‘해야 해야’는 김학래 동명곡 계열이며, 마그마 ‘해야’를 쓰는 별도 팀 응원가 ‘해야’와 다른 곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-haeya-official-2025", "yt-doosan-e-haeya-official-2026", "ev-doosan-e-namu-cheers"],
+          "notes": "같은 공식 영상이 ‘해야’를 25:00/25:06, ‘해야 해야’를 26:29/26:35에 각각 독립 챕터로 둔다."
+        }
+      ],
+      "usageContexts": [
+        "빠른 록 리듬의 두 문장 승리 합창 뒤 길게 이어지는 모음 합창과 네 음절 팀명 구호를 여러 차례 반복한다.",
+        "역전 직후나 응원 분위기가 최고조일 때 전주와 북소리, 관중의 큰 합창이 결합하는 곡으로 팬 영상에서 반복 기록된다.",
+        "흰 수건·깃발·과거 흰 풍선을 머리 위에서 돌리거나 흔드는 시각 응원이 곡과 강하게 결합되어 있다.",
+        "한국시리즈와 플레이오프 원정 응원에서도 사용되어 잠실과 비슷한 규모의 합창을 만든 사례가 남아 있다."
+      ],
+      "trivia": [
+        {
+          "id": "haeya-haeya-pronunciation-correction",
+          "summary": "구단 공식 음원 설명이 아예 현장 오창을 교정한다. 후대 팬 영상 댓글에서도 같은 발음 교정이 반복되어, 제목 표기와 실제 구호 발음이 다르게 기억되는 곡이 됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-haeya-official-audio-2016", "yt-doosan-e-haeya-ks-2018"]
+        },
+        {
+          "id": "haeya-haeya-white-wave",
+          "summary": "2018 한국시리즈 영상에는 흰 풍선과 대형 깃발이 관중석을 채우고, 2026 렛두로 영상에는 수건·유니폼을 흔드는 현재형 참여 방식이 이어진다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-haeya-ks-2018", "yt-doosan-e-haeya-official-2026"]
+        },
+        {
+          "id": "haeya-haeya-cross-team-reception",
+          "summary": "롯데·키움·LG 등 타 구단 팬을 자처한 댓글도 선율의 웅장함과 단합 효과를 높게 평가하며, 현장 청취 뒤 곡을 찾아왔다는 반응이 누적됐다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-haeya-official-audio-2016", "yt-doosan-e-haeya-early-2014", "yt-doosan-e-haeya-ks-2019"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of a commercial song; original and adapted lyric, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=UQn_YeMh_n8",
+          "https://www.youtube.com/watch?v=-tBSP7i-L4A",
+          "https://music.bugs.co.kr/track/1965755",
+          "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡의 후렴 리듬과 제목 구호를 짧게 가져와 두산의 승리 선언 두 줄로 바꾸고, 긴 모음 합창과 음절별 팀명 구호를 세 차례 되풀이한다. 원곡의 서사형 절과 응원가 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-e-haeya-official-2026",
+        "yt-doosan-e-haeya-official-2025",
+        "yt-doosan-e-haeya-official-audio-2016",
+        "yt-doosan-e-haeya-early-2014",
+        "yt-doosan-e-haeya-ks-2018",
+        "yt-doosan-e-haeya-ks-2019",
+        "yt-doosan-e-haeya-original-kbs"
+      ],
+      "unresolved": [
+        "2014년 최초 사용 경기와 한재권 제작을 확인하는 구단 원본·전체 제작 크레딧",
+        "두산판 작사·편곡·보컬·녹음 스튜디오 및 원곡 이용 허락 범위",
+        "원곡 표기 ‘해 해’와 구단 안내 ‘헤이 헤이’가 갈라진 정확한 편곡·녹음 과정",
+        "역전·분위기 최고조 사용이라는 팬 기억을 수치화할 수 있는 공식 운영표"
+      ]
+    },
+    {
+      "id": "doosan-bears-hurricane",
+      "title": "허리케인",
+      "aliases": ["Hurricane", "두산 허리케인", "Rock You Like a Hurricane 응원곡(추정)"],
+      "currentStatus": "current-official-catalog-directly-verified-2026-origin-needs-review",
+      "summary": "두산의 약 90초짜리 하드록 계열 팀 응원 음원으로, 2015년 10월 이미 ‘허리케인’이라는 제목의 현장·음원 영상이 존재한다. 따라서 2025년 신곡 ‘Ice On Fire’와 같은 곡이라는 초기 가설은 성립하지 않는다. 2025 팬 플레이리스트와 2026 팬 플레이리스트가 두 곡을 서로 다른 타임스탬프로 동시에 싣고, 구단 공식 2025·2026 플레이리스트는 이 항목을 일관되게 ‘허리케인’으로 표기한다. 팬 자료는 Scorpions의 1984년 곡 ‘Rock You Like a Hurricane’을 원곡으로 지목하며 제목·하드록 성격도 맞지만, 구단이나 편집형 응원가 문서가 원곡 크레딧을 명시한 자료는 찾지 못해 원곡 판정은 reported로 남긴다. 오래된 영상은 설명과 댓글이 비어 있어 단독으로 음원 동일성을 증명하지 못하지만, 공식 목록과 같은 제목·유사 길이의 선행 기록이라는 점에서 도입 연도 상한을 2015년으로 낮춘다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2015-10-28 이전 사용; 정확한 최초 시즌은 불명",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-doosan-e-hurricane-archive-2015", "yt-doosan-e-hurricane-fan-2025"],
+          "notes": "2015 영상은 제목과 85초 길이만 제공하고 설명·댓글이 비어 있다. 같은 제목의 후대 약 90초 수록본과 이어지지만 음원 파일 해시 수준의 동일성은 확인하지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 두산 구단 공식 플레이리스트에 ‘허리케인’으로 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-hurricane-official-2025", "yt-doosan-e-hurricane-official-2026"],
+          "notes": "공식 챕터는 각각 28:15와 28:19이며, 두 해 모두 해야 해야 다음·허슬두 앞에 배치한다."
+        },
+        {
+          "field": "disambiguation",
+          "value": "‘허리케인’과 김장훈 ‘Ice On Fire’는 서로 다른 두산 사용곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-hurricane-fan-2025", "yt-doosan-e-ice-fan-2026", "yt-doosan-e-hurricane-official-2026"],
+          "notes": "2025 팬 목록은 Ice On Fire 11:14·허리케인 23:08, 2026 팬 목록은 허리케인 21:36·Ice on Fire 50:30으로 분리한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Scorpions — Rock You Like a Hurricane(1984)로 알려짐",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-e-officialcharts-hurricane", "yt-doosan-e-hurricane-original-scorpions", "yt-doosan-e-ice-fan-2026"],
+          "notes": "2026 팬 목록 댓글이 원곡을 직접 지목하고 공식 원곡 영상·발매 자료가 제목과 연도를 확인한다. 두산 또는 권리자의 공식 크레딧은 찾지 못했다."
+        },
+        {
+          "field": "catalogConflict",
+          "value": "나무위키 응원가 목차에는 허리케인 독립 항목이 보이지 않지만 구단 공식 목록에는 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-namu-cheers", "yt-doosan-e-hurricane-official-2025", "yt-doosan-e-hurricane-official-2026"],
+          "notes": "편집형 문서의 누락을 구단 공식 제목보다 우선하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "구단 공식 음원은 약 90초 길이의 하드록 중심 전광판·응원 구간으로 편집되어 있다.",
+        "2025·2026 공식 목록과 2026년 월별 전광판 재현 목록에서 ‘해야 해야’ 뒤, 다른 팀곡들 앞에 이어지는 메들리형 순서가 반복된다.",
+        "정확한 득점·이닝·승패 상황은 공개된 공식 운영표가 없어, 곡의 존재와 현행 수록만 확정하고 상황별 사용은 유보한다."
+      ],
+      "trivia": [
+        {
+          "id": "hurricane-ice-on-fire-split",
+          "summary": "‘불’과 하드록 이미지를 공유하는 김장훈의 2025 도입곡 때문에 두 곡이 합쳐져 기록되기 쉽지만, 같은 팬 목록 안에서 두 제목이 별도 트랙으로 공존한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-hurricane-fan-2025", "yt-doosan-e-ice-fan-2026"]
+        },
+        {
+          "id": "hurricane-archive-quality-warning",
+          "summary": "2015 영상은 제목·게시일·길이는 유용하지만 설명이 사실상 없고 댓글도 비어 있다. 같은 이름의 오래된 영상 하나만으로 2025 신곡이나 원곡 계보를 만들면 안 되는 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-hurricane-archive-2015"]
+        },
+        {
+          "id": "hurricane-original-fan-identification",
+          "summary": "2026 팬 플레이리스트 댓글은 Scorpions 원곡을 지목한다. 선율 비교를 공식적으로 문서화한 자료가 없어 유력한 식별 정보로만 보존했다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-doosan-e-ice-fan-2026", "yt-doosan-e-hurricane-original-scorpions"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "apparently a copyrighted commercial hard-rock recording or stadium edit; original-song identification is reported and redistribution rights are not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=Cft3_psCdcw",
+          "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=1699s",
+          "https://www.youtube.com/watch?v=6yP1tcy9a10"
+        ],
+        "structureSummary": "공식 수록본은 약 90초의 기타 리프 중심 하드록 구간으로 편집된다. 독립적인 한국어 개사 전문이 존재하는지는 확인되지 않았으며, 원곡·응원 음원의 가사는 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-e-hurricane-official-2026",
+        "yt-doosan-e-hurricane-official-2025",
+        "yt-doosan-e-hurricane-fan-2025",
+        "yt-doosan-e-hurricane-archive-2015",
+        "yt-doosan-e-hurricane-scoreboard-april-2026",
+        "yt-doosan-e-hurricane-scoreboard-may-2026",
+        "yt-doosan-e-hurricane-original-scorpions"
+      ],
+      "unresolved": [
+        "최초 도입 시즌·첫 사용 경기와 2015 영상 음원이 현행 공식판과 동일한지에 대한 직접 파일 비교",
+        "Scorpions ‘Rock You Like a Hurricane’ 원곡 식별을 확인하는 구단·제작자·권리자 공식 크레딧",
+        "두산판 편집·편곡·보컬·전광판 제작 크레딧과 상업 음원 사용 허락 범위",
+        "득점·이닝·투수 교체 등 정확한 경기 상황별 운영 규칙",
+        "나무위키 응원가 목차에서 공식 현행곡인 허리케인이 누락된 이유와 과거 명칭"
+      ]
+    },
+    {
+      "id": "doosan-bears-hustle-doo",
+      "title": "허슬두",
+      "aliases": ["Hustle Doo", "허슬 두", "허슬두 응원가"],
+      "currentStatus": "current-team-song-official-directly-verified-2026",
+      "summary": "두산의 팀 컬러를 뜻하는 ‘허슬두’를 제목으로 한 오래된 팀 응원가다. 편집형 문서는 적어도 2004년부터 사용됐다고 적고, 2005년 전광판판을 복원한 영상과 당시 관람 기억이 이를 근접하게 보강한다. 곡은 실질적인 문장 가사보다 모음 합창과 팀명·허슬두 구호를 북과 함께 밀어붙이는 구조다. 과거에는 3~5회 초중반에 앞서거나 상대 투수 교체 때 주로 썼고, 한동안 사용 빈도가 낮아졌다가 2024년 이후 후반에도 간헐적으로 나왔다는 서술이 있다. 2025·2026 공식 플레이리스트에 연속 수록되어 현행곡임은 분명하다. 같은 공식 영상이 ‘다 함께 허슬두’를 06:40, 이 곡을 29분대에 따로 표기하므로 두 제목을 합치면 안 된다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "적어도 2004년부터 사용된 것으로 알려지며 2005 전광판판 직접 기록 존재",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-namu-cheers", "yt-doosan-e-hustle-archive-2005"],
+          "notes": "2004년 원본은 찾지 못했지만 편집형 문서 연표와 2005 복원 영상이 시간상 가깝게 맞는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 두산 구단 공식 팀 응원가 플레이리스트 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-hustle-official-2025", "yt-doosan-e-hustle-official-2026"],
+          "notes": "공식 챕터는 각각 29:46과 29:49다."
+        },
+        {
+          "field": "disambiguation",
+          "value": "‘허슬두’와 ‘다 함께 허슬두’는 제목·시작 시각·구조가 다른 별도곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-hustle-official-2025", "yt-doosan-e-hustle-official-2026", "ev-doosan-e-namu-cheers"],
+          "notes": "같은 공식 영상 안에서 다 함께 허슬두는 06:40, 허슬두는 29:46/29:49로 각각 독립 표기된다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "전통적으로 3~5회에 앞서거나 상대 투수 교체 중 사용; 2024년 이후 7~8회에도 간헐 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-e-namu-cheers", "yt-doosan-e-hustle-scoreboard-2026"],
+          "notes": "편집형 문서의 현장 관행 서술이며, 구단 운영표와 경기별 빈도 집계는 없다."
+        },
+        {
+          "field": "nameMeaning",
+          "value": "‘허슬 플레이’와 ‘두산’을 결합한 두산의 상징어",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-hustle-term-news", "ev-doosan-e-hustle-origin-feature"],
+          "notes": "기사와 구단 협업 상품 설명이 용어의 결합과 팬 응원 의미를 명시한다."
+        }
+      ],
+      "usageContexts": [
+        "북과 전자음 위에 긴 모음 합창을 쌓고 중간중간 팀명과 제목을 짧게 끊어 외치는 전광판형 응원이다.",
+        "편집형 문서 기준으로 경기 초중반 리드 상황 또는 상대 투수 교체의 대기 시간에 많이 쓰였다.",
+        "2005판은 흰 막대풍선을 빙빙 돌리는 관중석 연출과 결합했고, 현재 공식 음원은 약 90초 길이로 유지된다.",
+        "2026 월별 전광판 재현 목록에서도 다 함께 허슬두와 별도 위치에 배치되어 현장 카탈로그 분리가 이어진다."
+      ],
+      "trivia": [
+        {
+          "id": "hustle-doo-term-song-distinction",
+          "summary": "‘허슬두’는 곡명인 동시에 두산의 몸을 사리지 않는 야구를 뜻하는 팀 컬러다. 2025년에는 같은 이름을 붙인 구단 협업 상품까지 출시됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-hustle-term-news", "ev-doosan-e-hustle-origin-feature"]
+        },
+        {
+          "id": "hustle-doo-2005-memory",
+          "summary": "2005판 영상 댓글은 당시 선수단과 강한 인상의 옛 마스코트, 3루에서 보이던 막대풍선 회전을 구체적으로 기억한다. 복원 영상의 시대 식별을 보조하는 집단 기억이다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-hustle-archive-2005"]
+        },
+        {
+          "id": "hustle-doo-frequency-decline",
+          "summary": "2015년 무렵에도 오래된 곡이라는 이유로 사용 빈도가 줄었다는 서술이 있으나, 2025·2026 공식 목록은 곡이 폐기되지 않았음을 보여 준다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-e-namu-cheers", "yt-doosan-e-hustle-official-2025", "yt-doosan-e-hustle-official-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted team cheer recording; lyric, composition, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=pVLgJe_7rWw",
+          "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=1789s",
+          "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "의미 있는 문장보다 긴 모음 합창을 중심에 두고 짧은 팀명·제목 구호를 규칙적으로 끼워 넣는다. 약 90초 동안 같은 리듬 단위를 반복하며, 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-e-hustle-official-2026",
+        "yt-doosan-e-hustle-official-2025",
+        "yt-doosan-e-hustle-archive-2015",
+        "yt-doosan-e-hustle-archive-2005",
+        "yt-doosan-e-hustle-audio-2025",
+        "yt-doosan-e-hustle-scoreboard-2026",
+        "yt-doosan-e-hustle-blog-linked-2025"
+      ],
+      "unresolved": [
+        "2004년 최초 도입을 확인하는 구단·방송 원본과 정확한 첫 사용 경기",
+        "작사·작곡·편곡·보컬·전광판 영상의 전체 제작 크레딧과 원곡 유무",
+        "3~5회·투수 교체·후반 사용이라는 운영 관행의 시즌별 공식표와 실제 빈도",
+        "한동안 사용 빈도가 감소한 시기와 2024년 이후 재사용이 늘어난 정확한 계기"
+      ]
+    },
+    {
+      "id": "doosan-bears-seoului-bears",
+      "title": "서울의 베어스",
+      "aliases": ["서울의베어스", "2026 신규 팀 응원가", "서울 베어스"],
+      "currentStatus": "current-new-core-official-directly-verified-2026",
+      "summary": "한재권 응원단장이 2026년에 새로 만든 두산 팀 응원가다. BEARS TV가 3월 11일 공식 안무 영상에서 ‘NEW 팀 응원가’로 처음 공개했고, 3월 21일 KIA와의 시범경기에서 가사를 완전히 익히기 전부터 큰 떼창과 깃발 응원이 형성됐다. 4월 5일 홈 개막전과 5월 9일 렛두로 시리즈 영상까지 이어져 실제 정규시즌 사용도 확인된다. 한재권은 6월 연합뉴스 인터뷰에서 자신이 올해 만든 곡이며 서울의 의미가 담겨 애착이 간다고 직접 말했다. 편집형 문서는 2019년 ‘서울두산 승리하리라’에 이어 제목·가사에 서울을 넣은 두 번째 팀곡이라고 설명하고, 패배 중에도 틀기 어려웠던 ‘승리를 위하여’를 보완하는 범용 팀곡이라는 팬·문서 평가를 전한다. 2026 공식 플레이리스트 수록으로 현행 핵심 신곡임이 확정된다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2026-03-11 구단 공식 영상에서 신규 팀 응원가로 공개; 2026-03-21 시범경기 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-seoul-reveal-official", "yt-doosan-e-seoul-preseason-field", "yt-doosan-e-seoul-official-playlist"],
+          "notes": "온라인 공식 공개일과 날짜가 특정된 첫 확보 현장 표본을 구분했다. 실제 최초 경기 사용일은 더 이를 수 있다."
+        },
+        {
+          "field": "creator",
+          "value": "한재권 응원단장 제작",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-yonhap-jamsil", "yt-doosan-e-seoul-reveal-official"],
+          "notes": "한재권이 인터뷰에서 ‘올해 만든 서울의 베어스’라고 1인칭으로 언급했다. 세부 작사·작곡·편곡 크레딧은 공개되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 두산 구단 공식 플레이리스트 수록 및 홈 개막전·렛두로 시리즈 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-seoul-official-playlist", "yt-doosan-e-seoul-home-opener", "yt-doosan-e-seoul-retro-field"],
+          "notes": "공식 목록 31:19, 4월 5일 홈 개막전, 5월 9일 현장 표본이 시즌 내 연속성을 보인다."
+        },
+        {
+          "field": "seoulIdentity",
+          "value": "2019년 서울두산 승리하리라에 이어 제목·가사에 서울을 전면화한 두 번째 두산 팀곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-e-namu-cheers", "ev-doosan-e-yonhap-jamsil"],
+          "notes": "두 번째라는 순서는 편집형 문서의 전수 주장이고, 한재권은 서울의 의미를 담았다는 의도를 직접 확인한다."
+        },
+        {
+          "field": "usageRole",
+          "value": "승패와 관계없이 쓸 수 있는 범용 팀곡으로 제작·정착했다는 평가",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-e-namu-cheers", "yt-doosan-e-seoul-standalone", "yt-doosan-e-seoul-field-second"],
+          "notes": "구단의 공식 운영 규정이 아니라 편집형 문서와 현장 팬 반응이 일치하는 수준이다."
+        }
+      ],
+      "usageContexts": [
+        "낮고 비장한 도입에서 서울과 두산의 정체성을 선언하는 주 블록으로 올라가며, 큰 깃발을 좌우로 맞춰 흔드는 전곡형 팀 응원이다.",
+        "공식 안무 영상은 주 블록을 반복한 뒤 승리 열정과 서울 정체성을 강조하는 연결부를 지나 마지막 반복으로 끝내는 참여 동작을 제시한다.",
+        "시범경기 첫 확보 현장에서는 가사 숙지가 덜 된 상태에서도 대형 깃발과 후렴 떼창이 형성됐고, 홈 개막전·렛두로 시리즈로 이어졌다.",
+        "팬들은 승기를 잡았을 때만 자연스러운 기존 승리곡보다 경기 상황을 덜 타는 곡이라고 평가하지만, 공식 운영표는 공개되지 않았다."
+      ],
+      "trivia": [
+        {
+          "id": "seoului-bears-jamsil-last-year",
+          "summary": "2026년은 기존 잠실야구장 마지막 시즌으로 예정되어 있어, 공개 당시 댓글은 새 서울 정체성 곡과 잠실 고별의 감정을 함께 연결했다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-seoul-preseason-field", "ev-doosan-e-yonhap-jamsil"]
+        },
+        {
+          "id": "seoului-bears-reception",
+          "summary": "공식 공개와 독립 음원 댓글에서는 ‘승리를 위하여’와 쌍두마차가 될 것이라는 기대, 현장에서 들으면 더 강하다는 평가, 기존 대표곡보다 임팩트가 약하다는 반론이 함께 나타났다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-seoul-reveal-official", "yt-doosan-e-seoul-standalone", "yt-doosan-e-seoul-field-second"]
+        },
+        {
+          "id": "seoului-bears-creator-affection",
+          "summary": "한재권은 두산을 상징하는 곡으로는 여전히 승리를 위하여를 꼽으면서도, 자신이 만든 서울의 베어스는 서울의 의미 때문에 애착이 간다고 말했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-yonhap-jamsil"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original team cheer; lyric, composition, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=C6HqbI_kNEA&t=404s",
+          "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=1879s",
+          "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "서울과 두산 정체성을 선언하는 다섯 줄 주 블록을 두 번 부른 뒤 승리 열정과 서울을 강조하는 연결부를 거쳐 주 블록을 한 번 더 반복한다. 전문과 장문 발췌는 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-e-seoul-reveal-official",
+        "yt-doosan-e-seoul-official-playlist",
+        "yt-doosan-e-seoul-preseason-field",
+        "yt-doosan-e-seoul-home-opener",
+        "yt-doosan-e-seoul-standalone",
+        "yt-doosan-e-seoul-field-second",
+        "yt-doosan-e-seoul-retro-field"
+      ],
+      "unresolved": [
+        "2026년 최초 경기 사용일과 3월 11일 이전 비공개·시범 운영 여부",
+        "한재권 외 작사·작곡·편곡·보컬·녹음·전광판 영상의 전체 공식 크레딧",
+        "원곡 없는 신규 창작곡인지 외부 선율·샘플이 있는지에 대한 공식 권리 명세",
+        "승패와 무관한 범용 대체곡이라는 운영 의도와 실제 경기별 사용 빈도"
+      ]
+    },
+    {
+      "id": "doosan-bears-ice-on-fire",
+      "title": "Ice On Fire",
+      "aliases": ["아이스 온 파이어", "Ice on Fire(가칭)", "김장훈 응원곡"],
+      "currentStatus": "2025-officially-authorized-situational-song-2026-current-use-needs-review",
+      "summary": "김장훈이 2022년 1월 27일 발표한 헤비메탈 곡을 2025년부터 두산의 상황 응원곡으로 사용한 사례다. 윤일상이 작사·작곡·편곡과 프로듀싱을 맡았고 김장훈 공식 영상이 세부 연주·녹음 크레딧까지 공개한다. 2025년 5월 구단발 보도는 김장훈이 ‘노래만 불렀지’와 ‘ICE ON FIRE’를 두산 응원가로 쓸 수 있도록 직접 허락했다고 명시하므로, 단순 팬 선곡이 아니라 공식 사용권 연계가 확인된다. 편집형 문서는 득점 뒤 처음 또는 분위기가 오를 때 쓰는 2025년 신곡으로 분류한다. 다만 구단 공식 2025·2026 팀 응원가 플레이리스트에는 이 제목이 없고, 2025·2026 팬 목록과 2025 구단 콘서트에서만 직접 표제가 확인된다. 2026 팬 목록에는 남아 있지만 날짜가 특정된 2026 경기 현장 표본은 찾지 못해 현재성은 보수적으로 needs-review로 두었다. ‘허리케인’은 같은 목록에 별도 트랙으로 존재하므로 합치지 않는다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2025 시즌 두산 상황 응원곡으로 도입; 2025-05-22 이전 공식 사용·권리 허락 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-namu-cheers", "ev-doosan-e-kim-permission-news", "yt-doosan-e-ice-fan-2025"],
+          "notes": "정확한 최초 경기일은 없지만 구단발 보도와 시즌 목록이 2025 사용을 독립 확인한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "김장훈 — Ice On Fire; 2022-01-27 발표, 윤일상 작사·작곡·편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-yonhap-ice-release", "ev-doosan-e-apple-ice", "yt-doosan-e-ice-kim-official", "yt-doosan-e-ice-kbs-stage"],
+          "notes": "연합뉴스·Apple Music·김장훈 공식 크레딧·KBS 무대가 발매일, 가수, 장르와 제작자를 교차 확인한다."
+        },
+        {
+          "field": "rightsPermission",
+          "value": "김장훈이 본인 곡의 두산 응원가 사용을 직접 허락",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-kim-permission-news", "yt-doosan-e-ice-official-concert"],
+          "notes": "보도는 구단 발표를 인용한다. 구체적인 계약 기간·매체·편곡 허용 범위는 공개되지 않았다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "득점 직후 처음 또는 경기장 분위기가 오를 때 사용하는 상황곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-e-namu-cheers", "yt-doosan-e-ice-fan-2025"],
+          "notes": "편집형 문서의 운영 설명이며, 공식 경기 운영표와 날짜 특정 현장 영상은 확보하지 못했다."
+        },
+        {
+          "field": "currentUse2026",
+          "value": "2026 팬 플레이리스트에는 남아 있으나 2026 구단 공식 팀곡 목록에는 미수록",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-doosan-e-ice-fan-2026", "yt-doosan-e-hurricane-official-2026", "ev-doosan-e-namu-cheers"],
+          "notes": "상황 음악이라 공식 팀곡 플레이리스트에서 빠질 수 있으므로 미수록만으로 폐기라 단정하지 않았다. 반대로 팬 목록만으로 현행을 확정하지도 않았다."
+        },
+        {
+          "field": "disambiguation",
+          "value": "공식 플레이리스트의 ‘허리케인’과 다른 곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-ice-fan-2025", "yt-doosan-e-ice-fan-2026", "yt-doosan-e-hurricane-official-2026"],
+          "notes": "두 개의 연도별 팬 목록이 두 제목을 각각 다른 시각에 동시 수록한다."
+        }
+      ],
+      "usageContexts": [
+        "원곡의 헤비메탈 기타 리프와 제목 후렴을 짧게 쓰는 득점·분위기 상승용 상황 음악으로 알려져 있다.",
+        "2025 팬 시즌 목록에서는 고정 팀 응원가 묶음 중 별도 트랙으로, 2026 팬 목록에서는 도루·상황 음악 뒤에 별도로 배치된다.",
+        "2025년 5월 김장훈의 잠실 콘서트에서는 원곡 자체가 공식 구단 영상 04:08부터 연주되어 가수와 구단의 직접 연계를 보여 준다.",
+        "구단의 2025·2026 팀 응원가 플레이리스트에는 없으므로 전곡형 팀곡이 아니라 제한된 상황 음악으로 보는 편이 자료와 가장 잘 맞는다."
+      ],
+      "trivia": [
+        {
+          "id": "ice-on-fire-first-metal",
+          "summary": "연합뉴스는 이 곡을 김장훈이 데뷔 32년 만에 처음 시도한 헤비메탈 곡으로 소개했다. 경기장 에너지 음악으로 전용된 배경을 이해하는 데 도움이 된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-yonhap-ice-release", "yt-doosan-e-ice-kim-official"]
+        },
+        {
+          "id": "ice-on-fire-creator-details",
+          "summary": "김장훈 공식 설명은 윤일상이 모든 악기와 코러스 일부까지 맡고, 이근형이 기타, 권남우가 마스터링에 참여했다고 기록한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-e-ice-kim-official"]
+        },
+        {
+          "id": "ice-on-fire-fan-owner-permission",
+          "summary": "김장훈은 오랜 두산 팬으로서 두 곡의 응원가 사용을 허락했고, 같은 시즌 잠실 시구·콘서트에서 Ice On Fire를 직접 불렀다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-kim-permission-news", "yt-doosan-e-ice-official-concert"]
+        },
+        {
+          "id": "ice-on-fire-title-confusion",
+          "summary": "나무위키는 곡명을 가칭처럼 표기하고 공식 팀곡 목록은 허리케인만 싣기 때문에 두 항목이 합쳐지기 쉽다. 그러나 2025·2026 팬 타임라인은 둘을 계속 분리한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-e-namu-cheers", "yt-doosan-e-ice-fan-2025", "yt-doosan-e-ice-fan-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted commercial song officially reported as authorized for Doosan cheer use; exact contractual scope and redistribution rights are not public",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=rv6N71n3B_o",
+          "https://www.youtube.com/watch?v=4VGejhQpQ0Y&t=248s",
+          "https://www.sportsseoul.com/news/read/1517777",
+          "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡은 절제된 보컬과 기타 리프에서 제목을 반복하는 헤비메탈 후렴으로 올라가는 구조다. 두산 사용본은 상황용으로 짧게 편집된 것으로 보이나 별도 개사 여부는 확인되지 않았고, 원곡·응원 음원의 가사는 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-e-ice-fan-2025",
+        "yt-doosan-e-ice-carol-2025",
+        "yt-doosan-e-ice-fan-2026",
+        "yt-doosan-e-ice-official-concert",
+        "yt-doosan-e-ice-kim-official",
+        "yt-doosan-e-ice-kbs-stage",
+        "yt-doosan-e-ice-mnet-stage"
+      ],
+      "unresolved": [
+        "2025년 두산에서 처음 사용한 경기와 경기장 편집본의 최초 재생일",
+        "2026 정규시즌 날짜가 특정된 직접 현장 사용 표본과 현재 운영 지속 여부",
+        "득점 직후·분위기 상승이라는 상황 규칙의 공식 운영표와 실제 사용 빈도",
+        "원곡 그대로인지 별도 두산 편집·편곡·개사·재녹음판인지 및 전체 제작 크레딧",
+        "김장훈의 사용 허락이 공연·전광판·온라인 배포·편곡을 어디까지 포함하는지에 대한 계약 범위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-doosan-e-namu-cheers",
+      "type": "community-reference",
+      "url": "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "두산 베어스/응원가",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "해야 해야의 2014 도입·김학래 원곡·발음과 흰 수건 응원, 허슬두의 2004년 이상 연혁·초중반/투수 교체 사용·후대 빈도 변화, Ice On Fire의 2025 도입·김장훈 원곡·득점 뒤 사용, 서울의 베어스의 2026 도입·서울 제목 계보·범용성 평가를 대조했다. 같은 문서 목차에서 공식 현행곡 허리케인이 별도 항목으로 보이지 않는 누락도 기록했다. 가사 전문은 옮기지 않았고 단독 세부 관행은 reported로 낮췄다.",
+      "supports": ["haeya.historyOriginalUsage", "hurricane.catalogGap", "hustle.historyUsage", "seoul.historyUsage", "ice.historyUsage"]
+    },
+    {
+      "id": "ev-doosan-e-bugs-haeya",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/track/1965755",
+      "title": "해야해야/김학래",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "김학래의 ‘해야해야’를 앨범 ‘청춘시대 - 내 인생의 노래’ 수록 3분 39초 곡으로 식별한다. 서비스가 제공하는 가사 전문은 저장하지 않았다.",
+      "supports": ["haeya.originalTitleArtist", "haeya.originalRecording"]
+    },
+    {
+      "id": "ev-doosan-e-bugs-haeya-cover",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/track/31616521",
+      "title": "해야 해야/이창민",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "후대 리메이크 참여 정보가 원작자를 김학래 작사·김학래 작곡으로 명시한다. 원곡 페이지에서 빠진 작가 크레딧을 교차 보강한다.",
+      "supports": ["haeya.originalLyricist", "haeya.originalComposer"]
+    },
+    {
+      "id": "ev-doosan-e-officialcharts-hurricane",
+      "type": "chart-primary",
+      "url": "https://www.officialcharts.com/songs/scorpions-rock-you-like-a-hurricane/",
+      "title": "ROCK YOU LIKE A HURRICANE",
+      "publisher": "Official Charts Company",
+      "publishedAt": "1984-02-11",
+      "accessedAt": "2026-08-09",
+      "summary": "Scorpions의 ‘Rock You Like a Hurricane’가 1984년 2월 영국 차트에 진입한 상업곡임을 확인한다. 두산 허리케인의 유력 원곡 연도·공식 영문 표기를 보조하지만 두산 사용 관계는 이 자료만으로 확정하지 않았다.",
+      "supports": ["hurricane.reportedOriginalTitle", "hurricane.originalReleaseYear"]
+    },
+    {
+      "id": "ev-doosan-e-hustle-term-news",
+      "type": "media",
+      "url": "https://www.fnnews.com/news/202505280830369519",
+      "title": "연세유업, 두산 베어스 협업 2탄 '허슬두 생크림빵' 출시",
+      "publisher": "파이낸셜뉴스·뉴스1",
+      "publishedAt": "2025-05-28",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 협업 상품 보도가 ‘허슬두’를 허슬 플레이와 두산을 결합한 두산 상징어이자 팬의 응원 표현으로 정의한다. 곡 연혁이 아니라 제목의 문화적 의미를 확인하는 자료다.",
+      "supports": ["hustle.nameMeaning", "hustle.brandExpansion"]
+    },
+    {
+      "id": "ev-doosan-e-hustle-origin-feature",
+      "type": "media-feature",
+      "url": "https://v.daum.net/v/KuUmEfZdVE",
+      "title": "‘허슬두’의 기원…누구도 믿지 않았던 김경문의 KS 호언장담",
+      "publisher": "다음 뉴스·이재국",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "2005년을 ‘허슬두’가 두산을 상징하는 단어로 전면 등장한 원년으로 설명하고 당시 팬 응원과 팀 컬러를 연결한다. 응원가의 정확한 도입일과 용어의 정착 시점을 구분해 사용했다.",
+      "supports": ["hustle.termHistory", "hustle.2005Context"]
+    },
+    {
+      "id": "ev-doosan-e-yonhap-jamsil",
+      "type": "media-interview",
+      "url": "https://www.yna.co.kr/amp/view/AKR20260621045900007",
+      "title": "[굿바이 잠실] ④거친 함성을 하나의 문화로…응원의 메카 잠실",
+      "publisher": "연합뉴스",
+      "publishedAt": "2026-06-21",
+      "accessedAt": "2026-08-09",
+      "summary": "한재권 두산 응원단장이 두산의 대표곡으로 승리를 위하여를 꼽고, 자신이 2026년에 만든 서울의 베어스도 팬들이 좋아하며 서울의 의미가 담겨 애착이 간다고 직접 설명한다. 제작자·연도·의도를 확인하는 1인칭 자료다.",
+      "supports": ["seoul.creator", "seoul.introductionYear", "seoul.seoulIdentity", "seoul.creatorReception"]
+    },
+    {
+      "id": "ev-doosan-e-kim-permission-news",
+      "type": "club-announcement-report",
+      "url": "https://www.sportsseoul.com/news/read/1517777",
+      "title": "두산, 24일 NC전 가수 김장훈 ‘승리기원 시구’ 및 ‘콘서트’ 진행",
+      "publisher": "스포츠서울",
+      "publishedAt": "2025-05-22",
+      "accessedAt": "2026-08-09",
+      "summary": "두산 구단 발표를 인용해 원년 팬 김장훈이 자신의 ‘노래만 불렀지’와 ‘ICE ON FIRE’를 두산 응원가로 쓰도록 흔쾌히 허락했다고 명시한다. 김장훈의 시구·콘서트와 구단 연계를 함께 확인한다.",
+      "supports": ["ice.officialUsePermission", "ice.kimFandom", "ice.officialAssociation2025"]
+    },
+    {
+      "id": "ev-doosan-e-yonhap-ice-release",
+      "type": "media-release-metadata",
+      "url": "https://www.yna.co.kr/view/AKR20220127065300005",
+      "title": "김장훈, 데뷔 32년 만에 첫 헤비메탈…'아이스 온 파이어' 발표",
+      "publisher": "연합뉴스",
+      "publishedAt": "2022-01-27",
+      "accessedAt": "2026-08-09",
+      "summary": "김장훈이 2022년 1월 27일 Ice On Fire를 발표했으며 윤일상이 작사·작곡·편곡을 맡은, 데뷔 32년 만의 첫 헤비메탈 곡이라고 보도한다.",
+      "supports": ["ice.originalReleaseDate", "ice.writerArranger", "ice.genre"]
+    },
+    {
+      "id": "ev-doosan-e-apple-ice",
+      "type": "music-metadata",
+      "url": "https://music.apple.com/kr/album/ice-on-fire-single/1607234159",
+      "title": "Ice On Fire - Single",
+      "publisher": "Apple Music",
+      "publishedAt": "2022-01-27",
+      "accessedAt": "2026-08-09",
+      "summary": "김장훈의 싱글을 2022년 1월 27일 발매, 2곡 6분, Concert World 및 Kakao Entertainment 라이선스 음원으로 식별한다.",
+      "supports": ["ice.releaseDate", "ice.releaseRightsMetadata"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-doosan-e-haeya-official-2026",
+      "songId": "doosan-bears-haeya-haeya",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27T02:01:17-07:00",
+      "descriptionSummary": "구단의 2026 공식 팀 응원가 목록이 해야와 구분해 해야 해야를 26:35 독립 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 승리를 위하여·야야야 두산·해야로 이어지는 메들리를 선호하고 새 시즌 대표곡을 복습한다.", "처음 직관한 시청자는 관중 응원에 감격해 공식 목록으로 곡을 외우겠다고 반응한다."],
+      "supports": ["haeya.currentOfficial2026", "haeya.disambiguation", "haeya.learningUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-haeya-official-2025",
+      "songId": "doosan-bears-haeya-haeya",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-21T17:00:19-07:00",
+      "descriptionSummary": "구단의 2025 공식 목록이 해야를 25:00, 해야 해야를 26:29로 각각 구분해 싣는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 비공식 업로드에 의존하던 팀 음원을 구단이 정리한 점을 반기고 직관 전 학습에 사용한다.", "여러 시청자가 해야의 별도 공식 수록 시각을 공유하며 두 곡의 부활·유지를 확인한다."],
+      "supports": ["haeya.currentOfficial2025", "haeya.disambiguation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-haeya-official-audio-2016",
+      "songId": "doosan-bears-haeya-haeya",
+      "url": "https://www.youtube.com/watch?v=UQn_YeMh_n8",
+      "videoId": "UQn_YeMh_n8",
+      "title": "[음원]두산 베어스  응원가 - 해야해야",
+      "channel": "두산베어스",
+      "publishedAt": "2016-01-02T05:33:20-08:00",
+      "descriptionSummary": "두산 명의 업로더가 106초 공식 음원을 공개하며 첫 구호의 흔한 오창을 지적하고 ‘헤이 헤이 해야’를 맞는 발음으로 안내한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 역전 뒤나 분위기 최고조에서 전주·북소리·합창이 특히 웅장하다고 평가한다.", "롯데 팬을 자처한 시청자도 현장에서 들은 뒤 곡을 찾아왔고, 여러 댓글은 두산 대표곡 가운데 가장 좋아한다고 반응한다."],
+      "supports": ["haeya.officialAudio", "haeya.pronunciation", "haeya.usageReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-haeya-early-2014",
+      "songId": "doosan-bears-haeya-haeya",
+      "url": "https://www.youtube.com/watch?v=SLGUrACFZoU",
+      "videoId": "SLGUrACFZoU",
+      "title": "두산베어스 응원가  해야해야 (10.12)",
+      "channel": "wowowo",
+      "publishedAt": "2014-12-05T20:48:00-08:00",
+      "descriptionSummary": "설명이 분위기를 이끄는 응원가라고 소개하고 제목이 10월 12일 현장임을 표시한 96초 초기 사용 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["LG 등 타 구단 팬을 자처한 댓글이 두산 응원의 재미와 선율을 높게 평가한다.", "한 시청자는 해당 경기의 점수와 선수 활약을 구체적으로 기억하고, 다른 시청자는 원곡을 질문한다."],
+      "supports": ["haeya.fieldUse2014", "haeya.earlyReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-haeya-ks-2018",
+      "songId": "doosan-bears-haeya-haeya",
+      "url": "https://www.youtube.com/watch?v=ziOAmkOwE0U",
+      "videoId": "ziOAmkOwE0U",
+      "title": "한국시리즈 2차전 두산베어스 응원가 해야 20181105",
+      "channel": "잭참새",
+      "publishedAt": "2018-11-05T07:35:32-08:00",
+      "descriptionSummary": "2018년 11월 5일 한국시리즈 2차전에서 두산의 해야 해야를 촬영한 74초 현장 기록이다. 제목의 ‘해야’는 영상·댓글상 해야 해야를 가리킨다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 흰 풍선과 깃발이 만든 관중석의 흰 물결과 당시 응원 규모를 그리워한다.", "제목과 첫 구호의 발음을 바로잡는 반응, 두산 응원가 중 가장 좋아한다는 반응이 반복된다."],
+      "supports": ["haeya.ks2018Use", "haeya.whiteWave", "haeya.pronunciationReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-haeya-ks-2019",
+      "songId": "doosan-bears-haeya-haeya",
+      "url": "https://www.youtube.com/watch?v=etGGP3PpbU0",
+      "videoId": "etGGP3PpbU0",
+      "title": "2019 KS 3차전 두산 해야해야 응원가 떼창",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2021-02-03T01:10:42-08:00",
+      "descriptionSummary": "업로더가 직접 촬영한 2019 한국시리즈 3차전 1루 응원석의 해야 해야 47초 떼창이며 재배포 금지를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["두산 팬은 원정에서도 잠실처럼 들릴 만큼 큰 함성을 회상한다.", "키움 팬을 자처한 시청자는 상대 팀 응원가임에도 완성도를 인정한다."],
+      "supports": ["haeya.ks2019Use", "haeya.awayCrowd", "haeya.crossTeamReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-haeya-original-kbs",
+      "songId": "doosan-bears-haeya-haeya",
+      "url": "https://www.youtube.com/watch?v=jNL_mJSCjx8",
+      "videoId": "jNL_mJSCjx8",
+      "title": "김학래(Kim Hak Rae) - 해야 해야 [쇼특급] | KBS 19880102 방송",
+      "channel": "Again 가요톱10 : KBS KPOP Classic",
+      "publishedAt": "2023-01-01T23:34:45-08:00",
+      "descriptionSummary": "KBS가 1988년 1월 2일 쇼특급의 김학래 원곡 무대를 공식 아카이브로 공개한다. 설명의 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 지금 들어도 중독성 있고 청춘의 메시지가 살아 있는 명곡이라고 평가한다.", "1980년대 한국 체류 중 들었던 곡을 수십 년 뒤 다시 찾았다는 해외 시청자와 세대별 추억 반응이 함께 남았다."],
+      "supports": ["haeya.originalArtist", "haeya.originalBroadcastArchive", "haeya.originalReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hurricane-official-2026",
+      "songId": "doosan-bears-hurricane",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27T02:01:17-07:00",
+      "descriptionSummary": "구단의 2026 공식 목록이 허리케인을 28:19 독립 챕터로 싣고, 해야 해야와 허슬두 사이에 배치한다. Ice On Fire라는 제목은 공식 챕터에 없다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 공식 목록을 새 시즌 직관 전 복습 자료로 사용하고 잠실 마지막 시즌의 좋은 성적을 기원한다.", "댓글은 오래된 대표곡의 메들리 순서와 누락된 곡을 토론하지만 허리케인 원곡 크레딧을 공식적으로 제공하지 않는다."],
+      "supports": ["hurricane.currentOfficial2026", "hurricane.officialTitle", "ice.officialCatalogGap2026"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hurricane-official-2025",
+      "songId": "doosan-bears-hurricane",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-21T17:00:19-07:00",
+      "descriptionSummary": "구단의 2025 공식 목록이 허리케인을 28:15 독립 챕터로 표기한다. 같은 목록에는 Ice On Fire 제목이 없다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 구단이 팀 음원을 한데 모은 점을 반기고 직관 전 반복 재생에 활용한다.", "팬들이 원하던 응원가를 부활시키고 목록을 정리한 구단 운영을 긍정적으로 평가하는 반응이 많다."],
+      "supports": ["hurricane.currentOfficial2025", "hurricane.officialTitle", "ice.officialCatalogGap2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hurricane-fan-2025",
+      "songId": "doosan-bears-hurricane",
+      "url": "https://www.youtube.com/watch?v=0puX0s4Bmjs",
+      "videoId": "0puX0s4Bmjs",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 Hustle DOOgether, 다시 허슬두! 2025시즌 두산 베어스 등장곡 & 응원가 모음집",
+      "channel": "Civa",
+      "publishedAt": "2025-10-04T06:36:37-07:00",
+      "descriptionSummary": "2025 시즌 팬 정리 목록이 Ice on Fire를 11:14, 허리케인을 23:08에 별도 트랙으로 동시에 수록하고 비수익·권리자 귀속을 고지한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 선수·팀곡 타임라인의 세부 수정을 제안하며 시즌 종료 뒤 전체 목록을 보존하는 용도로 영상을 사용한다.", "곡 자체에 관한 충분한 팬 평가보다는 선수 이동과 등장곡 갱신 논의가 중심이다."],
+      "supports": ["hurricane.2025FanCatalog", "hurricane.iceDisambiguation", "hurricane.trackDuration"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hurricane-archive-2015",
+      "songId": "doosan-bears-hurricane",
+      "url": "https://www.youtube.com/watch?v=Cft3_psCdcw",
+      "videoId": "Cft3_psCdcw",
+      "title": "두산베어스 팀응원가 - 허리케인",
+      "channel": "잭참새",
+      "publishedAt": "2015-10-28T08:00:00-07:00",
+      "descriptionSummary": "2015년 10월 28일 게시된 85초 두산 팀 응원가 영상이다. 설명은 일반적인 한 단어뿐이고 원곡·촬영일·제작 정보가 없어 출처 품질에 한계가 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["hurricane.pre2025Existence", "hurricane.archiveQualityWarning"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hurricane-scoreboard-april-2026",
+      "songId": "doosan-bears-hurricane",
+      "url": "https://www.youtube.com/watch?v=RUA0-Blztr4",
+      "videoId": "RUA0-Blztr4",
+      "title": "2026 4월판 두산베어스 잠실 전광판 버전 응원가 모음",
+      "channel": "브이의지",
+      "publishedAt": "2026-04-27T06:42:53-07:00",
+      "descriptionSummary": "4월 26일 기준 잠실 전광판 재현 목록이 허리케인을 49:02에 배치하고 서울의 베어스·허슬두 등과 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["새로 두산에 입문한 시청자는 목록으로 응원곡을 모두 외우겠다고 반응한다.", "팬들은 실제 야구장과 비슷한 구성과 정리 품질을 높게 평가하고 최신 선수·화면 수정을 제안한다."],
+      "supports": ["hurricane.currentFanCatalogApril2026", "hurricane.sequence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hurricane-scoreboard-may-2026",
+      "songId": "doosan-bears-hurricane",
+      "url": "https://www.youtube.com/watch?v=7RcLrKhhcvg",
+      "videoId": "7RcLrKhhcvg",
+      "title": "2026 5월판 두산베어스 잠실 전광판 버전 응원가 모음",
+      "channel": "브이의지",
+      "publishedAt": "2026-05-04T03:07:20-07:00",
+      "descriptionSummary": "5월 3일 기준 전광판 재현 목록이 허리케인을 50:52에 수록하고 허슬두·다 함께 허슬두를 별도 항목으로 둔다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 출퇴근·직관 전 학습·야구장 대리 체험용으로 목록을 반복 재생한다.", "댓글은 변경된 선수 등장곡과 원곡 정보를 서로 보완하며 다음 판의 갱신을 요청한다."],
+      "supports": ["hurricane.currentFanCatalogMay2026", "hurricane.sequence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hurricane-original-scorpions",
+      "songId": "doosan-bears-hurricane",
+      "url": "https://www.youtube.com/watch?v=6yP1tcy9a10",
+      "videoId": "6yP1tcy9a10",
+      "title": "Scorpions - Rock You Like A Hurricane (Official Music Video)",
+      "channel": "ScorpionsVEVO",
+      "publishedAt": "2009-12-25T00:04:06-08:00",
+      "descriptionSummary": "Scorpions 공식 뮤직비디오가 원곡을 1984년 저작물로 표기한다. 두산 허리케인과의 직접 권리 관계는 공식 설명에 없다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 1980년대 하드록의 대표성과 수십 년이 지나도 유지되는 곡의 에너지를 높게 평가한다.", "최근 영화·대중문화에서 곡을 다시 발견한 세대와 당시를 추억하는 세대가 함께 반응한다."],
+      "supports": ["hurricane.reportedOriginal", "hurricane.originalOfficialVideo", "hurricane.originalYear"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hustle-official-2026",
+      "songId": "doosan-bears-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27T02:01:17-07:00",
+      "descriptionSummary": "구단의 2026 공식 목록이 다 함께 허슬두를 06:40, 허슬두를 29:49에 서로 다른 곡으로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 2026년 선수들이 끝까지 끈질긴 허슬두 야구를 보여 주기를 바란다.", "공식 목록을 새 시즌 학습 자료로 쓰며 오래된 팀곡의 유지와 왕조 부활을 기대한다."],
+      "supports": ["hustle.currentOfficial2026", "hustle.separateFromTogether"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hustle-official-2025",
+      "songId": "doosan-bears-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-21T17:00:19-07:00",
+      "descriptionSummary": "구단의 2025 공식 목록이 다 함께 허슬두를 06:40, 허슬두를 29:46에 독립 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 구단이 공식 음원을 정리해 준 점을 선물처럼 받아들이고 경기 전 반복 재생한다.", "부활곡과 오래된 팀곡을 한 목록에서 들을 수 있게 된 운영 변화를 긍정적으로 평가한다."],
+      "supports": ["hustle.currentOfficial2025", "hustle.separateFromTogether"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hustle-archive-2015",
+      "songId": "doosan-bears-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=fCg04MlI3zc",
+      "videoId": "fCg04MlI3zc",
+      "title": "두산베어스 팀응원가  허슬두",
+      "channel": "잭참새",
+      "publishedAt": "2015-11-09T07:00:00-08:00",
+      "descriptionSummary": "2015년 11월 게시된 84초 허슬두 팀 응원가 표본이다. 설명은 일반적인 한 단어뿐이라 제작·촬영 맥락은 제공하지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 곡이 좋다는 짧은 긍정 반응과 확인성 답변뿐이다."],
+      "supports": ["hustle.circulation2015", "hustle.trackLength"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hustle-archive-2005",
+      "songId": "doosan-bears-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=pVLgJe_7rWw",
+      "videoId": "pVLgJe_7rWw",
+      "title": "허슬두(2005ver)",
+      "channel": "올드베어스",
+      "publishedAt": "2025-02-20T19:00:44-08:00",
+      "descriptionSummary": "업로더가 2005 버전으로 식별한 92초 옛 전광판·응원 음원 복원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬들은 2005 선수단과 구 마스코트를 구체적으로 기억하며 20년 전 야구장 경험을 회상한다.", "3루에서 본 막대풍선 회전이 장관이었고 곡이 두산 팀 컬러에 잘 맞았다는 반응이 남았다."],
+      "supports": ["hustle.2005Version", "hustle.oldScoreboard", "hustle.visualCheerMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hustle-audio-2025",
+      "songId": "doosan-bears-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=qQUvle_EdGY",
+      "videoId": "qQUvle_EdGY",
+      "title": "〔 두산 베어스 응원가 『 허슬두 』 〕",
+      "channel": "OLIO〔 CY GROUP 〕",
+      "publishedAt": "2025-03-28T20:36:48-07:00",
+      "descriptionSummary": "2025년 3월 허슬두 제목과 두산·KBO 응원가 태그를 붙여 공개한 93초 독립 음원 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["hustle.independentAudio2025", "hustle.trackLength"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hustle-scoreboard-2026",
+      "songId": "doosan-bears-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=RUA0-Blztr4",
+      "videoId": "RUA0-Blztr4",
+      "title": "2026 4월판 두산베어스 잠실 전광판 버전 응원가 모음",
+      "channel": "브이의지",
+      "publishedAt": "2026-04-27T06:42:53-07:00",
+      "descriptionSummary": "4월 26일 기준 전광판 재현 목록이 허슬두를 1:01:00, 다함께 허슬두를 1:03:58에 별도 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["새 팬은 이 목록으로 응원곡을 배우고, 기존 팬은 노동요처럼 반복 재생한다고 반응한다.", "댓글은 실제 운영처럼 느껴지는 정리 품질을 칭찬하면서 최신 선수·순서 수정을 제보한다."],
+      "supports": ["hustle.currentFanCatalog2026", "hustle.separateFromTogether", "hustle.scoreboardContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-hustle-blog-linked-2025",
+      "songId": "doosan-bears-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=lFPrc2vdniQ",
+      "videoId": "lFPrc2vdniQ",
+      "title": "[두산 베어스 응원가] 허슬두",
+      "channel": "최강 두산이잖아",
+      "publishedAt": "2025-11-21T22:17:58-08:00",
+      "descriptionSummary": "93초 허슬두 음원과 관련 네이버 블로그 링크를 제공하는 후대 독립 표본이다. 설명에 제작 크레딧은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["hustle.fanCirculation2025", "hustle.independentTitleConfirmation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-seoul-reveal-official",
+      "songId": "doosan-bears-seoului-bears",
+      "url": "https://www.youtube.com/watch?v=C6HqbI_kNEA",
+      "videoId": "C6HqbI_kNEA",
+      "title": "26시즌 NEW 응원가 大공개‼️직관 전 빠르게 예습하기📖 [베어스티비]",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-11T02:00:13-07:00",
+      "descriptionSummary": "구단이 2026 신규 선수곡과 함께 06:44부터 NEW 팀 응원가 서울의 베어스를 공식 최초 공개하고 안무를 시연한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 팀곡이 현장 떼창에서 크게 터질 것이라 기대하고 승리를 위하여와 쌍두마차가 될 수 있다고 평가한다.", "일부는 옛 응원가 재활용도 원하지만 서울의 베어스 자체는 잘 만들었다는 반응이 우세하다."],
+      "supports": ["seoul.officialIntroductionMarch11", "seoul.choreography", "seoul.initialReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-seoul-official-playlist",
+      "songId": "doosan-bears-seoului-bears",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27T02:01:17-07:00",
+      "descriptionSummary": "구단의 2026 공식 전체 목록이 서울의 베어스를 31:19 독립 팀 응원가로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 공식 플레이리스트로 새 곡을 익히고 잠실 마지막 시즌에 오래 야구하기를 기원한다.", "처음 야구를 본 시청자는 현장 응원에 매료되어 전곡을 외우겠다고 반응한다."],
+      "supports": ["seoul.currentOfficial2026", "seoul.officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-seoul-preseason-field",
+      "songId": "doosan-bears-seoului-bears",
+      "url": "https://www.youtube.com/watch?v=baGl7wREOVE",
+      "videoId": "baGl7wREOVE",
+      "title": "🐻‍❄️2026 신규 팀응원가 직캠!!🐻‍❄️ 이번엔 선수가 아닌 팀 응원가!! 두산 신규 팀 응원가 \"서울의 베어스\" 떼창 현장 직캠! (260321 두산 시범경기 vs KIA)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2026-03-21T02:47:01-07:00",
+      "descriptionSummary": "2026년 3월 21일 KIA 시범경기에서 신규 팀 응원가의 잠실 떼창과 대형 깃발을 촬영한 138초 현장 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 가사를 덜 익힌 시범경기인데도 합창과 깃발 동작이 이미 크게 맞았다고 놀란다.", "영상보다 현장의 낮은 음역과 함성이 더 크고 신났으며 익숙해지면 더 강해질 것이라는 반응이 반복된다."],
+      "supports": ["seoul.fieldUseMarch21", "seoul.flagChoreography", "seoul.earlyReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-seoul-home-opener",
+      "songId": "doosan-bears-seoului-bears",
+      "url": "https://www.youtube.com/watch?v=MDk-OLqkwCI",
+      "videoId": "MDk-OLqkwCI",
+      "title": "두산 베어스 신규 팀 응원가 - 서울의 베어스 | 2026홈개막전",
+      "channel": "LEE르디",
+      "publishedAt": "2026-04-05T06:49:46-07:00",
+      "descriptionSummary": "2026 홈 개막전에서 서울의 베어스를 촬영한 100초 현장 표본으로 정규시즌 홈 사용을 제목이 직접 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["seoul.homeOpenerUse", "seoul.regularSeasonUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-seoul-standalone",
+      "songId": "doosan-bears-seoului-bears",
+      "url": "https://www.youtube.com/watch?v=cVFJmHK79hQ",
+      "videoId": "cVFJmHK79hQ",
+      "title": "서울의 베어스 - 두산베어스 팀 응원가",
+      "channel": "정신차려이각박한세상속에서",
+      "publishedAt": "2026-03-12T05:49:03-07:00",
+      "descriptionSummary": "공식 공개 다음 날 신규 2026 두산 팀 응원가라고 명시해 올린 120초 독립 음원 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["두산·타 구단 팬 모두 웅장함과 현장 깃발 떼창을 높게 평가하고 대표곡이 될 수 있다고 반응한다.", "상황을 덜 타는 범용성이 좋다는 평가와 승리를 위하여보다 임팩트가 약하다는 비교가 함께 있다."],
+      "supports": ["seoul.independentAudio", "seoul.reception", "seoul.versatilityReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-seoul-field-second",
+      "songId": "doosan-bears-seoului-bears",
+      "url": "https://www.youtube.com/watch?v=uhnm7qf9UBg",
+      "videoId": "uhnm7qf9UBg",
+      "title": "서울을 울렸다! 두산베어스 신규 응원가 “서울의 베어스” 잠실 떼창🔥",
+      "channel": "날려버려쿵쿵",
+      "publishedAt": "2026-03-21T04:40:37-07:00",
+      "descriptionSummary": "같은 3월 21일 잠실 현장의 신규곡 떼창과 깃발 응원을 다른 각도에서 기록하고 현장 분위기를 강조한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 깃발의 동시 동작과 떼창을 높이 평가하며 가을야구에서 흰 물결로 부르기를 기대한다.", "곡은 좋지만 기존 대표곡보다 임팩트가 약하다는 의견과 서울 제목의 정체성을 둘러싼 타 구단 팬 논쟁도 있다."],
+      "supports": ["seoul.fieldUseMarch21Independent", "seoul.flagReception", "seoul.mixedReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-seoul-retro-field",
+      "songId": "doosan-bears-seoului-bears",
+      "url": "https://www.youtube.com/watch?v=M6b0urcD6Wo",
+      "videoId": "M6b0urcD6Wo",
+      "title": "[렛두로 씨리즈] 두산베어스 팀 응원가 \"서울의 베어스\" 20260509",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-05-09T09:00:44-07:00",
+      "descriptionSummary": "2026년 5월 9일 렛두로 시리즈에서 서울의 베어스를 촬영한 121초 현장 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["seoul.fieldUseMay9", "seoul.seasonContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-ice-fan-2025",
+      "songId": "doosan-bears-ice-on-fire",
+      "url": "https://www.youtube.com/watch?v=0puX0s4Bmjs",
+      "videoId": "0puX0s4Bmjs",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 Hustle DOOgether, 다시 허슬두! 2025시즌 두산 베어스 등장곡 & 응원가 모음집",
+      "channel": "Civa",
+      "publishedAt": "2025-10-04T06:36:37-07:00",
+      "descriptionSummary": "2025 시즌 팬 목록이 Ice on Fire를 11:14, 허리케인을 23:08에 별도 수록해 두산 사용과 두 곡의 분리를 동시에 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 시즌 전체 선수·팀곡 타임라인을 보존하고 변경된 등장곡을 갱신하는 데 집중한다.", "곡별 감상보다 시즌 명단과 선수 이동 보정이 많아 사용 상황을 단독으로 확정하기에는 한계가 있다."],
+      "supports": ["ice.2025FanCatalog", "ice.hurricaneDisambiguation", "ice.stadiumEdit"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-ice-carol-2025",
+      "songId": "doosan-bears-ice-on-fire",
+      "url": "https://www.youtube.com/watch?v=K3kRNaUuJ1g",
+      "videoId": "K3kRNaUuJ1g",
+      "title": "메리 두리스마스🐻두산베어스 응원가 2025 캐롤 Ver🎄𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2025-12-05T00:59:19-08:00",
+      "descriptionSummary": "2025 두산 응원가를 캐럴 버전으로 재편한 팬 목록이 Ice On Fire를 44:03, 두산 승리하리라를 44:51에 따로 싣는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 겨울에도 야구장과 개막을 기다리며 캐럴 편곡의 완성도를 높게 평가한다.", "곡별 타임스탬프를 공유하고 다음 시즌 직관을 기다린다는 반응이 중심이다."],
+      "supports": ["ice.fanCirculationLate2025", "ice.independentTitle"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-ice-fan-2026",
+      "songId": "doosan-bears-ice-on-fire",
+      "url": "https://www.youtube.com/watch?v=Z3Ds5ibvxd4",
+      "videoId": "Z3Ds5ibvxd4",
+      "title": "[Playlist] TIME TO MOVE ON! 2026 두산 베어스 응원가 플레이리스트",
+      "channel": "Civa",
+      "publishedAt": "2026-06-29T20:15:04-07:00",
+      "descriptionSummary": "2026년 6월 28일 기준 팬 목록이 허리케인을 21:36, Ice on Fire를 50:30에 별도 수록한다. 공식 구단 목록이 아닌 팬 정리다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 세밀한 타임라인과 최신 선수 갱신을 고마워하며 학습·수면·일상 재생에 사용한다.", "한 댓글은 허리케인의 원곡을 Scorpions로 지목해 Ice On Fire와 별개임을 다시 강조한다."],
+      "supports": ["ice.fanCatalog2026", "ice.hurricaneDisambiguation", "hurricane.reportedOriginal"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-ice-official-concert",
+      "songId": "doosan-bears-ice-on-fire",
+      "url": "https://www.youtube.com/watch?v=4VGejhQpQ0Y",
+      "videoId": "4VGejhQpQ0Y",
+      "title": "렛-두로 씨리즈 야자★콘서트 직캠",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-05-26T23:16:33-07:00",
+      "descriptionSummary": "구단이 2025년 렛두로 시리즈 뒤 김장훈 콘서트를 공식 공개하며 Ice On Fire를 04:08 독립 공연곡으로 싣는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 경기 패배 뒤에도 콘서트와 합창이 분위기를 살렸고 오래 기억할 낭만적인 장면이었다고 회상한다.", "타 구단 팬도 두산 관중의 경기 결과와 무관한 응원과 공연 문화를 긍정적으로 평가한다."],
+      "supports": ["ice.officialClubAssociation", "ice.kimConcert2025", "ice.livePerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-ice-kim-official",
+      "songId": "doosan-bears-ice-on-fire",
+      "url": "https://www.youtube.com/watch?v=rv6N71n3B_o",
+      "videoId": "rv6N71n3B_o",
+      "title": "김장훈×윤일상 신곡 'Ice on fire' lyrics #헤비메탈 #동계올림픽 #kimjanghoon #숲튽훈",
+      "channel": "김장훈 TV",
+      "publishedAt": "2022-01-27T08:36:06-08:00",
+      "descriptionSummary": "김장훈이 신곡 공개와 함께 윤일상의 작사·작곡·편곡·프로듀싱, 이근형 기타, 녹음·믹싱·마스터링 크레딧을 직접 제공한다. 설명의 가사·장문 원문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["두산 팬은 짧게 팀 구호를 남겨 후대 경기장 사용과의 역방향 발견을 보여 준다.", "일반 청자는 기타 리프와 중독성, 거친 음색을 높게 평가하며 헤비메탈 분류를 두고 다양한 반응을 보인다."],
+      "supports": ["ice.originalCredits", "ice.releaseDate", "ice.genre", "ice.doosanReverseDiscovery"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-ice-kbs-stage",
+      "songId": "doosan-bears-ice-on-fire",
+      "url": "https://www.youtube.com/watch?v=yHRnZB-xtQk",
+      "videoId": "yHRnZB-xtQk",
+      "title": "Ice On Fire - 김장훈(Kim Jang Hoon) x 롤링쿼츠(Rolling Quartz) [뮤직뱅크/Music Bank] | KBS 220204 방송",
+      "channel": "KBS Kpop",
+      "publishedAt": "2022-02-04T01:41:02-08:00",
+      "descriptionSummary": "KBS가 2022년 2월 4일 뮤직뱅크의 김장훈·롤링쿼츠 Ice On Fire 무대를 공식 아카이브로 공개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 강한 사운드와 중독성 있는 선율, 김장훈과 롤링쿼츠의 조합을 긍정적으로 평가한다.", "동계올림픽의 열정과 연결해 들었다는 당시 반응도 남아 곡의 원래 홍보 맥락을 보여 준다."],
+      "supports": ["ice.originalBroadcast", "ice.rollingQuartzStage", "ice.originalReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-e-ice-mnet-stage",
+      "songId": "doosan-bears-ice-on-fire",
+      "url": "https://www.youtube.com/watch?v=JLtondYzCGQ",
+      "videoId": "JLtondYzCGQ",
+      "title": "[Kim Jang Hoon x Rolling Quartz - Ice On Fire] Comeback Stage | #엠카운트다운 EP.739 | Mnet 220210 방송",
+      "channel": "Mnet K-POP",
+      "publishedAt": "2022-02-10T02:18:48-08:00",
+      "descriptionSummary": "Mnet이 2022년 2월 10일 엠카운트다운에서 김장훈과 롤링쿼츠가 선보인 강렬한 헤비메탈 컴백 무대를 공식 공개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 도입부터 중독성이 강하고 두 보컬의 조합이 좋다고 평가한다.", "롤링쿼츠의 연주·무대 에너지와 김장훈의 협업 홍보를 높게 보는 해외 반응도 반복된다."],
+      "supports": ["ice.originalTVPromotion", "ice.genre", "ice.collaborationReception"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 35,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 22
+  }
+}

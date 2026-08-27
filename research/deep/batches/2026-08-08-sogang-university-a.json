@@ -1,0 +1,1249 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-sogang-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-sogang",
+    "name": "서강대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사, 영상 설명, 댓글 전문은 저장하지 않는다. 가사는 공개 원문과 공연 영상을 내부 대조한 뒤 권리 상태·구조·주제·개사 방향만 요약한다. 공개 댓글은 작성자를 식별하지 않고 역사·사용법·수용을 확인하는 데 필요한 내용만 재서술한다. 링크는 사실 확인용이며 재배포 허락을 뜻하지 않는다.",
+  "items": [
+    {
+      "id": "sogang-university-tros",
+      "title": "TROS",
+      "aliases": ["T.R.O.S.", "트로스", "The Revolution Of Sogang"],
+      "currentStatus": "current-directly-verified-at-2026-odyssey-festival",
+      "summary": "정식 풀네임은 ‘The Revolution Of Sogang’이다. 트라이파시 공식 SoundCloud가 2015년 신곡으로 공개한 리딩 응원가이며, 같은 이름은 매년 열리는 응원대제전에도 쓰인다. 공식 YouTube에는 2016·2018·2019·2022·2023·2025·2026 공연이 이어져 현행성이 직접 확인된다. 다만 공개 자료에는 작사·작곡·편곡자와 최초 공연일이 적혀 있지 않다.",
+      "claims": [
+        {
+          "field": "formalFullName",
+          "value": "The Revolution Of Sogang",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-hakbo-2023", "ev-sogang-a-alumni-festival-2022"],
+          "notes": "학보와 총동문회가 행사명을 풀어 쓰며, 공식 채널은 곡 제목을 TROS로 표기한다. SoundCloud 초기 표기 T.R.O.S.도 별칭으로 보존했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2015년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-soundcloud-playlist", "ev-sogang-a-soundcloud-tros"],
+          "notes": "트라이파시 명의 공식 SoundCloud 플레이리스트가 2015-03-02 게시됐고 설명에 ‘2015 신곡’이라고 적혀 있다. 이는 음원 공개 연도이며 정확한 초연일과 같다고 단정하지 않는다."
+        },
+        {
+          "field": "nameAndEventRelationship",
+          "value": "응원가와 응원대제전이 같은 이름 TROS를 공유",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-hakbo-2019", "ev-sogang-a-hakbo-2023", "yt-sogang-a-tros-2019"],
+          "notes": "2019 학보가 행사가 같은 이름의 곡으로 막을 올렸다고 명시한다. 곡과 행사를 혼동하지 않도록 별도 개체로 해석했다."
+        },
+        {
+          "field": "performanceRole",
+          "value": "리딩곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-hakbo-2023"],
+          "notes": "2023 TROS 세트리스트에서 네 곡의 리딩곡 중 하나로 분류됐다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 Odyssey 5월 축제 본판에서 독립 곡으로 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-tros-2026"],
+          "notes": "공식 응원단 채널이 2026-07-03 곡별 영상을 게시했다."
+        },
+        {
+          "field": "creators",
+          "value": "공개된 공식 2015 음원·후속 영상에 작사·작곡·편곡자 표기 없음",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-soundcloud-playlist", "ev-sogang-a-soundcloud-tros", "yt-sogang-a-tros-2016", "yt-sogang-a-tros-2026"],
+          "notes": "외부 상업 원곡도 확인하지 못했다. 크레딧 부재를 자작곡 확정 근거로 삼지는 않는다."
+        }
+      ],
+      "usageContexts": [
+        "응원대제전 TROS의 리딩곡이자 행사명과 같은 곡으로, 2019년에는 공연의 첫 곡으로 쓰였다.",
+        "교외 OR 응원교육, 봄 응원대제전, 봄·가을 축제, 단독공연과 앵콜에서 반복 사용된다.",
+        "2020 신입생 가이드는 전문 운동부나 정기 스포츠 교류가 없는 학교에서 선수 대신 모든 서강인을 응원하는 제전의 핵심 레퍼토리라고 설명한다.",
+        "2022 대동제 보도는 관객이 곡마다 다른 응원법을 따라 하고 어깨동무·함성으로 참여했다고 기록한다."
+      ],
+      "trivia": [
+        {
+          "id": "tros-song-event-same-name",
+          "summary": "TROS는 곡명인 동시에 트라이파시가 주관하는 연례 응원대제전명이다. 2019 학보는 같은 이름의 노래로 행사의 막을 열었다고 기록해 두 용법을 직접 연결한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-hakbo-2019", "ev-sogang-a-hakbo-2023"]
+        },
+        {
+          "id": "tros-2015-audio-2016-video",
+          "summary": "공식 SoundCloud의 2015 신곡 표기가 공식 YouTube의 가장 이른 독립 공연 영상인 2016년보다 한 해 빠르다. 따라서 ‘최초 YouTube 업로드’와 ‘공개 도입 연도’를 구분해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-soundcloud-playlist", "yt-sogang-a-tros-2016"]
+        },
+        {
+          "id": "tros-event-evolution",
+          "summary": "2018년에는 해오름제와 연계했고, 2019년에는 교복데이·청년광장 피크닉 등을 묶은 ‘응원 주간’으로 확장했다. 곡과 행사가 단순 무대를 넘어 참여형 학기 초 축제로 운영된 흔적이다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-sogang-a-freshman-guide-2020"]
+        },
+        {
+          "id": "tros-comments-reception",
+          "summary": "공개 댓글 표본은 공연의 완성도와 축제 현장에서 느낀 설렘·감동을 칭찬한다. 개인 팬덤성 표현도 있어 공식 역사 근거가 아니라 수용 사례로만 보존했다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-tros-2018", "yt-sogang-a-tros-2022", "yt-sogang-a-tros-2023"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "official 2015 Sgu TRIPATHY upload marked all-rights-reserved; lyricist, composer, publisher, copyright owner, and reuse permissions are not disclosed",
+        "sourceUrls": [
+          "https://soundcloud.com/sgu-tripathy/t-r-o-s",
+          "https://www.youtube.com/watch?v=L7_0Y_yQ2Qc",
+          "https://www.youtube.com/watch?v=3LCwXweAWTE"
+        ],
+        "structureSummary": "특정 날과 변화의 바람을 기억하는 도입에서 새로워질 서강을 그린 뒤, 학교를 울리고 변화의 움직임을 퍼뜨리자는 집단 후렴을 반복한다. 어제와 다른 하루를 묻는 브리지와 영어 표어형 종결부가 이어지는 응원 록 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-sogang-a-tros-2016",
+        "yt-sogang-a-tros-2018",
+        "yt-sogang-a-tros-2019",
+        "yt-sogang-a-tros-2022",
+        "yt-sogang-a-tros-2023",
+        "yt-sogang-a-tros-2025",
+        "yt-sogang-a-tros-2026"
+      ],
+      "unresolved": [
+        "2015년 정확한 제작 완료일·초연 행사와 최초 공연 영상",
+        "작사·작곡·편곡·가창·연주·안무 제작자",
+        "별도 상업 원곡 또는 선행 멜로디 존재 여부",
+        "가사·음원·안무·공연 영상의 권리 귀속과 재사용 범위"
+      ]
+    },
+    {
+      "id": "sogang-university-here-at-sogang",
+      "title": "이곳 서강에",
+      "aliases": ["이 곳 서강에"],
+      "currentStatus": "current-directly-verified-at-2026-odyssey-festival-and-or",
+      "summary": "서강의 이름 아래 하나 된 숨결·긍지·청년의 패기와 함성을 노래하는 리딩곡이다. 공식 채널에서 가장 이른 직접 표본은 2016 TROS와 OR이며 2018 응원교육, 2019·2022·2023·2025·2026 공연으로 이어진다. 오래된 제목은 ‘이 곳 서강에’, 최근 제목과 외부 현행 목록은 ‘이곳 서강에’로 붙여 쓴다. 실제 도입 연도와 제작자는 공개 자료로 확정되지 않았다.",
+      "claims": [
+        {
+          "field": "earliestDocumentedUse",
+          "value": "2016년(현존 공식 YouTube 자료상 가장 이른 확인; 실제 도입 연도 불명확)",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-sogang-a-here-2016", "ev-sogang-a-hakbo-2017"],
+          "notes": "2016 TROS와 OR 영상이 확인되고 2017 학보는 ‘오랜 기간 준비해 온’ 학교 고유 단체 안무라고 표현한다. 이를 최초 도입 연도라고 단정하지 않는다."
+        },
+        {
+          "field": "titleOrthography",
+          "value": "현행 표기 ‘이곳 서강에’; 과거 공식 영상·학보에는 ‘이 곳 서강에’ 병존",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-here-2016", "ev-sogang-a-hakbo-2017", "yt-sogang-a-here-2025", "yt-sogang-a-here-2026"],
+          "notes": "같은 곡의 띄어쓰기 변형으로 처리하며 별개 곡으로 세지 않는다."
+        },
+        {
+          "field": "performanceRole",
+          "value": "리딩곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-hakbo-2023"],
+          "notes": "2023 응원대제전 세트리스트가 공식적으로 분류한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 교외 OR와 Odyssey 5월 축제에서 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-here-2026"],
+          "notes": "표본에는 Odyssey 본판 곡별 영상을 사용했고 같은 해 OR 영상도 공식 채널 목록에서 확인했다."
+        },
+        {
+          "field": "sourceLineage",
+          "value": "공식 자료에서 외부 원곡과 제작자 크레딧을 확인하지 못함",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-sogang-a-here-2016", "yt-sogang-a-here-2018", "yt-sogang-a-here-2026"],
+          "notes": "음원 인식 결과가 없다는 점만으로 자작곡이라 확정하지 않았으며, 권리 자료 확보 전까지 미해결로 둔다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 교외 OR와 별도 응원교육 영상에서 학교 구호·동작을 익히는 리딩곡으로 사용된다.",
+        "응원대제전 TROS와 봄·가을 축제에서 관객이 함께 부르고 어깨동무하는 집단 참여곡으로 쓰인다.",
+        "2024 OR 보도는 신입생이 이 곡과 ‘그대에게’의 동작을 배우고 ‘청년 서강’을 외쳤다고 전한다.",
+        "2024 해오름제 보도는 TROS의 앵콜 ‘이곳 서강에’에 관객 함성이 체육관을 채웠다고 기록한다."
+      ],
+      "trivia": [
+        {
+          "id": "here-spacing-change",
+          "summary": "2016·2017 공식 제목과 2017 학보는 ‘이 곳’을 띄어 썼지만, 최근 공식 채널과 2026 외부 현행 퀴즈는 ‘이곳’을 정답으로 쓴다. 표기 변화이지 곡 교체 근거는 없다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-here-2016", "ev-sogang-a-hakbo-2017", "yt-sogang-a-here-2026", "ev-sogang-a-current-quiz-2026"]
+        },
+        {
+          "id": "here-comment-lyrics-not-stored",
+          "summary": "2018 응원교육 영상 댓글에는 한 이용자가 전체 가사를 적었지만, 저작권과 출처 신뢰도 때문에 원문은 저장하지 않고 학교명 아래의 결속·긍지·패기·함성이라는 구조만 교차 확인했다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-here-2018"]
+        },
+        {
+          "id": "here-alumni-reception",
+          "summary": "2022 공연 댓글에서는 동문으로 보이는 이용자가 규모가 큰 대학의 응원 문화와 비교하며 리더의 목소리, FM 외침, 어깨동무가 관객을 하나로 모았다고 평가했다. 공식 평가는 아니지만 실제 참여 요소와 총동문회 보도가 일치한다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-sogang-a-here-2022", "ev-sogang-a-alumni-festival-2022"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "unreleased or independently circulated university cheer song; lyric, composition, arrangement, recording, choreography ownership and reuse permissions are not documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=3urV8ET5OBY",
+          "https://www.youtube.com/watch?v=y5JuKvjlv2s",
+          "https://www.youtube.com/watch?v=V5b6SmqEE0M"
+        ],
+        "structureSummary": "공동체의 소리를 들으라는 도입 뒤 서강의 이름 아래 하나 된 숨결, 차오르는 긍지와 전율을 묘사한다. 이어 모두 하나가 되어 청년의 패기와 집단 함성을 이곳 서강에 새기자는 두 갈래 호응형 후렴으로 닫는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-sogang-a-here-2016",
+        "yt-sogang-a-here-2018",
+        "yt-sogang-a-here-2019",
+        "yt-sogang-a-here-2022",
+        "yt-sogang-a-here-2023",
+        "yt-sogang-a-here-2025",
+        "yt-sogang-a-here-2026"
+      ],
+      "unresolved": [
+        "2016년 이전 실제 도입·초연 연도와 최초 음원",
+        "작사·작곡·편곡·가창·안무 제작자",
+        "상업 원곡 또는 선행 멜로디 존재 여부",
+        "가사·음원·안무·공연 영상의 권리 귀속과 재사용 범위"
+      ]
+    },
+    {
+      "id": "sogang-university-for-sogang",
+      "title": "서강을 위하여",
+      "aliases": ["For Sogang"],
+      "currentStatus": "current-latest-direct-use-verified-at-2025-cardinal",
+      "summary": "트라이파시가 창단 10주년 기념 신곡으로 제작해 2021-06-04 온라인 응원대제전에서 최초 공개한 액션곡이다. 동문 밴드 벤치위레오의 보컬 이준행과 동문 이지호가 제작에 참여했고, 대학 공식 보도는 벤치위레오와 함께 ‘개사하여 만든’ 곡이라고 설명한다. 2021 서강 2030 비전선포식과 청년의 날 치어리딩 무대, 2022·2023 TROS, 2024 수험생 응원, 2025 CARDINAL까지 용도가 넓어졌다. 무엇을 바탕으로 개사했는지와 역할별 세부 크레딧은 미확정이다.",
+      "claims": [
+        {
+          "field": "premiere",
+          "value": "2021-06-04 온라인 응원대제전 2021 TROS에서 최초 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-for-behind-2021", "yt-sogang-a-for-premiere-2021"],
+          "notes": "비하인드 영상 설명이 최초 공개 날짜와 행사를 사전에 특정한다."
+        },
+        {
+          "field": "commissionContext",
+          "value": "트라이파시 창단 10주년 기념 신곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-for-behind-2021"],
+          "notes": "공식 설명의 표현이다. 다른 공식·나무위키 자료는 응원단 설립을 2010년으로 기록해 달력상 2021년과 11년 차이가 나므로, 기념 시점의 산정 방식은 별도 미해결로 남겼다."
+        },
+        {
+          "field": "collaborators",
+          "value": "벤치위레오 보컬 이준행(국문 11), 동문 이지호(수학 16) 제작 참여",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-for-production-2021", "ev-sogang-a-vision-2030"],
+          "notes": "공식 영상은 두 사람의 참여를, 대학 보도는 동문 밴드 벤치위레오와의 공동 작업을 밝힌다. 작사·작곡·편곡 등 역할 분담은 표기하지 않는다."
+        },
+        {
+          "field": "sourceLineage",
+          "value": "벤치위레오와 함께 개사해 만든 곡; 개사 대상 원곡명은 공개 자료에서 확인되지 않음",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-vision-2030", "yt-sogang-a-for-production-2021", "ev-sogang-a-bwl-catalog"],
+          "notes": "대학 공식 기사가 ‘개사’라고 명시하므로 순수 신작으로 단정할 수 없다. 벤치위레오 공개 음원 목록과 공식 영상 설명에는 바탕 곡 제목이 없다."
+        },
+        {
+          "field": "performanceRole",
+          "value": "액션곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-hakbo-2023"],
+          "notes": "2023 응원대제전 세트리스트가 리딩곡과 구분해 액션곡으로 분류한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 CARDINAL 가을축제 본판 공연까지 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-for-cardinal-2025"],
+          "notes": "2026 채널에서 독립 곡별 표본은 찾지 못했으나, 조사 목록의 현행 분류와 2025-09 축제 사용을 근거로 현행 후보를 유지한다."
+        }
+      ],
+      "usageContexts": [
+        "코로나19 시기인 2021년 온라인 응원대제전에서 영상으로 최초 공개됐다.",
+        "서강 2030 비전선포식에서 변화와 연결·결속을 상징하는 축하 공연곡으로 상영됐다.",
+        "2021 청년의 날 치어리딩 페스티벌 등 교외 경연과 2022·2023 TROS의 액션 무대에서 사용됐다.",
+        "2024학년도 수능 D-30 영상에서는 넘어져도 다시 일어서는 수험생을 격려하는 비경기 응원 콘텐츠로 쓰였다.",
+        "2025 CARDINAL 본판에서는 15대 단원들의 마지막 축제 무대 레퍼토리로 공연됐다."
+      ],
+      "trivia": [
+        {
+          "id": "for-anniversary-count",
+          "summary": "공식 영상은 2021년 곡을 ‘창단 10주년’ 기념으로 소개하지만 대학 공식 인터뷰와 나무위키는 트라이파시가 2010년 설립됐다고 기록한다. 10기·10주년 기념의 지연 여부 등 산정 이유는 확인되지 않아 표현을 그대로 보존한다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-for-behind-2021", "ev-sogang-a-official-interview-2022", "ev-sogang-a-namu-clubs"]
+        },
+        {
+          "id": "for-pandemic-production",
+          "summary": "대면 연습이 제한된 시기에 제작·공개됐다. 비하인드 댓글은 오프라인 연습 없이 만든 완성도를 놀라워했고, 공식 인터뷰는 당시 안무 영상·Zoom·개별 제출로 연습했다고 설명한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-sogang-a-for-behind-2021", "ev-sogang-a-award-interview-2021"]
+        },
+        {
+          "id": "for-non-sports-use",
+          "summary": "학교 비전 선포와 수험생 D-30 응원에 쓰여, 경기 승패가 아니라 서강 구성원의 변화·도전을 응원하는 트라이파시의 성격을 잘 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-vision-2030", "yt-sogang-a-for-applicants-2024"]
+        },
+        {
+          "id": "for-comment-football-association",
+          "summary": "2021 공연 댓글 한 건은 국가대표 축구 응원가처럼 들린다고 반응했다. 이는 원곡 계보의 근거가 아니라 곡의 경기장형 록 사운드에 대한 개인적 연상으로만 남긴다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-for-production-2021"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adapted cheer song made with alumni band BenchWeLeo; base song, lyric-adaptation and arrangement roles, copyright ownership, and reuse permissions are not disclosed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=WRzGLwq19Po",
+          "https://www.youtube.com/watch?v=fybX-CD5bxM",
+          "https://pr.sogang.ac.kr/front/boardview.do?bbsConfigFK=262&pkid=871037"
+        ],
+        "structureSummary": "빠른 록 반주에 단체 군무가 결합된 액션곡이다. 반복되는 학교명 중심의 후렴이 서강을 위해 다시 일어서고 앞으로 나아가는 결의를 모으며, 절보다 후렴의 합창성과 동작 전환이 강조된다. 개사 대상 원문이 공개되지 않아 세부 대응 관계는 확정하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-sogang-a-for-behind-2021",
+        "yt-sogang-a-for-premiere-2021",
+        "yt-sogang-a-for-production-2021",
+        "yt-sogang-a-for-tros-2022",
+        "yt-sogang-a-for-tros-2023",
+        "yt-sogang-a-for-applicants-2024",
+        "yt-sogang-a-for-cardinal-2025"
+      ],
+      "unresolved": [
+        "개사 대상 원곡의 정확한 제목과 원작자·발매 정보",
+        "이준행·이지호·트라이파시 사이의 작사·작곡·편곡·연주·안무 역할 분담",
+        "‘창단 10주년’과 2010년 설립 기록 사이의 기념 연차 산정 방식",
+        "원곡·개사·음원·안무·공연 영상의 권리 귀속과 2026년 사용 여부"
+      ]
+    },
+    {
+      "id": "sogang-university-promise",
+      "title": "서강의 약속",
+      "aliases": ["승리의 약속 개사 응원가"],
+      "currentStatus": "current-directly-verified-at-2026-off-campus-or",
+      "summary": "유정석의 ‘승리의 약속’을 개사·편곡해 트라이파시 제14대 기획단이 2024-10-16 발표한 신곡이다. 원곡은 ‘파워레인저 다이노썬더’ 한국판 여는 노래로 2004년 방송됐고, 2005-07-28 《We 3》 음반에 수록됐다. 공식 신곡 영상은 보컬 이주혁, 음원 총괄 박희민, 믹싱·마스터링 김민재, 기타 박성현, 녹음 박민규, 영상 편집 허원준을 명시한다. 2024 CARDINAL에서 공연된 뒤 2025 OR·TROS·CARDINAL과 2026 OR까지 이어졌다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2024-10-16 신곡 발표",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-promise-release-2024"],
+          "notes": "공식 채널 제목과 설명이 2024년도 신곡이라고 직접 밝힌다. 최초 현장 공연은 10월 CARDINAL 영상으로 확인되지만 정확한 공연일은 영상 설명만으로 확정하지 않았다."
+        },
+        {
+          "field": "originalSong",
+          "value": "유정석 ‘승리의 약속’ — ‘파워레인저 다이노썬더’ 한국판 여는 노래",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-promise-release-2024", "ev-sogang-a-bugs-victory-promise", "ev-sogang-a-bugs-we3"],
+          "notes": "트라이파시가 원곡과 가수를 직접 명시하고 Bugs의 곡·앨범 정보와 일치한다."
+        },
+        {
+          "field": "originalReleaseAndCredits",
+          "value": "2004년 방송, 2005-07-28 음반 발매; 노래 유정석, 작사 신동식, 작·편곡 박정식",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-bugs-victory-promise", "ev-sogang-a-bugs-we3", "ev-sogang-a-original-creator-video"],
+          "notes": "Bugs는 앨범 발매일과 2004년 프로그램 맥락·박정식 작곡을 제공한다. 작곡가가 참여한 질풍천사TV 영상은 작사 신동식과 작·편곡자 본인임을 밝힌다. 방송 연도와 음반 발매 연도를 구분했다."
+        },
+        {
+          "field": "adaptationCredits",
+          "value": "보컬 이주혁; 음원 총괄 SSangjum(박희민); 믹싱·마스터링 sophomoric(김민재); 기타 박성현; 녹음 SSAK(박민규); 제작·기획 트라이파시 제14대 기획단; 영상 편집 허원준",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-promise-release-2024"],
+          "notes": "공식 신곡 영상 설명의 역할별 크레딧이다. 개사·편곡 담당자를 개인 단위로 따로 지정하지는 않는다."
+        },
+        {
+          "field": "adaptationStatus",
+          "value": "원곡을 개사 및 편곡해 제작",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-promise-release-2024"],
+          "notes": "공식 설명의 직접 고지다. 권리자 허락의 범위와 계약 내용은 공개되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 교외 OR 대동제에서 16대 트라이파시가 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-promise-or-2026"],
+          "notes": "공식 설명이 16대의 첫 공연과 신입생 관객을 명시한다."
+        }
+      ],
+      "usageContexts": [
+        "2024 신곡 음원 영상으로 먼저 크레딧과 개사·편곡 사실을 공개했다.",
+        "2024 CARDINAL 가을축제 본판에서 곧바로 공연 레퍼토리로 사용됐다.",
+        "2025·2026 교외 OR에서는 새 기수의 첫 공연과 신입생 대동제 세트에 포함됐다.",
+        "2025 응원대제전 TROS와 CARDINAL에서도 공연돼 신곡 공개 뒤 정규 레퍼토리로 정착한 흐름이 확인된다."
+      ],
+      "trivia": [
+        {
+          "id": "promise-two-year-original",
+          "summary": "원곡은 2004년 방송용 여는 노래로 알려졌지만 현재 카탈로그의 《We 3》 발매일은 2005-07-28이다. ‘원곡 연도’를 쓸 때 방송 공개와 정식 음반 발매를 구분해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-bugs-victory-promise", "ev-sogang-a-bugs-we3"]
+        },
+        {
+          "id": "promise-production-comment",
+          "summary": "비하인드 영상의 공개 댓글 한 건은 제작 참여가 즐거웠다고 밝힌다. 계정명은 저장하지 않았으며, 공식 크레딧에 같은 활동명이 있어 제작 참여 맥락과 부합하지만 댓글 자체를 신원 확인 자료로 쓰지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-sogang-a-promise-behind-2024", "yt-sogang-a-promise-release-2024"]
+        },
+        {
+          "id": "promise-fast-rollout",
+          "summary": "신곡 음원 공개 열흘 뒤 공식 채널에 CARDINAL 본판 영상이 올라왔고, 댓글은 새 곡에 대한 호감을 보였다. 이후 두 해 연속 OR까지 이어져 빠르게 교육용 현행곡이 됐다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-promise-release-2024", "yt-sogang-a-promise-cardinal-2024", "yt-sogang-a-promise-or-2025", "yt-sogang-a-promise-or-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Yoo Jung-seok's commercial animation theme; original and adaptation credits are partly documented, but permission terms and ownership of adapted lyrics, arrangement, recording, choreography, and video are not",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=K614z64mkas",
+          "https://music.bugs.co.kr/track/80109220",
+          "https://www.youtube.com/watch?v=TtlGp4ZT5vg"
+        ],
+        "structureSummary": "원곡의 기타 중심 록 편곡과 반복 후렴 골격을 유지하면서, 혼자가 아니라는 용기·어려움을 이겨낼 결의·동료를 위한 약속을 서강 공동체에 맞게 바꾼다. 짧은 절과 강한 재후렴이 반복돼 OR에서 함께 부르기 쉬운 액션형 응원가로 편곡됐다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-sogang-a-promise-release-2024",
+        "yt-sogang-a-promise-behind-2024",
+        "yt-sogang-a-promise-cardinal-2024",
+        "yt-sogang-a-promise-or-2025",
+        "yt-sogang-a-promise-tros-2025",
+        "yt-sogang-a-promise-cardinal-2025",
+        "yt-sogang-a-promise-or-2026"
+      ],
+      "unresolved": [
+        "2024년 정확한 최초 현장 공연일과 제작 착수일",
+        "개사·편곡의 개인별 책임자와 안무 제작자",
+        "원곡 권리자에게 받은 개사·편곡·공연·동기화 허락의 범위",
+        "개사 가사·신규 음원·안무·공연 영상의 권리 귀속과 재사용 범위"
+      ]
+    },
+    {
+      "id": "sogang-university-night",
+      "title": "서강의 밤",
+      "aliases": ["서밤"],
+      "currentStatus": "current-directly-verified-at-2026-odyssey-festival-and-or",
+      "summary": "공식 채널에서 ‘서밤’이라는 줄임말을 함께 쓰는 리딩곡이다. 현재 확인되는 가장 이른 직접 자료는 2019 TROS와 교외 OR이며, 같은 해 단독공연 뒤 2021·2022·2023·2024·2025·2026 무대로 이어졌다. 2023 학보는 서강의 네 리딩곡 중 하나로 분류하고, 2026 Odyssey 곡별 영상과 OR의 ‘서강의 함성&서강의 밤’ 연속 무대가 현행성을 입증한다. 정확한 도입 연도와 제작·원곡 정보는 미확정이다.",
+      "claims": [
+        {
+          "field": "earliestDocumentedUse",
+          "value": "2019년(현존 공식 YouTube 자료상 가장 이른 확인; 실제 도입 연도 불명확)",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-sogang-a-night-tros-2019", "yt-sogang-a-night-solo-2019"],
+          "notes": "2019-04 TROS와 같은 해 단독공연·OR 영상이 있으나 ‘신곡’이나 최초 공개라는 표기는 찾지 못했다."
+        },
+        {
+          "field": "alias",
+          "value": "서밤",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-night-tros-2019", "yt-sogang-a-night-solo-2019"],
+          "notes": "공식 영상 제목과 설명이 전체 제목 옆에 줄임말을 병기한다."
+        },
+        {
+          "field": "performanceRole",
+          "value": "리딩곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-sogang-a-hakbo-2023"],
+          "notes": "2023 TROS의 네 리딩곡 중 하나다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 Odyssey 5월 축제 독립 공연 및 교외 OR 연속 리딩 무대",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-night-2026"],
+          "notes": "Odyssey 곡별 영상으로 직접 확인하며, 같은 해 OR에서는 서강의 함성과 묶어 공연됐다."
+        },
+        {
+          "field": "sourceLineageAndCreators",
+          "value": "공식 영상·학보에서 외부 원곡과 작사·작곡·편곡·안무 제작자 미표기",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-sogang-a-night-tros-2019", "yt-sogang-a-night-solo-2019", "yt-sogang-a-night-2026"],
+          "notes": "제작 크레딧 부재만으로 자작곡 또는 원곡 없음이라고 확정하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "응원대제전 TROS에서 관객의 노래·구호를 이끄는 리딩곡으로 사용된다.",
+        "교외 OR에서 신입생 교육 세트의 후반부를 이루며 2025·2026에는 ‘서강의 함성’과 연속으로 편집된 공식 영상도 있다.",
+        "단독공연 ‘그대에게’와 봄·가을 축제에서 독립곡 또는 앵콜로 반복된다.",
+        "2026 Odyssey 본판에서는 별도 곡별 영상으로 공연돼 현재 사용이 직접 확인된다."
+      ],
+      "trivia": [
+        {
+          "id": "night-official-short-name",
+          "summary": "‘서밤’은 팬이 임의로 만든 별칭만이 아니라 2019 TROS와 단독공연 공식 영상 제목에 직접 쓰인 줄임말이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-night-tros-2019", "yt-sogang-a-night-solo-2019"]
+        },
+        {
+          "id": "night-alumni-pride-comments",
+          "summary": "2022 공연 댓글에는 이 곡을 개인적으로 가장 좋아한다는 반응과, 졸업 후 수십 년이 지나도 ‘청년 서강’을 자랑스러워한다는 동문 반응이 함께 남았다. 세대 연결을 보여주는 수용 사례다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-night-2022"]
+        },
+        {
+          "id": "night-paired-with-shout",
+          "summary": "2025·2026 교외 OR 공식 영상은 ‘서강의 함성&서강의 밤’을 한 영상과 세트 번호로 묶었다. 두 곡이 교육 현장에서 연속 리딩 블록으로 운용되는 흔적이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-sogang-a-night-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "unreleased or independently circulated university cheer song; authorship, source lineage, copyright ownership, and reuse permissions are not documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=-B69Qr3QTyE",
+          "https://www.youtube.com/watch?v=7K0pf9TwAPY",
+          "https://www.youtube.com/watch?v=ZIt9zRr3eSY"
+        ],
+        "structureSummary": "밝은 밤의 축제 분위기 속에서 서강에 대한 애정을 반복해 확인하고, 학교명과 청년 공동체 구호를 짧은 선창·후창으로 주고받는 리딩곡이다. 후렴 반복과 점프·팔 동작이 중심이며 세부 가사 원문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-sogang-a-night-tros-2019",
+        "yt-sogang-a-night-solo-2019",
+        "yt-sogang-a-night-preview-2021",
+        "yt-sogang-a-night-2022",
+        "yt-sogang-a-night-2023",
+        "yt-sogang-a-night-2025",
+        "yt-sogang-a-night-2026"
+      ],
+      "unresolved": [
+        "2019년 이전 실제 도입·초연 여부와 최초 음원",
+        "작사·작곡·편곡·가창·안무 제작자",
+        "외부 원곡 또는 선행 멜로디 존재 여부",
+        "가사·음원·안무·공연 영상의 권리 귀속과 재사용 범위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-sogang-a-official-interview-2022",
+      "type": "university-news-primary",
+      "url": "https://pr.sogang.ac.kr/front/boardview.do?bbsConfigFK=263&pkid=887235",
+      "title": "2022 천안흥타령춤축제 전국대학치어리딩대회 은상 수상, 서강대학교 응원단 트라이파시를 만나다",
+      "publisher": "서강대학교 서강가젯",
+      "publishedAt": "2022-11-11",
+      "accessedAt": "2026-08-09",
+      "summary": "트라이파시를 지성·야성·감성을 갖춘 서강인을 지휘하는 대학 산하 응원단으로 소개하고, 2010년 6월 창단 이후 OR·TROS·축제·단독공연에서 고유 응원곡과 창작 응원무로 자부심과 결속을 만든다고 설명한다.",
+      "supports": ["공식 단체 지위", "2010년 창단", "주요 사용 행사", "고유 응원곡과 창작 응원무"]
+    },
+    {
+      "id": "ev-sogang-a-namu-clubs",
+      "type": "community-encyclopedia",
+      "url": "https://namu.wiki/w/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/%EB%8F%99%EC%95%84%EB%A6%AC",
+      "title": "서강대학교/동아리 — 서강대학교 응원단 TRIPATHY",
+      "publisher": "나무위키",
+      "publishedAt": "2026-04-07",
+      "accessedAt": "2026-08-09",
+      "summary": "사용자 편집 문서의 TRIPATHY 절은 2010년 설립, 별칭 ‘트라이파시·트파’, 주요 활동인 교외 OR 응원교육·응원제전 TROS·단독공연 ‘그대에게’·봄가을 축제·찬조공연을 열거한다. 개별 현행 응원가 목록은 제공하지 않아 곡 정보는 공식 자료로 별도 검증했다.",
+      "supports": ["2010년 설립 교차검토", "단체 별칭", "주요 활동", "나무위키 교차검토 한계"]
+    },
+    {
+      "id": "ev-sogang-a-hakbo-2017",
+      "type": "campus-press",
+      "url": "https://sgunews.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=3606&currentPage=1&pkid=849086&searchField=ALL&searchLowItem=ALL&searchValue=&siteId=sgunews",
+      "title": "TROS로 서강의 목소리를 모으다",
+      "publisher": "서강학보",
+      "publishedAt": "2017-04-11",
+      "accessedAt": "2026-08-09",
+      "summary": "2017년 4월 3일 체육관 TROS를 새내기·정든내기가 하나 되는 연례행사로 소개하고, ‘서강의 함성’과 ‘이 곳 서강에’를 오랜 기간 준비한 학교 고유 단체 안무로 공연해 관객이 춤과 노래를 따라 했다고 기록한다.",
+      "supports": ["2017 TROS", "이 곳 서강에", "서강의 함성", "단체 안무", "관객 참여"]
+    },
+    {
+      "id": "ev-sogang-a-hakbo-2019",
+      "type": "campus-press",
+      "url": "https://sgunews.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=3606&currentPage=1&pkid=849431&searchField=ALL&searchLowItem=ALL&searchValue=&siteId=sgunews",
+      "title": "TROS, 서강의 함성을 전하다",
+      "publisher": "서강학보",
+      "publishedAt": "2019-04-15",
+      "accessedAt": "2026-08-09",
+      "summary": "2019 응원대제전이 행사와 동명의 곡 TROS로 막을 올리고 ‘서강의 함성’ 등 대표곡을 교내 록밴드 Kinsechs 라이브 세션과 함께 공연했다고 보도한다. 총단장은 응원단이 모든 서강인을 응원하기 위해 존재한다고 말했다.",
+      "supports": ["TROS 곡·행사 동명", "2019 사용", "서강의 함성 대표곡", "라이브 세션"]
+    },
+    {
+      "id": "ev-sogang-a-hakbo-2023",
+      "type": "campus-press",
+      "url": "https://sgunews.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=3606&pkid=894536&siteId=sgunews",
+      "title": "트라이파시 응원대제전 TROS 개최돼",
+      "publisher": "서강학보",
+      "publishedAt": "2023-06-04",
+      "accessedAt": "2026-08-09",
+      "summary": "2023-05-26 TROS의 풀네임을 The Revolution Of Sogang으로 밝힌다. ‘서강을 위하여’를 액션곡, ‘서강의 함성·TROS·서강의 밤·이곳 서강에’를 리딩곡으로 구분하고, 관객과 단원이 함께 즐기며 하나 된 감각을 느꼈다는 인터뷰를 싣는다.",
+      "supports": ["TROS 풀네임", "액션곡·리딩곡 분류", "2023 세트리스트", "참여 경험"]
+    },
+    {
+      "id": "ev-sogang-a-freshman-guide-2020",
+      "type": "student-guide-archived-copy",
+      "url": "https://tj.prinpark.com/QnaFile/2021-01-21/2020%20%EA%B5%AD%EC%A0%9C%EC%9D%B8%EB%AC%B8%ED%95%99%EB%B6%80%20%EC%B1%85%EC%9E%90.PDF",
+      "title": "2020 국제인문학부 새내기 가이드 — 트로스(TROS)",
+      "publisher": "서강대학교 국제인문학부 새내기 가이드(외부 보존본)",
+      "publishedAt": "2020",
+      "accessedAt": "2026-08-09",
+      "summary": "트라이파시 10대 단장단 명의 글은 전문 운동부·타교 스포츠 정기전이 없음에도 모든 서강인을 응원하기 위해 단체가 존재한다고 설명한다. TROS는 보통 4월 초중순 열리며, 이곳 서강에·서강의 함성·서강의 밤·TROS를 리딩 무대로 열거하고 2018 해오름제 연계와 2019 응원 주간 운영을 소개한다. 학교 원 서버가 아닌 보존본이라는 한계가 있다.",
+      "supports": ["비경기 중심 응원 목적", "TROS 시기", "네 리딩곡", "2018·2019 행사 변천"]
+    },
+    {
+      "id": "ev-sogang-a-alumni-festival-2022",
+      "type": "alumni-press",
+      "url": "https://www.sg-alumni.org/page/bbs/board.php?bo_table=b03&wr_id=1671",
+      "title": "3년만에 개최된 서강 대동제, 그 열기 속으로",
+      "publisher": "서강대학교 총동문회",
+      "publishedAt": "2022-05-31",
+      "accessedAt": "2026-08-09",
+      "summary": "2022 대동제 TROS의 풀네임과 공연곡 일곱 곡을 열거한다. 관객이 곡마다 다른 응원법으로 어깨동무하고 함성을 외쳤으며, 학생 커뮤니티에서 애교심을 높였다는 반응이 화제가 됐다고 전한다.",
+      "supports": ["2022 현장 세트", "TROS 풀네임", "어깨동무와 함성", "공동체 수용"]
+    },
+    {
+      "id": "ev-sogang-a-vision-2030",
+      "type": "university-news-primary",
+      "url": "https://pr.sogang.ac.kr/front/boardview.do?bbsConfigFK=262&pkid=871037",
+      "title": "새로운 서강을 현실로 만드는 원대한 계획, 서강 2030 비전선포식",
+      "publisher": "서강대학교 서강가젯",
+      "publishedAt": "2021-06-28",
+      "accessedAt": "2026-08-09",
+      "summary": "트라이파시가 동문 밴드 벤치위레오와 함께 개사해 만든 ‘서강을 위하여’로 비전선포식 축하 영상을 공연했다고 밝힌다. 단장은 비대면 시대에도 서강이라는 이름으로 연결돼 응원이 힘과 위로가 되기를 바랐다고 말했다.",
+      "supports": ["서강을 위하여 개사", "벤치위레오 협업", "비전선포식 사용", "결속 메시지"]
+    },
+    {
+      "id": "ev-sogang-a-award-interview-2021",
+      "type": "university-news-primary",
+      "url": "https://pr.sogang.ac.kr/front/boardview.do?bbsConfigFK=263&pkid=875514",
+      "title": "Here, I stand for you, 트라이파시, 청년의 날 치어리딩 페스티벌 우수상 수상",
+      "publisher": "서강대학교 서강가젯",
+      "publishedAt": "2021-11-29",
+      "accessedAt": "2026-08-09",
+      "summary": "트라이파시의 2010년 설립, OR·대동제·TROS·교외 경연 활동과 ‘서강을 위하여’ 사용을 다룬다. 코로나 시기 안무 영상, Zoom 연습, 개인 영상 피드백 방식과 학교명 아래 연결·애교심을 북돋는 목적도 인터뷰로 기록한다.",
+      "supports": ["2010 설립", "서강을 위하여", "교외 경연", "비대면 연습", "청년 서강 결속"]
+    },
+    {
+      "id": "ev-sogang-a-soundcloud-playlist",
+      "type": "official-audio-platform",
+      "url": "https://soundcloud.com/sgu-tripathy/sets/q8hibqsteelk",
+      "title": "서강대학교 응원가",
+      "publisher": "Sgu TRIPATHY on SoundCloud",
+      "publishedAt": "2015-03-02",
+      "accessedAt": "2026-08-09",
+      "summary": "트라이파시 명의 플레이리스트가 설명에 ‘2015 신곡’을 적고 T.R.O.S.와 서강의 함성 두 트랙을 같은 날 공개한다. 라이선스는 all-rights-reserved로 표시된다.",
+      "supports": ["TROS 2015 신곡", "서강의 함성 2015 신곡", "공식 음원", "권리 상태"]
+    },
+    {
+      "id": "ev-sogang-a-soundcloud-tros",
+      "type": "official-audio-platform",
+      "url": "https://soundcloud.com/sgu-tripathy/t-r-o-s",
+      "title": "T.R.O.S.",
+      "publisher": "Sgu TRIPATHY on SoundCloud",
+      "publishedAt": "2015-03-02",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 개별 트랙의 제목·게시시각·가사 원문을 대조했다. 전문은 저장하지 않고 변화의 바람, 새로워질 서강, 반복되는 Revolution과 영어 종결부라는 구조만 요약했다. 작사·작곡자 표기는 없다.",
+      "supports": ["T.R.O.S. 초기 표기", "2015 공개", "가사 구조", "크레딧 부재"]
+    },
+    {
+      "id": "ev-sogang-a-bwl-catalog",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/artist/20055096",
+      "title": "벤치위레오(BWL)",
+      "publisher": "Bugs",
+      "accessedAt": "2026-08-09",
+      "summary": "벤치위레오를 대한민국 남성 인디 록 그룹으로 분류하고 공개 음원 목록을 제공한다. ‘서강을 위하여’ 또는 그 바탕 곡으로 특정되는 제목은 카탈로그에서 확인되지 않아, 대학 공식 기사의 ‘개사’ 대상은 미확정으로 남는다.",
+      "supports": ["벤치위레오 음악 활동", "공개 카탈로그 교차검토", "바탕 곡 미확정"]
+    },
+    {
+      "id": "ev-sogang-a-bugs-victory-promise",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/80109220",
+      "title": "승리의 약속 ('파워레인저 다이노썬더' 여는노래)",
+      "publisher": "Bugs",
+      "publishedAt": "2005-07-28",
+      "accessedAt": "2026-08-09",
+      "summary": "가수 유정석, 앨범 《We 3 (투니버스 만화영화 주제가 Best)》, 재생시간 3분 11초, 발매일 2005-07-28을 제공한다. 가사 원문은 저장하지 않고 반복 후렴과 용기·우정·약속의 주제만 확인했다.",
+      "supports": ["승리의 약속 원곡", "유정석", "앨범", "2005 음반 발매", "가사 구조"]
+    },
+    {
+      "id": "ev-sogang-a-bugs-we3",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/8009730",
+      "title": "We 3 (투니버스 만화영화 주제가 Best)",
+      "publisher": "Bugs",
+      "publishedAt": "2005-07-28",
+      "accessedAt": "2026-08-09",
+      "summary": "앨범 소개는 ‘승리의 약속’을 2004년 파워레인저 다이노썬더 여는 노래로 소개하고 박정식 작곡, 기타 토미 김, 드럼 김선중 등 제작 맥락을 적는다. 방송 공개 연도와 음반 발매일을 구분하는 근거다.",
+      "supports": ["2004 방송 맥락", "박정식 작곡", "세션 정보", "2005 앨범"]
+    },
+    {
+      "id": "ev-sogang-a-original-creator-video",
+      "type": "creator-youtube",
+      "url": "https://www.youtube.com/watch?v=C8XwkvqLkEM",
+      "title": "파워레인저 다이노썬더 OP-승리의약속-유정석 Live Rock Ver",
+      "publisher": "질풍천사TV",
+      "publishedAt": "2022-06-20",
+      "accessedAt": "2026-08-09",
+      "summary": "박정식·이창희 음악감독이 운영한다고 밝힌 채널의 영상 설명에서 작사 담당 PD 신동식과 작·편곡자인 게시자가 원곡 제작을 회고한다. 기타 솔로 확장, 야구장 무단 사용 사례도 언급해 권리 확인 필요성을 보여준다.",
+      "supports": ["신동식 작사", "박정식 작·편곡 교차검토", "원곡 제작 일화", "응원 현장 권리 문제"]
+    },
+    {
+      "id": "ev-sogang-a-current-quiz-2026",
+      "type": "independent-web-guide",
+      "url": "https://www.allforyoung.com/users/%40%EC%9A%94%EC%A6%98%EA%B2%83%EB%93%A4/%ED%95%B4%EC%84%A4%EC%A7%80-2026%EB%85%84%EB%8F%84-%EC%84%9C%EA%B0%95%EB%8C%80-%EB%8C%80%ED%95%99%EC%83%9D%ED%99%9C%EB%8A%A5%EB%A0%A5%EC%8B%9C%ED%97%98-0033s1at",
+      "title": "해설지: 2026년도 서강대 대학생활능력시험",
+      "publisher": "요즘것들",
+      "publishedAt": "2026",
+      "accessedAt": "2026-08-09",
+      "summary": "외부 대학생활 퀴즈는 서강의 약속·서강의 함성·서강의 밤·서강을 위하여·이곳 서강에를 트라이파시 응원곡으로 제시하고 ‘그곳’이 아니라 ‘이곳’이라고 설명한다. 공식 자료가 아니므로 현행성을 단독 확정하는 데 쓰지 않고 명칭 교차검토에만 사용했다.",
+      "supports": ["이곳 서강에 현행 표기", "2026 외부 목록 교차검토", "비공식 출처 한계"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-sogang-a-tros-2016",
+      "songId": "sogang-university-tros",
+      "url": "https://www.youtube.com/watch?v=L7_0Y_yQ2Qc",
+      "videoId": "L7_0Y_yQ2Qc",
+      "title": "TROS 2016 서강대학교 응원단 TRIPATHY - TROS",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2016-03-22",
+      "descriptionSummary": "공식 설명란은 ‘설명’ 한 단어뿐이며 제목이 2016 TROS의 동명 곡 공연임을 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2016 공식 공연", "초기 YouTube 표본"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-tros-2018",
+      "songId": "sogang-university-tros",
+      "url": "https://www.youtube.com/watch?v=gbGVsLEI89A",
+      "videoId": "gbGVsLEI89A",
+      "title": "[2018 서강대학교 응원단 트라이파시] 새내기맞이 응원교육영상 - 02. TROS",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2018-02-07",
+      "descriptionSummary": "설명란은 비어 있고 제목이 새내기맞이 응원교육의 두 번째 곡으로 TROS를 지정한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명 댓글 한 건은 공연이 매우 훌륭하다고 짧게 칭찬한다."],
+      "supports": ["2018 신입생 응원교육", "공개 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-tros-2019",
+      "songId": "sogang-university-tros",
+      "url": "https://www.youtube.com/watch?v=-6a2NhDCFic",
+      "videoId": "-6a2NhDCFic",
+      "title": "[2019 서강대학교 응원단] 응원제전 TROS 09. TROS (4K)",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2019-04-06",
+      "descriptionSummary": "설명란은 비어 있고 제목이 2019 응원제전의 아홉 번째 곡인 TROS 4K 공연을 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2019 응원제전", "동명 곡 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-tros-2022",
+      "songId": "sogang-university-tros",
+      "url": "https://www.youtube.com/watch?v=2MARqRRufZU",
+      "videoId": "2MARqRRufZU",
+      "title": "[2022 서강대학교 응원단] 응원대제전 TROSㅣ06.TROS",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2022-05-31",
+      "descriptionSummary": "서강TV가 촬영한 2022 응원대제전 여섯 번째 곡 영상이라고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명 댓글은 축제에서 본 무대가 감동과 설렘을 다시 느끼게 했다고 칭찬한다.", "다른 댓글은 공연과 무관한 개인 인사라 사실 근거에서 제외했다."],
+      "supports": ["2022 TROS", "서강TV 촬영", "현장 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-tros-2023",
+      "songId": "sogang-university-tros",
+      "url": "https://www.youtube.com/watch?v=HD7pt4-VbaY",
+      "videoId": "HD7pt4-VbaY",
+      "title": "[2023 서강대학교 응원단] TROS | 08. TROS",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2023-09-05",
+      "descriptionSummary": "2023 응원대제전의 주제를 ‘개화: 함께 피워낼 서강’으로 밝히고 서강TV 촬영임을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명 댓글 한 건은 특정 단원에게 비판보다 일방적인 칭찬을 부탁하는 강한 팬 지지를 표현한다."],
+      "supports": ["2023 TROS", "행사 주제", "서강TV 촬영", "팬 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-tros-2025",
+      "songId": "sogang-university-tros",
+      "url": "https://www.youtube.com/watch?v=iB4Ek_9-gNI",
+      "videoId": "iB4Ek_9-gNI",
+      "title": "[서강대학교 응원단 트라이파시] 2025 서강대학교 응원대제전 TROS - 02. TROS",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2025-06-04",
+      "descriptionSummary": "서강TV가 촬영한 2025 응원대제전 두 번째 곡 TROS 공연이라고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 응원대제전", "최근 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-tros-2026",
+      "songId": "sogang-university-tros",
+      "url": "https://www.youtube.com/watch?v=3LCwXweAWTE",
+      "videoId": "3LCwXweAWTE",
+      "title": "[서강대학교 응원단 트라이파시] 2026 Odyssey 5월 축제 본판 무대 | TROS",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2026-07-03",
+      "descriptionSummary": "서강TV 촬영과 17기 기획단원 AMANO EMI의 배경영상 제작을 명시한 2026 Odyssey 축제 곡별 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현행 사용", "Odyssey 축제", "배경영상 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-here-2016",
+      "songId": "sogang-university-here-at-sogang",
+      "url": "https://www.youtube.com/watch?v=XXNMdcv1lrU",
+      "videoId": "XXNMdcv1lrU",
+      "title": "TROS 2016 서강대학교 응원단 TRIPATHY - 이 곳 서강에",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2016-03-22",
+      "descriptionSummary": "공식 설명란은 ‘설명’ 한 단어뿐이며 제목이 2016 TROS 공연과 초기 띄어쓰기 ‘이 곳’을 보여준다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2016 가장 이른 직접 표본", "과거 제목 표기"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-here-2018",
+      "songId": "sogang-university-here-at-sogang",
+      "url": "https://www.youtube.com/watch?v=3urV8ET5OBY",
+      "videoId": "3urV8ET5OBY",
+      "title": "[2018 서강대학교 응원단 트라이파시] 새내기맞이 응원교육영상 - 03. 이곳 서강에",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2018-02-07",
+      "descriptionSummary": "설명란은 비어 있고 제목이 새내기맞이 응원교육 세 번째 곡으로 현행 띄어쓰기 ‘이곳 서강에’를 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["여러 익명 댓글이 입학을 바라는 마음과 공연에 대한 감탄을 남겼다.", "한 이용자가 전체 가사를 게시했으나 원문은 저장하지 않고 구조 확인에만 참고했다."],
+      "supports": ["2018 응원교육", "현행 제목 표기", "가사 구조 교차검토", "수험생 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-here-2019",
+      "songId": "sogang-university-here-at-sogang",
+      "url": "https://www.youtube.com/watch?v=q292LQs2B9s",
+      "videoId": "q292LQs2B9s",
+      "title": "[2019 서강대학교 응원단] 응원제전 TROS 06. 이곳 서강에 (4K)",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2019-04-06",
+      "descriptionSummary": "설명란은 비어 있고 제목이 2019 TROS 여섯 번째 곡의 4K 공연임을 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2019 응원제전", "지속 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-here-2022",
+      "songId": "sogang-university-here-at-sogang",
+      "url": "https://www.youtube.com/watch?v=y5JuKvjlv2s",
+      "videoId": "y5JuKvjlv2s",
+      "title": "[2022 서강대학교 응원단] 응원대제전 TROSㅣ04.이곳 서강에",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2022-05-31",
+      "descriptionSummary": "서강TV가 촬영한 2022 응원대제전 네 번째 곡 영상이라고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명 댓글들은 곡과 무대를 칭찬하며 리더의 우렁찬 목소리, FM 외침, 어깨동무가 전체를 하나로 모았다고 평가한다.", "동문으로 보이는 이용자들은 학교와 후배 응원단에 대한 애정을 강조했으며 일부 비교 논쟁은 개인 의견으로만 처리했다."],
+      "supports": ["2022 TROS", "리딩 방식", "FM과 어깨동무", "동문 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-here-2023",
+      "songId": "sogang-university-here-at-sogang",
+      "url": "https://www.youtube.com/watch?v=XBbsMAPjtS4",
+      "videoId": "XBbsMAPjtS4",
+      "title": "[2023 서강대학교 응원단] TROS | 03. 이 곳 서강에",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2023-09-05",
+      "descriptionSummary": "‘개화: 함께 피워낼 서강’을 주제로 한 2023 TROS의 세 번째 곡이며 서강TV 촬영임을 명시한다. 제목은 다시 ‘이 곳’을 띄어 썼다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2023 TROS", "리딩곡", "표기 변형"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-here-2025",
+      "songId": "sogang-university-here-at-sogang",
+      "url": "https://www.youtube.com/watch?v=rw3ZBYnVqA0",
+      "videoId": "rw3ZBYnVqA0",
+      "title": "[서강대학교 응원단 트라이파시] 2025 서강대학교 응원대제전 TROS - 09. 이곳 서강에",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2025-06-04",
+      "descriptionSummary": "서강TV가 촬영한 2025 응원대제전 아홉 번째 곡 영상이라고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 응원대제전", "현행 표기"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-here-2026",
+      "songId": "sogang-university-here-at-sogang",
+      "url": "https://www.youtube.com/watch?v=V5b6SmqEE0M",
+      "videoId": "V5b6SmqEE0M",
+      "title": "[서강대학교 응원단 트라이파시] 2026 Odyssey 5월 축제 본판 무대 | 이곳 서강에",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2026-07-03",
+      "descriptionSummary": "서강TV 촬영과 16대 기획단장 하유리의 배경영상 제작을 명시한 2026 Odyssey 축제 곡별 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현행 사용", "Odyssey 축제", "배경영상 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-for-behind-2021",
+      "songId": "sogang-university-for-sogang",
+      "url": "https://www.youtube.com/watch?v=eBusfzLOb_c",
+      "videoId": "eBusfzLOb_c",
+      "title": "[behind the stage] EP special. 신곡 '서강을 위하여' 비하인드",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2021-06-01",
+      "descriptionSummary": "트라이파시 창단 10주년을 기념해 만든 신곡이며 6월 4일 온라인 2021 TROS에서 최초 공개된다고 예고한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명 댓글들은 신곡 제작과 공연 완성도를 칭찬하고 응원단을 지지했다.", "협업 밴드로 보이는 공개 계정의 댓글은 오프라인 연습이 어려운 상황에서 만든 결과를 놀라워했으나 신원 사실은 별도로 저장하지 않았다."],
+      "supports": ["10주년 신곡", "최초 공개일", "비대면 제작 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-for-premiere-2021",
+      "songId": "sogang-university-for-sogang",
+      "url": "https://www.youtube.com/watch?v=WRzGLwq19Po",
+      "videoId": "WRzGLwq19Po",
+      "title": "[서강대학교 온라인 응원제전] 2021 TROS : 서강을 위하여",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2021-06-04",
+      "descriptionSummary": "제목과 설명이 2021 온라인 응원대제전에서 공개된 ‘서강을 위하여’ 본편임을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["표본 댓글들은 어려운 상황에서도 드러난 열정과 에너지를 칭찬하고 서강 입학을 바라는 마음을 남겼다.", "일부는 특정 단원에 대한 팬성 표현으로, 곡의 역사 근거에서는 제외했다."],
+      "supports": ["2021 최초 공개 본편", "온라인 TROS", "공개 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-for-production-2021",
+      "songId": "sogang-university-for-sogang",
+      "url": "https://www.youtube.com/watch?v=fybX-CD5bxM",
+      "videoId": "fybX-CD5bxM",
+      "title": "[서강대학교 온라인 응원제전] 2021 TROS - 서강을 위하여",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2021-07-01",
+      "descriptionSummary": "제작에 벤치위레오 보컬 이준행(국문 11)과 동문 이지호(수학 16)가 함께했다고 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명 댓글들은 절도 있고 힘찬 군무와 곡을 칭찬하고 지속적인 응원을 전했다.", "한 이용자는 국가대표 축구 응원가처럼 들린다고 연상했으나 원곡 정보로 채택하지 않았다."],
+      "supports": ["협업자", "2021 공연", "군무 반응", "원곡 오인 가능성"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-for-tros-2022",
+      "songId": "sogang-university-for-sogang",
+      "url": "https://www.youtube.com/watch?v=OxhGexig-pQ",
+      "videoId": "OxhGexig-pQ",
+      "title": "[2022 서강대학교 응원단] 응원대제전 TROS | 07.서강을 위하여",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2022-05-31",
+      "descriptionSummary": "서강TV가 촬영한 2022 응원대제전 일곱 번째 곡 영상이라고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명 댓글 한 건은 치어리더인지 묻는 짧은 질문으로, 곡 정보는 제공하지 않는다."],
+      "supports": ["2022 TROS", "서강TV 촬영"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-for-tros-2023",
+      "songId": "sogang-university-for-sogang",
+      "url": "https://www.youtube.com/watch?v=FI7imDiwyCM",
+      "videoId": "FI7imDiwyCM",
+      "title": "[2023 서강대학교 응원단] TROS | 01. 서강을 위하여",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2023-09-05",
+      "descriptionSummary": "‘개화: 함께 피워낼 서강’을 주제로 한 2023 TROS의 첫 곡이며 서강TV 촬영임을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2023 TROS 첫 곡", "액션곡"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-for-applicants-2024",
+      "songId": "sogang-university-for-sogang",
+      "url": "https://www.youtube.com/watch?v=AQRmDgZ8bnw",
+      "videoId": "AQRmDgZ8bnw",
+      "title": "[2025학년도 서강대학교 수험생 응원 영상] 서강을 위하여🎇",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2024-10-15",
+      "descriptionSummary": "수능 D-30을 맞아 넘어져도 다시 일어나 노력해 온 수험생에게 위로와 박수를 보내고, 자신을 믿어 결실을 맺기를 바라는 응원 영상이라고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 익명 동문은 과거에는 응원단이 없었다고 회상하며 후배들의 모습과 청년 서강의 학구열을 반기고 수험생의 대학 생활을 응원했다."],
+      "supports": ["수험생 응원", "비경기 사용", "동문 회고"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-for-cardinal-2025",
+      "songId": "sogang-university-for-sogang",
+      "url": "https://www.youtube.com/watch?v=KSJMQD9eLag",
+      "videoId": "KSJMQD9eLag",
+      "title": "[서강대학교 응원단 트라이파시] 2025 CARDINAL 9월 축제 본판 무대 | 서강을 위하여",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2025-11-28",
+      "descriptionSummary": "서강TV 촬영이며 15대 단원들의 마지막 축제 무대라고 설명한다. 축제는 학우에게 직접 응원을 전하는 소중한 자리이고 두 차례 축제를 함께한 관객에게 감사한다고 적었다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 CARDINAL", "최근 직접 사용", "15대 마지막 축제"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-promise-release-2024",
+      "songId": "sogang-university-promise",
+      "url": "https://www.youtube.com/watch?v=K614z64mkas",
+      "videoId": "K614z64mkas",
+      "title": "서강의 약속 | 2024 서강대학교 응원단 트라이파시 신곡",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2024-10-16",
+      "descriptionSummary": "2024 신곡임을 밝히고 보컬·음원 총괄·믹싱 및 마스터링·기타·녹음·기획·영상 편집의 상세 크레딧과 유정석 ‘승리의 약속’ 개사·편곡 사실을 고지한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 신곡", "원곡", "개사·편곡", "상세 제작진"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-promise-behind-2024",
+      "songId": "sogang-university-promise",
+      "url": "https://www.youtube.com/watch?v=jYYhgFjTsmE",
+      "videoId": "jYYhgFjTsmE",
+      "title": "Behind the stage | 신곡 서강의 약속",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2024-10-25",
+      "descriptionSummary": "설명란은 비어 있고 제목이 신곡 제작 비하인드 영상임을 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명화한 댓글 한 건은 제작에 참여할 수 있어 즐거웠다고 말한다."],
+      "supports": ["신곡 제작 과정", "참여자 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-promise-cardinal-2024",
+      "songId": "sogang-university-promise",
+      "url": "https://www.youtube.com/watch?v=ACFUZGFQyIs",
+      "videoId": "ACFUZGFQyIs",
+      "title": "[서강대학교 응원단 트라이파시] 2024 CARDINAL 9월 축제 본판 무대 | 서강의 약속",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2024-10-26",
+      "descriptionSummary": "서강TV가 촬영한 2024 CARDINAL 축제의 신곡 본판 공연이라고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명 댓글 한 건은 새 곡이 매우 좋다고 호평한다."],
+      "supports": ["2024 CARDINAL 공연", "신곡 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-promise-or-2025",
+      "songId": "sogang-university-promise",
+      "url": "https://www.youtube.com/watch?v=4vWaUQbdYQU",
+      "videoId": "4vWaUQbdYQU",
+      "title": "[서강대학교 응원단 트라이파시] 2025 서강대학교 교외 OR 대동제 - 05. 서강의 약속",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2025-03-18",
+      "descriptionSummary": "15대 트라이파시가 처음 선보인 공연이며 함께한 신입생에게 감사를 전하고, 한 해 동안 무한한 응원을 전하겠다고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 OR", "신입생 교육", "15대 첫 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-promise-tros-2025",
+      "songId": "sogang-university-promise",
+      "url": "https://www.youtube.com/watch?v=VfmmLwI6JSQ",
+      "videoId": "VfmmLwI6JSQ",
+      "title": "[서강대학교 응원단 트라이파시] 2025 서강대학교 응원대제전 TROS - 07. 서강의 약속",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2025-06-04",
+      "descriptionSummary": "서강TV가 촬영한 2025 응원대제전 일곱 번째 곡 영상이라고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 TROS", "정규 레퍼토리"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-promise-cardinal-2025",
+      "songId": "sogang-university-promise",
+      "url": "https://www.youtube.com/watch?v=29u2RRCcnuM",
+      "videoId": "29u2RRCcnuM",
+      "title": "[서강대학교 응원단 트라이파시] 2025 CARDINAL 9월 축제 본판 무대 | 서강의 약속",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2025-11-28",
+      "descriptionSummary": "서강TV 촬영이며 15대의 마지막 축제 무대라고 설명한다. 두 번의 축제에서 직접 응원을 전하고 함께한 학우에게 감사하는 회고를 담았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 CARDINAL", "15대 마지막 축제", "지속 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-promise-or-2026",
+      "songId": "sogang-university-promise",
+      "url": "https://www.youtube.com/watch?v=TtlGp4ZT5vg",
+      "videoId": "TtlGp4ZT5vg",
+      "title": "[서강대학교 응원단 트라이파시] 2026 서강대학교 교외 OR 대동제 - 05. 서강의 약속",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2026-04-29",
+      "descriptionSummary": "16대 트라이파시의 첫 공연이며 함께한 신입생에게 감사를 전하고 2026년 한 해 무한한 응원을 보내겠다고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현행 사용", "교외 OR", "16대 첫 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-night-tros-2019",
+      "songId": "sogang-university-night",
+      "url": "https://www.youtube.com/watch?v=-B69Qr3QTyE",
+      "videoId": "-B69Qr3QTyE",
+      "title": "[2019 서강대학교 응원단] 응원제전 TROS 07. 서밤 (4K)",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2019-04-06",
+      "descriptionSummary": "설명란은 비어 있고 제목이 2019 TROS 일곱 번째 곡을 공식 줄임말 ‘서밤’으로 표기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2019 가장 이른 직접 표본", "서밤 별칭", "TROS 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-night-solo-2019",
+      "songId": "sogang-university-night",
+      "url": "https://www.youtube.com/watch?v=AMsXili8C6U",
+      "videoId": "AMsXili8C6U",
+      "title": "서강대학교 응원단 TRIPATHY - 09. 서강의 밤 (서밤) [그대에게 : The Light]",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2020-03-19",
+      "descriptionSummary": "2019 단독공연 ‘그대에게: The Light’의 아홉 번째 곡으로 전체 제목과 ‘서밤’을 병기하고, 썸네일 사진 제공자를 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2019 단독공연", "공식 별칭", "후대 게시"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-night-preview-2021",
+      "songId": "sogang-university-night",
+      "url": "https://www.youtube.com/watch?v=5ha9K54m7CI",
+      "videoId": "5ha9K54m7CI",
+      "title": "[서강대학교 응원단 트라이파시] 단독공연 '그대에게6 : 사랑과 정열' 선공개 영상 - 서강의 밤",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2021-12-23",
+      "descriptionSummary": "단독공연 ‘그대에게6: 사랑과 정열’의 ‘서강의 밤’ 선공개 영상이라고 제목과 설명이 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명 댓글은 서강과 곡에 대한 호감을 표현하고, 다른 댓글은 본 공연 공개 시각을 기다리는 기대감을 드러낸다."],
+      "supports": ["2021 단독공연", "선공개", "관객 기대"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-night-2022",
+      "songId": "sogang-university-night",
+      "url": "https://www.youtube.com/watch?v=7K0pf9TwAPY",
+      "videoId": "7K0pf9TwAPY",
+      "title": "[2022 서강대학교 응원단] 응원대제전 TROSㅣ05.서강의 밤",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2022-05-31",
+      "descriptionSummary": "서강TV가 촬영한 2022 응원대제전 다섯 번째 곡 영상이라고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["익명 댓글 한 건은 여러 응원가 중 ‘서강의 밤’을 가장 좋아한다고 평가한다.", "동문으로 보이는 댓글은 수십 년이 지나도 청년 서강과 후배 응원단이 자랑스럽다고 회고한다.", "특정 단원 이름을 반복하는 팬성 댓글은 역사 근거에서 제외했다."],
+      "supports": ["2022 TROS", "선호 반응", "동문 자부심"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-night-2023",
+      "songId": "sogang-university-night",
+      "url": "https://www.youtube.com/watch?v=9yzlk83qs2o",
+      "videoId": "9yzlk83qs2o",
+      "title": "[2023 서강대학교 응원단] TROS | 05. 서강의 밤",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2023-09-05",
+      "descriptionSummary": "‘개화: 함께 피워낼 서강’을 주제로 한 2023 TROS의 다섯 번째 곡이며 서강TV 촬영임을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2023 TROS", "리딩곡"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-night-2025",
+      "songId": "sogang-university-night",
+      "url": "https://www.youtube.com/watch?v=nYgMCfyDZ50",
+      "videoId": "nYgMCfyDZ50",
+      "title": "[서강대학교 응원단 트라이파시] 2025 RED:volution 5월 축제 본판 무대 | 서강의 밤",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2025-07-14",
+      "descriptionSummary": "서강TV가 촬영한 2025 RED:volution 5월 축제 본판의 곡별 영상이라고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 봄축제", "최근 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-sogang-a-night-2026",
+      "songId": "sogang-university-night",
+      "url": "https://www.youtube.com/watch?v=ZIt9zRr3eSY",
+      "videoId": "ZIt9zRr3eSY",
+      "title": "[서강대학교 응원단 트라이파시] 2026 Odyssey 5월 축제 본판 무대 | 서강의 밤",
+      "channel": "서강대학교 응원단 트라이파시TRIPATHY",
+      "publishedAt": "2026-07-03",
+      "descriptionSummary": "서강TV 촬영과 17기 기획단원 김의준의 배경영상 제작을 명시한 2026 Odyssey 축제 곡별 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현행 사용", "Odyssey 축제", "배경영상 크레딧"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 35,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

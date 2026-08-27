@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "songId": "korea-university-minjogui-aria",
+  "title": "민족의 아리아",
+  "status": "needs-review",
+  "generatedAt": "2026-08-14",
+  "rightsNote": "전체 가사, 댓글 원문, 사용자명은 저장하지 않았다. 기사와 영상은 검증 가능한 사실과 익명화한 수용 양상만 재서술했다.",
+  "candidates": [
+    {
+      "id": "tmi-ku-minaria-001",
+      "headline": "돌에 새긴 문장이 수만 명의 목소리가 되기까지",
+      "narrative": "고려대 호상은 1965년 학생들이 모은 성금으로 세워졌고, 조지훈이 지은 호상비문이 그 아래에 새겨졌다. 수십 년 뒤 그 문장의 핵심 표현이 응원가 가사로 압축·재배열되면서, 고정된 캠퍼스 기념물이 반복 가능한 집단 의식으로 바뀌었다. 2024년 공식 응원 OT에서도 호상비문 낭독 직후 곡을 부르는 순서가 확인돼 둘의 연결이 현재형 관행임을 보여준다.",
+      "whyInteresting": "학교 상징이 석상에서 텍스트로, 다시 떼창과 몸동작으로 매체를 바꿔 살아남은 사례라서 한 곡의 문화사를 짧고 선명하게 설명할 수 있다.",
+      "factRefs": [
+        "minjogui-aria-lyric-source",
+        "minjogui-aria-lyric-transformation",
+        "minjogui-aria-current-status"
+      ],
+      "sourceRefs": [
+        "web-ku-library-hosang",
+        "web-kunews-cheongrok",
+        "yt-0S19q-wYtgQ"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "응원가 개사자가 누구인지 확인되지 않았으므로 조지훈을 현대 응원가의 개사자로 표기하면 안 된다. 호상비문 전문도 복제하지 않는다."
+    },
+    {
+      "id": "tmi-ku-minaria-002",
+      "headline": "1965년 한국의 비문, 2001년 이탈리아 팝페라, 2003년 고려대 응원가",
+      "narrative": "민족의 아리아는 서로 다른 시대와 매체가 결합한 문화적 콜라주다. 한국어 가사의 원천은 호상비문이고, 선율은 Andrea Bocelli의 2001년 곡 ‘Melodramma’이며, 고려대 응원가판은 2003년에 등장했다. 세 연도를 한 타임라인에 놓으면 이 곡이 단순한 번안곡도, 비문 낭송도 아니라는 점이 드러난다.",
+      "whyInteresting": "한 곡 안에 캠퍼스 역사, 한국 현대시, 이탈리아 대중음악, 학생 응원문화가 겹쳐 있다는 사실은 강한 도입부가 된다.",
+      "factRefs": [
+        "minjogui-aria-introduction-year-2003",
+        "minjogui-aria-original-song",
+        "melodramma-release-year",
+        "minjogui-aria-lyric-source"
+      ],
+      "sourceRefs": [
+        "web-ku-library-hosang",
+        "web-bocelli-discography",
+        "web-kuaa-timeline",
+        "web-kunews-cheongrok"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "2001년은 원곡 수록 연도이고 2003년은 고려대판 도입 연도다. 두 연도를 섞어 곡의 발표연도를 하나로 쓰지 않는다."
+    },
+    {
+      "id": "tmi-ku-minaria-003",
+      "headline": "‘Since 2003’은 확실하지만 첫 무대의 날짜는 아직 모른다",
+      "narrative": "고려대학교 교우회 연표와 응원단 음악부 취재는 모두 2003년 도입을 지지한다. 그러나 현재 확보한 자료만으로는 정확한 초연 날짜와 최초 공개 행사를 특정할 수 없다. 연도는 확정하면서도 날짜와 장소는 비워 두는 것이 가장 정확한 편집이다.",
+      "whyInteresting": "유명한 전통도 세부 기록은 비어 있을 수 있다는 점을 보여주며, 사이트의 연도 표기 원칙을 설명하는 좋은 메타 TMI다.",
+      "factRefs": [
+        "minjogui-aria-introduction-year-2003",
+        "minjogui-aria-kuaa-premiere-wording",
+        "minjogui-aria-exact-premiere-date",
+        "minjogui-aria-exact-premiere-event"
+      ],
+      "sourceRefs": [
+        "web-kuaa-timeline",
+        "web-sportsq-origin",
+        "web-namu-mirror"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "‘2003년 정기 고연전에서 최초 공개’처럼 행사까지 단정하지 말고, 새 자료가 나오기 전에는 ‘2003년 초연/도입’까지만 쓴다."
+    },
+    {
+      "id": "tmi-ku-minaria-004",
+      "headline": "온라인 가곡 차트에서 응원가 후보를 찾았다는 제작 뒷이야기",
+      "narrative": "2014년 응원단 음악부 취재 기사는 2003년 당시 음원 사이트의 가곡 차트에서 ‘Melodramma’를 검토해 원곡으로 골랐다고 전한다. 거대한 스타디움 송의 출발점이 거창한 작곡 프로젝트가 아니라 온라인 차트 탐색이었다는 설명이다.",
+      "whyInteresting": "2000년대 초 인터넷 음악 소비 방식이 대학 응원가 제작에 연결됐다는 시대상이 드러난다.",
+      "factRefs": [
+        "minjogui-aria-chart-selection-story",
+        "minjogui-aria-original-song",
+        "minjogui-aria-adaptation-not-original-composition"
+      ],
+      "sourceRefs": [
+        "web-sportsq-origin",
+        "web-bocelli-discography"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "당시 차트 화면이나 회의록은 확보되지 않았다. 응원단 음악부 취재에 기댄 후대 보도라는 점을 함께 밝힌다."
+    },
+    {
+      "id": "tmi-ku-minaria-005",
+      "headline": "‘막걸리·늦잠·차트 톱10’ 버전은 확인된 역사보다 덧붙은 전설에 가깝다",
+      "narrative": "확인 가능한 보도의 핵심은 응원단이 온라인 가곡 차트에서 원곡을 검토했다는 데까지다. 나무위키에는 한 단원이 전날 술을 마시고 늦잠을 자 차트 상위권을 통째로 가져왔다는 더 극적인 버전이 실려 있지만, 문서 자체도 이를 미확인 일화로 취급한다. 사실의 핵과 후대의 장식이 어떻게 갈라지는지 보여주는 사례다.",
+      "whyInteresting": "가장 기억에 남는 이야기인 동시에 출처 교육에도 쓸 수 있다. ‘재미있지만 확정할 수 없는 TMI’를 버리지 않고 안전하게 보존하는 모범 사례가 된다.",
+      "factRefs": [
+        "minjogui-aria-chart-selection-story"
+      ],
+      "sourceRefs": [
+        "web-sportsq-origin",
+        "web-namu-mirror"
+      ],
+      "editorialStatus": "hold",
+      "caveat": "술자리, 늦잠, 차트 목록을 가져왔다는 세부는 1차 자료가 없다. 본문 사실란에는 넣지 말고 ‘전해지는 미확인 일화’로만 표시한다."
+    },
+    {
+      "id": "tmi-ku-minaria-006",
+      "headline": "반주가 사라질수록 더 커지는 대표 구간",
+      "narrative": "현대 공연 영상에서는 후반부에 악기 반주를 줄이거나 멈춰 관중의 육성을 전면에 내세우는 연출이 반복된다. 원곡의 팝페라적 장엄함을 그대로 재생하는 대신, 집단의 목소리 자체를 악기로 바꾼 것이 고려대판의 강한 정체성이 됐다.",
+      "whyInteresting": "‘무반주’는 단순한 편곡 장치가 아니라 수천 명이 곡의 주인공이 되는 순간이라는 설명이 가능하다.",
+      "factRefs": [
+        "minjogui-aria-unaccompanied-identity",
+        "minjogui-aria-2026-unaccompanied-direct",
+        "minjogui-aria-current-status"
+      ],
+      "sourceRefs": [
+        "yt-C8jjjhSHK18",
+        "yt-blzXqmXZntY",
+        "web-sportsg-acapella"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "현재의 무반주 관행은 영상으로 확인되지만 그 관행이 언제부터 고정됐는지는 별도의 역사 문제다."
+    },
+    {
+      "id": "tmi-ku-minaria-007",
+      "headline": "스피커 고장이 명장면을 만들었다는 ‘우연의 탄생’ 설화",
+      "narrative": "널리 퍼진 일화에 따르면 2003년 축구장에서 양교 응원단의 음향 경쟁 중 고려대 스피커가 멈췄고, 관중이 반주 없이 계속 부른 장면의 반응이 좋아 무반주 구간이 관행으로 남았다. 스포츠 매체와 편집형 자료가 같은 이야기를 전하지만 당시 기록은 아직 찾지 못했다.",
+      "whyInteresting": "기술적 실패를 공동체가 즉흥적으로 공연의 핵심으로 바꿨다는 서사는 매우 강력하다.",
+      "factRefs": [
+        "minjogui-aria-speaker-failure-origin-story",
+        "minjogui-aria-speaker-failure-primary-record",
+        "minjogui-aria-2026-unaccompanied-direct",
+        "minjogui-aria-unaccompanied-identity"
+      ],
+      "sourceRefs": [
+        "web-sportsg-acapella",
+        "web-namu-mirror",
+        "yt-C8jjjhSHK18"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "현재 관행과 기원설을 분리한다. 2003년 방송 원본, 응원단 밴드 기록, 당시 관계자 복수 증언이 확보되기 전에는 ‘전해진다’고만 쓴다."
+    },
+    {
+      "id": "tmi-ku-minaria-008",
+      "headline": "연세대 ‘서시’에 맞선 응원가 경쟁의 산물이라는 라이벌리 서사",
+      "narrative": "응원단 음악부 취재와 나무위키는 민족의 아리아가 연세대의 장중한 응원가 ‘서시’가 받은 반응에 대응해 만들어졌다는 이야기를 공통으로 전한다. 양교가 경기 결과뿐 아니라 신곡의 반응을 두고도 ‘이기고 밀렸다’고 평가하던 문화가 곡 제작을 자극했다는 맥락이다.",
+      "whyInteresting": "응원가가 독립적인 작품 목록이 아니라 라이벌 학교가 서로의 선택에 반응하며 만든 문화적 대화였음을 보여준다.",
+      "factRefs": [
+        "minjogui-aria-seosi-response-narrative",
+        "minjogui-aria-new-song-before-rivalry"
+      ],
+      "sourceRefs": [
+        "web-sportsq-origin",
+        "web-namu-mirror"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "‘대응곡’은 제작 맥락에 관한 후대 설명이다. 두 곡이 선율이나 가사를 직접 차용했다는 뜻으로 쓰면 안 된다."
+    },
+    {
+      "id": "tmi-ku-minaria-009",
+      "headline": "대응 관계는 남기되 ‘서시’의 2002·2003 연도 충돌도 함께 남겨야 한다",
+      "narrative": "2014년 취재 기사는 연세대 ‘서시’를 2002년 곡으로 적지만, 나무위키는 2003년 아카라카 등장으로 서술한다. 이 충돌은 민족의 아리아의 2003년 도입 자체를 흔들지는 않지만, 어느 행사에 대한 즉각적 대응이었는지를 설명할 때는 중요하다.",
+      "whyInteresting": "한쪽 주장을 지우지 않고도 핵심 연도와 배경 서사를 동시에 보존하는 편집 사례가 된다.",
+      "factRefs": [
+        "seosi-year-2002-claim",
+        "seosi-year-2003-claim",
+        "seosi-year-conflict",
+        "minjogui-aria-year-independent-of-seosi-conflict"
+      ],
+      "sourceRefs": [
+        "web-sportsq-origin",
+        "web-namu-mirror",
+        "web-kuaa-timeline"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "서시의 연도를 확정하는 글이 아니라 상충 주장을 보존하는 글로 편집한다. 민족의 아리아에는 ‘Since 2003’을 유지한다."
+    },
+    {
+      "id": "tmi-ku-minaria-010",
+      "headline": "라이벌에게서 영감을 받았지만 라이벌 곡을 베낀 것은 아니다",
+      "narrative": "확보된 자료가 말하는 관계는 ‘서시’의 반응이 새로운 장중한 응원가 제작을 자극했다는 수준이다. 민족의 아리아의 직접 선율 원곡은 ‘Melodramma’이며, 서시의 선율이나 가사를 차용했다는 근거는 찾지 못했다. 문화적 응답과 음악적 차용을 구분해야 한다.",
+      "whyInteresting": "‘영향’, ‘대응’, ‘원곡’, ‘표절’을 혼동하기 쉬운 대중 서사를 한 번에 정리할 수 있다.",
+      "factRefs": [
+        "minjogui-aria-seosi-response-narrative",
+        "minjogui-aria-original-song",
+        "minjogui-aria-no-direct-musical-borrowing-from-seosi"
+      ],
+      "sourceRefs": [
+        "web-sportsq-origin",
+        "web-bocelli-discography",
+        "web-namu-mirror"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "직접 차용이 없다는 것은 현재 확보 자료의 범위에서 내린 판단이다. 제작자 인터뷰가 나오면 다시 검토한다."
+    },
+    {
+      "id": "tmi-ku-minaria-011",
+      "headline": "안암에서 잠실로 건너간 멜로디",
+      "narrative": "2014년 보도는 고려대판 응원 편곡이 LG 트윈스와 당시 넥센 히어로즈를 비롯한 프로스포츠 응원문화로 확산됐다고 전한다. 대학 정기전에서 검증된 집단 합창 형식이 프로 경기장의 팀명과 승리 구호에 맞게 다시 번안된 셈이다.",
+      "whyInteresting": "대학 응원문화가 프로스포츠에 영향을 주는 역방향 문화 이동을 보여준다.",
+      "factRefs": [
+        "minjogui-aria-professional-sports-adaptation",
+        "minjogui-aria-nexen-lg-2012-use"
+      ],
+      "sourceRefs": [
+        "web-sportsq-origin",
+        "web-namu-mirror"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "각 구단판의 정확한 최초 사용일과 현재 사용 여부는 구단별 자료로 다시 검증해야 한다. 원곡과 고려대 편곡의 권리 관계도 별개다."
+    },
+    {
+      "id": "tmi-ku-minaria-012",
+      "headline": "LG와 넥센 팬이 같은 선율의 ‘원조’를 다퉜던 2012년",
+      "narrative": "2014년 기사에 따르면 넥센은 2012시즌 초, LG는 같은 시즌 중반부터 이 선율을 응원가로 사용했다. 맞대결에서 양쪽 응원석에서 비슷한 곡이 울리며 팬들 사이에 ‘누가 먼저인가’라는 설전이 생겼지만, 더 앞선 대학판은 2003년이고 그 이전에는 2001년 원곡이 있다.",
+      "whyInteresting": "원조를 학교, 프로구단, 원곡 가운데 어느 층위에서 말하는지에 따라 답이 달라지는 재미있는 사례다.",
+      "factRefs": [
+        "minjogui-aria-nexen-lg-2012-use",
+        "minjogui-aria-introduction-year-2003",
+        "melodramma-release-year"
+      ],
+      "sourceRefs": [
+        "web-sportsq-origin",
+        "web-kuaa-timeline",
+        "web-bocelli-discography"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "2012년 세부 시점은 2014년의 회고 보도에 근거한다. 구단 응원단의 당시 큐시트나 영상으로 추가 확인하는 것이 좋다."
+    },
+    {
+      "id": "tmi-ku-minaria-013",
+      "headline": "널리 퍼진 것을 반기면서도 ‘먼저 연락해 달라’는 대학 응원단의 딜레마",
+      "narrative": "2014년 취재에서 고려대 응원단 음악부는 대학 응원가가 프로 구단을 통해 더 알려지는 점을 긍정적으로 보면서도, 당시 사전 협의를 해온 사례가 드물었다고 설명했다. 문화 확산의 기쁨과 제작 주체에 대한 존중 요구가 동시에 드러난다.",
+      "whyInteresting": "팬 문화의 자발적 확산과 크레딧·허락 문제 사이의 긴장을 인간적인 언어로 보여준다.",
+      "factRefs": [
+        "minjogui-aria-professional-sports-adaptation",
+        "minjogui-aria-rights-permission-status"
+      ],
+      "sourceRefs": [
+        "web-sportsq-origin",
+        "web-kuaa-song-page"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "이는 2014년 인터뷰 당시의 설명이지 현재 각 구단의 계약 상태를 증명하지 않는다. ‘무단 사용’이라고 법적으로 단정하지 않는다."
+    },
+    {
+      "id": "tmi-ku-minaria-014",
+      "headline": "응원가 가사도 별도의 저작물이 될 수 있다는 법학 논문의 사례",
+      "narrative": "정보법학 논문은 원곡을 바탕으로 한 야구장·대학 응원가의 권리 문제를 다루며, 민족의 아리아의 현대 한국어 가사가 별도의 창작성을 가질 가능성을 사례로 검토한다. 익숙한 떼창 뒤에 원곡, 편곡, 개사, 공연, 음원 배포가 서로 다른 권리 층위로 겹쳐 있다.",
+      "whyInteresting": "문화적 공공재처럼 느껴지는 응원가에도 복잡한 저작권 관계가 있다는 의외성이 크다.",
+      "factRefs": [
+        "minjogui-aria-adaptation-not-original-composition",
+        "minjogui-aria-lyric-transformation",
+        "minjogui-aria-rights-permission-status"
+      ],
+      "sourceRefs": [
+        "web-legal-cheer-copyright",
+        "web-bocelli-discography",
+        "web-kuaa-song-page"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "논문의 법적 분석은 확정판결이나 이 곡의 실제 계약서를 확인한 결과가 아니다. 권리자와 허락 범위는 미확정으로 둔다."
+    },
+    {
+      "id": "tmi-ku-minaria-015",
+      "headline": "원곡 크레딧은 남았지만 고려대판 제작자 이름은 비어 있다",
+      "narrative": "원곡 ‘Melodramma’의 공동 저작자와 음반 편곡·프로듀싱 크레딧은 음악 데이터에서 확인된다. 반면 2003년 고려대판에서 호상비문을 선별·재배열한 사람, 스타디움용으로 편곡한 사람, 최초 녹음 참여자의 이름은 현재 공개 자료에서 찾지 못했다.",
+      "whyInteresting": "모두가 아는 곡인데 정작 오늘의 형태를 만든 학생 제작진의 이름이 남지 않았다는 기록의 역설이 있다.",
+      "factRefs": [
+        "melodramma-writers",
+        "melodramma-original-arranger",
+        "melodramma-original-producer",
+        "minjogui-aria-ku-lyric-adapter",
+        "minjogui-aria-ku-arranger",
+        "minjogui-aria-ku-recording-credits"
+      ],
+      "sourceRefs": [
+        "web-musicbrainz-credits",
+        "web-shazam-credits",
+        "web-kuaa-song-page",
+        "web-sportsq-origin"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "‘미상’은 제작자가 없다는 뜻이 아니라 현재 공개 자료에서 확인하지 못했다는 뜻이다. 2003년 응원단 음악부·밴드 자료를 추가 취재해야 한다."
+    },
+    {
+      "id": "tmi-ku-minaria-016",
+      "headline": "입학하기 전부터 듣는 ‘합격 목표곡’",
+      "narrative": "고려대학교 입학처는 2013년 민족의 아리아를 공식 입학 홍보 콘텐츠에 사용했다. 이후 공개 영상 반응에서도 수험생이 목표 학번이나 합격 의지를 남기며 곡을 학습 동기로 삼는 양상이 반복된다. 재학생의 응원가가 예비 학생에게는 미래 소속을 상상하는 사운드트랙이 된 셈이다.",
+      "whyInteresting": "응원가가 경기장 밖에서 입시 동기와 대학 브랜드를 만드는 방식까지 확장됐음을 보여준다.",
+      "factRefs": [
+        "minjogui-aria-2013-admissions-use",
+        "minjogui-aria-applicant-motivation-reception"
+      ],
+      "sourceRefs": [
+        "yt-v4jTwzvwb98",
+        "yt-C8jjjhSHK18"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "댓글 반응은 자발적 사례 표본이지 전체 수험생을 대표하는 설문이 아니다. 댓글 문장과 계정명은 저장하거나 인용하지 않는다."
+    },
+    {
+      "id": "tmi-ku-minaria-017",
+      "headline": "16개 단과대학을 한 곡으로 이어 붙인 캠퍼스 모자이크",
+      "narrative": "2019년 KUTV는 16개 단과대학 학생들이 구간을 이어 부르는 특별영상을 제작했다. 하나의 응원석에서 부르던 곡을 여러 전공 공동체가 나눠 맡게 함으로써, ‘같음’만 강조하는 떼창을 학교 내부의 다양성을 보여주는 형식으로 바꿨다.",
+      "whyInteresting": "응원가가 단일한 학교 정체성과 서로 다른 단과대학 정체성을 동시에 담는 연출이어서 시각적 이야기로도 좋다.",
+      "factRefs": [
+        "minjogui-aria-2019-college-choir",
+        "minjogui-aria-student-identity-reception"
+      ],
+      "sourceRefs": [
+        "yt-LIxcLsvUjWU"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "‘16개 단과대학’은 2019년 영상의 구성 단위다. 당시 학교의 모든 학과·학생 집단을 빠짐없이 대표했다는 뜻으로 확대하지 않는다."
+    },
+    {
+      "id": "tmi-ku-minaria-018",
+      "headline": "라이벌도 함께 부르는 라이벌 학교의 대표곡",
+      "narrative": "2022년 고려대 교육방송국의 합동응원전 영상은 민족의 아리아와 연세여 사랑한다를 나란히 배치하고 두 학교 학생 모두가 사랑하는 곡이라는 취지로 소개했다. 경쟁의 상징인 노래가 합동응원에서는 상대 문화를 인정하고 함께 즐기는 교환 의식으로 작동한다.",
+      "whyInteresting": "고연전 응원문화가 적대만이 아니라 상대 학교의 대표곡을 알고 즐기는 상호 문해력 위에 서 있음을 보여준다.",
+      "factRefs": [
+        "minjogui-aria-2022-joint-cheer-use"
+      ],
+      "sourceRefs": [
+        "yt-tKalHGAhN4U"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "영상 설명의 표현은 방송국의 행사 소개 문구이지 양교 전체 학생 대상 선호도 조사 결과는 아니다."
+    },
+    {
+      "id": "tmi-ku-minaria-019",
+      "headline": "초청 가수가 학교 응원가를 부르는 순간, 공연은 그 캠퍼스만의 무대가 된다",
+      "narrative": "YB는 2024년 고려대 석탑대동제에서 민족의 아리아를 록 공연으로 선보였다. 유명 가수가 자신의 히트곡 사이에 학교 응원가를 재해석하는 행위는 단순한 커버를 넘어, 전국을 도는 대학축제를 해당 캠퍼스만의 공연으로 현지화하는 의식처럼 작동한다.",
+      "whyInteresting": "학교 노래와 대중음악 공연이 서로의 권위를 빌려 축제의 절정 장면을 만드는 과정을 설명할 수 있다.",
+      "factRefs": [
+        "minjogui-aria-2024-yb-performance",
+        "minjogui-aria-student-identity-reception"
+      ],
+      "sourceRefs": [
+        "yt-PjPRGRPt1ew"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "‘현지화 의식’은 반복되는 공연 관행에 대한 편집적 해석이다. 해당 무대의 편곡자와 권리 허락은 영상만으로 확인되지 않는다."
+    },
+    {
+      "id": "tmi-ku-minaria-020",
+      "headline": "학교가 직접 ‘제2의 민족의 아리아’를 찾기 시작했다",
+      "narrative": "고려대는 개교 120주년을 맞아 기존 곡을 잇는 새 응원가 공모전을 열고 다섯 수상작을 발표했다. ‘제2의 민족의 아리아’라는 표현은 기존 곡을 교체 대상으로 낮추기보다, 새 곡의 성공 여부를 재는 공식 기준점으로 올려놓는다.",
+      "whyInteresting": "한 응원가의 위상이 학교의 새 창작 프로젝트 이름과 목표 자체가 된 보기 드문 사례다.",
+      "factRefs": [
+        "minjogui-aria-current-status",
+        "minjogui-aria-introduction-year-2003"
+      ],
+      "sourceRefs": [
+        "web-ku-second-aria-project",
+        "web-ku-second-aria-awards",
+        "yt-C8jjjhSHK18"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "공모전 수상작이 장기간 실제 응원 현장에 정착했는지는 별도 추적이 필요하다. ‘후속곡’과 ‘대체곡’을 같은 뜻으로 쓰지 않는다."
+    },
+    {
+      "id": "tmi-ku-minaria-021",
+      "headline": "공식 음원이 있어도 현장의 진짜 악기는 관중이다",
+      "narrative": "고려대학교 교우회는 곡 구조와 MP3가 포함된 공식 자료 페이지를 제공한다. 그러나 현장 영상에서 곡의 가장 강한 정체성은 음원 그 자체보다, 간주와 반복을 지나 관중의 육성이 전면으로 나오는 방식에서 생긴다. 기록 매체와 공연 관행이 서로 다른 버전의 ‘정본’을 만든다.",
+      "whyInteresting": "응원가는 음원 파일만 보존해서는 완전히 기록할 수 없고, 부르는 순서와 군중의 참여 방식까지 함께 남겨야 한다는 점을 보여준다.",
+      "factRefs": [
+        "minjogui-aria-official-song-form",
+        "minjogui-aria-official-audio-post",
+        "minjogui-aria-unaccompanied-identity"
+      ],
+      "sourceRefs": [
+        "web-kuaa-song-page",
+        "yt-C8jjjhSHK18",
+        "yt-blzXqmXZntY"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "공식 MP3나 가사 전문을 재배포하지 않고, 구조와 현장 사용 방식만 요약한다."
+    },
+    {
+      "id": "tmi-ku-minaria-022",
+      "headline": "23년이 지나도 축제의 현재형인 응원가",
+      "narrative": "2003년에 도입된 민족의 아리아는 2026년 입실렌티 무대에서도 사용됐다. 짧은 유행을 넘겨 여러 세대가 다시 배우고 부르는 곡이 되었고, 입학 홍보·응원 OT·합동응원·대동제까지 서로 다른 행사 유형을 연결한다.",
+      "whyInteresting": "오래된 곡이 박제된 전통이 아니라 현재 학생문화의 핵심 레퍼토리로 계속 재생산된다는 점을 압축한다.",
+      "factRefs": [
+        "minjogui-aria-introduction-year-2003",
+        "minjogui-aria-2013-admissions-use",
+        "minjogui-aria-2022-joint-cheer-use",
+        "minjogui-aria-2024-yb-performance",
+        "minjogui-aria-2026-ipselenti-use",
+        "minjogui-aria-current-status"
+      ],
+      "sourceRefs": [
+        "web-kuaa-timeline",
+        "yt-v4jTwzvwb98",
+        "yt-tKalHGAhN4U",
+        "yt-PjPRGRPt1ew",
+        "yt-C8jjjhSHK18"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "‘23년’은 2003년 도입에서 2026년 확인 시점까지의 달력상 차이다. 매년 빠짐없이 공연됐다는 뜻은 아니다."
+    },
+    {
+      "id": "tmi-ku-minaria-023",
+      "headline": "‘민아’라는 두 글자 별칭이 보여주는 일상화",
+      "narrative": "편집형 자료에서는 민족의 아리아를 ‘민아’라고 줄여 부르는 별칭이 확인된다. 장중한 공식 곡명이 학생들 사이에서는 친근한 두 글자로 축약되며, 의례의 노래가 일상 대화 속 소유물로 바뀐 흔적이다.",
+      "whyInteresting": "거대한 학교 상징과 가벼운 학생 은어가 한 곡 안에 공존한다는 소소하지만 기억하기 쉬운 TMI다.",
+      "factRefs": [
+        "minjogui-aria-official-title",
+        "minjogui-aria-alias-mina"
+      ],
+      "sourceRefs": [
+        "web-kuaa-song-page",
+        "web-namu-mirror"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "공식 명칭은 민족의 아리아다. 별칭의 사용 빈도와 세대별 범위는 조사되지 않았으므로 보조 별칭으로만 둔다."
+    },
+    {
+      "id": "tmi-ku-minaria-024",
+      "headline": "곡보다 선배인 98학번이 22년 뒤 후배들의 응원을 배웠다",
+      "narrative": "민족의 아리아는 2003년에 도입됐으므로 98학번 교우가 재학하던 시기에는 존재하지 않았다. 2025년 고려대 경영대의 교우·가족 행사에서는 이 선배 세대가 가족과 함께 곡의 응원을 새로 배웠다. 전통이 선배에게서 후배에게만 내려오는 것이 아니라, 성공한 후대의 전통이 이전 세대의 동문에게 역방향으로 전파된 장면이다.",
+      "whyInteresting": "‘오래된 학교 전통’이 실제로는 모든 동문이 학창 시절부터 알던 것이 아니라는 점과, 공동체가 새 전통을 과거 세대까지 확장하는 방식을 보여준다.",
+      "factRefs": [
+        "minjogui-aria-introduction-year-2003",
+        "minjogui-aria-retroactive-alumni-tradition"
+      ],
+      "sourceRefs": [
+        "web-kuaa-timeline",
+        "web-ku-business-98-alumni"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "98학번 교우 전체가 처음 배웠다는 뜻은 아니다. 해당 행사 참가자에 관한 학교 보도의 한 사례로 쓴다."
+    },
+    {
+      "id": "tmi-ku-minaria-025",
+      "headline": "입학식에서 시작해 국제 MBA 졸업식까지 간 응원가",
+      "narrative": "2023년 입학식에서는 신입생들이 이 곡의 동작을 배웠고, 2025년 경영전문대학원 학위수여식에서는 국내외 졸업생이 응원에 참여했다. 한 노래가 대학 입문의 의례와 학위 과정의 마지막 의례 양쪽에 놓인 셈이다.",
+      "whyInteresting": "학부 경기 응원가가 학생 생애주기의 시작과 끝, 국제 대학원 공동체까지 연결하는 의례 음악으로 확장됐음을 보여준다.",
+      "factRefs": [
+        "minjogui-aria-graduation-use",
+        "minjogui-aria-current-status"
+      ],
+      "sourceRefs": [
+        "web-kunews-entrance-2023",
+        "web-ku-business-graduation-2025"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "두 행사 사례를 모든 입학식·졸업식의 고정 순서로 일반화하지 않는다."
+    },
+    {
+      "id": "tmi-ku-minaria-026",
+      "headline": "‘후반부 대표곡’이라는 감각을 데이터로 시험한 학생 프로젝트",
+      "narrative": "2022년 고려대 데이터인문학 학생 프로젝트는 정기전 여섯 경기의 응원곡과 경기 상황을 코딩했다. 이 표본에서 민족의 아리아는 후반부에 자주 등장했다. 팬들이 말하는 ‘막판 분위기를 끌어올리는 곡’이라는 감각을 작은 데이터셋으로 시험했다는 점이 흥미롭다.",
+      "whyInteresting": "응원가 사용 맥락을 인상비평이 아니라 실제 경기 구간 데이터로 읽으려 한 드문 시도다.",
+      "factRefs": [
+        "minjogui-aria-late-game-sample"
+      ],
+      "sourceRefs": [
+        "web-ku-datahumanities-game-context",
+        "web-sports-korea-2025"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "여섯 경기의 학생 프로젝트라 표본 편향이 크다. ‘항상 후반에만 부른다’는 고정 규칙으로 쓰면 안 된다."
+    },
+    {
+      "id": "tmi-ku-minaria-027",
+      "headline": "모두를 하나로 묶는 음악회가 누군가에게는 시험기간 소음이었다",
+      "narrative": "2025년 개교 120주년 열린음악회에서는 김경호의 록 버전과 관중 합창이 피날레를 만들고 지역주민도 초청됐다. 같은 행사를 다룬 고대신문은 중간고사 기간의 소음과 일부 공간 출입 통제로 불편을 겪은 구성원의 목소리도 함께 전했다. 공동체를 결속하는 응원문화도 시간과 공간을 점유할 때는 외부효과를 만든다.",
+      "whyInteresting": "응원문화를 무조건 낭만화하지 않고, 강한 소속감과 캠퍼스 일상의 마찰을 한 장면 안에서 보여준다.",
+      "factRefs": [
+        "minjogui-aria-open-concert-community-and-friction"
+      ],
+      "sourceRefs": [
+        "web-ku120-openconcert",
+        "web-kunews-openconcert-2025",
+        "yt-LB_ne2nQ4wM"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "축제 찬반의 대표성이나 전체 만족도를 단정하지 않고, 같은 행사에 공존한 두 경험으로 서술한다."
+    },
+    {
+      "id": "tmi-ku-minaria-028",
+      "headline": "응원가가 멈추자 공동체 의례의 역할이 더 선명해졌다",
+      "narrative": "코로나19 시기 새터·MT·고연전 같은 대면 행사가 사라지자 고려대 정책연구 보고서는 신입생의 관계 형성과 학교 정체성 약화를 중요한 문제로 다뤘다. 민족의 아리아 한 곡의 효과를 측정한 것은 아니지만, 이 곡이 작동하던 집단 의례가 사라졌을 때 무엇이 함께 사라지는지 보여주는 배경이다.",
+      "whyInteresting": "응원가를 단지 음악 파일이 아니라 사람을 같은 장소와 동작에 묶는 사회적 장치로 해석하게 한다.",
+      "factRefs": [
+        "minjogui-aria-pandemic-ritual-absence",
+        "minjogui-aria-2024-ot-repeated-placement"
+      ],
+      "sourceRefs": [
+        "web-ku-nextnormal-community",
+        "yt-1-IuXdUYHMc",
+        "yt-0S19q-wYtgQ"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "보고서는 특정 곡의 인과효과를 입증하지 않는다. 대학 대면 의례가 갖는 공동체 기능의 맥락 자료로만 사용한다."
+    },
+    {
+      "id": "tmi-ku-minaria-029",
+      "headline": "같은 ‘정의’의 언어를 접근성 질문으로 되돌려 읽은 학생",
+      "narrative": "고려대 교양교육원의 한 수상 에세이는 민족의 아리아와 호상비문에 담긴 가치 언어를 단순한 자부심의 구호로 소비하지 않고, 장애 접근성과 일상 속 정의를 묻는 출발점으로 다시 읽었다. 응원가는 결속만 만드는 것이 아니라 학교가 내세운 가치가 현실에서 지켜지는지를 내부에서 비판하는 언어가 되기도 한다.",
+      "whyInteresting": "학교 상징을 찬양과 반대의 이분법이 아니라 자기비판의 자원으로 사용하는 수용 사례다.",
+      "factRefs": [
+        "minjogui-aria-critical-student-reinterpretation",
+        "minjogui-aria-lyric-source"
+      ],
+      "sourceRefs": [
+        "web-ku-liberalarts-essay",
+        "web-kunews-cheongrok"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "한 학생의 수상 에세이이며 고려대학교 전체 구성원의 해석이나 공식 입장을 대표하지 않는다. 원문은 복제하지 않는다."
+    },
+    {
+      "id": "tmi-ku-minaria-030",
+      "headline": "2007년에는 연세대 응원단장이 고려대 응원석의 이 곡을 지휘했다",
+      "narrative": "2007년 정기 고연전 장면을 옮긴 영상은 연세대 응원단장이 고려대 응원석 앞에서 민족의 아리아를 지휘한 교류 장면이라고 설명한다. 상대 학교의 대표곡을 아는 데서 그치지 않고 상대 응원단장이 직접 군중의 박자를 이끄는 모습은, 양교 응원문화가 경쟁과 상호 참여를 동시에 품고 있음을 보여준다.",
+      "whyInteresting": "‘라이벌 응원가는 상대편이 부르지 않는다’는 단순한 생각을 뒤집는 구체적이고 시각적인 장면이다.",
+      "factRefs": [
+        "minjogui-aria-2007-yonsei-leader",
+        "minjogui-aria-2022-joint-cheer-use"
+      ],
+      "sourceRefs": [
+        "yt-zXsYRTfQ7R4",
+        "yt-tKalHGAhN4U"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "2007년 당시 원본 게시물이 아니라 과거 싸이월드 영상을 2018년에 재게시한 자료의 설명에 근거한다. 행사 공식 기록이나 양교 응원단 자료로 한 번 더 확인하는 것이 좋다."
+    },
+    {
+      "id": "tmi-ku-minaria-031",
+      "headline": "오케스트라·록·거리 무반주까지, 한 곡에 정해진 단 하나의 형식은 없다",
+      "narrative": "수집 영상에는 2011년 입실렌티의 오케스트라·합창단 편곡, 2024년 YB의 록 편곡, 정기전 뒤풀이의 거리 무반주 합창이 나란히 남아 있다. 같은 선율이 무대의 규모와 참여자에 따라 콘서트 작품, 밴드 공연, 관중만의 노래로 계속 형태를 바꾼다.",
+      "whyInteresting": "응원가의 정체성이 특정 음원이나 편곡보다 ‘사람들이 함께 다시 만드는 방식’에 있다는 점을 한눈에 보여준다.",
+      "factRefs": [
+        "minjogui-aria-2011-orchestra-version",
+        "minjogui-aria-performance-form-range",
+        "minjogui-aria-unaccompanied-identity",
+        "minjogui-aria-2024-yb-performance"
+      ],
+      "sourceRefs": [
+        "yt-G55C93A_obk",
+        "yt-PjPRGRPt1ew",
+        "yt-OyRlCUVxnBg"
+      ],
+      "editorialStatus": "ready",
+      "caveat": "세 영상은 가능한 공연 형태의 사례이지 모든 시대의 표준 편곡을 뜻하지 않는다. 각 특별 편곡의 제작 크레딧과 권리 허락은 별도 확인이 필요하다."
+    },
+    {
+      "id": "tmi-ku-minaria-032",
+      "headline": "응원가의 탄생 비화가 학교의 공식 역사 다큐 소재가 됐다",
+      "narrative": "고려대학교 개교 120주년 공식 다큐멘터리 사업은 민족의 아리아의 탄생 비화를 학교 역사서사의 한 소재로 예고했다. 학생 응원단이 만든 2003년의 신곡이 20여 년 뒤 대학이 스스로 기억하고 설명해야 할 공식 문화유산으로 편입된 셈이다.",
+      "whyInteresting": "살아 있는 학생문화가 시간이 지나 학교의 정식 역사 기록으로 승격되는 순간을 포착한다.",
+      "factRefs": [
+        "minjogui-aria-official-history-documentary",
+        "minjogui-aria-introduction-year-2003",
+        "minjogui-aria-current-status"
+      ],
+      "sourceRefs": [
+        "web-ku120-documentary",
+        "web-kuaa-timeline",
+        "yt-C8jjjhSHK18"
+      ],
+      "editorialStatus": "needs-caveat",
+      "caveat": "사업 페이지의 예고를 근거로 한 후보이며 완성 영상의 내레이션·인터뷰·제작 크레딧은 별도로 대조해야 한다. 공식화가 모든 구전 세부의 사실 확정을 뜻하지도 않는다."
+    }
+  ]
+}

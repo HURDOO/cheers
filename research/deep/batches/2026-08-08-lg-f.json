@@ -1,0 +1,890 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-lg-f",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-lg-twins",
+    "name": "LG 트윈스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문은 저장하지 않는다. 가사는 출처·권리 상태·구조 요약만 기록하고, 전문은 사용자 제공 또는 이용 허락이 확인된 경우에만 별도 승인 뒤 저장한다.",
+  "items": [
+    {
+      "id": "lg-twins-seoul-ui-changa",
+      "title": "서울의 찬가",
+      "aliases": ["LG 서울의 찬가"],
+      "currentStatus": "current",
+      "summary": "패티김의 서울 노래를 주영훈이 편곡하고 나오미가 부른 2007년 제작 응원가다. 현재는 정규 떼창곡보다 원정경기 공수교대 때 치어리더 공연에 쓰이는 제한적 현행곡으로 확인된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "길옥윤이 작사·작곡하고 패티김이 부른 ‘서울의 찬가’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-aks-changa", "ev-lg-f-osen-2007", "ev-lg-f-namu-cheers"],
+          "notes": "한국민족문화대백과사전의 원작 정보와 LG 신규 응원가 제작 당시 보도가 일치한다."
+        },
+        {
+          "field": "originalReleaseHistory",
+          "value": "1966년 동아방송을 통해 녹음·발표, 1969년 패티김 앨범에 최초 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-aks-changa"],
+          "notes": "방송 발표와 음반 최초 수록 연도를 구분해 기록했다."
+        },
+        {
+          "field": "lgProductionCredits",
+          "value": "편곡·제작 총괄 주영훈, 가창 나오미",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-osen-2007", "ev-lg-f-namu-cheers"],
+          "notes": "2007년 발표 보도는 주영훈의 편곡과 나오미의 녹음을 명시한다."
+        },
+        {
+          "field": "plannedIntroductionDate",
+          "value": "2007-04-06 잠실 홈 개막전부터 사용 예정",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-osen-2007"],
+          "notes": "2007-03-28 보도 시점의 공식 계획이다. 실제 첫 재생·공연이 계획대로 이뤄졌다는 경기 기록은 별도로 확보하지 못해 ‘예정’으로 한정한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "정규 관중 떼창에서는 거의 쓰이지 않고 원정경기 공수교대 치어리더 공연에 제한적으로 사용",
+          "assessment": "reported",
+          "confidence": "medium-high",
+          "evidenceRefs": ["ev-lg-f-namu-cheers", "yt-changa-04", "yt-changa-05", "yt-changa-06", "yt-changa-07", "yt-changa-08"],
+          "notes": "현행 편집 자료의 사용 설명과 2024~2025년 원정·공연 직캠이 부합한다. 2026년 직접 사용 장면은 이번 조사에서 확인하지 못했다."
+        },
+        {
+          "field": "officialGuidePresence",
+          "value": "2024·2025·2026 LG 공식 응원가 모음집의 주요 떼창 챕터에는 미수록",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-f-official-2024", "ev-lg-f-official-2025", "ev-lg-f-official-2026"],
+          "notes": "미수록은 제한적 사용 설명과 일치하지만, 공식 모음집이 모든 공연곡을 망라한다고 볼 수 없으므로 폐기 근거로 사용하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "원정경기 공수교대 시간에 치어리더 공연곡으로 사용되는 장면이 반복 확인된다.",
+        "과거에는 잠실 입장·경기 전 분위기를 떠올리는 응원가로 기억된다는 팬 반응이 많다.",
+        "현재 공식 예습 영상의 핵심 떼창 목록에는 없으므로 상시 관중 합창곡과는 구분한다."
+      ],
+      "trivia": [
+        {
+          "text": "원곡은 집단 제창에 적합한 행진곡풍 작품으로 평가되며 LG는 일부 가사를 개작해 공식 응원가로 사용한다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-lg-f-aks-changa"]
+        },
+        {
+          "text": "드라마 ‘응답하라 1994’에 LG 응원 버전의 일부가 등장했다는 기록이 있다.",
+          "assessment": "reported",
+          "evidenceRefs": ["ev-lg-f-namu-cheers"]
+        },
+        {
+          "text": "FC서울도 같은 원곡을 별도의 가사와 가창으로 응원가화했으며, LG 버전과는 별개 계보다.",
+          "assessment": "reported",
+          "evidenceRefs": ["ev-lg-f-namu-cheers", "ev-lg-f-fcseoul-song-page"]
+        },
+        {
+          "text": "오래된 음원·뮤직비디오 댓글에서는 잠실에 일찍 입장했을 때 듣던 기억과 서울 연고의 분위기를 대표한다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-changa-01", "yt-changa-02", "yt-changa-03"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-adaptation",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=UNSUjQJ61AU",
+          "https://www.osen.co.kr/article/G0703280026",
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "서울의 활기와 아름다움을 제시한 뒤 팀의 승리와 서울 LG의 정체성을 강조하는 절과 반복 후렴으로 구성된다. 원곡의 행진곡풍 선율은 유지하되 LG에 맞춘 일부 개사가 쓰인다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-changa-01", "yt-changa-02", "yt-changa-03", "yt-changa-04", "yt-changa-05", "yt-changa-06", "yt-changa-07", "yt-changa-08"],
+      "unresolved": [
+        "2007-04-06 예정일에 실제로 처음 구장 재생·공연됐는지 확인할 경기 당일 1차 기록이 필요하다.",
+        "LG 개사 가사의 작사자·권리자와 음원 제작의 전체 크레딧이 공개 자료에서 확인되지 않았다.",
+        "2026시즌에도 제한적 공연이 이어지는지 확인할 공식 공지 또는 날짜가 특정된 직접 영상이 필요하다."
+      ]
+    },
+    {
+      "id": "lg-twins-seoul-ui-mojeong",
+      "title": "서울의 모정",
+      "aliases": ["LG 서울의 모정"],
+      "currentStatus": "current",
+      "summary": "패티김의 1973년 서울 노래를 주영훈이 편곡하고 캔이 녹음한 2007년 제작 응원가다. 경기 전과 리드 상황, 후반 메들리에서 서울 연고 정체성을 드러내는 현행곡이다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "패티김이 1973년에 발표한 ‘서울의 모정’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-yna-mojeong", "ev-lg-f-bugs-mojeong", "ev-lg-f-osen-2007"],
+          "notes": "언론·음원 자료와 LG 응원가 제작 보도가 원곡과 가수를 일치해 제시한다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "작사·작곡 길옥윤, 가창 패티김",
+          "assessment": "contested",
+          "confidence": "medium-high",
+          "evidenceRefs": ["ev-lg-f-seoul-future-heritage", "ev-lg-f-bugs-mojeong"],
+          "notes": "서울미래유산 조사자료와 벅스 크레딧의 표기다. 국립중앙도서관 음반 목차의 작사가 표기와 충돌한다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "작사 하중희, 작곡 길옥윤, 가창 패티김",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-f-nl-mojeong"],
+          "notes": "국립중앙도서관 음반 목차에 수록된 표기다. 다른 음원·문화유산 자료는 길옥윤 작사로 적어 상충 주장으로 보존한다."
+        },
+        {
+          "field": "lgProductionCredits",
+          "value": "편곡·제작 총괄 주영훈, 가창 캔",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-osen-2007"],
+          "notes": "2007년 발표 당시 보도가 원곡을 주영훈이 편곡하고 캔이 녹음했다고 명시한다."
+        },
+        {
+          "field": "adaptationCreditLabelConflict",
+          "value": "나무위키 미러 표 머리에는 주영훈을 ‘작곡’으로 적었으나 본문과 2007년 보도는 ‘편곡’으로 설명",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-namu-cheers", "ev-lg-f-osen-2007"],
+          "notes": "원작 작곡자와 LG 버전 편곡자를 혼동하지 않도록 본문·당시 보도를 우선하고 표기 충돌은 별도로 남긴다."
+        },
+        {
+          "field": "plannedIntroductionDate",
+          "value": "2007-04-06 잠실 홈 개막전부터 사용 예정",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-osen-2007"],
+          "notes": "발표 시점의 사용 계획이며, 실제 첫 사용일을 확정하는 경기 당일 자료는 미확보다."
+        },
+        {
+          "field": "earliestDirectlyDocumentedVersion",
+          "value": "2007년 첫해 전광판 뮤직비디오로 소개된 버전",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-mojeong-03"],
+          "notes": "팬 아카이브가 2007년 전광판 영상을 보존하고 있으나 원본 파일의 공식 게시 이력은 확인되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024·2025 공식 응원 가이드 수록 및 2026년 후반 떼창 메들리에서 실사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-official-2024", "ev-lg-f-official-2025", "yt-mojeong-06", "yt-mojeong-07"],
+          "notes": "공식 채널 연속 수록과 날짜가 특정된 2026년 현장 영상이 현재 사용을 직접 확인한다."
+        },
+        {
+          "field": "usageContext",
+          "value": "경기 전과 리드 중, 특히 후반 응원 메들리에서 떼창과 손동작을 결합해 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-namu-cheers", "yt-mojeong-01", "yt-mojeong-04", "yt-mojeong-05", "yt-mojeong-07"],
+          "notes": "편집형 설명과 여러 시즌의 현장 장면이 같은 사용 맥락을 보여 준다."
+        },
+        {
+          "field": "chantChange",
+          "value": "2018-06-03부터 한 구호를 ‘무적 LG’에서 ‘서울 LG’로 변경",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-f-namu-cheers"],
+          "notes": "나무위키 미러가 날짜를 특정하지만 구단의 변경 공지는 이번 조사에서 확보하지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "경기 전 관중 입장·응원 준비 구간에 사용된다는 팬 기억이 반복된다.",
+        "LG가 앞서거나 분위기가 오른 경기 후반에 떼창 메들리의 한 곡으로 자주 이어진다.",
+        "구음 구간에는 밝고 반복적인 손동작이 결합되는 공연형 응원이다."
+      ],
+      "trivia": [
+        {
+          "text": "원곡은 명동·남산·한강 등 서울의 장소를 밝은 행진곡풍으로 그려 2018년 서울미래유산 관련 공연에서도 다뤄졌다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-lg-f-yna-mojeong", "ev-lg-f-seoul-city-songs"]
+        },
+        {
+          "text": "FC서울은 2005년에 같은 원곡의 별도 AR 응원 버전을 제작했다는 기록이 있으나 현재 적극적으로 부르는 곡은 아니라는 설명이 있다.",
+          "assessment": "reported",
+          "evidenceRefs": ["ev-lg-f-namu-cheers"]
+        },
+        {
+          "text": "2007년 팀 응원가 버전이 정착하기 전인 1999~2000년 무렵 같은 선율이 선수 응원에 쓰였다는 팬 아카이브 설명이 있다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-mojeong-03"]
+        },
+        {
+          "text": "댓글에서는 배기성의 목소리와 서울 연고의 정체성을 강점으로 꼽고, 타 구단 팬도 곡의 분위기를 높이 평가하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-mojeong-01", "yt-mojeong-02", "yt-mojeong-04"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-adaptation",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=JPwdQ7BHBBs",
+          "https://www.youtube.com/watch?v=BW1RSDqQQhE",
+          "https://www.osen.co.kr/article/G0703280026",
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "서울의 여러 풍경과 팀을 연결하는 절, 서울 LG를 강조하는 반복 구호, 관중이 손동작과 함께 참여하는 구음 후렴으로 구성된다. 원곡 선율을 유지하면서 LG용 표현을 삽입한 개사다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-mojeong-01", "yt-mojeong-02", "yt-mojeong-03", "yt-mojeong-04", "yt-mojeong-05", "yt-mojeong-06", "yt-mojeong-07"],
+      "unresolved": [
+        "원곡 작사가가 길옥윤인지 하중희인지 상충하는 공신력 있는 서지·음원 크레딧의 원자료 대조가 필요하다.",
+        "2007-04-06 예정일과 실제 구장 첫 사용일이 일치하는지 경기 당일 1차 자료가 필요하다.",
+        "2018-06-03 구호 변경의 구단 공지나 응원단 원자료를 확보하지 못했다.",
+        "LG 개사 가사의 작사자·권리자와 전체 제작 크레딧이 공개 자료에서 확인되지 않았다."
+      ]
+    },
+    {
+      "id": "lg-twins-apartment",
+      "title": "아파트",
+      "aliases": ["LG 아파트", "아파트 떼창"],
+      "currentStatus": "current",
+      "summary": "윤수일이 1982년에 발표한 ‘아파트’를 팀 구호와 함께 부르는 KBO 공통형 응원이다. LG에서는 역전·대량 득점·승기가 굳어진 후반 장면을 큰 떼창으로 잇는 현행곡이다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "윤수일이 작사·작곡하고 부른 1982년 곡 ‘아파트’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-newsway-apartment", "ev-lg-f-kookje-apartment", "ev-lg-f-namu-cheers"],
+          "notes": "언론 자료들이 발표 연도와 자작곡 크레딧을 일치해 제시한다."
+        },
+        {
+          "field": "earliestDirectlyDocumentedLgUse",
+          "value": "2018-06-23 롯데전",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-apt-02"],
+          "notes": "날짜·상대·경기 결과가 적힌 현장 영상에서 직접 확인한 이번 조사 범위의 최저연도다. LG 도입 연도를 뜻하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024·2025 공식 응원 가이드 수록 및 2026년 홈경기에서 실사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-official-2024", "ev-lg-f-official-2025", "ev-lg-f-official-2025-postseason", "yt-apt-06", "yt-apt-05"],
+          "notes": "공식 가이드와 2026-06-20 잠실더비 현장 영상이 현행성을 직접 확인한다."
+        },
+        {
+          "field": "usageContext",
+          "value": "주로 경기 후반 첫 리드·역전·대량 득점 또는 승기가 굳어진 직후에 관중 떼창으로 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-f-namu-cheers", "yt-apt-01", "yt-apt-03", "yt-apt-04", "yt-apt-05"],
+          "notes": "2022년 8회 추가점, 2023년 6회 역전, 2025년 대량 득점, 2026년 3점 홈런 직후 사례가 상황 설명과 부합한다."
+        },
+        {
+          "field": "alternateUsage",
+          "value": "지고 있을 때 분위기 전환용으로도 간헐적으로 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-f-namu-cheers"],
+          "notes": "편집형 자료의 현장 관행 설명이며 공식 운영 지침은 확인하지 못했다."
+        },
+        {
+          "field": "sharedKboUse",
+          "value": "2015년 기준 KBO 10개 구단이 함께 쓰는 대표 공통 응원가",
+          "assessment": "reported",
+          "confidence": "medium-high",
+          "evidenceRefs": ["ev-lg-f-yes24-baseball-cheers", "ev-lg-f-namu-cheers"],
+          "notes": "2015년 야구 응원가 특집과 현행 편집 자료가 폭넓은 구단 사용을 설명한다. 구단별 가사·사용 맥락은 다를 수 있다."
+        },
+        {
+          "field": "opponentVariant",
+          "value": "두산전에서는 한 팀 구호를 ‘무적 LG’ 대신 ‘서울 LG’로 바꾸는 변형이 쓰임",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-f-namu-cheers"],
+          "notes": "나무위키 미러의 사용 설명이며 구단 공식 가사집은 확보하지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "후반에 LG가 역전하거나 추가점으로 승기를 잡은 직후 응원단이 시작하고 관중이 크게 합창한다.",
+        "경기 흐름이 크게 기울면 같은 경기에서 여러 번 반복되기도 한다.",
+        "상황에 따라 침체된 분위기를 끌어올리는 용도로도 쓰인다는 현장 설명이 있다."
+      ],
+      "trivia": [
+        {
+          "text": "원곡은 군 복무를 마친 친구가 연인의 빈 아파트를 찾은 사연에서 출발했다는 윤수일의 설명이 전해진다. 쓸쓸한 이야기와 경기장의 경쾌한 사용이 대비된다.",
+          "assessment": "reported",
+          "evidenceRefs": ["ev-lg-f-kookje-apartment"]
+        },
+        {
+          "text": "2025-06-22 두산전에서는 3회부터 시작해 한 경기에서 세 차례나 아파트 떼창이 나온 이례적 장면이 기록됐다.",
+          "assessment": "verified",
+          "evidenceRefs": ["yt-apt-04"]
+        },
+        {
+          "text": "영상 제목과 댓글에서는 득점 뒤 곡이 시작되는 상황을 ‘입주’, ‘건설’ 같은 아파트 말장난으로 표현하는 팬 문화가 나타난다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-apt-01", "yt-apt-04"]
+        },
+        {
+          "text": "다른 구단도 쓰는 공통곡이지만 댓글에서는 잠실 LG 관중의 큰 합창과 역전 직후의 분위기를 이 곡의 대표적 매력으로 꼽는다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-apt-01", "yt-apt-02", "yt-apt-03", "yt-apt-05"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-adaptation",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=ltfmoZLAQ0k",
+          "https://www.youtube.com/watch?v=_HcGMcKsOFk",
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡의 익숙한 후렴 선율을 중심으로 관중이 합창하고, 사이사이에 LG 팀 구호를 반복 삽입한다. 경기 상황에 따라 후렴과 구호를 여러 차례 연장하는 공연형 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-apt-01", "yt-apt-02", "yt-apt-03", "yt-apt-04", "yt-apt-05", "yt-apt-06"],
+      "unresolved": [
+        "LG가 아파트를 처음 도입한 연도와 최초 사용 경기를 확인하지 못했다.",
+        "LG용 구호·편곡의 창작자와 공식 음원 제작 크레딧이 공개 자료에서 확인되지 않았다.",
+        "어떤 점수·이닝에 시작하는지 정한 공식 운영 기준은 없거나 공개되지 않아 사용 조건은 사례 기반 설명으로 남는다."
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-lg-f-namu-cheers",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "LG 트윈스/응원가",
+      "publisher": "namu.moe",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "세 곡의 원곡·제작자·사용 장면과 서울의 찬가의 제한적 원정 공연, 서울의 모정의 2018년 구호 변경, 아파트의 두산전 변형을 정리한다. 서울의 모정 표 머리의 ‘작곡 주영훈’은 본문·당시 보도의 ‘편곡’과 충돌해 별도 보존했다.",
+      "supports": ["origin", "lgProductionCredits", "currentUse", "usageContext", "chantChange", "opponentVariant", "trivia"]
+    },
+    {
+      "id": "ev-lg-f-osen-2007",
+      "type": "press",
+      "url": "https://www.osen.co.kr/article/G0703280026",
+      "title": "LG, 주영훈 작곡의 새 응원가 '무적의 LG' 발표",
+      "publisher": "OSEN",
+      "publishedAt": "2007-03-28",
+      "accessedAt": "2026-08-08",
+      "summary": "LG가 서울의 찬가·서울의 모정을 길옥윤의 원곡으로 소개하고, 주영훈 편곡 아래 각각 나오미와 캔이 녹음했으며 2007년 4월 6일 잠실 홈 개막전부터 선보일 계획이라고 보도했다. 주영훈이 신규 응원곡 제작을 총괄했다.",
+      "supports": ["origin", "lgProductionCredits", "plannedIntroductionDate"]
+    },
+    {
+      "id": "ev-lg-f-aks-changa",
+      "type": "encyclopedia",
+      "url": "https://encykorea.aks.ac.kr/Article/E0072890",
+      "title": "서울의 찬가",
+      "publisher": "한국민족문화대백과사전",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "길옥윤 작사·작곡, 패티김 가창을 확인하고 1966년 방송 발표와 1969년 앨범 최초 수록을 구분한다. 행진곡풍 A-A'-B-C 형식, 집단 제창 적합성, LG의 일부 개사 공식 응원가 사용도 설명한다.",
+      "supports": ["origin", "originalReleaseHistory", "lyricsStructure", "lgAdaptation", "trivia"]
+    },
+    {
+      "id": "ev-lg-f-seoul-city-songs",
+      "type": "government-article",
+      "url": "https://mediahub.seoul.go.kr/archives/2013007",
+      "title": "'럭키 서울'부터 '강남스타일'까지…노래에 담긴 서울 풍경들",
+      "publisher": "서울특별시 내 손안에 서울",
+      "publishedAt": "2024-12-18",
+      "accessedAt": "2026-08-08",
+      "summary": "서울을 소재로 한 대중가요의 역사 속에서 서울의 찬가와 서울의 모정이 담은 도시 풍경과 시대적 맥락을 설명한다.",
+      "supports": ["originContext", "trivia"]
+    },
+    {
+      "id": "ev-lg-f-yna-mojeong",
+      "type": "press",
+      "url": "https://www.yna.co.kr/view/AKR20180726029800004",
+      "title": "'서울'을 노래한 1960~70년대 히트곡 30일 서울광장서 들어요",
+      "publisher": "연합뉴스",
+      "publishedAt": "2018-07-26",
+      "accessedAt": "2026-08-08",
+      "summary": "1973년 패티김의 서울의 모정을 서울미래유산으로 소개하며, 명동·남산·한강을 경쾌한 행진곡풍으로 그린 서울 노래라고 설명한다.",
+      "supports": ["origin", "originalReleaseYear", "trivia"]
+    },
+    {
+      "id": "ev-lg-f-seoul-future-heritage",
+      "type": "government-report",
+      "url": "https://data.si.re.kr/sites/default/files/legacy/2022%EC%84%9C%EC%9A%B8%EB%AF%B8%EB%9E%98%EC%9C%A0%EC%82%B0%EB%B0%9C%EA%B5%B4%EB%B0%8F%EC%A1%B0%EC%82%AC.pdf",
+      "title": "2022 서울미래유산 발굴 및 조사",
+      "publisher": "서울연구원·서울특별시",
+      "publishedAt": "2022",
+      "accessedAt": "2026-08-08",
+      "summary": "서울의 모정을 길옥윤 작사·작곡, 패티김 가창의 1973년 노래로 정리한다. 국립중앙도서관 음반 목차의 작사가 표기와 상충한다.",
+      "supports": ["originalCredits", "originalReleaseYear"]
+    },
+    {
+      "id": "ev-lg-f-bugs-mojeong",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/11005425?wl_ref=list_tr_08_ab",
+      "title": "서울의 모정/패티김",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "패티김 음원 크레딧에서 서울의 모정의 작사·작곡을 모두 길옥윤으로 표기한다.",
+      "supports": ["origin", "originalCredits"]
+    },
+    {
+      "id": "ev-lg-f-nl-mojeong",
+      "type": "library-catalog",
+      "url": "https://www.nl.go.kr/NL/search/printTocPop.do?viewKey=CNTS-00121051992&viewType=AH4",
+      "title": "국립중앙도서관 음반 목차: 서울의 모정",
+      "publisher": "국립중앙도서관",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "음반 수록곡 목차에서 서울의 모정을 하중희 작사·길옥윤 작곡·패티김 노래로 표기한다. 벅스와 서울미래유산 자료의 길옥윤 작사 표기와 충돌한다.",
+      "supports": ["originalCredits"]
+    },
+    {
+      "id": "ev-lg-f-newsway-apartment",
+      "type": "press",
+      "url": "https://www.newsway.co.kr/news/view?ud=2024102510111374265",
+      "title": "은마 아파트보다 윤수일 아파트 먼저 재건축···",
+      "publisher": "뉴스웨이",
+      "publishedAt": "2024-10-25",
+      "accessedAt": "2026-08-08",
+      "summary": "윤수일이 1982년에 직접 작사·작곡하고 부른 아파트가 오랜 시간이 지나도 스포츠 응원가로 널리 쓰이는 배경을 다룬다.",
+      "supports": ["origin", "originalCredits", "sportsUse"]
+    },
+    {
+      "id": "ev-lg-f-kookje-apartment",
+      "type": "press",
+      "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20190128.99099011843",
+      "title": "윤수일의 ‘아파트’ 관련 인터뷰·회고",
+      "publisher": "국제신문",
+      "publishedAt": "2019-01-28",
+      "accessedAt": "2026-08-08",
+      "summary": "윤수일이 아파트를 직접 작사·작곡했으며, 군 복무 뒤 연인을 찾아갔다가 빈 아파트를 마주한 친구의 사연에서 곡을 만들었다는 탄생 배경을 전한다.",
+      "supports": ["origin", "originalCredits", "trivia"]
+    },
+    {
+      "id": "ev-lg-f-yes24-baseball-cheers",
+      "type": "magazine",
+      "url": "https://m.ch.yes24.com/article/details/28080",
+      "title": "지금은 야구 시즌! 야구 응원가 특집",
+      "publisher": "채널예스",
+      "publishedAt": "2015-05-13",
+      "accessedAt": "2026-08-08",
+      "summary": "2015년 KBO 10개 구단이 모두 윤수일의 아파트를 공통 응원가로 사용한다고 소개한다.",
+      "supports": ["sharedKboUse", "sportsUse"]
+    },
+    {
+      "id": "ev-lg-f-fcseoul-song-page",
+      "type": "official",
+      "url": "https://www.fcseoul.com/club/clubFcSongCheeringZoneView",
+      "title": "FC서울 응원가",
+      "publisher": "FC서울",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "FC서울 공식 응원가 페이지에서 서울의 찬가 원곡을 활용한 별도 축구 응원 버전이 존재함을 확인한다. LG 버전의 제작 계보와는 구분한다.",
+      "supports": ["separateAdaptation", "trivia"]
+    },
+    {
+      "id": "ev-lg-f-official-2024",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=QDOl5kmOPXA",
+      "title": "중독성 만렙! 2024 LG트윈스 응원가 모음🎧 [트윈스 치얼업]",
+      "publisher": "LGTWINSTV",
+      "publishedAt": "2024-07-08",
+      "accessedAt": "2026-08-08",
+      "summary": "LG 공식 2024 응원가 모음집으로 서울의 모정은 08:49, 아파트는 10:46 챕터에 수록한다. 서울의 찬가는 챕터 목록에 없다.",
+      "supports": ["currentUse", "officialGuidePresence"]
+    },
+    {
+      "id": "ev-lg-f-official-2025",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=BW1RSDqQQhE",
+      "title": "오렌지석이 말아주는 직관가이드, LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "publisher": "LGTWINSTV",
+      "publishedAt": "2025-04-21T02:00:11-07:00",
+      "accessedAt": "2026-08-08",
+      "summary": "LG 공식 2025 직관 가이드로 서울의 모정을 19:48, 아파트를 26:12에 수록한다. 서울의 찬가는 챕터 목록에 없다.",
+      "supports": ["currentUse", "officialGuidePresence"]
+    },
+    {
+      "id": "ev-lg-f-official-2025-postseason",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=_HcGMcKsOFk",
+      "title": "한국시리즈 직관 준비! 타자 응원가&팀 응원가 복습 타임🎶 [트윈스 치얼업]",
+      "publisher": "LGTWINSTV",
+      "publishedAt": "2025-10-21T02:00:50-07:00",
+      "accessedAt": "2026-08-08",
+      "summary": "한국시리즈 대비 공식 복습 영상으로 서울의 모정을 11:25, 아파트를 13:22에 수록해 포스트시즌에도 두 곡을 현행 응원으로 안내한다.",
+      "supports": ["currentUse", "postseasonUse"]
+    },
+    {
+      "id": "ev-lg-f-official-2026",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8",
+      "title": "[𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧] 엘팬들 직관 준비 끝! 26시즌 LG트윈스 응원가 모음집🎶",
+      "publisher": "LGTWINSTV",
+      "publishedAt": "2026-04-09T01:30:06-07:00",
+      "accessedAt": "2026-08-08",
+      "summary": "2026 공식 모음집의 공개 챕터에는 서울의 찬가·서울의 모정·아파트가 모두 빠져 있다. 다만 서울의 모정과 아파트는 별도 2026 현장 영상에서 사용이 확인되므로 이 미수록을 은퇴 근거로 해석하지 않는다.",
+      "supports": ["officialGuidePresence", "curationLimit"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-changa-01",
+      "songId": "lg-twins-seoul-ui-changa",
+      "url": "https://www.youtube.com/watch?v=UNSUjQJ61AU",
+      "videoId": "UNSUjQJ61AU",
+      "title": "LG트윈스 응원가｜서울의 찬가 뮤직비디오｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2023-01-21T01:35:46-08:00",
+      "descriptionSummary": "LG 응원 버전의 뮤직비디오이며 설명에서 패티김 원곡과 주영훈 편곡을 식별한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "LG 팬과 타 구단 팬 모두 곡의 중독성과 분위기를 높게 평가한다.",
+        "2023시즌 우승 기대를 적은 댓글과 실제 우승 뒤 되찾아온 반응이 함께 남아 시대 분위기를 보여 준다."
+      ],
+      "supports": ["origin", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-changa-02",
+      "songId": "lg-twins-seoul-ui-changa",
+      "url": "https://www.youtube.com/watch?v=CoObkhqYYGE",
+      "videoId": "CoObkhqYYGE",
+      "title": "LG twins 응원가 - 서울의 찬가",
+      "channel": "워즈굿",
+      "publishedAt": "2012-04-19T22:51:21-07:00",
+      "descriptionSummary": "LG 구단 홈페이지와 업로더 사이트 링크를 덧붙인 오래된 독립 응원가 음원이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "경기 전 일찍 잠실에 들어가 들었던 곡이라는 기억과 입장 순간의 설렘을 공유하는 반응이 반복된다.",
+        "패티김·길옥윤 원곡을 식별하거나 타 구단 팬으로서도 좋다고 평가하는 댓글이 있다."
+      ],
+      "supports": ["historicalUse", "reception", "origin"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-changa-03",
+      "songId": "lg-twins-seoul-ui-changa",
+      "url": "https://www.youtube.com/watch?v=8tK0YLJfrVg",
+      "videoId": "8tK0YLJfrVg",
+      "title": "서울의 찬가 ㅣ LG트윈스 응원가 MV",
+      "channel": "트윈스 시그널",
+      "publishedAt": "2021-03-30T01:57:14-07:00",
+      "descriptionSummary": "서울과 LG를 소재로 편집한 팬 제작 응원가 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "잠실 도착과 서울의 야구장 분위기를 떠올린다는 반응이 많다.",
+        "코로나19 시기 관중 응원을 그리워하거나 영상 편집의 완성도를 칭찬하는 반응이 나타난다."
+      ],
+      "supports": ["historicalUse", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-changa-04",
+      "songId": "lg-twins-seoul-ui-changa",
+      "url": "https://www.youtube.com/watch?v=ZhMtKAFci-I",
+      "videoId": "ZhMtKAFci-I",
+      "title": "[4K] 240519 LG트윈스 오윤솔 치어리더 (서울의 찬가)",
+      "channel": "구운동마법사",
+      "publishedAt": "2024-06-15T10:12:40-07:00",
+      "descriptionSummary": "2024년 5월 19일 경기에서 치어리더가 서울의 찬가에 맞춰 공연한 4K 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 적으며 곡과 치어리더 공연을 긍정적으로 평가한다."
+      ],
+      "supports": ["currentUse", "performanceUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-changa-05",
+      "songId": "lg-twins-seoul-ui-changa",
+      "url": "https://www.youtube.com/watch?v=YRGfdaDLDR8",
+      "videoId": "YRGfdaDLDR8",
+      "title": "오윤솔 치어리더 '서울의찬가' 4K 직캠 #LG트윈스 #프로야구 | cA | 240609 |",
+      "channel": "cool -cA-",
+      "publishedAt": "2024-06-29T07:07:19-07:00",
+      "descriptionSummary": "2024년 6월 9일 수원 KT-LG전에서 촬영한 서울의 찬가 치어리더 공연이며 재업로드 금지를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 대부분 공연자에 대한 반응으로, 곡의 역사나 사용법에 관한 정보는 거의 없다."
+      ],
+      "supports": ["currentUse", "awayPerformanceUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-changa-06",
+      "songId": "lg-twins-seoul-ui-changa",
+      "url": "https://www.youtube.com/watch?v=bqSGYYtwXGU",
+      "videoId": "bqSGYYtwXGU",
+      "title": "20240602 잠실 LG 트윈스 원정 응원가(서울의 찬가) 우혜준치어리더",
+      "channel": "엘롯기팬",
+      "publishedAt": "2024-07-01T01:39:24-07:00",
+      "descriptionSummary": "2024년 6월 2일 잠실 원정 응원 구역의 서울의 찬가 치어리더 공연을 제목으로 식별한 짧은 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "awayPerformanceUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-changa-07",
+      "songId": "lg-twins-seoul-ui-changa",
+      "url": "https://www.youtube.com/watch?v=WpIs5qjDCDg",
+      "videoId": "WpIs5qjDCDg",
+      "title": "이주은 치어리더 서울의 찬가 250412",
+      "channel": "emperorphoto",
+      "publishedAt": "2025-04-14T06:30:33-07:00",
+      "descriptionSummary": "2025년 4월 12일 서울의 찬가 공연을 촬영한 치어리더 직캠이며 설명은 LG와 공연자 해시태그 중심이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 주로 공연자에 대한 짧은 반응이며 곡 자체의 맥락 정보는 제한적이다."
+      ],
+      "supports": ["currentUse", "performanceUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-changa-08",
+      "songId": "lg-twins-seoul-ui-changa",
+      "url": "https://www.youtube.com/watch?v=yX4tkW8_8cs",
+      "videoId": "yX4tkW8_8cs",
+      "title": "251022 서울의 찬가",
+      "channel": "만두매니아",
+      "publishedAt": "2025-10-24T07:04:13-07:00",
+      "descriptionSummary": "2025년 10월 22일 LG 현장에서 촬영한 서울의 찬가 공연이며 팀·야구·치어리더 해시태그를 단다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "확인된 공개 댓글은 이 곡을 입장 때 접하는 노래로 기억한다."
+      ],
+      "supports": ["currentUse", "usageContext"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mojeong-01",
+      "songId": "lg-twins-seoul-ui-mojeong",
+      "url": "https://www.youtube.com/watch?v=JPwdQ7BHBBs",
+      "videoId": "JPwdQ7BHBBs",
+      "title": "LG twins 응원가 - 서울의 모정",
+      "channel": "워즈굿",
+      "publishedAt": "2012-04-19T22:49:40-07:00",
+      "descriptionSummary": "LG 구단 홈페이지와 업로더 사이트 링크를 포함한 오래된 독립 응원가 음원이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "경기 전 잠실에서 듣는 곡이라는 기억과 서울 연고의 정체성을 잘 드러낸다는 평가가 반복된다.",
+        "배기성의 가창을 식별하거나 타 구단 팬으로서도 좋아한다는 반응이 나타난다."
+      ],
+      "supports": ["historicalUse", "usageContext", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mojeong-02",
+      "songId": "lg-twins-seoul-ui-mojeong",
+      "url": "https://www.youtube.com/watch?v=5GsgyK-189o",
+      "videoId": "5GsgyK-189o",
+      "title": "LG 트윈스 응원가 서울의 모정 [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-10-13T07:27:53-07:00",
+      "descriptionSummary": "서울의 모정을 LG 응원가로 소개한 팬 음원이며 설명은 채널명만 적혀 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "과거 야구장 기억을 떠올리거나 배기성의 목소리를 칭찬하는 반응이 있다."
+      ],
+      "supports": ["historicalUse", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mojeong-03",
+      "songId": "lg-twins-seoul-ui-mojeong",
+      "url": "https://www.youtube.com/watch?v=fg2ugWvh84c",
+      "videoId": "fg2ugWvh84c",
+      "title": "서울의 모정(2007) / LG 트윈스 추억의 영상&전광판",
+      "channel": "LGGOLSU",
+      "publishedAt": "2020-05-08T17:24:13-07:00",
+      "descriptionSummary": "2007년 신규 응원가 세 곡 중 하나로 공개된 첫해 전광판 뮤직비디오를 보존하며, 같은 선율의 과거 선수 응원 사용설도 덧붙인다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오래된 전광판 영상과 당시 팀 분위기를 추억하는 반응이 중심이다.",
+        "한 댓글이 2007년 4월 초 발매일을 제시하지만 출처가 없어 연대 근거로 채택하지 않았다."
+      ],
+      "supports": ["earliestDirectlyDocumentedVersion", "trivia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mojeong-04",
+      "songId": "lg-twins-seoul-ui-mojeong",
+      "url": "https://www.youtube.com/watch?v=7Afa5bfOLOc",
+      "videoId": "7Afa5bfOLOc",
+      "title": "8회말 ⭐잠실노래방 오픈!!!⭐ 서울의 아리아부터 무려 14분 동안 쭉쭉 달리는 LG트윈스 소름돋는 역대급 응원메들리 떼창 응원 현장 직캠!! (2023.06.18 vs 두산)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2023-06-18T06:23:43-07:00",
+      "descriptionSummary": "2023년 6월 18일 두산전 8회말 14분 응원 메들리로, 설명의 06:03 챕터에 서울의 모정을 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "대규모 떼창과 서울 연고 응원 분위기에 감탄하는 반응이 많고 타 구단 팬의 긍정적 평가도 있다.",
+        "업로더는 응원가 저작권 문제를 의식해 영상 공개 유지 여부를 언급한다."
+      ],
+      "supports": ["currentUse", "usageContext", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mojeong-05",
+      "songId": "lg-twins-seoul-ui-mojeong",
+      "url": "https://www.youtube.com/watch?v=YiS7sjeRaus",
+      "videoId": "YiS7sjeRaus",
+      "title": "정말 짜릿했던 8회말을 마무리 하는 서울의 모정 떼창! [2025.03.23 VS 롯데 2차전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2025-03-23T02:07:34-07:00",
+      "descriptionSummary": "2025년 3월 23일 롯데전 8회말을 서울의 모정 떼창으로 마무리한 현장 장면이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "확인된 댓글은 타 구단 팬의 시각에서 큰 관중 응원 분위기를 부러워한다."
+      ],
+      "supports": ["currentUse", "usageContext", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mojeong-06",
+      "songId": "lg-twins-seoul-ui-mojeong",
+      "url": "https://www.youtube.com/watch?v=BW1RSDqQQhE",
+      "videoId": "BW1RSDqQQhE",
+      "title": "오렌지석이 말아주는 직관가이드, LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2025-04-21T02:00:11-07:00",
+      "descriptionSummary": "LG 공식 2025 직관 가이드로 설명의 19:48 챕터에 서울의 모정을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 출퇴근·직관 연습용으로 영상을 반복한다고 말하고 율동을 더 잘 볼 수 있는 각도를 요청한다.",
+        "패배한 뒤에도 응원가를 들으며 기분을 되찾는다는 반응이 나타난다."
+      ],
+      "supports": ["currentUse", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-mojeong-07",
+      "songId": "lg-twins-seoul-ui-mojeong",
+      "url": "https://www.youtube.com/watch?v=I8pJf0OJ2dk",
+      "videoId": "I8pJf0OJ2dk",
+      "title": "이제 올해가 마지막인 이 풍경... 영원히 간직되길... (8회말 LG트윈스 응원가 떼창 메들리!) [2026.04.12 VS SSG 3차전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2026-04-12T01:46:36-07:00",
+      "descriptionSummary": "2026년 4월 12일 SSG전 8회말 응원 메들리 현장 영상이며 설명 해시태그에 서울의 모정을 포함한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "잠실의 마지막 시즌 풍경을 아쉬워하거나 무엇이 마지막인지 묻는 반응이 나타난다."
+      ],
+      "supports": ["currentUse", "usageContext", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-apt-01",
+      "songId": "lg-twins-apartment",
+      "url": "https://www.youtube.com/watch?v=ltfmoZLAQ0k",
+      "videoId": "ltfmoZLAQ0k",
+      "title": "결국 8회에 입주해버린 LG 아파트 육성 떼창 응원 (2022.05.14)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2022-05-14T08:26:19-07:00",
+      "descriptionSummary": "2022년 5월 14일 8회 추가 타점 뒤 시작된 LG 아파트 육성 떼창을 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "잠실이 아파트를 함께 부르기 가장 좋은 장소라는 평가와 큰 떼창의 재미를 말하는 반응이 있다.",
+        "곡 제목에 맞춰 입주·이사 같은 말장난을 이어가는 댓글이 나타난다."
+      ],
+      "supports": ["usageContext", "reception", "trivia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-apt-02",
+      "songId": "lg-twins-apartment",
+      "url": "https://www.youtube.com/watch?v=f5BsoYVf53o",
+      "videoId": "f5BsoYVf53o",
+      "title": "LG트윈스 아파트 응원가 떼창을 3루응원석에서 들어보았습니다 (이어폰 필수)",
+      "channel": "YH J",
+      "publishedAt": "2019-07-25T05:16:16-07:00",
+      "descriptionSummary": "2018년 6월 23일 롯데전에서 LG가 7대2 열세를 뒤집고 18대8로 이긴 경기의 아파트 떼창을 3루에서 촬영한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "큰 관중 합창의 전율과 단결감을 강조하고 오랫동안 이어진 고전 응원가라고 평가한다.",
+        "코로나19 시기에 야구장 떼창을 그리워하는 반응도 남아 있다."
+      ],
+      "supports": ["earliestDirectlyDocumentedLgUse", "usageContext", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-apt-03",
+      "songId": "lg-twins-apartment",
+      "url": "https://www.youtube.com/watch?v=WlvU_6c7Jws",
+      "videoId": "WlvU_6c7Jws",
+      "title": "[4K] 6회말 역전 했으니 아파트 불러야겠죠? 으쌰라으쌰! LG! [2023.06.15 (VS 삼성 9차전) 6회말 아파트 떼창 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2023-06-15T06:38:51-07:00",
+      "descriptionSummary": "2023년 6월 15일 삼성전 6회말 역전 직후 나온 아파트 떼창 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "역전 상황에 곡이 이어지는 전개를 좋아하고 영상을 보며 함께 부른다는 반응이 있다."
+      ],
+      "supports": ["currentUse", "usageContext", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-apt-04",
+      "songId": "lg-twins-apartment",
+      "url": "https://www.youtube.com/watch?v=uwh2BA62riw",
+      "videoId": "uwh2BA62riw",
+      "title": "[하이라이트 모음] 🔥단언컨대, 올시즌 봤던 엘지 응원 중 이번이 가장 지립니다🔥 사상 최초 한 경기 아파트 3번 떼창?! 광란의 13득점 현장 직캠!! (250622 vs 두산)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2025-06-22T15:20:01-07:00",
+      "descriptionSummary": "2025년 6월 22일 두산전 13득점 현장을 정리하며 09:51·25:56·41:56 세 챕터에 아파트 떼창을 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "현장 관중은 시즌 최고의 경기였다고 회고하며 3회부터 세 차례나 부른 상황을 이례적으로 본다.",
+        "큰 응원 분위기를 계기로 새 팬이 됐거나 상품을 샀다는 반응도 있다."
+      ],
+      "supports": ["currentUse", "usageContext", "trivia", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-apt-05",
+      "songId": "lg-twins-apartment",
+      "url": "https://www.youtube.com/watch?v=p6KPOfjJcW4",
+      "videoId": "p6KPOfjJcW4",
+      "title": "잠실더비를 수놓는 문보경의 쓰리런에 역대급 아파트 떼창",
+      "channel": "스포츠디비_Cheers",
+      "publishedAt": "2026-06-20T19:20:08-07:00",
+      "descriptionSummary": "2026년 6월 20일 LG-두산 클래식 시리즈에서 문보경의 3점 홈런 뒤 이어진 아파트 떼창을 담았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "현장 함성과 관중 규모를 강조하고 이 장면을 LG 응원의 상징처럼 평가하는 반응이 반복된다."
+      ],
+      "supports": ["currentUse", "usageContext", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-apt-06",
+      "songId": "lg-twins-apartment",
+      "url": "https://www.youtube.com/watch?v=_HcGMcKsOFk",
+      "videoId": "_HcGMcKsOFk",
+      "title": "한국시리즈 직관 준비! 타자 응원가&팀 응원가 복습 타임🎶 [트윈스 치얼업]",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2025-10-21T02:00:50-07:00",
+      "descriptionSummary": "LG 공식 한국시리즈 응원 복습 영상으로 설명의 13:22 챕터에 아파트를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 한국시리즈 표 예매와 직관 준비, 응원 연습에 관한 반응이 중심이며 아파트 한 곡에 한정된 평가는 적다."
+      ],
+      "supports": ["currentUse", "postseasonUse", "reception"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 3,
+    "youtubeSampleCount": 21,
+    "songsMeetingYoutubeMinimum": 3,
+    "openIssueCount": 10
+  }
+}

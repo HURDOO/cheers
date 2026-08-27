@@ -1,0 +1,1282 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kaist-b",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-kaist",
+    "name": "KAIST",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태, 출처와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 연도·원곡·행사 맥락·현장 수용을 확인하는 데 필요한 내용만 익명으로 재서술한다. 댓글 작성자 이름과 개인 식별 정보는 수집하지 않았다. 포항 외톨이는 확인 가능한 KAIST 공연 영상이 두 편뿐이어서, 5개 표본 요건을 채우는 나머지 세 편을 원곡 공식·권리자 영상으로 명시해 수록했으며 KAIST 사용 증거로 계산하지 않았다.",
+  "items": [
+    {
+      "id": "kaist-b-we-are-kaist",
+      "title": "We Are KAIST",
+      "aliases": ["We are KAIST", "위 아 카이스트"],
+      "currentStatus": "current-directly-verified-through-2026-freshman-cheerleading-orientation",
+      "summary": "Joe Dassin의 1969년 프랑스어 곡 ‘Les Champs-Élysées’ 선율에 승리·단결·학교명 구호를 얹은 응원가다. ELKA 공식 채널의 2010 카포전 개막식이 현재 확보한 가장 이른 직접 사용 기록이며 2011 학생대제전, 2019·2023·2025 Libera Me, 2021 응원 주간, 2026 새내기 응원대제전까지 이어진다. 2019·2025 응원제의 (1)·(2)·(3)은 별개의 곡이 아니라 동일 곡이 여러 순서와 기수부 연출로 반복된 영상 표기다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2010년 카포전 개막식",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-weare-2010-kapo"],
+          "notes": "영상은 2010 행사명을 직접 적지만 2011-07-22에 게시됐다. 행사연도와 게시일을 분리했으며, 이 기록만으로 2010년 초연이라고 단정하지 않는다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 2010년은 현재 확인된 가장 이른 사용연도",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-weare-2010-kapo", "ev-kaist-b-namu-cheers"],
+          "notes": "현행 편집형 문서는 원곡과 가사 순서를 적지만 신곡 연도는 제시하지 않는다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Joe Dassin ‘Les Champs-Élysées’(1969)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-weare-2023-libera", "ev-kaist-b-namu-cheers", "ev-kaist-b-bnf-champs", "ev-kaist-b-joe-vevo"],
+          "notes": "ELKA 공식 2023 영상의 샹젤리제 태그, 편집형 문서, 프랑스국립도서관 서지, 가수 공식 채널 음원을 교차했다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "원곡 음악 Mike Wilsh·Mike Deighan, 프랑스어 가사 Pierre Delanoë, 가창 Joe Dassin",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-bnf-champs", "ev-kaist-b-pierre-champs"],
+          "notes": "프랑스국립도서관은 1969년 악보 서지와 역할을 제공한다. Pierre Delanoë 공식 기념 사이트는 1969년 녹음과 저작자 정보를 보완한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 전기 새내기 응원대제전에서 교육·공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-weare-2026-freshman", "ev-kaist-b-elka-events", "ev-kaist-b-times-freshman-2023"],
+          "notes": "ELKA는 새내기 응원대제전을 이후 응원제와 카포전을 위한 응원가 교육 자리로 설명한다."
+        },
+        {
+          "field": "performanceFormat",
+          "value": "짧은 승리 선창·후창, 긴 학교명 구음, 짧은 학교명 훅, 전원 단결 마무리를 복합 순서로 반복",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-namu-cheers", "yt-kaist-b-weare-2019-libera", "yt-kaist-b-weare-2025-libera-2", "yt-kaist-b-weare-2026-freshman"],
+          "notes": "가사 전문 대신 편집형 문서가 적은 네 블록과 반복 순서, 공연 영상에서 확인되는 선창·후창만 요약했다."
+        }
+      ],
+      "usageContexts": [
+        "새내기 응원대제전에서 짧은 승리 문구와 학교명 응답을 익히는 교육 곡으로 사용한다.",
+        "카포전 개막식과 Libera Me 응원제에서 단장 선창 뒤 관중이 학교명·단결 구호로 합류한다.",
+        "응원제에서는 같은 곡을 여러 순서에 배치하거나 기수부와 결합해 (1)·(2)·(3)으로 나누어 게시하기도 한다."
+      ],
+      "trivia": [
+        {
+          "id": "weare-numbered-staging-not-variants",
+          "summary": "2019에는 (1)~(3), 2025에는 (1)·(2) 영상이 존재하지만 제목·길이·가사 골격이 이어지고 현행 인벤토리도 한 곡으로 센다. 번호는 곡 버전명보다 공연 순서·연출 구분으로 보는 것이 타당하다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-inventory", "yt-kaist-b-weare-2019-libera", "yt-kaist-b-weare-2025-libera-2"]
+        },
+        {
+          "id": "weare-french-adaptation-lineage",
+          "summary": "Joe Dassin판은 Mike Wilsh·Mike Deighan의 음악에 Pierre Delanoë가 프랑스어 가사를 붙인 1969년 작품이다. KAIST판은 이 유명 후렴 선율을 다시 학교 응원용으로 바꾼 후대 개사이지만 KAIST 개사·편곡자는 확인되지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-bnf-champs", "ev-kaist-b-pierre-champs", "ev-kaist-b-namu-cheers"]
+        },
+        {
+          "id": "weare-comparison-comment-not-provenance",
+          "summary": "2010 영상의 한 공개 댓글은 다른 대학 응원 문화의 모방이라고 주장하지만 근거를 제시하지 않는다. 이는 당시 시청자의 비교 인식일 뿐 안무·곡의 차용 계보를 입증하지 않으므로 사실 주장에 반영하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-weare-2010-kapo"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Joe Dassin's Les Champs-Élysées; the KAIST lyric adaptation, arrangement, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=CADbq0a59XA",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://catalogue.bnf.fr/ark:/12148/cb39653741x",
+          "https://www.youtube.com/watch?v=tDWeLlvYyYU"
+        ],
+        "structureSummary": "네 블록으로 나뉜다. 짧은 승리 선창과 관중 응답, 길게 이어지는 학교명 구음, 짧은 학교명 훅, 모두 하나가 된다는 마무리를 복잡한 순서로 배열하고 간주 뒤 전부 반복한 다음 마지막 블록을 거듭한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-b-weare-2010-kapo",
+        "yt-kaist-b-weare-2011-kapo",
+        "yt-kaist-b-weare-2019-libera",
+        "yt-kaist-b-weare-2021-week",
+        "yt-kaist-b-weare-2023-libera",
+        "yt-kaist-b-weare-2025-libera-2",
+        "yt-kaist-b-weare-2026-freshman"
+      ],
+      "unresolved": [
+        "2010년 이전 사용 여부와 정확한 최초 발표 행사·초연일",
+        "KAIST판 개사·편곡·녹음 제작자와 제작 경위",
+        "연도별 안무·편곡 수정 여부를 확인할 공식 버전 기록",
+        "타 대학 안무와의 유사성·차용 여부를 판별할 1차 제작 자료"
+      ]
+    },
+    {
+      "id": "kaist-b-pohang-loner",
+      "title": "포항 외톨이",
+      "aliases": ["포항외톨이"],
+      "currentStatus": "current-directly-verified-through-2026-freshman-cheerleading-orientation",
+      "summary": "중식이의 ‘대머리가 되어가네’를 바탕으로 POSTECH과 포항을 겨냥한 제목·구호를 붙인 짧은 라이벌전 응원가다. 현재 찾은 KAIST 직접 영상은 2025 제12회 Libera Me와 2026 새내기 응원대제전 두 편뿐이며, 2025 영상이 첫 공개인지 그보다 앞선 비공개 사용이 있었는지는 확인되지 않았다. 2026 공식 설명이 중식이와 원곡명을 직접 병기해 원곡 관계와 현행 사용을 확인한다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2025년 제12회 응원제 Libera Me: 바람",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-loner-2025-libera"],
+          "notes": "현재 검색 가능한 ELKA 곡별 영상 중 가장 이른 직접 기록이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2025년 신곡으로 추정; 확정 자료 없음",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kaist-b-loner-2025-libera", "ev-kaist-b-elka-events"],
+          "notes": "ELKA는 Libera Me에서 신곡을 발표한다고 설명하고, 이 곡은 2025 제12회 영상 이전의 검색 결과·현행 편집형 문서에서 확인되지 않는다. 그러나 해당 영상 제목이나 당시 프로그램이 신곡이라고 직접 쓰지 않아 추정으로 유지한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "중식이 ‘대머리가 되어가네’(음원 발매 2020-01-20)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-loner-2026-freshman", "yt-kaist-b-loner-source-label", "ev-kaist-b-bugs-bald"],
+          "notes": "ELKA 2026 설명이 중식이·원곡명을 직접 태그하고, 권리자 배급 채널과 벅스가 제목·아티스트·발매 및 크레딧을 확인한다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "원곡 보컬 중식이, 작사·작곡 정중식, 프로듀싱·편곡 우주비",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-loner-source-label", "ev-kaist-b-bugs-bald"],
+          "notes": "PurplePine 공식 배급 영상 설명과 벅스 참여 정보가 일치한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 전기 새내기 응원대제전에서 교육·공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-loner-2026-freshman", "ev-kaist-b-inventory", "ev-kaist-b-times-freshman-2023"],
+          "notes": "2026 공식 곡별 영상과 현행 인벤토리가 직접 일치한다."
+        },
+        {
+          "field": "rivalryContext",
+          "value": "POSTECH을 상대로 한 카포전 계열 풍자 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-loner-2025-libera", "yt-kaist-b-loner-2026-freshman", "ev-kaist-b-kaist-kapo-2008", "ev-kaist-b-times-kapo-2022"],
+          "notes": "곡 제목·공연 내용의 상대 지목은 직접 확인되지만, 양교 행사는 공식적으로 경쟁과 교류·우정을 함께 목적으로 한다. 풍자 문구를 행사 전체의 공식 입장으로 확대하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "카포전 전야 성격의 Libera Me에서 POSTECH 상대 풍자 분위기를 만드는 곡으로 공연됐다.",
+        "2026 새내기 응원대제전에서 원곡 훅과 상대 지목형 응답을 익히는 고유 응원가로 교육됐다.",
+        "탈모·외톨이 이미지를 상대 학교 학생에게 연결하는 과장된 라이벌 농담이므로 일반 교가·자긍심 곡과 맥락을 분리해 다루어야 한다."
+      ],
+      "trivia": [
+        {
+          "id": "loner-only-two-kaist-videos",
+          "summary": "접근일 현재 제목이 정확히 일치하는 KAIST 공연 영상은 2025·2026 두 편만 확인됐다. 표본 목록의 다른 세 편은 원곡의 공식 아티스트·배급·Topic 영상이며, KAIST 사용의 독립 증거가 아니라 원곡 메타데이터와 댓글 수용을 확인하기 위한 참고 표본이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-loner-2025-libera", "yt-kaist-b-loner-2026-freshman", "yt-kaist-b-loner-source-artist", "yt-kaist-b-loner-source-label", "yt-kaist-b-loner-source-topic"]
+        },
+        {
+          "id": "loner-composition-release-gap",
+          "summary": "아티스트 채널 설명은 프로듀서의 회고 형식으로 곡이 2009년 자신을 위해 쓰였다고 적지만, 공식 배급 영상과 음원 카탈로그의 발매일은 2020년이다. 작곡 회고 연도와 상업 발매 연도를 분리했다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-loner-source-artist", "yt-kaist-b-loner-source-label", "ev-kaist-b-bugs-bald"]
+        },
+        {
+          "id": "loner-source-comment-reception",
+          "summary": "원곡 영상의 공개 댓글은 경쾌하고 반복적인 훅, 노래방에서 부르고 싶다는 반응, 탈모 소재의 웃음과 씁쓸함을 함께 언급한다. 이는 원곡의 대중 수용이며 KAIST 개사의 현장 반응으로 오인하면 안 된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-loner-source-artist", "yt-kaist-b-loner-source-label"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Lunch's 대머리가 되어가네; the KAIST lyric adaptation, arrangement, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=2NBufAtCUwU",
+          "https://www.youtube.com/watch?v=iNWC00DkUXM",
+          "https://www.youtube.com/watch?v=E4EVzYLGHVc",
+          "https://music.bugs.co.kr/track/31811845"
+        ],
+        "structureSummary": "공식 공연은 약 83~84초로 원곡보다 크게 압축돼 있다. 원곡의 빠른 록 리듬과 반복 훅을 유지하면서 포항·POSTECH을 지목하는 풍자 문구와 집단 응답을 중심에 놓는다. 정확한 절별 전문과 공식 동작표는 공개 문서가 없어 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-b-loner-2025-libera",
+        "yt-kaist-b-loner-2026-freshman",
+        "yt-kaist-b-loner-source-artist",
+        "yt-kaist-b-loner-source-label",
+        "yt-kaist-b-loner-source-topic"
+      ],
+      "unresolved": [
+        "2025 제12회 Libera Me가 실제 초연인지와 정확한 발표일",
+        "KAIST판 작사·편곡·녹음 제작자와 제작 경위",
+        "KAIST 개사 전체의 공인본·공식 안무표와 사용 허락 범위",
+        "2025 이전 비공개·현장 사용 또는 삭제된 영상의 존재 여부",
+        "상대 외모·소외 소재에 관한 ELKA 또는 양교 행사의 공식 운영·검토 지침"
+      ]
+    },
+    {
+      "id": "kaist-b-pohang-march",
+      "title": "포항공가",
+      "aliases": ["포항군가"],
+      "currentStatus": "current-inventory-listed-and-directly-verified-through-2025-late-freshman-cheerleading-orientation",
+      "summary": "2003년 영화 ‘키사라즈 캐츠아이 일본 시리즈’ 사운드트랙의 ‘木更津キャッツアイのテーマ with 氣志團’ 선율을 사용한 POSTECH 상대 풍자 응원가다. 나무위키는 2008년 제작이라 적고, ELKA 공식 채널에서는 2010 카포전부터 2018 새내기 행사까지 ‘포항군가’, 2018 학생대제전부터 ‘포항공가’라는 제목이 확인된다. 가사 골격과 공연 연속성상 같은 레퍼토리의 표기 전환으로 보이지만 변경 결정·이유를 밝힌 공식 문서는 없다.",
+      "claims": [
+        {
+          "field": "productionYear",
+          "value": "2008년 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kaist-b-namu-cheers"],
+          "notes": "현행 편집형 문서의 명시뿐이며 당시 프로그램·제작자 인터뷰는 확보하지 못했다."
+        },
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2010년 카포전 개막식",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-pohang-2010-kapo"],
+          "notes": "영상 제목은 ‘포항군가, 짜라빠빠’로 두 순서를 함께 담고 게시일은 2011-07-22다. 곡의 2008 제작 주장과 직접 사용 증거를 구분했다."
+        },
+        {
+          "field": "officialTitleHistory",
+          "value": "공식 영상 표기상 2010~2018 ‘포항군가’, 2018 학생대제전 이후 ‘포항공가’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-pohang-2010-kapo", "yt-kaist-b-pohang-2018-freshman-old-title", "yt-kaist-b-pohang-2018-kapo-new-title", "yt-kaist-b-pohang-2019-freshman", "yt-kaist-b-pohang-2025-late-freshman"],
+          "notes": "같은 해에도 행사별로 두 표기가 나타난다. 현행 대표 표기는 인벤토리와 최근 공식 채널의 ‘포항공가’를 쓰고 ‘포항군가’를 별칭으로 보존한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "‘木更津キャッツアイのテーマ with 氣志團’(영화 ‘木更津キャッツアイ 日本シリーズ’ OST, 2003-11-12)",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-namu-cheers", "ev-kaist-b-storm-kisarazu"],
+          "notes": "편집형 문서가 원곡을 지목하고 일본 공식 레이블 카탈로그가 정확한 트랙명·발매·크레딧을 확인한다. ELKA 최근 영상 설명에는 원곡 태그가 없어 ‘verified’ 대신 ‘reported’를 유지한다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "원곡 작사 宮藤官九郎(쿠도 칸쿠로), 작곡·편곡 富澤タク(토미자와 타쿠), 氣志團 참여",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-storm-kisarazu"],
+          "notes": "Storm Labels 공식 사운드트랙 페이지의 트랙 및 크레딧을 사용했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "현행 16곡 인벤토리에 포함되고 2025 후기 새내기 응원대제전에서 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-inventory", "yt-kaist-b-pohang-2025-late-freshman"],
+          "notes": "2026 곡별 영상은 찾지 못했으므로 직접 확인 종점은 2025로 적는다."
+        },
+        {
+          "field": "rivalryContext",
+          "value": "포항의 거리·환경, 군대 말장난, 종목별 패배를 과장하는 카포전 상대 풍자곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-namu-cheers", "yt-kaist-b-pohang-2025-late-freshman", "ev-kaist-b-kaist-kapo-2008", "ev-kaist-b-times-kapo-2024"],
+          "notes": "가사 구조의 공격적 소재와 양교 교류전의 공식 목적을 분리해 기록한다."
+        }
+      ],
+      "usageContexts": [
+        "카포전 개막식·전야 응원제에서 POSTECH 상대 풍자 구호를 집중시키는 곡으로 사용한다.",
+        "새내기 응원대제전에서도 포항 상대 구호와 종목별 응답을 미리 가르친다.",
+        "행사는 경쟁뿐 아니라 양교 교류·우정을 목적으로 하므로 군대·거리·학교 수준을 조롱하는 가사는 제한된 라이벌전 문맥으로 표시한다."
+      ],
+      "trivia": [
+        {
+          "id": "pohang-title-transition",
+          "summary": "2018 새내기 영상은 여전히 ‘포항군가’지만 같은 해 학생대제전 영상은 ‘포항공가’다. 2019 이후 최근 공식 영상은 ‘포항공가’를 일관되게 쓰는 반면 나무위키 절 제목은 아직 ‘포항군가’다. 변경 이유와 정확한 효력일은 공개되지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-pohang-2018-freshman-old-title", "yt-kaist-b-pohang-2018-kapo-new-title", "yt-kaist-b-pohang-2019-freshman", "ev-kaist-b-namu-cheers"]
+        },
+        {
+          "id": "pohang-military-pun-explanation",
+          "summary": "편집형 문서는 반복되는 ‘군대’ 말장난을 포항의 해병대 교육훈련단과 연결해 설명한다. 이는 공식 제작 의도 확인이 아닌 편집자 해설이므로 일화로만 보존한다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kaist-b-namu-cheers"]
+        },
+        {
+          "id": "pohang-2010-paired-video",
+          "summary": "가장 이른 2010 영상은 제목상 ‘포항군가’와 ‘짜라빠빠’를 함께 담는다. 두 제목을 한 곡의 정식 복합 제목으로 합치지 않고, 해당 영상에 두 공연 순서가 묶였다고 기록했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-pohang-2010-kapo"]
+        },
+        {
+          "id": "pohang-rivalry-within-exchange",
+          "summary": "KAIST의 2008 공식 안내는 학생대제전을 양교의 건전한 교류 목적으로 설명하고, 2022·2024 교내 보도는 응원 경쟁과 우정·화합을 함께 강조한다. 따라서 강한 디스 가사는 제도권 교류전 안의 공연 관습으로 설명하되 상대에 관한 사실 진술로 취급하지 않는다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-kaist-kapo-2008", "ev-kaist-b-times-kapo-2022", "ev-kaist-b-times-kapo-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of 木更津キャッツアイのテーマ with 氣志團; the KAIST lyric adaptation, arrangement, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=YSesa1xF9yE",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://web.storm-labels.co.jp/s/st/discography/JACA-5011"
+        ],
+        "structureSummary": "상대 학교를 군대에 빗댄 반복 훅 뒤 포항의 거리·환경을 놀리는 두 짧은 절, 경기 종목의 연속 패배를 가정하는 절, 준우승·감사형 반어 마무리로 이어진다. 집단 응답과 발 구르기성 구호가 반복되며 가사 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-b-pohang-2010-kapo",
+        "yt-kaist-b-pohang-2011-admission",
+        "yt-kaist-b-pohang-2018-freshman-old-title",
+        "yt-kaist-b-pohang-2018-kapo-new-title",
+        "yt-kaist-b-pohang-2019-freshman",
+        "yt-kaist-b-pohang-2024-libera",
+        "yt-kaist-b-pohang-2025-late-freshman"
+      ],
+      "unresolved": [
+        "2008년 제작을 확인할 당시 프로그램·음원·제작자 1차 자료",
+        "포항군가에서 포항공가로 바뀐 공식 결정일과 변경 이유",
+        "KAIST판 작사·편곡·녹음 제작자와 원곡 이용 허락 범위",
+        "2010년 이전 공연·교육 사용 여부",
+        "상대 비하 소재에 관한 ELKA 또는 양교 행사의 공식 운영·검토 지침"
+      ]
+    },
+    {
+      "id": "kaist-b-my-love-kaist",
+      "title": "나의 사랑 카이스트",
+      "aliases": ["나의사랑카이스트", "나사카"],
+      "currentStatus": "current-directly-verified-through-2026-freshman-cheerleading-orientation-and-taeul-seoklim-festival",
+      "summary": "FC Bayern München의 1998년 구단가 ‘Stern des Südens’ 선율을 학교 사랑·승리·소망의 대합창으로 바꾼 2012년 KAIST 응원가다. 당시 ELKA 단장 계정의 영상 제목이 ‘2012 응원가 신곡’이라고 명시하고, 같은 해 학생대제전의 ELKA 공식 영상이 사용을 확인한다. 2025 Libera Me의 (1)·(2)는 서로 다른 곡이 아니라 같은 곡을 두 차례 배치한 표기이며 2026 새내기 행사와 태울석림제까지 이어진다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2012년 신곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-love-2012-new-song", "yt-kaist-b-love-2012-kapo"],
+          "notes": "당시 ELKA 단장 계정의 제목이 신곡을 직접 명시하고 ELKA 공식 채널의 2012 학생대제전 영상이 같은 해 사용을 독립 확인한다. 정확한 초연일은 미확인이다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Bayern-Fans United ‘Stern des Südens’(1998년 구단가; 음원 카탈로그상 1997-12-08 공개)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-love-2025-libera-1", "yt-kaist-b-love-2026-freshman", "ev-kaist-b-namu-cheers", "ev-kaist-b-apple-stern", "ev-kaist-b-lehmann-stern"],
+          "notes": "최근 ELKA 공식 설명이 원곡 제목과 바이에른 뮌헨을 직접 태그한다. 카탈로그의 1997년 공개일과 제작진 회고의 1998년 구단가 탄생·초연 서술이 달라 두 날짜의 의미를 분리했다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "원곡 작곡·작사 Willy Astor, 공동 작사 Stephan Lehmann, 가창 Claus Lessmann, 프로듀싱·편곡 Hans Franek",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-apple-stern", "ev-kaist-b-lehmann-stern"],
+          "notes": "Apple Music 카탈로그와 공동 작사가·경기장 아나운서 Stephan Lehmann의 공식 회고를 교차했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 전기 새내기 응원대제전과 2026 태울석림제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-love-2026-freshman", "ev-kaist-b-inventory"],
+          "notes": "이 배치 표본에는 새내기 행사를 담고, 별도 확인한 같은 공식 채널의 2026 태울석림제 영상도 현행성을 뒷받침한다."
+        },
+        {
+          "field": "performanceFormat",
+          "value": "학교 사랑·승리 문장, 이름을 높여 부르는 문장, 사랑·소망 문장을 1-2-1-3으로 부른 뒤 간주 후 반복",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-namu-cheers", "yt-kaist-b-love-2019-libera", "yt-kaist-b-love-2022-kaist", "yt-kaist-b-love-2026-freshman"],
+          "notes": "정확한 가사 전문과 동작 카운트 대신 세 블록과 반복 순서만 보존한다."
+        }
+      ],
+      "usageContexts": [
+        "새내기 응원대제전에서 학교 사랑·소망을 표현하는 반복 합창으로 교육한다.",
+        "카포전 승리 기원 콘텐츠와 학생대제전에서 자긍심·승리 분위기를 만드는 곡으로 사용한다.",
+        "Libera Me에서는 동일 곡을 (1)·(2)로 두 차례 배치해 서로 다른 무대 연출과 관중 합창에 사용하기도 한다."
+      ],
+      "trivia": [
+        {
+          "id": "love-numbered-one-song",
+          "summary": "2025 Libera Me 공식 영상 두 편은 각각 (1)·(2)로 적히지만 제목·원곡 태그·약 80초 길이가 일치한다. 현행 인벤토리도 둘을 한 곡으로 세므로 별도 곡이나 후속편으로 나누지 않는다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-inventory", "yt-kaist-b-love-2025-libera-1", "yt-kaist-b-love-2025-libera-2"]
+        },
+        {
+          "id": "love-university-promotional-video",
+          "summary": "2022년에는 응원단 채널뿐 아니라 KAIST 본교 채널이 카포전 승리 기원 자체 콘텐츠로 이 곡의 캠퍼스 공연을 공개했다. 댓글 일부도 바이에른 뮌헨 구단가 선율을 알아보거나 카포전 승리를 축하했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-love-2022-kaist"]
+        },
+        {
+          "id": "love-stern-1997-1998-dates",
+          "summary": "음원 카탈로그는 ‘Stern des Südens’ EP를 1997-12-08로 표시하지만 공동 제작자 Stephan Lehmann은 1998년을 FC Bayern 구단가의 탄생 시점으로 회고한다. 데이터에서는 음원 공개와 구단가 공개·정착의 날짜를 합치지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-apple-stern", "ev-kaist-b-lehmann-stern"]
+        },
+        {
+          "id": "love-source-still-in-matchday-sequence",
+          "summary": "FC Bayern은 2025년 새 경기장 찬가를 도입하면서도 ‘Stern des Südens’가 경기일 연출의 일부로 계속 남는다고 공식 설명했다. 이는 원곡의 지속적 위상을 보여 주지만 KAIST판 제작 경위의 증거는 아니다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-fcb-anthem-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Bayern-Fans United's Stern des Südens; the KAIST lyric adaptation, arrangement, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=BLbLubyzYjo",
+          "https://www.youtube.com/watch?v=Pr5wXmqMskM",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://music.apple.com/cz/song/174545421"
+        ],
+        "structureSummary": "세 개의 짧은 가사 블록으로 구성된다. 학교 사랑과 승리, 자랑스러운 이름의 합창, 사랑과 소망을 차례로 부르되 첫 블록을 사이에 되풀이하고 간주 뒤 같은 1-2-1-3 순서를 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-b-love-2012-new-song",
+        "yt-kaist-b-love-2012-kapo",
+        "yt-kaist-b-love-2019-libera",
+        "yt-kaist-b-love-2022-kaist",
+        "yt-kaist-b-love-2025-libera-1",
+        "yt-kaist-b-love-2025-libera-2",
+        "yt-kaist-b-love-2026-freshman"
+      ],
+      "unresolved": [
+        "2012년 정확한 초연 행사·날짜와 당시 프로그램 원본",
+        "KAIST판 작사·편곡·녹음 제작자와 제작 경위",
+        "Stern des Südens 음원 공개일과 1998년 구단가 초연을 연결하는 완전한 1차 발매 기록",
+        "(1)·(2) 무대의 공식 연출 차이와 곡 내부 구분 명칭"
+      ]
+    },
+    {
+      "id": "kaist-b-we",
+      "title": "우리",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-through-2026-freshman-cheerleading-orientation-and-taeul-seoklim-festival",
+      "summary": "Andrea Bocelli의 1999년 곡 ‘Mai più così lontano’를 바탕으로 ‘우리’라는 응답과 함께함·약속·빛남을 반복하는 느린 대합창형 응원가다. ELKA 공식 채널에서 현재 확인한 가장 이른 곡별 영상은 2017 새내기 응원대제전이며, 같은 해 Libera Me, 2022·2024 새내기·입학식, 2024 응원제 앵콜, 2025 Libera Me, 2026 새내기 행사와 태울석림제까지 이어진다. 신곡 발표연도와 KAIST판 제작자는 아직 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2017년 새내기 응원대제전",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-we-2017-freshman"],
+          "notes": "2017-07-13 게시된 공식 곡별 영상이다. 2015·2016 메들리 제목만으로 곡 포함 여부를 확정하지 않았다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 2017년은 현재 확인된 가장 이른 직접 사용연도",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-we-2017-freshman", "ev-kaist-b-namu-cheers"],
+          "notes": "현행 편집형 문서는 가사만 싣고 발표연도·원곡을 적지 않는다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Andrea Bocelli ‘Mai più così lontano’(1999-01-01)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-we-2026-freshman", "yt-kaist-b-we-2026-festival", "ev-kaist-b-bocelli-audio"],
+          "notes": "2026 ELKA 공식 영상 두 편이 Andrea Bocelli와 원곡 제목을 직접 태그하고, 권리자 제공 음원이 발매·권리·크레딧을 확인한다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "원곡 가창 Andrea Bocelli; Mauro Malavasi 작사·작곡·지휘·프로듀싱·녹음 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-bocelli-audio"],
+          "notes": "Universal Music Group 제공 YouTube 음원의 자동 생성 크레딧을 사용했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 전기 새내기 응원대제전과 2026 태울석림제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-we-2026-freshman", "yt-kaist-b-we-2026-festival", "ev-kaist-b-inventory"],
+          "notes": "교육 행사와 봄 축제의 서로 다른 공식 영상이 같은 해 현행성을 확인한다."
+        },
+        {
+          "field": "performanceFormat",
+          "value": "전주 뒤 단장이 ‘우리’를 선창하면 관중이 응답하고, 빛남·변치 않음·함께한 약속의 동일 골격을 두 차례 부른 뒤 전체를 반복",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-namu-cheers", "yt-kaist-b-we-2017-libera", "yt-kaist-b-we-2024-encore", "yt-kaist-b-we-2026-festival"],
+          "notes": "가사 전문 대신 반복 단위·주제·선창과 응답만 요약한다."
+        }
+      ],
+      "usageContexts": [
+        "새내기 응원대제전·입학식에서 ‘우리’ 선창과 응답을 통해 신입생의 집단 참여를 유도한다.",
+        "Libera Me 응원제에서 느린 대합창과 어깨동무형 단결 분위기를 만들며 2024년에는 앵콜 곡으로도 다시 불렸다.",
+        "태울석림제에서는 빠른 승리곡 사이에서 함께함·약속을 강조하는 감정적 마무리 성격으로 사용된다."
+      ],
+      "trivia": [
+        {
+          "id": "we-encore-status",
+          "summary": "2024 제11회 Libera Me 공식 영상은 제목에 이 곡을 ‘앵콜’이라고 직접 표시한다. 적어도 해당 공연에서는 본 순서 밖에 다시 불릴 만큼 집단 합창용 레퍼토리로 선택됐음을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-b-we-2024-encore"]
+        },
+        {
+          "id": "we-original-added-by-official-tags",
+          "summary": "나무위키 현행 절에는 원곡 정보가 없지만 2026 ELKA 영상 설명 두 편이 Andrea Bocelli와 ‘Mai più così lontano’를 새로 명시한다. 원곡 판단은 최신 공식 설명을 우선했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-namu-cheers", "yt-kaist-b-we-2026-freshman", "yt-kaist-b-we-2026-festival"]
+        },
+        {
+          "id": "we-source-korean-tv-memory-comments",
+          "summary": "원곡 권리자 음원의 공개 댓글 다수는 한국 예능의 만남·기다림 장면 배경음악으로 기억한다고 말한다. 이는 한국 내 원곡 친숙도를 보여 주는 일화이며 KAIST가 이 곡을 선택한 이유를 입증하지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-b-bocelli-audio"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Andrea Bocelli's Mai più così lontano; the KAIST lyric adaptation, arrangement, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=PCFTEOafvNk",
+          "https://www.youtube.com/watch?v=pI42oAtGXIQ",
+          "https://www.youtube.com/watch?v=gBoCjVv5VD4",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "전주 다음 ‘우리’ 선창·응답을 반복하고, 환하게 빛남·변하지 않음·함께한 약속을 묶은 짧은 단락을 두 차례 이어 부른다. 끝을 길게 늘인 뒤 전체 단락을 다시 반복하는 대합창 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-b-we-2017-freshman",
+        "yt-kaist-b-we-2017-libera",
+        "yt-kaist-b-we-2022-freshman",
+        "yt-kaist-b-we-2024-admission",
+        "yt-kaist-b-we-2024-encore",
+        "yt-kaist-b-we-2025-libera",
+        "yt-kaist-b-we-2026-freshman",
+        "yt-kaist-b-we-2026-festival"
+      ],
+      "unresolved": [
+        "2017년 이전 사용 여부와 정확한 신곡 발표 행사·초연일",
+        "KAIST판 작사·편곡·녹음 제작자와 제작 경위",
+        "2015·2016 새내기 메들리에 이 곡이 포함됐는지 확인할 세트리스트·타임코드",
+        "공식 안무 명칭·카운트와 연도별 편곡 변화"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kaist-b-inventory",
+      "type": "internal-inventory",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/universities.md#kaist--elka",
+      "title": "대학 응원단·현행 응원가 인벤토리 — KAIST",
+      "publisher": "project research",
+      "publishedAt": "2026-08-08",
+      "accessedAt": "2026-08-09",
+      "summary": "KAIST 현행 16곡에 이 배치의 다섯 곡을 모두 포함하고, 나의 사랑 카이스트 (1)·(2)를 한 곡으로 세도록 명시한 내부 발견 목록이다.",
+      "supports": ["kaist-b-we-are-kaist", "kaist-b-pohang-loner", "kaist-b-pohang-march", "kaist-b-my-love-kaist", "kaist-b-we"]
+    },
+    {
+      "id": "ev-kaist-b-kaist-official",
+      "type": "official",
+      "url": "https://www.kaist.ac.kr/kr/html/campus/053401.html",
+      "title": "학생자치기구 — 카이스트 응원단 ELKA",
+      "publisher": "KAIST",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "ELKA를 2005년 창단된 KAIST 공식 응원단으로 소개하고 입학식·새터/OT·학교축제·카포전에서 공연과 응원리드를 한다고 설명한다.",
+      "supports": ["kaist-b-we-are-kaist", "kaist-b-pohang-loner", "kaist-b-pohang-march", "kaist-b-my-love-kaist", "kaist-b-we"]
+    },
+    {
+      "id": "ev-kaist-b-elka-events",
+      "type": "official",
+      "url": "https://elka.kaist.ac.kr/%EC%9D%91%EC%9B%90%EB%8B%A8-%ED%99%9C%EB%8F%99-events",
+      "title": "응원단 활동 EVENTS",
+      "publisher": "KAIST 응원단 ELKA",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "새내기 응원대제전이 이후 응원제와 카포전을 위한 응원가 교육 자리라고 밝히고, 카포전 전야 응원제에서 신곡 발표·액션치어·기수부 공연과 약 4천 명의 어깨동무·점프가 이뤄진다고 설명한다.",
+      "supports": ["kaist-b-we-are-kaist", "kaist-b-pohang-loner", "kaist-b-pohang-march", "kaist-b-my-love-kaist", "kaist-b-we"]
+    },
+    {
+      "id": "ev-kaist-b-times-freshman-2023",
+      "type": "campus-press",
+      "url": "https://times.kaist.ac.kr/news/articleView.html?idxno=21187",
+      "title": "4년 만에 대면으로 돌아온 새내기새로배움터, 새출발의 설렘과 함께하다",
+      "publisher": "카이스트신문",
+      "publishedAt": "2023-03-07",
+      "accessedAt": "2026-08-09",
+      "summary": "2023 새터에서 ELKA가 학교 응원가와 응원법을 소개했고, 참가 학생이 함께 소리 지르고 어깨동무한 경험을 인상적인 순간으로 꼽았다고 보도한다.",
+      "supports": ["kaist-b-we-are-kaist", "kaist-b-pohang-loner", "kaist-b-pohang-march", "kaist-b-my-love-kaist", "kaist-b-we"]
+    },
+    {
+      "id": "ev-kaist-b-kaist-kapo-2008",
+      "type": "official-news",
+      "url": "https://kaist.ac.kr/news/html/news/?GotoPage=1&list_e_date=&list_s_date=&mng_no=654&mode=V&skey=keyword&sval=%ED%8F%AC%ED%95%AD%EA%B3%B5%EB%8C%80%28POSTECH%29",
+      "title": "이공계 최고 두뇌들의 과학 전쟁이 벌어진다! - 포카전!",
+      "publisher": "KAIST",
+      "publishedAt": "2008-09-18",
+      "accessedAt": "2026-08-09",
+      "summary": "학생대제전을 2002년 시작된 양교 학생의 건전한 교류 행사로 설명하고 스포츠·과학·e스포츠 및 부대 교류 프로그램을 열거한다. 개최 학교에 따라 포카전·카포전 명칭 순서가 달라진다는 원칙도 밝힌다.",
+      "supports": ["kaist-b-pohang-loner", "kaist-b-pohang-march"]
+    },
+    {
+      "id": "ev-kaist-b-times-kapo-2022",
+      "type": "campus-press",
+      "url": "https://times.kaist.ac.kr/news/articleView.html?idxno=21002",
+      "title": "2022 카포전, 압도적인 승리",
+      "publisher": "카이스트신문",
+      "publishedAt": "2022-10-04",
+      "accessedAt": "2026-08-09",
+      "summary": "카포전 전야 응원제를 학생 화합의 자리로, 개막식의 ELKA·CHEERO 응원을 경쟁 열기를 높이는 순서로 보도하며 POSTECH 총장의 경쟁 뒤 우정을 쌓자는 발언을 함께 전한다.",
+      "supports": ["kaist-b-pohang-loner", "kaist-b-pohang-march", "kaist-b-my-love-kaist"]
+    },
+    {
+      "id": "ev-kaist-b-times-kapo-2024",
+      "type": "campus-press",
+      "url": "https://times.kaist.ac.kr/news/articleView.html?idxno=21915",
+      "title": "호우 속에서도 빛나는 3년 연속 카이스트-포스텍 학생대제전 승리",
+      "publisher": "카이스트신문",
+      "publishedAt": "2024-09-24",
+      "accessedAt": "2026-08-09",
+      "summary": "2024 제21회 카포전에서 ELKA·CHEERO가 개막식 응원 무대를 열어 경쟁심과 양교 화합을 함께 만들었고 전야제와 경기 응원이 행사 일정에 포함됐다고 보도한다.",
+      "supports": ["kaist-b-pohang-loner", "kaist-b-pohang-march", "kaist-b-my-love-kaist"]
+    },
+    {
+      "id": "ev-kaist-b-namu-cheers",
+      "type": "editorial-wiki",
+      "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "한국과학기술원/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "We Are KAIST·나의 사랑 카이스트·우리의 가사 순서와 앞의 두 곡 원곡을 정리하고, 포항군가를 2008년 제작·키사라즈 캐츠아이 테마곡 원작으로 적는다. 포항 외톨이는 현행 문서에 없고 포항공가의 현행 제목 전환도 반영되지 않았다.",
+      "supports": ["kaist-b-we-are-kaist", "kaist-b-pohang-march", "kaist-b-my-love-kaist", "kaist-b-we"]
+    },
+    {
+      "id": "ev-kaist-b-bnf-champs",
+      "type": "national-library-catalog",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb39653741x",
+      "title": "Les Champs-Élysées — notice bibliographique",
+      "publisher": "Bibliothèque nationale de France",
+      "publishedAt": "1969",
+      "accessedAt": "2026-08-09",
+      "summary": "1969년 파리 출판 악보로 서지화하고 음악 Mike Wilsh·Mike Deighan, 가사 Pierre Delanoë, 가창 Joe Dassin을 명시한다.",
+      "supports": ["kaist-b-we-are-kaist"]
+    },
+    {
+      "id": "ev-kaist-b-pierre-champs",
+      "type": "official-creator-site",
+      "url": "https://www.pierre-delanoe.fr/les-champs-elysees.html",
+      "title": "Les Champs-Élysées",
+      "publisher": "Pierre Delanoë official memorial site",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "1969년 녹음으로 적고 Pierre Delanoë·Michael Deighan·Michael Wilshaw의 저작자 역할 및 출판 정보를 제공한다.",
+      "supports": ["kaist-b-we-are-kaist"]
+    },
+    {
+      "id": "ev-kaist-b-joe-vevo",
+      "type": "official-artist-audio",
+      "url": "https://www.youtube.com/watch?v=tDWeLlvYyYU",
+      "title": "Joe Dassin - Les Champs-Elysées (Audio)",
+      "publisher": "joedassinVEVO",
+      "publishedAt": "2016-05-24",
+      "accessedAt": "2026-08-09",
+      "summary": "Joe Dassin 공식 채널의 원곡 음원으로, KAIST 공연 영상의 선율 비교와 작품 식별에 사용했다.",
+      "supports": ["kaist-b-we-are-kaist"]
+    },
+    {
+      "id": "ev-kaist-b-bugs-bald",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/31811845",
+      "title": "대머리가 되어가네",
+      "publisher": "Bugs",
+      "publishedAt": "2020-01-20",
+      "accessedAt": "2026-08-09",
+      "summary": "중식이의 3분 3초 음원으로 식별하고 보컬 중식이, 작사·작곡 정중식, 편곡 우주비를 명시한다.",
+      "supports": ["kaist-b-pohang-loner"]
+    },
+    {
+      "id": "ev-kaist-b-storm-kisarazu",
+      "type": "official-label-catalog",
+      "url": "https://web.storm-labels.co.jp/s/st/discography/JACA-5011",
+      "title": "木更津キャッツアイ 日本シリーズ オリジナル・サウンドトラック",
+      "publisher": "Storm Labels",
+      "publishedAt": "2003-11-12",
+      "accessedAt": "2026-08-09",
+      "summary": "2003-11-12 발매 사운드트랙의 3번 트랙을 ‘木更津キャッツアイのテーマ with 氣志團’으로 싣고 작사 宮藤官九郎, 작곡·편곡 富澤タク으로 명시한다.",
+      "supports": ["kaist-b-pohang-march"]
+    },
+    {
+      "id": "ev-kaist-b-apple-stern",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/cz/song/174545421",
+      "title": "Stern des Südens",
+      "publisher": "Apple Music",
+      "publishedAt": "1997-12-08",
+      "accessedAt": "2026-08-09",
+      "summary": "Bayern-Fans United 음원을 1997-12-08 공개로 표시하고 Willy Astor 작곡·작사, Stephan Lehmann 공동 작사, Hans Franek 편곡·프로듀싱 크레딧을 제공한다.",
+      "supports": ["kaist-b-my-love-kaist"]
+    },
+    {
+      "id": "ev-kaist-b-lehmann-stern",
+      "type": "official-creator-site",
+      "url": "https://www.stephanlehmann.de/stadion-fu%C3%9Fball",
+      "title": "Stadion / Fußball",
+      "publisher": "Stephan Lehmann",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "공동 작사가이자 당시 FC Bayern 경기장 아나운서가 1998년을 구단가 탄생 시점으로 회고하며 Willy Astor·Stephan Lehmann·Claus Lessmann·Hans Franek의 팀 작업이라고 설명한다.",
+      "supports": ["kaist-b-my-love-kaist"]
+    },
+    {
+      "id": "ev-kaist-b-fcb-anthem-2025",
+      "type": "official-club-news",
+      "url": "https://fcbayern.com/de/news/2025/03/fc-bayern-podcast-folge-57-immer-vorwaerts-fc-bayern-die-neue-stadionhymne-als-geschenk-an-den-fcb",
+      "title": "FC Bayern Podcast Folge 57: ‘Immer vorwärts FC Bayern’",
+      "publisher": "FC Bayern München",
+      "publishedAt": "2025-03-07",
+      "accessedAt": "2026-08-09",
+      "summary": "2025년 새 경기장 찬가의 고정 위치를 설명하면서 ‘Stern des Südens’와 ‘Forever Number One’도 경기일 연출에 계속 남는다고 명시한다.",
+      "supports": ["kaist-b-my-love-kaist"]
+    },
+    {
+      "id": "ev-kaist-b-bocelli-audio",
+      "type": "official-rightsholder-audio",
+      "url": "https://www.youtube.com/watch?v=gBoCjVv5VD4",
+      "title": "Mai piu' cosi' lontano",
+      "publisher": "Andrea Bocelli - Topic / Sugar / Universal Music Group",
+      "publishedAt": "1999-01-01",
+      "accessedAt": "2026-08-09",
+      "summary": "권리자 제공 음원이 1999-01-01 발매와 Sugar·Universal 권리를 밝히고 Andrea Bocelli 가창, Mauro Malavasi 작사·작곡·지휘·프로듀싱·녹음 편곡 크레딧을 제공한다. 공개 댓글에는 한국 예능의 만남·기다림 장면 배경음악으로 기억한다는 반응이 반복된다.",
+      "supports": ["kaist-b-we"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kaist-b-weare-2010-kapo",
+      "songId": "kaist-b-we-are-kaist",
+      "url": "https://www.youtube.com/watch?v=wcNkDj4_I_w",
+      "videoId": "wcNkDj4_I_w",
+      "title": "[카이스트 응원단 ELKA] 2010 카포전 개막식 - We are KAIST",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2011-07-22",
+      "descriptionSummary": "설명과 제목이 2010 카포전 개막식 공연임을 직접 밝힌다. 게시일은 2011년이므로 행사연도와 업로드일을 분리했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 공개 댓글은 다른 대학 응원단과 비교하며 모방을 주장하지만 구체적인 곡·동작·제작 근거를 제시하지 않는다."
+      ],
+      "supports": ["earliestDirectlyConfirmedUse", "kapoUse", "comparisonReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-weare-2011-kapo",
+      "songId": "kaist-b-we-are-kaist",
+      "url": "https://www.youtube.com/watch?v=5Rsfv7znijY",
+      "videoId": "5Rsfv7znijY",
+      "title": "[카이스트 응원단 ELKA] 2011 KAIST-POSTECH 학생대제전 - We Are KAIST",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2012-06-26",
+      "descriptionSummary": "별도 설명은 없고 제목이 2011 KAIST-POSTECH 학생대제전의 곡별 공연임을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earlyContinuity", "studentFestivalUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-weare-2019-libera",
+      "songId": "kaist-b-we-are-kaist",
+      "url": "https://www.youtube.com/watch?v=jDt1Sp4JvJM",
+      "videoId": "jDt1Sp4JvJM",
+      "title": "[카이스트 응원단 ELKA] 2019 제8회 응원제 Libera Me : 無限 - We are KAIST(3)",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-10-09",
+      "descriptionSummary": "별도 설명은 없고 제목이 2019 제8회 Libera Me의 세 번째 배치 영상임을 표시한다. 같은 행사에 (1)·(2) 영상도 존재한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "numberedStaging", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-weare-2021-week",
+      "songId": "kaist-b-we-are-kaist",
+      "url": "https://www.youtube.com/watch?v=hiORnMKuMCY",
+      "videoId": "hiORnMKuMCY",
+      "title": "[카이스트 응원단 ELKA] 2021 응원 주간 - 응원가 'We are KAIST'",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2021-08-13",
+      "descriptionSummary": "일반 KAIST·응원단 태그만 있고 제목이 2021 응원 주간의 곡별 공식 공연임을 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "유일한 공개 댓글은 공연을 특이하다고 평가하면서 낮은 조회 수를 아쉬워한다. 곡 역사에 관한 정보는 없다."
+      ],
+      "supports": ["pandemicEraContinuity", "commentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-weare-2023-libera",
+      "songId": "kaist-b-we-are-kaist",
+      "url": "https://www.youtube.com/watch?v=JlNTyt1tHrc",
+      "videoId": "JlNTyt1tHrc",
+      "title": "[카이스트 응원단 ELKA] 응원가 'We are KAIST'(1) - 2023 제10회 응원제 Libera Me: Lux",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2023-10-23",
+      "descriptionSummary": "2023 제10회 Libera Me의 첫 번째 배치로 게시됐고 설명에 ‘샹젤리제’ 태그를 달아 원곡 관계를 직접 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["originalSong", "liberaMeUse", "numberedStaging"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-weare-2025-libera-2",
+      "songId": "kaist-b-we-are-kaist",
+      "url": "https://www.youtube.com/watch?v=d-5B4qfe5Ao",
+      "videoId": "d-5B4qfe5Ao",
+      "title": "[카이스트 응원단 ELKA] 응원가 'We Are KAIST'(2) - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "행사·곡명과 함께 기수부 태그를 표시한다. 같은 행사 (1) 영상과 비교하면 동일 곡의 두 번째 무대 연출임을 확인할 수 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "numberedStaging", "flagStaging"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-weare-2026-freshman",
+      "songId": "kaist-b-we-are-kaist",
+      "url": "https://www.youtube.com/watch?v=CADbq0a59XA",
+      "videoId": "CADbq0a59XA",
+      "title": "[카이스트 응원단 ELKA] 응원가 ‘We are KAIST’ - 2026 전기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-03",
+      "descriptionSummary": "2026 전기 새내기 응원대제전의 곡별 영상이며 일반 KAIST·ELKA·응원가·새터 태그를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "freshmanEducation", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-loner-2025-libera",
+      "songId": "kaist-b-pohang-loner",
+      "url": "https://www.youtube.com/watch?v=iNWC00DkUXM",
+      "videoId": "iNWC00DkUXM",
+      "title": "[카이스트 응원단 ELKA] 응원가 '포항 외톨이' - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "2025 제12회 Libera Me의 곡별 공식 영상으로, 설명이 ‘대머리가 되어가네’를 태그해 원곡을 암시한다. 현재 확보한 첫 직접 사용 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "inferredIntroductionYear", "originalSong", "kaistPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-loner-2026-freshman",
+      "songId": "kaist-b-pohang-loner",
+      "url": "https://www.youtube.com/watch?v=2NBufAtCUwU",
+      "videoId": "2NBufAtCUwU",
+      "title": "[카이스트 응원단 ELKA] 응원가 ‘포항 외톨이’ - 2026 전기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-03",
+      "descriptionSummary": "2026 새내기 행사 사용을 확인하며 곡명, 중식이, ‘대머리가 되어가네’를 함께 태그해 원곡 관계를 직접 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "freshmanEducation", "originalSong", "kaistPerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-loner-source-artist",
+      "songId": "kaist-b-pohang-loner",
+      "url": "https://www.youtube.com/watch?v=d6QghS-9jhY",
+      "videoId": "d6QghS-9jhY",
+      "title": "중식이 (Lunch) - 대머리가 되어가네",
+      "channel": "중식이",
+      "publishedAt": "2020-02-10",
+      "descriptionSummary": "아티스트 채널 영상이다. 설명은 프로듀서 우주비의 회고 형식으로 2009년 정중식이 자신을 위해 쓴 곡이라고 적고 공식 판매·채널 링크를 제공하지만, KAIST 개사나 사용은 다루지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "여러 공개 댓글은 경쾌한 곡조와 반복 훅을 높게 평가하고 노래방 수록을 바란다.",
+        "일부 댓글은 탈모 소재가 웃기면서도 나이 듦의 씁쓸함을 건드린다고 반응한다.",
+        "다른 창작자의 패러디를 통해 원곡을 알게 됐다는 유입 반응도 보인다."
+      ],
+      "supports": ["sourceSongReferenceOnly", "compositionAnecdote", "sourceReception", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-loner-source-label",
+      "songId": "kaist-b-pohang-loner",
+      "url": "https://www.youtube.com/watch?v=E4EVzYLGHVc",
+      "videoId": "E4EVzYLGHVc",
+      "title": "중식이 (LUNCH)_대머리가 되어가네 [PurplePine Entertainment]",
+      "channel": "PurplePine",
+      "publishedAt": "2020-01-19",
+      "descriptionSummary": "배급사 채널이 2020-01-20 발매를 알리고 프로듀서·작사·작곡·편곡·연주·녹음·마스터링 크레딧을 싣는다. 전체 가사도 포함하지만 데이터에는 저장하지 않았으며 KAIST판 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글들은 신나는 선율과 쓸쓸한 주제의 대비를 반복해서 언급한다.",
+        "후렴의 강한 반복성이 귀에 남는다는 반응이 다수다.",
+        "탈모를 경험하거나 걱정하는 청자가 개인적 공감을 농담과 함께 표현한다."
+      ],
+      "supports": ["sourceSongReferenceOnly", "sourceCredits", "releaseDate", "sourceReception", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-loner-source-topic",
+      "songId": "kaist-b-pohang-loner",
+      "url": "https://www.youtube.com/watch?v=Hkacvl89a9I",
+      "videoId": "Hkacvl89a9I",
+      "title": "Become bald",
+      "channel": "LUNCH - Topic",
+      "publishedAt": "2025-11-19",
+      "descriptionSummary": "YouTube 자동 생성 Topic 음원으로 영문 번역 제목, 중식이, 2022-05-17 공개, 풍덩 프로덕션 권리를 표시한다. 이 재배포 메타데이터는 KAIST판 사용 증거가 아니다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["sourceSongReferenceOnly", "laterSourceReleaseMetadata", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-pohang-2010-kapo",
+      "songId": "kaist-b-pohang-march",
+      "url": "https://www.youtube.com/watch?v=-RQe35n9kwQ",
+      "videoId": "-RQe35n9kwQ",
+      "title": "[카이스트 응원단 ELKA] 2010 카포전 개막식 - 포항군가, 짜라빠빠",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2011-07-22",
+      "descriptionSummary": "설명은 2010 카포전 개막식이라고만 적고 제목이 포항군가와 짜라빠빠 두 순서를 함께 표시한다. 현재 확보한 가장 이른 직접 공연 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "oldTitle", "pairedVideo", "kapoUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-pohang-2011-admission",
+      "songId": "kaist-b-pohang-march",
+      "url": "https://www.youtube.com/watch?v=ev4gKWsV9wM",
+      "videoId": "ev4gKWsV9wM",
+      "title": "[카이스트 응원단 ELKA] 2011 입학수속 - 포항군가",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2011-07-22",
+      "descriptionSummary": "설명과 제목이 2011 입학수속 공연과 당시 공식 영상 제목 ‘포항군가’를 직접 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["oldTitle", "admissionUse", "earlyContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-pohang-2018-freshman-old-title",
+      "songId": "kaist-b-pohang-march",
+      "url": "https://www.youtube.com/watch?v=Vzr8_gkes1k",
+      "videoId": "Vzr8_gkes1k",
+      "title": "[카이스트 응원단 ELKA] 2018 새내기 응원대제전 - 포항군가",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2018-04-30",
+      "descriptionSummary": "별도 설명은 없고 제목이 2018 새내기 응원대제전에서도 옛 표기 ‘포항군가’를 사용했음을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["oldTitle", "freshmanEducation", "titleTransition"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-pohang-2018-kapo-new-title",
+      "songId": "kaist-b-pohang-march",
+      "url": "https://www.youtube.com/watch?v=4uPXUpBKhn4",
+      "videoId": "4uPXUpBKhn4",
+      "title": "[카이스트 응원단 ELKA] 2018 제 17회 KAIST-POSTECH 학생대제전 개막식 - 포항공가",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-03-16",
+      "descriptionSummary": "별도 설명은 없고 제목이 2018 학생대제전 공연을 새 표기 ‘포항공가’로 게시했다. 영상 게시일은 2019년이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["newTitle", "titleTransition", "kapoUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-pohang-2019-freshman",
+      "songId": "kaist-b-pohang-march",
+      "url": "https://www.youtube.com/watch?v=2f_qMPa6XvU",
+      "videoId": "2f_qMPa6XvU",
+      "title": "[카이스트 응원단 ELKA] 2019 새내기 응원대제전 - 포항공가",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-02-23",
+      "descriptionSummary": "별도 설명은 없고 제목이 2019 새내기 교육에서도 새 표기 ‘포항공가’를 사용했음을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["newTitle", "freshmanEducation", "titleContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-pohang-2024-libera",
+      "songId": "kaist-b-pohang-march",
+      "url": "https://www.youtube.com/watch?v=XK0bgMiccrs",
+      "videoId": "XK0bgMiccrs",
+      "title": "[카이스트 응원단 ELKA] 응원가 '포항공가' - 2024 제11회 응원제 Libera Me: 靑龍",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-11-08",
+      "descriptionSummary": "2024 제11회 Libera Me의 곡별 영상으로 행사·곡명 외에는 일반 KAIST·ELKA 태그만 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["newTitle", "liberaMeUse", "recentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-pohang-2025-late-freshman",
+      "songId": "kaist-b-pohang-march",
+      "url": "https://www.youtube.com/watch?v=YSesa1xF9yE",
+      "videoId": "YSesa1xF9yE",
+      "title": "[카이스트 응원단 ELKA] 응원가 '포항공가' - 2025 후기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-10-31",
+      "descriptionSummary": "2025 후기 새내기 응원대제전 사용을 확인하고 ‘포항공가’와 함께 ‘포까’·‘포까곡’ 태그를 달아 POSTECH 상대 풍자 성격을 직접 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "rivalryContext", "freshmanEducation", "newTitle"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-love-2012-new-song",
+      "songId": "kaist-b-my-love-kaist",
+      "url": "https://www.youtube.com/watch?v=Pr5wXmqMskM",
+      "videoId": "Pr5wXmqMskM",
+      "title": "[카이스트 응원단 ELKA] 2012 응원가 신곡 - 나의 사랑 카이스트",
+      "channel": "Elka Captain",
+      "publishedAt": "2012-08-28",
+      "descriptionSummary": "당시 ELKA 단장 계정의 제목이 2012 응원가 신곡이라고 직접 명시하고, 설명에는 곡명만 적혀 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["introductionYear", "newSongLabel", "earliestDirectlyConfirmedUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-love-2012-kapo",
+      "songId": "kaist-b-my-love-kaist",
+      "url": "https://www.youtube.com/watch?v=y3EfH1UkPhA",
+      "videoId": "y3EfH1UkPhA",
+      "title": "[카이스트 응원단 ELKA]2012제11회KAIST-POSTECH학생대제전-나의사랑카이스트",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2013-03-17",
+      "descriptionSummary": "별도 설명은 없고 제목이 2012 제11회 학생대제전의 공식 곡별 공연임을 확인한다. 게시일은 2013년이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["introductionYear", "kapoUse", "sameYearCorroboration"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-love-2019-libera",
+      "songId": "kaist-b-my-love-kaist",
+      "url": "https://www.youtube.com/watch?v=WANXbPHGtfs",
+      "videoId": "WANXbPHGtfs",
+      "title": "[카이스트 응원단 ELKA] 2019 제8회 응원제 Libera Me : 無限 - 나의 사랑 카이스트(1)",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-10-09",
+      "descriptionSummary": "별도 설명은 없고 제목이 2019 Libera Me의 첫 번째 배치임을 표시한다. 같은 행사에 (2) 영상도 있어 번호가 무대 순서를 나타냄을 보조한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "numberedStaging", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-love-2022-kaist",
+      "songId": "kaist-b-my-love-kaist",
+      "url": "https://www.youtube.com/watch?v=2BEvDiIF1AM",
+      "videoId": "2BEvDiIF1AM",
+      "title": "(KAIST 응원단) 나의 사랑 카이스트ㅣ2022 카포전 승리 기원 ELKA 본격 응원💥",
+      "channel": "KAIST",
+      "publishedAt": "2022-09-21",
+      "descriptionSummary": "KAIST 본교 채널이 3년 만의 대면 카포전을 앞두고 ELKA가 승리를 기원하며 선보이는 자체 제작 콘텐츠라고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "여러 공개 댓글은 응원단의 에너지와 학교에 대한 기대·자부심을 표현한다.",
+        "한 댓글은 선율이 바이에른 뮌헨의 ‘Stern des Südens’임을 알아본다.",
+        "행사 뒤 KAIST의 2022 카포전 승리를 축하하는 반응도 있다."
+      ],
+      "supports": ["kapoUse", "officialUniversityPromotion", "originalRecognition", "commentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-love-2025-libera-1",
+      "songId": "kaist-b-my-love-kaist",
+      "url": "https://www.youtube.com/watch?v=xedMy1QV5ro",
+      "videoId": "xedMy1QV5ro",
+      "title": "[카이스트 응원단 ELKA] 응원가 '나의 사랑 카이스트(1)' - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "첫 번째 배치 영상으로 ‘Stern des Südens’와 바이에른 뮌헨 태그를 달아 원곡 관계를 직접 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["originalSong", "numberedStaging", "liberaMeUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-love-2025-libera-2",
+      "songId": "kaist-b-my-love-kaist",
+      "url": "https://www.youtube.com/watch?v=42psQiLsHcY",
+      "videoId": "42psQiLsHcY",
+      "title": "[카이스트 응원단 ELKA] 응원가 '나의 사랑 카이스트(2)' - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "두 번째 배치 영상도 첫 번째와 동일한 곡명·원곡 태그를 제공하며 길이도 약 79초로 거의 같다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["originalSong", "numberedStaging", "liberaMeUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-love-2026-freshman",
+      "songId": "kaist-b-my-love-kaist",
+      "url": "https://www.youtube.com/watch?v=BLbLubyzYjo",
+      "videoId": "BLbLubyzYjo",
+      "title": "[카이스트 응원단 ELKA] 응원가 ‘나의 사랑 카이스트’ - 2026 전기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-03",
+      "descriptionSummary": "2026 새내기 교육 사용과 함께 ‘Stern des Südens’·바이에른 뮌헨을 원곡 태그로 직접 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "freshmanEducation", "originalSong", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-we-2017-freshman",
+      "songId": "kaist-b-we",
+      "url": "https://www.youtube.com/watch?v=04a9_icyQFE",
+      "videoId": "04a9_icyQFE",
+      "title": "[카이스트 응원단 ELKA] 2017 새내기 응원대제전 - 우리",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2017-07-13",
+      "descriptionSummary": "별도 설명은 없고 제목이 2017 새내기 응원대제전의 곡별 공식 공연임을 확인한다. 현재 확보한 가장 이른 직접 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "유일한 공개 댓글은 이 공연을 ‘원조’라고 부르며 호의를 나타내지만 무엇과 비교하는지는 밝히지 않는다."
+      ],
+      "supports": ["earliestDirectlyConfirmedUse", "freshmanEducation", "ambiguousCommentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-we-2017-libera",
+      "songId": "kaist-b-we",
+      "url": "https://www.youtube.com/watch?v=qeDyBjkVN7s",
+      "videoId": "qeDyBjkVN7s",
+      "title": "[카이스트 응원단 ELKA] 2017 제6회 응원제 리베라메 [ON] – 우리",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2018-03-04",
+      "descriptionSummary": "제목이 2017 제6회 Libera Me 공연임을 확인하고 설명에는 숫자 ‘10’만 적혀 있어 행사·원곡에 관한 추가 정보는 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earlyContinuity", "liberaMeUse", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-we-2022-freshman",
+      "songId": "kaist-b-we",
+      "url": "https://www.youtube.com/watch?v=gzJbug1xUlQ",
+      "videoId": "gzJbug1xUlQ",
+      "title": "[카이스트 응원단 ELKA] 2022 전기 새내기 응원대제전 - 응원가 '우리'",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2022-03-07",
+      "descriptionSummary": "일반 KAIST·응원단 태그만 있고 제목이 2022 전기 새내기 응원대제전 교육 사용을 직접 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "유일한 공개 댓글은 영상의 특정 시각만 표시하며 곡의 역사나 수용에 관한 주장은 담지 않는다."
+      ],
+      "supports": ["freshmanEducation", "continuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-we-2024-admission",
+      "songId": "kaist-b-we",
+      "url": "https://www.youtube.com/watch?v=YrAz6S9V1xY",
+      "videoId": "YrAz6S9V1xY",
+      "title": "[카이스트 응원단 ELKA] 응원가 '우리' - 2024 입학식",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-04-04",
+      "descriptionSummary": "2024 입학식의 곡별 공식 공연으로 게시됐고 일반 KAIST·ELKA·입학식·곡명 태그를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["admissionUse", "continuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-we-2024-encore",
+      "songId": "kaist-b-we",
+      "url": "https://www.youtube.com/watch?v=1UZuPoodCQ8",
+      "videoId": "1UZuPoodCQ8",
+      "title": "[카이스트 응원단 ELKA] 응원가 '우리' (앵콜) - 2024 제11회 응원제 Libera Me: 靑龍",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-11-08",
+      "descriptionSummary": "2024 제11회 Libera Me에서 앵콜로 다시 공연됐음을 제목이 직접 표시하고 일반 행사·곡명 태그를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["encoreUse", "liberaMeUse", "groupSingalongRole"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-we-2025-libera",
+      "songId": "kaist-b-we",
+      "url": "https://www.youtube.com/watch?v=Wlmi7bZNv2s",
+      "videoId": "Wlmi7bZNv2s",
+      "title": "[카이스트 응원단 ELKA] 응원가 '우리' - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "2025 제12회 Libera Me의 곡별 공식 영상으로 일반 KAIST·ELKA·응원제·곡명 태그만 제공한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "recentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-we-2026-freshman",
+      "songId": "kaist-b-we",
+      "url": "https://www.youtube.com/watch?v=PCFTEOafvNk",
+      "videoId": "PCFTEOafvNk",
+      "title": "[카이스트 응원단 ELKA] 응원가 ‘우리’ - 2026 전기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-03",
+      "descriptionSummary": "2026 새내기 교육 사용과 함께 Andrea Bocelli·‘Mai più così lontano’를 원곡 태그로 직접 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "freshmanEducation", "originalSong"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-b-we-2026-festival",
+      "songId": "kaist-b-we",
+      "url": "https://www.youtube.com/watch?v=pI42oAtGXIQ",
+      "videoId": "pI42oAtGXIQ",
+      "title": "[카이스트 응원단 ELKA] 응원가 '우리' - 2026 태울석림제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-08",
+      "descriptionSummary": "2026 태울석림제 사용과 함께 Andrea Bocelli·‘Mai più così lontano’를 원곡 태그로 직접 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "festivalUse", "originalSong", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 34,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 22
+  }
+}

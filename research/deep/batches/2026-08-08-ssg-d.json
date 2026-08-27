@@ -1,0 +1,1461 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-ssg-d",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-ssg-landers",
+    "name": "SSG 랜더스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 노래는 출처와 구조·주제·구단 편곡 방식만 요약하고, 공개 댓글은 작성자를 식별하지 않는 반복 반응만 기록한다.",
+  "items": [
+    {
+      "id": "ssg-landers-bulti",
+      "title": "불티",
+      "aliases": [
+        "SSG 불티",
+        "SK 불티",
+        "전영록 불티"
+      ],
+      "currentStatus": "current",
+      "summary": "전영록의 1984년 곡 ‘불티’에 팀명 구호를 넣어 부르는 응원가다. SK 와이번스가 2007~2020년에 사용한 뒤 SSG 창단 초기 2년간 쉬었고, 구단 공식 영상으로 2023년 부활했다. 2018년 SK판, 2023년 재도입, 2025·2026년 SSG 현장 표본이 이어져 계승과 현행성을 직접 확인할 수 있다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "전영록 — 불티, 1984-11-01 수록 음반 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-bulti-album",
+            "ev-ssg-d-bulti-credit"
+          ],
+          "notes": "후대 베스트 앨범의 연도와 구분해 1984년 정규 음반을 기준으로 했다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "가창·작사 전영록, 작곡 김정택",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-bulti-credit"
+          ],
+          "notes": "금영 공식 반주 영상의 곡 정보와 벅스의 원곡·리메이크 음반 설명이 일치한다."
+        },
+        {
+          "field": "usageYears",
+          "value": "SK 2007~2020, SSG 공백 2021~2022, SSG 2023~",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-bulti-sk-2018",
+            "yt-ssg-d-bulti-official-2023",
+            "yt-ssg-d-bulti-2025",
+            "yt-ssg-d-bulti-2026"
+          ],
+          "notes": "구간의 양 끝은 직접 영상으로 확인했지만 2007년 최초 경기 사용일과 2020년 마지막 사용일은 편집형 문서의 연도 표기다."
+        },
+        {
+          "field": "revival",
+          "value": "2023년 공식 신규 응원가 영상에서 SSG판 부활 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-bulti-official-2023",
+            "yt-ssg-d-bulti-field-2023",
+            "ev-ssg-d-namu"
+          ],
+          "notes": "공식 영상은 2023년 3월 30일 게시됐고 4월 16일 현장 촬영이 뒤따른다. 정확한 최초 경기 재생일은 별도 공지가 없어 확정하지 않는다."
+        },
+        {
+          "field": "adaptationForm",
+          "value": "원곡 녹음과 본문을 유지하고 SK 구호를 랜더스·인천·SSG 계열 추임새로 교체",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-bulti-sk-2018",
+            "yt-ssg-d-bulti-field-2023",
+            "yt-ssg-d-bulti-2025"
+          ],
+          "notes": "가사 전문 대조는 저장하지 않았다. 구단판 편집·개사 크레딧은 공개 자료에서 확인되지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 팀 응원가 모음 수록 및 2026-07-16 홈 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-bulti-official-playlist-2025",
+            "yt-ssg-d-bulti-2025",
+            "yt-ssg-d-bulti-2026"
+          ],
+          "notes": "공식 2025 모음의 18:49 챕터와 날짜가 특정된 2025·2026 현장 촬영이 일치한다."
+        }
+      ],
+      "usageContexts": [
+        "장내 원곡에 맞춰 관중이 구단명과 지역명 추임새를 넣고 본문을 함께 부르는 팀 응원이다.",
+        "2025년 원정 육성 응원과 2026년 홈 사용이 모두 확인되어 홈 전용 곡으로 한정할 수 없다.",
+        "편집형 문서는 연안부두를 제외한 가요 응원이 역전 또는 승리가 유력한 때 주로 나온다고 설명하지만, 불티만의 고정 재생 조건은 직접 표본만으로 확정되지 않는다."
+      ],
+      "trivia": [
+        {
+          "id": "bulti-return-demand",
+          "summary": "2023년 공식 공개 영상 댓글에는 SSG 창단 뒤 빠졌던 불티가 돌아온 것을 반기는 반응이 집중되어 편집형 문서의 ‘팬 요구에 따른 부활’ 서술과 방향이 일치한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-bulti-official-2023",
+            "ev-ssg-d-namu"
+          ]
+        },
+        {
+          "id": "bulti-sk-memory",
+          "summary": "2018 SK판과 2023 SSG판 댓글에서는 옛 구단 시절의 대표곡이라는 기억과 팀명 교체에 대한 비교가 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-ssg-d-bulti-sk-2018",
+            "yt-ssg-d-bulti-field-2023"
+          ]
+        },
+        {
+          "id": "bulti-image-change",
+          "summary": "벅스 음반 소개는 불티가 당시 하이틴 스타였던 전영록의 이미지를 강하고 카리스마 있게 바꾼 대표곡이라고 설명한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-bulti-album"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-with-team-interjections-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/album/276269",
+          "https://www.youtube.com/watch?v=aFAb1HRvMeU",
+          "https://www.youtube.com/watch?v=rlna-kEHy4c",
+          "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡의 짧은 도입과 본절을 반복하는 형태를 유지하면서 각 행 끝과 리듬 사이에 랜더스·인천·SSG 구호를 넣는다. SK판과 SSG판의 핵심 차이는 팀명 추임새이며 원곡의 연애 서사는 그대로 남는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-d-bulti-official-2023",
+        "yt-ssg-d-bulti-field-2023",
+        "yt-ssg-d-bulti-sk-2018",
+        "yt-ssg-d-bulti-2025",
+        "yt-ssg-d-bulti-2026",
+        "yt-ssg-d-bulti-official-playlist-2025"
+      ],
+      "unresolved": [
+        "SK판의 정확한 2007년 최초 경기 사용일과 당시 도입 공지",
+        "2023 부활 결정의 공식 보도자료와 최초 현장 재생일",
+        "SSG판의 개사·편집·음원 제작자와 원저작물 이용 허락 범위",
+        "역전·승리 유력 상황 등 고정 재생 조건과 홈·원정 운용 차이"
+      ]
+    },
+    {
+      "id": "ssg-landers-yeonanbudu",
+      "title": "연안부두",
+      "aliases": [
+        "김트리오 연안부두",
+        "인천 야구 연안부두",
+        "8회 연안부두"
+      ],
+      "currentStatus": "current",
+      "summary": "조운파 작사·안치행 작곡, 김트리오가 1979년 발표한 인천 대표 노래다. 삼미부터 SSG까지 인천 프로야구 계보를 관통하는 지역 응원으로 전승됐고, 현재는 홈 8회말 공격 전을 중심으로 부른다. 원곡 음원을 일부 편집해 1절을 틀고 2절은 육성으로 잇는 방식과 휴대전화 불빛 연출이 현장 표본에서 반복된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "김트리오 — 연안부두, 1979",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-incheon-heritage",
+            "ev-ssg-d-archives-cheer"
+          ],
+          "notes": "인천광역시 지역유산 자료가 연도와 창작자를 명시하고 국가기록원 간행물이 1979년 김트리오 발표를 교차 확인한다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "작사 조운파, 작곡 안치행, 가창 김트리오",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-incheon-heritage"
+          ],
+          "notes": "인천광역시 공식 지역유산 기록에 따른다."
+        },
+        {
+          "field": "incheonBaseballLineage",
+          "value": "삼미·청보·태평양·현대/SK를 거쳐 SSG까지 이어진 인천 야구의 전통 응원",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "ev-ssg-d-archives-cheer",
+            "yt-ssg-d-yeonan-sk-2019"
+          ],
+          "notes": "국가기록원 간행물과 현행 응원가 문서가 같은 구단 계보를 제시한다. 다만 각 팀의 최초 도입일은 확인하지 못했다."
+        },
+        {
+          "field": "formalUsageYearLabel",
+          "value": "현행 응원가 문서의 공식 항목 표기는 2000~",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-namu"
+          ],
+          "notes": "같은 문서와 국가기록원 자료가 삼미 시절부터의 더 오래된 전통을 별도로 서술하므로 2000년을 인천 야구 전체의 최초 사용년으로 해석하지 않는다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "홈은 8회말 공격 전, 원정은 8회초 또는 경우에 따라 9회초 공격 전에 합창",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-yeonan-official-2024",
+            "yt-ssg-d-yeonan-2025",
+            "yt-ssg-d-yeonan-2026"
+          ],
+          "notes": "공식 2024 영상이 홈 8회 장면을 명시하고 2025·2026 현장 영상이 현행 사용을 확인한다. 원정의 세부 이닝은 편집형 문서의 설명이다."
+        },
+        {
+          "field": "performanceForm",
+          "value": "김트리오 원곡 AR의 간주 일부를 편집해 사용하고 2절은 음원을 끈 뒤 관중 육성으로 이어감",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-yeonan-official-2024",
+            "yt-ssg-d-yeonan-2025"
+          ],
+          "notes": "2025 영상 댓글도 2절 무반주와 더 긴 전환을 기대한다는 반응을 보여 현장 관습을 보강한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-03-29 개막 시리즈까지 직접 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-yeonan-2026",
+            "yt-ssg-d-bulti-official-playlist-2025"
+          ],
+          "notes": "2025 구단 공식 팀 응원가 모음의 20:57 챕터와 2026 개막 현장 영상이 이어진다."
+        }
+      ],
+      "usageContexts": [
+        "홈경기에서는 8회말 공격에 들어가기 직전 전 관중이 부르는 고정 지역 응원이다.",
+        "원정에서는 8회초 또는 경기 흐름에 따라 9회초 공격 전에 불린다고 정리되어 있다.",
+        "휴대전화 플래시를 켜 좌우로 흔들고, 2절에서는 장내 음원을 끈 채 육성 합창으로 이어 가는 연출이 대표적이다.",
+        "과거에는 승리 뒤·경기 종료 뒤에도 틀었으며, 현재의 대표 승리곡 ‘랜더스여’가 나오기 전까지 그 역할도 맡았다고 전해진다."
+      ],
+      "trivia": [
+        {
+          "id": "yeonan-30th-first-pitch",
+          "summary": "2009년 9월 26일 문학경기장에서 작사가 조운파가 발매 30주년 기념 시구를 하고 경기 뒤 연안부두 테마 불꽃놀이가 열렸다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-incheon-heritage",
+            "ev-ssg-d-archives-cheer"
+          ]
+        },
+        {
+          "id": "yeonan-sorrowful-civic-anthem",
+          "summary": "이별과 항구의 쓸쓸함을 다룬 야구와 무관한 노래가 40년 넘게 인천 공동체를 상징하는 야구 합창곡으로 기능한다는 대비가 공식 지역유산 자료와 현장 반응에서 반복된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-incheon-heritage",
+            "ev-ssg-d-namu",
+            "yt-ssg-d-yeonan-sk-2019",
+            "yt-ssg-d-yeonan-ks5-2022"
+          ]
+        },
+        {
+          "id": "yeonan-psy-remix",
+          "summary": "2022년 싸이가 경기장을 찾은 날 한정으로 리믹스 버전이 사용됐다는 기록이 남아 있다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-namu"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-used-with-edited-ar-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.incheon.go.kr/culture/CU06010002/3064072",
+          "https://www.youtube.com/watch?v=It4KMVKbZBk",
+          "https://www.youtube.com/watch?v=E39BlC99Tck",
+          "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "항구에 드나드는 배와 이별을 그린 두 절과 반복 후렴으로 이루어진 원곡을 사용한다. 각 행 사이에 구단 구호를 넣고, 간주를 일부 편집한 1절 AR 뒤 2절은 육성 합창으로 전환하는 것이 야구장판의 핵심 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-d-yeonan-official-2024",
+        "yt-ssg-d-yeonan-ks-win-2022",
+        "yt-ssg-d-yeonan-sk-2019",
+        "yt-ssg-d-yeonan-2025",
+        "yt-ssg-d-yeonan-2026",
+        "yt-ssg-d-yeonan-ks5-2022"
+      ],
+      "unresolved": [
+        "삼미 시절을 포함한 인천 프로야구 최초 사용 경기와 팀별 승계 시점",
+        "현행 문서의 ‘2000~’ 표기가 가리키는 정확한 기준과 더 오래된 전통 서술의 관계",
+        "현재 원정 경기에서 8회초와 9회초를 나누는 운용 기준",
+        "구단이 사용하는 원곡 AR 편집본의 제작·권리 처리와 2절 무반주 전환의 공식 운영 지침"
+      ]
+    },
+    {
+      "id": "ssg-landers-naagaja",
+      "title": "나아가자 랜더스",
+      "aliases": [
+        "나아가자 랜더스(가제)",
+        "라인업송 후반부",
+        "라인업송 엔딩"
+      ],
+      "currentStatus": "current",
+      "summary": "2022년부터 사용한 SSG 라인업송의 마지막 합창 구간을 잘라 여러 상황에 재활용하는 짧은 팀 응원이다. 경기 초반 라인업 소개에서는 타순·선발투수·감독 호명 뒤 나오며, 독립형으로는 공수 교대·마운드 방문·분위기 반전에 쓰인다. 2026년에 라인업송 전체가 일부 편곡됐지만 마지막 ‘나아가자’ 골격은 직접 영상에서 유지된다.",
+      "claims": [
+        {
+          "field": "usageYears",
+          "value": "2022~",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-naagaja-2023",
+            "yt-ssg-d-naagaja-playlist-2025",
+            "yt-ssg-d-naagaja-lineup-2026"
+          ],
+          "notes": "정확한 첫 경기 사용일은 공개 자료에서 확인하지 못했지만 2022 도입 표기와 이후 연속 표본이 일치한다."
+        },
+        {
+          "field": "relationshipToLineupSong",
+          "value": "라인업송의 마지막 승리·전진 합창 두 행을 독립 응원으로 재사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-naagaja-full-2023",
+            "yt-ssg-d-naagaja-lineup-2026",
+            "yt-ssg-d-naagaja-summer-2026"
+          ],
+          "notes": "‘차용한 별도 원곡’이 아니라 같은 구단 라인업송의 후반부를 떼어 쓰는 관계로 기록한다."
+        },
+        {
+          "field": "documentedUsage",
+          "value": "공수 교대, 투수코치 마운드 방문, 분위기 반전과 큰 점수 차 열세 때의 재집결",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-naagaja-2023",
+            "yt-ssg-d-naagaja-2025"
+          ],
+          "notes": "편집형 문서가 다양한 사용 장면을 열거한다. 날짜가 특정된 독립형 현장 영상은 곡 사용을 확인하지만 매 장면의 경기 상황을 모두 설명하지는 않는다."
+        },
+        {
+          "field": "lineupSongUse",
+          "value": "경기 초반 타순·선발투수·감독 소개 뒤 마지막 합창으로 한 차례 사용, 필요하면 앞부분을 잘라 일반 응원으로 재생",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-naagaja-summer-2026",
+            "yt-ssg-d-naagaja-lineup-2026"
+          ],
+          "notes": "라인업 전체판과 후반부 독립판을 하나의 파일·제목으로 혼동하지 않는다."
+        },
+        {
+          "field": "2026Revision",
+          "value": "2026 라인업송은 일부 편곡됐으나 타순 호명과 마지막 나아가자 합창 구조 유지",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-naagaja-lineup-2026",
+            "yt-ssg-d-naagaja-summer-2026",
+            "ev-ssg-d-namu"
+          ],
+          "notes": "영상 설명에 가사 전문이 있었지만 저장하지 않고 구조만 대조했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025-05-27 독립형 현장 사용과 2026-07-28 라인업송 연결 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-naagaja-2025",
+            "yt-ssg-d-naagaja-summer-2026"
+          ],
+          "notes": "2025·2026 직접 표본으로 현행성을 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "스타팅 라인업 소개의 마지막에서 모든 이름 호명이 끝난 뒤 관중 합창으로 마무리한다.",
+        "앞부분을 생략한 짧은 독립판은 공수 교대와 투수코치 마운드 방문에 사용된다.",
+        "큰 점수 차 열세나 처진 분위기에서 응원단장의 재집결 멘트 뒤 다시 부르는 용례가 보고되어 있다."
+      ],
+      "trivia": [
+        {
+          "id": "naagaja-manager-name",
+          "summary": "현행 문서는 SSG 라인업송을 KBO 10개 구단 라인업송 가운데 감독 이름까지 호명하는 유일한 사례로 소개한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-naagaja-lineup-2026"
+          ]
+        },
+        {
+          "id": "naagaja-fan-full-version",
+          "summary": "팬 제작 ‘풀버전’ 영상 댓글에는 짧은 엔딩 구간을 공식 독립 음원이나 더 긴 두 번째 절로 듣고 싶다는 요청이 보인다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-ssg-d-naagaja-full-2023"
+          ]
+        },
+        {
+          "id": "naagaja-revision-reception",
+          "summary": "2026 리뉴얼판 댓글은 처음에는 낯설지만 긴 도입과 새 편곡이 좋다는 반응을 남기며, 마지막 합창은 익숙한 연결점으로 받아들인다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-ssg-d-naagaja-lineup-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-team-song-credits-and-redistribution-permission-unconfirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=fycwjbIbw5g",
+          "https://www.youtube.com/watch?v=-JIcuUWxs8E",
+          "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "라인업송 전체는 1번부터 9번 타자, 선발투수와 감독을 차례로 호명한 뒤 승리와 전진을 다짐하는 짧은 합창을 반복한다. ‘나아가자 랜더스’는 그 마지막 합창만 떼어 여러 상황에 쓰는 축약형이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-d-naagaja-2023",
+        "yt-ssg-d-naagaja-full-2023",
+        "yt-ssg-d-naagaja-playlist-2025",
+        "yt-ssg-d-naagaja-summer-2026",
+        "yt-ssg-d-naagaja-lineup-2026",
+        "yt-ssg-d-naagaja-2025"
+      ],
+      "unresolved": [
+        "‘나아가자 랜더스’ 독립형의 공식 확정 제목과 별도 음원 존재 여부",
+        "2022 원판과 2026 리뉴얼판의 작사·작곡·편곡·가창 제작진",
+        "2022년 최초 경기 사용일과 공식 도입 공지",
+        "공수 교대·마운드 방문·열세 재집결 사이의 실제 장내 재생 규칙"
+      ]
+    },
+    {
+      "id": "ssg-landers-we-are-landers-go",
+      "title": "We are Landers Go!",
+      "aliases": [
+        "We Are Landers GO",
+        "위 아 랜더스 고",
+        "We are Landers Go"
+      ],
+      "currentStatus": "current",
+      "summary": "2021년부터 사용된 짧은 SSG 팀 응원으로, 팀 정체성과 승리를 반복 선언하는 후렴형 곡이다. 현행 응원가 문서는 주로 분위기 반전용이라고 설명한다. 독립 영상은 드물지만 2025년 세 개, 2026년 두 개의 장편 응원가 모음에 명시적 챕터로 남고 2026년 사직 원정 현장 영상도 있어 현재 사용을 확인할 수 있다.",
+      "claims": [
+        {
+          "field": "usageYears",
+          "value": "2021~",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-weare-2024-medley",
+            "yt-ssg-d-weare-playlist-2025-a",
+            "yt-ssg-d-weare-playlist-2026-a"
+          ],
+          "notes": "2021 최초 공개 자료는 찾지 못했다. 이후 장기 사용 표본과 현행 문서의 연도 표기가 일치한다."
+        },
+        {
+          "field": "documentedUsage",
+          "value": "주로 분위기 반전이 필요할 때 쓰는 짧은 팀 응원",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-weare-field-2026"
+          ],
+          "notes": "현장 영상은 사용 자체를 보여 주지만 경기 직전 상황 설명이 없어 분위기 반전이라는 기능은 편집형 문서에 주로 의존한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 장편 응원가 모음의 독립 챕터와 2026-04-16 사직 원정 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-weare-field-2026",
+            "yt-ssg-d-weare-playlist-2025-a",
+            "yt-ssg-d-weare-playlist-2025-b",
+            "yt-ssg-d-weare-playlist-2026-a",
+            "yt-ssg-d-weare-playlist-2026-b"
+          ],
+          "notes": "2025 표본은 45:54 또는 1:08대, 2026 표본은 1:07~1:08대에 곡명을 명시한다."
+        },
+        {
+          "field": "gameInclusion",
+          "value": "컴투스 프로야구 시리즈 등에 SSG 응원가로 수록됐다는 기록",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-ssg-d-namu"
+          ],
+          "notes": "이번 조사에서는 컴투스의 공식 수록곡 목록을 회수하지 못해 독립 검증이 필요하다."
+        },
+        {
+          "field": "credits",
+          "value": "작사·작곡·편곡·가창 미확인",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "ev-ssg-d-music-disclosure"
+          ],
+          "notes": "구단의 2022 사용 음악 공개 목록은 외부 곡 80개를 싣지만 이 팀 자체곡의 제작진은 제시하지 않는다. 부재를 특정인의 크레딧으로 추정하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "팀명을 반복해 관중이 즉시 합류할 수 있는 짧은 분위기 전환용 응원이다.",
+        "독립 영상보다 등장곡·응원가 장편 모음의 상황곡 구간에 수록되는 경우가 많다.",
+        "2026년 사직 원정 현장 촬영이 있어 홈 장내 전용 음원으로 한정되지 않는다."
+      ],
+      "trivia": [
+        {
+          "id": "weare-video-scarcity",
+          "summary": "현행 응원가 문서도 사용 기간에 비해 영상을 찾기 어렵다고 지적하며, 이번 표본 역시 독립 영상 한 건과 장편 플레이리스트 다섯 건으로 구성된다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-weare-field-2026",
+            "yt-ssg-d-weare-playlist-2025-a",
+            "yt-ssg-d-weare-playlist-2026-a"
+          ]
+        },
+        {
+          "id": "weare-title-confusion",
+          "summary": "‘We are the Landers!’와 제목이 매우 비슷하지만 별도 곡이며, 장편 모음도 두 곡을 서로 다른 챕터로 연속 구분한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-weare-playlist-2025-a",
+            "yt-ssg-d-weare-playlist-2025-b",
+            "yt-ssg-d-weare-playlist-2026-a"
+          ]
+        },
+        {
+          "id": "weare-comment-limits",
+          "summary": "장편 모음의 인기 댓글은 주로 전체 트랙 목록과 업로더에게 대한 감사여서 이 곡만의 선호도나 현장 기억은 뚜렷하게 분리되지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-weare-playlist-2025-a",
+            "yt-ssg-d-weare-playlist-2026-a",
+            "yt-ssg-d-weare-playlist-2026-b"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-team-song-credits-and-redistribution-permission-unconfirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=pxRJoK-T1Hc&t=4138s",
+          "https://www.youtube.com/watch?v=L3v3mSe1f1Y&t=4070s",
+          "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "영문 팀명 구호를 두 번 제시하고 승리와 하나 됨을 말하는 짧은 한국어 연결구를 붙인 뒤 전체를 반복하는 압축형 후렴 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-d-weare-field-2026",
+        "yt-ssg-d-weare-playlist-2026-a",
+        "yt-ssg-d-weare-playlist-2026-b",
+        "yt-ssg-d-weare-playlist-2025-a",
+        "yt-ssg-d-weare-playlist-2025-b",
+        "yt-ssg-d-weare-2024-medley"
+      ],
+      "unresolved": [
+        "2021 최초 공개일과 구단 공식 원음·제작자 크레딧",
+        "분위기 반전 외 실제 경기 상황별 재생 규칙과 사용 빈도",
+        "컴투스 프로야구 시리즈의 공식 수록 기록과 수록 버전",
+        "2025·2026 구단 공식 팀 응원가 모음에서 빠진 이유와 공식 분류"
+      ]
+    },
+    {
+      "id": "ssg-landers-stand-up",
+      "title": "Stand Up",
+      "aliases": [
+        "스탠드 업",
+        "베이식 Stand Up",
+        "Everybody Stand Up"
+      ],
+      "currentStatus": "current",
+      "summary": "베이식이 마마무와 함께 발표한 2015년 곡 ‘Stand Up’의 도입부와 하이라이트를 편집해 관중에게 일어나 큰 소리로 응원하도록 유도하는 저빈도 상황곡이다. 현행 응원가 문서는 2021년부터 사용 중이라고 적는다. 2025년 현장 제목 표본은 분명하지만 2026년 후보 영상은 ‘일어나서 응원’만 명시하고 정확한 트랙을 적지 않으며, 2025·2026 종합 응원가 모음에도 빠져 있어 현행 운용 강도는 추가 검토가 필요하다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "베이식 — Stand Up (feat. 마마무), 쇼미더머니 4 Episode 5, 2015-08-22",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-ssg-d-stand-bugs",
+            "yt-ssg-d-stand-mnet-2015",
+            "yt-ssg-d-stand-stone-mv-2015",
+            "yt-ssg-d-stand-stone-audio-2015"
+          ],
+          "notes": "벅스의 정규 발매일과 Mnet·Stone Music 공식 공개가 일치한다. 유튜브 게시일의 시차는 음원 발매일과 구분한다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "보컬 베이식, 피처링 마마무; 세부 작사·작곡·편곡자는 이번 1차 자료에서 미확정",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-stand-bugs",
+            "yt-ssg-d-stand-stone-mv-2015"
+          ],
+          "notes": "벅스가 보컬과 피처링을 명시한다. 검색 요약에 나타난 개인별 창작 크레딧은 원문 메타데이터를 완전히 회수하지 못해 unresolved로 남겼다."
+        },
+        {
+          "field": "usageYears",
+          "value": "SSG 2021~",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-stand-field-2025"
+          ],
+          "notes": "2021 최초 사용 영상은 찾지 못했다. 현행 문서와 2025 현장 제목이 사용을 뒷받침한다."
+        },
+        {
+          "field": "adaptationForm",
+          "value": "원곡 도입부와 하이라이트를 짧게 편집해 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-stand-mnet-2015",
+            "yt-ssg-d-stand-stone-audio-2015"
+          ],
+          "notes": "구단판 편집 음원 자체와 정확한 컷 길이는 확보하지 못했다."
+        },
+        {
+          "field": "documentedUsage",
+          "value": "빈도는 낮으며 관중에게 일어나 함성을 내도록 유도할 때 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-stand-field-2025",
+            "yt-ssg-d-stand-field-candidate-2026"
+          ],
+          "notes": "2025 영상 제목은 ‘스탠드 업’을 명시한다. 2026 영상은 일어나서 응원하라는 현장 장면이지만 곡명은 적지 않아 보조 후보로만 사용한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025-09-06까지 명시적 현장 표본 확인; 2026 현행성은 편집형 문서와 후보 영상 수준",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-stand-field-2025",
+            "yt-ssg-d-stand-field-candidate-2026"
+          ],
+          "notes": "2026년 7월 수정 문서는 계속 ‘2021~’로 표시하지만, 2025·2026 종합 플레이리스트에는 곡명이 없고 2026 후보 영상은 트랙 식별이 불완전하다."
+        }
+      ],
+      "usageContexts": [
+        "경기 흐름과 무관하게 관중이 앉아 있을 때 일어나 응원하도록 재집결시키는 저빈도 상황곡으로 설명된다.",
+        "원곡 전체가 아니라 ‘일어나라’는 주제의 도입과 반복 하이라이트를 짧게 사용한다.",
+        "2025 표본에서는 비디오 판독 상황을 언급한 직후 스탠드업을 유도하지만, 이것이 고정된 비디오 판독 음악이라는 뜻은 아니다. 현행 문서는 비디오 판독 음악을 별도 항목으로 구분한다."
+      ],
+      "trivia": [
+        {
+          "id": "stand-original-message",
+          "summary": "Stone Music과 Arirang의 공식 설명은 베이식 자신의 경험을 토대로 꿈을 포기하지 말자는 메시지를 전하는 청춘 응원곡이라고 소개한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-stand-stone-mv-2015",
+            "yt-ssg-d-stand-arirang-2018"
+          ]
+        },
+        {
+          "id": "stand-mamamoo-reception",
+          "summary": "공식 원곡 영상 댓글에서는 마마무의 고음과 피처링, 베이식의 명확한 전달력과 자신감 있는 메시지를 칭찬하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-ssg-d-stand-stone-mv-2015",
+            "yt-ssg-d-stand-stone-audio-2015"
+          ]
+        },
+        {
+          "id": "stand-video-review-distinction",
+          "summary": "2025 현장 영상 제목에 비디오 판독과 스탠드업이 함께 등장하지만, 현행 응원가 문서는 연도별 비디오 판독 BGM을 Stand Up과 별도 항목으로 관리한다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-ssg-d-namu",
+            "yt-ssg-d-stand-field-2025"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-edited-for-stadium-use-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/4529194",
+          "https://www.youtube.com/watch?v=JW9YIAuYUi4",
+          "https://www.youtube.com/watch?v=iepayV4vq_0",
+          "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡은 베이식의 경험을 풀어내는 랩 본절과 마마무가 보강하는 반복 후렴으로 구성된다. 구장에서는 꿈에서 깨어 일어나라는 도입과 모두 일어나 소리치라는 하이라이트를 중심으로 짧게 편집해 사용한다고 전해진다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-d-stand-field-2025",
+        "yt-ssg-d-stand-field-candidate-2026",
+        "yt-ssg-d-stand-mnet-2015",
+        "yt-ssg-d-stand-stone-mv-2015",
+        "yt-ssg-d-stand-stone-audio-2015",
+        "yt-ssg-d-stand-arirang-2018"
+      ],
+      "unresolved": [
+        "2021년 SSG 최초 도입일과 구단판 편집 음원·컷 구간",
+        "원곡의 작사·작곡·편곡 전체 크레딧을 공식 권리 메타데이터로 재확인",
+        "2026년 실제 사용을 곡명까지 명시한 독립 현장 영상 또는 구단 자료",
+        "2025·2026 종합 응원가 모음에서 빠진 이유와 현재 사용 빈도",
+        "비디오 판독 직후 사용이 우연한 장면인지 반복 운용되는 상황인지"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ssg-d-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "SSG 랜더스/응원가",
+      "publisher": "namu.moe (나무위키 미러)",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "최근 수정 2026년 7월 14일의 현행 응원가 문서다. 불티의 SK 2007~2020·SSG 2023~ 계보, 연안부두의 인천 야구 전통과 8회 운용, 라인업송 후반을 재활용한 나아가자 랜더스, We are Landers Go!와 Stand Up의 연도·상황·편곡을 정리한다. 가사 전문은 배치에 옮기지 않았다.",
+      "supports": [
+        "usageYears",
+        "lineage",
+        "usageContext",
+        "adaptationForm",
+        "currentUse"
+      ]
+    },
+    {
+      "id": "ev-ssg-d-music-disclosure",
+      "type": "official",
+      "url": "https://www.ssglanders.com/media/news/detail?idx=19360",
+      "title": "SSG랜더스 응원가 사용 음악",
+      "publisher": "SSG 랜더스",
+      "publishedAt": "2022-08-11",
+      "accessedAt": "2026-08-08",
+      "summary": "구단이 2022년 경기장·응원에 사용한 외부 음악 80곡을 작품코드, 가수, 작사·작곡·편곡 정보와 함께 공개한 목록이다. 이번 다섯 곡의 구단 자체 편집·제작 크레딧은 제공하지 않아 그 부분을 미확정으로 남기는 권리 경계 자료로 사용했다.",
+      "supports": [
+        "rightsBoundary",
+        "creditsUnresolved"
+      ]
+    },
+    {
+      "id": "ev-ssg-d-incheon-heritage",
+      "type": "official-government",
+      "url": "https://www.incheon.go.kr/culture/CU06010002/3064072",
+      "title": "인천지역유산 만나보기 — 연안부두",
+      "publisher": "인천광역시",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "연안부두를 1979년 조운파 작사·안치행 작곡·김트리오 가창으로 기록하고 인천을 대표해 각종 운동경기 응원가로 쓰인다고 설명한다. 2009년 문학경기장 30주년 기념 시구와 불꽃놀이도 공식 이력으로 남긴다.",
+      "supports": [
+        "origin",
+        "originalCredits",
+        "regionalIdentity",
+        "anniversaryEvent"
+      ]
+    },
+    {
+      "id": "ev-ssg-d-archives-cheer",
+      "type": "government-publication",
+      "url": "https://www.archives.go.kr/archivesdata/upFile/palgan/1396486391118.pdf",
+      "title": "기록으로 보는 프로야구단 응원가들",
+      "publisher": "국가기록원 기록인 2014 SPRING Vol.26",
+      "publishedAt": "2014",
+      "accessedAt": "2026-08-08",
+      "summary": "연안부두가 삼미·청보·태평양·현대·SK 등 인천 연고 프로야구팀과 지역 학생 스포츠팀에서 쓰였고, 당시 문학 홈경기 8회에 1·2절과 전광판 가사를 제공했다고 기록한다. 1979년 김트리오 발표와 2009년 30주년 행사도 서술한다.",
+      "supports": [
+        "incheonBaseballLineage",
+        "historicalUsage",
+        "origin",
+        "anniversaryEvent"
+      ]
+    },
+    {
+      "id": "ev-ssg-d-bulti-album",
+      "type": "music-service",
+      "url": "https://music.bugs.co.kr/album/276269",
+      "title": "85 전영록 전속기념앨범",
+      "publisher": "벅스",
+      "publishedAt": "1984-11-01",
+      "accessedAt": "2026-08-08",
+      "summary": "전영록의 1984년 정규 음반 첫 트랙으로 불티를 수록하며 원곡의 발매 하한을 제공한다. 별도 벅스 소개는 이 곡이 전영록의 이미지를 강하고 카리스마 있게 바꾼 대표곡이라고 설명한다.",
+      "supports": [
+        "origin",
+        "releaseDate",
+        "trivia"
+      ]
+    },
+    {
+      "id": "ev-ssg-d-bulti-credit",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=aFAb1HRvMeU",
+      "title": "[KY ENTERTAINMENT] 불티 - 전영록 (KY.1244)",
+      "publisher": "금영 노래방 공식 유튜브",
+      "publishedAt": "2020-04-24",
+      "accessedAt": "2026-08-08",
+      "summary": "금영 공식 반주 영상의 곡 정보가 가수 전영록, 작사 전영록, 작곡 김정택을 명시한다. 가사 전문은 저장하지 않았다.",
+      "supports": [
+        "originalCredits",
+        "lyricsSource"
+      ]
+    },
+    {
+      "id": "ev-ssg-d-stand-bugs",
+      "type": "music-service",
+      "url": "https://music.bugs.co.kr/track/4529194",
+      "title": "Stand Up (feat. 마마무)",
+      "publisher": "벅스",
+      "publishedAt": "2015-08-22",
+      "accessedAt": "2026-08-08",
+      "summary": "쇼미더머니 4 Episode 5 수록곡으로 보컬 베이식, 피처링 마마무, 재생 시간과 2015년 8월 22일 정규 발매를 확인한다. 페이지의 이용자 등록 가사 전문은 저장하지 않았다.",
+      "supports": [
+        "origin",
+        "releaseDate",
+        "performerCredits",
+        "lyricsSource"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ssg-d-bulti-official-2023",
+      "songId": "ssg-landers-bulti",
+      "url": "https://www.youtube.com/watch?v=rlna-kEHy4c",
+      "videoId": "rlna-kEHy4c",
+      "title": "개막 D-2! 신규 응원가 大공개🔥/ 외쳐라 랜더스 / 에레디아 응원가 / 불티 / J에게",
+      "channel": "SSG랜더스",
+      "publishedAt": "2023-03-30T03:08:03-07:00",
+      "descriptionSummary": "구단 공식 채널이 2023 개막을 앞두고 네 곡을 공개한 영상으로, 설명 챕터에서 2:35부터 불티를 별도 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 278개 가운데 불티의 복귀를 직접 반기며 SK 시절의 향수를 언급하는 반응이 반복된다.",
+        "새 응원가와 치어리더 영상 전반을 긍정적으로 평가하고 현장에서 빨리 부르고 싶다는 반응도 많다."
+      ],
+      "supports": [
+        "revival",
+        "currentUse",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-bulti-field-2023",
+      "songId": "ssg-landers-bulti",
+      "url": "https://www.youtube.com/watch?v=wYq1t6UJtk8",
+      "videoId": "wYq1t6UJtk8",
+      "title": "SSG랜더스 팀 응원가 '불티' 20230416",
+      "channel": "DJ Landers",
+      "publishedAt": "2023-04-16T07:47:35-07:00",
+      "descriptionSummary": "2023년 4월 16일 SSG판 불티를 경기장에서 촬영한 독립 현장 영상이며 별도 설명문은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 5개는 SK 시절부터 이어진 곡인지 묻고 SSG판 추임새와 당시 응원 운영을 비교한다.",
+        "새 구호 삽입 방식과 응원 완성도에는 호불호가 함께 나타난다."
+      ],
+      "supports": [
+        "revival",
+        "adaptationForm",
+        "fieldUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-bulti-sk-2018",
+      "songId": "ssg-landers-bulti",
+      "url": "https://www.youtube.com/watch?v=8LjgFiX0ABE",
+      "videoId": "8LjgFiX0ABE",
+      "title": "20180513 SK 불티 응원가",
+      "channel": "DJ Landers",
+      "publishedAt": "2018-06-03T00:24:01-07:00",
+      "descriptionSummary": "2018년 5월 13일 SK 와이번스 시절의 불티 현장 사용을 촬영한 독립 영상으로 상세 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 6개에는 SK 시절을 그리워하는 반응과 훗날 SSG가 같은 곡을 재사용했다는 사실을 알아본 반응이 있다."
+      ],
+      "supports": [
+        "skLineage",
+        "adaptationForm",
+        "historicalUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-bulti-2025",
+      "songId": "ssg-landers-bulti",
+      "url": "https://www.youtube.com/watch?v=DD1CHEcXqKw",
+      "videoId": "DD1CHEcXqKw",
+      "title": "SSG랜더스 팀 응원가 \"불티\" 육성 응원 20250724",
+      "channel": "DJ Landers",
+      "publishedAt": "2025-07-28T08:06:37-07:00",
+      "descriptionSummary": "대구 삼성라이온즈파크 원정에서 촬영한 육성 응원 영상으로 0:00 불티와 1:22 정준재 응원가를 구분하고 더운 날씨에도 응원한 팬들을 소개한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "currentUse",
+        "awayUse",
+        "crowdSinging"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-bulti-2026",
+      "songId": "ssg-landers-bulti",
+      "url": "https://www.youtube.com/watch?v=V_Sd2PtJ5KE",
+      "videoId": "V_Sd2PtJ5KE",
+      "title": "SSG랜더스 팀 응원가 \"불티\" 20260716",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-07-16T09:52:13-07:00",
+      "descriptionSummary": "2026년 7월 16일 인천 SSG랜더스필드에서 촬영한 불티 현장 사용 영상이며 별도 상세 설명은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "currentUse",
+        "homeUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-bulti-official-playlist-2025",
+      "songId": "ssg-landers-bulti",
+      "url": "https://www.youtube.com/watch?v=7wYyS_pztqo",
+      "videoId": "7wYyS_pztqo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 개막 D-2! 으쓱이들 필수 시청🔥 | 2025 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-03-20T04:00:02-07:00",
+      "descriptionSummary": "구단 공식 2025 팀 응원가 14곡 모음으로 18:49에 전영록 불티, 20:57에 김트리오 연안부두를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 304개는 라인업송과 랜더스여 등 전체 구성에 대한 반응 및 과거 응원가 추가 요청이 중심이다.",
+        "표면화된 인기 댓글에서 불티만을 단독 평가하는 반복 반응은 분리되지 않았다."
+      ],
+      "supports": [
+        "currentUse",
+        "officialPlaylist"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-yeonan-official-2024",
+      "songId": "ssg-landers-yeonanbudu",
+      "url": "https://www.youtube.com/watch?v=It4KMVKbZBk",
+      "videoId": "It4KMVKbZBk",
+      "title": "8회, 랜필에 울려퍼진 연안부두ㅣ개막전 연안부두 떼창 직캠🎥",
+      "channel": "SSG랜더스",
+      "publishedAt": "2024-03-23T08:00:12-07:00",
+      "descriptionSummary": "구단 공식 채널이 2024 홈 개막전 8회의 연안부두 합창을 별도 직캠으로 공개한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 128개는 구단이 3루 쪽에서 담은 새 시점과 꽉 찬 관중의 합창을 높이 평가한다.",
+        "야간 경기에서 휴대전화 불빛을 함께 담은 버전도 보고 싶다는 요청이 반복된다."
+      ],
+      "supports": [
+        "currentUsage",
+        "homeEighthInning",
+        "officialUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-yeonan-ks-win-2022",
+      "songId": "ssg-landers-yeonanbudu",
+      "url": "https://www.youtube.com/watch?v=t78davuvDNs",
+      "videoId": "t78davuvDNs",
+      "title": "[한국시리즈 4K] 2022 시즌 마지막 '연안부두' 떼창... 우승을 맛보며 부르자!",
+      "channel": "스포테이너즈 (SPORTAINERS)",
+      "publishedAt": "2022-11-08T15:20:48-08:00",
+      "descriptionSummary": "2022 한국시리즈 우승을 확정한 직후 시즌 마지막 연안부두 합창을 4K로 담은 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 237개는 인천의 지역색과 우승 직후 경기장 전체가 함께 부르는 장면을 대표 기억으로 꼽는다.",
+        "향후 청라 돔에서도 이 전통과 장관이 이어지길 바란다는 반응이 반복된다."
+      ],
+      "supports": [
+        "postgameUse",
+        "regionalIdentity",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-yeonan-sk-2019",
+      "songId": "ssg-landers-yeonanbudu",
+      "url": "https://www.youtube.com/watch?v=E39BlC99Tck",
+      "videoId": "E39BlC99Tck",
+      "title": "SK 와이번스 응원가 연안부두 (원곡) [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-10-20T07:47:31-07:00",
+      "descriptionSummary": "SK 와이번스 시절 원곡 연안부두 사용을 ‘인천을 대표하는 노래’로 소개한 역사 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 55개는 SK와 SSG의 구호 차이를 비교하고 구단명 변경 뒤의 상실감과 계승을 함께 이야기한다.",
+        "삼미 시절부터 이어진 기억을 언급하며 사실상 인천의 노래 또는 지역 야구의 상징으로 부르는 반응이 반복된다."
+      ],
+      "supports": [
+        "skLineage",
+        "regionalIdentity",
+        "adaptationForm"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-yeonan-2025",
+      "songId": "ssg-landers-yeonanbudu",
+      "url": "https://www.youtube.com/watch?v=kguxLk5meJI",
+      "videoId": "kguxLk5meJI",
+      "title": "SSG랜더스 2025시즌 마지막 연안부두 (251024 섬곤전)",
+      "channel": "미스터인천",
+      "publishedAt": "2025-10-24T18:31:23-07:00",
+      "descriptionSummary": "2025년 10월 24일 시즌 마지막 연안부두 합창을 촬영한 현장 영상으로 별도 설명문은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 6개는 더 긴 전환과 2절 무반주 합창을 선호하고 휴대전화 불빛과 전 관중 합창을 장점으로 꼽는다."
+      ],
+      "supports": [
+        "currentUse",
+        "performanceForm",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-yeonan-2026",
+      "songId": "ssg-landers-yeonanbudu",
+      "url": "https://www.youtube.com/watch?v=RZoK3ORLFlY",
+      "videoId": "RZoK3ORLFlY",
+      "title": "[2026 개막시리즈] SSG랜더스 팀 응원가 \"연안부두\" 20260329",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-03-30T00:17:07-07:00",
+      "descriptionSummary": "2026년 3월 29일 인천 SSG랜더스필드 개막 시리즈의 연안부두 사용을 촬영한 독립 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "currentUse",
+        "openingSeries",
+        "homeUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-yeonan-ks5-2022",
+      "songId": "ssg-landers-yeonanbudu",
+      "url": "https://www.youtube.com/watch?v=czM2sa7VZP8",
+      "videoId": "czM2sa7VZP8",
+      "title": "[KS5] 4:0으로 지고 있던 상황 역대급 연안부두 떼창 | 한국시리즈 5차전",
+      "channel": "크보 CAM",
+      "publishedAt": "2022-11-07T07:53:19-08:00",
+      "descriptionSummary": "2022 한국시리즈 5차전에서 0대4로 뒤진 상태의 8회 연안부두 합창을 담은 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 34개는 8회의 약속처럼 부른 장면 뒤 실제 역전이 이어진 경기 기억을 회고한다.",
+        "상대 구단 팬도 클래식한 응원가라고 평가하고 구슬픈 음색이 우승 시즌의 기억과 결합됐다고 말한다."
+      ],
+      "supports": [
+        "fixedEighthInning",
+        "regionalIdentity",
+        "postseasonUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-naagaja-2023",
+      "songId": "ssg-landers-naagaja",
+      "url": "https://www.youtube.com/watch?v=tay3nRiqevc",
+      "videoId": "tay3nRiqevc",
+      "title": "SSG랜더스 팀 응원가 '외쳐라 랜더스' + '나아가자 랜더스' 20230512",
+      "channel": "DJ Landers",
+      "publishedAt": "2023-05-12T10:18:39-07:00",
+      "descriptionSummary": "2023년 5월 12일 현장에서 외쳐라 랜더스와 나아가자 랜더스를 연속 촬영했으며 1:26부터 나아가자 랜더스를 구분한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "usageYears",
+        "fieldUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-naagaja-full-2023",
+      "songId": "ssg-landers-naagaja",
+      "url": "https://www.youtube.com/watch?v=-JIcuUWxs8E",
+      "videoId": "-JIcuUWxs8E",
+      "title": "SSG 랜더스 응원가 나아가자 랜더스 (가제) 풀버전",
+      "channel": "우빈이의 철도채널",
+      "publishedAt": "2023-09-03T01:18:37-07:00",
+      "descriptionSummary": "짧게 쓰이는 나아가자 랜더스에 더 긴 형태가 있다는 점을 바탕으로 팬이 구성한 비공식 풀버전 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 2개는 공식 독립 풀버전이나 두 번째 절 음원을 듣고 싶다는 요청을 남긴다."
+      ],
+      "supports": [
+        "alias",
+        "fanReception",
+        "fullVersionDemand"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-naagaja-playlist-2025",
+      "songId": "ssg-landers-naagaja",
+      "url": "https://www.youtube.com/watch?v=y7uXyrebLfo",
+      "videoId": "y7uXyrebLfo",
+      "title": "[PLAYLIST]SSG랜더스 등장곡&응원가 모음_노래방자막🎤20250816 ",
+      "channel": "쓱크크",
+      "publishedAt": "2025-09-04T20:22:48-07:00",
+      "descriptionSummary": "2025년 8월 기준 등장곡·응원가 모음으로 시작 부분에 라인업송을 두고 12:41에 나아가자 랜더스를 별도 챕터로 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 31개 중 표면화된 내용은 업로더의 트랙 목록과 전체 모음에 대한 반응이 중심이며 이 곡만의 반복 평가는 분리되지 않았다."
+      ],
+      "supports": [
+        "currentUse",
+        "standaloneChapter",
+        "lineupRelationship"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-naagaja-summer-2026",
+      "songId": "ssg-landers-naagaja",
+      "url": "https://www.youtube.com/watch?v=-Uvx90hbOT8",
+      "videoId": "-Uvx90hbOT8",
+      "title": "🌊랜필 썸머 페쓱티벌💦 SSG랜더스 응원 모음!🔥 [2026.07.28 두산 vs SSG / 1루 홈커존 시점]",
+      "channel": "으SSG이 깜닉",
+      "publishedAt": "2026-07-28T12:51:23-07:00",
+      "descriptionSummary": "2026년 7월 28일 홈경기 응원 모음으로 0:50에 ‘라인업 송 & 나아가자 랜더스’를 함께 표시해 연결 구조를 직접 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 22개는 워터 페스티벌과 경기 참석 경험에 대한 반응이 중심이며 나아가자 랜더스만의 평가는 뚜렷하지 않다."
+      ],
+      "supports": [
+        "currentUse",
+        "lineupRelationship",
+        "homeUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-naagaja-lineup-2026",
+      "songId": "ssg-landers-naagaja",
+      "url": "https://www.youtube.com/watch?v=fycwjbIbw5g",
+      "videoId": "fycwjbIbw5g",
+      "title": "SSG 랜더스 26시즌 리뉴얼 버전 ￼라인업송",
+      "channel": "랜더쏭",
+      "publishedAt": "2026-03-24T08:43:28-07:00",
+      "descriptionSummary": "2026 리뉴얼 라인업송 영상으로 타순·투수·감독 호명 뒤 마지막 나아가자 합창이 유지된 구조를 확인할 수 있다. 설명의 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 45개는 처음에는 낯설지만 점차 좋아졌다는 반응과 길어진 도입·새 편곡을 긍정하는 반응을 보인다."
+      ],
+      "supports": [
+        "2026Revision",
+        "lineupRelationship",
+        "structure"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-naagaja-2025",
+      "songId": "ssg-landers-naagaja",
+      "url": "https://www.youtube.com/watch?v=DKPNVvAenqc",
+      "videoId": "DKPNVvAenqc",
+      "title": "250527 NC전 SSG랜더스 팀응원가 나아가자 랜더스 #ssg랜더스필드 #kbo리그 #ssg랜더스 #나아가자랜더스",
+      "channel": "랜더스팬쭈니",
+      "publishedAt": "2025-05-27T08:37:55-07:00",
+      "descriptionSummary": "2025년 5월 27일 NC전 인천 홈경기에서 나아가자 랜더스를 독립 촬영한 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "currentUse",
+        "standaloneUse",
+        "homeUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-weare-field-2026",
+      "songId": "ssg-landers-we-are-landers-go",
+      "url": "https://www.youtube.com/watch?v=Rs1zJjfm-zo",
+      "videoId": "Rs1zJjfm-zo",
+      "title": "ssg랜더스 We are Landers Go!  응원가 #정설아 #이지원 #유보영 #이정윤",
+      "channel": "직캠연구소",
+      "publishedAt": "2026-04-16T05:18:16-07:00",
+      "descriptionSummary": "2026년 부산 사직구장 원정에서 We are Landers Go!를 촬영한 현장 영상이며 설명은 장소와 참여 치어리더 해시태그를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "currentUse",
+        "awayUse",
+        "fieldUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-weare-playlist-2026-a",
+      "songId": "ssg-landers-we-are-landers-go",
+      "url": "https://www.youtube.com/watch?v=pxRJoK-T1Hc",
+      "videoId": "pxRJoK-T1Hc",
+      "title": "[Playlist] SSG랜더스 2026.4 등장곡+응원가 모음",
+      "channel": "어둠의배티단",
+      "publishedAt": "2026-04-02T10:43:15-07:00",
+      "descriptionSummary": "2026년 4월 기준 등장곡·응원가 장편 모음으로 1:08:58에 We Are Landers GO를, 뒤이어 별도 곡 We Are the Landers!를 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 24개에서 표면화된 내용은 제작자의 트랙 색인과 전체 모음에 대한 감사가 중심이며 이 곡만의 반복 반응은 확인되지 않았다."
+      ],
+      "supports": [
+        "currentUse",
+        "titleDistinction",
+        "playlistInclusion"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-weare-playlist-2026-b",
+      "songId": "ssg-landers-we-are-landers-go",
+      "url": "https://www.youtube.com/watch?v=L3v3mSe1f1Y",
+      "videoId": "L3v3mSe1f1Y",
+      "title": "[Playlist] SSG 랜더스 2026.08.04 등장곡 + 응원가 모음",
+      "channel": "어둠의배티단",
+      "publishedAt": "2026-08-04T03:54:50-07:00",
+      "descriptionSummary": "2026년 8월 4일 기준 93개 챕터의 장편 모음으로 1:07:50에 We are landers go!, 1:12:27에 We are the Landers!를 별도로 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 9개는 업로더의 최신 명단·트랙 정리와 업데이트에 대한 감사가 중심이며 개별 곡 반응은 분리되지 않았다."
+      ],
+      "supports": [
+        "currentUse",
+        "titleDistinction",
+        "playlistInclusion"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-weare-playlist-2025-a",
+      "songId": "ssg-landers-we-are-landers-go",
+      "url": "https://www.youtube.com/watch?v=1f8fqujUCp0",
+      "videoId": "1f8fqujUCp0",
+      "title": "[PLAYLIST] SSG 랜더스 2025.9 등장곡+응원가 모음",
+      "channel": "어둠의배티단",
+      "publishedAt": "2025-09-04T03:34:49-07:00",
+      "descriptionSummary": "2025년 9월 기준 장편 모음으로 1:08:12 We Are Landers Go!, 1:08:41 We Are the Landers!를 연속된 별도 챕터로 둔다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 47개는 전체 모음의 음원 출처와 트랙 정리에 대한 반응이 중심이고 이 곡만의 반복 평가는 드러나지 않는다."
+      ],
+      "supports": [
+        "currentUse",
+        "titleDistinction",
+        "playlistInclusion"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-weare-playlist-2025-b",
+      "songId": "ssg-landers-we-are-landers-go",
+      "url": "https://www.youtube.com/watch?v=C4m2W6ncpGU",
+      "videoId": "C4m2W6ncpGU",
+      "title": "[PLAYLIST] SSG 랜더스 준PO 엔트리 응원가+등장곡 | 띠전광판버전 | 되고송추가 | Landing High Together!",
+      "channel": "어둠의배티단",
+      "publishedAt": "2025-10-12T10:32:05-07:00",
+      "descriptionSummary": "2025 준플레이오프 엔트리 기준 모음으로 45:54에 We Are Landers Go, 53:36에 We Are the Landers를 별도 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 8개는 제작자의 트랙 색인과 오탈자 수정 안내가 중심이며 이 곡의 현장 평가를 독립적으로 제공하지 않는다."
+      ],
+      "supports": [
+        "currentUse",
+        "postseasonPlaylist",
+        "titleDistinction"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-weare-2024-medley",
+      "songId": "ssg-landers-we-are-landers-go",
+      "url": "https://www.youtube.com/watch?v=V1SoeQNVrwo",
+      "videoId": "V1SoeQNVrwo",
+      "title": "24.11.30 양준혁 자선야구 뒤풀이 띵곡 KBO 응원가 메들리",
+      "channel": "삼뽕쌈뽕",
+      "publishedAt": "2024-11-30T07:23:58-08:00",
+      "descriptionSummary": "KBO 여러 구단 응원가를 부른 자선야구 뒤풀이 메들리로 3:55에 SSG의 We are Landers Go를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 18개는 응원단장과 팬들이 10개 구단 노래를 두루 아는 점과 메들리 현장 분위기를 칭찬하며, 이 곡만의 반응은 뚜렷하지 않다."
+      ],
+      "supports": [
+        "usageYears",
+        "crossTeamRecognition",
+        "titleIdentification"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-stand-field-2025",
+      "songId": "ssg-landers-stand-up",
+      "url": "https://www.youtube.com/watch?v=-dMj70CvNGU",
+      "videoId": "-dMj70CvNGU",
+      "title": "#ssg랜더스#김현영 #박민수#비디오판독\"비디오판독~스탠드 업~~~\"",
+      "channel": "홍스맨\"이야기&인생\"",
+      "publishedAt": "2025-09-06T02:07:36-07:00",
+      "descriptionSummary": "2025년 SSG 현장에서 비디오 판독을 언급한 뒤 응원단이 ‘스탠드 업’을 유도하는 짧은 영상이다. 설명문에는 곡명·편집 크레딧이 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse",
+        "audiencePrompt",
+        "currentUseLowerBound"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-stand-field-candidate-2026",
+      "songId": "ssg-landers-stand-up",
+      "url": "https://www.youtube.com/watch?v=a_bEf2lvmWY",
+      "videoId": "a_bEf2lvmWY",
+      "title": "#김도아 #ssg랜더스\"일어나서 응원해주세요^^랜더스치어리더 응원시작\"",
+      "channel": "스포츠는 홍스톤",
+      "publishedAt": "2026-08-08T00:19:50-07:00",
+      "descriptionSummary": "2026년 SSG 현장에서 치어리더가 관중에게 일어나 응원해 달라고 유도하는 장면이다. 제목과 설명만으로 Stand Up 편집 음원인지 확정할 수 없어 현행성 보조 후보로만 분류한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "currentUseCandidate",
+        "audiencePrompt"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-stand-mnet-2015",
+      "songId": "ssg-landers-stand-up",
+      "url": "https://www.youtube.com/watch?v=iepayV4vq_0",
+      "videoId": "iepayV4vq_0",
+      "title": "[SMTM4] Basick(feat.MAMAMOO) - ‘Stand Up’ @ Semi Final EP.09",
+      "channel": "Mnet K-POP",
+      "publishedAt": "2015-08-21T08:46:12-07:00",
+      "descriptionSummary": "Mnet 공식 채널의 쇼미더머니4 준결승 베이식·마마무 Stand Up 무대로 원곡의 공연형 전체 구조를 확인할 수 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 베이식의 쇼미더머니 우승 무대가 다시 봐도 강렬하다고 평가하고, 후반 무반주 랩과 마마무 보컬의 조합을 반복해서 칭찬한다.",
+        "곡의 메시지가 다시 일어설 힘을 줬다는 개인적 회고도 여러 시기에 걸쳐 나타난다."
+      ],
+      "supports": [
+        "origin",
+        "performerCredits",
+        "songStructure"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-stand-stone-mv-2015",
+      "songId": "ssg-landers-stand-up",
+      "url": "https://www.youtube.com/watch?v=JW9YIAuYUi4",
+      "videoId": "JW9YIAuYUi4",
+      "title": "[쇼미더머니4 Episode 5] 베이식 (Basick) - Stand Up (Feat. MAMAMOO) MV",
+      "channel": "STONE MUSIC",
+      "publishedAt": "2015-08-24T19:30:39-07:00",
+      "descriptionSummary": "Stone Music 공식 뮤직비디오다. 설명은 베이식의 실제 경험과 꿈을 잃지 말자는 메시지, 힙합 리듬과 마마무 피처링을 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 1,095개에서 마마무 멤버들의 고음과 애드리브를 칭찬하는 반응이 반복된다.",
+        "베이식의 발음이 명확해 가사가 잘 전달되고 자신감 있는 곡이라는 평가가 눈에 띈다."
+      ],
+      "supports": [
+        "origin",
+        "originalMessage",
+        "performerCredits",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-stand-stone-audio-2015",
+      "songId": "ssg-landers-stand-up",
+      "url": "https://www.youtube.com/watch?v=o3btym6qG3A",
+      "videoId": "o3btym6qG3A",
+      "title": "[쇼미더머니 4 Episode 5] 베이식 (Basick) - Stand Up (Feat. 마마무)",
+      "channel": "STONE MUSIC",
+      "publishedAt": "2015-08-21T08:30:00-07:00",
+      "descriptionSummary": "Stone Music 공식 음원 영상으로 꿈을 좇는 청춘에게 보내는 곡이라는 제작 설명과 베이식·마마무의 참여를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 452개는 오랜만에 들어도 자신감을 북돋우는 곡이라는 반응과 마마무 피처링의 효과를 높이 평가한다.",
+        "비트가 다른 해외 곡을 떠올리게 한다는 비교 반응도 있으나 표절이나 정식 샘플링을 입증하는 자료는 아니다."
+      ],
+      "supports": [
+        "origin",
+        "originalMessage",
+        "songStructure",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-d-stand-arirang-2018",
+      "songId": "ssg-landers-stand-up",
+      "url": "https://www.youtube.com/watch?v=7G0e2JKF8WA",
+      "videoId": "7G0e2JKF8WA",
+      "title": "[Simply K-Pop] BASICK(베이식) _ Stand Up _ Ep.313 _ 052518",
+      "channel": "ARIRANG K-POP",
+      "publishedAt": "2018-05-24T21:00:01-07:00",
+      "descriptionSummary": "Arirang 공식 공연 영상으로 베이식의 실제 여정과 꿈을 계속 좇자는 메시지를 한국어와 영어로 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 2개는 무대가 관객을 들뜨게 한다고 평가하고 베이식의 공연을 반긴다."
+      ],
+      "supports": [
+        "originalMessage",
+        "livePerformance",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 30,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 21
+  }
+}

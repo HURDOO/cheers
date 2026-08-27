@@ -1,0 +1,632 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-dongguk-seoul-university",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-dongguk-seoul",
+    "name": "동국대학교 서울",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사, 영상 설명, 댓글 전문은 저장하지 않는다. 가사는 공식 원문·음원과 공연 영상을 내부 대조한 뒤 권리 상태·구조·주제만 요약한다. 공개 댓글은 작성자를 식별하지 않고 역사·사용법·수용을 확인하는 데 필요한 내용만 재서술한다. 링크는 사실 확인용이며 재배포 허락을 뜻하지 않는다.",
+  "items": [
+    {
+      "id": "dongguk-seoul-university-cheer",
+      "title": "동국대학교 응원가",
+      "aliases": [
+        "동국응원가",
+        "남산코끼리",
+        "동대 코끼리"
+      ],
+      "currentStatus": "current-directly-verified-at-2026-entrance-ceremony",
+      "summary": "동국대학교가 공식 상징 페이지에 악보·음원과 함께 싣는 학교 응원가다. 교내신문은 1960년대 중반에 만들어졌고 2011년 김영준 동문이 군악대풍의 낡은 음원을 록 버전으로 재편곡·재녹음했다고 전한다. 백상응원단 공식 영상은 2018·2019·2022·2026년 입학식, 홈커밍데이, 농구 경기, 응원대제전에서의 사용을 직접 보여 준다. 나무위키의 ‘현재는 들을 일이 없다’는 서술은 이 최신 영상들과 충돌한다.",
+      "claims": [
+        {
+          "field": "introductionPeriod",
+          "value": "1960년대 중반",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-dongguk-media-2011-remake"
+          ],
+          "notes": "동대신문이 당시 대표 교가와 응원가가 1960년대 중반에 작사·작곡됐다고 기록한다. 정확한 연도와 초연 행사는 확인되지 않았다."
+        },
+        {
+          "field": "lyricist",
+          "value": "이병주",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-dongguk-official-cheer-page",
+            "ev-dongguk-media-2011-remake",
+            "ev-dongguk-namu-symbol"
+          ],
+          "notes": "학교 공식 페이지, 교내신문, 나무위키가 일치한다."
+        },
+        {
+          "field": "composer",
+          "value": "이회목",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-dongguk-official-cheer-page"
+          ],
+          "notes": "현재 학교 공식 페이지의 표기다. 교내신문과 나무위키의 ‘이희목’과 한 글자가 다르다."
+        },
+        {
+          "field": "composer",
+          "value": "이희목",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-dongguk-media-2011-remake",
+            "ev-dongguk-namu-symbol"
+          ],
+          "notes": "2011년 교내신문과 현재 나무위키의 표기다. 학교 공식 페이지와 불일치하므로 원자료 대조 전에는 어느 쪽도 오탈자로 단정하지 않는다."
+        },
+        {
+          "field": "2011Arrangement",
+          "value": "김영준(불교 97졸)이 밝고 비트 있는 록 버전으로 재편곡·재녹음",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-dongguk-media-2011-remake"
+          ],
+          "notes": "2011-05-04 개교 105주년 기념식 공개를 앞두고 제작자가 직접 편곡 방향을 설명했다. 원곡 작곡과 2011 편곡을 구분한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "입학식·스포츠 경기·홈커밍데이·백상응원대제전에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-dongguk-university-cheer-2018",
+            "yt-dongguk-university-cheer-2019",
+            "yt-dongguk-university-cheer-2022-game",
+            "yt-dongguk-university-cheer-2022-festival",
+            "yt-dongguk-university-cheer-2026"
+          ],
+          "notes": "백상응원단 공식 채널의 행사명·게시 설명을 기준으로 직접 확인했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "현재는 축제에서 틀지 않고 새터에서도 가르치지 않아 들을 일이 거의 없음",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-dongguk-namu-symbol"
+          ],
+          "notes": "나무위키의 현재성 판단은 2022·2026 공식 공연 영상과 직접 충돌한다. 과거 특정 시기의 사용 감소를 반영했을 가능성은 있으나 기준 시점이 명시되지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "2026학년도 입학식에서 48대 백상응원단의 첫 데뷔 무대 곡으로 공연됐다.",
+        "2022년 동국대 대 연세대 농구 홈 경기에서 관객 응원 유도와 농구부 응원에 사용됐다.",
+        "2019년 입학 30·40주년 홈커밍데이와 2022년 백상응원대제전에서 액션 치어리딩 곡으로 공연됐다.",
+        "불교신문은 과거 동대문야구장에서 동문·재학생이 야구부 승리를 바라며 남산코끼리를 함께 부른 기억을 기록한다."
+      ],
+      "trivia": [
+        {
+          "id": "dongguk-cheer-2011-rock-remake",
+          "summary": "2011년 새 음원은 1960~70년대 군악대 행진곡풍을 벗어나 실제 응원 현장에 맞는 록밴드 스타일을 지향했다. 105주년 개교기념식에서 처음 공개될 예정이라고 교내신문이 보도했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-dongguk-media-2011-remake"
+          ]
+        },
+        {
+          "id": "dongguk-cheer-elephant-alias",
+          "summary": "공식 후렴의 ‘남산 코끼리’ 때문에 남산코끼리·동대 코끼리라는 별칭이 생겼다. 학교의 흰 코끼리 상징은 부처 탄생설화에서 유래하며, 응원단명 백상도 같은 상징을 공유한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-dongguk-official-cheer-page",
+            "ev-dongguk-official-symbol",
+            "ev-dongguk-namu-symbol"
+          ]
+        },
+        {
+          "id": "dongguk-cheer-current-use-conflict",
+          "summary": "나무위키는 현대에 거의 쓰이지 않는다고 적지만 공식 응원단은 2026 입학식에서도 독립 곡 영상을 공개했다. 데이터에서는 최신 1차 자료를 현행성 판정에 우선하고 상충 서술은 삭제하지 않았다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-dongguk-namu-symbol",
+            "yt-dongguk-university-cheer-2026"
+          ]
+        },
+        {
+          "id": "dongguk-cheer-alumni-comments",
+          "summary": "2022 농구 경기·응원대제전 영상의 익명 댓글에는 1992학번이라고 밝힌 동문, 오래간만에 들었다는 반응, 후배들을 격려하는 반응이 있다. 세대 기억의 사례일 뿐 사용 빈도의 통계로 해석하지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-dongguk-university-cheer-2022-game",
+            "yt-dongguk-university-cheer-2022-festival"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "동국대학교가 가사·악보·듣기·다운로드를 공식 제공하지만 저작권자, 이용허락 범위, 2011 편곡 음원의 권리 귀속은 별도로 표시하지 않는다",
+        "sourceUrls": [
+          "https://www.dongguk.edu/page/105",
+          "https://www.donggukmedia.com/news/articleView.html?idxno=14983",
+          "https://www.youtube.com/watch?v=K6vTbHbLGH0"
+        ],
+        "structureSummary": "두 절과 공통 후렴으로 구성된다. 남산 기슭의 학교, 물러서지 않는 기상, 한뜻으로 뭉친 코끼리를 차례로 그린 뒤 ‘용맹 정진’과 남산 코끼리를 반복하는 군중 구호형 후렴으로 마무리한다. 공식 전문은 링크로만 참조한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-dongguk-university-cheer-2018",
+        "yt-dongguk-university-cheer-2019",
+        "yt-dongguk-university-cheer-2022-game",
+        "yt-dongguk-university-cheer-2022-festival",
+        "yt-dongguk-university-cheer-2026"
+      ],
+      "unresolved": [
+        "1960년대 중반의 정확한 작곡·발표·초연 연도와 위촉 경위",
+        "작곡자 성명의 정확한 표기: 이회목과 이희목 중 어느 쪽인지",
+        "현재 공연 음원이 2011 록 편곡과 동일한 버전인지와 후속 편곡 여부",
+        "원곡·2011 편곡·악보·공식 음원·안무의 권리 귀속과 재사용 범위"
+      ]
+    },
+    {
+      "id": "dongguk-seoul-baeksang-cheer",
+      "title": "백상응원가",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-2026-baseball-game",
+      "summary": "백상응원단이 신입생 새로배움터, 응원대제전, 치어리딩 페스티벌과 스포츠 경기에서 쓰는 짧은 밴드액션 응원가다. 공식 채널에서 2018년이 가장 이른 확보 기록이며 2023·2024 새로배움터와 2026 불꽃야구 경기까지 이어진다. 곡의 도입 연도, 작사·작곡·편곡자와 외부 원곡은 공식·교내언론·나무위키·음원 검색에서 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "earliestDocumentedUse",
+          "value": "2018-05-24 백상응원대제전",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-dongguk-baeksang-cheer-2018"
+          ],
+          "notes": "공식 채널의 축제 대운동장 공연이 현재 확보한 가장 이른 개별 영상이다. 곡의 도입·초연 연도로 단정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 불꽃파이터즈 대 동국대 야구 경기에서 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-dongguk-baeksang-cheer-2026"
+          ],
+          "notes": "공식 백상응원단 채널이 2026-07-26 고척스카이돔 현장 공연으로 설명한다."
+        },
+        {
+          "field": "performanceFormat",
+          "value": "액션 파트와 밴드 파트가 합동하는 밴드액션 응원곡",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-dongguk-baeksang-cheer-2019",
+            "ev-dongguk-media-2023-team"
+          ],
+          "notes": "2019 영상 제목·설명은 밴드액션이라 표기하고, 교내신문은 백상이 밴드 라이브와 액션 몸짓을 결합한다고 설명한다."
+        },
+        {
+          "field": "creatorsAndOriginal",
+          "value": "작사·작곡·편곡자와 외부 원곡 미확인",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-dongguk-baeksang-cheer-2018",
+            "yt-dongguk-baeksang-cheer-2019",
+            "yt-dongguk-baeksang-cheer-2023",
+            "yt-dongguk-baeksang-cheer-2024",
+            "yt-dongguk-baeksang-cheer-2026",
+            "ev-dongguk-media-2023-team",
+            "ev-dongguk-namu-symbol"
+          ],
+          "notes": "확인한 공식 영상 설명·교내언론·나무위키는 개인 크레딧이나 선행곡을 제시하지 않는다. 크레딧 부재를 자작곡 확정 근거로 삼지 않는다."
+        },
+        {
+          "field": "songRole",
+          "value": "신입생 응원교육과 학교·스포츠 행사에서 참여를 이끄는 학교 고유 응원곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-dongguk-baeksang-cheer-2023",
+            "yt-dongguk-baeksang-cheer-2024",
+            "yt-dongguk-baeksang-cheer-2026",
+            "ev-dongguk-media-2023-team"
+          ],
+          "notes": "새내기 새로배움터와 야구 경기의 공식 곡별 영상, 학교 대표 응원단의 행사·경기 역할을 설명한 교내신문을 함께 대조했다."
+        }
+      ],
+      "usageContexts": [
+        "2018 백상응원대제전과 2019 백상 치어리딩 페스티벌에서 밴드액션 곡으로 공연됐다.",
+        "2023·2024 단과대별 새내기 새로배움터에서 신입생 대상 응원곡으로 사용됐다.",
+        "2026 고척스카이돔 불꽃파이터즈 대 동국대 야구 경기에서 선수단과 학교를 응원했다.",
+        "교내신문이 설명한 백상의 운영 원칙에 따라 ‘보여주는 공연’보다 관객과 함께하는 응원, 밴드 라이브와 액션의 결합에 초점을 둔다."
+      ],
+      "trivia": [
+        {
+          "id": "baeksang-name-symbol",
+          "summary": "곡명과 응원단명의 백상은 학교 상징인 흰 코끼리를 뜻한다. 학교는 이 상징이 부처 탄생설화에서 유래하고 불교에서 지혜와 복덕을 나타낸다고 설명한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-dongguk-official-symbol",
+            "ev-dongguk-namu-symbol"
+          ]
+        },
+        {
+          "id": "baeksang-new-student-continuity",
+          "summary": "2023과 2024 영상은 여러 단과대가 나뉘어 참여한 새내기 새로배움터에서도 같은 곡을 가르치고 공연했음을 보여 준다. 단일 축제 무대용에 머물지 않는 레퍼토리다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-dongguk-baeksang-cheer-2023",
+            "yt-dongguk-baeksang-cheer-2024"
+          ]
+        },
+        {
+          "id": "baeksang-doosan-comment-noise",
+          "summary": "2018 공식 영상의 익명 댓글 한 건은 곡 설명과 무관하게 두산 베어스 응원가 가사를 길게 적었다. 공식 자료가 두 곡의 관계를 밝히지 않으므로 원곡·차용 근거로 채택하지 않고 댓글 잡음과 후속 확인 과제로만 남겼다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-dongguk-baeksang-cheer-2018"
+          ]
+        },
+        {
+          "id": "baeksang-team-song-production-context",
+          "summary": "2023 교내신문은 백상이 대대로 내려오는 기존곡과 큰 무대에 맞춘 신곡을 함께 쓰고, 동·하계 훈련 때 신곡 제작도 한다고 전한다. 다만 백상응원가를 어느 범주로 특정하지는 않는다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-dongguk-media-2023-team"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "공식 공연 영상은 공개돼 있으나 가사 원문·악보·음원 배포 조건, 개인 제작자와 권리 귀속은 확인되지 않는다",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=ydqEOOoa6DE",
+          "https://www.youtube.com/watch?v=IYaFiISViVs",
+          "https://www.youtube.com/watch?v=LOryXOn5UHA"
+        ],
+        "structureSummary": "약 1분 30초 안팎의 짧은 밴드액션 곡으로, 학교를 향한 집단 구호와 승리 지향의 반복 후렴에 액션 동작을 맞추는 구조다. 신뢰할 수 있는 공식 가사 원문·악보를 찾지 못해 세부 절 구분과 정확한 문구는 기록하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-dongguk-baeksang-cheer-2018",
+        "yt-dongguk-baeksang-cheer-2019",
+        "yt-dongguk-baeksang-cheer-2023",
+        "yt-dongguk-baeksang-cheer-2024",
+        "yt-dongguk-baeksang-cheer-2026"
+      ],
+      "unresolved": [
+        "정확한 제작·도입·초연 연도와 2018년 이전 공연 기록",
+        "작사·작곡·편곡·가창·밴드 연주·안무 제작자",
+        "외부 원곡 또는 선행 멜로디 존재 여부와 두산 관련 댓글의 단순 오기 여부",
+        "가사·음원·악보·안무·공연 영상의 권리 귀속과 재사용 범위"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-dongguk-university-cheer-2018",
+      "songId": "dongguk-seoul-university-cheer",
+      "url": "https://www.youtube.com/watch?v=JW5pEZ2zlmA",
+      "videoId": "JW5pEZ2zlmA",
+      "title": "181013 동국대학교 백상응원단 - 응원가",
+      "channel": "동국대학교 백상응원단",
+      "publishedAt": "2018-11-11T06:57:30-08:00",
+      "descriptionSummary": "공식 설명은 2018-10-13 동국대학교 백상응원단의 동국대학교 응원가 공연이라고 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "2018 공연",
+        "초기 공식 영상 표본"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-dongguk-university-cheer-2019",
+      "songId": "dongguk-seoul-university-cheer",
+      "url": "https://www.youtube.com/watch?v=JxdLXqLpbVQ",
+      "videoId": "JxdLXqLpbVQ",
+      "title": "191019 동국대학교 백상응원단 - 응원가 (동국대학교 홈커밍데이 2019)",
+      "channel": "동국대학교 백상응원단",
+      "publishedAt": "2019-12-23T09:00:30-08:00",
+      "descriptionSummary": "공식 설명은 2019-10-19 입학 30·40주년 기념 홈커밍데이의 액션 공연이라고 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "익명 댓글 한 건이 학교를 응원하는 짧은 반응을 남겼다."
+      ],
+      "supports": [
+        "2019 홈커밍데이",
+        "동문 행사 사용"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-dongguk-university-cheer-2022-game",
+      "songId": "dongguk-seoul-university-cheer",
+      "url": "https://www.youtube.com/watch?v=EfOAcAZOxj8",
+      "videoId": "EfOAcAZOxj8",
+      "title": "[2022. 06. 03 동국대vs연세대 농구 홈 경기] - 동국대학교 응원가",
+      "channel": "동국대학교 백상응원단",
+      "publishedAt": "2022-06-05T19:30:02-07:00",
+      "descriptionSummary": "공식 설명은 동국대 체육관 농구 홈 경기에서 농구부 응원, 경기 관람, 관객 응원 유도와 두 곡 공연을 진행했다고 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글들은 동국대를 응원하고, 한 작성자는 자신을 1992학번이라고 밝히며 동문 정체성을 드러냈다. 웃음 표현뿐인 댓글은 의미 분석에서 제외했다."
+      ],
+      "supports": [
+        "2022 농구 경기",
+        "관객 응원 유도",
+        "동문 수용 사례"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-dongguk-university-cheer-2022-festival",
+      "songId": "dongguk-seoul-university-cheer",
+      "url": "https://www.youtube.com/watch?v=odi9qGnKi7c",
+      "videoId": "odi9qGnKi7c",
+      "title": "[2022 제 39회 백상응원대제전] - 응원가",
+      "channel": "동국대학교 백상응원단",
+      "publishedAt": "2022-11-09T19:16:23-08:00",
+      "descriptionSummary": "별도 행사 설명 없이 YouTube 기본 문구만 노출되며 제목이 제39회 백상응원대제전의 응원가 공연임을 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "익명 댓글들은 오래간만에 듣는 곡이라며 반가워하고 후배들을 격려했다. 다른 학교와 비교하는 비하성 댓글은 수용 분석에서 제외했다."
+      ],
+      "supports": [
+        "2022 백상응원대제전",
+        "동문 향수"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-dongguk-university-cheer-2026",
+      "songId": "dongguk-seoul-university-cheer",
+      "url": "https://www.youtube.com/watch?v=K6vTbHbLGH0",
+      "videoId": "K6vTbHbLGH0",
+      "title": "액션 치어리딩 | 동국대학교 백상응원단 2026학년도 동국대학교 입학식 _ 동국응원가",
+      "channel": "동국대학교 백상응원단",
+      "publishedAt": "2026-02-15T07:07:00-08:00",
+      "descriptionSummary": "공식 설명은 2026-02-13 장충체육관 입학식, 신입생의 시작 축하, 백상응원단 48대의 첫 데뷔 무대라고 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "2026 입학식",
+        "최신 직접 현행성",
+        "48대 데뷔 무대"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-dongguk-baeksang-cheer-2018",
+      "songId": "dongguk-seoul-baeksang-cheer",
+      "url": "https://www.youtube.com/watch?v=ydqEOOoa6DE",
+      "videoId": "ydqEOOoa6DE",
+      "title": "180524 동국대학교 백상응원단 - 백상응원가",
+      "channel": "동국대학교 백상응원단",
+      "publishedAt": "2018-06-06T05:21:15-07:00",
+      "descriptionSummary": "공식 설명은 2018-05-24 동국대학교 축제 대운동장 백상응원대제전의 백상응원가 공연이라고 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "익명 댓글 한 건이 곡 설명과 무관한 두산 베어스 응원가 가사를 장문으로 적었다. 출처 관계의 증거가 아니라 댓글 잡음과 후속 확인 대상으로 처리했다."
+      ],
+      "supports": [
+        "2018 백상응원대제전",
+        "가장 이른 확보 공식 영상",
+        "댓글 오염 사례"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-dongguk-baeksang-cheer-2019",
+      "songId": "dongguk-seoul-baeksang-cheer",
+      "url": "https://www.youtube.com/watch?v=IYaFiISViVs",
+      "videoId": "IYaFiISViVs",
+      "title": "190919 동국대학교 백상응원단 - 백상응원가",
+      "channel": "동국대학교 백상응원단",
+      "publishedAt": "2019-12-20T04:08:36-08:00",
+      "descriptionSummary": "공식 설명은 2019-09-19 백상 치어리딩 페스티벌의 밴드액션 공연이라고 밝힌다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "2019 치어리딩 페스티벌",
+        "밴드액션 표기"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-dongguk-baeksang-cheer-2023",
+      "songId": "dongguk-seoul-baeksang-cheer",
+      "url": "https://www.youtube.com/watch?v=6PBtMeFISc8",
+      "videoId": "6PBtMeFISc8",
+      "title": "[2023. 02. 26-28] 2023📝새내기 새로 배움터｜백상응원단 - 백상응원가🏀⚽️⚾️",
+      "channel": "동국대학교 백상응원단",
+      "publishedAt": "2023-09-19T00:09:40-07:00",
+      "descriptionSummary": "공식 설명은 2023-02-26~28 새내기 새로배움터, 45대 공연, 양주·화성의 단과대 행사 장소를 적는다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "2023 새내기 새로배움터",
+        "신입생 사용 맥락"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-dongguk-baeksang-cheer-2024",
+      "songId": "dongguk-seoul-baeksang-cheer",
+      "url": "https://www.youtube.com/watch?v=Qcd5gMXUtuc",
+      "videoId": "Qcd5gMXUtuc",
+      "title": "[2024.02.26~03.01] 2024 새내기 새로 배움터 - 백상응원가",
+      "channel": "동국대학교 백상응원단",
+      "publishedAt": "2024-05-02T17:29:41-07:00",
+      "descriptionSummary": "공식 설명은 사범대, 문과·이과·AI·공대, 사회과학대, 경영대의 2024-02-26~03-01 새내기 새로배움터 일정을 열거한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "2024 새내기 새로배움터",
+        "여러 단과대 사용"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-dongguk-baeksang-cheer-2026",
+      "songId": "dongguk-seoul-baeksang-cheer",
+      "url": "https://www.youtube.com/watch?v=LOryXOn5UHA",
+      "videoId": "LOryXOn5UHA",
+      "title": "액션 치어리딩 | 동국대학교 백상응원단 불꽃야구 시즌2 불꽃파이터즈vs동국대 _ 백상응원가",
+      "channel": "동국대학교 백상응원단",
+      "publishedAt": "2026-08-07T04:39:47-07:00",
+      "descriptionSummary": "공식 설명은 2026-07-26 고척스카이돔 불꽃파이터즈 대 동국대학교 경기에서 48대 액션 단원이 응원했다고 밝힌다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "2026 야구 경기",
+        "최신 직접 현행성",
+        "스포츠 응원"
+      ],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-dongguk-official-cheer-page",
+      "type": "university-primary",
+      "url": "https://www.dongguk.edu/page/105",
+      "title": "교가/응원가 - 응원가",
+      "publisher": "동국대학교",
+      "publishedAt": "undated-live-page",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 명칭을 동국대학교 응원가로 제시하고 이병주 작사·이회목 작곡으로 표기하며, 두 절과 후렴·악보·듣기·다운로드를 제공한다.",
+      "supports": [
+        "공식 곡명",
+        "공식 가사 구조",
+        "이병주 작사",
+        "이회목 작곡 표기",
+        "학교 공식 음원·악보"
+      ]
+    },
+    {
+      "id": "ev-dongguk-media-2011-remake",
+      "type": "campus-press",
+      "url": "https://www.donggukmedia.com/news/articleView.html?idxno=14983",
+      "title": "교가 · 응원가 새로 편곡해 녹음",
+      "publisher": "동대신문·동국대학교 대학미디어센터",
+      "publishedAt": "2011-05-04",
+      "accessedAt": "2026-08-09",
+      "summary": "응원가가 1960년대 중반 제작됐고, 이병주 작사·이희목 작곡이라고 기록한다. 김영준 동문이 낡은 모노 음원을 실제 응원 현장에 맞는 밝고 비트 있는 록밴드 스타일로 재편곡·재녹음해 105주년 개교기념식에서 공개한다고 보도한다.",
+      "supports": [
+        "1960년대 중반 제작",
+        "이병주 작사",
+        "이희목 작곡 표기",
+        "김영준 2011 편곡·재녹음",
+        "록 버전 공개"
+      ]
+    },
+    {
+      "id": "ev-dongguk-official-symbol",
+      "type": "university-primary",
+      "url": "https://www.dongguk.edu/page/102",
+      "title": "동국대학교 상징",
+      "publisher": "동국대학교",
+      "publishedAt": "undated-live-page",
+      "accessedAt": "2026-08-09",
+      "summary": "학교 상징 동물이 코끼리이며 부처 탄생설화의 흰 코끼리에서 유래하고, 불교에서 지혜와 복덕을 갖춘 신령한 동물로 여긴다고 설명한다.",
+      "supports": [
+        "흰 코끼리 상징",
+        "백상 명칭의 문화적 맥락"
+      ]
+    },
+    {
+      "id": "ev-dongguk-namu-symbol",
+      "type": "community-reference",
+      "url": "https://namu.wiki/w/%EB%8F%99%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90/%EC%83%81%EC%A7%95",
+      "title": "동국대학교/상징",
+      "publisher": "나무위키",
+      "publishedAt": "2026-07",
+      "accessedAt": "2026-08-09",
+      "summary": "응원가를 일명 동대 코끼리라 부르고 이병주 작사·이희목 작곡으로 정리한다. 과거 야구 경기·새터·축제에서 쓰였으나 현재는 거의 들을 일이 없다고 서술하는데, 이 현재성 평가는 2022·2026 공식 공연 영상과 충돌한다. 백상응원가의 별도 역사·크레딧은 제공하지 않는다.",
+      "supports": [
+        "동대 코끼리 별칭",
+        "이희목 작곡 표기",
+        "과거 사용 맥락",
+        "현행성 상충 주장",
+        "백상응원가 정보 부재"
+      ]
+    },
+    {
+      "id": "ev-dongguk-media-2023-team",
+      "type": "campus-press",
+      "url": "https://www.donggukmedia.com/news/articleView.html?idxno=81111",
+      "title": "민족 동국을 외쳐라, 백상응원단",
+      "publisher": "동대신문·동국대학교 대학미디어센터",
+      "publishedAt": "2023-11-12",
+      "accessedAt": "2026-08-09",
+      "summary": "백상응원단을 대학스포츠실 소속 학교 대표 단체로 소개한다. 액션·밴드 부서가 스포츠 경기, 봄·가을 축제, 학내외 행사에 참여하고, 대대로 내려오는 기존곡과 큰 무대용 신곡을 함께 쓰며 밴드 라이브와 액션을 결합한다고 설명한다.",
+      "supports": [
+        "공식 단체 지위",
+        "스포츠·축제 활동",
+        "밴드액션 형식",
+        "기존곡과 신곡 제작"
+      ]
+    },
+    {
+      "id": "ev-dongguk-media-2023-festival",
+      "type": "campus-press",
+      "url": "https://www.donggukmedia.com/news/articleView.html?idxno=80337",
+      "title": "다시, 봄! 연등과 함께한 봄 대동제",
+      "publisher": "동대신문·동국대학교 대학미디어센터",
+      "publishedAt": "2023-06-04",
+      "accessedAt": "2026-08-09",
+      "summary": "2023 봄 대동제 동아리 무대 마지막을 백상응원단이 장식했고, 학교 응원가 무대에서 관객이 구호와 함성을 함께 외쳤다고 보도한다.",
+      "supports": [
+        "축제 공연",
+        "관객 참여",
+        "학교 응원가 사용"
+      ]
+    },
+    {
+      "id": "ev-dongguk-official-team-video-2024",
+      "type": "university-video-primary",
+      "url": "https://www.youtube.com/watch?v=5XZY1elscRg",
+      "title": "한입만 ep.2.1 - 동국대학교 백상응원단 체험하기",
+      "publisher": "동국대학교 DONGGUK UNIVERSITY",
+      "publishedAt": "2024-04-16",
+      "accessedAt": "2026-08-09",
+      "summary": "대학 공식 채널이 백상응원단을 학교 동아리 체험 대상으로 소개하고 단장단·액션 동작·공연을 보여 준다.",
+      "supports": [
+        "대학 공식 응원단 소개",
+        "액션 치어리딩 활동"
+      ]
+    },
+    {
+      "id": "ev-dongguk-buddhist-press-2012",
+      "type": "external-press",
+      "url": "https://www.ibulgyo.com/news/articleView.html?idxno=122390",
+      "title": "프로야구, 동대 야구부가 석권",
+      "publisher": "불교신문",
+      "publishedAt": "2012-11-07",
+      "accessedAt": "2026-08-09",
+      "summary": "동국대 출신들이 과거 동대문야구장에서 야구부를 응원하며 남산코끼리와 진달래꽃 등을 함께 불렀던 기억을 소개한다.",
+      "supports": [
+        "과거 대학야구 응원",
+        "남산코끼리 별칭과 집단 제창"
+      ]
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 2,
+    "youtubeSampleCount": 10,
+    "songsMeetingYoutubeMinimum": 2,
+    "openIssueCount": 8
+  }
+}

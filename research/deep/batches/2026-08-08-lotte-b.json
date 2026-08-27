@@ -1,0 +1,1698 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-lotte-b",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-lotte-giants",
+    "name": "롯데 자이언츠",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 응원가 가사는 합법적으로 열람 가능한 출처 URL과 구조·주제만 기록하고, 공개 댓글은 작성자 식별정보와 원문 인용 없이 반복 반응만 요약한다. 퍼블릭 도메인인 원곡이 있어도 롯데 개사·편곡판의 전문 저장 권리는 별도로 확인되지 않았으므로 저장하지 않는다.",
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 38,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 18
+  },
+  "items": [
+    {
+      "id": "lotte-giants-dream-of-ground",
+      "title": "Dream of Ground",
+      "aliases": [
+        "Dream Of Ground",
+        "DREAM OF GROUND",
+        "드림 오브 그라운드"
+      ],
+      "currentStatus": "current-official-cheerleading-performance-song",
+      "summary": "슈가도넛이 부른 롯데 구단 응원곡으로, 2009년 4월 음원 발매와 같은 해 9월의 현장 영상까지 확인된다. 2015년 Giants TV가 개막 홍보 영상으로 다시 소개했고, 2023·2024 치어리더 공연과 2026 구단 공식 전곡 영상에도 이어진다. 현행 나무위키와 2022년 치어리더 인터뷰를 함께 보면 1회 말 종료 뒤 응원단 소개·치어리딩 구간의 공연곡이라는 성격이 강하다. 2023년 이후 같은 이름의 응원가 공모전과 동명 수상작이 생겼으므로 기존 슈가도넛 곡과 구별해야 한다.",
+      "claims": [
+        {
+          "field": "performerAndRelease",
+          "value": "슈가도넛(Sugar Donut) 보컬, 컴필레이션 ‘프로야구응원가_롯데자이언츠’ 수록, 2009-04-15 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-genie-dream",
+            "yt-lotte-b-dream-field-2009",
+            "yt-lotte-b-dream-audio-2012"
+          ],
+          "notes": "음원 서비스의 앨범·트랙 메타데이터와 2009년 현장 영상이 시기를 교차한다. 2008년 제작 참여설은 있으나 발매일보다 앞선 정확한 녹음·도입일은 확인되지 않았다."
+        },
+        {
+          "field": "introduction",
+          "value": "늦어도 2009-09-01까지 롯데 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-dream-field-2009",
+            "ev-lotte-b-genie-dream"
+          ],
+          "notes": "직접 현장 표본의 게시일이 2009년 9월 1일이며 영상 내용도 당시 치어리더 공연이다. 최초 경기 사용일 자체는 미확인이다."
+        },
+        {
+          "field": "usageContext",
+          "value": "홈·원정에서 응원단이 참가할 때 1회 말 종료 뒤 응원단 소개·치어리딩 공연에 쓰이는 감상형 팀 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-dream",
+            "yt-lotte-b-dream-official-2015",
+            "yt-lotte-b-dream-opening-2023",
+            "yt-lotte-b-dream-field-2024"
+          ],
+          "notes": "나무위키는 관중 제창보다 치어리더 공연을 보며 흥을 돋우는 곡이라고 설명한다. 2022 인터뷰상 같은 이닝 사이에 ‘챔피언 롯데’도 공연되므로 한 곡만의 고정 독점 구간으로 해석하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 전곡 플레이리스트 18분 15초 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-official-2026",
+            "yt-lotte-b-dream-official-2026"
+          ],
+          "notes": "2025년 구단 보도에서도 이 제목을 ‘구단 공식 응원가’로 명시한다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "슈가도넛 남성 보컬 음원은 존재하지만 현장에서는 다른 공연용 버전을 사용한다는 설명",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-dream",
+            "yt-lotte-b-dream-male-version-2020",
+            "yt-lotte-b-dream-field-2024"
+          ],
+          "notes": "현장용 보컬·편곡의 정식 크레딧은 확인하지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "1회 말 종료 뒤 응원단·치어리더 소개 공연",
+        "개막·출정식처럼 시즌의 꿈과 열정을 강조하는 구단 영상",
+        "관중이 전 구간을 제창하기보다 안무와 노래를 감상하며 분위기를 올리는 구간"
+      ],
+      "trivia": [
+        {
+          "id": "dream-emotional-attachment",
+          "summary": "2009년부터 2026년까지의 영상 댓글에서 사직 입장 순간, 2010년대 초반 선수단, 언젠가의 우승을 함께 떠올리며 벅차거나 울컥한다는 반응이 장기간 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-dream-audio-2012",
+            "yt-lotte-b-dream-official-2015",
+            "yt-lotte-b-dream-mv-2022",
+            "yt-lotte-b-dream-opening-2023",
+            "yt-lotte-b-dream-official-2026"
+          ]
+        },
+        {
+          "id": "dream-same-name-contest",
+          "summary": "부산시·부산정보산업진흥원·롯데는 2023년부터 ‘DREAM OF GROUND’를 새 응원가·브랜드 영상 공모전 명칭으로도 사용했다. 2023 특별상에는 유자·Roggy의 동명곡까지 있어, 2009년 슈가도넛 곡과 제목만으로 합치면 안 된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-dream-contest-2023",
+            "ev-lotte-b-genie-dream"
+          ]
+        },
+        {
+          "id": "dream-timing-overlap",
+          "summary": "현행 나무위키는 이 곡을 1회 말 종료 뒤 항상 나오는 곡으로, 2022년 우신희 인터뷰는 ‘챔피언 롯데’를 같은 시점에 항상 부른다고 설명한다. 두 곡은 응원단 소개 공연에서 연이어 쓰일 수 있으므로 서로 배타적인 주장으로 보지 않았다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-dream",
+            "ev-lotte-b-dugout-champion",
+            "yt-lotte-b-dream-field-2024"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-song-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.genie.co.kr/detail/songInfo?xgnm=77042128",
+          "https://www.youtube.com/watch?v=qwo9kzhjHao",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.6"
+        ],
+        "structureSummary": "함성과 열정이 롯데의 힘이라는 짧은 도입 뒤, 살아 있는 그라운드와 팬의 동행을 노래하는 네 문장형 후렴이 나온다. 간주 뒤 같은 후렴을 두 차례 더 반복하는 공연형 구성이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-b-dream-field-2009",
+        "yt-lotte-b-dream-audio-2012",
+        "yt-lotte-b-dream-official-2015",
+        "yt-lotte-b-dream-mv-2022",
+        "yt-lotte-b-dream-opening-2023",
+        "yt-lotte-b-dream-field-2024",
+        "yt-lotte-b-dream-official-2026"
+      ],
+      "unresolved": [
+        "2008년 제작·녹음 참여설과 2009년 음원 발매 사이의 정확한 최초 경기 사용일",
+        "작사·작곡·편곡·프로듀서의 공식 전체 크레딧",
+        "현행 치어리딩용 음원의 보컬·편곡자와 슈가도넛 음원과의 정확한 차이",
+        "2023 공모전 동명 수상작이 정규 경기에서 실제 사용된 기간과 기존곡과의 내부 구분명"
+      ]
+    },
+    {
+      "id": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "title": "소리높여 외쳐보자",
+      "aliases": [
+        "영원하라",
+        "롯데 자이언츠 영원하라",
+        "소리높여 외쳐보자(영원하라)"
+      ],
+      "currentStatus": "current-official-title-popular-alias-preserved",
+      "summary": "공식 표기는 ‘소리높여 외쳐보자’, 널리 알려진 별칭은 ‘영원하라’다. 바네사 메이의 ‘Contradanza’를 원곡으로 하고 고려대학교 응원가 ‘영원하라’의 편곡·응원 형식을 거쳐 롯데식 가사로 사용된 계보다. 2011년 플레이오프 첫 공개설은 나무위키에 있으나 직접 제목·설명으로 확인되는 가장 오래된 표본은 2012년이어서 도입 연도는 ‘2011년경, 불명확’으로 유지한다. 2019년 전후 홈·원정 구호가 ‘최강 롯데’로 통합됐고, 2022년에는 국립부산국악원과 국악판도 만들었다.",
+      "claims": [
+        {
+          "field": "officialTitleAndAlias",
+          "value": "공식 제목 ‘소리높여 외쳐보자’, 통용 별칭 ‘영원하라’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-official-2026",
+            "yt-lotte-b-sori-official-2026",
+            "yt-lotte-b-sori-old-2012",
+            "yt-lotte-b-sori-field-2025"
+          ],
+          "notes": "2026 Giants TV는 공식 타임코드에 전자만 쓰며, 팬·현장 영상은 두 이름을 병기하거나 후자를 사용한다. 승인된 사이트 표기를 그대로 보존했다."
+        },
+        {
+          "field": "origin",
+          "value": "Vanessa-Mae ‘Contradanza’(작곡 크레딧 Mike Batt) 선율을 쓴 고려대학교 ‘영원하라’ 계열의 롯데 개사·편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-official-copyright",
+            "ev-lotte-b-namu-sori",
+            "ev-lotte-b-shared-cheer-article"
+          ],
+          "notes": "구단 저작자 페이지가 Contradanza·Vanessa Mae·Mike Batt를 직접 적고, 나무위키와 2014년 기사에서 고려대→롯데 사용 관계가 일치한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2011년 플레이오프 첫 공개설; 확인된 직접 제목·설명 표본은 2012-10-18",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-sori",
+            "yt-lotte-b-sori-old-2012"
+          ],
+          "notes": "승인된 기존 사이트 데이터처럼 2011년은 보도·문서 주장으로, 2012년은 가장 오래된 직접 식별 영상으로 분리한다. 2011년 플레이오프 영상 자체에서 곡을 확정할 타임스탬프는 아직 없다."
+        },
+        {
+          "field": "chantVersionChange",
+          "value": "2019년 이전 홈 ‘부산 롯데’·원정 ‘최강 롯데’ 구분에서 이후 ‘최강 롯데’로 통합",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-sori",
+            "yt-lotte-b-sori-old-2012",
+            "yt-lotte-b-sori-playoff-2017",
+            "yt-lotte-b-sori-field-2025"
+          ],
+          "notes": "오래된 영상의 부산 버전과 2025 최강 버전이 변화를 뒷받침하지만 정확한 첫 통합 경기일은 미확인이다."
+        },
+        {
+          "field": "usageContext",
+          "value": "승부처·후반 분위기 고조 때 팬들이 어깨동무하고 뛰며 부르는 대형 제창 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-sori",
+            "yt-lotte-b-sori-playoff-2017",
+            "yt-lotte-b-sori-eighth-2023",
+            "yt-lotte-b-sori-field-2025"
+          ],
+          "notes": "2017 준플레이오프 9회 말, 2023 부산시리즈 8회 말, 2025 정규 경기 표본이 후반·집단 제창 성격을 직접 보여준다."
+        },
+        {
+          "field": "traditionalArrangement",
+          "value": "2022-09-10~11 사직 홈 2연전에서 국립부산국악원 협업 국악 버전 첫 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-inews-gugak"
+          ],
+          "notes": "기사 제목은 당시 통용명인 ‘영원하라’를 사용한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 전곡 플레이리스트 6분 5초 수록 및 2025-09-05~06 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-sori-official-2026",
+            "yt-lotte-b-sori-field-2025",
+            "yt-lotte-b-sori-field-4k-2025"
+          ],
+          "notes": "현행성과 공식 제목을 동시에 확인한다."
+        }
+      ],
+      "usageContexts": [
+        "7~9회 승부처와 팀이 흐름을 잡은 상황",
+        "팬들이 서로 어깨동무하고 박자에 맞춰 뛰는 집단 응원",
+        "구단 공식 음원·국악 협업 공연과 원정 경기의 대형 떼창"
+      ],
+      "trivia": [
+        {
+          "id": "sori-busan-first",
+          "summary": "나무위키는 이 곡을 롯데 팀 응원가 가운데 처음으로 연고지 부산을 가사에 직접 넣어 큰 호응을 받은 사례로 소개한다. 2012 음원형 영상에도 당시 ‘부산 롯데’ 버전이 남아 있다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-sori",
+            "yt-lotte-b-sori-old-2012"
+          ]
+        },
+        {
+          "id": "sori-not-linked-to-boat-song",
+          "summary": "뱃노래와 마찬가지로 어깨동무하고 뛰는 곡이지만, 연속 응원에서 두 곡을 바로 이어 부르지는 않는다는 운용 설명이 있다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-sori"
+          ]
+        },
+        {
+          "id": "sori-alias-memory",
+          "summary": "2012·2017·2023·2025 현장 영상의 제목과 댓글에서 ‘영원하라’가 계속 병용된다. 특히 예전 ‘부산 롯데’ 구호를 그리워하거나 현재 공식명보다 별칭으로 곡을 기억하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-sori-old-2012",
+            "yt-lotte-b-sori-playoff-2017",
+            "yt-lotte-b-sori-eighth-2023",
+            "yt-lotte-b-sori-field-2025"
+          ]
+        },
+        {
+          "id": "sori-cross-team-use",
+          "summary": "부산 OK저축은행 읏맨도 같은 계열 선율을 ‘영원하라 읏맨’으로 사용한다는 기록이 있어, 곡명만으로 롯데 버전과 혼동하지 않아야 한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-sori"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-original-and-club-adaptation-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.giantsclub.com/html/?pcode=985",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.7",
+          "https://www.youtube.com/watch?v=JdjV7GUhdQU",
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE"
+        ],
+        "structureSummary": "짧은 선창 뒤 승리를 위해 목소리를 높이자는 연결부, 팀명 장음 제창, 승리 선언과 네 음절 구호가 이어진다. 간주 뒤 같은 전체 블록을 한 번 더 반복하는 구조이며 과거 부산 버전과 현행 최강 버전의 팀명 부분이 다르다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-b-sori-old-2012",
+        "yt-lotte-b-sori-playoff-2017",
+        "yt-lotte-b-sori-field-2022",
+        "yt-lotte-b-sori-eighth-2023",
+        "yt-lotte-b-sori-field-2025",
+        "yt-lotte-b-sori-field-4k-2025",
+        "yt-lotte-b-sori-official-2026"
+      ],
+      "unresolved": [
+        "2011 플레이오프 최초 공개설을 직접 확인할 날짜·타임스탬프가 있는 원본 영상 또는 구단 공지",
+        "고려대학교 편곡에서 롯데 개사판으로 이어진 정확한 편곡·개사 담당자와 이용 허락 경로",
+        "‘부산 롯데’에서 ‘최강 롯데’로 완전히 통합된 정확한 첫 경기일과 2022 국악판의 2026 현행 사용 여부"
+      ]
+    },
+    {
+      "id": "lotte-giants-champion-lotte",
+      "title": "챔피언 롯데",
+      "aliases": [
+        "챔피언롯데",
+        "Champion Lotte"
+      ],
+      "currentStatus": "current-cheerleader-introduction-song-and-karaoke-catalog",
+      "summary": "2012년에 새로 선보인 박상민 보컬의 창작 팀 응원가다. 금영 공식 노래방 자료가 작사·작곡 유해준, 가수 박상민을 명시하고, 2012년 음원형 영상은 편곡도 유해준으로 적는다. 현장에서는 1회 말 종료 뒤 응원단 소개·치어리딩 공연에 쓰이며 긴 음원 전체보다 공연용 단축 구간을 사용하는 표본이 많다. 2025 사직 직캠, 2026 구단 공식 전곡 영상, 2025~2026 공식 노래방 수록까지 현재성이 이어진다.",
+      "claims": [
+        {
+          "field": "creatorAndPerformer",
+          "value": "작사·작곡 유해준, 노래 박상민; 2012 음원 설명은 편곡도 유해준으로 표기",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-champion-old-2012",
+            "yt-lotte-b-champion-ky-2025",
+            "yt-lotte-b-champion-tj-2025"
+          ],
+          "notes": "금영 공식 채널이 작사·작곡·가수를 직접 적는다. 편곡은 2012년 보존 영상 설명만 있어 중간 신뢰도로 보조한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2012년 신규 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-champion",
+            "yt-lotte-b-champion-old-2012"
+          ],
+          "notes": "2012년 10월 직접 제목·크레딧 영상과 문서가 일치한다. 댓글의 ‘홈 개막전 최초 공개’ 주장은 독립 검증 전 여담으로만 취급한다."
+        },
+        {
+          "field": "usageContext",
+          "value": "1회 말 종료 뒤, 2회 초 시작 전 응원단·치어리더 소개 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-dugout-champion",
+            "ev-lotte-b-namu-champion",
+            "yt-lotte-b-champion-opening-2021",
+            "yt-lotte-b-champion-field-2025"
+          ],
+          "notes": "치어리더 우신희가 직접 ‘1회 말이 끝나면 항상 부르는 곡’이라고 설명했고, 2021 홈 개막전 영상 설명도 같은 시점을 적는다."
+        },
+        {
+          "field": "performanceEdit",
+          "value": "3분 안팎의 원 음원에서 벌스·후렴 일부를 쓰고 후반 박수 구호로 넘어가는 단축 공연판 사용",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-champion",
+            "yt-lotte-b-champion-old-2012",
+            "yt-lotte-b-champion-field-2024",
+            "yt-lotte-b-champion-field-2025"
+          ],
+          "notes": "2012 음원형 영상은 3분 5초지만 최근 현장 직캠은 약 1분 20초이며, 나무위키 각주가 공연 중 생략 지점을 설명한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 전곡 플레이리스트 20분 24초 수록, 2025 사직 현장 및 공식 노래방 수록 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-champion-official-2026",
+            "yt-lotte-b-champion-field-2025",
+            "yt-lotte-b-champion-tj-2025",
+            "yt-lotte-b-champion-ky-2025",
+            "ev-lotte-b-karaoke-news"
+          ],
+          "notes": "노래방 수록은 경기장 밖 인지도를 보조하고, 구단 영상과 현장 직캠이 실제 현행성을 확정한다."
+        }
+      ],
+      "usageContexts": [
+        "1회 말 종료 뒤 응원단 소개와 치어리더 단체 안무",
+        "홈런·승리·챔피언을 강조하는 경기 초반 분위기 상승",
+        "노래방에서 팬이 직접 부르는 구단 대표 창작곡"
+      ],
+      "trivia": [
+        {
+          "id": "champion-cheerleader-favorite",
+          "summary": "2022년 우신희 치어리더는 가장 좋아하는 롯데 팀 응원가로 이 곡을 꼽고, 경기 시작 직후 힘찬 안무와 함께해 의미가 크다고 설명했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-dugout-champion"
+          ]
+        },
+        {
+          "id": "champion-karaoke-numbers",
+          "summary": "TJ 47810, 금영 56525로 공식 반주 영상이 공개됐다. 두 채널 모두 제목과 박상민 보컬 표기를 일치시키며, 금영은 유해준의 작사·작곡 정보도 제공한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-champion-tj-2025",
+            "yt-lotte-b-champion-ky-2025"
+          ]
+        },
+        {
+          "id": "champion-singer-fandom-story",
+          "summary": "박상민이 과거 두산 팬이었으나 2008년 ‘롯데만을 사랑하리’를 부른 뒤 롯데 팬으로 전향했다는 이야기가 나무위키에 전해진다. 본인의 1차 발언은 확인하지 못해 여담으로만 둔다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-champion"
+          ]
+        },
+        {
+          "id": "champion-forever-giants-conflict",
+          "summary": "2009 컴필레이션의 쟈니로얄 곡 ‘Forever Giants’에도 ‘챔피언’ 표현이 반복되지만, 이는 박상민의 2012년 ‘챔피언 롯데’와 별개 곡이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-forever-giants",
+            "yt-lotte-b-champion-old-2012",
+            "yt-lotte-b-champion-ky-2025"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-original-club-song-karaoke-credits-available-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=uRY5UPtf1sQ",
+          "https://www.youtube.com/watch?v=wXTbz6Yj6rs",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.8"
+        ],
+        "structureSummary": "팀명 선창 뒤 홈런과 전진을 촉구하는 벌스, 챔피언이라는 제목을 길게 부르고 관중이 팀명으로 후창하는 후렴, 힘을 모아 승리한다는 연결부가 이어진다. 원 음원은 벌스·후렴 변형을 여러 차례 반복하고 마지막 박수 구호로 끝나며, 현장 공연판은 중간을 줄인다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-b-champion-old-2012",
+        "yt-lotte-b-champion-opening-2021",
+        "yt-lotte-b-champion-field-2024",
+        "yt-lotte-b-champion-tj-2025",
+        "yt-lotte-b-champion-ky-2025",
+        "yt-lotte-b-champion-field-2025",
+        "yt-lotte-b-champion-official-2026"
+      ],
+      "unresolved": [
+        "2012년 최초 공개 경기의 정확한 날짜와 구단 공지 원문",
+        "유해준 편곡 크레딧과 프로듀서·연주자까지 포함한 공식 음원 등록 정보",
+        "2026 시즌 응원단 소개에서 원 음원과 단축 공연판을 선택하는 정확한 운영 규칙"
+      ]
+    },
+    {
+      "id": "lotte-giants-shout-victory-grandfather-clock",
+      "title": "승리를 외치자",
+      "aliases": [
+        "할아버지 시계",
+        "할아버지의 시계",
+        "점프송",
+        "승리의 함성"
+      ],
+      "currentStatus": "current-disambiguated-grandfathers-clock-jump-song",
+      "summary": "1876년 Henry Clay Work의 ‘Grandfather's Clock’ 선율을 밝고 빠르게 편곡한 점프 응원가다. 2012년경 조지훈 응원단장이 만들고 초기 짧은 판과 신문지 소재 가사를 손본 뒤 2013년부터 본격 사용했다는 기록이 있다. 투수 교체·공수교대·우천 응원·라이팅 쇼와 클래식시리즈 합동 응원에서 팬들이 어깨동무하고 구절 사이 점프와 팔동작을 맞춘다. 2026 공식 목록의 첫 곡으로 남아 있으며, 14분 54초의 별도 곡 ‘롯데의 승리를 외치자’와 혼동하면 안 된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Henry Clay Work가 1876년에 발표한 ‘Grandfather's Clock’ 선율의 롯데 응원 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-loc-grandfather-clock",
+            "ev-lotte-b-namu-victory",
+            "yt-lotte-b-victory-origin-2019"
+          ],
+          "notes": "미국 의회도서관 원본 악보와 나무위키·영상의 원곡 식별이 일치한다. 원곡 악보는 퍼블릭 도메인이지만 롯데 편곡·개사판 권리는 별개다."
+        },
+        {
+          "field": "introductionAndRevision",
+          "value": "2012년경 초안 제작, 일부 가사·구성을 수정한 뒤 2013년부터 본격 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-victory"
+          ],
+          "notes": "문서는 2012년경 초기판에 신문지 이야기가 있었고 몇 소절을 고쳤다고 설명한다. 날짜가 찍힌 공식 구단 원문은 아직 없다."
+        },
+        {
+          "field": "creator",
+          "value": "조지훈 롯데 응원단장 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-victory"
+          ],
+          "notes": "나무위키 전언이며 구단의 작사·편곡 크레딧표에서는 확인되지 않았다."
+        },
+        {
+          "field": "titleDisambiguation",
+          "value": "할아버지 시계·점프송으로 불리는 이 곡은 ‘롯데의 승리를 외치자’, ‘승리를 위한 전진’ 등 다른 팀 응원가와 별개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-official-2026",
+            "yt-lotte-b-victory-official-2026",
+            "yt-lotte-b-victory-origin-2019"
+          ],
+          "notes": "2026 공식 영상이 0분 ‘승리를 외치자’, 14분 54초 ‘롯데의 승리를 외치자’, 40분 15초 ‘승리를 위한 전진’을 별도 타임코드로 나눈다."
+        },
+        {
+          "field": "usageContext",
+          "value": "투수 교체·공수교대·우천 응원·라이팅 쇼에서 어깨동무와 점프를 결합하는 참여형 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-victory",
+            "yt-lotte-b-victory-rain-2019",
+            "yt-lotte-b-victory-mv-2020",
+            "yt-lotte-b-victory-classic-a-2023",
+            "yt-lotte-b-victory-classic-b-2023"
+          ],
+          "notes": "‘점프송’이라는 영상 제목과 클래식시리즈 합창 영상이 참여 방식을 직접 보여준다."
+        },
+        {
+          "field": "chantVersionChange",
+          "value": "과거 홈 ‘부산 롯데 자이언츠’에서 2019년 이후 홈·원정 ‘최강 롯데 자이언츠’로 통일",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-victory",
+            "yt-lotte-b-victory-old-2016",
+            "yt-lotte-b-victory-origin-2019"
+          ],
+          "notes": "영상 제목·설명과 문서가 일치하지만 정확한 전환 경기일은 미확인이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 전곡 영상 0분 첫 트랙으로 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-victory-official-2026"
+          ],
+          "notes": "공식 영상 댓글의 팬 타임라인도 ‘할아버지 시계’ 별칭을 병기한다."
+        }
+      ],
+      "usageContexts": [
+        "투수 교체와 공수교대의 긴 대기 시간",
+        "우천 중단 때 관중과 응원단이 함께 뛰는 즉흥 응원",
+        "사직 라이팅 쇼와 삼성 클래식시리즈의 양 팀 합동 제창"
+      ],
+      "trivia": [
+        {
+          "id": "victory-choreography",
+          "summary": "제목 구절 사이에 짧은 추임새를 넣고 끝에서 점프하며, 팀명 구간은 달리듯 팔을 젓고, 중간 벌스는 두 팔을 위에서 좌우로 흔든 뒤 네 음절 구호에 주먹을 올리는 안무로 정리된다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-victory",
+            "yt-lotte-b-victory-rain-2019",
+            "yt-lotte-b-victory-classic-b-2023"
+          ]
+        },
+        {
+          "id": "victory-uniform-event",
+          "summary": "도입 당시 사직 클리닝 타임에 이 노래를 부르다가 카메라에 잡힌 팬에게 유니폼을 주는 행사가 있었다는 기록이 남아 있다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-victory"
+          ]
+        },
+        {
+          "id": "victory-classic-series",
+          "summary": "2023 클래식시리즈에서는 삼성과 롯데 팬이 함께 이 곡을 불렀다. 만원 관중 합창과 상대 팀 전광판·응원단 협업을 반기는 댓글이 반복된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-victory-classic-a-2023",
+            "yt-lotte-b-victory-classic-b-2023"
+          ]
+        },
+        {
+          "id": "victory-cross-team-adaptations",
+          "summary": "라미고 몽키스가 롯데와의 교류로 같은 계열 응원가를 사용했고, 부산 KCC 이지스는 전주 시절부터 ‘푸른전사’로 사용한다는 기록이 있다. 각 팀 버전은 별개 항목으로 관리해야 한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-victory"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "public-domain-original-melody-but-club-arrangement-and-lyrics-rights-unverified-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.loc.gov/resource/music.mussm-sm1876-01869/?st=brief",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.9",
+          "https://www.youtube.com/watch?v=2bHM9QbdNtA",
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE"
+        ],
+        "structureSummary": "제목과 팀명을 길게 부르는 짧은 후렴을 두 차례 반복한 뒤, 승리의 이름과 팬의 지속적인 외침을 말하는 짧은 벌스가 나온다. 네 음절 선창·후창 구호를 두 번 주고받고 처음 후렴으로 돌아가며, 박자 중간 추임새와 점프가 핵심이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-b-victory-old-2016",
+        "yt-lotte-b-victory-rain-2019",
+        "yt-lotte-b-victory-origin-2019",
+        "yt-lotte-b-victory-mv-2020",
+        "yt-lotte-b-victory-classic-a-2023",
+        "yt-lotte-b-victory-classic-b-2023",
+        "yt-lotte-b-victory-official-2026"
+      ],
+      "unresolved": [
+        "2012년 초창기판과 2013년 본격 사용판의 정확한 공개일·전체 변경 내역",
+        "조지훈 제작을 확인하는 구단 공식 크레딧과 편곡·보컬·녹음 담당자",
+        "2026 시즌 투수 교체·공수교대·라이팅 쇼별 실제 선곡 빈도",
+        "라미고·KCC 등 타 구단 버전의 도입일과 이용 허락·편곡 경로"
+      ]
+    },
+    {
+      "id": "lotte-giants-shout-loudly",
+      "title": "힘차게 외쳐보자",
+      "aliases": [
+        "롯데 자이언츠 오오오",
+        "롯데 오오오"
+      ],
+      "currentStatus": "current-short-and-full-versions",
+      "summary": "Twisted Sister의 1984년 곡 ‘We're Not Gonna Take It’을 바탕으로 한 팀 응원가다. 나무위키는 고려대학교 ‘함성속으로’와 부산 아이파크 오프닝 계보를 거쳐 2008년 롯데에 들어왔다고 설명하지만, 직접 확인되는 오래된 롯데 현장 표본은 2011년의 짧은 팀명·오오오 구호판이다. 2015년에는 새 벌스가 붙은 풀버전이 공개됐고, 현재도 짧은 분위기 업 음원과 풀버전을 상황에 따라 병용한다. 2026 공식 전곡 영상과 3월 시범경기·5월 현장 표본에서 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Twisted Sister ‘We're Not Gonna Take It’(1984, 작곡 Dee Snider) 선율의 응원 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-b-official-copyright",
+            "ev-lotte-b-twisted-official",
+            "ev-lotte-b-namu-shout",
+            "yt-lotte-b-shout-field-2011"
+          ],
+          "notes": "구단 저작자 페이지와 권리자 제공 공식 음원 메타데이터, 2011 현장 영상 설명이 원곡을 일치해 식별한다."
+        },
+        {
+          "field": "lineage",
+          "value": "2002년 고려대 ‘함성속으로’ 편곡과 부산 아이파크 구단 오프닝을 거쳐 2008년 응원 교류 때 롯데에 넘어왔다는 설명",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-shout"
+          ],
+          "notes": "문서가 두 선행 경로를 함께 설명하지만, 누가 어느 편곡을 언제 롯데판으로 옮겼는지 보여주는 1차 기록은 없다. ‘고려대→부산 아이파크→롯데’의 단일 직선 계보로 단정하지 않는다."
+        },
+        {
+          "field": "earliestDirectLotteUse",
+          "value": "2011-10-20 게시 현장 영상에서 짧은 팀명·오오오 구호판 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-shout-field-2011"
+          ],
+          "notes": "영상 설명은 2011년 잠실과 원곡을 직접 적는다. 2008년 도입설보다 늦으므로 최초 사용을 증명하지는 않고, 현재 확보한 가장 오래된 직접 표본으로만 쓴다."
+        },
+        {
+          "field": "fullVersionIntroduction",
+          "value": "기존 짧은 구호판에 새 소절을 추가한 풀버전을 2015년에 공개",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-shout",
+            "yt-lotte-b-shout-new-2015",
+            "yt-lotte-b-shout-full-2016"
+          ],
+          "notes": "2015년 4월 ‘새 응원가’ 영상이 동시대 공개를 확인하고, 2016년 영상에서 풀버전 유통이 이어진다. 정확한 구단 공개일·크레딧은 미확인이다."
+        },
+        {
+          "field": "usageContext",
+          "value": "투수 교체 등 대기 시간에는 풀버전, 짧은 분위기 업 상황에는 첫 팀명·오오오 구간만 두 번 반복",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-shout",
+            "yt-lotte-b-shout-field-2020",
+            "yt-lotte-b-shout-opening-2023",
+            "yt-lotte-b-shout-full-2026",
+            "yt-lotte-b-shout-choreo-2026"
+          ],
+          "notes": "2026 치어리더 모음은 7분 20초에 short ver.라고 직접 표시하고, 같은 해 시범경기 영상은 Full Ver.라고 표시한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 전곡 영상 21분 48초 수록 및 2026-03-15 풀버전·2026-05 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-shout-official-2026",
+            "yt-lotte-b-shout-full-2026",
+            "yt-lotte-b-shout-field-2026",
+            "yt-lotte-b-shout-choreo-2026"
+          ],
+          "notes": "공식 목록과 같은 시즌의 직접 현장 표본이 모두 있다."
+        }
+      ],
+      "usageContexts": [
+        "투수 교체와 공수교대 등 긴 대기 시간의 풀버전",
+        "경기 초반·분위기 업 상황에서 첫 구호만 두 번 반복하는 짧은 버전",
+        "치어리더 안무와 관중의 팀명 후창이 결합되는 공연"
+      ],
+      "trivia": [
+        {
+          "id": "shout-short-version-recognition",
+          "summary": "풀버전보다 오래된 첫 팀명·오오오 구간의 인지도가 높다. 2011 현장 영상, 2020 제목 없는 ‘오오오’ 영상, 2026 short ver. 타임라인이 같은 짧은 사용 관행을 이어 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-shout-field-2011",
+            "yt-lotte-b-shout-field-2020",
+            "yt-lotte-b-shout-choreo-2026"
+          ]
+        },
+        {
+          "id": "shout-baseball-film-association",
+          "summary": "원곡은 한국에서 야구 영화 ‘슈퍼스타 감사용’ 삽입곡으로도 널리 기억된다는 설명이 있어 야구 응원가로 받아들여지는 문화적 맥락을 더한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-shout"
+          ]
+        },
+        {
+          "id": "shout-cross-sport-spread",
+          "summary": "같은 원곡·유사 편곡은 포항, 전북, 서울 이랜드, 안산, 서울 SK 등 여러 축구·농구 응원에도 쓰인다. 댓글에서도 다른 팀 응원가를 떠올리는 반응이 반복되므로 롯데 고유 창작 선율로 표기하면 안 된다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-b-namu-shout",
+            "yt-lotte-b-shout-full-2016",
+            "yt-lotte-b-shout-field-2020",
+            "yt-lotte-b-shout-field-2026"
+          ]
+        },
+        {
+          "id": "shout-two-version-current-proof",
+          "summary": "2026년 3월 시범경기 영상은 제목에 Full Ver.를, 5월 치어리더 모음은 short ver.를 명시한다. 두 편집판이 단순 과거·현재 관계가 아니라 같은 시즌에 병용됨을 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-b-shout-full-2026",
+            "yt-lotte-b-shout-choreo-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-original-song-and-club-adaptation-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.giantsclub.com/html/?pcode=985",
+          "https://www.youtube.com/watch?v=orsonBB3Lf4",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.10",
+          "https://www.youtube.com/watch?v=c3qoa0PuVew",
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE"
+        ],
+        "structureSummary": "팀명을 세 차례 부르고 장음 추임새로 끝내는 짧은 구호가 기본이다. 풀버전은 모두 함께 목소리를 높여 승리를 외치자는 두 문장형 벌스, 장음 합창과 세 차례 팀명 추임새, 기본 구호 반복, 벌스 재현으로 확장된다. 현장에서는 기본 구호만 두 번 쓰는 짧은 판도 병용한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-b-shout-field-2011",
+        "yt-lotte-b-shout-new-2015",
+        "yt-lotte-b-shout-full-2016",
+        "yt-lotte-b-shout-field-2020",
+        "yt-lotte-b-shout-opening-2023",
+        "yt-lotte-b-shout-full-2026",
+        "yt-lotte-b-shout-field-2026",
+        "yt-lotte-b-shout-choreo-2026",
+        "yt-lotte-b-shout-official-2026"
+      ],
+      "unresolved": [
+        "2008년 부산 아이파크 응원 교류 도입설을 확인할 구단·응원단 1차 기록과 정확한 롯데 첫 사용일",
+        "고려대 ‘함성속으로’ 편곡과 부산 아이파크 오프닝·롯데판 사이의 실제 편곡 계보",
+        "2015 풀버전의 작사·편곡·보컬·제작자와 공식 공개일",
+        "2026 경기 상황별 short/full 버전 선택 규칙과 실제 사용 빈도"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-lotte-b-official-copyright",
+      "type": "official-club-copyright-table",
+      "title": "롯데자이언츠 응원가 사용 음악·저작자 정보",
+      "publisher": "롯데자이언츠",
+      "url": "https://www.giantsclub.com/html/?pcode=985",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 공식 저작자 페이지의 응원가 사용 음악 표가 Twisted Sister의 ‘We're Not Gonna Take It’과 Vanessa Mae의 ‘Contradanza’를 올리고, 후자의 작곡 크레딧을 Mike Batt로 적는다. 개별 롯데 응원가와의 매핑은 나무위키·현장 자료와 함께 판단했다."
+    },
+    {
+      "id": "ev-lotte-b-official-2026",
+      "type": "official-youtube-playlist",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "publisher": "Giants TV",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 공식 영상 설명이 승리를 외치자 0:00, 소리높여 외쳐보자 6:05, Dream of Ground 18:15, 챔피언 롯데 20:24, 힘차게 외쳐보자 21:48을 별도 트랙으로 수록한다. ‘롯데의 승리를 외치자’도 14:54에 따로 있어 동명 혼동을 차단한다."
+    },
+    {
+      "id": "ev-lotte-b-namu-dream",
+      "type": "namuwiki-section",
+      "title": "롯데 자이언츠/응원가 § Dream of Ground",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.6",
+      "accessedAt": "2026-08-09",
+      "summary": "홈·원정을 가리지 않고 응원단 참가 경기의 1회 말 종료 뒤 치어리딩 타임에 사용되며, 관중 제창보다 공연 감상 성격이 강하고 슈가도넛 남성 보컬판은 현재 쓰지 않는다고 설명한다."
+    },
+    {
+      "id": "ev-lotte-b-namu-sori",
+      "type": "namuwiki-section",
+      "title": "롯데 자이언츠/응원가 § 소리높여 외쳐보자(영원하라)",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.7",
+      "accessedAt": "2026-08-09",
+      "summary": "통용 별칭, Contradanza 원곡, 고려대 선행 사용, 롯데의 2011 플레이오프 공개설, 어깨동무·점프 방식, 2019년 전후 구호 통합, 2022 국악판, 부산 OK 읏맨의 같은 선율 사용을 설명한다."
+    },
+    {
+      "id": "ev-lotte-b-namu-champion",
+      "type": "namuwiki-section",
+      "title": "롯데 자이언츠/응원가 § 챔피언 롯데",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.8",
+      "accessedAt": "2026-08-09",
+      "summary": "2012년 신규곡, 2회 초 시작 전 응원단 소개 공연, 박상민 보컬, 현장 공연판의 중간 생략 지점과 TJ·금영 노래방 번호를 정리한다."
+    },
+    {
+      "id": "ev-lotte-b-namu-victory",
+      "type": "namuwiki-section",
+      "title": "롯데 자이언츠/응원가 § 승리를 외치자(할아버지 시계, 점프송)",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.9",
+      "accessedAt": "2026-08-09",
+      "summary": "‘할아버지의 시계’ 원곡, 2012년경 초안과 2013년 본격 사용, 조지훈 제작설, 2019 구호 통합, 투수 교체·공수교대·라이팅 쇼 사용, 세부 안무, 유니폼 이벤트와 다른 구단 변형을 설명한다."
+    },
+    {
+      "id": "ev-lotte-b-namu-shout",
+      "type": "namuwiki-section",
+      "title": "롯데 자이언츠/응원가 § 힘차게 외쳐보자",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.10",
+      "accessedAt": "2026-08-09",
+      "summary": "Twisted Sister 원곡, 고려대 ‘함성속으로’ 편곡, 2008 부산 아이파크 응원 교류설, 2015 풀버전 확장, 짧은 분위기 업 음원, 투수 교체 사용과 여러 종목·구단의 같은 선율 사용을 설명한다."
+    },
+    {
+      "id": "ev-lotte-b-genie-dream",
+      "type": "licensed-music-metadata",
+      "title": "프로야구응원가_롯데자이언츠 / Dream Of Ground",
+      "publisher": "지니뮤직",
+      "url": "https://www.genie.co.kr/detail/albumInfo?axnm=77042124",
+      "accessedAt": "2026-08-09",
+      "summary": "앨범 발매일을 2009-04-15로, 타이틀곡 ‘Dream Of Ground’의 가수를 슈가도넛으로, 발매사를 오감엔터테인먼트로 표시한다."
+    },
+    {
+      "id": "ev-lotte-b-dream-official-status-2025",
+      "type": "news-club-announcement",
+      "title": "롯데, 팬과 함께 만드는 문화 축제 ‘드림 오브 그라운드 시리즈’",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/news/sports/11319228",
+      "accessedAt": "2026-08-09",
+      "summary": "2025년 홈 시리즈를 구단 공식 응원가 ‘Dream of Ground’에서 착안해 기획했다고 보도해 기존곡의 공식 지위를 확인한다."
+    },
+    {
+      "id": "ev-lotte-b-dream-contest-2023",
+      "type": "news-public-partnership",
+      "title": "드림 오브 그라운드 시상식…부산시·롯데자이언츠 공동 개최",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20230723_0002386849",
+      "accessedAt": "2026-08-09",
+      "summary": "2023 공모전의 명칭이 DREAM OF GROUND이고, 응원가 특별상에 유자·Roggy의 동명 ‘드림 오브 그라운드’가 선정됐다고 명시해 기존 슈가도넛 곡과의 동명 충돌을 확인한다."
+    },
+    {
+      "id": "ev-lotte-b-dugout-champion",
+      "type": "interview",
+      "title": "[DUGOUT Inside The Park] 우신희 치어리더",
+      "publisher": "대단한미디어",
+      "url": "https://v.daum.net/v/EG30e43t2c",
+      "accessedAt": "2026-08-09",
+      "summary": "우신희 치어리더가 최애 팀 응원가로 ‘챔피언 롯데’를 꼽고, 1회 말이 끝나면 항상 부르며 경기 시작 직후라는 의미와 힘찬 안무가 있다고 직접 설명한다."
+    },
+    {
+      "id": "ev-lotte-b-inews-gugak",
+      "type": "news-club-announcement",
+      "title": "롯데, 국립부산국악원과 MOU 맺어",
+      "publisher": "아이뉴스24",
+      "url": "https://www.inews24.com/view/1518260",
+      "accessedAt": "2026-08-09",
+      "summary": "롯데와 국립부산국악원의 협업으로 ‘영원하라’ 국악 버전이 만들어져 2022년 9월 10~11일 NC전에서 처음 공개됐다고 보도한다."
+    },
+    {
+      "id": "ev-lotte-b-shared-cheer-article",
+      "type": "news-feature",
+      "title": "[어처구니 질문 위원회] 대학응원가와 프로 응원가는 왜 같을까",
+      "publisher": "일간스포츠·네이트 스포츠",
+      "url": "https://sports.news.nate.com/view/20140208n04707",
+      "accessedAt": "2026-08-09",
+      "summary": "대학 응원가가 프로 구단에 편곡·개사되어 쓰이는 경로를 다루며 롯데가 고려대의 ‘뱃노래’, ‘영원하라’ 등을 팀 특색에 맞게 개사해 사용한다고 명시한다."
+    },
+    {
+      "id": "ev-lotte-b-loc-grandfather-clock",
+      "type": "primary-sheet-music-archive",
+      "title": "Grandfather's clock",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/resource/music.mussm-sm1876-01869/?st=brief",
+      "accessedAt": "2026-08-09",
+      "summary": "Henry Clay Work의 1876년 악보 ‘Grandfather's Clock’을 제공하며 해당 컬렉션이 퍼블릭 도메인임을 안내한다."
+    },
+    {
+      "id": "ev-lotte-b-twisted-official",
+      "type": "rights-holder-provided-audio-metadata",
+      "title": "We're Not Gonna Take It · Twisted Sister",
+      "publisher": "BMG Rights Management / Twisted Sister Official Artist Channel",
+      "url": "https://www.youtube.com/watch?v=orsonBB3Lf4",
+      "accessedAt": "2026-08-09",
+      "summary": "권리자 제공 메타데이터가 원곡을 1984-05-10 발매로, 작곡자를 Daniel Dee Snider로, 앨범을 Stay Hungry로 표시한다."
+    },
+    {
+      "id": "ev-lotte-b-karaoke-news",
+      "type": "news-industry",
+      "title": "야구 응원가? 노래방에서도 못참지",
+      "publisher": "매일경제",
+      "url": "https://v.daum.net/v/20260601135701704",
+      "accessedAt": "2026-08-09",
+      "summary": "TJ미디어가 2026년 야구 응원가 테마에 롯데의 ‘챔피언 롯데’ 박상민 버전을 포함했다고 밝힌 내용을 보도한다."
+    },
+    {
+      "id": "ev-lotte-b-forever-giants",
+      "type": "licensed-music-metadata",
+      "title": "Forever Giants / 쟈니로얄",
+      "publisher": "벅스",
+      "url": "https://music.bugs.co.kr/track/1727030",
+      "accessedAt": "2026-08-09",
+      "summary": "2009 롯데 응원가 컴필레이션의 쟈니로얄 곡 ‘Forever Giants’를 별도 트랙으로 제공한다. 제목과 가사 주제에 챔피언 표현이 있지만 박상민의 2012년 ‘챔피언 롯데’와 다른 곡이다."
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-lotte-b-dream-field-2009",
+      "songId": "lotte-giants-dream-of-ground",
+      "url": "https://www.youtube.com/watch?v=UiCFV3V1Sck",
+      "videoId": "UiCFV3V1Sck",
+      "title": "Dream of Ground",
+      "channel": "shindongyoun",
+      "publishedAt": "2009-09-01T19:57:53-07:00",
+      "descriptionSummary": "설명은 비어 있지만 2009년 당시 롯데 치어리더가 현장에서 이 곡에 맞춰 공연하는 1분 21초 영상으로, 확보한 가장 오래된 직접 사용 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 당시 전광판·의상·단체 안무의 각을 회상하며 2000년대 후반 사직 응원 분위기를 그리워하는 반응이 중심이다."
+      ],
+      "supports": [
+        "fieldUseBy2009",
+        "cheerleaderPerformance"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-dream-audio-2012",
+      "songId": "lotte-giants-dream-of-ground",
+      "url": "https://www.youtube.com/watch?v=qwo9kzhjHao",
+      "videoId": "qwo9kzhjHao",
+      "title": "롯데자이언츠 응원가 - Dream of Ground",
+      "channel": "아이고 대다",
+      "publishedAt": "2012-10-17T07:55:34-07:00",
+      "descriptionSummary": "곡 제목과 당시 전체 가사를 설명에 실은 2분 18초 음원형 보존 영상이다. 전문은 저장하지 않고 반복 후렴과 팬·그라운드 주제만 구조화했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 사직 입장 순간과 경기 초반의 들뜬 분위기를 떠올리거나, 팀 성적과 무관하게 롯데를 계속 응원하게 만드는 곡이라는 반응이 반복된다.",
+        "슈가도넛의 2009년 발표곡이라는 이용자 정보와 원곡이 따로 있는지 묻는 반응도 보이지만, 댓글의 세부 크레딧은 음원 메타데이터로 별도 검증했다."
+      ],
+      "supports": [
+        "earlyAudioCirculation",
+        "lyricsStructure",
+        "fanAttachment"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-dream-official-2015",
+      "songId": "lotte-giants-dream-of-ground",
+      "url": "https://www.youtube.com/watch?v=ZtRZPbl5A70",
+      "videoId": "ZtRZPbl5A70",
+      "title": "DREAM OF GROUND",
+      "channel": "Giants TV",
+      "publishedAt": "2015-03-22T19:22:07-07:00",
+      "descriptionSummary": "구단 공식 채널이 2015 KBO리그 개막을 앞두고 올린 1분 5초 홍보 영상으로, 제목의 공식 대문자 표기와 당시 구단 활용을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 곡을 들으면 벅차거나 눈물이 난다는 반응, 2011~2012 선수단과 당시 선수들을 그리워하는 반응, 새 시즌에도 다시 기대한다는 자조 섞인 애정이 반복된다."
+      ],
+      "supports": [
+        "officialUse2015",
+        "officialTitle",
+        "longTermFanAttachment"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-dream-mv-2022",
+      "songId": "lotte-giants-dream-of-ground",
+      "url": "https://www.youtube.com/watch?v=vDpPwRO55fU",
+      "videoId": "vDpPwRO55fU",
+      "title": "롯데 자이언츠 응원가｜'Dream of Ground' 뮤직비디오｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2022-05-02T01:10:38-07:00",
+      "descriptionSummary": "2022 시즌 초반 경기 하이라이트를 편집해 곡과 결합한 팬 제작 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "롯데 팬뿐 아니라 타 팀 팬도 이 곡을 팀 응원가 중 최상위로 꼽는다는 호평, 경기장에서 들으면 웅장하고 울컥한다는 반응, 더 자주 틀어 달라는 요구가 반복된다."
+      ],
+      "supports": [
+        "fanUse2022",
+        "crossTeamReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-dream-opening-2023",
+      "songId": "lotte-giants-dream-of-ground",
+      "url": "https://www.youtube.com/watch?v=cijNkgGuObc",
+      "videoId": "cijNkgGuObc",
+      "title": "23시즌의 첫 응원가 Dream of Ground | 230312",
+      "channel": "롯데 현장 직캠",
+      "publishedAt": "2023-03-12T04:44:46-07:00",
+      "descriptionSummary": "2023년 3월 12일 출정식에서 그 시즌 첫 응원가로 공연된 장면을 담아 시즌 개막·출정식 맥락을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "사직에서 큰 제창으로 듣고 싶다는 바람, 가장 좋아하는 롯데 응원곡이라는 평가, 옛 사직의 감각과 우승 장면을 상상한다는 반응이 중심이다."
+      ],
+      "supports": [
+        "openingEventUse2023",
+        "fanPreference"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-dream-field-2024",
+      "songId": "lotte-giants-dream-of-ground",
+      "url": "https://www.youtube.com/watch?v=aafEvptofmY",
+      "videoId": "aafEvptofmY",
+      "title": "롯데자이언츠 응원가 Dream of Ground #우신희 #목나경 #이시윤 #최홍라 #박담비 #롯데자이언츠치어리더 #치어리더직캠",
+      "channel": "52c_video",
+      "publishedAt": "2024-09-30T18:00:04-07:00",
+      "descriptionSummary": "설명에 2024년 9월 7일 사직야구장을 명시한 치어리더 단체 안무 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "더 자주 경기장에서 듣고 싶다는 요구와 치어리더 동선·연습을 칭찬하는 반응이 보인다. 일부는 사용 시점을 연장전으로 오인해 고정 선곡 맥락에 혼선이 있음을 보여준다."
+      ],
+      "supports": [
+        "fieldUse2024",
+        "cheerleaderChoreography",
+        "usageContextConfusion"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-dream-official-2026",
+      "songId": "lotte-giants-dream-of-ground",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27T17:00:09-07:00",
+      "descriptionSummary": "구단 공식 2026 팀 응원가 영상이 18분 15초에 ‘Dream of Ground’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬 타임라인은 이 곡을 치어리더 공식 응원가로 덧붙여 설명하고, 별도 댓글에서는 가장 좋아하는 응원가라며 극적인 승리 뒤 더 자주 사용해 달라는 요구가 나온다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle",
+        "fanUsageRequest"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-dream-male-version-2020",
+      "songId": "lotte-giants-dream-of-ground",
+      "url": "https://www.youtube.com/watch?v=dcDnz4s3pYI",
+      "videoId": "dcDnz4s3pYI",
+      "title": "05.Dream Of Ground",
+      "channel": "coco nyan",
+      "publishedAt": "2020-09-27T03:58:46-07:00",
+      "descriptionSummary": "설명에 롯데 구단 주소와 슈가도넛 표기를 남긴 남성 보컬 음원 보존 영상이다. 최소 5개 표본 집계에는 포함하지 않고 버전 관계 근거로만 참조한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "maleVocalVersion"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-sori-old-2012",
+      "songId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "url": "https://www.youtube.com/watch?v=JdjV7GUhdQU",
+      "videoId": "JdjV7GUhdQU",
+      "title": "롯데자이언츠 응원가 - 영원하라",
+      "channel": "아이고 대다",
+      "publishedAt": "2012-10-18T08:18:41-07:00",
+      "descriptionSummary": "2012년 통용 별칭 ‘영원하라’와 당시 홈 ‘부산 롯데’ 가사판을 제목·설명에 직접 남긴 가장 오래된 명확한 단독 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "현재 ‘최강 롯데’보다 예전 ‘부산 롯데’ 구호를 그리워하는 반응, 승기를 잡았을 때 부르는 곡이라는 기억, 타지에서도 힘이 난다는 장기 팬 반응이 반복된다."
+      ],
+      "supports": [
+        "earliestDirectVideo2012",
+        "popularAlias",
+        "oldBusanVersion"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-sori-playoff-2017",
+      "songId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "url": "https://www.youtube.com/watch?v=q7qoHl7xq1o",
+      "videoId": "q7qoHl7xq1o",
+      "title": "준플 1차전 9회말 영원하라",
+      "channel": "음악에맞춰서",
+      "publishedAt": "2017-10-08T01:31:38-07:00",
+      "descriptionSummary": "2017 준플레이오프 1차전 9회 말 사직의 대형 깃발과 떼창을 담아 포스트시즌 승부처 사용을 직접 보여준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "2017 시즌의 기세와 대형 깃발을 그리워하는 반응, 구호를 다시 ‘부산 롯데’로 바꾸길 바라는 반응이 반복된다."
+      ],
+      "supports": [
+        "postseasonUse2017",
+        "ninthInningUse",
+        "popularAlias"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-sori-field-2022",
+      "songId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "url": "https://www.youtube.com/watch?v=xp_ZCu9cSlc",
+      "videoId": "xp_ZCu9cSlc",
+      "title": "롯데자이언츠 팀 응원가 \"소리높여 외쳐보자 (영원하라)\" 20220407",
+      "channel": "DJ Landers",
+      "publishedAt": "2022-04-10T21:35:26-07:00",
+      "descriptionSummary": "2022년 4월 7일 현장에서 공식명과 별칭을 병기한 1분 50초 단독 기록이다. 설명은 다른 구단 응원가와 선율이 겹친다는 관찰을 덧붙인다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse2022",
+        "dualNaming"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-sori-eighth-2023",
+      "songId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "url": "https://www.youtube.com/watch?v=_x2vPamxDKI",
+      "videoId": "_x2vPamxDKI",
+      "title": "[부산시리즈] 롯데자이언츠 8회말 소리높여외쳐보자 (영원하라) + 영광의순간",
+      "channel": "46채널",
+      "publishedAt": "2023-05-19T08:59:52-07:00",
+      "descriptionSummary": "부산시리즈 8회 말에 이 곡에서 ‘영광의 순간’으로 이어지는 후반 연속 응원을 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "대형 관중 떼창을 월드컵 분위기에 비유하거나 타 팀 팬도 울컥한다고 말하는 반응, 과거 강한 사직 응원이 돌아왔다는 회상이 중심이다."
+      ],
+      "supports": [
+        "eighthInningUse2023",
+        "medleyContext",
+        "crowdReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-sori-field-2025",
+      "songId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "url": "https://www.youtube.com/watch?v=otaIyBt7L6I",
+      "videoId": "otaIyBt7L6I",
+      "title": "롯데자이언츠 팀 응원가 \"소리높여 외쳐보자(영원하라)\" 끝부분 + 박승욱 응원가 20250905",
+      "channel": "DJ Landers",
+      "publishedAt": "2025-09-05T09:57:55-07:00",
+      "descriptionSummary": "2025년 9월 5일 경기에서 이 곡 끝부분 뒤 박승욱 선수 응원가가 이어진 타임라인을 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse2025",
+        "dualNaming",
+        "transitionToPlayerCheer"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-sori-field-4k-2025",
+      "songId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "url": "https://www.youtube.com/watch?v=elPLtyQoXiw",
+      "videoId": "elPLtyQoXiw",
+      "title": "롯데자이언츠 팀 응원가 소리높여 외쳐보자 (4K)",
+      "channel": "나오라구",
+      "publishedAt": "2025-09-06T22:15:03-07:00",
+      "descriptionSummary": "2025년 현행 공식 제목만 사용한 4K 현장 직캠으로 구호와 관중 동작을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 곡의 도입을 따라 적거나, 팀 성적과 별개로 롯데 응원가의 완성도를 높게 평가하는 짧은 반응이다."
+      ],
+      "supports": [
+        "fieldUse2025",
+        "officialTitleInFanUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-sori-official-2026",
+      "songId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27T17:00:09-07:00",
+      "descriptionSummary": "구단 공식 2026 영상은 6분 5초 트랙을 ‘소리높여 외쳐보자’라고 적어 현행 공식 표기를 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬이 만든 상세 타임라인은 공식 제목 옆에 ‘구 영원하라’를 병기해 별칭이 여전히 강하게 통용됨을 보여준다. 전체 댓글은 현행 응원가 목록 공개와 새 시즌을 반기는 반응이 중심이다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle",
+        "popularAlias"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-champion-old-2012",
+      "songId": "lotte-giants-champion-lotte",
+      "url": "https://www.youtube.com/watch?v=uRY5UPtf1sQ",
+      "videoId": "uRY5UPtf1sQ",
+      "title": "롯데자이언츠 응원가 - 챔피언 롯데",
+      "channel": "아이고 대다",
+      "publishedAt": "2012-10-26T07:37:02-07:00",
+      "descriptionSummary": "2012년 음원형 영상으로 작사·작곡·편곡 유해준, 노래 박상민 크레딧과 당시 전체 곡 구성을 설명한다. 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "경기 전 사직에서 들으면 설렌다는 반응, 예전 ‘부산 롯데’ 버전에 대한 향수, 치어리더 소개 때 나오는 곡이라는 인식이 반복된다.",
+        "2012 홈 개막전 최초 공개라는 이용자 기억도 있으나 공식 날짜 자료가 없어 별도 미해결로 남겼다."
+      ],
+      "supports": [
+        "credits",
+        "introduction2012",
+        "fullAudioStructure"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-champion-opening-2021",
+      "songId": "lotte-giants-champion-lotte",
+      "url": "https://www.youtube.com/watch?v=uLhu9Yvz-K4",
+      "videoId": "uLhu9Yvz-K4",
+      "title": "[야구장직관] 롯데자이언츠 팀 응원가 \"챔피언 롯데(박상민 노래)\" / 20210409/2021시즌 사직구장 홈개막전",
+      "channel": "창드머신TV",
+      "publishedAt": "2021-04-11T06:01:10-07:00",
+      "descriptionSummary": "2021년 4월 9일 사직 홈 개막전에서 1회 말 공격 종료 뒤 이 곡이 나왔고 가수는 박상민이라고 설명하는 현장 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse2021",
+        "afterBottomFirstUsage",
+        "performer"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-champion-field-2024",
+      "songId": "lotte-giants-champion-lotte",
+      "url": "https://www.youtube.com/watch?v=E3EGOw051Rg",
+      "videoId": "E3EGOw051Rg",
+      "title": "챔피언 롯데",
+      "channel": "Peach Road (복숭아 로드)",
+      "publishedAt": "2024-05-13T10:28:26-07:00",
+      "descriptionSummary": "약 1분 22초의 치어리더 공연 직캠으로 최근 현장에서 긴 원 음원보다 단축 공연판을 쓰는 모습을 보여준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 곡의 정보보다 영상 속 치어리더의 잔류와 안무선을 반기는 반응이 대부분이어서 노래 자체의 사실 근거로는 사용하지 않았다."
+      ],
+      "supports": [
+        "fieldUse2024",
+        "shortPerformanceEdit"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-champion-tj-2025",
+      "songId": "lotte-giants-champion-lotte",
+      "url": "https://www.youtube.com/watch?v=ZK7yAEhwjC8",
+      "videoId": "ZK7yAEhwjC8",
+      "title": "[TJ노래방] 챔피언롯데 - 박상민 / TJ Karaoke",
+      "channel": "TJ노래방 공식 유튜브채널",
+      "publishedAt": "2025-03-25T23:41:49-07:00",
+      "descriptionSummary": "TJ 공식 채널이 곡번호 47810, 제목 ‘챔피언롯데’, 가수 박상민을 명시한 반주 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 롯데 팀 응원가의 공식 노래방 공개를 반기며 Dream of Ground와 최근 팀·선수 응원가도 추가해 달라는 요청이 중심이다."
+      ],
+      "supports": [
+        "performer",
+        "karaokeCatalog",
+        "offFieldCurrentUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-champion-ky-2025",
+      "songId": "lotte-giants-champion-lotte",
+      "url": "https://www.youtube.com/watch?v=wXTbz6Yj6rs",
+      "videoId": "wXTbz6Yj6rs",
+      "title": "챔피언 롯데 - 박상민 (KY.56525) / KY KARAOKE",
+      "channel": "금영 노래방 공식 유튜브 채널",
+      "publishedAt": "2025-06-20T01:01:15-07:00",
+      "descriptionSummary": "금영 공식 채널이 곡번호 56525, 제목·가수와 함께 작사가·작곡가를 모두 유해준으로 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "lyricist",
+        "composer",
+        "performer",
+        "karaokeCatalog"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-champion-field-2025",
+      "songId": "lotte-giants-champion-lotte",
+      "url": "https://www.youtube.com/watch?v=rr-jGF0MmIo",
+      "videoId": "rr-jGF0MmIo",
+      "title": "[4K] 챔피언 롯데~‼️",
+      "channel": "하루",
+      "publishedAt": "2025-07-15T00:46:25-07:00",
+      "descriptionSummary": "설명에 2025년 6월 19일 부산 사직야구장과 ‘챔피언 롯데’를 명시한 1분 22초 치어리더 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "소수 댓글은 영상 속 치어리더와 밝은 공연 분위기를 호평하며 노래 정보에 관한 별도 사실 주장은 없다."
+      ],
+      "supports": [
+        "fieldUse2025",
+        "shortPerformanceEdit"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-champion-official-2026",
+      "songId": "lotte-giants-champion-lotte",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27T17:00:09-07:00",
+      "descriptionSummary": "구단 공식 2026 팀 응원가 영상이 20분 24초에 ‘챔피언 롯데’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬이 작성한 복수의 타임라인이 같은 제목과 위치를 재확인하고, 전체 댓글은 롯데의 많은 팀 응원가와 새 시즌을 반기는 반응이 중심이다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-victory-old-2016",
+      "songId": "lotte-giants-shout-victory-grandfather-clock",
+      "url": "https://www.youtube.com/watch?v=I-6_nGh-lRU",
+      "videoId": "I-6_nGh-lRU",
+      "title": "롯데자이언츠 팀응원가 - 승리를 외치자~할아버지시계",
+      "channel": "잭참새",
+      "publishedAt": "2016-06-27T08:00:01-07:00",
+      "descriptionSummary": "공식명과 원곡 별칭을 함께 적은 2분 17초 음원형 보존 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 곡이 멋있다는 짧은 호평 한 건으로 제한적이다."
+      ],
+      "supports": [
+        "dualNamingBy2016",
+        "audioStructure"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-victory-rain-2019",
+      "songId": "lotte-giants-shout-victory-grandfather-clock",
+      "url": "https://www.youtube.com/watch?v=TZLwO9hFY_g",
+      "videoId": "TZLwO9hFY_g",
+      "title": "롯데자이언츠 우천응원 (승리를 외치자) 점프송!",
+      "channel": "훈빌리버블",
+      "publishedAt": "2019-07-01T06:07:39-07:00",
+      "descriptionSummary": "잠실 우천 중단 상황에서 관중과 응원단이 함께 뛰며 부르는 모습을 ‘점프송’으로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 성적과 상관없이 함께 노래하고 뛰던 응원 문화를 그리워하는 반응과 우천 응원의 현장성을 반기는 반응이다."
+      ],
+      "supports": [
+        "rainDelayUse",
+        "jumpSongAlias",
+        "choreography"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-victory-origin-2019",
+      "songId": "lotte-giants-shout-victory-grandfather-clock",
+      "url": "https://www.youtube.com/watch?v=2bHM9QbdNtA",
+      "videoId": "2bHM9QbdNtA",
+      "title": "롯데 자이언츠 응원가 승리를 외치자 (할아버지 시계) [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-09-13T20:19:18-07:00",
+      "descriptionSummary": "제목이 원곡 별칭을 직접 병기하고 설명은 홈·원정 모두 ‘최강 롯데 자이언츠’로 바뀌었다고 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원곡 ‘할아버지의 시계’를 듣고 응원가를 알아봤다는 반응, ‘부산’에서 ‘최강’으로 통일된 점을 아쉬워하는 반응, 타 팀 팬의 호평이 반복된다."
+      ],
+      "supports": [
+        "originRecognition",
+        "chantVersionChange2019",
+        "popularAlias"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-victory-mv-2020",
+      "songId": "lotte-giants-shout-victory-grandfather-clock",
+      "url": "https://www.youtube.com/watch?v=mVljgah999k",
+      "videoId": "mVljgah999k",
+      "title": "롯데 자이언츠 응원가｜승리를 외치자 뮤직비디오｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2020-09-08T02:06:10-07:00",
+      "descriptionSummary": "사직의 대형 관중 응원을 경기 하이라이트와 결합한 팬 제작 뮤직비디오로 집단 제창과 구호 동작을 보여준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원 장면의 박수·구호가 멋있다는 반응과 연승·가을야구를 바라는 팬의 감정이 중심이다."
+      ],
+      "supports": [
+        "crowdParticipation",
+        "choreography",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-victory-classic-a-2023",
+      "songId": "lotte-giants-shout-victory-grandfather-clock",
+      "url": "https://www.youtube.com/watch?v=J1M0WlCt8JQ",
+      "videoId": "J1M0WlCt8JQ",
+      "title": "[클래식시리즈] 롯데자이언츠 승리를 외치자 (할아버지시계) 삼성라이온즈와 함께 부르기",
+      "channel": "46채널",
+      "publishedAt": "2023-06-09T07:10:59-07:00",
+      "descriptionSummary": "2023 클래식시리즈에서 롯데와 삼성 관중이 함께 부른 장면으로 원곡 별칭과 합동 응원 맥락을 제목에 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "상대 홈 전광판과 양 팀이 함께 노래하는 장면을 높이 평가하고 클래식시리즈에 직접 가 보고 싶다는 반응이 보인다."
+      ],
+      "supports": [
+        "classicSeriesUse2023",
+        "crossTeamSingalong"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-victory-classic-b-2023",
+      "songId": "lotte-giants-shout-victory-grandfather-clock",
+      "url": "https://www.youtube.com/watch?v=SBdb2L28bmE",
+      "videoId": "SBdb2L28bmE",
+      "title": "[클래식시리즈] 삼성과 롯데, 24000명 만원관중 승리를 외치자 (할아버지시계) 합창",
+      "channel": "46채널",
+      "publishedAt": "2023-06-10T08:50:34-07:00",
+      "descriptionSummary": "다음 날 클래식시리즈 만원 관중의 합창을 별도 촬영해 대규모 참여와 점프·팔동작을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "양 팀 합동 응원이 감동적이라는 반응과 곡을 들으면 흥분된다는 호평, 롯데 응원가의 장음 추임새가 많다는 가벼운 지적이 함께 있다."
+      ],
+      "supports": [
+        "classicSeriesUse2023",
+        "massSingalong",
+        "choreography"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-victory-official-2026",
+      "songId": "lotte-giants-shout-victory-grandfather-clock",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27T17:00:09-07:00",
+      "descriptionSummary": "구단 공식 2026 영상의 첫 트랙 0분이 ‘승리를 외치자’이며, 14분 54초의 ‘롯데의 승리를 외치자’와 별도로 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬 타임라인은 첫 곡에 ‘할아버지 시계’를 병기해 별칭을 확인하고, 복수의 댓글이 공식 타임코드를 다시 정리해 같은 곡 구분을 유지한다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle",
+        "titleDisambiguation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-shout-field-2011",
+      "songId": "lotte-giants-shout-loudly",
+      "url": "https://www.youtube.com/watch?v=Shin6l3liGg",
+      "videoId": "Shin6l3liGg",
+      "title": "Busan Lotte Giants「Twisted Sister - We're Not Gonna Take It」부산롯데자이언츠 응원",
+      "channel": "hirune5656",
+      "publishedAt": "2011-10-20T05:25:24-07:00",
+      "descriptionSummary": "설명이 2011년 잠실 롯데 응원과 원곡 ‘We're Not Gonna Take It’을 명시한 39초 현장 영상으로, 풀버전 이전의 짧은 구호판을 직접 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 다른 축구 응원과 같은 선율이라는 짧은 비교 한 건으로 제한적이다."
+      ],
+      "supports": [
+        "earliestDirectLotteUse2011",
+        "originalSongIdentification",
+        "shortVersion"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-shout-new-2015",
+      "songId": "lotte-giants-shout-loudly",
+      "url": "https://www.youtube.com/watch?v=c3qoa0PuVew",
+      "videoId": "c3qoa0PuVew",
+      "title": "롯데자이언츠 2015 새응원가",
+      "channel": "훈빌리버블",
+      "publishedAt": "2015-04-04T02:13:08-07:00",
+      "descriptionSummary": "2015 시즌 새 응원가라고 명시한 1분 37초 영상으로, 기존 짧은 구호에 벌스를 붙인 풀버전의 동시대 공개를 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fullVersionIntroduction2015",
+        "newSongFraming"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-shout-full-2016",
+      "songId": "lotte-giants-shout-loudly",
+      "url": "https://www.youtube.com/watch?v=RWglJ4EEmyU",
+      "videoId": "RWglJ4EEmyU",
+      "title": "롯데자이언츠 팀응원가 - 롯데자이언츠 오오오",
+      "channel": "잭참새",
+      "publishedAt": "2016-05-20T08:00:01-07:00",
+      "descriptionSummary": "통용 구호형 별칭으로 올린 2분 12초 풀버전 보존 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡을 들으면 가슴이 뜨거워진다는 호평과 포항 응원가의 같은 선율을 떠올리는 반응이 보인다."
+      ],
+      "supports": [
+        "fullVersionBy2016",
+        "popularShortAlias",
+        "crossSportRecognition"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-shout-field-2020",
+      "songId": "lotte-giants-shout-loudly",
+      "url": "https://www.youtube.com/watch?v=Eu4RMG4I6zs",
+      "videoId": "Eu4RMG4I6zs",
+      "title": "롯데자이언츠 오오오~",
+      "channel": "롯데조지훈화이팅",
+      "publishedAt": "2020-06-17T06:24:00-07:00",
+      "descriptionSummary": "설명 첫 문장이 곡 제목의 핵심 벌스를 적고, 영상 제목은 팬에게 익숙한 짧은 ‘오오오’ 구호로 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "코로나19 시기 다시 현장 응원하고 싶다는 반응, 원곡을 묻거나 전북의 같은 선율 응원을 떠올리는 반응이 보인다."
+      ],
+      "supports": [
+        "fieldUse2020",
+        "popularShortAlias",
+        "crossTeamRecognition"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-shout-opening-2023",
+      "songId": "lotte-giants-shout-loudly",
+      "url": "https://www.youtube.com/watch?v=z9MGREqLLsE",
+      "videoId": "z9MGREqLLsE",
+      "title": "[시범경기] 롯데 팀 응원가 힘차게 외쳐보자 | 230318",
+      "channel": "롯데 현장 직캠",
+      "publishedAt": "2023-03-18T00:43:26-07:00",
+      "descriptionSummary": "2023년 3월 18일 시범경기에서 제목을 정확히 사용한 1분 37초 롯데 떼창 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시범경기부터 응원단이 등장한 점을 반기고 새 시즌 성적을 기대하는 짧은 반응이 중심이다."
+      ],
+      "supports": [
+        "fieldUse2023",
+        "preseasonUse",
+        "currentTitle"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-shout-full-2026",
+      "songId": "lotte-giants-shout-loudly",
+      "url": "https://www.youtube.com/watch?v=txJRZx2RIe0",
+      "videoId": "txJRZx2RIe0",
+      "title": "부산 사직 26시범경기 | LG vs 롯데 | 롯데 팀응원가 - 힘차게 외쳐보자 Full Ver.",
+      "channel": "응하컬 - 응원가로 하나되는 컬렉션",
+      "publishedAt": "2026-03-15T05:19:01-07:00",
+      "descriptionSummary": "2026년 3월 15일 부산 사직 시범경기에서 사용한 풀버전을 날짜·상대 팀과 함께 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse2026",
+        "fullVersionCurrentUse",
+        "preseasonUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-shout-field-2026",
+      "songId": "lotte-giants-shout-loudly",
+      "url": "https://www.youtube.com/watch?v=HnqkwHnNkco",
+      "videoId": "HnqkwHnNkco",
+      "title": "롯데 자이언츠 팀 응원가 힘차게 외쳐보자",
+      "channel": "H P",
+      "publishedAt": "2026-05-02T07:16:55-07:00",
+      "descriptionSummary": "2026년 5월 현장에서 짧은 팀명·오오오 구호 구간을 사용하는 28초 직접 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 축구 응원가에서도 들어본 선율이라는 짧은 비교로, 동일 원곡의 종목 간 확산 인식을 보여준다."
+      ],
+      "supports": [
+        "fieldUse2026",
+        "shortVersionCurrentUse",
+        "crossSportRecognition"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-shout-choreo-2026",
+      "songId": "lotte-giants-shout-loudly",
+      "url": "https://www.youtube.com/watch?v=60mgJLCNfIg",
+      "videoId": "60mgJLCNfIg",
+      "title": "[4k] 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 2026 롯데자이언츠 팀 응원가 모음 + 치어리더 안무 (신규 응원가 영광을 위해 포함) #오효정 #박담비 #최홍라 #박예빈 #김나현 #롯데치어리더",
+      "channel": "김하운",
+      "publishedAt": "2026-05-05T07:38:19-07:00",
+      "descriptionSummary": "2026 치어리더 안무 모음의 타임라인이 7분 20초에 이 곡을 ‘힘차게 외쳐보자(short ver.)’라고 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 팀 응원가 안무 모음이 드물어 유용하다는 반응과 치어리더 공연을 칭찬하는 반응, 팀이 끝까지 포기하지 않기를 바라는 장문 응원이 중심이다."
+      ],
+      "supports": [
+        "shortVersionCurrentUse",
+        "choreography2026",
+        "versionLabel"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-b-shout-official-2026",
+      "songId": "lotte-giants-shout-loudly",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27T17:00:09-07:00",
+      "descriptionSummary": "구단 공식 2026 영상이 21분 48초에 ‘힘차게 외쳐보자’를 독립 팀 응원가로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "복수의 팬 타임라인이 공식 제목과 위치를 재확인하고, 전체 댓글은 구단 응원가 수가 많다는 놀라움과 직관 전 반복 청취 반응이 중심이다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle"
+      ],
+      "accessedAt": "2026-08-09"
+    }
+  ]
+}

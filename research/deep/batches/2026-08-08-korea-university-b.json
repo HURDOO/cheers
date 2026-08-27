@@ -1,0 +1,1160 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-korea-university-b",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-korea",
+    "name": "고려대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 도입 연도·원곡·사용법·수용을 확인하는 데 필요한 내용만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "korea-university-elise-reul-wihayeo",
+      "title": "엘리제를 위하여",
+      "aliases": ["엘리제"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti-and-joint-cheer",
+      "summary": "정미조가 1972년에 발표한 번안곡 ‘정열의 꽃’을 직접적인 음악적 바탕으로 삼고, 그 선율 계보가 Caterina Valente의 ‘Passion Flower’와 Beethoven의 ‘Für Elise’까지 이어지는 고려대의 전통 응원가다. 고려대 교우회 연표와 2024·2025 영상 표기는 1981년 도입에 일치하며, 공식 응원단 영상은 이 곡을 승리의 여신을 부르는 시작 응원으로 설명한다. 2026 입실렌티와 합동응원전에서도 사용을 직접 확인했다.",
+      "claims": [
+        {
+          "field": "officialTitleAndAlias",
+          "value": "정식 표기는 ‘엘리제를 위하여’, 통용 약칭은 ‘엘리제’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-official-song-sheet", "ev-ku-b-kuaa-song-catalog", "yt-ku-b-elise-official-ot"],
+          "notes": "대학·교우회 자료와 공식 응원단 채널이 정식 제목을 사용하고, 공식 설명과 현장 제목에서 ‘엘리제’가 짧은 호칭으로 쓰인다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "1981년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-kuaa-timeline", "ev-ku-b-live-playlist-years", "yt-ku-b-elise-2025"],
+          "notes": "교우회 100년 연표가 1981년에 곡이 등장했다고 기록하고, 2024 플레이리스트 설명과 2025 입실렌티 영상 시작 화면의 ‘Since 1981’ 표기가 일치한다."
+        },
+        {
+          "field": "immediateOriginalSong",
+          "value": "정미조 ‘정열의 꽃’(1972)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-elise-official-ot", "ev-ku-b-apple-jeongyeol", "ev-ku-b-bugs-jeongyeol"],
+          "notes": "고려대 응원단 공식 영상이 직접 원곡으로 명시하며, Apple Music과 벅스가 가수·연도·한국어 작사 크레딧을 보완한다."
+        },
+        {
+          "field": "melodyLineage",
+          "value": "Caterina Valente ‘Passion Flower’ 계열의 Beethoven ‘Für Elise’ 선율",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-b-namu-elise", "ev-ku-b-valente-passion-flower"],
+          "notes": "고려대판의 직접 원곡과 더 오래된 선율 출처를 구분했다. 한국어 ‘정열의 꽃’의 완전한 번안·편곡 크레딧은 공개 자료만으로 모두 확인되지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 입실렌티와 고려대·연세대 합동응원전에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-elise-2026-ipselenti", "yt-ku-b-elise-2026-joint"],
+          "notes": "두 종류의 2026 행사 영상에서 곡 전체 공연을 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "응원 OT·합동응원전·입실렌티의 초반을 여는 전통적인 시작 응원으로 자주 배치한다.",
+        "빠른 팔 동작과 구호, 관중의 반복 합창으로 분위기를 단번에 끌어올리는 역할을 한다.",
+        "고연전 경기장뿐 아니라 개교 기념식과 교우 행사에서도 세대 공동의 대표 레퍼토리로 사용된다."
+      ],
+      "trivia": [
+        {
+          "id": "elise-victory-goddess-framing",
+          "summary": "공식 응원 OT는 제목의 엘리제를 승리를 가져오는 여신처럼 의인화하고, 이 곡을 응원의 시작을 여는 존재로 소개한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-elise-official-ot"]
+        },
+        {
+          "id": "elise-layered-source-and-misattribution",
+          "summary": "일부 오래된 팬 자료는 동명곡 때문에 가수를 김수희로 잘못 적지만, 공식 응원단과 음원 카탈로그는 고려대판의 직접 참조를 정미조의 1972년 곡으로 지지한다. 더 깊은 선율 계보에는 ‘Passion Flower’와 Beethoven 작품이 있다.",
+          "assessment": "conflicted",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-old-fan-origin-list", "yt-ku-b-elise-official-ot", "ev-ku-b-apple-jeongyeol"]
+        },
+        {
+          "id": "elise-generational-memory",
+          "summary": "서로 다른 시기의 영상 댓글에서 졸업생이 수십 년 전부터 첫 곡으로 불렀던 기억을 남기고, 수험생은 진학 동기로 삼는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-elise-2022-koyeonjeon", "yt-ku-b-elise-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted Korean adaptation and university cheer arrangement; Beethoven's underlying composition is public domain, but the later lyrics, arrangements, and recordings are not",
+        "sourceUrls": [
+          "https://www.korea.ac.kr/sites/ko/files/song/ku_cheer_song.pdf",
+          "https://www.youtube.com/watch?v=1VSZTxcxEcU",
+          "https://music.apple.com/kr/song/1639643543"
+        ],
+        "structureSummary": "강한 전주 뒤 승리와 힘을 부르는 짧은 절이 나오고, 학교의 승리를 집단적으로 선언하는 후렴과 구호를 반복한다. 같은 선율 단위를 되풀이하면서 응원 동작과 관중 합창의 강도를 높이는 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-b-elise-2025",
+        "yt-ku-b-elise-2026-ipselenti",
+        "yt-ku-b-elise-2026-joint",
+        "yt-ku-b-elise-official-ot",
+        "yt-ku-b-elise-2022-koyeonjeon"
+      ],
+      "unresolved": [
+        "1981년 고려대판의 최초 공연 일자와 당시 프로그램·악보 원본",
+        "고려대판 편곡자·개사자의 개인별 정확한 크레딧",
+        "‘정열의 꽃’에서 고려대판으로 이어지는 편곡·가사·현행 음원의 권리 승인 관계"
+      ]
+    },
+    {
+      "id": "korea-university-seoktap",
+      "title": "석탑",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti-and-freshman-ot",
+      "summary": "장애향의 1979년 곡 ‘석탑’을 바탕으로 고려대의 석탑 상징을 강직함·의지·지성의 이미지와 결합한 전통 응원가다. 도입 연도는 고려대 교우회 연표가 1981년으로 적는 반면 2024 플레이리스트와 2025 영상 화면은 1982년으로 표기해 상충한다. 사용자가 정한 원칙에 따라 가장 이른 확인 연도인 1981년을 보존하되 불명확성을 명시했고, 2026 입실렌티와 신입생 응원 OT에서 현행 사용을 확인했다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "석탑",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-official-song-sheet", "ev-ku-b-kuaa-song-catalog", "yt-ku-b-seoktap-official-ot"],
+          "notes": "대학 응원가 악보, 교우회 음원 목록, 공식 응원단 영상이 모두 같은 표기를 쓴다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "1981년(가장 이른 확인; 1982년 표기 병존)",
+          "assessment": "conflicted",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-b-kuaa-timeline", "ev-ku-b-live-playlist-years", "yt-ku-b-seoktap-2025"],
+          "notes": "교우회 100년 연표는 엘리제와 석탑을 1981년에 함께 배치한다. 반면 2024 라이브 플레이리스트 설명과 2025 입실렌티 영상 화면은 석탑을 ‘1982/Since 1982’로 적는다. 최초 공연 1차 기록을 찾기 전까지 가장 이른 공식 기록을 대표값으로 둔다."
+        },
+        {
+          "field": "originalSong",
+          "value": "장애향 ‘석탑’(1979)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-seoktap-official-ot", "ev-ku-b-yes24-seoktap"],
+          "notes": "공식 응원단이 원곡을 장애향의 곡으로 명시하고, 음반 판매 카탈로그가 1979년 발매 LP를 확인한다."
+        },
+        {
+          "field": "symbolism",
+          "value": "석탑은 높은 절개, 굳은 의지, 곧은 지성을 상징",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-seoktap-official-ot", "ev-ku-b-liberal-studies-booklet"],
+          "notes": "공식 응원단 설명의 해석이며, 신입생 자료집도 석탑을 대표 응원가로 다룬다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 입실렌티와 신입생 응원 OT에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-seoktap-2026-ipselenti", "yt-ku-b-seoktap-2026-freshman-ot"],
+          "notes": "2026년 두 별도 행사 영상에서 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT에서 동작을 교육하고 입실렌티·고연전에서 전통 레퍼토리로 부른다.",
+        "탑을 쌓고 솟구치는 이미지를 큰 상체 동작, 관중 구호와 결합한다.",
+        "개교 기념식과 교우 행사에서도 엘리제·지야의 함성과 함께 세대 연결을 상징하는 곡으로 사용된다."
+      ],
+      "trivia": [
+        {
+          "id": "seoktap-symbol-and-movement",
+          "summary": "공식 응원단은 실제 건축물만이 아니라 절개·의지·지성을 석탑에 겹쳐 설명한다. 영상 설명과 댓글에서는 몸을 크게 부딪치거나 굽혔다 펴는 동작이 강한 기억으로 남는다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-seoktap-official-ot", "yt-ku-b-seoktap-2024"]
+        },
+        {
+          "id": "seoktap-120th-anniversary",
+          "summary": "2025년 개교 120주년 기념식에서 응원단이 엘리제·지야의 함성과 함께 석탑을 공연했다. 경기장 밖 공식 기념행사에서도 전통 레퍼토리로 기능함을 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-kunews-120th"]
+        },
+        {
+          "id": "seoktap-release-versus-adoption",
+          "summary": "장애향 원곡의 1979년 음반 발매와 고려대 도입 연도는 서로 다른 사건이다. 자료에 따라 고려대 도입이 1981년 또는 1982년으로 갈리므로 두 연도를 원곡 연도와 혼합하지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-yes24-seoktap", "ev-ku-b-kuaa-timeline", "ev-ku-b-live-playlist-years"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 1979 popular song and university cheer adaptation; lyric adaptation, arrangement, and recording permissions not documented here",
+        "sourceUrls": [
+          "https://www.korea.ac.kr/sites/ko/files/song/ku_cheer_song.pdf",
+          "https://www.youtube.com/watch?v=1--FIQPdAwo",
+          "https://www.yes24.com/Product/Goods/119809340"
+        ],
+        "structureSummary": "석탑과 그것을 세우는 사람의 이미지를 전개하는 서사적 절, 짧은 구호로 끊어지는 상승 구간, 같은 핵심 후렴과 몸동작을 다시 반복하는 순서다. 후반으로 갈수록 관중의 응답과 상체 움직임이 커진다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-b-seoktap-2025",
+        "yt-ku-b-seoktap-2026-ipselenti",
+        "yt-ku-b-seoktap-2026-freshman-ot",
+        "yt-ku-b-seoktap-official-ot",
+        "yt-ku-b-seoktap-2024"
+      ],
+      "unresolved": [
+        "교우회 연표의 1981년과 현장 영상·플레이리스트의 1982년 중 정확한 최초 도입 연도",
+        "고려대판 편곡자·개사자와 최초 공연 프로그램",
+        "장애향 원곡의 초판 전체 크레딧과 고려대판 사용·편곡 권리"
+      ]
+    },
+    {
+      "id": "korea-university-jiya-ui-hamseong",
+      "title": "지야의 함성",
+      "aliases": ["지야"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "1938년 소비에트 대중가요 ‘Katyusha’를 중심 선율로 삼고, 고려대 응원단이 공식 설명에서 Leningrad Cowboys의 ‘Katjusha’와 ‘Granada’로 표기한 전주·편곡 요소를 결합한 1984년 응원가다. ‘지야’는 지성과 야성을 함께 내세우는 이름으로 설명되며, 대학의 대표 축제 정식명 ‘입실렌티 지야의 함성’에도 들어간다. 교우회 연표, 현장 연도 표기와 2026 입실렌티 영상이 역사와 현행성을 함께 지지한다.",
+      "claims": [
+        {
+          "field": "officialTitleAndAlias",
+          "value": "정식 표기는 ‘지야의 함성’, 통용 약칭은 ‘지야’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-official-song-sheet", "ev-ku-b-official-events", "yt-ku-b-jiya-official-ot"],
+          "notes": "학교 행사명과 공식 응원단 영상이 정식 제목을 쓰고, 현장에서는 짧게 ‘지야’로 호명한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "1984년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-kuaa-timeline", "ev-ku-b-live-playlist-years", "yt-ku-b-jiya-2025", "yt-ku-b-jiya-history"],
+          "notes": "교우회 연표, 2024 플레이리스트 설명, 2025 영상의 ‘Since 1984’ 화면과 별도 역사 영상 제목·설명이 일치한다."
+        },
+        {
+          "field": "originalSongAndArrangementLineage",
+          "value": "Matvey Blanter 작곡·Mikhail Isakovsky 작사 ‘Katyusha’(1938); 고려대 공식 설명은 Leningrad Cowboys ‘Katjusha’와 ‘Granada’ 요소를 함께 표기",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-jiya-official-ot", "ev-ku-b-russian-culture-katyusha", "ev-ku-b-apple-katjusha", "yt-ku-b-jiya-history"],
+          "notes": "‘러시아 민요’라는 통칭보다 1938년 작가곡이라는 학술·문화기관 설명이 정확하다. 다만 공식 영상의 ‘Granada’가 특정 녹음·편곡 중 무엇을 뜻하는지는 확정하지 않았다."
+        },
+        {
+          "field": "titleMeaning",
+          "value": "지성과 야성을 함께 드러내는 함성",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-b-jiya-official-ot", "ev-ku-b-ku-law-magazine"],
+          "notes": "공식 응원단의 해설과 교내 잡지의 집단 기억 서술을 바탕으로 한 의미 설명이다. 명명 당시 문서는 아직 확보하지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 입실렌티 1부에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-jiya-2026-ipselenti"],
+          "notes": "영상 설명의 장 구분과 실제 공연 구간에서 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "입실렌티·고연전·응원 OT에서 전주 뒤 힘찬 행진성 리듬과 집단 합창으로 공연한다.",
+        "붉은색·꽃·석탑·포효 같은 학교 상징을 연속해 환기하며 관중의 단결감을 높인다.",
+        "곡명은 대표 축제 ‘입실렌티 지야의 함성’의 정식 명칭 일부로도 사용된다."
+      ],
+      "trivia": [
+        {
+          "id": "jiya-event-name",
+          "summary": "고려대 공식 학생행사 페이지의 축제 명칭 자체가 ‘입실렌티 지야의 함성’이다. 한 응원곡 제목이 대학 대표 축제의 브랜드 일부가 된 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-official-events"]
+        },
+        {
+          "id": "jiya-katyusha-is-authored-song",
+          "summary": "현장에서는 원곡을 흔히 러시아 민요나 군가로 부르지만, 러시아 문화기관과 연구 자료는 1938년 Blanter·Isakovsky의 작가곡이 이후 민속화되고 군가처럼 널리 변주됐다고 설명한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-russian-culture-katyusha", "ev-ku-b-katyusha-study"]
+        },
+        {
+          "id": "jiya-parody-and-sport-circulation",
+          "summary": "편집형 자료는 2000년 교내방송 패러디 ‘지하의 함성’과 프로야구 등 다른 응원 현장의 같은 선율 사용을 소개한다. 이는 선율의 폭넓은 유통을 보여주지만 직접 차용 관계까지 증명하지는 않는다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ku-b-namu-katyusha"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "Katyusha's original authorship is documented, while later recordings and the university arrangement, Korean lyrics, and recordings have separate undetermined rights",
+        "sourceUrls": [
+          "https://www.korea.ac.kr/sites/ko/files/song/ku_cheer_song.pdf",
+          "https://www.youtube.com/watch?v=umGBzyyklyE",
+          "https://www.culture.ru/materials/171149/katyusha-zhdi-menya-i-chernoglazaya-kazachka-sovetskie-khity-kompozitora-matveya-blantera"
+        ],
+        "structureSummary": "행진곡풍 전주와 짧은 구호 뒤, 붉은 꽃과 학교 상징을 차례로 열거하는 두 절이 이어진다. 각 절은 지성과 야성을 함께 선언하는 반복 후렴으로 모이고, 중간 전주를 거쳐 같은 구조를 더 큰 합창으로 재현한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-b-jiya-2025",
+        "yt-ku-b-jiya-2026-ipselenti",
+        "yt-ku-b-jiya-history",
+        "yt-ku-b-jiya-2024-official-live",
+        "yt-ku-b-jiya-official-ot"
+      ],
+      "unresolved": [
+        "공식 설명의 ‘Granada’가 지칭하는 정확한 음원·연주자·편곡판",
+        "1984년 고려대판 편곡자·개사자와 최초 공연 프로그램",
+        "‘지야’ 명명 당시의 공식 문서와 의미 설명 원문",
+        "Leningrad Cowboys 녹음·전주 요소·한국어 개사의 현행 사용 권리"
+      ]
+    },
+    {
+      "id": "korea-university-muindo",
+      "title": "무인도",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti-and-freshman-ot",
+      "summary": "김추자가 1974년에 발표한 이종택 작사·이봉조 작곡의 ‘무인도’를 고려대 응원 형식으로 바꾼 1984년 레퍼토리다. 원곡의 파도·태양·별·바람 이미지를 유지하면서 독창과 관중 응답, 큰 동작을 결합한다. 교우회 연표와 2024·2025 연도 표기가 1984년 도입에 일치하고, 2026 입실렌티와 신입생 응원 OT에서 계속 사용됨을 확인했다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "무인도",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-official-song-sheet", "yt-ku-b-muindo-official-ot"],
+          "notes": "대학 응원가 악보와 공식 응원단 영상이 같은 제목을 쓴다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "1984년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-kuaa-timeline", "ev-ku-b-live-playlist-years", "yt-ku-b-muindo-2025"],
+          "notes": "교우회 연표, 2024 플레이리스트 설명과 2025 입실렌티 영상의 ‘Since 1984’ 화면이 일치한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "김추자 ‘무인도’(1974), 이종택 작사·이봉조 작곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-muindo-official-ot", "ev-ku-b-apple-muindo", "ev-ku-b-bugs-muindo-credit"],
+          "notes": "공식 응원단이 김추자 원곡을 밝히고, Apple Music이 1974년 발매를, 벅스 곡 소개가 작사·작곡 크레딧을 확인한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 입실렌티와 신입생 응원 OT에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-muindo-2026-ipselenti", "yt-ku-b-muindo-2026-freshman-ot"],
+          "notes": "2026년 두 행사 영상의 장 구분과 실제 공연을 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "응원 OT에서 독창·후창과 큰 팔 동작을 배우고 입실렌티·고연전에서 함께 부른다.",
+        "빠른 경쟁 구호 사이에서 비교적 길고 서정적인 자연 이미지를 살리는 전통곡으로 배치된다.",
+        "선창자가 고음으로 구절을 끌고 관중이 응답한 뒤 전체 합창으로 합쳐지는 방식이 두드러진다."
+      ],
+      "trivia": [
+        {
+          "id": "muindo-refuge-framing",
+          "summary": "공식 응원단은 무인도를 고립의 공간만이 아니라 지친 이가 잠시 쉬어 가는 장소와 자연의 힘으로 해석한다. 전투적인 응원 레퍼토리 안에서 서정적인 대비를 만든다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-muindo-official-ot"]
+        },
+        {
+          "id": "muindo-kim-choo-ja-versus-jung-hoon-hee",
+          "summary": "이 곡은 정훈희의 1975년 국제가요제 무대로도 널리 알려졌지만, 고려대 응원단 공식 설명은 직접 원곡 가수를 김추자로 적고 Apple Music은 김추자의 1974년 발표를 확인한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-muindo-official-ot", "ev-ku-b-apple-muindo", "ev-ku-b-bugs-muindo-credit"]
+        },
+        {
+          "id": "muindo-long-memory",
+          "summary": "신입생 OT 영상의 공개 댓글에는 이 곡을 30년 이상 가장 좋아한 응원가로 기억한다는 반응이 나타난다. 공식 연표의 1984년 도입과 세대 기억이 대체로 맞물린다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-b-muindo-2025-freshman-ot", "ev-ku-b-kuaa-timeline"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 1974 popular song and university cheer adaptation; arrangement, lyric-use, performance, and recording permissions not documented here",
+        "sourceUrls": [
+          "https://www.korea.ac.kr/sites/ko/files/song/ku_cheer_song.pdf",
+          "https://www.youtube.com/watch?v=u080FPwuuy8",
+          "https://music.apple.com/kr/album/kim-choo-ja-desert-island/1752797186"
+        ],
+        "structureSummary": "파도에서 태양·별·바람으로 자연 이미지를 넓혀 가는 여러 짧은 구간을 독창과 관중 응답으로 연결한다. 선율이 위로 치솟는 대목마다 동작과 합창이 커지고, 전체 흐름을 다시 반복해 고조한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-b-muindo-2025",
+        "yt-ku-b-muindo-2026-ipselenti",
+        "yt-ku-b-muindo-2026-freshman-ot",
+        "yt-ku-b-muindo-2025-freshman-ot",
+        "yt-ku-b-muindo-official-ot"
+      ],
+      "unresolved": [
+        "1984년 고려대판의 최초 공연 일자·프로그램과 편곡자·동작 창작자",
+        "원곡 가사를 어느 범위까지 유지·변형했는지에 관한 공식 제작 기록",
+        "현행 응원 음원·가사·안무 영상의 사용 및 재배포 권리"
+      ]
+    },
+    {
+      "id": "korea-university-chulsapyo",
+      "title": "출사표",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti-and-freshman-ot",
+      "summary": "영화 ‘Pirates of the Caribbean: The Curse of the Black Pearl’의 2003년 트랙 ‘He's a Pirate’와 Handel의 D단조 건반 모음곡 HWV 437 중 Sarabande 선율을 결합한 2005년 고려대 응원가다. 공식 응원단 영상은 두 음악 출처를 직접 적지만 ‘Srabande no.11 – Handle’로 오기해 정확한 작품번호는 권리자·악보 자료로 보정했다. 2026 입실렌티와 신입생 OT에서 응원단장·기수부 레퍼토리로 계속 사용된다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "출사표",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-b-official-song-sheet", "yt-ku-b-chulsapyo-official-ot"],
+          "notes": "대학 응원가 악보와 공식 응원단 영상이 같은 제목을 사용한다. ‘입장 출사표’는 별도 곡명이 아니라 배치·버전을 설명하는 표기다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2005년",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-b-live-playlist-years", "yt-ku-b-chulsapyo-2025", "ev-ku-b-namu-2000s"],
+          "notes": "2024 플레이리스트의 두 출사표 구간과 2025 입실렌티 영상 화면이 2005년으로 일치하고, 편집형 자료가 이를 보조한다. 당시 공식 초연 프로그램은 아직 찾지 못했다."
+        },
+        {
+          "field": "primaryOriginalSong",
+          "value": "Klaus Badelt ‘He's a Pirate’, 영화 ‘Pirates of the Caribbean: The Curse of the Black Pearl’ 사운드트랙(2003)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-chulsapyo-official-ot", "ev-ku-b-apple-hes-a-pirate", "ev-ku-b-umg-hes-a-pirate"],
+          "notes": "공식 응원단 설명과 음원·권리자 제공 메타데이터가 제목, 영화와 2003년 발매를 일치해 보여준다. 세부 작곡 크레딧은 음원 메타데이터에 여러 명이 함께 표기된다."
+        },
+        {
+          "field": "secondaryOriginalSong",
+          "value": "George Frideric Handel, Suite in D Minor HWV 437: III. Sarabande",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-chulsapyo-official-ot", "ev-ku-b-dg-sarabande", "ev-ku-b-imslp-hwv437"],
+          "notes": "공식 영상 설명의 철자·번호 오류를 Deutsche Grammophon과 IMSLP 작품 정보로 보정했다. 실제 고려대 편곡에서 사용한 녹음판은 확정하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 입실렌티 2부·3부와 신입생 응원 OT에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-chulsapyo-2026-ipselenti-2", "yt-ku-b-chulsapyo-2026-ipselenti-3", "yt-ku-b-chulsapyo-2026-freshman-ot"],
+          "notes": "서로 다른 2026 현장 영상 세 편에서 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "응원단장 또는 부단장이 중심에 서고 기수부 Young Tigers가 결합하는 강한 시각적 레퍼토리로 공연한다.",
+        "입장·오프닝 또는 고연전 직전의 전의를 끌어올리는 구간에 ‘입장 출사표’라는 배치명으로 쓰이기도 한다.",
+        "입실렌티 후반 응원에서도 등장하며, 영화음악의 빠른 동력과 바로크 선율의 장중함을 교차시킨다."
+      ],
+      "trivia": [
+        {
+          "id": "chulsapyo-two-source-hybrid",
+          "summary": "공식 응원단이 대중적으로 익숙한 해적 영화 테마와 Handel의 느린 Sarabande를 한 곡의 음악 출처로 함께 제시한다. 서로 시대가 다른 두 선율을 결합한 점이 이 곡의 독특한 긴장감을 만든다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-chulsapyo-official-ot", "ev-ku-b-apple-hes-a-pirate", "ev-ku-b-dg-sarabande"]
+        },
+        {
+          "id": "chulsapyo-official-description-typo",
+          "summary": "공식 영상 설명의 ‘Srabande no.11 – Handle’은 표준 작품 표기와 맞지 않는다. 권리자·악보 자료가 확인하는 작품은 Handel의 Suite in D Minor, HWV 437 중 세 번째 악장 Sarabande다.",
+          "assessment": "conflicted",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-chulsapyo-official-ot", "ev-ku-b-dg-sarabande", "ev-ku-b-imslp-hwv437"]
+        },
+        {
+          "id": "chulsapyo-leader-and-flag-routine",
+          "summary": "2026 신입생 OT 영상은 출사표를 응원단장과 기수부의 연속 레퍼토리 첫 곡으로 묶는다. 공개 댓글은 동작의 체력 소모와 곡의 전투적인 분위기를 반복해 언급한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-b-chulsapyo-2026-freshman-ot", "yt-ku-b-chulsapyo-official-ot"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "hybrid university arrangement using a copyrighted 2003 film cue and a public-domain Handel composition; modern arrangement, Korean lyrics, performance, and recording rights are not documented here",
+        "sourceUrls": [
+          "https://www.korea.ac.kr/sites/ko/files/song/ku_cheer_song.pdf",
+          "https://www.youtube.com/watch?v=TAkrR8ouVpo",
+          "https://music.apple.com/us/song/1440650203",
+          "https://www.deutschegrammophon.com/en/catalogue/products/handel-sarabande-feuillatre-13139"
+        ],
+        "structureSummary": "장중한 선언형 도입에서 학교의 출정을 선포한 뒤 빠른 영화음악 리듬으로 전환한다. 방향과 승부를 대비하는 절, 짧은 선창·후창, 반복적인 불패 구호를 거쳐 기수부 동작과 함께 결말을 크게 맺는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-b-chulsapyo-2025",
+        "yt-ku-b-chulsapyo-2026-ipselenti-2",
+        "yt-ku-b-chulsapyo-2026-ipselenti-3",
+        "yt-ku-b-chulsapyo-2026-freshman-ot",
+        "yt-ku-b-chulsapyo-2025-autumn-ot",
+        "yt-ku-b-chulsapyo-official-ot"
+      ],
+      "unresolved": [
+        "2005년 최초 공연의 정확한 일자·프로그램과 당시 명칭",
+        "두 원곡을 결합한 고려대판 편곡자·개사자와 각 구간의 제작 크레딧",
+        "출사표 편곡에 사용된 Sarabande의 실제 녹음·편곡판과 삽입 구간",
+        "‘He's a Pirate’ 음원 및 현대 편곡·한국어 가사의 공연·게시·재사용 권리"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ku-b-kuaa-timeline",
+      "type": "official-alumni",
+      "url": "https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0",
+      "title": "고연전 100년 연표",
+      "publisher": "고려대학교 교우회",
+      "publishedAt": "2025-08-13",
+      "accessedAt": "2026-08-09",
+      "summary": "고연전 백년사 연표가 1981년에 엘리제를 위하여와 석탑, 1984년에 지야의 함성과 무인도가 등장했다고 적는다. 석탑은 현장 영상의 1982년 표기와 상충하므로 별도 보존했다.",
+      "supports": ["엘리제를 위하여 1981", "석탑 1981 주장", "지야의 함성 1984", "무인도 1984"]
+    },
+    {
+      "id": "ev-ku-b-official-song-sheet",
+      "type": "official-university",
+      "url": "https://www.korea.ac.kr/sites/ko/files/song/ku_cheer_song.pdf",
+      "title": "고려대학교 응원가",
+      "publisher": "고려대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "학교가 제공하는 응원가 악보·가사 자료로 다섯 곡의 정식 제목과 공식 가사 배열을 확인한다. 스캔 원문은 권리상 전재하지 않고 구조 확인에만 사용했다.",
+      "supports": ["다섯 곡 정식 표기", "가사 구조"]
+    },
+    {
+      "id": "ev-ku-b-kuaa-song-catalog",
+      "type": "official-alumni",
+      "url": "https://www.kuaa.or.kr/member/kuaaEvent/userDataShareBoardList.do?boardKind=pds_song",
+      "title": "고려대학교 교우회 응원가 자료실",
+      "publisher": "고려대학교 교우회",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "교우회 공식 음원 목록이 엘리제를 위하여와 석탑을 비롯한 고려대 응원가를 번호와 정식 제목으로 제공한다.",
+      "supports": ["공식 곡명", "교우회 음원 보존"]
+    },
+    {
+      "id": "ev-ku-b-kunews-120th",
+      "type": "university-news",
+      "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=43933",
+      "title": "고려대의 120번째 생일을 축하합니다",
+      "publisher": "고대신문",
+      "publishedAt": "2025-05-19",
+      "accessedAt": "2026-08-09",
+      "summary": "개교 120주년 기념식에서 응원단이 석탑, 엘리제를 위하여, 지야의 함성을 공연했다고 보도한다.",
+      "supports": ["엘리제 2025 사용", "석탑 2025 사용", "지야의 함성 2025 사용", "공식 기념행사 맥락"]
+    },
+    {
+      "id": "ev-ku-b-official-events",
+      "type": "official-university",
+      "url": "https://www.korea.ac.kr/ko/496/subview.do",
+      "title": "학생행사 — 입실렌티 지야의 함성",
+      "publisher": "고려대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "고려대의 대표 학생 축제를 ‘입실렌티 지야의 함성’으로 소개하는 공식 행사 안내다.",
+      "supports": ["지야의 함성 명칭", "축제 브랜드 사용"]
+    },
+    {
+      "id": "ev-ku-b-ku-law-magazine",
+      "type": "official-university-publication",
+      "url": "https://kupa.korea.ac.kr/_res/law/etc/%EA%B3%A0%EB%8C%80%EB%B2%95%ED%95%99_2%ED%98%B8.pdf",
+      "title": "고대법학 제2호",
+      "publisher": "고려대학교 법학 관련 교내 간행물",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "지야의 함성의 핵심 이미지와 그것을 함께 부르는 세대 기억을 다루는 교내 PDF다. 전체 가사는 저장하지 않았다.",
+      "supports": ["지야의 함성 상징", "교내 집단 기억"]
+    },
+    {
+      "id": "ev-ku-b-liberal-studies-booklet",
+      "type": "official-university-publication",
+      "url": "https://sis.korea.ac.kr/sis/join/notice.do?articleNo=179103&attachNo=146961&mode=download",
+      "title": "2020년도 고려대학교 자유전공학부 새내기 자료집",
+      "publisher": "고려대학교 자유전공학부",
+      "publishedAt": "2020",
+      "accessedAt": "2026-08-09",
+      "summary": "새내기 관점에서 고려대 응원문화와 석탑의 동작·인기를 설명하는 교내 자료다.",
+      "supports": ["석탑 사용법", "석탑 인지도"]
+    },
+    {
+      "id": "ev-ku-b-live-playlist-years",
+      "type": "youtube-compilation-metadata",
+      "url": "https://www.youtube.com/watch?v=loKoFegoNU8",
+      "title": "[Playlist] 2024년 고려대학교 응원가 라이브 버전 플레이리스트 (대박신곡을 곁들인)",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-09-26",
+      "accessedAt": "2026-08-09",
+      "summary": "2024년 현재 사용곡을 모은 영상 설명이 엘리제 1981, 지야의 함성 1984, 석탑 1982, 무인도 1984, 출사표 2005로 장과 연도를 함께 적는다. 석탑은 교우회 연표와 상충한다.",
+      "supports": ["다섯 곡 연도 표기", "2024 현행 목록", "석탑 1982 주장"]
+    },
+    {
+      "id": "ev-ku-b-namu-elise",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%EC%97%98%EB%A6%AC%EC%A0%9C%EB%A5%BC%20%EC%9C%84%ED%95%98%EC%97%AC",
+      "title": "나무위키 미러 — 엘리제를 위하여",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Beethoven 작품과 이를 사용한 고려대 응원가 및 다른 스포츠 응원 사례를 모은 편집형 보조 자료다. 고려대판의 직접 원곡은 공식 응원단·음원 자료로 따로 교차했다.",
+      "supports": ["엘리제 선율 계보", "교차 종목 사용"]
+    },
+    {
+      "id": "ev-ku-b-namu-katyusha",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%EC%B9%B4%EC%B8%84%EC%83%A4%28%EB%85%B8%EB%9E%98%29",
+      "title": "나무위키 미러 — 카츄샤(노래)",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "카츄샤의 고려대 지야의 함성 편곡, 교내 패러디와 스포츠 응원 확산을 정리한 편집형 보조 자료다. 작가·연도는 러시아 문화기관과 연구 자료로 교차했다.",
+      "supports": ["지야의 함성 원선율", "패러디 일화", "교차 종목 사용"]
+    },
+    {
+      "id": "ev-ku-b-namu-2000s",
+      "type": "namuwiki-mirror",
+      "url": "https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+      "title": "나무위키 미러 — 고려대학교/응원가/2000년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "출사표의 2000년대 레퍼토리 위치와 원곡·공연 일화를 확인하는 편집형 보조 자료다. 핵심 원곡과 작품번호는 공식 영상·권리자 자료로 교차했다.",
+      "supports": ["출사표 2005", "출사표 원곡 보조"]
+    },
+    {
+      "id": "ev-ku-b-old-fan-origin-list",
+      "type": "community-archive",
+      "url": "https://m.pann.nate.com/feed/116319003",
+      "title": "고려대학교 응원가 원곡 목록 — 2007년 팬 자료",
+      "publisher": "Nate 판",
+      "publishedAt": "2007",
+      "accessedAt": "2026-08-09",
+      "summary": "엘리제·석탑·지야의 함성·출사표의 원곡을 모은 오래된 팬 기록이다. 엘리제 가수를 김수희로 적는 오류 가능성이 있어 상충 주장 자체만 보존했다.",
+      "supports": ["오래된 원곡 인식", "엘리제 가수 상충"]
+    },
+    {
+      "id": "ev-ku-b-apple-jeongyeol",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/song/1639643543",
+      "title": "정열의 꽃 — 정미조",
+      "publisher": "Apple Music",
+      "publishedAt": "1972-01-01",
+      "accessedAt": "2026-08-09",
+      "summary": "정미조의 ‘정열의 꽃’이 1972년 음반에 수록됐음을 확인한다.",
+      "supports": ["엘리제 직접 원곡 가수", "정열의 꽃 1972"]
+    },
+    {
+      "id": "ev-ku-b-bugs-jeongyeol",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/31618803?wl_ref=list_tr_08_ab",
+      "title": "정열의 꽃 (Passion Flower) — 정미조",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "정미조 가창과 이영호 한국어 작사 크레딧, 영문 부제 Passion Flower를 제공한다.",
+      "supports": ["정열의 꽃 가창·작사", "Passion Flower 부제"]
+    },
+    {
+      "id": "ev-ku-b-valente-passion-flower",
+      "type": "discography-reference",
+      "url": "https://www.encyclopedisque.fr/disque/24751.html",
+      "title": "Caterina Valente — Tout l'amour (Passion Flower)",
+      "publisher": "Encyclopédisque",
+      "publishedAt": "1959-03",
+      "accessedAt": "2026-08-09",
+      "summary": "1959년 Caterina Valente 녹음의 부제와 작가 목록에 Beethoven이 포함되어 ‘Für Elise’ 선율을 쓴 Passion Flower 계보를 확인한다.",
+      "supports": ["엘리제 선율 계보", "Passion Flower 1959"]
+    },
+    {
+      "id": "ev-ku-b-yes24-seoktap",
+      "type": "record-catalog",
+      "url": "https://www.yes24.com/Product/Goods/119809340",
+      "title": "장애향 - 석탑 / 님계신 곳",
+      "publisher": "YES24",
+      "publishedAt": "1979-09-20",
+      "accessedAt": "2026-08-09",
+      "summary": "장애향의 LP ‘석탑 / 님계신 곳’ 발매 정보를 제공해 응원가보다 앞선 1979년 원곡을 확인한다.",
+      "supports": ["석탑 원곡 가수", "석탑 원곡 1979"]
+    },
+    {
+      "id": "ev-ku-b-russian-culture-katyusha",
+      "type": "official-cultural-institution",
+      "url": "https://www.culture.ru/materials/171149/katyusha-zhdi-menya-i-chernoglazaya-kazachka-sovetskie-khity-kompozitora-matveya-blantera",
+      "title": "Катюша — советские хиты композитора Матвея Блантера",
+      "publisher": "Культура.РФ",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Katyusha가 1938년에 Matvey Blanter의 곡과 Mikhail Isakovsky의 가사로 만들어졌다고 설명하는 러시아 문화기관 자료다.",
+      "supports": ["Katyusha 1938", "Katyusha 작곡·작사"]
+    },
+    {
+      "id": "ev-ku-b-apple-katjusha",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/gb/song/1443348592",
+      "title": "Katjusha — Leningrad Cowboys",
+      "publisher": "Apple Music",
+      "publishedAt": "1992-01-01",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 응원단 설명이 언급하는 Leningrad Cowboys의 ‘Katjusha’가 1992년 앨범 수록곡임을 확인한다.",
+      "supports": ["지야의 함성 편곡 계보", "Leningrad Cowboys Katjusha"]
+    },
+    {
+      "id": "ev-ku-b-katyusha-study",
+      "type": "scholarly",
+      "url": "https://www.trad-culture.ru/en/article/concerning-folk-existence-katyusha-song-and-problem-folkloric-consciousness-variability",
+      "title": "Concerning Folk Existence of ‘Katyusha’",
+      "publisher": "Traditional Culture scholarly almanac",
+      "publishedAt": "2015",
+      "accessedAt": "2026-08-09",
+      "summary": "Katyusha가 1938년 작가곡이지만 널리 구전·변주되며 민속화됐음을 연구한 자료다. ‘러시아 민요’라는 통칭과 실제 저작 배경을 구분하는 데 사용했다.",
+      "supports": ["Katyusha 작가곡", "Katyusha 민속화"]
+    },
+    {
+      "id": "ev-ku-b-apple-muindo",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/album/kim-choo-ja-desert-island/1752797186",
+      "title": "김추자 무인도",
+      "publisher": "Apple Music",
+      "publishedAt": "1974-06-08",
+      "accessedAt": "2026-08-09",
+      "summary": "김추자의 ‘무인도’ 음반을 1974년 발매작으로 제공한다.",
+      "supports": ["무인도 원곡 가수", "무인도 원곡 1974"]
+    },
+    {
+      "id": "ev-ku-b-bugs-muindo-credit",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/20331068?wl_ref=list_tr_07_chart",
+      "title": "사랑의 콜센타 PART10 — 무인도 곡 소개",
+      "publisher": "벅스",
+      "publishedAt": "2020",
+      "accessedAt": "2026-08-09",
+      "summary": "곡 소개가 ‘무인도’를 이종택 작사·이봉조 작곡·김추자 원곡으로 설명하고, 정훈희의 1975년 국제가요제 무대와 구분한다.",
+      "supports": ["무인도 작사·작곡", "김추자 원곡", "정훈희 후대 공연"]
+    },
+    {
+      "id": "ev-ku-b-apple-hes-a-pirate",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/us/song/1440650203",
+      "title": "He's a Pirate — Klaus Badelt",
+      "publisher": "Apple Music",
+      "publishedAt": "2003-07-22",
+      "accessedAt": "2026-08-09",
+      "summary": "‘He's a Pirate’가 2003년 영화 ‘Pirates of the Caribbean: The Curse of the Black Pearl’ 사운드트랙 수록곡임을 확인한다.",
+      "supports": ["출사표 원곡", "He's a Pirate 2003"]
+    },
+    {
+      "id": "ev-ku-b-umg-hes-a-pirate",
+      "type": "rights-holder-video-metadata",
+      "url": "https://www.youtube.com/watch?v=IJM_tZoKUZo",
+      "title": "He's a Pirate (From ‘Pirates of the Caribbean: The Curse of the Black Pearl’/Score)",
+      "publisher": "Universal Music Group 제공·Klaus Badelt Official Artist Channel",
+      "publishedAt": "2024-10-02",
+      "accessedAt": "2026-08-09",
+      "summary": "Walt Disney Records의 2003년 음원임을 밝히고 Klaus Badelt, Hans Zimmer, Geoffrey Zanelli 등 세부 음악 크레딧을 제공하는 권리자 메타데이터다.",
+      "supports": ["He's a Pirate 권리자", "출사표 원곡 크레딧"]
+    },
+    {
+      "id": "ev-ku-b-dg-sarabande",
+      "type": "record-label-catalog",
+      "url": "https://www.deutschegrammophon.com/en/catalogue/products/handel-sarabande-feuillatre-13139",
+      "title": "HANDEL Sarabande / Feuillâtre",
+      "publisher": "Deutsche Grammophon",
+      "publishedAt": "2023-09-29",
+      "accessedAt": "2026-08-09",
+      "summary": "Sarabande를 Handel의 Suite in D Minor, HWV 437 중 세 번째 악장으로 정확히 표기한다.",
+      "supports": ["출사표 보조 원곡", "Sarabande 작품번호"]
+    },
+    {
+      "id": "ev-ku-b-imslp-hwv437",
+      "type": "score-library",
+      "url": "https://imslp.org/wiki/Suite_in_D_minor%2C_HWV_437_%28Handel%2C_George_Frideric%29",
+      "title": "Suite in D minor, HWV 437",
+      "publisher": "IMSLP",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Handel의 D단조 모음곡 HWV 437이 네 악장으로 구성되고 Sarabande가 세 번째임을 확인한다. 1733년 초판 정보도 제공한다.",
+      "supports": ["Sarabande 정확한 작품·악장", "공식 영상 오기 보정"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ku-b-elise-2025",
+      "songId": "korea-university-elise-reul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=yqXDONSRZJw&t=10s",
+      "videoId": "yqXDONSRZJw",
+      "title": "크림슨 두루마기 응원단장과 함께.  '2025 입실렌티 1부 응원제'  I 엘리제+석탑+지야의 함성+무인도+출사표+들보기+민족의 아리아 I 고려대 축제 I 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-05-29",
+      "descriptionSummary": "2025 입실렌티 1부 전체를 곡별 장으로 나눈 영상이며 엘리제는 00:10부터 시작한다. 시작 화면 약 00:14에 ‘Since 1981’이 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["여러 세대 동문이 자신의 재학 시절을 회상하고, 새 응원단장의 힘찬 동작과 군중 에너지를 높게 평가한다."],
+      "supports": ["1981 도입 화면", "2025 현행 사용", "입실렌티 오프닝"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-elise-2026-ipselenti",
+      "songId": "korea-university-elise-reul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=f32A-jjTbjE&t=79s",
+      "videoId": "f32A-jjTbjE",
+      "title": "[4k] 2026 고려대 입실렌티 1부 응원제(1) '엘리제를 위하여' 부터 '민족의 아리아' 까지!  #입실렌티 #고려대응원가 #민족의아리아 #고려대축제 #엘리제 #석탑",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-13",
+      "descriptionSummary": "2026 입실렌티 1부의 곡별 장을 제공하며 엘리제를 위하여가 01:19부터 시작한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["지원 예정 학생은 학업 동기를 얻었다고 말하고, 동문은 오래된 시작 응원을 다시 듣는 감정을 공유한다."],
+      "supports": ["2026 현행 사용", "입실렌티 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-elise-2026-joint",
+      "songId": "korea-university-elise-reul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=M9xbtZ7Cbfg",
+      "videoId": "M9xbtZ7Cbfg",
+      "title": "[4K] 2026 고려대학교 합동응원전 |  엘리제를 위하여 ✨",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2026-03-21",
+      "descriptionSummary": "고려대 교육TV방송국이 2026 합동응원전의 엘리제를 위하여 공연을 곡 단위로 공개한 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 합동응원전 사용", "공식 교내방송 기록"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-elise-official-ot",
+      "songId": "korea-university-elise-reul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=1VSZTxcxEcU",
+      "videoId": "1VSZTxcxEcU",
+      "title": "엘리제를 위하여  |  고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-10-22",
+      "descriptionSummary": "공식 응원단의 동작 교육 영상이다. 엘리제를 승리의 여신이자 시작 응원으로 설명하고 직접 원곡을 정미조의 ‘정열의 꽃’으로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["전통적인 첫 곡이라는 인식, 호랑이처럼 힘찬 동작에 대한 호평과 졸업생의 추억이 나타난다."],
+      "supports": ["직접 원곡", "공식 구조", "시작 응원", "별칭"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-elise-2022-koyeonjeon",
+      "songId": "korea-university-elise-reul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=BiFQbhph_4U",
+      "videoId": "BiFQbhph_4U",
+      "title": "[2022 고연전 응원] 엘리제를 위하여 -  고려대학교 응원가 / 주경기장 / 연고전",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-11-18",
+      "descriptionSummary": "2022년 10월 29일 고양종합운동장 정기 고연전 축구 경기의 엘리제 응원 장면을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["강한 동작과 현장감을 칭찬하고, 오래전 대학 시절이나 앞으로의 입학을 이 곡과 연결하는 반응이 반복된다."],
+      "supports": ["고연전 사용", "세대 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-seoktap-2025",
+      "songId": "korea-university-seoktap",
+      "url": "https://www.youtube.com/watch?v=yqXDONSRZJw&t=106s",
+      "videoId": "yqXDONSRZJw",
+      "title": "크림슨 두루마기 응원단장과 함께.  '2025 입실렌티 1부 응원제'  I 엘리제+석탑+지야의 함성+무인도+출사표+들보기+민족의 아리아 I 고려대 축제 I 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-05-29",
+      "descriptionSummary": "석탑이 01:46부터 시작하는 2025 입실렌티 1부 영상이다. 약 01:54 화면에는 ‘Since 1982’가 표시돼 교우회 연표의 1981년과 상충한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문은 학번별 동작 변화와 오래된 기억을 비교하고, 관중은 새 응원단장의 체력과 군중의 일체감을 높게 평가한다."],
+      "supports": ["석탑 1982 화면 주장", "2025 현행 사용", "연도 상충"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-seoktap-2026-ipselenti",
+      "songId": "korea-university-seoktap",
+      "url": "https://www.youtube.com/watch?v=f32A-jjTbjE&t=177s",
+      "videoId": "f32A-jjTbjE",
+      "title": "[4k] 2026 고려대 입실렌티 1부 응원제(1) '엘리제를 위하여' 부터 '민족의 아리아' 까지!  #입실렌티 #고려대응원가 #민족의아리아 #고려대축제 #엘리제 #석탑",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-13",
+      "descriptionSummary": "2026 입실렌티 1부에서 석탑이 02:57부터 시작하는 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["관중은 오래된 곡이 새 응원단과 함께 이어지는 점, 집단 동작의 규모와 신곡·전통곡의 조화를 언급한다."],
+      "supports": ["2026 현행 사용", "입실렌티 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-seoktap-2026-freshman-ot",
+      "songId": "korea-university-seoktap",
+      "url": "https://www.youtube.com/watch?v=CLzFweDIJGs&t=100s",
+      "videoId": "CLzFweDIJGs",
+      "title": "2026 신입생 응원 OT '엘리제 + 석탑 + 무인도 + 고연가 + 포레버' 4K 60p 고려대 @화정체육관",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2026-03-20",
+      "descriptionSummary": "2026 신입생 응원 OT의 곡별 장을 제공하며 석탑은 01:40부터 시작한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["신입생과 시청자는 새 응원단장의 큰 동작과 체력, 전통 응원에 처음 참여하는 활기를 긍정적으로 평가한다."],
+      "supports": ["2026 신입생 OT 사용", "동작 교육"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-seoktap-official-ot",
+      "songId": "korea-university-seoktap",
+      "url": "https://www.youtube.com/watch?v=1--FIQPdAwo",
+      "videoId": "1--FIQPdAwo",
+      "title": "석탑  |  고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-10-23",
+      "descriptionSummary": "공식 응원단의 동작 교육 영상으로 원곡을 장애향의 ‘석탑’으로 명시하고 석탑을 절개·의지·지성의 상징으로 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["상징성, 선창·후창과 단복을 높게 평가하고 노래방·음원 서비스에서도 부르고 싶다는 반응이 나타난다."],
+      "supports": ["원곡", "공식 구조", "석탑 상징"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-seoktap-2024",
+      "songId": "korea-university-seoktap",
+      "url": "https://www.youtube.com/watch?v=J_RtsEU-20g",
+      "videoId": "J_RtsEU-20g",
+      "title": "[2024 고려대 신입생 응원OT] 하늘을 향해 불쑥 솟아오른, 석탑! - 고려대학교 응원단",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-03-13",
+      "descriptionSummary": "2024 신입생 응원 OT의 석탑 공연을 곡 단위로 담았다. 설명 본문에는 행사일을 2023.03.12로 적어 제목 연도와 날짜 메타데이터가 어긋난다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문은 약 40년의 전통을 회상하고, 일부는 장애향 원곡을 식별하며 이 곡을 학교 상징으로 평가한다."],
+      "supports": ["응원 OT 사용", "원곡 인지", "세대 수용", "설명 날짜 불일치"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-jiya-2025",
+      "songId": "korea-university-jiya-ui-hamseong",
+      "url": "https://www.youtube.com/watch?v=yqXDONSRZJw&t=270s",
+      "videoId": "yqXDONSRZJw",
+      "title": "크림슨 두루마기 응원단장과 함께.  '2025 입실렌티 1부 응원제'  I 엘리제+석탑+지야의 함성+무인도+출사표+들보기+민족의 아리아 I 고려대 축제 I 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-05-29",
+      "descriptionSummary": "지야의 함성이 04:30부터 시작하는 2025 입실렌티 1부 영상이며 약 04:38 화면에 ‘Since 1984’가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["여러 세대가 같은 곡을 기억한다는 반응과 새 응원단장의 힘, 붉은 군중의 집단 에너지에 대한 호평이 많다."],
+      "supports": ["1984 도입 화면", "2025 현행 사용", "입실렌티 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-jiya-2026-ipselenti",
+      "songId": "korea-university-jiya-ui-hamseong",
+      "url": "https://www.youtube.com/watch?v=f32A-jjTbjE&t=462s",
+      "videoId": "f32A-jjTbjE",
+      "title": "[4k] 2026 고려대 입실렌티 1부 응원제(1) '엘리제를 위하여' 부터 '민족의 아리아' 까지!  #입실렌티 #고려대응원가 #민족의아리아 #고려대축제 #엘리제 #석탑",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-13",
+      "descriptionSummary": "2026 입실렌티 1부 곡별 장에서 지야의 함성이 07:42부터 시작한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["전통곡의 장중한 분위기와 새 응원단의 활력을 함께 평가하고, 지원자는 학교 응원문화를 학업 동기로 언급한다."],
+      "supports": ["2026 현행 사용", "입실렌티 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-jiya-history",
+      "songId": "korea-university-jiya-ui-hamseong",
+      "url": "https://www.youtube.com/watch?v=cSe9Uhshmvw",
+      "videoId": "cSe9Uhshmvw",
+      "title": "1984년부터 불러온 고대다운 응원곡, 지야의 함성 - 고려대 응원가 / 고려대학교 응원단",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2021-03-28",
+      "descriptionSummary": "2015 신입생 OT 공연을 바탕으로 1984년 제작, 카츄샤 선율과 ‘그라나다’ 전주라는 원곡 정보를 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["오래된 핵심 레퍼토리라는 회상, 러시아·소비에트 선율에 대한 인지와 곡의 장중함을 평가하는 반응이 나타난다."],
+      "supports": ["1984 도입 보조", "Katyusha 원선율", "Granada 전주 주장"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-jiya-2024-official-live",
+      "songId": "korea-university-jiya-ui-hamseong",
+      "url": "https://www.youtube.com/watch?v=0S19q-wYtgQ&t=3078s",
+      "videoId": "0S19q-wYtgQ",
+      "title": "[2024 응원 오리엔테이션] 고려대학교 신입생 응원 오리엔테이션 LIVE🔴",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2024-03-12",
+      "descriptionSummary": "공식 교내방송의 신입생 응원 OT 전체 영상이다. 설명 장에서 지야의 함성 교육은 51:18, 실제 공연은 54:00으로 안내한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["현행 편곡과 보컬의 느낌을 비교하는 반응, 전체 곡별 시각을 공유하는 반응이 중심이다."],
+      "supports": ["공식 교내방송 기록", "응원 OT 교육과 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-jiya-official-ot",
+      "songId": "korea-university-jiya-ui-hamseong",
+      "url": "https://www.youtube.com/watch?v=umGBzyyklyE",
+      "videoId": "umGBzyyklyE",
+      "title": "지야의 함성 | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-08",
+      "descriptionSummary": "공식 응원단의 동작 영상으로 지성과 야성의 의미, Leningrad Cowboys의 ‘Katjusha’와 ‘Granada’로 표기한 음악 출처를 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["부모와 자녀 세대가 같은 곡을 공유한다는 회상, 역사적 공연과 현재 사용 비교, 카츄샤 선율 식별이 나타난다."],
+      "supports": ["공식 구조", "제목 의미", "원곡·편곡 출처"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-muindo-2025",
+      "songId": "korea-university-muindo",
+      "url": "https://www.youtube.com/watch?v=yqXDONSRZJw&t=381s",
+      "videoId": "yqXDONSRZJw",
+      "title": "크림슨 두루마기 응원단장과 함께.  '2025 입실렌티 1부 응원제'  I 엘리제+석탑+지야의 함성+무인도+출사표+들보기+민족의 아리아 I 고려대 축제 I 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-05-29",
+      "descriptionSummary": "무인도가 06:21부터 시작하는 2025 입실렌티 1부 영상이며 약 06:32 화면에 ‘Since 1984’가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문은 세대별 동작과 곡 순서를 비교하고, 시청자는 선창의 힘과 관중 응답의 규모를 높게 평가한다."],
+      "supports": ["1984 도입 화면", "2025 현행 사용", "입실렌티 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-muindo-2026-ipselenti",
+      "songId": "korea-university-muindo",
+      "url": "https://www.youtube.com/watch?v=f32A-jjTbjE&t=573s",
+      "videoId": "f32A-jjTbjE",
+      "title": "[4k] 2026 고려대 입실렌티 1부 응원제(1) '엘리제를 위하여' 부터 '민족의 아리아' 까지!  #입실렌티 #고려대응원가 #민족의아리아 #고려대축제 #엘리제 #석탑",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-13",
+      "descriptionSummary": "2026 입실렌티 1부 곡별 장에서 무인도가 09:33부터 시작한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["전통 레퍼토리의 연속성과 새 응원단장의 고음·동작, 관중의 참여를 긍정적으로 평가한다."],
+      "supports": ["2026 현행 사용", "입실렌티 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-muindo-2026-freshman-ot",
+      "songId": "korea-university-muindo",
+      "url": "https://www.youtube.com/watch?v=CLzFweDIJGs&t=266s",
+      "videoId": "CLzFweDIJGs",
+      "title": "2026 신입생 응원 OT '엘리제 + 석탑 + 무인도 + 고연가 + 포레버' 4K 60p 고려대 @화정체육관",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2026-03-20",
+      "descriptionSummary": "2026 신입생 응원 OT에서 무인도가 04:26부터 시작하는 곡별 장을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["신입생 응원단의 에너지와 관중의 첫 참여, 큰 상체 동작의 체력 소모를 인상적으로 봤다는 반응이 나타난다."],
+      "supports": ["2026 신입생 OT 사용", "동작 교육"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-muindo-2025-freshman-ot",
+      "songId": "korea-university-muindo",
+      "url": "https://www.youtube.com/watch?v=9pwdAFjHCFo&t=259s",
+      "videoId": "9pwdAFjHCFo",
+      "title": "2025 고려대 신입생 응원 OT '포레버 + 엘리제를 위하여 + 석탑 + 무인도 + 출사표'  오리엔테이션 4K 60p @화정체육관",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2025-03-12",
+      "descriptionSummary": "2025 신입생 응원 OT의 곡별 장에서 무인도가 04:19부터 시작한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["오랫동안 이 곡을 가장 좋아한 응원가로 기억한다는 동문 반응과 새 응원단장에 대한 호평이 함께 나타난다."],
+      "supports": ["2025 신입생 OT 사용", "장기 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-muindo-official-ot",
+      "songId": "korea-university-muindo",
+      "url": "https://www.youtube.com/watch?v=u080FPwuuy8",
+      "videoId": "u080FPwuuy8",
+      "title": "무인도  |  고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-10-31",
+      "descriptionSummary": "공식 응원단의 동작 교육 영상으로 원곡을 김추자의 ‘무인도’로 명시하고 자연 이미지와 휴식·안식의 해석을 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["적은 수의 응원가를 반복하던 시절부터 좋아했다는 회상과 공연의 힘, 수십 년이 지나도 남는 서정성에 대한 반응이 있다."],
+      "supports": ["원곡", "공식 구조", "공식 해석"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-chulsapyo-2025",
+      "songId": "korea-university-chulsapyo",
+      "url": "https://www.youtube.com/watch?v=yqXDONSRZJw&t=595s",
+      "videoId": "yqXDONSRZJw",
+      "title": "크림슨 두루마기 응원단장과 함께.  '2025 입실렌티 1부 응원제'  I 엘리제+석탑+지야의 함성+무인도+출사표+들보기+민족의 아리아 I 고려대 축제 I 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-05-29",
+      "descriptionSummary": "출사표가 09:55부터 시작하는 2025 입실렌티 1부 영상이며 약 10:04 화면에 ‘Since 2005’가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡 전환과 응원단장의 역동적인 동작, 고전 레퍼토리와 2000년대 곡이 이어지는 구성에 대한 호평이 나타난다."],
+      "supports": ["2005 도입 화면", "2025 현행 사용", "입실렌티 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-chulsapyo-2026-ipselenti-2",
+      "songId": "korea-university-chulsapyo",
+      "url": "https://www.youtube.com/watch?v=fw49Km7AQ9Q&t=11s",
+      "videoId": "fw49Km7AQ9Q",
+      "title": "[2026 고려대 입실렌티] 현장감 넘치는 2부 응원 #2 부단장 턴 '출사표 + 꿇어라 연세 + 고래사냥 + 예예예 + 고연가 사랑하라 + 붉은노을' #고려대응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-30",
+      "descriptionSummary": "2026년 5월 22일 입실렌티 2부 부단장 순서이며 출사표가 00:11부터 시작한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["촬영의 현장감과 부단장들의 힘을 높게 평가하고, 출사표의 강한 시작을 특히 좋아한다는 반응이 있다."],
+      "supports": ["2026 현행 사용", "부단장 레퍼토리", "입실렌티 2부"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-chulsapyo-2026-ipselenti-3",
+      "songId": "korea-university-chulsapyo",
+      "url": "https://www.youtube.com/watch?v=ORI0ZebruK8&t=349s",
+      "videoId": "ORI0ZebruK8",
+      "title": "[2026 고려대 입실렌티] 3부 응원 전반부_녹지운동장에서 청춘을 노래하다 '청춘예찬 + 백야 + 출사표 + 카운트다운 + 연세치킨 + 입실렌티 + 예예예'#고려대응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-07",
+      "descriptionSummary": "2026 입실렌티 3부 전반부 영상으로 출사표가 05:49부터 시작한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원가 연속 구성을 청춘과 격려의 메시지로 받아들이고, 후반부까지 이어지는 관중 에너지를 높게 평가한다."],
+      "supports": ["2026 현행 사용", "입실렌티 3부"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-chulsapyo-2026-freshman-ot",
+      "songId": "korea-university-chulsapyo",
+      "url": "https://www.youtube.com/watch?v=CA_F-Dc8Yis",
+      "videoId": "CA_F-Dc8Yis",
+      "title": "#고려대학교응원단 I '출사표+영원하라+고연가+Young Tigers'-응원단장 & 기수부 레파토리 [2026 고려대 신입생 응원OT] #고려대응원가 #응원OT #서울OT [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-03-20",
+      "descriptionSummary": "2026 신입생 응원 OT에서 출사표를 응원단장·기수부 Young Tigers 레퍼토리의 첫 곡으로 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원단장의 동작이 요구하는 체력과 기수부가 더하는 시각적 규모를 인상적으로 봤다는 짧은 반응이 있다."],
+      "supports": ["2026 신입생 OT 사용", "응원단장·기수부 레퍼토리"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-chulsapyo-2025-autumn-ot",
+      "songId": "korea-university-chulsapyo",
+      "url": "https://www.youtube.com/watch?v=Ma-52WGcH-I",
+      "videoId": "Ma-52WGcH-I",
+      "title": "2025 2학기 고려대학교 응원OT | 출사표 🐯",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2025-09-02",
+      "descriptionSummary": "2025 정기 고연전과 2학기 응원 OT를 앞두고 고려대 교육TV방송국이 출사표 공연을 곡 단위로 공개했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["전체 응원 OT 영상도 보고 싶다는 요청이 있어 짧은 곡별 기록의 역할을 보여준다."],
+      "supports": ["2025 2학기 응원 OT 사용", "공식 교내방송 기록"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-b-chulsapyo-official-ot",
+      "songId": "korea-university-chulsapyo",
+      "url": "https://www.youtube.com/watch?v=TAkrR8ouVpo",
+      "videoId": "TAkrR8ouVpo",
+      "title": "출사표  |  고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-23",
+      "descriptionSummary": "공식 응원단의 동작 영상으로 ‘He's a Pirate’와 ‘Srabande no.11 – Handle’이라고 적은 두 음악 출처, 선창·후창과 동작 구조를 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["가장 고려대다운 곡이라는 평가, 승리 구호의 반복과 응원단장·단복에 대한 호평이 나타난다."],
+      "supports": ["공식 구조", "두 원곡", "공식 설명 오기"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 26,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 17
+  }
+}

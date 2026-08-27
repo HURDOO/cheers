@@ -1,0 +1,1464 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-hanwha-c",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-hanwha-eagles",
+    "name": "한화 이글스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명·댓글 전문은 저장하지 않는다. 저작권이 있는 가사는 출처와 구조·주제만 요약하고, 공개 댓글은 개인정보와 원문 인용을 배제한 반복 반응만 기록한다.",
+  "items": [
+    {
+      "id": "hanwha-eagles-boara-gieokhara",
+      "title": "보아라 기억하라",
+      "aliases": [
+        "보아라 이겼노라",
+        "보아라 기억하라(2023 개정판)"
+      ],
+      "currentStatus": "current",
+      "summary": "2022년에는 ‘보아라 이겼노라’라는 제목과 가사로 등장했고 2023년에 ‘보아라 기억하라’로 제목과 가사가 바뀐 한화 팀 응원가다. 2024년 KBO 공식 음원 모음과 2025년 현장·음원 영상에서 개정판의 현행 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "titleAndLyricsLineage",
+          "value": "2022년 ‘보아라 이겼노라’에서 2023년 ‘보아라 기억하라’로 제목과 가사가 변경됨",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-hanwha-c-namu-cheers",
+            "yt-boara-01",
+            "yt-boara-02",
+            "yt-boara-03",
+            "yt-boara-04"
+          ],
+          "notes": "현행 응원가 문서의 계보 설명과 2022·2023년 각각의 제목이 명시된 직접 영상이 서로 맞는다. 두 판의 가사가 다르므로 단순 별칭이 아니라 개정 전후 판으로 함께 보존한다."
+        },
+        {
+          "field": "earliestDirectlyDocumentedUse",
+          "value": "2022-05-28 수원 원정경기에서 ‘보아라 이겼노라’ 판 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-boara-02"
+          ],
+          "notes": "응원단장 채널의 날짜·장소가 특정된 현장 영상이다. 확인된 가장 이른 사용 장면일 뿐 공식 최초 도입일로 단정하지 않는다."
+        },
+        {
+          "field": "earliestDirectlyDocumentedRevisedVersion",
+          "value": "2023-04-30 현장 영상에서 ‘보아라 기억하라’ 개정판 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-boara-04",
+            "yt-boara-03"
+          ],
+          "notes": "4월 30일 현장 영상과 5월 27일 응원단장 학습 영상이 개정 제목을 연속 확인한다. 실제 개정 공표일은 별도 미확인이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024년 KBO 공식 한화 응원가 음원과 2025년 음원·현장 자료에 수록된 현행 팀 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-hanwha-c-kbo-soundcloud",
+            "ev-hanwha-c-namu-cheers",
+            "yt-boara-05",
+            "yt-boara-06"
+          ],
+          "notes": "KBO 공식 트랙 타임라인은 개정 제목을 명시하고, 최근 현장 영상은 관중 합창이 형성되는 사용 모습을 보여 준다."
+        },
+        {
+          "field": "recordedVocal",
+          "value": "황석빈이 녹음에 참여한 것으로 정리됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-hanwha-c-hwang-seokbin"
+          ],
+          "notes": "인물 문서의 참여곡 목록에 근거한다. 구단 음원 크레딧이나 권리단체 데이터로 재확인할 필요가 있다."
+        }
+      ],
+      "usageContexts": [
+        "승리 뒤 또는 승리를 기념하는 분위기에서 응원단과 관중이 함께 부르는 팀 응원가로 촬영됐다.",
+        "2023년 개정 직후에는 응원단장이 가사와 동작을 익히도록 안내하는 형태의 영상이 공개됐다.",
+        "2024년 현장에서는 관중 합창이 점차 크게 정착되는 장면이 확인된다."
+      ],
+      "trivia": [
+        {
+          "text": "2022년 MR 제작 영상과 원정 현장 영상이 남아 있어 개정 전 판의 제목과 실사용을 서로 교차 확인할 수 있다.",
+          "assessment": "verified",
+          "evidenceRefs": [
+            "yt-boara-01",
+            "yt-boara-02"
+          ]
+        },
+        {
+          "text": "2023년 개정판 영상 댓글에서는 장중함과 흥겨움을 함께 느낀다는 반응, 경기장에서 직접 부르고 싶다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-boara-03",
+            "yt-boara-04"
+          ]
+        },
+        {
+          "text": "2024년 영상 제목과 댓글은 초기에 낯설던 곡이 점차 떼창으로 정착하는 과정을 팬들이 의식하고 있었음을 보여 준다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-boara-05"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-team-song",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=YIfou73Angc",
+          "https://www.youtube.com/watch?v=x5g72_zRhB0",
+          "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+          "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "2022년판은 승리 결과를 선언하는 제목과 반복 구호를 중심으로 했고, 2023년판은 팀의 기억과 정체성을 강조하는 표현으로 제목과 핵심 가사가 바뀌었다. 개정판은 선창 뒤 관중이 짧은 구호와 후렴을 합창하는 장중한 팀 응원 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-boara-01",
+        "yt-boara-02",
+        "yt-boara-03",
+        "yt-boara-04",
+        "yt-boara-05",
+        "yt-boara-06"
+      ],
+      "unresolved": [
+        "작사·작곡·편곡자와 전체 음원 제작 크레딧을 확인할 공식 자료가 필요하다.",
+        "2023년 제목·가사 변경의 정확한 공표일과 변경 사유가 확인되지 않았다.",
+        "2022년판 제목이 구단의 공식 등록명인지 현장·업로더 통용명인지 1차 자료로 확정할 필요가 있다."
+      ]
+    },
+    {
+      "id": "hanwha-eagles-eternal-champion",
+      "title": "영원한 챔프",
+      "aliases": [
+        "영원한챔프",
+        "Eternal Champion"
+      ],
+      "currentStatus": "current",
+      "summary": "한화 구단 공식 채널이 2018년 테마송 뮤직비디오로 공개한 장편 팀 노래다. 2019년 ‘한화이글스 Bring It’ 싱글에 정식 음원으로 발매됐고, 경기 후반 플래시 응원과 경기 종료 뒤 여운을 잇는 곡으로 현재까지 사용된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2018년 한화 이글스 테마송으로 공식 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-champ-01"
+          ],
+          "notes": "구단 공식 Eagles TV가 2018 테마송이라고 제목과 설명에 명시한 뮤직비디오를 2018년 5월 말 공개했다."
+        },
+        {
+          "field": "digitalRelease",
+          "value": "2019-05-28 ‘한화이글스 Bring It’ 싱글의 두 번째 트랙으로 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-hanwha-c-spotify-bring-it",
+            "ev-hanwha-c-apple-champ",
+            "yt-champ-02"
+          ],
+          "notes": "Spotify·Apple Music의 발매일과 YouTube Topic의 음원 제공 메타데이터가 일치한다. 2018년 영상 공개와 2019년 음원 유통을 별개 사건으로 기록한다."
+        },
+        {
+          "field": "catalogAttribution",
+          "value": "음원 아티스트·제작 주체가 한화이글스로 표기되고 2019년 우조엔터테인먼트 유통 권리 정보가 노출됨",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-hanwha-c-spotify-bring-it",
+            "yt-champ-02"
+          ],
+          "notes": "플랫폼 메타데이터 수준의 표기다. 개인별 작사·작곡·편곡 크레딧은 확인되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024년 KBO 공식 응원가 음원 수록과 2025~2026년 현장·팬 아카이브로 사용 지속 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-hanwha-c-kbo-soundcloud",
+            "ev-hanwha-c-namu-cheers",
+            "yt-champ-05",
+            "yt-champ-06"
+          ],
+          "notes": "공식 음원 목록과 최근 날짜가 특정된 경기 후 영상이 함께 확인된다."
+        },
+        {
+          "field": "usageContext",
+          "value": "경기 후반 휴대전화 플래시 응원 및 경기 종료 뒤 선수단 인사·인터뷰 다음에 재생",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-hanwha-c-manual365",
+            "yt-champ-06"
+          ],
+          "notes": "플래시 응원은 팬 안내 글, 종료 뒤 재생 순서는 날짜가 특정된 영상과 댓글의 현장 설명에 근거한다. 구단 운영 매뉴얼은 미확보다."
+        },
+        {
+          "field": "specialEventUse",
+          "value": "2019 홈 최종전 행사에서 가상 합창단 라이브 영상 공연 예정",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-hanwha-c-home-finale-2019"
+          ],
+          "notes": "경기 전 보도에 명시된 공식 행사 계획이다. 공연 완료 여부를 보여 주는 사후 자료는 별도로 확보하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "경기 후반 관중이 휴대전화 조명을 켜고 함께 부르는 플래시 응원곡으로 소개된다.",
+        "경기 종료 뒤 선수단 인사와 승리 인터뷰 전후의 마무리 음악으로 들리는 현장 기록이 있다.",
+        "시즌 피날레·가상 합창단처럼 긴 호흡의 감동 연출에도 활용됐다."
+      ],
+      "trivia": [
+        {
+          "text": "2018년 공식 MV 공개가 2019년 스트리밍 싱글 발매보다 앞선다. 따라서 음원 플랫폼의 2019년만을 곡의 도입 연도로 쓰면 1년 늦어진다.",
+          "assessment": "verified",
+          "evidenceRefs": [
+            "yt-champ-01",
+            "ev-hanwha-c-spotify-bring-it"
+          ]
+        },
+        {
+          "text": "2018 공식 MV 댓글에는 오랜 부진 뒤 언젠가 우승 장면에서 다시 듣고 싶다는 기대가 누적됐고, 2025년 선두 경쟁과 한국시리즈 진출 뒤 과거 댓글을 되찾아온 반응이 많다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-champ-01",
+            "yt-champ-05"
+          ]
+        },
+        {
+          "text": "다른 구단 팬도 곡의 웅장함과 감정선을 높게 평가한다는 반응이 여러 영상에서 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-champ-01",
+            "yt-champ-03",
+            "yt-champ-05"
+          ]
+        },
+        {
+          "text": "패배 뒤에도 선수단 인사가 끝난 후 곡이 재생된다는 현장 설명이 있어 제목과 달리 승리 때만 쓰는 노래는 아닌 것으로 보인다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-champ-06"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-official-team-song",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=8anzDqWRsGM",
+          "https://open.spotify.com/album/5lT9qRi5dfnC0RT0The7HH",
+          "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+          "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "현재의 승리와 팬·선수의 결속을 출발점으로 팀의 역사, 땀, 부활과 미래를 서사적으로 확장한 뒤 팀을 영원한 챔피언이자 승리자로 호명하는 긴 후렴을 반복한다. 짧은 상황 구호가 아니라 플래시 연출과 합창에 맞춘 장편 테마송이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-champ-01",
+        "yt-champ-02",
+        "yt-champ-03",
+        "yt-champ-04",
+        "yt-champ-05",
+        "yt-champ-06"
+      ],
+      "unresolved": [
+        "작사·작곡·편곡·연주·가창의 개인별 전체 크레딧이 플랫폼 메타데이터에서 확인되지 않았다.",
+        "2018년 구장 첫 사용 날짜와 공식 도입 행사를 확인할 1차 기록이 필요하다.",
+        "경기 후반 플래시·승패별 종료 재생 순서를 규정한 구단 운영 자료가 필요하다."
+      ]
+    },
+    {
+      "id": "hanwha-eagles-who-are-we",
+      "title": "우리가 누구",
+      "aliases": [
+        "우리가 누구?",
+        "우리가 누구!"
+      ],
+      "currentStatus": "current",
+      "summary": "선창 질문과 팀명 응답, 구음과 짧은 문장형 후렴을 결합한 한화의 참여형 응원가다. 2022년 현장 영상이 이번 조사에서 확인된 가장 오래된 직접 기록이며, 서포터즈 ‘잇츠 한화’가 만든 구호에서 비롯됐다는 당사자 설명과 2024년 KBO 공식 음원 수록이 확인된다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyDocumentedUse",
+          "value": "2022-08-24 공개 현장 영상에서 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-who-01"
+          ],
+          "notes": "이번 표본 가운데 가장 이른 직접 영상이다. 촬영일 설명이 없어 공개일을 공식 도입일로 해석하지 않는다."
+        },
+        {
+          "field": "supporterOrigin",
+          "value": "핵심 문답 구호는 한화 서포터즈 ‘잇츠 한화’에서 비롯됐다는 회장 설명",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-hanwha-c-supporters-2025"
+          ],
+          "notes": "서포터즈 회장이 인터뷰에서 해당 구호와 볼넷 구호를 자신들의 주도로 시작했다고 설명했다. 구단 제작 문서로 교차 확인되지는 않았다."
+        },
+        {
+          "field": "usageContext",
+          "value": "안타, 이닝 종료, 응원 분위기가 오른 때 선창과 집단 응답으로 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-hanwha-c-supporters-2025",
+            "yt-who-02",
+            "yt-who-03"
+          ],
+          "notes": "서포터즈 인터뷰가 상황을 구체적으로 설명하고 여러 현장 영상이 참여형 응원을 보여 준다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024년 KBO 공식 음원 수록 및 2025~2026년 현장·음원 영상으로 사용 지속 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-hanwha-c-kbo-soundcloud",
+            "ev-hanwha-c-namu-cheers",
+            "yt-who-04",
+            "yt-who-05",
+            "yt-who-06"
+          ],
+          "notes": "공식 음원 목록과 최근 시즌 자료가 연속된다."
+        },
+        {
+          "field": "recordedVocal",
+          "value": "황석빈이 녹음에 참여한 것으로 정리됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-hanwha-c-hwang-seokbin"
+          ],
+          "notes": "편집형 인물 문서의 참여곡 목록에 근거하며 공식 음원 크레딧 재확인이 필요하다."
+        },
+        {
+          "field": "possibleMusicalResemblance",
+          "value": "Metallica 버전 ‘Whiskey in the Jar’를 편곡한 듯하다는 팬 가이드의 청감상 설명",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-hanwha-c-manual365"
+          ],
+          "notes": "해당 글도 확정 원곡이 아니라 ‘느낌’으로 표현한다. 작곡 크레딧이나 권리 정보가 없어 원곡·편곡 관계로 확정하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "응원단의 질문형 선창에 관중이 팀명 구호로 즉시 답하는 콜 앤드 리스폰스가 중심이다.",
+        "안타가 나오거나 이닝이 끝날 때, 분위기를 더 끌어올릴 때 사용된다는 서포터즈 설명이 있다.",
+        "구음부와 짧은 후렴이 이어져 관중이 가사를 모두 몰라도 반복 참여하기 쉬운 구조다."
+      ],
+      "trivia": [
+        {
+          "text": "서포터즈 ‘잇츠 한화’는 2005년 출범했고, 인터뷰 당시 회장은 이 구호가 회원들의 응원에서 시작돼 널리 퍼졌다고 설명했다.",
+          "assessment": "reported",
+          "evidenceRefs": [
+            "ev-hanwha-c-supporters-2025"
+          ]
+        },
+        {
+          "text": "팬 가이드와 영상 댓글에서는 질문·응답 뒤 이어지는 구음 구간을 곡의 중독적인 부분으로 자주 꼽는다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "ev-hanwha-c-okdk9",
+            "yt-who-04"
+          ]
+        },
+        {
+          "text": "2026 음원 영상에는 음질·사운드에 대한 부정적 반응도 있어 곡 자체 평가와 업로드 음질 평가를 분리해 읽어야 한다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-who-05"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-team-chant",
+        "sourceUrls": [
+          "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+          "https://v.daum.net/v/20250625110228474?s=print_news",
+          "https://okdk9.tistory.com/entry/%ED%95%9C%ED%99%94%EC%9D%B4%EA%B8%80%EC%8A%A4-%EC%9D%91%EC%9B%90%EA%B0%80-%EC%B4%9D%EC%A0%95%EB%A6%AC%EF%BD%9C%EC%9D%B4%EA%B8%80%EC%8A%A4%ED%8C%8C%ED%81%AC-%EB%A7%9B%EC%A7%91",
+          "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "질문형 선창과 팀명·정체성을 외치는 짧은 관중 응답을 여러 차례 반복한 뒤, 구음 합창과 승리·열광·함성을 다루는 문장형 후렴으로 넘어가 다시 처음의 문답으로 돌아온다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-who-01",
+        "yt-who-02",
+        "yt-who-03",
+        "yt-who-04",
+        "yt-who-05",
+        "yt-who-06"
+      ],
+      "unresolved": [
+        "2022년 영상보다 앞선 최초 사용일과 정식 도입 경위를 확인할 기록이 필요하다.",
+        "작사·작곡·편곡과 녹음 제작의 공식 크레딧이 확인되지 않았다.",
+        "‘Whiskey in the Jar’와의 관계가 실제 편곡·차용인지 단순한 청감상 유사성인지 확인되지 않았다."
+      ]
+    },
+    {
+      "id": "hanwha-eagles-full-count-cheer",
+      "title": "풀카운트 응원",
+      "aliases": [
+        "풀카운트 응원가",
+        "풀카운트송",
+        "3-2 풀카운트 응원",
+        "풀카운트 어이",
+        "풀카운트 빠샤"
+      ],
+      "currentStatus": "current",
+      "summary": "타자가 3볼 2스트라이크에 이르렀을 때 관중의 박자와 구호를 모으는 상황 응원군이다. 2017년부터 직접 영상이 남아 있고 2025년 모음집에는 서로 다른 두 하위 표기가, 2026년에는 신규판이 확인돼 하나의 고정곡보다 시대별 변형을 포괄하는 항목으로 다루는 편이 안전하다.",
+      "claims": [
+        {
+          "field": "usageContext",
+          "value": "한화 타자의 3볼 2스트라이크 풀카운트 상황에서 사용하는 공통 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-fullcount-01",
+            "yt-fullcount-02",
+            "yt-fullcount-03",
+            "ev-hanwha-c-namu-cheers"
+          ],
+          "notes": "2017·2019년 영상 제목과 현행 문서 분류가 같은 상황을 가리킨다."
+        },
+        {
+          "field": "earliestDirectlyDocumentedUse",
+          "value": "2017-05-08 공개 영상에서 타자 공통응원과 함께 풀카운트 응원 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-fullcount-01",
+            "yt-fullcount-02"
+          ],
+          "notes": "서로 다른 채널의 2017년 5월 영상 두 편이 존재한다. 실제 도입일은 그보다 이를 수 있다."
+        },
+        {
+          "field": "variantFamily",
+          "value": "연도별로 다른 풀카운트 구호·음원이 쓰여 하나의 고정 버전이 아닌 변형군을 이룸",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-fullcount-01",
+            "yt-fullcount-02",
+            "yt-fullcount-04",
+            "yt-fullcount-05",
+            "yt-fullcount-06",
+            "yt-fighting-07"
+          ],
+          "notes": "2017판, 2025 표본, 2026 신규판의 제목·소리 맥락이 다르고 2025 모음집은 ‘어이’와 ‘빠샤’를 별도 타임라인으로 적는다."
+        },
+        {
+          "field": "2025CatalogLabels",
+          "value": "2025 응원가 모음에서 ‘풀카운트 어이’와 ‘풀카운트 빠샤’를 별도 항목으로 병기",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-fighting-07"
+          ],
+          "notes": "공식 구단 영상은 아니지만 상세 타임라인이 두 하위 버전을 분리한다."
+        },
+        {
+          "field": "2026Change",
+          "value": "2026년 5~6월 새 풀카운트 응원판이 추가돼 현장에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-fullcount-05",
+            "yt-fullcount-06"
+          ],
+          "notes": "서로 다른 채널이 ‘신규’·‘새롭게 추가’라는 제목으로 날짜가 가까운 두 현장 장면을 보존한다. 공식 명칭과 정확한 첫 사용일은 미확인이다."
+        },
+        {
+          "field": "originalSource",
+          "value": "2017판의 원곡·제작자 미상",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-fullcount-02"
+          ],
+          "notes": "2017년 업로더도 원곡을 알 수 없다며 제보를 요청했다. 확인되지 않은 유사곡 주장을 원곡 정보로 채택하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "타자가 풀카운트에 도달했을 때 다음 공을 앞두고 박자·함성을 모으는 짧은 상황 응원이다.",
+        "공통 타자 응원과 연속해서 소개되기도 하며, 독립된 장편 팀 노래보다는 인플레이 직전 구호에 가깝다.",
+        "시즌별로 음원과 핵심 추임새가 바뀌거나 복수 버전이 병행된 흔적이 있다."
+      ],
+      "trivia": [
+        {
+          "text": "2017년 아카이브 업로더가 영상 설명에서 원곡 정보를 공개적으로 물었지만 이번 조사에서도 신뢰할 만한 답을 확인하지 못했다.",
+          "assessment": "verified",
+          "evidenceRefs": [
+            "yt-fullcount-02"
+          ]
+        },
+        {
+          "text": "2025판 댓글에서는 이전 판 선호와 함께 상대 구단 팬이 압박감·성가심을 느낀다는 반응이 동시에 나타난다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-fullcount-04"
+          ]
+        },
+        {
+          "text": "팬들은 2025판 선율에 여러 장난스러운 별명을 붙였지만 공식 명칭은 아니므로 별칭 배열에는 넣지 않았다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-fullcount-04"
+          ]
+        },
+        {
+          "text": "2026 신규판 댓글에는 개선됐다는 반응과 다른 구단 응원과 비슷하다는 주장, 응원 방식이 어색하다는 반응이 엇갈린다. 유사성 주장은 출처 계보의 증거가 아니다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-fullcount-05",
+            "yt-fullcount-06"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyright-status-and-authorship-unknown",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=diqR1OWgZw4",
+          "https://www.youtube.com/watch?v=8ajWG6YvM2g",
+          "https://www.youtube.com/watch?v=pKRS4APbGe0",
+          "https://www.youtube.com/watch?v=Re-wgyzqbIg",
+          "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "풀카운트라는 짧은 투구 간격에 맞춰 반복 박자와 추임새를 집중시키는 구호형 구조다. 2017판, 2025년 ‘어이’·‘빠샤’ 표기판, 2026 신규판의 음원과 세부 구호가 달라 단일 가사 구조로 합치지 않는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-fullcount-01",
+        "yt-fullcount-02",
+        "yt-fullcount-03",
+        "yt-fullcount-04",
+        "yt-fullcount-05",
+        "yt-fullcount-06"
+      ],
+      "unresolved": [
+        "2017판과 이후 판들의 정확한 도입·중단·병행 연표를 확인할 응원단 진행표가 필요하다.",
+        "각 판의 원곡, 작곡·편곡자와 음원 제작 크레딧이 확인되지 않았다.",
+        "2026 신규판의 공식 제목과 최초 사용 경기 날짜가 확인되지 않았다.",
+        "2025년 ‘어이’와 ‘빠샤’가 상황별로 구분되는지 또는 선택적으로 병행되는지 공식 사용 규칙이 필요하다."
+      ]
+    },
+    {
+      "id": "hanwha-eagles-eagles-fighting-provisional",
+      "title": "이글스 화이팅",
+      "aliases": [
+        "이글스 화이팅(문서상 가제)",
+        "리듬응원",
+        "리듬응원1"
+      ],
+      "currentStatus": "current",
+      "summary": "현행 응원가 문서가 ‘이글스 화이팅’이라는 가제로 분류하는 짧은 리듬 응원이다. 다만 영상 생태계에서는 ‘리듬응원1’, ‘리듬응원’, ‘이글스 화이팅’이 혼용되고, 연도별 모음집은 리듬응원 1·2와 이글스 화이팅을 서로 다른 항목으로 나누기도 해 공식 제목과 곡 동일성은 아직 확정할 수 없다.",
+      "claims": [
+        {
+          "field": "titleStatus",
+          "value": "‘이글스 화이팅’은 현행 응원가 문서에서 쓰는 가제이며 공식 고유 제목은 미확인",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-hanwha-c-namu-cheers",
+            "yt-fighting-01",
+            "yt-fighting-06"
+          ],
+          "notes": "2019 영상 댓글도 공식 명칭을 묻고, 2025 영상은 괄호 안에 리듬응원을 병기한다. 승인 전까지 ‘문서상 가제’ 표시를 유지한다."
+        },
+        {
+          "field": "earliestExactNamedUse",
+          "value": "2022-09-24 촬영 응원가 모음의 16:07 구간에 ‘이글스 화이팅’ 표기",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-fighting-02"
+          ],
+          "notes": "영상은 2023년에 게시됐지만 설명이 촬영일과 타임라인을 명시한다. 2019년 ‘리듬응원1’이 같은 곡인지 불확실하므로 정확 명칭 기준 최초 직접 기록은 2022년으로 둔다."
+        },
+        {
+          "field": "possibleEarlierRelatedUse",
+          "value": "2019-04-12 ‘리듬응원1’ 영상이 관련 계열일 가능성",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": [
+            "yt-fighting-01",
+            "yt-fighting-04",
+            "yt-fighting-05"
+          ],
+          "notes": "2019 영상만으로는 같은 곡임을 확정할 수 없다. 2023·2024 모음집이 ‘리듬응원01’과 ‘이글스 화이팅’을 서로 다른 타임라인 항목으로 나눠 반대 근거가 된다."
+        },
+        {
+          "field": "labelIdentity",
+          "value": "‘리듬응원1’·‘리듬응원’과 ‘이글스 화이팅’의 동일곡 여부가 자료마다 충돌",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-fighting-01",
+            "yt-fighting-04",
+            "yt-fighting-05",
+            "yt-fighting-06",
+            "yt-fighting-07"
+          ],
+          "notes": "단독 영상은 명칭을 겹쳐 쓰지만 연도별 타임라인은 리듬응원 1·2와 이글스 화이팅을 별도 트랙으로 배열한다. 별칭은 검색용으로 유지하되 동일성을 확정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025년 단독 영상과 응원가 모음에 ‘이글스 화이팅’이 수록된 현행 리듬 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-hanwha-c-namu-cheers",
+            "yt-fighting-06",
+            "yt-fighting-07"
+          ],
+          "notes": "2025년 두 자료가 정확한 명칭을 사용한다. 2026 공식 영상은 신규곡 위주의 선별 가이드여서 미수록만으로 폐기를 판단하지 않는다."
+        },
+        {
+          "field": "catalogSeparation",
+          "value": "2023·2024·2025 비공식 종합 모음집은 리듬응원 1·2와 이글스 화이팅을 별도 구간으로 배열",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-fighting-04",
+            "yt-fighting-05",
+            "yt-fighting-07"
+          ],
+          "notes": "세 시즌 타임라인의 반복된 분리는 단순 표기 실수보다 서로 다른 응원일 가능성을 높인다. 다만 비공식 채널 분류이므로 공식 확정은 아니다."
+        }
+      ],
+      "usageContexts": [
+        "짧은 박자와 팀 구호를 반복해 장내 분위기를 이어 가는 리듬 응원으로 소개된다.",
+        "종합 응원가 모음에서는 다른 리듬응원들과 인접하지만 별도 구간으로 재생된다.",
+        "길이가 긴 서사형 노래보다 관중이 즉시 따라 외치는 구호형 응원에 가깝다."
+      ],
+      "trivia": [
+        {
+          "text": "2019년 ‘리듬응원1’ 영상의 유일한 댓글도 공식 이름을 묻고 있어 명칭 불확실성이 오래 지속됐음을 보여 준다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-fighting-01"
+          ]
+        },
+        {
+          "text": "2023년 단독 영상은 ‘이글스 화이팅’과 다른 팀 응원을 주크박스 형태로 묶어 소개해 정확한 곡 경계 파악에는 한계가 있다.",
+          "assessment": "verified",
+          "evidenceRefs": [
+            "yt-fighting-03"
+          ]
+        },
+        {
+          "text": "2025년 단독 음원은 제목을 ‘이글스 화이팅 (리듬응원)’으로 적어 두 계열 명칭을 겹치지만, 같은 해 종합 타임라인은 여전히 별도 항목으로 나눈다.",
+          "assessment": "contested",
+          "evidenceRefs": [
+            "yt-fighting-06",
+            "yt-fighting-07"
+          ]
+        },
+        {
+          "text": "종합 영상 댓글은 특정 짧은 구호보다 한화 응원가 전체를 예습하거나 타 구단 팬도 곡 구성을 높게 평가하는 반응이 많아 곡별 수용 자료로는 제한적이다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": [
+            "yt-fighting-02",
+            "yt-fighting-04",
+            "yt-fighting-05",
+            "yt-fighting-07"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyright-status-title-and-authorship-unknown",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=guXZ82gno_0",
+          "https://www.youtube.com/watch?v=LuPhLH-7UGQ",
+          "https://www.youtube.com/watch?v=gB9UQmlNEB0",
+          "https://www.youtube.com/watch?v=cBmBEWZKuRc",
+          "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "짧은 리듬 위에 팀을 격려하는 구호를 반복하는 관중 참여형 응원으로 알려져 있다. ‘리듬응원1’과 같은 곡인지 자료가 충돌하므로 세부 가사·박자 구조는 공식 제목과 트랙 경계를 확정한 뒤 판별해야 한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-fighting-01",
+        "yt-fighting-02",
+        "yt-fighting-03",
+        "yt-fighting-04",
+        "yt-fighting-05",
+        "yt-fighting-06",
+        "yt-fighting-07"
+      ],
+      "unresolved": [
+        "구단 또는 응원단이 부르는 공식 제목과 ‘이글스 화이팅’ 가제의 채택 근거가 필요하다.",
+        "2019년 ‘리듬응원1’과 현재 ‘이글스 화이팅’이 같은 곡인지 음원 대조와 진행표 확인이 필요하다.",
+        "정확한 최초 도입 연도와 작곡·편곡·음원 제작자가 확인되지 않았다.",
+        "2026시즌에도 사용하는지 날짜가 특정된 직접 영상이나 공식 진행표로 재확인해야 한다."
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-hanwha-c-namu-cheers",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "한화 이글스/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "현행 응원가 목록에 다섯 항목을 두고, ‘보아라 이겼노라’가 2023년 ‘보아라 기억하라’로 제목·가사가 바뀐 계보와 ‘이글스 화이팅’이 문서상 가제라는 점을 정리한다. 편집 가능한 자료이므로 직접 영상과 공식 음원으로 교차 검증했다.",
+      "supports": [
+        "currentUse",
+        "titleAndLyricsLineage",
+        "usageContext",
+        "titleStatus",
+        "variantFamily"
+      ]
+    },
+    {
+      "id": "ev-hanwha-c-kbo-soundcloud",
+      "type": "official-audio",
+      "url": "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+      "title": "한화이글스 응원가 (Ver. 2, No.95)",
+      "publisher": "KBO (한국야구위원회)",
+      "publishedAt": "2024-07-02T05:53:04Z",
+      "accessedAt": "2026-08-08",
+      "summary": "KBO 공식 계정의 한화 응원가 연속 음원이다. 타임라인에 ‘우리가 누구’ 21:34, ‘보아라 기억하라’ 23:18, ‘영원한 챔프’ 29:02를 정확한 제목으로 수록하며 전체 권리는 all-rights-reserved로 표시한다.",
+      "supports": [
+        "currentUse",
+        "officialCatalogTitle",
+        "lyricsSource"
+      ]
+    },
+    {
+      "id": "ev-hanwha-c-spotify-bring-it",
+      "type": "music-catalog",
+      "url": "https://open.spotify.com/album/5lT9qRi5dfnC0RT0The7HH",
+      "title": "한화이글스 'Bring It' - Single",
+      "publisher": "Spotify",
+      "publishedAt": "2019-05-28",
+      "accessedAt": "2026-08-08",
+      "summary": "한화이글스를 아티스트로 표시한 2곡짜리 싱글로 ‘Bring It’과 5분대의 ‘영원한 챔프’를 수록한다. 발매일은 2019년 5월 28일이며 한화 이글스·우조엔터테인먼트 관련 권리 정보가 노출된다.",
+      "supports": [
+        "digitalRelease",
+        "catalogAttribution",
+        "rightsStatus"
+      ]
+    },
+    {
+      "id": "ev-hanwha-c-apple-champ",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/song/1880542196",
+      "title": "영원한 챔프 - 한화이글스의 노래",
+      "publisher": "Apple Music",
+      "publishedAt": "2019-05-28",
+      "accessedAt": "2026-08-08",
+      "summary": "‘한화이글스 테마송 Bring It’ 싱글 수록곡으로 곡명과 아티스트, 2019년 5월 28일 발매일을 표시해 Spotify와 YouTube Topic 메타데이터를 교차 확인한다.",
+      "supports": [
+        "digitalRelease",
+        "catalogAttribution"
+      ]
+    },
+    {
+      "id": "ev-hanwha-c-home-finale-2019",
+      "type": "press",
+      "url": "https://m.joongdo.co.kr/view.php?key=20190926010011005",
+      "title": "한화이글스, 오는 30일 '불꽃축제'로 홈 피날레",
+      "publisher": "중도일보",
+      "publishedAt": "2019-09-26",
+      "accessedAt": "2026-08-08",
+      "summary": "2019년 9월 30일 홈 최종전 뒤 불꽃축제와 함께 ‘영원한 챔프’ 가상 합창단 라이브 영상을 공연할 예정이라고 보도했다.",
+      "supports": [
+        "specialEventUse",
+        "historicalUse"
+      ]
+    },
+    {
+      "id": "ev-hanwha-c-hwang-seokbin",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%ED%99%A9%EC%84%9D%EB%B9%88",
+      "title": "황석빈",
+      "publisher": "namu.moe",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "응원가 보컬 황석빈의 한화 이글스 녹음 참여곡 목록에 ‘보아라 기억하라’와 ‘우리가 누구’를 싣는다. 편집형 인물 문서이므로 공식 음원 크레딧 확인 전까지 보컬 정보는 보고 수준으로 둔다.",
+      "supports": [
+        "recordedVocal"
+      ]
+    },
+    {
+      "id": "ev-hanwha-c-manual365",
+      "type": "fan-guide",
+      "url": "https://blog.manual365.co.kr/%ED%95%9C%ED%99%94%EC%9D%B4%EA%B8%80%EC%8A%A4-%EC%9D%91%EC%9B%90%EA%B0%80-%EB%8F%99%EC%98%81%EC%83%81-%EA%B0%80%EC%82%AC-%EB%AA%A8%EC%95%84%EB%B3%B4%EA%B8%B0%ED%8C%80%EC%9D%91%EC%9B%90%EA%B0%80/",
+      "title": "한화이글스 응원가 동영상, 가사 모아보기(팀응원가)",
+      "publisher": "매뉴얼365",
+      "publishedAt": "2024-05-29",
+      "accessedAt": "2026-08-08",
+      "summary": "‘영원한 챔프’를 경기 후반 휴대전화 플래시를 켜고 부르는 응원으로 소개한다. ‘우리가 누구’는 Metallica의 ‘Whiskey in the Jar’를 편곡한 느낌이라고만 적어, 원곡 확정이 아닌 낮은 신뢰도의 청감상 유사성 주장으로 분리했다.",
+      "supports": [
+        "usageContext",
+        "possibleMusicalResemblance",
+        "lyricsStructure"
+      ]
+    },
+    {
+      "id": "ev-hanwha-c-okdk9",
+      "type": "fan-guide",
+      "url": "https://okdk9.tistory.com/entry/%ED%95%9C%ED%99%94%EC%9D%B4%EA%B8%80%EC%8A%A4-%EC%9D%91%EC%9B%90%EA%B0%80-%EC%B4%9D%EC%A0%95%EB%A6%AC%EF%BD%9C%EC%9D%B4%EA%B8%80%EC%8A%A4%ED%8C%8C%ED%81%AC-%EB%A7%9B%EC%A7%91",
+      "title": "한화이글스 응원가 총정리｜이글스파크 맛집",
+      "publisher": "꿀팁전단지",
+      "publishedAt": "2024-04-24",
+      "accessedAt": "2026-08-08",
+      "summary": "2024년 한화 팀 응원가 목록에서 ‘우리가 누구’를 독립 항목으로 두고, 질문·팀명 응답, 구음, 문장형 후렴이 이어지는 구조를 보여 준다. 가사 전문은 이 배치에 옮기지 않았다.",
+      "supports": [
+        "currentUse",
+        "lyricsStructure"
+      ]
+    },
+    {
+      "id": "ev-hanwha-c-supporters-2025",
+      "type": "press-interview",
+      "url": "https://v.daum.net/v/20250625110228474?s=print_news",
+      "title": "[대전 체육인을 만나다] 한화이글스의 숨은 조력자, 열혈 서포터즈 '잇츠 한화'",
+      "publisher": "중도일보·Daum 뉴스",
+      "publishedAt": "2025-06-25T11:02:00+09:00",
+      "accessedAt": "2026-08-08",
+      "summary": "잇츠 한화 회장이 ‘우리가 누구’의 핵심 문답 구호가 서포터즈에서 시작됐다고 설명한다. 안타, 이닝 종료, 분위기가 무르익을 때 사용하며 추임새로 응원 열기를 키웠다는 구체적인 현장 맥락도 전한다.",
+      "supports": [
+        "supporterOrigin",
+        "usageContext",
+        "trivia"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-boara-01",
+      "songId": "hanwha-eagles-boara-gieokhara",
+      "url": "https://www.youtube.com/watch?v=bGax2KA26FI",
+      "videoId": "bGax2KA26FI",
+      "title": "[한화 이글스] 팀 응원가 \"보아라 이겼노라\" MR 제작!",
+      "channel": "은최",
+      "publishedAt": "2022-07-18T21:02:11-07:00",
+      "descriptionSummary": "2022년판 제목을 ‘보아라 이겼노라’로 명시한 MR 제작 영상이다. 설명은 별도 제작 정보 없이 YouTube 기본 안내 위주다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "titleAndLyricsLineage",
+        "historicalVersion"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-boara-02",
+      "songId": "hanwha-eagles-boara-gieokhara",
+      "url": "https://www.youtube.com/watch?v=YIfou73Angc",
+      "videoId": "YIfou73Angc",
+      "title": "[수원] 보아라 이겼노라~!",
+      "channel": "창화信 hongchanghwa",
+      "publishedAt": "2022-05-28T08:16:46-07:00",
+      "descriptionSummary": "2022년 5월 28일 수원 원정에서 촬영한 ‘보아라 이겼노라’ 응원 장면으로 경기 장소와 날짜, 관련 해시태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원단장이 원정 관중의 에너지를 끌어낸다는 반응이 반복된다.",
+        "원정 승리와 연승·스윕 분위기를 기뻐하며 현장 관중의 큰 합창을 칭찬하는 댓글이 많다."
+      ],
+      "supports": [
+        "earliestDirectlyDocumentedUse",
+        "titleAndLyricsLineage",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-boara-03",
+      "songId": "hanwha-eagles-boara-gieokhara",
+      "url": "https://www.youtube.com/watch?v=x5g72_zRhB0",
+      "videoId": "x5g72_zRhB0",
+      "title": "[2023] 한화이글스 응원가 '보아라 기억하라' 응원가~!",
+      "channel": "창화信 hongchanghwa",
+      "publishedAt": "2023-05-27T04:12:23-07:00",
+      "descriptionSummary": "승리를 기념하며 2023 개정 응원가와 동작을 안내하는 응원단장 영상이다. 제목과 설명 모두 ‘보아라 기억하라’를 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "가사와 동작을 연습하거나 경기장에서 직접 부르고 싶다는 반응이 있다.",
+        "장중하면서도 신나는 분위기와 응원단 퍼포먼스를 긍정적으로 평가하는 댓글이 반복된다."
+      ],
+      "supports": [
+        "earliestDirectlyDocumentedRevisedVersion",
+        "titleAndLyricsLineage",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-boara-04",
+      "songId": "hanwha-eagles-boara-gieokhara",
+      "url": "https://www.youtube.com/watch?v=aOsfNx91fuI",
+      "videoId": "aOsfNx91fuI",
+      "title": "한화 이글스 신규응원가 '보아라 기억하라' (230430)",
+      "channel": "응원만큼은 최강한화",
+      "publishedAt": "2023-04-30T05:46:22-07:00",
+      "descriptionSummary": "2023년 4월 30일 현장에서 촬영한 신규 응원가 영상이다. 설명은 YouTube 기본 안내 위주지만 제목이 날짜와 개정 제목을 함께 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "새 구호를 따라 적으며 익히려는 반응이 있다.",
+        "곡은 좋지만 당시 팀 경기력과 대비된다는 냉소와 오래된 팬의 복합적인 감정도 보인다."
+      ],
+      "supports": [
+        "earliestDirectlyDocumentedRevisedVersion",
+        "titleAndLyricsLineage",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-boara-05",
+      "songId": "hanwha-eagles-boara-gieokhara",
+      "url": "https://www.youtube.com/watch?v=eQ9pLzk9_JU",
+      "videoId": "eQ9pLzk9_JU",
+      "title": "이제 조금씩 떼창이 되는 한화 팀응원가 “보아라 기억하라”",
+      "channel": "뻥튀기 할아버지",
+      "publishedAt": "2024-08-24T19:47:35-07:00",
+      "descriptionSummary": "2024년 8월 24일 두산전에서 관중 합창이 형성된 모습을 담고 경기·팀 해시태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡이 마침내 관중 떼창으로 자리 잡기 시작했다는 반응과 노래 자체가 좋다는 평가가 있다.",
+        "일부는 곡 전개에서 응원 에너지가 떨어진다고 느껴 수용 반응이 한쪽으로만 모이지 않는다."
+      ],
+      "supports": [
+        "currentUse",
+        "crowdAdoption",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-boara-06",
+      "songId": "hanwha-eagles-boara-gieokhara",
+      "url": "https://www.youtube.com/watch?v=u9KM1AmjV8k",
+      "videoId": "u9KM1AmjV8k",
+      "title": "(고음질) [한화 이글스] 팀 응원가 - 보아라 기억하라 (2025)",
+      "channel": "은최",
+      "publishedAt": "2025-04-24T00:08:13-07:00",
+      "descriptionSummary": "2025년판 고음질 응원가 자료로 해시태그에서 개정 전 제목도 함께 식별한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글 수는 적으며 한화와 응원가에 대한 짧은 호응이 중심이다."
+      ],
+      "supports": [
+        "currentUse",
+        "titleAndLyricsLineage"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-champ-01",
+      "songId": "hanwha-eagles-eternal-champion",
+      "url": "https://www.youtube.com/watch?v=8anzDqWRsGM",
+      "videoId": "8anzDqWRsGM",
+      "title": "[이글스Special] 2018 테마송 '영원한챔프' MV",
+      "channel": "Eagles TV",
+      "publishedAt": "2018-05-27T22:03:02-07:00",
+      "descriptionSummary": "한화 이글스 공식 채널이 ‘2018 테마송 영원한챔프 뮤직비디오’라고 직접 소개한 원본 MV다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "언젠가 우승하는 날 이 곡을 들으며 감격하고 싶다는 장기적인 기대가 매우 많이 누적돼 있다.",
+        "2025년 선두 경쟁과 한국시리즈 진출 뒤 과거의 기대 댓글을 되찾아오며 2018시즌을 회상하는 반응이 반복된다.",
+        "타 구단 팬도 곡의 완성도와 웅장함을 칭찬하는 반응이 많다."
+      ],
+      "supports": [
+        "introductionYear",
+        "officialTitle",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-champ-02",
+      "songId": "hanwha-eagles-eternal-champion",
+      "url": "https://www.youtube.com/watch?v=NhSbptMrytA",
+      "videoId": "NhSbptMrytA",
+      "title": "영원한 챔프",
+      "channel": "한화이글스 - 주제",
+      "publishedAt": "2026-01-04T07:01:48-08:00",
+      "descriptionSummary": "음원 유통 자동 생성 영상이다. ‘한화이글스 테마송 Bring It’ 수록곡, 2019년 5월 28일 발매, 제작 주체 한화이글스라는 제공 메타데이터를 표시한다. 영상 게시일과 원음원 발매일은 다르다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "digitalRelease",
+        "catalogAttribution",
+        "rightsStatus"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-champ-03",
+      "songId": "hanwha-eagles-eternal-champion",
+      "url": "https://www.youtube.com/watch?v=L6VmHalPUdk",
+      "videoId": "L6VmHalPUdk",
+      "title": "[한화이글스] 팀응원가 | 영원한챔프 | M/V | 경기영상!",
+      "channel": "한화의노토바이",
+      "publishedAt": "2021-03-06T16:46:27-08:00",
+      "descriptionSummary": "경기 장면으로 재편집한 팬 MV이며 원음원 링크와 사진 출처로 한화 공식 Facebook·Naver 자료를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한화 팀 노래 중 가장 좋아한다거나 우승 순간을 상상하면 울컥한다는 반응이 반복된다.",
+        "타 구단 팬도 곡의 감정선과 완성도를 높게 평가한다."
+      ],
+      "supports": [
+        "historicalUse",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-champ-04",
+      "songId": "hanwha-eagles-eternal-champion",
+      "url": "https://www.youtube.com/watch?v=tciLqoZGfIU",
+      "videoId": "tciLqoZGfIU",
+      "title": "[한화 이글스]팀 응원가-영원한 챔프(자막 있음) ",
+      "channel": "이글스1호팬",
+      "publishedAt": "2024-02-20T21:09:16-08:00",
+      "descriptionSummary": "자막을 포함한 팀 응원가 영상으로 관련 팀 해시태그를 제공한다. 댓글에 가사 전문이 있으나 이 배치에는 옮기지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원음원 출처를 주제 채널로 정정해 주거나 새 팬이 곡을 익히는 데 도움이 된다는 반응이 있다.",
+        "포스트시즌 진출을 바라는 격려가 중심이며 댓글 수는 많지 않다."
+      ],
+      "supports": [
+        "lyricsStructure",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-champ-05",
+      "songId": "hanwha-eagles-eternal-champion",
+      "url": "https://www.youtube.com/watch?v=ti0knnNIvSU",
+      "videoId": "ti0knnNIvSU",
+      "title": "[2025 한화이글스] 영원한 챔프",
+      "channel": "워니워니",
+      "publishedAt": "2025-10-31T20:01:09-07:00",
+      "descriptionSummary": "2025시즌 선수단에 감사를 전하고 가을야구의 아픔을 미래 우승의 토대로 기억하자는 팬 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한국시리즈 준우승 직후의 아쉬움과 자부심, 다음 우승을 향한 기대가 강하게 나타난다.",
+        "오랜 팬의 시즌 회고와 타 구단 팬의 호평이 함께 보인다."
+      ],
+      "supports": [
+        "currentUse",
+        "reception",
+        "seasonMemory"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-champ-06",
+      "songId": "hanwha-eagles-eternal-champion",
+      "url": "https://www.youtube.com/watch?v=BBdclDykR6o",
+      "videoId": "BBdclDykR6o",
+      "title": "\"직관의 마무리, 경기 종료 후 나오는 그 노래\" - 영원한 챔프 [한화 이글스]",
+      "channel": "은최",
+      "publishedAt": "2026-05-26T03:55:58-07:00",
+      "descriptionSummary": "경기 종료 후 재생되는 곡이라는 현장 맥락을 제목으로 제시하고 한화 관련 해시태그를 덧붙인 2026년 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "패배 때는 선수단 인사 뒤, 승리 때는 인터뷰 뒤에 들었다는 현장 관람객의 설명이 있다.",
+        "류현진의 통산 200승 경기 뒤에도 자리에 남아 이 곡을 들었다는 경험담이 있다."
+      ],
+      "supports": [
+        "currentUse",
+        "usageContext"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-who-01",
+      "songId": "hanwha-eagles-who-are-we",
+      "url": "https://www.youtube.com/watch?v=QNUqgDL2_sk",
+      "videoId": "QNUqgDL2_sk",
+      "title": "한화이글스 열광응원가 (우리가 누구)",
+      "channel": "응원만큼은 최강한화",
+      "publishedAt": "2022-08-24T06:39:08-07:00",
+      "descriptionSummary": "‘우리가 누구’를 열광 응원으로 분류한 2022년 현장 영상이다. 설명은 별도 정보 없이 YouTube 기본 안내 위주다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "earliestDirectlyDocumentedUse",
+        "historicalUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-who-02",
+      "songId": "hanwha-eagles-who-are-we",
+      "url": "https://www.youtube.com/watch?v=J8P7EBCam1o",
+      "videoId": "J8P7EBCam1o",
+      "title": "한화이글스 팀응원가 우리가 누구(230903)",
+      "channel": "응원만큼은 최강한화",
+      "publishedAt": "2023-09-03T05:51:53-07:00",
+      "descriptionSummary": "2023년 9월 3일 현장에서 촬영한 ‘우리가 누구’ 팀 응원가 영상이다. 설명은 YouTube 기본 안내 위주다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "historicalUse",
+        "usageContext"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-who-03",
+      "songId": "hanwha-eagles-who-are-we",
+      "url": "https://www.youtube.com/watch?v=xIjy4dTKw7k",
+      "videoId": "xIjy4dTKw7k",
+      "title": "[4K] 230608 한화이글스 하지원 치어리더 (한화응원가 - 우리가 누구)",
+      "channel": "구운동마법사",
+      "publishedAt": "2023-06-08T20:59:53-07:00",
+      "descriptionSummary": "2023년 6월 8일 치어리더 공연과 관중 응원을 4K로 담았으며 설명이 제목과 곡명을 다시 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "historicalUse",
+        "usageContext",
+        "performance"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-who-04",
+      "songId": "hanwha-eagles-who-are-we",
+      "url": "https://www.youtube.com/watch?v=CRWArMDS-H0",
+      "videoId": "CRWArMDS-H0",
+      "title": "[한화 이글스] 팀 응원가 - 우리가 누구?!! 🦅🦅🦅 (2025)",
+      "channel": "은최",
+      "publishedAt": "2025-03-28T01:18:29-07:00",
+      "descriptionSummary": "2025년판 팀 응원가 자료이며 한화 관련 해시태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "구음 구간이 특히 좋다는 반응이 있다.",
+        "당시 상위권 분위기와 연결해 신나게 받아들이는 짧은 호응이 중심이다."
+      ],
+      "supports": [
+        "currentUse",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-who-05",
+      "songId": "hanwha-eagles-who-are-we",
+      "url": "https://www.youtube.com/watch?v=0gjknMSEqxo",
+      "videoId": "0gjknMSEqxo",
+      "title": "[한화 이글스] 팀 응원가 - 우리가 누구 (2026)",
+      "channel": "은최",
+      "publishedAt": "2026-05-24T20:57:22-07:00",
+      "descriptionSummary": "2026년판 팀 응원가 음원 영상으로 한화 관련 해시태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 두 건은 사운드나 음질에 부정적이며 곡의 역사·사용 정보를 추가하지 않는다."
+      ],
+      "supports": [
+        "currentUse",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-who-06",
+      "songId": "hanwha-eagles-who-are-we",
+      "url": "https://www.youtube.com/watch?v=lVdfZsqE6KY",
+      "videoId": "lVdfZsqE6KY",
+      "title": "한화이글스 팀 응원가 \"우리가 누구\" 20260717",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-07-17T18:01:59-07:00",
+      "descriptionSummary": "2026년 7월 17일 날짜를 제목에 적은 한화 현장 팀 응원가 영상이다. 설명은 YouTube 기본 안내 위주다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "currentUse",
+        "fieldPerformance"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fullcount-01",
+      "songId": "hanwha-eagles-full-count-cheer",
+      "url": "https://www.youtube.com/watch?v=diqR1OWgZw4",
+      "videoId": "diqR1OWgZw4",
+      "title": "한화이글스 타자 공통응원가 + 풀카운트 응원가",
+      "channel": "잭참새",
+      "publishedAt": "2017-05-08T08:00:04-07:00",
+      "descriptionSummary": "타자 공통응원과 풀카운트 응원을 연속으로 기록한 2017년 아카이브다. 설명은 별도의 배경 정보가 거의 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "earliestDirectlyDocumentedUse",
+        "usageContext",
+        "historicalVersion"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fullcount-02",
+      "songId": "hanwha-eagles-full-count-cheer",
+      "url": "https://www.youtube.com/watch?v=8ajWG6YvM2g",
+      "videoId": "8ajWG6YvM2g",
+      "title": "(2017) 한화이글스 3-2 풀카운트 응원 #비크",
+      "channel": "비크티비: 프로야구 응원가 전문채널",
+      "publishedAt": "2017-05-12T08:22:40-07:00",
+      "descriptionSummary": "3볼 2스트라이크용 풀카운트 응원으로 분류하고 원곡은 알 수 없다며 정보를 요청한다. 설명에 구호 원문도 있으나 이 배치에는 저장하지 않았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "earliestDirectlyDocumentedUse",
+        "usageContext",
+        "originalSource"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fullcount-03",
+      "songId": "hanwha-eagles-full-count-cheer",
+      "url": "https://www.youtube.com/watch?v=3HErwh6sY3E",
+      "videoId": "3HErwh6sY3E",
+      "title": "한화 이글스 | 풀카운트 응원가 | 청주야구장",
+      "channel": "Train For",
+      "publishedAt": "2019-09-11T05:35:31-07:00",
+      "descriptionSummary": "2019년 9월 11일 청주야구장에서 열린 LG-한화 경기의 풀카운트 응원을 담았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 촬영 날짜·장소와 LG-한화 경기였음을 보완하며 곡에 관한 추가 정보는 거의 없다."
+      ],
+      "supports": [
+        "historicalUse",
+        "usageContext"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fullcount-04",
+      "songId": "hanwha-eagles-full-count-cheer",
+      "url": "https://www.youtube.com/watch?v=pKRS4APbGe0",
+      "videoId": "pKRS4APbGe0",
+      "title": "한화이글스 | 2025 풀카운트송 (소리집중!!) 🎧⚾️",
+      "channel": "밍스바리",
+      "publishedAt": "2025-03-29T06:10:03-07:00",
+      "descriptionSummary": "2025년 현장 풀카운트 응원의 소리에 집중한 영상으로 관련 해시태그와 Shorts 링크를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "이전 버전을 더 좋아한다는 반응과 새 버전을 재미있어하는 반응이 엇갈린다.",
+        "상대 구단 팬이 타석 압박감이나 성가심을 느낀다는 반응이 있고, 선율에 장난스러운 별명을 붙이는 댓글도 반복된다."
+      ],
+      "supports": [
+        "variantFamily",
+        "currentUse",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fullcount-05",
+      "songId": "hanwha-eagles-full-count-cheer",
+      "url": "https://www.youtube.com/watch?v=Re-wgyzqbIg",
+      "videoId": "Re-wgyzqbIg",
+      "title": "(NEW) [한화 이글스] 2026 신규 풀카운트송 최초공개!",
+      "channel": "은최",
+      "publishedAt": "2026-05-22T18:46:04-07:00",
+      "descriptionSummary": "2026년 신규 풀카운트 응원을 처음 공개한다고 제목에 명시하고 한화 관련 해시태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "새 판을 이전 판보다 선호한다는 반응이 있다.",
+        "원곡을 묻거나 다른 신규 응원가도 올려 달라는 요청이 중심이며 출처를 확정하는 답은 없다."
+      ],
+      "supports": [
+        "2026Change",
+        "variantFamily",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fullcount-06",
+      "songId": "hanwha-eagles-full-count-cheer",
+      "url": "https://www.youtube.com/watch?v=GFwbeTMKhyU",
+      "videoId": "GFwbeTMKhyU",
+      "title": "한화이글스 새롭게 추가된 풀카운트 응원 260612 4k",
+      "channel": "S깡통",
+      "publishedAt": "2026-06-12T07:15:17-07:00",
+      "descriptionSummary": "2026년 6월 12일 새로 추가된 풀카운트 응원의 현장 공연을 4K로 담고 치어리더·구단 해시태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원 방식과 음악에 대한 부정적·혼합 반응이 나타난다.",
+        "다른 구단 풀카운트 응원과 비슷하다는 팬 주장도 있으나 제작 계보를 입증하는 자료는 제시되지 않는다."
+      ],
+      "supports": [
+        "2026Change",
+        "variantFamily",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fighting-01",
+      "songId": "hanwha-eagles-eagles-fighting-provisional",
+      "url": "https://www.youtube.com/watch?v=guXZ82gno_0",
+      "videoId": "guXZ82gno_0",
+      "title": "한화이글스 팀응원가 리듬응원1",
+      "channel": "잭참새",
+      "publishedAt": "2019-04-12T08:00:06-07:00",
+      "descriptionSummary": "2019년 한화 팀 응원을 ‘리듬응원1’로 소개하며 설명도 같은 제목을 반복한다. ‘이글스 화이팅’이라는 명칭은 쓰지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "유일한 댓글은 이 응원의 공식 이름이 무엇인지 묻고 있어 당시에도 명칭이 명확하지 않았음을 보여 준다."
+      ],
+      "supports": [
+        "possibleEarlierRelatedUse",
+        "titleStatus",
+        "labelIdentity"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fighting-02",
+      "songId": "hanwha-eagles-eagles-fighting-provisional",
+      "url": "https://www.youtube.com/watch?v=LuPhLH-7UGQ",
+      "videoId": "LuPhLH-7UGQ",
+      "title": "2022시즌 한화이글스 응원가 모음",
+      "channel": "잭참새",
+      "publishedAt": "2023-01-11T04:00:10-08:00",
+      "descriptionSummary": "2022년 9월 24일 촬영한 응원가 모음이다. 상세 타임라인에서 12:07 ‘리듬응원’, 16:07 ‘이글스 화이팅’을 별도 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "개막 전에 응원가를 연습하려는 팬과 한화의 응원 열기를 높게 평가하는 반응이 많다.",
+        "타 구단 팬도 응원가 구성을 칭찬하며, 오랜 부진에도 응원하는 팬 문화를 이야기하는 댓글이 반복된다."
+      ],
+      "supports": [
+        "earliestExactNamedUse",
+        "labelIdentity",
+        "reception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fighting-03",
+      "songId": "hanwha-eagles-eagles-fighting-provisional",
+      "url": "https://www.youtube.com/watch?v=zKtGD-x3sg4",
+      "videoId": "zKtGD-x3sg4",
+      "title": "23 한화 이글스 주크박스 응원가 - 이글스 화이팅 & 사랑한다 최강한화",
+      "channel": "위닝JTV",
+      "publishedAt": "2023-05-01T02:55:38-07:00",
+      "descriptionSummary": "2023년 주크박스 응원에서 ‘이글스 화이팅’과 ‘사랑한다 최강한화’를 함께 소개한다. 설명은 YouTube 기본 안내 위주다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "exactTitleUse",
+        "currentUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fighting-04",
+      "songId": "hanwha-eagles-eagles-fighting-provisional",
+      "url": "https://www.youtube.com/watch?v=gB9UQmlNEB0",
+      "videoId": "gB9UQmlNEB0",
+      "title": "한화이글스 응원가 모음 Ver.2023",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2023-07-19T06:14:23-07:00",
+      "descriptionSummary": "2023 응원가 종합 영상이다. 타임라인에서 20:42 ‘리듬응원01’, 21:04 ‘리듬응원02’, 21:58 ‘이글스 화이팅’을 서로 다른 항목으로 배열한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원가 전체를 예습하는 데 쓴다는 팬이 많고 타 구단 팬도 한화 노래를 높게 평가한다.",
+        "댓글 다수는 특정 선수·치어리더나 전체 모음에 관한 것으로 이 짧은 곡의 정보는 제한적이다."
+      ],
+      "supports": [
+        "labelIdentity",
+        "catalogSeparation",
+        "currentUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fighting-05",
+      "songId": "hanwha-eagles-eagles-fighting-provisional",
+      "url": "https://www.youtube.com/watch?v=wwoi2Kwv6FQ",
+      "videoId": "wwoi2Kwv6FQ",
+      "title": "한화이글스 응원가 모음 Ver.2024⚾모두가 인정하는 응원가 끝판대장",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2024-04-12T07:00:27-07:00",
+      "descriptionSummary": "2024 응원가 종합 영상이다. 타임라인에서 21:37 ‘리듬응원01’, 21:58 ‘리듬응원02’, 22:52 ‘이글스 화이팅’을 별도 구간으로 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한화의 팀 응원가 구성과 현장 분위기를 칭찬하는 반응, 과거 곡을 그리워하는 반응이 반복된다.",
+        "타임라인 오류를 고쳐 달라는 의견도 있어 비공식 목록은 직접 음원과 함께 확인해야 한다."
+      ],
+      "supports": [
+        "labelIdentity",
+        "catalogSeparation",
+        "currentUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fighting-06",
+      "songId": "hanwha-eagles-eagles-fighting-provisional",
+      "url": "https://www.youtube.com/watch?v=cBmBEWZKuRc",
+      "videoId": "cBmBEWZKuRc",
+      "title": "이글스 화이팅 (리듬응원)",
+      "channel": "시환이최고 [Music Studio]",
+      "publishedAt": "2025-09-05T19:36:33-07:00",
+      "descriptionSummary": "2025년 단독 음원으로 제목에서 ‘이글스 화이팅’과 ‘리듬응원’을 함께 표기하고 관련 해시태그를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "titleStatus",
+        "labelIdentity",
+        "currentUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-fighting-07",
+      "songId": "hanwha-eagles-eagles-fighting-provisional",
+      "url": "https://www.youtube.com/watch?v=l2u8HCAAunc",
+      "videoId": "l2u8HCAAunc",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 한화이글스 응원가 모음 Ver.2025 ⚾ 주황빛 가을 준비하자🦅",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2025-09-28T18:53:14-07:00",
+      "descriptionSummary": "2025 응원가 모음으로 20:54 ‘풀카운트 어이’, 21:22 ‘풀카운트 빠샤’, 26:25 ‘리듬응원1’, 26:47 ‘리듬응원2’, 28:09 ‘이글스 화이팅’을 별도 타임라인 항목으로 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "포스트시즌과 우승을 기대하는 반응, 과거와 신규 응원가를 함께 반기는 반응이 많다.",
+        "특정 짧은 리듬 응원보다 선수·시즌·전체 플레이리스트에 관한 댓글이 중심이다."
+      ],
+      "supports": [
+        "catalogSeparation",
+        "labelIdentity",
+        "currentUse",
+        "2025CatalogLabels"
+      ],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 31,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 17
+  }
+}

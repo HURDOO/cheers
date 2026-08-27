@@ -1,0 +1,1073 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-korea-university-a",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-korea",
+    "name": "고려대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 역사·사용법·수용을 확인하는 데 필요한 내용만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "korea-university-minjogui-aria",
+      "title": "민족의 아리아",
+      "aliases": ["민아"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "Andrea Bocelli의 2001년 곡 ‘Melodramma’를 응원곡으로 편곡하고 조지훈의 ‘호상비문’에서 핵심 이미지를 가져온 고려대학교의 대표 합창곡이다. 고려대 교우회 연표, 응원단 음악부 취재, 2026 입실렌티 현장이 2003년 도입·현행 사용을 지지한다. 교우회보의 2002년 표기는 연세대 ‘서시’에 관한 별도 상충 주장이므로 이 곡의 연도 주장으로 합치지 않는다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2003년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-a-kuaa-timeline", "ev-ku-a-nate-origin", "yt-ku-a-minjogui-2026"],
+          "notes": "2003년 입실렌티 초연을 적은 교우회 연표와 응원단 음악부 취재가 일치한다. 2026 영상은 현행 사용을 직접 확인한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Andrea Bocelli ‘Melodramma’(2001)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-a-bocelli", "ev-ku-a-nate-origin"],
+          "notes": "원곡 음반 연도는 권리자 공식 디스코그래피로, 응원가 선택 경위는 고려대 응원단 음악부 취재로 교차했다."
+        },
+        {
+          "field": "lyricSource",
+          "value": "조지훈 ‘호상비문’의 문구와 이미지를 바탕으로 한 응원가 가사",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-a-kunews-hosang", "ev-ku-a-nate-origin"],
+          "notes": "고대신문과 응원단 음악부 취재가 일치한다. 전문 대조표는 저작권·분량상 저장하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 입실렌티 2부·3부 응원에서 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-minjogui-2026"],
+          "notes": "2026-05-22 현장 영상의 05:40부터 곡이 시작한다."
+        }
+      ],
+      "usageContexts": [
+        "입실렌티와 고연전의 절정 또는 피날레 구간에서 대규모 관중 합창으로 사용한다.",
+        "후반부 반주를 줄이거나 끊고 관중 육성만 남기는 연출이 강한 상징으로 인식된다.",
+        "입학 홍보, 단과대 합창, 축제 초청가수의 록·대중음악 편곡 등 학교 대표 콘텐츠로도 확장된다."
+      ],
+      "trivia": [
+        {
+          "id": "minjogui-aria-unaccompanied-identity",
+          "summary": "현장과 댓글에서는 후반 무반주 합창이 가장 강한 기억으로 반복된다. 2003년 최초 공연 때 음향 장애로 육성 응원이 생겼다는 일화도 편집형 자료에 있으나, 당시 1차 기록은 아직 확보하지 못했다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-a-namu-minjogui", "yt-ku-a-minjogui-2023"]
+        },
+        {
+          "id": "minjogui-aria-campus-identity",
+          "summary": "고려대 입학처 홍보영상과 16개 단과대 합창이 이 곡을 경기장 응원에 국한하지 않고 학교 전체의 정체성 노래로 사용했음을 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-minjogui-admissions", "yt-ku-a-minjogui-colleges"]
+        },
+        {
+          "id": "minjogui-aria-study-motivation",
+          "summary": "여러 시기 영상의 공개 댓글에서 수험생이 목표 학번을 적거나 이 곡을 공부 동기로 삼는 반응, 졸업생이 공동체 기억을 회상하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-minjogui-audio", "yt-ku-a-minjogui-2026", "yt-ku-a-minjogui-yb"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original song and modern university adaptation; lyric adaptation and recording permissions not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=C8jjjhSHK18&t=340s",
+          "https://www.andreabocelli.com/discography/cieli-di-toscana/",
+          "https://www.namu.moe/w/%EB%AF%BC%EC%A1%B1%EC%9D%98%20%EC%95%84%EB%A6%AC%EC%95%84"
+        ],
+        "structureSummary": "장중한 독창·합창 도입, 학교의 정신과 호랑이 이미지를 전개하는 절, 관중이 같은 핵심 선언을 반복하는 후렴, 후반 육성 합창과 재진입으로 고조되는 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-a-minjogui-2026",
+        "yt-ku-a-minjogui-2023",
+        "yt-ku-a-minjogui-colleges",
+        "yt-ku-a-minjogui-yb",
+        "yt-ku-a-minjogui-admissions",
+        "yt-ku-a-minjogui-audio"
+      ],
+      "unresolved": [
+        "응원가 편곡자·개사자의 개인별 정확한 크레딧",
+        "최초 무반주 응원의 음향 장애 일화를 입증하는 2003년 1차 기록",
+        "현행 편곡 음원과 가사 게시·재사용 권리"
+      ]
+    },
+    {
+      "id": "korea-university-forever",
+      "title": "Forever",
+      "aliases": ["FOREVER", "포에버", "포레버"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "Stratovarius의 ‘Forever’를 바탕으로 하고 간주에 영화 ‘Cinema Paradiso’의 ‘Love Theme’를 결합한 2007년 응원가다. 짧고 반복적인 합창, 어깨동무와 점프, 야간 휴대전화 조명 연출로 민족의 아리아와 함께 대표곡으로 자리 잡았다. 사용자가 지정한 2026 영상 화면의 ‘Since 2007’ 표기와 공식 응원 OT의 원곡 설명을 핵심 근거로 삼았다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2007년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-forever-2026", "ev-ku-a-namu-2000s"],
+          "notes": "2026 입실렌티 영상의 곡 시작 뒤 02:42 화면에 ‘Since 2007’이 표시된다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Stratovarius ‘Forever’(1996)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-a-stratovarius", "yt-ku-a-forever-official-ot"],
+          "notes": "응원단 공식 영상과 밴드 공식 디스코그래피가 일치한다."
+        },
+        {
+          "field": "interludeSource",
+          "value": "영화 ‘Cinema Paradiso’의 ‘Love Theme’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-forever-official-ot", "ev-ku-a-namu-2000s"],
+          "notes": "공식 응원단 설명이 두 원곡을 함께 명시한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 합동응원전과 2026 입실렌티에서 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-a-kunews-2025-joint", "yt-ku-a-forever-2026"],
+          "notes": "2026 현장 영상에 곡 전체 구간이 직접 담겼다."
+        }
+      ],
+      "usageContexts": [
+        "입실렌티·고연전·합동응원전의 후반부 또는 마무리 구간에서 대규모 합창으로 부른다.",
+        "관중이 어깨를 걸고 좌우로 움직이거나 점프하며, 야간에는 휴대전화 조명을 드는 연출이 결합된다.",
+        "신입생 응원 OT의 동작 교육과 초청가수의 축제 공연에도 사용된다."
+      ],
+      "trivia": [
+        {
+          "id": "forever-phone-lights",
+          "summary": "나무위키 계열 자료와 현장 기록은 야간에 휴대전화 조명을 켜는 연출을 곡의 대표 장면으로 꼽는다. 이는 짧은 후렴을 시각적 집단 퍼포먼스로 확장한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-a-namu-2000s", "ev-ku-a-kunews-2025-joint"]
+        },
+        {
+          "id": "forever-ever-interjection",
+          "summary": "편집형 자료는 오늘날 널리 들리는 ‘에버’ 추임새가 처음부터 있던 요소가 아니라 후대에 더해졌고 도입 초기에 호불호가 있었다고 전한다. 공식 제작 기록은 아직 찾지 못했다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ku-a-namu-2000s"]
+        },
+        {
+          "id": "forever-artist-versions",
+          "summary": "2013년 에이핑크 공연 전례가 알려져 있고 2024년에는 에이핑크가 다시 이 곡을 라이브로 불렀다. 공개 댓글은 정은지의 고음과 현장 합창을 특히 높게 평가한다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-a-namu-2000s", "yt-ku-a-forever-apink"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original songs and university arrangement; arrangement, lyric adaptation, and recording permissions not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=GxSU75-9n4M",
+          "https://stratovarius.com/portfolio-items/episode/",
+          "https://www.youtube.com/watch?v=C8jjjhSHK18&t=154s"
+        ],
+        "structureSummary": "짧은 학교 응원 후렴을 반복하고 구음 구간과 서정적인 영화음악 간주를 사이에 둔 뒤 후렴을 재현한다. 단순한 가사 대신 선율·추임새·점프 동작이 집단 고조를 만든다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-a-forever-2026",
+        "yt-ku-a-forever-apink",
+        "yt-ku-a-forever-audio",
+        "yt-ku-a-forever-ipselenti-old",
+        "yt-ku-a-forever-official-ot",
+        "yt-ku-a-forever-2018"
+      ],
+      "unresolved": [
+        "2007년 고려대판 편곡·개사자와 최초 공연의 정확한 크레딧",
+        "Cinema Paradiso 간주를 결합한 편곡의 권리 관계",
+        "‘에버’ 추임새가 추가된 정확한 연도와 공식 경위"
+      ]
+    },
+    {
+      "id": "korea-university-deureora-boara-geurigo-gieokhara",
+      "title": "들어라 보아라 그리고 기억하라",
+      "aliases": ["들보기", "들어라 보아라 기억하라"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "애니메이션 ‘천공의 성 라퓨타’의 엔딩곡 ‘君をのせて’(Carrying You)를 바탕으로 만든 2007년 응원가다. 긴 정식 제목 때문에 ‘들보기’로 줄여 부르며, 선창·후창과 어깨동무, 좌우 이동이 결합된다. 공식 응원 OT가 원곡과 정식 표기를 확인하고 2026 현장 화면이 ‘since 2007’을 직접 보여준다.",
+      "claims": [
+        {
+          "field": "officialTitleAndAlias",
+          "value": "정식 제목은 ‘들어라 보아라 그리고 기억하라’, 통용 별칭은 ‘들보기’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-deureora-official-ot", "ev-ku-a-namu-2000s"],
+          "notes": "공식 채널은 긴 정식 제목을 쓰고, 현장·팬 자료와 편집형 자료는 약칭을 함께 쓴다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2007년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-deureora-2026", "ev-ku-a-namu-2000s"],
+          "notes": "사용자가 지정한 2026 영상의 약 00:16 화면에 ‘since 2007’이 표시된다."
+        },
+        {
+          "field": "originalSong",
+          "value": "‘천공의 성 라퓨타’ 엔딩곡 ‘君をのせて’(Carrying You), 작곡 Joe Hisaishi·가창 Azumi Inoue",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-a-ghibli-credits", "yt-ku-a-deureora-official-ot"],
+          "notes": "공식 응원단 영상과 영화 자료의 크레딧을 교차했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 입실렌티 2부와 3부에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-deureora-2026"],
+          "notes": "곡의 시작 시각과 현장 화면을 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "응원 OT와 입학식에서 선창·후창 및 어깨동무 동작을 교육한다.",
+        "입실렌티·고연전에서 관중이 좌우로 움직이며 점차 큰 합창으로 고조한다.",
+        "합동응원전에서는 연세대의 장중한 대표곡과 연속 또는 교차 배치되는 사례가 있다."
+      ],
+      "trivia": [
+        {
+          "id": "deureora-short-name",
+          "summary": "정식 제목이 길어 현장 검색어와 영상 설명에서는 ‘들보기’가 안정적인 약칭으로 자리 잡았다. 데이터에서는 정식명과 별칭을 함께 유지해야 중복을 피할 수 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-a-namu-2000s", "yt-ku-a-deureora-audio"]
+        },
+        {
+          "id": "deureora-cross-sport-memory",
+          "summary": "영상 댓글에는 같은 원곡을 쓴 야구 응원가를 먼저 떠올리는 반응이 반복된다. 이는 선율의 교차 종목 유통을 보여주지만 어느 버전이 다른 버전을 직접 차용했다는 증거는 아니다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-deureora-official-ot", "yt-ku-a-deureora-audio"]
+        },
+        {
+          "id": "deureora-waseda-visit",
+          "summary": "편집형 자료는 2008년 와세다대 방문 학생들이 원곡 일본어 노래를 함께 불렀다는 일화를 전한다. 당시 영상이나 학교 기록이 없어 흥미로운 구전으로만 보존한다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ku-a-namu-2000s"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted film song and modern university adaptation; adaptation and recording permissions not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=8iGlLcy2TXc",
+          "https://www.youtube.com/watch?v=C8jjjhSHK18&t=12s",
+          "https://www.nausicaa.net/presskit/kits/ghiblink/castle/lpk-press.pdf"
+        ],
+        "structureSummary": "제목을 음절 단위로 외치는 선창·응답 뒤 두 줄의 본 후렴을 반복하고, 하늘과 땅을 향한 두 개의 고조 구간을 거쳐 같은 후렴으로 돌아오는 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-a-deureora-2026",
+        "yt-ku-a-deureora-kutv",
+        "yt-ku-a-deureora-official-ot",
+        "yt-ku-a-deureora-audio",
+        "yt-ku-a-deureora-2018",
+        "yt-ku-a-deureora-joint"
+      ],
+      "unresolved": [
+        "2007년 고려대판 편곡·개사자의 정확한 크레딧",
+        "사용 음원과 동작 영상의 재사용 라이선스",
+        "2008년 와세다대 방문 합창 일화의 1차 자료"
+      ]
+    },
+    {
+      "id": "korea-university-baennorae",
+      "title": "뱃노래",
+      "aliases": ["민족의 노래", "승리의 노래", "승리의 뱃노래", "민노승노"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "한국 전통민요를 1974년 고려대학교 응원용으로 편곡한 대표 승리곡이다. 공식 응원단은 득점 또는 승리 순간에 부르는 곡이라고 설명하며, 실제 2014 농구 승리·2025 입실렌티·2026 입실렌티 영상이 그 용도와 현행성을 보여준다. 긴 버전과 경기 상황용 짧은 반복이 공존하고, ‘민족의 노래·승리의 노래’라는 별칭도 널리 쓰인다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "1974년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-baennorae-official-ot", "ev-ku-a-kuaa-timeline"],
+          "notes": "공식 응원단 설명과 교우회 고연전 연표가 일치한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "한국 전통민요 ‘뱃노래’의 응원용 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-baennorae-official-ot"],
+          "notes": "구체적인 지역 전승 계통과 편곡자는 공식 설명에 없다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "고연전 득점·골·승리 직후와 입실렌티 피날레에 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-baennorae-basketball", "yt-ku-a-baennorae-2025", "yt-ku-a-baennorae-2026"],
+          "notes": "공식 설명뿐 아니라 실제 경기 종료·축제 현장을 직접 확인했다."
+        },
+        {
+          "field": "relatedAdaptation",
+          "value": "롯데 자이언츠가 고려대 뱃노래 계열을 구단 응원가로 개사해 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-a-nate-origin"],
+          "notes": "같은 전통민요를 독립 편곡한 것인지 고려대판을 직접 개사한 것인지 권리·제작 계보는 추가 확인이 필요하다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-05-22 입실렌티 3부 18:34 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-baennorae-2026"],
+          "notes": "최신 대형 응원 행사에서 직접 사용됐다."
+        }
+      ],
+      "usageContexts": [
+        "고연전에서 득점·골·경기 승리가 확정되는 순간 짧고 빠르게 반복한다.",
+        "입실렌티 피날레와 판쓸이 응원에서는 긴 버전으로 부르며 관중이 어깨를 걸고 앞뒤로 크게 움직인다.",
+        "단과대·동문 뒤풀이에서도 쉽게 반복 가능한 전통 응원곡으로 사용된다."
+      ],
+      "trivia": [
+        {
+          "id": "baennorae-body-memory",
+          "summary": "공식 영상과 팬 영상 댓글에는 격한 앞뒤 동작 때문에 다음 날 허리나 꼬리뼈가 아프다는 농담이 꾸준히 나타난다. 동작 자체가 곡의 집단 기억을 만든다는 사례다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-baennorae-official-ot", "yt-ku-a-baennorae-2022"]
+        },
+        {
+          "id": "baennorae-victory-catharsis",
+          "summary": "2014 농구 영상은 경기 종료 직전의 긴장과 승리 직후 합창을 한 장면에 담는다. 댓글도 역전승 뒤 부를 때의 카타르시스를 곡의 핵심 경험으로 기억한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-baennorae-basketball"]
+        },
+        {
+          "id": "baennorae-versioning",
+          "summary": "팬 음원은 스스로 ‘full ver.’를 표방하고, 경기 영상에는 상황에 맞춰 템포와 반복 길이를 줄인 형태가 보인다. 공식 버전명이 따로 있는지는 확인되지 않았다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-a-baennorae-audio", "yt-ku-a-baennorae-basketball"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "traditional source melody, but modern arrangement, rivalry lyrics, and recordings may be copyrighted; exact rights not documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=YbADjuEahzg",
+          "https://www.youtube.com/watch?v=0I68AUpqaqc&t=1114s",
+          "https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0"
+        ],
+        "structureSummary": "라이벌전의 승리를 노래하는 절과 전통 뱃노래식 구음 후렴을 번갈아 부른다. 긴 공연형은 여러 구음·간주를 포함하고, 득점용은 핵심 후렴을 빠르게 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-a-baennorae-2026",
+        "yt-ku-a-baennorae-2025",
+        "yt-ku-a-baennorae-audio",
+        "yt-ku-a-baennorae-2023",
+        "yt-ku-a-baennorae-2022",
+        "yt-ku-a-baennorae-basketball",
+        "yt-ku-a-baennorae-official-ot"
+      ],
+      "unresolved": [
+        "1974년 편곡자·개사자와 최초 음원 제작자",
+        "원곡으로 삼은 뱃노래의 구체적인 지역·전승 계통",
+        "긴 버전과 득점용 짧은 버전의 공식 구분 및 롯데판과의 제작·권리 계보"
+      ]
+    },
+    {
+      "id": "korea-university-yeongwonhara",
+      "title": "영원하라",
+      "aliases": ["고대여 영원하라"],
+      "currentStatus": "current-directly-verified-at-2026-joint-cheer-and-ipselenti",
+      "summary": "Vanessa-Mae의 전자 바이올린곡 ‘Contradanza’를 바탕으로 한 2004년 고려대 응원가다. 빠른 선율 위에 학교의 단결과 새 역사를 강조하고, 응원단장과 기수부가 함께하는 레퍼토리 및 어깨동무·고개 동작으로 사용된다. 사용자가 지정한 2024 영상의 ‘since 2004’ 화면과 2026 합동응원전·입실렌티가 도입 연도와 현행성을 뒷받침한다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2004년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-yeongwonhara-2024-long", "yt-ku-a-yeongwonhara-2023", "ev-ku-a-namu-2000s"],
+          "notes": "사용자가 지정한 2024 영상에서 곡은 04:23에 시작하고 약 04:32 화면에 ‘since 2004’가 표시된다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Vanessa-Mae ‘Contradanza’(1995), 작곡 Mike Batt",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-a-contradanza", "ev-ku-a-namu-2000s"],
+          "notes": "음원 서비스 크레딧과 공식 아티스트 음원, 편집형 자료가 일치한다."
+        },
+        {
+          "field": "relatedAdaptation",
+          "value": "롯데 자이언츠 ‘소리높여 외쳐보자’가 고려대 ‘영원하라’ 계열을 개사한 곡으로 알려짐",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-a-nate-origin", "ev-ku-a-namu-2000s"],
+          "notes": "두 곡을 같은 곡으로 합치지 않고 별도 레코드로 유지한다. 정확한 개사·권리 승인 경위는 미확인이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 합동응원전과 입실렌티 기수부 레퍼토리에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-yeongwonhara-2026-joint", "yt-ku-a-yeongwonhara-2026-ipselenti"],
+          "notes": "두 개의 서로 다른 2026 행사에서 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT·합동응원전·입실렌티의 기수부 레퍼토리에서 응원단장과 함께 공연한다.",
+        "관중은 어깨를 걸고 좌우로 움직이며 빠른 전자 바이올린 선율에 맞춰 고개와 상체를 크게 흔든다.",
+        "학교의 단결과 지속성을 강조하는 중후반부 고조 곡으로 배치된다."
+      ],
+      "trivia": [
+        {
+          "id": "yeongwonhara-violin-live",
+          "summary": "나무위키 계열 자료는 2004 입실렌티에서 전자 바이올리니스트 유진 박이 반주에 참여했다고 전한다. 당시 프로그램·영상이 아직 없어 보조 일화로만 둔다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ku-a-namu-2000s"]
+        },
+        {
+          "id": "yeongwonhara-lotte-recognition",
+          "summary": "여러 영상 댓글에서 시청자가 롯데 응원가 선율을 먼저 떠올리며 양쪽 버전의 관계를 확인한다. 댓글은 인지도를 보여주지만 개사 권리나 최초 계보의 증거로 쓰지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-yeongwonhara-2014", "yt-ku-a-yeongwonhara-audio", "yt-ku-a-yeongwonhara-young-tigers"]
+        },
+        {
+          "id": "yeongwonhara-flag-unit",
+          "summary": "2018·2026 입실렌티 영상은 이 곡을 고려대 응원단 기수부 Young Tigers와 함께 공연하는 레퍼토리로 기록한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-a-yeongwonhara-young-tigers", "yt-ku-a-yeongwonhara-2026-ipselenti"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original instrumental and modern university adaptation; arrangement and lyric permissions not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=AnLm-gnWA9c&t=263s",
+          "https://classical.music.apple.com/us/album/1465123736",
+          "https://www.youtube.com/watch?v=2vyDJDlLgm8&t=264s"
+        ],
+        "structureSummary": "빠른 전자 바이올린 전주 뒤 학교의 각성과 단결을 선언하는 절, 학교명을 길게 끄는 합창, 새 역사를 향한 짧은 후렴을 반복하며 기수부 동작으로 고조한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-a-yeongwonhara-2026-ipselenti",
+        "yt-ku-a-yeongwonhara-2026-joint",
+        "yt-ku-a-yeongwonhara-2014",
+        "yt-ku-a-yeongwonhara-old-crowd",
+        "yt-ku-a-yeongwonhara-audio",
+        "yt-ku-a-yeongwonhara-2023",
+        "yt-ku-a-yeongwonhara-young-tigers",
+        "yt-ku-a-yeongwonhara-2024-long"
+      ],
+      "unresolved": [
+        "2004년 고려대판 편곡·개사자의 정확한 크레딧과 최초 공연 기록",
+        "2004 입실렌티 유진 박 반주 일화의 1차 자료",
+        "롯데판 개사의 제작자·최초 사용·권리 승인 경위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ku-a-namu-minjogui",
+      "type": "namuwiki-mirror",
+      "url": "https://www.namu.moe/w/%EB%AF%BC%EC%A1%B1%EC%9D%98%20%EC%95%84%EB%A6%AC%EC%95%84",
+      "title": "나무위키 미러 — 민족의 아리아",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "원곡, 호상비문, 2003년 등장과 무반주 응원 일화를 정리한 편집형 보조 자료다. 연도·원곡은 학교·언론·권리자 자료로 별도 교차했다.",
+      "supports": ["민족의 아리아 원곡·도입 연도·무반주 일화"]
+    },
+    {
+      "id": "ev-ku-a-namu-2000s",
+      "type": "namuwiki-mirror",
+      "url": "https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+      "title": "나무위키 미러 — 고려대학교 응원가/2000년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "Forever·들보기·영원하라의 원곡, 도입 연도, 동작, 별칭과 여러 현장 일화를 모은 편집형 자료다. 핵심 사실은 공식 영상과 권리자 자료로 교차했다.",
+      "supports": ["Forever", "들어라 보아라 그리고 기억하라", "영원하라"]
+    },
+    {
+      "id": "ev-ku-a-kuaa-timeline",
+      "type": "official-alumni",
+      "url": "https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0",
+      "title": "고려대학교 교우회 고연전 100주년 연표",
+      "publisher": "고려대학교 교우회",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "1974년 뱃노래 등장과 2003년 민족의 아리아 초연을 학교 교우회 연표로 확인한다.",
+      "supports": ["뱃노래 1974", "민족의 아리아 2003"]
+    },
+    {
+      "id": "ev-ku-a-nate-origin",
+      "type": "news",
+      "url": "https://sports.news.nate.com/view/20140208n04707",
+      "title": "대학응원가와 프로 응원가는 왜 같을까",
+      "publisher": "스포츠Q·Nate 뉴스",
+      "publishedAt": "2014-02-08",
+      "accessedAt": "2026-08-08",
+      "summary": "고려대 응원단 음악부 취재를 통해 민족의 아리아의 2003년 원곡 선택·호상비문 기반 개사와 고려대 곡의 프로야구 개사 사례를 보도한다.",
+      "supports": ["민족의 아리아 제작 경위", "고려대와 프로야구 응원가 관계"]
+    },
+    {
+      "id": "ev-ku-a-kunews-hosang",
+      "type": "university-news",
+      "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=40181",
+      "title": "청록색의 정신을 보다",
+      "publisher": "고대신문",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "조지훈의 호상비문이 민족의 아리아에 차용됐음을 교내 언론이 설명한다.",
+      "supports": ["민족의 아리아 가사 출처"]
+    },
+    {
+      "id": "ev-ku-a-kunews-2025-joint",
+      "type": "university-news",
+      "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=43692",
+      "title": "2025 상반기 합동응원전 보도",
+      "publisher": "고대신문",
+      "publishedAt": "2025",
+      "accessedAt": "2026-08-08",
+      "summary": "합동응원전 막바지에 Forever와 민족의 아리아가 배치된 현행 사용 맥락을 기록한다.",
+      "supports": ["Forever 2025 사용"]
+    },
+    {
+      "id": "ev-ku-a-bocelli",
+      "type": "official-artist",
+      "url": "https://www.andreabocelli.com/discography/cieli-di-toscana/",
+      "title": "Cieli Di Toscana — official discography",
+      "publisher": "Andrea Bocelli",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "Melodramma가 2001년 앨범 ‘Cieli Di Toscana’에 수록된 곡임을 권리자 공식 디스코그래피로 확인한다.",
+      "supports": ["민족의 아리아 원곡과 원곡 연도"]
+    },
+    {
+      "id": "ev-ku-a-stratovarius",
+      "type": "official-artist",
+      "url": "https://stratovarius.com/portfolio-items/episode/",
+      "title": "Episode — official discography",
+      "publisher": "Stratovarius",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "‘Forever’가 1996년 앨범 ‘Episode’의 수록곡임을 밴드 공식 디스코그래피로 확인한다.",
+      "supports": ["Forever 원곡과 원곡 연도"]
+    },
+    {
+      "id": "ev-ku-a-ghibli-credits",
+      "type": "film-press-kit",
+      "url": "https://www.nausicaa.net/presskit/kits/ghiblink/castle/lpk-press.pdf",
+      "title": "Castle in the Sky press kit",
+      "publisher": "Studio Ghibli 관련 보존 자료",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "엔딩곡 ‘Kimi wo Nosete’의 작곡·가창·작사 크레딧을 확인하는 영화 자료다.",
+      "supports": ["들어라 보아라 그리고 기억하라 원곡 크레딧"]
+    },
+    {
+      "id": "ev-ku-a-contradanza",
+      "type": "music-credit",
+      "url": "https://classical.music.apple.com/us/album/1465123736",
+      "title": "The Violin Player",
+      "publisher": "Apple Music Classical",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "‘Contradanza’가 Vanessa-Mae의 1995년 앨범 수록곡이며 Mike Batt 작품임을 음원 크레딧으로 확인한다.",
+      "supports": ["영원하라 원곡·작곡가·연도"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ku-a-minjogui-2026",
+      "songId": "korea-university-minjogui-aria",
+      "url": "https://www.youtube.com/watch?v=C8jjjhSHK18&t=340s",
+      "videoId": "C8jjjhSHK18",
+      "title": "[2026 고려대 입실렌티] 대학 최고의 축제, 대학 최고의 응원곡 '민족의 아리아 + 들어라 보아라 그리고 기억하라 + FOREVER' #고려대축제 #입실렌티 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-22",
+      "descriptionSummary": "2026 입실렌티 2부 하이라이트이며 민족의 아리아 시작 시각을 05:40으로 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["수험생의 공부 동기와 졸업생의 공동체 기억, 재학생 가족의 자부심이 반복된다."],
+      "supports": ["2026 현행 사용", "입실렌티 피날레 맥락"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-minjogui-2023",
+      "songId": "korea-university-minjogui-aria",
+      "url": "https://www.youtube.com/watch?v=blzXqmXZntY",
+      "videoId": "blzXqmXZntY",
+      "title": "[2023 입실렌티] 민족고대 최고의 응원곡. '민족의 아리아' 떼창 - 고려대학교 응원단 / 고려대 축제 / Korea University",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2023-05-27",
+      "descriptionSummary": "2023 제44회 입실렌티 2부 응원제의 대규모 떼창과 촬영팀 정보를 담는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원단장의 카리스마와 군중의 단결, 곡의 공동체적 메시지에 감동했다는 반응이 많다."],
+      "supports": ["무반주·대규모 합창 수용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-minjogui-colleges",
+      "songId": "korea-university-minjogui-aria",
+      "url": "https://www.youtube.com/watch?v=LIxcLsvUjWU",
+      "videoId": "LIxcLsvUjWU",
+      "title": "[고연전 특별영상] 고려대학교 16개 단과대학 학생들이 함께 부르는 '민족의 아리아'",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2019-09-04",
+      "descriptionSummary": "2019 고연전을 앞두고 16개 단과대 학생이 함께 부른 공식 교내방송 합창 콘텐츠다.",
+      "commentsStatus": "available",
+      "commentSummary": ["단과대별 연출과 화음, 학생 표정을 유머러스하게 즐기는 반응이 중심이다."],
+      "supports": ["학교 전체 정체성 콘텐츠"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-minjogui-yb",
+      "songId": "korea-university-minjogui-aria",
+      "url": "https://www.youtube.com/watch?v=PjPRGRPt1ew",
+      "videoId": "PjPRGRPt1ew",
+      "title": "[4K] 고려대학교 축제 YB (윤도현밴드) 민족의 아리아 (고려대학교 응원가) | 240523 석탑대동제 KUTOPIA 3일차",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2024-05-23",
+      "descriptionSummary": "2024 석탑대동제에서 YB가 별도 록 편곡으로 공연한 공식 교내방송 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["YB의 편곡·라이브와 관중 합창의 결합을 역대급 축제 장면으로 평가하는 반응이 많다."],
+      "supports": ["초청가수 편곡 사용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-minjogui-admissions",
+      "songId": "korea-university-minjogui-aria",
+      "url": "https://www.youtube.com/watch?v=v4jTwzvwb98",
+      "videoId": "v4jTwzvwb98",
+      "title": "고려대학교 민족의 아리아",
+      "channel": "고려대학교 입학처",
+      "publishedAt": "2013-10-06",
+      "descriptionSummary": "고려대학교 공식 입학 홍보영상의 배경음악으로 민족의 아리아를 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["지원자들이 목표 학과와 학번을 적으며 합격을 다짐하는 댓글이 장기간 누적됐다."],
+      "supports": ["공식 홍보 사용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-minjogui-audio",
+      "songId": "korea-university-minjogui-aria",
+      "url": "https://www.youtube.com/watch?v=wpRywAyeZkY",
+      "videoId": "wpRywAyeZkY",
+      "title": "[음원] 고려대학교 응원가 - 민족의 아리아 - 가사 (lyrics)",
+      "channel": "고려대학교 연세대학교 응원가 TV",
+      "publishedAt": "2018-12-20",
+      "descriptionSummary": "곡을 고려대의 간판 응원가이자 새내기 예습·수험생 동기용 음원으로 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["합격 보고, 목표 학번, 졸업생 회상과 후반 육성 구간 선호가 반복된다."],
+      "supports": ["별칭·대표성·수용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-forever-2026",
+      "songId": "korea-university-forever",
+      "url": "https://www.youtube.com/watch?v=C8jjjhSHK18&t=154s",
+      "videoId": "C8jjjhSHK18",
+      "title": "[2026 고려대 입실렌티] 대학 최고의 축제, 대학 최고의 응원곡 '민족의 아리아 + 들어라 보아라 그리고 기억하라 + FOREVER' #고려대축제 #입실렌티 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-22",
+      "descriptionSummary": "Forever가 02:34부터 시작하며 약 02:42 화면에 ‘Since 2007’이 표시되는 2026 입실렌티 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["대규모 응원이 공부 동기와 동문·가족의 자부심을 불러일으킨다는 반응이 반복된다."],
+      "supports": ["2007 도입 화면", "2026 현행 사용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-forever-apink",
+      "songId": "korea-university-forever",
+      "url": "https://www.youtube.com/watch?v=5G8MgU63K5A",
+      "videoId": "5G8MgU63K5A",
+      "title": "[4K] 고려대학교 축제 에이핑크 (Apink) FOREVER (고려대학교 응원가) | 240521 석탑대동제 KUTOPIA 1일차",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2024-05-21",
+      "descriptionSummary": "2024 석탑대동제에서 에이핑크가 Forever를 라이브로 부른 공식 교내방송 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["멤버들의 라이브 고음과 대학축제 응원가 결합을 높게 평가하는 반응이 많다."],
+      "supports": ["초청가수 공연", "곡의 대표성"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-forever-audio",
+      "songId": "korea-university-forever",
+      "url": "https://www.youtube.com/watch?v=6jQz0Bb8SA8",
+      "videoId": "6jQz0Bb8SA8",
+      "title": "[음원] 고려대학교 응원가 - FOREVER - 가사 (lyrics)",
+      "channel": "고려대학교 연세대학교 응원가 TV",
+      "publishedAt": "2018-12-20",
+      "descriptionSummary": "민족의 아리아와 함께 인기 최상위인 예습용 음원으로 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["음원 서비스 수록 요청, 강한 중독성과 LG 응원가와의 선율 연결 인지가 나타난다."],
+      "supports": ["별칭·인기·교차 종목 인지"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-forever-ipselenti-old",
+      "songId": "korea-university-forever",
+      "url": "https://www.youtube.com/watch?v=fc7J2waAKfI",
+      "videoId": "fc7J2waAKfI",
+      "title": "포레버 Forever - 입실렌티 응원 / 고려대학교응원단 / 고려대 응원가",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-02-12",
+      "descriptionSummary": "입실렌티의 대규모 Forever 응원 장면을 별칭 ‘포레버’와 함께 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["붉은 군중과 응원단장의 동작, 학교 전체가 하나가 되는 분위기를 오래 기억한다는 반응이 많다."],
+      "supports": ["현장 동작", "포레버 별칭"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-forever-official-ot",
+      "songId": "korea-university-forever",
+      "url": "https://www.youtube.com/watch?v=GxSU75-9n4M",
+      "videoId": "GxSU75-9n4M",
+      "title": "Forever | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-27",
+      "descriptionSummary": "공식 동작 영상이 곡 구조와 Stratovarius ‘Forever’, Cinema Paradiso ‘Love Theme’를 원곡으로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["반주의 중독성, 허리를 크게 젖히는 동작의 난도와 수험 시기 동기부여가 주된 반응이다."],
+      "supports": ["원곡", "간주 원곡", "공식 구조"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-forever-2018",
+      "songId": "korea-university-forever",
+      "url": "https://www.youtube.com/watch?v=l1AgotJWBCw",
+      "videoId": "l1AgotJWBCw",
+      "title": "[2018 고려대 입실렌티] 포레버 FOREVER - 고려대학교 응원단 / 3부 판쓸이 응원",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-05-27",
+      "descriptionSummary": "2018 입실렌티 3부 판쓸이 응원의 시작에 Forever가 배치된 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["전주와 떼창의 현장감, 동문이 되살리는 안암의 기억을 높게 평가한다."],
+      "supports": ["입실렌티 후반 배치"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-deureora-2026",
+      "songId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "url": "https://www.youtube.com/watch?v=C8jjjhSHK18&t=12s",
+      "videoId": "C8jjjhSHK18",
+      "title": "[2026 고려대 입실렌티] 대학 최고의 축제, 대학 최고의 응원곡 '민족의 아리아 + 들어라 보아라 그리고 기억하라 + FOREVER' #고려대축제 #입실렌티 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-22",
+      "descriptionSummary": "곡이 00:12부터 시작하고 약 00:16 화면에 ‘since 2007’이 표시되는 2026 입실렌티 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["입시 동기, 졸업생의 회상과 대규모 응원의 감동을 말하는 반응이 반복된다."],
+      "supports": ["2007 도입 화면", "2026 현행 사용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-deureora-kutv",
+      "songId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "url": "https://www.youtube.com/watch?v=55sHZMX8K-0",
+      "videoId": "55sHZMX8K-0",
+      "title": "2023 고려대학교 응원 OT | “들어라 보아라 그리고 기억하라” 다시보기🐯",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2023-09-02",
+      "descriptionSummary": "2023 응원 OT 생중계에서 해당 곡을 다시 편집한 공식 교내방송 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원단장의 역동적이면서 정돈된 동작과 영상 편집을 높게 평가한다."],
+      "supports": ["응원 OT 사용", "동작"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-deureora-official-ot",
+      "songId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "url": "https://www.youtube.com/watch?v=8iGlLcy2TXc",
+      "videoId": "8iGlLcy2TXc",
+      "title": "들어라 보아라 그리고 기억하라 | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-24",
+      "descriptionSummary": "공식 응원단이 정식 제목, 반복 구조와 원곡 ‘Carrying You’를 명시한 동작 교육 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡을 들으면 울컥하거나 몸을 움직이게 된다는 반응과 다른 종목 응원 선율을 떠올리는 반응이 보인다."],
+      "supports": ["정식명", "원곡", "공식 구조"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-deureora-audio",
+      "songId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "url": "https://www.youtube.com/watch?v=H-EJ__NzpoI",
+      "videoId": "H-EJ__NzpoI",
+      "title": "[음원] 고려대학교 응원가 - 들어라 보아라 그리고 기억하라 - 가사 (lyrics)",
+      "channel": "고려대학교 연세대학교 응원가 TV",
+      "publishedAt": "2018-12-20",
+      "descriptionSummary": "정식 제목과 ‘들보기’ 약칭을 함께 사용하는 새내기 예습용 음원이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["편곡 호평, 2007년 새내기 시절 회상, 수험생 진학 다짐과 원곡 식별이 나타난다."],
+      "supports": ["들보기 별칭", "수용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-deureora-2018",
+      "songId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "url": "https://www.youtube.com/watch?v=_nrdKqYheB8",
+      "videoId": "_nrdKqYheB8",
+      "title": "[고연전 응원] 들어라 보아라 그리고 기억하라 - 고려대학교 응원단 / 고려대 응원가",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-09-06",
+      "descriptionSummary": "2018 고연전을 앞두고 선창·후창과 곡 구성을 자세히 제시한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["붉은 단복과 응원단장의 에너지, 곡에서 힘을 얻는다는 졸업생·학부모 반응이 많다."],
+      "supports": ["고연전 사용", "선창·후창"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-deureora-joint",
+      "songId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "url": "https://www.youtube.com/watch?v=OzdKakiI7N8",
+      "videoId": "OzdKakiI7N8",
+      "title": "[2024 고려대/연세대 합동응원OT] '서시 (YU) vs 들어라 보아라 그리고 기억하라 (KU)' - 고려대 응원가 / 연세대 응원가 / 합응",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-03-16",
+      "descriptionSummary": "2024 합동응원 OT에서 연세대 서시와 고려대 들보기를 연속 배치한 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["양교가 함께 응원하는 문화와 붉은 단복, 코로나 학번의 첫 대면 경험을 긍정적으로 회상한다."],
+      "supports": ["합동응원전 교차 배치"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-baennorae-2026",
+      "songId": "korea-university-baennorae",
+      "url": "https://www.youtube.com/watch?v=0I68AUpqaqc&t=1114s",
+      "videoId": "0I68AUpqaqc",
+      "title": "[2026 고려대 입실렌티] 3부 응원제 - 불꽃놀이가 끝나고, 우리들의 청춘을 응원하는 시간 '고연가 / 화려 / 영타이거즈 / 포에버 / 민족의 아리아 / 뱃노래' 등 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-27",
+      "descriptionSummary": "2026 입실렌티 3부 피날레 전체를 기록하며 뱃노래 시작 시각을 18:34로 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문은 학교 공동체와 청춘의 기억을 회상하고 가족은 재학생의 열정을 자랑스러워한다."],
+      "supports": ["2026 현행 사용", "피날레 배치"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-baennorae-2025",
+      "songId": "korea-university-baennorae",
+      "url": "https://www.youtube.com/watch?v=lcixKZpZYwU",
+      "videoId": "lcixKZpZYwU",
+      "title": "[2025 입실렌티 응원] 100주년 고연전도 고대가 이긴다! 민족의 노래! 승리의 노래! 뱃노래!",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-07-26",
+      "descriptionSummary": "정기전 100주년의 승리를 기원하며 ‘민족의 노래·승리의 노래·뱃노래’ 별칭을 함께 제시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["안전상 동작 변화가 아쉽지만 젊음의 에너지가 느껴진다는 반응이 있다."],
+      "supports": ["별칭", "2025 사용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-baennorae-audio",
+      "songId": "korea-university-baennorae",
+      "url": "https://www.youtube.com/watch?v=eqmlpF8bvZo",
+      "videoId": "eqmlpF8bvZo",
+      "title": "[음원] 고려대학교 응원가 - 뱃노래 (full ver.) - 가사 (lyrics)",
+      "channel": "고려대학교 연세대학교 응원가 TV",
+      "publishedAt": "2018-12-23",
+      "descriptionSummary": "‘민족의 노래·승리의 노래’ 별칭과 긴 버전임을 명시한 예습용 음원이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["강한 라이벌 의식과 전투적인 에너지, 구버전 음원에 대한 추억이 나타난다."],
+      "supports": ["별칭", "긴 버전 존재"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-baennorae-2023",
+      "songId": "korea-university-baennorae",
+      "url": "https://www.youtube.com/watch?v=NyGY9kQzO04&t=352s",
+      "videoId": "NyGY9kQzO04",
+      "title": "2023 고려대학교 축제 - 응원 3대 명곡 'Forever + 민족의 아리아 + 뱃노래' IPSELENTI 입실렌티 4k 60p",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2023-05-27",
+      "descriptionSummary": "2023 입실렌티 대표 3곡을 연속 기록하고 뱃노래 시작 시각을 05:52로 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원단장의 지휘와 보컬, 곡의 웅장함이 외부 시청자와 동문에게도 감동을 준다는 반응이 많다."],
+      "supports": ["대표 3곡 인식", "입실렌티 사용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-baennorae-2022",
+      "songId": "korea-university-baennorae",
+      "url": "https://www.youtube.com/watch?v=WFLXcX9xICQ",
+      "videoId": "WFLXcX9xICQ",
+      "title": "[2022 입실렌티] '민족의 노래, 승리의 노래 뱃노래!' / 고려대 축제 IPSELENTI / 3부 응원제(12)",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-06-11",
+      "descriptionSummary": "3년 만에 재개된 입실렌티에서 약 2만 관중과 함께한 3부 판쓸이 응원 피날레를 담는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["격한 앞뒤 동작으로 허리와 꼬리뼈가 아프다는 현장 유머와 승리 상황의 흥분이 반복된다."],
+      "supports": ["피날레 사용", "동작"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-baennorae-basketball",
+      "songId": "korea-university-baennorae",
+      "url": "https://www.youtube.com/watch?v=XjjAVWMSoac",
+      "videoId": "XjjAVWMSoac",
+      "title": "2014 고연전 - 농구 경기종료 직전 & 승리의 뱃노래",
+      "channel": "SPORTS KU",
+      "publishedAt": "2014-10-10",
+      "descriptionSummary": "2014 고연전 농구 경기 종료 직전부터 고려대 승리 뒤 뱃노래까지 실제 경기 상황을 담는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["역전과 승리 직후의 카타르시스, 당시 경기와 합창을 잊지 못한다는 회상이 중심이다."],
+      "supports": ["승리 직후 사용", "경기 맥락"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-baennorae-official-ot",
+      "songId": "korea-university-baennorae",
+      "url": "https://www.youtube.com/watch?v=YbADjuEahzg",
+      "videoId": "YbADjuEahzg",
+      "title": "뱃노래 | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-12-04",
+      "descriptionSummary": "공식 응원단이 1974년 전통민요 편곡이며 득점·승리 순간에 사용하는 곡이라고 직접 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["다음 고연전 승리 뒤 대규모 합창을 기대하며 격한 동작과 추억을 이야기한다."],
+      "supports": ["1974 도입", "전통민요 편곡", "사용 상황"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-yeongwonhara-2026-ipselenti",
+      "songId": "korea-university-yeongwonhara",
+      "url": "https://www.youtube.com/watch?v=2vyDJDlLgm8&t=264s",
+      "videoId": "2vyDJDlLgm8",
+      "title": "2부 기수부 응원 '하늘이여 + 화려, 피어난 함성 + 영원하라 + 영 타이거즈' IPSELENTI 입실렌티 고대 Korea University",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2026-05-24",
+      "descriptionSummary": "2026 입실렌티 기수부 응원에서 영원하라가 04:24부터 시작하는 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["주말 연습의 결과인 기수부 연출과 응원단장·기수부의 합동 공연을 높게 평가한다."],
+      "supports": ["2026 현행 사용", "기수부 레퍼토리"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-yeongwonhara-2026-joint",
+      "songId": "korea-university-yeongwonhara",
+      "url": "https://www.youtube.com/watch?v=Mx2Mw4fqyRU",
+      "videoId": "Mx2Mw4fqyRU",
+      "title": "[2026 고려대/연세대 합동응원전] 영원히 오늘 밤 새! '영원하라' (KU) vs '오늘 밤 새'(YU)",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-03-23",
+      "descriptionSummary": "2026 상반기 합동응원전에서 고려대 영원하라와 연세대 오늘 밤 새를 연속 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["오랜 동문이 영원하라를 들으며 학교에 대한 자부심과 뜨거움을 회상한다."],
+      "supports": ["2026 합동응원 사용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-yeongwonhara-2014",
+      "songId": "korea-university-yeongwonhara",
+      "url": "https://www.youtube.com/watch?v=0hparu40SQY",
+      "videoId": "0hparu40SQY",
+      "title": "[고연전 응원] '영원하라' - 고려대학교 응원단 / 고려대 응원가 @ 잠실 주경기장",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-08-22",
+      "descriptionSummary": "2014 정기 고연전 잠실 주경기장의 영원하라 응원을 담은 보존 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡을 새롭게 발견하거나 롯데 응원가로 먼저 알았다는 반응이 보인다."],
+      "supports": ["고연전 사용", "롯데판 인지"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-yeongwonhara-old-crowd",
+      "songId": "korea-university-yeongwonhara",
+      "url": "https://www.youtube.com/watch?v=EhgZZKHFq3M",
+      "videoId": "EhgZZKHFq3M",
+      "title": "'영원하라' 떼창 / 입실렌티 응원제 / 고려대학교 응원단",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-02-13",
+      "descriptionSummary": "입실렌티의 영원하라 대규모 떼창을 단독으로 담은 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["당시 응원단장과 곡의 동작을 회상하고 롯데판을 함께 떠올리는 반응이 많다."],
+      "supports": ["입실렌티 사용", "롯데판 인지"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-yeongwonhara-audio",
+      "songId": "korea-university-yeongwonhara",
+      "url": "https://www.youtube.com/watch?v=IFVoxjKDk4I",
+      "videoId": "IFVoxjKDk4I",
+      "title": "[음원] 고려대학교 응원가 - 영원하라 - 가사 (lyrics)",
+      "channel": "고려대학교 연세대학교 응원가 TV",
+      "publishedAt": "2018-12-22",
+      "descriptionSummary": "학교의 단결과 새 역사를 강조하는 예습용 응원 음원으로 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["원곡을 정확히 지목하거나 여성 보컬 버전을 선호하고 롯데 응원가를 떠올리는 반응이 나타난다."],
+      "supports": ["원곡 인지", "수용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-yeongwonhara-2023",
+      "songId": "korea-university-yeongwonhara",
+      "url": "https://www.youtube.com/watch?v=mQ28K1-JSsY&t=120s",
+      "videoId": "mQ28K1-JSsY",
+      "title": "'지야의 함성' + '영원하라' - 2023 정기 고연전 응원OT / 고려대학교 응원단 / 안암OT",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2023-09-04",
+      "descriptionSummary": "2023 응원 OT에서 영원하라가 02:00부터 시작하며 설명에 2004년 곡이라고 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학교 자부심과 응원단장의 지휘·열정을 높게 평가하는 반응이 중심이다."],
+      "supports": ["2004 도입 보조", "응원 OT 사용"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-yeongwonhara-young-tigers",
+      "songId": "korea-university-yeongwonhara",
+      "url": "https://www.youtube.com/watch?v=XIMC4SZjx8I",
+      "videoId": "XIMC4SZjx8I",
+      "title": "[2018 고려대 입실렌티] 영원하라 - 고려대학교 응원단 / 3부 응원제 / 단장 & Young Tigers",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-05-28",
+      "descriptionSummary": "2018 입실렌티에서 응원단장과 기수부 Young Tigers가 함께한 공연이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["특정 보컬 버전을 선호하고 고려대와 롯데 응원의 선율 유사성을 인지하는 반응이 있다."],
+      "supports": ["기수부 레퍼토리"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ku-a-yeongwonhara-2024-long",
+      "songId": "korea-university-yeongwonhara",
+      "url": "https://www.youtube.com/watch?v=AnLm-gnWA9c&t=263s",
+      "videoId": "AnLm-gnWA9c",
+      "title": "고대 응원가 뭘 좋아할지 몰라 다 가져옴. 2024 고려대 입실렌티 판쓸이 응원 I 고려대학교 응원단",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-06-14",
+      "descriptionSummary": "2024 입실렌티 19곡 모음으로 영원하라가 04:23부터 시작하고 약 04:32 화면에 ‘since 2004’가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["고려대 응원가가 힘을 준다는 반응, 수험생의 진학 동기와 동문의 자부심이 반복된다."],
+      "supports": ["2004 도입 화면", "2024 사용"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 33,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 15
+  }
+}

@@ -1,0 +1,1269 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-korea-university-d",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-korea",
+    "name": "고려대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태, 출처와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 도입 시기·사용법·현장 수용을 확인하는 데 필요한 내용만 익명으로 재서술한다. 댓글 작성자 이름과 댓글에 붙은 전체 가사·개인 식별 정보는 수집하지 않았다.",
+  "items": [
+    {
+      "id": "korea-university-ssessesse",
+      "title": "쎄쎄쎄",
+      "aliases": ["쎄쎄쎄(KU)"],
+      "currentStatus": "current-directly-verified-at-2026-ot-and-ipselenti",
+      "summary": "Pantera의 1994년 곡 ‘5 Minutes Alone’을 빠른 랩형 선창·후창으로 바꾼 2016년 고려대 응원가다. 2018년 영상 설명의 곡별 연도 표기와 공식 응원단 온라인 OT의 원곡 설명을 교차했고, 2026 신입생 OT와 입실렌티에서 현행 사용을 직접 확인했다. 편집형 자료가 ‘고연전 최초 랩 응원가’라고 설명하지만 당시 프로그램이나 제작자 인터뷰는 아직 확보하지 못했다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2016년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-sse-2018-new-songs", "ev-ku-d-namu-2010s"],
+          "notes": "지정 영상 설명이 쎄쎄쎄를 2016년 곡, 함께 나온 싱글벙글을 2015년 곡으로 각각 구분한다. 싱글벙글 연도는 이 곡의 증거로 합치지 않았다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Pantera ‘5 Minutes Alone’(1994)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-sse-official-ot", "ev-ku-d-pantera-official-video", "ev-ku-d-pantera-rhino"],
+          "notes": "고려대 응원단 공식 설명이 원곡을 직접 명시하며, Pantera 공식 영상과 Rhino의 앨범 자료로 원곡 연도·수록 정보를 확인했다."
+        },
+        {
+          "field": "format",
+          "value": "짧게 끊는 랩 선창마다 관중이 구호로 응답하는 공격 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-sse-official-ot", "yt-ku-d-sse-2022-joint", "yt-ku-d-sse-2026-ot"],
+          "notes": "공식 온라인 OT가 각 구절 끝의 응답 지점을 교육하고, 합동응원·신입생 OT 현장 영상에서도 같은 구조가 확인된다."
+        },
+        {
+          "field": "firstRapCheerClaim",
+          "value": "고연전에서 처음 쓰인 랩 형식 응원가라는 편집형 자료의 설명",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-d-namu-2010s"],
+          "notes": "‘최초’ 범위와 당시 발표 자료를 확인할 1차 기록이 없어 편집형 주장으로만 보존한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원 OT와 입실렌티 2부에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-sse-2026-ot", "yt-ku-d-sse-2026-ipselenti"],
+          "notes": "2026-03-17 OT 촬영본과 2026-05-22 입실렌티 촬영본이 최신 직접 증거다."
+        }
+      ],
+      "usageContexts": [
+        "응원단장이 빠르게 랩을 선창하면 관중이 각 마디 끝의 짧은 구호를 큰 소리로 되받는다.",
+        "연세대를 겨냥한 라이벌 구호와 동작이 중심이어서 합동응원전·고연전 OT의 공격 응원 구간에 자주 배치된다.",
+        "랩 앞뒤에는 비교적 선율적인 도입·후렴을 두어 처음 배우는 관중도 반복 구간에 합류할 수 있게 한다."
+      ],
+      "trivia": [
+        {
+          "id": "sse-2018-joint-missed-rhythm",
+          "summary": "편집형 자료는 2018 합동응원전에서 연세대 부단장이 이 곡을 따라 하다 박자를 놓쳤고 고려대 단장이 이를 즉석에서 받아쳤다고 전한다. 현장 전체 영상이나 당사자 설명은 아직 확보하지 못했다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ku-d-namu-2010s"]
+        },
+        {
+          "id": "sse-study-motivation",
+          "summary": "2022·2023 영상 댓글에는 드라마나 추천 영상을 통해 곡을 알게 됐다는 반응, 입시 준비의 동기로 삼는 반응, 응원단장의 재치와 전달력을 칭찬하는 반응이 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-sse-2022-joint", "yt-ku-d-sse-2023-ot"]
+        },
+        {
+          "id": "sse-2024-metadata-conflict",
+          "summary": "한 영상은 제목에 2024 신입생 OT를 적었지만 설명에는 2023-03-12 촬영이라고 써 있다. 영상이 보여 주는 사용 사실은 유효하나 정확한 행사 연도는 메타데이터 충돌 때문에 확정 자료로 쓰지 않았다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-sse-2024-metadata-conflict"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Pantera's 5 Minutes Alone; Korea University lyric adaptation, arrangement, performance and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=V6A_O5eOJZc",
+          "https://www.youtube.com/watch?v=7m7njvwB-Ks",
+          "https://www.namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80"
+        ],
+        "structureSummary": "선율적인 도입부와 반복 후렴 사이에 여덟 개 안팎의 짧은 랩 선창을 두고, 관중이 각 마디 끝을 구호로 끊어 받는다. 마지막에는 도입 선율을 되풀이해 집단 합창으로 닫는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-d-sse-2018-new-songs",
+        "yt-ku-d-sse-official-ot",
+        "yt-ku-d-sse-2024-metadata-conflict",
+        "yt-ku-d-sse-2022-joint",
+        "yt-ku-d-sse-2023-ot",
+        "yt-ku-d-sse-2026-ot",
+        "yt-ku-d-sse-2026-ipselenti"
+      ],
+      "unresolved": [
+        "2016년 최초 발표 행사와 정확한 초연일",
+        "고려대판 개사·편곡·보컬·녹음 제작 크레딧",
+        "고연전 최초 랩 응원가라는 주장을 확인할 당시 1차 기록",
+        "2024 제목·2023 설명이 충돌하는 영상의 실제 촬영일"
+      ]
+    },
+    {
+      "id": "korea-university-yonsei-chicken",
+      "title": "연세치킨",
+      "aliases": ["독수리 사냥", "연.세.치.킨"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti-after-2018-short-lived-withdrawal-dispute",
+      "summary": "Eruption의 ‘One Way Ticket’을 바탕으로 2014년에 발표된 라이벌 공격 응원가다. 고대신문의 당시 신곡 기사와 고려대 응원단 공식 OT가 원곡을 일치해 명시한다. 편집형 자료는 원래 제목이 ‘독수리 사냥’이었으나 원곡 제목의 소리가 ‘연세치킨’처럼 들리는 언어유희에 맞춰 제목과 동작을 고쳤다고 전한다. 2018년 3월 초 총학생회가 채식주의자·동물권 배려를 이유로 사용 중단을 알렸지만 열흘 뒤 합동응원 영상에는 ‘돌아온 연세치킨’으로 등장했고, 2022·2025·2026 현장에서도 사용돼 장기 폐곡으로 볼 수 없다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2014년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-d-kunews-2014", "ev-ku-d-namu-2010s"],
+          "notes": "2014-10-09 고대신문이 그해 고연전 신곡으로 직접 소개한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Eruption ‘One Way Ticket’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-d-kunews-2014", "yt-ku-d-chicken-official-ot", "ev-ku-d-eruption-apple"],
+          "notes": "당시 교내 언론과 응원단 공식 설명이 일치한다. Apple Music 메타데이터는 Eruption 녹음을 1978년으로 제공한다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "Jack Keller·Hank Hunter 작곡·작사 계열; Eruption 버전 편곡 Stefan Klinkhammer·Eruption",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-d-eruption-apple"],
+          "notes": "원곡 및 Eruption 녹음의 크레딧이며 고려대판 개사·편곡 크레딧과는 다르다."
+        },
+        {
+          "field": "titleRevision",
+          "value": "초기 제목 ‘독수리 사냥’에서 ‘연세치킨’으로 변경",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-d-namu-2010s"],
+          "notes": "원곡 영어 제목을 한국어처럼 들은 말장난과 새·닭 동작을 연결했다는 설명이다. 당시 응원단 제작 문서는 미확인이다."
+        },
+        {
+          "field": "2018Withdrawal",
+          "value": "2018-03-06 사용 중단 합의 발표와 2018-03-18 합동응원 복귀 영상이 공존",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-d-munhwa-2018-chicken", "yt-ku-d-chicken-2018-return", "ev-ku-d-namu-2010s"],
+          "notes": "기사로 발표 사실, 영상으로 열흘 뒤 사용 사실을 각각 직접 확인했다. 합의가 번복된 정확한 과정과 적용 범위는 찾지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 합동응원전과 2026 입실렌티에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-d-kunews-2025-joint", "yt-ku-d-chicken-kutv-2025", "yt-ku-d-chicken-2026-ipselenti"],
+          "notes": "교내 언론·교내방송과 2026 현장 영상이 최신 사용을 보여 준다."
+        }
+      ],
+      "usageContexts": [
+        "연세대의 독수리 상징을 닭에 빗대는 유머형 공격 응원으로 합동응원전·고연전 OT에서 사용한다.",
+        "응원단은 부리·볏·꼬리를 연상시키는 동작을 가르치고 관중은 짧은 후렴과 학교 구호를 반복한다.",
+        "가볍고 알아보기 쉬운 선율 때문에 고려대 쪽만이 아니라 합동응원의 연세대 관중도 동작에 참여하는 모습이 영상과 댓글에 반복된다."
+      ],
+      "trivia": [
+        {
+          "id": "chicken-one-way-ticket-wordplay",
+          "summary": "편집형 자료는 ‘One Way Ticket’이 빠르게 들릴 때 ‘연세치킨’처럼 들리는 점이 현재 제목의 계기였다고 전한다. 공식 OT도 원곡명을 병기하지만 제목 변경 당시의 회의록은 없다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-d-namu-2010s", "yt-ku-d-chicken-official-ot"]
+        },
+        {
+          "id": "chicken-cross-campus-participation",
+          "summary": "2018 합동응원 영상 댓글에서는 연세대 관중도 동작을 함께 하는 장면과 경쟁보다 장난스러운 교류가 돋보인다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-chicken-2018-return"]
+        },
+        {
+          "id": "chicken-kubs-zombie-mv",
+          "summary": "고려대 교육방송국은 2022년 교외 치킨 가게를 배경으로 좀비 코미디 형식의 별도 뮤직비디오를 제작했다. 곡의 말장난과 B급 유머가 교내 콘텐츠로 확장된 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-chicken-kubs-mv"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of One Way Ticket; source composition credits are known, while Korea University adaptation, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=LjuI4oTIaPg",
+          "https://www.kunews.ac.kr/news/articleView.html?idxno=21014",
+          "https://music.apple.com/us/song/355939906?l=en-US"
+        ],
+        "structureSummary": "원곡의 짧고 반복적인 디스코 선율에 상대 학교의 독수리를 닭으로 바꾸는 이야기형 절을 얹고, 새의 부리·볏·꼬리를 흉내 내는 동작과 구호형 후렴을 여러 차례 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-d-chicken-official-ot",
+        "yt-ku-d-chicken-kubs-mv",
+        "yt-ku-d-chicken-2018-return",
+        "yt-ku-d-chicken-2022-game",
+        "yt-ku-d-chicken-kutv-2025",
+        "yt-ku-d-chicken-2025-ot",
+        "yt-ku-d-chicken-2026-ipselenti"
+      ],
+      "unresolved": [
+        "‘독수리 사냥’에서 ‘연세치킨’으로 바뀐 정확한 시점과 당시 제작 문서",
+        "고려대판 개사·편곡·보컬·녹음 크레딧",
+        "2018년 사용 중단 합의가 열흘 안에 번복 또는 한정 적용된 경위",
+        "2018년 이후 행사별 제외·재도입의 완전한 연표",
+        "Eruption 버전의 앨범·싱글 발매 연도 표기 차이와 고려대판이 직접 참조한 음원 판본"
+      ]
+    },
+    {
+      "id": "korea-university-ipselenti",
+      "title": "IPSELENTI",
+      "aliases": ["Ipselenti", "입실렌티", "두둠칫"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "고려대 응원단 음악부 엘리제가 대학의 교훈형 라틴어 구호와 교호를 현대적인 리듬으로 결합해 2013년에 발표한 자체 제작 응원가다. 고대신문은 2013년 신곡이라고 기록하고, Bugs의 2013-10-27 싱글은 엘리제를 아티스트로, SINS를 작사·작곡·편곡자로 적는다. 공식 온라인 OT와 2025·2026 공연은 교호형 선창·후창과 이른바 ‘두둠칫’ 동작이 계속 사용됨을 보여 준다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2013년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-d-kunews-2014", "ev-ku-d-bugs-ipselenti-album"],
+          "notes": "고대신문이 2013년 신곡이라고 회고하고 Bugs 싱글 발매일이 2013-10-27로 확인된다. 초연일과 음원 발매일은 구분한다."
+        },
+        {
+          "field": "creator",
+          "value": "고려대학교 응원단 음악부 엘리제(Elise)의 자체 제작",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-d-bugs-ipselenti-album", "yt-ku-d-ipselenti-elise-2025"],
+          "notes": "앨범 소개가 리메이크가 아닌 엘리제 직접 제작임을 밝히고, 2025 현장에서는 엘리제 라이브로 연주된다."
+        },
+        {
+          "field": "credits",
+          "value": "SINS 작사·작곡·편곡, 엘리제 가창",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-d-bugs-ipselenti-track", "ev-ku-d-bugs-ipselenti-album"],
+          "notes": "Bugs 음원 메타데이터의 공개 크레딧이다. SINS의 실명과 응원단 내 역할은 별도 확인하지 못했다."
+        },
+        {
+          "field": "sourceMaterial",
+          "value": "고려대 라틴어 교훈 구호와 교호를 리듬형 응원으로 재구성",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-ipselenti-official-ot", "ev-ku-d-kunews-2014"],
+          "notes": "공식 응원단 영상은 단어별 관중 응답과 마지막 교호를 직접 교육한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 고연전·입실렌티와 2026 입실렌티에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-ipselenti-elise-2025", "yt-ku-d-ipselenti-festival-2025", "yt-ku-d-ipselenti-2026"],
+          "notes": "엘리제 라이브, 축제 응원, 2026 입실렌티 영상이 현행 사용을 직접 보인다."
+        }
+      ],
+      "usageContexts": [
+        "응원단장이 라틴어 구호를 하나씩 선창하면 관중이 정해진 응답을 되돌려 주고, 마지막에는 학교 교호를 노래 리듬으로 함께 외친다.",
+        "팔과 어깨를 좌우로 흔드는 가벼운 ‘두둠칫’ 동작을 반복해 신입생 OT에서 배우기 쉬운 참여형 곡으로 쓰인다.",
+        "입실렌티와 고연전에서 응원단 음악부 엘리제가 직접 연주하는 라이브 레퍼토리로도 확인된다."
+      ],
+      "trivia": [
+        {
+          "id": "ipselenti-pandemic-call-rhythm",
+          "summary": "편집형 자료는 대면 행사가 제한됐던 학번 일부가 교호를 이 곡의 박자로 먼저 익혔다가 2022년 대면 OT와 고연전에서 원래 말하기 박자를 다시 배웠다는 일화를 전한다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ku-d-namu-2010s"]
+        },
+        {
+          "id": "ipselenti-pandemic-online-training",
+          "summary": "2020 공식 온라인 OT 댓글에는 정규 경기와 대면 응원이 취소된 시기에 학교 교호와 동작을 이 영상으로 배울 수 있어 의미 있었다는 반응이 남아 있다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-ipselenti-official-ot"]
+        },
+        {
+          "id": "ipselenti-title-event-name",
+          "summary": "곡 제목은 고려대 축제 이름과 학교 교호의 첫 단어로도 쓰여 검색 결과에서 행사 전체와 노래 한 곡이 자주 섞인다. 이 배치에서는 곡 시작 시각이나 단독 제목이 확인되는 영상만 표본으로 삼았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-ipselenti-official-ot", "yt-ku-d-ipselenti-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "modern university composition released commercially; public credits identify Elise and SINS, but lyric, recording and redistribution permissions are not granted by the cited metadata",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/3245036",
+          "https://music.bugs.co.kr/album/393084",
+          "https://www.youtube.com/watch?v=3uO3tsovZd4"
+        ],
+        "structureSummary": "전자음 중심의 짧은 도입 뒤 라틴어 단어를 하나씩 선창하고 관중이 고정 응답을 되풀이한다. 같은 블록을 고조시킨 뒤 학교 교호를 일반 구호와 다른 노래 박자로 연결해 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-d-ipselenti-official-ot",
+        "yt-ku-d-ipselenti-2017",
+        "yt-ku-d-ipselenti-festival-2022",
+        "yt-ku-d-ipselenti-game-2022",
+        "yt-ku-d-ipselenti-elise-2025",
+        "yt-ku-d-ipselenti-festival-2025",
+        "yt-ku-d-ipselenti-2026"
+      ],
+      "unresolved": [
+        "2013년 무대 초연의 정확한 행사·날짜와 최초 공연 영상",
+        "SINS의 실명 및 당시 응원단 내 제작 역할",
+        "2013 공개 음원과 현재 현장 편곡 사이의 개정 이력",
+        "교호의 평상시 박자와 곡 안 박자를 둘러싼 2022 일화의 당사자 또는 공식 기록"
+      ]
+    },
+    {
+      "id": "korea-university-cheongchun-yechan",
+      "title": "청춘예찬",
+      "aliases": ["청춘 예찬"],
+      "currentStatus": "current-directly-verified-at-2026-joint-cheer-and-ipselenti",
+      "summary": "어깨동무와 긴 구음 합창으로 청춘·사랑·낭만을 함께 노래하는 2012년 응원가로 알려져 있다. 2012 정기 고연전 신곡이라는 초기 보존 영상과 편집형 자료는 도입 연도를 일치해 적지만 당시 공식 발표문은 아직 없다. 원곡 계보는 상충한다. 고려대 응원단의 2020 공식 온라인 OT는 ‘캐논 변주곡’이라고 적은 반면, 나무위키와 음악 계보 자료는 Sarah Vaughan의 ‘A Lover’s Concerto’를 지목한다. 후자는 Bach의 미뉴에트에 기초한 곡이므로 Pachelbel의 Canon과 같은 작품이 아니며, 제작자 설명을 찾기 전에는 둘 중 하나를 확정하지 않는다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2012년",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-youth-2012-archive", "ev-ku-d-namu-2010s"],
+          "notes": "2013년 업로드된 보존 영상 제목이 2012 정기 고연전 신곡이라고 적고 편집형 자료도 2012년으로 분류한다. 당시 프로그램·공식 발표문이 없어 verified로 올리지 않았다."
+        },
+        {
+          "field": "originalSong",
+          "value": "고려대 응원단 공식 온라인 OT 설명: ‘캐논 변주곡’",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-youth-official-ot"],
+          "notes": "공식 채널의 직접 표기이므로 중요한 주장이나 작곡가·편곡명·판본이 없어 무엇을 뜻하는지 불명확하다."
+        },
+        {
+          "field": "originalSong",
+          "value": "나무위키·음악 계보 자료: Sarah Vaughan ‘A Lover’s Concerto’",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-d-namu-2010s", "ev-ku-d-concerto-lineage", "ev-ku-d-sarah-universal", "ev-ku-d-sarah-shazam"],
+          "notes": "여러 2차 자료가 같은 곡을 지목하고 권리자·음원 자료가 Sarah Vaughan 녹음과 작가 크레딧을 확인한다. 그러나 고려대판 제작자의 직접 설명은 없다."
+        },
+        {
+          "field": "sourceConflict",
+          "value": "A Lover’s Concerto는 Bach 계열 미뉴에트 기반이며 Pachelbel Canon과 동일 작품이 아님",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-d-sarah-universal", "ev-ku-d-sarah-shazam", "yt-ku-d-youth-official-ot"],
+          "notes": "따라서 두 표기를 단순한 번역 차이로 합칠 수 없다. 고려대판의 직접 멜로디·편곡 계보는 미해결이다."
+        },
+        {
+          "field": "inspiration",
+          "value": "롯데 자이언츠 이대호 선수 응원에서 아이디어를 얻었다는 편집형 설명",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ku-d-namu-2010s"],
+          "notes": "제작자 인터뷰나 당시 응원단 문서로 교차하지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 고연전·FESTA와 2026 합동응원전·입실렌티에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-youth-colleges-2025", "yt-ku-d-youth-elise-2025", "yt-ku-d-youth-kutv-2026", "yt-ku-d-youth-2026-ipselenti"],
+          "notes": "교내방송·현장 전문 촬영 채널과 초청가수 공식 채널까지 여러 유형의 최신 영상이 일치한다."
+        }
+      ],
+      "usageContexts": [
+        "관중이 옆 사람과 어깨를 걸고 좌우로 흔들며 청춘의 사랑과 낭만을 한 목소리로 노래한다.",
+        "짧은 유가사 구간 뒤 긴 구음 합창이 이어져 축제·고연전의 감정적 전환 또는 공동체 결속 구간에 쓰인다.",
+        "단과대 합창 프로젝트와 초청가수 공연에서도 사용돼 경기장 응원 밖의 학교 정체성 콘텐츠로 확장됐다."
+      ],
+      "trivia": [
+        {
+          "id": "youth-source-attribution-conflict",
+          "summary": "공식 응원단이 적은 ‘캐논 변주곡’과 편집형 자료의 ‘A Lover’s Concerto’는 음악사적으로 같은 원곡이 아니다. 공식 표기의 세부 판본 또는 오기가 확인될 때까지 두 주장을 나란히 유지해야 한다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-youth-official-ot", "ev-ku-d-sarah-universal", "ev-ku-d-concerto-lineage"]
+        },
+        {
+          "id": "youth-campus-wide-voices",
+          "summary": "KUTV는 2025 FESTA를 앞두고 17개 단과대 학생이 각자 한 부분을 이어 부르는 영상을 제작했다. 댓글은 특정 출연자보다 단과대 전체의 참여와 학교 공동체 분위기를 응원하는 데 집중한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-youth-colleges-2025"]
+        },
+        {
+          "id": "youth-artist-performance",
+          "summary": "2026 입실렌티에서 10CM가 학생들과 이 곡을 함께 불렀고, 공식 채널 댓글에서는 가수가 관중과 하나가 되는 장면과 타 대학 시청자에게도 전해지는 곡의 정서를 높게 평가했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-youth-10cm-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "modern university adaptation with disputed source attribution; lyric adaptation, arrangement, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=_o9U9I-8l3U",
+          "https://www.universal-music.co.jp/sarah-vaughan/products/uccu-99086/",
+          "https://www.shazam.com/song/1458055037/a-lovers-concerto"
+        ],
+        "structureSummary": "청춘과 공동체를 압축한 짧은 유가사 문장을 두 번 부른 뒤, 어깨동무에 맞춘 긴 구음 합창으로 넘어간다. 이 묶음을 되풀이하며 반주보다 군중의 화음과 좌우 움직임을 강조한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-d-youth-2012-archive",
+        "yt-ku-d-youth-official-ot",
+        "yt-ku-d-youth-official-playlist-2023",
+        "yt-ku-d-youth-festival-2023",
+        "yt-ku-d-youth-colleges-2025",
+        "yt-ku-d-youth-elise-2025",
+        "yt-ku-d-youth-kutv-2026",
+        "yt-ku-d-youth-10cm-2026",
+        "yt-ku-d-youth-2026-ipselenti"
+      ],
+      "unresolved": [
+        "2012년 정확한 초연 행사·날짜와 당시 공식 발표문",
+        "고려대판 개사·편곡·보컬·녹음 제작 크레딧",
+        "공식 ‘캐논 변주곡’ 표기가 가리키는 작곡가·편곡·녹음 판본",
+        "A Lover’s Concerto 계보를 직접 확인하는 응원가 제작자 증언 또는 악보 비교",
+        "롯데 이대호 선수 응원에서 영향을 받았다는 주장의 1차 자료"
+      ]
+    },
+    {
+      "id": "korea-university-baegya",
+      "title": "백야",
+      "aliases": ["白夜", "2023 신곡 백야"],
+      "currentStatus": "current-directly-verified-at-2026-ot-and-ipselenti",
+      "summary": "어둠 속에서도 사라지지 않는 빛을 공동체의 지속성과 연결한 2023년 고려대 자체 제작 응원가다. 2023-03-10 신입생 OT 영상이 그해 신곡으로 소개하고 열흘 뒤 고대신문이 합동응원전의 새 곡으로 보도했다. 편집형 자료는 응원단 음악부 엘리제의 작사·작곡이라고 설명하며, 휴대전화 조명을 흔드는 연출을 ‘지지 않는 빛’의 이미지와 결합한다고 전한다. 2025 고연전과 2026 신입생 OT·입실렌티에서도 계속 사용된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2023년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-baegya-debut-2023", "ev-ku-d-kunews-2023-joint", "ev-ku-d-namu-2020s"],
+          "notes": "2023-03-10 OT 촬영본이 신곡이라고 명시하고 2023-03-20 교내 언론이 합동응원전의 새 곡으로 보도한다."
+        },
+        {
+          "field": "creator",
+          "value": "고려대학교 응원단 음악부 엘리제 작사·작곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-d-namu-2020s", "yt-ku-d-baegya-elise-2025"],
+          "notes": "편집형 자료와 2025 엘리제 라이브 표기는 제작 주체를 지지하지만 개인별 작사·작곡 크레딧이나 음원 메타데이터는 찾지 못했다."
+        },
+        {
+          "field": "choreography",
+          "value": "휴대전화 플래시를 켜고 흔드는 야간 응원",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-d-namu-2020s", "yt-ku-d-baegya-ipselenti-2023", "yt-ku-d-baegya-elise-2025"],
+          "notes": "편집형 자료의 설명과 야간 현장 영상의 조명 연출이 일치한다. 공식 동작 지침은 미확인이다."
+        },
+        {
+          "field": "theme",
+          "value": "밤에도 사라지지 않는 빛을 함께 빛나는 공동체와 연결",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-d-kunews-2024-baegya", "ev-ku-d-namu-2020s", "yt-ku-d-baegya-colleges-2023"],
+          "notes": "교내 언론과 곡의 구조·연출이 같은 이미지를 반복한다. 가사 전문은 저장하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 고연전과 2026 신입생 응원 OT·입실렌티에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-baegya-elise-2025", "yt-ku-d-baegya-2026-ot", "yt-ku-d-baegya-2026-ipselenti"],
+          "notes": "2026-03-17과 2026-05-22 현장 기록이 최신 직접 증거다."
+        }
+      ],
+      "usageContexts": [
+        "야간 축제·고연전에서 관중이 휴대전화 조명을 켜고 좌우로 흔들어 제목의 밝은 밤 이미지를 시각화한다.",
+        "응원단장의 두 개씩 묶인 짧은 선창에 관중이 응답한 뒤 서정적인 합창으로 돌아가는 구조를 쓴다.",
+        "신입생 OT에서 새 곡으로 교육된 뒤 입실렌티·합동응원·정기 고연전과 단과대 합창 콘텐츠로 빠르게 확장됐다."
+      ],
+      "trivia": [
+        {
+          "id": "baegya-early-lyrics-not-final",
+          "summary": "2023년 첫 신입생 OT 촬영 영상은 신곡 가사가 이후 바뀔 수 있다고 설명했다. 초기 영상과 현재판의 정확한 변경점을 저작권을 침해하지 않는 방식으로 대조할 공식 악보·개정 기록은 아직 없다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-d-baegya-debut-2023"]
+        },
+        {
+          "id": "baegya-college-chorus",
+          "summary": "KUTV는 곡이 나온 해인 2023년 18개 단과대 학생이 이어 부르는 영상을 제작했다. 댓글에서도 그해 신곡이라는 인지와 여러 단과대 목소리를 잇는 구성에 대한 호평이 확인된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-baegya-colleges-2023"]
+        },
+        {
+          "id": "baegya-fast-canonicalization",
+          "summary": "발표 석 달 안에 입실렌티 메인 응원과 단과대 합창에 포함됐고 2025 고연전 60주년 플레이리스트의 첫 곡으로도 배치됐다. 비교적 짧은 기간에 대표적인 서정 응원으로 자리 잡은 흐름이 보인다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-d-baegya-ipselenti-2023", "yt-ku-d-baegya-colleges-2023", "yt-ku-d-baegya-elise-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "modern university song attributed to Elise in secondary documentation; individual composition, lyric, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=y7rNVPopjAA",
+          "https://www.youtube.com/watch?v=L2ff-UqAXNo",
+          "https://www.namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80"
+        ],
+        "structureSummary": "긴 구음 도입 뒤 빛과 동행을 주제로 한 서정적 절을 부르고, 두 개씩 짝지은 짧은 선창·후창으로 전환한다. 이후 처음의 합창과 구음으로 돌아가 휴대전화 조명 연출과 함께 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-d-baegya-debut-2023",
+        "yt-ku-d-baegya-colleges-2023",
+        "yt-ku-d-baegya-official-playlist-2023",
+        "yt-ku-d-baegya-ipselenti-2023",
+        "yt-ku-d-baegya-ot-2025",
+        "yt-ku-d-baegya-elise-2025",
+        "yt-ku-d-baegya-2026-ot",
+        "yt-ku-d-baegya-2026-ipselenti"
+      ],
+      "unresolved": [
+        "엘리제 내부의 개인별 작사·작곡·편곡·가창·녹음 크레딧",
+        "2023-03-10 첫 공개판과 현재판 사이의 가사·편곡 개정 이력",
+        "휴대전화 플래시 동작을 처음 도입한 행사와 공식 안무 지침",
+        "2023년 최초 공개일과 정식 음원 발매 여부의 구분"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ku-d-namu-2010s",
+      "type": "community-wiki",
+      "url": "https://www.namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80",
+      "title": "고려대학교/응원가/2010년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "쎄쎄쎄·연세치킨·IPSELENTI·청춘예찬의 도입 연도, 원곡, 동작과 일화를 모은 편집형 자료다. 연도·원곡·현행 사용은 교내 언론, 공식 영상과 권리자 자료로 교차했고 교차되지 않은 일화는 낮은 신뢰도로 남겼다.",
+      "supports": ["쎄쎄쎄", "연세치킨", "IPSELENTI", "청춘예찬"]
+    },
+    {
+      "id": "ev-ku-d-namu-2020s",
+      "type": "community-wiki",
+      "url": "https://www.namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80",
+      "title": "고려대학교/응원가/2020년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "백야를 2023년 신곡이자 엘리제 자체 제작곡으로 소개하고, 전화 조명·선창과 후창의 공연 구조를 서술한다. 도입 연도와 현행성은 2023 교내 언론 및 2026 영상으로 교차했다.",
+      "supports": ["백야 도입", "백야 제작 주체", "백야 동작"]
+    },
+    {
+      "id": "ev-ku-d-kunews-2014",
+      "type": "university-news",
+      "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=21014",
+      "title": "따라해요. 고대인이 외치는 흥겨운 승리호",
+      "publisher": "고대신문",
+      "publishedAt": "2014-10-09",
+      "accessedAt": "2026-08-09",
+      "summary": "2014 고연전 신곡 연세치킨의 원곡을 Eruption의 One Way Ticket으로 밝히고, IPSELENTI를 교호를 응용한 2013년 신곡으로 소개한다.",
+      "supports": ["연세치킨 2014 도입·원곡", "IPSELENTI 2013 도입·구조"]
+    },
+    {
+      "id": "ev-ku-d-kunews-2023-joint",
+      "type": "university-news",
+      "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=40685",
+      "title": "호랑이와 독수리, 사활 건 응원 전쟁",
+      "publisher": "고대신문",
+      "publishedAt": "2023-03-20",
+      "accessedAt": "2026-08-09",
+      "summary": "2023 합동응원전에서 새 응원가 백야를 양교가 함께 불렀고 청춘예찬에서 학생들이 어깨동무했다는 현장을 기록한다. 안전을 위해 원형 응원과 트랙 진입을 금지한 운영 맥락도 남긴다.",
+      "supports": ["백야 2023 신곡", "청춘예찬 어깨동무", "합동응원 안전 맥락"]
+    },
+    {
+      "id": "ev-ku-d-kunews-2025-joint",
+      "type": "university-news",
+      "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=43692",
+      "title": "찬란한 저 빛처럼 우린 함께 할 거야!",
+      "publisher": "고대신문",
+      "publishedAt": "2025-03-16",
+      "accessedAt": "2026-08-09",
+      "summary": "2025 상반기 합동응원전에서 연세치킨이 현장 열기를 끌어올린 장면을 기록해, 논란 뒤에도 곡이 현행 레퍼토리임을 보여 준다.",
+      "supports": ["연세치킨 2025 사용"]
+    },
+    {
+      "id": "ev-ku-d-kunews-2024-baegya",
+      "type": "university-news",
+      "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=42947",
+      "title": "[호랭이특파원] 백야, 밤에도 어두워지지 않는 핀란드의 여름",
+      "publisher": "고대신문",
+      "publishedAt": "2024-09-30",
+      "accessedAt": "2026-08-09",
+      "summary": "자연현상 백야를 설명하면서 고려대 응원가 백야와 밤에도 지지 않는 빛의 이미지를 연결한 교내 칼럼이다.",
+      "supports": ["백야 제목·빛의 주제"]
+    },
+    {
+      "id": "ev-ku-d-munhwa-2018-chicken",
+      "type": "news",
+      "url": "https://v.daum.net/v/20180308115015158",
+      "title": "<오늘 '세계 여성의 날'> 성소수자·채식주의자 비하도 그만…대학가, 미투 넘어 소수자 배려운동",
+      "publisher": "문화일보·Daum 뉴스",
+      "publishedAt": "2018-03-08",
+      "accessedAt": "2026-08-09",
+      "summary": "고려대 총학생회가 3월 6일 응원단과 논의해 채식주의자와 동물권을 고려한다는 취지로 연세치킨을 그해부터 부르지 않기로 했다고 발표한 사실을 당시 보도한다.",
+      "supports": ["연세치킨 2018 사용 중단 발표"]
+    },
+    {
+      "id": "ev-ku-d-bugs-ipselenti-track",
+      "type": "music-credit",
+      "url": "https://music.bugs.co.kr/track/3245036",
+      "title": "Ipselenti — track credits",
+      "publisher": "Bugs",
+      "publishedAt": "2013-10-27",
+      "accessedAt": "2026-08-09",
+      "summary": "엘리제를 아티스트·가창자로, SINS를 작사·작곡·편곡자로 적고 재생시간 2분 27초를 제공한다. 페이지의 가사 전문은 수집하지 않았다.",
+      "supports": ["IPSELENTI 제작·음원 크레딧"]
+    },
+    {
+      "id": "ev-ku-d-bugs-ipselenti-album",
+      "type": "music-credit",
+      "url": "https://music.bugs.co.kr/album/393084",
+      "title": "Ipselenti — single",
+      "publisher": "Bugs",
+      "publishedAt": "2013-10-27",
+      "accessedAt": "2026-08-09",
+      "summary": "2013-10-27 발매된 엘리제 싱글로 기록하며, 앨범 소개는 기존곡 리메이크가 아니라 응원단 음악부가 직접 제작하고 학교 교호와 ‘두둠칫’ 동작을 결합했다고 설명한다.",
+      "supports": ["IPSELENTI 2013", "엘리제 자체 제작", "두둠칫 동작"]
+    },
+    {
+      "id": "ev-ku-d-pantera-official-video",
+      "type": "official-artist-video",
+      "url": "https://www.youtube.com/watch?v=7m7njvwB-Ks",
+      "title": "Pantera - 5 Minutes Alone (Official Music Video) [4K Remaster]",
+      "publisher": "Pantera",
+      "publishedAt": "2009-10-29",
+      "accessedAt": "2026-08-09",
+      "summary": "Pantera 공식 채널이 5 Minutes Alone을 Far Beyond Driven 수록곡으로 제공하는 원곡 확인 자료다.",
+      "supports": ["쎄쎄쎄 원곡 식별"]
+    },
+    {
+      "id": "ev-ku-d-pantera-rhino",
+      "type": "official-label",
+      "url": "https://www.rhino.com/product/far-beyond-driven",
+      "title": "Far Beyond Driven",
+      "publisher": "Rhino",
+      "publishedAt": "1994-03-18",
+      "accessedAt": "2026-08-09",
+      "summary": "앨범 발매일을 1994-03-18로, 5 Minutes Alone을 세 번째 트랙으로 제공하는 공식 레이블 앨범 페이지다.",
+      "supports": ["5 Minutes Alone 원곡 연도·수록 정보"]
+    },
+    {
+      "id": "ev-ku-d-eruption-apple",
+      "type": "music-credit",
+      "url": "https://music.apple.com/us/song/355939906?l=en-US",
+      "title": "One Way Ticket — Eruption",
+      "publisher": "Apple Music",
+      "publishedAt": "1978",
+      "accessedAt": "2026-08-09",
+      "summary": "Eruption 녹음을 1978년으로 제공하고 Jack Keller·Hank Hunter 및 Eruption 버전의 편곡·프로듀싱 크레딧을 적는다.",
+      "supports": ["연세치킨 원곡 녹음·크레딧"]
+    },
+    {
+      "id": "ev-ku-d-eruption-cherry-red",
+      "type": "official-label",
+      "url": "https://www.cherryred.co.uk/the-best-of-eruption-expanded-edition",
+      "title": "The Best of Eruption — Expanded Edition",
+      "publisher": "Cherry Red Records",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "One Way Ticket을 Eruption의 디스코 커버로 소개하는 레이블 자료로, 고려대판의 직접 출처와 원곡 저작물을 구분하는 데 썼다.",
+      "supports": ["Eruption 버전의 커버 관계"]
+    },
+    {
+      "id": "ev-ku-d-sarah-universal",
+      "type": "official-label",
+      "url": "https://www.universal-music.co.jp/sarah-vaughan/products/uccu-99086/",
+      "title": "Sarah Vaughan — A Lover's Concerto",
+      "publisher": "Universal Music Japan",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Sarah Vaughan의 A Lover’s Concerto 음반을 소개하며 제목곡이 Bach 계열 미뉴에트에서 유래한다고 설명한다. Pachelbel Canon과 같은 곡이라는 근거는 제공하지 않는다.",
+      "supports": ["청춘예찬 원곡 주장 검증", "A Lover's Concerto 계보"]
+    },
+    {
+      "id": "ev-ku-d-sarah-shazam",
+      "type": "music-credit",
+      "url": "https://www.shazam.com/song/1458055037/a-lovers-concerto",
+      "title": "A Lover's Concerto — Sarah Vaughan",
+      "publisher": "Shazam",
+      "publishedAt": "1966",
+      "accessedAt": "2026-08-09",
+      "summary": "Sarah Vaughan 녹음을 1966년으로 기록하고 Sandy Linzer·Denny Randell 작곡 크레딧과 편곡·프로듀싱 정보를 제공한다.",
+      "supports": ["A Lover's Concerto 녹음·크레딧"]
+    },
+    {
+      "id": "ev-ku-d-concerto-lineage",
+      "type": "music-history-secondary",
+      "url": "https://moses22.com/entry/A-Lover%E2%80%99s-Concerto-1-%EC%82%AC%EB%9D%BC-%EB%B3%B8-Sarah-Vaughan-%EB%8D%94-%ED%86%A0%EC%9D%B4%EC%A6%88-The-Toys-%EC%B2%AD%EC%B6%98%EC%98%88%EC%B0%AC-%EA%B3%A0%EB%A0%A4%EB%8C%80%EC%9D%91%EC%9B%90%EA%B0%80-Minuet-in-G-major-%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8B%B0%EC%95%99-%ED%8E%AB%EC%A1%B8%EB%93%9C-Christian-Petzold?category=1054328",
+      "title": "A Lover’s Concerto와 고려대 응원가 청춘예찬의 음악 계보",
+      "publisher": "음악사 개인 연구 블로그",
+      "publishedAt": "2022-10-22",
+      "accessedAt": "2026-08-09",
+      "summary": "청춘예찬을 Sarah Vaughan의 A Lover’s Concerto와 연결하고 그 선율의 더 오래된 미뉴에트 계보를 정리한 2차 자료다. 공식 응원단의 캐논 변주곡 표기와 충돌하므로 단독 결론으로 사용하지 않았다.",
+      "supports": ["청춘예찬 A Lover's Concerto 주장", "원곡 상충"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ku-d-sse-2018-new-songs",
+      "songId": "korea-university-ssessesse",
+      "url": "https://www.youtube.com/watch?v=5oxMNTIGAEU",
+      "videoId": "5oxMNTIGAEU",
+      "title": "신곡만 나오면 조용해지는 분들을 위한 영상 - 호랑이 호들갑 쎄쎄쎄 싱글벙글",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-03-11",
+      "descriptionSummary": "영상 설명이 수록곡 가운데 쎄쎄쎄는 2016년, 싱글벙글은 2015년이라고 각각 구분한다. 이 배치에서는 쎄쎄쎄 연도만 근거로 사용했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 짧은 라이벌 구호 반응뿐이며 곡의 연도나 제작 경위를 추가로 확인할 내용은 없다."],
+      "supports": ["쎄쎄쎄 2016 도입"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-sse-official-ot",
+      "songId": "korea-university-ssessesse",
+      "url": "https://www.youtube.com/watch?v=V6A_O5eOJZc",
+      "videoId": "V6A_O5eOJZc",
+      "title": "쎄쎄쎄 | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-10-29",
+      "descriptionSummary": "공식 응원단이 랩 응원이라는 성격, 각 선창 끝의 관중 응답법과 원곡 Pantera의 5 Minutes Alone을 명시한 교육 영상이다. 설명의 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["빠른 랩 전달력과 결의에 찬 분위기를 높게 평가하고 대면 응원을 기다린다는 반응이 중심이다."],
+      "supports": ["원곡", "랩형 구조", "공식 동작 교육"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-sse-2024-metadata-conflict",
+      "songId": "korea-university-ssessesse",
+      "url": "https://www.youtube.com/watch?v=ysRb4wXU67I",
+      "videoId": "ysRb4wXU67I",
+      "title": "[2024 고려대 신입생 응원OT] 쎄쎄쎄 - 신촌의 독수리 연!세! 목소리 들어보니 참!새!",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-03-14",
+      "descriptionSummary": "제목은 2024 신입생 OT라고 적지만 설명의 촬영일은 2023-03-12여서 연도 메타데이터가 충돌한다. 정확한 행사 연도 증거로는 쓰지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원단장의 강한 목소리와 카리스마를 칭찬하고 곡을 익숙한 대표 레퍼토리로 받아들이는 반응이 보인다."],
+      "supports": ["사용 지속", "영상 연도 충돌"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-sse-2022-joint",
+      "songId": "korea-university-ssessesse",
+      "url": "https://www.youtube.com/watch?v=O4AfSRKGhYU",
+      "videoId": "O4AfSRKGhYU",
+      "title": "[2022 합동응원] 흥겹게 신나게 놀려보자 '쎄쎄쎄(KU)' vs 'WOO(YU)' - 합응 I 고연전 I 연고전",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-10-13",
+      "descriptionSummary": "2022 합동응원에서 양교의 공격 응원을 차례로 배치해 쎄쎄쎄의 라이벌 구호 맥락을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": ["당시 현장을 회상하거나 드라마를 통해 곡을 알게 됐다는 반응, 입시 준비의 동기로 삼는 반응이 나타난다."],
+      "supports": ["합동응원 공격 응원", "현장 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-sse-2023-ot",
+      "songId": "korea-university-ssessesse",
+      "url": "https://www.youtube.com/watch?v=9TCLCMCedhA",
+      "videoId": "9TCLCMCedhA",
+      "title": "고려대응원단 태양 '여러분' & '쎄쎄쎄' [2023 고려대 신입생 응원OT 2부 응원] 고려대 응원가 / 고려대학교 응원단",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2023-03-15",
+      "descriptionSummary": "2023-03-10 신입생 응원 OT의 멘트와 쎄쎄쎄 공연을 연속으로 담은 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원단장의 재치 있는 진행과 무대 전달력, 현장 분위기를 높게 평가한다."],
+      "supports": ["2023 신입생 OT 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-sse-2026-ot",
+      "songId": "korea-university-ssessesse",
+      "url": "https://www.youtube.com/watch?v=qSIfnhQHDvE&t=108s",
+      "videoId": "qSIfnhQHDvE",
+      "title": "[2026 고려대 응원OT] 연대는 한물간 철.새! 쉿하고 꿇어라 연.세! '쎄쎄쎄 + 꿇어라 연세' #고려대응원가 #응원OT #서울OT #신입생OT [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-10",
+      "descriptionSummary": "2026-03-17 신입생 응원 OT 촬영본으로 쎄쎄쎄는 01:48부터 시작한다. 설명에 고려대 응원단 공식 촬영팀 참여가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["현재 응원단의 힘 있는 공연과 붉은 무대 연출을 칭찬하는 반응이며 역사 정보는 없다."],
+      "supports": ["2026 현행 사용", "신입생 OT"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-sse-2026-ipselenti",
+      "songId": "korea-university-ssessesse",
+      "url": "https://www.youtube.com/watch?v=rjmj1xH5Y1w&t=693s",
+      "videoId": "rjmj1xH5Y1w",
+      "title": "[2026 고려대 입실렌티] 신나는 응원곡만 모아! 2부 응원#3 조단장턴 '샹젤리제 + 코리아 + 호랑이 + 우리는 고대 + 싱글벙글 + 쎄쎄쎄 + 연세치킨 + 입실렌티'[4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-03",
+      "descriptionSummary": "2026-05-22 입실렌티 2부를 기록하며 쎄쎄쎄 시작 시각을 11:33으로 제공한다. 설명에 응원단 공식 촬영팀 참여가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["새 영상 공개를 기다렸다는 반응과 현재 응원단의 에너지·진행을 칭찬하는 반응이 중심이다."],
+      "supports": ["2026 입실렌티 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-chicken-official-ot",
+      "songId": "korea-university-yonsei-chicken",
+      "url": "https://www.youtube.com/watch?v=LjuI4oTIaPg",
+      "videoId": "LjuI4oTIaPg",
+      "title": "연세치킨 | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-17",
+      "descriptionSummary": "공식 응원단이 원곡을 Eruption의 One Way Ticket으로 밝히고 닭을 형상화한 동작을 교육한다. 설명에 포함된 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["졸업생은 재학 당시 없던 곡이라고 회상하고, 시청자는 유머러스한 분위기와 대면 응원을 그리워한다."],
+      "supports": ["원곡", "공식 동작 교육", "세대별 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-chicken-kubs-mv",
+      "songId": "korea-university-yonsei-chicken",
+      "url": "https://www.youtube.com/watch?v=KpKE5N225nU",
+      "videoId": "KpKE5N225nU",
+      "title": "지금까지 이런 맛은 없었다! 이것은 치킨인가 고뽕인가 | 연세치킨 응원가 MV",
+      "channel": "고려대학교 교육방송국 KUBS",
+      "publishedAt": "2022-02-18",
+      "descriptionSummary": "연세대 인근 치킨 가게와 좀비 설정을 결합해 응원가의 언어유희를 극대화한 교내방송 제작 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": ["뮤직비디오의 코미디와 제작 완성도를 즐기는 반응이 중심이며, 댓글에 재게시된 전체 가사는 수집하지 않았다."],
+      "supports": ["교내 콘텐츠 확장", "유머형 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-chicken-2018-return",
+      "songId": "korea-university-yonsei-chicken",
+      "url": "https://www.youtube.com/watch?v=PeiY9iaPSQk",
+      "videoId": "PeiY9iaPSQk",
+      "title": "[2018 고려대/연세대 합동응원OT] 연세치킨",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-03-18",
+      "descriptionSummary": "2018 봄 합동응원 OT 공연을 ‘돌아온 연세치킨’이라고 소개한다. 사용 중단 발표 기사 열흘 뒤의 직접 사용 기록이라 정책의 단기 변화를 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": ["연세대 관중도 동작에 참여하는 모습, 귀여운 선율과 우호적인 라이벌 문화를 즐기는 반응이 반복된다."],
+      "supports": ["2018 복귀·사용", "합동 참여"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-chicken-2022-game",
+      "songId": "korea-university-yonsei-chicken",
+      "url": "https://www.youtube.com/watch?v=YpbEGuBnIWY",
+      "videoId": "YpbEGuBnIWY",
+      "title": "[2022 고연전 응원] '연세치킨' - 고려대학교 응원가 / 주경기장 / 연고전",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-11-22",
+      "descriptionSummary": "2022-10-29 고양종합운동장 축구 경기의 연세치킨 응원을 담아 2018 논란 뒤 정기전 사용을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["제목의 말장난과 유머러스한 개사를 즐기고 현장 군중음과 마이크 음량의 차이를 비교하는 반응이 보인다."],
+      "supports": ["2022 고연전 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-chicken-kutv-2025",
+      "songId": "korea-university-yonsei-chicken",
+      "url": "https://www.youtube.com/watch?v=eQF797kE5E8",
+      "videoId": "eQF797kE5E8",
+      "title": "2025 고려대 x 연세대 합동응원 OT | 연세치킨 🐯",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2025-03-15",
+      "descriptionSummary": "2025 합동응원 OT의 연세치킨 무대를 교내방송이 단독 편집했으며 공식 전체 생중계 링크도 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원단장이 즐겁게 이끄는 표정과 에너지를 칭찬하는 반응이 중심이며 무관한 요청 댓글은 제외했다."],
+      "supports": ["2025 합동응원 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-chicken-2025-ot",
+      "songId": "korea-university-yonsei-chicken",
+      "url": "https://www.youtube.com/watch?v=1PInH8ROFRg",
+      "videoId": "1PInH8ROFRg",
+      "title": "'꿇어라 연세 + 연세치킨 + 호랑이' I 2025 고연전 안암응원OT I #고려대응원가 #고려대학교응원단 #응원OT [4k60p]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-09-10",
+      "descriptionSummary": "2025 안암 고연전 응원 OT에서 세 공격·대표 응원을 연속 기록하고 응원단 공식 촬영팀 참여를 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["현재 공연자의 무대 장악력과 붉은 연출에 대한 호평이 중심이며 곡 역사에 관한 새 정보는 없다."],
+      "supports": ["2025 고연전 OT 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-chicken-2026-ipselenti",
+      "songId": "korea-university-yonsei-chicken",
+      "url": "https://www.youtube.com/watch?v=ORI0ZebruK8&t=610s",
+      "videoId": "ORI0ZebruK8",
+      "title": "[2026 고려대 입실렌티] 3부 응원 전반부_녹지운동장에서 청춘을 노래하다 '청춘예찬 + 백야 + 출사표 + 카운트다운 + 연세치킨 + 입실렌티 + 예예예'#고려대응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-07",
+      "descriptionSummary": "2026-05-22 입실렌티 3부 전반부를 기록하며 연세치킨 시작 시각을 10:10으로 제공한다. 응원단 공식 촬영팀 참여가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학생들의 청춘과 응원단의 에너지를 칭찬하는 반응이 중심이며 홍보성·정치성 링크 댓글은 제외했다."],
+      "supports": ["2026 입실렌티 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-ipselenti-official-ot",
+      "songId": "korea-university-ipselenti",
+      "url": "https://www.youtube.com/watch?v=3uO3tsovZd4",
+      "videoId": "3uO3tsovZd4",
+      "title": "IPSELENTI | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-10-28",
+      "descriptionSummary": "공식 응원단이 라틴어 교훈 구호, 단어별 선창·후창, 교호와 ‘두둠칫’ 동작을 단계적으로 교육한다. 설명의 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["교호가 시작되는 지점과 두둠칫 동작, 전통 단복을 반기며 대면 행사가 없던 시기의 교육 영상 가치를 이야기한다."],
+      "supports": ["공식 구조", "교호", "두둠칫 동작"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-ipselenti-2017",
+      "songId": "korea-university-ipselenti",
+      "url": "https://www.youtube.com/watch?v=Ep-2s10AJjw",
+      "videoId": "Ep-2s10AJjw",
+      "title": "20170526 고려대 입실렌티 응원가 IPSELENTI",
+      "channel": "성이름",
+      "publishedAt": "2017-05-27",
+      "descriptionSummary": "2017-05-26 입실렌티 현장의 IPSELENTI 단독 공연 기록이다. 설명에 실린 전체 구조·가사는 저장하지 않았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2017 입실렌티 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-ipselenti-festival-2022",
+      "songId": "korea-university-ipselenti",
+      "url": "https://www.youtube.com/watch?v=U6yI9Cehgog",
+      "videoId": "U6yI9Cehgog",
+      "title": "[2022 고려대 입실렌티 3부 응원제(3)] 석탑 - 입실렌티 (IPSELENTI) / 고려대 축제 IPSELENTI",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-06-05",
+      "descriptionSummary": "3년 만에 대면으로 돌아온 2022 입실렌티에서 약 2만 관중과 함께한 공연이며 공식 촬영 협업 정보를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["교호가 시작되는 구간을 짚거나 곡을 특히 좋아한다는 반응, 다음 축제 참가를 바라는 반응이 나타난다."],
+      "supports": ["2022 대면 입실렌티 사용", "교호 구간"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-ipselenti-game-2022",
+      "songId": "korea-university-ipselenti",
+      "url": "https://www.youtube.com/watch?v=17T__-S21wI",
+      "videoId": "17T__-S21wI",
+      "title": "[2022 고연전 응원] '입실렌티' 입실렌티 체이홉 카시코시코시코! - 고려대학교 응원가 / 주경기장 / 연고전 / 고려대 교호",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-11-25",
+      "descriptionSummary": "2022-10-29 고양종합운동장 축구 경기에서 곡과 교호를 함께 담은 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["경기장 현장감이 중요하다는 반응과 보기보다 동작 박자를 맞추기 어렵다는 경험담이 있다. 댓글의 전체 가사 재게시는 제외했다."],
+      "supports": ["2022 고연전 사용", "동작 난이도 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-ipselenti-elise-2025",
+      "songId": "korea-university-ipselenti",
+      "url": "https://www.youtube.com/watch?v=gOF_WTNzadw",
+      "videoId": "gOF_WTNzadw",
+      "title": "[ELISE LIVE] 고대 교호 발사! '입실렌티 IPSELENTI' - 고려대학교 응원단 음악부 엘리제 라이브 #고려대응원가 #2025고연전 #고연전 #두둠칫 [4k60p]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-09-24",
+      "descriptionSummary": "2025 고연전 둘째 날 약 2만 명 경기장에서 응원단 음악부 엘리제가 직접 연주한 영상이며 공식 촬영팀 참여가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["엘리제의 라이브 연주를 칭찬하고 타 대학 시청자도 고려대 교호가 익숙해졌다고 말한다."],
+      "supports": ["엘리제 라이브", "2025 고연전 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-ipselenti-festival-2025",
+      "songId": "korea-university-ipselenti",
+      "url": "https://www.youtube.com/watch?v=pdK6pXssBgk",
+      "videoId": "pdK6pXssBgk",
+      "title": "[2025 입실렌티 응원] '예예예 + 입실렌티' I 고려대 축제 I 고려대 응원단 I 신나는 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-06-28",
+      "descriptionSummary": "2025 입실렌티에서 예예예와 IPSELENTI를 연속으로 기록한 응원단 공연 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["다음 입실렌티에 참여하고 싶다는 반응과 응원단의 에너지·동작에 대한 호평이 중심이다."],
+      "supports": ["2025 입실렌티 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-ipselenti-2026",
+      "songId": "korea-university-ipselenti",
+      "url": "https://www.youtube.com/watch?v=ORI0ZebruK8&t=737s",
+      "videoId": "ORI0ZebruK8",
+      "title": "[2026 고려대 입실렌티] 3부 응원 전반부_녹지운동장에서 청춘을 노래하다 '청춘예찬 + 백야 + 출사표 + 카운트다운 + 연세치킨 + 입실렌티 + 예예예'#고려대응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-07",
+      "descriptionSummary": "2026-05-22 입실렌티 3부 전반부를 기록하며 IPSELENTI 시작 시각을 12:17로 제공한다. 응원단 공식 촬영팀 참여가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학생들의 청춘과 현장 에너지에 대한 호평, 앞으로 이 무대에 서고 싶다는 반응이 나타난다. 홍보성 링크는 제외했다."],
+      "supports": ["2026 입실렌티 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-youth-2012-archive",
+      "songId": "korea-university-cheongchun-yechan",
+      "url": "https://www.youtube.com/watch?v=zMmorbzuGxI",
+      "videoId": "zMmorbzuGxI",
+      "title": "[청춘예찬 - 2012 정기 고연전 고려대학교 응원단 신곡] by 디카츄",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2013-02-26",
+      "descriptionSummary": "2012 정기 고연전의 고려대 응원단 신곡이라고 제목에 명시한 초기 보존 영상이다. 별도 설명은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡의 정서와 짧은 가사를 좋아하고 대학 시절을 회상하거나 장차 대학원생으로 현장에 가고 싶다는 반응이 보인다."],
+      "supports": ["2012 신곡 주장", "초기 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-youth-official-ot",
+      "songId": "korea-university-cheongchun-yechan",
+      "url": "https://www.youtube.com/watch?v=_o9U9I-8l3U",
+      "videoId": "_o9U9I-8l3U",
+      "title": "청춘예찬 | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-22",
+      "descriptionSummary": "공식 응원단이 어깨동무와 좌우 동작을 교육하며 원곡란에 ‘캐논 변주곡’이라고 적은 영상이다. 설명의 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬데믹 시기 신입생과 수험생이 훗날 대면 응원에서 함께 부르고 싶다고 말하고 공연자를 응원한다."],
+      "supports": ["공식 원곡 표기", "어깨동무 동작", "온라인 OT"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-youth-official-playlist-2023",
+      "songId": "korea-university-cheongchun-yechan",
+      "url": "https://www.youtube.com/watch?v=O3Q_sjGJUpE&t=942s",
+      "videoId": "O3Q_sjGJUpE",
+      "title": "[Playlist] [KUBS X 고려대학교 응원단 | 응원가 플레이리스트]",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2023-09-02",
+      "descriptionSummary": "KUBS와 고려대 응원단의 공식 응원가 플레이리스트로 청춘예찬은 15:42부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["입학 목표와 학습 동기를 적거나 응원가를 반복해 듣는다는 반응이 다수를 이룬다."],
+      "supports": ["2023 공식 플레이리스트 수록"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-youth-festival-2023",
+      "songId": "korea-university-cheongchun-yechan",
+      "url": "https://www.youtube.com/watch?v=gO5L2ACyPr8",
+      "videoId": "gO5L2ACyPr8",
+      "title": "당신의 빛나는 청춘을 응원합니다 '청춘예찬' 입실렌티 IPSELENTI 2023 고려대학교 축제 4k 60p 고대 Korea University",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2023-06-06",
+      "descriptionSummary": "2023-05-26 입실렌티에서 청춘예찬을 단독으로 기록한 4K 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["가장 좋아하는 응원가라는 반응, 엘리제·보컬·응원단 호평과 지나간 청춘을 떠올리는 회상이 함께 나타난다."],
+      "supports": ["2023 입실렌티 사용", "청춘 회상 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-youth-colleges-2025",
+      "songId": "korea-university-cheongchun-yechan",
+      "url": "https://www.youtube.com/watch?v=z3pH_DEgGIU",
+      "videoId": "z3pH_DEgGIU",
+      "title": "[2025 FESTA] 17개 단과대가 함께 부르는 청춘예찬 ㅣ KUTV 단과대 응원가 시리즈",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2025-05-23",
+      "descriptionSummary": "2025 FESTA를 맞아 17개 단과대 학생이 청춘예찬을 이어 부르는 교내방송 제작 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["각 단과대 참가자와 공동체 전체를 응원하는 반응이 중심이며 개인 이름은 수집하지 않았다."],
+      "supports": ["단과대 공동체 콘텐츠", "2025 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-youth-elise-2025",
+      "songId": "korea-university-cheongchun-yechan",
+      "url": "https://www.youtube.com/watch?v=2NMarORt_ug",
+      "videoId": "2NMarORt_ug",
+      "title": "[ELISE LIVE] 아! 아름다운 사랑, 낭만이 되어라! '청춘예찬' - 고려대학교 응원단 음악부 엘리제 라이브 #고려대응원가 #2025고연전 #고연전 [4k60p]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-09-24",
+      "descriptionSummary": "2025 고연전 둘째 날 약 2만 명 관중 앞에서 엘리제가 라이브로 연주한 청춘예찬을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡이 유독 뭉클하다는 반응과 현장 보컬의 힘·표현 방식에 대한 서로 다른 취향이 함께 나타난다."],
+      "supports": ["2025 고연전 사용", "엘리제 라이브"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-youth-kutv-2026",
+      "songId": "korea-university-cheongchun-yechan",
+      "url": "https://www.youtube.com/watch?v=QAxn7jamWFc",
+      "videoId": "QAxn7jamWFc",
+      "title": "[4K] 2026 고려대학교 합동응원전 | 청춘예찬 ✨",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2026-03-21",
+      "descriptionSummary": "KUTV가 2026 고려대 합동응원전의 청춘예찬 무대를 단독 4K 영상으로 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["졸업생이 현재 학생과 응원단을 자랑스럽게 여긴다는 짧은 반응이 확인된다."],
+      "supports": ["2026 합동응원 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-youth-10cm-2026",
+      "songId": "korea-university-cheongchun-yechan",
+      "url": "https://www.youtube.com/watch?v=yzi9Dd3ZhPI",
+      "videoId": "yzi9Dd3ZhPI",
+      "title": "10CM/십센치 - 고려대학교 응원가 청춘예찬 @ 입실렌티",
+      "channel": "10CM Official",
+      "publishedAt": "2026-05-23",
+      "descriptionSummary": "10CM 공식 채널이 2026-05-22 입실렌티에서 학생들과 함께 부른 청춘예찬 공연을 공개했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["가수가 학생들과 자연스럽게 하나가 되는 장면과 대학 경계를 넘어 전달되는 곡의 정서를 높게 평가한다."],
+      "supports": ["2026 입실렌티", "초청가수 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-youth-2026-ipselenti",
+      "songId": "korea-university-cheongchun-yechan",
+      "url": "https://www.youtube.com/watch?v=ORI0ZebruK8&t=12s",
+      "videoId": "ORI0ZebruK8",
+      "title": "[2026 고려대 입실렌티] 3부 응원 전반부_녹지운동장에서 청춘을 노래하다 '청춘예찬 + 백야 + 출사표 + 카운트다운 + 연세치킨 + 입실렌티 + 예예예'#고려대응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-07",
+      "descriptionSummary": "2026-05-22 입실렌티 3부 전반부의 첫 곡으로 청춘예찬이 00:12부터 시작하며 공식 촬영팀 참여가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["청춘을 노래하는 학생들의 모습에 감동하고 장차 같은 무대에서 부르고 싶다는 반응이 나타난다. 홍보성 링크는 제외했다."],
+      "supports": ["2026 입실렌티 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-baegya-debut-2023",
+      "songId": "korea-university-baegya",
+      "url": "https://www.youtube.com/watch?v=y7rNVPopjAA",
+      "videoId": "y7rNVPopjAA",
+      "title": "백야 (2023 대박 신곡) - 2023 고려대학교 신입생 응원OT / 고려대학교 응원단",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2023-03-12",
+      "descriptionSummary": "2023-03-10 신입생 응원 OT에서 처음 소개된 신곡이라고 적고, 초기 단계라 가사가 이후 수정될 수 있다고 안내한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["강한 신곡이라는 호평과 입학 목표를 적는 반응이 많고, 현장 보컬에 대한 호불호도 일부 보인다."],
+      "supports": ["백야 2023 신곡", "초기 가사 변동 가능성"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-baegya-colleges-2023",
+      "songId": "korea-university-baegya",
+      "url": "https://www.youtube.com/watch?v=L2ff-UqAXNo",
+      "videoId": "L2ff-UqAXNo",
+      "title": "[KUTV 2023 입실렌티] 고려대학교 18개 단과대학 학생들이 함께 부르는 '백야'",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2023-06-01",
+      "descriptionSummary": "곡이 나온 해 입실렌티를 맞아 18개 단과대 학생이 백야를 이어 부른 교내방송 제작 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["그해 신곡이었다는 사실을 새로 알았다는 반응과 여러 단과대 목소리를 잇는 구성에 대한 호평이 보인다."],
+      "supports": ["2023 신곡 인지", "단과대 공동체 콘텐츠"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-baegya-official-playlist-2023",
+      "songId": "korea-university-baegya",
+      "url": "https://www.youtube.com/watch?v=O3Q_sjGJUpE&t=628s",
+      "videoId": "O3Q_sjGJUpE",
+      "title": "[Playlist] [KUBS X 고려대학교 응원단 | 응원가 플레이리스트]",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2023-09-02",
+      "descriptionSummary": "KUBS와 고려대 응원단의 공식 응원가 플레이리스트로 백야는 10:28부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원가를 입시 동기와 학습용으로 반복해 듣는다는 반응이 중심이다."],
+      "supports": ["2023 공식 플레이리스트 수록"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-baegya-ipselenti-2023",
+      "songId": "korea-university-baegya",
+      "url": "https://www.youtube.com/watch?v=ZpXWQZ3Nm1I&t=14s",
+      "videoId": "ZpXWQZ3Nm1I",
+      "title": "[2023 입실렌티 응원 메인영상] 민족고대 최고의 응원곡 '백야 - 엘리제 - 들어라 보아라 그리고 기억하라 - FOREVER - 민족의 아리아 - 뱃노래 / 고려대 응원가",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2023-06-03",
+      "descriptionSummary": "2023 입실렌티 메인 응원의 첫 곡으로 백야가 00:14부터 등장하며 공식 촬영 협업 정보를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["2023 응원단과 곡의 학교 정체성을 높게 평가하고 현장을 그리워한다. 무관한 출처 논쟁 댓글은 제외했다."],
+      "supports": ["2023 입실렌티 사용", "대표 응원 배치"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-baegya-ot-2025",
+      "songId": "korea-university-baegya",
+      "url": "https://www.youtube.com/watch?v=TWV0Yw2ihcw",
+      "videoId": "TWV0Yw2ihcw",
+      "title": "'백야' 어둠 속에서 더 밝게 빛나는 고려대학교 응원가 I 2023 신곡 I - 2025 고연전 안암응원OT #고려대학교응원단 #응원OT [4k60p]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-09-04",
+      "descriptionSummary": "2025 안암 고연전 응원 OT 공연을 기록하며 제목에서 2023 신곡이라는 연도를 다시 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["붉은 열정과 현장 분위기를 칭찬하는 짧은 반응이며 추가 역사 정보는 없다."],
+      "supports": ["2023 도입 보조", "2025 OT 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-baegya-elise-2025",
+      "songId": "korea-university-baegya",
+      "url": "https://www.youtube.com/watch?v=Gl7KCi1WtT8",
+      "videoId": "Gl7KCi1WtT8",
+      "title": "[ELISE LIVE] 지금 이 곳에서 우리 함께 할거야 '백야' - 고려대학교 응원단 음악부 엘리제 라이브 #고려대응원가 #2025고연전 #고연전 #백야 [4k60p]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-09-25",
+      "descriptionSummary": "2025 고연전 둘째 날 약 2만 명 관중 앞에서 응원단 음악부 엘리제가 라이브로 연주한 백야를 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["엘리제 라이브", "2025 고연전 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-baegya-2026-ot",
+      "songId": "korea-university-baegya",
+      "url": "https://www.youtube.com/watch?v=rWih6E0c1Kw",
+      "videoId": "rWih6E0c1Kw",
+      "title": "[2026 고려대 응원OT] 별빛처럼 빛나는 그대들 '백야' (2023 응원곡) #고려대학교응원단 #고려대응원가 #응원OT #서울OT #신입생OT [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-04-28",
+      "descriptionSummary": "2026-03-17 신입생 응원 OT에서 백야를 공연한 영상이며 제목이 2023 응원곡임을 명시한다. 공식 촬영팀 참여가 표시된다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 신입생 OT 현행 사용", "2023 도입 보조"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-d-baegya-2026-ipselenti",
+      "songId": "korea-university-baegya",
+      "url": "https://www.youtube.com/watch?v=ORI0ZebruK8&t=188s",
+      "videoId": "ORI0ZebruK8",
+      "title": "[2026 고려대 입실렌티] 3부 응원 전반부_녹지운동장에서 청춘을 노래하다 '청춘예찬 + 백야 + 출사표 + 카운트다운 + 연세치킨 + 입실렌티 + 예예예'#고려대응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-07",
+      "descriptionSummary": "2026-05-22 입실렌티 3부 전반부에서 백야가 03:08부터 시작하며 공식 촬영팀 참여가 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학생들의 청춘과 현장 에너지에 감동하고 장차 같은 무대에서 부르고 싶다는 반응이 나타난다. 홍보성 링크는 제외했다."],
+      "supports": ["2026 입실렌티 현행 사용"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 38,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 22
+  }
+}

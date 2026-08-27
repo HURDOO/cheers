@@ -1,0 +1,1395 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-doosan-a",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-doosan-bears",
+    "name": "두산 베어스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 상업 음원 차용곡과 구단 제작 응원가는 원곡·크레딧·구조·사용 이력만 요약하고, 전문은 권리자 허락 또는 사용자 제공이 확인된 뒤 별도 처리한다. 공개 댓글은 작성자를 식별하지 않고 제작·현장 경험·반복 수용과 관련된 내용만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "doosan-bears-play-ball",
+      "title": "PLAY BALL(경기 시작 음악)",
+      "aliases": ["PLAY BALL", "경기 시작 음악", "플레이볼", "두산 플레이볼"],
+      "currentStatus": "current-core-official-pre-game-ritual-2026",
+      "summary": "Europe의 1986년 곡 ‘The Final Countdown’을 바탕으로 OB 베어스 시절인 1995년부터 써 온 경기 개시 음악이다. 잠실 홈에서는 장내 아나운서의 스타팅 라인업 소개가 끝난 뒤 야수들이 수비 위치로 뛰어나갈 때 전광판 영상과 함께 재생된다. 1995년판은 연주 중심이었고 구단명이 두산으로 바뀐 1999년 도입부에 팀명 음성이 추가된 것으로 기록된다. 2013년에는 원정용 리메이크가 만들어졌지만 홈에서는 OB 시절부터 이어진 구판을 유지해 홈·원정 음원이 갈라졌다. BEARS TV가 2018·2021·2023·2024·2025·2026 시즌판을 연속 공개하고 2026 공식 전체 목록 첫 곡으로 배치해 현행 핵심 의식곡임이 확실하다. 댓글에서는 이 음악을 듣기 위해 일찍 입장하고, 첫 전주만으로도 야구장에 온 실감과 전율을 느낀다는 반응이 반복된다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "Europe — The Final Countdown",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "ev-doosan-a-apple-final-countdown", "yt-doosan-a-playball-home-away-2020"],
+          "notes": "Apple Music은 Europe의 곡명·아티스트·1986년 발표를 확인한다. 두산판의 편집·리메이크 제작자는 별도 미확인이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "1995",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers"],
+          "notes": "현행 나무위키가 OB 시절 1995년부터 사용했다고 기록하고 1997년 실제 사용례를 연결하지만, 1995년 최초 경기 원본은 이번 배치에서 확보하지 못했다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "1999년 도입부에 ‘두산 베어스’ 음성 추가",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "yt-doosan-a-playball-home-away-2020"],
+          "notes": "구단명 변경 전에는 음악만 사용했다는 편집형 문서 기록이다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "2013년 원정 리메이크 제작; 홈은 기존판, 원정은 리메이크판 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "yt-doosan-a-playball-home-away-2020"],
+          "notes": "팬 비교 영상이 홈·원정 두 버전을 한 영상에 나란히 수록하지만 2013 제작 공지는 찾지 못했다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "홈 스타팅 라인업 소개 뒤 야수 수비 위치 입장; 원정에서는 시구 또는 애국가 뒤",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "yt-doosan-a-playball-official-2018", "yt-doosan-a-playball-official-2025", "yt-doosan-a-playball-official-2026"],
+          "notes": "시즌별 전광판 영상과 문서의 진행 순서가 일치한다. 원정 구장별 세부 순서는 달라질 수 있다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 전체 목록 00:00 및 2026 전광판 단독 영상 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-playball-compilation-2026", "yt-doosan-a-playball-official-2026"],
+          "notes": "구단 공식 채널의 같은 시즌 전체 목록과 전광판용 완성본이 교차한다."
+        }
+      ],
+      "usageContexts": [
+        "잠실 홈경기에서는 스타팅 라인업 소개 직후 야수들이 수비 위치로 뛰어나갈 때 전광판 영상과 함께 재생된다.",
+        "원정에서는 시구 또는 애국가가 끝난 뒤 원정용 리메이크가 경기 시작을 알리는 전환 음악으로 나온다.",
+        "관중에게는 응원 구호보다 박수와 입장 긴장을 끌어올리는 개막 의식에 가까우며, 일부 팬은 이를 보려고 일찍 착석한다.",
+        "전광판 영상은 매 시즌 선수·우승 장면을 바꾸지만 핵심 선율과 약 70초 안팎의 진행은 장기간 유지된다."
+      ],
+      "trivia": [
+        {
+          "id": "playball-home-away-split",
+          "summary": "2013년 이후에도 홈에서 새 리메이크를 쓰지 않고 OB 시절 계열의 기존판을 유지해, 같은 ‘PLAY BALL’에 홈판과 원정판이 공존한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "yt-doosan-a-playball-home-away-2020"]
+        },
+        {
+          "id": "playball-arrive-early",
+          "summary": "구단 영상 댓글에는 이 음악과 전광판을 보기 위해 잠실에 일찍 들어간다는 반응이 여러 시즌에 걸쳐 반복된다. 경기 시작 전 경험 자체가 팬 의식으로 굳어진 사례다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-playball-official-2021", "yt-doosan-a-playball-official-2023", "yt-doosan-a-playball-official-2024", "yt-doosan-a-playball-official-2025"]
+        },
+        {
+          "id": "playball-seasonal-screen-history",
+          "summary": "연도별 전광판판은 당해 선수와 과거 우승 장면을 새로 편집해, 댓글에서 팀을 떠난 선수·우승 서사를 확인하는 일종의 시즌 영상 연감으로 소비된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-playball-official-2018", "yt-doosan-a-playball-official-2021", "yt-doosan-a-playball-official-2023", "yt-doosan-a-playball-official-2024", "yt-doosan-a-playball-official-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation/edit of Europe's The Final Countdown; Doosan voiceover, arrangement, video, and reuse rights not confirmed",
+        "sourceUrls": [
+          "https://music.apple.com/de/song/190194643?l=en-GB",
+          "https://www.youtube.com/watch?v=jxpBDshbSS8",
+          "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "‘The Final Countdown’의 즉시 알아볼 수 있는 신시사이저·록 도입부를 경기 시작용 약 70초로 편집하고, 두산판은 앞부분에 길게 늘인 팀명 음성을 붙인다. 서술형 한국어 벌스는 없으며 음악의 상승·전환을 야수 입장과 전광판 장면에 맞춘다. 원정 리메이크는 같은 핵심 모티프를 다른 음색·강도로 재구성한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-a-playball-official-2018",
+        "yt-doosan-a-playball-home-away-2020",
+        "yt-doosan-a-playball-official-2021",
+        "yt-doosan-a-playball-official-2023",
+        "yt-doosan-a-playball-official-2024",
+        "yt-doosan-a-playball-official-2025",
+        "yt-doosan-a-playball-compilation-2026",
+        "yt-doosan-a-playball-official-2026"
+      ],
+      "unresolved": [
+        "1995년 최초 경기장 사용일과 당시 OB 구단 제작 기록",
+        "1999 팀명 음성 및 2013 원정 리메이크의 편곡·녹음·영상 제작 크레딧",
+        "원곡·편곡·구단 영상의 경기장 외 재배포 권리 범위",
+        "2026 각 원정 구장에서 시구 뒤와 애국가 뒤 중 어느 순서를 적용하는지"
+      ]
+    },
+    {
+      "id": "doosan-bears-lineup-song",
+      "title": "라인업 송",
+      "aliases": ["라인업송", "두산 라인업송", "10번 타자 라인업송"],
+      "currentStatus": "current-core-official-first-offense-ritual-2026",
+      "summary": "두산이 2020년 7월 10일 구단 공식 영상으로 처음 공개한 선발 명단 합창곡이다. 관중을 ‘10번 타자’로 호명한 뒤 그날의 1번부터 9번 타자와 선발투수를 차례로 외치고 다시 관중에게 돌아오는 구조가 핵심이다. 현행 나무위키는 두산이 KBO 10개 구단 가운데 마지막으로 라인업송을 도입했다고 설명하며, 댓글도 ‘우리도 드디어 생겼다’는 반응을 반복한다. 최초 공개 영상 댓글에서는 스탯브릿지의 이종현·김휘승이라고 밝힌 계정들이 공동 제작을 자칭하지만 별도 음원 크레딧이나 보도자료로 독립 확인되지 않아 보고 수준으로 둔다. 2023년까지는 앞선 곡 때문에 라인업송을 다 부르기 전에 첫 타석이 시작되는 문제가 있었고, 2024년부터 홈 인사 직후 바로 부르도록 순서를 앞당겼다는 기록이 있다. 2025 홈 개막전 현장과 2026 공식 전체 목록이 현행 사용을 확인한다.",
+      "claims": [
+        {
+          "field": "firstOfficialReveal",
+          "value": "2020-07-10 BEARS TV ‘2020 라인업송 ☆최초공개☆’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-lineup-official-reveal-2020", "ev-doosan-a-namu-cheers"],
+          "notes": "구단 공식 제목과 설명이 신규 라인업송·최초 공개를 직접 명시한다."
+        },
+        {
+          "field": "producerCredits",
+          "value": "스탯브릿지 이종현·김휘승 공동 제작 주장",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-doosan-a-lineup-official-reveal-2020", "yt-doosan-a-lineup-fan-release-2020"],
+          "notes": "공식 영상과 동시기 팬 영상의 공개 댓글에서 당사자라고 밝힌 계정이 남긴 주장이다. 계정 소유와 실제 작곡·편곡·프로듀싱 역할을 독립 자료로 확인하지 못했다."
+        },
+        {
+          "field": "leagueSequence",
+          "value": "KBO 10개 구단 중 마지막으로 라인업송을 도입한 것으로 알려짐",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "yt-doosan-a-lineup-official-reveal-2020"],
+          "notes": "리그 전체의 도입일을 독립 전수 검증하지 않아 문서 주장으로 제한한다. 동시기 댓글의 ‘우리만 없었다’는 기억이 보조한다."
+        },
+        {
+          "field": "lyricFormat",
+          "value": "관중을 10번 타자로 선언하고 1~9번 타자·선발투수를 호명한 뒤 다시 10번 타자 합창으로 마감",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-lineup-official-reveal-2020", "yt-doosan-a-lineup-crowd-2023", "yt-doosan-a-lineup-opening-2025"],
+          "notes": "선수 명단은 경기마다 바뀌고 고정 합창 부분은 유지된다."
+        },
+        {
+          "field": "sequenceChange",
+          "value": "2024년부터 홈 인사 직후 라인업송을 먼저 불러 첫 타석 전에 끝나도록 순서 개선",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "yt-doosan-a-lineup-crowd-2020", "yt-doosan-a-lineup-opening-2025"],
+          "notes": "2020 댓글과 문서는 과거 곡이 늦게 시작해 1번 타자의 타석과 겹쳤다는 불만을 전한다. 정확한 첫 변경 경기일은 미확인이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 홈 개막전 떼창 및 2026 공식 전체 목록 01:12 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-lineup-opening-2025", "yt-doosan-a-lineup-compilation-2026"],
+          "notes": "최근 현장 직접 표본과 구단 공식 시즌 목록이 교차한다."
+        }
+      ],
+      "usageContexts": [
+        "두산의 첫 공격 직전 응원단이 관중을 일으켜 그날 선발 타자 1~9번과 선발투수를 차례로 호명한다.",
+        "고정 합창은 관중을 ‘10번 타자’로 규정해 선수 명단과 팬 응원을 한 구조 안에 연결한다.",
+        "2024년부터 홈경기에서는 응원단 인사 직후 곧바로 시작해 실제 첫 타석과 노래가 겹치는 문제를 줄인 것으로 기록된다.",
+        "개막전·포스트시즌처럼 관중이 많은 경기에서는 선수 이름과 마지막 관중 구호의 육성 크기가 특히 강조된다."
+      ],
+      "trivia": [
+        {
+          "id": "lineup-pandemic-debut",
+          "summary": "2020년 첫 공개 설명은 하루빨리 잠실에서 팬과 함께 부르고 싶다고 적었다. 무관중·제한 관중 시기에 먼저 온라인으로 공개돼 댓글에 현장 합창을 기다린다는 반응이 대량으로 남았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-lineup-official-reveal-2020", "yt-doosan-a-lineup-lyrics-2020"]
+        },
+        {
+          "id": "lineup-tenth-batter-identity",
+          "summary": "팬들은 다른 팀 라인업송과 구별되는 핵심으로 ‘우리가 10번 타자’라는 발상을 반복해서 꼽는다. 선수 소개를 팬 정체성 선언으로 되돌리는 장치다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-lineup-official-reveal-2020", "yt-doosan-a-lineup-crowd-2020", "yt-doosan-a-lineup-opening-2025"]
+        },
+        {
+          "id": "lineup-roster-time-capsule",
+          "summary": "2020판 댓글에는 당시 이름 중 2026년에도 팀에 남은 선수가 매우 적다는 회고가 쌓였다. 매일 바뀌는 명단형 가사가 시즌 로스터의 음성 기록으로도 기능한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-lineup-official-reveal-2020", "yt-doosan-a-lineup-crowd-2020"]
+        },
+        {
+          "id": "lineup-comment-credit-caution",
+          "summary": "제작자라고 밝힌 댓글은 공식 채널 아래에 남아 있지만 구단 본문의 공식 크레딧은 아니다. 삭제·계정 변경 가능성이 있는 댓글을 단독 확정 근거로 쓰지 않는 사례로 분리했다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-doosan-a-lineup-official-reveal-2020", "yt-doosan-a-lineup-fan-release-2020"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original team lineup song; composition, lyric, arrangement, master, and redistribution rights not independently documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=FyJlmwb4tv8",
+          "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=72s",
+          "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "관중을 10번 타자로 깨우는 선창 뒤 함성·열정·마음을 모으자는 고정 합창을 두 차례 반복한다. 중앙부는 그날 1번부터 9번 타자와 선발투수를 짧게 호명하는 가변 명단이며, 끝에는 관중이 다시 10번 타자임을 선언하고 처음의 고정 합창을 재현한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-a-lineup-official-reveal-2020",
+        "yt-doosan-a-lineup-crowd-2020",
+        "yt-doosan-a-lineup-fan-release-2020",
+        "yt-doosan-a-lineup-lyrics-2020",
+        "yt-doosan-a-lineup-crowd-2023",
+        "yt-doosan-a-lineup-opening-2025",
+        "yt-doosan-a-lineup-compilation-2026"
+      ],
+      "unresolved": [
+        "스탯브릿지 이종현·김휘승의 실제 역할과 계정 소유를 확인할 독립 크레딧",
+        "작사·작곡·편곡·녹음·응원단 보컬의 완전한 제작 정보",
+        "온라인 최초 공개 뒤 관중과 함께 부른 정확한 첫 경기",
+        "KBO 10개 구단 중 마지막 도입이라는 주장에 대한 리그 전체 독립 검증",
+        "2024 진행 순서 변경의 공식 시행일과 원정경기 적용 여부"
+      ]
+    },
+    {
+      "id": "doosan-bears-rock-to-the-doosan",
+      "title": "ROCK TO THE DOOSAN",
+      "aliases": ["Rock to the Doosan", "Rock To The DOOSAN", "락투더두산", "락 투 더 두산"],
+      "currentStatus": "current-core-official-late-inning-flash-cheer-2026",
+      "summary": "닥터코어 911의 2008년 곡 ‘Rock to the Rhythm’을 같은 밴드가 두산용으로 어레인지해 2012년 만든 하드록·랩 응원가다. 2012년 6월 4일 팬 커뮤니티 글은 스튜디오 녹음, 구단 협의, 팬들이 만든 가사를 바탕으로 한 제작, 제목 공모까지 동시대에 기록하고 6월 18일 단독 업로드가 완성곡 유통을 보강한다. 경기 후반 두산이 앞설 때와 7회 공격 시작에 자주 쓰이며 2015 포스트시즌부터 휴대전화 플래시를 가리고 펼치는 안무가 대표 연출이 됐다. 문서는 2023년 플래시 없이 부르다가 2024년 다시 사용했다고 기록하고, 2026년 5월 현장 영상과 구단 공식 전체 목록이 현재 플래시 운용을 확인한다. 팬 선호 조사에서는 두산 팀 응원가 2위로 꼽혔으며, 다른 팀 팬도 현장 전주·록 사운드·군중 합창을 높게 평가한다.",
+      "claims": [
+        {
+          "field": "sourceSong",
+          "value": "닥터코어 911 — Rock to the Rhythm (2008-06-10)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-apple-rock-rhythm", "ev-doosan-a-namu-cheers", "ev-doosan-a-dc-rock-production"],
+          "notes": "Apple Music이 원곡 제목·아티스트·발표일을 제공하고, 나무위키와 동시대 제작 글이 두산판 어레인지 관계를 설명한다."
+        },
+        {
+          "field": "releaseYear",
+          "value": "2012",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-dc-rock-production", "ev-doosan-a-namu-cheers", "yt-doosan-a-rock-early-2012"],
+          "notes": "2012-06-04 제작 진행 글과 2012-06-18 완성곡 업로드가 같은 달에 이어진다."
+        },
+        {
+          "field": "artist",
+          "value": "닥터코어 911(Dr. Core 911)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-compilation", "ev-doosan-a-bugs-rock-track", "ev-doosan-a-dc-rock-production", "yt-doosan-a-rock-early-2012"],
+          "notes": "음원 카탈로그, 동시대 제작 글, 초기 영상 설명이 일치한다."
+        },
+        {
+          "field": "fanProduction",
+          "value": "두산 베어스 갤러리 팬들이 가사 초안을 만들고 제목을 공모한 참여형 제작",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-dc-rock-production", "yt-doosan-a-rock-early-2012"],
+          "notes": "2012년 글은 팬 가사를 기본으로 했고 완성 전 제목까지 팬에게 요청했다고 직접 적는다. 개별 작사자 명단은 미확정이다."
+        },
+        {
+          "field": "usageAndFlashHistory",
+          "value": "후반 리드 상황·7회 시작; 2015 포스트시즌 플래시, 2016 정규시즌 확대, 2023 미사용, 2024 재개",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "ev-doosan-a-dugout-favorites", "yt-doosan-a-rock-ks-flash-2015", "yt-doosan-a-rock-field-2026"],
+          "notes": "2015·2026 현장 영상은 플래시를 직접 보강하지만 연도별 전 경기 운영은 편집형 문서에 의존한다."
+        },
+        {
+          "field": "fanPreference",
+          "value": "2022 팬 선호 기사에서 두산 팀 응원가 2위·10%",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-dugout-favorites"],
+          "notes": "기사의 표본·투표 방법 전체는 공개 범위가 제한되므로 구단 전체 팬덤의 절대 비율로 일반화하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 전체 목록 03:07 및 2026-05-15 플래시 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-rock-compilation-2026", "yt-doosan-a-rock-field-2026"],
+          "notes": "영상은 5월 15일 촬영되고 6월 8일 게시됐다."
+        }
+      ],
+      "usageContexts": [
+        "경기 후반 두산이 앞서거나 승기를 잡았을 때 긴 록 합창으로 분위기를 끌어올린다.",
+        "2016년 이후 정규시즌 7회 공격 시작의 대표 플래시 응원으로 운용된 것으로 기록된다.",
+        "랩 구간에서는 휴대전화 빛을 박자에 맞춰 손으로 가렸다가 펼치며 네 음절 팀 구호를 맞춘다.",
+        "길게 늘이는 합창에서는 빛을 위아래·좌우로 움직여 관중석 전체의 시각 패턴을 만든다.",
+        "플래시 사용은 시즌과 응원단 운영에 따라 빠졌다가 돌아왔으므로 곡의 존속과 조명 안무의 존속을 구분해야 한다."
+      ],
+      "trivia": [
+        {
+          "id": "rock-fan-made-title-and-lyrics",
+          "summary": "2012년 제작자는 팬이 만든 가사를 바탕으로 스튜디오 녹음을 진행했고, 완성 직전까지 ‘Rock To The Doosan’과 ‘Doosan To The Rhythm’ 사이에서 제목도 팬에게 공모했다. 결과적으로 제작 과정 전체가 팬 참여 서사를 갖는다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-dc-rock-production"]
+        },
+        {
+          "id": "rock-catalog-date-anomaly",
+          "summary": "벅스의 2009년 두산 컴필레이션 페이지에 2012년 곡이 함께 노출된다. 이는 후대 수록·카탈로그 갱신으로 보이며 앨범 상단의 2009 발매일을 이 곡의 발표 연도로 사용하면 안 된다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-compilation", "ev-doosan-a-dc-rock-production", "yt-doosan-a-rock-early-2012"]
+        },
+        {
+          "id": "rock-cover-the-flash",
+          "summary": "플래시를 처음부터 켜 둔 채 흔드는 것이 아니라 랩 박자에 맞춰 손으로 가렸다가 드러내는 동작이 포인트이며, 응원단장이 이를 맞추라고 독려하는 장면 자체가 팬들 사이의 농담이 됐다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "ev-doosan-a-dugout-favorites", "yt-doosan-a-rock-ks-flash-2015"]
+        },
+        {
+          "id": "rock-metadata-false-positive",
+          "summary": "영상 tEdYuyjIzK0은 제목만 ‘Rock to the Doosan’이고 설명은 2024년 한화전 8회 ‘승리를 위하여’라고 적어 정확 표본에서 제외했다. 검색 결과의 제목만으로 곡을 판정하면 생기는 오염 사례다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-rock-mislabeled-video"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted fan-participatory stadium adaptation by Dr. Core 911 of its commercial song Rock to the Rhythm; lyric, arrangement, master, and redistribution rights not confirmed",
+        "sourceUrls": [
+          "https://music.apple.com/kr/song/1527695113",
+          "https://gall.dcinside.com/board/view/?id=hit&no=10960",
+          "https://music.bugs.co.kr/track/2685196",
+          "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=187s",
+          "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "빠른 랩형 절의 짧은 문장마다 관중이 팀명 네 음절을 한 글자씩 끼워 넣고, 마지막 완성 구호 뒤 길게 늘이는 ‘워’ 합창과 승리 후렴으로 넘어간다. 짧은 두 번째 랩 뒤 후렴을 여러 차례 반복해 7회 교대 시간을 채우며, 플래시를 가림·점멸·상하·좌우 움직임으로 구간별 시각화한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-a-rock-early-2012",
+        "yt-doosan-a-rock-field-2015",
+        "yt-doosan-a-rock-ks-flash-2015",
+        "yt-doosan-a-rock-audio-2016",
+        "yt-doosan-a-rock-audio-2019",
+        "yt-doosan-a-rock-mv-2021",
+        "yt-doosan-a-rock-field-2025",
+        "yt-doosan-a-rock-compilation-2026",
+        "yt-doosan-a-rock-field-2026"
+      ],
+      "unresolved": [
+        "팬 가사에 참여한 개별 작성자와 최종 작사·편곡·프로듀싱 크레딧",
+        "2012년 구단과의 협의 내용, 공식 첫 공개일 및 최초 경기장 사용일",
+        "2026 홈·원정의 고정 이닝·리드 조건과 플래시 안무 운영 규칙",
+        "TJ미디어 수록 번호와 현재 서비스 상태의 공식 카탈로그 교차 확인"
+      ]
+    },
+    {
+      "id": "doosan-bears-lets-go-doosan",
+      "title": "가자! 두산베어스",
+      "aliases": ["가자 두산베어스", "가자 두산 베어스", "가자!두산베어스!"],
+      "currentStatus": "current-official-choreography-song-2026",
+      "summary": "가수 박상민이 부른 두산 자체 응원가로, 벅스의 2009년 4월 15일 두산 응원가 정규 컴필레이션과 개별 트랙에 수록돼 있다. 현재 확보한 음원 카탈로그의 가장 이른 확정 시점은 2009년이며, ‘2010 ver.’라고 제목을 붙인 후대 업로드는 버전 존재를 시사하지만 원본 제작일을 독립적으로 입증하지 않는다. 2016 단독 음원, 2018 MBC Sports+ 치어리더 연습실 영상, 2023·2024 현장 안무를 거쳐 BEARS TV의 2025 안무 완전정복과 2026 공식 전체 목록에 연속 수록됐다. 현행 나무위키 응원가 본문에는 별도 항목이 보이지 않지만 구단 공식 자료가 현재 사용을 직접 확인하므로 문서 누락을 폐지 근거로 쓰지 않는다. 고정 이닝은 확인되지 않았으며 짧은 치어리더 공연·이닝 교대 팀 응원으로 관찰된다.",
+      "claims": [
+        {
+          "field": "recordedVocal",
+          "value": "박상민",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-compilation", "ev-doosan-a-bugs-go-track"],
+          "notes": "벅스 앨범과 개별 트랙이 가수를 일치해 표시한다. 작사·작곡 크레딧은 현재 페이지에서 확인되지 않았다."
+        },
+        {
+          "field": "earliestCatalogRelease",
+          "value": "2009-04-15 두산 응원가 정규 컴필레이션 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-compilation", "ev-doosan-a-bugs-go-track"],
+          "notes": "이는 현재 확인 가능한 가장 이른 음원 카탈로그 날짜이며 최초 경기장 사용일을 뜻하지 않는다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "‘2010 ver.’로 유통되는 버전 존재",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["yt-doosan-a-go-2010-version"],
+          "notes": "영상은 2025년에 업로드됐고 설명에 당시 원본 출처·제작 크레딧이 없어 2010 제작을 확정하지 않는다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "치어리더 안무를 동반한 이닝 교대·공연형 팀 응원가; 정확한 고정 이닝 미확인",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-doosan-a-go-mbc-choreography-2018", "yt-doosan-a-go-field-2023", "yt-doosan-a-go-field-2024", "yt-doosan-a-go-official-choreography-2025"],
+          "notes": "연습실·현장·공식 안무 영상이 공연형 사용을 일관되게 보여 주지만 이닝 표시는 제공하지 않는다."
+        },
+        {
+          "field": "officialTitle",
+          "value": "2026 공식 표기 ‘가자! 두산베어스’; 2025 공식 표기에는 느낌표 없는 ‘가자 두산베어스’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-go-official-choreography-2025", "yt-doosan-a-go-compilation-2026"],
+          "notes": "동일 곡의 문장부호·띄어쓰기 변형이며 인벤토리와 최신 공식 표기를 기본 제목으로 둔다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 안무 영상 09:33 및 2026 공식 전체 목록 05:11 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-go-official-choreography-2025", "yt-doosan-a-go-compilation-2026"],
+          "notes": "구단 공식 채널이 두 시즌 연속 제목과 안무를 직접 제공한다."
+        }
+      ],
+      "usageContexts": [
+        "약 70~90초 길이로 치어리더가 완결된 안무를 보여 주는 공수교대·공연형 팀 응원가다.",
+        "선창형 긴 벌스보다 관중이 팀명과 승리 구호를 반복해 받을 수 있는 후렴 중심으로 운용된다.",
+        "2018 연습실 안무, 2023·2024 현장 직캠, 2025·2026 구단 공식 영상이 같은 공연 계열의 지속을 보여 준다.",
+        "공식 영상은 현행성을 확정하지만 특정 이닝·득점 조건은 적지 않아 임의의 고정 시점으로 일반화하지 않는다."
+      ],
+      "trivia": [
+        {
+          "id": "go-namu-omission",
+          "summary": "2026 구단 공식 목록에는 분명히 수록되지만 확인한 현행 나무위키 본문 목차에는 별도 항목이 없다. 편집형 목록의 누락보다 구단 공식 시즌 자료를 우선해야 하는 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "yt-doosan-a-go-compilation-2026"]
+        },
+        {
+          "id": "go-rights-restriction",
+          "summary": "벅스는 개별 트랙에 권리사 요청으로 재생·다운로드할 수 없다고 표시한다. 카탈로그 메타데이터 확인과 실제 음원 이용 권한은 별개다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-go-track"]
+        },
+        {
+          "id": "go-long-running-choreography",
+          "summary": "2018 방송사 연습실 영상부터 2025 구단 공식 안무 영상까지 치어리더 공연 자료가 이어져, 팬 댓글이 적은 영상도 실제 안무 계보를 확인하는 데 유용하다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-go-mbc-choreography-2018", "yt-doosan-a-go-field-2023", "yt-doosan-a-go-field-2024", "yt-doosan-a-go-official-choreography-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original team song performed by Park Sang-min; Bugs marks streaming/download unavailable at rights-holder request; lyric and master redistribution rights not granted",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/1727535",
+          "https://www.youtube.com/watch?v=A78K-zYjpjs",
+          "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=311s"
+        ],
+        "structureSummary": "팀의 승리를 보고 싶다는 믿음과 위기에도 물러서지 않는 지지를 짧은 벌스로 제시한 뒤, 팀명을 빠르게 여러 번 반복하는 승리 후렴으로 전환한다. 두 번째 절은 팬이 팀 뒤에 있음을 강조하고 같은 후렴을 더 길게 반복해 안무의 클라이맥스를 만든다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-a-go-audio-2016",
+        "yt-doosan-a-go-mbc-choreography-2018",
+        "yt-doosan-a-go-field-2023",
+        "yt-doosan-a-go-field-2024",
+        "yt-doosan-a-go-2010-version",
+        "yt-doosan-a-go-official-choreography-2025",
+        "yt-doosan-a-go-compilation-2026",
+        "yt-doosan-a-go-fan-compilation-2026"
+      ],
+      "unresolved": [
+        "2009 카탈로그 수록 이전의 최초 제작·경기장 사용일",
+        "작사·작곡·편곡·녹음 제작진과 박상민판의 정확한 녹음 연도",
+        "‘2010 ver.’의 원본 출처와 버전 간 편곡 차이",
+        "2026 홈·원정의 고정 사용 이닝·상황 및 실제 빈도"
+      ]
+    },
+    {
+      "id": "doosan-bears-all-together-hustle-doo",
+      "title": "다 함께 허슬두",
+      "aliases": ["다함께 허슬두", "다함께 허슬 두", "다 함께 허슬 두"],
+      "currentStatus": "current-official-inning-break-choreography-song-2026",
+      "summary": "두산이 2006시즌을 앞두고 공개한 신곡 다섯 곡 가운데 개막전 인터넷 팬 투표 1위를 차지한 구단 창작 응원가다. 벅스 앨범 소개는 JUHOON의 곡이며 나비효과의 김바다가 보컬, 최기호가 기타를 담당했다고 구체적으로 기록하고 2006년 4월 10일 발매일을 제공한다. 강한 록 편곡과 간단한 박수·팀명 구호, 응원단과 관중이 주고받는 ‘허슬두’ 응답이 결합돼 누구나 빠르게 따라 할 수 있도록 설계됐다. 나무위키는 이닝 교대 때 종종 재생된다고 설명하고, 2014·2016·2023 현장·음원 표본과 구단의 2025 안무 영상, 2026 공식 전체 목록이 장기 사용을 확인한다. 2007~2009 회고 목록과 댓글에서는 반달 유니폼 시대의 ‘근본 허슬두’ 기억을 불러오는 곡으로 소비된다.",
+      "claims": [
+        {
+          "field": "introductionAndRelease",
+          "value": "2006시즌 신규 공개; 2006-04-10 음원 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-hustle", "ev-doosan-a-namu-cheers"],
+          "notes": "벅스의 당시 프로젝트 설명과 발매일, 현행 문서의 사용 연도가 일치한다. 정확한 첫 경기일은 별도 미확인이다."
+        },
+        {
+          "field": "fanVote",
+          "value": "2006년 신규 응원가 5곡 중 개막전 인터넷 팬 투표 1위",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-hustle"],
+          "notes": "음원 유통사의 앨범 소개가 압도적 지지율의 1위라고 밝히지만 정확한 득표 수·비율은 제공하지 않는다."
+        },
+        {
+          "field": "composition",
+          "value": "JUHOON 작곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-hustle"],
+          "notes": "벅스 앨범 소개가 ‘JUHOON의 곡’이라고 직접 설명한다. 영문 표기를 그대로 보존한다."
+        },
+        {
+          "field": "performanceCredits",
+          "value": "나비효과 김바다 보컬, 최기호 기타",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-hustle"],
+          "notes": "벅스의 상세 소개를 우선한다. 나무위키의 ‘래퍼 김바다’ 표기는 역할·장르 설명이 부정확해 그대로 채택하지 않는다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "이닝 교대 때 종종 재생되는 완결형 안무·합창곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-namu-cheers", "yt-doosan-a-hustle-field-2014", "yt-doosan-a-hustle-field-2023-a", "yt-doosan-a-hustle-official-choreography-2025"],
+          "notes": "고정 특정 이닝보다 공수교대 공연곡으로 확인된다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 안무 영상 12:45 및 2026 공식 전체 목록 06:40 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-hustle-official-choreography-2025", "yt-doosan-a-hustle-compilation-2026"],
+          "notes": "구단 공식 채널이 두 시즌 연속 곡과 안무를 제공한다."
+        },
+        {
+          "field": "officialTitleSpacing",
+          "value": "2026 공식 표기 ‘다 함께 허슬두’; 나무위키·일부 음원은 ‘다함께 허슬두/다함께 허슬 두’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-hustle", "ev-doosan-a-namu-cheers", "yt-doosan-a-hustle-compilation-2026"],
+          "notes": "동일 곡의 띄어쓰기 변형이며 인벤토리와 최신 구단 표기를 기본 제목으로 둔다."
+        }
+      ],
+      "usageContexts": [
+        "공수교대 시간에 치어리더의 완결형 록 안무와 관중 합창으로 경기 흐름을 이어 간다.",
+        "도입과 마무리의 규칙적인 박수·팀명 구호는 처음 듣는 관중도 즉시 참여할 수 있게 한다.",
+        "본문에서는 응원단의 긴 문장 뒤 관중이 짧은 ‘허슬두’ 구호로 응답하는 콜앤드리스폰스가 중심이다.",
+        "2006 발매 이후 2010년대·2020년대 현장과 2025·2026 공식 자료가 이어져 장수 공연곡으로 남아 있다."
+      ],
+      "trivia": [
+        {
+          "id": "hustle-fan-vote-winner",
+          "summary": "구단이 한 곡만 내놓은 것이 아니라 2006년 신규 응원가 다섯 곡을 공개한 뒤 팬 투표를 거쳤고, 이 곡이 1위를 차지했다. 단순 구단 하향식 제작과 다른 선발 과정이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-hustle"]
+        },
+        {
+          "id": "hustle-credit-correction",
+          "summary": "현행 나무위키는 김바다를 ‘래퍼’로 적지만 벅스 상세 소개는 록 그룹 나비효과의 김바다가 보컬, 최기호가 기타를 담당했다고 구체화한다. 역할 표기는 음원 소개를 우선했다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-hustle", "ev-doosan-a-namu-cheers"]
+        },
+        {
+          "id": "hustle-retro-memory",
+          "summary": "2007~2009 회고 목록 댓글은 반달 유니폼과 당시 선수·응원가를 함께 그리워하며 이 시기를 ‘근본 허슬두’로 부른다. 곡이 2000년대 두산 팬의 유년·입문 기억과 연결된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-a-hustle-retro-2007-2009"]
+        },
+        {
+          "id": "hustle-easy-follow-design",
+          "summary": "앨범 소개는 한 번 들으면 누구나 따라 할 수 있는 멜로디와 야구장에 맞는 리듬을 제작 의도로 내세웠고, 실제 곡도 반복 박수와 두 개의 짧은 응답 구호를 중심으로 구성된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-a-bugs-hustle", "yt-doosan-a-hustle-audio-2016"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original team song composed by JUHOON and performed by members of Butterfly Effect; lyricist, master ownership, and redistribution permission not fully documented",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/album/8017519",
+          "https://www.youtube.com/watch?v=24v6P_paiSQ&t=765s",
+          "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=400s",
+          "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "규칙적인 박수 뒤 팀명을 붙이는 짧은 도입을 네 차례 반복하고, 팀의 승리·불굴을 선언하는 록 보컬 문장과 관중의 두 번짜리 ‘허슬두’ 응답을 묶는다. 같은 본문을 한 번 더 재현한 뒤 도입 박수·팀명 패턴으로 닫아 이닝 교대 안무가 명확한 대칭 구조를 이룬다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-a-hustle-field-2014",
+        "yt-doosan-a-hustle-audio-2016",
+        "yt-doosan-a-hustle-field-2023-a",
+        "yt-doosan-a-hustle-field-2023-b",
+        "yt-doosan-a-hustle-official-choreography-2025",
+        "yt-doosan-a-hustle-retro-2007-2009",
+        "yt-doosan-a-hustle-compilation-2026",
+        "yt-doosan-a-hustle-fan-compilation-2026"
+      ],
+      "unresolved": [
+        "2006 개막전 팬 투표의 후보 5곡 전체·투표 기간·득표 수와 공식 결과 공지",
+        "작사가·편곡자·프로듀서·녹음 스튜디오와 음원 마스터 소유자",
+        "정확한 최초 경기장 사용일과 초창기 안무 버전",
+        "2026 홈·원정의 고정 사용 이닝과 실제 선곡 빈도"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-doosan-a-namu-cheers",
+      "type": "community-reference",
+      "url": "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "두산 베어스/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "현행 문서에서 경기 시작 음악의 1995 도입·1999 음성·2013 홈/원정 분화와 진행 시점, 라인업송의 2020 도입·10번 타자·2024 순서 변경, Rock to the Doosan의 2012 닥터코어 원곡 어레인지·팬 가사·후반/7회 플래시 역사, 다함께 허슬두의 2006·이닝 교대 사용을 대조했다. ‘가자! 두산베어스’는 현행 목차에 별도 항목이 없어 구단 공식 영상과 벅스 음원으로 보완했다. 전체 가사는 옮기지 않았다.",
+      "supports": ["playball.historyVersionsAndUse", "lineup.historyAndSequence", "rock.originAndFlashHistory", "go.namuOmission", "hustle.yearAndUse"]
+    },
+    {
+      "id": "ev-doosan-a-apple-final-countdown",
+      "type": "music-metadata",
+      "url": "https://music.apple.com/de/song/190194643?l=en-GB",
+      "title": "The Final Countdown — Europe",
+      "publisher": "Apple Music",
+      "publishedAt": "1986-01-01",
+      "accessedAt": "2026-08-08",
+      "summary": "Europe의 ‘The Final Countdown’을 1986년 하드록 음원으로 제공하며 5분 8초 길이와 곡·아티스트 메타데이터를 확인한다. 두산판은 이 곡을 경기 시작용으로 편집·리메이크한 별도 경기장 음원이다.",
+      "supports": ["playball.originalTitle", "playball.originalArtist", "playball.originalRelease"]
+    },
+    {
+      "id": "ev-doosan-a-apple-rock-rhythm",
+      "type": "music-metadata",
+      "url": "https://music.apple.com/kr/song/1527695113",
+      "title": "Rock to the Rhythm — 닥터코어 911",
+      "publisher": "Apple Music",
+      "publishedAt": "2008-06-10",
+      "accessedAt": "2026-08-08",
+      "summary": "닥터코어 911의 ‘Rock to the Rhythm’을 2008년 6월 10일 발표된 3분 34초 록 음원으로 확인해 두산판 어레인지의 선행 원곡을 식별한다.",
+      "supports": ["rock.sourceTitle", "rock.sourceArtist", "rock.sourceRelease"]
+    },
+    {
+      "id": "ev-doosan-a-bugs-compilation",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/album/182042",
+      "title": "프로야구 응원가 - 두산 베어스 (Doosan Bears)",
+      "publisher": "벅스",
+      "publishedAt": "2009-04-15",
+      "accessedAt": "2026-08-08",
+      "summary": "2009년 4월 15일 발매된 16곡 두산 응원가 컴필레이션으로 ‘가자 두산베어스’를 박상민, ‘Rock To The DOOSAN’을 닥터코어 911로 표시한다. Rock 곡은 2012년 제작됐으므로 현재 페이지 수록 상태가 후대에 갱신된 것으로 보이며 앨범 상단 날짜를 개별 Rock 곡의 발매일로 사용하지 않았다.",
+      "supports": ["go.catalogReleaseAndVocal", "rock.artist", "rock.catalogDateConflict"]
+    },
+    {
+      "id": "ev-doosan-a-bugs-go-track",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/track/1727535",
+      "title": "가자 두산베어스 — 박상민",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "곡명, 박상민 보컬, 두산 응원가 앨범, 1분 40초 길이를 제공한다. 권리사 요청으로 재생·다운로드할 수 없다고 표시하며, 제공되는 사용자 등록 가사 전문은 연구 파일에 옮기지 않았다.",
+      "supports": ["go.title", "go.vocal", "go.rightsRestriction", "go.structure"]
+    },
+    {
+      "id": "ev-doosan-a-bugs-rock-track",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/track/2685196",
+      "title": "Rock To The DOOSAN (락 투 더 두산) — 닥터코어 911",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "Rock To The DOOSAN의 곡명, 닥터코어 911 아티스트, 2분 9초 길이를 제공한다. 가사 전문은 준비되지 않은 상태이며 개별 발매일은 명시하지 않는다.",
+      "supports": ["rock.officialCatalogTitle", "rock.artist", "rock.duration"]
+    },
+    {
+      "id": "ev-doosan-a-bugs-hustle",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/album/8017519",
+      "title": "다함께 허슬 두 (두산 베어스 응원가) — 나비효과",
+      "publisher": "벅스",
+      "publishedAt": "2006-04-10",
+      "accessedAt": "2026-08-08",
+      "summary": "2006시즌 신규 응원가 5곡 가운데 개막전 인터넷 팬 투표 1위를 차지했다고 설명한다. JUHOON의 곡이며 록 편곡에 맞춰 나비효과의 김바다가 보컬, 최기호가 기타를 담당했다는 제작 정보를 제공하고 발매일을 2006년 4월 10일로 표시한다.",
+      "supports": ["hustle.release", "hustle.fanVote", "hustle.composition", "hustle.vocalAndGuitar", "hustle.designIntent"]
+    },
+    {
+      "id": "ev-doosan-a-dc-rock-production",
+      "type": "contemporary-fan-production-record",
+      "url": "https://gall.dcinside.com/board/view/?id=hit&no=10960",
+      "title": "돡터코어911의 응원가가 드디어 세상에 나왔습니다!!",
+      "publisher": "DCInside HIT 갤러리",
+      "publishedAt": "2012-06-04",
+      "accessedAt": "2026-08-08",
+      "summary": "스튜디오 녹음 진행, 구단과의 협의 예정, 팬들이 만든 가사를 기본으로 한 제작, 완성 전 제목 공모를 당시에 기록한다. ‘Rock To The Doosan’과 ‘Doosan To The Rhythm’을 후보로 제시하며 처음부터 끝까지 팬 아이디어로 만든 노래라고 설명한다. 원문 가사·음원은 복제하지 않았다.",
+      "supports": ["rock.contemporaryProduction", "rock.fanLyrics", "rock.titleContest", "rock.2012Chronology"]
+    },
+    {
+      "id": "ev-doosan-a-dugout-favorites",
+      "type": "media",
+      "url": "https://v.daum.net/v/ba7qVBzc11?f=p",
+      "title": "[DUGOUT Live] 팬이 뽑은 최애 응원가 10탄 – 두산 베어스 편",
+      "publisher": "대단한미디어 DUGOUT",
+      "publishedAt": "2022-12-27",
+      "accessedAt": "2026-08-08",
+      "summary": "Rock to the Doosan을 팬 선호 2위·10%로 소개하고 닥터코어 911 가창, 경기 중반 이후 플래시 응원, 랩 구간의 가림·점멸과 후렴의 상하·좌우 움직임을 현장 취재 형식으로 설명한다.",
+      "supports": ["rock.fanPreference", "rock.flashChoreography", "rock.lateGameUse"]
+    },
+    {
+      "id": "ev-doosan-a-rock-mislabeled-video",
+      "type": "source-quality-note",
+      "url": "https://www.youtube.com/watch?v=tEdYuyjIzK0",
+      "title": "두산베어스 | Rock to the doosan 떼창 (이어폰필수🎧) 🐻💙",
+      "publisher": "YouTube / 밍스바리",
+      "publishedAt": "2025-04-10",
+      "accessedAt": "2026-08-08",
+      "summary": "제목은 Rock to the Doosan이라 적지만 설명은 2024년 4월 10일 한화전 ‘8회말 #승리를위하여’라고 명시한다. 실제 곡 식별이 충돌하므로 정확 YouTube 표본과 사용 이력 근거에서 제외했다.",
+      "supports": ["rock.sampleExclusion", "research.metadataConflict"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-doosan-a-playball-official-2018",
+      "songId": "doosan-bears-play-ball",
+      "url": "https://www.youtube.com/watch?v=nP1NYgjPpR4",
+      "videoId": "nP1NYgjPpR4",
+      "title": "[두산베어스 전광판 영상] 2018! PLAYBALL! (06.16)",
+      "channel": "BEARS TV",
+      "publishedAt": "2018-06-15",
+      "descriptionSummary": "구단 공식 전광판 영상으로 당시 10연승 도전과 팀 최다 연승 기록을 소개하며 2018 PLAY BALL 완성본을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 전주만 들어도 직관의 긴장과 기대가 살아나고 영상 편집과 역대 우승 장면이 인상적이라고 반응한다.",
+        "PLAY BALL을 두산 오프닝의 상징으로 꼽고 제작진에게 장기 제작을 바라는 반응도 반복된다."
+      ],
+      "supports": ["official-2018-use", "scoreboard-video", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-playball-home-away-2020",
+      "songId": "doosan-bears-play-ball",
+      "url": "https://www.youtube.com/watch?v=ytKTgQ84f_g",
+      "videoId": "ytKTgQ84f_g",
+      "title": "두산 베어스 플레이볼 (홈,원정) 응원가 [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2020-01-15",
+      "descriptionSummary": "2019 통합우승과 V6를 기념하며 홈 PLAY BALL과 원정 PLAY BALL을 한 영상에 순서대로 비교한 팬 제작 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 홈·원정 중 선호 버전을 비교하고 원정판이 더 강렬하거나 홈판이 더 친숙하다는 반응을 나눠 보인다.",
+        "잠실 입장 순간의 설렘과 선수 응원가보다 PLAY BALL을 더 좋아한다는 반응도 있다."
+      ],
+      "supports": ["home-away-version-comparison", "2019-era-circulation", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-playball-official-2021",
+      "songId": "doosan-bears-play-ball",
+      "url": "https://www.youtube.com/watch?v=PZl90ClrM-M",
+      "videoId": "PZl90ClrM-M",
+      "title": "2021 두산베어스 PLAY BALL!!! [두산베어스 전광판 영상]",
+      "channel": "BEARS TV",
+      "publishedAt": "2021-04-09",
+      "descriptionSummary": "별도 설명 없이 제목으로 시즌과 전광판 PLAY BALL 영상을 명시한 구단 공식 2021판이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "관중석에 앉아 북소리에 박수 치는 순간과 야구장에서 느끼는 전율을 떠올린다는 반응이 매우 많다.",
+        "역대 우승 장면을 다시 넣은 편집을 반기고 타 팀 팬도 두산 오프닝 영상의 품질을 칭찬한다."
+      ],
+      "supports": ["official-2021-use", "scoreboard-video", "championship-montage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-playball-official-2023",
+      "songId": "doosan-bears-play-ball",
+      "url": "https://www.youtube.com/watch?v=IeyOr91IuyA",
+      "videoId": "IeyOr91IuyA",
+      "title": "2023 두산베어스 PLAY BALL!!! [두산베어스 전광판 영상]",
+      "channel": "BEARS TV",
+      "publishedAt": "2023-03-31",
+      "descriptionSummary": "별도 설명 없이 제목으로 2023 시즌 전광판용 PLAY BALL 완성본임을 밝힌 구단 공식 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "잠실에서 보면 특히 웅장하고 개막이 실감 나며, 이 영상을 보려고 일찍 입장한다는 반응이 반복된다.",
+        "선수들의 부상 없는 시즌과 우승을 기원하면서 연도별 영상에 과거 우승 장면을 계속 넣어 달라는 요청도 있다."
+      ],
+      "supports": ["official-2023-use", "pre-game-ritual", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-playball-official-2024",
+      "songId": "doosan-bears-play-ball",
+      "url": "https://www.youtube.com/watch?v=KPsbW-myGFM",
+      "videoId": "KPsbW-myGFM",
+      "title": "2024 두산베어스 PLAY BALL!!!",
+      "channel": "BEARS TV",
+      "publishedAt": "2024-03-28",
+      "descriptionSummary": "구단 공식 2024 전광판 PLAY BALL 영상이며 본문 설명은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 PLAY BALL 영상과 음악을 보려고 야구장에 일찍 간다고 말하고, 시작 전 전율은 팬심과 무관하게 강하다고 평가한다.",
+        "잠실 특유의 음악과 선수 장면 편집, 새 시즌 현장 응원에 대한 기대가 중심이다."
+      ],
+      "supports": ["official-2024-use", "arrive-early-ritual", "scoreboard-edit"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-playball-official-2025",
+      "songId": "doosan-bears-play-ball",
+      "url": "https://www.youtube.com/watch?v=gs9wCs3lCRQ",
+      "videoId": "gs9wCs3lCRQ",
+      "title": "2025 두산베어스 PLAY BALL!!! [두산베어스 전광판 영상]",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-28",
+      "descriptionSummary": "두산·2025시즌·PLAY BALL·프로야구 태그를 붙인 구단 공식 전광판 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡의 전율과 웅장한 선수 등장 연출, 경기 시작으로 자연스럽게 넘어가는 구성이 좋다는 반응이 많다.",
+        "원곡 분위기를 유지한 점과 이 음악을 들으려고 서둘러 입장한다는 반응, 다음 시즌판 요청이 확인된다."
+      ],
+      "supports": ["official-2025-use", "pre-game-transition", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-playball-compilation-2026",
+      "songId": "doosan-bears-play-ball",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 전체 응원가 목록이 첫 장 00:00에 PLAY BALL을 배치하고 팀 응원가 23곡과 선수 응원가를 이어 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "PLAY BALL만 들으면 가슴이 뛰고 새 시즌과 마지막 잠실 시즌이 실감 난다는 반응이 있다.",
+        "처음 야구장을 찾은 관중이 응원 장면에 감격해 목록으로 곡을 외우겠다는 반응과 전통곡을 더 자주 틀어 달라는 요청이 이어진다."
+      ],
+      "supports": ["official-current-2026", "official-first-chapter", "fan-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-playball-official-2026",
+      "songId": "doosan-bears-play-ball",
+      "url": "https://www.youtube.com/watch?v=jxpBDshbSS8",
+      "videoId": "jxpBDshbSS8",
+      "title": "2026 두산베어스 PLAY BALL!!! [2026 전광판 영상]",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-04-03",
+      "descriptionSummary": "두산·2026시즌·플레이볼 태그를 붙인 70초 구단 공식 전광판 완성본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시즌 초 팀 경기력에 관한 비판성 댓글이 다수를 차지해 곡의 역사 근거로 사용하지 않았다.",
+        "그와 별개로 새 시즌의 기적 같은 반등과 우승을 기대하거나 두산을 응원한다는 반응이 확인된다."
+      ],
+      "supports": ["official-current-2026", "scoreboard-video", "season-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-lineup-official-reveal-2020",
+      "songId": "doosan-bears-lineup-song",
+      "url": "https://www.youtube.com/watch?v=FyJlmwb4tv8",
+      "videoId": "FyJlmwb4tv8",
+      "title": "2020 라인업송 ☆최초공개☆",
+      "channel": "BEARS TV",
+      "publishedAt": "2020-07-10",
+      "descriptionSummary": "구단이 2020시즌 신규 라인업송을 최초 공개하며 팬과 잠실에서 함께 부를 날을 기다린다고 적은 공식 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "스탯브릿지의 이종현·김휘승이라고 밝힌 계정이 곡을 만든 프로듀서 팀이라고 자칭하며 공개 소감을 남겼다.",
+        "팬들은 두산에도 드디어 라인업송이 생겼다는 점, 10번 타자 구절과 웅장함을 특히 반기며 현장 합창을 기다린다."
+      ],
+      "supports": ["official-first-reveal-2020", "reported-producer-self-identification", "tenth-batter-format", "pandemic-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-lineup-crowd-2020",
+      "songId": "doosan-bears-lineup-song",
+      "url": "https://www.youtube.com/watch?v=WVeqUV4Cp2Q",
+      "videoId": "WVeqUV4Cp2Q",
+      "title": "두산베어스 10번 타자들의 라인업송",
+      "channel": "Baseball The Korea",
+      "publishedAt": "2020-07-19",
+      "descriptionSummary": "‘두산라인업송’ 태그를 붙인 2020년 초기 팬 배포 영상으로 관중을 10번 타자로 부르는 제목을 강조한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "10번 타자라는 관중 호명이 멋지고 응원단장의 힘 있는 목소리가 곡을 살린다는 반응이 있다.",
+        "곡 시작이 늦어 끝나기 전에 1번 타자의 결과가 나오는 운영 문제를 지적하며 더 일찍 틀어 달라는 반응도 확인된다."
+      ],
+      "supports": ["2020-online-circulation", "tenth-batter-reception", "old-sequence-problem"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-lineup-fan-release-2020",
+      "songId": "doosan-bears-lineup-song",
+      "url": "https://www.youtube.com/watch?v=wVP4iQYoj4U",
+      "videoId": "wVP4iQYoj4U",
+      "title": "2020년 두산베어스 응원가 신규 라인업송",
+      "channel": "한재곰TV",
+      "publishedAt": "2020-07-10",
+      "descriptionSummary": "공식 최초 공개와 같은 날 올라온 초기 팬 영상으로 제작에 공을 들였다는 짧은 설명과 두산·라인업송 태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "스탯브릿지 김휘승이라고 밝힌 계정이 공동 참여자라고 자칭하며 응원단과 제작 참여자에게 감사 인사를 남겼다.",
+        "팬과 타 팀 팬은 첫 소절의 웅장함, 응원단장 목소리, 가을야구에서의 대형 합창 가능성을 높게 평가한다."
+      ],
+      "supports": ["contemporary-2020-release", "reported-producer-self-identification", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-lineup-lyrics-2020",
+      "songId": "doosan-bears-lineup-song",
+      "url": "https://www.youtube.com/watch?v=IEEPJUNkPAY",
+      "videoId": "IEEPJUNkPAY",
+      "title": "※우리도 드디어 생겼다!※ 두산 베어스 라인업송 2020 (가사)",
+      "channel": "KBOPLAYLIST",
+      "publishedAt": "2020-07-10",
+      "descriptionSummary": "두산 라인업송의 초기 학습용 팬 영상이며 공식 최초 공개 영상을 출처로 연결한다. 설명의 전체 가사는 복제하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "두산에도 마침내 라인업송이 생겼다는 기쁨과 잠실에서 직접 부르고 싶다는 반응이 반복된다.",
+        "타 팀 팬도 강한 임팩트와 웅장함을 칭찬하고, 팬이 정리한 전체 가사는 구조 확인에만 사용했다."
+      ],
+      "supports": ["2020-lyric-structure", "official-source-link", "fan-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-lineup-crowd-2023",
+      "songId": "doosan-bears-lineup-song",
+      "url": "https://www.youtube.com/watch?v=JcIbA-hGuVE",
+      "videoId": "JcIbA-hGuVE",
+      "title": "[2023 잠실 개막전] 겨울잠에서 깨어난 '최강 10번 타자들이여 일어나라!!🔥' 두산 라인업송 육성 떼창 응원가 (2023.04.01)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2023-03-31",
+      "descriptionSummary": "2023년 4월 1일 잠실 개막전의 라인업송 육성 떼창을 두산·라인업송·개막전 태그와 함께 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "개막전 결과와 특정 선수 호명 때 더 커진 함성을 회고하는 짧은 경기 맥락 댓글이 중심이다."
+      ],
+      "supports": ["2023-opening-day-field-use", "crowd-chant", "player-name-volume"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-lineup-opening-2025",
+      "songId": "doosan-bears-lineup-song",
+      "url": "https://www.youtube.com/watch?v=ebgedBJoUZw",
+      "videoId": "ebgedBJoUZw",
+      "title": "🐻‍❄️\"10번타자들이여 일어나라!!\" 2025 두산베어스 홈 개막전 잠실 첫 라인업송 떼창 현장 직캠!!⚾️ (2025.03.28 vs 삼성) #두산 #라인업송 #홈개막전",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2025-03-28",
+      "descriptionSummary": "2025년 3월 28일 삼성전 홈 개막전에서 시즌 첫 라인업송 떼창을 촬영한 날짜 특정 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "두산 라인업송이 리그에서 특히 좋고 관중이 크게 부르는 모습이 인상적이라는 타 팀 팬·두산 팬 반응이 있다.",
+        "직관하지 못한 팬은 현장 기록에 감사를 표하고 개막전의 큰 관중 규모를 언급한다."
+      ],
+      "supports": ["2025-home-opening-use", "large-crowd-chant", "current-field-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-lineup-compilation-2026",
+      "songId": "doosan-bears-lineup-song",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 전체 목록이 01:12 장에 라인업 송을 수록하고 최신 선수·팀 응원가를 이어 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "처음 직관한 팬이 응원에 감격해 목록으로 노래를 외우겠다고 하며, 새 시즌의 큰 육성 응원을 기대하는 반응이 있다.",
+        "전통 팀 응원가의 재생 빈도와 일부 선수곡 편곡을 조정해 달라는 요청도 많아 공식 목록이 팬 피드백 창구로 쓰인다."
+      ],
+      "supports": ["official-current-2026", "official-chapter-title", "fan-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-rock-early-2012",
+      "songId": "doosan-bears-rock-to-the-doosan",
+      "url": "https://www.youtube.com/watch?v=Mb2GGFILOqs",
+      "videoId": "Mb2GGFILOqs",
+      "title": "Rock To The Doosan",
+      "channel": "박종원",
+      "publishedAt": "2012-06-18",
+      "descriptionSummary": "닥터코어 911의 Rock To The Doosan이며 팬이 곡을 고르고 가사를 만들었다고 직접 적은 초기 완성곡 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "후대 댓글은 영상 속 2012년 선수 구성과 당시 경기장 분위기를 그리워하며 남은 선수를 세어 보는 회고가 중심이다.",
+        "타 팀 팬도 곡이 멋있다고 평가하고, 이 노래를 들으면 두산이 우승할 듯한 기분이 든다는 반응이 있다."
+      ],
+      "supports": ["2012-direct-release", "dr-core-credit", "fan-selected-lyrics", "nostalgia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-rock-field-2015",
+      "songId": "doosan-bears-rock-to-the-doosan",
+      "url": "https://www.youtube.com/watch?v=5tmW01RQNzY",
+      "videoId": "5tmW01RQNzY",
+      "title": "150508 두산 베어스 치어리더 - Rock to the Doosan",
+      "channel": "Loge",
+      "publishedAt": "2015-05-23",
+      "descriptionSummary": "2015년 5월 8일 두산 치어리더의 Rock to the Doosan 안무를 촬영하고 당시 참여 치어리더 이름을 설명에 적은 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2015-field-use", "cheerleader-choreography", "date-specific-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-rock-ks-flash-2015",
+      "songId": "doosan-bears-rock-to-the-doosan",
+      "url": "https://www.youtube.com/watch?v=fLgVpHBww2Q",
+      "videoId": "fLgVpHBww2Q",
+      "title": "[151031] 2015 한국시리즈 5차전 Rock To The DOOSAN",
+      "channel": "v5 doosan",
+      "publishedAt": "2016-02-20",
+      "descriptionSummary": "2015년 10월 31일 한국시리즈 5차전의 Rock To The DOOSAN 플래시 응원임을 설명에 직접 명시한 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "플래시 응원의 배터리 소모를 농담으로 측정한 반응과 당시 장면을 감동적으로 회고하는 반응이 있다."
+      ],
+      "supports": ["2015-postseason-flash", "korean-series-use", "fan-memory"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-rock-audio-2016",
+      "songId": "doosan-bears-rock-to-the-doosan",
+      "url": "https://www.youtube.com/watch?v=PzOHIlVPzPA",
+      "videoId": "PzOHIlVPzPA",
+      "title": "두산응원가- rock to the doosan 락투더두산",
+      "channel": "V7최강두산",
+      "publishedAt": "2016-01-27",
+      "descriptionSummary": "별도 설명 없이 영문·한글 별칭을 함께 적은 약 3분 길이의 음원형 팬 업로드다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팀 구호와 후렴을 짧게 따라 적거나 휴대전화에 저장하는 방법을 묻는 반응이 있다."
+      ],
+      "supports": ["2016-online-circulation", "title-aliases", "fan-listening"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-rock-audio-2019",
+      "songId": "doosan-bears-rock-to-the-doosan",
+      "url": "https://www.youtube.com/watch?v=J8rJUbc5dyg",
+      "videoId": "J8rJUbc5dyg",
+      "title": "두산 베어스 응원가 Rock to the Doosan [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-10-20",
+      "descriptionSummary": "곡명을 정확히 적은 음원·가사형 팬 영상이며 본문 설명은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "집보다 야구장에서 들을 때 훨씬 좋고 경기 시작 전부터 현장 도착을 실감하게 한다는 반응이 있다.",
+        "두산 팬과 타 팀 팬 모두 최고의 두산 응원가 중 하나로 꼽고, 7~8회 플래시 응원으로 기억한다."
+      ],
+      "supports": ["2019-online-circulation", "stadium-reception", "flash-and-late-inning-memory"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-rock-mv-2021",
+      "songId": "doosan-bears-rock-to-the-doosan",
+      "url": "https://www.youtube.com/watch?v=g_PdxPRzkYM",
+      "videoId": "g_PdxPRzkYM",
+      "title": "두산 베어스 Rock to the Doosan M/V",
+      "channel": "야쏭",
+      "publishedAt": "2021-09-19",
+      "descriptionSummary": "두산 경기 장면을 곡에 맞춰 편집한 팬 제작 뮤직비디오이며 별도 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "현장의 강한 앰프와 전주가 자신감을 끌어올리고 답답한 경기에서도 관중이 끝까지 떼창한다는 반응이 있다.",
+        "2019 미라클 시즌을 그리워하거나 타 팀 팬도 시원하고 웅장한 곡으로 인정하는 댓글이 반복된다."
+      ],
+      "supports": ["2021-fan-mv", "stadium-sound", "cross-team-reception", "championship-memory"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-rock-field-2025",
+      "songId": "doosan-bears-rock-to-the-doosan",
+      "url": "https://www.youtube.com/watch?v=hIREdpTdrZE",
+      "videoId": "hIREdpTdrZE",
+      "title": "두산베어스 팀 응원가 \"Rock to the Doosan\" 20250920",
+      "channel": "DJ Landers",
+      "publishedAt": "2025-09-20",
+      "descriptionSummary": "2025년 9월 20일 현장에서 부른 곡이며 중간에 비디오 판독으로 한 차례 끊겼다고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025-field-use", "video-review-interruption", "date-specific-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-rock-compilation-2026",
+      "songId": "doosan-bears-rock-to-the-doosan",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 전체 목록이 03:07 장에 대문자 표기 ROCK TO THE DOOSAN을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 목록을 직관 전 학습에 쓰고 오래된 팀 응원가를 더 자주 재생해 달라고 요청한다.",
+        "새 시즌 우승·왕조 부활을 기원하고 응원가의 현장 합창을 기대하는 반응이 중심이다."
+      ],
+      "supports": ["official-current-2026", "official-uppercase-title", "fan-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-rock-field-2026",
+      "songId": "doosan-bears-rock-to-the-doosan",
+      "url": "https://www.youtube.com/watch?v=AmkCi3CaYkM",
+      "videoId": "AmkCi3CaYkM",
+      "title": "(26.05.15) 롯팬도 보고 놀란 Rock to the Doosan 플래시 응원",
+      "channel": "민",
+      "publishedAt": "2026-06-08",
+      "descriptionSummary": "2026년 5월 15일 경기의 플래시 응원을 촬영해 매우 아름다웠다는 짧은 설명과 두산·락투더두산 태그를 붙였다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026-field-use", "current-flash-cheer", "cross-team-observer"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-go-audio-2016",
+      "songId": "doosan-bears-lets-go-doosan",
+      "url": "https://www.youtube.com/watch?v=A78K-zYjpjs",
+      "videoId": "A78K-zYjpjs",
+      "title": "[음원]두산 베어스 응원가 - 가자 두산베어스",
+      "channel": "두산베어스",
+      "publishedAt": "2016-01-02",
+      "descriptionSummary": "곡명을 정확히 적은 88초 음원형 업로드이며 본문 설명은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬은 팀 승리를 기원하고 오래된 응원가라 추억이 떠오른다는 반응을 남긴다.",
+        "전체 가사를 옮긴 댓글은 구조 확인에만 사용하고 원문을 저장하지 않았다."
+      ],
+      "supports": ["2016-online-circulation", "lyric-structure", "nostalgia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-go-mbc-choreography-2018",
+      "songId": "doosan-bears-lets-go-doosan",
+      "url": "https://www.youtube.com/watch?v=xC14uOY8gjQ",
+      "videoId": "xC14uOY8gjQ",
+      "title": "[치어리더 연습실캠]  응원가 - 가자 두산 베어스 (두산 베어스), Doosan's cheerleader \"cheering song - Let's go doosan\"",
+      "channel": "MBC Sports+",
+      "publishedAt": "2018-05-21",
+      "descriptionSummary": "MBC Sports+가 두산 치어리더의 ‘가자 두산 베어스’ 연습실 안무를 한국어·영어 제목과 함께 제공한 방송사 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 게시 순서를 나타내는 짧은 숫자뿐이라 곡의 연혁·수용 정보로 활용하지 않았다."
+      ],
+      "supports": ["2018-choreography", "media-source", "english-title-translation"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-go-field-2023",
+      "songId": "doosan-bears-lets-go-doosan",
+      "url": "https://www.youtube.com/watch?v=HLylwrwSl0k",
+      "videoId": "HLylwrwSl0k",
+      "title": "[4K] 230405 박하정 치어리더 - 가자 두산베어스",
+      "channel": "Cam_stony",
+      "publishedAt": "2023-04-13",
+      "descriptionSummary": "2023년 4월 5일 두산 경기의 4K 치어리더 공연을 곡명·직캠·공연 태그와 함께 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 출연자의 나이를 묻는 내용뿐이며 곡 자체의 정보는 없다."
+      ],
+      "supports": ["2023-field-choreography", "date-specific-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-go-field-2024",
+      "songId": "doosan-bears-lets-go-doosan",
+      "url": "https://www.youtube.com/watch?v=HSoJje5KtMU",
+      "videoId": "HSoJje5KtMU",
+      "title": "박기량 치어리더 가자!두산베어스 240810",
+      "channel": "emperorphoto",
+      "publishedAt": "2024-08-13",
+      "descriptionSummary": "2024년 8월 10일 치어리더의 ‘가자!두산베어스’ 현장 공연을 곡명과 두산 응원가 태그로 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024-field-choreography", "title-punctuation-variant"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-go-2010-version",
+      "songId": "doosan-bears-lets-go-doosan",
+      "url": "https://www.youtube.com/watch?v=Q-OUP9pBe7w",
+      "videoId": "Q-OUP9pBe7w",
+      "title": "가자!두산베어스!(2010ver)",
+      "channel": "올드베어스",
+      "publishedAt": "2025-02-16",
+      "descriptionSummary": "2025년에 업로드된 90초 음원형 영상이 제목에서 ‘2010ver’라고 주장하고 두산·응원가 태그를 붙인다. 원본 출처 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "최고라는 짧은 평가와 당시 팀 성적의 준우승 이미지를 회고하는 농담이 있다."
+      ],
+      "supports": ["reported-2010-version", "2025-online-archive", "nostalgia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-go-official-choreography-2025",
+      "songId": "doosan-bears-lets-go-doosan",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-21",
+      "descriptionSummary": "구단 공식 2025 팀·선수 응원가 목록이 05:12 장에 ‘가자 두산베어스’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 팬 제작 음원에 의존하던 곡들을 구단 공식 목록으로 들을 수 있게 된 점을 반기고 직관 전 학습에 쓴다.",
+        "전통곡 부활과 최신 선수곡 반영을 칭찬하며 야구장 전광판 자막·정식 음원 발매를 요청하는 반응도 많다."
+      ],
+      "supports": ["official-2025-use", "official-title-variant", "fan-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-go-compilation-2026",
+      "songId": "doosan-bears-lets-go-doosan",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 전체 목록이 05:11 장에 최신 표기 ‘가자! 두산베어스’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 목록으로 응원가를 외우고 새 시즌 직관을 준비하며 팀의 마지막 잠실 시즌 우승을 바란다.",
+        "특정 전통 팀 응원가를 더 자주 틀어 달라는 요청과 새 선수곡 수정·추가 요청이 함께 나타난다."
+      ],
+      "supports": ["official-current-2026", "official-punctuation", "fan-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-go-fan-compilation-2026",
+      "songId": "doosan-bears-lets-go-doosan",
+      "url": "https://www.youtube.com/watch?v=yy68zvRN9Z4",
+      "videoId": "yy68zvRN9Z4",
+      "title": "2026 6월판 두산베어스 잠실 전광판 버전 응원가 모음",
+      "channel": "브이의지",
+      "publishedAt": "2026-05-31",
+      "descriptionSummary": "2026년 5월 31일 기준 선수 스탯을 반영한 팬 제작 잠실 전광판 모음이 1:09:39 장에 ‘가자! 두산베어스’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관 전에 전체 목록을 듣고 응원 연습을 하거나 실제 야구장에 온 것 같다는 반응이 많다.",
+        "시즌 중 변경된 선수곡과 빠진 불펜 등장곡을 갱신해 달라는 요청이 있어 팬 목록의 시점 한계도 드러난다."
+      ],
+      "supports": ["2026-fan-current-list", "scoreboard-version", "chaptered-title"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-hustle-field-2014",
+      "songId": "doosan-bears-all-together-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=k8oq2YvDbck",
+      "videoId": "k8oq2YvDbck",
+      "title": "다함께 허슬 두 (두산 베어스 응원가)",
+      "channel": "youngiL Lim",
+      "publishedAt": "2014-09-15",
+      "descriptionSummary": "2014년 9월 12일 한화-두산전의 현장 영상이며 설명에 곡의 전체 가사를 적었으나 연구 파일에는 경기 정보와 구조만 요약했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2014-field-use", "date-specific-use", "lyric-structure"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-hustle-audio-2016",
+      "songId": "doosan-bears-all-together-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=0LOHyFBEJAE",
+      "videoId": "0LOHyFBEJAE",
+      "title": "[음원]두산 베어스 응원가 - 다 함께 허슬두",
+      "channel": "두산베어스",
+      "publishedAt": "2016-01-02",
+      "descriptionSummary": "최신 공식 띄어쓰기와 같은 제목을 쓴 91초 음원형 업로드이며 본문 설명은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "관중 응답 구호를 짧게 따라 적고 좋아하는 응원가라는 반응이 있다.",
+        "가창자를 잘못 기억한 댓글과 전체 가사를 옮긴 댓글은 사실 근거로 쓰지 않고 구조 확인에만 사용했다."
+      ],
+      "supports": ["2016-online-circulation", "title-spacing", "call-and-response"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-hustle-field-2023-a",
+      "songId": "doosan-bears-all-together-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=ZsrQliCS8IQ",
+      "videoId": "ZsrQliCS8IQ",
+      "title": "20231015 잠실 두산 베어스 원정 응원가(다함께 허슬두) 서현숙치어리더",
+      "channel": "엘롯기팬",
+      "publishedAt": "2023-12-15",
+      "descriptionSummary": "2023년 10월 15일 잠실 경기의 다함께 허슬두 치어리더 안무를 촬영한 날짜 특정 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2023-field-use", "cheerleader-choreography", "date-specific-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-hustle-field-2023-b",
+      "songId": "doosan-bears-all-together-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=48zJ6DcBz4E",
+      "videoId": "48zJ6DcBz4E",
+      "title": "[4K] 230820 두산베어스 안혜지 치어리더 (두산응원가 - 다함께 허슬두)",
+      "channel": "구운동마법사",
+      "publishedAt": "2023-09-28",
+      "descriptionSummary": "2023년 8월 20일 두산 경기에서 다함께 허슬두 안무를 촬영한 4K 현장 직캠이며 설명이 제목을 반복한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2023-field-use", "choreography", "independent-second-sample"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-hustle-official-choreography-2025",
+      "songId": "doosan-bears-all-together-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=24v6P_paiSQ",
+      "videoId": "24v6P_paiSQ",
+      "title": "※직관 전 시청 필수※ 2025시즌 응원가 안무 완전 정복! (새 응원가 최초 공개)",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-20",
+      "descriptionSummary": "구단 공식 2025 안무 학습 영상이 12:45 장에 ‘다 함께 허슬두’를 수록하고 팀·선수 응원가 동작을 시연한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 좋은 옛 응원가의 재사용과 공식 안무 자료를 반기고 새 곡을 받은 선수들의 반응 콘텐츠도 요청한다.",
+        "경기 중 전광판에 팀 응원가 가사를 실시간으로 표시해 더 많은 관중이 따라 부르게 해 달라는 제안도 있다."
+      ],
+      "supports": ["official-2025-use", "official-choreography", "fan-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-hustle-retro-2007-2009",
+      "songId": "doosan-bears-all-together-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=pMFMTdNNTpU",
+      "videoId": "pMFMTdNNTpU",
+      "title": "※근본 허슬두 시절※ 두산 베어스 그때 그 시절 응원가 모음 (2007~2009)",
+      "channel": "KBOPLAYLIST",
+      "publishedAt": "2025-10-24",
+      "descriptionSummary": "2007~2009년 두산 응원가를 후대에 모은 팬 회고 영상으로, 설명은 유튜브 자료를 출처로 사용했다고 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 반달 유니폼, 당시 선수와 어린 시절 입문 기억을 함께 회고하며 몇몇 옛 응원가의 부활을 바란다.",
+        "초기 음원 출처와 인물별 응원가를 찾은 방식에 대한 질문도 있어 팬 아카이브의 출처 한계가 드러난다."
+      ],
+      "supports": ["2007-2009-retro-circulation", "nostalgia", "fan-archive-limit"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-hustle-compilation-2026",
+      "songId": "doosan-bears-all-together-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 전체 목록이 06:40 장에 최신 띄어쓰기 ‘다 함께 허슬두’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 목록으로 경기장 응원을 익히고 우승·왕조 부활을 기원하며 오래된 팀 응원가도 더 자주 틀어 달라고 요청한다.",
+        "첫 직관 관중이 응원 문화에 감격해 전곡을 외우겠다는 반응도 있어 공식 목록의 입문 기능이 확인된다."
+      ],
+      "supports": ["official-current-2026", "official-title-spacing", "fan-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-doosan-a-hustle-fan-compilation-2026",
+      "songId": "doosan-bears-all-together-hustle-doo",
+      "url": "https://www.youtube.com/watch?v=yy68zvRN9Z4",
+      "videoId": "yy68zvRN9Z4",
+      "title": "2026 6월판 두산베어스 잠실 전광판 버전 응원가 모음",
+      "channel": "브이의지",
+      "publishedAt": "2026-05-31",
+      "descriptionSummary": "2026년 5월 31일 기준 팬 제작 잠실 전광판 모음이 1:11:05 장에 ‘다함께 허슬두’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관 전 한 시간 목록을 들으며 연습하고 실제 야구장에 온 것 같다는 반응이 반복된다.",
+        "시즌 중 선수곡 변경과 빠진 등장곡을 갱신해 달라는 요청이 있어 6월판의 시점 한계도 확인된다."
+      ],
+      "supports": ["2026-fan-current-list", "scoreboard-version", "chaptered-title"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 40,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 21
+  }
+}

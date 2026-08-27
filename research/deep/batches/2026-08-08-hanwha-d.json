@@ -1,0 +1,1202 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-hanwha-d",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-hanwha-eagles",
+    "name": "한화 이글스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 가사는 출처·권리 상태·구조 요약만 기록하고, 전문은 사용자 제공 또는 이용 허락이 확인된 경우에만 별도 승인 뒤 저장한다.",
+  "items": [
+    {
+      "id": "hanwha-eagles-turkish-march",
+      "title": "터키행진곡",
+      "aliases": ["터키 행진곡", "Rondo alla turca", "모차르트 터키행진곡"],
+      "currentStatus": "current",
+      "summary": "모차르트 피아노 소나타 11번 K.331의 3악장 ‘Rondo alla turca’를 바탕으로 한 짧은 리듬 응원으로 알려져 있다. 현행 문서에는 2017년부터 사용한 곡으로 정리되지만 이번 조사에서 직접 날짜를 확인한 가장 이른 현장 영상은 2018년 3월 18일이다. 2025년 단독 음원과 2026년 팬 언급은 남아 있으나 최신 구단·KBO 공식 목록에는 없어 현재 사용 빈도와 표준 편곡은 추가 확인이 필요하다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Wolfgang Amadeus Mozart의 피아노 소나타 11번 A장조 K.331/300i 3악장 ‘Rondo alla turca’",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-d-namu-cheers", "ev-turkish-march-mozarteum", "yt-turkish-2025-audio"],
+          "notes": "현행 응원가 문서와 통용 제목은 모차르트 작품을 가리키고, 모차르테움 작품 목록은 K.331과 Rondo alla turca의 관계를 확인한다. 다만 구단 편곡 크레딧이나 원곡 사용 계약은 찾지 못했다."
+        },
+        {
+          "field": "reportedIntroductionYear",
+          "value": "2017",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-d-namu-cheers", "ev-hanwha-d-inventory"],
+          "notes": "나무위키 계열 현행 설명을 따라 보존한 연도다. 2017년 경기 날짜가 명시된 1차 자료는 이번 조사에서 확보하지 못했다."
+        },
+        {
+          "field": "earliestDirectEvidence",
+          "value": "2018-03-18 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-turkish-2018-preseason"],
+          "notes": "게시일은 2018-07-21이지만 설명이 촬영 대상을 ‘터키행진곡’으로 명시하고 제목이 2018년 3월 18일 시범경기임을 기록한다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "짧은 치어리더 단체 리듬 응원으로 저빈도 사용되는 것으로 유통",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-d-inventory", "yt-turkish-2025-audio", "ev-turkish-2026-community", "ev-hanwha-d-official-2024-kbo"],
+          "notes": "2025 단독 음원과 2026 팬 언급은 존재하지만 2024 KBO 공식 팀 응원가 타임라인과 2025·2026 구단 공식 영상 설명에는 없다. 공식 영상들이 레거시·잔응원을 모두 담은 목록은 아니므로 미수록만으로 폐지를 판정하지 않았다."
+        },
+        {
+          "field": "arrangementCredits",
+          "value": "한화판 편곡·제작자 미확인",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-d-namu-cheers", "yt-turkish-2025-audio"],
+          "notes": "퍼블릭 도메인 원곡과 별개로 경기장용 음원의 편곡·녹음 권리자는 공개 자료에서 확인되지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "치어리더 단체 동작과 함께 짧게 박자를 끌어올리는 리듬 응원",
+        "정규 팀 응원가 사이의 짧은 전환 구간",
+        "가사보다 선율과 박수·동작이 중심인 현장 퍼포먼스"
+      ],
+      "trivia": [
+        {
+          "text": "2018년 한 영상은 제목에 ‘터키행진곡’이라고 적었지만 공개 댓글 여러 개가 실제 들리는 곡을 라데츠키 행진곡이라고 정정했다. 한화 응원 영상의 비공식 제목만으로 두 행진곡을 동일시하면 안 된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-turkish-2018-mislabeled"]
+        },
+        {
+          "text": "모차르테움 작품 목록은 흔히 ‘터키행진곡’으로 부르는 선율이 독립곡이 아니라 K.331 소나타의 Rondo alla turca임을 보여준다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-turkish-march-mozarteum"]
+        },
+        {
+          "text": "이번 표본에서는 곡명을 제목·설명에 직접 쓴 영상이 매우 적고, 검색 연관 영상 상당수는 제목만으로 곡을 식별할 수 없었다.",
+          "assessment": "verified",
+          "evidenceRefs": ["yt-turkish-2018-preseason", "yt-turkish-2018-september", "yt-turkish-2018-july-candidate", "yt-turkish-2019-may-candidate"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "public-domain-composition-arrangement-rights-unknown",
+        "sourceUrls": [
+          "https://kv.mozarteum.at/de/work/sonate-in-a-4091",
+          "https://www.youtube.com/watch?v=EVSdoYiI3Jc",
+          "https://www.youtube.com/watch?v=lAi3dHtev2M"
+        ],
+        "structureSummary": "가창 가사 없이 모차르트의 빠른 론도 선율 일부를 경기장용 전자음과 박수 박자로 압축한 짧은 리듬 응원으로 유통된다. 현장판별 시작·종료 길이와 효과음 배치는 일정하지 않아 버전 차이를 별도로 확인해야 한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-turkish-2025-audio",
+        "yt-turkish-2018-preseason",
+        "yt-turkish-2018-mislabeled",
+        "yt-turkish-2018-september",
+        "yt-turkish-2018-july-candidate",
+        "yt-turkish-2019-may-candidate"
+      ],
+      "unresolved": [
+        "2017년 최초 도입 주장에 대응하는 날짜가 명시된 구단·응원단 또는 경기 영상",
+        "2025~2026 실제 경기에서의 사용 빈도와 정확한 진행 상황",
+        "한화판 편곡·음원 제작자와 버전 이력",
+        "제목·설명에 곡명이 없는 검색 연관 영상 세 편의 정확한 수록 구간"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-eagles-wihayeo",
+      "title": "이글스 위하여",
+      "aliases": ["이글스를 위하여", "이글스를 위하여 (리듬응원)", "이글스위하여"],
+      "currentStatus": "current",
+      "summary": "아일랜드 전통 선율에 W. B. Yeats의 시가 결합된 ‘Down by the Salley Gardens’를 응원 리듬으로 바꾼 곡으로 알려져 있다. 영상 제목에서는 목적격 조사를 넣은 ‘이글스를 위하여’가 압도적으로 많이 쓰이고, 프로젝트 인벤토리는 ‘이글스 위하여’를 정본 제목으로 사용한다. 2019년 현장, 2022·2023·2024 모음집, 2025 시즌 음원이 연속 확인돼 2023~2024 사용 자체는 확실하지만 ‘그때 부활했다’는 표현에 필요한 선행 공백은 확인되지 않는다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "아일랜드 전통 선율 ‘Down by the Salley Gardens’",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-eagles-for-theqoo", "ev-salley-rpo", "ev-salley-nli", "ev-hanwha-d-namu-cheers"],
+          "notes": "팬 질문과 현행 문서가 같은 선율을 식별한다. 토론토대 시 자료는 Yeats 시의 1889년 출판을, 아일랜드 국립도서관 목록은 전통 선율 편곡본을 확인한다. 한화판 제작자의 직접 확인은 없다."
+        },
+        {
+          "field": "sourceHistory",
+          "value": "W. B. Yeats의 1889년 시와 전통 선율의 결합",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-salley-rpo", "ev-salley-nli"],
+          "notes": "시의 저자·초기 출판 연도와 전통 선율이라는 성격을 구분해 기록했다. 특정 현대 가수의 녹음이 한화판의 직접 원음인지는 확인하지 못했다."
+        },
+        {
+          "field": "earliestDirectEvidence",
+          "value": "2019-04-12 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-eaglesfor-2019-april"],
+          "notes": "고척스카이돔 한화 응원단 공연 날짜와 곡명이 영상 제목·설명에 함께 명시된다. 실제 초연일은 아니다."
+        },
+        {
+          "field": "2023To2024Reuse",
+          "value": "2023·2024 시즌 모두 수록·사용 확인; ‘부활’ 또는 ‘재사용 시작’ 시점은 미확정",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-d-inventory", "yt-eaglesfor-2022-compilation", "yt-eaglesfor-2023-compilation", "yt-eaglesfor-2024-compilation"],
+          "notes": "2023 모음 22:30과 2024 모음 23:25에 수록돼 해당 두 해의 존재는 직접 확인된다. 그러나 2022 모음에도 17:50에 실려 있어 2023년에 새로 부활했다는 강한 해석은 성립하지 않는다."
+        },
+        {
+          "field": "usageContext",
+          "value": "잔응원 또는 경기 전·긴 대기 구간의 짧은 리듬 응원",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-eagles-for-theqoo", "yt-eaglesfor-2023-compilation", "yt-eaglesfor-2024-compilation", "yt-eaglesfor-2019-scoring"],
+          "notes": "2023·2024 모음은 잔응원 구역에 두고, 2024 팬 질문은 경기 중보다 경기 전 들었다고 회상한다. 2019 영상은 선취득점 직후 사용을 제목에 명시해 상황이 단일하지 않음을 보여준다."
+        },
+        {
+          "field": "recordingVocal",
+          "value": "황석빈 녹음 참여로 정리됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-d-hwang-seokbin-namu"],
+          "notes": "나무위키 미러의 활동 목록 기준이며 구단 음원 크레딧 원문은 찾지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "경기 전 응원 분위기를 여는 짧은 팀 리듬 응원",
+        "득점 직후 또는 경기 중 긴 정지 구간",
+        "응원단 선창과 관중의 팀명 응답을 짧게 맞추는 잔응원"
+      ],
+      "trivia": [
+        {
+          "text": "공개 영상 제목은 대부분 ‘이글스를 위하여’라고 적지만 현행 인벤토리에는 ‘이글스 위하여’로 들어가 있어 제목과 통용형을 모두 보존했다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-hanwha-d-inventory", "yt-eaglesfor-2019-april", "yt-eaglesfor-2025-audio"]
+        },
+        {
+          "text": "2024년 팬 질문은 경기 전 들은 곡의 원곡을 찾다가 아일랜드 노래를 식별하는 과정 자체를 기록해, 일반 관중에게 원곡 정보가 널리 알려져 있지 않았음을 보여준다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["ev-eagles-for-theqoo"]
+        },
+        {
+          "text": "2022·2023·2024 시즌 모음집이 해마다 곡을 잔응원으로 싣기 때문에 ‘2023~2024에만 잠깐 돌아온 곡’이라는 요약은 지나치게 단순하다.",
+          "assessment": "verified",
+          "evidenceRefs": ["yt-eaglesfor-2022-compilation", "yt-eaglesfor-2023-compilation", "yt-eaglesfor-2024-compilation"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "public-domain-source-adaptation-rights-unknown",
+        "sourceUrls": [
+          "https://rpo.library.utoronto.ca/content/down-salley-gardens",
+          "https://catalogue.nli.ie/Record/vtls000227453",
+          "https://www.youtube.com/watch?v=7lNh5uPRUcw"
+        ],
+        "structureSummary": "느린 아일랜드 전통 선율의 핵심 구절을 짧고 규칙적인 경기장 박자로 바꾸고, 팀을 위한 응원 문구와 이름 응답을 반복하는 잔응원형 구조다. 원시의 서사 가사는 사용하지 않으며 한화판의 정확한 개사·편곡자는 미확인이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-eaglesfor-2019-april",
+        "yt-eaglesfor-2019-scoring",
+        "yt-eaglesfor-2022-compilation",
+        "yt-eaglesfor-2023-compilation",
+        "yt-eaglesfor-2024-compilation",
+        "yt-eaglesfor-2025-audio"
+      ],
+      "unresolved": [
+        "정확한 최초 도입 연도·경기와 한화판 개사·편곡자",
+        "2023~2024 ‘재사용’ 주장에 선행하는 실제 미사용 기간 존재 여부",
+        "현대 녹음 중 어느 버전을 직접 원음으로 삼았는지 여부",
+        "2026 홈경기의 표준 사용 상황과 빈도"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-clap-cheer",
+      "title": "클랩 응원",
+      "aliases": ["클랩타임", "클랩 응원타임", "클랩클랩클랩타임", "이글스 클랩타임"],
+      "currentStatus": "current",
+      "summary": "육성응원이 금지된 2021년, 홍창화 응원단장 채널이 박수만으로 참여할 수 있도록 직접 소개한 응원이다. 쉬운 리듬과 단순 동작을 전면에 둔 제작 의도가 1차 자료로 남아 있고, 2021 촬영분·2023 현장·2024 시즌 모음·2025 현장 영상이 이어진다. 따라서 ‘2024 연장 경기에서 부활’했다는 문서 메모는 특정 연장전에서 다시 꺼내 썼다는 뜻일 가능성은 있지만, 장기간 완전 중단 뒤 처음 돌아왔다는 의미로는 현재 증거와 맞지 않는다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2021",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-clap-2021-leader"],
+          "notes": "홍창화 응원단장 채널이 2021년 4월 24일 새 응원을 설명하며 육성응원이 불가능한 시기라 박수 응원을 준비했다고 밝혔다."
+        },
+        {
+          "field": "creationPurpose",
+          "value": "육성응원 제한기에 관중이 쉬운 박수 리듬과 간단한 동작으로 참여하도록 제작",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-clap-2021-leader"],
+          "notes": "제작 의도는 응원단장 채널 설명의 직접 진술이다. 다만 홍창화가 작곡·편곡까지 직접 했다는 뜻으로 확대하지 않았다."
+        },
+        {
+          "field": "recordingVocal",
+          "value": "황석빈 가창으로 정리됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-d-hwang-seokbin-namu"],
+          "notes": "나무위키 미러는 황석빈의 대표 한화 녹음곡으로 클랩타임을 든다. 공식 음원 크레딧은 확인하지 못했다."
+        },
+        {
+          "field": "2024ExtraInningRevival",
+          "value": "2024년 연장 경기에서 다시 사용됐다는 주장",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-d-inventory", "yt-clap-2024-compilation"],
+          "notes": "2024 시즌 모음에 클랩타임이 수록된 사실은 확인되지만 연장전 부활을 특정하는 날짜·경기 영상은 찾지 못했다. 2023년 5월 현장 영상도 있어 완전 중단 뒤 2024년에 처음 돌아왔다는 해석과 충돌한다."
+        },
+        {
+          "field": "usageContinuity",
+          "value": "2021 도입 뒤 2023·2024·2025 자료에서 연속 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-clap-2021-leader", "yt-clap-2022-upload", "yt-clap-2023-stadium", "yt-clap-2024-compilation", "yt-clap-2025-stadium"],
+          "notes": "각 자료가 매 경기 상시 사용을 뜻하지는 않지만, 2024년 이전에 완전히 사라졌다는 주장은 지지하지 않는다."
+        },
+        {
+          "field": "productionCredits",
+          "value": "정확한 작사·작곡·편곡자 미확인",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["yt-clap-2021-leader", "ev-hanwha-d-hwang-seokbin-namu"],
+          "notes": "응원단이 준비했다는 설명과 보컬 정보는 있으나 음악 제작 크레딧 원문은 없다."
+        }
+      ],
+      "usageContexts": [
+        "육성응원이 제한되거나 목소리 대신 박수 참여를 유도할 때",
+        "짧은 반복 박자로 치어리더 동작과 관중 손뼉을 맞출 때",
+        "팀 응원가 사이에서 관중 참여를 다시 끌어올리는 클랩 타임"
+      ],
+      "trivia": [
+        {
+          "text": "2021년 공식 소개 영상 댓글에서는 동작 설명이 친절하다는 반응과 리듬이 쉽게 중독된다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-clap-2021-leader"]
+        },
+        {
+          "text": "팬들은 육성응원과 직관이 제한되던 시기에도 영상을 보며 집에서 따라 하겠다는 반응을 남겨 곡의 팬데믹기 용도를 보여준다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-clap-2021-leader"]
+        },
+        {
+          "text": "2023년 단독 현장 영상과 2024년 시즌 모음이 연속되기 때문에 ‘2024 부활’은 곡 전체의 재도입보다 특정 경기·상황의 재소환으로 해석해야 할 여지가 크다.",
+          "assessment": "inferred",
+          "evidenceRefs": ["yt-clap-2023-stadium", "yt-clap-2024-compilation"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-storage-permission",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=CBnA1-hM7Lc",
+          "https://www.youtube.com/watch?v=FbnpbX-FtAc",
+          "https://www.youtube.com/watch?v=6zcd5nbERZM"
+        ],
+        "structureSummary": "짧은 팀 비상 구호와 보컬 신호 사이에 정해진 박수 패턴을 반복한다. 긴 서술 가사보다 클랩 횟수, 쉬운 팔 동작, 선창 뒤 즉각적인 관중 반응이 곡의 핵심인 참여형 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-clap-2021-leader",
+        "yt-clap-2022-upload",
+        "yt-clap-2023-stadium",
+        "yt-clap-2024-compilation",
+        "yt-clap-2025-stadium"
+      ],
+      "unresolved": [
+        "2024년 어느 연장 경기에서 어떤 의미로 ‘부활’했는지 확인할 1차 영상",
+        "작사·작곡·편곡·녹음 제작진의 공식 크레딧",
+        "2022년 정규 사용 빈도와 2023~2025 시즌별 실제 운용 빈도",
+        "클랩 응원·클랩타임·클랩 응원타임 중 구단의 공식 제목"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-seungniwihae-oechyeora",
+      "title": "승리위해 외쳐라",
+      "aliases": ["승리 위해 외쳐라", "승릴 위해 외쳐라"],
+      "currentStatus": "current",
+      "summary": "나나 무스쿠리의 1988년 곡 ‘Gloria Eterna’를 바탕으로 한 장엄한 팀 응원가로, 해당 원곡은 헨델의 건반 모음곡 HWV 437 중 Sarabande를 토대로 한다. 일부 팬 자료가 원곡 제목을 ‘Eterna Gloria’로 뒤집어 적지만 음원 카탈로그 표기는 ‘Gloria Eterna’다. 2018년 7월 현장 영상부터 확인되고 어깨동무와 연장 이닝 같은 긴 집단 응원에 쓰였으나, 팬 댓글에는 좋은 곡인데 자주 나오지 않는다는 반응이 꾸준하다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Nana Mouskouri의 ‘Gloria Eterna’",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-victory-manual365", "ev-gloria-yain-crosscheck", "ev-gloria-spotify", "ev-gloria-musicbrainz"],
+          "notes": "한화 팬 자료는 제목을 ‘Eterna Gloria’라고 적지만 야인시대 삽입곡 교차 자료와 Spotify·MusicBrainz 카탈로그는 나나 무스쿠리의 ‘Gloria Eterna’로 식별한다. 한화 제작자의 직접 원곡 확인은 없다."
+        },
+        {
+          "field": "sourceComposition",
+          "value": "George Frideric Handel의 Suite de pièce in D minor HWV 437, IV. Sarabande",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-gloria-spotify", "ev-gloria-musicbrainz"],
+          "notes": "상업 음원과 MusicBrainz 크레딧이 ‘Gloria Eterna’를 헨델 작품 기반으로 연결한다. 나나 무스쿠리판 편곡·번안 크레딧과 한화판 편곡은 서로 별개다."
+        },
+        {
+          "field": "originalRelease",
+          "value": "1988",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-gloria-spotify", "ev-gloria-apple"],
+          "notes": "Spotify와 Apple Music의 1988년 카탈로그가 일치한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2018",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-victory-manual365", "yt-victory-2018-july", "yt-victory-2018-august"],
+          "notes": "2018년 첫 소개라는 팬 정리와 2018-07-27·08-08 현장 영상이 일치한다. 7월 27일이 실제 초연일인지는 확인하지 못했다."
+        },
+        {
+          "field": "usageContext",
+          "value": "관중이 어깨동무해 부르는 장엄한 집단 응원; 연장 이닝 진입 때 반복 사용 사례 존재",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-victory-manual365", "yt-victory-2018-august", "yt-victory-2019-extra-inning"],
+          "notes": "2019-06-09 영상은 연장 10회에 한 번 더 불렀다고 제목에 명시한다. 이는 모든 연장전의 고정 운용을 뜻하지 않는다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "2023 현장과 2025 시즌 음원은 확인되나 저빈도 사용",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-victory-2023-stadium", "yt-victory-2025-audio", "ev-hanwha-d-official-2024-kbo"],
+          "notes": "2025 단독 음원이 현재 유통을 보조하지만 2024 KBO 공식 타임라인에는 없다. 댓글도 사용 빈도가 낮다고 반복해 실제 경기 표준 운용은 추가 확인이 필요하다."
+        },
+        {
+          "field": "distinctFromYeolgwang",
+          "value": "‘외쳐라 이글스(열광)’와 별개의 곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-victory-manual365", "yt-victory-2019-stadium", "yt-victory-2025-audio"],
+          "notes": "팬 정리 문서는 두 곡을 별도 항목으로 나누고 서로 다른 원곡·구조를 제시한다. 검색 결과가 두 제목을 섞어 반환하므로 데이터 병합을 금지한다."
+        }
+      ],
+      "usageContexts": [
+        "관중이 서로 어깨동무하며 긴 호흡의 합창을 만들 때",
+        "공수교대나 경기 후반의 분위기를 장엄하게 끌어올릴 때",
+        "연장 이닝 진입처럼 응원 결집이 필요한 시점"
+      ],
+      "trivia": [
+        {
+          "text": "2019년 6월 9일 현장 영상은 연장 10회에 들어가며 곡을 한 번 더 불렀다고 명시한다.",
+          "assessment": "verified",
+          "evidenceRefs": ["yt-victory-2019-extra-inning"]
+        },
+        {
+          "text": "2018년 대규모 떼창 영상과 2025년 고음질 영상 댓글에는 이 곡을 가장 좋아하지만 현장에서 더 자주 틀어주지 않아 아쉽다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-victory-2018-august", "yt-victory-2025-audio"]
+        },
+        {
+          "text": "통용 자료의 ‘Eterna Gloria’는 단어 순서가 뒤집힌 표기이며 상업 음원 정식 제목은 ‘Gloria Eterna’다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-victory-manual365", "ev-gloria-spotify", "ev-gloria-apple"]
+        },
+        {
+          "text": "야인시대에 쓰인 곡이라는 기억 때문에 드라마를 보고 원곡 응원가를 다시 찾았다는 반응도 현장 영상 댓글에서 확인된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-victory-2018-august", "ev-gloria-yain-crosscheck"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-storage-permission",
+        "sourceUrls": [
+          "https://open.spotify.com/track/3CB1hXZJnz71mrupUNwofc",
+          "https://www.youtube.com/watch?v=fvH6FT3GMOU",
+          "https://blog.manual365.co.kr/%ED%95%9C%ED%99%94%EC%9D%B4%EA%B8%80%EC%8A%A4-%EC%9D%91%EC%9B%90%EA%B0%80-%EB%8F%99%EC%98%81%EC%83%81-%EA%B0%80%EC%82%AC-%EB%AA%A8%EC%95%84%EB%B3%B4%EA%B8%B0%ED%8C%80%EC%9D%91%EC%9B%90%EA%B0%80/"
+        ],
+        "structureSummary": "느린 Sarabande 계열의 장엄한 선율 위에 짧은 승리 선창을 놓고, 긴 무가사 합창과 팀 구호를 교차한 뒤 같은 후렴으로 돌아간다. 관중이 어깨동무하고 긴 음가를 함께 유지하기 쉬운 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-victory-2018-july",
+        "yt-victory-2018-august",
+        "yt-victory-2019-stadium",
+        "yt-victory-2019-extra-inning",
+        "yt-victory-2023-stadium",
+        "yt-victory-2025-audio"
+      ],
+      "unresolved": [
+        "한화판 원곡 선정·개사·편곡·가창 제작자의 공식 크레딧",
+        "2018년 정확한 최초 공개일과 초연 경기",
+        "2024~2026 홈경기에서의 실제 사용 빈도와 고정 진행 상황",
+        "야인시대 삽입 장면과 한화판 제작자가 그 버전을 직접 참고했다는 1차 증언"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-hanadoeeo-oechyeo",
+      "title": "하나되어 외쳐",
+      "aliases": ["하나 되어 외쳐", "하나되어 외쳐라", "하나 되어 외쳐라"],
+      "currentStatus": "current",
+      "summary": "승리의 함성과 팀의 결속을 강조하는 한화 고유 팀 응원가로 유통된다. 2019년 3월 현장 영상이 가장 이른 직접 자료이고, 2025년 2월 팬 영상 댓글에는 2018~2019년에 쓰다 사라진 곡이 갑자기 다시 나왔다는 동시대 인식이 남아 있다. 2025 시즌 음원·모음과 2026 시즌판은 재등장을 뒷받침하지만, 2026년 6월에는 좋은 곡인데 왜 실제로 쓰지 않느냐는 팬 글도 있어 현재 사용 빈도는 상충한다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "외부 원곡이 확인되지 않은 한화 이글스 고유 팀 응원가로 유통",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-d-namu-cheers", "ev-hanwha-seat-catalog", "yt-together-2019-stadium"],
+          "notes": "확인한 자료는 독립된 원곡을 제시하지 않지만 구단 제작 계약서·저작권 등록·공식 크레딧을 찾지 못해 자작곡으로 확정하지 않았다."
+        },
+        {
+          "field": "reportedIntroductionPeriod",
+          "value": "2018~2019 시즌 사용",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-together-2025-fanmv", "ev-hanwha-d-hwang-seokbin-namu"],
+          "notes": "2025년 공개 댓글이 2018~2019년에 쓰던 곡으로 회상하고, 황석빈의 한화 녹음 활동 시작 시점이 2018년으로 정리된다. 동시대 2018 영상은 이번 조사에서 찾지 못했다."
+        },
+        {
+          "field": "earliestDirectEvidence",
+          "value": "2019-03-23 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-together-2019-stadium"],
+          "notes": "잠실야구장 한화 응원단 공연 날짜와 곡명이 제목·설명에 명시된다."
+        },
+        {
+          "field": "2025Revival",
+          "value": "2025년 재사용·재유통",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-d-inventory", "yt-together-2025-fanmv", "yt-together-2025-april", "ev-together-2025-soundcloud"],
+          "notes": "2025년 2월 영상 댓글은 갑자기 다시 틀었다고 인식하고, 4월 단독 음원과 2025 팀 응원 플레이리스트가 이어진다. 다만 부활 첫 경기의 날짜·구단 공지는 찾지 못했다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "2025 재등장 뒤 2026 시즌판에도 유통되나 실제 경기 사용은 저빈도 또는 중단 가능성",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-together-2026-audio", "ev-together-2026-fan-playlist", "ev-together-2026-community", "ev-hanwha-d-official-2025-youtube"],
+          "notes": "2026 팬 플레이리스트에는 수록되지만 같은 해 팬 커뮤니티에는 왜 안 쓰느냐는 글이 있다. 2025 구단 공식 영상 설명에도 레거시 팀곡으로 열거되지 않아 ‘보유 음원’과 ‘정기 현장 사용’을 구분해야 한다."
+        },
+        {
+          "field": "recordingVocal",
+          "value": "황석빈 녹음 참여로 정리됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-d-hwang-seokbin-namu"],
+          "notes": "나무위키 미러의 한화 녹음 목록 기준이며 공식 음원 크레딧 원문은 미확인이다."
+        }
+      ],
+      "usageContexts": [
+        "관중의 긴 무가사 합창 뒤 팀 결속 구호를 함께 외칠 때",
+        "경기 후반 또는 큰 경기에서 웅장한 떼창 분위기를 만들 때",
+        "응원단 공연과 플래시·팔 동작을 결합할 수 있는 팀 합창"
+      ],
+      "trivia": [
+        {
+          "text": "2019년 현장 영상에 2025년 남은 댓글은 곡이 좋은데 요즘 왜 하지 않느냐고 물어, 부활 전 팬들이 느낀 공백을 보여준다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-together-2019-stadium"]
+        },
+        {
+          "text": "2025년 재등장 직후 댓글에는 삼성의 엘도라도 부활처럼 좋았던 시기의 곡을 다시 쓰자는 반응과 2018 시즌의 기억을 되살린다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-together-2025-fanmv"]
+        },
+        {
+          "text": "2025 시즌 음원 댓글에서는 가을야구에서 부르면 어울릴 곡, 더 자주 틀어야 할 곡이라는 평가가 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-together-2025-season-audio"]
+        },
+        {
+          "text": "2026년 시즌판 음원 존재와 ‘실제 경기에서는 왜 안 쓰나’라는 팬 반응이 동시에 있어 음원 보유와 현장 운용을 동일시할 수 없다.",
+          "assessment": "verified",
+          "evidenceRefs": ["yt-together-2026-audio", "ev-together-2026-community"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-storage-permission",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=trTc9hZP08A",
+          "https://www.youtube.com/watch?v=BuygKsBlWvI",
+          "https://soundcloud.com/q2otg9xca9ar/sets/zvpkjepbapgb"
+        ],
+        "structureSummary": "긴 무가사 합창으로 시작해 승리와 영속성을 말하는 짧은 선창으로 넘어가고, 팀 이름·결속을 강조하는 동일 후렴을 거듭한 뒤 제목 구호로 마친다. 떼창의 음량을 점차 키우는 단순 반복형이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-together-2019-stadium",
+        "yt-together-2025-fanmv",
+        "yt-together-2025-february",
+        "yt-together-2025-april",
+        "yt-together-2025-season-audio",
+        "yt-together-2026-audio"
+      ],
+      "unresolved": [
+        "2018년 최초 사용 주장과 정확한 초연 경기",
+        "2025년 부활을 처음 알린 구단·응원단 공지 또는 첫 경기 영상",
+        "2026 정규 홈경기의 실제 사용 빈도와 중단 여부",
+        "작사·작곡·편곡·녹음 제작진의 공식 크레딧"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-hanwha-d-inventory",
+      "type": "project-record",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/kbo.md",
+      "title": "KBO 10개 구단 현행 응원가 인벤토리 — 한화 이글스",
+      "publisher": "cheers2 research",
+      "publishedAt": "2026-08-08",
+      "accessedAt": "2026-08-08",
+      "summary": "터키행진곡·이글스 위하여·클랩 응원·승리위해 외쳐라·하나되어 외쳐를 현행 후보로 싣고, 이글스 위하여 2023~2024 재사용·클랩 응원 2024 연장 경기 부활·하나되어 외쳐 2025 부활이라는 초기 메모를 남긴다. 이번 배치는 이 세 부활 주장을 영상 연속성과 대조했다.",
+      "supports": [
+        "hanwha-eagles-turkish-march.reportedIntroductionYear",
+        "hanwha-eagles-eagles-wihayeo.2023To2024Reuse",
+        "hanwha-eagles-clap-cheer.2024ExtraInningRevival",
+        "hanwha-eagles-hanadoeeo-oechyeo.2025Revival"
+      ]
+    },
+    {
+      "id": "ev-hanwha-d-official-2024-kbo",
+      "type": "official",
+      "url": "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+      "title": "한화이글스 응원가 (Ver. 2, No.95)",
+      "publisher": "KBO (한국야구위원회)",
+      "publishedAt": "2024-07-02",
+      "accessedAt": "2026-08-08",
+      "summary": "KBO 공식 타임라인은 15:29 이후 팀 응원가 13곡을 열거하지만 이번 다섯 곡은 포함하지 않는다. 반면 팬 시즌 모음에는 잔응원·클랩타임 등으로 일부가 실려 있어, 공식 음원 묶음이 경기장의 모든 짧은 응원과 레거시곡을 포괄하지 않는다는 주의가 필요하다.",
+      "supports": ["coverage.official2024Crosscheck", "coverage.currentStatusCaveat"]
+    },
+    {
+      "id": "ev-hanwha-d-official-2024-youtube",
+      "type": "official",
+      "url": "https://www.youtube.com/watch?v=CiOBbj-6-gA",
+      "title": "[오피셜] 직관 전 필수 시청❗️한화이글스 응원가 & 안무 모음 2024ver.",
+      "publisher": "Eagles TV",
+      "publishedAt": "2024-04-11",
+      "accessedAt": "2026-08-08",
+      "summary": "구단 공식 영상 설명은 2024 선수 응원가와 안무만 0:00~12:06 챕터로 정리한다. 레거시 팀 응원가를 다루지 않으므로 이번 다섯 곡의 미수록을 폐지 증거로 사용하지 않았다.",
+      "supports": ["organization.official2024Crosscheck", "coverage.officialCatalogNotExhaustive"]
+    },
+    {
+      "id": "ev-hanwha-d-official-2025-youtube",
+      "type": "official",
+      "url": "https://www.youtube.com/watch?v=XX_M533cPdI",
+      "title": "이 영상 하나면 끝🔥 한화이글스 등장곡&응원가&안무 총정리 2025ver.",
+      "publisher": "Eagles TV",
+      "publishedAt": "2025-04-24",
+      "accessedAt": "2026-08-08",
+      "summary": "구단 공식 영상은 선수별 등장곡·응원가와 19:05 신규 팀응원가를 안내한다. 이번 레거시 다섯 곡은 설명 타임라인에 없고 영상 성격상 전체 팀곡 목록이 아니므로 최근 현장·시즌 영상과 별도로 판정했다.",
+      "supports": ["organization.official2025Crosscheck", "coverage.officialCatalogNotExhaustive"]
+    },
+    {
+      "id": "ev-hanwha-d-namu-cheers",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "한화 이글스/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "이번 다섯 곡의 현행 분류·별칭·원곡·부활 서술을 대조한 문서다. 직접 페이지 접근이 제한돼 검색 색인과 이 문서를 바탕으로 만든 인벤토리를 확인하고, 연도·현재성은 날짜가 명시된 영상과 외부 자료로 별도 교차했다.",
+      "supports": [
+        "hanwha-eagles-turkish-march.origin",
+        "hanwha-eagles-eagles-wihayeo.origin",
+        "hanwha-eagles-clap-cheer.2024ExtraInningRevival",
+        "hanwha-eagles-hanadoeeo-oechyeo.origin"
+      ]
+    },
+    {
+      "id": "ev-hanwha-d-hwang-seokbin-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%ED%99%A9%EC%84%9D%EB%B9%88",
+      "title": "황석빈",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "황석빈의 한화 응원가 녹음 활동을 2018~2025로 정리하고 클랩타임·이글스를 위하여·승리 위해 외쳐라·하나되어 외쳐라를 녹음 목록에 포함한다. 구단 공식 크레딧이 아니므로 가창 정보는 reported로 기록했다.",
+      "supports": [
+        "hanwha-eagles-eagles-wihayeo.recordingVocal",
+        "hanwha-eagles-clap-cheer.recordingVocal",
+        "hanwha-eagles-hanadoeeo-oechyeo.recordingVocal"
+      ]
+    },
+    {
+      "id": "ev-turkish-march-mozarteum",
+      "type": "primary-music-catalog",
+      "url": "https://kv.mozarteum.at/de/work/sonate-in-a-4091",
+      "title": "KV 331 – Sonate in A",
+      "publisher": "Stiftung Mozarteum Salzburg — Köchel-Verzeichnis",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "모차르트 작품 목록에서 K.331 피아노 소나타 A장조와 잘 알려진 ‘Rondo alla turca’를 연결한다. 한화판 편곡 자체의 출처는 아니다.",
+      "supports": ["hanwha-eagles-turkish-march.origin", "hanwha-eagles-turkish-march.sourceIdentity"]
+    },
+    {
+      "id": "ev-turkish-2026-community",
+      "type": "contemporaneous-community",
+      "url": "https://gall.dcinside.com/board/view/?id=hanwhaeagles_new&no=17230064&page=1",
+      "title": "사랑한다이글스 자주 듣고싶다",
+      "publisher": "디시인사이드 한화 이글스 갤러리",
+      "publishedAt": "2026-06-30",
+      "accessedAt": "2026-08-08",
+      "summary": "작성자가 다시 자주 듣고 싶은 곡을 말하며 영원한 챔프와 터키행진곡도 괜찮다고 언급한다. 2026 팬 인지도를 보여주지만 실제 당일 경기 사용을 입증하지는 않는다.",
+      "supports": ["hanwha-eagles-turkish-march.currentUsage"]
+    },
+    {
+      "id": "ev-salley-rpo",
+      "type": "academic-poetry-edition",
+      "url": "https://rpo.library.utoronto.ca/content/down-salley-gardens",
+      "title": "Down by the Salley Gardens",
+      "publisher": "Representative Poetry Online, University of Toronto Libraries",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "작품을 William Butler Yeats의 시로 확인하고 《Crossways》에 1889년 발표됐다는 서지 정보를 제공한다. 전문은 저장하지 않았다.",
+      "supports": ["hanwha-eagles-eagles-wihayeo.origin", "hanwha-eagles-eagles-wihayeo.sourceHistory"]
+    },
+    {
+      "id": "ev-salley-nli",
+      "type": "library-catalog",
+      "url": "https://catalogue.nli.ie/Record/vtls000227453",
+      "title": "Down by the Salley gardens",
+      "publisher": "National Library of Ireland",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "Yeats의 텍스트와 전통 선율을 Edgar M. Deale이 편곡한 악보 자료를 등재해, 널리 불리는 곡이 전통 선율 계열임을 확인한다.",
+      "supports": ["hanwha-eagles-eagles-wihayeo.origin", "hanwha-eagles-eagles-wihayeo.sourceHistory"]
+    },
+    {
+      "id": "ev-eagles-for-theqoo",
+      "type": "contemporaneous-community",
+      "url": "https://theqoo.net/kbaseball/3185124059?listStyle=viewer",
+      "title": "팀 응원가 질문이 있눈데",
+      "publisher": "더쿠 K-야구",
+      "publishedAt": "2024-04-15",
+      "accessedAt": "2026-08-08",
+      "summary": "작성자가 경기 전 들은 ‘이글스를 위하여’를 찾으며 원곡을 ‘Down by the Sally Gardens’로 식별한다. 경기 중에는 거의 부르지 않는 것 같고 주로 경기 전 들었다는 현장 관찰도 함께 남긴다.",
+      "supports": ["hanwha-eagles-eagles-wihayeo.origin", "hanwha-eagles-eagles-wihayeo.usageContext"]
+    },
+    {
+      "id": "ev-victory-manual365",
+      "type": "fan-reference",
+      "url": "https://blog.manual365.co.kr/%ED%95%9C%ED%99%94%EC%9D%B4%EA%B8%80%EC%8A%A4-%EC%9D%91%EC%9B%90%EA%B0%80-%EB%8F%99%EC%98%81%EC%83%81-%EA%B0%80%EC%82%AC-%EB%AA%A8%EC%95%84%EB%B3%B4%EA%B8%B0%ED%8C%80%EC%9D%91%EC%9B%90%EA%B0%80/",
+      "title": "한화이글스 응원가 동영상, 가사 모아보기(팀응원가)",
+      "publisher": "매뉴얼365",
+      "publishedAt": "2024-05-29",
+      "accessedAt": "2026-08-08",
+      "summary": "승리위해 외쳐라를 2018년에 소개된 장엄한 곡으로 정리하고 원곡을 야인시대 삽입곡이라고 설명하며, ‘외쳐라 이글스(열광)’와 별도 항목으로 구분한다. 원곡 제목을 ‘Eterna Gloria’로 적은 부분은 상업 음원 표기와 교정했다.",
+      "supports": [
+        "hanwha-eagles-seungniwihae-oechyeora.origin",
+        "hanwha-eagles-seungniwihae-oechyeora.introductionYear",
+        "hanwha-eagles-seungniwihae-oechyeora.distinctFromYeolgwang"
+      ]
+    },
+    {
+      "id": "ev-gloria-yain-crosscheck",
+      "type": "web-article",
+      "url": "https://nekocharm.tistory.com/entry/%EB%93%9C%EB%9D%BC%EB%A7%88-OST-%EB%82%98%EB%82%98%EB%AC%B4%EC%8A%A4%EA%BE%B8%EB%A6%AC-%EB%93%A4%EC%9C%BC%EB%A9%B4-%EC%95%8C%EC%A7%80%EB%A7%8C-%EC%A0%9C%EB%AA%A9%EC%9D%80-%EB%AA%A8%EB%A5%B4%EB%8A%94-%EB%85%B8%EB%9E%98-Gloria-Eterna",
+      "title": "드라마 OST — 나나 무스쿠리 Gloria Eterna",
+      "publisher": "퍼플냥이",
+      "publishedAt": "2020-02-27",
+      "accessedAt": "2026-08-08",
+      "summary": "나나 무스쿠리의 ‘Gloria Eterna’가 SBS 드라마 야인시대의 시라소니 관련 장면에 사용됐고 헨델 Sarabande를 바탕으로 했다고 정리한다. 팬 블로그라 상업 음원 크레딧과 교차했다.",
+      "supports": ["hanwha-eagles-seungniwihae-oechyeora.origin", "hanwha-eagles-seungniwihae-oechyeora.soundtrackUsage"]
+    },
+    {
+      "id": "ev-gloria-spotify",
+      "type": "music-catalog",
+      "url": "https://open.spotify.com/track/3CB1hXZJnz71mrupUNwofc",
+      "title": "Gloria Eterna — George Frideric Handel, Nana Mouskouri",
+      "publisher": "Spotify",
+      "publishedAt": "1988-11-04",
+      "accessedAt": "2026-08-08",
+      "summary": "곡명을 ‘Gloria Eterna’, 아티스트를 George Frideric Handel과 Nana Mouskouri, 앨범을 《Classical》, 공개 시기를 1988년으로 표시한다.",
+      "supports": [
+        "hanwha-eagles-seungniwihae-oechyeora.origin",
+        "hanwha-eagles-seungniwihae-oechyeora.sourceComposition",
+        "hanwha-eagles-seungniwihae-oechyeora.originalRelease"
+      ]
+    },
+    {
+      "id": "ev-gloria-apple",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/us/song/1682938112",
+      "title": "Gloria Eterna — Nana Mouskouri",
+      "publisher": "Apple Music",
+      "publishedAt": "1988-01-01",
+      "accessedAt": "2026-08-08",
+      "summary": "나나 무스쿠리의 ‘Gloria Eterna’를 1988년 음원으로 등재한다. 플랫폼별 월·일 표기가 달라 최초 발매는 연도까지만 확정했다.",
+      "supports": ["hanwha-eagles-seungniwihae-oechyeora.origin", "hanwha-eagles-seungniwihae-oechyeora.originalRelease"]
+    },
+    {
+      "id": "ev-gloria-musicbrainz",
+      "type": "music-database",
+      "url": "https://musicbrainz.org/release/ee720b96-7e13-4e57-ae2d-dddee053ad7c",
+      "title": "Classique — Nana Mouskouri",
+      "publisher": "MusicBrainz",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "앨범 6번 트랙 ‘Gloria eterna’를 나나 무스쿠리 가창으로 등재하고, 헨델의 Suite de pièce in D minor HWV 437 중 4악장 Sarabande를 기반으로 한 녹음이라고 연결한다.",
+      "supports": ["hanwha-eagles-seungniwihae-oechyeora.origin", "hanwha-eagles-seungniwihae-oechyeora.sourceComposition"]
+    },
+    {
+      "id": "ev-hanwha-seat-catalog",
+      "type": "fan-reference",
+      "url": "https://myseatcheck.com/%ED%95%9C%ED%99%94-%ED%8C%80%EC%9D%91%EC%9B%90%EA%B0%80/",
+      "title": "한화 팀응원가",
+      "publisher": "자리어때",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "한화 팀 응원가 목록에서 이글스 위하여와 하나되어 외쳐를 별도 곡으로 열거한다. 도입 연도나 공식 크레딧이 없는 팬 참고 목록이므로 존재·제목 교차 확인에만 사용했다.",
+      "supports": ["hanwha-eagles-eagles-wihayeo.title", "hanwha-eagles-hanadoeeo-oechyeo.origin"]
+    },
+    {
+      "id": "ev-together-2025-soundcloud",
+      "type": "fan-audio-playlist",
+      "url": "https://soundcloud.com/q2otg9xca9ar/sets/zvpkjepbapgb",
+      "title": "팀응원",
+      "publisher": "cyurskn / 은원이최고[Music Studio] 재생목록",
+      "publishedAt": "2025-05-07",
+      "accessedAt": "2026-08-08",
+      "summary": "2025 팀 응원가 모음에 ‘하나되어 외쳐라’를 포함하고 원 음원의 게시 시각을 2025-04-12로 표시한다. 구단 공식 음원이 아닌 팬 업로드이므로 부활을 보조하는 자료로만 사용했다.",
+      "supports": ["hanwha-eagles-hanadoeeo-oechyeo.2025Revival"]
+    },
+    {
+      "id": "ev-together-2026-fan-playlist",
+      "type": "fan-video",
+      "url": "https://www.youtube.com/watch?v=TDT4kiMncN0",
+      "title": "한화이글스 응원가+등장곡 팀응원가 플레이리스트 [2차 개정판] 2026 볼파크 전광판 ver 🦅⭐️",
+      "publisher": "cintamani",
+      "publishedAt": "2026-06-05",
+      "accessedAt": "2026-08-08",
+      "summary": "2026 팬 제작 전광판형 플레이리스트가 32:57에 하나되어 외쳐를, 39:40에 외쳐라 이글스를 별도 곡으로 싣는다. 실제 구단 진행표가 아니므로 현재 사용의 보조 근거다.",
+      "supports": ["hanwha-eagles-hanadoeeo-oechyeo.currentUsage"]
+    },
+    {
+      "id": "ev-together-2026-community",
+      "type": "contemporaneous-community",
+      "url": "https://gall.dcinside.com/board/view/?id=hanwhaeagles_new&no=17230071&page=1",
+      "title": "우리 웅장한 팀응원가 있는데 쓰질 못하는 거임",
+      "publisher": "디시인사이드 한화 이글스 갤러리",
+      "publishedAt": "2026-06-30",
+      "accessedAt": "2026-08-08",
+      "summary": "작성자가 하나되어 외쳐와 보아라 기억하라를 좋은 떼창곡으로 꼽으면서 실제로 왜 쓰지 않는지 모르겠다고 말한다. 단일 팬 글이지만 2026 시즌 음원 존재가 곧 정기 현장 사용을 뜻하지 않는다는 반례다.",
+      "supports": ["hanwha-eagles-hanadoeeo-oechyeo.currentUsage"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-turkish-2025-audio",
+      "songId": "hanwha-eagles-turkish-march",
+      "url": "https://www.youtube.com/watch?v=EVSdoYiI3Jc",
+      "videoId": "EVSdoYiI3Jc",
+      "title": "한화이글스 터키행진곡",
+      "channel": "시환이최고 [Music Studio]",
+      "publishedAt": "2025-05-22",
+      "descriptionSummary": "26초 분량의 단독 응원 음원 영상이다. 업로더 설명에는 곡을 판별할 만한 별도 서술이 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["audioReference", "recentFanArchive"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-turkish-2018-preseason",
+      "songId": "hanwha-eagles-turkish-march",
+      "url": "https://www.youtube.com/watch?v=lAi3dHtev2M",
+      "videoId": "lAi3dHtev2M",
+      "title": "한화이글스 응원단 시범경기 180318",
+      "channel": "S깡통",
+      "publishedAt": "2018-07-21",
+      "descriptionSummary": "2018년 3월 18일 시범경기 응원단 촬영분이며 설명이 곡명을 ‘터키행진곡’으로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 응원단 인물과 외모에 관한 반응뿐이며 곡의 연혁을 뒷받침하는 내용은 없다."],
+      "supports": ["historicalUsage", "songIdentification"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-turkish-2018-mislabeled",
+      "songId": "hanwha-eagles-turkish-march",
+      "url": "https://www.youtube.com/watch?v=00xDjZ8wBVc",
+      "videoId": "00xDjZ8wBVc",
+      "title": "한화이글스 치어리더 안타송 터키행진곡 개망한날 ㅎ 180729 ㄲㅌㅇ",
+      "channel": "S깡통",
+      "publishedAt": "2018-11-12",
+      "descriptionSummary": "2018년 7월 29일 현장 영상으로 제목은 터키행진곡이라 적었지만, 댓글에서 다른 행진곡으로 정정하는 반응이 나온다. 제목 검색만으로 곡을 단정할 수 없는 오표기 사례로 보존했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원 동작 실수를 재미있어하는 반응이 반복된다.", "한 댓글은 영상의 선율이 터키행진곡이 아니라 라데츠키 행진곡이라고 지적한다."],
+      "supports": ["titleAmbiguity", "mislabelConflict"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-turkish-2018-september",
+      "songId": "hanwha-eagles-turkish-march",
+      "url": "https://www.youtube.com/watch?v=KyKPu0q_whE",
+      "videoId": "KyKPu0q_whE",
+      "title": "한화이글스 치어리더 단체 응원 180922",
+      "channel": "S깡통",
+      "publishedAt": "2018-09-22",
+      "descriptionSummary": "2018년 9월 22일 대전의 단체 응원 촬영분이다. 검색 결과에는 터키행진곡 후보로 노출되지만 제목과 설명만으로 해당 구간의 곡을 확정할 수 없다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 치어리더와 마스코트에 관한 개인적 반응이며 곡 정보는 없다."],
+      "supports": ["candidateStadiumFootage", "identificationUncertain"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-turkish-2018-july-candidate",
+      "songId": "hanwha-eagles-turkish-march",
+      "url": "https://www.youtube.com/watch?v=PtEgV_TefCk",
+      "videoId": "PtEgV_TefCk",
+      "title": "한화이글스 치어리더 단체 응원 180727 ㄲㅌㅇ",
+      "channel": "S깡통",
+      "publishedAt": "2018-11-04",
+      "descriptionSummary": "2018년 7월 27일 단체 응원 촬영분이다. 제목과 설명은 출연자만 식별하므로 터키행진곡 사용 증거로는 낮은 신뢰도의 후보 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["candidateStadiumFootage", "identificationUncertain"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-turkish-2019-may-candidate",
+      "songId": "hanwha-eagles-turkish-march",
+      "url": "https://www.youtube.com/watch?v=O3nmV6AYQB4",
+      "videoId": "O3nmV6AYQB4",
+      "title": "한화이글스 치어리더 단체 응원 190501 ㅇㄲㅌ",
+      "channel": "S깡통",
+      "publishedAt": "2019-05-07",
+      "descriptionSummary": "2019년 5월 1일 단체 응원 촬영분이다. 제목과 설명에 곡명이 없어 검색 결과상 후보로만 분류했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 치어리더 외모에 관한 반응이며 곡의 정체나 사용 시기를 언급하지 않는다."],
+      "supports": ["candidateStadiumFootage", "identificationUncertain"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-eaglesfor-2019-april",
+      "songId": "hanwha-eagles-eagles-wihayeo",
+      "url": "https://www.youtube.com/watch?v=WFD7GBQebzA",
+      "videoId": "WFD7GBQebzA",
+      "title": "20190412 한화 치어리더 공연 - 이글스를 위하여",
+      "channel": "에릭벨TV Ericbell",
+      "publishedAt": "2019-04-12",
+      "descriptionSummary": "2019년 4월 12일 고척 경기에서 치어리더가 ‘이글스를 위하여’를 공연한 현장 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["historicalUsage", "cheerleaderPerformance"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-eaglesfor-2019-scoring",
+      "songId": "hanwha-eagles-eagles-wihayeo",
+      "url": "https://www.youtube.com/watch?v=WGJkJANbNS0",
+      "videoId": "WGJkJANbNS0",
+      "title": "20190704 한화 이글스 선취득점 기념, 이글스를 위하여",
+      "channel": "에릭벨TV Ericbell",
+      "publishedAt": "2019-07-04",
+      "descriptionSummary": "2019년 7월 4일 잠실에서 한화의 선취 득점 뒤 진행된 ‘이글스를 위하여’ 응원을 담았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["historicalUsage", "scoringContext"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-eaglesfor-2022-compilation",
+      "songId": "hanwha-eagles-eagles-wihayeo",
+      "url": "https://www.youtube.com/watch?v=AgV-t7Kio0A",
+      "videoId": "AgV-t7Kio0A",
+      "title": "2022 한화이글스 응원가 모음집.ZIP (TEAM VER) #한화이글스 #응원가",
+      "channel": "에릭벨TV Ericbell",
+      "publishedAt": "2022-04-12",
+      "descriptionSummary": "2022 팀 응원가 모음의 설명 목차가 17:50에 ‘이글스를 위하여’를, 13:06에 클랩타임을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["모음 영상에 대한 감사와 코로나 시기 새 응원가를 영상으로 배웠다는 반응이 보인다.", "특정 곡보다 한화 팀 응원가 전반을 칭찬하는 반응이 중심이다."],
+      "supports": ["usage2022", "compilationChapter"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-eaglesfor-2023-compilation",
+      "songId": "hanwha-eagles-eagles-wihayeo",
+      "url": "https://www.youtube.com/watch?v=gB9UQmlNEB0",
+      "videoId": "gB9UQmlNEB0",
+      "title": "한화이글스 응원가 모음 Ver.2023",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2023-07-19",
+      "descriptionSummary": "2023 응원가 모음의 설명 목차가 22:30에 ‘이글스 위하여’를, 33:25에 클랩타임을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한화 응원가가 중독성 있고 좋다는 반응과 직관 전에 연습한다는 반응이 반복된다.", "타 팀 팬도 한화 팀 응원가를 즐겨 듣는다는 반응이 있다."],
+      "supports": ["usage2023", "compilationChapter"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-eaglesfor-2024-compilation",
+      "songId": "hanwha-eagles-eagles-wihayeo",
+      "url": "https://www.youtube.com/watch?v=wwoi2Kwv6FQ",
+      "videoId": "wwoi2Kwv6FQ",
+      "title": "한화이글스 응원가 모음 Ver.2024⚾모두가 인정하는 응원가 끝판대장",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2024-04-12",
+      "descriptionSummary": "2024 응원가 모음의 설명 목차가 23:25에 ‘이글스 위하여’를, 32:43에 클랩타임을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팀 응원가의 완성도를 칭찬하는 반응이 반복된다.", "타 팀 팬도 KBO 응원가 가운데 한화의 곡들이 인상적이라고 평가한다."],
+      "supports": ["usage2024", "compilationChapter"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-eaglesfor-2025-audio",
+      "songId": "hanwha-eagles-eagles-wihayeo",
+      "url": "https://www.youtube.com/watch?v=7lNh5uPRUcw",
+      "videoId": "7lNh5uPRUcw",
+      "title": "이글스를 위하여 (리듬응원)",
+      "channel": "시환이최고 [Music Studio]",
+      "publishedAt": "2025-09-05",
+      "descriptionSummary": "2025년 팬 음원 아카이브가 곡을 ‘이글스를 위하여 (리듬응원)’라는 제목으로 게시했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recentFanArchive", "titleVariant"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-clap-2021-leader",
+      "songId": "hanwha-eagles-clap-cheer",
+      "url": "https://www.youtube.com/watch?v=CBnA1-hM7Lc",
+      "videoId": "CBnA1-hM7Lc",
+      "title": "[2021] 한화이글스 응원가 클랩응원타임~!",
+      "channel": "창화信 hongchanghwa",
+      "publishedAt": "2021-04-24",
+      "descriptionSummary": "응원단장 홍창화의 채널이 육성응원이 불가능한 상황을 고려해 박수 응원을 준비했으며, 쉬운 리듬과 간단한 동작으로 구성했다고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["리듬이 중독성 있고 따라 하기 쉽고 재미있다는 반응이 반복된다.", "응원 방법 설명에 감사하거나 경기장에 가지 못해 집에서 따라 한다는 반응이 보인다."],
+      "supports": ["introduction2021", "creatorExplanation", "participationDesign"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-clap-2022-upload",
+      "songId": "hanwha-eagles-clap-cheer",
+      "url": "https://www.youtube.com/watch?v=kBI5xcAUH2Y",
+      "videoId": "kBI5xcAUH2Y",
+      "title": "한화이글스 치어리더 클랩 응원 210704",
+      "channel": "S깡통",
+      "publishedAt": "2022-04-30",
+      "descriptionSummary": "2021년 7월 4일 치어리더의 클랩 응원을 촬영해 2022년에 게시한 현장 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["historicalUsage", "cheerleaderPerformance"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-clap-2023-stadium",
+      "songId": "hanwha-eagles-clap-cheer",
+      "url": "https://www.youtube.com/watch?v=FbnpbX-FtAc",
+      "videoId": "FbnpbX-FtAc",
+      "title": "[4K] 230503 한화이글스 이미래 치어리더 (한화응원가 - 클랩응원타임)",
+      "channel": "구운동마법사",
+      "publishedAt": "2023-05-03",
+      "descriptionSummary": "2023년 5월 3일 클랩응원타임에 맞춘 치어리더 공연을 4K로 촬영한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 치어리더의 높은 에너지를 유머러스하게 칭찬하며 곡의 연혁 정보는 없다."],
+      "supports": ["usage2023", "cheerleaderPerformance"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-clap-2024-compilation",
+      "songId": "hanwha-eagles-clap-cheer",
+      "url": "https://www.youtube.com/watch?v=wwoi2Kwv6FQ",
+      "videoId": "wwoi2Kwv6FQ",
+      "title": "한화이글스 응원가 모음 Ver.2024⚾모두가 인정하는 응원가 끝판대장",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2024-04-12",
+      "descriptionSummary": "2024 응원가 모음의 설명 목차가 32:43에 클랩타임을 수록한다. 이 자료는 2024 존재를 뒷받침하지만 연장전 한정 부활을 입증하지는 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한화 팀 응원가 전반을 칭찬하는 반응이 반복되며 클랩타임의 부활 시점에 관한 구체적 증언은 없다."],
+      "supports": ["usage2024", "revivalClaimUnverified"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-clap-2025-stadium",
+      "songId": "hanwha-eagles-clap-cheer",
+      "url": "https://www.youtube.com/watch?v=6zcd5nbERZM",
+      "videoId": "6zcd5nbERZM",
+      "title": "한화이글스 치어리더 라인업송 + 불타는 태양 + 클랩 응원  250323 4k",
+      "channel": "S깡통",
+      "publishedAt": "2025-03-25",
+      "descriptionSummary": "2025년 3월 23일 경기장에서 라인업송, 불타는 태양과 함께 클랩 응원을 촬영한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 1개가 표시되지만 확인 화면에 텍스트가 없어 반응 경향을 추출하지 않았다."],
+      "supports": ["usage2025", "stadiumFootage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-2018-july",
+      "songId": "hanwha-eagles-seungniwihae-oechyeora",
+      "url": "https://www.youtube.com/watch?v=1sLfp5f0Db0",
+      "videoId": "1sLfp5f0Db0",
+      "title": "20180727 한화 치어리더 응원 공연 - 승리 위해 외쳐라",
+      "channel": "에릭벨TV Ericbell",
+      "publishedAt": "2018-07-27",
+      "descriptionSummary": "2018년 7월 27일 잠실에서 진행된 ‘승리 위해 외쳐라’ 치어리더 공연 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["introductionEra", "historicalUsage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-2018-august",
+      "songId": "hanwha-eagles-seungniwihae-oechyeora",
+      "url": "https://www.youtube.com/watch?v=45NYMMJCbXU",
+      "videoId": "45NYMMJCbXU",
+      "title": "한화 이글스 응원가 - 사랑한다 이글스+승리 위해 외쳐라 (2018.8.8 잠실)",
+      "channel": "Jooyoung Lee",
+      "publishedAt": "2018-08-08",
+      "descriptionSummary": "2018년 8월 8일 잠실 직관에서 ‘사랑한다 이글스’와 ‘승리 위해 외쳐라’를 연이어 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["좋아하는 응원가라는 반응과 경기장에서 더 자주 쓰이길 바란다는 반응이 반복된다.", "떼창에 잘 어울린다는 평가가 있으며, 한 댓글은 다른 응원 문화와의 선율 유사성을 질문한다."],
+      "supports": ["usage2018", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-2019-stadium",
+      "songId": "hanwha-eagles-seungniwihae-oechyeora",
+      "url": "https://www.youtube.com/watch?v=fvH6FT3GMOU",
+      "videoId": "fvH6FT3GMOU",
+      "title": "한화이글스 팀응원가 승리 위해 외쳐라",
+      "channel": "잭참새",
+      "publishedAt": "2019-11-22",
+      "descriptionSummary": "2019년 5월 10일 잠실야구장에서 진행된 팀 응원가 ‘승리 위해 외쳐라’ 현장 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["usage2019", "stadiumFootage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-2019-extra-inning",
+      "songId": "hanwha-eagles-seungniwihae-oechyeora",
+      "url": "https://www.youtube.com/watch?v=s7sGXpRrLQc",
+      "videoId": "s7sGXpRrLQc",
+      "title": "20190609 한화 치어리더 공연 - 승리위해 외쳐라(연장10회 돌입해서 1번더...)",
+      "channel": "에릭벨TV Ericbell",
+      "publishedAt": "2019-06-10",
+      "descriptionSummary": "2019년 6월 9일 대전 경기에서 연장 10회 진입 뒤 곡을 한 차례 더 진행한 상황을 제목과 설명이 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["extraInningContext", "usage2019"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-2023-stadium",
+      "songId": "hanwha-eagles-seungniwihae-oechyeora",
+      "url": "https://www.youtube.com/watch?v=kr9CUIt3Auk",
+      "videoId": "kr9CUIt3Auk",
+      "title": "230616 한화이글스 김연정 치어리더 응원가 - 승리위해 외쳐라",
+      "channel": "huny cam_후니",
+      "publishedAt": "2023-06-16",
+      "descriptionSummary": "2023년 6월 16일 현장에서 ‘승리위해 외쳐라’에 맞춘 치어리더 공연을 촬영했다. 설명은 영상 재게시 제한과 해시태그를 덧붙인다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["usage2023", "cheerleaderPerformance"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-victory-2025-audio",
+      "songId": "hanwha-eagles-seungniwihae-oechyeora",
+      "url": "https://www.youtube.com/watch?v=dGuB9tHL8wE",
+      "videoId": "dGuB9tHL8wE",
+      "title": "한화이글스 팀응원가 승리위해 외쳐라 최초 고음질",
+      "channel": "시환이최고 [Music Studio]",
+      "publishedAt": "2025-05-18",
+      "descriptionSummary": "2025년 팬 음원 채널이 ‘승리위해 외쳐라’의 고음질 버전을 게시했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["가장 좋아하는 응원가라는 반응과 경기 후반 특정 시점에 활용되길 바란다는 반응이 있다."],
+      "supports": ["recentFanArchive", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-together-2019-stadium",
+      "songId": "hanwha-eagles-hanadoeeo-oechyeo",
+      "url": "https://www.youtube.com/watch?v=Sole9HaCwvo",
+      "videoId": "Sole9HaCwvo",
+      "title": "20190323 한화 치어리더 공연 - 하나되어 외쳐(Feat.이글스파크 새 장내 아나운서)",
+      "channel": "에릭벨TV Ericbell",
+      "publishedAt": "2019-03-23",
+      "descriptionSummary": "2019년 3월 23일 잠실에서 새 장내 아나운서와 함께 진행한 ‘하나되어 외쳐’ 치어리더 공연 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 댓글은 최근에는 왜 이 곡을 사용하지 않는지 질문해 이후 비사용 또는 사용 빈도 감소를 시사한다."],
+      "supports": ["usage2019", "laterHiatusSignal"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-together-2025-fanmv",
+      "songId": "hanwha-eagles-hanadoeeo-oechyeo",
+      "url": "https://www.youtube.com/watch?v=trTc9hZP08A",
+      "videoId": "trTc9hZP08A",
+      "title": "한화 이글스 응원가 - 하나되어 외쳐",
+      "channel": "SyntaxError",
+      "publishedAt": "2025-02-15",
+      "descriptionSummary": "팬 제작 영상으로 수익 목적이 아니며 권리가 원저작자에게 있다고 밝힌다. 설명에 전체 가사가 실려 있으나 데이터에는 가사 구조와 권리 고지만 요약했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["2018~2019년 무렵 사용된 곡이 다시 들렸다는 기억과 복귀 여부를 묻는 반응이 반복된다.", "좋은 옛 응원가를 되살리길 바란다는 의견과 떼창에 잘 맞는다는 평가가 많다."],
+      "supports": ["reported2025Revival", "historicalMemory", "rightsNotice"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-together-2025-february",
+      "songId": "hanwha-eagles-hanadoeeo-oechyeo",
+      "url": "https://www.youtube.com/watch?v=7YJChy3KeuM",
+      "videoId": "7YJChy3KeuM",
+      "title": "한화이글스 팀응원가 “하나되어 외쳐”",
+      "channel": "이글스토리",
+      "publishedAt": "2025-02-17",
+      "descriptionSummary": "2025년 2월 팬 채널이 팀 응원가 ‘하나되어 외쳐’ 음원을 게시한 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡이 중독성 있고 좋다는 반응과 사용 시작 시점을 묻는 반응이 있다."],
+      "supports": ["reported2025Revival", "fanArchive"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-together-2025-april",
+      "songId": "hanwha-eagles-hanadoeeo-oechyeo",
+      "url": "https://www.youtube.com/watch?v=2YB3ZfbrHaw",
+      "videoId": "2YB3ZfbrHaw",
+      "title": "한화이글스 하나되어 외쳐",
+      "channel": "시환이최고 [Music Studio]",
+      "publishedAt": "2025-04-20",
+      "descriptionSummary": "2025년 4월 팬 음원 채널이 ‘하나되어 외쳐’를 별도 트랙으로 게시했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 팀의 우승을 기원하는 반응이며 곡의 연혁 정보는 없다."],
+      "supports": ["reported2025Revival", "fanArchive"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-together-2025-season-audio",
+      "songId": "hanwha-eagles-hanadoeeo-oechyeo",
+      "url": "https://www.youtube.com/watch?v=BuygKsBlWvI",
+      "videoId": "BuygKsBlWvI",
+      "title": "[한화 이글스] 팀 응원가 - 하나 되어 외쳐라 (2025)",
+      "channel": "은최",
+      "publishedAt": "2025-04-21",
+      "descriptionSummary": "2025 시즌 표기를 붙인 팬 음원 아카이브로 곡명을 ‘하나 되어 외쳐라’라는 변형 제목으로 게시했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["경기장에서 더 자주 쓰였으면 좋겠다는 반응과 가장 좋아하는 곡이라는 반응이 반복된다.", "가을야구 분위기에 어울리며 다시 게시되어 반갑다는 의견이 있다."],
+      "supports": ["reported2025Revival", "titleVariant", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-together-2026-audio",
+      "songId": "hanwha-eagles-hanadoeeo-oechyeo",
+      "url": "https://www.youtube.com/watch?v=NTw3rC-otx4",
+      "videoId": "NTw3rC-otx4",
+      "title": "[한화 이글스] 팀 응원가 - 하나 되어 외쳐라 (2026)",
+      "channel": "은최",
+      "publishedAt": "2026-04-18",
+      "descriptionSummary": "2026 시즌 표기를 붙인 팬 음원 업로드다. 팬 아카이브의 존재만으로 실제 경기장 정기 사용을 확정하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["더 긴 버전을 요청하는 반응이 있으며 다른 댓글은 선수 이름만 언급해 사용 맥락을 제공하지 않는다."],
+      "supports": ["fanArchive2026", "currentUsageUncertain"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 29,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

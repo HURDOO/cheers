@@ -1,0 +1,1385 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-inha-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-inha",
+    "name": "인하대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고 공개 댓글은 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "inha-a-for-inha",
+      "title": "인하를 위하여",
+      "aliases": ["인하를위하여"],
+      "currentStatus": "current-directly-verified-through-2026-assess-festival",
+      "summary": "트랜스픽션이 2006 독일 월드컵을 위해 발표한 ‘승리를 위하여’를 인하대학교용으로 개사한 응원가다. ASSESS 공식 채널에서 현재 확인되는 첫 곡별 공연은 2023 ASSESS Festival이며, 같은 해 비룡제와 2024 새터·정기공연, 2025 새터·비룡제·정기공연, 2026 제43회 ASSESS Festival까지 이어진다. 2024 공식 녹음본 설명은 원곡과 세대별 연주자를 직접 밝히고 가사도 제공하지만, 개사자·도입연도·이용 허락은 공개하지 않는다. 공식 가사와 나무위키 사이에는 ‘함께 하리라/함께 가리라’라는 한 단어 변형이 있어 공식형을 우선하고 편집형 변형도 보존한다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "트랜스픽션 ‘승리를 위하여’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-studio-2024", "yt-inha-a-for-orientation-2024", "yt-inha-a-for-source-mv", "ev-inha-a-namu-cheers", "ev-inha-a-bugs-transfixion"],
+          "notes": "ASSESS 공식 설명 두 편과 나무위키가 같은 원곡을 명시하며, 아티스트 공식 MV와 음원 카탈로그로 원작을 교차했다."
+        },
+        {
+          "field": "sourceRelease",
+          "value": "2006-03-31, KTF·붉은악마 월드컵 응원 앨범 ‘Reds, Go Together’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-inha-a-bugs-transfixion", "yt-inha-a-for-source-mv"],
+          "notes": "2008 정규 3집에는 새 편곡 버전이 다시 실렸으나 어느 음원 판본을 인하대가 직접 기준으로 삼았는지는 확인되지 않았다."
+        },
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2023 ASSESS Festival",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-festival-2023"],
+          "notes": "2023-05-25 게시된 137초 곡별 영상이 현재 확보한 가장 이른 정확 제목 직접 표본이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 늦어도 2023년에는 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-festival-2023", "ev-inha-a-namu-cheers", "ev-inha-a-youtube-search-audit"],
+          "notes": "2023년 이전 정확 제목 검색에서 직접 표본을 찾지 못했지만 검색 누락·비공개·메들리 내부 사용 가능성이 있어 2023년을 도입연도로 단정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 제43회 ASSESS Festival 2부 공식 응원가 세트",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-festival-2026", "ev-inha-a-inventory"],
+          "notes": "2026 공식 설명의 공연곡 목록에 인하의 정신으로·최강 인하와 함께 명시된다."
+        },
+        {
+          "field": "recordingPersonnel2024",
+          "value": "보컬 이재원(31기), 드럼 정규석(42기), 건반 이혜인(43기), 베이스 안예빈(45기), 기타 박찬영(46기)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-studio-2024"],
+          "notes": "공식 설명이 ‘녹음본’ 참여자로 직접 기재한다. 개사·편곡·프로듀싱 크레딧으로 확대 해석하지 않았다."
+        },
+        {
+          "field": "lyricVariant",
+          "value": "공식 녹음본은 동행 표현을 ‘함께 하리라’, 나무위키는 ‘함께 가리라’로 표기",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-studio-2024", "ev-inha-a-namu-cheers"],
+          "notes": "사이트 표시는 ASSESS 공식 설명형을 우선하고 편집형 문서의 변형은 출처와 함께 별도 보존해야 한다."
+        },
+        {
+          "field": "documentedContinuity",
+          "value": "2023·2024·2025 ASSESS Festival, 2023·2025 비룡제, 2024·2025 새터, 2026 ASSESS Festival",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-festival-2023", "yt-inha-a-for-biryong-2023", "yt-inha-a-for-orientation-2024", "yt-inha-a-for-festival-2024", "yt-inha-a-for-freshman-2025", "yt-inha-a-for-biryong-2025", "yt-inha-a-for-festival-2025", "yt-inha-a-for-festival-2026"],
+          "notes": "정기공연·대학축제·신입생 교육이라는 서로 다른 맥락에서 반복 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "ASSESS Festival의 학교 응원가 순서에서 라이브 밴드와 액션 파트가 함께 공연한다.",
+        "비룡제에서 학교명과 승리 구호를 관중과 주고받는 축제 응원가로 사용된다.",
+        "단과대 새내기 새로배움터에서 다른 핵심 응원가와 묶어 신입생에게 소개한다."
+      ],
+      "trivia": [
+        {
+          "id": "for-inha-official-wiki-word-variant",
+          "summary": "공식 2024 녹음본과 나무위키가 동행을 표현하는 한 단어를 다르게 적는다. 작은 차이지만 전체 가사를 기계적으로 병합하면 실제 공식형을 훼손할 수 있는 사례다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-studio-2024", "ev-inha-a-namu-cheers"]
+        },
+        {
+          "id": "for-inha-performance-cue",
+          "summary": "공식 녹음본 설명은 학교 함성을 언급하는 대목 사이에 관중이 소리를 내는 무대 지시를 괄호로 넣는다. 나무위키 가사에는 이 지시가 없어 노랫말과 현장 큐를 구분할 필요가 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-studio-2024", "ev-inha-a-namu-cheers"]
+        },
+        {
+          "id": "for-inha-cross-generation-recording",
+          "summary": "2024 공개 녹음본은 31기 보컬부터 46기 기타까지 서로 다른 기수의 단원이 한 음원에 참여했다. ASSESS가 밴드와 액션으로 구성된다는 오래된 취재와도 맞지만, 녹음 시점과 제작 감독은 별도 공개되지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-studio-2024", "ev-inha-a-hankyung-2013"]
+        },
+        {
+          "id": "for-inha-comment-puns",
+          "summary": "공식 녹음본 댓글에는 입학 허가를 바라는 농담, ‘인하’와 금리 인하를 연결한 말장난, 학교 구호, 제작이 단순해 보인다는 비판이 함께 있다. 곡의 사실 정보보다 온라인 수용의 폭을 보여 주는 익명 반응으로만 기록했다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-studio-2024"]
+        },
+        {
+          "id": "for-inha-source-reception",
+          "summary": "트랜스픽션 공식 MV 댓글은 여러 월드컵·국가대표 경기의 기억, 세대를 넘는 대표 응원가라는 평가, 오래 지나도 다시 찾는다는 반응을 반복한다. 이는 원곡 수용이며 인하대 현장 반응으로 계산하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-for-source-mv"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Transfixion's 2006 football cheer song; Inha adaptation credits, arrangement, choreography, recording ownership and permission are not fully documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=jeCZcK9RxW0",
+          "https://www.youtube.com/watch?v=7fsLYW8uUd8",
+          "https://music.bugs.co.kr/track/80204660",
+          "https://namu.wiki/w/%EC%9D%B8%ED%95%98%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "무가사 합창과 제목·동행 선언을 여러 차례 반복한 뒤 학교의 함성·세계로 나아가는 이미지, 손을 잡고 함께 응원하자는 집단 구절로 전환하고 처음 후렴으로 돌아간다. 공식 설명에는 별도의 관중 함성 큐가 포함된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-inha-a-for-festival-2023",
+        "yt-inha-a-for-biryong-2023",
+        "yt-inha-a-for-orientation-2024",
+        "yt-inha-a-for-festival-2024",
+        "yt-inha-a-for-studio-2024",
+        "yt-inha-a-for-freshman-2025",
+        "yt-inha-a-for-biryong-2025",
+        "yt-inha-a-for-festival-2025",
+        "yt-inha-a-for-festival-2026",
+        "yt-inha-a-for-source-mv"
+      ],
+      "unresolved": [
+        "2023년 이전 사용 여부와 정확한 도입·초연 행사",
+        "인하대판 개사·편곡·안무 제작자와 제작 경위",
+        "공식 ‘함께 하리라’와 편집형 문서 ‘함께 가리라’ 변형의 실제 연도별 사용 범위",
+        "공인 악보·응원법·버전 기록과 트랜스픽션 원곡 이용 허락 범위",
+        "2024 녹음본의 제작일·프로듀서·녹음 권리 주체와 연주자 외 참여자"
+      ]
+    },
+    {
+      "id": "inha-a-strongest-inha",
+      "title": "최강 인하",
+      "aliases": ["최강인하"],
+      "currentStatus": "current-directly-verified-through-2026-assess-festival",
+      "summary": "삼성 라이온즈가 2018년에 공개한 창작 팀 응원가 ‘승리를 위해’를 인하대학교용으로 개사한 짧은 집단응원곡이다. 현재 확보한 첫 직접 기록은 2023 ASSESS Festival이고, 2024 정기공연·공식 녹음본, 2025 입학식·여러 단과대 새터·비룡제·정기공연, 2026 제43회 ASSESS Festival로 이어진다. 인하대 공식 채널은 붙여 쓴 ‘최강인하’와 띄어 쓴 ‘최강 인하’를 모두 사용한다. 공식 녹음본 댓글에서도 삼성 원곡을 즉시 알아본 반응과 저작권 질문이 함께 나와, 원곡 계보는 확실하지만 대학판 개사 허락과 제작자는 별도로 확인해야 한다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "삼성 라이온즈 ‘승리를 위해’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-studio-2024", "yt-inha-a-strong-source-official-2018", "yt-inha-a-strong-source-licensed-2019", "ev-inha-a-namu-cheers", "ev-inha-a-samsung-interview"],
+          "notes": "ASSESS 공식 설명과 나무위키가 같은 삼성 응원가를 적고 구단 영상·허니크루 유통 음원으로 교차했다."
+        },
+        {
+          "field": "sourceHistory",
+          "value": "삼성판은 2018년 팀 응원가로 공개; 2019-05-20 허니크루 음원 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-source-official-2018", "yt-inha-a-strong-source-licensed-2019", "ev-inha-a-samsung-interview", "ev-inha-a-apple-samsung-victory"],
+          "notes": "원래 이원석 선수 응원가로 구상됐다가 팀곡으로 확대됐다는 제작 당사자 인터뷰를 포함한다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "유통 메타데이터상 허니크루 가창, 김상헌 작사·작곡·편곡",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-source-licensed-2019", "ev-inha-a-samsung-interview"],
+          "notes": "Topic 등록값은 김상헌 단독이지만 당사자 인터뷰는 외부 음향 업체와의 협업 및 업체 대표가 등록을 사양한 경위를 말한다. 등록 크레딧과 실제 제작 협업을 분리했다."
+        },
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2023 ASSESS Festival",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-festival-2023"],
+          "notes": "2023-05-25 게시된 87초 곡별 영상이 현재 확보한 가장 이른 정확 제목 직접 표본이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 늦어도 2023년에는 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-festival-2023", "ev-inha-a-youtube-search-audit", "ev-inha-a-namu-cheers"],
+          "notes": "검색 가능한 2022년 이전 제목 표본이 없지만 초연 연도로 역추론하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 제43회 ASSESS Festival 2부 공식 응원가 세트",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-festival-2026", "ev-inha-a-inventory"],
+          "notes": "2025 입학식·비룡제·정기공연 뒤 2026 공식 세트에도 명시된다."
+        },
+        {
+          "field": "titleOrthography",
+          "value": "공식 채널은 ‘최강인하’와 ‘최강 인하’를 병용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-studio-2024", "yt-inha-a-strong-festival-2026", "ev-inha-a-namu-cheers"],
+          "notes": "대표 제목은 인벤토리·나무위키·2026 세트의 띄어쓰기형으로 두고 붙임표기를 별칭으로 보존한다."
+        },
+        {
+          "field": "recordingPersonnel2024",
+          "value": "보컬 이재원(31기), 드럼 정규석(42기), 건반 이혜인(43기), 베이스 안예빈(45기), 기타 박찬영(46기)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-studio-2024"],
+          "notes": "공식 설명의 녹음본 연주자이며 개사·편곡 크레딧은 아니다."
+        },
+        {
+          "field": "lyricOrthography",
+          "value": "공식 녹음본은 응원 구호를 ‘화이팅’, 나무위키는 ‘파이팅’으로 표기",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-studio-2024", "ev-inha-a-namu-cheers"],
+          "notes": "발음 차이보다 표기 변형으로 보고 공식 설명형을 우선한다."
+        }
+      ],
+      "usageContexts": [
+        "입학식에서 신입생에게 학교명 구호를 짧고 반복적으로 소개하는 순서로 공연된다.",
+        "단과대 새터에서 인하의 정신으로·인하를 위하여와 묶인 핵심 3곡 세트에 들어간다.",
+        "ASSESS Festival과 비룡제에서 약 80초의 빠른 선창·후창 곡으로 사용된다."
+      ],
+      "trivia": [
+        {
+          "id": "strong-inha-source-player-origin",
+          "summary": "삼성 원곡은 처음 이원석 선수 개인 응원가로 구상됐지만 웅장한 편곡으로 규모가 커져 팀 응원가가 됐다고 김상헌 응원단장이 설명했다. 인하대판이 그 선수곡 단계가 아니라 정식 팀곡을 참조했다는 공식 표기와 맞는다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-inha-a-samsung-interview", "yt-inha-a-strong-studio-2024"]
+        },
+        {
+          "id": "strong-inha-source-recognition-comments",
+          "summary": "공식 녹음본 댓글은 삼성판의 다음 구절을 연상한 반응과 삼성 구호의 초성 표기를 남기고, 별도로 저작권 문제가 없는지 묻는다. 즉시 원곡을 알아보는 수용과 권리 불확실성이 동시에 드러난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-studio-2024"]
+        },
+        {
+          "id": "strong-inha-color-association",
+          "summary": "한 댓글은 인하대 캐릭터와 삼성 라이온즈가 모두 파란 계열이라는 점을 연결한다. 제작 경위와 무관한 팬 관찰이므로 여담으로만 남긴다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-studio-2024"]
+        },
+        {
+          "id": "strong-inha-title-spacing",
+          "summary": "2023~2025 곡별 제목은 주로 ‘최강인하’를 쓰지만 2026 공식 세트는 ‘최강 인하’로 띄어 쓴다. 개명 증거가 아니라 채널 내부 표기 흔들림으로 처리했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-festival-2023", "yt-inha-a-strong-studio-2024", "yt-inha-a-strong-festival-2026"]
+        },
+        {
+          "id": "strong-inha-source-reception",
+          "summary": "삼성 구단 공식 영상 댓글은 야구장에서 부를 때 벅차고 힘이 난다는 평가, 타 팀 팬도 찾아듣는다는 반응, 엘도라도와 비교하는 선호를 반복한다. 이는 삼성 원곡의 수용이며 인하대판 반응과 분리했다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-strong-source-official-2018"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Samsung Lions' 승리를 위해; source recording metadata exists, but Inha adaptation, permission, arrangement, choreography and recording ownership are not fully documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=GRMLfSMH7Dk",
+          "https://www.youtube.com/watch?v=NdhSpZWAh5M",
+          "https://music.apple.com/kr/song/1561097876",
+          "https://namu.wiki/w/%EC%9D%B8%ED%95%98%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "무가사 후렴에 학교 이름을 음절별로 되받는 도입 뒤 모두 함께 외치자는 선창과 최강 인하대 응답을 반복한다. 전체 블록이 한 번 더 이어지는 약 80초 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-inha-a-strong-festival-2023",
+        "yt-inha-a-strong-festival-2024",
+        "yt-inha-a-strong-studio-2024",
+        "yt-inha-a-strong-entrance-2025",
+        "yt-inha-a-strong-freshman-2025",
+        "yt-inha-a-strong-biryong-2025",
+        "yt-inha-a-strong-festival-2025",
+        "yt-inha-a-strong-festival-2026",
+        "yt-inha-a-strong-source-official-2018",
+        "yt-inha-a-strong-source-licensed-2019"
+      ],
+      "unresolved": [
+        "2023년 이전 사용 여부와 정확한 개사·도입·초연 행사",
+        "인하대판 개사·편곡·안무 제작자 및 삼성 원곡 이용 허락 범위",
+        "‘최강 인하/최강인하’와 ‘화이팅/파이팅’ 표기의 공식 표준 및 연도별 변화",
+        "2024 녹음본의 제작일·프로듀서·녹음 권리 주체와 연주자 외 참여자",
+        "입학식·새터·축제 외 경기 응원에서의 실제 사용 조건"
+      ]
+    },
+    {
+      "id": "inha-a-inha-spirit",
+      "title": "인하의 정신으로",
+      "aliases": ["인하의정신으로"],
+      "currentStatus": "current-directly-verified-through-2026-72nd-anniversary",
+      "summary": "ASSESS가 직접 만든 학교 창작 응원가로, 공식 녹음본은 45기 강시원을 작곡자, 제50대 단장 이지성과 강시원을 공동 작사자로 명시한다. 현재 확보한 첫 직접 기록은 2023 ASSESS Festival이며 창작자 중 제50대 단장이 그 공연의 현임 단장이어서 2023년 신곡일 가능성이 높지만, 영상은 초연이라고 쓰지 않아 도입연도는 추정으로 둔다. 2025 입학식·새터·비룡제·정기공연, 2026 ASSESS Festival을 거쳐 인하대학교 본부 공식 채널의 개교 72주년 단독 퍼포먼스까지 이어져 네 후보 중 현행성과 제작자 정보가 가장 강하게 확인된다.",
+      "claims": [
+        {
+          "field": "songOrigin",
+          "value": "ASSESS 자작곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-studio-2024", "yt-inha-a-spirit-orientation-2024", "yt-inha-a-spirit-festival-2024"],
+          "notes": "공식 설명 두 편이 자작곡이라고 직접 적고 독립 녹음본은 내부 창작자를 공개한다."
+        },
+        {
+          "field": "creators",
+          "value": "작곡 강시원(45기); 작사 이지성(제50대 단장)·강시원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-studio-2024"],
+          "notes": "2024 공식 녹음본 설명의 직접 크레딧이다. 편곡자는 별도 표기되지 않았다."
+        },
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2023 ASSESS Festival",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-festival-2023"],
+          "notes": "2023-05-25 게시된 136초 곡별 영상이 현재 확인한 첫 직접 기록이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2023년 신곡으로 추정; 명시적 초연 표기 없음",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-inha-a-spirit-festival-2023", "yt-inha-a-spirit-studio-2024", "ev-inha-a-youtube-search-audit"],
+          "notes": "가장 이른 공연의 제50대 단장 이지성이 공동 작사자로 적혀 해당 임기 창작 가능성이 높다. 그러나 제작일·초연이라고 명시한 프로그램은 찾지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-04-24 개교 72주년 대학 본부 공식 단독 퍼포먼스 및 2026 제43회 ASSESS Festival",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-anniversary-2026", "yt-inha-a-spirit-festival-2026", "ev-inha-a-inventory"],
+          "notes": "응원단 채널뿐 아니라 대학 본부 공식 채널이 개교기념일 대표 퍼포먼스로 선택했다."
+        },
+        {
+          "field": "recordingPersonnel2024",
+          "value": "보컬 이재원(31기), 드럼 정규석(42기), 건반 이혜인(43기), 베이스 안예빈(45기), 기타 박찬영(46기)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-studio-2024"],
+          "notes": "강시원의 작사·작곡 역할과 베이스 연주 역할을 구분하고, 편곡 크레딧은 미확인으로 남겼다."
+        },
+        {
+          "field": "lyricTheme",
+          "value": "비룡의 기운과 개척 정신으로 힘차게 전진한다는 학교 정체성",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-studio-2024", "ev-inha-a-namu-cheers", "yt-inha-a-spirit-anniversary-2026"],
+          "notes": "전체 가사 대신 두 핵심 상징과 반복 구조만 요약했다."
+        },
+        {
+          "field": "documentedContinuity",
+          "value": "2023·2024·2025·2026 정기공연, 2023·2025 비룡제, 2024·2025 새터, 2025 입학식, 2026 개교기념",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-festival-2023", "yt-inha-a-spirit-biryong-2023", "yt-inha-a-spirit-orientation-2024", "yt-inha-a-spirit-festival-2024", "yt-inha-a-spirit-entrance-2025", "yt-inha-a-spirit-freshman-2025", "yt-inha-a-spirit-biryong-2025", "yt-inha-a-spirit-festival-2025", "yt-inha-a-spirit-festival-2026", "yt-inha-a-spirit-anniversary-2026"],
+          "notes": "후보 네 곡 중 가장 다양한 공식 학교 맥락에서 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "입학식과 단과대 새터에서 신입생에게 인하의 비룡·개척 상징을 소개하는 대표 학교곡으로 공연된다.",
+        "비룡제와 ASSESS Festival에서 라이브 밴드·액션이 결합된 약 2분 공연으로 사용된다.",
+        "2026 개교 72주년에는 대학 공식 SNS 홍보대사와 ASSESS가 제작한 단독 기념 퍼포먼스로 선택됐다."
+      ],
+      "trivia": [
+        {
+          "id": "spirit-creator-generation-link",
+          "summary": "공동 작사자 이지성은 가장 이른 2023 공연의 제50대 단장이고, 공동 작사·작곡자 강시원은 같은 공연의 45기 밴드 단원으로 기재된다. 두 사람이 실제 그 무대에 참여한 당대 내부 창작이라는 정황이 강하다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-festival-2023", "yt-inha-a-spirit-studio-2024"]
+        },
+        {
+          "id": "spirit-anniversary-selection",
+          "summary": "대학 본부는 2026년 4월 24일 개교 72주년 당일 이 곡만을 제목에 내건 퍼포먼스를 공개하고 인하인의 자부심과 에너지를 느껴 보라고 소개했다. 정기 응원무대를 넘어 학교 기념 콘텐츠로 확장된 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-anniversary-2026"]
+        },
+        {
+          "id": "spirit-comment-reception",
+          "summary": "2023 공연 댓글은 자신의 학교라는 반가움을, 2025 입학식 댓글은 학교 퍼포먼스에 대한 호감을, 2026 개교기념 댓글은 입학 43년이 지난 동문의 축하와 후배 응원을 담는다. 세대별 학교 동일시가 확인되지만 대표성 있는 여론조사는 아니다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-festival-2023", "yt-inha-a-spirit-entrance-2025", "yt-inha-a-spirit-anniversary-2026"]
+        },
+        {
+          "id": "spirit-lyrics-source-consistency",
+          "summary": "공식 녹음본과 나무위키의 핵심 두 구절·반복 순서는 서로 일치한다. 다만 공인 악보나 응원법 문서는 없어 공연별 음절·동작 차이까지 확정할 수 없다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-spirit-studio-2024", "ev-inha-a-namu-cheers"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "ASSESS-created copyrighted university cheer; named lyricists and composer are documented, but arranger, master ownership, choreography and redistribution permission are not",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=_R1SE8D4JJI",
+          "https://www.youtube.com/watch?v=IInJgK33aW4",
+          "https://namu.wiki/w/%EC%9D%B8%ED%95%98%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "학교 이름을 되풀이하며 비룡의 기운으로 전진하는 짧은 두 줄과 개척 정신으로 나아간다는 짧은 두 줄이 한 묶음을 이루고, 같은 묶음을 다시 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-inha-a-spirit-festival-2023",
+        "yt-inha-a-spirit-biryong-2023",
+        "yt-inha-a-spirit-orientation-2024",
+        "yt-inha-a-spirit-festival-2024",
+        "yt-inha-a-spirit-studio-2024",
+        "yt-inha-a-spirit-entrance-2025",
+        "yt-inha-a-spirit-freshman-2025",
+        "yt-inha-a-spirit-biryong-2025",
+        "yt-inha-a-spirit-festival-2025",
+        "yt-inha-a-spirit-festival-2026",
+        "yt-inha-a-spirit-anniversary-2026"
+      ],
+      "unresolved": [
+        "2023 ASSESS Festival이 실제 초연인지와 정확한 작사·작곡 완료일",
+        "공동 창작 과정과 곡을 만들게 된 계기·제작 인터뷰",
+        "편곡자·녹음 감독·마스터 권리 주체 및 세대별 편곡 변화",
+        "공인 악보·가사본·응원법·안무표와 외부 재사용 허락 범위"
+      ]
+    },
+    {
+      "id": "inha-a-one-inha",
+      "title": "하나되는 인하",
+      "aliases": ["하나 되는 인하"],
+      "currentStatus": "current-status-unconfirmed-last-directly-verified-2024",
+      "summary": "삼성 라이온즈의 36초 응원가 ‘하나되는 박수’를 학교명에 맞춰 개사한 곡이며, 그 선율의 상위 출처는 진선주가 부른 2006년 투니버스 드라마 ‘에일리언 샘’ OST ‘행복한 세상’으로 공식 ASSESS 설명이 두 계보를 각각 적는다. 2023 ASSESS Festival·비룡제와 2024 공과대 새터·제41회 ASSESS Festival·공식 녹음본까지는 직접 확인된다. 그러나 2025 새터·비룡제·정기공연과 2026 정기공연의 공식 응원가 목록은 나머지 세 곡만 적고 이 곡은 빼므로, 2026 현행 후보라는 인벤토리 판단은 직접 뒷받침되지 않는다. 은퇴를 명시한 자료도 없어 ‘마지막 확인 2024, 현행 불명’으로 유지한다.",
+      "claims": [
+        {
+          "field": "immediateSource",
+          "value": "삼성 라이온즈 ‘하나되는 박수’ - 허니크루",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-orientation-2024", "yt-inha-a-one-source-honey", "ev-inha-a-bugs-one-clap", "ev-inha-a-apple-one-clap"],
+          "notes": "2024 공과대 새터 공식 설명이 이 이름과 아티스트를 직접 적고, 2021 유통 음원의 36초 구성과 인하대판 구조가 대응한다."
+        },
+        {
+          "field": "underlyingOriginal",
+          "value": "진선주 ‘행복한 세상’ - ‘에일리언 샘’ OST",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-studio-2024", "ev-inha-a-namu-cheers", "ev-inha-a-bugs-happy-world", "ev-inha-a-apple-alien-sam", "yt-inha-a-one-source-karaoke"],
+          "notes": "독립 녹음본은 상위 원곡과 삼성 사용을 함께 적고, 나무위키·음원 카탈로그·공식 반주 영상이 작품을 교차한다."
+        },
+        {
+          "field": "underlyingOriginalCredits",
+          "value": "진선주 가창, 윤경 작사, 유해준 작곡; 2006-02-23 OST 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-source-karaoke", "ev-inha-a-bugs-happy-world", "ev-inha-a-apple-alien-sam", "ev-inha-a-yesasia-alien-sam"],
+          "notes": "은성 공식 반주 영상이 작사·작곡을, Apple과 Bugs가 가수·앨범·발매일을 제공한다."
+        },
+        {
+          "field": "immediateSourceCredits",
+          "value": "유통 메타데이터상 김상헌 작사·작곡, 박유진 편곡, 허니크루 가창; 2021-04-03 발매",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-source-honey", "ev-inha-a-bugs-one-clap", "ev-inha-a-apple-one-clap", "yt-inha-a-one-studio-2024"],
+          "notes": "삼성 응원가 유통 등록값과 ASSESS가 밝힌 2006 OST 선율 계보가 어떻게 권리·창작 크레딧상 연결되는지는 공개 자료만으로 해소되지 않는다."
+        },
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2023 ASSESS Festival",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-festival-2023"],
+          "notes": "2023-05-25 게시된 42초 곡별 영상이 현재 확보한 가장 이른 정확 제목 기록이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 늦어도 2023년에는 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-festival-2023", "ev-inha-a-youtube-search-audit", "ev-inha-a-namu-cheers"],
+          "notes": "2023년 이전 정확 제목 표본을 찾지 못했으나 초연을 뜻하지 않는다."
+        },
+        {
+          "field": "latestDirectlyConfirmedUse",
+          "value": "2024 제41회 ASSESS Festival 및 2024 공식 녹음본",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-festival-2024", "yt-inha-a-one-studio-2024"],
+          "notes": "공연 영상은 2024-06-24, 녹음본은 2024-09-29 게시됐다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 현행성 미확인; 2025·2026 대표 공식 세트 목록에서 누락",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-inha-a-inventory", "yt-inha-a-one-absence-freshman-2025", "yt-inha-a-one-absence-festival-2026"],
+          "notes": "내부 인벤토리는 후보 현행곡으로 수록했지만, 2025 새터와 2026 정기공연 설명은 인하의 정신으로·최강 인하·인하를 위하여만 명시한다. 선택적 세트일 수 있어 은퇴로 확정하지 않는다."
+        },
+        {
+          "field": "recordingPersonnel2024",
+          "value": "보컬 이재원(31기), 드럼 정규석(42기), 건반 이혜인(43기), 베이스 안예빈(45기), 기타 박찬영(46기)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-studio-2024"],
+          "notes": "공식 설명의 녹음본 참여자다. 개사자·편곡자는 별도 확인되지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "2023·2024 ASSESS Festival에서 약 40초의 짧은 학교 응원가로 공연됐다.",
+        "2023 비룡제와 2024 공과대 새터에서는 인하를 위하여·인하의 정신으로와 이어지는 세트의 첫 곡으로 배치됐다.",
+        "학교명·단결·손 모으기와 짧은 관중 응답을 결합해 빠르게 분위기를 모으는 오프닝 성격의 곡이다."
+      ],
+      "trivia": [
+        {
+          "id": "one-inha-two-level-source-labels",
+          "summary": "같은 ASSESS 공식 채널의 2024 공과대 새터 설명은 즉시 차용원인 허니크루 ‘하나되는 박수’를, 2024 독립 녹음본은 상위 선율 출처인 ‘에일리언 샘’ OST ‘행복한 세상’과 삼성 응원가 사용을 적는다. 모순이라기보다 두 단계 계보를 각각 표시한 것으로 해석하는 것이 가장 잘 맞는다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-orientation-2024", "yt-inha-a-one-studio-2024", "yt-inha-a-one-source-honey", "yt-inha-a-one-source-karaoke"]
+        },
+        {
+          "id": "one-inha-current-candidate-correction",
+          "summary": "2026 현행 인벤토리는 이 곡을 후보에 넣었지만 2025 새터와 2026 정기공연의 공식 학교곡 세트는 세 다른 곡만 열거한다. 최신 직접 기록이 2024에 멈추므로 사이트 반영 전 현행 확인이 필요한 항목이다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-inha-a-inventory", "yt-inha-a-one-studio-2024", "yt-inha-a-one-absence-freshman-2025", "yt-inha-a-one-absence-festival-2026"]
+        },
+        {
+          "id": "one-inha-compact-duration",
+          "summary": "2023·2024 공연은 42초, 공식 녹음본과 허니크루 음원은 모두 36초다. 영상 길이상 네 후보 중 가장 짧고, 동일한 짧은 블록을 반복하는 구조가 안정적으로 유지된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-festival-2023", "yt-inha-a-one-festival-2024", "yt-inha-a-one-studio-2024", "yt-inha-a-one-source-honey"]
+        },
+        {
+          "id": "one-inha-comment-source-identification",
+          "summary": "2023 곡별 영상의 유일한 공개 댓글은 즉시 ‘하나되는 박수’와 삼성 응원가 계보를 지적한다. 공식 2024 설명이 뒤이어 같은 계보를 확인하므로 댓글은 보조적 조기 식별 사례다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-festival-2023", "yt-inha-a-one-orientation-2024"]
+        },
+        {
+          "id": "one-inha-source-credit-conflict",
+          "summary": "2006 OST 자료는 윤경·유해준을 원작 작사·작곡자로 적지만 2021 삼성 응원 음원은 김상헌을 작사·작곡자로 등록한다. 두 녹음의 권리·선율 관계를 설명하는 당사자 자료가 없어 등록 크레딧을 하나로 합치지 않았다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-source-karaoke", "yt-inha-a-one-source-honey", "ev-inha-a-bugs-one-clap", "ev-inha-a-apple-alien-sam"]
+        },
+        {
+          "id": "one-inha-original-nostalgia",
+          "summary": "2006 OST 재게시 영상 댓글은 어린 시절 드라마 장면, 밝은 전주와 희망적인 분위기, 성인이 된 뒤 다시 찾아 듣는 경험을 반복한다. 이는 상위 원곡의 대중 수용이며 인하대판 현장 반응으로 계산하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inha-a-one-source-fan-ost"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted multi-stage adaptation associated with the 2006 Alien Sam OST and Samsung Lions' 2021 하나되는 박수; Inha adaptation credits, permissions, arrangement and choreography are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=fvsWxFlRens",
+          "https://www.youtube.com/watch?v=YulRDQh32Rc",
+          "https://www.youtube.com/watch?v=-5iBRosZ5_4",
+          "https://music.bugs.co.kr/track/32198014",
+          "https://music.bugs.co.kr/track/80189398",
+          "https://namu.wiki/w/%EC%9D%B8%ED%95%98%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "최강 인하와 하나 됨을 선언하고 두 손을 모으는 동작·학교 이름 응답을 붙인 뒤, 모두 함께 외치는 결말과 짧은 학교 구호로 닫는다. 약 18초짜리 한 묶음을 두 번 반복하는 36초 녹음이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-inha-a-one-festival-2023",
+        "yt-inha-a-one-biryong-2023",
+        "yt-inha-a-one-orientation-2024",
+        "yt-inha-a-one-festival-2024",
+        "yt-inha-a-one-studio-2024",
+        "yt-inha-a-one-source-honey",
+        "yt-inha-a-one-source-karaoke",
+        "yt-inha-a-one-source-fan-ost"
+      ],
+      "unresolved": [
+        "2023년 이전 사용 여부와 정확한 개사·도입·초연 행사",
+        "인하대판 개사·편곡·안무 제작자와 2024 녹음 제작진",
+        "2025·2026 대표 세트 누락이 은퇴·휴지·선곡 차이 중 무엇을 뜻하는지",
+        "허니크루 ‘하나되는 박수’와 ‘행복한 세상’ 사이의 공식 편곡·저작권·이용 허락 계보",
+        "2006 OST의 윤경·유해준 크레딧과 2021 삼성 음원의 김상헌 작사·작곡 등록이 병존하는 이유",
+        "2024년 이후 직접 공연 또는 공인 현행 목록",
+        "공인 악보·응원법·안무표와 외부 재사용 허락 범위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-inha-a-inventory",
+      "type": "internal-inventory",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/universities.md#인하대학교--assess",
+      "title": "대학 응원단·현행 응원가 인벤토리 — 인하대학교",
+      "publisher": "project research",
+      "publishedAt": "2026-08-08",
+      "accessedAt": "2026-08-09",
+      "summary": "인하를 위하여·최강 인하·인하의 정신으로·하나되는 인하를 현행 후보로 수록하되 곡별 최근 공연 재확인이 필요하다고 표시한다. 심층 조사에서는 앞 세 곡의 2026 공식 사용을 확인했고 하나되는 인하는 최신 대표 세트에서 빠진 충돌을 보존했다.",
+      "supports": ["inha-a-for-inha", "inha-a-strongest-inha", "inha-a-inha-spirit", "inha-a-one-inha"]
+    },
+    {
+      "id": "ev-inha-a-student-council-assess",
+      "type": "official-student-council-youtube",
+      "url": "https://www.youtube.com/watch?v=EBND8Fde4hs",
+      "title": "[인하대학교 응원단] ASSESS",
+      "publisher": "인하대학교 총학생회",
+      "publishedAt": "2021-11-19",
+      "accessedAt": "2026-08-09",
+      "summary": "ASSESS를 액션 치어리딩과 밴드가 결합된 인하대학교 응원단으로 소개하고 공식 소셜 채널을 연결한다. 해당 영상의 공연곡은 이번 네 곡이 아니어서 곡별 사용 증거로 계산하지 않았다.",
+      "supports": ["inha-a-for-inha", "inha-a-strongest-inha", "inha-a-inha-spirit", "inha-a-one-inha"]
+    },
+    {
+      "id": "ev-inha-a-hankyung-2013",
+      "type": "press-feature",
+      "url": "https://magazine.hankyung.com/job-joy/article/202103119252d",
+      "title": "‘잘나가는’ 명문 동아리 — 인하대 응원단 아쎄스",
+      "publisher": "한경 JOB&JOY",
+      "publishedAt": "2013-06-14",
+      "accessedAt": "2026-08-09",
+      "summary": "인하대 학생기자가 ASSESS를 1977년 창단, 당시 36기·누적 220명 규모로 소개한다. 밴드·액션 두 파트, 단과대 OT 라이브 공연, 연 2회 ASSESS Festival·Rock Concert, 대학응원단연합 활동을 설명한다.",
+      "supports": ["inha-a-for-inha", "inha-a-strongest-inha", "inha-a-inha-spirit", "inha-a-one-inha"]
+    },
+    {
+      "id": "ev-inha-a-professor-news-2023",
+      "type": "press",
+      "url": "https://www.kyosu.net/news/articleView.html?idxno=104875",
+      "title": "인하대, ‘하와이 이민 120주년 기념’ 대학축제 비룡제 개최",
+      "publisher": "교수신문",
+      "publishedAt": "2023-05-16",
+      "accessedAt": "2026-08-09",
+      "summary": "2023 비룡제가 하와이 이민 120주년을 주제로 열리며 ASSESS를 교내 동아리·소모임 공연진으로 명시한다. 개별 곡은 적지 않아 공식 2023 비룡제 응원가 영상과 함께 행사 맥락만 교차한다.",
+      "supports": ["inha-a-for-inha", "inha-a-inha-spirit", "inha-a-one-inha"]
+    },
+    {
+      "id": "ev-inha-a-namu-cheers",
+      "type": "editorial-wiki",
+      "url": "https://namu.wiki/w/%EC%9D%B8%ED%95%98%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "인하대학교/응원가",
+      "publisher": "나무위키",
+      "publishedAt": "2026-05-10",
+      "accessedAt": "2026-08-09",
+      "summary": "네 곡의 가사와 원곡을 정리한다. 인하를 위하여는 트랜스픽션, 최강 인하는 삼성 ‘승리를 위해’, 하나되는 인하는 ‘행복한 세상’과 삼성 사용을 적고 인하의 정신으로에는 별도 원곡을 두지 않는다. 전체 가사는 저장하지 않았으며 공식 설명과 다른 한 단어·표기는 충돌로 남겼다.",
+      "supports": ["inha-a-for-inha", "inha-a-strongest-inha", "inha-a-inha-spirit", "inha-a-one-inha"]
+    },
+    {
+      "id": "ev-inha-a-youtube-search-audit",
+      "type": "search-audit",
+      "url": "https://www.youtube.com/@inhaassess/search",
+      "title": "ASSESS 공식 YouTube 채널 제목·설명 검색 감사",
+      "publisher": "project research",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "공식 채널과 YouTube 전체 검색에서 네 곡명·띄어쓰기·학교명·ASSESS·행사명·2023년 이전 필터를 조합했다. 정확 제목 직접 표본은 모두 2023년부터 나타나며, 2026 세트에는 인하의 정신으로·최강 인하·인하를 위하여만 명시된다. 검색 누락·비공개·삭제·메들리 내부 사용 가능성은 남긴다.",
+      "supports": ["inha-a-for-inha", "inha-a-strongest-inha", "inha-a-inha-spirit", "inha-a-one-inha"]
+    },
+    {
+      "id": "ev-inha-a-bugs-transfixion",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/80204660",
+      "title": "승리를 위하여 / 트랜스픽션",
+      "publisher": "Bugs",
+      "publishedAt": "2006-03-31",
+      "accessedAt": "2026-08-09",
+      "summary": "트랜스픽션의 3분 28초 원곡을 ‘Reds, Go Together (KTF & 붉은악마 월드컵 응원 앨범)’ 수록작으로 식별하고 2006-03-31 발매를 제공한다. 전체 가사는 저장하지 않았다.",
+      "supports": ["inha-a-for-inha"]
+    },
+    {
+      "id": "ev-inha-a-bugs-transfixion-2008",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/156943",
+      "title": "Revolution / 트랜스픽션",
+      "publisher": "Bugs",
+      "publishedAt": "2008-06-12",
+      "accessedAt": "2026-08-09",
+      "summary": "2006 월드컵 때 호응을 얻은 ‘승리를 위하여’ 등 기존 싱글을 새로 편곡해 2008 정규 3집 보너스 트랙으로 수록했다고 설명한다. 인하대판이 2006·2008 중 어느 녹음을 직접 기준으로 했는지는 확인되지 않았다.",
+      "supports": ["inha-a-for-inha"]
+    },
+    {
+      "id": "ev-inha-a-samsung-interview",
+      "type": "press-interview",
+      "url": "https://v.daum.net/v/20190529080303024?s=print_news",
+      "title": "통신사 광고 강타한 삼성 응원가, ‘짭도라도’를 아시나요",
+      "publisher": "스포츠한국",
+      "publishedAt": "2019-05-29",
+      "accessedAt": "2026-08-09",
+      "summary": "김상헌 응원단장이 2018 저작권 국면에서 삼성 자산용 창작곡을 만든 과정, 외부 업체와의 협업, 이원석 선수곡에서 팀곡으로 확대된 경위, 당시 제목 혼선을 설명한다.",
+      "supports": ["inha-a-strongest-inha"]
+    },
+    {
+      "id": "ev-inha-a-apple-samsung-victory",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/song/1561097876",
+      "title": "승리를 위해 / 허니크루",
+      "publisher": "Apple Music",
+      "publishedAt": "2019-05-20",
+      "accessedAt": "2026-08-09",
+      "summary": "허니크루의 2019 삼성 라이온즈 프로야구 응원가 앨범 수록작으로 정식 유통 제목·아티스트·발매일을 확인한다.",
+      "supports": ["inha-a-strongest-inha"]
+    },
+    {
+      "id": "ev-inha-a-bugs-one-clap",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/32198014",
+      "title": "하나되는 박수 / 허니크루",
+      "publisher": "Bugs",
+      "publishedAt": "2021-04-03",
+      "accessedAt": "2026-08-09",
+      "summary": "삼성 라이온즈 응원가를 36초 허니크루 트랙으로 식별하고 김상헌 작사·작곡, 박유진 편곡을 표시한다. 노출된 전체 가사는 저장하지 않았다.",
+      "supports": ["inha-a-one-inha"]
+    },
+    {
+      "id": "ev-inha-a-apple-one-clap",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/us/song/1561437140",
+      "title": "하나되는 박수 / Honey Crew",
+      "publisher": "Apple Music",
+      "publishedAt": "2021-04-03",
+      "accessedAt": "2026-08-09",
+      "summary": "‘2021 삼성라이온즈 프로야구 응원가’ EP의 수록곡·가수·발매일을 독립 카탈로그에서 확인한다.",
+      "supports": ["inha-a-one-inha"]
+    },
+    {
+      "id": "ev-inha-a-bugs-happy-world",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/80189398",
+      "title": "행복한 세상 / 진선주",
+      "publisher": "Bugs",
+      "publishedAt": "2006-02-23",
+      "accessedAt": "2026-08-09",
+      "summary": "진선주의 3분 36초 곡을 ‘에일리언 샘 (투니버스 만화 드라마) OST’ 수록작으로 식별한다. 이용자 등록 전체 가사는 저장하지 않았다.",
+      "supports": ["inha-a-one-inha"]
+    },
+    {
+      "id": "ev-inha-a-apple-alien-sam",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/us/album/%EC%97%90%EC%9D%BC%EB%A6%AC%EC%96%B8-%EC%83%98-%ED%88%AC%EB%8B%88%EB%B2%84%EC%8A%A4-%EB%A7%8C%ED%99%94-%EB%93%9C%EB%9D%BC%EB%A7%88/372927766",
+      "title": "에일리언 샘 (투니버스 만화 드라마) OST",
+      "publisher": "Apple Music",
+      "publishedAt": "2006-02-23",
+      "accessedAt": "2026-08-09",
+      "summary": "10곡짜리 OST 앨범의 발매일과 올리브나인 권리 표기를 제공하며 진선주 ‘행복한 세상’과 별도 합창 버전을 수록한다.",
+      "supports": ["inha-a-one-inha"]
+    },
+    {
+      "id": "ev-inha-a-yesasia-alien-sam",
+      "type": "music-retail-archive",
+      "url": "https://www.yesasia.com/us/alien-sam-ost-tooniverse-tv-series/1004151635-0-0-0-en/info.html",
+      "title": "Alien Sam OST (Tooniverse TV Series)",
+      "publisher": "YesAsia",
+      "publishedAt": "2006",
+      "accessedAt": "2026-08-09",
+      "summary": "OST를 올리브나인 제작·유해준 총괄 프로듀싱으로 소개하고 ‘행복한 세상’을 빠른 엔딩 타이틀곡이자 방영 초 학생들에게 인기를 얻은 곡으로 설명한다.",
+      "supports": ["inha-a-one-inha"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-inha-a-for-festival-2023",
+      "songId": "inha-a-for-inha",
+      "url": "https://www.youtube.com/watch?v=eeJKFuW8r4E",
+      "videoId": "eeJKFuW8r4E",
+      "title": "인하대학교 응원단 2023 ASSESS FESTIVAL__인하를 위하여_응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2023-05-25",
+      "descriptionSummary": "제50대 단장과 액션·밴드 공연진을 열거하고 공식 인스타그램을 연결한 137초 곡별 영상이다. 현재 확보한 가장 이른 정확 제목 직접 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "assessFestivalUse", "liveBand"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-for-biryong-2023",
+      "songId": "inha-a-for-inha",
+      "url": "https://www.youtube.com/watch?v=eLIYle_z1pA",
+      "videoId": "eLIYle_z1pA",
+      "title": "인하대학교 응원단 ASSESS_2023 비룡제_응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2023-06-15",
+      "descriptionSummary": "하나되는 인하·인하를 위하여·인하의 정신으로를 묶은 291초 비룡제 공식 응원가 세트이며 공연진과 공식 소셜 계정을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 액션 파트의 춤을 호평한다."],
+      "supports": ["biryongFestivalUse", "threeSongSet", "documentedContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-for-orientation-2024",
+      "songId": "inha-a-for-inha",
+      "url": "https://www.youtube.com/watch?v=euReiO_Kck0",
+      "videoId": "euReiO_Kck0",
+      "title": "[인하대학교 응원단 ASSESS] 2024 인하대학교 공과대학 새내기 새로 배움터 - 인하대학교 응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-05-15",
+      "descriptionSummary": "공과대 새터 공식 영상으로 0:40부터 이 곡을 수록하고 원곡을 트랜스픽션 ‘승리를 위하여’로 명시한다. 앞에는 하나되는 인하, 뒤에는 자작곡 인하의 정신으로를 배치한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["sourceIdentification", "freshmanEducation", "threeSongSet"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-for-festival-2024",
+      "songId": "inha-a-for-inha",
+      "url": "https://www.youtube.com/watch?v=_hCuMR3A9wc",
+      "videoId": "_hCuMR3A9wc",
+      "title": "[인하대학교 응원단 ASSESS] 2024 41st ASSESS FESTIVAL 2부 - 인하대학교 응원가_인하를 위하여",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-06-24",
+      "descriptionSummary": "제41회 ASSESS Festival 2부의 142초 곡별 영상으로 제51대 단장과 액션·밴드 공연진을 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["assessFestivalUse", "documentedContinuity", "liveBand"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-for-studio-2024",
+      "songId": "inha-a-for-inha",
+      "url": "https://www.youtube.com/watch?v=jeCZcK9RxW0",
+      "videoId": "jeCZcK9RxW0",
+      "title": "[인하대학교 응원단 ASSESS] 인하대학교 응원가_인하를 위하여",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-09-29",
+      "descriptionSummary": "136초 공식 녹음본이다. 원곡을 트랜스픽션으로 밝히고 반복 후렴·학교 함성·관중 큐·손잡기 구조 및 31~46기 녹음 연주자를 제공한다. 전체 가사는 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "학교 구호와 입학을 바라는 농담이 함께 나타난다.",
+        "학교 이름과 금리 인하를 연결한 말장난이 있다.",
+        "제작이 단순해 보인다는 비판적 반응도 한 건 있어 호평만으로 일반화하지 않았다."
+      ],
+      "supports": ["sourceIdentification", "officialLyricsPointer", "performanceCue", "recordingPersonnel", "lyricVariant", "commentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-for-freshman-2025",
+      "songId": "inha-a-for-inha",
+      "url": "https://www.youtube.com/watch?v=Bv5oCnzk90E",
+      "videoId": "Bv5oCnzk90E",
+      "title": "[인하대학교 응원단 ASSESS] 2025 인하대학교 공과대학 새내기 새로 배움터 - 응원가(인하의 정신으로, 최강인하, 인하를 위하여)",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-05-03",
+      "descriptionSummary": "공과대 새터에서 인하의 정신으로·최강인하·인하를 위하여를 연속 공연한 338초 공식 영상이다. 2024 세트의 하나되는 인하가 빠지고 최강인하가 들어간 구성을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["freshmanEducation", "2025ThreeSongSet", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-for-biryong-2025",
+      "songId": "inha-a-for-inha",
+      "url": "https://www.youtube.com/watch?v=Q_NzoeVuqF4",
+      "videoId": "Q_NzoeVuqF4",
+      "title": "[인하대학교 응원단 ASSESS] 2025 인하대학교 비룡제 -인하를 위하여",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-08-11",
+      "descriptionSummary": "제52대 단장과 액션·밴드 명단을 제공한 140초 비룡제 곡별 공연이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["biryongFestivalUse", "2025DirectUse", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-for-festival-2025",
+      "songId": "inha-a-for-inha",
+      "url": "https://www.youtube.com/watch?v=QlZeEGL8y3k",
+      "videoId": "QlZeEGL8y3k",
+      "title": "[인하대학교 응원단 ASSESS] 2025 42nd ASSESS FESTIVAL 2부 - 인하를 위하여",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-08-30",
+      "descriptionSummary": "제42회 ASSESS Festival 2부의 140초 곡별 공식 영상으로 공연진과 곡명을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["assessFestivalUse", "2025DirectUse", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-for-festival-2026",
+      "songId": "inha-a-for-inha",
+      "url": "https://www.youtube.com/watch?v=LMQd-uIA4Pw",
+      "videoId": "LMQd-uIA4Pw",
+      "title": "[인하대학교 응원단 ASSESS] 2026 43rd ASSESS FESTIVAL 2부 - 응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2026-06-18",
+      "descriptionSummary": "제43회 정기공연의 313초 응원가 세트로 인하의 정신으로·최강 인하·인하를 위하여를 공연곡에 명시한다. 하나되는 인하는 목록에 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "official2026Set", "threeSongCore"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-for-source-mv",
+      "songId": "inha-a-for-inha",
+      "url": "https://www.youtube.com/watch?v=7fsLYW8uUd8",
+      "videoId": "7fsLYW8uUd8",
+      "title": "트랜스픽션 (Transfixion) - 승리를 위하여 (Music Video)",
+      "channel": "트랜스픽션 Transfixion",
+      "publishedAt": "2016-04-17",
+      "descriptionSummary": "트랜스픽션 공식 채널의 213초 원곡 MV다. 밴드 공식 사이트·소셜 계정을 연결하며 인하대 직접 사용이 아닌 원작 구조·대중 수용 참고 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 월드컵과 국가대표 경기의 특정 승리 장면을 떠올리고 다시 찾아왔다는 반응이 중심이다.",
+        "세대와 팀 응원을 넘어 오래 남은 대표 축구 응원가라는 평가가 반복된다.",
+        "일부 댓글이 긴 가사·연설을 전재했지만 전문은 저장하지 않았다."
+      ],
+      "supports": ["sourceIdentification", "sourcePerformance", "sourceCommentReception", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-strong-festival-2023",
+      "songId": "inha-a-strongest-inha",
+      "url": "https://www.youtube.com/watch?v=DpXDe62qLLo",
+      "videoId": "DpXDe62qLLo",
+      "title": "인하대학교 응원단 2023 ASSESS FESTIVAL__최강인하_응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2023-05-25",
+      "descriptionSummary": "제50대 단장과 액션·밴드 공연진을 제공한 87초 곡별 영상으로 현재 확보한 가장 이른 정확 제목 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "assessFestivalUse", "titleOrthography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-strong-festival-2024",
+      "songId": "inha-a-strongest-inha",
+      "url": "https://www.youtube.com/watch?v=javMx8YhBI8",
+      "videoId": "javMx8YhBI8",
+      "title": "[인하대학교 응원단 ASSESS] 2024 41st ASSESS FESTIVAL 2부 - 인하대학교 응원가_최강인하",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-06-24",
+      "descriptionSummary": "제41회 ASSESS Festival 2부의 86초 공식 곡별 영상으로 제51대 단장과 액션·밴드 공연진을 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["assessFestivalUse", "documentedContinuity", "liveBand"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-strong-studio-2024",
+      "songId": "inha-a-strongest-inha",
+      "url": "https://www.youtube.com/watch?v=GRMLfSMH7Dk",
+      "videoId": "GRMLfSMH7Dk",
+      "title": "[인하대학교 응원단 ASSESS] 인하대학교 응원가_최강인하",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-09-29",
+      "descriptionSummary": "79초 공식 녹음본으로 삼성 라이온즈 ‘승리를 위해’를 원곡으로 명시하고 학교명 응답·집단 구호의 반복 구조와 31~46기 녹음 연주자를 제공한다. 전체 가사는 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "삼성 원곡의 다음 구절과 구호를 떠올린 반응이 있어 차용원을 즉시 알아보는 수용이 확인된다.",
+        "양쪽의 파란색 캐릭터를 연결한 가벼운 관찰이 있다.",
+        "저작권 문제가 없는지 묻는 댓글도 있어 이용 허락은 별도 확인 과제로 남는다."
+      ],
+      "supports": ["sourceIdentification", "officialLyricsPointer", "recordingPersonnel", "titleOrthography", "lyricOrthography", "commentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-strong-entrance-2025",
+      "songId": "inha-a-strongest-inha",
+      "url": "https://www.youtube.com/watch?v=ClWxEYaMQD8",
+      "videoId": "ClWxEYaMQD8",
+      "title": "[인하대학교 응원단 ASSESS] 2025학년도 인하대학교 입학식 - 최강인하",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-07-22",
+      "descriptionSummary": "2025학년도 입학식에서 제52대 단장과 액션 단원들이 공연한 83초 곡별 공식 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["entranceCeremonyUse", "2025DirectUse", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-strong-freshman-2025",
+      "songId": "inha-a-strongest-inha",
+      "url": "https://www.youtube.com/watch?v=Bv5oCnzk90E",
+      "videoId": "Bv5oCnzk90E",
+      "title": "[인하대학교 응원단 ASSESS] 2025 인하대학교 공과대학 새내기 새로 배움터 - 응원가(인하의 정신으로, 최강인하, 인하를 위하여)",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-05-03",
+      "descriptionSummary": "공과대 새터의 핵심 3곡 공식 영상으로 인하의 정신으로 다음, 인하를 위하여 앞에 이 곡을 배치한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["freshmanEducation", "2025ThreeSongSet", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-strong-biryong-2025",
+      "songId": "inha-a-strongest-inha",
+      "url": "https://www.youtube.com/watch?v=C11s2qjPzQ4",
+      "videoId": "C11s2qjPzQ4",
+      "title": "[인하대학교 응원단 ASSESS] 2025 인하대학교 비룡제 - 최강인하",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-08-11",
+      "descriptionSummary": "제52대 단장과 액션·밴드 공연진을 제공한 87초 비룡제 곡별 공식 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["biryongFestivalUse", "2025DirectUse", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-strong-festival-2025",
+      "songId": "inha-a-strongest-inha",
+      "url": "https://www.youtube.com/watch?v=Jpy-ZbPGivM",
+      "videoId": "Jpy-ZbPGivM",
+      "title": "[인하대학교 응원단 ASSESS] 2025 42nd ASSESS FESTIVAL 2부 - 최강인하",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-08-30",
+      "descriptionSummary": "제42회 ASSESS Festival 2부의 83초 곡별 공식 영상으로 제52대 공연진을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["assessFestivalUse", "2025DirectUse", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-strong-festival-2026",
+      "songId": "inha-a-strongest-inha",
+      "url": "https://www.youtube.com/watch?v=LMQd-uIA4Pw",
+      "videoId": "LMQd-uIA4Pw",
+      "title": "[인하대학교 응원단 ASSESS] 2026 43rd ASSESS FESTIVAL 2부 - 응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2026-06-18",
+      "descriptionSummary": "제43회 정기공연의 공식 응원가 세트로 띄어 쓴 ‘최강 인하’를 인하의 정신으로와 인하를 위하여 사이에 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "official2026Set", "titleOrthography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-strong-source-official-2018",
+      "songId": "inha-a-strongest-inha",
+      "url": "https://www.youtube.com/watch?v=kzh0Ea2wDKs",
+      "videoId": "kzh0Ea2wDKs",
+      "title": "[LionsTV] #라팍 뮤비 #승리의라이온즈 #승리를위한노래",
+      "channel": "LionsTV",
+      "publishedAt": "2018-10-05",
+      "descriptionSummary": "삼성 구단 공식 채널이 시즌 마지막 3경기를 앞두고 경기 장면과 ‘승리를 위한 노래’를 엮은 122초 뮤직비디오다. 인하대 사용이 아닌 삼성 원곡의 2018 공식 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "삼성 팬들은 경기장에서 부를 때 벅차고 힘이 난다며 선호 곡으로 꼽는다.",
+        "타 팀 팬이라고 밝힌 시청자도 반복해서 듣는다는 호평을 남긴다.",
+        "엘도라도와 비교하는 개인 선호가 있지만 우열의 사실 판단에는 사용하지 않았다."
+      ],
+      "supports": ["sourceHistory", "officialSourceUse", "sourceCommentReception", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-strong-source-licensed-2019",
+      "songId": "inha-a-strongest-inha",
+      "url": "https://www.youtube.com/watch?v=NdhSpZWAh5M",
+      "videoId": "NdhSpZWAh5M",
+      "title": "승리를 위해",
+      "channel": "Release - Topic",
+      "publishedAt": "2021-08-29",
+      "descriptionSummary": "YG PLUS 제공 자동 생성 음원으로 허니크루, 2019-05-20 발매, 미듬엔터테인먼트, 김상헌 작사·작곡·편곡을 기재한다. 인하대 직접 사용이 아닌 원곡 권리·크레딧 참고 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["sourceRelease", "sourceCredits", "sourceRights", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-festival-2023",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=lwORTAixhR4",
+      "videoId": "lwORTAixhR4",
+      "title": "인하대학교 응원단 2023 ASSESS FESTIVAL__인하의 정신으로_응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2023-05-25",
+      "descriptionSummary": "제50대 단장 이지성과 45기 강시원을 포함한 액션·밴드 공연진을 제공한 136초 곡별 영상이다. 현재 확보한 가장 이른 직접 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 댓글은 자신의 학교가 등장한 반가움을 표현하고 다른 짧은 댓글은 즐거운 반응을 보인다."],
+      "supports": ["earliestDirectlyConfirmedUse", "creatorGenerationContext", "assessFestivalUse", "commentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-biryong-2023",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=eLIYle_z1pA",
+      "videoId": "eLIYle_z1pA",
+      "title": "인하대학교 응원단 ASSESS_2023 비룡제_응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2023-06-15",
+      "descriptionSummary": "하나되는 인하·인하를 위하여·인하의 정신으로를 묶은 291초 비룡제 공식 응원가 세트다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 액션 파트의 춤을 호평한다."],
+      "supports": ["biryongFestivalUse", "threeSongSet", "documentedContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-orientation-2024",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=euReiO_Kck0",
+      "videoId": "euReiO_Kck0",
+      "title": "[인하대학교 응원단 ASSESS] 2024 인하대학교 공과대학 새내기 새로 배움터 - 인하대학교 응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-05-15",
+      "descriptionSummary": "공과대 새터 공식 영상이 2:50부터 이 곡을 수록하고 ‘자작곡’으로 직접 표기한다. 앞서 하나되는 인하와 인하를 위하여를 공연한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["songOrigin", "freshmanEducation", "threeSongSet"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-festival-2024",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=eeXNffi7cLY",
+      "videoId": "eeXNffi7cLY",
+      "title": "[인하대학교 응원단 ASSESS] 2024 41st ASSESS FESTIVAL 2부 - 인하대학교 응원가_인하의 정신으로",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-06-24",
+      "descriptionSummary": "제41회 ASSESS Festival 2부의 130초 곡별 공연으로 해시태그에서도 자작곡임을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["songOrigin", "assessFestivalUse", "documentedContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-studio-2024",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=_R1SE8D4JJI",
+      "videoId": "_R1SE8D4JJI",
+      "title": "[인하대학교 응원단 ASSESS] 인하대학교 응원가_인하의 정신으로",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-09-29",
+      "descriptionSummary": "125초 공식 녹음본으로 전체 가사와 함께 강시원 작곡, 이지성·강시원 작사, 31~46기 연주자를 직접 공개한다. 전체 가사는 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 곡 제목을 그대로 학교 구호처럼 외친다."],
+      "supports": ["songOrigin", "creators", "officialLyricsPointer", "recordingPersonnel", "lyricTheme"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-entrance-2025",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=eJl-xwenjGs",
+      "videoId": "eJl-xwenjGs",
+      "title": "[인하대학교 응원단 ASSESS] 2025학년도 인하대학교 입학식 - 인하의 정신으로",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-07-22",
+      "descriptionSummary": "2025학년도 입학식에서 제52대 단장과 액션 단원들이 공연한 130초 곡별 공식 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 학교와 공연이 멋지다는 호감을 표현한다."],
+      "supports": ["entranceCeremonyUse", "2025DirectUse", "commentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-freshman-2025",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=Bv5oCnzk90E",
+      "videoId": "Bv5oCnzk90E",
+      "title": "[인하대학교 응원단 ASSESS] 2025 인하대학교 공과대학 새내기 새로 배움터 - 응원가(인하의 정신으로, 최강인하, 인하를 위하여)",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-05-03",
+      "descriptionSummary": "공과대 새터에서 이 곡을 첫 순서로 두고 최강인하·인하를 위하여를 잇는 338초 공식 학교곡 세트다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["freshmanEducation", "2025ThreeSongSet", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-biryong-2025",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=P4HR3KCH7c8",
+      "videoId": "P4HR3KCH7c8",
+      "title": "[인하대학교 응원단 ASSESS] 2025 인하대학교 비룡제 - 인하의 정신으로",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-08-11",
+      "descriptionSummary": "제52대 단장과 액션·밴드 공연진을 제공한 128초 비룡제 곡별 공식 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["biryongFestivalUse", "2025DirectUse", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-festival-2025",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=IvXujXyCL2c",
+      "videoId": "IvXujXyCL2c",
+      "title": "[인하대학교 응원단 ASSESS] 2025 42nd ASSESS FESTIVAL 2부 - 인하의 정신으로",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-08-30",
+      "descriptionSummary": "제42회 ASSESS Festival 2부의 125초 곡별 공식 공연이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["assessFestivalUse", "2025DirectUse", "currentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-festival-2026",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=LMQd-uIA4Pw",
+      "videoId": "LMQd-uIA4Pw",
+      "title": "[인하대학교 응원단 ASSESS] 2026 43rd ASSESS FESTIVAL 2부 - 응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2026-06-18",
+      "descriptionSummary": "제43회 정기공연 응원가 세트의 첫 명시 곡으로 인하의 정신으로를 적고 최강 인하·인하를 위하여를 잇는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "official2026Set", "threeSongCore"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-spirit-anniversary-2026",
+      "songId": "inha-a-inha-spirit",
+      "url": "https://www.youtube.com/watch?v=IInJgK33aW4",
+      "videoId": "IInJgK33aW4",
+      "title": "인하대학교 개교 72주년 기념 ㅣ '인하의 정신으로' 응원단 퍼포먼스 영상",
+      "channel": "인하대학교 Inha University",
+      "publishedAt": "2026-04-23",
+      "descriptionSummary": "인하대학교 본부 공식 채널이 개교 72주년 당일을 위해 공식 SNS 홍보대사 영상팀과 ASSESS가 함께 제작한 127초 단독 퍼포먼스다. 인하인의 자부심과 에너지를 강조한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["입학한 지 43년이 됐다고 밝힌 동문이 개교기념을 축하하고 후배들의 힘찬 대학 생활을 응원한다."],
+      "supports": ["currentUse", "universityOfficialUse", "72ndAnniversary", "institutionalIdentity", "alumniReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-one-festival-2023",
+      "songId": "inha-a-one-inha",
+      "url": "https://www.youtube.com/watch?v=dZiIDhSZ8W0",
+      "videoId": "dZiIDhSZ8W0",
+      "title": "인하대학교 응원단 2023 ASSESS FESTIVAL__하나되는 인하_응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2023-05-25",
+      "descriptionSummary": "제50대 단장과 액션·밴드 공연진을 제공한 42초 곡별 영상으로 현재 확보한 가장 이른 직접 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["유일한 공개 댓글은 곡을 ‘하나되는 박수’로 식별하고 삼성 응원가라는 점을 지적한다."],
+      "supports": ["earliestDirectlyConfirmedUse", "assessFestivalUse", "immediateSourceRecognition"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-one-biryong-2023",
+      "songId": "inha-a-one-inha",
+      "url": "https://www.youtube.com/watch?v=eLIYle_z1pA",
+      "videoId": "eLIYle_z1pA",
+      "title": "인하대학교 응원단 ASSESS_2023 비룡제_응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2023-06-15",
+      "descriptionSummary": "하나되는 인하를 인하를 위하여·인하의 정신으로와 묶은 291초 비룡제 공식 응원가 세트다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 액션 파트의 춤을 호평한다."],
+      "supports": ["biryongFestivalUse", "threeSongSet", "documentedContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-one-orientation-2024",
+      "songId": "inha-a-one-inha",
+      "url": "https://www.youtube.com/watch?v=euReiO_Kck0",
+      "videoId": "euReiO_Kck0",
+      "title": "[인하대학교 응원단 ASSESS] 2024 인하대학교 공과대학 새내기 새로 배움터 - 인하대학교 응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-05-15",
+      "descriptionSummary": "공과대 새터 세트의 0:05 첫 곡으로 수록하고 즉시 차용원을 ‘하나되는 박수 - Honey Crew’로 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["immediateSource", "freshmanEducation", "openingFunction", "threeSongSet"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-one-festival-2024",
+      "songId": "inha-a-one-inha",
+      "url": "https://www.youtube.com/watch?v=M15jzh05NIY",
+      "videoId": "M15jzh05NIY",
+      "title": "[인하대학교 응원단 ASSESS] 2024 41st ASSESS FESTIVAL 2부 - 인하대학교 응원가_하나되는 인하",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-06-24",
+      "descriptionSummary": "제41회 ASSESS Festival 2부의 42초 곡별 공식 영상으로 제51대 단장과 액션·밴드 공연진을 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["latestDirectlyConfirmedPerformance", "assessFestivalUse", "compactDuration"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-one-studio-2024",
+      "songId": "inha-a-one-inha",
+      "url": "https://www.youtube.com/watch?v=fvsWxFlRens",
+      "videoId": "fvsWxFlRens",
+      "title": "[인하대학교 응원단 ASSESS] 인하대학교 응원가_하나되는 인하",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2024-09-29",
+      "descriptionSummary": "36초 공식 녹음본으로 단결·손 모으기·학교명 응답의 짧은 블록을 두 번 제공하고 31~46기 연주자를 기재한다. 원곡을 에일리언 샘 OST ‘행복한 세상’으로, 삼성 응원가 사용도 함께 밝힌다. 전체 가사는 저장하지 않았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["underlyingOriginal", "samsungUsage", "officialLyricsPointer", "recordingPersonnel", "latestDirectlyConfirmedUse", "compactDuration"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-one-source-honey",
+      "songId": "inha-a-one-inha",
+      "url": "https://www.youtube.com/watch?v=YulRDQh32Rc",
+      "videoId": "YulRDQh32Rc",
+      "title": "하나되는 박수",
+      "channel": "Honey Crew - Topic",
+      "publishedAt": "2021-04-14",
+      "descriptionSummary": "YG PLUS 제공 자동 생성 음원으로 2021-04-03 발매, 미듬엔터테인먼트, 허니크루, 김상헌 작사·작곡, 박유진 편곡을 기재한다. 인하대 직접 사용이 아닌 즉시 차용원·유통 권리 참고 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["immediateSource", "sourceRelease", "sourceCredits", "sourceRights", "compactDuration", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-one-source-karaoke",
+      "songId": "inha-a-one-inha",
+      "url": "https://www.youtube.com/watch?v=-5iBRosZ5_4",
+      "videoId": "-5iBRosZ5_4",
+      "title": "[은성 반주기] 행복한세상(에일리언샘OP OST) - 진선주.만화주제곡",
+      "channel": "은성 반주기 공식 유튜브 채널",
+      "publishedAt": "2021-12-10",
+      "descriptionSummary": "공식 반주기 영상이 작품을 진선주 가창의 에일리언 샘 OST로 식별하고 작사 윤경·작곡 유해준을 명시한다. 가사 화면은 전사하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["유일한 공개 댓글은 삼성 ‘하나되는 박수’의 구호를 적어 OST 선율과 야구 응원가의 연결을 알아본다. 가사 전문은 저장하지 않았다."],
+      "supports": ["underlyingOriginal", "underlyingCredits", "sourceRecognition", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-one-source-fan-ost",
+      "songId": "inha-a-one-inha",
+      "url": "https://www.youtube.com/watch?v=Yy0RsqP2V4g",
+      "videoId": "Yy0RsqP2V4g",
+      "title": "Happy world - Alien Sam OST + BTS - Jin Sun Ju",
+      "channel": "Demi Tran",
+      "publishedAt": "2011-04-04",
+      "descriptionSummary": "블로그 자료를 재게시한 비공식 221초 OST 영상이다. 원작 권리·크레딧 근거가 아니라 공개 댓글의 장기 수용과 추억을 관찰하는 표본으로만 사용했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 2006년 드라마의 특정 장면과 어린 시절 투니버스 시청 기억을 반복한다.",
+        "성인이 된 뒤 힘들 때 다시 찾아 듣고 밝은 전주와 희망적인 분위기에서 위로받는다는 반응이 많다.",
+        "리메이크를 바란다는 반응과 여러 해에 걸친 재방문 흔적이 있다."
+      ],
+      "supports": ["underlyingOriginalReception", "nostalgia", "sourceCommentReception", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-one-absence-freshman-2025",
+      "songId": "inha-a-one-inha",
+      "url": "https://www.youtube.com/watch?v=Bv5oCnzk90E",
+      "videoId": "Bv5oCnzk90E",
+      "title": "[인하대학교 응원단 ASSESS] 2025 인하대학교 공과대학 새내기 새로 배움터 - 응원가(인하의 정신으로, 최강인하, 인하를 위하여)",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2025-05-03",
+      "descriptionSummary": "2025 공과대 새터의 학교 응원가 세트가 인하의 정신으로·최강인하·인하를 위하여만 열거하고 하나되는 인하는 포함하지 않는다. 선택적 세트일 수 있어 부재만으로 은퇴를 확정하지 않는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUseConflict", "2025SetOmission", "notDirectUseEvidence", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-inha-a-one-absence-festival-2026",
+      "songId": "inha-a-one-inha",
+      "url": "https://www.youtube.com/watch?v=LMQd-uIA4Pw",
+      "videoId": "LMQd-uIA4Pw",
+      "title": "[인하대학교 응원단 ASSESS] 2026 43rd ASSESS FESTIVAL 2부 - 응원가",
+      "channel": "인하대학교 응원단 ASSESS",
+      "publishedAt": "2026-06-18",
+      "descriptionSummary": "2026 정기공연 공식 응원가 세트가 인하의 정신으로·최강 인하·인하를 위하여만 명시하고 하나되는 인하는 포함하지 않는다. 현행 후보와 충돌하지만 선택적 선곡 가능성을 남긴다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUseConflict", "2026SetOmission", "notDirectUseEvidence", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 4,
+    "youtubeSampleCount": 41,
+    "songsMeetingYoutubeMinimum": 4,
+    "openIssueCount": 21
+  }
+}

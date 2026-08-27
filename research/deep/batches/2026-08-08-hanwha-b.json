@@ -1,0 +1,1320 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-hanwha-b",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-hanwha-eagles",
+    "name": "한화 이글스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문은 저장하지 않는다. 가사는 출처·권리 상태·구조 요약만 기록하고, 전문은 사용자 제공 또는 이용 허락이 확인된 경우에만 별도 승인 뒤 저장한다.",
+  "items": [
+    {
+      "id": "hanwha-eagles-nae-sarang-hanwha",
+      "title": "내 사랑 한화, 내 사랑 이글스",
+      "aliases": ["내 사랑 한화 내 사랑 이글스", "캐논", "한화 캐논"],
+      "currentStatus": "current",
+      "summary": "파헬벨의 ‘Canon and Gigue in D major’ 중 캐논 선율을 바탕으로 2014년에 공개된 팀 응원가다. 7회말의 대표 합창곡으로 알려졌고, 현행 나무위키 문서·2026 팬 제작 현행 목록에도 남아 있다. 원곡 작곡 자체는 공공영역이지만 한화판의 가사·편곡·녹음까지 자동으로 자유 이용 가능한 것은 아니다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Johann Pachelbel — Canon from Canon and Gigue in D major, P.37",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-canon-imslp", "yt-love-origin-list-2017"],
+          "notes": "현행 문서와 2017년 영상 설명이 원곡을 동일하게 특정하며 IMSLP가 작품명·작곡가·편성을 확인한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2014",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-b-namu", "yt-love-canon-full-2014", "yt-love-compilation-2014"],
+          "notes": "2014-05-06 독립 업로드와 같은 달 시즌 응원가 모음이 존재한다. 정확한 첫 경기 날짜는 확인하지 못했다."
+        },
+        {
+          "field": "usage",
+          "value": "7회말에 관중이 일어나 함께 부르는 대표 팀 응원가",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-hanwha-b-manual365", "yt-love-field-2022"],
+          "notes": "문서들은 7회말 고정곡으로 설명한다. 2022 영상 제목의 ‘8회초’는 뒤이어 수록된 별도 육성응원 구간을 가리킬 수 있어 운용 충돌로 확정하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026년에도 현행 응원가 목록에 수록",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-hanwha-b-current-guide", "yt-love-playlist-2026"],
+          "notes": "2026 자료는 팬 제작 전광판형 목록이므로 구단 공식 운용표로 보지는 않는다. 가장 최근 직접 현장 표본은 2024년이다."
+        },
+        {
+          "field": "underlyingCopyright",
+          "value": "파헬벨 원작 악곡은 공공영역으로 제공되는 판본이 존재",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-canon-imslp"],
+          "notes": "공공영역인 것은 원작 작곡이며 현대 편곡·가사·특정 녹음의 권리와는 별개다."
+        },
+        {
+          "field": "adaptationCreator",
+          "value": "미확인",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-b-namu"],
+          "notes": "홍창화 응원단장이 곡을 적극 홍보했다는 서술은 있으나 이를 작사·편곡 크레딧으로 해석할 근거는 없다."
+        }
+      ],
+      "usageContexts": [
+        "7회말 대표 합창·기립 응원",
+        "팀명과 최강 구호를 큰 박자로 함께 외치는 관중 참여",
+        "현장에서는 전주와 구호·팔 동작을 결합한 치어리더 안무"
+      ],
+      "trivia": [
+        {
+          "id": "love-playoff-preparation",
+          "summary": "나무위키는 홍창화 응원단장이 포스트시즌을 대비하는 곡으로 적극 홍보했고, 한화가 2018년 포스트시즌에 진출하면서 그 서사가 현실화됐다고 회고한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-b-namu"]
+        },
+        {
+          "id": "love-basketball-adaptation",
+          "summary": "안양 프로농구 응원단에서도 같은 음악을 바탕으로 한 승리 기원곡을 3쿼터 뒤 사용한다는 사례가 문서에 기록돼 있다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-b-namu"]
+        },
+        {
+          "id": "love-emotional-reception",
+          "summary": "여러 공개 댓글에서는 한화 팬이 아닌 시청자도 곡을 높게 평가하고, 웅장함·울컥함을 느끼거나 학교에서 캐논을 들을 때 응원가가 먼저 떠오른다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-love-audio-2019", "yt-love-field-2022"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-adaptation-rights-unknown-underlying-composition-public-domain",
+        "sourceUrls": [
+          "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=hleo_mKCC2Y",
+          "https://www.youtube.com/watch?v=vjeaMJfamhc"
+        ],
+        "structureSummary": "캐논의 반복 화성 위에 팀을 사랑한다는 짧은 후렴을 두 차례 제시하고, 길게 이어지는 무가사 합창과 팀명 구호를 거쳐 후렴으로 돌아오는 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-love-canon-full-2014",
+        "yt-love-compilation-2014",
+        "yt-love-origin-list-2017",
+        "yt-love-audio-2019",
+        "yt-love-field-2022",
+        "yt-love-cheer-2024",
+        "yt-love-playlist-2026"
+      ],
+      "unresolved": [
+        "정확한 첫 사용 경기와 2014년 구단 발표 원문",
+        "한화판 작사·편곡·녹음 참여자와 권리자",
+        "2026 시즌 실제 고정 재생 이닝 및 홈·원정 운용 차이"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-yeolgwang",
+      "title": "열광",
+      "aliases": ["외쳐라 이글스"],
+      "currentStatus": "current",
+      "summary": "2016년부터 쓰인 후반부 팀 응원가로, 제목은 ‘열광’이고 핵심 구절에서 온 ‘외쳐라 이글스’라는 이름이 널리 쓰인다. 구단 홈페이지가 원곡을 그리그의 ‘Solveig’s Song’으로 안내했다는 기록과, 실제 편곡은 이를 파워메탈로 변형한 Kamelot의 ‘Forever’에 더 가깝다는 주장이 함께 존재한다. 2026년 5월 현장 영상으로 사용이 직접 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2016",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-b-namu", "yt-yeolgwang-audio-2016", "yt-yeolgwang-compilation-2016"],
+          "notes": "2016-03-27 영상 설명은 음원을 당시 한화 홈페이지에서 가져왔다고 명시한다."
+        },
+        {
+          "field": "officialTitle",
+          "value": "열광",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-hanwha-b-current-guide", "yt-yeolgwang-audio-2025"],
+          "notes": "현행 문서·가이드가 ‘열광’을 제목으로 쓰고, 영상 생태계에서는 ‘외쳐라 이글스’를 병기하거나 단독으로 쓰는 경우가 많다."
+        },
+        {
+          "field": "origin",
+          "value": "Edvard Grieg — Solveig’s Song",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-grieg-imslp"],
+          "notes": "나무위키가 당시 한화 홈페이지의 공식 원곡 안내를 인용한다. 지금은 해당 구단 원문을 직접 회수하지 못했다."
+        },
+        {
+          "field": "arrangementLineage",
+          "value": "Kamelot — Forever의 파워메탈 편곡을 경유했을 가능성",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-kamelot-official-karma", "ev-kamelot-studio-2001", "ev-grieg-imslp"],
+          "notes": "Kamelot의 ‘Forever’가 Solveig’s Song의 선율을 사용한 것은 확인되지만, 한화판이 Kamelot 음원을 직접 원전으로 삼았는지는 청감 비교 주장에 머문다."
+        },
+        {
+          "field": "usage",
+          "value": "경기가 달아오른 후반부에 사용하며 시작 전 뛰기 구호를 유도",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-hanwha-b-manual365"],
+          "notes": "응원단장 또는 치어리더가 시작 직전 어깨동무와 점프를 유도한다는 운용 설명이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-05-29 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yeolgwang-field-2026", "ev-hanwha-b-namu", "ev-hanwha-b-current-guide"],
+          "notes": "현장 영상 제목과 설명이 투수 교체 타이밍에 곡이 재생됐음을 직접 기록한다."
+        }
+      ],
+      "usageContexts": [
+        "경기가 달아오른 후반부의 장시간 팀 합창",
+        "응원단의 뛰기 신호 뒤 어깨동무·점프 응원",
+        "투수 교체 등 공수교대·대기 시간의 분위기 고조"
+      ],
+      "trivia": [
+        {
+          "id": "yeolgwang-three-layer-lineage",
+          "summary": "자료상 선율 계보는 그리그의 ‘Solveig’s Song’, 이를 파워메탈로 변형한 Kamelot의 ‘Forever’, 한화 응원가라는 세 층으로 설명되지만 마지막 연결은 확정되지 않았다.",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-kamelot-studio-2001", "ev-grieg-imslp"]
+        },
+        {
+          "id": "yeolgwang-title-confusion",
+          "summary": "2023년 한 팬 영상 설명은 같은 곡을 ‘열정(외쳐라 이글스)’으로 잘못 표기한다. 공식 제목 ‘열광’, 별칭 ‘외쳐라 이글스’, 오기 ‘열정’을 구분할 필요가 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yeolgwang-compilation-2023", "ev-hanwha-b-namu"]
+        },
+        {
+          "id": "yeolgwang-reception",
+          "summary": "공개 댓글에서는 파워풀하고 웅장하다는 평가와 함께 원곡이나 헤비메탈 곡명이 무엇인지 묻는 반응이 되풀이된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yeolgwang-audio-2016", "yt-yeolgwang-fan-mv-2020"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-adaptation-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=WlBd5kCK-Bw",
+          "https://www.youtube.com/watch?v=vEcND_GelJ4"
+        ],
+        "structureSummary": "긴 무가사 합창과 팀명 구호로 문을 연 뒤 승리·함성의 메시지를 담은 짧은 가창부를 거쳐, 처음의 합창과 제목성 구절을 반복하는 경기장형 후렴 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yeolgwang-audio-2016",
+        "yt-yeolgwang-compilation-2016",
+        "yt-yeolgwang-fan-mv-2020",
+        "yt-yeolgwang-compilation-2023",
+        "yt-yeolgwang-audio-2025",
+        "yt-yeolgwang-field-2026"
+      ],
+      "unresolved": [
+        "2016년 당시 한화 홈페이지의 원곡·제작 크레딧 원문 복구",
+        "한화판 편곡이 Kamelot ‘Forever’를 직접 참조했는지 여부",
+        "한화판 작사·편곡·녹음 참여자"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-jjukjjuk-hit-song",
+      "title": "쭉쭉 안타송",
+      "aliases": ["쭉쭉송", "한화 안타송"],
+      "currentStatus": "current",
+      "summary": "2019년 3월 개막 무렵 새로 등장한 공통 안타 응원이다. 안타·홈런을 촉구하는 짧은 문장과 선수 이름을 끼워 넣는 콜앤드리스폰스로 구성되며, 처음에는 낯설었지만 반복 청취와 현장 떼창 뒤 중독성을 인정했다는 반응이 많다. 2026년 6월 현장과 8월 현행 안타송 모음에서 계속 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2019",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-hanwha-b-manual365", "yt-jjukjjuk-opening-2019", "yt-jjukjjuk-opening2-2019"],
+          "notes": "2019-03-23 잠실 현장에서 ‘새로운 안타응원가’로 촬영된 서로 다른 영상 두 편이 남아 있다."
+        },
+        {
+          "field": "usage",
+          "value": "안타·홈런 상황의 공통 응원이며 선수 이름을 가변 삽입",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-b-namu", "yt-jjukjjuk-opening-2019", "yt-jjukjjuk-compilation-2025"],
+          "notes": "2019년 현장 영상과 2025년 ‘안타송 5가지’ 모음에서 용도와 구분을 확인한다."
+        },
+        {
+          "field": "leaderCall",
+          "value": "응원단장이 강도와 타격감을 묻는 선창을 하고 관중이 선수 이름으로 응답",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-b-namu"],
+          "notes": "가사 전문 대신 현장 진행 방식만 구조적으로 기록했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-06-26 현장 사용 및 2026-08-04 현행 안타송 목록 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-jjukjjuk-field-2026", "yt-jjukjjuk-board-2026"],
+          "notes": "현장 촬영과 전광판형 팬 제작 목록이 서로 보완한다."
+        },
+        {
+          "field": "origin",
+          "value": "외부 원곡 미확인",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-b-namu", "yt-jjukjjuk-named-2019"],
+          "notes": "확인한 문서와 음원 설명에는 원곡·작사·작곡 정보가 없고 댓글에도 원곡을 묻는 질문만 남아 있다."
+        }
+      ],
+      "usageContexts": [
+        "팀 타자의 안타 또는 홈런을 요구하는 공통 응원",
+        "개별 선수 이름을 넣는 콜앤드리스폰스",
+        "앰프를 끈 육성 떼창에서도 짧은 박자가 유지되는 안타 상황 응원"
+      ],
+      "trivia": [
+        {
+          "id": "jjukjjuk-grower-reception",
+          "summary": "2019년 영상 댓글에서는 첫인상은 어색했지만 경기장에서 반복해 부른 뒤 계속 맴도는 곡이 됐다는 반응이 여러 차례 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-jjukjjuk-opening-2019"]
+        },
+        {
+          "id": "jjukjjuk-allstar-crossover",
+          "summary": "2022 올스타전 영상에는 다른 한화 대표 응원가와 함께 불린 장면이 남아 있어 정규 팀 경기 밖에서도 인지되는 곡임을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-jjukjjuk-allstar-2022"]
+        },
+        {
+          "id": "jjukjjuk-one-of-many-hit-songs",
+          "summary": "2025년 팬 모음은 이 곡을 다섯 가지 안타송 가운데 하나로 배치하며, 댓글에서는 여전히 이 곡을 가장 선호하거나 단독 음원을 원하는 반응이 보인다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-jjukjjuk-compilation-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-rightsholder-and-credits-unconfirmed",
+        "sourceUrls": [
+          "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=0xvnIhT32lQ",
+          "https://www.youtube.com/watch?v=b4XJ-GUCNdQ"
+        ],
+        "structureSummary": "짧은 안타·홈런 선창과 선수 이름 응답, 점층적으로 힘을 올리는 연결부, 선수 이름을 다시 받는 결말을 한 묶음으로 삼아 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-jjukjjuk-opening-2019",
+        "yt-jjukjjuk-opening2-2019",
+        "yt-jjukjjuk-named-2019",
+        "yt-jjukjjuk-allstar-2022",
+        "yt-jjukjjuk-compilation-2025",
+        "yt-jjukjjuk-field-2026",
+        "yt-jjukjjuk-board-2026"
+      ],
+      "unresolved": [
+        "구단의 정확한 첫 공개일과 제작 공지",
+        "작사·작곡·편곡자 및 외부 원곡 존재 여부",
+        "안타와 홈런 상황별 실제 선택 규칙 및 다른 안타송과의 우선순위"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-tension-olligo",
+      "title": "텐션 올리고",
+      "aliases": ["텐션송", "2020 NEW 리듬응원"],
+      "currentStatus": "current",
+      "summary": "영기의 2020년 트로트곡 ‘동네오빠’를 응원가로 바꾼 짧은 리듬응원이다. 나무위키는 2021년부터 사용했다고 적지만, 2020년 5월 5일 ‘2020 새 팀응원가’ 영상과 같은 해 제목이 명시된 영상이 존재하므로 가장 이른 확인 연도는 2020년이다. 상대 실책 등으로 공짜 출루·진루가 생겼을 때 쓰며 2026년 현장 모음에도 남아 있다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "영기 — 동네오빠",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-youngki-bugs", "ev-youngki-apple"],
+          "notes": "현행 문서가 원곡을 특정하고 상업 음원 카탈로그가 원곡의 제목·가수·크레딧·발매일을 확인한다."
+        },
+        {
+          "field": "originalReleaseDate",
+          "value": "2020-02-10",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-youngki-apple"],
+          "notes": "응원가의 최초 확인 영상보다 약 3개월 앞선다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "보컬 영기; 작곡 김지환·알고보니 혼수상태; 작사 영기·김지환·알고보니 혼수상태; 편곡 김지환·진실이; 프로듀서 플레이사운드",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-youngki-bugs"],
+          "notes": "이는 원곡 크레딧이며 한화판 개사·편집 참여자와 구분한다."
+        },
+        {
+          "field": "earliestDocumentedUse",
+          "value": "2020-05-05",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-tension-new-2020", "yt-tension-official-stream-compilation-2020", "yt-tension-named-2020"],
+          "notes": "5월 5일 영상 제목이 2020 새 응원가로 식별하고, 5월 12일 경기 자료의 시청자 타임라인과 10월 제목 명시 영상이 이를 보강한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2021",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-b-namu", "yt-tension-new-2020"],
+          "notes": "나무위키의 ‘2021년부터’ 서술은 2020-05-05 직접 영상과 양립하지 않는다. 데이터 표시는 2020을 가장 오래 확인된 연도로 채택한다."
+        },
+        {
+          "field": "usage",
+          "value": "상대 실책으로 출루·진루하는 등 한화에 유리한 일이 생길 때",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-hanwha-b-manual365", "yt-tension-named-2020"],
+          "notes": "2020 영상 설명은 더 넓게 ‘신나는 일이 생길 때’라고 표현한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-04-07 현장 리듬응원 모음에 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-tension-field-2026"],
+          "notes": "영상 설명 첫 구간이 이 곡으로 명시된다."
+        }
+      ],
+      "usageContexts": [
+        "상대 수비 실책이나 송구 오류로 출루·추가 진루한 직후",
+        "안타는 아니지만 홈 관중의 흥을 유지할 짧은 리듬응원",
+        "다른 리듬응원과 이어 붙이는 수십 초짜리 공수 흐름 전환"
+      ],
+      "trivia": [
+        {
+          "id": "tension-year-correction",
+          "summary": "2021 도입이라는 문서 서술보다 이른 2020년 5월 영상이 발견돼, ‘since 2021’이 아니라 ‘2020년 사용 확인’으로 교정해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-b-namu", "yt-tension-new-2020", "yt-tension-official-stream-compilation-2020"]
+        },
+        {
+          "id": "tension-pandemic-context",
+          "summary": "2020년 5월 모음은 무관중 개막기 구단 라이브 장면을 재편집한 자료로, 댓글에는 곡의 신남과 달리 관중석에서 직접 응원하지 못하는 아쉬움이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-tension-official-stream-compilation-2020"]
+        },
+        {
+          "id": "tension-initial-reception",
+          "summary": "최초 영상의 공개 댓글은 트로트풍 새 응원에 대한 거부감과 장난스러운 반응이 많아, 도입 초 평가가 일관되게 긍정적이지 않았음을 보여 준다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-tension-new-2020"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-adaptation-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/31826895?wl_ref=list_tr_08_ar",
+          "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=M6zoieKBbxo"
+        ],
+        "structureSummary": "원곡 후렴의 반복적 호명 리듬을 짧게 잘라 상승 분위기를 두 차례 반복하고, 끝에서 관중이 팀명 구호로 응답하도록 바꾼 초단형 응원이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-tension-new-2020",
+        "yt-tension-official-stream-compilation-2020",
+        "yt-tension-named-2020",
+        "yt-tension-compilation-2021",
+        "yt-tension-field-2022",
+        "yt-tension-field-2023",
+        "yt-tension-crowd-2024",
+        "yt-tension-field-2026"
+      ],
+      "unresolved": [
+        "2020 시즌 구단 공식 도입 공지와 정확한 첫 경기",
+        "한화판 개사·편집·녹음 참여자",
+        "나무위키의 2021 도입 연도가 생긴 근거",
+        "상대 실책 외에 적용되는 세부 상황과 현장 판단 규칙"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-this-is-our-song",
+      "title": "THIS IS OUR SONG",
+      "aliases": ["This Is Our Song", "마약송", "오땡큐 응원곡"],
+      "currentStatus": "current",
+      "summary": "DJ 오땡큐가 만든 2분대의 기악 댄스 트랙이다. 구단 공식 채널이 2021년 5월 먼저 곡을 공개했고 6월에는 댓글 제목 공모를 열었으며, 6월 21일 ‘THIS IS OUR WAY’ 싱글의 수록곡으로 정식 발매됐다. 홈경기 6회말 뒤 치어리더와 관중이 에어로빅처럼 춤추는 구간에 쓰이며, 트랙명과 앨범·시즌 슬로건 ‘THIS IS OUR WAY’가 종종 혼동된다.",
+      "claims": [
+        {
+          "field": "creator",
+          "value": "오땡큐(OTHANKQ)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-oursong-official-2021", "yt-oursong-topic-2026", "ev-oursong-bugs"],
+          "notes": "구단 공식 영상과 상업 음원 메타데이터가 일치한다."
+        },
+        {
+          "field": "credits",
+          "value": "작곡·편곡·프로듀서 오땡큐",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-oursong-topic-2026", "ev-oursong-bugs"],
+          "notes": "벅스는 작곡·편곡, 공식 Topic 설명은 프로듀서까지 표시한다."
+        },
+        {
+          "field": "firstOfficialReveal",
+          "value": "2021-05-24",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-oursong-official-2021"],
+          "notes": "당시 영상 제목에는 최종 곡명 대신 ‘중독성 있는 그 노래’와 오땡큐 협업만 제시됐다."
+        },
+        {
+          "field": "titleSelection",
+          "value": "2021-06-03 구단 공식 댓글 공모를 통해 제목 선정",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-oursong-title-contest-2021"],
+          "notes": "고정 댓글이 최다 추천 제목으로 음원을 내고 선정자에게 유니폼을 준다고 공지한다. 최종 당첨자 발표 원문은 아직 찾지 못했다."
+        },
+        {
+          "field": "commercialReleaseDate",
+          "value": "2021-06-21",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-oursong-topic-2026", "ev-oursong-shazam", "ev-oursong-bugs"],
+          "notes": "앨범명은 2021 시즌 슬로건과 같은 ‘THIS IS OUR WAY’다."
+        },
+        {
+          "field": "format",
+          "value": "가사 없는 기악 댄스 트랙",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-b-namu", "ev-oursong-bugs", "yt-oursong-official-2021"],
+          "notes": "벅스에는 가사 준비 중으로 나오지만 현행 문서는 기악곡으로 명시하며 영상도 춤 중심으로 제공된다."
+        },
+        {
+          "field": "usage",
+          "value": "홈경기 6회말 종료 뒤 치어리더 주도의 에어로빅형 댄스",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-b-namu", "yt-oursong-field-2023", "yt-oursong-field-2025"],
+          "notes": "문서는 MLB 7회말 스트레치와 비슷한 휴식·춤 구간으로 설명한다. 2023 영상은 이닝 교체 때 사용된 사례를 직접 보여 준다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 홈 최종전 에어로빅과 2026 현행 팬 목록에서 확인",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-oursong-field-2025", "yt-oursong-playlist-2026", "ev-hanwha-b-current-guide", "ev-hanwha-b-namu"],
+          "notes": "2025 영상은 곡명을 앨범명 ‘This Is Our Way’로 표기해 제목 혼동을 남긴다. 2026 자료는 팬 제작 목록이므로 최신 구단 운용표 확인이 필요하다."
+        }
+      ],
+      "usageContexts": [
+        "홈경기 6회말 종료 뒤 공수교대의 치어리더 댄스",
+        "관중이 자리에서 몸을 풀고 함께 따라 하는 에어로빅형 구간",
+        "가사 합창보다 반복 비트와 안무 참여가 중심인 응원"
+      ],
+      "trivia": [
+        {
+          "id": "oursong-crowdsourced-title",
+          "summary": "구단은 한 시간 반복 영상을 올린 뒤 댓글 최다 추천 제목을 공식 음원명으로 쓰겠다고 공지했다. 댓글에는 실제 최종 제목과 같은 제안도 남아 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-oursong-title-contest-2021"]
+        },
+        {
+          "id": "oursong-slogan-context",
+          "summary": "싱글 제목 ‘THIS IS OUR WAY’는 같은 해 한화가 발표한 시즌 슬로건과 같다. 슬로건은 젊고 역동적인 쇄신과 팀만의 길이라는 중의적 의미로 설명됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-2021-slogan-yna", "ev-oursong-bugs", "ev-oursong-shazam"]
+        },
+        {
+          "id": "oursong-title-confusion",
+          "summary": "트랙명은 ‘THIS IS OUR SONG’이고 앨범·시즌 슬로건은 ‘THIS IS OUR WAY’지만, 2025 현장 영상 제목처럼 둘을 바꿔 부르는 사례가 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-oursong-bugs", "ev-hanwha-2021-slogan-yna", "yt-oursong-field-2025"]
+        },
+        {
+          "id": "oursong-reception",
+          "summary": "공식 영상 댓글에서는 강한 중독성·춤추기 좋은 리듬, 장기 존치를 바라는 반응과 정식 음원 출시 요구가 반복됐다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-oursong-official-2021", "yt-oursong-title-contest-2021"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-instrumental-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/32262158?wl_ref=list_tr_08",
+          "https://www.youtube.com/watch?v=pZNXc0YnMPY",
+          "https://www.youtube.com/watch?v=08ExpJQgXzM"
+        ],
+        "structureSummary": "가사 없이 일정한 댄스 비트와 짧은 전자음 모티프를 반복하고, 중후반에 층을 더해 고조한 뒤 원래 그루브로 회귀하는 약 2분짜리 안무용 트랙이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-oursong-official-2021",
+        "yt-oursong-title-contest-2021",
+        "yt-oursong-topic-2026",
+        "yt-oursong-field-2022",
+        "yt-oursong-field-2023",
+        "yt-oursong-field-2024",
+        "yt-oursong-field-2025",
+        "yt-oursong-playlist-2026"
+      ],
+      "unresolved": [
+        "제목 공모 최종 당첨자와 2021-06-10 결과 발표 원문",
+        "최초 경기장 사용일과 2021-05-24 공식 영상 이전 시험 운용 여부",
+        "2026 시즌의 정확한 고정 재생 시점과 구단 공식 현행 목록",
+        "6회말 뒤 사용 전통에서 이전에 쓰인 곡과 교체 시점"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-hanwha-b-namu",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "한화 이글스/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "현행 문서의 2.5~2.9 절은 다섯 곡의 명칭·별칭·도입 연도·원곡·사용 상황·현장 동작·여담을 정리한다. ‘텐션 올리고’의 2021년 도입 표기는 2020 영상과 충돌하며, ‘열광’의 Kamelot 경유설도 문서의 청감 판단이므로 별도 상충 주장으로 보존했다.",
+      "supports": ["all-song-overviews", "usage", "origins", "reported-years", "trivia", "conflicts"]
+    },
+    {
+      "id": "ev-hanwha-b-manual365",
+      "type": "web",
+      "url": "https://blog.manual365.co.kr/%ED%95%9C%ED%99%94%EC%9D%B4%EA%B8%80%EC%8A%A4-%EC%9D%91%EC%9B%90%EA%B0%80-%EB%8F%99%EC%98%81%EC%83%81-%EA%B0%80%EC%82%AC-%EB%AA%A8%EC%95%84%EB%B3%B4%EA%B8%B0%ED%8C%80%EC%9D%91%EC%9B%90%EA%B0%80/",
+      "title": "한화이글스 응원가 동영상, 가사 모아보기(팀응원가)",
+      "publisher": "매뉴얼365",
+      "publishedAt": "2024-05-29",
+      "accessedAt": "2026-08-08",
+      "summary": "팬 관점의 팀 응원가 가이드로 내 사랑 한화의 7회말 사용, 열광의 2016 도입·후반부 사용, 쭉쭉 안타송의 2019 추가, 텐션 올리고의 상대 실책 상황 사용을 서로 다른 영상과 함께 설명한다. 가사 전문은 이 데이터에 전재하지 않았다.",
+      "supports": ["love-usage", "yeolgwang-year-usage", "jjukjjuk-year", "tension-usage"]
+    },
+    {
+      "id": "ev-hanwha-b-current-guide",
+      "type": "web",
+      "url": "https://myseatcheck.com/%ED%95%9C%ED%99%94-%ED%8C%80%EC%9D%91%EC%9B%90%EA%B0%80/",
+      "title": "한화 팀응원가",
+      "publisher": "자리어때",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "현재 제공되는 한화 팀 응원가 색인에 내 사랑 한화, 열광, 쭉쭉 안타송, This Is Our Song이 각각 수록돼 있다. 팬 가이드이므로 구단 공식 현행 운용표와는 구분한다.",
+      "supports": ["current-catalogue-love", "current-catalogue-yeolgwang", "current-catalogue-jjukjjuk", "current-catalogue-oursong"]
+    },
+    {
+      "id": "ev-canon-imslp",
+      "type": "music-reference",
+      "url": "https://imslp.org/wiki/Canon%20and%20Gigue%20in%20D%20major%2C%20P.37%20%28Pachelbel%2C%20Johann%29",
+      "title": "Canon and Gigue in D major, P.37 (Pachelbel, Johann)",
+      "publisher": "IMSLP",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "요한 파헬벨의 작품명, 약 1680년 작곡, 3대의 바이올린과 콘티누오 편성을 확인하며 공공영역 악보 판본을 제공한다.",
+      "supports": ["love-origin", "love-underlying-public-domain"]
+    },
+    {
+      "id": "ev-grieg-imslp",
+      "type": "music-reference",
+      "url": "https://imslp.org/wiki/Peer%20Gynt%2C%20Op.23%20%28Grieg%2C%20Edvard%29",
+      "title": "Peer Gynt, Op.23 (Grieg, Edvard)",
+      "publisher": "IMSLP",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "그리그의 1874~1875년 극음악 ‘Peer Gynt’에 Solveig’s Song이 포함된다는 작품 정보를 확인한다.",
+      "supports": ["yeolgwang-solveig-source", "kamelot-lineage"]
+    },
+    {
+      "id": "ev-kamelot-official-karma",
+      "type": "official",
+      "url": "https://kamelot.com/release/karma/",
+      "title": "Karma",
+      "publisher": "Kamelot Official Website",
+      "publishedAt": "2001-07-19",
+      "accessedAt": "2026-08-08",
+      "summary": "Kamelot 공식 음반 페이지는 ‘Forever’를 2001년 앨범 Karma의 두 번째 트랙으로 싣고 발매일을 2001년 7월 19일로 표시한다.",
+      "supports": ["yeolgwang-kamelot-candidate", "forever-release"]
+    },
+    {
+      "id": "ev-kamelot-studio-2001",
+      "type": "press",
+      "url": "https://vampster.com/interviews/kamelot-studioreport-8-februar-2001-wolfsburg/",
+      "title": "KAMELOT Studioreport, 8. Februar 2001, Wolfsburg",
+      "publisher": "Vampster",
+      "publishedAt": "2001-02-08",
+      "accessedAt": "2026-08-08",
+      "summary": "앨범 제작 당시의 스튜디오 리포트가 ‘Forever’의 도입과 후렴에 그리그 ‘Solveig’s Song’ 모티프가 쓰였다고 구체적으로 설명한다.",
+      "supports": ["forever-uses-solveig-motif", "yeolgwang-competing-lineage"]
+    },
+    {
+      "id": "ev-youngki-bugs",
+      "type": "music",
+      "url": "https://music.bugs.co.kr/track/31826895?wl_ref=list_tr_08_ar",
+      "title": "동네오빠 (Prod. 플레이사운드)",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "영기의 원곡 메타데이터로 재생 시간 3분 1초와 작곡 김지환·알고보니 혼수상태, 작사 영기·김지환·알고보니 혼수상태, 편곡 김지환·진실이, 프로듀서 플레이사운드를 확인한다.",
+      "supports": ["tension-original-title", "tension-original-credits"]
+    },
+    {
+      "id": "ev-youngki-apple",
+      "type": "music",
+      "url": "https://music.apple.com/kr/song/1568998367",
+      "title": "동네오빠 - 영기의 노래",
+      "publisher": "Apple Music",
+      "publishedAt": "2020-02-10",
+      "accessedAt": "2026-08-08",
+      "summary": "‘동네오빠’가 영기의 싱글로 2020년 2월 10일 발매됐음을 확인한다.",
+      "supports": ["tension-original-release-date"]
+    },
+    {
+      "id": "ev-oursong-bugs",
+      "type": "music",
+      "url": "https://music.bugs.co.kr/track/32262158?wl_ref=list_tr_08",
+      "title": "THIS IS OUR SONG",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "아티스트 한화이글스, 앨범 ‘THIS IS OUR WAY’, 재생 시간 2분 4초, 작곡·편곡 오땡큐라는 상업 음원 정보를 확인한다.",
+      "supports": ["oursong-title", "oursong-artist", "oursong-album", "oursong-credits", "oursong-duration"]
+    },
+    {
+      "id": "ev-oursong-shazam",
+      "type": "music",
+      "url": "https://www.shazam.com/ko-kr/song/1572774328/this-is-our-song",
+      "title": "THIS IS OUR SONG - 한화이글스",
+      "publisher": "Shazam",
+      "publishedAt": "2021-06-21",
+      "accessedAt": "2026-08-08",
+      "summary": "트랙이 ‘THIS IS OUR WAY - Single’에 수록돼 2021년 6월 21일 발매됐으며 장르는 Dance, BPM은 114로 분류된다고 표시한다.",
+      "supports": ["oursong-release-date", "oursong-album", "oursong-dance-context"]
+    },
+    {
+      "id": "ev-hanwha-2021-slogan-yna",
+      "type": "press",
+      "url": "https://www.yna.co.kr/view/AKR20210401068700007",
+      "title": "한화 이글스, 2021시즌 슬로건 발표 ‘이것이 우리가 가야 할 길’",
+      "publisher": "연합뉴스",
+      "publishedAt": "2021-04-01",
+      "accessedAt": "2026-08-08",
+      "summary": "한화가 2021 시즌 슬로건을 ‘THIS IS OUR WAY’로 정하고 구단 쇄신 방향을 담았다고 발표한 내용을 보도한다.",
+      "supports": ["oursong-album-slogan-context"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-love-canon-full-2014",
+      "songId": "hanwha-eagles-nae-sarang-hanwha",
+      "url": "https://www.youtube.com/watch?v=hleo_mKCC2Y",
+      "videoId": "hleo_mKCC2Y",
+      "title": "한화 응원가 - 캐논 (풀버전)",
+      "channel": "Semin Son",
+      "publishedAt": "2014-05-06",
+      "descriptionSummary": "한화의 캐논 응원가 풀버전을 단독 수록한 초기 영상이며 설명에는 업로더의 소셜 계정 링크만 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 짧은 팀명 구호와 후렴을 따라 쓰는 참여형 반응이 대부분이다.",
+        "2014 시즌 초기부터 곡과 ‘최강한화’ 구호가 함께 인식됐음을 보여 준다."
+      ],
+      "supports": ["2014-availability", "canon-alias", "crowd-refrain"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-compilation-2014",
+      "songId": "hanwha-eagles-nae-sarang-hanwha",
+      "url": "https://www.youtube.com/watch?v=Fh4iq_UTd3Y",
+      "videoId": "Fh4iq_UTd3Y",
+      "title": "2014 한화이글스 응원가 모음",
+      "channel": "비크티비: 프로야구 응원가 전문채널",
+      "publishedAt": "2014-05-28",
+      "descriptionSummary": "2014년 5월 기준 선수·팀 응원가를 시즌 사진과 함께 정리하고 당시 추가·삭제 및 등번호 변경 내역을 설명한 팬 제작 모음이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "다른 구단 팬도 한화 응원가의 완성도를 칭찬하는 반응이 있다.",
+        "시간이 지난 뒤 당시 선수 구성과 응원가를 그리워하는 회고가 반복된다."
+      ],
+      "supports": ["2014-season-catalogue", "contemporary-context", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-origin-list-2017",
+      "songId": "hanwha-eagles-nae-sarang-hanwha",
+      "url": "https://www.youtube.com/watch?v=vjeaMJfamhc",
+      "videoId": "vjeaMJfamhc",
+      "title": "(2017) 사랑한다 이글스 + 내 사랑 한화 내 사랑 이글스 +  한화이글스 김경언 등장곡 #비크",
+      "channel": "비크티비: 프로야구 응원가 전문채널",
+      "publishedAt": "2017-05-12",
+      "descriptionSummary": "세 곡의 타임라인과 원곡을 구분해 적으며 1분 12초 구간의 대상 곡 원곡을 Pachelbel의 Canon in D major로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 한화 응원가 전반에 좋은 곡이 많다는 짧은 평가를 남긴다."
+      ],
+      "supports": ["canon-origin", "2017-use", "song-disambiguation"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-audio-2019",
+      "songId": "hanwha-eagles-nae-sarang-hanwha",
+      "url": "https://www.youtube.com/watch?v=2J7ZOEWPHJs",
+      "videoId": "2J7ZOEWPHJs",
+      "title": "한화 이글스 응원가 내사랑 한화 내사랑 이글스 (캐논) [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-09-15",
+      "descriptionSummary": "곡을 ‘한화의 캐논’이라고 소개한 1분 45초짜리 단독 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "울컥함·웅장함을 느낀다는 감정적 평가가 여러 해에 걸쳐 반복된다.",
+        "타 구단 팬도 이 곡을 부러워하거나 좋다고 평가하는 반응이 다수다.",
+        "학교의 캐논 수업이나 수행평가에서 한화 응원가가 먼저 떠올랐다는 경험담이 큰 공감을 얻었다."
+      ],
+      "supports": ["canon-alias", "fan-reception", "cross-team-recognition"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-field-2022",
+      "songId": "hanwha-eagles-nae-sarang-hanwha",
+      "url": "https://www.youtube.com/watch?v=hui_ZB58deQ",
+      "videoId": "hui_ZB58deQ",
+      "title": "한화이글스 내사랑한화 내사랑이글스 + 8회초 최강한화 육성응원 +이진영 응원가",
+      "channel": "46채널",
+      "publishedAt": "2022-06-07",
+      "descriptionSummary": "대상 곡에 이어 8회초 육성응원과 선수 응원가를 연결해 촬영한 현장 영상이며 설명란은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "앰프보다 관중 육성이 만드는 현장감과 열기를 높이 평가하는 반응이 반복된다.",
+        "야구를 잘 모르던 시청자도 한화 응원 때문에 관심이 생겼다고 적었다.",
+        "직관을 다시 가고 싶다는 반응이 곡의 현장 경험과 함께 나타난다."
+      ],
+      "supports": ["2022-field-use", "crowd-participation", "usage-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-cheer-2024",
+      "songId": "hanwha-eagles-nae-sarang-hanwha",
+      "url": "https://www.youtube.com/watch?v=TqDFQrDZMPs",
+      "videoId": "TqDFQrDZMPs",
+      "title": "[4K] 240421 한화이글스 하지원 치어리더 '내사랑 한화 내사랑 이글스' 직캠 @한화생명이글스파크",
+      "channel": "하동",
+      "publishedAt": "2024-04-24",
+      "descriptionSummary": "2024년 4월 21일 한화생명이글스파크에서 곡에 맞춘 치어리더 안무를 4K로 촬영한 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 곡 자체보다 출연 치어리더의 퍼포먼스와 이미지에 주로 집중한다."
+      ],
+      "supports": ["2024-field-use", "cheerleader-choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-playlist-2026",
+      "songId": "hanwha-eagles-nae-sarang-hanwha",
+      "url": "https://www.youtube.com/watch?v=TDT4kiMncN0",
+      "videoId": "TDT4kiMncN0",
+      "title": "한화이글스 응원가+등장곡 팀응원가 플레이리스트 [2차 개정판] 2026 볼파크 전광판 ver 🦅⭐️",
+      "channel": "cintamani",
+      "publishedAt": "2026-06-05",
+      "descriptionSummary": "2026년 선수 등장곡과 팀 응원가를 볼파크 전광판 형식으로 재구성한 팬 영상이며 대상 곡은 36분 10초에 표기된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 실제 구장을 찾지 않아도 전광판 분위기를 느낄 수 있는 구성과 방대한 수록 범위를 높게 평가한다.",
+        "제작자는 개정판에서 여러 팀 응원가를 추가했다고 설명하며 시청자도 빠진 곡의 추가를 요청한다."
+      ],
+      "supports": ["2026-fan-catalogue", "current-recognition", "exact-timestamp"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-yeolgwang-audio-2016",
+      "songId": "hanwha-eagles-yeolgwang",
+      "url": "https://www.youtube.com/watch?v=WlBd5kCK-Bw",
+      "videoId": "WlBd5kCK-Bw",
+      "title": "2016년 한화 이글스 [팀응원가] 외쳐라 이글스",
+      "channel": "eunyoung LEE",
+      "publishedAt": "2016-03-27",
+      "descriptionSummary": "이미지와 음원을 당시 한화 이글스 홈페이지에서 가져왔다고 명시한 2016년 초기 단독 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "파워풀하고 완성도가 높다는 평가와 다른 구단 팬의 호평이 보인다.",
+        "헤비메탈처럼 들리는 원곡이 무엇인지 묻는 질문이 반복돼 원곡 계보에 대한 관심을 보여 준다.",
+        "가을야구와 결승 무대를 기대하는 시즌 당시 반응이 함께 남아 있다."
+      ],
+      "supports": ["2016-introduction", "former-official-audio", "origin-questions", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-yeolgwang-compilation-2016",
+      "songId": "hanwha-eagles-yeolgwang",
+      "url": "https://www.youtube.com/watch?v=M3WU6V2OrOs",
+      "videoId": "M3WU6V2OrOs",
+      "title": "2016 한화이글스 응원가 모음 Update 2.0",
+      "channel": "비크티비: 프로야구 응원가 전문채널",
+      "publishedAt": "2016-05-19",
+      "descriptionSummary": "2016년 5월 기준 팀·선수 응원가 변경 사항을 업데이트한 43분대 팬 제작 모음이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한화 응원가는 대체로 웅장하다는 평가와 노래가 좋다는 반응이 반복된다.",
+        "몇 년 뒤에도 당시 야구장 분위기와 선수 구성을 추억하는 댓글이 이어진다.",
+        "응원가를 외워 더 적극적으로 참여하려는 시청자 반응도 있다."
+      ],
+      "supports": ["2016-season-catalogue", "reception", "historical-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-yeolgwang-fan-mv-2020",
+      "songId": "hanwha-eagles-yeolgwang",
+      "url": "https://www.youtube.com/watch?v=9j-6LtiEQJY",
+      "videoId": "9j-6LtiEQJY",
+      "title": "한화이글스 응원가｜외쳐라 이글스 뮤직비디오｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2020-08-25",
+      "descriptionSummary": "한화 경기 장면으로 만든 ‘외쳐라 이글스’ 팬 뮤직비디오이며 제목과 해시태그로 곡을 명확히 식별한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "여러 댓글이 팀명 구호와 곡의 주요 구절을 순서대로 나눠 적으며 온라인에서도 합창처럼 참여한다.",
+        "원곡이 구단 자작곡인지 묻는 질문이 최근까지 남아 있다."
+      ],
+      "supports": ["alias", "2020-recognition", "origin-question"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-yeolgwang-compilation-2023",
+      "songId": "hanwha-eagles-yeolgwang",
+      "url": "https://www.youtube.com/watch?v=Jf0obfP8Bvg",
+      "videoId": "Jf0obfP8Bvg",
+      "title": "656_한화이글스 팀응원가 모음 내사랑한화 내사랑 이글스 / 외쳐라 이글스 / 보아라기 억하라 / 불타는태양",
+      "channel": "독수리부부",
+      "publishedAt": "2023-06-10",
+      "descriptionSummary": "응원단과 함께 부른 네 곡을 묶고 대상 곡을 2분 14초의 ‘열정(외쳐라 이글스)’로 적은 현장 모음이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 특정 곡 분석보다 한화를 영원한 챔피언으로 사랑한다는 팀 충성 표현에 집중한다."
+      ],
+      "supports": ["2023-field-use", "title-mislabel", "alias"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-yeolgwang-audio-2025",
+      "songId": "hanwha-eagles-yeolgwang",
+      "url": "https://www.youtube.com/watch?v=gAGwJ7lgoPE",
+      "videoId": "gAGwJ7lgoPE",
+      "title": "[한화 이글스] 팀 응원가 - 외쳐라 이글스 (열광) | (2025)",
+      "channel": "은최",
+      "publishedAt": "2025-04-23",
+      "descriptionSummary": "‘외쳐라 이글스’와 공식 제목 ‘열광’을 병기한 2025년 단독 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 곡보다 영상 썸네일의 선수 농담과 편집 스타일에 주로 반응한다."
+      ],
+      "supports": ["2025-catalogue", "official-title-and-alias"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-yeolgwang-field-2026",
+      "songId": "hanwha-eagles-yeolgwang",
+      "url": "https://www.youtube.com/watch?v=vEcND_GelJ4",
+      "videoId": "vEcND_GelJ4",
+      "title": "한화이글스 팀 응원가 \"외쳐라 이글스\" 20260529",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-05-29",
+      "descriptionSummary": "2026년 5월 29일 현장에서 곡이 재생된 장면이며 투수 교체 방송과 앰프 소리가 겹친다는 촬영 상황을 설명한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["2026-current-field-use", "pitching-change-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-jjukjjuk-opening-2019",
+      "songId": "hanwha-eagles-jjukjjuk-hit-song",
+      "url": "https://www.youtube.com/watch?v=0xvnIhT32lQ",
+      "videoId": "0xvnIhT32lQ",
+      "title": "한화이글스 뉴 응원가 똥꼬발랄한 안타송 190323 ㅇㄲㅌ",
+      "channel": "S깡통",
+      "publishedAt": "2019-03-23",
+      "descriptionSummary": "2019년 3월 23일 새 안타송을 홍창화 응원단장과 치어리더가 이끄는 장면으로 촬영한 초기 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "처음에는 별로였지만 반복해서 듣거나 현장 떼창을 경험한 뒤 중독성을 느꼈다는 반응이 여러 개다.",
+        "2019년에 나온 응원가 중 가장 좋은 성과라는 평가와 잘 만들었다는 호평이 보인다.",
+        "앰프를 끄고 관중만 부를 때 더 강렬했다는 현장 경험담이 있다."
+      ],
+      "supports": ["2019-introduction", "hit-song-usage", "leader-context", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-jjukjjuk-opening2-2019",
+      "songId": "hanwha-eagles-jjukjjuk-hit-song",
+      "url": "https://www.youtube.com/watch?v=Ad37TY9S728",
+      "videoId": "Ad37TY9S728",
+      "title": "2019시즌 한화이글스 새로운 안타응원가",
+      "channel": "잭참새",
+      "publishedAt": "2019-03-23",
+      "descriptionSummary": "2019년 3월 23일 서울 잠실야구장에서 촬영한 ‘2019시즌 새로운 안타응원가’라고 날짜·장소·성격을 명시한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["2019-introduction", "exact-field-date", "hit-song-usage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-jjukjjuk-named-2019",
+      "songId": "hanwha-eagles-jjukjjuk-hit-song",
+      "url": "https://www.youtube.com/watch?v=cAhcznpvk4s",
+      "videoId": "cAhcznpvk4s",
+      "title": "2019 한화 안타송 (쭉쭉송)",
+      "channel": "Jooyoung Lee",
+      "publishedAt": "2019-03-24",
+      "descriptionSummary": "전날 공개된 새 안타송을 ‘쭉쭉송’이라는 별칭과 함께 소개하고 2019년 신곡 중 가장 잘 나왔다는 개인 평가를 덧붙인다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 ‘쭉쭉송’이라는 별칭을 그대로 사용하며 곡을 긍정적으로 평가한다.",
+        "외부 원곡이 무엇인지 묻는 질문은 있으나 답이나 크레딧은 확인되지 않는다."
+      ],
+      "supports": ["jjukjjuk-alias", "2019-availability", "origin-unresolved"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-jjukjjuk-allstar-2022",
+      "songId": "hanwha-eagles-jjukjjuk-hit-song",
+      "url": "https://www.youtube.com/watch?v=Y4Bg0imyyAc",
+      "videoId": "Y4Bg0imyyAc",
+      "title": "[2022 올스타전] ''한화'' 쭉쭉 안타송 & 정은원 & 나는 행복합니다 & 라인업송 & 내 사랑 한화, 내 사랑 이글스 응원가 모음 (2022.07.16)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2022-07-19",
+      "descriptionSummary": "2022년 7월 16일 올스타전에서 한화 관련 응원가 여러 곡이 사용된 장면을 1분 52초로 묶은 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한화에는 좋은 응원가가 많고 선곡을 잘한다는 반응이 큰 공감을 얻었다.",
+        "여러 구단 관중이 한화 대표곡을 함께 부르는 장면에서 뭉클함을 느꼈다는 평가가 있다."
+      ],
+      "supports": ["2022-allstar-use", "cross-team-recognition"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-jjukjjuk-compilation-2025",
+      "songId": "hanwha-eagles-jjukjjuk-hit-song",
+      "url": "https://www.youtube.com/watch?v=Um3wtrVpqj0",
+      "videoId": "Um3wtrVpqj0",
+      "title": "[한화 이글스] 2025 안타송 (5가지) 모음 ZIP! | 팀 응원가",
+      "channel": "은최",
+      "publishedAt": "2025-04-13",
+      "descriptionSummary": "2025년 안타송 다섯 가지를 타임라인으로 구분하며 쭉쭉송을 첫 구간에 배치한 팬 제작 모음이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "쭉쭉송이 다섯 곡 가운데 가장 좋다는 선호가 나타난다.",
+        "쭉쭉송만 따로 들을 수 있는 버전을 원하는 요청이 반복된다.",
+        "새 안타송의 별도 편집본을 요청하는 등 여러 곡이 병용되는 상황도 드러난다."
+      ],
+      "supports": ["2025-use", "multiple-hit-songs", "continued-preference"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-jjukjjuk-field-2026",
+      "songId": "hanwha-eagles-jjukjjuk-hit-song",
+      "url": "https://www.youtube.com/watch?v=b4XJ-GUCNdQ",
+      "videoId": "b4XJ-GUCNdQ",
+      "title": "한화이글스 안타송 (쭉쭉송) 20260626",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-06-26",
+      "descriptionSummary": "2026년 6월 26일 현장에서 사용된 쭉쭉송을 단독 촬영한 영상이며 설명란은 비어 있다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["2026-current-field-use", "alias"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-jjukjjuk-board-2026",
+      "songId": "hanwha-eagles-jjukjjuk-hit-song",
+      "url": "https://www.youtube.com/watch?v=PKDumhAfCl4",
+      "videoId": "PKDumhAfCl4",
+      "title": "한화이글스 안타송 + 풀카운트송 6종 볼파크 전광판 ver",
+      "channel": "cintamani",
+      "publishedAt": "2026-08-04",
+      "descriptionSummary": "2026년 8월 4일 기준 안타·홈런·풀카운트 응원 여섯 종을 전광판 형식으로 재구성하고 첫 구간에 쭉쭉송을 둔 팬 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "제작자가 타임라인과 기준일을 고정 댓글로 다시 정리해 각 응원을 구분한다.",
+        "공개 반응은 수록된 다른 홈런 응원의 문구를 따라 쓰는 정도로 아직 표본이 적다."
+      ],
+      "supports": ["2026-current-fan-catalogue", "multiple-hit-songs", "exact-timestamp"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-tension-new-2020",
+      "songId": "hanwha-eagles-tension-olligo",
+      "url": "https://www.youtube.com/watch?v=M6zoieKBbxo",
+      "videoId": "M6zoieKBbxo",
+      "title": "한화이글스 2020 새  팀응원가 (뛰어,오빠,텐션) 200505",
+      "channel": "S깡통",
+      "publishedAt": "2020-05-05",
+      "descriptionSummary": "2020년 5월 5일 세 가지 새 팀응원을 ‘뛰어·오빠·텐션’으로 묶어 공개한 2분 11초 영상이며 설명란은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "트로트풍 호칭과 분위기가 낯설거나 이전 응원을 되살리길 바란다는 부정적 반응이 여러 개다.",
+        "출연 응원단을 칭찬하거나 짧은 구호를 장난스럽게 반복하는 반응도 섞여 있다."
+      ],
+      "supports": ["2020-earliest-date", "new-song-context", "initial-reception", "namu-year-conflict"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-tension-official-stream-compilation-2020",
+      "songId": "hanwha-eagles-tension-olligo",
+      "url": "https://www.youtube.com/watch?v=2L4d__OVqUc",
+      "videoId": "2L4d__OVqUc",
+      "title": "20200512 2020년 한화이글스 팀응원가는?? 개막전의 이글스 팀응원가 모음집",
+      "channel": "에릭벨TV Ericbell",
+      "publishedAt": "2020-05-13",
+      "descriptionSummary": "2020년 5월 12일 한화생명이글스파크 응원단 장면을 Eagles TV 라이브에서 가져와 재편집한 개막기 팀 응원가 모음이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 시청자가 24분 2초를 ‘2020 NEW 리듬응원’으로 식별해 대상 곡의 당시 위치를 남겼다.",
+        "코로나19로 야구장에 가지 못해 신나는 응원을 현장에서 함께하지 못하는 아쉬움이 반복된다.",
+        "관중 응원 재개를 기다리는 반응과 팀명 구호가 함께 보인다."
+      ],
+      "supports": ["2020-season-use", "official-stream-provenance", "pandemic-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-tension-named-2020",
+      "songId": "hanwha-eagles-tension-olligo",
+      "url": "https://www.youtube.com/watch?v=d5zYuwrskco",
+      "videoId": "d5zYuwrskco",
+      "title": "83_한화이글스 최재훈응원가와 텐션올리고 응원가",
+      "channel": "독수리부부",
+      "publishedAt": "2020-10-18",
+      "descriptionSummary": "선수 응원가와 함께 대상 곡의 이름을 ‘텐션올리고’로 명시하고 신나는 일이 생길 때 쓰는 응원이라고 설명한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["2020-named-evidence", "broad-usage-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-tension-compilation-2021",
+      "songId": "hanwha-eagles-tension-olligo",
+      "url": "https://www.youtube.com/watch?v=6LynL2ifDAo",
+      "videoId": "6LynL2ifDAo",
+      "title": "올해는 다르다! 2021 한화이글스 팀 응원가 여기여기 다 모여라!  I 한화이글스 팀 응원가 모음  | 4K 60fps",
+      "channel": "에릭벨TV Ericbell",
+      "publishedAt": "2021-04-12",
+      "descriptionSummary": "2021 시즌 한화생명 이글스파크 촬영본을 곡별 타임라인으로 정리하며 대상 곡을 11분 58초의 ‘텐션송’으로 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "여러 리듬응원의 신나는 분위기를 높이 평가하고 구단 앱에 음원을 공개해 달라는 요청이 있다.",
+        "한화 응원가 전체가 좋다는 팀 팬의 반복적 호평이 보인다."
+      ],
+      "supports": ["2021-use", "tensionsong-alias", "fan-demand"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-tension-field-2022",
+      "songId": "hanwha-eagles-tension-olligo",
+      "url": "https://www.youtube.com/watch?v=iQYFGmDDAgU",
+      "videoId": "iQYFGmDDAgU",
+      "title": "한화이글스 리듬응원 \"그대에게\" + \"텐션 올리고\" 20220505",
+      "channel": "DJ Landers",
+      "publishedAt": "2022-05-05",
+      "descriptionSummary": "2022년 5월 5일 현장에서 두 리듬응원을 연속 촬영하고 대상 곡 시작점을 37초로 표시한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["2022-field-use", "rhythm-cheer-context", "exact-timestamp"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-tension-field-2023",
+      "songId": "hanwha-eagles-tension-olligo",
+      "url": "https://www.youtube.com/watch?v=JRIo3uOm45A",
+      "videoId": "JRIo3uOm45A",
+      "title": "잠실 한화이글스 텐션올리고",
+      "channel": "심박한야구",
+      "publishedAt": "2023-05-03",
+      "descriptionSummary": "2023년 5월 3일 잠실에서 사용된 텐션 올리고를 37초 동안 촬영한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 대상 곡 분석 없이 다른 한화 응원가의 제목성 구절을 짧게 남긴 한 건뿐이다."
+      ],
+      "supports": ["2023-away-field-use", "exact-date-and-place"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-tension-crowd-2024",
+      "songId": "hanwha-eagles-tension-olligo",
+      "url": "https://www.youtube.com/watch?v=1B1dOhih3gI",
+      "videoId": "1B1dOhih3gI",
+      "title": "842_신이나는 한화이글스 황영묵 이진영 응원가 텐션올리고 떼창 | 한화이글스 | 한화 대 두산 | kbo 리그 | 잠실야구장 | 야구장",
+      "channel": "독수리부부",
+      "publishedAt": "2024-08-26",
+      "descriptionSummary": "한화-두산 잠실 경기에서 선수 응원가와 텐션 올리고 관중 합창을 함께 담은 2024년 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 곡보다 당시 순위 경쟁 전망과 한화 응원 구호에 초점을 둔다."
+      ],
+      "supports": ["2024-field-use", "crowd-singalong", "away-stand-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-tension-field-2026",
+      "songId": "hanwha-eagles-tension-olligo",
+      "url": "https://www.youtube.com/watch?v=5nELwsoESxA",
+      "videoId": "5nELwsoESxA",
+      "title": "한화이글스 리듬응원 모음 20260407",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-04-07",
+      "descriptionSummary": "2026년 4월 7일 현장 리듬응원 두 곡을 묶고 대상 곡을 영상 시작 구간으로 명시한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["2026-current-field-use", "rhythm-cheer-context", "exact-timestamp"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-oursong-official-2021",
+      "songId": "hanwha-eagles-this-is-our-song",
+      "url": "https://www.youtube.com/watch?v=pZNXc0YnMPY",
+      "videoId": "pZNXc0YnMPY",
+      "title": "대체 이 노래 뭐야 했던 중독성 쩌는 그 노래 [한화이글스X오땡큐]",
+      "channel": "Eagles TV",
+      "publishedAt": "2021-05-24",
+      "descriptionSummary": "구단 공식 채널이 오땡큐 협업을 명시하며 생활·출근·운동 등 언제든 춤추기 좋은 곡으로 처음 소개한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "현장에서 곡이 나올 때 춤을 참기 어렵다는 반응과 강한 중독성 평가가 큰 공감을 얻었다.",
+        "팀이 존속하는 동안 계속 쓰자는 장기 사용 요구와 정식 음원 출시 요청이 반복된다.",
+        "후반 고조 구간에서 감정이 벅차오른다는 반응과 새 구장용 후속곡 요청도 있다."
+      ],
+      "supports": ["official-first-reveal", "creator", "dance-purpose", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-oursong-title-contest-2021",
+      "songId": "hanwha-eagles-this-is-our-song",
+      "url": "https://www.youtube.com/watch?v=EL9614-sz9o",
+      "videoId": "EL9614-sz9o",
+      "title": "THIS IS OUR SONG 1시간 반복 재생",
+      "channel": "Eagles TV",
+      "publishedAt": "2021-06-03",
+      "descriptionSummary": "오땡큐 제작곡의 1시간 반복 공식 영상으로, 고정 댓글에서 추천 수가 가장 많은 댓글 제목을 최종 음원명으로 채택하고 유니폼을 증정한다고 공지한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 고정 댓글은 6월 10일 결과 발표를 예고하며 공개 제목 공모의 규칙을 설명한다.",
+        "팬들은 시즌 슬로건을 활용한 제목, 제작자 이름을 살린 제목, 실제 최종 제목과 같은 제안 등 여러 후보를 냈다.",
+        "몇 년 뒤에도 곡을 듣는다는 장기 반응과 해외 야구 행사에서 들었다는 경험담이 이어진다."
+      ],
+      "supports": ["official-title-contest", "final-title-proposal", "creator", "long-term-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-oursong-topic-2026",
+      "songId": "hanwha-eagles-this-is-our-song",
+      "url": "https://www.youtube.com/watch?v=08ExpJQgXzM",
+      "videoId": "08ExpJQgXzM",
+      "title": "THIS IS OUR SONG",
+      "channel": "한화이글스 - Topic",
+      "publishedAt": "2026-01-04",
+      "descriptionSummary": "자동 생성된 공식 유통 음원 영상이다. 설명은 실제 발매일을 2021년 6월 21일로 적고 작곡·편곡·프로듀서를 모두 오땡큐로 표시한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["commercial-metadata", "2021-release-date", "credits", "official-title"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-oursong-field-2022",
+      "songId": "hanwha-eagles-this-is-our-song",
+      "url": "https://www.youtube.com/watch?v=FKcV4rOSh-0",
+      "videoId": "FKcV4rOSh-0",
+      "title": "한화이글스 마지막 홈경기 THIS IS OUR SONG @20221006",
+      "channel": "한약상 (한화야구영상)",
+      "publishedAt": "2022-10-09",
+      "descriptionSummary": "2022년 10월 6일 마지막 홈경기에서 곡과 치어리더 안무가 사용된 장면을 담은 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "영상을 보고 다시 직관을 가고 싶다는 반응이 있다.",
+        "당시 응원단 구성원을 그리워하는 회고가 곡보다 더 많이 나타난다."
+      ],
+      "supports": ["2022-field-use", "home-finale-context", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-oursong-field-2023",
+      "songId": "hanwha-eagles-this-is-our-song",
+      "url": "https://www.youtube.com/watch?v=rDcDPtUm5AA",
+      "videoId": "rDcDPtUm5AA",
+      "title": "20230414 한화이글스 역전 후 이닝교체타임 6명의 치어리더와 THIS IS OUR SONG",
+      "channel": "46채널",
+      "publishedAt": "2023-04-14",
+      "descriptionSummary": "2023년 4월 14일 역전 뒤 이닝 교체 시간에 여섯 명의 치어리더가 곡에 맞춰 공연한 현장 영상이며 설명란은 비어 있다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["2023-field-use", "inning-change-context", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-oursong-field-2024",
+      "songId": "hanwha-eagles-this-is-our-song",
+      "url": "https://www.youtube.com/watch?v=e7aIIGHXgEE",
+      "videoId": "e7aIIGHXgEE",
+      "title": "[4K] 240410 한화이글스 우수한 치어리더(THIS IS OUR SONG)",
+      "channel": "구운동마법사",
+      "publishedAt": "2024-04-18",
+      "descriptionSummary": "2024년 4월 10일 곡에 맞춘 치어리더 안무를 4K로 촬영한 현장 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 음악이 신나고 스트레스가 풀린다는 긍정적 반응을 남긴다."
+      ],
+      "supports": ["2024-field-use", "dance-reception", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-oursong-field-2025",
+      "songId": "hanwha-eagles-this-is-our-song",
+      "url": "https://www.youtube.com/watch?v=lNxzSrG0lIA",
+      "videoId": "lNxzSrG0lIA",
+      "title": "🦅 한화이글스 2025 정규리그 홈경기 피날레 -This Is Our Way- ( 2025. 9. 30. vs 롯데 자이언츠 )",
+      "channel": "JHL STUDIO",
+      "publishedAt": "2025-10-01",
+      "descriptionSummary": "2025년 9월 30일 정규리그 홈 최종전의 마지막 에어로빅 댄스를 촬영했으며 곡을 앨범·슬로건명인 ‘This Is Our Way’로 표기한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["2025-field-use", "aerobic-context", "title-confusion"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-oursong-playlist-2026",
+      "songId": "hanwha-eagles-this-is-our-song",
+      "url": "https://www.youtube.com/watch?v=TDT4kiMncN0",
+      "videoId": "TDT4kiMncN0",
+      "title": "한화이글스 응원가+등장곡 팀응원가 플레이리스트 [2차 개정판] 2026 볼파크 전광판 ver 🦅⭐️",
+      "channel": "cintamani",
+      "publishedAt": "2026-06-05",
+      "descriptionSummary": "2026년 선수 등장곡과 팀 응원가를 볼파크 전광판 형식으로 재구성한 팬 영상이며 대상 곡은 46분 23초에 공식 대문자 제목으로 표기된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자들은 실제 구장과 비슷한 전광판 경험과 팀 응원가 추가를 높게 평가한다.",
+        "제작자의 개정 내역에는 이 곡을 새로 추가했다는 설명이 포함돼 있다."
+      ],
+      "supports": ["2026-fan-catalogue", "official-title", "exact-timestamp"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 36,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 17
+  }
+}

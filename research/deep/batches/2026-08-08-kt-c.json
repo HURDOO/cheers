@@ -1,0 +1,1540 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kt-c",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kt-wiz",
+    "name": "kt wiz",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 원곡·개사곡은 공식 열람 경로와 구조·주제만 기록하며, 공개 댓글은 작성자 이름·계정·원문 인용을 제외하고 반복되는 반응만 익명 요약한다.",
+  "evidence": [
+    {
+      "id": "ev-kt-c-official-song-api",
+      "type": "official-api",
+      "url": "https://www.ktwiz.co.kr/api/v2/guide/cheerSongWithPlayerImg?cheerSong.cheerSongCate=0",
+      "title": "kt wiz 응원가 목록 API",
+      "publisher": "kt wiz",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "구단 응원가 화면이 호출하는 공개 데이터다. 조사 시점에 다섯 대상곡을 모두 구단 응원가로 반환하며, 표기는 각각 ‘we are the kt wiz’, ‘너와 내가 우리가 되어’, ‘마법의 기적’, ‘마법의성 나의사랑 kt wiz’, ‘비상하라 kt’다. ‘비상하라 kt’와 ‘승리를 향해 비상하라’도 별도 항목으로 존재한다. 가사 원문과 음원 파일은 복제하지 않았다.",
+      "supports": [
+        "all.currentOfficialListing",
+        "kt-wiz-magic-castle.naming",
+        "kt-wiz-rise-kt.distinction"
+      ]
+    },
+    {
+      "id": "ev-kt-c-official-copyright",
+      "type": "official",
+      "url": "https://www.ktwiz.co.kr/player/song-copyright",
+      "title": "kt wiz 응원가 저작권",
+      "publisher": "kt wiz",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "구단 저작권 표는 ‘마법의 성’의 원곡·가수를 더 클래식의 동명곡, 저작자를 김광진으로 적고, 2026 ‘마법의 기적’은 김주일을 저작자로 적는다. 동시에 ‘나의사랑 kt wiz’를 Skeeter Davis의 ‘End of the World’ 원곡인 별도 항목으로도 기재해 이름 충돌을 확인시킨다.",
+      "supports": [
+        "kt-wiz-magic-miracle.authorship",
+        "kt-wiz-magic-castle.origin",
+        "kt-wiz-magic-castle.titleCollision"
+      ]
+    },
+    {
+      "id": "ev-kt-c-official-2026-playlist",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=2kJf0pbtajA",
+      "title": "직관 전 필수시청 2026 kt wiz 응원가 전곡 플레이리스트",
+      "publisher": "kt wiz - 위즈TV",
+      "publishedAt": "2026-03-23",
+      "accessedAt": "2026-08-08",
+      "summary": "구단 공식 2026 영상은 We are the kt wiz를 4분 34초에 수록한다. 나머지 네 대상곡은 35분짜리 본편 챕터에 없지만, 구단 응원가 API와 별도 공식·현장 영상에는 남아 있어 미수록만으로 폐지를 판정하지 않았다.",
+      "supports": [
+        "kt-wiz-we-are-the-kt-wiz.currentUse",
+        "coverage.officialPlaylistCaveat"
+      ]
+    },
+    {
+      "id": "ev-kt-c-namu-cheers",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "kt wiz/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "도입 연도, 원곡, 현장 사용 시점과 파생 일화를 확인했다. 다만 같은 문서의 이전 응원가 단락에는 We are the kt wiz가 2018년 뒤 중단됐다는 오래된 서술이 남아 있어 2019~2026 직접 영상 및 공식 목록과 상충한다. 마법의 기적의 AI 제작 방식은 현재 공식 저작권 표가 밝히지 않아 보조 주장으로만 남겼다.",
+      "supports": [
+        "all.historyAndUsage",
+        "kt-wiz-we-are-the-kt-wiz.historyConflict",
+        "kt-wiz-magic-miracle.aiProduction"
+      ]
+    },
+    {
+      "id": "ev-kt-c-channel-yes-2015",
+      "type": "web-article",
+      "url": "https://m.ch.yes24.com/article/details/28080",
+      "title": "지금은 야구 시즌! 야구 응원가 특집",
+      "publisher": "채널예스",
+      "publishedAt": "2015-05",
+      "accessedAt": "2026-08-08",
+      "summary": "KT의 1군 첫 시즌인 2015년 당시 글로, Bee Gees의 ‘Holiday’를 개사한 We are the kt wiz와 김광진의 ‘마법의 성’을 개사한 당시 표기 ‘나의 사랑 kt Wiz’를 소개하고 후자를 승리를 굳힐 때 부른다고 설명한다.",
+      "supports": [
+        "kt-wiz-we-are-the-kt-wiz.introductionYear",
+        "kt-wiz-we-are-the-kt-wiz.origin",
+        "kt-wiz-magic-castle.introductionYear",
+        "kt-wiz-magic-castle.legacyLabel",
+        "kt-wiz-magic-castle.usageContext"
+      ]
+    },
+    {
+      "id": "ev-kt-c-mt-magic-castle-2026",
+      "type": "news",
+      "url": "https://www.mt.co.kr/amp/sports/2026/07/07/2026070721021163922",
+      "title": "[한번에쓱] '마법에 성에 가면 누가 있다?'",
+      "publisher": "머니투데이",
+      "publishedAt": "2026-07-07",
+      "accessedAt": "2026-08-08",
+      "summary": "2026년 7월 7일 수원 홈 경기 후반, KT가 앞선 상황에서 치어리더가 ‘마법의 성’에 맞춰 응원한 장면을 보도해 최신 정규시즌 사용을 독립적으로 확인한다.",
+      "supports": [
+        "kt-wiz-magic-castle.currentUse",
+        "kt-wiz-magic-castle.usageContext"
+      ]
+    },
+    {
+      "id": "ev-kt-c-chordify-dragonpony",
+      "type": "web-index",
+      "url": "https://chordify.net/chords/ktwijeu-mabeob-ui-seong-cover-by-deulaegonponi-kbo-peuloyagu-dragonpony-official-1thek-live-wondeokei-laibeu",
+      "title": "KT위즈 ‘마법의 성’ Cover by 드래곤포니",
+      "publisher": "Chordify",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "1theK Live 영상 제목을 색인한 2차 페이지다. 드래곤포니의 KT 버전 커버가 존재했음을 보조하지만 원본 업로드의 게시일과 현재 공개 상태를 직접 확인하지 못해 낮은 비중으로만 사용했다.",
+      "supports": [
+        "kt-wiz-magic-castle.trivia.dragonPonyCover"
+      ]
+    },
+    {
+      "id": "ev-kt-c-old-title-video",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9YI7qV25Hbc",
+      "title": "kt wiz 응원가 - 나의 사랑 kt wiz [함라산스포츠]",
+      "publisher": "Hamrasan Sports",
+      "publishedAt": "2019-09-15",
+      "accessedAt": "2026-08-08",
+      "summary": "‘나의 사랑 kt wiz’라는 제목 아래 ‘승리하라·열광하라’ 계열의 약 82초짜리 별도 곡을 담은 영상이다. 마법의 성 개사곡과 가사 구조·길이가 다르며, 공식 저작권 표의 End of the World 원곡 항목과 일치해 동명 혼동을 직접 보여 준다.",
+      "supports": [
+        "kt-wiz-magic-castle.titleCollision"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "kt-wiz-we-are-the-kt-wiz",
+      "title": "We are the kt wiz",
+      "aliases": [
+        "we are the kt wiz",
+        "위 아 더 케이티 위즈"
+      ],
+      "currentStatus": "current-officially-listed-history-contested",
+      "summary": "Bee Gees의 1967년 곡 ‘Holiday’를 웅장한 합창형으로 바꾼 창단 초기 응원가다. 나무위키의 이전곡 단락에는 2018년 저작권 분쟁 뒤 중단됐다는 문장이 남아 있지만, 2019년 위즈파크, 2022년 최종전 9회, 2023·2024 현장, 2026 구단 공식 영상과 현재 구단 API가 연속해서 사용을 입증한다. 따라서 현재곡으로 판정하되 정확한 중단·부활 시점은 미확정으로 보존한다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Bee Gees의 ‘Holiday’ 개사·응원 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "ev-kt-c-channel-yes-2015"
+          ],
+          "notes": "원곡 저작권과 KT용 개사·편곡 권리는 구분해야 하며, KT 버전의 전체 제작 크레딧은 확인하지 못했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2015",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-channel-yes-2015",
+            "yt-kt-c-weare-original-upload-2016"
+          ],
+          "notes": "2015년 5월 동시대 글이 이미 KT 응원가로 소개하며, 2016년 완성본 업로드가 뒤를 잇는다."
+        },
+        {
+          "field": "interruptionHistory",
+          "value": "2018년 분쟁 뒤 중단·폐기됐다는 과거 서술",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-weare-field-2019",
+            "yt-kt-c-weare-field-2022"
+          ],
+          "notes": "날짜가 특정된 2019·2022 현장 영상과 직접 충돌한다. 2018 한 시즌만 쉬었는지, 실제로 중단 없이 일부 사용했는지는 확정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 전곡 영상과 현재 구단 응원가 API에 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-song-api",
+            "ev-kt-c-official-2026-playlist",
+            "yt-kt-c-weare-official-2026",
+            "yt-kt-c-weare-playlist-2026"
+          ],
+          "notes": "공식 영상 챕터는 4분 34초부터다."
+        },
+        {
+          "field": "usageContext",
+          "value": "경기 후반·찬스·승리 흐름에서 긴 합창으로 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-weare-field-2022",
+            "yt-kt-c-weare-wildcard-2024"
+          ],
+          "notes": "2022 최종전 영상은 9회를 제목에 명시하고, 2024 와일드카드 영상은 팀 응원 메들리 후반에 수록한다."
+        }
+      ],
+      "usageContexts": [
+        "경기 후반이나 승리 흐름에서 관중의 긴 ‘워어’ 합창을 만드는 열광응원",
+        "포스트시즌 원정석과 정규시즌 치어리더 군무",
+        "2026 공식 플레이리스트의 현행 학습곡"
+      ],
+      "trivia": [
+        {
+          "id": "weare-stale-retirement-note",
+          "summary": "나무위키 현행 단락과 현재 구단 목록은 이 곡을 사용곡으로 두지만, 같은 문서의 이전곡 모음에는 2018년 이후 폐기됐다는 문장이 남아 있다. 직접 날짜가 붙은 영상이 후자를 반박한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-weare-field-2019",
+            "yt-kt-c-weare-field-2022",
+            "yt-kt-c-weare-official-2026"
+          ]
+        },
+        {
+          "id": "weare-arrangement-contrast",
+          "summary": "자료들은 원곡의 차분하고 쓸쓸한 인상과 달리 KT 편곡은 웅장한 집단 합창으로 들린다는 점을 반복해서 언급한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-weare-wildcard-2024"
+          ]
+        },
+        {
+          "id": "weare-holiday-korean-association",
+          "summary": "한국에서 ‘Holiday’는 1988년 지강헌 인질극 당시 요청곡으로도 널리 알려져 있다. 응원가의 제작 배경이라는 뜻은 아니며, 원곡의 국내 인지도를 설명하는 여담이다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-adaptation-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.ktwiz.co.kr/player/song",
+          "https://namu.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=2kJf0pbtajA"
+        ],
+        "structureSummary": "승리의 함성을 함께 내자는 선창 뒤 긴 무가사 합창과 영어 팀명 후창을 두 차례 되풀이하고, 마지막에는 가사 없이 선율을 길게 확장해 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-c-weare-original-upload-2016",
+        "yt-kt-c-weare-field-2019",
+        "yt-kt-c-weare-field-2022",
+        "yt-kt-c-weare-field-2023",
+        "yt-kt-c-weare-wildcard-2024",
+        "yt-kt-c-weare-official-2026",
+        "yt-kt-c-weare-playlist-2026"
+      ],
+      "unresolved": [
+        "2018년 저작권 분쟁 때 실제 중단 기간과 공식 재개일",
+        "KT용 개사·편곡·보컬 전체 크레딧",
+        "현재 정규시즌의 구체적인 선곡 빈도와 상황",
+        "2015년 최초 공개 경기 또는 공식 공개일"
+      ]
+    },
+    {
+      "id": "kt-wiz-you-and-i-become-us",
+      "title": "너와 내가 우리가 되어",
+      "aliases": [
+        "너와 나 우리가 되어",
+        "We are one kt wiz"
+      ],
+      "currentStatus": "current-low-frequency-full-song-pregame-excerpt",
+      "summary": "2020 포스트시즌에 공개된 ‘비상’ 응원가 3종 중 하나다. 정규 이닝에서 전문을 부르는 빈도는 매우 낮지만 홈 경기 시작 때 일부 구간이 반복 사용되고, 2021 한국시리즈부터 2025 정규시즌 직접 영상과 2026 팬 현행 목록이 이어진다. 구단 API에도 남아 있어 폐지곡이 아니라 ‘전곡 저빈도·오프닝 일부 상시’ 곡으로 구분하는 것이 가장 안전하다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2020 포스트시즌",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-together-postseason-2021"
+          ],
+          "notes": "2020 정확한 최초 공개 경기 영상은 이번 표본에서 확보하지 못했다."
+        },
+        {
+          "field": "series",
+          "value": "비상(飛上) 응원가 3종 중 하나",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers"
+          ],
+          "notes": "같은 묶음에는 비상하라 KT와 승리를 향해 비상하라가 포함된다."
+        },
+        {
+          "field": "usageFrequency",
+          "value": "정규시즌 중 전문은 거의 부르지 않으나 홈 경기 시작 때 일부 구간은 매 경기 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-together-field-2025"
+          ],
+          "notes": "2025년 8월 24일 직접 영상은 전문 선곡이 완전히 사라지지는 않았음을 보여 준다."
+        },
+        {
+          "field": "currentUse",
+          "value": "구단 API 현행 수록, 2025 직접 현장 및 2026 두 팬 플레이리스트에서 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-song-api",
+            "yt-kt-c-together-field-2025",
+            "yt-kt-c-together-playlist-a-2026",
+            "yt-kt-c-together-playlist-b-2026"
+          ],
+          "notes": "2026 구단 공식 35분 영상에는 빠졌으므로 고빈도 주력곡으로 보지는 않는다."
+        },
+        {
+          "field": "basketballAdaptation",
+          "value": "수원 KT 소닉붐이 팀명 부분을 수원 KT로 바꾼 공식 응원가로 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers"
+          ],
+          "notes": "소닉붐 공식 음원·영상의 원문 크레딧은 별도로 확보하지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "홈 경기 시작과 동시에 재생되는 오프닝 일부 구간",
+        "포스트시즌·한국시리즈와 특별한 분위기에서의 전곡 응원",
+        "정규시즌에는 드물게 선곡되는 치어리더 군무형 열광응원"
+      ],
+      "trivia": [
+        {
+          "id": "together-one-theme",
+          "summary": "가사 구조는 개인인 ‘너와 나’가 하나의 KT가 된다는 문장과 영어 단결 구호를 반복해, 2020 포스트시즌의 결집 메시지에 맞춘다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-song-api",
+            "yt-kt-c-together-postseason-2021"
+          ]
+        },
+        {
+          "id": "together-korean-series",
+          "summary": "2021년 11월 한국시리즈 현장 영상이 남아 있어, 코로나 시기 공개곡이 실제 우승 포스트시즌 응원으로 이어진 사례를 확인할 수 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kt-c-together-korean-series-2021"
+          ]
+        },
+        {
+          "id": "together-frequency-paradox",
+          "summary": "현장 전문 영상은 2021~2025년에 매년 듬성듬성 남아 있지만, 2026 구단 ‘전곡’ 영상에는 없다. ‘현재 사용’과 ‘자주 사용’이 같은 뜻이 아님을 보여 주는 곡이다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kt-c-together-field-2022",
+            "yt-kt-c-together-field-2023",
+            "yt-kt-c-together-wildcard-2024",
+            "yt-kt-c-together-field-2025",
+            "ev-kt-c-official-2026-playlist"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyright-status-unverified-club-cheer-recording-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.ktwiz.co.kr/player/song",
+          "https://namu.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=HGXiMJE5lnU"
+        ],
+        "structureSummary": "짧은 팀 구호 뒤 승리·패기·열정을 모아 하나가 된다는 후렴을 두 번, 더 높은 곳으로 전진하자는 연결부, 첫 후렴의 재현과 단결 구호로 마무리한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-c-together-postseason-2021",
+        "yt-kt-c-together-korean-series-2021",
+        "yt-kt-c-together-field-2022",
+        "yt-kt-c-together-field-2023",
+        "yt-kt-c-together-wildcard-2024",
+        "yt-kt-c-together-field-2025",
+        "yt-kt-c-together-playlist-a-2026",
+        "yt-kt-c-together-playlist-b-2026"
+      ],
+      "unresolved": [
+        "2020 포스트시즌 정확한 최초 공개일과 경기",
+        "작사·작곡·편곡·보컬 전체 공식 크레딧",
+        "2026 홈 경기 오프닝에서 쓰는 정확한 구간과 길이",
+        "정규시즌 전문 선곡의 내부 기준과 실제 빈도"
+      ]
+    },
+    {
+      "id": "kt-wiz-magic-miracle",
+      "title": "마법의 기적",
+      "aliases": [
+        "마법의기적",
+        "Magic Miracle"
+      ],
+      "currentStatus": "current-new-2026-pregame-introduction",
+      "summary": "2026년에 추가된 신곡으로, 공식 저작권 표는 김주일을 저작자로 기재한다. 구단의 2026 응원단 소개 영상에서 김주일 응원단장 등장 구간에 쓰이고, 구단 API에도 2026년 3월 등록 음원으로 올라 있다. 나무위키는 AI 제작곡이라고 설명하지만 공식 자료는 도구·보컬 방식을 밝히지 않으므로 ‘김주일 저작·AI 제작 보조 주장’을 함께 보존한다. 일반 이닝 주력곡보다는 경기 전 소개곡 성격이 강하다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2026",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-song-api",
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-miracle-official-squad-2026"
+          ],
+          "notes": "공식 API의 음원 경로와 등록 시각은 2026년 3월 21일을 가리키며, 공식 소개 영상은 3월 19일 게시됐다."
+        },
+        {
+          "field": "authorship",
+          "value": "김주일",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-copyright"
+          ],
+          "notes": "공식 저작권 표의 저작자/퍼블리셔 칸 기준이다. 세부 역할 구분은 제시되지 않는다."
+        },
+        {
+          "field": "productionMethod",
+          "value": "AI로 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers"
+          ],
+          "notes": "공식 저작권 표의 김주일 저작 표기와 모순되지는 않지만, 사용 모델·AI 보컬 여부·제작 공정은 공식 확인되지 않았다."
+        },
+        {
+          "field": "usageContext",
+          "value": "경기 전 치어리더 전체 스쿼드 소개 뒤 김주일 응원단장 소개 구간",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-miracle-official-squad-2026"
+          ],
+          "notes": "공식 영상 공개 댓글도 약 1분 45초를 신곡 시작점으로 짚는다."
+        },
+        {
+          "field": "regularInningUse",
+          "value": "현행이지만 정규 이닝 주력곡으로는 거의 확인되지 않음",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-official-song-api",
+            "ev-kt-c-official-2026-playlist",
+            "yt-kt-c-miracle-mv-2026",
+            "yt-kt-c-miracle-challenge-2026"
+          ],
+          "notes": "공식 35분 응원가 영상에는 없고, 팬 영상 댓글에도 홈 경기에서 더 틀어 달라는 반응이 있다. 경기 전 소개곡 사용은 별도로 직접 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "2026 홈 경기 전 응원단 전체 스쿼드와 응원단장 소개",
+        "응원단 공연·치어리딩 콘텐츠의 배경곡",
+        "팬 제작 시즌 하이라이트와 2026 전곡 플레이리스트"
+      ],
+      "trivia": [
+        {
+          "id": "miracle-official-credit-vs-ai",
+          "summary": "‘AI 제작’이라는 설명과 ‘김주일 저작’이라는 공식 표기는 양자택일 관계가 아니다. 사람의 저작·기획 아래 AI 도구를 썼을 가능성이 있으나 구체 공정은 공개되지 않았다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "ev-kt-c-official-copyright"
+          ]
+        },
+        {
+          "id": "miracle-theme-continuity",
+          "summary": "제목과 핵심 어휘가 팀의 마법사 정체성 및 대표곡 ‘마법의 성’의 기적 이미지를 이어가지만, 두 곡은 선율·연도·저작 표기가 다른 별도 곡이다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-song-api",
+            "yt-kt-c-miracle-official-squad-2026"
+          ]
+        },
+        {
+          "id": "miracle-fan-reception",
+          "summary": "공식 소개 영상과 팬 제작 뮤직비디오 댓글은 신곡의 중독성과 시즌의 ‘기적’을 연결하는 반응이 많지만, 실제 경기 중 더 자주 듣고 싶다는 의견도 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kt-c-miracle-official-squad-2026",
+            "yt-kt-c-miracle-mv-2026",
+            "yt-kt-c-miracle-playlist-a-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-cheer-song-official-author-listed-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.ktwiz.co.kr/player/song",
+          "https://www.ktwiz.co.kr/player/song-copyright",
+          "https://www.youtube.com/watch?v=BhawY_MrZDo"
+        ],
+        "structureSummary": "팀의 열정과 마법·승리·비상을 한 묶음으로 제시하고, 하나 되어 외치자는 짧은 문장과 영어 팀 구호, 네 박의 감탄사를 세 차례 반복하는 직선적인 소개곡이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-c-miracle-official-squad-2026",
+        "yt-kt-c-miracle-playlist-a-2026",
+        "yt-kt-c-miracle-playlist-b-2026",
+        "yt-kt-c-miracle-challenge-2026",
+        "yt-kt-c-miracle-standalone-2026",
+        "yt-kt-c-miracle-mv-2026"
+      ],
+      "unresolved": [
+        "AI 생성 도구·보컬·편곡 등 실제 제작 공정",
+        "공식 최초 공개일과 첫 경기 재생일 사이의 관계",
+        "정규 이닝 중 사용 여부와 선곡 빈도",
+        "김주일 외 연주·편곡·보컬의 전체 크레딧"
+      ]
+    },
+    {
+      "id": "kt-wiz-magic-castle",
+      "title": "마법의 성(이전 표기 나의 사랑 kt wiz)",
+      "aliases": [
+        "마법의 성",
+        "마법의성",
+        "마법의성 나의사랑 kt wiz",
+        "나의 사랑 kt wiz(마법의 성 계열 옛 표기·동명 구곡 주의)"
+      ],
+      "currentStatus": "current-representative-directly-verified",
+      "summary": "더 클래식의 ‘마법의 성’을 빠른 록 응원으로 바꾼 2015년 원년 대표곡이다. 승기가 굳는 9회, 승리 직후, 경기 뒤풀이의 마지막에 주로 쓰이며 2026 정규시즌 현장까지 확인된다. 구단 음원 화면의 결합 표기와 과거 팬 표기 때문에 ‘나의 사랑 kt wiz’라는 별칭이 널리 남았지만, 같은 이름은 End of the World 원곡의 별도 응원가에도 쓰였다. 두 곡을 제목만으로 합치지 않도록 명칭 충돌을 명시한다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "더 클래식의 ‘마법의 성’ 개사·록 응원 편곡, 원곡 작사·작곡 김광진",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-copyright",
+            "ev-kt-c-channel-yes-2015"
+          ],
+          "notes": "KT용 개사·편곡·보컬 크레딧은 별도 확인 대상이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2015",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-channel-yes-2015",
+            "yt-kt-c-castle-field-2015"
+          ],
+          "notes": "2015년 5월 기사와 5월 17일 현장 영상이 같은 달에 존재한다."
+        },
+        {
+          "field": "legacyLabel",
+          "value": "마법의 성 개사곡은 과거 ‘나의 사랑 kt wiz’로도 표기됐고 현재 공식 음원 목록은 두 이름을 결합",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-channel-yes-2015",
+            "ev-kt-c-official-song-api",
+            "yt-kt-c-castle-standalone-2019"
+          ],
+          "notes": "2019 단독 영상 설명은 ‘전 나의 사랑 kt wiz / 현 마법의 성’이라고 직접 적는다."
+        },
+        {
+          "field": "titleCollision",
+          "value": "‘나의 사랑 kt wiz’는 End of the World 원곡의 별도 구곡도 가리키는 중의적 명칭",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-copyright",
+            "ev-kt-c-old-title-video",
+            "yt-kt-c-castle-wildcard-2024",
+            "yt-kt-c-castle-playlist-2026"
+          ],
+          "notes": "2024·2026 팬 타임라인도 ‘나의 사랑 KT WIZ’와 ‘마법의 성’을 서로 다른 시각에 배치한다. 앞 곡은 현재 ‘승리하라 kt wiz(전 Let's go together)’로 정리되는 별도 곡이다."
+        },
+        {
+          "field": "usageContext",
+          "value": "승기가 굳는 9회, 승리 직후 및 뒤풀이 마지막 곡; 패색이 짙어도 홈 9회 공격 전에는 종종 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "ev-kt-c-channel-yes-2015",
+            "yt-kt-c-castle-playoff-2024",
+            "yt-kt-c-castle-opening-series-2026",
+            "ev-kt-c-mt-magic-castle-2026"
+          ],
+          "notes": "현장 자료가 9회·경기 막판과 승리 순간 사용을 직접 뒷받침한다. 마무리 투수 등장곡 때문에 경기 중 생략되면 승리 뒤에 부르기도 한다는 세부 규칙은 나무위키 보고다."
+        },
+        {
+          "field": "currentUse",
+          "value": "구단 API 현행 수록 및 2025·2026 정규시즌 직접 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-song-api",
+            "yt-kt-c-castle-field-2025",
+            "yt-kt-c-castle-opening-series-2026",
+            "ev-kt-c-mt-magic-castle-2026"
+          ],
+          "notes": "2026 구단 공식 35분 학습 영상에는 없지만, 경기 막판 상황곡이므로 미수록을 폐지 근거로 보지 않는다."
+        },
+        {
+          "field": "frequencyHistory",
+          "value": "2019년 하쿠나마타타 집중 운용 때 빈도가 낮아졌다가 2020년부터 다시 대표곡 위상 회복",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-castle-standalone-2019"
+          ],
+          "notes": "시즌별 실제 선곡 횟수 통계는 없다."
+        }
+      ],
+      "usageContexts": [
+        "승기가 굳는 9회와 승리 직후의 어깨동무 떼창",
+        "경기 종료 뒤풀이 응원의 마지막 곡",
+        "지고 있는 홈 경기에서도 9회말 공격 전 팬 서비스성 선곡",
+        "포스트시즌 원정석과 정규시즌 경기 막판 치어리더 군무"
+      ],
+      "trivia": [
+        {
+          "id": "castle-team-city-fit",
+          "summary": "마법사 팀명과 수원 화성이라는 지역 상징이 원곡 제목 ‘마법의 성’과 자연스럽게 겹쳐, 창단곡이 팀 정체성의 대표곡으로 자리 잡기 좋은 조합이었다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-castle-vocal-live-2025"
+          ]
+        },
+        {
+          "id": "castle-iksan-suwon-line",
+          "summary": "퓨처스팀 익산 홈 경기 응원단 파견 때도 수원 지명을 바꾸지 않는다고 정리된다. 익산에도 오금산성이라는 성곽 유산이 있다는 점이 팬 여담으로 덧붙는다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers"
+          ]
+        },
+        {
+          "id": "castle-vocalist-high-key",
+          "summary": "응원가 보컬 황석빈은 2025년 자신의 라이브 영상 설명에서 이 곡을 직접 불렀다고 밝히며, 팬들이 높다고 가장 많이 말하고 본인에게도 부르기 어려운 곡이라고 회고한다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kt-c-castle-vocal-live-2025"
+          ]
+        },
+        {
+          "id": "castle-dragon-pony-cover",
+          "summary": "나무위키는 2025 시즌을 앞두고 드래곤포니가 커버했다고 적고, 2차 색인에도 1theK Live 명의 영상 제목이 남아 있다. 원본 게시일과 현재 공개 상태를 재확인하지 못했다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "ev-kt-c-chordify-dragonpony"
+          ]
+        },
+        {
+          "id": "castle-emotional-reception",
+          "summary": "플레이오프 현장과 단독 음원 댓글에서는 이 곡을 팀의 성장·우승 기억과 연결해 울컥한다는 반응이 반복된다. 이는 인기도의 정량 통계가 아니라 공개 댓글의 질적 경향이다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kt-c-castle-standalone-2019",
+            "yt-kt-c-castle-playoff-2024",
+            "yt-kt-c-castle-vocal-live-2025"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-adaptation-official-rightsholder-table-available-no-lyrics-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.ktwiz.co.kr/player/song",
+          "https://www.ktwiz.co.kr/player/song-copyright",
+          "https://namu.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "당당히 맞서 기적을 만들자는 도입, 함께라면 해낼 수 있다는 상승부, 수원과 팀명을 넣은 반복 후렴으로 구성된다. 현장에서는 빠른 록 반주에 맞춰 어깨동무와 좌우 율동을 결합한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-c-castle-field-2015",
+        "yt-kt-c-castle-standalone-2019",
+        "yt-kt-c-castle-wildcard-2024",
+        "yt-kt-c-castle-playoff-2024",
+        "yt-kt-c-castle-vocal-live-2025",
+        "yt-kt-c-castle-field-2025",
+        "yt-kt-c-castle-opening-series-2026",
+        "yt-kt-c-castle-playlist-2026"
+      ],
+      "unresolved": [
+        "구단이 현재 카드·음원 제목을 ‘마법의 성’과 결합 표기 중 어느 것으로 최종 표준화하는지",
+        "마법의 성 계열의 ‘나의 사랑 kt wiz’ 옛 표기와 End of the World 계열 동명곡을 구단 내부에서 구분한 공식 명명 이력",
+        "KT용 개사·편곡·보컬의 전체 공식 크레딧",
+        "드래곤포니 커버 원본의 정확한 URL·게시일·공개 상태",
+        "2019~2020 시즌 실제 선곡 횟수와 마무리 투수 등장 때의 세부 운용 기준"
+      ]
+    },
+    {
+      "id": "kt-wiz-rise-kt",
+      "title": "비상하라 KT",
+      "aliases": [
+        "비상하라 kt",
+        "승리하라 KT 비상하라 KT"
+      ],
+      "currentStatus": "current-officially-listed-limited-recent-field-evidence",
+      "summary": "2020 포스트시즌에 공개된 ‘비상’ 응원가 3종 중 하나로, 승리·비상 선창과 박수, 팀명 철자 구호를 반복한다. 구단 API에는 현행곡으로 남고 2026 팬 전곡 목록 두 곳에도 수록되지만, 2026 구단 공식 35분 영상에는 빠지고 최신 단독 현장 표본은 2023년이다. 따라서 폐지곡은 아니되 최근 정규 이닝의 사용 빈도는 낮거나 이벤트성일 가능성을 열어 둔다. ‘승리를 향해 비상하라’와는 별도 곡이다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2020 포스트시즌",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-rise-launch-mv-2020"
+          ],
+          "notes": "2020년 5월 이미 ‘신규 팀 응원가’ 음원 영상이 있어 제작·공개 시점과 포스트시즌 현장 공개 시점을 구분할 필요가 있다."
+        },
+        {
+          "field": "series",
+          "value": "2020 비상(飛上) 응원가 3종 중 하나",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers"
+          ],
+          "notes": "너와 내가 우리가 되어, 승리를 향해 비상하라와 함께 묶인다."
+        },
+        {
+          "field": "currentUse",
+          "value": "구단 API와 2026 팬 전곡 목록에 현행 수록, 2023 직접 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-official-song-api",
+            "yt-kt-c-rise-field-2023",
+            "yt-kt-c-rise-playlist-2025",
+            "yt-kt-c-rise-playlist-a-2026",
+            "yt-kt-c-rise-playlist-b-2026"
+          ],
+          "notes": "2024·2026 단독 현장 영상이 부족하고 공식 2026 영상에는 없어 ‘현행 고빈도’로 올리지는 않았다."
+        },
+        {
+          "field": "distinctFromVictoryFlight",
+          "value": "‘비상하라 KT’와 ‘승리를 향해 비상하라’는 제목·음원·가사가 다른 별도 곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-song-api",
+            "yt-kt-c-rise-playlist-a-2026",
+            "yt-kt-c-rise-playlist-b-2026"
+          ],
+          "notes": "2026 플레이리스트는 두 곡을 서로 다른 타임코드에 배치한다."
+        },
+        {
+          "field": "basketballAdaptation",
+          "value": "수원 KT 소닉붐이 팀명 부분을 수원 KT로 바꿔 공식 응원가로 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers"
+          ],
+          "notes": "농구단 공식 원문 음원·크레딧은 이번 조사에서 직접 확보하지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "승리와 비상을 선창하고 관중이 박수로 받는 열광응원",
+        "치어리더 군무와 팀명 철자 구호를 결합한 약 1분 30초 전곡",
+        "최근에는 팬 전곡 플레이리스트에서 확인되며 정규 이닝 직접 표본은 제한적"
+      ],
+      "trivia": [
+        {
+          "id": "rise-three-song-package",
+          "summary": "같은 2020 ‘비상’ 묶음의 세 곡은 제목과 어휘가 겹쳐 팬 검색에서 자주 섞인다. 공식 API와 플레이리스트 타임라인을 기준으로 각각 별도 엔트리로 유지해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-c-official-song-api",
+            "ev-kt-c-namu-cheers",
+            "yt-kt-c-rise-playlist-a-2026"
+          ]
+        },
+        {
+          "id": "rise-pandemic-launch",
+          "summary": "2020년 5월 팬 업로드 댓글에는 현장에서 빨리 부르고 싶다는 반응이 반복된다. 무관중·제한 관중기 신곡이었던 당시의 맥락을 보여 주지만 공식 최초 공개일을 확정하지는 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kt-c-rise-launch-audio-2020"
+          ]
+        },
+        {
+          "id": "rise-sonicboom",
+          "summary": "야구·농구 형제 구단이 같은 승리·비상 구조를 공유하되 팀명만 바꾼다고 정리된다. 별도 편곡이나 녹음 차이는 확인하지 못했다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-c-namu-cheers"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyright-status-unverified-club-cheer-recording-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.ktwiz.co.kr/player/song",
+          "https://namu.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=kCyyRTJFrRY"
+        ],
+        "structureSummary": "긴 무가사 도입 뒤 승리와 비상을 짝지은 선창, 두 번의 박수로 끊는 함성 구절, 팀명 철자와 승리 선언을 거쳐 첫 후렴을 반복하고 마지막 함성 문장을 한 번 더 늘여 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-c-rise-launch-audio-2020",
+        "yt-kt-c-rise-launch-mv-2020",
+        "yt-kt-c-rise-standalone-2021",
+        "yt-kt-c-rise-field-2023",
+        "yt-kt-c-rise-mv-2024",
+        "yt-kt-c-rise-playlist-2025",
+        "yt-kt-c-rise-playlist-a-2026",
+        "yt-kt-c-rise-playlist-b-2026"
+      ],
+      "unresolved": [
+        "2020년 음원 공개와 포스트시즌 현장 공개의 정확한 날짜·순서",
+        "작사·작곡·편곡·보컬 전체 공식 크레딧",
+        "2025~2026 정규시즌 직접 사용 빈도와 상황",
+        "수원 KT 소닉붐 버전의 공식 음원·편곡 차이"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kt-c-weare-original-upload-2016",
+      "songId": "kt-wiz-we-are-the-kt-wiz",
+      "url": "https://www.youtube.com/watch?v=vcIzm0wvO90",
+      "videoId": "vcIzm0wvO90",
+      "title": "20160705_제작완료_[kt wiz] we are the kt wiz",
+      "channel": "Hyeong Shin Kim",
+      "publishedAt": "2016-09-06",
+      "descriptionSummary": "설명은 비어 있지만 제목이 2016년 7월 5일 제작 완료본임을 표시하는 1분 59초 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 오래된 영상이 다시 추천된 점, 팀에 대한 호감과 핵심 후렴을 기억한다는 반응이 중심이다."
+      ],
+      "supports": [
+        "earlyRecording2016",
+        "lyricsStructure"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-weare-field-2019",
+      "songId": "kt-wiz-we-are-the-kt-wiz",
+      "url": "https://www.youtube.com/watch?v=sDOBS9QmPBg",
+      "videoId": "sDOBS9QmPBg",
+      "title": "kt 위즈 팀 응원가 - We are the kt wiz + 이대은 등판 전광판 영상 [2019. 09. 29 삼성전]",
+      "channel": "KBO on-site cheering song",
+      "publishedAt": "2019-09-30",
+      "descriptionSummary": "2019년 9월 29일 수원 kt 위즈파크 삼성전에서 팀 응원가와 이대은 등판 전광판을 촬영한 1분 55초 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directFieldUse2019",
+        "retirementClaimCounterexample"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-weare-field-2022",
+      "songId": "kt-wiz-we-are-the-kt-wiz",
+      "url": "https://www.youtube.com/watch?v=gmOcmRCHDg8",
+      "videoId": "gmOcmRCHDg8",
+      "title": "[2022 KT 최종전] 9회 We are the KT 위즈 육성 떼창 응원가 (2022.10.11)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2022-10-18",
+      "descriptionSummary": "2022년 10월 11일 최종전 9회에 관중이 육성으로 부른 모습을 담은 1분 31초 직접 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directFieldUse2022",
+        "lateInningUsage"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-weare-field-2023",
+      "songId": "kt-wiz-we-are-the-kt-wiz",
+      "url": "https://www.youtube.com/watch?v=6KOt2GUbV5E",
+      "videoId": "6KOt2GUbV5E",
+      "title": "[4K] 230822 ktwiz 레이디위즈 (kt응원가 - we are the kt wiz)",
+      "channel": "구운동마법사",
+      "publishedAt": "2023-10-02",
+      "descriptionSummary": "2023년 8월 22일 레이디위즈 다섯 명의 We are the kt wiz 군무를 4K로 촬영한 1분 38초 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 곡 정보보다 출연 응원단원에 대한 짧은 인상에 집중한다."
+      ],
+      "supports": [
+        "directFieldUse2023",
+        "cheerDance"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-weare-wildcard-2024",
+      "songId": "kt-wiz-we-are-the-kt-wiz",
+      "url": "https://www.youtube.com/watch?v=HGXiMJE5lnU",
+      "videoId": "HGXiMJE5lnU",
+      "title": "⚾️2024 와일드카드 최종전서 잠실 3루를 꽉 채워버린 KT 위즈 선수 & 팀 응원가 현장 직캠 45분 총모음!!🧙🏻‍♂️ (2024.10.03 WC 최종전 vs 두산)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2024-10-03",
+      "descriptionSummary": "2024 와일드카드 최종전 원정석 45분 모음으로, 설명 타임라인이 We are the KT WIZ를 30분 59초에 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 원정 관중 증가, 큰 떼창과 응원단장의 주도력, 팀에 대한 감동을 반복해서 언급한다."
+      ],
+      "supports": [
+        "postseasonFieldUse2024",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-weare-official-2026",
+      "songId": "kt-wiz-we-are-the-kt-wiz",
+      "url": "https://www.youtube.com/watch?v=2kJf0pbtajA",
+      "videoId": "2kJf0pbtajA",
+      "title": "✨직관 전 필수시청✨ 2026 kt wiz 응원가 전곡 플레이리스트 [2026 위즈티비]",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2026-03-23",
+      "descriptionSummary": "구단 공식 2026 응원가·응원법 영상이 We are the kt wiz를 4분 34초에 직접 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 영상 전반의 AI 보컬에 대한 아쉬움, 인간 보컬 재녹음과 누락 선수 응원가 요청, 시즌 선전을 바라는 반응이 주를 이룬다."
+      ],
+      "supports": [
+        "officialCurrentUse2026"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-weare-playlist-2026",
+      "songId": "kt-wiz-we-are-the-kt-wiz",
+      "url": "https://www.youtube.com/watch?v=Lw45jev4IxI",
+      "videoId": "Lw45jev4IxI",
+      "title": "[Playlist] kt wiz 2026 팀응원가 플레이리스트 (응원가 Only Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2026-04-17",
+      "descriptionSummary": "2026 팀 응원가 전용 팬 플레이리스트가 We are the kt wiz를 40분 20초에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 직관 전 학습과 일상 재생에 유용하다는 감사, 팀 승리 경험 뒤 다시 찾았다는 반응이 중심이다."
+      ],
+      "supports": [
+        "fanCurrentList2026"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-together-postseason-2021",
+      "songId": "kt-wiz-you-and-i-become-us",
+      "url": "https://www.youtube.com/watch?v=P65K59TVixA",
+      "videoId": "P65K59TVixA",
+      "title": "KT위즈 승리를 외쳐라~ 너와 나 우리가 되어@김주일 응원단장님@김한슬님@양수진님@2021",
+      "channel": "마법의 야구 이야기",
+      "publishedAt": "2021-11-03",
+      "descriptionSummary": "2021 포스트시즌 시기 김주일 응원단장과 레이디위즈가 전곡 응원을 진행한 1분 42초 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "postseasonUse2021",
+        "fullSongForm"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-together-korean-series-2021",
+      "songId": "kt-wiz-you-and-i-become-us",
+      "url": "https://www.youtube.com/watch?v=KaC3tqAtdK0",
+      "videoId": "KaC3tqAtdK0",
+      "title": "너와 내가 우리가 되어 KT위즈@한국시리즈2@ 김주일 응원단장님@ 김진아님@11/15",
+      "channel": "sports응원 여행기",
+      "publishedAt": "2021-11-15",
+      "descriptionSummary": "2021년 11월 15일 한국시리즈 2차전에서 김주일 응원단장과 김진아 치어리더가 전곡 응원을 진행한 1분 44초 직접 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "koreanSeriesUse2021",
+        "championshipRunContext"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-together-field-2022",
+      "songId": "kt-wiz-you-and-i-become-us",
+      "url": "https://www.youtube.com/watch?v=Tncn4tw7aZk",
+      "videoId": "Tncn4tw7aZk",
+      "title": "KT위즈@ 너와내가 우리가 되어@ 김주일 응원단장님@ 정유민님@ 류혜민님@2022",
+      "channel": "sports응원 여행기",
+      "publishedAt": "2022-04-29",
+      "descriptionSummary": "2022년 김주일 응원단장과 치어리더의 전곡 진행을 담은 1분 39초 직접 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directFieldUse2022"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-together-field-2023",
+      "songId": "kt-wiz-you-and-i-become-us",
+      "url": "https://www.youtube.com/watch?v=7wFXyom-ugE",
+      "videoId": "7wFXyom-ugE",
+      "title": "[4K] 230727 ktwiz 김진아 치어리더 (kt응원가 - 너와 내가 우리가 되어)",
+      "channel": "구운동마법사",
+      "publishedAt": "2023-08-06",
+      "descriptionSummary": "2023년 7월 27일 김진아 치어리더의 ‘너와 내가 우리가 되어’ 응원을 4K로 촬영한 1분 8초 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directFieldUse2023",
+        "shortFieldEdit"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-together-wildcard-2024",
+      "songId": "kt-wiz-you-and-i-become-us",
+      "url": "https://www.youtube.com/watch?v=HGXiMJE5lnU",
+      "videoId": "HGXiMJE5lnU",
+      "title": "⚾️2024 와일드카드 최종전서 잠실 3루를 꽉 채워버린 KT 위즈 선수 & 팀 응원가 현장 직캠 45분 총모음!!🧙🏻‍♂️ (2024.10.03 WC 최종전 vs 두산)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2024-10-03",
+      "descriptionSummary": "2024 와일드카드 최종전 원정석 영상이 이 곡을 23분 54초부터 약 1분 40초간 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 KT 원정 팬 증가와 응원 열기, 응원단장의 리드, 팀을 향한 감동을 반복해서 언급한다."
+      ],
+      "supports": [
+        "postseasonFieldUse2024",
+        "fullSongUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-together-field-2025",
+      "songId": "kt-wiz-you-and-i-become-us",
+      "url": "https://www.youtube.com/watch?v=7ugdezUB_hk",
+      "videoId": "7ugdezUB_hk",
+      "title": "2025.08.24 KT WIZ  너와 내가 우리가 되어",
+      "channel": "JOWONGITV SKT 옛날방송 MBC GAME 온게임넷",
+      "publishedAt": "2025-09-04",
+      "descriptionSummary": "2025년 8월 24일 경기에서 전곡이 재생된 모습을 담은 1분 51초 현장 영상으로, 저빈도이지만 실제 선곡이 지속됨을 보여 준다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directFieldUse2025",
+        "lowFrequencyNotRetired"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-together-playlist-a-2026",
+      "songId": "kt-wiz-you-and-i-become-us",
+      "url": "https://www.youtube.com/watch?v=JF2TEiYUUPM",
+      "videoId": "JF2TEiYUUPM",
+      "title": "2026 🧙‍♂️KT 위즈 PLAYLIST⚾️ (신규응원가 포함, 끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-04-04",
+      "descriptionSummary": "2026 선수·팀 응원가 팬 목록이 ‘너와 내가 우리가 되어’를 28분 13초에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 어린 팬도 반복해서 듣는다는 반응, 시즌 우승과 선수 건강을 바라는 응원이 중심이다."
+      ],
+      "supports": [
+        "fanCurrentList2026"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-together-playlist-b-2026",
+      "songId": "kt-wiz-you-and-i-become-us",
+      "url": "https://www.youtube.com/watch?v=Lw45jev4IxI",
+      "videoId": "Lw45jev4IxI",
+      "title": "[Playlist] kt wiz 2026 팀응원가 플레이리스트 (응원가 Only Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2026-04-17",
+      "descriptionSummary": "응원가 전용 2026 팬 플레이리스트가 곡을 31분 52초에 수록해 현행 팬 목록을 교차 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 직관 준비와 노동요로 활용한다는 감사, 특정 팀 응원가의 전곡 요청과 시즌 경기 추억을 남긴다."
+      ],
+      "supports": [
+        "fanCurrentList2026",
+        "lowFrequencyCatalogPresence"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-miracle-official-squad-2026",
+      "songId": "kt-wiz-magic-miracle",
+      "url": "https://www.youtube.com/watch?v=BhawY_MrZDo",
+      "videoId": "BhawY_MrZDo",
+      "title": "[4K] 2026 시즌 우리와 함께 뛸 kt wiz 응원단  l  @수원 kt wiz park",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2026-03-19",
+      "descriptionSummary": "구단 공식 2026 응원단 소개 영상이다. 공개 댓글의 타임코드와 나무위키 사용 설명이 약 1분 45초 김주일 응원단장 소개 구간의 신곡을 ‘마법의 기적’으로 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 1분 45초의 신규 응원가를 직접 지목하고, 마법사 팀 콘셉트와 곡 제목의 어울림·중독성을 호평한다."
+      ],
+      "supports": [
+        "officialIntroductionVideo2026",
+        "pregameLeaderIntroduction",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-miracle-playlist-a-2026",
+      "songId": "kt-wiz-magic-miracle",
+      "url": "https://www.youtube.com/watch?v=Lw45jev4IxI",
+      "videoId": "Lw45jev4IxI",
+      "title": "[Playlist] kt wiz 2026 팀응원가 플레이리스트 (응원가 Only Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2026-04-17",
+      "descriptionSummary": "2026 팀 응원가 전용 팬 플레이리스트가 신곡을 첫 곡 0분 0초에 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 곡을 직관에서 직접 부르고 싶다는 바람과 신곡의 애니메이션 주제가 같은 인상을 언급한다."
+      ],
+      "supports": [
+        "fanCurrentList2026",
+        "fanDemandForFieldUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-miracle-playlist-b-2026",
+      "songId": "kt-wiz-magic-miracle",
+      "url": "https://www.youtube.com/watch?v=JF2TEiYUUPM",
+      "videoId": "JF2TEiYUUPM",
+      "title": "2026 🧙‍♂️KT 위즈 PLAYLIST⚾️ (신규응원가 포함, 끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-04-04",
+      "descriptionSummary": "2026 선수·팀 응원가 팬 목록이 마법의 기적을 1시간 6분 2초에, 마법의 성을 그 뒤 1시간 7분 50초에 별도 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 시즌 우승과 선수들의 건강을 기원하며, 가족과 출퇴근 중 반복 재생한다는 반응을 보인다."
+      ],
+      "supports": [
+        "fanCurrentList2026",
+        "distinctFromMagicCastle"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-miracle-challenge-2026",
+      "songId": "kt-wiz-magic-miracle",
+      "url": "https://www.youtube.com/watch?v=eDG_hbx7SIU",
+      "videoId": "eDG_hbx7SIU",
+      "title": "KT WIZ 드림팀 마법의 기적🪄 | KT vs 한화 05/16-17",
+      "channel": "아이티비",
+      "publishedAt": "2026-05-19",
+      "descriptionSummary": "2026년 5월 16~17일 KT-한화전 치어리딩 공연이 ‘마법의 기적’으로 시작했다고 설명하는 3분 48초 현장 콘텐츠다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "cheerPerformanceUse2026",
+        "fieldAdjacentUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-miracle-standalone-2026",
+      "songId": "kt-wiz-magic-miracle",
+      "url": "https://www.youtube.com/watch?v=XZRRlHgvg_o",
+      "videoId": "XZRRlHgvg_o",
+      "title": "크트 응원가 마법의 기적",
+      "channel": "파솔파솔 미파솔",
+      "publishedAt": "2026-06-14",
+      "descriptionSummary": "유튜브 뮤직에서 단독 곡을 찾기 어렵다는 이유로 올린 1분 51초 팬 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 곡 정보보다 유튜브 뮤직 검색·노출 방법을 묻는 내용이다."
+      ],
+      "supports": [
+        "standaloneRecording2026",
+        "lyricsStructure"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-miracle-mv-2026",
+      "songId": "kt-wiz-magic-miracle",
+      "url": "https://www.youtube.com/watch?v=tXHs_Xw5Ubg",
+      "videoId": "tXHs_Xw5Ubg",
+      "title": "[M/V] (비공식) KT위즈 \"마법의 기적\" 뮤직비디오",
+      "channel": "마법의 성",
+      "publishedAt": "2026-07-18",
+      "descriptionSummary": "2026 시즌 명장면을 신곡 전곡에 맞춰 편집한 1분 50초 비공식 팬 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 연승과 시즌 명장면을 곡에 연결해 감동적이라고 평가하며, 홈 경기에서 더 자주 틀어 달라는 반응도 있다."
+      ],
+      "supports": [
+        "fanReception2026",
+        "limitedFieldUsePerception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-castle-field-2015",
+      "songId": "kt-wiz-magic-castle",
+      "url": "https://www.youtube.com/watch?v=PqQPwBEWL30",
+      "videoId": "PqQPwBEWL30",
+      "title": "kt 위즈 응원가 마법의성 [REXK]",
+      "channel": "REX K (REXK)",
+      "publishedAt": "2015-05-17",
+      "descriptionSummary": "2015년 5월 17일 ‘마법의 성’ 현장 응원을 담은 1분 15초 영상으로, 창단 첫 1군 시즌 사용을 직접 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 초기 KT 팬의 호감 표현과 촬영 경기 날짜를 묻는 짧은 반응이다."
+      ],
+      "supports": [
+        "directFieldUse2015",
+        "introductionYear2015"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-castle-standalone-2019",
+      "songId": "kt-wiz-magic-castle",
+      "url": "https://www.youtube.com/watch?v=nDpuSVs1sLc",
+      "videoId": "nDpuSVs1sLc",
+      "title": "kt wiz 응원가 - 마법의성 [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-09-11",
+      "descriptionSummary": "설명에 ‘전 나의 사랑 kt wiz, 현 마법의 성’이라고 적은 1분 54초 전곡 영상으로 옛 표기와 현재 표기의 연결을 직접 남긴다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 한국시리즈 진출·우승과 팀의 성장 기억, 이 곡을 최애 응원가로 꼽는 반응이 반복된다."
+      ],
+      "supports": [
+        "legacyLabel",
+        "recording2019",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-castle-wildcard-2024",
+      "songId": "kt-wiz-magic-castle",
+      "url": "https://www.youtube.com/watch?v=HGXiMJE5lnU",
+      "videoId": "HGXiMJE5lnU",
+      "title": "⚾️2024 와일드카드 최종전서 잠실 3루를 꽉 채워버린 KT 위즈 선수 & 팀 응원가 현장 직캠 45분 총모음!!🧙🏻‍♂️ (2024.10.03 WC 최종전 vs 두산)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2024-10-03",
+      "descriptionSummary": "2024 와일드카드 원정석 모음은 ‘나의 사랑 KT WIZ’를 32분 35초, ‘마법의 성’을 40분 12초에 따로 적어 동명 구곡과 대표곡을 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 팬 규모 성장, 응원단장의 주도력과 현장 떼창에서 느낀 감동을 강조한다."
+      ],
+      "supports": [
+        "postseasonFieldUse2024",
+        "titleCollisionDirectTimeline"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-castle-playoff-2024",
+      "songId": "kt-wiz-magic-castle",
+      "url": "https://www.youtube.com/watch?v=I466JJ0WtqU",
+      "videoId": "I466JJ0WtqU",
+      "title": "[2024 준PO 1차전] 🧙🏻‍♂️9회 잠실에 울려퍼지는 KT위즈 마법의 성 떼창 응원 현장 직캠⚾️ (2024.10.05 vs LG)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2024-10-05",
+      "descriptionSummary": "2024 준플레이오프 1차전 9회 잠실 원정석의 마법의 성 떼창을 담은 1분 31초 직접 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 이 곡을 들을 때 울컥한다는 반응과 응원단장의 현장 지휘에 대한 호평이 중심이다."
+      ],
+      "supports": [
+        "ninthInningUsage",
+        "postseasonFieldUse2024",
+        "emotionalReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-castle-vocal-live-2025",
+      "songId": "kt-wiz-magic-castle",
+      "url": "https://www.youtube.com/watch?v=XQKmqqKlFHE",
+      "videoId": "XQKmqqKlFHE",
+      "title": "KT위즈 응원가 ‘마법의 성’ LIVE ｜ 야구장이 마법처럼 뜨거워지는 순간!",
+      "channel": "무적로커 황석빈",
+      "publishedAt": "2025-06-21",
+      "descriptionSummary": "응원가 보컬 황석빈이 스튜디오 원테이크 라이브로 부른 1분 28초 영상이다. 설명에서 자신이 KT 버전을 녹음했고 음역이 높아 부르기 어려운 곡이라고 회고한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 8회말·경기 막판 현장에서 들을 때의 웅장함, 보컬의 정체를 새로 알았다는 반응과 팀의 가을야구를 기원한다."
+      ],
+      "supports": [
+        "vocalCredit",
+        "highKeyTrivia",
+        "fanReception2025"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-castle-field-2025",
+      "songId": "kt-wiz-magic-castle",
+      "url": "https://www.youtube.com/watch?v=m7Cwdx83ZXI",
+      "videoId": "m7Cwdx83ZXI",
+      "title": "KT위즈 응원가 마법의 성 (0925)",
+      "channel": "윤병호",
+      "publishedAt": "2025-10-03",
+      "descriptionSummary": "제목이 9월 25일 경기의 마법의 성 응원을 특정하는 1분 50초 직접 현장 영상이다. 게시일은 촬영일 뒤다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directFieldUse2025"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-castle-opening-series-2026",
+      "songId": "kt-wiz-magic-castle",
+      "url": "https://www.youtube.com/watch?v=vO1lIL4Duj0",
+      "videoId": "vO1lIL4Duj0",
+      "title": "🧙🏻‍♂️이젠 우리도 한줌단이 아니다!! 정말 듣기 좋은 신규 응원가까지!! 2026 KT WIZ 잠실 개막시리즈 응원 현장 직캠 모음!!🧙🏻‍♂️ (260328~29 vs LG)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2026-03-30",
+      "descriptionSummary": "2026년 3월 28~29일 잠실 개막시리즈 원정 응원 모음으로, 마법의 성을 마지막 팀 응원 구간인 31분 39초에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 원정 팬 증가와 큰 응원 소리에 감동했다는 반응, 신규·기존 응원가 전반에 대한 호평이 많다."
+      ],
+      "supports": [
+        "directFieldUse2026",
+        "lateSetUsage"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-castle-playlist-2026",
+      "songId": "kt-wiz-magic-castle",
+      "url": "https://www.youtube.com/watch?v=JF2TEiYUUPM",
+      "videoId": "JF2TEiYUUPM",
+      "title": "2026 🧙‍♂️KT 위즈 PLAYLIST⚾️ (신규응원가 포함, 끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-04-04",
+      "descriptionSummary": "2026 팬 목록이 별도 구곡 ‘나의 사랑 KT WIZ’를 1시간 55초, 대표곡 마법의 성을 1시간 7분 50초에 분리해 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 가족과 출퇴근 중 반복해서 듣는다는 반응, 시즌 우승과 부상 없는 경기를 바라는 응원이 중심이다."
+      ],
+      "supports": [
+        "fanCurrentList2026",
+        "titleCollisionDirectTimeline"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-rise-launch-audio-2020",
+      "songId": "kt-wiz-rise-kt",
+      "url": "https://www.youtube.com/watch?v=kCyyRTJFrRY",
+      "videoId": "kCyyRTJFrRY",
+      "title": "kt wiz 2020 신규 팀 응원가 웅장함 그 자체 \"비상하라 kt\"",
+      "channel": "Baseball The Korea",
+      "publishedAt": "2020-05-12",
+      "descriptionSummary": "구단 공식 홈페이지 음원을 출처로 밝힌 1분 43초 전곡 영상으로, 2020년 5월부터 신곡이 공개돼 있었음을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 웅장한 도입과 후렴을 호평하고, 무관중 시기라 현장에서 빨리 부르고 싶다는 기대와 팀의 반등을 바라는 반응이 많다."
+      ],
+      "supports": [
+        "recordingPublicByMay2020",
+        "lyricsStructure",
+        "pandemicReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-rise-launch-mv-2020",
+      "songId": "kt-wiz-rise-kt",
+      "url": "https://www.youtube.com/watch?v=yCTKmwQvMaU",
+      "videoId": "yCTKmwQvMaU",
+      "title": "kt 위즈 응원가｜비상하라 kt 뮤직비디오｜2020 신규 응원가｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2020-11-08",
+      "descriptionSummary": "창단 첫 가을야구와 더 높은 순위를 바라보는 2020 신규 응원가라고 소개한 1분 55초 팬 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 승리·비상 후렴을 따라 쓰고 응원가의 완성도를 호평하며, 영상 제작 방식에 관해 묻는 반응이 섞여 있다."
+      ],
+      "supports": [
+        "postseasonContext2020",
+        "fanReception2020"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-rise-standalone-2021",
+      "songId": "kt-wiz-rise-kt",
+      "url": "https://www.youtube.com/watch?v=BhQUAMv3Nyo",
+      "videoId": "BhQUAMv3Nyo",
+      "title": "[kt wiz] 팀응원가 비상하라 kt",
+      "channel": "한화의노토바이",
+      "publishedAt": "2021-01-29",
+      "descriptionSummary": "2021년 초 업로드된 1분 43초 단독 전곡 영상으로 2020 신곡의 음원 형태를 교차 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 KT 응원가 전반의 완성도와 김주일 응원단장의 선곡 감각을 호평한다."
+      ],
+      "supports": [
+        "standaloneRecording2021"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-rise-field-2023",
+      "songId": "kt-wiz-rise-kt",
+      "url": "https://www.youtube.com/watch?v=2cQRFUd_Zbc",
+      "videoId": "2cQRFUd_Zbc",
+      "title": "[4K] 230511 ktwiz 김진아 치어리더 (kt응원가 - 비상하라 kt)",
+      "channel": "구운동마법사",
+      "publishedAt": "2023-05-13",
+      "descriptionSummary": "2023년 5월 11일 김진아 치어리더의 비상하라 kt 군무를 4K로 촬영한 1분 34초 직접 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 다른 비슷한 제목의 응원가로 착각해 어깨동무한 관중이 있었다는 현장 반응과 특정 응원단원 영상 요청을 남긴다."
+      ],
+      "supports": [
+        "directFieldUse2023",
+        "titleConfusionAnecdote"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-rise-mv-2024",
+      "songId": "kt-wiz-rise-kt",
+      "url": "https://www.youtube.com/watch?v=ZQe89wNm_C0",
+      "videoId": "ZQe89wNm_C0",
+      "title": "비상하라 kt - kt wiz 팀 응원가 MV",
+      "channel": "쑤드링",
+      "publishedAt": "2024-11-11",
+      "descriptionSummary": "KT 시즌 장면을 비상하라 kt 전곡에 맞춰 편집한 1분 40초 팬 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 곡과 직접 관계없는 원곡 추정 문장을 길게 남겨, 사실 근거로 사용하지 않았다."
+      ],
+      "supports": [
+        "fanCatalogPresence2024",
+        "fullSongForm"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-rise-playlist-2025",
+      "songId": "kt-wiz-rise-kt",
+      "url": "https://www.youtube.com/watch?v=t9k2hE63SJw",
+      "videoId": "t9k2hE63SJw",
+      "title": "[Playlist] 2025시즌 Ver. kt wiz 팀응원가 모음 (04.02 Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2025-04-02",
+      "descriptionSummary": "2025 시즌 팀 응원가 팬 목록이 비상하라 kt를 24분 30초, 승리를 향해 비상하라를 26분 10초에 별도 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 빠른 시즌 업데이트와 출퇴근·직관 준비용 재생목록에 감사하며, 새 응원가를 현장에서 부르고 싶다는 반응이 많다."
+      ],
+      "supports": [
+        "fanCurrentList2025",
+        "distinctFromVictoryFlight"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-rise-playlist-a-2026",
+      "songId": "kt-wiz-rise-kt",
+      "url": "https://www.youtube.com/watch?v=Lw45jev4IxI",
+      "videoId": "Lw45jev4IxI",
+      "title": "[Playlist] kt wiz 2026 팀응원가 플레이리스트 (응원가 Only Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2026-04-17",
+      "descriptionSummary": "2026 팀 응원가 전용 팬 목록이 승리를 향해 비상하라를 22분 7초, 비상하라 kt를 27분 34초에 별도 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 직관 준비와 일상 반복 재생에 유용하다는 감사, 팀의 극적인 승리 뒤 다시 찾았다는 반응이 중심이다."
+      ],
+      "supports": [
+        "fanCurrentList2026",
+        "distinctFromVictoryFlight"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-c-rise-playlist-b-2026",
+      "songId": "kt-wiz-rise-kt",
+      "url": "https://www.youtube.com/watch?v=JF2TEiYUUPM",
+      "videoId": "JF2TEiYUUPM",
+      "title": "2026 🧙‍♂️KT 위즈 PLAYLIST⚾️ (신규응원가 포함, 끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-04-04",
+      "descriptionSummary": "2026 팬 통합 목록이 승리를 향해 비상하라를 44분 52초, 비상하라 KT를 46분 44초에 연달아 별도 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 시즌 우승과 선수 건강을 기원하고 가족·출퇴근 중 반복해서 듣는다는 반응이 많다."
+      ],
+      "supports": [
+        "fanCurrentList2026",
+        "distinctFromVictoryFlight"
+      ],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 37,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 21
+  }
+}

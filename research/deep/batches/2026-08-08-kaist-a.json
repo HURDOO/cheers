@@ -1,0 +1,1244 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kaist-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-kaist",
+    "name": "KAIST",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태, 출처와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 연도·원곡·행사 맥락·현장 수용을 확인하는 데 필요한 내용만 익명으로 재서술한다. 댓글 작성자 이름과 개인 식별 정보는 수집하지 않았다.",
+  "items": [
+    {
+      "id": "kaist-a-victory-song",
+      "title": "승리의 노래",
+      "aliases": ["승노", "아자자 카이스트야"],
+      "currentStatus": "current-directly-verified-through-2026-freshman-cheerleading-orientation",
+      "summary": "BanYa의 리듬게임 곡 ‘Beethoven Virus’를 바탕으로 베토벤 피아노 소나타 8번 ‘비창’ 3악장의 빠른 선율에 승리·단결 구호를 얹은 응원가다. ELKA 공식 채널의 2012 입학수속 영상이 현재 확보한 가장 이른 직접 사용 증거이며, 2019 응원제·2021 사이버 교류전·2022~2025 카포전·2026 새내기 응원대제전까지 이어진다. 다만 2012를 발표연도로 적은 1차 문서는 없어 도입연도와 최초 제작자는 미확정으로 남긴다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2012년 입학수속",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-victory-2012-admission"],
+          "notes": "영상은 2012 행사명을 직접 적지만 2012-02-19에 게시됐다. 이는 사용 사실의 직접 증거이지 초연·제작연도의 증거는 아니다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 2012년은 현재 확인된 가장 이른 사용연도",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-victory-2012-admission", "ev-kaist-a-namu-cheers"],
+          "notes": "현행 편집형 문서에는 이 곡의 신곡 연도가 없고, 2010~2011 공식 채널 검색에서도 곡명이 붙은 더 이른 공연을 찾지 못했다. 부재를 곧 2012년 발표로 간주하지 않는다."
+        },
+        {
+          "field": "originalSong",
+          "value": "BanYa ‘Beethoven Virus’; 선율의 기반은 Ludwig van Beethoven 피아노 소나타 8번 C단조 op.13 ‘Pathétique’ 3악장 Rondo. Allegro",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-victory-2025-kapo", "yt-kaist-a-victory-2026-freshman", "ev-kaist-a-pump-catalog", "ev-kaist-a-beethoven-haus", "ev-kaist-a-namu-cheers"],
+          "notes": "ELKA 공식 영상 설명의 원곡 태그, Pump It Up 공식 곡목표의 BanYa·BPM 162 표기, Beethoven-Haus의 작품·악장 정보를 교차했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 전기 새내기 응원대제전에서 교육·공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-victory-2026-freshman", "ev-kaist-a-elka-events", "ev-kaist-a-times-freshman-2023"],
+          "notes": "ELKA는 새내기 응원대제전을 이후 응원제·카포전을 위한 응원가 교육 자리로 설명한다."
+        },
+        {
+          "field": "performanceFormat",
+          "value": "네 개의 짧은 승리·단결 절과 학교명 음절 구호, 간주 뒤 반복으로 구성되는 집단 선창·후창형 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-namu-cheers", "yt-kaist-a-victory-2019-libera", "yt-kaist-a-victory-2022-kapo", "yt-kaist-a-victory-2026-freshman"],
+          "notes": "정확한 동작 명칭·카운트가 적힌 공식 안무서는 찾지 못했으므로 영상에서 반복 확인되는 큰 팔 동작과 집단 응답까지만 기록한다."
+        }
+      ],
+      "usageContexts": [
+        "새내기 응원대제전에서 학교명을 박자에 맞춰 나누어 외치는 법과 반복 후렴을 처음 교육한다.",
+        "Libera Me 응원제와 KAIST-POSTECH 학생대제전 개막식에서 승리 분위기를 올리는 곡으로 사용한다.",
+        "단장이 짧은 승리 문장을 리드하면 관중은 학교명 구호와 큰 팔 동작으로 응답하고, 간주 뒤 같은 흐름을 다시 합창한다."
+      ],
+      "trivia": [
+        {
+          "id": "victory-classical-rhythm-game-lineage",
+          "summary": "18세기 말 베토벤 소나타의 3악장이 BanYa의 빠른 리듬게임 편곡을 거쳐 대학 응원가의 골격이 된 세 단계 계보를 가진다. KAIST판 개사·편곡자가 BanYa 음원을 직접 사용했는지는 제작 자료가 없어 별도로 확정하지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-pump-catalog", "ev-kaist-a-beethoven-haus", "ev-kaist-a-namu-cheers", "yt-kaist-a-victory-2026-freshman"]
+        },
+        {
+          "id": "victory-choreography-resemblance-comments",
+          "summary": "2022·2025 공식 영상의 소수 댓글은 다른 대학 응원 동작과 닮았는지 질문한다. 댓글은 유사성 인식만 보여 주며 원조·차용을 입증하지 않으므로 안무 계보 주장으로 채택하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-victory-2022-kapo", "yt-kaist-a-victory-2025-kapo"]
+        },
+        {
+          "id": "victory-online-continuity",
+          "summary": "2021년에는 대면 카포전 대신 이공계 사이버 교류전 개막식 영상으로 공연됐다. 2022년 대면 카포전 영상과 이어 보면 비대면기에도 레퍼토리가 유지된 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-victory-2021-cyber", "yt-kaist-a-victory-2022-kapo", "ev-kaist-a-times-festival-2022"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "Beethoven's underlying composition is public-domain, while the BanYa arrangement, KAIST lyrics, performance recording and redistribution permissions remain copyrighted or undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=ZA-Vggv0YKw",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://xx.piugame.com/piu.prime2/intro/pdf/PumpItUp_Prime2_BasicSongList.pdf",
+          "https://www.beethoven.de/en/work/view/6166636289589248/Sonata%2Bfor%2Bpiano%2B%26%23040%3BC%2Bminor%26%23041%3B%2Bop.%2B13%2B%26%23040%3BSonata%2Bpat%C3%A9tique%26%23041%3B"
+        ],
+        "structureSummary": "빠른 고전 선율 위에 승리 선언, 젊음의 함성, 단결, 푸른 물결을 각각 다루는 짧은 네 블록을 놓고 학교명 구호를 삽입한다. 간주 뒤 네 블록을 반복한 다음 승리 구간을 한 번 더 강조해 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-a-victory-2012-admission",
+        "yt-kaist-a-victory-2019-libera",
+        "yt-kaist-a-victory-2021-cyber",
+        "yt-kaist-a-victory-2022-kapo",
+        "yt-kaist-a-victory-2025-kapo",
+        "yt-kaist-a-victory-2026-freshman"
+      ],
+      "unresolved": [
+        "2012년 이전 사용 여부와 정확한 최초 발표 행사·초연일",
+        "KAIST판 개사·편곡·음원 제작자와 제작 경위",
+        "BanYa 원편곡의 정확한 최초 발매일·개별 제작 크레딧",
+        "다른 대학 응원 안무와의 유사성·차용 여부를 판단할 공식 안무 기록"
+      ]
+    },
+    {
+      "id": "kaist-a-lets-go-kaist",
+      "title": "Let’s Go KAIST",
+      "aliases": ["Let's Go KAIST", "Let's go KAIST", "레츠고 카이스트", "레고키"],
+      "currentStatus": "current-directly-verified-through-2026-taeul-seoklim-festival",
+      "summary": "트랜스픽션의 2007년 곡 ‘Get Show’를 KAIST의 푸른 날개·꿈·비상 이미지로 바꾼 록 계열 응원가다. 2010 입학수속 영상이 현재 가장 이른 직접 사용 증거이고, 2012 입학수속·2019 축제·2023 응원제·2025~2026 태울석림제까지 공식 영상이 이어진다. 2010이 도입연도라는 1차 발표 자료와 KAIST판 제작 크레딧은 아직 없다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2010년 입학수속",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-lets-2010-admission"],
+          "notes": "행사 연도는 제목·설명에 2010으로 적혔고 영상 게시일은 2011-07-22다. 업로드일과 행사연도를 분리했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 2010년은 현재 확인된 가장 이른 사용연도",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-lets-2010-admission", "ev-kaist-a-namu-cheers"],
+          "notes": "편집형 문서는 원곡만 밝히고 신곡 연도는 적지 않는다."
+        },
+        {
+          "field": "originalSong",
+          "value": "트랜스픽션 ‘Get Show’(Media ver. 2007-03-30; 싱글 앨범판 2007-05-10)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-lets-2026-festival", "ev-kaist-a-bugs-get-show", "ev-kaist-a-namu-cheers"],
+          "notes": "ELKA 공식 2026 영상 설명이 트랜스픽션과 Get Show를 직접 태그하고, 벅스가 두 공개 버전의 날짜와 앨범 정보를 제공한다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "트랜스픽션 멤버들이 앨범 전곡의 작사·작곡·편곡·프로듀싱을 직접 담당했다는 앨범 소개; Get Show 개별 인명 크레딧은 미확인",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kaist-a-bugs-get-show"],
+          "notes": "앨범 단위 설명을 특정 멤버 개인의 트랙 크레딧으로 확대하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 태울석림제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-lets-2026-festival", "ev-kaist-a-elka-events"],
+          "notes": "공식 영상의 행사·곡명이 직접 일치한다."
+        },
+        {
+          "field": "performanceFormat",
+          "value": "학교명으로 바꾼 짧은 록 훅을 두 차례 제시하고 꿈·비상 주제의 긴 절 뒤 훅으로 돌아오는 반복 합창",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-namu-cheers", "yt-kaist-a-lets-2012-admission", "yt-kaist-a-lets-2023-libera", "yt-kaist-a-lets-2026-festival"],
+          "notes": "공식 동작표가 없어 비상 이미지를 살린 팔 전개와 반복 훅의 집단 합창을 영상 수준에서만 요약한다."
+        }
+      ],
+      "usageContexts": [
+        "입학수속·새내기 행사에서 반복되는 학교명 훅을 먼저 익히고, 긴 절 뒤 같은 훅으로 복귀하도록 가르치는 데 적합하다.",
+        "Libera Me 응원제와 봄 축제 무대에서 전 관중이 짧은 영어 훅에 쉽게 합류하는 곡으로 사용한다.",
+        "응원단은 날개·비상을 연상시키는 넓은 상체 동작과 전진 동작을 붙이고 관중은 학교명 훅을 반복한다. 정확한 카운트는 공식 안무서 미확인이다."
+      ],
+      "trivia": [
+        {
+          "id": "lets-event-upload-date-gap",
+          "summary": "가장 이른 공식 영상은 2010 입학수속 공연이지만 2011년에 업로드됐다. 따라서 데이터에서는 행사연도와 게시일을 따로 보존했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-lets-2010-admission"]
+        },
+        {
+          "id": "lets-original-album-cheer-connection",
+          "summary": "원곡 싱글 ‘Get Show’에는 트랜스픽션의 축구 응원가 ‘승리를 위하여’도 함께 수록돼 있다. KAIST 곡의 제작 경위를 입증하는 사실은 아니지만 원작 앨범 자체가 응원가와 가까운 맥락을 가진다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-bugs-get-show"]
+        },
+        {
+          "id": "lets-title-normalization",
+          "summary": "공식 채널 제목은 Let’s Go, Let's go처럼 아포스트로피와 대소문자가 흔들리고 설명 해시태그에는 ‘레고키’라는 축약형도 등장한다. 대표 표기는 인벤토리의 ‘Let’s Go KAIST’를 유지하고 나머지는 별칭으로 보존했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-inventory", "yt-kaist-a-lets-2025-festival", "yt-kaist-a-lets-2026-festival"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Transfixion's Get Show; KAIST lyric adaptation, arrangement, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=j6ErVC36jiM",
+          "https://music.bugs.co.kr/track/80317777",
+          "https://music.bugs.co.kr/album/8026776",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "학교명 훅과 푸른 날개·꿈·비상을 압축한 짧은 후렴을 두 차례 제시한 뒤, 보이지 않아도 나아갈 수 있다는 장문의 절을 부르고 처음 후렴을 반복해 닫는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-a-lets-2010-admission",
+        "yt-kaist-a-lets-2012-admission",
+        "yt-kaist-a-lets-2019-festival",
+        "yt-kaist-a-lets-2023-libera",
+        "yt-kaist-a-lets-2025-festival",
+        "yt-kaist-a-lets-2026-festival"
+      ],
+      "unresolved": [
+        "2010년 이전 사용 여부와 정확한 최초 발표 행사·초연일",
+        "KAIST판 개사·편곡·음원 제작자와 제작 경위",
+        "Get Show 트랙의 멤버별 작사·작곡·편곡 크레딧",
+        "날개·비상 동작의 공식 명칭과 카운트가 적힌 응원 교육 자료"
+      ]
+    },
+    {
+      "id": "kaist-a-you-and-me",
+      "title": "그대 그리고 나",
+      "aliases": ["그대그리고나", "그대와 나"],
+      "currentStatus": "current-directly-verified-through-2026-freshman-orientation-and-taeul-seoklim-festival",
+      "summary": "Céline Dion의 1997년 ‘My Heart Will Go On’을 단결 주제의 느린 대합창으로 바꾼 2012년 신곡으로 전해진다. 편집형 문서가 2012 신곡이라고 명시하고 ELKA 공식 채널의 2012 제1회 Libera Me 영상이 같은 해 사용을 직접 뒷받침한다. 2023·2025 카포전에서는 POSTECH 응원단과의 합동응원 곡으로, 2026에는 새내기 응원대제전과 태울석림제에서 모두 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2012년 신곡",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-namu-cheers", "yt-kaist-a-youme-2012-libera"],
+          "notes": "편집형 문서의 명시와 2012 행사 영상은 일치하지만, ‘신곡’ 발표를 적은 당시 프로그램·제작자 인터뷰는 확보하지 못해 verified로 올리지 않았다."
+        },
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2012년 제1회 KAIST 응원제 Libera Me",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-youme-2012-libera"],
+          "notes": "영상은 2012 행사를 명시하며 게시일은 2013-01-15다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Céline Dion ‘My Heart Will Go On (Love Theme from Titanic)’(1997-11-14)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-youme-2026-freshman", "ev-kaist-a-celine-youtube", "ev-kaist-a-namu-cheers"],
+          "notes": "ELKA 공식 설명의 원곡 태그와 Sony/Columbia 제공 음원의 발매·권리·크레딧 정보를 교차했다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "원곡 작곡 James Horner, 작사 Will Jennings; Walter Afanasieff 편곡·프로듀싱, James Horner 공동 프로듀싱",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-celine-youtube"],
+          "notes": "원곡 크레딧이며 KAIST판 개사·편곡 크레딧은 아니다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 전기 새내기 응원대제전과 태울석림제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-youme-2026-freshman", "yt-kaist-a-youme-2026-festival", "ev-kaist-a-elka-events"],
+          "notes": "서로 다른 두 2026 공식 행사 영상이 현행성을 직접 보여 준다."
+        },
+        {
+          "field": "preferenceClaim",
+          "value": "현행 ELKA 응원가 가운데 응원단 선호도가 높은 곡 중 하나라는 편집형 설명",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kaist-a-namu-cheers"],
+          "notes": "조사 시점·표본·공식 설문이 없어 정량 사실로 취급하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "응원제와 축제에서 빠른 공격 응원 사이 분위기를 모아 전원이 선율을 길게 합창하는 단결 곡으로 사용한다.",
+        "카포전 개막식에서는 2023·2025 공식 영상처럼 양교 응원단이 함께 참여하는 합동응원 레퍼토리로도 쓰인다.",
+        "말 없는 도입 선율 뒤 단결 후렴을 부르고, 중간의 기억·간직·타오름을 주제로 한 짧은 선창·후창에서 관중이 응답한 뒤 후렴으로 돌아간다."
+      ],
+      "trivia": [
+        {
+          "id": "youme-first-libera",
+          "summary": "현재 가장 이른 직접 영상은 ‘제1회 KAIST 응원제 Libera Me’ 1부에 배치된 2012 공연이다. ELKA 공식 사이트가 응원제를 신곡 발표가 이뤄지는 카포전 전야 행사로 설명해 2012 신곡 주장과 행사 맥락이 맞지만, 당시 세트리스트 문서는 미확인이다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-youme-2012-libera", "ev-kaist-a-elka-events", "ev-kaist-a-namu-cheers"]
+        },
+        {
+          "id": "youme-joint-cheer",
+          "summary": "2023·2025 카포전 공식 영상 제목은 이 곡을 ‘합동응원 KAIST 응원가’라고 적는다. 경쟁 행사에서도 상대 응원단과 함께 부르는 화합 구간이 있다는 교내 언론의 설명과 일치한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-youme-2023-joint", "yt-kaist-a-youme-2025-joint", "ev-kaist-a-times-kapo-2024"]
+        },
+        {
+          "id": "youme-comment-reception",
+          "summary": "2023 합동응원 영상의 공개 댓글은 무대를 좋게 기억한다는 짧은 회고를 남겼다. 댓글 수가 매우 적어 전체 선호도를 대신하는 증거로 쓰지는 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-youme-2023-joint"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of My Heart Will Go On; original credits and label are known, while KAIST lyric adaptation, arrangement and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=Vj0zl7f3OAM",
+          "https://www.youtube.com/watch?v=Siz-xBfIqpg",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "말 없는 모음창 도입, ‘그대와 나’의 단결을 노래하는 두 개의 짧은 후렴, 기억·간직·열기를 네 마디로 주고받는 간주성 선창·후창, 후렴 반복으로 구성된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-a-youme-2012-libera",
+        "yt-kaist-a-youme-2013-kapo",
+        "yt-kaist-a-youme-2019-libera",
+        "yt-kaist-a-youme-2023-joint",
+        "yt-kaist-a-youme-2025-joint",
+        "yt-kaist-a-youme-2026-freshman",
+        "yt-kaist-a-youme-2026-festival"
+      ],
+      "unresolved": [
+        "2012 신곡 발표의 정확한 날짜·프로그램과 최초 초연 영상",
+        "KAIST판 개사·편곡·녹음 제작자와 제작 경위",
+        "응원단 선호도가 높다는 설명을 뒷받침할 공식 설문·인터뷰",
+        "합동응원·새내기 교육에서 쓰는 정확한 공식 동작명과 카운트"
+      ]
+    },
+    {
+      "id": "kaist-a-blue-wave",
+      "title": "푸른 물결",
+      "aliases": ["푸른물결", "푸른 물결 (1)", "푸른 물결 (2)", "푸른 물결 (3)"],
+      "currentStatus": "current-one-song-with-numbered-performance-slots-directly-verified-through-2026",
+      "summary": "부활의 2006년 월드컵 응원곡 ‘붉은 물결’을 KAIST의 상징색과 단결 구호로 바꾼 2010년 신곡으로 전해진다. 2010 카포전 영상이 같은 해 사용을 직접 확인하고 2026 새내기 응원대제전·태울석림제까지 이어진다. 공식 채널의 (1)~(3)은 서로 다른 곡이나 가사 파트가 아니라 같은 완곡을 한 행사에서 여러 차례 배치한 공연 순번이다. 2025 Libera Me의 세 영상이 모두 약 126초이고 동일 원곡 태그를 쓰며, 인벤토리와 편집형 문서도 한 곡으로 다룬다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2010년 신곡",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-namu-cheers", "yt-kaist-a-wave-2010-kapo"],
+          "notes": "편집형 문서의 명시와 2010 공식 행사 영상은 일치하지만, 당시 신곡 발표 프로그램은 확보하지 못했다."
+        },
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2010년 KAIST-POSTECH 학생대제전 개막식",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-wave-2010-kapo"],
+          "notes": "영상 게시일은 2011-07-22이므로 행사연도와 업로드일을 구분한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "부활 ‘붉은 물결’(2006-03-31), ‘Reds, Go Together’ 공식 월드컵 응원 앨범 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-wave-2025-libera-1", "yt-kaist-a-wave-2026-freshman", "ev-kaist-a-bugs-red-wave", "ev-kaist-a-namu-cheers"],
+          "notes": "ELKA 공식 설명의 부활·붉은 물결 태그와 벅스의 아티스트·앨범·발매일 메타데이터를 교차했다."
+        },
+        {
+          "field": "performanceVersionRelationship",
+          "value": "(1)~(3)은 한 곡의 서로 다른 작곡·가사 파트가 아니라 행사 내 반복 공연 순번",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-inventory", "yt-kaist-a-wave-2025-libera-1", "yt-kaist-a-wave-2025-libera-2", "yt-kaist-a-wave-2025-libera-3", "yt-kaist-a-wave-2026-festival-1", "yt-kaist-a-wave-2026-festival-2", "ev-kaist-a-namu-cheers"],
+          "notes": "2025 세 영상은 각각 약 126초짜리 완곡이며 동일 제목·원곡 태그를 쓴다. 2026도 (1)·(2)가 각각 완곡 길이다. 번호를 곡 분할로 오인하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 전기 새내기 응원대제전과 태울석림제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-wave-2026-freshman", "yt-kaist-a-wave-2026-festival-1", "yt-kaist-a-wave-2026-festival-2", "ev-kaist-a-elka-events"],
+          "notes": "새내기 영상은 번호 없이 한 곡으로, 축제 영상은 반복 순번을 붙여 공개됐다."
+        },
+        {
+          "field": "performanceFormat",
+          "value": "긴 전진 서사 한 절 뒤 KAIST를 되받는 세 묶음의 짧은 선창·후창과 간주·반복으로 구성",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-namu-cheers", "yt-kaist-a-wave-2019-libera", "yt-kaist-a-wave-2025-joint", "yt-kaist-a-wave-2026-freshman"],
+          "notes": "2025 (2) 설명에는 기수부 태그가 있어 같은 곡이 깃발 연출과 결합되기도 함을 확인할 수 있다."
+        }
+      ],
+      "usageContexts": [
+        "카포전 개막식과 합동응원에서 전진·승리·비상 구호를 KAIST라는 응답으로 받는 대표 단체 응원으로 사용한다.",
+        "Libera Me에서는 같은 완곡을 프로그램의 서로 다른 지점에 반복 배치해 (1)·(2)·(3)으로 업로드하고, 2025 (2)는 기수부 연출과 결합했다.",
+        "새내기 응원대제전에서는 번호 없는 한 곡으로 교육하며, 긴 첫 절 뒤 짧은 학교명 응답 블록을 반복해 처음 참여하는 관중이 합류하게 한다."
+      ],
+      "trivia": [
+        {
+          "id": "wave-numbered-slots-not-parts",
+          "summary": "2025 Libera Me의 (1)·(2)·(3)은 길이가 모두 약 126초인 완곡 영상이고 2026 태울석림제의 (1)·(2)도 각각 약 2분이다. 번호는 악장·가사 파트가 아니라 같은 날 반복 배치된 공연 순번으로 보는 것이 가장 잘 맞는다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-wave-2025-libera-1", "yt-kaist-a-wave-2025-libera-2", "yt-kaist-a-wave-2025-libera-3", "yt-kaist-a-wave-2026-festival-1", "yt-kaist-a-wave-2026-festival-2"]
+        },
+        {
+          "id": "wave-flag-corps-slot",
+          "summary": "2025 응원제의 두 번째 업로드만 설명에 기수부 태그를 병기한다. 동일 음원·가사를 깃발 연출과 함께 다시 사용한 무대 슬롯이라는 해석을 뒷받침한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-wave-2025-libera-2"]
+        },
+        {
+          "id": "wave-color-adaptation",
+          "summary": "원곡 제목의 붉은색은 2006 붉은악마 공식 응원 앨범 맥락이고, KAIST판은 이를 학교 상징색인 푸른 물결로 치환한다. 원곡의 집단 전진·비상 골격은 유지된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-bugs-red-wave", "ev-kaist-a-namu-cheers", "yt-kaist-a-wave-2026-freshman"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Boohwal's Red Wave; original recording is catalogued, while individual source credits and KAIST adaptation permissions are not fully documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=Kywq8DsUNv8",
+          "https://music.bugs.co.kr/track/80204659",
+          "https://music.bugs.co.kr/album/8017296",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "언덕을 넘어 모이는 집단과 역경 속 단결을 그리는 긴 첫 절, 전진·승리·영원·비상을 학교명으로 되받는 세 개의 짧은 호출 블록, 간주 뒤 두 블록 반복으로 구성되는 한 곡이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-a-wave-2010-kapo",
+        "yt-kaist-a-wave-2019-libera",
+        "yt-kaist-a-wave-2025-libera-1",
+        "yt-kaist-a-wave-2025-libera-2",
+        "yt-kaist-a-wave-2025-libera-3",
+        "yt-kaist-a-wave-2025-joint",
+        "yt-kaist-a-wave-2026-freshman",
+        "yt-kaist-a-wave-2026-festival-1",
+        "yt-kaist-a-wave-2026-festival-2"
+      ],
+      "unresolved": [
+        "2010 신곡 발표의 정확한 날짜·프로그램과 최초 초연 자료",
+        "KAIST판 개사·편곡·녹음 제작자와 제작 경위",
+        "부활 ‘붉은 물결’의 원 발매 음원에 대한 개별 작사·작곡·편곡 크레딧",
+        "공식 채널이 반복 공연에 (1)~(3) 번호를 붙이는 내부 편집 규칙과 각 슬롯의 프로그램상 역할"
+      ]
+    },
+    {
+      "id": "kaist-a-gaepan-gongdae",
+      "title": "개판공대",
+      "aliases": ["개판 공대", "POSTECH 디스곡", "포스텍 공격 응원가"],
+      "currentStatus": "current-directly-verified-through-2026-freshman-cheerleading-orientation",
+      "summary": "노브레인의 2009년 펑크록 ‘비오는 밤에 홍대’의 반복 훅을 POSTECH을 향한 라이벌 풍자 구호로 바꾼 공격 응원가다. 2015 카포전 개막식이 현재 가장 이른 직접 사용 증거이며, 2019 응원제·2021 사이버 교류전·2022~2025 카포전·2026 새내기 응원대제전까지 공식 영상이 이어진다. 곡은 교류전의 상호 디스 문화에 속하지만 성비·군대·학교 서열을 소재로 한 표현이 있어 맥락과 잠재적 모욕성을 함께 기록하고 전문은 저장하지 않았다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2015년 제14회 KAIST-POSTECH 학생대제전 개막식",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-mess-2015-kapo"],
+          "notes": "영상은 2015 행사를 명시하며 2016-01-01에 게시됐다. 2014 공식 카포전 영상 목록에서는 곡명 영상을 찾지 못했지만, 이것만으로 2015 초연을 확정하지 않는다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 2015년은 현재 확인된 가장 이른 사용연도",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-mess-2015-kapo", "ev-kaist-a-namu-cheers"],
+          "notes": "편집형 문서에는 신곡 연도가 없고 당시 제작 문서도 찾지 못했다."
+        },
+        {
+          "field": "originalSong",
+          "value": "노브레인 ‘비오는 밤에 홍대’(2009-06-23), 작사·작곡 정민준",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-mess-2024-kapo", "yt-kaist-a-mess-2025-kapo", "yt-kaist-a-mess-2026-freshman", "ev-kaist-a-bugs-hongdae"],
+          "notes": "2024~2026 ELKA 공식 설명이 노브레인과 원곡명을 직접 태그한다. 벅스의 원 앨범 소개가 발매일과 정민준 작사·작곡을 제공한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 전기 새내기 응원대제전에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-mess-2026-freshman", "ev-kaist-a-elka-events"],
+          "notes": "카포전용 공격 응원도 새내기 교육 단계에서 미리 익히게 한다는 공식 행사 설명과 맞는다."
+        },
+        {
+          "field": "rivalryRole",
+          "value": "POSTECH을 직접 겨냥하는 KAIST의 라이벌 공격 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-namu-cheers", "ev-kaist-a-brunch-kapo", "yt-kaist-a-mess-2022-kapo", "yt-kaist-a-mess-2025-kapo"],
+          "notes": "공식 영상의 카포전 배치와 두 편집·에세이형 자료가 용도를 일치해 설명한다."
+        },
+        {
+          "field": "performanceFormat",
+          "value": "상대를 가리키는 반복 훅, 짧은 풍자 구호 연쇄, 훅의 여러 차례 반복으로 끝나는 직접 지목형 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-namu-cheers", "yt-kaist-a-mess-2019-libera", "yt-kaist-a-mess-2024-kapo", "yt-kaist-a-mess-2026-freshman"],
+          "notes": "가사 전문 대신 상대 지목·반복 구조와 소재 범주만 보존한다."
+        }
+      ],
+      "usageContexts": [
+        "새내기 응원대제전에서 카포전의 라이벌 구호와 상대를 가리키는 반복 동작을 미리 교육한다.",
+        "Libera Me 응원제와 KAIST-POSTECH 학생대제전 개막식에서 POSTECH의 맞대응 공격 응원과 교차되는 경쟁 구간에 사용한다.",
+        "단장이 짧은 풍자 문장을 연달아 선창하고 관중은 상대를 직접 지목하는 훅을 반복한다. 외부에 단독 제시하면 모욕적으로 들릴 수 있어 교류전 맥락을 함께 표시해야 한다."
+      ],
+      "trivia": [
+        {
+          "id": "mess-hook-transformation",
+          "summary": "원곡은 비 오는 홍대의 혼란스러운 밤을 유머러스하게 묘사하지만 KAIST판은 원곡의 ‘개판’ 훅과 펑크 리듬을 남기고 장소·대상을 POSTECH으로 바꾼다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-a-bugs-hongdae", "yt-kaist-a-mess-2025-kapo", "ev-kaist-a-namu-cheers"]
+        },
+        {
+          "id": "mess-mutual-rivalry-context",
+          "summary": "카포전 현장 에세이는 KAIST의 이 곡과 POSTECH의 맞대응 곡을 상호 디스 응원으로 함께 소개하고, 실제 개막식은 경쟁심과 양교 화합이 공존하는 자리라고 교내 언론이 설명한다. 이 맥락은 표현의 존재를 설명하지만 모욕적 소재를 정당화하는 공식 승인 자료는 아니다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kaist-a-brunch-kapo", "ev-kaist-a-times-kapo-2024"]
+        },
+        {
+          "id": "mess-comment-reception",
+          "summary": "2024 카포전 영상의 유일한 공개 댓글은 무대가 매우 강렬하다는 취지로 웃음을 섞어 반응한다. 한 건뿐이므로 현장 전체의 수용을 대표하지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-a-mess-2024-kapo"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of NoBrain's Rainy Night in Hongdae; source authorship is catalogued, while KAIST adaptation, performance and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=HhX48eJ5hn8",
+          "https://music.bugs.co.kr/track/1758981",
+          "https://music.bugs.co.kr/album/189001",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "상대 학교를 혼란스럽다고 규정하고 직접 지목하는 짧은 훅을 먼저 두 차례 반복한 뒤, 성비·부모 반대·군대·학교 서열을 소재로 한 짧은 풍자 구호를 연쇄하고 처음 훅을 여러 번 되풀이해 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-a-mess-2015-kapo",
+        "yt-kaist-a-mess-2019-libera",
+        "yt-kaist-a-mess-2021-cyber",
+        "yt-kaist-a-mess-2022-kapo",
+        "yt-kaist-a-mess-2024-kapo",
+        "yt-kaist-a-mess-2025-libera",
+        "yt-kaist-a-mess-2025-kapo",
+        "yt-kaist-a-mess-2026-freshman"
+      ],
+      "unresolved": [
+        "2015년 이전 사용 여부와 정확한 최초 발표 행사·초연일",
+        "KAIST판 개사·편곡·녹음 제작자와 제작 경위",
+        "가사·동작이 연도별로 수정됐는지 확인할 공식 버전 기록",
+        "상대 비하·성비·군대 소재에 대한 ELKA 또는 양교 행사의 공식 검토·운영 지침"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kaist-a-inventory",
+      "type": "internal-inventory",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/universities.md#kaist--elka",
+      "title": "대학 응원단·현행 응원가 인벤토리 — KAIST",
+      "publisher": "project research",
+      "publishedAt": "2026-08-08",
+      "accessedAt": "2026-08-09",
+      "summary": "KAIST 현행 16곡에 이 배치의 다섯 곡을 포함하고, 푸른 물결 (1)~(3)을 한 곡으로 세도록 명시한 내부 발견 목록이다.",
+      "supports": ["kaist-a-victory-song", "kaist-a-lets-go-kaist", "kaist-a-you-and-me", "kaist-a-blue-wave", "kaist-a-gaepan-gongdae"]
+    },
+    {
+      "id": "ev-kaist-a-kaist-official",
+      "type": "official",
+      "url": "https://www.kaist.ac.kr/kr/html/campus/053401.html",
+      "title": "학생자치기구 — 카이스트 응원단 ELKA",
+      "publisher": "KAIST",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "ELKA를 2005년 창단된 KAIST 공식 응원단으로 소개하고 입학식·새터/OT·학교축제·카포전에서 공연과 응원리드를 한다고 설명한다.",
+      "supports": ["kaist-a-victory-song", "kaist-a-lets-go-kaist", "kaist-a-you-and-me", "kaist-a-blue-wave", "kaist-a-gaepan-gongdae"]
+    },
+    {
+      "id": "ev-kaist-a-elka-events",
+      "type": "official",
+      "url": "https://elka.kaist.ac.kr/%EC%9D%91%EC%9B%90%EB%8B%A8-%ED%99%9C%EB%8F%99-events",
+      "title": "응원단 활동 EVENTS",
+      "publisher": "KAIST 응원단 ELKA",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "새내기 응원대제전이 응원제와 카포전을 위해 응원가를 교육하는 자리임을 밝히고, 카포전 전야 응원제에서 신곡 발표·액션치어·기수부 공연과 약 4천 명의 어깨동무·점프가 이뤄진다고 설명한다.",
+      "supports": ["kaist-a-victory-song", "kaist-a-lets-go-kaist", "kaist-a-you-and-me", "kaist-a-blue-wave", "kaist-a-gaepan-gongdae"]
+    },
+    {
+      "id": "ev-kaist-a-times-freshman-2023",
+      "type": "campus-press",
+      "url": "https://times.kaist.ac.kr/news/articleView.html?idxno=21187",
+      "title": "4년 만에 대면으로 돌아온 새내기새로배움터, 새출발의 설렘과 함께하다",
+      "publisher": "카이스트신문",
+      "publishedAt": "2023-03-07",
+      "accessedAt": "2026-08-09",
+      "summary": "2023 새터의 ELKA 새내기 응원대제전에서 학교 응원가와 응원법을 함께 배웠고, 참가 학생이 소리 지르기·어깨동무와 친교 경험을 인상적으로 꼽았다고 보도한다.",
+      "supports": ["kaist-a-victory-song", "kaist-a-lets-go-kaist", "kaist-a-you-and-me", "kaist-a-blue-wave", "kaist-a-gaepan-gongdae"]
+    },
+    {
+      "id": "ev-kaist-a-times-festival-2022",
+      "type": "campus-press",
+      "url": "https://times.kaist.ac.kr/news/articleView.html?idxno=20941",
+      "title": "돌아온 KAIST 축제와 그 뒷이야기",
+      "publisher": "카이스트신문",
+      "publishedAt": "2022-09-06",
+      "accessedAt": "2026-08-09",
+      "summary": "카포전 정식 명칭과 스포츠·과학·e스포츠 종목, 전날 응원제의 ELKA 공연을 소개하고 2020~2021 온라인 진행 뒤 2022 대면 행사를 정상화한 맥락을 전한다.",
+      "supports": ["kaist-a-victory-song", "kaist-a-lets-go-kaist", "kaist-a-you-and-me", "kaist-a-blue-wave", "kaist-a-gaepan-gongdae"]
+    },
+    {
+      "id": "ev-kaist-a-times-kapo-2024",
+      "type": "campus-press",
+      "url": "https://times.kaist.ac.kr/news/articleView.html?idxno=21915",
+      "title": "호우 속에서도 빛나는 3년 연속 카이스트-포스텍 학생대제전 승리",
+      "publisher": "카이스트신문",
+      "publishedAt": "2024-09-24",
+      "accessedAt": "2026-08-09",
+      "summary": "2024 제21회 카포전에서 ELKA·CHEERO가 개막식 응원 무대를 열어 경쟁심과 양교 화합을 함께 만들었고, 전야제와 경기 응원이 행사 일정에 포함됐다고 보도한다.",
+      "supports": ["kaist-a-victory-song", "kaist-a-you-and-me", "kaist-a-blue-wave", "kaist-a-gaepan-gongdae"]
+    },
+    {
+      "id": "ev-kaist-a-namu-cheers",
+      "type": "editorial-wiki",
+      "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "한국과학기술원/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "다섯 곡의 가사 순서·원곡을 편집형으로 정리하며 그대 그리고 나를 2012년 신곡, 푸른 물결을 2010년 신곡으로 적는다. 승리의 노래·Let’s Go KAIST·개판공대에는 발표연도를 제시하지 않는다.",
+      "supports": ["kaist-a-victory-song", "kaist-a-lets-go-kaist", "kaist-a-you-and-me", "kaist-a-blue-wave", "kaist-a-gaepan-gongdae"]
+    },
+    {
+      "id": "ev-kaist-a-brunch-kapo",
+      "type": "secondary-essay",
+      "url": "https://brunch.co.kr/%40bmt1023/178?commentNo=2872082",
+      "title": "연고전? 아니, 카포전!",
+      "publisher": "Brunch Story",
+      "publishedAt": "2025-03-26",
+      "accessedAt": "2026-08-09",
+      "summary": "카포전의 전야제·원정·개막식·경기 응원 흐름을 관찰자 시점으로 소개하고 개판공대를 KAIST가 POSTECH을 향해 부르는 상호 디스 응원 중 하나로 분류한다. 일화·평가는 2차 자료로만 사용한다.",
+      "supports": ["kaist-a-gaepan-gongdae", "kaist-a-blue-wave", "kaist-a-you-and-me"]
+    },
+    {
+      "id": "ev-kaist-a-bugs-get-show",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/8026776",
+      "title": "Get Show",
+      "publisher": "Bugs",
+      "publishedAt": "2007-05-10",
+      "accessedAt": "2026-08-09",
+      "summary": "트랜스픽션의 싱글에 Get Show를 타이틀곡으로 수록하고 발매일을 2007-05-10으로 제공한다. 앨범 소개는 멤버들이 전곡 작사·작곡·편곡·프로듀싱에 참여했다고 설명하며, 미디어 버전 트랙 메타데이터는 2007-03-30을 표시한다.",
+      "supports": ["kaist-a-lets-go-kaist"]
+    },
+    {
+      "id": "ev-kaist-a-bugs-red-wave",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/80204659",
+      "title": "붉은 물결",
+      "publisher": "Bugs",
+      "publishedAt": "2006-03-31",
+      "accessedAt": "2026-08-09",
+      "summary": "부활의 붉은 물결을 2006-03-31 발매된 ‘Reds, Go Together (KTF & 붉은악마 월드컵 응원 앨범)’ 수록곡으로 식별한다.",
+      "supports": ["kaist-a-blue-wave"]
+    },
+    {
+      "id": "ev-kaist-a-celine-youtube",
+      "type": "official-rightsholder-audio",
+      "url": "https://www.youtube.com/watch?v=Siz-xBfIqpg",
+      "title": "My Heart Will Go On (Love Theme from Titanic)",
+      "publisher": "Céline Dion - Topic / Columbia / Sony Music Entertainment Canada",
+      "publishedAt": "1997-11-14",
+      "accessedAt": "2026-08-09",
+      "summary": "권리자 제공 음원이 1997년 발매와 Sony Canada 음원 권리를 밝히고 James Horner 작곡·프로듀싱, Will Jennings 작사, Walter Afanasieff 편곡·프로듀싱 등 원곡 크레딧을 제공한다.",
+      "supports": ["kaist-a-you-and-me"]
+    },
+    {
+      "id": "ev-kaist-a-pump-catalog",
+      "type": "official-game-catalog",
+      "url": "https://xx.piugame.com/piu.prime2/intro/pdf/PumpItUp_Prime2_BasicSongList.pdf",
+      "title": "PUMP IT UP PRIME 2 BASIC SONG LIST",
+      "publisher": "Andamiro / Pump It Up",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "공식 게임 곡목표가 Beethoven Virus의 아티스트를 BanYa, BPM을 162로 표기하고 1st~Prime 수록곡으로 분류한다. 정확한 최초 발매일과 개별 편곡자는 이 표에서 확인되지 않는다.",
+      "supports": ["kaist-a-victory-song"]
+    },
+    {
+      "id": "ev-kaist-a-beethoven-haus",
+      "type": "official-work-catalog",
+      "url": "https://www.beethoven.de/en/work/view/6166636289589248/Sonata%2Bfor%2Bpiano%2B%26%23040%3BC%2Bminor%26%23041%3B%2Bop.%2B13%2B%26%23040%3BSonata%2Bpat%C3%A9tique%26%23041%3B",
+      "title": "Sonata for piano (C minor) op. 13 (Sonata patétique)",
+      "publisher": "Beethoven-Haus Bonn",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "작품을 1797~1799년 작곡된 베토벤 피아노 소나타 op.13으로 정리하고 세 번째 악장을 Rondo. Allegro로 명시한다.",
+      "supports": ["kaist-a-victory-song"]
+    },
+    {
+      "id": "ev-kaist-a-bugs-hongdae",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/189001",
+      "title": "Absolutely Summer",
+      "publisher": "Bugs",
+      "publishedAt": "2009-06-23",
+      "accessedAt": "2026-08-09",
+      "summary": "노브레인 앨범의 발매일을 2009-06-23으로 제공하고 수록곡 ‘비오는 밤에 홍대’를 정민준 작사·작곡으로 소개한다. 트랙 페이지는 곡 길이 3분 2초와 같은 앨범 연결을 제공한다.",
+      "supports": ["kaist-a-gaepan-gongdae"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kaist-a-victory-2012-admission",
+      "songId": "kaist-a-victory-song",
+      "url": "https://www.youtube.com/watch?v=8ANCDucgzsE",
+      "videoId": "8ANCDucgzsE",
+      "title": "[카이스트 응원단 ELKA] 2012 입학수속 - 승리의 노래",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2012-02-19",
+      "descriptionSummary": "설명에는 곡명만 적혀 있고 제목이 2012 입학수속 공연임을 명시한다. 현재 확보한 가장 이른 공식 채널의 사용 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-victory-2019-libera",
+      "songId": "kaist-a-victory-song",
+      "url": "https://www.youtube.com/watch?v=B5IyYfMLRTo",
+      "videoId": "B5IyYfMLRTo",
+      "title": "[카이스트 응원단 ELKA] 2019 제8회 응원제 Libera Me : 無限 - 승리의 노래",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-10-09",
+      "descriptionSummary": "별도 설명은 없고 제목이 2019 제8회 Libera Me의 곡별 공식 공연 영상임을 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-victory-2021-cyber",
+      "songId": "kaist-a-victory-song",
+      "url": "https://www.youtube.com/watch?v=kqM5uRQS4mA",
+      "videoId": "kqM5uRQS4mA",
+      "title": "[카이스트 응원단 ELKA] 2021 이공계 사이버 교류전 개막식 - 응원가 '승리의 노래'",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2021-10-27",
+      "descriptionSummary": "일반 KAIST·응원단 태그만 있으며 제목이 비대면기 이공계 사이버 교류전 개막식 사용을 직접 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["cyberExchangeUse", "continuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-victory-2022-kapo",
+      "songId": "kaist-a-victory-song",
+      "url": "https://www.youtube.com/watch?v=80abPqClbTE",
+      "videoId": "80abPqClbTE",
+      "title": "[카이스트 응원단 ELKA] 2022 제19회 KAIST-POSTECH 학생대제전 개막식 - 응원가 '승리의 노래'",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2022-10-04",
+      "descriptionSummary": "일반 KAIST·응원단 태그와 함께 2022 제19회 학생대제전 개막식의 곡별 영상으로 게시됐다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 공개 댓글은 이 무대가 승리를 선포하는 순간처럼 느껴졌다고 회고한다.",
+        "다른 공개 댓글은 일부 안무가 연세대 응원 동작과 닮았는지 질문한다. 차용을 입증하는 내용은 아니다."
+      ],
+      "supports": ["kapoUse", "performanceFormat", "choreographyReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-victory-2025-kapo",
+      "songId": "kaist-a-victory-song",
+      "url": "https://www.youtube.com/watch?v=U7oAckOGt60",
+      "videoId": "U7oAckOGt60",
+      "title": "[카이스트 응원단 ELKA] 응원가 '승리의 노래' - 2025 제22회 KAIST-POSTECH 학생대제전 개막식",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "행사·곡명과 함께 베토벤, Beethoven Virus, 비창을 원곡 계보 태그로 병기하고 학교명 구호의 통칭도 덧붙인다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "유일한 공개 댓글은 이 응원법이 다른 대학에서 온 것인지, 더 이른 원형이 있는지 질문한다. 출처 답변은 달리지 않았다."
+      ],
+      "supports": ["originalSong", "kapoUse", "choreographyReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-victory-2026-freshman",
+      "songId": "kaist-a-victory-song",
+      "url": "https://www.youtube.com/watch?v=ZA-Vggv0YKw",
+      "videoId": "ZA-Vggv0YKw",
+      "title": "[카이스트 응원단 ELKA] 응원가 ‘승리의 노래’ - 2026 전기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-03",
+      "descriptionSummary": "2026 새내기 응원대제전 사용과 함께 베토벤, Beethoven Virus, 비창을 원곡·선율 계보 태그로 직접 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "originalSong", "freshmanEducation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-lets-2010-admission",
+      "songId": "kaist-a-lets-go-kaist",
+      "url": "https://www.youtube.com/watch?v=QdNwBM6r7JI",
+      "videoId": "QdNwBM6r7JI",
+      "title": "[카이스트 응원단 ELKA] 2010 입학수속 - Let's Go KAIST",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2011-07-22",
+      "descriptionSummary": "설명과 제목이 2010 입학수속 공연임을 밝힌다. 게시일은 2011년이므로 행사연도와 업로드일을 분리해 기록했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "admissionUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-lets-2012-admission",
+      "songId": "kaist-a-lets-go-kaist",
+      "url": "https://www.youtube.com/watch?v=mzp-zt0bdy0",
+      "videoId": "mzp-zt0bdy0",
+      "title": "[카이스트 응원단 ELKA] 2012 입학수속 - Let's Go KAIST",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2012-06-27",
+      "descriptionSummary": "별도 설명은 없고 제목이 2012 입학수속의 곡별 공연 영상임을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["admissionUse", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-lets-2019-festival",
+      "songId": "kaist-a-lets-go-kaist",
+      "url": "https://www.youtube.com/watch?v=pPhzN7WlqQo",
+      "videoId": "pPhzN7WlqQo",
+      "title": "[카이스트 응원단 ELKA] 2019 KAIST 태울석림제 - Let's Go KAIST",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-07-29",
+      "descriptionSummary": "별도 설명은 없고 제목이 2019 태울석림제 축제 무대 사용을 직접 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["festivalUse", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-lets-2023-libera",
+      "songId": "kaist-a-lets-go-kaist",
+      "url": "https://www.youtube.com/watch?v=8ED67WcDIWc",
+      "videoId": "8ED67WcDIWc",
+      "title": "[카이스트 응원단 ELKA] 응원가 'Let's Go KAIST' -  2023 제10회 응원제 Libera Me: Lux",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2023-10-23",
+      "descriptionSummary": "일반 KAIST·응원단 태그와 함께 2023 제10회 Libera Me의 곡별 공식 공연으로 게시됐다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-lets-2025-festival",
+      "songId": "kaist-a-lets-go-kaist",
+      "url": "https://www.youtube.com/watch?v=pjW7EUYorJY",
+      "videoId": "pjW7EUYorJY",
+      "title": "[카이스트 응원단 ELKA] 응원가 'Let's Go KAIST' - 2025 석림태울제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-06-26",
+      "descriptionSummary": "2025 봄 축제 사용과 곡 제목을 표시하고 축약 태그 ‘레고키’를 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["festivalUse", "titleAlias"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-lets-2026-festival",
+      "songId": "kaist-a-lets-go-kaist",
+      "url": "https://www.youtube.com/watch?v=j6ErVC36jiM",
+      "videoId": "j6ErVC36jiM",
+      "title": "[카이스트 응원단 ELKA] 응원가 'Let's go KAIST' - 2026 태울석림제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-08",
+      "descriptionSummary": "2026 태울석림제 사용과 함께 트랜스픽션·Get Show를 원곡 태그로 직접 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "originalSong", "titleAlias"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-youme-2012-libera",
+      "songId": "kaist-a-you-and-me",
+      "url": "https://www.youtube.com/watch?v=RB8ciLpopDw",
+      "videoId": "RB8ciLpopDw",
+      "title": "[카이스트 응원단 ELKA] 2012 제1회 KAIST 응원제 리베라메 - 1부 그대그리고나",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2013-01-15",
+      "descriptionSummary": "별도 설명은 없고 제목이 2012 제1회 Libera Me 1부 공연임을 명시한다. 2012 신곡 주장과 같은 해의 가장 이른 직접 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["introductionYear", "earliestDirectlyConfirmedUse", "firstLiberaMe"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-youme-2013-kapo",
+      "songId": "kaist-a-you-and-me",
+      "url": "https://www.youtube.com/watch?v=TDTRQJfFZjI",
+      "videoId": "TDTRQJfFZjI",
+      "title": "[카이스트 응원단 ELKA] 2013 카포전 개막식 - 그대 그리고 나",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2014-02-27",
+      "descriptionSummary": "별도 설명은 없고 제목이 2013 카포전 개막식 사용을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["kapoUse", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-youme-2019-libera",
+      "songId": "kaist-a-you-and-me",
+      "url": "https://www.youtube.com/watch?v=1nYDUK5Y2-E",
+      "videoId": "1nYDUK5Y2-E",
+      "title": "[카이스트 응원단 ELKA] 2019 제8회 응원제 Libera Me : 無限 - 그대 그리고 나",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-10-09",
+      "descriptionSummary": "별도 설명은 없고 제목이 2019 제8회 Libera Me에서의 지속 사용을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-youme-2023-joint",
+      "songId": "kaist-a-you-and-me",
+      "url": "https://www.youtube.com/watch?v=u7Zr7Bfl5mA",
+      "videoId": "u7Zr7Bfl5mA",
+      "title": "[카이스트 응원단 ELKA] 합동응원 KAIST 응원가 '그대 그리고 나' - 2023 제20회 KAIST-POSTECH 학생대제전 개막식",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2023-10-24",
+      "descriptionSummary": "제20회 카포전 개막식의 합동응원 곡으로 표시하고 Titanic과 My Heart Will Go On을 원곡 태그로 병기한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "유일한 공개 댓글은 이 합동 무대를 멋진 기억으로 회고한다."
+      ],
+      "supports": ["jointCheerUse", "originalSong", "commentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-youme-2025-joint",
+      "songId": "kaist-a-you-and-me",
+      "url": "https://www.youtube.com/watch?v=QifxI_qhObM",
+      "videoId": "QifxI_qhObM",
+      "title": "[카이스트 응원단 ELKA] 합동응원 KAIST 응원가 '그대 그리고 나' - 2025 제22회 KAIST-POSTECH 학생대제전 개막식",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "2025 제22회 카포전 개막식의 합동응원으로 표시하고 Titanic·My Heart Will Go On을 원곡 태그로 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["jointCheerUse", "originalSong", "kapoUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-youme-2026-freshman",
+      "songId": "kaist-a-you-and-me",
+      "url": "https://www.youtube.com/watch?v=Vj0zl7f3OAM",
+      "videoId": "Vj0zl7f3OAM",
+      "title": "[카이스트 응원단 ELKA] 응원가 ‘그대 그리고 나’ - 2026 전기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-03",
+      "descriptionSummary": "2026 새내기 교육 사용과 함께 Céline Dion·My Heart Will Go On·Titanic을 원곡 태그로 직접 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "originalSong", "freshmanEducation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-youme-2026-festival",
+      "songId": "kaist-a-you-and-me",
+      "url": "https://www.youtube.com/watch?v=ijfsQ0ipL-U",
+      "videoId": "ijfsQ0ipL-U",
+      "title": "[카이스트 응원단 ELKA] 응원가 '그대 그리고 나' - 2026 태울석림제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-08",
+      "descriptionSummary": "2026 태울석림제 사용과 함께 Céline Dion·My Heart Will Go On·Titanic을 원곡 태그로 직접 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "originalSong", "festivalUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-wave-2010-kapo",
+      "songId": "kaist-a-blue-wave",
+      "url": "https://www.youtube.com/watch?v=jrdhnpPHHDo",
+      "videoId": "jrdhnpPHHDo",
+      "title": "[카이스트 응원단 ELKA] 2010 카포전 개막식 - 푸른 물결",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2011-07-22",
+      "descriptionSummary": "설명과 제목이 2010 카포전 개막식 공연임을 밝힌다. 2010 신곡 주장과 같은 해의 가장 이른 직접 사용 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["introductionYear", "earliestDirectlyConfirmedUse", "kapoUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-wave-2019-libera",
+      "songId": "kaist-a-blue-wave",
+      "url": "https://www.youtube.com/watch?v=AvvfPU4-BrY",
+      "videoId": "AvvfPU4-BrY",
+      "title": "[카이스트 응원단 ELKA] 2019 제8회 응원제 Libera Me : 無限 - 푸른물결",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-10-09",
+      "descriptionSummary": "별도 설명은 없고 제목이 2019 제8회 Libera Me에서 번호 없는 한 곡으로 공연됐음을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "performanceFormat", "singleSongIdentity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-wave-2025-libera-1",
+      "songId": "kaist-a-blue-wave",
+      "url": "https://www.youtube.com/watch?v=vhqLyXINg6Q",
+      "videoId": "vhqLyXINg6Q",
+      "title": "[카이스트 응원단 ELKA] 응원가 '푸른 물결'(1) - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-13",
+      "descriptionSummary": "2025 제12회 Libera Me의 첫 번째 푸른 물결 완곡 영상으로, 부활·붉은 물결을 원곡 태그로 병기한다. 길이는 약 126초다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["numberedPerformanceSlot", "originalSong", "singleSongIdentity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-wave-2025-libera-2",
+      "songId": "kaist-a-blue-wave",
+      "url": "https://www.youtube.com/watch?v=NNEAK-3bUhU",
+      "videoId": "NNEAK-3bUhU",
+      "title": "[카이스트 응원단 ELKA] 응원가 '푸른 물결'(2) - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "같은 응원제의 두 번째 약 126초 완곡 영상이다. 부활·붉은 물결과 함께 기수부 태그를 넣어 깃발 연출 슬롯임을 드러낸다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["numberedPerformanceSlot", "flagCorpsUse", "singleSongIdentity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-wave-2025-libera-3",
+      "songId": "kaist-a-blue-wave",
+      "url": "https://www.youtube.com/watch?v=zzTFDmPAPdk",
+      "videoId": "zzTFDmPAPdk",
+      "title": "[카이스트 응원단 ELKA] 응원가 '푸른 물결'(3) - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "같은 응원제의 세 번째 약 126초 완곡 영상으로 부활·붉은 물결을 동일하게 태그한다. 별도 가사 파트명은 제시하지 않는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["numberedPerformanceSlot", "originalSong", "singleSongIdentity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-wave-2025-joint",
+      "songId": "kaist-a-blue-wave",
+      "url": "https://www.youtube.com/watch?v=dsy7SiRyzfU",
+      "videoId": "dsy7SiRyzfU",
+      "title": "[카이스트 응원단 ELKA] 합동응원 KAIST 응원가 '푸른 물결' - 2025 제22회 KAIST-POSTECH 학생대제전 개막식",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "2025 카포전 개막식 합동응원에서 번호 없는 한 곡으로 표기하고 부활·붉은 물결을 원곡 태그로 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["jointCheerUse", "kapoUse", "originalSong", "singleSongIdentity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-wave-2026-freshman",
+      "songId": "kaist-a-blue-wave",
+      "url": "https://www.youtube.com/watch?v=Kywq8DsUNv8",
+      "videoId": "Kywq8DsUNv8",
+      "title": "[카이스트 응원단 ELKA] 응원가 ‘푸른물결’ - 2026 전기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-03",
+      "descriptionSummary": "2026 새내기 응원 교육에서 번호 없는 한 곡으로 게시하고 부활·붉은 물결을 원곡 태그로 직접 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "freshmanEducation", "originalSong", "singleSongIdentity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-wave-2026-festival-1",
+      "songId": "kaist-a-blue-wave",
+      "url": "https://www.youtube.com/watch?v=SnlCBtxMxiQ",
+      "videoId": "SnlCBtxMxiQ",
+      "title": "[카이스트 응원단 ELKA] 응원가 '푸른 물결(1)' - 2026 태울석림제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-08",
+      "descriptionSummary": "2026 태울석림제의 첫 번째 약 129초 완곡 영상이며 부활·붉은 물결을 원곡 태그로 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "numberedPerformanceSlot", "originalSong"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-wave-2026-festival-2",
+      "songId": "kaist-a-blue-wave",
+      "url": "https://www.youtube.com/watch?v=o6BOmRz1Qk4",
+      "videoId": "o6BOmRz1Qk4",
+      "title": "[카이스트 응원단 ELKA] 응원가 '푸른 물결(2)' - 2026 태울석림제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-08",
+      "descriptionSummary": "2026 태울석림제의 두 번째 약 125초 완곡 영상이며 부활·붉은 물결을 동일하게 태그한다. 별도 작곡·가사 파트명은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "numberedPerformanceSlot", "originalSong"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-mess-2015-kapo",
+      "songId": "kaist-a-gaepan-gongdae",
+      "url": "https://www.youtube.com/watch?v=Q-yjPg8xn30",
+      "videoId": "Q-yjPg8xn30",
+      "title": "[카이스트 응원단 ELKA] 2015 제14회 KAIST-POSTECH 학생대제전 개막식 - 개판공대",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2016-01-01",
+      "descriptionSummary": "설명에는 별도 정보가 거의 없고 제목이 2015 제14회 카포전 개막식 사용을 명시한다. 현재 확보한 가장 이른 직접 사용 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "kapoUse", "rivalryRole"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-mess-2019-libera",
+      "songId": "kaist-a-gaepan-gongdae",
+      "url": "https://www.youtube.com/watch?v=fbV3Z_ZbaBo",
+      "videoId": "fbV3Z_ZbaBo",
+      "title": "[카이스트 응원단 ELKA] 2019 제8회 응원제 Libera Me : 無限 - 개판공대",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-10-09",
+      "descriptionSummary": "별도 설명은 없고 제목이 2019 제8회 Libera Me의 경쟁 응원 구간에서 사용됐음을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-mess-2021-cyber",
+      "songId": "kaist-a-gaepan-gongdae",
+      "url": "https://www.youtube.com/watch?v=xrBoWbedbME",
+      "videoId": "xrBoWbedbME",
+      "title": "[카이스트 응원단 ELKA] 2021 이공계 사이버 교류전 개막식 - 개판공대",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2021-10-27",
+      "descriptionSummary": "일반 KAIST·응원단 태그와 함께 비대면기 이공계 사이버 교류전 개막식 공연으로 공개됐다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["cyberExchangeUse", "continuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-mess-2022-kapo",
+      "songId": "kaist-a-gaepan-gongdae",
+      "url": "https://www.youtube.com/watch?v=MplzYFzZSJ4",
+      "videoId": "MplzYFzZSJ4",
+      "title": "[카이스트 응원단 ELKA] 2022 제19회 KAIST-POSTECH 학생대제전 개막식 - 응원가 '개판공대'",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2022-10-04",
+      "descriptionSummary": "일반 KAIST·응원단 태그와 함께 2022 대면 카포전 개막식 사용을 직접 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["kapoUse", "rivalryRole", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-mess-2024-kapo",
+      "songId": "kaist-a-gaepan-gongdae",
+      "url": "https://www.youtube.com/watch?v=RaGNf51jMNM",
+      "videoId": "RaGNf51jMNM",
+      "title": "[카이스트 응원단 ELKA] 응원가 '개판공대'  - 2024 제21회 KAIST-POSTECH 학생대제전 개막식",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-11-10",
+      "descriptionSummary": "2024 카포전 개막식 사용과 함께 노브레인·비오는 밤에 홍대를 원곡 태그로 직접 병기한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "유일한 공개 댓글은 무대가 매우 강렬하다는 취지로 웃음을 섞어 반응한다."
+      ],
+      "supports": ["originalSong", "kapoUse", "commentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-mess-2025-libera",
+      "songId": "kaist-a-gaepan-gongdae",
+      "url": "https://www.youtube.com/watch?v=oCS9hN3QoqI",
+      "videoId": "oCS9hN3QoqI",
+      "title": "[카이스트 응원단 ELKA] 응원가 '개판공대' - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "2025 제12회 Libera Me 사용과 함께 노브레인·비오는 밤에 홍대를 원곡 태그로 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["originalSong", "liberaMeUse", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-mess-2025-kapo",
+      "songId": "kaist-a-gaepan-gongdae",
+      "url": "https://www.youtube.com/watch?v=VPQ31LbNMDs",
+      "videoId": "VPQ31LbNMDs",
+      "title": "[카이스트 응원단 ELKA] 응원가 '개판공대'  - 2025 제22회 KAIST-POSTECH 학생대제전 개막식",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "2025 카포전 개막식 사용과 함께 노브레인·비오는 밤에 홍대를 원곡 태그로 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["originalSong", "kapoUse", "rivalryRole"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-a-mess-2026-freshman",
+      "songId": "kaist-a-gaepan-gongdae",
+      "url": "https://www.youtube.com/watch?v=HhX48eJ5hn8",
+      "videoId": "HhX48eJ5hn8",
+      "title": "[카이스트 응원단 ELKA] 응원가 ‘개판공대’ - 2026 전기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-03",
+      "descriptionSummary": "2026 새내기 응원 교육 사용과 함께 노브레인·비오는 밤에 홍대를 원곡 태그로 직접 병기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "originalSong", "freshmanEducation"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 36,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

@@ -1,0 +1,1295 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-hanwha-a",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-hanwha-eagles",
+    "name": "한화 이글스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 가사는 출처·권리 상태·구조 요약만 기록하고, 전문은 사용자 제공 또는 이용 허락이 확인된 경우에만 별도 승인 뒤 저장한다.",
+  "items": [
+    {
+      "id": "hanwha-eagles-bultaneun-taeyang",
+      "title": "불타는 태양",
+      "aliases": ["한화 불타는 태양", "불타는태양"],
+      "currentStatus": "current",
+      "summary": "한화의 힘·열정·비상을 전면에 내세운 장수 팀 응원가다. 2012년 동시대 게시물로 존재가 직접 확인되고 2022년 언론은 대표 응원가로 지목했으며, KBO의 2024 공식 음원과 2026 현장·응원단 영상까지 사용이 이어진다. 실제 최초 도입 시점과 제작진은 공개 자료에서 확정되지 않았다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "외부 원곡이 확인되지 않은 한화 이글스 고유 팀 응원가로 유통",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-namu-cheers", "ev-hanwha-kbo-soundcloud-2024", "ev-hanwha-2012-cheers-thread"],
+          "notes": "확인한 자료는 모두 독립된 원곡 대신 한화 팀 응원가로 소개하지만, 구단 제작 계약서·저작권 등록·음반 크레딧은 찾지 못했다."
+        },
+        {
+          "field": "earliestDocumentedUse",
+          "value": "2012-10-21 이전",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-2012-cheers-thread"],
+          "notes": "2012-10-21 게시물이 곡을 한화 응원가로 소개하고 당시 사용 상황을 회상한다. 이는 존재의 하한선이지 최초 도입일을 뜻하지 않는다."
+        },
+        {
+          "field": "possibleEarlierUse",
+          "value": "2007~2009년 한밭야구장에서 들었다는 팬 회상",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-burning-2019-hamrasan"],
+          "notes": "후대 댓글의 개인 기억이라 도입 연도 근거로 확정하지 않고 상충·보조 주장으로만 보존한다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "경기 시작과 응원전 재개 때 분위기를 여는 대표곡이며 응원단 공연곡으로도 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-burning-joongdo-2022", "ev-hanwha-kbo-soundcloud-2024", "yt-burning-2024-stadium", "yt-burning-2026-cheer"],
+          "notes": "2022년 육성응원 재개 첫날 응원전 시작곡이라는 동시대 기사와 2024 공식 음원, 2026 영상이 이어진다."
+        },
+        {
+          "field": "productionCredits",
+          "value": "작사·작곡·편곡·초기 가창자 미확인",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-namu-cheers", "ev-hanwha-kbo-soundcloud-2024"],
+          "notes": "응원가 제목과 음원은 확인되지만 공개된 제작 크레딧 원문을 찾지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "경기 시작 또는 본격적인 응원전의 출발을 알릴 때",
+        "치어리더 단체 안무와 함께 관중의 박수·구호를 끌어낼 때",
+        "팀의 비상·열정·승리를 강조하는 장내 분위기 전환"
+      ],
+      "trivia": [
+        {
+          "text": "2022년 4월 육성응원이 2년 만에 재개된 홈경기에서 홍창화 응원단장이 이 곡으로 응원전을 시작했다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-burning-joongdo-2022"]
+        },
+        {
+          "text": "팬 댓글에서는 좌석을 찾거나 선수들이 몸을 푸는 동안 이 곡을 들으면 비로소 야구장에 온 느낌이 난다는 기억이 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-burning-2019-hamrasan", "yt-burning-2024-stadium"]
+        },
+        {
+          "text": "한화 팬이 아닌 관중도 KBO 대표 팀 응원가 또는 개인 최애곡으로 꼽는 반응이 여러 영상에서 확인된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-burning-2019-hamrasan", "yt-burning-2020-opening"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-storage-permission",
+        "sourceUrls": [
+          "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+          "https://www.youtube.com/watch?v=45IrJtdGtDk"
+        ],
+        "structureSummary": "긴 무가사 합창형 도입 뒤 응원단 선창과 관중 응답이 교차한다. 두 개의 서술 단락이 힘·축제·비상 이미지를 전개하고, 팀의 승리와 영속성을 압축한 후렴 및 워어 계열 떼창으로 돌아오는 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-burning-2017-stadium",
+        "yt-burning-2019-hamrasan",
+        "yt-burning-2020-opening",
+        "yt-burning-2024-stadium",
+        "yt-burning-2026-cheer"
+      ],
+      "unresolved": [
+        "정확한 첫 사용 연도와 경기; 2012년 이전 사용 가능성",
+        "작사·작곡·편곡·초기 가창 및 구단 제작 주체",
+        "2007~2009년 사용 회상을 뒷받침할 동시대 영상·구단 기록"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-lineup-song",
+      "title": "라인업송",
+      "aliases": ["한화 라인업송", "이글스여 비상하라", "라인업 송"],
+      "currentStatus": "current",
+      "summary": "Two Steps From Hell의 ‘Dragon Rider’를 바탕으로 선발 타순과 선수 이름을 한 명씩 외치는 경기 전 응원가다. 2017년 4월 1일 현장 기록이 확인되며 2024 KBO 공식 음원, 2025 한국시리즈, 2026 시즌판 영상으로 사용이 이어진다. 저작권 공백기에 만들어진 별도 Ver.2와 감독 구호 유무는 버전별로 구분해야 한다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Two Steps From Hell의 ‘Dragon Rider’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-dragon-rider-apple", "ev-lineup-origin-crosscheck", "ev-hanwha-namu-cheers"],
+          "notes": "상업 음원 카탈로그의 원곡과 한화 응원가를 식별한 교차 자료가 일치한다."
+        },
+        {
+          "field": "originalCreator",
+          "value": "Thomas Bergersen 작곡; Two Steps From Hell 연주·유통",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-dragon-rider-apple"],
+          "notes": "Apple Music의 곡 단위 작곡·연주 크레딧 기준이다."
+        },
+        {
+          "field": "originalRelease",
+          "value": "공개 앨범 《Archangel》 수록, 2011-09-20 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-dragon-rider-apple"],
+          "notes": "일부 Apple 지역 페이지는 이전 산업용 음원 연도인 2007을 표시하므로 공개 앨범 발매일과 선행 제작 시점을 구분한다."
+        },
+        {
+          "field": "earliestDirectEvidence",
+          "value": "2017-04-01 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lineup-2017-blog"],
+          "notes": "2017-04-03 게시물이 4월 1일 현장 날짜와 당시 선수 순서·감독 구호를 함께 기록한다. 정확한 초연 여부는 미확인이다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "원곡판을 쓰지 못한 저작권 공백기에 응원단이 Ver.2를 만들었고, 원곡판 부활 뒤 Ver.2는 일반 팀 응원가와 9회 공격곡으로 전환",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hanwha-namu-cheers", "ev-lineup-version2-repost"],
+          "notes": "나무위키 계열 설명과 이를 인용한 토론 자료가 일치하지만 공백의 정확한 날짜·권리 계약·Ver.2 제작 크레딧은 공개 자료로 확인하지 못했다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "경기 전 선발 라인업 발표와 선수 이름 연호; 별도 버전은 경기 중 또는 9회 공격 시작에도 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-kbo-soundcloud-2024", "yt-lineup-2025-opening", "yt-lineup-2025-ks", "yt-lineup-2026-preview"],
+          "notes": "2024 KBO 공식 음원은 첫 트랙으로 배치하고, 2025·2026 영상은 실제 라인업 이름을 넣는 운용을 보여준다. 9회 용례는 문서 설명에 의존한다."
+        },
+        {
+          "field": "2026ManagerCall",
+          "value": "감독 구호 포함판과 제거판이 함께 유통",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-lineup-2026-soundcloud", "ev-hanwha-namu-cheers"],
+          "notes": "팬 음원에는 감독 포함 버전 표기가 남아 있으나 2026 현장 표준판이 항상 같은지는 확정하지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "경기 시작 전 선발 타순과 수비·투수 명단 발표",
+        "응원단 선창 뒤 관중이 타순별 선수 이름을 짧게 연호",
+        "Ver.2는 일반 팀 응원 및 9회 공격 시작의 분위기 고조"
+      ],
+      "trivia": [
+        {
+          "text": "독수리 울음 효과음과 영화 예고편 같은 오케스트라 편곡을 웅장함의 핵심으로 꼽는 댓글이 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-lineup-2019-hamrasan", "yt-lineup-2025-opening"]
+        },
+        {
+          "text": "타 팀 팬도 KBO 라인업송 중 최상위권이라고 평가하며, 이 곡을 듣기 위해 경기 시작 전에 입장한다는 반응이 많다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-lineup-2019-hamrasan", "yt-lineup-2025-opening"]
+        },
+        {
+          "text": "2017년 기록에는 당시 감독의 별칭까지 라인업 끝부분에 포함돼 있어 시대별 명단 변화가 음원·현장 구호에 반영됨을 보여준다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-lineup-2017-blog"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-storage-permission",
+        "sourceUrls": [
+          "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+          "https://jackheart.tistory.com/entry/2017%EB%85%84-%ED%95%9C%ED%99%94%EC%9D%B4%EA%B8%80%EC%8A%A4-%EB%9D%BC%EC%9D%B8%EC%97%85%EC%86%A1-%EA%B0%80%EC%82%AC",
+          "https://music.apple.com/am/song/1781220962"
+        ],
+        "structureSummary": "짧은 비상·승리 주제의 합창형 도입 뒤 1번부터 9번까지 타순과 선수 이름을 순서대로 호명하고, 투수·감독 등 당일 명단 요소를 덧붙인 뒤 도입 후렴으로 돌아간다. 오케스트라 원곡 위에 구호를 얹는 구조라 시즌마다 이름 구간이 바뀐다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lineup-2019-hamrasan",
+        "yt-lineup-2025-audio",
+        "yt-lineup-2025-opening",
+        "yt-lineup-2025-ks",
+        "yt-lineup-2026-preview"
+      ],
+      "unresolved": [
+        "2017년 4월 1일이 실제 초연인지와 도입 담당자",
+        "저작권 사용 중단·부활의 정확한 기간과 계약 근거",
+        "Ver.2의 공식 명칭·작사·작곡·편곡자와 최초 사용일",
+        "2026시즌 감독 구호 포함·제거판 중 실제 홈구장 표준 운용"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-naneun-haengbokhamnida",
+      "title": "나는 행복합니다",
+      "aliases": ["행복송", "나는 행복합니다(행복송)"],
+      "currentStatus": "current",
+      "summary": "윤항기의 ‘나는 행복합니다’를 홍창화 응원단장이 2011년 팀 응원가로 만든 곡이다. 부진기에는 패배와 밝은 가사의 대비 때문에 자조적 밈으로 소비됐지만, 원래 의도는 점수와 무관하게 선수·팬에게 희망을 주는 것이었다. 이후 큰 득점·역전·승리 때의 대표곡으로 운용이 조정됐고 2026 현장 영상에서도 이어진다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "윤항기의 ‘나는 행복합니다’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-happiness-hankooki-interview", "ev-happiness-namu", "ev-happiness-apple"],
+          "notes": "홍창화 인터뷰와 음원 카탈로그, 나무위키 계열 문서가 모두 원곡을 동일하게 식별한다."
+        },
+        {
+          "field": "originalCreator",
+          "value": "윤항기 작사·작곡·가창",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-happiness-namu", "ev-happiness-apple"],
+          "notes": "현재 유통 카탈로그는 가창자를 확인하며, 작사·작곡 표기는 나무위키 계열과 악보 메타데이터를 교차했다. 권리자 원장까지는 확인하지 않았다."
+        },
+        {
+          "field": "originalRelease",
+          "value": "1980-03-03 원곡 발매",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-happiness-namu"],
+          "notes": "Apple Music에서 확인되는 것은 1995년 재수록판이므로 1980년 최초 발매일은 문서 자료에 의존한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2011",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-happiness-hankooki-interview", "ev-happiness-donga-2015", "ev-happiness-namu", "yt-happiness-2012-audio"],
+          "notes": "제작자인 홍창화의 직접 인터뷰와 복수 언론·문서가 일치하며, 2012년 초창기 업로드가 이듬해 실제 유통을 보조한다."
+        },
+        {
+          "field": "adaptationCreator",
+          "value": "홍창화 응원단장",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-happiness-hankooki-interview", "ev-happiness-is-interview"],
+          "notes": "홍창화가 원곡을 고르고 팀명 중심으로 바꾸어 2011년 제작했다고 직접 설명한다. 세부 편곡·녹음 인력은 별도 미확인이다."
+        },
+        {
+          "field": "usageEvolution",
+          "value": "초기에는 점수와 무관하게 안타 뒤 사용했으나 패배기 조롱·자조 이미지가 커진 뒤 큰 득점·역전·승리 상황 중심으로 조정",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-happiness-hankooki-interview", "ev-happiness-namu", "yt-happiness-2018-losing", "yt-happiness-2024-scoring"],
+          "notes": "제작자 인터뷰의 원래 운용과 문서의 후대 변화, 현장 영상을 함께 반영했다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "큰 득점·역전·승리 뒤 팬과 함께 부르는 현행 팀 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-kbo-soundcloud-2024", "yt-happiness-2025-final", "yt-happiness-2026-win"],
+          "notes": "2024 KBO 공식 음원과 2025·2026 현장 영상이 이어진다."
+        },
+        {
+          "field": "recordingVocal",
+          "value": "2018~2025 한화 응원가 녹음판의 보컬로 황석빈이 소개됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hwang-seokbin-namu"],
+          "notes": "응원가 전체의 최초 가창이 아니라 해당 기간 녹음판 참여 정보로 한정한다."
+        }
+      ],
+      "usageContexts": [
+        "큰 득점이나 역전으로 경기 흐름을 가져왔을 때",
+        "승리 직후 ‘사랑한다 최강한화’와 이어 부르는 행복 응원 타임",
+        "과거에는 지는 경기의 만회 득점·안타 뒤에도 사용돼 자조적 장면을 낳음"
+      ],
+      "trivia": [
+        {
+          "text": "홍창화는 친구의 어머니가 사우나에서 들은 노래를 추천한 것이 선곡의 출발이었다고 설명했다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-happiness-hankooki-interview"]
+        },
+        {
+          "text": "2014년 9월 9일 목동 경기 9회초, 크게 뒤진 상황의 만회 득점 뒤 곡이 나오자 중계진이 승패보다 팀 자체를 사랑하는 팬들이라고 평한 장면이 유명해졌다.",
+          "assessment": "reported",
+          "evidenceRefs": ["ev-happiness-namu"]
+        },
+        {
+          "text": "2013년 개막 13연패 등 암흑기의 성적과 밝은 제목이 대비되며 ‘보살팬’·자조 밈의 상징이 됐다가, 2018년과 2025년 좋은 성적 때 본래 의미로 다시 읽혔다.",
+          "assessment": "reported",
+          "evidenceRefs": ["ev-happiness-namu", "ev-happiness-hankooki-interview", "ev-happiness-is-interview"]
+        },
+        {
+          "text": "댓글 반응도 ‘왜 지는데 행복한가’라는 농담과 역전·가을야구 때 진짜 행복해서 부른다는 감정이 동시에 축적돼 있다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-happiness-2015-audio", "yt-happiness-2018-losing", "yt-happiness-2024-scoring"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-storage-permission",
+        "sourceUrls": [
+          "https://sports.hankooki.com/news/articleView.html?idxno=6314890",
+          "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+          "https://music.apple.com/kr/song/1598829681"
+        ],
+        "structureSummary": "원곡의 짧고 반복적인 행복 선언 후렴을 유지하면서 대상어를 이글스와 한화로 교체한 개사다. 한 문장 단위 선창·합창을 여러 번 되풀이해 처음 온 관중도 즉시 참여할 수 있는 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-happiness-2012-audio",
+        "yt-happiness-2015-audio",
+        "yt-happiness-2018-losing",
+        "yt-happiness-2024-scoring",
+        "yt-happiness-2025-final",
+        "yt-happiness-2026-win"
+      ],
+      "unresolved": [
+        "2011년 정확한 첫 사용 경기·날짜와 최초 음원 공개일",
+        "한화판 세부 편곡자·녹음 제작사·초기 가창자 및 버전 교체 연혁",
+        "1980년 원곡 최초 발매일과 저작권 크레딧의 1차 음반 원장"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-saranghanda-choegang-hanhwa",
+      "title": "사랑한다 최강한화",
+      "aliases": ["사랑한다 최강 한화", "터", "사랑한다 최강한화 빠른 Ver."],
+      "currentStatus": "current",
+      "summary": "신형원의 ‘터’ 선율을 짧은 팀 사랑·승리 구호로 바꾼 응원가다. 늦어도 2012년에는 득점·리드 상황에 사용됐고, 느리게 시작해 빨라지는 기본판과 처음부터 빠른 판이 함께 운용된다. 행복송과 연달아 부르는 현장 조합이 특히 유명하며 2026 득점·승리 영상에서도 확인된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "신형원의 ‘터’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-2012-cheers-thread", "ev-ter-bugs", "ev-ter-history-media"],
+          "notes": "2012년 동시대 게시물의 영상 제목과 원곡 선율 식별, 상업 음원 정보가 일치한다."
+        },
+        {
+          "field": "originalCreator",
+          "value": "한돌 작사·작곡, 신형원 가창",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ter-bugs", "ev-ter-history-media"],
+          "notes": "벅스는 신형원 가창을, 언론 자료는 1987년 신형원 2집과 한돌의 전곡 창작을 확인한다."
+        },
+        {
+          "field": "earliestDocumentedUse",
+          "value": "2012-10-21 이전",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-2012-cheers-thread"],
+          "notes": "게시물은 이미 득점하거나 앞설 때 나오는 곡이라고 설명한다. 정확한 도입 연도는 더 이를 수 있다."
+        },
+        {
+          "field": "versionStructure",
+          "value": "느린 도입 뒤 빨라지는 기본판과 처음부터 빠르게 진행하는 응원가용 판이 병존",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-love-strong-2019-combo", "yt-love-strong-2019-fast", "ev-hanwha-namu-cheers"],
+          "notes": "2019년 빠른 버전 공개 영상과 기본판·행복송 연결 영상으로 두 운용을 직접 비교할 수 있다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "득점·홈런·승리 뒤 느린판 또는 빠른판을 부르고 행복송으로 연결",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-kbo-soundcloud-2024", "yt-love-strong-2019-combo", "yt-love-strong-2026-homerun"],
+          "notes": "2024 KBO 공식 음원은 행복송 바로 앞에 배열하고 2019·2026 현장 영상도 같은 결합과 득점 맥락을 보여준다."
+        },
+        {
+          "field": "recordingVocal",
+          "value": "2018~2025 한화 녹음판 보컬로 황석빈이 소개됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hwang-seokbin-namu"],
+          "notes": "곡의 최초 제작자가 아니라 특정 기간 재녹음 보컬 정보다."
+        },
+        {
+          "field": "adaptationCredits",
+          "value": "한화판 작사·편곡자 미확인",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-namu-cheers", "ev-hanwha-2012-cheers-thread"],
+          "notes": "원곡과 사용은 확인되지만 개사·편곡 제작진의 공식 원문을 찾지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "득점 또는 홈런으로 분위기가 오른 직후",
+        "경기 승리 순간과 종료 뒤 팬 합창",
+        "느린 도입을 함께 부른 뒤 속도를 올리고 행복송으로 연결하는 메들리"
+      ],
+      "trivia": [
+        {
+          "text": "2012년 팬 게시물부터 이 곡과 행복송을 ‘이기고 있거나 득점할 때’ 함께 듣는 곡으로 묶었다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-hanwha-2012-cheers-thread"]
+        },
+        {
+          "text": "2019년 9월 공개된 빠른 버전 영상은 제목에 ‘최초공개’와 ‘응원가용’을 명시하지만, 구단 공식 최초 공개인지는 확인되지 않는다.",
+          "assessment": "reported",
+          "evidenceRefs": ["yt-love-strong-2019-fast"]
+        },
+        {
+          "text": "댓글에서는 최근 연승·가을야구·한국시리즈 순간에 다시 찾아와 듣거나 타 팀 팬도 뭉클하다고 표현하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-love-strong-2019-combo"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-storage-permission",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/108884?wl_ref=list_tr_08_ab",
+          "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+          "https://www.youtube.com/watch?v=upXahZ_OQz8"
+        ],
+        "structureSummary": "원곡의 핵심 선율을 짧게 압축해 팀 사랑과 승리 구호 두 단위를 반복한다. 기본판은 느린 합창으로 시작해 박자를 올리고, 빠른판은 같은 핵심 구호를 처음부터 응원 템포로 진행한다. 현장에서는 곧바로 행복송으로 이어지기도 한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-love-strong-2019-combo",
+        "yt-love-strong-2019-fast",
+        "yt-love-strong-2023-jamsil",
+        "yt-love-strong-2025-team",
+        "yt-love-strong-2026-homerun"
+      ],
+      "unresolved": [
+        "2012년보다 이른 실제 도입 연도와 첫 사용 경기",
+        "한화판 작사·편곡·초기 가창자와 제작사",
+        "빠른 버전의 공식 도입일·제작 크레딧·정식 버전명"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-saranghanda-eagles",
+      "title": "사랑한다 이글스",
+      "aliases": ["사랑한다이글스"],
+      "currentStatus": "current",
+      "summary": "영화 《클래식》 OST인 한성민의 ‘사랑하면 할수록’을 빠르고 웅장한 4박 응원가로 바꾼 곡이다. 프로젝트의 사용자 승인에 따라 나무위키의 2015년 도입을 정본으로 유지하며, 2015년 5월 영상과 당시 구단 서버 MP3 링크가 보조한다. 상대 투수 교체와 득점·클리닝타임에 큰 떼창으로 쓰이고 2026 시즌판 영상도 확인된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "영화 《클래식》 OST 한성민 ‘사랑하면 할수록’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-classic-bugs", "ev-hanwha-namu-cheers", "ev-love-eagles-ppomppu-2015"],
+          "notes": "상업 OST 카탈로그와 동시대 팬 식별, 문서 자료가 일치한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2015",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-initial-love-eagles-decision", "ev-hanwha-namu-cheers", "yt-love-eagles-2015-earliest", "ev-love-eagles-ppomppu-2015"],
+          "notes": "사용자 승인으로 나무위키의 2015년 서술을 채택했다. 2015-05-06 영상과 2015-06-26 당시 구단 서버 응원가 음원 링크가 같은 해 존재를 직접 보조한다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "상대 투수 교체 때 가장 자주 부르며 득점 직후·클리닝타임에도 대형 떼창으로 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hanwha-namu-cheers", "ev-hanwha-kbo-soundcloud-2024", "yt-love-eagles-2025-audio", "yt-love-eagles-2025-away", "yt-love-eagles-2026-audio"],
+          "notes": "문서상의 상황 설명이 2025 영상 댓글의 현장 관찰과 2024 공식 음원·2026 시즌판으로 교차 확인된다."
+        },
+        {
+          "field": "adaptationCredits",
+          "value": "한화판 작사·편곡·가창 제작진 미확인",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-hanwha-namu-cheers", "ev-initial-love-eagles-decision"],
+          "notes": "원곡과 도입 연도는 승인됐지만 공개 제작자 자료는 아직 없다."
+        },
+        {
+          "field": "yonseiRelationship",
+          "value": "한화판이 2015년에 먼저 쓰였고 연세대학교 ‘하늘끝까지’가 2016년에 등장한 선행 관계; 직접 제작 영향은 미확정",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-love-eagles-libre", "ev-initial-love-eagles-decision", "yt-love-eagles-2015-earliest"],
+          "notes": "연도 순서는 확인되지만 연세대 제작자의 공개 발언에서 한화판 참조를 직접 확인하지 못했으므로 영향은 단정하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "한화 공격 중 상대 투수가 교체돼 경기가 멈춘 시간",
+        "득점·장타 직후 원정 응원석까지 이어지는 대형 떼창",
+        "클리닝타임·선수 캐치볼 등 긴 정지 구간의 팀 합창"
+      ],
+      "trivia": [
+        {
+          "text": "2015년 6월 팬 게시물은 당시 한화 공식 이미지 서버의 팀 응원가 MP3를 직접 연결해 초창기 공식 배포 흔적을 남겼다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-love-eagles-ppomppu-2015"]
+        },
+        {
+          "text": "팬들은 상대 투수가 내려갈 때 이 곡의 웅장함이 특히 커진다고 반복해서 설명한다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-love-eagles-2025-audio"]
+        },
+        {
+          "text": "댓글에서는 한화의 혼·팀 정체성을 담은 곡으로 느끼거나 구장에서 부르면 울컥한다는 반응이 여러 영상에 걸쳐 반복된다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-love-eagles-2021-audio", "yt-love-eagles-2025-away", "yt-love-eagles-2025-mv"]
+        },
+        {
+          "text": "한화판과 연세대판이 같은 원곡을 공유하면서도 가사·응원 맥락은 서로 다르다.",
+          "assessment": "reported",
+          "evidenceRefs": ["ev-love-eagles-libre", "ev-hanwha-namu-cheers"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-storage-permission",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/album/29611",
+          "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+          "https://www.youtube.com/watch?v=XJzz9Nu9vjA"
+        ],
+        "structureSummary": "애절한 원곡 선율을 빠른 4박 응원 리듬으로 바꾸고, 팀에 대한 사랑·영속·승리 구호를 짧은 합창 단위로 반복한다. 중간의 무가사 합창과 음절을 끊어 외치는 구호 뒤 핵심 후렴으로 복귀한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-love-eagles-2015-earliest",
+        "yt-love-eagles-2021-audio",
+        "yt-love-eagles-2025-away",
+        "yt-love-eagles-2025-audio",
+        "yt-love-eagles-2025-mv",
+        "yt-love-eagles-2026-audio"
+      ],
+      "unresolved": [
+        "2015년 정확한 첫 사용 경기와 구단 최초 공개일",
+        "한화판 작사·편곡·녹음 제작진과 공식 음원 버전 이력",
+        "연세대학교 ‘하늘끝까지’ 제작자가 한화판을 직접 참고했는지 여부"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-hanwha-kbo-soundcloud-2024",
+      "type": "official",
+      "url": "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+      "title": "한화이글스 응원가 (Ver. 2, No.95)",
+      "publisher": "KBO (한국야구위원회)",
+      "publishedAt": "2024-07-02",
+      "accessedAt": "2026-08-08",
+      "summary": "공식 타임라인에 라인업송 0:00, 사랑한다 이글스 15:29, 사랑한다 최강한화 16:48, 행복송 17:34, 불타는 태양 34:09를 싣는다. KBO 계정은 전문 가사는 공식 스폰서에서 확인하라고 안내한다.",
+      "supports": [
+        "hanwha-eagles-bultaneun-taeyang.currentUsage",
+        "hanwha-eagles-lineup-song.currentUsage",
+        "hanwha-eagles-naneun-haengbokhamnida.currentUsage",
+        "hanwha-eagles-saranghanda-choegang-hanhwa.currentUsage",
+        "hanwha-eagles-saranghanda-eagles.currentUsage"
+      ]
+    },
+    {
+      "id": "ev-hanwha-official-2026-catalog",
+      "type": "official",
+      "url": "https://www.youtube.com/watch?v=3xzAdp1MFoY",
+      "title": "신규 팀응원가 공개🔥 2026 한화이글스 등장곡+응원가 완벽 정리",
+      "publisher": "Eagles TV",
+      "publishedAt": "2026-03-31",
+      "accessedAt": "2026-08-08",
+      "summary": "구단 공식 영상은 2026 선수별 등장곡·응원가와 22:01 ‘영원히 최강한화’, 23:53 ‘우리의 사랑 한화이글스’를 챕터로 공개한다. 이번 다섯 레거시곡은 설명 타임라인에 없으므로 이 영상만으로 폐지·존속을 판정하지 않고 KBO 공식 음원과 2025~2026 현장 영상을 함께 사용했다.",
+      "supports": ["organization.official2026Crosscheck", "coverage.currentStatusCaveat"]
+    },
+    {
+      "id": "ev-hanwha-namu-cheers",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "한화 이글스/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "불타는 태양·라인업송·행복송·사랑한다 최강한화·사랑한다 이글스의 원곡, 사용 상황, 라인업송 버전 이력과 사랑한다 이글스의 2015년 도입 서술을 대조했다. 커뮤니티 편집 자료이므로 동시대 기록·공식 음원·인터뷰와 교차했다.",
+      "supports": [
+        "hanwha-eagles-bultaneun-taeyang.origin",
+        "hanwha-eagles-lineup-song.origin",
+        "hanwha-eagles-lineup-song.versionHistory",
+        "hanwha-eagles-naneun-haengbokhamnida.usageEvolution",
+        "hanwha-eagles-saranghanda-choegang-hanhwa.versionStructure",
+        "hanwha-eagles-saranghanda-eagles.introductionYear",
+        "hanwha-eagles-saranghanda-eagles.currentUsage"
+      ]
+    },
+    {
+      "id": "ev-happiness-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%EB%82%98%EB%8A%94%20%ED%96%89%EB%B3%B5%ED%95%A9%EB%8B%88%EB%8B%A4",
+      "title": "나는 행복합니다",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "윤항기 원곡의 1980년 발매 정보, 한화의 2011년 도입, 행복송 별칭, 2014년 목동 경기 중계 장면, 패배기 자조 이미지와 이후 재평가를 확인했다.",
+      "supports": [
+        "hanwha-eagles-naneun-haengbokhamnida.origin",
+        "hanwha-eagles-naneun-haengbokhamnida.originalRelease",
+        "hanwha-eagles-naneun-haengbokhamnida.introductionYear",
+        "hanwha-eagles-naneun-haengbokhamnida.usageEvolution"
+      ]
+    },
+    {
+      "id": "ev-hwang-seokbin-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%ED%99%A9%EC%84%9D%EB%B9%88",
+      "title": "황석빈",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "황석빈의 한화 응원가 녹음 활동 기간을 2018~2025로 정리하고 ‘나는 행복합니다’, ‘사랑한다 최강한화’, ‘클랩타임’을 대표 녹음곡으로 열거한다.",
+      "supports": [
+        "hanwha-eagles-naneun-haengbokhamnida.recordingVocal",
+        "hanwha-eagles-saranghanda-choegang-hanhwa.recordingVocal"
+      ]
+    },
+    {
+      "id": "ev-happiness-hankooki-interview",
+      "type": "press-interview",
+      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6314890",
+      "title": "박대웅의 글LOVE — 한화 홍창화 응원단장의 외침 ‘저도 행복합니다’",
+      "publisher": "스포츠한국",
+      "publishedAt": "2018-07-13",
+      "accessedAt": "2026-08-08",
+      "summary": "홍창화가 2011년 윤항기 원곡으로 행복송을 만들었고, 지인의 어머니에게 곡을 추천받았으며 부진기에도 희망을 주려고 안타 뒤 점수와 무관하게 사용했다고 직접 설명한다. 이후 부정적 이미지 때문에 운용이 조정된 배경도 다룬다.",
+      "supports": [
+        "hanwha-eagles-naneun-haengbokhamnida.origin",
+        "hanwha-eagles-naneun-haengbokhamnida.introductionYear",
+        "hanwha-eagles-naneun-haengbokhamnida.adaptationCreator",
+        "hanwha-eagles-naneun-haengbokhamnida.usageEvolution"
+      ]
+    },
+    {
+      "id": "ev-happiness-donga-2015",
+      "type": "press-interview",
+      "url": "https://www.donga.com/news/article/all/20151211/75305283/9",
+      "title": "작은 행복도 주저 말고 표현하세요… 행복이 더 커져요",
+      "publisher": "동아일보",
+      "publishedAt": "2015-12-11",
+      "accessedAt": "2026-08-08",
+      "summary": "2011년 무렵 곡이 처음 만들어졌고 초기에는 패색이 짙을 때 곡이 나오면 반발하는 팬도 있었으나 점차 대표 합창으로 자리 잡았다는 홍창화 인터뷰를 전한다.",
+      "supports": ["hanwha-eagles-naneun-haengbokhamnida.introductionYear", "hanwha-eagles-naneun-haengbokhamnida.usageEvolution"]
+    },
+    {
+      "id": "ev-happiness-is-interview",
+      "type": "press-interview",
+      "url": "https://sports.news.nate.com/view/20251004n01053",
+      "title": "홍창화 한화 응원단장 ‘보살팬들 도파민이 폭발’",
+      "publisher": "일간스포츠 / 네이트",
+      "publishedAt": "2025-10-04",
+      "accessedAt": "2026-08-08",
+      "summary": "홍창화가 윤항기 원곡을 개사·편곡해 2011년 한화 응원가로 만들었다고 재확인하고, 승리 경기에서는 여러 차례 반복되는 현재의 위상을 설명한다.",
+      "supports": ["hanwha-eagles-naneun-haengbokhamnida.adaptationCreator", "hanwha-eagles-naneun-haengbokhamnida.currentUsage"]
+    },
+    {
+      "id": "ev-happiness-apple",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/song/1598829681",
+      "title": "나는 행복합니다 — 윤항기",
+      "publisher": "Apple Music",
+      "publishedAt": "1995-10-01",
+      "accessedAt": "2026-08-08",
+      "summary": "윤항기 가창과 1995년 컴필레이션 재수록판을 확인한다. 이 날짜는 원곡 최초 발매일이 아니라 현재 카탈로그의 재발매 정보로 취급했다.",
+      "supports": ["hanwha-eagles-naneun-haengbokhamnida.origin", "hanwha-eagles-naneun-haengbokhamnida.originalCreator"]
+    },
+    {
+      "id": "ev-lineup-2017-blog",
+      "type": "contemporaneous-blog",
+      "url": "https://jackheart.tistory.com/entry/2017%EB%85%84-%ED%95%9C%ED%99%94%EC%9D%B4%EA%B8%80%EC%8A%A4-%EB%9D%BC%EC%9D%B8%EC%97%85%EC%86%A1-%EA%B0%80%EC%82%AC",
+      "title": "2017년 한화이글스 라인업송 가사",
+      "publisher": "JackU",
+      "publishedAt": "2017-04-03",
+      "accessedAt": "2026-08-08",
+      "summary": "2017년 4월 1일 현장 날짜와 비상 주제의 도입, 1~9번 타자·투수·감독을 순서대로 호명하는 당시 구조를 기록한다.",
+      "supports": ["hanwha-eagles-lineup-song.earliestDirectEvidence", "hanwha-eagles-lineup-song.lyricsStructure"]
+    },
+    {
+      "id": "ev-dragon-rider-apple",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/am/song/1781220962",
+      "title": "Dragon Rider — Thomas Bergersen & Two Steps From Hell",
+      "publisher": "Apple Music",
+      "publishedAt": "2011-09-20",
+      "accessedAt": "2026-08-08",
+      "summary": "《Archangel》 수록 ‘Dragon Rider’, Thomas Bergersen 작곡, Two Steps From Hell 연주, Petr Pololanik 지휘와 The Capellen Orchestra 참여를 확인했다. 일부 지역 표기의 2007년은 선행 산업용 제작 시점으로 분리했다.",
+      "supports": ["hanwha-eagles-lineup-song.origin", "hanwha-eagles-lineup-song.originalCreator", "hanwha-eagles-lineup-song.originalRelease"]
+    },
+    {
+      "id": "ev-lineup-origin-crosscheck",
+      "type": "web-article",
+      "url": "https://brilliantkorean.tistory.com/entry/%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%A7%84-%ED%94%BC%EC%95%84%EB%85%B8-%EC%95%85%EB%B3%B4%EC%9D%98-%EC%A0%95%EC%B2%B4news",
+      "title": "Dragon Rider와 한화 라인업송 식별 자료",
+      "publisher": "Brilliant Korean",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "한화 라인업송의 원곡을 Two Steps From Hell의 ‘Dragon Rider’로 식별하고 2011년 공개 앨범 정보를 정리한다.",
+      "supports": ["hanwha-eagles-lineup-song.origin"]
+    },
+    {
+      "id": "ev-lineup-version2-repost",
+      "type": "community-discussion",
+      "url": "https://mlbpark.donga.com/mp/b.php?b=kbotown&id=202602270112655736&m=reply",
+      "title": "한화 라인업송 Ver.2 용례 토론",
+      "publisher": "MLBPARK",
+      "publishedAt": "2026-02-27",
+      "accessedAt": "2026-08-08",
+      "summary": "참여자가 나무위키 설명을 인용해 저작권 공백기에 새 라인업송이 제작됐고, 기존 곡 부활 뒤 새 곡이 일반 팀 응원가와 2023년 9회 공격 시작곡으로 전환됐다고 적는다. 1차 자료가 아니므로 보조 근거로만 사용했다.",
+      "supports": ["hanwha-eagles-lineup-song.versionHistory"]
+    },
+    {
+      "id": "ev-lineup-2026-soundcloud",
+      "type": "fan-audio",
+      "url": "https://soundcloud.com/1huszpmqu9uy/2025a5",
+      "title": "2026 팀 응원가 - 라인업송 [감독 있는 Ver.]",
+      "publisher": "은원이최고[Music Studio]",
+      "publishedAt": "2025-04-12",
+      "accessedAt": "2026-08-08",
+      "summary": "팬 제작 음원이 ‘감독 있는 Ver.’를 제목에 명시한다. 업로드 날짜와 표기 시즌이 어긋나며 구단 공식 음원이 아니므로 2026 감독 구호 판정에는 단독 사용하지 않았다.",
+      "supports": ["hanwha-eagles-lineup-song.2026ManagerCall"]
+    },
+    {
+      "id": "ev-hanwha-2012-cheers-thread",
+      "type": "contemporaneous-community",
+      "url": "https://mlbpark.donga.com/mlbpark/b.php?b=kbotown&id=600261&m=search&p=91&query=eagles&reply=&select=title&user=",
+      "title": "우리도 응원가나 들어봅시다",
+      "publisher": "MLBPARK",
+      "publishedAt": "2012-10-21",
+      "accessedAt": "2026-08-08",
+      "summary": "불타는 태양, ‘한화 응원가 - 터’로 소개된 사랑한다 최강한화, 행복송을 함께 올리고 한화가 앞서거나 득점했을 때 주로 나오는 곡이라고 설명한다. 두 곡의 2012년 존재를 확인하는 가장 이른 이번 조사 기록이다.",
+      "supports": [
+        "hanwha-eagles-bultaneun-taeyang.earliestDocumentedUse",
+        "hanwha-eagles-saranghanda-choegang-hanhwa.origin",
+        "hanwha-eagles-saranghanda-choegang-hanhwa.earliestDocumentedUse"
+      ]
+    },
+    {
+      "id": "ev-burning-2014-club-link",
+      "type": "contemporaneous-community",
+      "url": "https://mlbpark.donga.com/mlbpark/b.php?b=kbotown&id=1473122&m=view&p=2201&query=%EC%9E%84%EC%A0%95%EC%9A%B0+%EB%B3%B4%EC%83%81&select=sct&user=",
+      "title": "한화 응원가 가사 알려주세요",
+      "publisher": "MLBPARK",
+      "publishedAt": "2014-02-27",
+      "accessedAt": "2026-08-08",
+      "summary": "동시대 참여자가 곡을 ‘불타는 태양’으로 식별하고 당시 한화 이글스 공식 응원가 페이지 링크를 제시한다. 과거 구단 사이트는 현재 열리지 않지만 2014년 공식 목록 흔적을 보조한다.",
+      "supports": ["hanwha-eagles-bultaneun-taeyang.historicalOfficialListing"]
+    },
+    {
+      "id": "ev-burning-joongdo-2022",
+      "type": "press",
+      "url": "https://m.joongdo.co.kr/view.php?key=20220424010005742",
+      "title": "2년만에 울려 퍼진 최강한화 육성응원! 진짜 한화가 돌아왔다",
+      "publisher": "중도일보",
+      "publishedAt": "2022-04-24",
+      "accessedAt": "2026-08-08",
+      "summary": "2022년 4월 22일 육성응원 재개 첫 홈경기에서 홍창화 응원단장이 한화의 대표 응원가 ‘불타는 태양’으로 응원전을 시작했다고 현장을 보도한다.",
+      "supports": ["hanwha-eagles-bultaneun-taeyang.currentUsage"]
+    },
+    {
+      "id": "ev-ter-bugs",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/108884?wl_ref=list_tr_08_ab",
+      "title": "터 — 신형원",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "곡명 ‘터’, 신형원 가창, 앨범 《노래찾기 하나》와 4분 30초 트랙 정보를 확인했다.",
+      "supports": ["hanwha-eagles-saranghanda-choegang-hanhwa.origin", "hanwha-eagles-saranghanda-choegang-hanhwa.originalCreator"]
+    },
+    {
+      "id": "ev-ter-history-media",
+      "type": "press",
+      "url": "https://v.daum.net/v/20260209050143895",
+      "title": "그 노래 그 사연 — 하나되는 그날을 소망하다",
+      "publisher": "농민신문 / 다음",
+      "publishedAt": "2026-02-09",
+      "accessedAt": "2026-08-08",
+      "summary": "‘터’를 신형원의 1987년 2집 수록곡으로 소개하고 해당 앨범 전곡을 음악가 한돌이 만들었다고 설명한다.",
+      "supports": ["hanwha-eagles-saranghanda-choegang-hanhwa.originalCreator"]
+    },
+    {
+      "id": "ev-initial-love-eagles-decision",
+      "type": "project-record",
+      "url": "research/batches/2026-08-07-initial-cheer-songs/decisions.json",
+      "title": "초기 응원가 검토 결정 — 사랑한다 이글스",
+      "publisher": "cheers2 research",
+      "publishedAt": "2026-08-07",
+      "accessedAt": "2026-08-08",
+      "summary": "사용자가 공식 제목·별칭·원곡·2015년 도입·사용 맥락을 승인하고 나무위키의 2015년 서술을 정본 연도로 채택한 결정 기록이다.",
+      "supports": ["hanwha-eagles-saranghanda-eagles.introductionYear", "hanwha-eagles-saranghanda-eagles.origin"]
+    },
+    {
+      "id": "ev-classic-bugs",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/29611",
+      "title": "클래식 (The Classic) OST",
+      "publisher": "벅스",
+      "publishedAt": "2003-02-11",
+      "accessedAt": "2026-08-08",
+      "summary": "2003년 영화 OST의 1번 트랙으로 한성민 ‘사랑하면 할수록’을 확인했다.",
+      "supports": ["hanwha-eagles-saranghanda-eagles.origin"]
+    },
+    {
+      "id": "ev-love-eagles-ppomppu-2015",
+      "type": "contemporaneous-community",
+      "url": "https://m.ppomppu.co.kr/new/bbs_view.php?id=baseball&no=490869",
+      "title": "사랑한다 이글스 원곡 질문",
+      "publisher": "뽐뿌 야구포럼",
+      "publishedAt": "2015-06-26",
+      "accessedAt": "2026-08-08",
+      "summary": "당시 한화 공식 이미지 서버의 팀 응원가 MP3 링크가 게시됐고 동시대 댓글이 원곡을 한성민 ‘사랑하면 할수록’으로 식별한다.",
+      "supports": ["hanwha-eagles-saranghanda-eagles.origin", "hanwha-eagles-saranghanda-eagles.introductionYear"]
+    },
+    {
+      "id": "ev-love-eagles-libre",
+      "type": "community-wiki",
+      "url": "https://librewiki.net/wiki/%EC%9C%84%ED%82%A4%EB%8F%85%3A%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC_%EC%9D%91%EC%9B%90%EA%B0%80/%EC%97%B0%EA%B3%A0%EB%8C%80_%EC%9D%91%EC%9B%90%EA%B0%80_%EB%AA%A8%ED%8B%B0%EB%B8%8C",
+      "title": "프로야구 응원가/연고대 응원가 모티브",
+      "publisher": "리브레 위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "한화가 2015년에 먼저 사용했고 같은 원곡의 연세대 ‘하늘끝까지’가 2016년에 등장했다는 연도 순서를 정리한다. 직접 제작 영향의 1차 증언은 아니다.",
+      "supports": ["hanwha-eagles-saranghanda-eagles.yonseiRelationship"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-burning-2017-stadium",
+      "songId": "hanwha-eagles-bultaneun-taeyang",
+      "url": "https://www.youtube.com/watch?v=7jfyFKOw1SQ",
+      "videoId": "7jfyFKOw1SQ",
+      "title": "한화이글스 응원가 불타는 태양",
+      "channel": "S깡통",
+      "publishedAt": "2017-08-09",
+      "descriptionSummary": "2017년 8월 9일 잠실 현장에서 치어리더 공연과 곡 사용을 촬영한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글 수가 적으며 치어리더와 해당 곡 영상을 더 올려 달라는 반응이 중심이다."
+      ],
+      "supports": ["historicalUsage", "cheerleaderPerformance"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-burning-2019-hamrasan",
+      "songId": "hanwha-eagles-bultaneun-taeyang",
+      "url": "https://www.youtube.com/watch?v=45IrJtdGtDk",
+      "videoId": "45IrJtdGtDk",
+      "title": "한화 이글스 - 응원가 불타는 태양 [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-09-15",
+      "descriptionSummary": "곡을 널리 알려진 한화 응원가라고 짧게 소개하는 단독 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "입장하며 좌석을 찾거나 선수 훈련을 볼 때 이 곡이 나오면 야구장에 온 느낌이 난다는 기억이 반복된다.",
+        "한화 팬이 아닌 사람도 KBO 대표 응원가·개인 최애곡으로 꼽고, 더 큰 떼창으로 쓰길 바란다는 반응이 많다.",
+        "일부 팬은 2007~2009년 한밭야구장에서 들었다고 회상하지만 동시대 증거는 아니다."
+      ],
+      "supports": ["fanReception", "stadiumIdentity", "possibleEarlierUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-burning-2020-opening",
+      "songId": "hanwha-eagles-bultaneun-taeyang",
+      "url": "https://www.youtube.com/watch?v=OGyHd_BTz0w",
+      "videoId": "OGyHd_BTz0w",
+      "title": "2020 개막 한화이글스 치어리더 불타는태양 200505",
+      "channel": "S깡통",
+      "publishedAt": "2020-05-04",
+      "descriptionSummary": "2020시즌 개막일 응원단의 불타는 태양 안무를 네 명의 치어리더 이름과 함께 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "무관중 개막기의 TV 시청과 휴대전화 응원 영상을 함께 본다는 반응이 있다.",
+        "타 팀보다 한화 응원가가 좋다는 평가와 응원단 멤버를 반기는 반응이 반복된다."
+      ],
+      "supports": ["historicalUsage", "cheerleaderPerformance", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-burning-2024-stadium",
+      "songId": "hanwha-eagles-bultaneun-taeyang",
+      "url": "https://www.youtube.com/watch?v=hidqAbMNCrU",
+      "videoId": "hidqAbMNCrU",
+      "title": "🦅 불타는 태양 🧡  / 2024.5.11. 대전 한화생명 이글스파크 / #최석화#이호은#우수한#박소영#김나연#치어리더#한화이글스#한치#화이팅",
+      "channel": "JHL STUDIO ",
+      "publishedAt": "2024-05-17",
+      "descriptionSummary": "2024년 5월 11일 대전 홈경기의 응원단 공연을 해시태그와 함께 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오래된 팬들은 직관에서 이 곡을 들어야 야구가 시작되는 느낌이라고 말한다.",
+        "최근 사용 빈도가 줄어 아쉽다는 반응과 ‘근본 응원가’라는 평가가 반복된다."
+      ],
+      "supports": ["currentUsage", "stadiumIdentity", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-burning-2026-cheer",
+      "songId": "hanwha-eagles-bultaneun-taeyang",
+      "url": "https://www.youtube.com/watch?v=U4Z4fFUbxTo",
+      "videoId": "U4Z4fFUbxTo",
+      "title": "[한화 이글스] 팀 응원가 - 불타는 태양 (치어리더 공식 응원가) | (2026)",
+      "channel": "은최",
+      "publishedAt": "2026-06-02",
+      "descriptionSummary": "2026 시즌 표기와 ‘치어리더 공식 응원가’라는 제목·관련 해시태그를 붙인 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 한 건으로, 장수 명곡이라는 짧은 호응이다."
+      ],
+      "supports": ["currentUsage", "title", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lineup-2019-hamrasan",
+      "songId": "hanwha-eagles-lineup-song",
+      "url": "https://www.youtube.com/watch?v=GsZDaaTddyE",
+      "videoId": "GsZDaaTddyE",
+      "title": "한화 이글스 - 라인업송 [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-08-11",
+      "descriptionSummary": "별도 설명 없이 한화 라인업송 음원과 응원 구조를 제공하는 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한화·타 팀 팬 모두 KBO 라인업송 중 최고 수준의 웅장함과 전율을 준다고 반복 평가한다.",
+        "직관 시작 전에 이 곡을 듣기 위해 일찍 입장한다거나 우승 경기에서 들으면 울 것 같다는 반응이 많다."
+      ],
+      "supports": ["historicalUsage", "fanReception", "stadiumIdentity"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lineup-2025-audio",
+      "songId": "hanwha-eagles-lineup-song",
+      "url": "https://www.youtube.com/watch?v=Cv1c1zcoyDA",
+      "videoId": "Cv1c1zcoyDA",
+      "title": "[한화 이글스] 팀 응원가 - 라인업송",
+      "channel": "은최",
+      "publishedAt": "2025-03-19",
+      "descriptionSummary": "한화 라인업송과 2025 선수단·개막 관련 해시태그를 붙인 시즌 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "독수리 효과음, 웅장함과 비장함을 장점으로 꼽는 반응이 반복된다.",
+        "가을야구·한국시리즈 진출 때 듣고 싶다는 기대와 타 팀 팬의 호평이 많다."
+      ],
+      "supports": ["currentUsage", "fanReception", "soundEffect"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lineup-2025-opening",
+      "songId": "hanwha-eagles-lineup-song",
+      "url": "https://www.youtube.com/watch?v=d5yNhjqSz-M",
+      "videoId": "d5yNhjqSz-M",
+      "title": "884_한화이글스 개막전 역전승리의 라인업송 이글스여 비상하라 | 한화이글스 VS KT위즈 | kbo | 야구직관브이로그 | 한화이글스 라인업송",
+      "channel": "독수리부부",
+      "publishedAt": "2025-03-22",
+      "descriptionSummary": "2025 개막 KT 원정에서 실제 선발 라인업을 따라 부르는 장면을 직관 브이로그로 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원곡의 힘, 독수리 효과음과 큰 앰프 음량이 전율을 만든다는 반응이 반복된다.",
+        "타 팀 팬도 리그 최상위 라인업송으로 평가한다."
+      ],
+      "supports": ["currentUsage", "lineupContext", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lineup-2025-ks",
+      "songId": "hanwha-eagles-lineup-song",
+      "url": "https://www.youtube.com/watch?v=Isl4wbZtmDc",
+      "videoId": "Isl4wbZtmDc",
+      "title": "2025.10.26일 한국시리즈 1차전 한화이글스 라인업 응원",
+      "channel": "쇼야타임",
+      "publishedAt": "2025-10-26",
+      "descriptionSummary": "2025년 10월 26일 한국시리즈 1차전의 한화 라인업 응원을 촬영한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오랜만의 한국시리즈와 주황색 원정 관중석, 라인업송의 완성도를 함께 회상한다.",
+        "당시 감독 이름 연호와 경기 후반 반복 사용을 둘러싼 농담·비판도 보인다."
+      ],
+      "supports": ["currentUsage", "postseasonUsage", "managerCall", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lineup-2026-preview",
+      "songId": "hanwha-eagles-lineup-song",
+      "url": "https://www.youtube.com/watch?v=cKQsVPtp9QY",
+      "videoId": "cKQsVPtp9QY",
+      "title": "\"2026시즌 비상을 위한\" [한화 이글스] 팀 응원가 - 라인업 송 (Feat. 개막전 예상 라인업)",
+      "channel": "은최",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "2026 시즌 개막 직전 예상 선발 명단을 넣어 제작한 라인업송 영상이며, 이후 선수·팀 응원가 업로드를 예고한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시즌 비상을 기원하는 호응과 개막 예상 명단 변경에 관한 반응이 있다.",
+        "댓글 수가 적어 반복적인 팬 평가를 일반화하기는 어렵다."
+      ],
+      "supports": ["currentUsage", "seasonalRosterUpdate"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-happiness-2012-audio",
+      "songId": "hanwha-eagles-naneun-haengbokhamnida",
+      "url": "https://www.youtube.com/watch?v=ucNR9zLqmDs",
+      "videoId": "ucNR9zLqmDs",
+      "title": "한화 응원가 - 나는 행복합니다",
+      "channel": "Semin Son",
+      "publishedAt": "2012-04-23",
+      "descriptionSummary": "별도 설명 없이 초창기 한화 행복송 음원을 제공하는 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "역전·승리·향후 한국시리즈 우승 뒤 이 곡을 부를 때의 감동을 상상하는 반응이 반복된다.",
+        "부진기를 지나 실제로 행복해서 부르게 됐다는 후대 댓글이 누적돼 있다."
+      ],
+      "supports": ["earlyAvailability", "fanReception", "identity"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-happiness-2015-audio",
+      "songId": "hanwha-eagles-naneun-haengbokhamnida",
+      "url": "https://www.youtube.com/watch?v=qpxvz2RCD9c",
+      "videoId": "qpxvz2RCD9c",
+      "title": "한화이글스 응원가 행복송",
+      "channel": "최고양이",
+      "publishedAt": "2015-04-08",
+      "descriptionSummary": "사랑한다 최강한화와 행복송을 연달아 제시하는 응원가 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "밝은 선율이 부진기에는 구슬프거나 자조적으로 들렸다는 반응이 많다.",
+        "연패 탈출·연승·2025 한국시리즈 진출 뒤 다시 찾아왔다는 댓글이 장기간 누적돼 있다."
+      ],
+      "supports": ["usageEvolution", "comboWithLoveStrong", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-happiness-2018-losing",
+      "songId": "hanwha-eagles-naneun-haengbokhamnida",
+      "url": "https://www.youtube.com/watch?v=hpVGNZKsFC4",
+      "videoId": "hpVGNZKsFC4",
+      "title": "나는 행복합니다♬ 지고 있어도 행복한 한화팬들",
+      "channel": "LUCAS MUN",
+      "publishedAt": "2018-04-30",
+      "descriptionSummary": "넥센전에서 크게 뒤진 경기 후반에도 행복송을 부르는 한화 팬들을 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "왜 지고 있는데 행복한지 묻는 농담과 ‘보살팬’ 이미지가 반복된다.",
+        "승패와 무관한 순수한 팬심과 긍정성을 높게 평가하거나 실제로 함께 부르면 행복해진다는 경험담도 많다."
+      ],
+      "supports": ["usageEvolution", "losingGameContext", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-happiness-2024-scoring",
+      "songId": "hanwha-eagles-naneun-haengbokhamnida",
+      "url": "https://www.youtube.com/watch?v=Tf5pODXQwiQ",
+      "videoId": "Tf5pODXQwiQ",
+      "title": "7회에 결국 나는 행복합니다까지 나와버린 한화이글스 추가 득점 응원 현장!!🔥 (2024.07.28 vs LG)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2024-07-28",
+      "descriptionSummary": "2024년 7월 28일 LG전 7회 추가 득점 뒤 행복송까지 이어진 현장 응원을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "당일 직관의 여운과 대규모 떼창의 소름·감동을 회상하는 반응이 반복된다.",
+        "노래만 들으면 울컥하거나 한화 응원이 국가대표 응원처럼 강하다는 평가가 있다."
+      ],
+      "supports": ["currentUsage", "scoringContext", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-happiness-2025-final",
+      "songId": "hanwha-eagles-naneun-haengbokhamnida",
+      "url": "https://www.youtube.com/watch?v=BGKtnGdZBgY",
+      "videoId": "BGKtnGdZBgY",
+      "title": "2025년 마지막 한화 이글스 응원 - 나는 행복합니다🎵",
+      "channel": "아카",
+      "publishedAt": "2025-11-01",
+      "descriptionSummary": "2025년 마지막 경기 뒤 한화와 응원단에 작별 인사를 전하며 행복송 현장을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한국시리즈 마지막 경기의 한과 원정 앰프 속에서도 곡을 들은 감정을 회상한다.",
+        "공개 댓글 수가 적어 광범위한 반복 반응은 도출하지 않았다."
+      ],
+      "supports": ["currentUsage", "postseasonUsage", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-happiness-2026-win",
+      "songId": "hanwha-eagles-naneun-haengbokhamnida",
+      "url": "https://www.youtube.com/watch?v=f-MSn1EzFkA",
+      "videoId": "f-MSn1EzFkA",
+      "title": "한화이글스 승리 순간 + 행복 응원 타임 (사랑한다 최강한화 - 나는 행복합니다) 20260529",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-05-29",
+      "descriptionSummary": "2026년 5월 29일 승리 순간에 사랑한다 최강한화를 먼저, 행복송을 33초부터 이어 부른 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUsage", "postWinContext", "comboWithLoveStrong"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-strong-2019-combo",
+      "songId": "hanwha-eagles-saranghanda-choegang-hanhwa",
+      "url": "https://www.youtube.com/watch?v=upXahZ_OQz8",
+      "videoId": "upXahZ_OQz8",
+      "title": "한화 이글스 응원가 - 사랑한다 최강한화 + 행복송 [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-07-14",
+      "descriptionSummary": "사랑한다 최강한화와 행복송을 하나의 현장 운용 순서로 연결한 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "연승·끝내기·플레이오프·한국시리즈 진출 뒤 다시 찾아와 감격을 기록하는 댓글이 반복된다.",
+        "한화 팬이 아닌 사람도 만년 하위 팀을 향한 팬들의 사랑이 뭉클하게 느껴진다고 반응한다."
+      ],
+      "supports": ["versionStructure", "currentUsage", "comboWithHappiness", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-strong-2019-fast",
+      "songId": "hanwha-eagles-saranghanda-choegang-hanhwa",
+      "url": "https://www.youtube.com/watch?v=G1SuyXx8lN4",
+      "videoId": "G1SuyXx8lN4",
+      "title": "[최초공개] '사랑한다 최강한화' 빠른 Ver. (응원가용)",
+      "channel": "은최",
+      "publishedAt": "2019-08-31",
+      "descriptionSummary": "처음부터 응원 템포로 진행하는 빠른 버전을 ‘최초공개’·‘응원가용’으로 표기한 음원 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["versionStructure", "fastVersionEarlyEvidence"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-strong-2023-jamsil",
+      "songId": "hanwha-eagles-saranghanda-choegang-hanhwa",
+      "url": "https://www.youtube.com/watch?v=0AZa5_x0tIQ",
+      "videoId": "0AZa5_x0tIQ",
+      "title": "잠실 한화 사랑한다 최강한화",
+      "channel": "심박한야구",
+      "publishedAt": "2023-05-03",
+      "descriptionSummary": "2023년 5월 3일 잠실 원정 응원석의 사랑한다 최강한화 현장을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글이 두 개뿐이고 곡 정보와 직접 연결되는 반복 반응은 확인되지 않는다."
+      ],
+      "supports": ["recentUsage", "awayUsage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-strong-2025-team",
+      "songId": "hanwha-eagles-saranghanda-choegang-hanhwa",
+      "url": "https://www.youtube.com/watch?v=YZ2lK8-RWvY",
+      "videoId": "YZ2lK8-RWvY",
+      "title": "250410 한화이글스 사랑한다 최강한화 팀응원",
+      "channel": "Gohigheagles",
+      "publishedAt": "2025-04-10",
+      "descriptionSummary": "2025년 4월 10일 경기의 팀 응원을 제목·해시태그와 함께 기록한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["currentUsage", "teamCheerContext"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-strong-2026-homerun",
+      "songId": "hanwha-eagles-saranghanda-choegang-hanhwa",
+      "url": "https://www.youtube.com/watch?v=ZHXm2i2oPzo",
+      "videoId": "ZHXm2i2oPzo",
+      "title": "한화이글스 노시환 홈런 순간 + 팀 응원가 \"사랑한다 최강한화\" 20260626",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-06-26",
+      "descriptionSummary": "노시환 홈런 뒤 30초부터 사랑한다 최강한화, 58초부터 다른 팀 응원가로 이어지는 2026 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "홈런 직후 원정 구장의 큰 앰프 음량과 응원단 운영에 관한 반응이 중심이다.",
+        "댓글 수가 적어 곡 자체에 대한 반복 평가는 도출하지 않았다."
+      ],
+      "supports": ["currentUsage", "homerunContext", "awayUsage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-eagles-2015-earliest",
+      "songId": "hanwha-eagles-saranghanda-eagles",
+      "url": "https://www.youtube.com/watch?v=XJzz9Nu9vjA",
+      "videoId": "XJzz9Nu9vjA",
+      "title": "사랑한다 이글스",
+      "channel": "임플래커블",
+      "publishedAt": "2015-05-06",
+      "descriptionSummary": "곡명만 적은 초창기 한화 응원가 영상으로, 2015년 존재를 직접 확인하는 가장 이른 이번 조사 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "타 팀 팬도 곡을 좋아한다는 반응과 같은 원곡의 연세대 응원가를 떠올리는 반응이 있다.",
+        "댓글 수가 두 개라 반복 경향으로 일반화하지 않았다."
+      ],
+      "supports": ["introductionYear", "earliestDirectEvidence", "crossTeamRecognition"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-eagles-2021-audio",
+      "songId": "hanwha-eagles-saranghanda-eagles",
+      "url": "https://www.youtube.com/watch?v=cD_xthB4umE",
+      "videoId": "cD_xthB4umE",
+      "title": "사랑한다 이글스",
+      "channel": "야쏭",
+      "publishedAt": "2021-10-28",
+      "descriptionSummary": "별도 설명 없이 사랑한다 이글스 음원과 응원 장면을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "플레이오프·한국시리즈 진출과 언젠가 우승 뒤 부를 순간을 연결하는 반응이 반복된다.",
+        "구장에서 들으면 뭉클하고 타 팀 팬도 좋아한다는 평가가 많다."
+      ],
+      "supports": ["continuedUsage", "fanReception", "postseasonIdentity"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-eagles-2025-away",
+      "songId": "hanwha-eagles-saranghanda-eagles",
+      "url": "https://www.youtube.com/watch?v=cnJF0k97Q_g",
+      "videoId": "cnJF0k97Q_g",
+      "title": "한화의 투런후 잠실을 찢는 사랑한다 이글스 미친 떼창 ㄷㄷㄷㄷㄷ",
+      "channel": "감자커피",
+      "publishedAt": "2025-05-28",
+      "descriptionSummary": "한화의 투런 홈런 뒤 잠실 원정석에서 이어진 대규모 떼창을 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한화의 혼·팀 정체성을 담은 노래라 듣기만 해도 울컥하거나 소름이 돋는다는 반응이 반복된다.",
+        "큰 점수 차로 지던 경기의 늦은 홈런에도 승리한 듯 응원했던 기억을 공유하는 팬이 있다."
+      ],
+      "supports": ["currentUsage", "scoringContext", "awayUsage", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-eagles-2025-audio",
+      "songId": "hanwha-eagles-saranghanda-eagles",
+      "url": "https://www.youtube.com/watch?v=hZ66kWereec",
+      "videoId": "hZ66kWereec",
+      "title": "[한화 이글스] 팀 응원가 - 사랑한다 이글스",
+      "channel": "은최",
+      "publishedAt": "2025-04-18",
+      "descriptionSummary": "한화 팀 응원가와 관련 검색어를 해시태그로 정리한 시즌 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "상대 투수가 강판될 때 주로 나와 웅장함이 더 커진다는 현장 관찰이 반복된다.",
+        "한화 응원가 중 가장 좋아하거나 원정 직관 뒤 중독됐다는 반응이 많다."
+      ],
+      "supports": ["currentUsage", "pitchingChangeContext", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-eagles-2025-mv",
+      "songId": "hanwha-eagles-saranghanda-eagles",
+      "url": "https://www.youtube.com/watch?v=un7R90I3WWA",
+      "videoId": "un7R90I3WWA",
+      "title": "사랑한다 이글스｜한화이글스 응원가 MV｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2025-06-23",
+      "descriptionSummary": "한화 경기 장면으로 사랑한다 이글스 뮤직비디오를 편집한 ‘야구장 뽐뿌영상’이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "구장에서 부르면 울컥하거나 노래를 들을 때마다 코끝이 찡하다는 반응이 반복된다.",
+        "2025 시즌과 오랜만의 한국시리즈를 연결해 팀에 감사하고 우승을 기원한다."
+      ],
+      "supports": ["currentUsage", "fanReception", "postseasonIdentity"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-love-eagles-2026-audio",
+      "songId": "hanwha-eagles-saranghanda-eagles",
+      "url": "https://www.youtube.com/watch?v=5g2plIHCKjE",
+      "videoId": "5g2plIHCKjE",
+      "title": "[한화 이글스] 팀 응원가 - 사랑한다 이글스 (2026)",
+      "channel": "은최",
+      "publishedAt": "2026-04-13",
+      "descriptionSummary": "2026 시즌 표기와 한화 응원가 관련 해시태그를 붙인 팀 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "연승과 시즌 반등을 기원하며 큰 소리로 응원하자는 반응이 중심이다.",
+        "공개 댓글 수가 세 개라 반복 경향을 넓게 일반화하지 않았다."
+      ],
+      "supports": ["currentUsage", "fanReception"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 27,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 16
+  }
+}

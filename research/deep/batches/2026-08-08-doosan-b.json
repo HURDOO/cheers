@@ -1,0 +1,1265 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-doosan-b",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-doosan-bears",
+    "name": "두산 베어스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사와 영상 설명·댓글 원문은 저장하지 않는다. 상업곡·고전 선율의 경기장 개사는 원곡 계보, 반복 구조, 사용 맥락과 권리 상태만 요약하고 lyrics.fullTextStored는 false로 둔다. 공개 댓글은 작성자를 식별하지 않는 반복 반응만 익명으로 재서술한다. 나무위키 미러의 연표·사용 관행은 공식 영상, 날짜가 특정된 현장 기록, 원곡 권리자·음악 메타데이터와 교차하며 단독 근거인 경우 reported로 낮춘다.",
+  "items": [
+    {
+      "id": "doosan-bears-doosan-seungnihari",
+      "title": "두산 승리하리라",
+      "aliases": ["두산승리하리라", "김장훈 응원가"],
+      "currentStatus": "current-core-official-directly-verified-2026",
+      "summary": "김장훈이 1996년에 발표한 자작곡 ‘노래만 불렀지’의 넓게 상승하는 후렴 선율을 가져온 2025년 신규 팀 응원가다. 2025년 3월 20일 구단 안무 영상이 ‘New 팀 응원가’로 처음 공개했고, 3월 28일 홈 개막전 현장 영상 두 편이 실제 사용을 확인한다. 같은 해 5월 21일 BEARS TV는 원곡자이자 장기간 두산 팬인 김장훈이 새 버전을 직접 녹음하는 과정을 공개했다. 편집형 문서는 시즌 중반부터 경기장 음원이 김장훈 재녹음판으로 바뀌었다고 적지만 정확한 첫 재생 경기는 찾지 못해, 재녹음의 존재와 경기장 전환 시점을 분리해 판정했다. 2025·2026 공식 플레이리스트에 연속 수록되어 현재성은 확실하다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2025 시즌 신규 팀 응원가; 구단 공식 안무 영상 공개일 2025-03-20",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-doosan-win-choreography-2025", "yt-doosan-b-doosan-win-home-opener-a", "yt-doosan-b-doosan-win-home-opener-b"],
+          "notes": "구단 영상이 신규곡으로 표기하고 개막 직후 두 독립 현장 표본이 곡명과 경기일을 함께 제공한다. 정확한 최초 경기 사용일은 확인하지 못했다."
+        },
+        {
+          "field": "originalSong",
+          "value": "김장훈 — 노래만 불렀지; 김장훈 작사·작곡, 1996년 발표",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "ev-doosan-b-kknowledge-only-sang", "ev-doosan-b-bugs-kim-albums", "yt-doosan-b-doosan-win-original-dreamus"],
+          "notes": "국립국어원 연계 용어정보가 작사·작곡자와 1996년 발표를 확인하고 벅스가 1996년 9월 정규 앨범을 기록한다. 후대 베스트 음원 날짜를 원발표일로 오인하지 않았다."
+        },
+        {
+          "field": "rerecording",
+          "value": "원곡자 김장훈이 2025년 5월 두산판을 재녹음",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-doosan-win-kim-rerecord-official", "yt-doosan-b-doosan-win-kim-concert", "ev-doosan-b-namu-cheers"],
+          "notes": "BEARS TV가 녹음 현장과 연습을 직접 공개한다. 김장훈은 공개 댓글에서 자신을 44년차 두산 팬이라고 밝혔다."
+        },
+        {
+          "field": "stadiumVersionSwitch",
+          "value": "2025 시즌 중반부터 경기장에서 김장훈 재녹음판 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-doosan-win-kim-rerecord-official", "yt-doosan-b-doosan-win-official-2026"],
+          "notes": "재녹음은 1차 자료로 확인되지만 구단이 경기장 음원 교체일을 공지한 자료나 전환 전후 동일 조건 녹음은 찾지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025와 2026 구단 공식 팀 응원가 플레이리스트 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-doosan-win-official-2025", "yt-doosan-b-doosan-win-official-2026"],
+          "notes": "각각 08:12와 08:07에 독립 챕터로 표기된다."
+        }
+      ],
+      "usageContexts": [
+        "느린 도입의 모음 합창에서 팀명·승리 선언으로 올라가며 관중 전체가 함께 부르는 전곡형 팀 응원이다.",
+        "2025년 3월 28일 홈 개막전 승리 뒤 관중석과 귀가 동선에서 이어진 떼창이 초기 현장 정착을 보여 준다.",
+        "구단 안무 영상은 제자리에서 팔을 크게 쓰고 후반에 뛰는 참여 동작을 함께 제시한다.",
+        "김장훈판은 원곡자의 굵은 음색을 전면에 둔 별도 녹음이며 2026 공식 목록에서도 곡 자체가 유지된다."
+      ],
+      "trivia": [
+        {
+          "id": "doosan-win-original-fan-rerecord",
+          "summary": "김장훈은 구단 영상 공개 댓글에서 자신을 44년차 두산 서포터라고 소개했다. 상업 원곡의 가수가 자신의 응원팀용 개사판을 다시 녹음한 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-doosan-win-kim-rerecord-official", "yt-doosan-b-doosan-win-kim-own-channel"]
+        },
+        {
+          "id": "doosan-win-key-reception",
+          "summary": "공식 녹음 영상 댓글에서는 여성 관중에게 도입 음역이 지나치게 낮다는 반응이 반복됐고, 현장 영상에는 웅장하고 뭉클하다는 반응과 템포가 처진다는 상반된 반응이 함께 남았다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-doosan-win-kim-rerecord-official", "yt-doosan-b-doosan-win-home-opener-a"]
+        },
+        {
+          "id": "doosan-win-release-date-confusion",
+          "summary": "유튜브 Topic·후대 베스트 음원에는 2000 또는 2001 날짜가 보이지만, 이는 재수록 날짜다. 공공 용어정보와 벅스 아티스트 디스코그래피는 원곡을 1996년 발표작으로 확인한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-kknowledge-only-sang", "ev-doosan-b-bugs-kim-albums", "yt-doosan-b-doosan-win-original-dreamus"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of a commercial song; original and adapted lyric, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=pXOcMNsQ28w",
+          "https://www.youtube.com/watch?v=24v6P_paiSQ&t=942s",
+          "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "긴 모음 합창 뒤 팀의 승리를 선언하는 짧은 문장을 배치한 블록을 네 차례 반복한다. 후반 두 블록은 참여 구호를 줄여 마지막 모음 합창으로 연결하며, 원곡의 서사형 절 전체는 사용하지 않는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-b-doosan-win-official-2026",
+        "yt-doosan-b-doosan-win-official-2025",
+        "yt-doosan-b-doosan-win-choreography-2025",
+        "yt-doosan-b-doosan-win-kim-rerecord-official",
+        "yt-doosan-b-doosan-win-home-opener-a",
+        "yt-doosan-b-doosan-win-home-opener-b",
+        "yt-doosan-b-doosan-win-kim-concert",
+        "yt-doosan-b-doosan-win-kim-own-channel",
+        "yt-doosan-b-doosan-win-original-dreamus"
+      ],
+      "unresolved": [
+        "두산판 최초 경기 사용일과 작사·편곡·초기 보컬·녹음 크레딧",
+        "초기판에서 김장훈 재녹음판으로 경기장 음원이 실제 전환된 첫 경기",
+        "구단이 원곡 이용·개사·재녹음에 관해 체결한 권리 허락 범위",
+        "김장훈 재녹음판의 정확한 음원 공개·배포 상태와 2026 공식 영상에 사용된 믹스"
+      ]
+    },
+    {
+      "id": "doosan-bears-seoul-doosan-seungnihari",
+      "title": "서울두산 승리하리라",
+      "aliases": ["서울두산", "서울두산 승리하리라 팀응원가"],
+      "currentStatus": "current-core-official-directly-verified-2026",
+      "summary": "현이와 덕이의 1985년 곡 ‘너 나 좋아해 나 너 좋아해’를 바탕으로 2019년에 만든 팀 응원가다. 2019년 3월 22일 응원단장 채널의 공개와 다음 날 BEARS TV 현장 영상, 4월 4일 날짜 특정 경기 영상이 도입 시기를 촘촘히 잇는다. 편집형 문서는 OB·두산 팀 응원가 가운데 처음으로 ‘서울’을 전면에 넣은 곡이라고 설명하며 당시 댓글도 같은 특징을 즉시 인식했다. 녹음 보컬 황석빈은 2025년 라이브 영상에서 낮고 육중한 군가풍 에너지를 내기 어려워 응원단장과 보컬 더블링을 했다고 직접 회고했다. 2025·2026 공식 플레이리스트와 2025 공식 안무 영상에 모두 수록되어 현행곡임이 확인된다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2019 시즌 신규 팀 응원가; 2019-03-22 온라인 공개, 2019-03-23 구단 현장 소개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-seoul-win-preview-2019", "yt-doosan-b-seoul-win-official-field-2019", "yt-doosan-b-seoul-win-field-april-2019"],
+          "notes": "나무위키의 두런두런 생방송 공개 서술과 연속된 당시 영상의 게시일·제목이 일치한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "현이와 덕이 — 너 나 좋아해 나 너 좋아해; 장현 작사, 장덕 작곡, 1985년 발표",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "ev-doosan-b-bugs-you-like-me", "ev-doosan-b-bugs-cover-credits", "yt-doosan-b-seoul-win-original-kbs"],
+          "notes": "벅스 원곡 페이지와 KBS 1987 방송 아카이브가 가수·곡을 확인하고, 벅스의 공식 리메이크 메타데이터가 장현·장덕 크레딧을 보강한다."
+        },
+        {
+          "field": "firstSeoulLyric",
+          "value": "OB·두산 팀 응원가 가운데 ‘서울’을 가사에 넣은 첫 곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-seoul-win-preview-2019", "yt-doosan-b-seoul-win-official-field-2019"],
+          "notes": "편집형 문서와 공개 당시 팬 반응이 일치하지만 구단이 전체 과거 곡을 대상으로 ‘최초’를 공인한 자료는 찾지 못했다."
+        },
+        {
+          "field": "recordingVocal",
+          "value": "황석빈 보컬, 응원단장과 더블링 녹음",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-seoul-win-vocalist-live"],
+          "notes": "가창자가 자신의 채널 설명에서 녹음 참여와 더블링을 직접 밝힌 1인칭 제작 회고다. 응원단장 실명과 전체 스튜디오 크레딧은 공개되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 안무 영상 및 2025·2026 구단 공식 플레이리스트 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-seoul-win-choreography-2025", "yt-doosan-b-seoul-win-official-2025", "yt-doosan-b-seoul-win-official-2026"],
+          "notes": "각 영상이 곡명을 독립 타임라인 항목으로 표기한다."
+        }
+      ],
+      "usageContexts": [
+        "팀명을 세 차례 외친 뒤 승리 선언으로 응답하고, ‘서울’을 넣은 세 문장의 행진형 합창으로 확장한다.",
+        "원곡의 어제·오늘·내일 호응 구조를 가져오되 관중은 어제와 오늘만 복창하고 마지막 단어는 반복하지 않는다고 편집형 문서가 안내한다.",
+        "2019년 공개 직후 홈 경기와 2019년 10월 1일 정규시즌 최종전 현장에 사용됐고, 현재는 구단 공식 안무 목록의 전곡형 팀 응원으로 남아 있다.",
+        "낮은 음역과 군가풍 질감을 살린 녹음이라 관중의 짧은 팀명 구호와 녹음 보컬의 두터운 합창이 교차한다."
+      ],
+      "trivia": [
+        {
+          "id": "seoul-win-name-identity",
+          "summary": "2019년 공개 댓글은 두산 팀 응원가에 ‘서울’이 처음 들어갔다는 점을 곧바로 화제로 삼았다. 잠실을 함께 쓰는 서울 연고 구단이라는 정체성을 제목부터 전면에 둔 곡이다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-seoul-win-preview-2019", "yt-doosan-b-seoul-win-official-field-2019"]
+        },
+        {
+          "id": "seoul-win-vocal-difficulty",
+          "summary": "황석빈은 높은 음보다 낮고 육중한 에너지와 리듬을 유지하는 편이 더 어려웠고, 결국 응원단장과 더블링했다고 회고했다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-seoul-win-vocalist-live"]
+        },
+        {
+          "id": "seoul-win-call-response-caution",
+          "summary": "원곡의 세 시점 나열을 그대로 복창하지 않고 마지막 시점에는 응답을 붙이지 않는 것이 현장 규칙이라는 안내가 있다. 초심자가 공식 영상으로 호흡을 익힐 필요가 있는 대목이다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-seoul-win-choreography-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of a commercial song; original and adapted lyric, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=Ca3VggKtVSs",
+          "https://www.youtube.com/watch?v=3h2VlPY8ULQ",
+          "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "팀명 세 번과 제목 응답으로 시작해 서울 정체성과 승리를 말하는 세 줄 합창으로 이어진다. 원곡의 시점 나열과 질문·응답 리듬을 짧게 인용한 뒤 팀명 반복과 마지막 구호로 끝난다. 원곡 및 응원가 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-b-seoul-win-official-2026",
+        "yt-doosan-b-seoul-win-official-2025",
+        "yt-doosan-b-seoul-win-choreography-2025",
+        "yt-doosan-b-seoul-win-official-field-2019",
+        "yt-doosan-b-seoul-win-preview-2019",
+        "yt-doosan-b-seoul-win-field-april-2019",
+        "yt-doosan-b-seoul-win-field-october-2019",
+        "yt-doosan-b-seoul-win-vocalist-live",
+        "yt-doosan-b-seoul-win-original-kbs"
+      ],
+      "unresolved": [
+        "2019 두런두런 생방송 원본과 정확한 공개 시각·최초 경기 사용일",
+        "두산판 작사·편곡·프로듀싱 및 응원단장 더블링의 공식 전체 크레딧",
+        "OB·두산 역사상 ‘서울’ 가사 최초라는 구단 공식 확인",
+        "원곡 이용·개사에 대한 권리 허락 범위와 현행 공연 계약"
+      ]
+    },
+    {
+      "id": "doosan-bears-seungnireul-wihayeo",
+      "title": "승리를 위하여",
+      "aliases": ["두산 승리를 위하여", "에메랄드 소드 응원가", "승리를 위하여 ver.2"],
+      "currentStatus": "current-core-victory-and-decisive-lead-official-directly-verified-2026",
+      "summary": "한재권 응원단장이 2015년에 발표한 것으로 알려진 두산의 대표 승리 떼창이다. Rhapsody의 1998년 곡 ‘Emerald Sword’ 후렴을 번안했으며, 2015~2016년에는 영화 ‘대부’ OST 성격의 긴 도입과 현재 구간을 합친 ver.1도 함께 존재했다. 경기 공수교대에 길다는 반응으로 앞부분을 제거한 짧은 ver.2가 현행이 됐다. 2015년 6월 구단 현장 영상과 11월 전광판 영상이 첫 시즌을 직접 확인하고, 2015 한국시리즈 5차전 정수빈의 쐐기 홈런 뒤 떼창은 곡과 팀 전성기를 결합한 대표 장면으로 남았다. 승리 직후 또는 뒤집기 어려운 큰 점수 차에서 쓰인다는 설명은 2023년 역전 직후 현장 영상과도 맞으며, 2025·2026 공식 목록이 현재성을 확정한다.",
+      "claims": [
+        {
+          "field": "introductionAndCreator",
+          "value": "한재권 응원단장이 2015년 새로 발표",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-victory", "ev-doosan-b-dugout-favorites", "yt-doosan-b-for-victory-first-field-2015", "yt-doosan-b-for-victory-scoreboard-2015"],
+          "notes": "편집형 전용 문서와 DUGOUT의 2015년 도입 설명이 구단의 2015 현장·전광판 영상과 일치한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Rhapsody — Emerald Sword, 1998",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-rhapsody-emerald-sword", "ev-doosan-b-namu-victory", "yt-doosan-b-for-victory-original-official"],
+          "notes": "밴드 공식 발매 페이지와 레이블 공식 영상이 1998년 앨범·곡을 직접 확인한다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "ver.1은 대부 OST 성격의 도입과 Emerald Sword 응원 구간을 합친 긴 판; 2017 이후 현행 ver.2는 Emerald Sword 중심 짧은 판",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-victory", "ev-doosan-b-namu-cheers", "yt-doosan-b-for-victory-first-field-2015", "yt-doosan-b-for-victory-scoreboard-2015", "yt-doosan-b-for-victory-scoreboard-2017"],
+          "notes": "2015 영상은 2분 20초·2분 39초로 긴 도입을 보존하고 2017 전광판판은 1분 32초다. 제목이 같은 구판을 별도 곡으로 합치지 않고 버전 이력으로 보존한다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "승리 직후 또는 역전이 어렵게 승기를 굳힌 대승 상황",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-victory", "ev-doosan-b-dugout-favorites", "yt-doosan-b-for-victory-ks-game5-2015", "yt-doosan-b-for-victory-comeback-2023"],
+          "notes": "2015 한국시리즈 쐐기포 직후와 2023 LG전 역전 직후라는 날짜·상황 특정 표본이 편집형 설명을 보강한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 안무 영상 및 2025·2026 구단 공식 플레이리스트 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-for-victory-choreography-2025", "yt-doosan-b-for-victory-official-2025", "yt-doosan-b-for-victory-official-2026"],
+          "notes": "2026 공식 영상 댓글에서도 중요한 순간 승기를 잡았을 때 가장 짜릿한 곡이라는 현장 인식이 반복된다."
+        }
+      ],
+      "usageContexts": [
+        "현재판은 팀 박수와 짧은 모음 구호 뒤 네 줄짜리 승리 선언을 세 차례 반복하는 대형 떼창이다.",
+        "승리 확정 뒤의 뒤풀이뿐 아니라 경기 중 역전하거나 큰 리드를 잡은 중요한 후반에 승기를 선언하는 용도로 사용된다.",
+        "한재권 응원단장은 마지막 문장의 특정 음절을 붙여 부르지 말고 길게 끌어야 한다고 반복 안내했으며 공식 안무 영상 댓글에도 같은 교정 요구가 이어진다.",
+        "2015~2021년 7년 연속 한국시리즈 진출기와 강하게 결합돼 타 구단 팬도 두산 대표곡으로 인식한다."
+      ],
+      "trivia": [
+        {
+          "id": "for-victory-2015-dynasty-memory",
+          "summary": "곡이 등장한 2015년 두산이 14년 만에 우승했고 이후 2021년까지 7년 연속 한국시리즈에 진출했다. 댓글은 이 기간의 전성기와 곡을 한 묶음으로 회상한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-victory", "yt-doosan-b-for-victory-scoreboard-2017", "yt-doosan-b-for-victory-ks-game5-2015"]
+        },
+        {
+          "id": "for-victory-ks-game5-anchor",
+          "summary": "2015년 10월 31일 한국시리즈 5차전에서 정수빈의 보험성 3점 홈런 뒤 울린 장면은 팬들이 가장 자주 소환하는 대표 현장 기록이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-victory", "yt-doosan-b-for-victory-ks-game5-2015"]
+        },
+        {
+          "id": "for-victory-cross-team-reception",
+          "summary": "여러 영상의 댓글에서 LG·삼성·KIA·롯데·한화 등 타 구단 팬도 두산의 대표 응원가로 꼽고, 잠실에서 들으면 위압감이나 전율을 느낀다고 반응한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-for-victory-scoreboard-2017", "yt-doosan-b-for-victory-ks-game5-2015", "yt-doosan-b-for-victory-fan-mv-2021"]
+        },
+        {
+          "id": "for-victory-hanyang-adaptation",
+          "summary": "한양대학교는 2016년부터 가사를 바꾼 ‘한양을 위하여’를 사용한다는 편집형 기록이 있으며, 사용자 승인 데이터도 이를 두산곡의 파생곡으로 관리한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-b-namu-victory"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of a commercial metal song; original and adapted lyric, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=0vRJ9pmCAY4",
+          "https://www.rhapsodyoffire.com/emerald-sword/",
+          "https://namu.moe/w/%EC%8A%B9%EB%A6%AC%EB%A5%BC%20%EC%9C%84%ED%95%98%EC%97%AC%28%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4%29"
+        ],
+        "structureSummary": "현행판은 짧은 팀 구호와 모음 합창 뒤 같은 네 줄 승리 선언을 세 번 반복한다. 2015~2016 구판은 앞에 별도의 장중한 도입 블록을 붙였으나 경기 전환 시간에 비해 길어 제거됐다. 사용자 승인 상징 문구는 별도 사이트 데이터에 유지하며 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-b-for-victory-official-2026",
+        "yt-doosan-b-for-victory-official-2025",
+        "yt-doosan-b-for-victory-choreography-2025",
+        "yt-doosan-b-for-victory-first-field-2015",
+        "yt-doosan-b-for-victory-scoreboard-2015",
+        "yt-doosan-b-for-victory-ks-game5-2015",
+        "yt-doosan-b-for-victory-scoreboard-2017",
+        "yt-doosan-b-for-victory-comeback-2023",
+        "yt-doosan-b-for-victory-fan-mv-2021",
+        "yt-doosan-b-for-victory-original-official"
+      ],
+      "unresolved": [
+        "두산판의 정식 작사·편곡·보컬·녹음 크레딧과 원곡 이용 허락 범위",
+        "ver.1 도입부가 사용한 ‘대부’ OST의 정확한 트랙·편곡 계보와 2016년 마지막 사용 경기",
+        "ver.2의 최초 공개일·첫 경기 사용일 및 구단이 붙인 공식 버전 명칭",
+        "승리 직후·대승 중이라는 운영 기준의 점수 차·이닝별 구단 매뉴얼"
+      ]
+    },
+    {
+      "id": "doosan-bears-victory-of-doosan",
+      "title": "승리의 두산",
+      "aliases": ["두산 그대의 이름은 승리", "승리의 두산 정동하 버전", "승리의 두산 박상민 버전"],
+      "currentStatus": "current-traditional-first-inning-cheerleader-introduction-official-directly-verified-2026",
+      "summary": "1999년 OB 베어스가 두산 베어스로 이름을 바꾼 뒤 만든 상징곡이다. 초판은 박상민이 불렀고, 구단은 2013 시즌 전에 정동하를 섭외해 다시 녹음한 것으로 편집형 문서와 두 음원 아카이브가 전한다. 두 판의 가장 눈에 띄는 차이는 첫 소절 뒤 코러스의 유무로, 정동하판에서 빠졌지만 팬들이 현장 추임새로 계속 잇는다. 2014 전광판 영상 설명은 1회 초 종료 뒤 재생을 직접 기록하고, DUGOUT은 현재 홈 경기에서 1회 말 종료 뒤 치어리더 자기소개와 첫 공연에 쓰인다고 설명한다. 나무위키는 2024년 라인업송 순서 개편과 함께 이 이동을 설명한다. 2025 안무 영상 첫 곡 및 2025·2026 공식 목록 수록으로 현재성은 확정된다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "OB에서 두산으로 개칭한 1999년에 제작",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-victory-doosan-old-archive-2012", "yt-doosan-b-victory-doosan-scoreboard-2014"],
+          "notes": "연도는 편집형 문서에 의존하지만 2012 이전판 아카이브와 2014 구단 출처 전광판 영상이 장기 사용을 교차한다. 1999 첫 공개 원본은 찾지 못했다."
+        },
+        {
+          "field": "vocalVersionHistory",
+          "value": "1999 초판 박상민 가창; 2013 시즌 전 정동하 재녹음",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-victory-doosan-old-archive-2012", "yt-doosan-b-victory-doosan-jeong-dongha", "yt-doosan-b-victory-doosan-audio-2016"],
+          "notes": "구·신 음색의 별도 음원은 존재하고 제목·댓글도 가수를 식별하지만 구단의 1999·2013 제작 공지나 음반 크레딧은 찾지 못했다."
+        },
+        {
+          "field": "versionDifference",
+          "value": "박상민판 첫 소절 뒤 코러스는 정동하판에서 빠졌으나 팬 추임새로 존속",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-victory-doosan-old-archive-2012", "yt-doosan-b-victory-doosan-audio-2016", "yt-doosan-b-victory-doosan-scoreboard-2014"],
+          "notes": "두 음원의 구조 차이와 2014·2016 영상 댓글에서 팬 구호가 계속 언급되는 점이 일치한다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "전통적으로 첫 두산 공격 종료 뒤; 2024년부터 홈에서는 1회말 종료 뒤 치어리더 소개와 결합",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "ev-doosan-b-dugout-favorites", "yt-doosan-b-victory-doosan-scoreboard-2014", "yt-doosan-b-victory-doosan-choreography-2025"],
+          "notes": "2014 영상은 1회초 종료 뒤라고 직접 적고, 2022 DUGOUT 및 2026 편집형 문서는 현재 홈 경기의 1회말 종료·치어리더 소개를 설명한다. 시점 이동을 상충이 아니라 운영 변경으로 보존한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 안무 영상 첫 곡 및 2025·2026 구단 공식 플레이리스트 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-victory-doosan-choreography-2025", "yt-doosan-b-victory-doosan-official-2025", "yt-doosan-b-victory-doosan-official-2026"],
+          "notes": "과거판 아카이브와 현행 공식판을 분리해 판단했다."
+        }
+      ],
+      "usageContexts": [
+        "두산의 첫 공격이 끝난 직후 경기 초반의 상징 의식처럼 사용되는 전곡형 응원이다.",
+        "홈 경기에서는 첫 절 동안 응원단이 치어리더를 차례로 소개하고, 소개가 끝난 간주 이후 정식 안무로 전환한다고 기록된다.",
+        "중간에는 두산의 전통적인 2-3-4 박수와 팀명 구호가 네 차례 이어져 관중 참여를 쉽게 만든다.",
+        "경기 시작 전에는 다른 팀 응원가와 함께 무작위 배경 음악으로 재생되기도 한다."
+      ],
+      "trivia": [
+        {
+          "id": "victory-doosan-fan-restored-chorus",
+          "summary": "정동하 재녹음에서 빠진 초판 코러스를 팬들이 현장 추임새로 되살려, 음원에는 없지만 관중 공연에는 남는 이중 구조가 됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-victory-doosan-old-archive-2012", "yt-doosan-b-victory-doosan-audio-2016"]
+        },
+        {
+          "id": "victory-doosan-ritual-timing-change",
+          "summary": "라인업송이 늦게 끝나 실제 타석과 겹친다는 불만을 반영해 2024년부터 라인업송을 앞당기고, 승리의 두산과 치어리더 소개를 1회말 종료 뒤로 옮겼다는 운영 이력이 있다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "ev-doosan-b-dugout-favorites"]
+        },
+        {
+          "id": "victory-doosan-long-lived-dance",
+          "summary": "2018년 방송사 안무 영상 댓글에는 수십 년 된 동작이 촌스럽지 않다는 반응과 거울 모드를 요청하는 학습 반응이 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-victory-doosan-mbc-choreography"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted club-commissioned song; lyric, composition, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=I3yUOwoo0v4",
+          "https://www.youtube.com/watch?v=s1k0MPHdJWo",
+          "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "두산의 이름과 승리를 연결하는 다섯 줄 절, 네 차례의 팀 박수, 같은 절의 반복과 마지막 종지로 구성된다. 초판은 첫 줄 뒤 짧은 코러스가 녹음돼 있고 현행 재녹음에는 없지만 관중이 덧붙인다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-b-victory-doosan-official-2026",
+        "yt-doosan-b-victory-doosan-official-2025",
+        "yt-doosan-b-victory-doosan-choreography-2025",
+        "yt-doosan-b-victory-doosan-scoreboard-2014",
+        "yt-doosan-b-victory-doosan-audio-2016",
+        "yt-doosan-b-victory-doosan-mbc-choreography",
+        "yt-doosan-b-victory-doosan-old-archive-2012",
+        "yt-doosan-b-victory-doosan-jeong-dongha"
+      ],
+      "unresolved": [
+        "1999 초판의 공식 공개일과 작사·작곡·편곡·녹음 크레딧",
+        "정동하 재녹음의 정확한 녹음·공개일과 구단 공식 제작 자료",
+        "박상민판 코러스 삭제의 제작상 이유와 현행 음원의 공식 버전명",
+        "2024 운영 순서 변경의 구단 공지 및 홈·원정별 현재 세부 타이밍"
+      ]
+    },
+    {
+      "id": "doosan-bears-victory-ode",
+      "title": "승리의 송가",
+      "aliases": ["두산 승리의 송가", "패배 시 나오는 응원가"],
+      "currentStatus": "current-pre-game-and-reported-post-loss-officially-listed-2026",
+      "summary": "베토벤 교향곡 9번 마지막 악장의 ‘환희의 송가’ 선율 계보 위에 두산의 단결과 승리를 말하는 긴 가사를 얹은 1999년 응원가다. 유럽연합 공식 설명과 런던 심포니 오케스트라 공연이 선율의 작곡자·작품을 확인한다. 편집형 문서는 OB 시절에는 경기 음악으로 선율만 쓰다가 1999년 팀명 변경 뒤 가사를 붙였다고 설명하지만 당시 구단 원본은 찾지 못했다. 경기 전 잠실에서 자주 재생되고, 패배 뒤에도 선수들을 격려하며 틀어 준다는 관행은 나무위키와 2016 음원 아카이브 설명이 일치한다. 다만 날짜가 특정된 패전 종료 현장 영상은 확보하지 못했으므로 ‘승리의 송가’라는 제목과 실제 패배 후 용도의 역설은 보고 주장으로 둔다. 2025·2026 공식 플레이리스트 수록은 곡 자체의 현행성을 확정한다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "1999년부터 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-victory-ode-old-2009", "yt-doosan-b-victory-ode-audio-2016"],
+          "notes": "편집형 문서가 연도를 제공하고 2009판·2016판 음원이 장기 사용을 보강하지만 1999 1차 자료는 확인하지 못했다."
+        },
+        {
+          "field": "melodyLineage",
+          "value": "Ludwig van Beethoven 교향곡 9번 마지막 악장의 Ode to Joy 선율",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-b-eu-ode-to-joy", "yt-doosan-b-victory-ode-original-lso", "yt-doosan-b-victory-ode-audio-2016"],
+          "notes": "EU 공식 페이지가 베토벤 9번과 실러의 시를 확인한다. 두산판이 교향곡, 찬송가판, OB 경기장 편곡 중 어느 악보를 직접 매개로 삼았는지는 별도 미확정이다."
+        },
+        {
+          "field": "obInstrumentalHistory",
+          "value": "OB 시절에는 같은 선율을 경기 음악으로만 쓰다가 두산 전환 뒤 가사를 추가",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-victory-ode-old-2009"],
+          "notes": "나무위키 단독 연혁으로, OB 시대 방송·전광판 원본이나 구단 회고를 찾지 못했다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "경기 전 잠실 배경 음악과 패배 뒤 선수단 격려용 종료 음악",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-victory-ode-audio-2016", "yt-doosan-b-victory-ode-old-2009"],
+          "notes": "2016 아카이브 설명은 패배와 동시에 울리는 응원가라고 직접 적고 2009판 댓글은 경기 종료 후 들었다고 회상한다. 날짜 특정 패전 영상이 없어 실제 운영 빈도는 확정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 구단 공식 팀 응원가 플레이리스트 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-victory-ode-official-2025", "yt-doosan-b-victory-ode-official-2026"],
+          "notes": "각각 14:31과 14:17 챕터에 수록된다. 공식 목록은 곡의 현행성만 입증하며 패배 후 사용 빈도까지 입증하지는 않는다."
+        }
+      ],
+      "usageContexts": [
+        "경기 시작 전 잠실 내부를 돌아다닐 때 들을 수 있는 장내 배경 성격의 팀 응원가로 기록된다.",
+        "승리 뒤 전용곡 대신 패배 뒤 선수단을 격려하는 종료 음악으로 재생된다는 관행이 알려져 있다.",
+        "네 차례 팀명 구호 뒤 단결을 말하는 첫 절, 짧은 구호 두 차례 뒤 전진을 말하는 둘째 절로 이어지는 교가·찬송가풍 전곡 구조다.",
+        "현장 참여보다는 녹음 음원과 장내 방송의 비중이 큰 곡이며, 2026 공식 목록에 여전히 별도 트랙으로 남아 있다."
+      ],
+      "trivia": [
+        {
+          "id": "victory-ode-title-irony",
+          "summary": "‘승리의 송가’라는 이름과 달리 팬에게는 패배 뒤 듣는 곡으로 각인돼 ‘야구장에서 별로 듣고 싶지 않다’는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-victory-ode-audio-2016", "yt-doosan-b-victory-ode-old-2009"]
+        },
+        {
+          "id": "victory-ode-shared-melody",
+          "summary": "편집형 문서와 팬 댓글은 삼성 팀 응원가 및 제이미 로맥 응원가도 같은 선율을 썼다고 비교한다. 두산판의 직접 원곡은 특정 상업 녹음이 아니라 널리 편곡된 베토벤 선율 계보로 관리하는 편이 안전하다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-b-namu-cheers", "yt-doosan-b-victory-ode-audio-2016", "ev-doosan-b-eu-ode-to-joy"]
+        },
+        {
+          "id": "victory-ode-old-version-memory",
+          "summary": "2009판 아카이브 댓글에서는 옛 전광판과 경기 종료 후 장내 방송을 떠올리는 반응, 최근 판보다 구판을 선호하는 반응이 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-b-victory-ode-old-2009", "yt-doosan-b-victory-ode-audio-2016"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "Beethoven melody is public-domain in origin, but the Korean stadium lyric, arrangement and recordings are copyrighted or of unverified rights; redistribution not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=AUOEXZsQWkE",
+          "https://european-union.europa.eu/principles-countries-history/symbols/european-anthem_en",
+          "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "네 번의 팀명 구호 뒤 단결과 승리까지의 연대를 말하는 긴 첫 절이 나오고, 두 번의 짧은 구호 뒤 선수단의 전진과 잠실을 말하는 둘째 절이 이어진다. 선율은 환희의 송가 계열이지만 한국어 개사 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-b-victory-ode-official-2026",
+        "yt-doosan-b-victory-ode-official-2025",
+        "yt-doosan-b-victory-ode-audio-2016",
+        "yt-doosan-b-victory-ode-old-2009",
+        "yt-doosan-b-victory-ode-archive-2016",
+        "yt-doosan-b-victory-ode-fan-audio-2020",
+        "yt-doosan-b-victory-ode-original-lso"
+      ],
+      "unresolved": [
+        "1999 최초 사용 경기와 두산판 작사·편곡·보컬·녹음 크레딧",
+        "OB 시대 무가사 경기 음악 사용을 입증할 방송·구단 원본과 당시 편곡",
+        "베토벤 원곡·한국 찬송가·OB 경기장판 가운데 두산 개사의 직접 매개 악보",
+        "2025~2026 실제 패배 경기 종료 후 사용 빈도와 날짜 특정 현장 표본"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-doosan-b-namu-cheers",
+      "type": "community-reference",
+      "url": "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "두산 베어스/응원가",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "현행 공식 응원가 목차와 다섯 곡의 사용 연도, 원곡·버전·가창자·상황 설명을 대조했다. 승리의 두산의 1999 박상민판·2013 정동하판 및 2024 운영 순서 변경, 승리의 송가의 OB 무가사 선율·패배 후 사용, 서울두산 승리하리라의 2019 공개·서울 최초 주장, 두산 승리하리라의 2025 도입·김장훈 재녹음 주장을 제공한다. 전체 가사는 옮기지 않았고, 공식·현장·원곡 자료가 없는 세부 연혁은 reported 또는 low로 낮췄다.",
+      "supports": ["doosanWin.historyAndOriginal", "seoulWin.historyOriginalAndVocalResponse", "victoryDoosan.historyVersionsAndUse", "victoryOde.historyMelodyAndUse", "all.currentCatalog"]
+    },
+    {
+      "id": "ev-doosan-b-namu-victory",
+      "type": "community-reference",
+      "url": "https://namu.moe/w/%EC%8A%B9%EB%A6%AC%EB%A5%BC%20%EC%9C%84%ED%95%98%EC%97%AC%28%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4%29",
+      "title": "승리를 위하여(두산 베어스)",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "한재권 응원단장의 2015년 발표, Emerald Sword 번안, 대부 OST 성격의 앞부분이 있던 ver.1과 현행 짧은 ver.2, 승리 직후·대승 중 사용, 2015~2021 전성기 기억, 2015 한국시리즈 5차전과 2019 정규시즌 우승 장면, 한양대학교 파생곡을 확인했다. 김천 상무의 무단 사용 주장은 공식 사과 원문을 찾지 못해 채택하지 않았다.",
+      "supports": ["forVictory.introduction", "forVictory.original", "forVictory.versionHistory", "forVictory.usage", "forVictory.trivia"]
+    },
+    {
+      "id": "ev-doosan-b-dugout-favorites",
+      "type": "media",
+      "url": "https://v.daum.net/v/ba7qVBzc11?f=p",
+      "title": "[DUGOUT Live] 팬이 뽑은 최애 응원가 10탄 – 두산 베어스 편",
+      "publisher": "대단한미디어 DUGOUT",
+      "publishedAt": "2022-11-09",
+      "accessedAt": "2026-08-09",
+      "summary": "팬 투표에서 승리를 위하여가 79%로 1위였고 2015년 도입·Emerald Sword 번안·극적 순간 사용을 설명한다. 승리의 두산은 잠실 홈 경기 1회 말 종료 뒤 치어리더 자기소개와 첫 공연에 한 번 사용되는 곡이라고 현장 맥락을 구체적으로 기록한다.",
+      "supports": ["forVictory.introductionOriginalPopularity", "victoryDoosan.firstInningCheerleaderUse"]
+    },
+    {
+      "id": "ev-doosan-b-rhapsody-emerald-sword",
+      "type": "artist-primary",
+      "url": "https://www.rhapsodyoffire.com/emerald-sword/",
+      "title": "Emerald Sword",
+      "publisher": "Rhapsody of Fire",
+      "publishedAt": "1998",
+      "accessedAt": "2026-08-09",
+      "summary": "밴드 공식 발매 페이지가 ‘Emerald Sword’를 1998년 작품으로 식별한다. 두산 승리를 위하여의 원곡 연도와 공식 표기를 확인하는 데 사용했다.",
+      "supports": ["forVictory.originalTitle", "forVictory.originalYear"]
+    },
+    {
+      "id": "ev-doosan-b-kknowledge-only-sang",
+      "type": "government-knowledge-primary",
+      "url": "https://k-knowledge.kr/srch/read.jsp?id=268072528",
+      "title": "노래만 불렀지",
+      "publisher": "디지털집현전·국립국어원 우리말샘",
+      "publishedAt": "2024-09-30",
+      "accessedAt": "2026-08-09",
+      "summary": "국립국어원 연계 용어정보가 ‘노래만 불렀지’를 김장훈 작사·작곡, 1996년 발표 대중가요로 정의한다. 두산 승리하리라 원곡의 작가와 원발표 연도를 확정한다.",
+      "supports": ["doosanWin.originalWriter", "doosanWin.originalReleaseYear"]
+    },
+    {
+      "id": "ev-doosan-b-bugs-kim-albums",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/artist/6234/albums",
+      "title": "김장훈 앨범",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "김장훈 디스코그래피가 정규 앨범 ‘노래만 불렀지’를 1996년 9월 발매로 기록한다. 2000년 베스트와 2001년 베스트 재수록 날짜를 원발표일과 구분하는 근거다.",
+      "supports": ["doosanWin.originalAlbum", "doosanWin.releaseDateDisambiguation"]
+    },
+    {
+      "id": "ev-doosan-b-bugs-you-like-me",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/track/80031347",
+      "title": "너나 좋아해 나너 좋아해/현이와 덕이",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "원곡을 현이와 덕이·장덕 보컬, ‘현이와 덕이 힛트곡 모음집’ 수록, 2분 37초 곡으로 식별한다. 가사 전문은 연구 파일에 옮기지 않았다.",
+      "supports": ["seoulWin.originalTitleArtist", "seoulWin.originalRecording"]
+    },
+    {
+      "id": "ev-doosan-b-bugs-cover-credits",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/track/30810864",
+      "title": "너 나 좋아해, 나 너 좋아해/박준희",
+      "publisher": "벅스",
+      "publishedAt": "2017-10-17",
+      "accessedAt": "2026-08-09",
+      "summary": "현이와 덕이 오마주 리메이크의 참여 정보가 원작자를 장현 작사·장덕 작곡으로 표기한다. 원곡 페이지에 빠진 작가 크레딧을 보조한다.",
+      "supports": ["seoulWin.originalLyricist", "seoulWin.originalComposer"]
+    },
+    {
+      "id": "ev-doosan-b-eu-ode-to-joy",
+      "type": "government-primary",
+      "url": "https://european-union.europa.eu/principles-countries-history/symbols/european-anthem_en",
+      "title": "European anthem",
+      "publisher": "European Union",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "EU 공식 페이지가 유럽가의 선율을 베토벤이 1823년에 작곡한 교향곡 9번에서 가져왔고, 실러의 1785년 ‘Ode to Joy’ 시에 붙인 음악이라고 설명한다. 승리의 송가 선율 계보를 특정한다.",
+      "supports": ["victoryOde.beethovenNinth", "victoryOde.odeToJoyLineage"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-doosan-b-doosan-win-official-2026",
+      "songId": "doosan-bears-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27T02:01:17-07:00",
+      "descriptionSummary": "구단의 2026 공식 팀·선수 응원가 목록이 두산 승리하리라를 08:07 독립 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 08:07을 따로 공유하며 새 시즌 야구장에서 다시 부르고 싶다고 반응한다.", "전체 목록을 직관 전 학습 자료로 쓰며 2026년 왕조 부활을 기대하는 반응이 중심이다."],
+      "supports": ["doosanWin.currentOfficial2026", "doosanWin.officialTimestamp"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-doosan-win-official-2025",
+      "songId": "doosan-bears-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-21T17:00:19-07:00",
+      "descriptionSummary": "구단의 2025 공식 플레이리스트가 신규곡 두산 승리하리라를 08:12에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 구단이 팀 응원가 음원을 한데 모은 점을 높이 평가하고 직관 전 복습에 활용한다.", "시즌 성적과 별개로 새 곡과 부활곡을 포함한 운영 변화에 기대를 나타낸다."],
+      "supports": ["doosanWin.currentOfficial2025", "doosanWin.catalogDebut"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-doosan-win-choreography-2025",
+      "songId": "doosan-bears-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=24v6P_paiSQ",
+      "videoId": "24v6P_paiSQ",
+      "title": "※직관 전 시청 필수※ 2025시즌 응원가 안무 완전 정복! (새 응원가 최초 공개)",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-20T20:00:03-07:00",
+      "descriptionSummary": "구단이 15:42에 ‘New 팀 응원가 두산 승리하리라’를 최초 공개하고 전체 안무를 시연한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 새 곡과 기존 인기곡 재활용을 반기고 경기장 전광판에도 가사 자막을 요청한다.", "곡별 정확한 호흡과 구호를 공식 안무 영상으로 익히려는 반응이 많다."],
+      "supports": ["doosanWin.officialIntroduction2025", "doosanWin.choreography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-doosan-win-kim-rerecord-official",
+      "songId": "doosan-bears-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=pXOcMNsQ28w",
+      "videoId": "pXOcMNsQ28w",
+      "title": "두산 승리하리라✨ 원곡자 버전 대공개 | 김장훈 녹음 비하인드",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-05-21T20:00:54-07:00",
+      "descriptionSummary": "구단이 렛두로 시리즈를 앞두고 원곡자 김장훈의 두산판 녹음 현장과 연습 과정을 11분 19초 영상으로 공개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["김장훈은 공개 댓글에서 자신을 44년차 두산 서포터라고 밝히고 어려운 시기에도 끝까지 응원하자고 적었다.", "팬들은 여성 관중에게 도입 음역이 너무 낮다며 조정을 제안하는 한편, 구단 제작진과 가수의 노력에 감사를 표한다."],
+      "supports": ["doosanWin.kimRerecording", "doosanWin.kimFandom", "doosanWin.keyReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-doosan-win-home-opener-a",
+      "songId": "doosan-bears-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=QSb1ED5YOY0",
+      "videoId": "QSb1ED5YOY0",
+      "title": "2025 두산베어스 홈 개막전 승리!!🎉 그리고 울려퍼지는 ✨신규 응원가 \"두산 승리하리라\"✨ 떼창 응원 현장!! (2025.03.28 vs 삼성) #두산 #승리 #두산승리하리라",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2025-03-28T05:11:55-07:00",
+      "descriptionSummary": "2025년 3월 28일 삼성과의 홈 개막전 승리 뒤 신규 응원가를 부른 106초 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 현장 합창이 벅차고 뭉클하며 곡을 잘 만들었다고 평가한다.", "일부는 경기장 이동 중 함께 부른 경험을 좋아했고, 다른 일부는 템포가 느려 쉬는 시간 곡처럼 들린다고 비판한다."],
+      "supports": ["doosanWin.homeOpenerUse", "doosanWin.earlyReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-doosan-win-home-opener-b",
+      "songId": "doosan-bears-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=DcJN4lfPZF8",
+      "videoId": "DcJN4lfPZF8",
+      "title": "[2025.03.28] 2025 KBO리그 두산베어스 vs 삼성라이온즈 / 두산베어스 신규응원가 두산승리하리라 직캠",
+      "channel": "직관의맛",
+      "publishedAt": "2025-03-28T04:31:50-07:00",
+      "descriptionSummary": "같은 2025년 3월 28일 두산-삼성전에서 신규 팀 응원가를 촬영했다고 설명하는 독립 현장 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["doosanWin.fieldUseMarch28", "doosanWin.independentCorroboration"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-doosan-win-kim-concert",
+      "songId": "doosan-bears-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=8WRbil9s5e0",
+      "videoId": "8WRbil9s5e0",
+      "title": "김장훈밴드 LIVE ㅣ두산승리하리라 ㅣ 두산베어스 팬분들을 위한 김장훈 콘서트 in 잠실야구장 1루 단상 250524",
+      "channel": "GRIJUA  그리주아TV",
+      "publishedAt": "2025-06-15T02:16:17-07:00",
+      "descriptionSummary": "2025년 5월 24일 잠실 1루 단상 김장훈밴드 공연을 기록하고 원곡을 ‘노래만 불렀지’로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["짧은 댓글은 김장훈의 음악 활동과 기부 활동을 함께 높이 평가한다."],
+      "supports": ["doosanWin.originalIdentification", "doosanWin.kimLivePerformance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-doosan-win-kim-own-channel",
+      "songId": "doosan-bears-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=Onko5IdXOfY",
+      "videoId": "Onko5IdXOfY",
+      "title": "두산베어스 렛두로 데이!야구장 콘서트!! 감동때문에 도저히 잠을 이룰 수가 없습니다😁",
+      "channel": "김장훈 TV",
+      "publishedAt": "2025-05-24T10:00:07-07:00",
+      "descriptionSummary": "김장훈이 두산 패배 뒤에도 남은 관중과 함께한 렛두로 콘서트의 감동과 ‘그럼에도 불구하고’ 응원하는 의미를 직접 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 경기 결과와 무관하게 공연과 합창이 분위기를 살렸고 두산 팬이라는 자부심을 느꼈다고 회상한다.", "두산 승리하리라를 원곡자와 함께 부른 순간이 뭉클했다는 반응이 반복된다."],
+      "supports": ["doosanWin.kimFandom", "doosanWin.postGameConcertReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-doosan-win-original-dreamus",
+      "songId": "doosan-bears-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=UJywKvQU548",
+      "videoId": "UJywKvQU548",
+      "title": "[Lyric Video] 김장훈 (Kim Jang Hoon) - 노래만 불렀지",
+      "channel": "Dreamus Music",
+      "publishedAt": "2023-02-28T12:59:38-08:00",
+      "descriptionSummary": "드림어스가 김장훈 원곡의 4분 32초 리릭 비디오와 2001년 베스트 음원 재수록 정보를 제공한다. 설명에 있는 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 김장훈 특유의 음색과 감정 때문에 따라 부르기 어렵지만 오래 듣는 명곡이라고 평가한다.", "두산 팬은 응원가가 시작되는 선율 구간을 타임스탬프로 공유하고 제목을 직접 연결한다."],
+      "supports": ["doosanWin.originalSong", "doosanWin.reverseDiscovery", "doosanWin.releaseDateCaveat"],
+      "accessedAt": "2026-08-09"
+    },
+
+    {
+      "id": "yt-doosan-b-seoul-win-official-2026",
+      "songId": "doosan-bears-seoul-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27T02:01:17-07:00",
+      "descriptionSummary": "구단의 2026 공식 목록이 서울두산 승리하리라를 09:39 독립 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 새 시즌 전 공식 플레이리스트로 기존 팀 응원가를 복습하고 잠실 마지막 시즌의 좋은 성적을 기원한다."],
+      "supports": ["seoulWin.currentOfficial2026"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-seoul-win-official-2025",
+      "songId": "doosan-bears-seoul-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-21T17:00:19-07:00",
+      "descriptionSummary": "구단의 2025 공식 팀 응원가 목록이 서울두산 승리하리라를 09:53에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 이전에 비공식 업로드로만 듣던 팀 음원을 구단이 정리해 준 점을 반기고 직관 전 학습 자료로 사용한다."],
+      "supports": ["seoulWin.currentOfficial2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-seoul-win-choreography-2025",
+      "songId": "doosan-bears-seoul-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=24v6P_paiSQ",
+      "videoId": "24v6P_paiSQ",
+      "title": "※직관 전 시청 필수※ 2025시즌 응원가 안무 완전 정복! (새 응원가 최초 공개)",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-20T20:00:03-07:00",
+      "descriptionSummary": "구단 공식 안무 영상이 서울두산 승리하리라를 06:04부터 전곡 시연한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 현장 전광판 가사 자막을 요청하고 공식 영상으로 구호와 안무를 정확히 익히려 한다."],
+      "supports": ["seoulWin.currentChoreography2025", "seoulWin.callResponsePractice"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-seoul-win-official-field-2019",
+      "songId": "doosan-bears-seoul-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=Ca3VggKtVSs",
+      "videoId": "Ca3VggKtVSs",
+      "title": "[2019 잠실직캠] 권혁 선수도 놀랐다!  페르난데스의 적시 응원가! & NEW 팀 응원가! (03.23)",
+      "channel": "BEARS TV",
+      "publishedAt": "2019-03-23T09:01:19-07:00",
+      "descriptionSummary": "구단이 2019년 3월 23일 잠실에서 신규 팀 응원가를 관중과 부르는 장면을 공식 현장 영상으로 공개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 ‘서울’이 들어간 웅장한 팀 응원가를 원했다며 신곡을 반기고, 상층에서도 보이도록 가사 판넬 글자를 키워 달라고 요청한다.", "큰 관중 함성이 선수에게도 힘이 될 것이라는 반응이 이어진다."],
+      "supports": ["seoulWin.officialFieldIntroduction2019", "seoulWin.initialReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-seoul-win-preview-2019",
+      "songId": "doosan-bears-seoul-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=cXaF4ldvFZk",
+      "videoId": "cXaF4ldvFZk",
+      "title": "2019 두산베어스 응원가 신규 선수송 팀가 발표",
+      "channel": "한재곰TV",
+      "publishedAt": "2019-03-22T03:58:27-07:00",
+      "descriptionSummary": "2019년 3월 22일 신규 선수곡 두 곡과 팀곡을 함께 발표한 184초 기록으로 서울두산 승리하리라의 온라인 공개 상한을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["당시 팬은 구단 최초로 ‘서울’이 들어간 팀 응원가라는 점과 웅장한 분위기를 특히 반겼다.", "한 시청자는 원곡을 현이와 덕이의 곡으로 즉시 식별했고 다음 날 직관 전에 외우겠다는 반응도 여럿 남았다."],
+      "supports": ["seoulWin.previewMarch22", "seoulWin.firstSeoulReception", "seoulWin.originalIdentification"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-seoul-win-field-april-2019",
+      "songId": "doosan-bears-seoul-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=rCejyncEexI",
+      "videoId": "rCejyncEexI",
+      "title": "2019시즌 새로운 팀응원가 서울두산 승리하리라",
+      "channel": "잭참새",
+      "publishedAt": "2019-04-04T08:25:21-07:00",
+      "descriptionSummary": "2019년 4월 4일 서울 잠실야구장에서 새 팀 응원가를 촬영했다고 날짜·장소를 직접 적은 32초 현장 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 방송 제작진의 자료 사용 허가 문의 한 건으로, 곡의 내용이나 사용 맥락에 대한 팬 반응은 없다."],
+      "supports": ["seoulWin.earlyFieldUseApril2019"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-seoul-win-field-october-2019",
+      "songId": "doosan-bears-seoul-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=oTPJjtJoiOI",
+      "videoId": "oTPJjtJoiOI",
+      "title": "두산베어스 팀응원가 서울두산 승리하리라",
+      "channel": "잭참새",
+      "publishedAt": "2020-08-04T08:00:10-07:00",
+      "descriptionSummary": "설명은 2019년 10월 1일 서울 잠실야구장에서 촬영한 서울두산 승리하리라 현장임을 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": ["짧은 댓글은 현장 합창에서 소름을 느꼈다고 반응한다."],
+      "supports": ["seoulWin.fieldUseOctober2019", "seoulWin.emotionalReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-seoul-win-vocalist-live",
+      "songId": "doosan-bears-seoul-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=7ioa1aRn1ZU",
+      "videoId": "7ioa1aRn1ZU",
+      "title": "두산베어스 승리하리라 🎤 ” LIVE ｜“ 두산의 심장을 울리는 노래 서울두산 승리하리라",
+      "channel": "무적로커 황석빈",
+      "publishedAt": "2025-06-23T20:53:29-07:00",
+      "descriptionSummary": "가창자 황석빈이 King's Studio 라이브와 함께 자신이 원녹음 보컬이며, 낮고 육중한 에너지 때문에 응원단장과 더블링했다고 회고한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 강한 목소리를 높이 평가하고 자막 기능을 안내한다."],
+      "supports": ["seoulWin.vocalist", "seoulWin.doubleTracking", "seoulWin.recordingDifficulty"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-seoul-win-original-kbs",
+      "songId": "doosan-bears-seoul-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=3h2VlPY8ULQ",
+      "videoId": "3h2VlPY8ULQ",
+      "title": "장덕(Jang Deok) - 너 나 좋아해 나 너 좋아해 [쇼특급] | KBS 19871024 방송",
+      "channel": "Again 가요톱10 : KBS KPOP Classic",
+      "publishedAt": "2022-06-12T19:04:03-07:00",
+      "descriptionSummary": "KBS가 1987년 10월 24일 ‘쇼특급’의 장덕 무대를 공식 아카이브로 공개한다. 설명의 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 장덕을 작곡·연주·가창을 아우른 싱어송라이터로 기억하고 곡과 무대를 세대별 추억으로 회상한다.", "함께 연주한 출연자들을 언급하는 반응이 있으나 공식 연주 크레딧이 아니므로 연구 주장에는 쓰지 않았다."],
+      "supports": ["seoulWin.originalArtist", "seoulWin.originalBroadcastArchive"],
+      "accessedAt": "2026-08-09"
+    },
+
+    {
+      "id": "yt-doosan-b-for-victory-official-2026",
+      "songId": "doosan-bears-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27T02:01:17-07:00",
+      "descriptionSummary": "구단의 2026 공식 목록이 승리를 위하여를 11:13에 독립 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 중요한 순간 승기를 잡은 뒤 이 곡을 부를 때가 가장 짜릿하다며 전성기처럼 자주 부르기를 바란다.", "승리를 위하여에서 야야야 두산과 해야로 이어지는 메들리를 선호한다는 반응도 있다."],
+      "supports": ["forVictory.currentOfficial2026", "forVictory.usageReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-for-victory-official-2025",
+      "songId": "doosan-bears-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-21T17:00:19-07:00",
+      "descriptionSummary": "구단의 2025 공식 목록이 승리를 위하여를 11:26에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 공식 음원 목록을 직관 전 학습과 일상 재생에 쓰며 오래된 대표곡의 유지를 반긴다."],
+      "supports": ["forVictory.currentOfficial2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-for-victory-choreography-2025",
+      "songId": "doosan-bears-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=24v6P_paiSQ",
+      "videoId": "24v6P_paiSQ",
+      "title": "※직관 전 시청 필수※ 2025시즌 응원가 안무 완전 정복! (새 응원가 최초 공개)",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-20T20:00:03-07:00",
+      "descriptionSummary": "구단 공식 안무 영상이 승리를 위하여를 02:45부터 시연한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬들은 마지막 문장의 음절을 붙이지 말고 길게 끌어야 한다는 응원단장의 교정을 반복해 강조한다.", "경기장 전광판에도 정확한 가사 자막을 띄워 더 많은 관중이 함께 부르게 해 달라는 요청이 있다."],
+      "supports": ["forVictory.currentChoreography2025", "forVictory.pronunciationInstruction"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-for-victory-first-field-2015",
+      "songId": "doosan-bears-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=qveDS_8Cyl0",
+      "videoId": "qveDS_8Cyl0",
+      "title": "[잠실직캠] 두산베어스의 새로운 응원가 '승리를 위하여'",
+      "channel": "BEARS TV",
+      "publishedAt": "2015-06-14T05:50:50-07:00",
+      "descriptionSummary": "구단이 2015년 6월 잠실에서 ‘새로운 응원가’로 소개한 2분 39초 현장 영상이며 긴 초기판을 보존한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["후대 팬은 당시 처음 듣던 관중이 점차 좌우 동작을 따라 하는 장면을 곡의 전설적 출발로 회상한다.", "긴 도입이 웅장해서 좋았다는 반응과 이 곡이 두산 대표곡이 될 줄 몰랐다는 반응이 반복된다."],
+      "supports": ["forVictory.introduction2015", "forVictory.versionOne", "forVictory.earlyChoreography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-for-victory-scoreboard-2015",
+      "songId": "doosan-bears-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=JeX9EwpmdMM",
+      "videoId": "JeX9EwpmdMM",
+      "title": "[2015 두산베어스 전광판 영상] 승리를 위하여!",
+      "channel": "BEARS TV",
+      "publishedAt": "2015-11-03T23:47:10-08:00",
+      "descriptionSummary": "구단이 2015 시즌 전광판용 긴 승리를 위하여 영상을 2분 20초 원본으로 공개했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["두산 팬은 야구장에서 부를 때 전율과 자신감이 생긴다고 회상하고 타 구단 팬도 리그 대표 응원가로 인정한다.", "2015·2016·2019 우승 뒤 기념 방문과 왕조 시절을 그리워하는 후대 댓글이 누적됐다."],
+      "supports": ["forVictory.introduction2015", "forVictory.versionOne", "forVictory.dynastyReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-for-victory-ks-game5-2015",
+      "songId": "doosan-bears-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=fflno0aR1-4",
+      "videoId": "fflno0aR1-4",
+      "title": "두산베어스 승리를 위하여 (에메랄드 소드) -20151031 한국시리즈 5차전",
+      "channel": "준영",
+      "publishedAt": "2015-11-28T05:48:14-08:00",
+      "descriptionSummary": "2015년 10월 31일 삼성-두산 한국시리즈 5차전에서 울린 승리를 위하여를 76초 현장 영상으로 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["두산 팬은 정수빈의 쐐기 홈런 뒤 이 곡을 부른 순간을 오랜 관람 경험 가운데 최고 장면으로 꼽는다.", "상대·타 구단 팬도 원정 응원석을 점령한 승전가처럼 들렸고 선율과 떼창의 결합이 강렬했다고 회상한다."],
+      "supports": ["forVictory.ksGame5Use", "forVictory.clinchingLeadUse", "forVictory.crossTeamReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-for-victory-scoreboard-2017",
+      "songId": "doosan-bears-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=0vRJ9pmCAY4",
+      "videoId": "0vRJ9pmCAY4",
+      "title": "[두산베어스 전광판 영상] 2017 승리를 위하여",
+      "channel": "BEARS TV",
+      "publishedAt": "2017-12-17T17:51:19-08:00",
+      "descriptionSummary": "구단이 긴 앞부분을 제거한 1분 32초 현행형 전광판 영상을 2017판으로 공개했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 마지막 문장의 정확한 늘임을 계속 교정하고 템포가 떼창과 전투력 고조에 맞는다고 평가한다.", "여러 타 구단 팬이 잠실에서 기억에 남은 두산 상징곡이자 리그 최고 응원가 중 하나라고 반응한다."],
+      "supports": ["forVictory.versionTwo", "forVictory.currentStructure", "forVictory.crossTeamPopularity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-for-victory-comeback-2023",
+      "songId": "doosan-bears-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=OpBz5jZuP6A",
+      "videoId": "OpBz5jZuP6A",
+      "title": "만원 관중 속 두산이 역전한 뒤 승리를 위하여를 부른다면?! 오늘자 소름이 돋는 두산 베어스 역전 후 승리를 위하여 육성 떼창 응원 직캠!!🔥(2023.09.30 vs LG)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2023-09-30T03:01:01-07:00",
+      "descriptionSummary": "2023년 9월 30일 LG전 만원 관중 앞에서 두산이 역전한 뒤 부른 83초 육성 떼창을 촬영한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["현장 관객은 매진 경기의 함성과 역전승 기대를 회상하고, 팬들은 마지막 늘임을 정확히 불러 달라고 반복한다.", "타 구단 팬도 곡을 탐낸다는 반응과 원곡이 좋아서 강렬하다는 반응을 함께 남긴다."],
+      "supports": ["forVictory.comebackUse2023", "forVictory.usagePattern", "forVictory.pronunciationReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-for-victory-fan-mv-2021",
+      "songId": "doosan-bears-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=dqW2DaOjOho",
+      "videoId": "dqW2DaOjOho",
+      "title": "두산베어스 응원가｜승리를 위하여 뮤직비디오｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2021-02-22T01:00:23-08:00",
+      "descriptionSummary": "2021 시즌을 앞두고 두산 대표 응원가를 107초 팬 뮤직비디오로 편집한 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["삼성·SSG·롯데 등 타 구단 팬도 잠실에서 들으면 힘이 솟거나 소름이 돋는다고 평가한다.", "원곡이 Emerald Sword임을 뒤늦게 알아본 메탈 팬과 두산 왕조 시절 선수를 그리워하는 반응이 함께 나타난다."],
+      "supports": ["forVictory.fanCirculation2021", "forVictory.originalRecognition", "forVictory.dynastyMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-for-victory-original-official",
+      "songId": "doosan-bears-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=nE7pz87rASo",
+      "videoId": "nE7pz87rASo",
+      "title": "RHAPSODY - Emerald Sword (Official Video)",
+      "channel": "Limb Music",
+      "publishedAt": "2013-10-01T06:47:17-07:00",
+      "descriptionSummary": "레이블 공식 영상이 Emerald Sword를 1998년 10월 발매 앨범 ‘Symphony Of Enchanted Lands’ 수록곡으로 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["오랜 청자는 청소년기부터 수십 년간 듣는 대표 에픽 메탈 곡으로 회상하고 후렴의 상승감과 장대한 분위기를 높이 평가한다.", "댓글에 원곡 가사 전문이 있으나 연구 파일에는 옮기지 않았다."],
+      "supports": ["forVictory.originalSong", "forVictory.originalAlbum1998", "forVictory.epicCharacter"],
+      "accessedAt": "2026-08-09"
+    },
+
+    {
+      "id": "yt-doosan-b-victory-doosan-official-2026",
+      "songId": "doosan-bears-victory-of-doosan",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27T02:01:17-07:00",
+      "descriptionSummary": "구단의 2026 공식 목록이 승리의 두산을 12:46 독립 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 팀의 영원성을 말하는 이 곡의 정서를 새삼 좋아한다고 반응하고 공식 목록을 직관 전 복습한다."],
+      "supports": ["victoryDoosan.currentOfficial2026"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-doosan-official-2025",
+      "songId": "doosan-bears-victory-of-doosan",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-21T17:00:19-07:00",
+      "descriptionSummary": "구단의 2025 공식 목록이 승리의 두산을 12:59에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["오랜 팬은 경기 시작 음악과 전통 팀 응원가를 들으면 수십 년이 지나도 설렌다고 회상한다."],
+      "supports": ["victoryDoosan.currentOfficial2025", "victoryDoosan.longTermReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-doosan-choreography-2025",
+      "songId": "doosan-bears-victory-of-doosan",
+      "url": "https://www.youtube.com/watch?v=24v6P_paiSQ",
+      "videoId": "24v6P_paiSQ",
+      "title": "※직관 전 시청 필수※ 2025시즌 응원가 안무 완전 정복! (새 응원가 최초 공개)",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-20T20:00:03-07:00",
+      "descriptionSummary": "구단이 승리의 두산을 2025 공식 안무 영상의 첫 곡으로 전곡 시연한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 오래된 팀곡과 신곡을 한 영상에서 익히고, 경기장 가사 자막과 정확한 참여 안내를 요청한다."],
+      "supports": ["victoryDoosan.currentChoreography2025", "victoryDoosan.coreOpeningPosition"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-doosan-scoreboard-2014",
+      "songId": "doosan-bears-victory-of-doosan",
+      "url": "https://www.youtube.com/watch?v=j2-5n7V16oE",
+      "videoId": "j2-5n7V16oE",
+      "title": "2014년 두산베어스 전광판 동영상 (승리의 두산)",
+      "channel": "Sung wook Choi",
+      "publishedAt": "2014-06-19T21:54:29-07:00",
+      "descriptionSummary": "설명은 두산 구단 출처 전광판 영상이 2014년 잠실 홈 경기 1회초 종료 뒤 나왔다고 구체적으로 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 정동하 음색을 알아보고 첫 소절 뒤 전통 추임새를 요즘 관중이 덜 외치는 점을 아쉬워한다.", "오랜 팬은 박철순 시절부터 이어진 팀 기억과 2013·2014 전광판 디자인을 함께 회상한다."],
+      "supports": ["victoryDoosan.firstAttackUse2014", "victoryDoosan.jeongDonghaVersion", "victoryDoosan.fanChorus"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-doosan-audio-2016",
+      "songId": "doosan-bears-victory-of-doosan",
+      "url": "https://www.youtube.com/watch?v=I3yUOwoo0v4",
+      "videoId": "I3yUOwoo0v4",
+      "title": "[음원]두산 베어스 응원가 - 승리의 두산",
+      "channel": "두산베어스",
+      "publishedAt": "2016-01-02T06:11:47-08:00",
+      "descriptionSummary": "2016년 업로드된 92초 현행형 음원 아카이브다. 별도 설명과 공식 채널 인증은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 정동하가 곡을 강렬한 상징곡으로 만들었다고 평가하고 어린 시절 잠실 관람을 회상한다.", "첫 소절 뒤 치어리더 소개를 떠올리는 반응과 요즘 왜 덜 쓰느냐는 질문이 함께 보인다."],
+      "supports": ["victoryDoosan.currentRecordingArchive", "victoryDoosan.cheerleaderIntroductionMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-doosan-mbc-choreography",
+      "songId": "doosan-bears-victory-of-doosan",
+      "url": "https://www.youtube.com/watch?v=NFxAtJOjLHU",
+      "videoId": "NFxAtJOjLHU",
+      "title": "[치어리더 연습실캠] 응원가 - 승리의 두산 (두산 베어스), Doosan's cheerleader \"cheering song - Victory of doosan\"",
+      "channel": "MBC Sports+",
+      "publishedAt": "2018-05-21T18:09:21-07:00",
+      "descriptionSummary": "MBC Sports+가 두산 치어리더들의 승리의 두산 전곡 안무를 88초 연습실 영상으로 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 오래된 안무가 촌스럽지 않다고 평가하고 따라 배우기 쉽도록 거울 모드를 요청한다."],
+      "supports": ["victoryDoosan.choreography2018", "victoryDoosan.longLivedDanceReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-doosan-old-archive-2012",
+      "songId": "doosan-bears-victory-of-doosan",
+      "url": "https://www.youtube.com/watch?v=s1k0MPHdJWo",
+      "videoId": "s1k0MPHdJWo",
+      "title": "DOOSAN BEARS/승리의 두산(勝利の斗山)",
+      "channel": "Baseballtraveler",
+      "publishedAt": "2012-01-21T04:51:43-08:00",
+      "descriptionSummary": "2012년에 올라온 91초 구판 응원가 아카이브로 일본어 설명은 두산 베어스 응원가라고만 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 음색을 박상민판으로 식별하고 예전 야구 게임에서 들었던 기억과 구판에 대한 향수를 남긴다.", "가수 식별은 공식 크레딧이 아닌 팬 반응이므로 나무위키 기록과 함께 보조 근거로만 사용했다."],
+      "supports": ["victoryDoosan.parkSangminVersion", "victoryDoosan.pre2013Archive", "victoryDoosan.oldChorus"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-doosan-jeong-dongha",
+      "songId": "doosan-bears-victory-of-doosan",
+      "url": "https://www.youtube.com/watch?v=-GPcgbXY3VA",
+      "videoId": "-GPcgbXY3VA",
+      "title": "정동하 - 승리의 두산 (두산 베어스 응원가 )",
+      "channel": "김복희",
+      "publishedAt": "2021-04-02T22:10:30-07:00",
+      "descriptionSummary": "정동하 가창으로 표기된 2분 45초 승리의 두산 음원 아카이브다. 제작 크레딧은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 정동하의 가창이 응원가를 더 강렬하게 만든다고 평가하고 가수와 팀을 함께 응원한다."],
+      "supports": ["victoryDoosan.jeongDonghaRecording", "victoryDoosan.vocalReception"],
+      "accessedAt": "2026-08-09"
+    },
+
+    {
+      "id": "yt-doosan-b-victory-ode-official-2026",
+      "songId": "doosan-bears-victory-ode",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27T02:01:17-07:00",
+      "descriptionSummary": "구단의 2026 공식 목록이 승리의 송가를 14:17 독립 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 공식 목록을 새 시즌 응원 학습과 잠실 마지막 시즌의 추억 준비에 활용한다. 이 곡의 패배 후 용도를 직접 논의한 댓글은 표본에 없다."],
+      "supports": ["victoryOde.currentOfficial2026", "victoryOde.postLossCaveat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-ode-official-2025",
+      "songId": "doosan-bears-victory-ode",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-21T17:00:19-07:00",
+      "descriptionSummary": "구단의 2025 공식 목록이 승리의 송가를 14:31에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 구단 공식 음원 목록의 완성도와 오래된 팀 응원가 보존을 반기지만 이 곡의 세부 상황은 거의 논의하지 않는다."],
+      "supports": ["victoryOde.currentOfficial2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-ode-audio-2016",
+      "songId": "doosan-bears-victory-ode",
+      "url": "https://www.youtube.com/watch?v=AUOEXZsQWkE",
+      "videoId": "AUOEXZsQWkE",
+      "title": "[음원]두산 베어스 응원가 - 승리의 송가",
+      "channel": "두산베어스",
+      "publishedAt": "2016-01-02T06:13:13-08:00",
+      "descriptionSummary": "92초 음원 아카이브 설명이 두산 패배와 동시에 울리며 최선을 다한 선수들에게 박수를 보내는 곡이라고 명시한다. 공식 BEARS TV 인증 채널은 아니다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 잠실 직관에서 별로 듣고 싶지 않은 곡이라고 농담해 패배 후 기억을 확인한다.", "일부는 원선율을 한국 찬송가 제목으로 식별하고 삼성·제이미 로맥 응원가와 같은 선율임을 비교한다."],
+      "supports": ["victoryOde.reportedPostLossUse", "victoryOde.melodyRecognition", "victoryOde.sharedMelody"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-ode-old-2009",
+      "songId": "doosan-bears-victory-ode",
+      "url": "https://www.youtube.com/watch?v=8QJIKMfALOw",
+      "videoId": "8QJIKMfALOw",
+      "title": "승리의 송가(2009ver)",
+      "channel": "올드베어스",
+      "publishedAt": "2025-02-13T19:00:05-08:00",
+      "descriptionSummary": "2009년판으로 표기된 83초 구버전 음원 아카이브다. 설명은 팀과 곡 해시태그만 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 어린 시절 전광판과 게임 종료 후 들었던 곡으로 기억하고, 최근 판보다 구판의 레트로한 분위기를 선호한다.", "와일드카드 패배 뒤 들은 기억을 연결하는 반응도 있다."],
+      "supports": ["victoryOde.oldVersion2009", "victoryOde.postGameMemory", "victoryOde.versionPreference"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-ode-archive-2016",
+      "songId": "doosan-bears-victory-ode",
+      "url": "https://www.youtube.com/watch?v=r5GFy4aWhE8",
+      "videoId": "r5GFy4aWhE8",
+      "title": "승리의 송가",
+      "channel": "베어스채널",
+      "publishedAt": "2016-03-28T03:06:12-07:00",
+      "descriptionSummary": "2016년 공개된 85초 단독 음원 아카이브로 곡의 온라인 존속을 확인한다. 별도 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 팀을 응원하는 짧은 반응뿐이며 역사나 사용 상황에 대한 정보는 없다."],
+      "supports": ["victoryOde.archive2016"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-ode-fan-audio-2020",
+      "songId": "doosan-bears-victory-ode",
+      "url": "https://www.youtube.com/watch?v=-pN5KlP2w0U",
+      "videoId": "-pN5KlP2w0U",
+      "title": "두산베어스 응원가 승리의 송가",
+      "channel": "죽어도레스터시티",
+      "publishedAt": "2020-04-30T01:25:17-07:00",
+      "descriptionSummary": "2020년에 곡명을 명시해 올린 84초 팬 음원 표본이며 별도 설명은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["victoryOde.fanCirculation2020"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-b-victory-ode-original-lso",
+      "songId": "doosan-bears-victory-ode",
+      "url": "https://www.youtube.com/watch?v=fzyO3fLV5O0",
+      "videoId": "fzyO3fLV5O0",
+      "title": "Ludwig van Beethoven: Symphony No 9 'Ode to Joy' // Sir Antonio Pappano & London Symphony Orchestra",
+      "channel": "London Symphony Orchestra",
+      "publishedAt": "2025-04-27T07:00:06-07:00",
+      "descriptionSummary": "런던 심포니 오케스트라가 안토니오 파파노 지휘로 베토벤 교향곡 9번과 마지막 악장의 성악·합창을 연주한 공식 공연이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 200년이 지나도 전 세계가 함께 부르는 선율의 규모와 합창 진입의 감동을 높이 평가한다.", "베토벤이 청력을 잃은 상태에서 완성한 작품이라는 점을 경이롭게 기억하는 반응이 반복된다."],
+      "supports": ["victoryOde.beethovenOriginal", "victoryOde.odeToJoyMelody", "victoryOde.choralCharacter"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 43,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

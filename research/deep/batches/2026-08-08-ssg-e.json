@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-ssg-e",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-ssg-landers",
+    "name": "SSG 랜더스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 가사는 출처와 구조·주제만 요약하고, 공개 댓글은 개인정보와 원문 인용을 배제한 반복 반응만 기록한다.",
+  "items": [
+    {
+      "id": "ssg-landers-apartment",
+      "title": "아파트",
+      "aliases": ["아파트 SSG 랜더스 ver.", "윤수일 아파트"],
+      "currentStatus": "current",
+      "summary": "윤수일이 1982년 발표한 ‘아파트’에 구단명과 추임새를 더해 부르는 상황 응원곡이다. 전신 SK 와이번스의 2013·2018 버전 뒤 중단됐다가 SSG 버전이 2025년에 확인되며, 2026년 3월과 7월 현장 영상에서도 계속 사용된다. 역전·추가 득점처럼 승기가 기운 순간과 경기 종료 뒤에 사용된 직접 사례가 있으나 고정 운용 조건은 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "윤수일 밴드 — 아파트(A.P.T), 1982",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-e-riak-apartment", "ev-ssg-e-bugs-apartment", "ev-ssg-e-news-apartment"],
+          "notes": "RIAK 공식 음원 설명이 원판의 1982-06-30 발매를, 벅스와 기사 자료가 1982년 윤수일 밴드 2집 수록을 확인한다. 1989·1995 음원 표기는 후대 재녹음·모음집과 구분한다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "작사·작곡·가창 윤수일",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-e-bugs-apartment", "ev-ssg-e-ky-apartment"],
+          "notes": "상업 음원 소개와 금영 공식 곡 정보가 일치한다."
+        },
+        {
+          "field": "ssgVersionYear",
+          "value": "2025",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-e-kbo-namu", "yt-ssg-e-apartment-comeback-2025", "yt-ssg-e-apartment-song-2025", "yt-ssg-e-apartment-final-2025"],
+          "notes": "KBO 응원가 문서가 SSG 버전을 2025로 식별하고, 2025년 6월부터 10월까지 직접 영상이 이어진다."
+        },
+        {
+          "field": "lineage",
+          "value": "SK 와이번스 2013·2018 버전 사용 뒤 2020년까지 중단, SSG 버전은 2025년 재등장",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ssg-e-kbo-namu", "ev-ssg-e-apartment-song-namu"],
+          "notes": "연도 표기는 위키 계열의 영상 목록과 설명을 보존한 것이다. SK의 매 시즌 실제 운용 범위와 SSG판 재도입 결정 원문은 찾지 못했다."
+        },
+        {
+          "field": "earliestDirectSsgEvidence",
+          "value": "2025-06-27 경기의 역전 과정과 함께 촬영된 현장 영상",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ssg-e-apartment-comeback-2025"],
+          "notes": "이번 조사에서 회수한 SSG판 직접 영상 중 가장 이르다. 실제 최초 사용일이라는 뜻은 아니다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-07-24까지 직접 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ssg-e-apartment-opening-2026", "yt-ssg-e-apartment-july-2026"],
+          "notes": "2026 개막 시리즈의 추가 득점 뒤 사용과 7월 메들리 사용이 각각 확인된다."
+        },
+        {
+          "field": "documentedUsage",
+          "value": "역전·추가 득점 뒤 관중 합창 및 홈 최종전 경기 종료 뒤 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ssg-e-apartment-comeback-2025", "yt-ssg-e-apartment-final-2025", "yt-ssg-e-apartment-opening-2026"],
+          "notes": "복수 상황을 직접 확인했으나 모든 경기에서 동일한 조건으로 재생된다고 일반화하지 않는다."
+        },
+        {
+          "field": "adaptationForm",
+          "value": "원곡 본문에 ‘랜더스’ 구호와 ‘으쌰라’ 계열 추임새를 삽입",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-e-kbo-namu", "yt-ssg-e-apartment-song-2025"],
+          "notes": "가사 전문을 복제하지 않고 차이가 생기는 방식만 기록했다."
+        }
+      ],
+      "usageContexts": [
+        "경기 후반 추가 득점 또는 역전 뒤 전 관중 합창",
+        "홈 최종전 경기 종료 뒤 축하 응원",
+        "원곡 본문 사이 구단명 구호와 반복 추임새를 넣는 참여형 응원"
+      ],
+      "trivia": [
+        {
+          "id": "apartment-all-kbo-lineage",
+          "summary": "현존 KBO 10개 구단이 모두 각자 다른 시기에 이 곡을 응원가로 사용한 이력이 있으며 SSG판 재등장으로 그 계보가 다시 이어졌다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ssg-e-kbo-namu", "ev-ssg-e-apartment-song-namu"]
+        },
+        {
+          "id": "apartment-sad-song-stadium-contrast",
+          "summary": "떠난 연인을 다룬 단조의 노래가 경기장에서는 승기가 기운 순간을 상징하는 대규모 합창곡으로 기능한다는 대비가 언론과 현장 반응에서 반복된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-e-news-apartment", "yt-ssg-e-apartment-comeback-2025"]
+        },
+        {
+          "id": "apartment-call-response-reception",
+          "summary": "단독 응원가 영상의 공개 댓글은 도입 질문형 구호와 무가사 합창 지점을 따라 적으며 관중 참여 포인트로 인식한다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ssg-e-apartment-song-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-original-song-with-team-call-and-response-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://namu.moe/w/KBO%20%EB%A6%AC%EA%B7%B8/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=pz55PtZHSzQ",
+          "https://www.youtube.com/watch?v=dmufIVncIhw"
+        ],
+        "structureSummary": "원곡의 절과 후렴을 유지하면서 짧은 질문형 도입, 구단명 호명, 반복 추임새를 행 사이에 배치한다. 후렴의 길게 뻗는 선율을 전 관중 합창으로 확장하고 끝부분을 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-e-apartment-opening-2026",
+        "yt-ssg-e-apartment-july-2026",
+        "yt-ssg-e-apartment-final-2025",
+        "yt-ssg-e-apartment-song-2025",
+        "yt-ssg-e-apartment-comeback-2025"
+      ],
+      "unresolved": [
+        "SSG판의 실제 최초 경기장 사용일과 구단의 재도입 공지",
+        "SK판의 세부 사용·중단 연도와 SSG판 편곡·녹음 참여자",
+        "경기 중 고정 재생 조건과 홈·원정별 운용 차이",
+        "구단판 음원·개사의 이용 허락 또는 권리 처리 주체"
+      ]
+    },
+    {
+      "id": "ssg-landers-crooked",
+      "title": "삐딱하게",
+      "aliases": ["Crooked", "오늘밤은 삐딱하게"],
+      "currentStatus": "current",
+      "summary": "G-DRAGON의 2013년 곡 ‘삐딱하게(Crooked)’ 원곡을 결정적 득점 뒤 관중이 함께 부르는 상황 응원곡이다. SK 와이번스가 늦어도 2017년에 사용한 직접 영상이 있고, SSG에서는 2022년 8월 6일 끝내기 승리 뒤 ‘부활’한 현장 자료가 두 건 일치한다. 2022 한국시리즈, 2023·2024·2025 정규시즌과 2026년 7월까지 사용이 이어진다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "G-DRAGON — 삐딱하게(Crooked), 정규 앨범 COUP D'ETAT",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-e-genie-crooked", "ev-ssg-e-genie-coupdetat", "ev-ssg-e-official-crooked"],
+          "notes": "음원 서비스의 곡·앨범 메타데이터와 공식 뮤직비디오가 일치한다."
+        },
+        {
+          "field": "originalRelease",
+          "value": "2013-09-05",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-e-genie-coupdetat", "ev-ssg-e-official-crooked"],
+          "notes": "지니 앨범 정보의 발매일을 기준으로 기록했다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "작사 TEDDY·G-DRAGON, 작곡 G-DRAGON·TEDDY, 편곡 TEDDY",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-e-genie-crooked"],
+          "notes": "지니의 참여 정보 표기를 그대로 사실 필드로 정리했다."
+        },
+        {
+          "field": "skLineage",
+          "value": "SK 와이번스가 늦어도 2017년부터 상황 응원곡으로 사용",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ssg-e-crooked-sk-2017", "ev-ssg-e-namu", "ev-ssg-e-crooked-namu"],
+          "notes": "2017-09-01 경기 직접 영상이 하한선을 제공한다. 정확한 최초 도입 연도는 확인하지 못했다."
+        },
+        {
+          "field": "ssgRevival",
+          "value": "2022-08-06, 삼성전 11회말 끝내기 폭투 뒤 부활",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ssg-e-crooked-return-2022-a", "yt-ssg-e-crooked-return-2022-b"],
+          "notes": "서로 다른 업로더의 같은 날 현장 영상 제목·장면·공개 댓글이 모두 ‘돌아온 곡’ 또는 ‘부활’로 식별한다."
+        },
+        {
+          "field": "postseasonUse",
+          "value": "2022 한국시리즈 6차전 역전 적시타 뒤 대규모 합창",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ssg-e-crooked-ks6-2022"],
+          "notes": "득점 직후부터 합창이 이어지는 직접 직캠이다."
+        },
+        {
+          "field": "documentedUsage",
+          "value": "역전·쐐기 득점과 홈런 뒤 사용하는 고조용 상황 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ssg-e-crooked-2023", "yt-ssg-e-crooked-2024", "yt-ssg-e-crooked-2025", "yt-ssg-e-crooked-2026"],
+          "notes": "연도별 영상 제목과 경기 장면이 공통적으로 결정적 득점 직후를 가리킨다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-07-24까지 직접 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ssg-e-crooked-2026"],
+          "notes": "적시타 직후 곡이 나오는 2026년 현장 영상이다."
+        },
+        {
+          "field": "adaptationForm",
+          "value": "구단 고유 개사 없이 원곡 녹음과 본문을 관중이 합창하는 형태",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ssg-e-crooked-return-2022-a", "yt-ssg-e-crooked-ks6-2022", "yt-ssg-e-crooked-2025"],
+          "notes": "표본에서는 별도의 랜더스판 개사나 재녹음이 식별되지 않았다. 공식 운용 음원의 에디트 여부는 미확인이다."
+        }
+      ],
+      "usageContexts": [
+        "역전·쐐기 득점 또는 홈런 직후 분위기를 극대화하는 상황 응원",
+        "원곡 후렴을 장내 음원과 함께 관중이 길게 합창",
+        "정규시즌뿐 아니라 2022 한국시리즈의 결정적 장면에서도 사용"
+      ],
+      "trivia": [
+        {
+          "id": "crooked-revival-reception",
+          "summary": "2022년 8월 6일 영상들의 공개 댓글에서는 SK 시절 곡이 돌아온 점을 반기고 팬 의견이 반영됐다고 평가하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ssg-e-crooked-return-2022-a", "yt-ssg-e-crooked-return-2022-b"]
+        },
+        {
+          "id": "crooked-ks-memory",
+          "summary": "2022 한국시리즈 직캠 댓글은 실제 구장의 함성이 영상보다 훨씬 컸다는 기억을 남겨 이 곡이 우승 시즌의 대표 현장 장면으로 회상됨을 보여 준다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ssg-e-crooked-ks6-2022"]
+        },
+        {
+          "id": "crooked-player-cheer-distinction",
+          "summary": "SK 시절 최정 개인 응원가도 같은 원곡을 잠시 사용한 이력이 전해지지만, 현재 조사 대상은 원곡 본문을 함께 부르는 팀 상황 응원이며 두 용례를 별개로 관리한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ssg-e-crooked-namu"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-recording-used-as-stadium-singalong-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.genie.co.kr/detail/songInfo?xgnm=82034786",
+          "https://www.youtube.com/watch?v=RKhsHGfrFmY",
+          "https://www.youtube.com/watch?v=iLd6C_l4oQU"
+        ],
+        "structureSummary": "짧고 강한 선언형 후렴을 장내 음원과 관중이 함께 부르고, 반복되는 후렴의 상승감을 결정적 득점 뒤 축하 구간으로 사용한다. 표본에서는 구단명 개사 없이 원곡 한국어 본문을 유지한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-e-crooked-2026",
+        "yt-ssg-e-crooked-2025",
+        "yt-ssg-e-crooked-2024",
+        "yt-ssg-e-crooked-2023",
+        "yt-ssg-e-crooked-return-2022-a",
+        "yt-ssg-e-crooked-return-2022-b",
+        "yt-ssg-e-crooked-ks6-2022",
+        "yt-ssg-e-crooked-sk-2017"
+      ],
+      "unresolved": [
+        "SK 와이번스 시절 팀 상황 응원으로 처음 도입된 정확한 연도",
+        "2022년 SSG 부활을 결정·공지한 구단 또는 응원단 원문",
+        "현재 장내에서 쓰는 음원의 편집·라이선스와 재생 구간",
+        "득점 상황별 고정 운용 규칙과 원정 사용 여부",
+        "최정 개인 응원가 버전의 정확한 사용 기간"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ssg-e-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "SSG 랜더스/응원가",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "SSG의 현행·과거 팀 응원가, SK 계승 관계, 사용 연도와 상황을 정리한 문서다. 위키 서술은 직접 영상과 독립 자료로 분리 교차검증했다.",
+      "supports": ["skLineage", "currentUse", "usageContext"]
+    },
+    {
+      "id": "ev-ssg-e-kbo-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/KBO%20%EB%A6%AC%EA%B7%B8/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "KBO 리그/응원가",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "아파트의 구단별 추임새와 SSG 버전 2025 표기, SK 2013·2018 버전 영상 계보를 제공한다.",
+      "supports": ["ssgVersionYear", "lineage", "adaptationForm"]
+    },
+    {
+      "id": "ev-ssg-e-apartment-song-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%EC%95%84%ED%8C%8C%ED%8A%B8%28%EC%9C%A4%EC%88%98%EC%9D%BC%29",
+      "title": "아파트(윤수일)",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "1982년 원곡의 배경과 야구 응원가로의 광범위한 사용을 설명한다.",
+      "supports": ["origin", "lineage", "trivia"]
+    },
+    {
+      "id": "ev-ssg-e-riak-apartment",
+      "type": "official-audio",
+      "url": "https://www.youtube.com/watch?v=dmufIVncIhw",
+      "title": "[Lyric Video] 구축 아파트 재건축 | 윤수일밴드 - APT",
+      "publisher": "RIAK OFFICIAL",
+      "publishedAt": "2024-11-01",
+      "accessedAt": "2026-08-08",
+      "summary": "한국음반산업협회 공식 채널이 윤수일밴드 2집 수록곡과 1982-06-30 발매 정보를 제공한다.",
+      "supports": ["origin", "originalRelease"]
+    },
+    {
+      "id": "ev-ssg-e-bugs-apartment",
+      "type": "music-service",
+      "url": "https://music.bugs.co.kr/album/20339744",
+      "title": "사랑의 콜센타 PART16",
+      "publisher": "벅스",
+      "publishedAt": "2020-07-16",
+      "accessedAt": "2026-08-08",
+      "summary": "앨범 소개가 원곡을 1982년 윤수일 밴드 2집 타이틀곡으로 설명하고 작사·작곡·원곡 가수를 윤수일로 표기한다.",
+      "supports": ["origin", "originalCredits"]
+    },
+    {
+      "id": "ev-ssg-e-ky-apartment",
+      "type": "official-karaoke",
+      "url": "https://www.youtube.com/watch?v=y6rWIG-adUU",
+      "title": "아파트 - 윤수일 (KY.539) / KY Karaoke",
+      "publisher": "금영 노래방 공식 유튜브 채널",
+      "publishedAt": "2020-05-06",
+      "accessedAt": "2026-08-08",
+      "summary": "금영 공식 곡 정보가 가수·작사·작곡을 모두 윤수일로 기재한다.",
+      "supports": ["originalCredits"]
+    },
+    {
+      "id": "ev-ssg-e-news-apartment",
+      "type": "news",
+      "url": "https://v.daum.net/v/ffLkqwzTzP",
+      "title": "윤수일이 부릅니다 '아파트'",
+      "publisher": "조선일보·다음",
+      "publishedAt": "2024-11-09",
+      "accessedAt": "2026-08-08",
+      "summary": "1982년 발표와 도시의 애환을 담은 원곡이 스포츠 경기에서는 승기를 상징하는 떼창곡으로 기능하는 변화를 설명한다.",
+      "supports": ["origin", "stadiumUse", "trivia"]
+    },
+    {
+      "id": "ev-ssg-e-crooked-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%EC%82%90%EB%94%B1%ED%95%98%EA%B2%8C%20%28Crooked%29",
+      "title": "삐딱하게 (Crooked)",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "SK·SSG의 팀 응원 활용과 과거 최정 개인 응원가 활용을 별개 용례로 정리한다.",
+      "supports": ["skLineage", "playerCheerDistinction"]
+    },
+    {
+      "id": "ev-ssg-e-genie-crooked",
+      "type": "music-service",
+      "url": "https://www.genie.co.kr/detail/songInfo?xgnm=82034786",
+      "title": "삐딱하게 (Crooked)",
+      "publisher": "지니뮤직",
+      "publishedAt": "2013-09-05",
+      "accessedAt": "2026-08-08",
+      "summary": "곡명·아티스트·앨범과 작사 TEDDY·G-DRAGON, 작곡 G-DRAGON·TEDDY, 편곡 TEDDY 크레딧을 제공한다.",
+      "supports": ["origin", "originalCredits"]
+    },
+    {
+      "id": "ev-ssg-e-genie-coupdetat",
+      "type": "music-service",
+      "url": "https://www.genie.co.kr/detail/albumInfo?axnm=80370250",
+      "title": "쿠데타 'COUP D'ETAT'",
+      "publisher": "지니뮤직",
+      "publishedAt": "2013-09-05",
+      "accessedAt": "2026-08-08",
+      "summary": "G-DRAGON 정규 앨범의 발매일과 수록곡 ‘삐딱하게’를 확인한다.",
+      "supports": ["origin", "originalRelease"]
+    },
+    {
+      "id": "ev-ssg-e-official-crooked",
+      "type": "official-video",
+      "url": "https://www.youtube.com/watch?v=RKhsHGfrFmY",
+      "title": "G-DRAGON - 삐딱하게(CROOKED) M/V",
+      "publisher": "BIGBANG",
+      "publishedAt": "2013-09-04",
+      "accessedAt": "2026-08-08",
+      "summary": "YG 계열 공식 채널의 원곡 뮤직비디오로 곡명·영문명·가수를 확인한다.",
+      "supports": ["origin", "originalRelease"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ssg-e-apartment-opening-2026",
+      "songId": "ssg-landers-apartment",
+      "url": "https://www.youtube.com/watch?v=mNacudSY2Ho",
+      "videoId": "mNacudSY2Ho",
+      "title": "[2026 개막시리즈] SSG랜더스 8회말 추가득점 후 부르는 팀 응원가 \"아파트\" 20260329",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-03-30T00:18:29-07:00",
+      "descriptionSummary": "2026년 3월 29일 개막 시리즈 8회 말 추가 득점 뒤 아파트를 부른 장면이며 뒤이어 김재환 응원가가 나온다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["currentUse", "documentedUsage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-apartment-july-2026",
+      "songId": "ssg-landers-apartment",
+      "url": "https://www.youtube.com/watch?v=W8NJgmgWggk",
+      "videoId": "W8NJgmgWggk",
+      "title": "SSG랜더스 팀 응원가 메들리 (아파트 - 외쳐라 랜더스) 20260724",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-07-25T00:40:50-07:00",
+      "descriptionSummary": "2026년 7월 24일 현장에서 아파트와 외쳐라 랜더스를 연속 사용한 짧은 메들리다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["currentUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-apartment-final-2025",
+      "songId": "ssg-landers-apartment",
+      "url": "https://www.youtube.com/watch?v=tiujsVKf25s",
+      "videoId": "tiujsVKf25s",
+      "title": "[2025 홈 최종전] SSG랜더스 경기 종료 후 아파트 응원! 20251001",
+      "channel": "DJ Landers",
+      "publishedAt": "2025-10-01T22:06:00-07:00",
+      "descriptionSummary": "2025년 홈 최종전 경기 종료 뒤 아파트 응원을 이어 간 장면이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["ssgVersionYear", "documentedUsage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-apartment-song-2025",
+      "songId": "ssg-landers-apartment",
+      "url": "https://www.youtube.com/watch?v=pz55PtZHSzQ",
+      "videoId": "pz55PtZHSzQ",
+      "title": "SSG 랜더스 팀응원가:아파트",
+      "channel": "랜더쏭",
+      "publishedAt": "2025-09-21T06:55:38-07:00",
+      "descriptionSummary": "SSG판에 삽입되는 질문형 도입·구단명·반복 추임새를 확인할 수 있는 단독 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 도입 질문형 구호가 시작되는 지점을 따로 표시한다.",
+        "무가사 합창이 길게 이어지는 구간을 참여 포인트로 공유한다."
+      ],
+      "supports": ["ssgVersionYear", "adaptationForm", "lyricsStructure"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-apartment-comeback-2025",
+      "songId": "ssg-landers-apartment",
+      "url": "https://www.youtube.com/watch?v=jS7YByHfbKs",
+      "videoId": "jS7YByHfbKs",
+      "title": "SSG랜더스를 이끄는 최정의 홈런&기적같은 역전에 아파트까지 세운 열광의 랜더스 필드 직캠",
+      "channel": "여뀌뀌",
+      "publishedAt": "2025-06-27T07:38:02-07:00",
+      "descriptionSummary": "최정의 추격 홈런, 박성한의 밀어내기, 오태곤의 역전 타점 뒤 아파트로 이어지는 2025년 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직접 관람자들은 역전 과정과 합창의 열기가 매우 컸다고 회상한다.",
+        "현장에 가지 못한 시청자들은 영상으로 분위기를 확인했다는 반응을 남긴다.",
+        "경기 흐름 전체를 투혼과 연결해 기억하는 반응이 보인다."
+      ],
+      "supports": ["ssgVersionYear", "earliestDirectSsgEvidence", "documentedUsage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-crooked-2026",
+      "songId": "ssg-landers-crooked",
+      "url": "https://www.youtube.com/watch?v=eY6f-lNdunI",
+      "videoId": "eY6f-lNdunI",
+      "title": "SSG랜더스 마드리스 적시타 순간 + 삐딱하게 20260724",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-07-25T00:30:41-07:00",
+      "descriptionSummary": "2026년 7월 24일 마드리스의 적시타 직후 삐딱하게를 사용한 현장 영상이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["currentUse", "documentedUsage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-crooked-2025",
+      "songId": "ssg-landers-crooked",
+      "url": "https://www.youtube.com/watch?v=B2pUlExa7gc",
+      "videoId": "B2pUlExa7gc",
+      "title": "SSG랜더스 최정 홈런 순간 + \"삐딱하게\" 20250905",
+      "channel": "DJ Landers",
+      "publishedAt": "2025-09-05T10:08:24-07:00",
+      "descriptionSummary": "최정의 홈런이 승부에 쐐기를 박은 뒤 삐딱하게로 이어지는 2025년 9월 현장 영상이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["documentedUsage", "adaptationForm"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-crooked-2024",
+      "songId": "ssg-landers-crooked",
+      "url": "https://www.youtube.com/watch?v=9WrBg6MtM4I",
+      "videoId": "9WrBg6MtM4I",
+      "title": "SSG랜더스 팀 응원가 \"삐딱하게\" + \"랜더스의 승리위해\" 20240622",
+      "channel": "DJ Landers",
+      "publishedAt": "2024-06-22T09:22:43-07:00",
+      "descriptionSummary": "2024년 6월 삐딱하게와 랜더스의 승리 위해를 연속 사용한 팀 응원 현장이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["documentedUsage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-crooked-2023",
+      "songId": "ssg-landers-crooked",
+      "url": "https://www.youtube.com/watch?v=dRc9c_WOR_I",
+      "videoId": "dRc9c_WOR_I",
+      "title": "오늘밤은 삐딱하게😎 4회 SSG 역전 후에 부르는 삐딱하게 & 라인업송 후렴구 떼창 응원 (2023.07.21 vs LG)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2023-07-21T07:05:42-07:00",
+      "descriptionSummary": "2023년 7월 21일 LG전 4회 역전 뒤 삐딱하게와 라인업송 후렴을 합창한 장면이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["documentedUsage"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-crooked-return-2022-a",
+      "songId": "ssg-landers-crooked",
+      "url": "https://www.youtube.com/watch?v=iLd6C_l4oQU",
+      "videoId": "iLd6C_l4oQU",
+      "title": "220806 SSG 11회 끝내기 + 돌아온 삐딱하게 응원",
+      "channel": "크보 CAM",
+      "publishedAt": "2022-08-06T11:18:36-07:00",
+      "descriptionSummary": "2022년 8월 6일 삼성전 11회 말 끝내기 폭투 뒤 돌아온 삐딱하게 응원을 담았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 이 곡을 SK 시절부터 있던 응원가의 부활로 인식한다.",
+        "직접 관람자는 경기장에서 다시 들어 반가웠다고 회상한다.",
+        "같은 계승곡인 불티의 복귀도 바란다는 반응이 함께 나타난다."
+      ],
+      "supports": ["ssgRevival", "adaptationForm", "trivia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-crooked-return-2022-b",
+      "songId": "ssg-landers-crooked",
+      "url": "https://www.youtube.com/watch?v=ca6_QfbIwZk",
+      "videoId": "ca6_QfbIwZk",
+      "title": "20220806 ssg vs 삼성 11회말 김민식 타석 끝내기 폭투(+ 삐딱하게 부활)",
+      "channel": "종우너",
+      "publishedAt": "2022-08-06T07:03:22-07:00",
+      "descriptionSummary": "같은 2022년 8월 6일 경기의 끝내기 폭투와 삐딱하게 부활 장면을 다른 위치에서 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 부활 자체를 반기는 반응이 중심이다.",
+        "팬 의견을 현장 운영에 잘 반영했다는 평가가 보인다."
+      ],
+      "supports": ["ssgRevival", "trivia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-crooked-ks6-2022",
+      "songId": "ssg-landers-crooked",
+      "url": "https://www.youtube.com/watch?v=Jr1RMVwV3Uk",
+      "videoId": "Jr1RMVwV3Uk",
+      "title": "[KS6] 김성현 역전 적시타 직캠 | 삐딱하게 떼창 | 한국시리즈 6차전",
+      "channel": "크보 CAM",
+      "publishedAt": "2022-11-08T06:22:12-08:00",
+      "descriptionSummary": "2022 한국시리즈 6차전 김성현의 역전 적시타 직후 삐딱하게 떼창이 이어지는 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "현장 관람자는 적시타 순간과 합창의 실제 함성이 녹음보다 훨씬 컸다고 회상한다.",
+        "일부 댓글은 한국시리즈 응원 연출 전반을 과거 시즌과 비교한다."
+      ],
+      "supports": ["postseasonUse", "adaptationForm", "trivia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-ssg-e-crooked-sk-2017",
+      "songId": "ssg-landers-crooked",
+      "url": "https://www.youtube.com/watch?v=K7HLRIdE_Fs",
+      "videoId": "K7HLRIdE_Fs",
+      "title": "[20170901] SK 와이번스 삐딱하게",
+      "channel": "포유군",
+      "publishedAt": "2017-09-08T21:34:04-07:00",
+      "descriptionSummary": "이승엽의 문학경기장 마지막 경기였던 2017년 9월 1일 SK 와이번스의 삐딱하게 응원을 촬영했다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["skLineage"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 2,
+    "youtubeSampleCount": 13,
+    "songsMeetingYoutubeMinimum": 2,
+    "openIssueCount": 9
+  }
+}

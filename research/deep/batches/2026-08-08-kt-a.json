@@ -1,0 +1,1441 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kt-a",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kt-wiz",
+    "name": "kt wiz",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 가사는 공식·합법 출처와 구조·주제만 기록하고, 공개 댓글은 작성자 정보와 원문 인용을 배제한 반복 반응만 요약한다.",
+  "items": [
+    {
+      "id": "kt-wiz-lineup-song",
+      "title": "라인업송",
+      "aliases": [
+        "지금부터 시작이야"
+      ],
+      "currentStatus": "current",
+      "summary": "kt wiz의 1군 첫 시즌인 2015년부터 사용한 라인업 소개곡으로, 김상민의 드라마 ‘다모’ OST ‘숙명’을 개사한 곡이다. 홈에서는 1회초 종료 뒤, 원정에서는 1회초 첫 타자 입장 무렵 선수와 투수를 차례로 부른다. 2022·2024 포스트시즌과 2026 개막 현장까지 직접 영상이 이어진다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "김상민의 ‘숙명(宿命)’(드라마 ‘다모’ OST) 선율·MR을 사용한 개사 응원가",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "ev-kt-a-bugs-destiny",
+            "yt-kt-a-lineup-audio-2025"
+          ],
+          "notes": "원곡 정보와 팬들의 선율 인식은 일치한다. 구단과 원권리자 사이의 정확한 라이선스 계약 범위는 공개되지 않았다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2015",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers"
+          ],
+          "notes": "현행 응원가 문서는 2015년부터라고 기록한다. 이번에 확보한 가장 오래된 직접 영상은 2022년이므로 최초 사용일은 별도 미확정이다."
+        },
+        {
+          "field": "usageContext",
+          "value": "홈 1회초 종료 뒤 또는 원정 1회초 시작 직후 타순 1~9번과 선발투수를 차례로 소개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "yt-kt-a-lineup-final-2022",
+            "yt-kt-a-lineup-postseason-2024",
+            "yt-kt-a-lineup-opening-a-2026"
+          ],
+          "notes": "문서 설명과 경기 초반 전체 직캠이 일치한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026년 개막전·개막 시리즈에서 직접 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kt-a-lineup-opening-a-2026",
+            "yt-kt-a-lineup-opening-b-2026"
+          ],
+          "notes": "구단 2026 공식 팀 응원가 영상 설명에는 독립 챕터가 없지만 날짜가 특정된 두 현장 영상으로 현재성을 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "경기 첫 공격을 앞두고 선발 타순과 투수를 관중에게 소개",
+        "포스트시즌 원정석에서 첫 대규모 떼창을 여는 곡",
+        "선수 이름 사이에 팀 구호를 반복해 경기 시작 분위기를 조성"
+      ],
+      "trivia": [
+        {
+          "id": "lineup-survived-rights-dispute",
+          "summary": "현행 문서는 2018년 KBO 응원가 저작권 분쟁 때도 바뀌지 않은 창단 초기 곡 가운데 하나로 서술한다. 다른 KT 곡 다수가 중단·재도입된 것과 대비된다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers"
+          ]
+        },
+        {
+          "id": "lineup-damo-recognition",
+          "summary": "최근 단독 영상 댓글에서도 ‘다모’ 음악이 이렇게 바뀌었다는 반응과 KBO 라인업송 가운데 특히 좋다는 평가가 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kt-a-lineup-audio-2025"
+          ]
+        },
+        {
+          "id": "lineup-postseason-scale",
+          "summary": "2024 준플레이오프·와일드카드 원정석 영상은 정규시즌보다 큰 관중 떼창으로 기록돼, KT 팬층 증가를 체감하는 자료로 자주 소비된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kt-a-lineup-postseason-2024",
+            "yt-kt-a-lineup-wildcard-2024"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-adaptation-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.ktwiz.co.kr/player/song",
+          "https://www.namu.moe/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://music.bugs.co.kr/artist/4487"
+        ],
+        "structureSummary": "경기 시작과 관중의 하나 됨을 선언하는 도입 뒤 1번부터 9번 타자와 투수를 차례로 호명하고, 팀명 철자 구호와 첫 문장을 다시 반복해 마친다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-a-lineup-final-2022",
+        "yt-kt-a-lineup-field-2023",
+        "yt-kt-a-lineup-postseason-2024",
+        "yt-kt-a-lineup-wildcard-2024",
+        "yt-kt-a-lineup-audio-2025",
+        "yt-kt-a-lineup-opening-a-2026",
+        "yt-kt-a-lineup-opening-b-2026"
+      ],
+      "unresolved": [
+        "2015년 최초 경기장 사용일과 당시 공식 공개 자료",
+        "개사·편곡·보컬의 공식 세부 크레딧",
+        "원곡 MR 및 가사 외부 재사용 허락 범위",
+        "홈·원정에서 우천취소·더블헤더 등 예외 운용 규칙"
+      ]
+    },
+    {
+      "id": "kt-wiz-fighting-song",
+      "title": "투혼가",
+      "aliases": [
+        "KT 투혼가"
+      ],
+      "currentStatus": "current",
+      "summary": "에일리가 부른 2014 브라질 월드컵 붉은악마 공식 응원가 ‘투혼가’를 kt wiz용으로 개사해 2016년부터 사용한 팀 응원가다. 구단 아카이브 영상과 2019 팬 영상 공통 목록에서 이어지며 2026년 3월 29일 치어리더·김주일 응원단장의 직접 공연까지 확인된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "에일리의 2014 브라질 월드컵 붉은악마 공식 응원가 ‘투혼가’ 개사",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "ev-kt-a-ailee-fighting-song",
+            "ev-kt-a-red-devils-production"
+          ],
+          "notes": "동명 원곡의 공식 용도와 가수를 동시대 기사로 확인했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2016",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kt-a-fighting-official-2016",
+            "ev-kt-a-namu-cheers"
+          ],
+          "notes": "구단 공식 아카이브 영상 제목이 2016시즌과 2016년 4월 9일을 직접 명시한다. 영상 업로드 자체는 2018년의 아카이브 이관이다."
+        },
+        {
+          "field": "officialPerformerVersion",
+          "value": "박수미 아나운서 보컬 버전이 알려져 있으며 응원단 안무와 함께 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "yt-kt-a-fighting-official-cheer",
+            "yt-kt-a-fighting-field-2023"
+          ],
+          "notes": "2019 재녹음 서술은 커뮤니티 문서에 의존하며 음원 크레딧 원문을 추가 확인해야 한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 치어리더 공연 및 2026 팬 현행 플레이리스트에서 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kt-a-fighting-field-2025",
+            "yt-kt-a-fighting-field-2026",
+            "yt-kt-a-fighting-playlist-2026"
+          ],
+          "notes": "2026 구단 공식 전곡 영상 설명에는 빠졌지만 3월 29일 날짜 특정 직캠이 실제 현행 사용을 직접 보여준다."
+        }
+      ],
+      "usageContexts": [
+        "공수교대·열광응원 시간의 치어리더 군무",
+        "응원단장 선창과 관중의 팀명·승리 구호 후창",
+        "홈·원정에서 팀의 투혼과 전진을 강조하는 중간 길이 팀 응원"
+      ],
+      "trivia": [
+        {
+          "id": "fighting-song-official-archive",
+          "summary": "구단 영상은 2018년에 업로드됐지만 제목에 2016시즌과 촬영일을 남긴다. 게시일만 보고 2018년 도입곡으로 잘못 기록하면 안 된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kt-a-fighting-official-2016"
+          ]
+        },
+        {
+          "id": "fighting-song-requested-version",
+          "summary": "2025 팬 플레이리스트 댓글에서는 박수미 보컬 버전 전체 음원이나 새 버전을 원한다는 요청이 반복돼 특정 보컬 버전이 팬 기억에 강하게 남아 있음을 보여준다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kt-a-fighting-playlist-2026"
+          ]
+        },
+        {
+          "id": "fighting-song-current-despite-omission",
+          "summary": "구단 2026 공식 영상의 15개 챕터에는 없지만 바로 다음 주말 직접 공연이 남아 있다. 공식 플레이리스트 미수록을 폐지로 간주하면 안 되는 대표 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-official-2026-playlist",
+            "yt-kt-a-fighting-field-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-cheer-song-adaptation-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.ktwiz.co.kr/player/song",
+          "https://www.namu.moe/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.tenasia.co.kr/article/2014040342274"
+        ],
+        "structureSummary": "전진과 투혼을 촉구하는 벌스, 팀명과 승리를 반복하는 강한 후렴, 박수·팔 동작에 맞춘 짧은 구호가 이어지는 약 1분 30초 안무형 구성이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-a-fighting-official-2016",
+        "yt-kt-a-fighting-official-cheer",
+        "yt-kt-a-fighting-mv-2023",
+        "yt-kt-a-fighting-field-2023",
+        "yt-kt-a-fighting-field-2025",
+        "yt-kt-a-fighting-field-2026",
+        "yt-kt-a-fighting-playlist-2026"
+      ],
+      "unresolved": [
+        "KT 개사·편곡·재녹음의 공식 제작자 전체 크레딧",
+        "박수미 보컬 초판과 2019 재녹음판의 음원 차이",
+        "정규시즌 고정 이닝·상황과 경기별 선곡 빈도",
+        "원곡·개사 가사와 음원의 외부 재사용 허락 범위"
+      ]
+    },
+    {
+      "id": "kt-wiz-ai-higher",
+      "title": "AI 응원곡 더 높은 곳으로",
+      "aliases": [
+        "더 높은 곳으로",
+        "To the Higher Place"
+      ],
+      "currentStatus": "official-release-not-regular-game-song",
+      "summary": "KT WIZ 응원단과 지니뮤직이 AI 작곡으로 제작해 2021년 10월 25일 발매한 공식 음원이다. 김주일이 작사하고 D.June이 편곡했으며 최예민이 노래했다. 응원단 공연·팬 플레이리스트와 오프사이트 응원전 표본은 있으나 현행 문서는 경기 중 사용된 적이 없다고 적고 2025·2026 공식/현행 목록에서도 빠져, ‘현재 사용곡’ 인벤토리에서는 제외 후보로 판정했다.",
+      "claims": [
+        {
+          "field": "release",
+          "value": "2021-10-25 ‘AI 응원가 - 더 높은 곳으로’ 앨범의 타이틀곡으로 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-genie-ai-album",
+            "yt-kt-a-higher-topic-2021"
+          ],
+          "notes": "지니 앨범과 공식 유통 Topic의 날짜가 일치한다."
+        },
+        {
+          "field": "credits",
+          "value": "AI 작곡, 작사 김주일 응원단장, 편곡 D.June, 보컬 최예민, 믹싱·마스터링 정윤재",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-genie-ai-album"
+          ],
+          "notes": "지니 앨범 소개가 트랙별 크레딧을 제공한다. AI 시스템·모델명은 공개하지 않는다."
+        },
+        {
+          "field": "intendedTheme",
+          "value": "2020년 성적을 넘어 더 높이 비상하자는 수원·KT의 밝은 애니메이션풍 응원곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-genie-ai-album"
+          ],
+          "notes": "앨범 소개를 요약했다."
+        },
+        {
+          "field": "regularGameUse",
+          "value": "응원단 공연과 외부 응원전에는 등장하지만 정규 경기 중 고정 사용은 확인되지 않으며 현행곡에서 제외할 가능성이 높음",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "yt-kt-a-higher-cheer-2021",
+            "yt-kt-a-higher-playlist-2024",
+            "yt-kt-a-higher-offsite-2024",
+            "ev-kt-a-official-2026-playlist"
+          ],
+          "notes": "현행 문서는 경기 중 사용 이력이 없다고 서술한다. 2021 영상 제목은 응원단 공연을 가리키지만 경기 내 선곡인지 확인되지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "2021 AI 응원가 프로젝트의 공식 디지털 음원",
+        "레이디위즈 응원단 공연과 팬 제작 음원 플레이리스트",
+        "2024 수원 지역 식당의 포스트시즌 단체 응원 행사",
+        "정규 경기장 고정곡이 아니라 홍보·이벤트성 레퍼토리로 추정"
+      ],
+      "trivia": [
+        {
+          "id": "higher-ai-project",
+          "summary": "코로나19로 육성응원이 제한되던 시기에 박수곡 ‘Everybody Clap’과 한 앨범으로 제작됐다. 구단·지니뮤직이 AI 작곡을 전면에 내세운 이른 스포츠 응원곡 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-genie-ai-album"
+          ]
+        },
+        {
+          "id": "higher-title-translation",
+          "summary": "한국어 제목은 ‘더 높은 곳으로’지만 공식 YouTube 유통 메타데이터는 ‘To the Higher Place’로 번역해 노출한다. 두 표기를 검색 별칭으로 함께 보존했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kt-a-higher-topic-2021"
+          ]
+        },
+        {
+          "id": "higher-inventory-correction",
+          "summary": "초기 제목 인벤토리는 문서의 현행 구획만 보고 이 곡을 현재 사용곡으로 포함했지만, 심층 검토에서는 경기 사용 부재 서술과 최근 공식 목록 누락 때문에 제외 후보가 됐다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "ev-kt-a-official-2026-playlist",
+            "yt-kt-a-higher-playlist-2024"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-official-ai-assisted-song-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.genie.co.kr/detail/albumInfo?axnm=82348096",
+          "https://www.youtube.com/watch?v=fa6oQb-GF5E",
+          "https://www.namu.moe/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "승리를 향해 나가자는 도입, 더 높은 곳으로 비상하자는 핵심 후렴, 수원의 자부심과 전진을 강조하는 짧은 중간부 뒤 도입·후렴을 반복하는 46초 구성이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-a-higher-cheer-2021",
+        "yt-kt-a-higher-topic-2021",
+        "yt-kt-a-higher-opening-sketch-2022",
+        "yt-kt-a-higher-playlist-2024",
+        "yt-kt-a-higher-offsite-2024"
+      ],
+      "unresolved": [
+        "AI 작곡에 사용된 모델·학습 데이터·인간 작곡 개입 범위",
+        "2021 응원단 영상이 정규 경기 중 선곡인지 별도 공연인지",
+        "실제 KBO 경기 중 단 한 차례라도 사용됐는지 여부",
+        "구단이 공식 음원을 현재 응원곡 목록에서 유지하는지와 외부 재사용 허락 범위"
+      ]
+    },
+    {
+      "id": "kt-wiz-dont-stop",
+      "title": "DON_T STOP KT",
+      "aliases": [
+        "Don't Stop KT",
+        "Don`t Stop KT"
+      ],
+      "currentStatus": "low-frequency-current-status-contested",
+      "summary": "Queen의 ‘Don't Stop Me Now’를 짧게 개사한 창단 초기 KT 팀 응원가다. 현행 문서는 2015~2017년 사용, 2018년 중단, 2022년 5월 부활 뒤 저빈도 사용으로 적지만 2019년 두 응원가 모음에도 직접 수록돼 연혁이 충돌한다. 2024~2026 팬 현행 모음에는 계속 남으나 구단 공식 2024·2026 핵심 목록에서는 빠져 저빈도·간헐곡으로 분류했다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Queen의 ‘Don't Stop Me Now’ 핵심 선율을 사용한 개사 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "ev-kt-a-queen-official",
+            "yt-kt-a-dont-original-playlist-2024"
+          ],
+          "notes": "팬 원곡 모음과 공식 원곡을 함께 대조했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2015",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers"
+          ],
+          "notes": "창단 초기부터라는 커뮤니티 기록이며 2015~2017 직접 영상을 추가 확보해야 한다."
+        },
+        {
+          "field": "revivalHistory",
+          "value": "문서는 2018 중단·2022년 5월 부활이라 적지만 2019 응원가 모음 두 편에 이미 수록",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "yt-kt-a-dont-compilation-a-2019",
+            "yt-kt-a-dont-compilation-b-2019"
+          ],
+          "notes": "2019 영상이 그해 실제 현장 촬영인지 과거 자료 혼합인지 더 확인해야 하므로 어느 연혁도 삭제하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024~2026 팬 플레이리스트에는 있으나 구단 공식 목록에서는 빠진 저빈도·간헐 사용 후보",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kt-a-dont-playlist-2024",
+            "yt-kt-a-dont-playlist-a-2025",
+            "yt-kt-a-dont-playlist-b-2025",
+            "yt-kt-a-dont-playlist-2026",
+            "ev-kt-a-official-2026-playlist"
+          ],
+          "notes": "2026 팬 목록 수록은 존재하지만 날짜 특정 2026 현장 직캠에서 독립 확인하지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "공수교대·열광응원에서 빠르게 팀명과 승리 구호를 외치는 짧은 곡",
+        "최근에는 팬 제작 장시간 플레이리스트에 보존되는 저빈도 레퍼토리",
+        "원곡 인지도가 높아 처음 듣는 관중도 후렴을 쉽게 따라 하는 곡"
+      ],
+      "trivia": [
+        {
+          "id": "dont-title-underscore",
+          "summary": "현행 문서 표제는 아포스트로피 대신 밑줄을 쓴 ‘DON_T STOP KT’지만 영상은 Don't, Don`t, Don’t를 섞어 쓴다. 문서 표제를 기본으로 두고 모든 검색 표기를 별칭으로 보존했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "yt-kt-a-dont-compilation-a-2019",
+            "yt-kt-a-dont-playlist-2026"
+          ]
+        },
+        {
+          "id": "dont-2019-conflict",
+          "summary": "2018 중단 뒤 2022 부활이라는 널리 퍼진 연혁과 달리 2019년 두 모음이 곡을 응원곡으로 명시한다. 과거 영상 재사용 가능성을 확인하기 전에는 2019 사용을 확정 연혁으로 승격하지 않았다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kt-a-dont-compilation-a-2019",
+            "yt-kt-a-dont-compilation-b-2019",
+            "ev-kt-a-namu-cheers"
+          ]
+        },
+        {
+          "id": "dont-official-fan-gap",
+          "summary": "2026 팬 모음에는 일반 팀 응원가 구획으로 들어가지만 구단 공식 2026 전곡 영상에는 없다. KT의 ‘공식 전곡’ 영상도 실제 저빈도 곡을 모두 담지 않을 수 있음을 보여주는 검토 대상이다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kt-a-dont-playlist-2026",
+            "ev-kt-a-official-2026-playlist"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-adaptation-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.ktwiz.co.kr/player/song",
+          "https://www.namu.moe/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=HgzGwKwLmgM"
+        ],
+        "structureSummary": "원곡의 빠른 후렴 선율 위에 팀명·승리·열광·하나 됨을 짧게 반복하고, 관중에게 더 크게 외치라고 유도한 뒤 팀명 모음창으로 끝난다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-a-dont-compilation-a-2019",
+        "yt-kt-a-dont-compilation-b-2019",
+        "yt-kt-a-dont-original-playlist-2024",
+        "yt-kt-a-dont-playlist-2024",
+        "yt-kt-a-dont-playlist-a-2025",
+        "yt-kt-a-dont-playlist-b-2025",
+        "yt-kt-a-dont-playlist-2026"
+      ],
+      "unresolved": [
+        "2019 영상의 곡 장면이 그해 신규 현장 촬영인지 과거 영상 재사용인지",
+        "2022년 5월 부활 경기의 날짜·직접 영상",
+        "2026 정규시즌 실제 선곡 횟수와 최근 직접 현장 영상",
+        "개사·편곡 크레딧 및 원곡·개사 외부 재사용 허락 범위"
+      ]
+    },
+    {
+      "id": "kt-wiz-forever",
+      "title": "kt wiz 영원하리라",
+      "aliases": [
+        "KT WIZ 영원하리라",
+        "kt wiz 영원하라"
+      ],
+      "currentStatus": "current",
+      "summary": "Aphrodite's Child의 1968년 곡 ‘Rain and Tears’를 웅장한 팀 합창으로 바꾼 창단 초기 응원가다. 2015~2017년 사용 후 2018년 저작권 분쟁으로 중단됐다가 2019년 부활한 것으로 기록되며, 후반부 스탠딩 응원과 분위기 환기에 쓰인다. 2024·2026 구단 공식 영상과 2025 현장 영상까지 이어진다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Aphrodite's Child의 ‘Rain and Tears’를 사용한 개사·편곡 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "ev-kt-a-rain-and-tears",
+            "yt-kt-a-dont-original-playlist-2024"
+          ],
+          "notes": "원곡은 파헬벨 캐논 라장조 진행을 활용하므로 팬들이 캐논을 직접 원곡으로 부르기도 하지만 직접 상업 원곡은 Rain and Tears로 구분한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2015",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "ev-kt-a-readonly-history",
+            "yt-kt-a-forever-audio-2016"
+          ],
+          "notes": "문서 연혁과 2016 음원 영상이 일치한다. 정확한 첫 경기 날짜는 미확정이다."
+        },
+        {
+          "field": "revivalHistory",
+          "value": "2018년 권리 분쟁으로 중단 후 2019년부터 재사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "ev-kt-a-readonly-history",
+            "yt-kt-a-forever-field-2019"
+          ],
+          "notes": "2019년 3월 직접 현장 영상이 문서의 부활 연도와 일치한다."
+        },
+        {
+          "field": "usageContext",
+          "value": "경기 후반 스탠딩 응원을 격려하거나 뒤지는 경기의 분위기를 환기",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-namu-cheers",
+            "yt-kt-a-forever-postseason-2024"
+          ],
+          "notes": "현행 문서의 운용 설명과 포스트시즌 후반부 타임라인을 대조했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024·2026 구단 공식 플레이리스트 및 2025 현장 영상으로 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kt-a-forever-official-2024",
+            "yt-kt-a-forever-field-2025",
+            "yt-kt-a-forever-official-2026"
+          ],
+          "notes": "공식 영상 두 시즌과 날짜 특정 현장 영상이 함께 있다."
+        }
+      ],
+      "usageContexts": [
+        "4회말 이후 경기 후반부 열광응원",
+        "이기고 있을 때 관중 스탠딩 응원을 끌어올리는 격려곡",
+        "지고 있을 때도 분위기를 환기하는 장중한 팀 합창",
+        "포스트시즌 원정석 대규모 떼창"
+      ],
+      "trivia": [
+        {
+          "id": "forever-canon-lineage",
+          "summary": "Rain and Tears 자체가 파헬벨의 캐논 라장조를 바탕으로 해, 팬들은 KT 응원가의 원곡을 캐논으로 기억하기도 한다. 데이터에는 직접 차용곡과 더 먼 음악적 원형을 나눠 적었다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kt-a-rain-and-tears",
+            "ev-kt-a-namu-cheers"
+          ]
+        },
+        {
+          "id": "forever-live-skip",
+          "summary": "2017년 라이브 콘서트 영상에서는 보컬이 가사 한 구간을 건너뛰어 당황했다는 현장 댓글이 남아 있다. 정규 음원과 라이브 변형을 혼동하지 않도록 별도 여담으로만 보존했다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kt-a-forever-live-2017"
+          ]
+        },
+        {
+          "id": "forever-title-variant",
+          "summary": "일부 2019 모음은 ‘영원하라’로 적지만 구단 2024·2026 공식 영상은 ‘kt wiz 영원하리라’를 쓴다. 공식 최신 표기를 기본 제목으로 유지했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kt-a-dont-compilation-b-2019",
+            "yt-kt-a-forever-official-2024",
+            "yt-kt-a-forever-official-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-adaptation-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.ktwiz.co.kr/player/song",
+          "https://www.namu.moe/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://music.apple.com/us/song/1443918869"
+        ],
+        "structureSummary": "팀명 철자와 영원함을 끊어 외치는 도입 뒤, 팀이 영원하리라는 핵심 문장과 모음창을 두 차례 반복한다. 원곡의 서정적 진행을 느리고 웅장한 스탠딩 합창으로 바꾼 짧은 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kt-a-forever-audio-2016",
+        "yt-kt-a-forever-live-2017",
+        "yt-kt-a-forever-field-2019",
+        "yt-kt-a-forever-field-2023",
+        "yt-kt-a-forever-official-2024",
+        "yt-kt-a-forever-postseason-2024",
+        "yt-kt-a-forever-field-2025",
+        "yt-kt-a-forever-official-2026"
+      ],
+      "unresolved": [
+        "KT판 개사·편곡·보컬의 공식 전체 크레딧",
+        "2015년 최초 사용일과 2018 중단의 정확한 기간",
+        "현재 홈·원정 고정 이닝 및 선곡 빈도",
+        "원곡·개사 가사와 음원의 외부 재사용 허락 범위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kt-a-official-song-page",
+      "type": "official",
+      "url": "https://www.ktwiz.co.kr/player/song",
+      "title": "kt wiz 응원가",
+      "publisher": "kt wiz",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "구단의 현행 응원가 페이지다. 자바스크립트 앱이라 텍스트 수집기에서는 상세 목록이 노출되지 않아 존재·공식성 확인과 가사 원문 연결에만 쓰고, 현재성은 공식 YouTube와 현장 영상으로 교차했다.",
+      "supports": [
+        "organization.officialSongArchive",
+        "coverage.lyricsSources"
+      ]
+    },
+    {
+      "id": "ev-kt-a-official-2026-playlist",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=2kJf0pbtajA",
+      "title": "직관 전 필수시청 2026 kt wiz 응원가 전곡 플레이리스트",
+      "publisher": "kt wiz - 위즈TV",
+      "publishedAt": "2026-03-23",
+      "accessedAt": "2026-08-08",
+      "summary": "구단은 2026 팀·상황·선수 응원가를 35분 영상으로 공개한다. 이 배치에서는 kt wiz 영원하리라만 1분 39초에 명시되고, 라인업송·투혼가·더 높은 곳으로·DON_T STOP KT는 설명 타임라인에 없다. 직접 현장 자료가 있는 곡은 누락만으로 폐지 판정하지 않았다.",
+      "supports": [
+        "kt-wiz-lineup-song.currentUseCaveat",
+        "kt-wiz-fighting-song.currentUseCaveat",
+        "kt-wiz-ai-higher.regularGameUse",
+        "kt-wiz-dont-stop.currentUse",
+        "kt-wiz-forever.currentUse"
+      ]
+    },
+    {
+      "id": "ev-kt-a-namu-cheers",
+      "type": "namuwiki-mirror",
+      "url": "https://www.namu.moe/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "kt wiz/응원가",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "라인업송·투혼가·더 높은 곳으로·DON_T STOP KT·kt wiz 영원하리라의 원곡, 도입·중단·부활 연도와 사용 상황을 확인했다. 더 높은 곳으로는 경기 중 미사용, DON_T STOP KT는 2022 부활 뒤 저빈도라는 서술을 공식·현장 영상과 교차했다.",
+      "supports": [
+        "kt-wiz-lineup-song.origin",
+        "kt-wiz-lineup-song.introductionYear",
+        "kt-wiz-lineup-song.usageContext",
+        "kt-wiz-fighting-song.origin",
+        "kt-wiz-fighting-song.introductionYear",
+        "kt-wiz-ai-higher.regularGameUse",
+        "kt-wiz-dont-stop.origin",
+        "kt-wiz-dont-stop.revivalHistory",
+        "kt-wiz-forever.origin",
+        "kt-wiz-forever.revivalHistory",
+        "kt-wiz-forever.usageContext"
+      ]
+    },
+    {
+      "id": "ev-kt-a-readonly-history",
+      "type": "namuwiki-archive-mirror",
+      "url": "https://readonly.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "kt wiz/응원가",
+      "publisher": "읽기전용위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "과거 문서 보존본은 kt wiz 영원하리라의 원곡을 Rain and Tears로 적고, 2018 중단·2019 재사용 및 4회말 이후 열광응원 사용을 기록한다. 현행 정보가 아니라 부활 연혁 교차에만 썼다.",
+      "supports": [
+        "kt-wiz-forever.origin",
+        "kt-wiz-forever.revivalHistory",
+        "kt-wiz-forever.usageContext"
+      ]
+    },
+    {
+      "id": "ev-kt-a-genie-ai-album",
+      "type": "music-service",
+      "url": "https://www.genie.co.kr/detail/albumInfo?axnm=82348096",
+      "title": "AI 응원가 - 더 높은 곳으로",
+      "publisher": "지니뮤직",
+      "publishedAt": "2021-10-25",
+      "accessedAt": "2026-08-08",
+      "summary": "KT WIZ 응원단과 지니뮤직이 AI 작곡으로 만든 두 곡 앨범임을 밝힌다. 더 높은 곳으로의 발매일, 밝은 애니메이션풍과 수원의 자부심이라는 소개, 작사 김주일·편곡 D.June·보컬 최예민·믹싱/마스터링 정윤재 크레딧을 제공한다.",
+      "supports": [
+        "kt-wiz-ai-higher.release",
+        "kt-wiz-ai-higher.credits",
+        "kt-wiz-ai-higher.intendedTheme"
+      ]
+    },
+    {
+      "id": "ev-kt-a-bugs-destiny",
+      "type": "music-service",
+      "url": "https://music.bugs.co.kr/artist/4487",
+      "title": "김상민",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "김상민의 ‘숙명(宿命) (Rock ver.)’을 MBC 드라마 ‘조선 여형사 다모’ OST 수록곡으로 표시한다. KT 라인업송 원곡의 제목·가수·OST 계보 확인에 사용했다.",
+      "supports": [
+        "kt-wiz-lineup-song.origin"
+      ]
+    },
+    {
+      "id": "ev-kt-a-ailee-fighting-song",
+      "type": "news",
+      "url": "https://www.tenasia.co.kr/article/2014040342274",
+      "title": "에일리, 월드컵 응원가 ‘투혼가’ 불러",
+      "publisher": "텐아시아",
+      "publishedAt": "2014-04-03",
+      "accessedAt": "2026-08-08",
+      "summary": "에일리가 2014 브라질 월드컵 붉은악마 공식 응원가 ‘투혼가’를 불렀다고 보도한 동시대 기사다.",
+      "supports": [
+        "kt-wiz-fighting-song.origin"
+      ]
+    },
+    {
+      "id": "ev-kt-a-red-devils-production",
+      "type": "news",
+      "url": "https://www.yna.co.kr/view/AKR20140225188600005",
+      "title": "승리의 골을 위해 붉은악마 응원가 제작 현장",
+      "publisher": "연합뉴스",
+      "publishedAt": "2014-02-25",
+      "accessedAt": "2026-08-08",
+      "summary": "붉은악마가 기획·제작하고 KT가 후원한 2014 공식 응원가 앨범에서 에일리가 자신의 응원곡을 녹음한 현장을 보도한다.",
+      "supports": [
+        "kt-wiz-fighting-song.origin",
+        "kt-wiz-fighting-song.trivia.originalSponsorConnection"
+      ]
+    },
+    {
+      "id": "ev-kt-a-queen-official",
+      "type": "official-music-video",
+      "url": "https://www.youtube.com/watch?v=HgzGwKwLmgM",
+      "title": "Queen - Don't Stop Me Now (Official Video)",
+      "publisher": "Queen Official",
+      "publishedAt": "2008-08-01",
+      "accessedAt": "2026-08-08",
+      "summary": "Queen 공식 채널의 원곡 영상은 곡이 1978년 앨범 ‘Jazz’ 수록곡임을 안내한다. KT판의 직접 선율 원곡 확인에 사용하고 가사는 저장하지 않았다.",
+      "supports": [
+        "kt-wiz-dont-stop.origin"
+      ]
+    },
+    {
+      "id": "ev-kt-a-rain-and-tears",
+      "type": "rights-holder-artist-page",
+      "url": "https://www.universalmusic.fr/artistes/20000024833",
+      "title": "Aphrodite's Child",
+      "publisher": "Universal Music France",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "아프로디테스 차일드의 Rain and Tears가 파헬벨 캐논 라장조의 주제를 바탕으로 반젤리스가 만든 곡임을 소개한다. KT 응원가의 직접 원곡과 더 먼 클래식 원형을 구분하는 근거다.",
+      "supports": [
+        "kt-wiz-forever.origin",
+        "kt-wiz-forever.trivia.forever-canon-lineage"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kt-a-lineup-final-2022",
+      "songId": "kt-wiz-lineup-song",
+      "url": "https://www.youtube.com/watch?v=v8hJC_vSq8Q",
+      "videoId": "v8hJC_vSq8Q",
+      "title": "[2022 KT 최종전] 지금부터 시작이야!! KT 라인업송 육성 떼창 응원 (2022.10.11)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2022-10-14",
+      "descriptionSummary": "2022년 10월 11일 KT 최종전의 라인업송 육성 응원을 1분 49초 현장 영상으로 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 이 경기 결과가 포스트시즌 대진에 미친 아쉬움과 촬영 위치를 이야기한다."
+      ],
+      "supports": [
+        "fieldUse2022",
+        "lineupUsage"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-lineup-field-2023",
+      "songId": "kt-wiz-lineup-song",
+      "url": "https://www.youtube.com/watch?v=7mwoWetwMeI",
+      "videoId": "7mwoWetwMeI",
+      "title": "[230402] kt위즈 라인업송~ 지금부터 시작이야~~",
+      "channel": "케이티조아",
+      "publishedAt": "2023-04-02",
+      "descriptionSummary": "2023년 4월 2일 경기의 라인업송을 99초로 촬영한 날짜 특정 현장 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 하트 반응 한 건뿐이다."
+      ],
+      "supports": [
+        "fieldUse2023"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-lineup-postseason-2024",
+      "songId": "kt-wiz-lineup-song",
+      "url": "https://www.youtube.com/watch?v=gFYqCIVRh_4",
+      "videoId": "gFYqCIVRh_4",
+      "title": "[2024 준PO 1차전] 지금부터 시작이야~!! 1회 KT 위즈 승리의 라인업송 떼창 현장 직캠",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2024-10-05",
+      "descriptionSummary": "2024년 10월 5일 준플레이오프 1차전 1회 KT 원정석 라인업송 떼창을 직접 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원정 포스트시즌 표를 구하기 어렵다는 반응과 라인업송 영상 업로드에 대한 감사가 있다."
+      ],
+      "supports": [
+        "postseasonUse",
+        "lineupTiming"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-lineup-wildcard-2024",
+      "songId": "kt-wiz-lineup-song",
+      "url": "https://www.youtube.com/watch?v=HGXiMJE5lnU",
+      "videoId": "HGXiMJE5lnU",
+      "title": "2024 와일드카드 최종전 KT 위즈 선수 & 팀 응원가 현장 직캠 45분 총모음",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2024-10-03",
+      "descriptionSummary": "2024 와일드카드 최종전 잠실 원정 응원 모음으로 라인업송이 시작 구간에 나온다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "KT 팬 증가와 큰 원정 응원 규모에 감동했다는 반응, 김주일 응원단장의 진행을 높이 평가하는 반응이 반복된다."
+      ],
+      "supports": [
+        "postseasonUse",
+        "fanGrowthReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-lineup-audio-2025",
+      "songId": "kt-wiz-lineup-song",
+      "url": "https://www.youtube.com/watch?v=og9d6a9-GuU",
+      "videoId": "og9d6a9-GuU",
+      "title": "ktwiz 라인업송 응원가ㅣ지금부터 시작이야",
+      "channel": "Baseball The Korea",
+      "publishedAt": "2025-03-21",
+      "descriptionSummary": "라인업송을 1분 48초 단독 음원·영상으로 편집한 팬 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡이 좋고 KBO 라인업송 가운데 특히 뛰어나다는 반응이 많다.",
+        "다모 OST가 응원가로 바뀐 점을 알아보는 댓글이 있다."
+      ],
+      "supports": [
+        "fanReception",
+        "originRecognition",
+        "lyricsStructure"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-lineup-opening-a-2026",
+      "songId": "kt-wiz-lineup-song",
+      "url": "https://www.youtube.com/watch?v=p0XswIf1kCA",
+      "videoId": "p0XswIf1kCA",
+      "title": "지금부터 시작이야 | KT 위즈 라인업송",
+      "channel": "즈위티이케",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "2026 KBO 개막을 앞두고 그 시즌 선수 해시태그와 함께 올린 1분 48초 라인업송 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "개막 경기에서 KT가 잘했다는 타 팀 팬 반응과 도입 효과음을 묻는 반응이 있다."
+      ],
+      "supports": [
+        "currentUse2026",
+        "currentRosterContext"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-lineup-opening-b-2026",
+      "songId": "kt-wiz-lineup-song",
+      "url": "https://www.youtube.com/watch?v=sXr3P4JxT38",
+      "videoId": "sXr3P4JxT38",
+      "title": "2026년 개막 KT위즈 라인업송",
+      "channel": "카쥬앙",
+      "publishedAt": "2026-04-05",
+      "descriptionSummary": "2026년 개막기 KT 라인업송을 직접 촬영한 92초 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "타 구단 팬이 원정 경기에서 듣고 중독됐다는 반응이 있다."
+      ],
+      "supports": [
+        "currentFieldUse2026",
+        "crossTeamReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-fighting-official-2016",
+      "songId": "kt-wiz-fighting-song",
+      "url": "https://www.youtube.com/watch?v=bsWBORqEjpI",
+      "videoId": "bsWBORqEjpI",
+      "title": "[wiz.ON] 2016시즌 kt wiz 투혼가 뮤직비디오 (16.04.09)",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2018-12-05",
+      "descriptionSummary": "구단 공식 아카이브가 2016시즌·2016년 4월 9일로 명명한 1분 33초 투혼가 뮤직비디오다. 업로드일은 아카이브 이관 시점이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원단·박수미 아나운서·김주일 단장에게 감사하고 곡이 좋다는 반응이 있다."
+      ],
+      "supports": [
+        "introductionYear",
+        "officialArchive",
+        "performerAttribution"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-fighting-official-cheer",
+      "songId": "kt-wiz-fighting-song",
+      "url": "https://www.youtube.com/watch?v=8QywmSZKrvY",
+      "videoId": "8QywmSZKrvY",
+      "title": "04.23 응원 with 투혼가",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2018-02-05",
+      "descriptionSummary": "구단 채널에 보존된 92초 응원단 투혼가 공연 영상이다. 제목의 4월 23일이 어느 해인지는 설명에서 확인되지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 KT를 응원하는 짧은 반응 한 건이다."
+      ],
+      "supports": [
+        "officialCheerPerformance",
+        "historicalUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-fighting-mv-2023",
+      "songId": "kt-wiz-fighting-song",
+      "url": "https://www.youtube.com/watch?v=eFW0hok-RFA",
+      "videoId": "eFW0hok-RFA",
+      "title": "KT 위즈 응원가｜투혼가｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2023-05-29",
+      "descriptionSummary": "투혼가를 KT 대표 명곡이라고 소개하는 1분 46초 팬 제작 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "타 구단 팬도 곡이 좋다고 평가하고 원곡·작곡자를 궁금해하는 반응이 있다."
+      ],
+      "supports": [
+        "fanReception",
+        "continuedCirculation2023"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-fighting-field-2023",
+      "songId": "kt-wiz-fighting-song",
+      "url": "https://www.youtube.com/watch?v=JmJ927fkMAE",
+      "videoId": "JmJ927fkMAE",
+      "title": "[4K] 230708 ktwiz 김진아 치어리더 (kt응원가 - 투혼가)",
+      "channel": "구운동마법사",
+      "publishedAt": "2023-07-08",
+      "descriptionSummary": "2023년 7월 8일 김진아 치어리더의 투혼가 안무를 4K로 촬영한 90초 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "치어리더 팬이 현장 영상을 반기는 반응이 중심이다."
+      ],
+      "supports": [
+        "fieldUse2023",
+        "cheerleaderChoreography"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-fighting-field-2025",
+      "songId": "kt-wiz-fighting-song",
+      "url": "https://www.youtube.com/watch?v=1igvhcvnkbM",
+      "videoId": "1igvhcvnkbM",
+      "title": "kt wiz 치어리더 투혼가 250426 4k",
+      "channel": "S깡통",
+      "publishedAt": "2025-06-06",
+      "descriptionSummary": "제목에 2025년 4월 26일을 명시한 네 명의 KT 치어리더 투혼가 안무 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원 안무와 네 치어리더 조합을 좋아한다는 반응이 있다."
+      ],
+      "supports": [
+        "fieldUse2025",
+        "choreography"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-fighting-field-2026",
+      "songId": "kt-wiz-fighting-song",
+      "url": "https://www.youtube.com/watch?v=1UP2n69QneI",
+      "videoId": "1UP2n69QneI",
+      "title": "kt wiz 치어리더 투혼가 (feat.김주일 응원단장) 260329 4k",
+      "channel": "S깡통",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026년 3월 29일 네 치어리더와 김주일 응원단장이 함께 진행한 투혼가 직접 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "안무를 좋아하고 승리를 반기는 반응, 같은 날 야구와 배구를 진행한 응원단장의 노고를 언급하는 반응이 있다."
+      ],
+      "supports": [
+        "currentFieldUse2026",
+        "cheerleaderPerformance",
+        "cheerLeaderPresence"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-fighting-playlist-2026",
+      "songId": "kt-wiz-fighting-song",
+      "url": "https://www.youtube.com/watch?v=Lw45jev4IxI",
+      "videoId": "Lw45jev4IxI",
+      "title": "[Playlist] kt wiz 2026 팀응원가 플레이리스트 (응원가 Only Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2026-04-17",
+      "descriptionSummary": "2026 팬 제작 팀 응원가 전용 모음에서 투혼가를 3분 37초, DON_T STOP KT를 30분 15초에 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관 준비·노동요로 이용한다는 반응과 투혼가 무한 반복·박수미 버전 전체 공개를 원하는 요청이 있다."
+      ],
+      "supports": [
+        "fanCurrentCatalog2026",
+        "versionDemand"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-higher-cheer-2021",
+      "songId": "kt-wiz-ai-higher",
+      "url": "https://www.youtube.com/watch?v=5-j3CYW8TrE",
+      "videoId": "5-j3CYW8TrE",
+      "title": "KT위즈@더높은곳을 향해서@레이디위즈 응원단@김한슬님@2021",
+      "channel": "sports응원 여행기",
+      "publishedAt": "2021-08-20",
+      "descriptionSummary": "2021년 레이디위즈 응원단과 ‘더 높은 곳’ 제목을 연결한 1분 40초 영상이다. 공식 음원 발매 전 게시물이라 실제 같은 곡인지 음원 대조가 더 필요하다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "possiblePreReleasePerformance",
+        "identityNeedsReview"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-higher-topic-2021",
+      "songId": "kt-wiz-ai-higher",
+      "url": "https://www.youtube.com/watch?v=fa6oQb-GF5E",
+      "videoId": "fa6oQb-GF5E",
+      "title": "To the Higher Place",
+      "channel": "Release - Topic",
+      "publishedAt": "2021-10-24",
+      "descriptionSummary": "지니뮤직이 제공한 자동 생성 공식 유통 영상으로 2021년 10월 25일 발매, 아티스트 KT WIZ, 저작권 표기 KT WIZ를 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "officialRelease",
+        "releaseDate",
+        "englishTitle"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-higher-opening-sketch-2022",
+      "songId": "kt-wiz-ai-higher",
+      "url": "https://www.youtube.com/watch?v=jDELR0wNzKE",
+      "videoId": "jDELR0wNzKE",
+      "title": "팬 여러분과 함께 다시 뜨겁게! kt wiz의 개막전 스케치",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2022-04-04",
+      "descriptionSummary": "구단 공식 2022 개막전 스케치는 팬과 함께 다시 더 높은 곳을 향하자는 문구를 쓴다. 설명에는 곡명이 없어 배경음 동일성은 추가 확인 대상으로 남겼다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 개막전 현장 복귀와 V2 도전을 반기며, 영상 속 마법의 성을 들은 경험도 이야기한다."
+      ],
+      "supports": [
+        "officialCampaignPhrase",
+        "audioIdentityUnresolved"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-higher-playlist-2024",
+      "songId": "kt-wiz-ai-higher",
+      "url": "https://www.youtube.com/watch?v=ISfiqt6wnAI",
+      "videoId": "ISfiqt6wnAI",
+      "title": "[Playlist] kt wiz 팀 응원가 모음 (최신곡 포함)",
+      "channel": "마법의 성",
+      "publishedAt": "2024-03-28",
+      "descriptionSummary": "2024 팬 제작 팀 응원가 모음은 더 높은 곳으로를 26분 4초에 독립 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 직관 준비와 노동요로 전체 목록을 사용하고, 특정 후렴의 중독성을 언급하지만 곡의 실제 현장 사용 증언은 없다."
+      ],
+      "supports": [
+        "fanCatalog2024",
+        "lyricsStructure"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-higher-offsite-2024",
+      "songId": "kt-wiz-ai-higher",
+      "url": "https://www.youtube.com/watch?v=BSySSTkNS80",
+      "videoId": "BSySSTkNS80",
+      "title": "더 높은곳으로@KT위즈 가을야구@통닭집 응원전@한슬님@예린님@추억",
+      "channel": "sports응원 여행기",
+      "publishedAt": "2024-10-21",
+      "descriptionSummary": "2024 포스트시즌 기간 수원 지역 통닭집 단체 응원전에서 응원단과 곡을 기록한 2분 48초 이벤트 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "촬영자는 구단 응원단이 참여한 지역 상생 응원전과 개인적 추억을 기록했다고 설명한다."
+      ],
+      "supports": [
+        "offsiteEventUse2024",
+        "nonGameUsage"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-dont-compilation-a-2019",
+      "songId": "kt-wiz-dont-stop",
+      "url": "https://www.youtube.com/watch?v=1ov6ThLwAYk",
+      "videoId": "1ov6ThLwAYk",
+      "title": "2019 kt wiz 응원가 총정리!",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2019-04-15",
+      "descriptionSummary": "2019 KT 선수·잔응원·응원곡 현장 정리 영상에서 Don't stop KT를 9분 22초에 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "KT 응원가가 좋고 동작이 쉬워 처음 직관한 타 팀 팬도 따라 하기 좋다는 반응이 많다.",
+        "김주일 응원단장의 선곡·제작 역량을 높이 평가하는 반응이 반복된다."
+      ],
+      "supports": [
+        "possibleUse2019",
+        "revivalHistoryConflict",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-dont-compilation-b-2019",
+      "songId": "kt-wiz-dont-stop",
+      "url": "https://www.youtube.com/watch?v=6xps1iAW_B8",
+      "videoId": "6xps1iAW_B8",
+      "title": "kt 응원가는 역시 야잘잘! 2019 kt wiz 응원가 이거면 끝",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2019-09-28",
+      "descriptionSummary": "2019 시즌 후반 응원가 모음이 Don`t stop kt를 10분 29초에 다시 싣는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "KT·타 구단 팬 모두 곡들의 중독성과 가을야구 열망을 이야기한다.",
+        "모바일 시청자를 위해 타임라인을 다시 정리한 댓글이 있어 제목 변형을 교차할 수 있다."
+      ],
+      "supports": [
+        "possibleUse2019",
+        "revivalHistoryConflict",
+        "titleVariant"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-dont-original-playlist-2024",
+      "songId": "kt-wiz-dont-stop",
+      "url": "https://www.youtube.com/watch?v=hN_eheN1zxw",
+      "videoId": "hN_eheN1zxw",
+      "title": "KTWIZ 팀 응원가 원곡 모음 Playlist",
+      "channel": "지나가는 위즈팬",
+      "publishedAt": "2024-09-06",
+      "descriptionSummary": "팬 원곡 모음은 Don't stop KT 원곡 구간을 18분 43초부터 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 타임라인을 재정리하고 사진·선곡을 가볍게 평가하는 반응이 중심이다."
+      ],
+      "supports": [
+        "originalSongRecognition",
+        "fanCatalog2024"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-dont-playlist-2024",
+      "songId": "kt-wiz-dont-stop",
+      "url": "https://www.youtube.com/watch?v=ISfiqt6wnAI",
+      "videoId": "ISfiqt6wnAI",
+      "title": "[Playlist] kt wiz 팀 응원가 모음 (최신곡 포함)",
+      "channel": "마법의 성",
+      "publishedAt": "2024-03-28",
+      "descriptionSummary": "2024 팬 제작 현행 모음은 Don't stop kt를 40분 56초에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "신규 팬과 타 구단 팬이 노동요·직관 학습용으로 전체 목록을 이용하고 KT 응원가를 호평한다."
+      ],
+      "supports": [
+        "fanCurrentCatalog2024"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-dont-playlist-a-2025",
+      "songId": "kt-wiz-dont-stop",
+      "url": "https://www.youtube.com/watch?v=t9k2hE63SJw",
+      "videoId": "t9k2hE63SJw",
+      "title": "[Playlist] 2025시즌 Ver. kt wiz 팀응원가 모음 (04.02 Ver.)",
+      "channel": "마법의 성",
+      "publishedAt": "2025-04-02",
+      "descriptionSummary": "2025년 4월 현행 팬 모음은 Don't stop kt를 42분 58초에 싣는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "빠른 시즌 업데이트와 출퇴근·시험 준비용 재생을 반기는 반응이 많다.",
+        "응원가 버전·보컬 업데이트를 요청하는 댓글도 있다."
+      ],
+      "supports": [
+        "fanCurrentCatalog2025",
+        "continuedCirculation"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-dont-playlist-b-2025",
+      "songId": "kt-wiz-dont-stop",
+      "url": "https://www.youtube.com/watch?v=Il0V0qK7GKY",
+      "videoId": "Il0V0qK7GKY",
+      "title": "[Playlist] 마지막 총력전 2025 kt wiz 응원가 통합 모음집",
+      "channel": "마법의 성",
+      "publishedAt": "2025-08-08",
+      "descriptionSummary": "2025년 8월 통합 모음은 Don't stop kt를 1시간 5분 47초에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "운전·게임 중 반복해 듣고 다음 시즌 응원가를 기다린다는 반응과 시즌 회고가 중심이다."
+      ],
+      "supports": [
+        "fanCurrentCatalog2025",
+        "continuedCirculation"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-dont-playlist-2026",
+      "songId": "kt-wiz-dont-stop",
+      "url": "https://www.youtube.com/watch?v=JF2TEiYUUPM",
+      "videoId": "JF2TEiYUUPM",
+      "title": "2026 KT 위즈 PLAYLIST (신규응원가 포함, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-04-04",
+      "descriptionSummary": "2026 팬 모음의 팀 응원가 구획에서 Don't stop KT를 32분 29초에 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 V2·1위와 선수들의 건강을 기원하고 어린 자녀도 반복해 듣는다는 반응을 남긴다.",
+        "곡의 실제 2026 경기장 사용을 특정하는 댓글은 없다."
+      ],
+      "supports": [
+        "fanCurrentCatalog2026",
+        "currentStatusCaveat"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-forever-audio-2016",
+      "songId": "kt-wiz-forever",
+      "url": "https://www.youtube.com/watch?v=CuvZfdJP1iA",
+      "videoId": "CuvZfdJP1iA",
+      "title": "20160705_제작완료_[kt wiz] 영원하리라",
+      "channel": "Hyeong Shin Kim",
+      "publishedAt": "2016-09-06",
+      "descriptionSummary": "2016 제작 파일명을 보존한 1분 41초 초기 KT 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "초기 김주일 응원단장을 추억하거나 타 구단 팬도 KT 응원가가 좋다고 평가한다."
+      ],
+      "supports": [
+        "historicalUse2016",
+        "earlyVersion"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-forever-live-2017",
+      "songId": "kt-wiz-forever",
+      "url": "https://www.youtube.com/watch?v=GBk28mz16xo",
+      "videoId": "GBk28mz16xo",
+      "title": "[위즈스토리] kt wiz 응원가 라이브 콘서트 kt wiz 영원하리라",
+      "channel": "스토리위즈",
+      "publishedAt": "2017-10-03",
+      "descriptionSummary": "2017 홈 마지막 시기 황석빈의 라이브 콘서트에서 부른 72초 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "다음 시즌 가을야구를 바라는 지역 팬 반응과 라이브 중 한 구간을 건너뛴 일을 회상하는 반응이 있다."
+      ],
+      "supports": [
+        "livePerformance2017",
+        "performerAttribution",
+        "liveVariation"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-forever-field-2019",
+      "songId": "kt-wiz-forever",
+      "url": "https://www.youtube.com/watch?v=H88fgmTmuzI",
+      "videoId": "H88fgmTmuzI",
+      "title": "190316 kt위즈 vs SK, kt wiz 영원하리라~ 응원가",
+      "channel": "ground 0099",
+      "publishedAt": "2019-03-17",
+      "descriptionSummary": "2019년 3월 16일 수원 KT-SK 경기에서 김주일 응원단장과 곡 사용을 직접 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡·마스코트·응원단장의 진행이 좋고 오랫동안 KT와 함께하길 바란다는 반응이 있다."
+      ],
+      "supports": [
+        "revival2019",
+        "fieldUse2019"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-forever-field-2023",
+      "songId": "kt-wiz-forever",
+      "url": "https://www.youtube.com/watch?v=xrGUndZDVOc",
+      "videoId": "xrGUndZDVOc",
+      "title": "KT위즈 팀 응원가 kt wiz 영원하리라 20230801",
+      "channel": "DJ Landers",
+      "publishedAt": "2023-08-01",
+      "descriptionSummary": "2023년 8월 1일 경기의 kt wiz 영원하리라를 87초로 기록한 날짜 특정 현장 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse2023"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-forever-official-2024",
+      "songId": "kt-wiz-forever",
+      "url": "https://www.youtube.com/watch?v=WDZzXQlfTK8",
+      "videoId": "WDZzXQlfTK8",
+      "title": "직관 전 필수 시청 kt wiz 2024시즌 응원가&응원법",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2024-04-02",
+      "descriptionSummary": "구단 공식 2024 응원법 영상은 kt wiz 영원하리라를 5분 5초에 독립 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 응원가·안무 복습 자료를 반기고, 초반 부진에도 응원해 가을야구에 가자는 반응을 보인다."
+      ],
+      "supports": [
+        "officialUse2024",
+        "officialChoreography"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-forever-postseason-2024",
+      "songId": "kt-wiz-forever",
+      "url": "https://www.youtube.com/watch?v=HGXiMJE5lnU",
+      "videoId": "HGXiMJE5lnU",
+      "title": "2024 와일드카드 최종전 KT 위즈 선수 & 팀 응원가 현장 직캠 45분 총모음",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2024-10-03",
+      "descriptionSummary": "2024 와일드카드 최종전 팀 응원가 구획에서 kt wiz 영원하리라가 27분 19초부터 나온다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 커진 원정 응원 규모와 정확한 군무·떼창에 감동했다고 말한다.",
+        "타 구단 팬도 KT 응원 문화의 감동과 응원가 완성도를 높이 평가한다."
+      ],
+      "supports": [
+        "postseasonUse2024",
+        "fanReception",
+        "lateGameContext"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-forever-field-2025",
+      "songId": "kt-wiz-forever",
+      "url": "https://www.youtube.com/watch?v=gJYskrVoC60",
+      "videoId": "gJYskrVoC60",
+      "title": "KT위즈 응원가 KT wiz 영원하리라 (0925)",
+      "channel": "윤병호",
+      "publishedAt": "2025-10-03",
+      "descriptionSummary": "제목에 9월 25일을 표시한 2025년 1분 32초 현장 응원가 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse2025"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kt-a-forever-official-2026",
+      "songId": "kt-wiz-forever",
+      "url": "https://www.youtube.com/watch?v=2kJf0pbtajA",
+      "videoId": "2kJf0pbtajA",
+      "title": "직관 전 필수시청 2026 kt wiz 응원가 전곡 플레이리스트",
+      "channel": "kt wiz - 위즈TV",
+      "publishedAt": "2026-03-23",
+      "descriptionSummary": "구단 공식 2026 전곡 영상은 kt wiz 영원하리라를 1분 39초에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 시즌 자료 공개를 반기면서 AI 보컬 사용과 빠진 옛 곡에 대한 아쉬움을 강하게 표한다.",
+        "현재 선수 응원가와 팀 곡을 직관·홈트 준비에 쓴다는 반응도 있다."
+      ],
+      "supports": [
+        "officialUse2026",
+        "officialTitle"
+      ],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 34,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

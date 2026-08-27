@@ -1,0 +1,1135 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-hanyang-university-c",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-hanyang-seoul-erica",
+    "name": "한양대학교 서울·ERICA",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 반복·호응·동작·주제 구조만 요약하고, 영상 설명과 공개 댓글은 제작연도·공연 맥락·수용을 확인하는 데 필요한 정보만 익명으로 재서술한다. 원곡을 사용한 개사·편곡의 허락, 학생 창작곡의 개인 저작자와 음원 마스터 권리가 공개 자료에서 확인되지 않으면 미확정으로 보존한다.",
+  "items": [
+    {
+      "id": "hanyang-university-sajahu",
+      "title": "사자후",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-seoul-and-erica-2026",
+      "summary": "RHooters 공식 단독 영상이 2006년 제작이라고 명시하는 고강도 응원가다. 나무위키는 MUSASHI PROJECT의 애니메이션 《NARUTO》 OST ‘The Rising Fighting Spirit’를 원곡으로 적으며, Apple Music 카탈로그로 작품명·아티스트·2003년 발매를 교차 확인했다. 다만 한양대 공식 영상은 원곡이나 이용허락을 밝히지 않아 원곡 관계는 ‘보고됨’으로 구분했다. 2015 응원 OT 보존 영상부터 2026 서울 라치오스·ERICA ESPERO까지 장기 사용이 직접 확인된다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "사자후",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-sajahu-official-2020", "ev-hyu-c-namu", "yt-hyu-c-sajahu-seoul-2026"],
+          "notes": "공식 단독 영상·최근 공연 영상·응원가 문서가 같은 한글 제목을 쓴다."
+        },
+        {
+          "field": "productionYear",
+          "value": "2006년 제작",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-sajahu-official-2020"],
+          "notes": "RHooters 공식 단독 곡 영상 설명의 직접 표기다. 정확한 최초 공연 행사는 확인되지 않았다."
+        },
+        {
+          "field": "originalSong",
+          "value": "MUSASHI PROJECT의 ‘The Rising Fighting Spirit’(《NARUTO》 OST)을 원곡으로 한다는 나무위키 서술",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hyu-c-namu", "ev-hyu-c-apple-rising-spirit"],
+          "notes": "음원 카탈로그는 원작의 정체와 2003년 발매를 확인하지만, 한양대판의 개사·편곡 관계와 허락은 커뮤니티 문서에 의존한다."
+        },
+        {
+          "field": "currentAndSharedCampusUse",
+          "value": "2026 서울 라치오스와 ERICA ESPERO에서 모두 직접 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hyu-c-joint-campus", "yt-hyu-c-sajahu-seoul-2026", "yt-hyu-c-sajahu-erica-2026"],
+          "notes": "한 조직이 양 캠퍼스에서 활동한다는 대학 보도와 양쪽 2026 공연을 함께 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "도입에서 관중이 제목의 세 음절을 강하게 외치고, 본체에서는 좌우 또는 두 집단이 학교 이름의 각 음절을 번갈아 받는 참여형 곡이다.",
+        "어깨동무·상체 젖히기와 반복 승리 구호를 결합해 응원제의 에너지를 빠르게 끌어올린다.",
+        "2015 응원 OT에서는 신입생 교육 레퍼토리로, 2024~2026 라치오스·ESPERO에서는 대규모 축제 실연곡으로 사용됐다."
+      ],
+      "trivia": [
+        {
+          "id": "sajahu-two-side-contest",
+          "summary": "나무위키는 후반부에 관중을 ‘한’과 ‘양’ 두 편으로 나눠 떼창 크기를 겨루는 진행이 특징이라고 설명한다. 최근 영상에서도 두 집단을 번갈아 지휘하는 동작을 확인할 수 있다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hyu-c-namu", "yt-hyu-c-sajahu-seoul-2026"]
+        },
+        {
+          "id": "sajahu-long-running",
+          "summary": "2020년에 게시된 공식 단독 영상의 2006년 제작 표기와 2015·2022·2024·2025·2026 실연 기록을 이어 보면 최소 20년 가까이 교육·축제 레퍼토리로 보존된 곡이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-sajahu-official-2020", "yt-hyu-c-sajahu-ot-2015", "yt-hyu-c-sajahu-seoul-2022", "yt-hyu-c-sajahu-seoul-2025", "yt-hyu-c-sajahu-erica-2026"]
+        },
+        {
+          "id": "sajahu-origin-comments",
+          "summary": "공식 영상 댓글에도 애니메이션 OST 선율을 알아본 반응과 차용을 비판하는 반응이 있으나, 댓글은 원곡 관계를 독립적으로 입증하거나 허락 여부를 판단하는 근거로 사용하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hyu-c-sajahu-official-2020", "ev-hyu-c-namu", "ev-hyu-c-apple-rising-spirit"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "reported adaptation of copyrighted ‘The Rising Fighting Spirit’; exact lyric, arrangement, choreography, synchronization, and public-performance permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=6w55zBLdNsE",
+          "https://namu.wiki/w/%ED%95%9C%EC%96%91%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://music.apple.com/us/song/1584791975"
+        ],
+        "structureSummary": "제목 음절을 끊어 외치는 도입 뒤 짧은 학교 자부심 블록이 나오고, 관중 두 편이 학교 이름의 두 음절을 번갈아 받는 호응 구간으로 확장된다. 어깨동무와 상체를 크게 젖히는 승리 구호 단위를 여러 차례 반복해 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-hyu-c-sajahu-official-2020",
+        "yt-hyu-c-sajahu-ot-2015",
+        "yt-hyu-c-sajahu-seoul-2022",
+        "yt-hyu-c-sajahu-seoul-2024",
+        "yt-hyu-c-sajahu-erica-2024",
+        "yt-hyu-c-sajahu-seoul-2025",
+        "yt-hyu-c-sajahu-seoul-2026",
+        "yt-hyu-c-sajahu-erica-2026"
+      ],
+      "unresolved": [
+        "2006년 최초 공개의 정확한 행사·일자와 당시 제작진",
+        "개사·편곡·안무의 개인별 크레딧",
+        "원곡 이용과 공연·영상 게시를 위한 권리 처리 범위",
+        "현행 응원 음원 마스터의 소유자와 재사용 조건"
+      ]
+    },
+    {
+      "id": "hanyang-university-hanyangeul-wihayeo",
+      "title": "한양을 위하여",
+      "aliases": ["승리를 위하여", "한양대 승리를 위하여", "한양의 승리를 위하여"],
+      "currentStatus": "current-directly-verified-at-seoul-and-erica-2026",
+      "summary": "기존 사용자 승인에 따라 공식 표기는 ‘한양을 위하여’, 알려진 변형명은 ‘승리를 위하여’ 계열로 유지한다. 두산 베어스의 ‘승리를 위하여’를 한양대용으로 개사한 응원가이며, 그 상위 원곡은 Rhapsody의 1998년 곡 ‘Emerald Sword’다. 나무위키는 한양대가 2016년부터 가사를 바꿔 사용했다고 서술하고, RHooters 공식·학내방송 공연은 2019~2026의 지속 사용을 직접 보여 준다. 2026 서울·ERICA 양 캠퍼스 공연으로 현행성을 확인했다.",
+      "claims": [
+        {
+          "field": "officialTitleAndAliases",
+          "value": "공식 표기 ‘한양을 위하여’; 별칭 ‘승리를 위하여’, ‘한양대 승리를 위하여’, ‘한양의 승리를 위하여’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-hanyang-official-2020", "yt-hyu-c-hanyang-seoul-2026", "ev-hyu-c-namu"],
+          "notes": "기존 사용자 검토·승인을 보존했다. RHooters와 HUBS 최근 영상은 ‘한양을 위하여’를 일관되게 쓴다."
+        },
+        {
+          "field": "adaptationChain",
+          "value": "두산 베어스 ‘승리를 위하여’의 한양대 개사판이며 상위 원곡은 Rhapsody ‘Emerald Sword’",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hyu-c-namu", "ev-hyu-c-doosan-namu", "ev-hyu-c-rhapsody-emerald", "yt-hyu-c-hanyang-seoul-2022"],
+          "notes": "두 커뮤니티 문서와 반복되는 관객 인지가 계보를 지지하고 Rhapsody 공식 페이지가 원작을 확인한다. 두산·한양 측 공식 권리 문서는 찾지 못했다."
+        },
+        {
+          "field": "earliestClaimedUse",
+          "value": "2016년부터 한양대 개사판 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-hyu-c-doosan-namu", "yt-hyu-c-hanyang-seoul-2019"],
+          "notes": "나무위키의 연도 주장과 2019 공식 보존 영상 사이에는 모순이 없지만, 2016 당대 프로그램·영상은 이번 조사에서 직접 확보하지 못했다."
+        },
+        {
+          "field": "currentAndSharedCampusUse",
+          "value": "2026 서울 라치오스와 ERICA ESPERO에서 모두 직접 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hyu-c-joint-campus", "yt-hyu-c-hanyang-seoul-2026", "yt-hyu-c-hanyang-erica-2026"],
+          "notes": "두 캠퍼스의 최근 실연이 동일한 공식 레퍼토리임을 직접 보여 준다."
+        }
+      ],
+      "usageContexts": [
+        "짧은 모음형 도입과 학교 이름 선창 뒤, 승리 메시지의 네 줄가량 되는 후렴 단위를 여러 번 반복하는 대표 떼창곡이다.",
+        "관중이 서로 어깨를 걸고 몸을 굽혔다 펴며 후렴을 함께 외치는 장면이 축제 하이라이트로 사용된다.",
+        "2024 라치오스에서는 잔나비 무대와 결합해 비한양대 관객에게도 확산됐고, 이후 응원단 단독·합동 공연에서 계속 쓰였다."
+      ],
+      "trivia": [
+        {
+          "id": "hanyang-doosan-recognition",
+          "summary": "여러 공연 댓글은 선율을 두산 베어스 응원가로 즉시 알아본다. 이는 대중적 수용을 보여 주지만 차용 허락이나 최초 개사 연도를 입증하는 공식 자료는 아니다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hyu-c-hanyang-official-2020", "yt-hyu-c-hanyang-seoul-2022", "yt-hyu-c-hanyang-seoul-2025"]
+        },
+        {
+          "id": "hanyang-original-creator-title-ambiguity",
+          "summary": "2025 가을 응원제 공식 영상 제목은 ‘한양을 위하여 원작자 등판’이라고 쓰지만 설명에서 인물·역할을 특정하지 않는다. Rhapsody 원곡 작가, 두산판 제작자, 한양대 개사자 중 누구를 뜻하는지 불명확하므로 한양대 개사 관계를 뒤집는 근거로 보지 않았다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-hanyang-original-creator-2025", "ev-hyu-c-rhapsody-emerald", "ev-hyu-c-doosan-namu"]
+        },
+        {
+          "id": "hanyang-jannabi-crossover",
+          "summary": "2024 서울 축제에서는 잔나비가 무대에서 곡을 함께 이끌었고, 댓글에는 재학생의 입학·학교 자부심과 외부 관객의 중독성 반응이 함께 나타난다. 곡이 응원단 레퍼토리를 넘어 축제 대표 장면으로 소비된 사례다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hyu-c-hanyang-jannabi-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "reported Hanyang lyric adaptation of Doosan Bears’ cheer adaptation of copyrighted Rhapsody song ‘Emerald Sword’; exact derivative-work permissions, lyric authorship, arrangement ownership, and reuse terms are not public",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=sovNdLkcpG0",
+          "https://namu.wiki/w/%EC%8A%B9%EB%A6%AC%EB%A5%BC%20%EC%9C%84%ED%95%98%EC%97%AC(%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4)",
+          "https://www.rhapsodyoffire.com/emerald-sword/"
+        ],
+        "structureSummary": "모음형 합창과 학교 이름 선창으로 시작해 짧은 승리 후렴으로 들어간다. 같은 후렴 단위를 어깨동무와 큰 상체 동작에 맞춰 되풀이하고, 마지막에는 학교 승리를 집단으로 선언하며 닫는다. 승인된 상징 문구 전문은 사이트 데이터에만 두고 여기에는 구조만 저장한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-hyu-c-hanyang-official-2020",
+        "yt-hyu-c-hanyang-seoul-2019",
+        "yt-hyu-c-hanyang-seoul-2022",
+        "yt-hyu-c-hanyang-jannabi-2024",
+        "yt-hyu-c-hanyang-seoul-2025",
+        "yt-hyu-c-hanyang-autumn-2025",
+        "yt-hyu-c-hanyang-original-creator-2025",
+        "yt-hyu-c-hanyang-seoul-2026",
+        "yt-hyu-c-hanyang-erica-2026"
+      ],
+      "unresolved": [
+        "2016년 최초 사용의 당대 프로그램·영상과 정확한 공개일",
+        "두산판 및 한양대판 개사·편곡·안무 제작자의 개인별 크레딧",
+        "‘원작자 등판’ 영상 제목이 지칭하는 인물과 창작 역할",
+        "Rhapsody 원곡 및 두산판을 거친 2단계 개사·편곡의 권리 처리"
+      ]
+    },
+    {
+      "id": "hanyang-university-saranghandae",
+      "title": "사랑한대",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-seoul-2025-and-officially-released-2026",
+      "summary": "RHooters와 밴드 서포터즈 KARHIOS가 만든 한양대 자체 창작곡이다. 공식 싱글 설명은 2025 KARHIOS의 작곡·편곡, 제48대 RHooters 지도부와 KARHIOS의 공동 작사를 명시하고, 대학 인터뷰는 한양의 이름을 마음에 새기는 내용과 ‘사랑의 실천’을 바탕으로 한 ‘제2의 교가’ 구상을 설명한다. 2025년 9월 서울 애국한양응원제에서 직접 공연됐고 2026년 5월 15일 ‘2026학년도 신곡’으로 정식 공개됐다. 곡명은 2005년부터 쓰인 공식 홍보대사명과 여러 교내 브랜드의 말장난과 겹치므로 검색 결과를 구분해야 한다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "사랑한대",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-saranghandae-official-2026", "ev-hyu-c-2026-release", "yt-hyu-c-saranghandae-live-2025"],
+          "notes": "공식 싱글·대학 보도·직접 공연 영상이 같은 제목을 사용한다."
+        },
+        {
+          "field": "creator",
+          "value": "작곡·편곡 2025 KARHIOS; 작사 제48대 RHooters 지도부와 2025 KARHIOS",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-saranghandae-official-2026", "ev-hyu-c-2026-release", "ev-hyu-c-2026-interview"],
+          "notes": "공식 싱글 설명과 두 대학 기사가 역할 분담을 일치되게 밝힌다. 개인별 이름과 세부 지분은 공개되지 않았다."
+        },
+        {
+          "field": "chronology",
+          "value": "2025년 9월 공개 실연 확인; 2026년 5월 15일 2026학년도 신곡으로 정식 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-saranghandae-live-2025", "ev-hyu-c-2026-release", "yt-hyu-c-saranghandae-official-2026"],
+          "notes": "2025 공연 영상이 2026 정식 공개보다 앞선다. 2026년 5월 29일에 처음 선보였다는 후속 인터뷰 표현은 직접 영상과 충돌하므로 별도 쟁점으로 보존한다."
+        },
+        {
+          "field": "conceptAndCurrentUse",
+          "value": "‘사랑의 실천’을 바탕으로 한 제2의 교가 지향; 2025 서울 직접 공연과 2026 공식 싱글로 현행 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hyu-c-2026-interview", "ev-hyu-c-live-band-news", "yt-hyu-c-saranghandae-live-2025", "yt-hyu-c-saranghandae-official-2026"],
+          "notes": "이번 표본에는 곡을 명시한 ERICA 직접 공연 영상이 없어 양 캠퍼스 공동 사용은 확정하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "3분 39초 길이의 학교 사랑 중심 합창곡으로, 빠른 동작곡보다 한양의 이름·기억·자부심을 함께 되새기는 응원제 구간에 배치된다.",
+        "2025 가을 응원제에서는 부응원단장이 이끄는 무대로 선보였고, 라이브 밴드·보컬 중심 공연 운영의 일부였다.",
+        "2026 정식 음원은 현장 학습과 재공연을 위한 기준 음원 역할을 하지만, 공개 영상 화면은 가사 자막이 아닌 정지형 커버 아트다."
+      ],
+      "trivia": [
+        {
+          "id": "saranghandae-name-collision",
+          "summary": "‘사랑한대’는 노래 이전부터 한양대 공식 홍보대사명으로 2005년부터 쓰였고, 학교 이름과 ‘사랑한다’를 결합한 표현이 교내 여러 콘텐츠에도 쓰인다. 응원가를 찾을 때는 RHooters·응원제·신곡 같은 문맥어가 필요하다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hyu-c-lovehanyang-ambassador", "ev-hyu-c-lovehanyang-term", "yt-hyu-c-saranghandae-official-2026"]
+        },
+        {
+          "id": "saranghandae-second-anthem",
+          "summary": "제작진은 세 신곡 전체를 학교 건학이념 ‘사랑의 실천’에 뿌리를 둔 ‘제2의 교가’로 구상했고, 사랑한대는 그중 한양의 이름을 마음에 새기는 노래라고 설명했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hyu-c-2026-interview"]
+        },
+        {
+          "id": "saranghandae-context-only-videos",
+          "summary": "대학 공식 스케치와 RHooters 50주년 다큐멘터리는 2025 가을 응원제·조직의 맥락과 관객 수용을 보완하지만 사랑한대 실연을 제목·설명·화면으로 특정하지 못해 직접 사용 근거와 분리했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-saranghandae-event-sketch-2025", "yt-hyu-c-saranghandae-festival-vlog-2025", "yt-hyu-c-saranghandae-rhooters-doc-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "Hanyang student-created cheer song officially released by RHooters; group-level credits are public, but individual lyric/composition shares, publishing and master ownership, and reuse permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=rO7vaNANBds",
+          "https://www.newshyu.com/news/articleView.html?idxno=1024409",
+          "https://www.newshyu.com/news/articleView.html?idxno=1024669"
+        ],
+        "structureSummary": "학교 사랑을 주제로 한 절과 후렴이 교대하는 3분대 합창곡이다. 각 절은 한양의 이름·기억·자부심을 확장하고, 공동체가 함께 받는 반복 후렴으로 돌아간다. 공식 정지형 영상에는 가사 자막이 없어 공개 보도와 실연으로 확인되는 수준 이상으로 세부 순서를 단정하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-hyu-c-saranghandae-official-2026",
+        "yt-hyu-c-saranghandae-live-2025",
+        "yt-hyu-c-saranghandae-rhooters-2025",
+        "yt-hyu-c-saranghandae-event-sketch-2025",
+        "yt-hyu-c-saranghandae-festival-vlog-2025",
+        "yt-hyu-c-saranghandae-rhooters-doc-2025"
+      ],
+      "unresolved": [
+        "2025년 9월 이전의 비공개·내부 시연 여부와 정확한 최초 공연일",
+        "2026 인터뷰의 ‘5월 29일 첫 공개’ 표현이 2025 실연보다 늦는 이유",
+        "개인별 작사·작곡·편곡 지분과 음원 마스터·출판 권리",
+        "곡을 명시한 ERICA 최근 직접 공연 표본과 양 캠퍼스 교육 범위"
+      ]
+    },
+    {
+      "id": "hanyang-university-karios",
+      "title": "카리오스",
+      "aliases": ["Karios"],
+      "currentStatus": "current-directly-verified-at-seoul-and-erica-2026",
+      "summary": "RHooters와 밴드 서포터즈 KARHIOS가 만든 2분 20초 길이의 자체 창작 응원가다. 공식 자료는 2025 KARHIOS가 작곡·편곡하고 제48대 RHooters 지도부와 KARHIOS가 공동 작사했다고 밝힌다. 제목은 전통 교호 ‘코카라치 승리호’에서 왔으며 2009년 ‘라치오스’와 짝을 이루는 쌍둥이 응원곡으로 기획됐다. 2025년 서울 공개 공연 뒤 2026년 5월 15일 정식 공개됐고, 2026 서울 라치오스와 ERICA ESPERO에서 모두 직접 공연됐다.",
+      "claims": [
+        {
+          "field": "officialTitleAndAlias",
+          "value": "공식 한글 표기 ‘카리오스’; 로마자 설명용 표기 ‘Karios’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-karios-official-2026", "ev-hyu-c-2026-release", "yt-hyu-c-karios-seoul-2026"],
+          "notes": "창작 밴드 조직명 KARHIOS와 곡명 Karios는 철자·대상이 다르므로 같은 별칭으로 합치지 않았다."
+        },
+        {
+          "field": "creator",
+          "value": "작곡·편곡 2025 KARHIOS; 작사 제48대 RHooters 지도부와 2025 KARHIOS",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-karios-official-2026", "ev-hyu-c-2026-release", "ev-hyu-c-2026-interview"],
+          "notes": "단체 단위 크레딧은 일치하지만 개인별 이름·역할은 공개되지 않았다."
+        },
+        {
+          "field": "nameAndConcept",
+          "value": "교호 ‘코카라치 승리호’의 카리오스에서 이름을 얻고 2009년 라치오스의 쌍둥이 응원곡으로 설계",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hyu-c-2026-interview"],
+          "notes": "제작진 인터뷰가 투지·에너지를 살린 곡이라는 기획도 함께 설명한다."
+        },
+        {
+          "field": "chronologyAndCurrentUse",
+          "value": "2025 서울 직접 공연, 2026년 5월 15일 정식 공개, 2026 서울·ERICA 직접 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-karios-live-2025", "ev-hyu-c-2026-release", "yt-hyu-c-karios-seoul-2026", "yt-hyu-c-karios-erica-2026"],
+          "notes": "후속 인터뷰의 ‘2026년 5월 29일 첫 공개’ 표현은 2025 직접 영상과 충돌한다."
+        }
+      ],
+      "usageContexts": [
+        "짧고 박자가 강한 선창·후창형 곡으로, 처음 접하는 관중도 제목과 전통 구호를 빠르게 따라 하도록 구성됐다.",
+        "2025 가을 응원제에서는 한양대 운동부와 함께 공연해 경기 승리·투지의 의미를 전면에 뒀다.",
+        "2026 서울·ERICA 공연에서는 기존 투혼 계열 곡과 대표 응원가 사이에 배치돼 고강도 집단 동작 구간을 형성한다."
+      ],
+      "trivia": [
+        {
+          "id": "karios-rachios-twin",
+          "summary": "공식 인터뷰는 카리오스를 2009년 라치오스의 쌍둥이 곡이라고 부른다. 같은 교호의 짝 단어를 제목으로 삼았지만 실제 제작·정식 발매 간격은 17년이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hyu-c-2026-interview"]
+        },
+        {
+          "id": "karios-karhios-search-ambiguity",
+          "summary": "곡 ‘카리오스’와 제작에 참여한 밴드 서포터즈 ‘KARHIOS’가 한글 검색에서 유사하게 보인다. 공식 크레딧에서는 전자는 곡명, 후자는 작곡·편곡 및 공동 작사 단체다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-karios-official-2026", "ev-hyu-c-2026-release"]
+        },
+        {
+          "id": "karios-inventory-lag",
+          "summary": "2026년 8월 5일 갱신된 나무위키 한양대 응원가 문서에는 세 신곡이 아직 목차에 없다. 공식 음원·대학 보도·양 캠퍼스 2026 실연이 존재하므로 이는 비사용 근거가 아니라 커뮤니티 인벤토리 갱신 지연으로 판단했다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hyu-c-namu", "ev-hyu-c-2026-release", "yt-hyu-c-karios-seoul-2026", "yt-hyu-c-karios-erica-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "Hanyang student-created cheer song officially released by RHooters; group-level credits are public, but individual authorship shares, publishing and master ownership, and reuse terms are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=wM2l6t6jJ2o",
+          "https://www.newshyu.com/news/articleView.html?idxno=1024409",
+          "https://www.newshyu.com/news/articleView.html?idxno=1024669"
+        ],
+        "structureSummary": "짧은 도입 호명 뒤 제목과 전통 교호 계열 구호를 관중이 받는 압축형 구조다. 투지·에너지를 다루는 짧은 절과 반복 후렴이 빠르게 교대하고, 제목을 되풀이하는 집단 응답으로 2분대 안에 마무리한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-hyu-c-karios-official-2026",
+        "yt-hyu-c-karios-live-2025",
+        "yt-hyu-c-karios-athletes-2025",
+        "yt-hyu-c-karios-twenty-years-2025",
+        "yt-hyu-c-karios-hubs-2026",
+        "yt-hyu-c-karios-erica-2026",
+        "yt-hyu-c-karios-seoul-2026"
+      ],
+      "unresolved": [
+        "2025년 9월 이전의 내부 시연·제작 완료 시점과 정확한 최초 공연일",
+        "2026 인터뷰의 ‘5월 29일 첫 공개’ 표현과 2025 공연 기록의 관계",
+        "개인별 작사·작곡·편곡 지분과 현행 음원 마스터·출판 권리",
+        "안무 제작자와 공연·영상·2차 이용 허락 범위"
+      ]
+    },
+    {
+      "id": "hanyang-university-seungni-ui-gitbal",
+      "title": "승리의 깃발",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-seoul-and-erica-2026",
+      "summary": "고 박목월 시인의 한양대 관련 보존 가사를 발굴해 RHooters와 밴드 서포터즈 KARHIOS가 현대적으로 다듬은 4분 8초 길이의 자체 창작 응원가다. 공식 싱글은 2025 KARHIOS의 작곡·편곡과 박목월·제48대 RHooters 지도부·KARHIOS의 작사를 명시한다. 2025년 서울 가을 응원제 피날레에서 먼저 공연됐고, 2026년 5월 15일 정식 공개됐다. 2026 서울 라치오스와 ERICA ESPERO에서 모두 직접 공연돼 현행 공동 레퍼토리임을 확인했다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "승리의 깃발",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-flag-official-2026", "ev-hyu-c-2026-release", "yt-hyu-c-flag-seoul-2026"],
+          "notes": "공식 싱글·대학 기사·최근 양 캠퍼스 공연이 같은 제목을 사용한다."
+        },
+        {
+          "field": "creatorAndHistoricalText",
+          "value": "작곡·편곡 2025 KARHIOS; 작사 고 박목월, 제48대 RHooters 지도부, 2025 KARHIOS",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-flag-official-2026", "ev-hyu-c-2026-release", "ev-hyu-c-2026-interview"],
+          "notes": "대학 보도는 1960년대 한양대 국문과 교수였던 박목월의 옛 가사를 자료에서 찾아 현대적으로 재해석했다고 설명한다. 원문과 수정 대조표는 공개되지 않았다."
+        },
+        {
+          "field": "chronology",
+          "value": "2025년 9월 서울 공개 실연 확인; 2026년 5월 15일 2026학년도 신곡으로 정식 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hyu-c-flag-live-2025", "ev-hyu-c-2026-release", "yt-hyu-c-flag-official-2026"],
+          "notes": "2025 직접 영상과 2026 후속 인터뷰의 ‘5월 29일 첫 공개’ 표현이 충돌한다."
+        },
+        {
+          "field": "currentAndSharedCampusUse",
+          "value": "2026 서울 라치오스와 ERICA ESPERO에서 모두 직접 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hyu-c-joint-campus", "yt-hyu-c-flag-seoul-2026", "yt-hyu-c-flag-erica-2026"],
+          "notes": "두 공연 모두 묶음 영상 제목에 곡명을 직접 표기한다."
+        }
+      ],
+      "usageContexts": [
+        "역사적 가사를 현대화한 장중한 학교 승리곡으로, 짧은 구호곡보다 긴 절·후렴과 피날레를 갖는다.",
+        "2025 가을 응원제에서는 가리워진 길·그대에게·교가로 이어지는 마지막 구간의 첫 곡으로 배치됐다.",
+        "2026 서울·ERICA 공연에서는 사자후·한양을 위하여 같은 대표곡과 묶여 승리 서사를 여는 역할을 한다."
+      ],
+      "trivia": [
+        {
+          "id": "flag-park-mokwol-archive",
+          "summary": "제작진은 자료 속에서 박목월의 옛 한양대 응원 가사를 찾아 현 세대가 부를 수 있게 다듬었다고 설명한다. 완전히 새 가사인 다른 두 곡과 달리 대학의 문학·교육사 자료를 현재 응원 문화로 되살린 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-hyu-c-2026-interview", "ev-hyu-c-2026-release", "yt-hyu-c-flag-official-2026"]
+        },
+        {
+          "id": "flag-title-collision",
+          "summary": "‘승리의 깃발’은 다른 스포츠 응원가에서도 쓰이는 일반적인 제목이므로 검색 결과가 섞일 수 있다. 이번 자료에서는 RHooters·한양대·박목월 크레딧이 함께 있는 결과만 이 곡으로 분류했으며 다른 동명곡과의 음악적 관계는 확인되지 않았다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hyu-c-flag-official-2026", "ev-hyu-c-2026-release"]
+        },
+        {
+          "id": "flag-finale-response",
+          "summary": "2025 피날레 영상의 공개 댓글은 신곡의 인상적인 분위기를 짧게 호평한다. 반응 표본이 작아 전체 관객 수용이나 장기 정착 여부를 일반화하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-hyu-c-flag-finale-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "Hanyang student-created setting and modernization incorporating an archived text credited to the late poet Park Mok-wol; the source manuscript, amount of revision, estate permissions, individual shares, publishing/master ownership, and reuse terms are not public",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=BjvR-AiCiEU",
+          "https://www.newshyu.com/news/articleView.html?idxno=1024409",
+          "https://www.newshyu.com/news/articleView.html?idxno=1024669"
+        ],
+        "structureSummary": "박목월의 보존 가사를 현대화한 긴 절 블록과 승리·깃발 이미지를 모으는 반복 후렴이 교대하는 4분대 구성이다. 짧은 구호형 곡보다 서사가 길고, 후반에는 후렴을 확장해 장중한 집단 피날레로 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-hyu-c-flag-official-2026",
+        "yt-hyu-c-flag-live-2025",
+        "yt-hyu-c-flag-finale-2025",
+        "yt-hyu-c-flag-seoul-2026",
+        "yt-hyu-c-flag-erica-2026"
+      ],
+      "unresolved": [
+        "발굴된 박목월 원문 자료의 소장처·작성연도·원문과 현대화 문안의 대조",
+        "박목월 유족·권리자와의 이용 협의 및 저작권 상태",
+        "개인별 작사·작곡·편곡 지분과 현행 음원 마스터·출판 권리",
+        "2026 인터뷰의 ‘5월 29일 첫 공개’ 표현과 2025 공연 기록의 관계"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-hyu-c-namu",
+      "type": "community-encyclopedia",
+      "url": "https://namu.wiki/w/%ED%95%9C%EC%96%91%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "한양대학교/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "서울·ERICA 양 캠퍼스에서 입학식·봄 축제·가을 응원제 등에 응원가를 쓴다고 설명한다. 사자후의 원곡을 《NARUTO》 OST ‘The Rising Fighting Spirit’로, 한양을 위하여의 원곡을 ‘Emerald Sword’로 제시하고 두 곡의 호응·동작·현장 위상을 서술한다. 2026년 8월 5일 갱신본에도 2026 세 신곡은 아직 수록되지 않았다.",
+      "supports": ["사자후 원곡 주장", "사자후 관중 호응", "한양을 위하여 원곡·동작", "양 캠퍼스 응원 문화", "신곡 인벤토리 지연"]
+    },
+    {
+      "id": "ev-hyu-c-apple-rising-spirit",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/us/song/1584791975",
+      "title": "The Rising Fighting Spirit — MUSASHI PROJECT",
+      "publisher": "Apple Music",
+      "publishedAt": "2003-03-19",
+      "accessedAt": "2026-08-09",
+      "summary": "MUSASHI PROJECT의 ‘The Rising Fighting Spirit’를 《NARUTO》 Original Soundtrack 수록곡으로 제시하고 2003년 3월 19일 발매 정보를 제공한다. 한양대 사자후와의 관계 자체는 설명하지 않는다.",
+      "supports": ["The Rising Fighting Spirit 정체", "MUSASHI PROJECT", "NARUTO OST", "2003 발매", "사자후 원곡 주장 교차"]
+    },
+    {
+      "id": "ev-hyu-c-joint-campus",
+      "type": "official-university-news",
+      "url": "https://www.newshyu.com/news/articleView.html?idxno=1013604",
+      "title": "캠퍼스 간 활발한 교류의 장! 서울-ERICA 학생 연합 단체들",
+      "publisher": "한양대학교 뉴스H",
+      "publishedAt": "2024-03-28",
+      "accessedAt": "2026-08-09",
+      "summary": "RHooters를 서울·ERICA 학생이 함께 활동하는 연합 단체로 소개한다. 양 캠퍼스 최근 공연이 서로 무관한 동명 조직의 자료가 아니라 같은 응원단 레퍼토리라는 조직적 배경을 제공한다.",
+      "supports": ["RHooters 양 캠퍼스 공동 조직", "서울·ERICA 레퍼토리 배경", "공식성"]
+    },
+    {
+      "id": "ev-hyu-c-doosan-namu",
+      "type": "community-encyclopedia",
+      "url": "https://namu.wiki/w/%EC%8A%B9%EB%A6%AC%EB%A5%BC%20%EC%9C%84%ED%95%98%EC%97%AC(%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4)",
+      "title": "승리를 위하여(두산 베어스)",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "두산 베어스 응원가 ‘승리를 위하여’가 Rhapsody의 ‘Emerald Sword’를 사용하며 한양대가 2016년부터 가사를 바꿔 응원가로 사용한다고 서술한다. 공식 권리 문서가 아닌 커뮤니티 자료이므로 한양대 최초 사용연도와 개사 계보는 보고된 주장으로 보존한다.",
+      "supports": ["한양을 위하여 2016 주장", "두산 응원가 개사 계보", "Emerald Sword 상위 원곡", "연도 불확실성"]
+    },
+    {
+      "id": "ev-hyu-c-rhapsody-emerald",
+      "type": "official-artist-site",
+      "url": "https://www.rhapsodyoffire.com/emerald-sword/",
+      "title": "Emerald Sword",
+      "publisher": "Rhapsody of Fire",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Rhapsody of Fire 공식 사이트가 ‘Emerald Sword’를 1998년 발매 작품으로 제시한다. 두산·한양대 응원가와의 파생 관계나 이용허락은 다루지 않는다.",
+      "supports": ["Emerald Sword 공식 작품", "Rhapsody", "1998", "한양을 위하여 상위 원곡 교차"]
+    },
+    {
+      "id": "ev-hyu-c-2026-release",
+      "type": "official-university-news",
+      "url": "https://www.newshyu.com/news/articleView.html?idxno=1024409",
+      "title": "“한양의 목소리로 승리를 노래하다”... 루터스, 2026 응원가 신곡 3곡 공개",
+      "publisher": "한양대학교 뉴스H",
+      "publishedAt": "2026-05-18",
+      "accessedAt": "2026-08-09",
+      "summary": "RHooters가 사랑한대·카리오스·승리의 깃발을 2026학년도 신곡으로 5월 15일 정식 공개했다고 보도하고 세 공식 유튜브 음원을 삽입한다. 2025 밴드 서포터즈 KARHIOS의 작곡·편곡, 제48대 RHooters 지도부와 KARHIOS의 공동 작사, 승리의 깃발의 박목월 가사 활용을 밝힌다.",
+      "supports": ["세 신곡 2026-05-15 정식 공개", "KARHIOS 작곡·편곡", "공동 작사", "박목월 가사", "공식 유튜브"]
+    },
+    {
+      "id": "ev-hyu-c-2026-interview",
+      "type": "official-university-news-interview",
+      "url": "https://www.newshyu.com/news/articleView.html?idxno=1024669",
+      "title": "한양을 하나로 묶는 웅장한 함성, 루터스의 2026 응원제",
+      "publisher": "한양대학교 뉴스H",
+      "publishedAt": "2026-06-09",
+      "accessedAt": "2026-08-09",
+      "summary": "세 신곡의 기획·제작을 심층 인터뷰한다. 전 제48대 단장 박건웅이 작사를 총괄했고 RHooters가 가사·구조·주선율, KARHIOS가 작곡·편곡·리듬을 맡아 약 두 달간 피드백했다고 설명한다. 카리오스는 라치오스의 쌍둥이 곡, 승리의 깃발은 박목월 보존 가사의 현대화, 사랑한대는 한양의 이름을 마음에 새기는 곡이며 전체를 ‘사랑의 실천’ 기반 제2의 교가로 구상했다고 밝힌다. 다만 5월 29일 처음 선보였다는 표현은 2025 공개 공연 영상과 충돌한다.",
+      "supports": ["세 신곡 제작 과정", "박건웅 총괄", "RHooters·KARHIOS 역할", "사랑의 실천", "카리오스·라치오스 관계", "박목월 자료", "첫 공개 연도 충돌"]
+    },
+    {
+      "id": "ev-hyu-c-live-band-news",
+      "type": "official-university-news",
+      "url": "https://www.newshyu.com/news/articleView.html?idxno=1020591",
+      "title": "[포토스토리] 한양의 승리를 외치다! 한양대 응원단 '루터스'를 만나다",
+      "publisher": "한양대학교 뉴스H",
+      "publishedAt": "2025-10-01",
+      "accessedAt": "2026-08-09",
+      "summary": "2025년 9월 17~19일 애국한양응원제에서 RHooters가 녹음 음원이 아닌 라이브 밴드·보컬로 공연했다고 보도한다. 행사의 주제를 ‘한양이 하나 되어: 사랑’으로 삼고 사랑의 실천과 공동체 온기를 전달하려 했다는 단장 설명을 싣는다.",
+      "supports": ["2025 가을 응원제", "라이브 밴드·보컬", "사랑 주제", "사랑한대 공연 맥락"]
+    },
+    {
+      "id": "ev-hyu-c-cheer-ot",
+      "type": "official-university-news",
+      "url": "https://www.newshyu.com/news/articleView.html?idxno=1008925",
+      "title": "한양인의 푸른 함성으로 가득 찬 응원 OT에 가보다",
+      "publisher": "한양대학교 뉴스H",
+      "publishedAt": "2023-03-03",
+      "accessedAt": "2026-08-09",
+      "summary": "응원 길잡이가 신입생에게 응원가·구호·동작을 가르치고 어깨동무와 집단 호응을 통해 이후 응원제 참여를 준비시키는 정례 응원 OT의 기능을 설명한다.",
+      "supports": ["응원가 교육", "구호·동작", "어깨동무", "축제 참여 준비"]
+    },
+    {
+      "id": "ev-hyu-c-lovehanyang-ambassador",
+      "type": "university-wiki",
+      "url": "https://hyu.wiki/%EC%82%AC%EB%9E%91%ED%95%9C%EB%8C%80_%ED%99%8D%EB%B3%B4%EB%8C%80%EC%82%AC",
+      "title": "사랑한대 홍보대사",
+      "publisher": "한양위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "한양대학교 공식 홍보대사 명칭 ‘사랑한대’가 2005년부터 시작됐고 서울·ERICA에서 각각 운영된다고 설명한다. 2026 응원가와 같은 표현이 이미 공식 조직명으로 장기간 쓰였음을 보여 준다.",
+      "supports": ["사랑한대 홍보대사", "2005 시작", "양 캠퍼스", "응원가명 검색 충돌"]
+    },
+    {
+      "id": "ev-hyu-c-lovehanyang-term",
+      "type": "university-wiki",
+      "url": "https://hyu.wiki/%EC%82%AC%EB%9E%91%ED%95%9C%EB%8C%80",
+      "title": "사랑한대",
+      "publisher": "한양위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "‘사랑한대’가 ‘한양대를 사랑한다’는 뜻을 학교 이름과 결합한 표현이며 홍보대사·뉴스레터 등 여러 교내 명칭에 쓰인다고 정리한다. 곡명 말장난의 선행 문화와 검색 모호성을 확인하는 자료다.",
+      "supports": ["사랑한대 말장난", "교내 다중 사용", "곡명 문화 맥락", "검색 모호성"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-hyu-c-sajahu-official-2020",
+      "songId": "hanyang-university-sajahu",
+      "url": "https://www.youtube.com/watch?v=6w55zBLdNsE",
+      "videoId": "6w55zBLdNsE",
+      "title": "[한양대학교 응원가] 사자후",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2020-07-26",
+      "descriptionSummary": "RHooters 공식 단독 곡 영상으로 비고란에 ‘2006년 제작’을 직접 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "재학생·동문으로 보이는 시청자들은 곡을 들으며 학교 자부심과 현장 추억이 되살아난다고 반응한다.",
+        "일부 시청자는 《NARUTO》 OST 선율을 알아보고 차용을 지적하거나 비판하지만 이용허락에 관한 근거는 제시하지 않는다."
+      ],
+      "supports": ["공식 곡명", "2006년 제작", "공식 음원", "원곡 인지 반응", "학교 자부심"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-sajahu-ot-2015",
+      "songId": "hanyang-university-sajahu",
+      "url": "https://www.youtube.com/watch?v=JMTGKfMR-H8",
+      "videoId": "JMTGKfMR-H8",
+      "title": "[2015] 응원OT (사범대) - 사자후 | 한양대학교 응원단 RHooters",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2020-09-18",
+      "descriptionSummary": "2015년 사범대 응원 OT에서 사자후를 가르치고 공연한 기록을 RHooters가 뒤늦게 보존 게시했다. 별도 설명문은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2015 직접 사용", "응원 OT", "교육 레퍼토리", "공식 보존 영상"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-sajahu-seoul-2022",
+      "songId": "hanyang-university-sajahu",
+      "url": "https://www.youtube.com/watch?v=JALLQbyhuJ0",
+      "videoId": "JALLQbyhuJ0",
+      "title": "[2022] 라치오스 도약 - 사자후 | 한양대학교 응원단 RHooters",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2022-06-07",
+      "descriptionSummary": "2022 서울캠퍼스 라치오스 ‘도약’의 사자후 단독 실연이며 응원단 출연진과 영상 제작진을 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 무대와 응원단의 에너지를 짧게 호평하며 곡의 연혁 정보는 덧붙이지 않는다."],
+      "supports": ["2022 서울 직접 사용", "라치오스", "단독 실연", "공연 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-sajahu-seoul-2024",
+      "songId": "hanyang-university-sajahu",
+      "url": "https://www.youtube.com/watch?v=raFmVX13Enw",
+      "videoId": "raFmVX13Enw",
+      "title": "[2024] 라치오스:파도 - 사자후 | 한양대학교 응원단 RHooters",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2024-11-27",
+      "descriptionSummary": "2024년 5월 서울 라치오스 ‘파도’의 사자후 공연이며 모션·밴드·보컬과 제작진을 상세히 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 시청자는 학내방송본보다 음향 혼합이 선명해 공연을 보기 좋다고 평가한다."],
+      "supports": ["2024 서울 직접 사용", "라치오스", "공연 크레딧", "음향 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-sajahu-erica-2024",
+      "songId": "hanyang-university-sajahu",
+      "url": "https://www.youtube.com/watch?v=SbR1lJn3BG8",
+      "videoId": "SbR1lJn3BG8",
+      "title": "[2024] ESPERO:BEAT - 사자후 | 한양대학교 응원단 RHooters",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2025-02-03",
+      "descriptionSummary": "2024년 5월 ERICA캠퍼스 ESPERO:BEAT에서 공연한 사자후 단독 영상으로 출연·제작 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 ERICA 직접 사용", "ESPERO", "공식 단독 실연", "공연 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-sajahu-seoul-2025",
+      "songId": "hanyang-university-sajahu",
+      "url": "https://www.youtube.com/watch?v=eCPas3UuoIE",
+      "videoId": "eCPas3UuoIE",
+      "title": "사자후 ㅣ [2025] 라치오스 : 더 높이 ㅣ 루터스 ㅣ HUBS",
+      "channel": "HUBS 한양대학교 교육방송국",
+      "publishedAt": "2025-05-24",
+      "descriptionSummary": "HUBS가 촬영·편집한 2025 서울 라치오스 ‘더 높이’의 사자후 단독 실연이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 서울 직접 사용", "라치오스", "학내방송 기록", "단독 실연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-sajahu-seoul-2026",
+      "songId": "hanyang-university-sajahu",
+      "url": "https://www.youtube.com/watch?v=iJr4aybQ5SM",
+      "videoId": "iJr4aybQ5SM",
+      "title": "[2026] RACHIOS:찬란 - '승리의 깃발' '사자후' '라치오스' '한양을 위하여' '가리워진 길' '그대에게'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-06-17",
+      "descriptionSummary": "2026 서울 라치오스 ‘찬란’의 후반 묶음 공연으로 사자후를 승리의 깃발 뒤에 수록하고 RHooters·KARHIOS·밴드·제작진을 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 푸른색과 사자 상징을 곁들여 학교와 응원단을 짧게 응원한다."],
+      "supports": ["2026 서울 현행 사용", "라치오스", "곡 순서", "공연 크레딧", "학교 지지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-sajahu-erica-2026",
+      "songId": "hanyang-university-sajahu",
+      "url": "https://www.youtube.com/watch?v=eG5vI8VYmnM",
+      "videoId": "eG5vI8VYmnM",
+      "title": "[2026] ESPERO:항해 - '승리의 깃발' '사자후' '한양을 위하여' '그대에게'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-06-17",
+      "descriptionSummary": "2026 ERICA ESPERO ‘항해’에서 승리의 깃발·사자후·한양을 위하여·그대에게를 연속 공연한 공식 영상이며 출연·제작진을 상세히 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 ERICA 현행 사용", "ESPERO", "공식 묶음 실연", "공연 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-hanyang-official-2020",
+      "songId": "hanyang-university-hanyangeul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=sovNdLkcpG0",
+      "videoId": "sovNdLkcpG0",
+      "title": "[한양대학교 응원가] 한양을 위하여",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2020-07-27",
+      "descriptionSummary": "RHooters 공식 단독 응원가 영상으로 제목을 ‘한양을 위하여’라고 명시한다. 별도 설명문은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "예비 학생과 재학생은 입학 목표·학교 자부심을 표현한다.",
+        "여러 시청자는 두산 베어스 응원가와 Rhapsody 선율을 알아보지만 제작연도나 허락 근거는 제시하지 않는다."
+      ],
+      "supports": ["공식 곡명", "공식 음원", "입학·학교 자부심", "두산·원곡 인지 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-hanyang-seoul-2019",
+      "songId": "hanyang-university-hanyangeul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=LYmVA8B76MM",
+      "videoId": "LYmVA8B76MM",
+      "title": "[2019] 인피니티 라치오스 - 한양을 위하여 | 한양대학교 응원단 RHooters",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2020-07-30",
+      "descriptionSummary": "2019 서울캠퍼스 인피니티 라치오스에서 공연한 한양을 위하여를 RHooters가 공식 보존 게시했다. 별도 설명문은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 시청자는 현장 관중의 합창이 약하다고 평가한다.",
+        "다른 시청자는 두산 베어스에서 익숙한 곡이라고 알아본다."
+      ],
+      "supports": ["2019 서울 직접 사용", "라치오스", "공식 보존 영상", "두산 인지 반응", "관중 호응 평가"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-hanyang-seoul-2022",
+      "songId": "hanyang-university-hanyangeul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=qFdmpHce_ho",
+      "videoId": "qFdmpHce_ho",
+      "title": "[2022] 라치오스 도약 - 한양을 위하여 | 한양대학교 응원단 RHooters",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2022-06-07",
+      "descriptionSummary": "2022 서울 라치오스 ‘도약’의 한양을 위하여 단독 실연이며 응원단·밴드·제작진을 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "예비 학생·재학생·동문은 입학 의지와 학교 자부심, 현장 추억을 반복해 표현한다.",
+        "다수 시청자는 두산 베어스 응원가와 선율이 같다고 알아본다."
+      ],
+      "supports": ["2022 서울 직접 사용", "라치오스", "공연 크레딧", "학교 자부심", "두산 인지 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-hanyang-jannabi-2024",
+      "songId": "hanyang-university-hanyangeul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=ddRnTqmokFg",
+      "videoId": "ddRnTqmokFg",
+      "title": "한양을 위하여 - [2024] 한양대학교 축제 라치오스 : 파도 I 3일차 무대 _잔나비 I HUBS",
+      "channel": "HUBS 한양대학교 교육방송국",
+      "publishedAt": "2024-05-24",
+      "descriptionSummary": "2024 서울 라치오스 ‘파도’ 3일차 잔나비 무대에서 한양을 위하여를 함께 부른 장면을 HUBS가 촬영·편집했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "재학생과 예비 학생은 입학 동기와 학교 자부심을 표현하고, 외부 관객도 곡의 중독성과 큰 떼창을 호평한다.",
+        "시청자들은 잔나비가 학교 무대를 준비해 관중과 함께 부른 점을 높게 평가한다."
+      ],
+      "supports": ["2024 서울 직접 사용", "잔나비 협업", "라치오스", "대규모 떼창", "외부 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-hanyang-seoul-2025",
+      "songId": "hanyang-university-hanyangeul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=06J63c__a7I",
+      "videoId": "06J63c__a7I",
+      "title": "한양을 위하여 ㅣ [2025] 라치오스 : 더 높이 ㅣ 루터스 ㅣ HUBS",
+      "channel": "HUBS 한양대학교 교육방송국",
+      "publishedAt": "2025-05-24",
+      "descriptionSummary": "HUBS가 기록한 2025 서울 라치오스 ‘더 높이’의 한양을 위하여 단독 실연이며 촬영·편집 정보를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "재학생·동문은 현장 추억과 라이브 밴드의 에너지를 호평한다.",
+        "일부 시청자는 두산 베어스 응원가 선율을 바로 알아본다."
+      ],
+      "supports": ["2025 서울 직접 사용", "라치오스", "라이브 밴드", "동문 추억", "두산 인지 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-hanyang-autumn-2025",
+      "songId": "hanyang-university-hanyangeul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=JUuOunfviXI",
+      "videoId": "JUuOunfviXI",
+      "title": "루터스ㅣ한양을 위하여ㅣ한양대학교 축제ㅣ[2025] 애국한양응원제 : 울림ㅣHUBS",
+      "channel": "HUBS 한양대학교 교육방송국",
+      "publishedAt": "2025-09-20",
+      "descriptionSummary": "2025 서울 애국한양응원제 ‘울림’에서 공연한 한양을 위하여 단독 영상으로 HUBS 촬영·편집 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 서울 가을 사용", "애국한양응원제", "단독 실연", "학내방송 기록"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-hanyang-original-creator-2025",
+      "songId": "hanyang-university-hanyangeul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=yW3x77vFT3o",
+      "videoId": "yW3x77vFT3o",
+      "title": "[2025] '한양이 하나되어: 사랑' 응원제 - 창단 50주년 기념 OB 모션/밴드 특별 무대&한양을 위하여 원작자 등판! '아파트', '얘기할 수 없어요', '한양을 위하여'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-01-23",
+      "descriptionSummary": "2025년 9월 가을 응원제의 창단 50주년 OB 특별 무대와 한양을 위하여를 묶은 공식 영상이다. 제목은 ‘원작자 등판’이라고 쓰지만 설명은 해당 인물·창작 역할을 특정하지 않고 출연·밴드·제작진만 상세히 기재한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 서울 직접 사용", "50주년 OB 무대", "원작자 표현의 모호성", "상세 공연 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-hanyang-seoul-2026",
+      "songId": "hanyang-university-hanyangeul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=IEubV-pE9ZA",
+      "videoId": "IEubV-pE9ZA",
+      "title": "루터스 | 한양을 위하여 | 한양대학교 축제 | [2026] 라치오스 : 찬란 | HUBS",
+      "channel": "HUBS 한양대학교 교육방송국",
+      "publishedAt": "2026-06-04",
+      "descriptionSummary": "HUBS가 촬영·편집한 2026 서울 라치오스 ‘찬란’의 한양을 위하여 단독 실연이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시청자는 학교와 응원단을 지지하고 현장 합창을 호평한다.",
+        "다른 시청자는 두산 베어스 응원가를 그대로 따라 했다고 비판한다."
+      ],
+      "supports": ["2026 서울 현행 사용", "라치오스", "학내방송 기록", "학교 지지", "차용 비판"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-hanyang-erica-2026",
+      "songId": "hanyang-university-hanyangeul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=eG5vI8VYmnM",
+      "videoId": "eG5vI8VYmnM",
+      "title": "[2026] ESPERO:항해 - '승리의 깃발' '사자후' '한양을 위하여' '그대에게'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-06-17",
+      "descriptionSummary": "2026 ERICA ESPERO ‘항해’에서 승리의 깃발·사자후·한양을 위하여·그대에게를 연속 공연한 공식 영상이며 출연·제작진을 상세히 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 ERICA 현행 사용", "ESPERO", "공식 묶음 실연", "공연 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-saranghandae-official-2026",
+      "songId": "hanyang-university-saranghandae",
+      "url": "https://www.youtube.com/watch?v=rO7vaNANBds",
+      "videoId": "rO7vaNANBds",
+      "title": "[한양대학교 응원가] 사랑한대",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-05-14T20:00:44-07:00",
+      "descriptionSummary": "3분 39초 공식 싱글. 2025 한양대 응원단 밴드 서포터즈 KARHIOS의 작곡·편곡과 제48대 RHooters 지도부·2025 KARHIOS의 공동 작사를 명시한다. 영상은 가사 자막이 아닌 정지형 커버 아트를 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["공식 곡명", "2026 정식 음원", "3분 39초", "작곡·편곡·작사 크레딧", "가사 비표시"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-saranghandae-live-2025",
+      "songId": "hanyang-university-saranghandae",
+      "url": "https://www.youtube.com/watch?v=6YSEpd5iz7E",
+      "videoId": "6YSEpd5iz7E",
+      "title": "루터스ㅣ사랑한대ㅣ한양대학교 축제ㅣ[2025] 애국한양응원제 : 울림ㅣHUBS",
+      "channel": "HUBS 한양대학교 교육방송국",
+      "publishedAt": "2025-09-20",
+      "descriptionSummary": "2025 서울 애국한양응원제 ‘울림’의 사랑한대 단독 실연이며 HUBS 촬영·편집 정보를 제공한다. 2026 정식 공개보다 앞선 직접 공연 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 학교와 무대를 짧게 응원하며 곡의 제작 연혁은 덧붙이지 않는다."],
+      "supports": ["2025 서울 직접 사용", "2026 정식 공개 이전 실연", "애국한양응원제", "학내방송 기록", "공연 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-saranghandae-rhooters-2025",
+      "songId": "hanyang-university-saranghandae",
+      "url": "https://www.youtube.com/watch?v=AVN1LhxiBy4",
+      "videoId": "AVN1LhxiBy4",
+      "title": "[2025] '한양이 하나되어: 사랑' 응원제 - 부응원단장이 이끌어가는 '한양의 사자', '사랑한대'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-01-22",
+      "descriptionSummary": "2025년 9월 서울 가을 응원제에서 부응원단장이 이끈 한양의 사자·사랑한대 묶음 공연이며 응원단·KARHIOS·라이브 밴드·제작진을 상세히 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 부응원단장의 무대 장악력과 공연을 호평한다."],
+      "supports": ["2025 서울 직접 사용", "부응원단장 무대", "라이브 밴드", "공연 크레딧", "공연 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-saranghandae-event-sketch-2025",
+      "songId": "hanyang-university-saranghandae",
+      "url": "https://www.youtube.com/watch?v=1c2fiyxhd8k",
+      "videoId": "1c2fiyxhd8k",
+      "title": "[HY-Sketch] 2025 애국한양응원제 '울림'｜하나의 한양, 더 큰 울림!! #한양대학교 #대학축제 #캠퍼스 #한양대 #축제 #애한제 #라치오스",
+      "channel": "Hanyang University한양대학교",
+      "publishedAt": "2025-09-27",
+      "descriptionSummary": "한양대 공식 채널의 3분 25초 행사 하이라이트로 RHooters와 2025 애국한양응원제의 규모·관객·공연 맥락을 보여 준다. 제목·설명·확인 화면만으로 사랑한대 구간을 특정할 수 없어 맥락 표본으로만 사용했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자들은 학교와 응원제를 응원하고 행사를 즐겼다고 반응하며, 일부는 공연 장소에 관한 의견을 남긴다."],
+      "supports": ["2025 행사 공식 맥락", "RHooters 참여", "관객 수용", "사랑한대 직접 증거 아님", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-saranghandae-festival-vlog-2025",
+      "songId": "hanyang-university-saranghandae",
+      "url": "https://www.youtube.com/watch?v=aBYKKx5U6Bo",
+      "videoId": "aBYKKx5U6Bo",
+      "title": "[한양in 라이프] 4가지 있는 한양대 축제 '애한제' | 한양대학교 가을축제 브이로그🎬📚",
+      "channel": "Hanyang University한양대학교",
+      "publishedAt": "2025-10-02",
+      "descriptionSummary": "한양대 공식 채널의 3분 12초 가을축제 브이로그로 음식·행사·아티스트 공연과 RHooters 무대를 소개한다. 사랑한대를 제목이나 설명에서 특정하지 않아 행사 맥락 표본으로만 사용했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자들은 축제와 출연 무대를 열정적으로 호평하며 특정 응원가의 연혁 정보는 남기지 않는다."],
+      "supports": ["2025 가을축제 공식 맥락", "RHooters 무대", "관객 수용", "사랑한대 직접 증거 아님", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-saranghandae-rhooters-doc-2025",
+      "songId": "hanyang-university-saranghandae",
+      "url": "https://www.youtube.com/watch?v=gEYaexnd43k",
+      "videoId": "gEYaexnd43k",
+      "title": "[숏-큐멘터리] 우리의 응원은 계속된다｜한양대학교 응원단 '루터스' 50년의 이야기 #한양대학교 #응원단 #루터스",
+      "channel": "Hanyang University한양대학교",
+      "publishedAt": "2025-09-12",
+      "descriptionSummary": "한양대 공식 채널의 9분 3초 RHooters 50주년 다큐멘터리로 조직 역사와 2025 가을 응원제를 예고한다. 사랑한대 실연을 특정하는 표본이 아니라 제작 조직·행사 배경을 보완하는 맥락 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "RHooters 측은 대학의 기록 제작에 감사를 표한다.",
+        "시청자들은 응원단의 지속성과 학교 공동체·자부심을 응원한다."
+      ],
+      "supports": ["RHooters 50년 조직 맥락", "2025 가을 응원제 예고", "학교 공동체 수용", "사랑한대 직접 증거 아님", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-karios-official-2026",
+      "songId": "hanyang-university-karios",
+      "url": "https://www.youtube.com/watch?v=wM2l6t6jJ2o",
+      "videoId": "wM2l6t6jJ2o",
+      "title": "[한양대학교 응원가] 카리오스",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-05-14T20:00:50-07:00",
+      "descriptionSummary": "2분 20초 공식 싱글. 2025 한양대 응원단 밴드 서포터즈 KARHIOS의 작곡·편곡과 제48대 RHooters 지도부·2025 KARHIOS의 공동 작사를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자들은 신곡이 간결하고 중독성 있으며 응원하기 좋다고 평가하고 다른 응원가와 함께 들을 플레이리스트를 요청한다."],
+      "supports": ["공식 곡명", "2026 정식 음원", "2분 20초", "작곡·편곡·작사 크레딧", "신곡 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-karios-live-2025",
+      "songId": "hanyang-university-karios",
+      "url": "https://www.youtube.com/watch?v=KBZwIlH6gl4",
+      "videoId": "KBZwIlH6gl4",
+      "title": "루터스ㅣ카리오스ㅣ한양대학교 축제ㅣ[2025] 애국한양응원제 : 울림ㅣHUBS",
+      "channel": "HUBS 한양대학교 교육방송국",
+      "publishedAt": "2025-09-20",
+      "descriptionSummary": "2025 서울 애국한양응원제 ‘울림’의 카리오스 단독 실연이며 HUBS 촬영·편집 정보를 제공한다. 2026 정식 공개보다 앞선 공개 공연 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 서울 직접 사용", "2026 정식 공개 이전 실연", "애국한양응원제", "학내방송 기록"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-karios-athletes-2025",
+      "songId": "hanyang-university-karios",
+      "url": "https://www.youtube.com/watch?v=24weeWEzLUI",
+      "videoId": "24weeWEzLUI",
+      "title": "[2025] '한양이 하나되어: 사랑' 응원제 - 한양대학교 운동부와 함께 즐기는 2025 신곡 '카리오스'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-01-22",
+      "descriptionSummary": "2025년 9월 서울 가을 응원제에서 한양대 운동부와 함께 공연한 ‘2025 신곡’ 카리오스 영상이며 출연·밴드·제작진을 상세히 기재한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 서울 직접 사용", "2025 신곡 표기", "운동부 협업", "공연 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-karios-twenty-years-2025",
+      "songId": "hanyang-university-karios",
+      "url": "https://www.youtube.com/watch?v=PLb_9NPUE2Q",
+      "videoId": "PLb_9NPUE2Q",
+      "title": "[2025] '한양이 하나되어: 사랑' 응원제 - 20년 차이의 두 응원곡 '한양이 하나되어', '카리오스'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-01-22",
+      "descriptionSummary": "2025년 9월 가을 응원제에서 세대가 다른 한양이 하나되어와 카리오스를 연속 공연한 공식 영상이며 출연·밴드·제작진을 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 두 곡을 잇는 공연을 짧게 호평한다."],
+      "supports": ["2025 서울 직접 사용", "구곡·신곡 연결", "공연 크레딧", "공연 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-karios-hubs-2026",
+      "songId": "hanyang-university-karios",
+      "url": "https://www.youtube.com/watch?v=SGwkc8nStX8",
+      "videoId": "SGwkc8nStX8",
+      "title": "루터스 | 카리오스 | 한양대학교 축제 | [2026] 라치오스 : 찬란 | HUBS",
+      "channel": "HUBS 한양대학교 교육방송국",
+      "publishedAt": "2026-06-04",
+      "descriptionSummary": "HUBS가 촬영·편집한 2026 서울 라치오스 ‘찬란’의 카리오스 단독 실연이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 서울 현행 사용", "라치오스", "학내방송 기록", "단독 실연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-karios-erica-2026",
+      "songId": "hanyang-university-karios",
+      "url": "https://www.youtube.com/watch?v=xrptjIzCb1s",
+      "videoId": "xrptjIzCb1s",
+      "title": "[2026] ESPERO:항해 - '한양하라' '한양이여' '투혼' '카리오스'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-06-17",
+      "descriptionSummary": "2026 ERICA ESPERO ‘항해’에서 한양하라·한양이여·투혼·카리오스를 연속 공연한 공식 영상이며 출연·제작진을 상세히 기재한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 ERICA 현행 사용", "ESPERO", "공식 묶음 실연", "공연 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-karios-seoul-2026",
+      "songId": "hanyang-university-karios",
+      "url": "https://www.youtube.com/watch?v=iC0dDIO47ME",
+      "videoId": "iC0dDIO47ME",
+      "title": "[2026] RACHIOS:찬란 - '한양하라' '한양이여' '투혼' '파도' '카리오스' 'Pride Of Hanyang'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-06-17",
+      "descriptionSummary": "2026 서울 라치오스 ‘찬란’에서 카리오스를 투혼·파도 뒤, Pride Of Hanyang 앞에 배치한 공식 묶음 영상이며 출연·제작진을 상세히 기재한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 서울 현행 사용", "라치오스", "곡 순서", "공식 묶음 실연", "공연 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-flag-official-2026",
+      "songId": "hanyang-university-seungni-ui-gitbal",
+      "url": "https://www.youtube.com/watch?v=BjvR-AiCiEU",
+      "videoId": "BjvR-AiCiEU",
+      "title": "[한양대학교 응원가] 승리의 깃발",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-05-14T20:00:08-07:00",
+      "descriptionSummary": "4분 8초 공식 싱글. 2025 KARHIOS의 작곡·편곡과 고 박목월·제48대 RHooters 지도부·2025 KARHIOS의 작사를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 한양대와 신곡을 짧게 응원하며 연혁이나 권리 정보는 덧붙이지 않는다."],
+      "supports": ["공식 곡명", "2026 정식 음원", "4분 8초", "박목월·RHooters·KARHIOS 크레딧", "학교 지지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-flag-live-2025",
+      "songId": "hanyang-university-seungni-ui-gitbal",
+      "url": "https://www.youtube.com/watch?v=gpU75DbGkqE",
+      "videoId": "gpU75DbGkqE",
+      "title": "루터스ㅣ승리의 깃발ㅣ한양대학교 축제ㅣ[2025] 애국한양응원제 : 울림ㅣHUBS",
+      "channel": "HUBS 한양대학교 교육방송국",
+      "publishedAt": "2025-09-20",
+      "descriptionSummary": "2025 서울 애국한양응원제 ‘울림’의 승리의 깃발 단독 실연이며 HUBS 촬영·편집 정보를 제공한다. 2026 정식 공개보다 앞선 공개 공연 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 서울 직접 사용", "2026 정식 공개 이전 실연", "애국한양응원제", "학내방송 기록"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-flag-finale-2025",
+      "songId": "hanyang-university-seungni-ui-gitbal",
+      "url": "https://www.youtube.com/watch?v=EKGVspWqT9Q",
+      "videoId": "EKGVspWqT9Q",
+      "title": "[2025] '한양이 하나되어: 사랑' 응원제 - 2025년의 피날레 '승리의 깃발', '가리워진 길', '그대에게', '한양대학교 교가'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-01-23",
+      "descriptionSummary": "2025년 9월 가을 응원제 피날레에서 승리의 깃발을 가리워진 길·그대에게·교가 앞에 배치한 공식 영상이며 출연·밴드·제작진을 상세히 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 승리의 깃발이 인상적이라고 짧게 호평한다."],
+      "supports": ["2025 서울 직접 사용", "피날레 곡 순서", "공연 크레딧", "신곡 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-flag-seoul-2026",
+      "songId": "hanyang-university-seungni-ui-gitbal",
+      "url": "https://www.youtube.com/watch?v=iJr4aybQ5SM",
+      "videoId": "iJr4aybQ5SM",
+      "title": "[2026] RACHIOS:찬란 - '승리의 깃발' '사자후' '라치오스' '한양을 위하여' '가리워진 길' '그대에게'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-06-17",
+      "descriptionSummary": "2026 서울 라치오스 ‘찬란’ 후반 묶음의 첫 곡으로 승리의 깃발을 수록하고 RHooters·KARHIOS·밴드·제작진을 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 푸른색과 사자 상징을 곁들여 학교와 응원단을 짧게 응원한다."],
+      "supports": ["2026 서울 현행 사용", "라치오스", "곡 순서", "공연 크레딧", "학교 지지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hyu-c-flag-erica-2026",
+      "songId": "hanyang-university-seungni-ui-gitbal",
+      "url": "https://www.youtube.com/watch?v=eG5vI8VYmnM",
+      "videoId": "eG5vI8VYmnM",
+      "title": "[2026] ESPERO:항해 - '승리의 깃발' '사자후' '한양을 위하여' '그대에게'",
+      "channel": "한양대학교 응원단 RHooters",
+      "publishedAt": "2026-06-17",
+      "descriptionSummary": "2026 ERICA ESPERO ‘항해’ 묶음의 첫 곡으로 승리의 깃발을 수록하고 출연·제작진을 상세히 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 ERICA 현행 사용", "ESPERO", "곡 순서", "공식 묶음 실연", "공연 크레딧"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 35,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

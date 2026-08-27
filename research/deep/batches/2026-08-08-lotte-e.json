@@ -1,0 +1,1417 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-lotte-e",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-lotte-giants",
+    "name": "롯데 자이언츠",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 구단 응원가와 원곡은 합법적으로 열람 가능한 출처 URL, 권리 상태, 구성·주제 요약만 남긴다. 공개 댓글은 작성자 식별정보와 원문 인용 없이 반복되는 반응만 익명 요약한다.",
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 30,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  },
+  "items": [
+    {
+      "id": "lotte-giants-our-shining-moment",
+      "title": "우리들의 빛나는 이 순간",
+      "aliases": [
+        "우빛순",
+        "우리들의 빛나는 순간"
+      ],
+      "currentStatus": "current-official-team-cheer",
+      "summary": "이상민의 2023 ‘DREAM OF GROUND’ 응원가 공모전 특별상 수상작이 2024시즌 공식 응원가로 채택된 곡이다. 2024년 3월 29일 사직 현장, 2025년 구단 파이프오르간 편곡, 2026년 구단 공식 예열 영상과 전곡 플레이리스트까지 이어진다. 현행 나무위키는 응원단이 공모전판의 일부 문구를 고치고 음정을 한 키 높였으며, 주로 8회 공격 전 ‘영광의 순간’에 앞서 사용한다고 설명하지만 편곡 크레딧과 고정 사용 빈도는 공식 자료로 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "contestAndCreator",
+          "value": "2023 DREAM OF GROUND 공모전 특별상, 제출자 이상민",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-newsis-contest-2023"
+          ],
+          "notes": "부산시 제공 내용을 인용한 시상식 보도가 수상 부문·제목·이름을 함께 적는다. 동명인 기존 슈가도넛 곡 ‘Dream of Ground’와 별개다."
+        },
+        {
+          "field": "officialAdoption",
+          "value": "2024시즌 롯데 자이언츠 공식 응원가로 채택",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-stn-contest-2024",
+            "yt-lotte-e-shining-field-2024"
+          ],
+          "notes": "2024년 제2회 공모전 보도가 전년도 당선작의 공식 채택을 명시하고, 3월 29일 사직 현장 영상이 실제 응원단 사용을 보여준다."
+        },
+        {
+          "field": "arrangementChange",
+          "value": "공모전판 일부 문구 수정 및 한 키 높은 현장 편곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-shining"
+          ],
+          "notes": "현행 나무위키 서술이다. 공모전 원본 음원과 구단 편곡판의 정식 악보·크레딧을 확보하지 못해 차이를 계량 검증하지 않았다."
+        },
+        {
+          "field": "usageContext",
+          "value": "주로 8회 공격 전 ‘영광의 순간’에 앞서 부르는 대형 제창곡이라는 설명",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-shining",
+            "yt-lotte-e-shining-field-2024",
+            "yt-lotte-e-shining-official-2026"
+          ],
+          "notes": "현장 영상은 치어리더 안무와 관중 제창을 확인해 주지만, 매 경기 같은 이닝에 고정되는지는 표본만으로 단정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 Giants TV 공식 전곡 영상 38분 10초 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-official-2026",
+            "yt-lotte-e-shining-official-2026",
+            "yt-lotte-e-shining-preheat-2026"
+          ],
+          "notes": "구단은 2026년 3월 독립 예열 영상도 공개해 현행성을 재확인했다."
+        }
+      ],
+      "usageContexts": [
+        "홈·원정 응원단의 치어리더 안무와 관중 제창",
+        "후반 공격 전 분위기를 끌어올리는 감성형 팀 응원",
+        "구단 시즌 예열·하이라이트·클래식 협업 콘텐츠"
+      ],
+      "trivia": [
+        {
+          "id": "shining-organ-arrangement",
+          "summary": "롯데는 2025 클래식 시리즈에 맞춰 롯데콘서트홀에서 박준호가 연주한 파이프오르간 판을 별도로 제작했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-shining-organ-2025"
+          ]
+        },
+        {
+          "id": "shining-future-championship-association",
+          "summary": "여러 연도의 영상 댓글에는 훗날 우승 직후 이 곡을 함께 부르면 벅찰 것이라는 상상과, 가사가 팀 성적을 넘어 개인의 꿈과 버팀을 떠올리게 한다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-shining-audio-2024",
+            "yt-lotte-e-shining-field-2024",
+            "yt-lotte-e-shining-preheat-2026"
+          ]
+        },
+        {
+          "id": "shining-video-ending-use",
+          "summary": "현행 나무위키는 이 곡이 Giants TV 영상의 엔딩 음악으로도 사용된다고 설명한다. 다만 어떤 시리즈에 상시 적용됐는지는 별도 목록이 없어 ‘반복 사용’ 수준으로만 보존했다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-shining"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-contest-winning-club-arrangement-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=CFNoe1UiS7M",
+          "https://www.youtube.com/watch?v=K9xm7kaV6MA",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.21"
+        ],
+        "structureSummary": "짧은 승리·꿈 호출 뒤 무의미음과 구단명 응답이 이어지고, 거인의 심장과 그라운드의 열정을 묘사하는 중간 절을 거쳐 첫 후렴을 되풀이하는 2분 안팎의 제창형 구성이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-e-shining-audio-2024",
+        "yt-lotte-e-shining-field-2024",
+        "yt-lotte-e-shining-organ-2025",
+        "yt-lotte-e-shining-preheat-2026",
+        "yt-lotte-e-shining-official-2026"
+      ],
+      "unresolved": [
+        "2024시즌 최초 경기 사용일과 3월 29일보다 이른 현장 공개 여부",
+        "이상민 외 공식 작사·작곡·편곡·보컬 전체 크레딧",
+        "공모전 제출판과 현장판의 정확한 문구·조성·편곡 차이",
+        "2026시즌에도 8회 공격 전 고정 순서로 사용하는 경기 비율"
+      ]
+    },
+    {
+      "id": "lotte-giants-tuhon-tuji",
+      "title": "투혼투지",
+      "aliases": [
+        "투혼, 투지",
+        "鬪魂鬪志"
+      ],
+      "currentStatus": "current-official-team-cheer-derived-from-2024-slogan",
+      "summary": "롯데의 2024 시즌 캐치프레이즈와 같은 이름으로 공개된 팀 응원가다. 2024년 3월 17일 시범경기 현장 표본이 가장 이르고, Boney M.의 1978년 곡 ‘Rasputin’ 선율을 팀명·승리·투혼 구호 중심으로 바꿨다. 초기 영상에서는 선율을 즉시 알아보는 반응과 난도가 높다는 반응이 함께 나타났고, 구단은 전반기 결산 영상의 주제곡으로도 활용했다. 2026 공식 팀 응원가 플레이리스트에도 11분 53초부터 수록돼 현재 사용 중이다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "늦어도 2024-03-17 현장 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-tuhon-field-2024",
+            "yt-lotte-e-tuhon-learn-2024"
+          ],
+          "notes": "3월 17일 경기 장면을 제목과 설명에 명시한 직캠이 직접 표본이다. 구단의 별도 정식 음원 공개일은 찾지 못했다."
+        },
+        {
+          "field": "sloganRelationship",
+          "value": "2024 롯데 자이언츠 시즌 캐치프레이즈 ‘투혼투지’에 맞춘 응원가",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-tuhon",
+            "ev-lotte-e-slogan-roundup",
+            "yt-lotte-e-tuhon-retrospective-2024"
+          ],
+          "notes": "구단 결산 영상도 제목에 같은 구호를 사용한다. 슬로건의 세부 조어 설명은 2차 정리 자료라 신뢰도를 한 단계 낮췄다."
+        },
+        {
+          "field": "origin",
+          "value": "Boney M. ‘Rasputin’ 선율을 사용한 롯데 개사·응원 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-tuhon",
+            "ev-lotte-e-rasputin-apple",
+            "ev-lotte-e-rasputin-credits",
+            "yt-lotte-e-tuhon-field-2024"
+          ],
+          "notes": "현행 문서의 원곡 식별과 초기 현장 댓글의 독립적인 선율 인지가 일치한다. 원곡은 1978년 Boney M. 앨범 수록곡이고 저작자는 Frank Farian, Fred Jay, George Reyam으로 확인된다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 Giants TV 공식 전곡 영상 11분 53초 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-official-2026",
+            "yt-lotte-e-tuhon-official-2026"
+          ],
+          "notes": "2024 슬로건이 끝난 뒤에도 2026 공식 곡 목록에 남아 있어 시즌 한정 캠페인송으로만 볼 수 없다."
+        }
+      ],
+      "usageContexts": [
+        "경기 중 응원단 안무와 관중의 팀명·구호 응답",
+        "2024 시즌 슬로건을 강조하는 선수단·전반기 결산 콘텐츠",
+        "직관 전 안무와 구호를 익히는 학습형 영상"
+      ],
+      "trivia": [
+        {
+          "id": "tuhon-early-mixed-reaction",
+          "summary": "3월 17일 첫 현장 표본 댓글은 익숙한 원곡을 바로 알아보는 반응과 함께, 박자·구호가 어렵거나 기존 롯데 응원가보다 덜 신난다는 평가도 다수 남겼다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-tuhon-field-2024",
+            "yt-lotte-e-tuhon-learn-2024"
+          ]
+        },
+        {
+          "id": "tuhon-season-montage",
+          "summary": "Giants TV는 2024년 7월 이 곡과 동일한 시즌 구호를 전반기 선수단 장면을 묶는 4분대 결산 영상 제목과 음악적 프레임으로 사용했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-tuhon-retrospective-2024"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-adaptation-of-commercial-song-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=AukYP3Rh9A0",
+          "https://music.apple.com/us/album/nightflight-to-venus-2007-remastered-version/250727571",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.22"
+        ],
+        "structureSummary": "투혼과 투지를 번갈아 호출하는 네 문장형 도입, 무의미음과 팀명 응답, 짧은 승리 지향 구절을 차례로 배치한 뒤 후반부 구호·후렴을 반복하는 구성이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-e-tuhon-field-2024",
+        "yt-lotte-e-tuhon-learn-2024",
+        "yt-lotte-e-tuhon-retrospective-2024",
+        "yt-lotte-e-tuhon-season-farewell-2024",
+        "yt-lotte-e-tuhon-official-2026"
+      ],
+      "unresolved": [
+        "롯데판 작사·편곡·보컬과 음원 제작 주체의 공식 크레딧",
+        "2024년 3월 17일보다 이른 비공개·구단 행사 공개 여부와 정식 공개일",
+        "2025~2026 경기에서의 고정 사용 이닝·상황"
+      ]
+    },
+    {
+      "id": "lotte-giants-march-for-victory",
+      "title": "승리를 위한 전진",
+      "aliases": [
+        "승리를 위한 전진 25시즌 팀 응원가"
+      ],
+      "currentStatus": "current-official-team-cheer",
+      "summary": "2025년 새로 제작된 롯데 팀 응원가로, 4월 14일 Giants TV 영상 아웃트로에서 전주가 선행 노출되고 4월 15일 구단 채널에 정식 영상이 공개됐다. 히사이시 조의 드라마 ‘태왕사신기’ OST ‘First Love(첫사랑)’ 선율을 바탕으로 행진·투혼·영광 구호를 얹었다. 현행 나무위키는 치바 롯데 마린스와 함께 쓰는 해외 구단 교류곡이라고 하나, 치바 구단의 현행 응원가 페이지와 검색 결과에서는 같은 곡을 독립 확인하지 못해 이 부분은 확정하지 않았다. 롯데는 2025년 파이프오르간 판과 2026년 DAY6 성진 커버를 제작했다.",
+      "claims": [
+        {
+          "field": "releaseSequence",
+          "value": "2025-04-14 아웃트로 선행 노출, 2025-04-15 Giants TV 정식 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-forward",
+            "yt-lotte-e-forward-teaser-2025",
+            "yt-lotte-e-forward-official-2025"
+          ],
+          "notes": "아웃트로는 7분 24초부터이며, 정식 영상의 실제 게시 시각은 YouTube 메타데이터로 확인했다."
+        },
+        {
+          "field": "origin",
+          "value": "히사이시 조가 작곡한 ‘태왕사신기’ OST ‘First Love(첫사랑)’ 선율의 응원 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-forward",
+            "ev-lotte-e-first-love-metadata",
+            "yt-lotte-e-forward-inst-cover-2025"
+          ],
+          "notes": "상업 악보 메타데이터가 작곡가·작품·OST 관계를, HJ P의 MR 제목이 롯데판과 원곡 관계를 각각 적는다."
+        },
+        {
+          "field": "overseasClubExchange",
+          "value": "치바 롯데 마린스와 함께 사용하는 곡이라는 현행 나무위키 주장",
+          "assessment": "reported-unverified",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-forward",
+            "ev-lotte-e-chiba-current-list"
+          ],
+          "notes": "현행 치바 구단 응원가 페이지의 텍스트 목록에는 ‘First Love’나 대응 제목이 보이지 않는다. 오디오만으로 표시된 과거·비공식 레퍼토리일 가능성을 배제할 수 없어 반증으로도 단정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 Giants TV 공식 전곡 영상 40분 15초 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-official-2026",
+            "yt-lotte-e-forward-official-2026",
+            "yt-lotte-e-forward-cover-2026"
+          ],
+          "notes": "2026년 독립 커버 콘텐츠까지 제작돼 현행 공식 레퍼토리임이 분명하다."
+        },
+        {
+          "field": "liveUse",
+          "value": "정식 공개 당일 사직과 같은 해 잠실 원정에서 관중 제창·안무 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-forward-field-2025",
+            "yt-lotte-e-forward-away-2025"
+          ],
+          "notes": "긴 가사 때문에 초기에는 익숙하지 않다는 현장 영상 설명도 남아 있다."
+        }
+      ],
+      "usageContexts": [
+        "홈·원정 응원단의 웅장한 행진형 팀 제창",
+        "승리와 투혼을 강조하는 후반 분위기 고조 구간",
+        "구단 클래식 시리즈와 2026 시즌 예열 커버 콘텐츠"
+      ],
+      "trivia": [
+        {
+          "id": "forward-organ-arrangement",
+          "summary": "구단은 공개 약 한 달 뒤 롯데콘서트홀에서 박준호가 연주한 파이프오르간 판을 제작했다. 댓글에서는 응원가가 교향·서사 음악처럼 들린다는 반응이 반복됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-forward-organ-2025"
+          ]
+        },
+        {
+          "id": "forward-sungjin-cover",
+          "summary": "2026년 구단 예열 시리즈에는 부산 출신이자 롯데 팬으로 알려진 DAY6 성진의 보컬 커버가 공개됐다. 공식 설명은 부상 없는 시즌과 가을 사직 야구를 바라는 취지를 전한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-forward-cover-2026"
+          ]
+        },
+        {
+          "id": "forward-championship-imagery",
+          "summary": "정식 공개 영상과 현장 영상 댓글에는 이 곡을 포스트시즌 진출이나 우승 직후의 무반주 떼창과 연결해 상상하는 반응이 집중된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-forward-official-2025",
+            "yt-lotte-e-forward-field-2025",
+            "yt-lotte-e-forward-away-2025"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-adaptation-of-drama-ost-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=bjj3Kp13UVA",
+          "https://www.akbobada.com/musicDetail.html?musicID=20879&partTabGubun=S",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.23"
+        ],
+        "structureSummary": "행진을 선언하는 짧은 후렴과 팀명 응답, 투혼·투지 구호 블록, 신화와 승리의 영광을 말하는 중간 절, 첫 후렴 재현으로 이어지는 서사형 구성이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-e-forward-teaser-2025",
+        "yt-lotte-e-forward-official-2025",
+        "yt-lotte-e-forward-field-2025",
+        "yt-lotte-e-forward-away-2025",
+        "yt-lotte-e-forward-organ-2025",
+        "yt-lotte-e-forward-inst-cover-2025",
+        "yt-lotte-e-forward-cover-2026",
+        "yt-lotte-e-forward-official-2026"
+      ],
+      "unresolved": [
+        "롯데판 작사·편곡·보컬과 음원 제작 주체의 공식 전체 크레딧",
+        "치바 롯데 마린스 공동 사용설을 확인할 구단·응원단 1차 자료나 직접 영상",
+        "4월 15일 정식 공개 전 사직 경기에서의 정확한 최초 사용일",
+        "원곡 이용 허락과 구단 편곡판의 권리 처리 범위",
+        "2026 정규경기에서의 고정 사용 이닝·상황"
+      ]
+    },
+    {
+      "id": "lotte-giants-for-glory",
+      "title": "영광을 위해",
+      "aliases": [
+        "2026 신규 응원가",
+        "영광을 위해 라인업송"
+      ],
+      "currentStatus": "current-official-team-cheer-and-lineup-song",
+      "summary": "2026 Giants TV 공식 팀 응원가 플레이리스트에서 ‘신규 응원가’로 처음 명확히 소개된 곡이다. 현행 나무위키는 유튜브 채널 HJ P의 자작곡이며, 부산 BNK 썸이 같은 선율을 ‘부산의 함성’으로 먼저 사용했다고 적는다. 2025년 11월 BNK 현장 영상이 롯데의 2026년 3월 공개보다 빠른 점은 확인되지만, HJ P의 실명·정식 크레딧과 두 구단판의 계약·편곡 관계는 확인되지 않았다. 팬들이 공개 직후 라인업송 활용을 제안했고, 실제로 2026년 7월 23일 사직 SSG전부터 새 라인업송으로 쓰인 직접 영상이 남아 있다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2026 신규 롯데 팀 응원가; 2026-03-27 Giants TV 공식 공개 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-official-2026",
+            "ev-lotte-e-namu-glory",
+            "yt-lotte-e-glory-official-2026",
+            "yt-lotte-e-glory-audio-2026"
+          ],
+          "notes": "공식 영상 설명의 타임라인이 이 곡에만 신규 표식을 붙인다. 같은 날 후속 업로드들도 제목에 2026 신규 곡이라고 명시한다."
+        },
+        {
+          "field": "creator",
+          "value": "유튜브 채널 HJ P의 자작곡이라는 주장",
+          "assessment": "reported",
+          "confidence": "medium-low",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-glory",
+            "yt-lotte-e-glory-official-2026"
+          ],
+          "notes": "공식 플레이리스트 댓글에는 자신이 작곡했고 재편곡돼 나왔다고 주장하는 공개 댓글이 있으나 계정 신원과 계약 크레딧은 검증하지 않았다. 원문·작성자 정보는 저장하지 않았다."
+        },
+        {
+          "field": "sharedMelody",
+          "value": "부산 BNK 썸 ‘부산의 함성’과 같은 선율이며 BNK 사용이 먼저라는 설명",
+          "assessment": "verified-with-limited-primary-context",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-glory",
+            "yt-lotte-e-glory-bnk-2025",
+            "yt-lotte-e-glory-field-2026"
+          ],
+          "notes": "BNK 제목의 현장 영상은 2025-11-18에 게시돼 롯데 공식 공개보다 약 4개월 빠르다. 두 음원의 정식 마스터·크레딧을 비교하지 못했으므로 ‘원곡 양도’ 같은 법적 관계까지 뜻하지 않는다."
+        },
+        {
+          "field": "lineupSongAdoption",
+          "value": "2026-07-23 사직 SSG전부터 라인업송으로도 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-glory",
+            "yt-lotte-e-glory-lineup-2026"
+          ],
+          "notes": "당일 게시된 직접 영상의 제목·설명·영상 내용이 새 라인업송임을 일치해 보여준다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 Giants TV 공식 전곡 영상 42분 24초 수록 및 7월 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-glory-official-2026",
+            "yt-lotte-e-glory-field-2026",
+            "yt-lotte-e-glory-lineup-2026"
+          ],
+          "notes": "팀 응원가에서 시즌 중 라인업 소개용 변형까지 용도가 확장됐다."
+        }
+      ],
+      "usageContexts": [
+        "2026 신규 팀 응원가로서의 치어리더 안무와 관중 응답",
+        "경기 전 선발 타자 순서를 호명하는 라인업송",
+        "후반 승부처에서 어깨동무·대형 제창으로 활용된다는 현장 보고"
+      ],
+      "trivia": [
+        {
+          "id": "glory-fan-request-to-lineup",
+          "summary": "3월 공개 직후 여러 영상 댓글에서 구호 사이에 타자 이름을 넣어 라인업송으로 쓰자는 제안이 반복됐고, 7월 실제 버전이 등장했다.",
+          "assessment": "verified-sequence",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-glory-audio-2026",
+            "yt-lotte-e-glory-fanmv-2026",
+            "yt-lotte-e-glory-lineup-2026"
+          ]
+        },
+        {
+          "id": "glory-lineup-mixed-reaction",
+          "summary": "라인업판 댓글은 기존보다 가사가 생겨 좋다는 반응과, 선수 호명 사이에 구호가 끼어 전체가 길고 위압감이 줄었다는 반응으로 뚜렷하게 갈린다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-glory-lineup-2026"
+          ]
+        },
+        {
+          "id": "glory-title-series-association",
+          "summary": "공개 영상 댓글에서는 기존 인기곡 ‘영광의 순간’과 제목·웅장한 정서가 이어지는 ‘영광 시리즈’처럼 받아들이는 반응이 자주 보인다. 공식 연작 표시는 아니다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lotte-e-glory-audio-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-arrangement-creator-and-redistribution-rights-not-formally-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE&t=2544s",
+          "https://www.youtube.com/watch?v=9jQLqGjh4K0",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.24"
+        ],
+        "structureSummary": "제목을 내건 두 문장형 후렴, 네 묶음의 무의미음·팀 구호 응답, 투혼·투지와 팀명 단독 구호, 후렴 재현과 상승하는 마무리로 구성된다. 라인업판은 구호 사이에 타순과 선수 이름을 삽입한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-e-glory-bnk-2025",
+        "yt-lotte-e-glory-official-2026",
+        "yt-lotte-e-glory-audio-2026",
+        "yt-lotte-e-glory-field-2026",
+        "yt-lotte-e-glory-fanmv-2026",
+        "yt-lotte-e-glory-lineup-2026"
+      ],
+      "unresolved": [
+        "HJ P의 실명과 롯데판 정식 작사·작곡·편곡·보컬 전체 크레딧",
+        "부산 BNK 썸판과 롯데판 사이의 원 마스터·편곡·이용 허락 관계",
+        "3월 27일 공식 영상보다 앞선 롯데 경기·행사 최초 사용 여부",
+        "7월 23일 도입 라인업판이 2027년 이후에도 유지되는지 여부"
+      ]
+    },
+    {
+      "id": "lotte-giants-love-lotte-only",
+      "title": "롯데만을 사랑하리",
+      "aliases": [
+        "롯데만을 사랑하리라",
+        "박상민 - 롯데만을 사랑하리"
+      ],
+      "currentStatus": "current-official-pregame-song-missing-from-initial-inventory",
+      "summary": "2008년 박상민이 부른 롯데 응원가다. 당시 보도는 홍진영이 곡을 만들었고 강훈에게도 개사해 ‘험한세상 다리되어’로 소개했다고 전하며, 현재 구단 저작자 페이지는 원천 곡을 강훈의 ‘험한세상다리되어’, 작사·작곡을 홍진영으로 표기한다. 방향 서술에는 차이가 있지만 두 곡이 같은 작곡 계열이라는 점은 일치한다. 2008년 4월 1일 사직 홈 개막 행사에서 박상민이 직접 부른 기록이 있고, 2024·2025 영상과 2026 Giants TV 공식 목록에도 남아 있다. 현행 나무위키는 경기 시작 약 한 시간 전 ‘자이언츠 러브송’과 함께 주로 사용한다고 설명한다. 최초 인벤토리에는 빠졌으나 이번 배치에서는 누락 사실만 기록하고 인벤토리는 수정하지 않았다.",
+      "claims": [
+        {
+          "field": "performerAndIntroduction",
+          "value": "박상민 가창, 2008년 신규 롯데 응원가 및 2008-04-01 사직 홈 개막 행사 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-sports-khan-love-2008",
+            "ev-lotte-e-chosun-love-2008",
+            "yt-lotte-e-love-old-audio-2012"
+          ],
+          "notes": "3월 26일 사전 보도와 4월 1일 공연 보도가 이어진다. 정확한 음원 녹음일은 별도 확인되지 않았다."
+        },
+        {
+          "field": "creatorAndSource",
+          "value": "홍진영 작사·작곡 계열, 강훈 ‘험한세상다리되어’와 같은 곡의 롯데 개사판",
+          "assessment": "verified-with-directional-conflict",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-official-copyright",
+            "ev-lotte-e-sports-khan-love-2008",
+            "yt-lotte-e-love-source-2008"
+          ],
+          "notes": "구단 페이지는 강훈 곡을 원곡으로 적지만 동시대 기사는 홍진영이 롯데곡을 만든 뒤 강훈에게도 가사를 바꿔 줬다고 서술한다. 강훈 음원 메타데이터의 발매일은 2008-02-04다. 어느 가사가 먼저 완성됐는지는 확정하지 않는다."
+        },
+        {
+          "field": "usageContext",
+          "value": "현재 경기 시작 약 한 시간 전 ‘자이언츠 러브송’과 함께 주로 송출",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-e-namu-love",
+            "yt-lotte-e-love-field-2025",
+            "yt-lotte-e-love-official-2026"
+          ],
+          "notes": "공식 2026 목록과 최근 공연 영상은 현재 레퍼토리임을 확인하지만 ‘한 시간 전’이라는 세부 시간은 문서 서술에 의존한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 Giants TV 공식 전곡 영상 23분 33초 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-official-2026",
+            "yt-lotte-e-love-official-2026",
+            "yt-lotte-e-love-playlist-2024"
+          ],
+      "notes": "오래된 곡이지만 2026 공식 팀 응원가 목록에 명시적으로 수록돼 있다."
+        },
+        {
+          "field": "inventoryStatus",
+          "value": "2026-08-08 현재 프로젝트 KBO 인벤토리에서 누락",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-e-inventory",
+            "yt-lotte-e-love-official-2026"
+          ],
+          "notes": "공식 현행 목록과 충돌하는 누락이다. 부모 작업 지시에 따라 이번 배치에서는 인벤토리를 수정하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "경기 시작 전 관중 입장·예열 시간대의 구단 사랑 노래",
+        "치어리더 공연과 팬 플레이리스트의 회고형 팀 응원가",
+        "2008 홈 개막 행사에서 가수 박상민이 직접 부른 공연곡"
+      ],
+      "trivia": [
+        {
+          "id": "love-fandom-relationship",
+          "summary": "2012년 보도는 원래 두산 팬으로 알려졌던 박상민이 2008년 이 곡을 부르며 롯데와 인연을 맺었고, 이후 ‘챔피언 롯데’까지 부르게 됐다고 설명한다. 개인 팬심의 정확한 전환 시점은 언론 서술로만 남긴다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-e-kookje-park-2012"
+          ]
+        },
+        {
+          "id": "love-2008-sajik-symbols",
+          "summary": "가사는 당시 사직의 대표 응원 도구였던 신문지와 주황 봉지를 직접 떠올리게 해, 오래된 영상 댓글에서 로이스터 시절과 2008년 응원 열기를 회상하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-love-old-audio-2012",
+            "yt-lotte-e-love-field-2025"
+          ]
+        },
+        {
+          "id": "love-title-variant",
+          "summary": "구단 공식 목록과 오래된 음원 제목은 ‘롯데만을 사랑하리’를 쓰지만, 최근 현장 영상 제목에는 종결형 ‘롯데만을 사랑하리라’도 함께 유통된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-e-love-official-2026",
+            "yt-lotte-e-love-field-2025"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-adaptation-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=HO_wjaA6jWs",
+          "https://www.giantsclub.com/html/?pcode=985",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.2.3"
+        ],
+        "structureSummary": "험한 세상에서 팀을 사랑하겠다는 서정적 도입, 부산 팬의 동행과 당시 사직 응원 도구를 묘사하는 중간 절, 팀을 빛과 버팀목에 비유하는 반복 후렴으로 이루어진 퓨전 트로트풍 구성이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-e-love-source-2008",
+        "yt-lotte-e-love-old-audio-2012",
+        "yt-lotte-e-love-version-2011",
+        "yt-lotte-e-love-playlist-2024",
+        "yt-lotte-e-love-field-2025",
+        "yt-lotte-e-love-official-2026"
+      ],
+      "unresolved": [
+        "롯데판의 정식 작사가·편곡자·프로듀서 및 전체 음반 크레딧",
+        "2008년 4월 1일 공연보다 앞선 최초 경기 송출·라이브 날짜",
+        "2026 홈경기에서 ‘약 한 시간 전’ 송출이 실제로 고정된 횟수와 시간",
+        "프로젝트 현재곡 인벤토리에 추가할 때의 최종 제목·분류 반영"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-lotte-e-official-2026",
+      "type": "official-club-youtube-playlist",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "publisher": "Giants TV",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 공식 타임라인이 투혼투지 11:53, 롯데만을 사랑하리 23:33, 우리들의 빛나는 이 순간 38:10, 승리를 위한 전진 40:15, 신규곡 영광을 위해 42:24를 명시해 다섯 곡의 2026 현행성과 공식 제목을 직접 확인한다."
+    },
+    {
+      "id": "ev-lotte-e-inventory",
+      "type": "project-inventory",
+      "title": "KBO 10개 구단 현행 응원가 인벤토리 — 롯데 자이언츠",
+      "publisher": "프로젝트 조사 인벤토리",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/kbo.md",
+      "accessedAt": "2026-08-09",
+      "summary": "이번 배치의 앞 네 곡은 포함하지만 공식 2026 목록의 ‘롯데만을 사랑하리’는 누락돼 있다. 이 배치에서는 누락만 기록하고 원본 인벤토리는 수정하지 않는다."
+    },
+    {
+      "id": "ev-lotte-e-namu-shining",
+      "type": "community-wiki",
+      "title": "롯데 자이언츠/응원가 § 우리들의 빛나는 이 순간",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.21",
+      "accessedAt": "2026-08-09",
+      "summary": "2023 공모전 특별상 이상민 곡, 2024 신설, 일부 문구 수정·한 키 상승 편곡, 8회 공격 전 ‘영광의 순간’ 앞 사용, Giants TV 엔딩 활용, 파이프오르간·응원단장 20주년 편곡을 설명한다."
+    },
+    {
+      "id": "ev-lotte-e-newsis-contest-2023",
+      "type": "news-primary-announcement-report",
+      "title": "드림 오브 그라운드 시상식…부산시·롯데자이언츠 공동 개최",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20230723_0002386849",
+      "accessedAt": "2026-08-09",
+      "summary": "부산시·부산정보산업진흥원·롯데가 새 응원가 발굴을 위해 공동 추진한 2023 공모전에서 이상민의 ‘우리들의 빛나는 이 순간’이 특별상을 받았다고 명시한다."
+    },
+    {
+      "id": "ev-lotte-e-stn-contest-2024",
+      "type": "news-club-announcement-report",
+      "title": "팬들이 만든 롯데 응원가, 사직에 울려 퍼진다? 공모전 개최",
+      "publisher": "STN뉴스 / 다음뉴스",
+      "url": "https://v.daum.net/v/5ZQ70F41zJ?f=p",
+      "accessedAt": "2026-08-09",
+      "summary": "제2회 공모전 소식을 전하며 전년도 당선작 ‘우리들의 빛나는 이 순간’이 2024시즌 공식 응원가로 선정됐다고 구단 자료를 바탕으로 적는다."
+    },
+    {
+      "id": "ev-lotte-e-namu-tuhon",
+      "type": "community-wiki",
+      "title": "롯데 자이언츠/응원가 § 투혼투지",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.22",
+      "accessedAt": "2026-08-09",
+      "summary": "2024년 슬로건에 맞춰 공개됐으며 원곡은 Boney M.의 ‘Rasputin’이라고 설명한다."
+    },
+    {
+      "id": "ev-lotte-e-slogan-roundup",
+      "type": "community-season-slogan-roundup",
+      "title": "2024시즌 10개 구단별 캐치프레이즈",
+      "publisher": "더쿠",
+      "url": "https://theqoo.net/square/3152703193",
+      "accessedAt": "2026-08-09",
+      "summary": "롯데의 2024 캐치프레이즈를 ‘투혼투지’로 정리하고, 자이언츠의 투혼과 G-Spirit의 투지를 결합해 뜨거운 플레이 의지를 표현했다고 소개한다. 1차 구단 페이지가 아니므로 보조 근거로만 쓴다."
+    },
+    {
+      "id": "ev-lotte-e-rasputin-apple",
+      "type": "licensed-music-metadata",
+      "title": "Nightflight to Venus (2007 Remastered Version)",
+      "publisher": "Apple Music",
+      "url": "https://music.apple.com/us/album/nightflight-to-venus-2007-remastered-version/250727571",
+      "accessedAt": "2026-08-09",
+      "summary": "Boney M.의 1978년 앨범과 수록곡 ‘Rasputin’을 확인한다."
+    },
+    {
+      "id": "ev-lotte-e-rasputin-credits",
+      "type": "licensed-music-metadata",
+      "title": "Rasputin / Boney M.",
+      "publisher": "벅스",
+      "url": "https://music.bugs.co.kr/track/112803841",
+      "accessedAt": "2026-08-09",
+      "summary": "‘Rasputin’의 작사·작곡 참여자를 Frank Farian, George Reyam, Fred Jay로 제공한다."
+    },
+    {
+      "id": "ev-lotte-e-namu-forward",
+      "type": "community-wiki",
+      "title": "롯데 자이언츠/응원가 § 승리를 위한 전진",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.23",
+      "accessedAt": "2026-08-09",
+      "summary": "2025 신곡, 히사이시 조 ‘First Love’ 원곡, 치바 롯데 공동 사용설, 4월 14일 아웃트로 선행 노출과 15일 정식 공개, 파이프오르간판과 2026 성진 커버를 설명한다."
+    },
+    {
+      "id": "ev-lotte-e-first-love-metadata",
+      "type": "licensed-sheet-music-metadata",
+      "title": "첫사랑(First Love) 악보",
+      "publisher": "악보바다",
+      "url": "https://www.akbobada.com/musicDetail.html?musicID=20879&partTabGubun=S",
+      "accessedAt": "2026-08-09",
+      "summary": "곡명을 ‘첫사랑(First Love)’, 아티스트를 Hisaishi Joe, 앨범을 ‘태왕사신기 OST’로 식별한다."
+    },
+    {
+      "id": "ev-lotte-e-chiba-current-list",
+      "type": "official-overseas-club-cheer-list",
+      "title": "応援歌",
+      "publisher": "千葉ロッテマリーンズ",
+      "url": "https://www.marines.co.jp/fans/supportersong/",
+      "accessedAt": "2026-08-09",
+      "summary": "치바 롯데의 현행 선수·팀 응원가 목록이다. 페이지 텍스트에서 ‘First Love’ 또는 롯데의 ‘승리를 위한 전진’에 대응하는 제목을 식별하지 못해 공동 사용설을 독립 확인하지 못했다."
+    },
+    {
+      "id": "ev-lotte-e-namu-glory",
+      "type": "community-wiki",
+      "title": "롯데 자이언츠/응원가 § 영광을 위해",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.24",
+      "accessedAt": "2026-08-09",
+      "summary": "2026 신곡, HJ P 자작곡설, 부산 BNK 썸 ‘부산의 함성’ 선사용, 7월 23일 사직 SSG전부터 라인업송 사용을 설명한다."
+    },
+    {
+      "id": "ev-lotte-e-namu-love",
+      "type": "community-wiki",
+      "title": "롯데 자이언츠/응원가 § 이전 응원가 기타",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.2.3",
+      "accessedAt": "2026-08-09",
+      "summary": "‘롯데만을 사랑하리’의 원곡을 강훈 ‘험한세상 다리되어’, 가창을 박상민으로 적고 현재는 경기 시작 약 한 시간 전 ‘자이언츠 러브송’과 함께 주로 사용한다고 설명한다."
+    },
+    {
+      "id": "ev-lotte-e-official-copyright",
+      "type": "official-club-copyright-metadata",
+      "title": "응원가 저작자 안내",
+      "publisher": "롯데 자이언츠",
+      "url": "https://www.giantsclub.com/html/?pcode=985",
+      "accessedAt": "2026-08-09",
+      "summary": "저작자 표 44번에서 원천 곡 ‘험한세상다리되어’, 가수 강훈, 작사·작곡 홍진영을 기재한다."
+    },
+    {
+      "id": "ev-lotte-e-sports-khan-love-2008",
+      "type": "contemporaneous-news",
+      "title": "박상민, 올시즌 부산 사직구장 뜨겁게 달궈드리지요",
+      "publisher": "스포츠경향",
+      "url": "https://sports.khan.co.kr/article/200803262119376",
+      "accessedAt": "2026-08-09",
+      "summary": "2008 개막을 앞두고 박상민이 새 퓨전 트로트풍 응원가 ‘롯데만을 사랑하리’를 부르며, 홍진영이 곡을 만들고 강훈에게도 가사를 바꿔 ‘험한 세상 다리 되어’로 소개했다고 보도한다."
+    },
+    {
+      "id": "ev-lotte-e-chosun-love-2008",
+      "type": "contemporaneous-news",
+      "title": "이모저모: 박상민 사직 홈 개막 공연",
+      "publisher": "조선일보",
+      "url": "https://www.chosun.com/site/data/html_dir/2008/04/01/2008040101916.html",
+      "accessedAt": "2026-08-09",
+      "summary": "2008년 4월 1일 사직 롯데-SK전에서 박상민이 애국가·시타에 이어 5회 종료 뒤 ‘롯데만을 사랑하리’를 불렀다고 보도한다."
+    },
+    {
+      "id": "ev-lotte-e-kookje-park-2012",
+      "type": "news",
+      "title": "살맛 난 부산갈매기들",
+      "publisher": "국제신문",
+      "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20120409.22022211843",
+      "accessedAt": "2026-08-09",
+      "summary": "박상민이 2008년 ‘롯데만을 사랑하리’를 부르며 롯데와 인연을 맺었고 2012년 새 곡 ‘챔피언 롯데’까지 이어졌다고 설명한다."
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-lotte-e-shining-audio-2024",
+      "songId": "lotte-giants-our-shining-moment",
+      "url": "https://www.youtube.com/watch?v=K9xm7kaV6MA",
+      "videoId": "K9xm7kaV6MA",
+      "title": "우리들의 빛나는 이 순간",
+      "channel": "야쏭",
+      "publishedAt": "2024-03-28T05:34:07-07:00",
+      "descriptionSummary": "별도 설명 없이 2분 4초 길이의 롯데 응원가 음원을 제공한다. 2024 정규시즌 초의 이른 독립 업로드다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 공모전 당선곡이라는 인식, 장래 우승 순간의 떼창을 상상하는 반응, 응원가와 경기력의 대비를 아쉬워하는 반응이 반복된다."
+      ],
+      "supports": [
+        "early2024Circulation",
+        "fanReception",
+        "lyricsSourceLinkOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-shining-field-2024",
+      "songId": "lotte-giants-our-shining-moment",
+      "url": "https://www.youtube.com/watch?v=2U8x-P-rwLI",
+      "videoId": "2U8x-P-rwLI",
+      "title": "롯데 자이언츠 응원가 - 우리들의 빛나는 이 순간 (VS NC, 사직, 240329)",
+      "channel": "Flyingbee",
+      "publishedAt": "2024-03-29T08:32:45-07:00",
+      "descriptionSummary": "2024년 3월 29일 사직 NC전의 응원단·치어리더 현장을 촬영한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "초기라 관중이 아직 익숙하지 않다는 반응과 떼창이 자리 잡기를 바라는 반응, 가사가 위로와 다짐처럼 들린다는 반응이 함께 보인다."
+      ],
+      "supports": [
+        "officialAdoption2024",
+        "liveUse2024",
+        "choreography"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-shining-organ-2025",
+      "songId": "lotte-giants-our-shining-moment",
+      "url": "https://www.youtube.com/watch?v=PEOfWnJ_xmA",
+      "videoId": "PEOfWnJ_xmA",
+      "title": "오르간으로 듣는 우리들의 빛나는 이 순간",
+      "channel": "Giants TV",
+      "publishedAt": "2025-05-18T03:30:22-07:00",
+      "descriptionSummary": "롯데 클래식 시리즈를 위해 롯데콘서트홀에서 파이프오르가니스트 박준호가 연주한 공식 편곡 콘텐츠다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 응원가가 경건하고 웅장하게 변했다는 반응, 구단과 모기업의 협업 규모에 놀라는 반응, 승리 뒤 들으니 더 벅차다는 반응이 중심이다."
+      ],
+      "supports": [
+        "officialArrangement2025",
+        "organistCredit",
+        "venueCredit"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-shining-preheat-2026",
+      "songId": "lotte-giants-our-shining-moment",
+      "url": "https://www.youtube.com/watch?v=CFNoe1UiS7M",
+      "videoId": "CFNoe1UiS7M",
+      "title": "[주간 예열🔥] 예열을 위한 미리 듣는 롯데자이언츠 응원가 시리즈 | 우리들의 빛나는 이 순간",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-11T05:00:18-07:00",
+      "descriptionSummary": "구단의 2026 ‘주간 예열’ 두 번째 곡으로, 새 시즌 승리 에너지를 채우자는 취지의 공식 독립 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 팀에 대한 애증과 세대 간 팬 경험, 휴대전화 불빛을 켠 우승 떼창의 꿈, 부상 없는 시즌을 바라는 마음을 반복해 적는다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-shining-official-2026",
+      "songId": "lotte-giants-our-shining-moment",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27T17:00:09-07:00",
+      "descriptionSummary": "구단 공식 2026 팀 응원가 전곡 영상이 38분 10초에 이 곡을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬 제작 타임라인이 같은 위치를 재확인하고, 댓글 전반에는 직관 전 반복 청취와 오래된 팬의 새 시즌 기대가 이어진다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle",
+        "timestamp"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-tuhon-field-2024",
+      "songId": "lotte-giants-tuhon-tuji",
+      "url": "https://www.youtube.com/watch?v=AukYP3Rh9A0",
+      "videoId": "AukYP3Rh9A0",
+      "title": "롯데 자이언츠 새로운 팀 응원가 - 투혼, 투지 (240317)",
+      "channel": "Flyingbee",
+      "publishedAt": "2024-03-18T03:55:49-07:00",
+      "descriptionSummary": "2024년 3월 17일 현장에서 새 팀 응원가와 치어리더 안무를 촬영한 초기 직접 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "다수 댓글이 원곡을 곧바로 ‘Rasputin’으로 식별한다. 동시에 곡이 어렵거나 덜 신난다는 부정적 초기 평가도 많다."
+      ],
+      "supports": [
+        "earliestDirectUse",
+        "originRecognition",
+        "earlyReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-tuhon-learn-2024",
+      "songId": "lotte-giants-tuhon-tuji",
+      "url": "https://www.youtube.com/watch?v=npWGpD4v_sE",
+      "videoId": "npWGpD4v_sE",
+      "title": "롯데자이언츠 신규응원가 투혼투지(같이 배워봐요)",
+      "channel": "치어리돌",
+      "publishedAt": "2024-03-24T05:45:22-07:00",
+      "descriptionSummary": "개막 직후 새 응원가의 구호와 안무를 함께 익히도록 편집한 학습형 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 Boney M. 선율을 확인하고, 롯데가 이 그룹의 곡을 응원가로 자주 활용한다는 반응과 구호 명칭에 대한 타 구단 팬의 이견을 남긴다."
+      ],
+      "supports": [
+        "newSong2024",
+        "learnability",
+        "originRecognition"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-tuhon-retrospective-2024",
+      "songId": "lotte-giants-tuhon-tuji",
+      "url": "https://www.youtube.com/watch?v=cdcKFDQcPYI",
+      "videoId": "cdcKFDQcPYI",
+      "title": "투혼투지로 보는 전반기 결산",
+      "channel": "Giants TV",
+      "publishedAt": "2024-07-08T23:30:11-07:00",
+      "descriptionSummary": "구단이 ‘투혼투지’를 제목과 주제 음악으로 삼아 2024 전반기 선수단 장면을 4분대로 묶은 공식 결산 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "후반기 반등과 부상 없는 완주를 바라는 응원이 많고, 시즌 캐치프레이즈가 선수들의 끈질긴 플레이와 어울린다는 반응도 보인다."
+      ],
+      "supports": [
+        "officialClubUse2024",
+        "sloganRelationship",
+        "seasonMontage"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-tuhon-season-farewell-2024",
+      "songId": "lotte-giants-tuhon-tuji",
+      "url": "https://www.youtube.com/watch?v=CqX3uLvT_7o",
+      "videoId": "CqX3uLvT_7o",
+      "title": "❤️‍🩹투혼투지 _ 2024 롯데자이언츠 안녕 | vs LG",
+      "channel": "빛날 현정",
+      "publishedAt": "2024-10-16T05:19:14-07:00",
+      "descriptionSummary": "2024 사직 LG전 직관과 시즌 회고를 ‘투혼투지’ 제목 아래 편집한 팬 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "소수 댓글은 해당 경기의 관람 기억과 시즌 기록을 남겨 준 영상에 대한 감사를 전한다."
+      ],
+      "supports": [
+        "seasonLongUse2024",
+        "fieldContext",
+        "fanMemory"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-tuhon-official-2026",
+      "songId": "lotte-giants-tuhon-tuji",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27T17:00:09-07:00",
+      "descriptionSummary": "구단 공식 전곡 영상이 11분 53초에 ‘투혼투지’를 독립 팀 응원가로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬 타임라인이 제목과 위치를 다시 적고, 댓글 전반은 직관 전 전체 응원가를 익히려는 반응과 시즌 기대가 중심이다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle",
+        "timestamp"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-forward-teaser-2025",
+      "songId": "lotte-giants-march-for-victory",
+      "url": "https://www.youtube.com/watch?v=8Oyk5KXnG6s",
+      "videoId": "8Oyk5KXnG6s",
+      "title": "정철원, 전민재는 앞으로 지갑 들고 다니지 마세요....!",
+      "channel": "Giants TV",
+      "publishedAt": "2025-04-14T05:00:25-07:00",
+      "descriptionSummary": "구단 주간 이슈 영상이며 7분 24초 아웃트로에서 이튿날 공개될 신곡의 전주를 선행 사용했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "여러 댓글이 아웃트로의 낯선 음악을 새 팀 응원가로 알아차리고 정식 공개와 플레이리스트 추가를 요청한다."
+      ],
+      "supports": [
+        "preReleaseTeaser",
+        "outroUse",
+        "releaseSequence"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-forward-official-2025",
+      "songId": "lotte-giants-march-for-victory",
+      "url": "https://www.youtube.com/watch?v=bjj3Kp13UVA",
+      "videoId": "bjj3Kp13UVA",
+      "title": "승리를 위한 전진 25시즌 팀 응원가 #투혼투지",
+      "channel": "Giants TV",
+      "publishedAt": "2025-04-15T01:00:43-07:00",
+      "descriptionSummary": "Giants TV가 2025 시즌 팀 응원가로 정식 공개한 2분 8초 영상이다. 설명에는 전체 가사가 있으나 연구 파일에는 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 웅장한 선율과 후반부를 높게 평가하고, 포스트시즌·우승 뒤 무반주 떼창을 상상하며 새 대표곡이 될 것이라는 반응이 반복된다."
+      ],
+      "supports": [
+        "officialRelease2025",
+        "officialTitle",
+        "lyricsSourceLinkOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-forward-field-2025",
+      "songId": "lotte-giants-march-for-victory",
+      "url": "https://www.youtube.com/watch?v=Tus5iOqhj6w",
+      "videoId": "Tus5iOqhj6w",
+      "title": "롯데 자이언츠 새 응원가 - 승리를 위한 전진 (250415)",
+      "channel": "Flyingbee",
+      "publishedAt": "2025-04-15T20:11:01-07:00",
+      "descriptionSummary": "정식 공개 당일 사직 응원단과 치어리더가 새 곡을 공연하는 현장 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "웅장하고 우승 뒤 부르기 좋다는 반응이 많은 한편, 가사와 안무가 어렵거나 다른 대표곡을 더 선호한다는 반응도 있다."
+      ],
+      "supports": [
+        "sameDayFieldUse",
+        "choreography",
+        "earlyReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-forward-away-2025",
+      "songId": "lotte-giants-march-for-victory",
+      "url": "https://www.youtube.com/watch?v=XfoC_bAw4CA",
+      "videoId": "XfoC_bAw4CA",
+      "title": "롯데자이언츠 팀응원가 \"승리를 위한 전진\" 잠실ver.",
+      "channel": "여뀌뀌",
+      "publishedAt": "2025-06-07T06:52:47-07:00",
+      "descriptionSummary": "2025년 신곡의 잠실 원정 제창을 촬영했으며, 설명은 긴 가사 때문에 아직 익숙하지 않은 팬이 있다고 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "서울 원정에서도 큰 떼창이 형성된 점을 반기는 반응과 이 곡을 다른 웅장한 롯데 곡과 함께 최애로 꼽는 반응이 보인다."
+      ],
+      "supports": [
+        "awayUse2025",
+        "crowdSinging",
+        "learnability"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-forward-organ-2025",
+      "songId": "lotte-giants-march-for-victory",
+      "url": "https://www.youtube.com/watch?v=J0fue0P6_BQ",
+      "videoId": "J0fue0P6_BQ",
+      "title": "오르간으로 듣는 승리를 위한 전진",
+      "channel": "Giants TV",
+      "publishedAt": "2025-05-17T02:19:45-07:00",
+      "descriptionSummary": "롯데 클래식 시리즈를 위해 롯데콘서트홀에서 파이프오르가니스트 박준호가 연주한 공식 편곡 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 파이프오르간 덕분에 교향곡처럼 웅장해졌다는 반응, 구단 자본과 공간을 활용한 콘텐츠라는 반응, 우승 뒤 오케스트라 공연을 바라는 반응이 많다."
+      ],
+      "supports": [
+        "officialOrganVersion",
+        "organistCredit",
+        "venueCredit"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-forward-inst-cover-2025",
+      "songId": "lotte-giants-march-for-victory",
+      "url": "https://www.youtube.com/watch?v=ReSZbHxSuvA",
+      "videoId": "ReSZbHxSuvA",
+      "title": "롯데 팀 응원가 - 승리를 위한 전진 [Hisaishi Joe - First Love] MR (Inst 커버)",
+      "channel": "HJ P",
+      "publishedAt": "2025-04-16T20:00:34-07:00",
+      "descriptionSummary": "공개 직후 제작된 MR 커버로 제목에서 롯데 응원가와 히사이시 조 ‘First Love’의 관계를 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 공개 다음 날 빠르게 반주가 만들어진 점에 놀라고, 익숙한 선율의 원곡을 묻거나 ‘First Love’임을 확인하는 반응을 남긴다."
+      ],
+      "supports": [
+        "originIdentification",
+        "instrumentalCover",
+        "earlyCirculation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-forward-cover-2026",
+      "songId": "lotte-giants-march-for-victory",
+      "url": "https://www.youtube.com/watch?v=QwWT8eUNGrQ",
+      "videoId": "QwWT8eUNGrQ",
+      "title": "[주간 예열🔥] 예열을 위한 미리 듣는 롯데자이언츠 응원가 시리즈 | 승리를 위한 전진 feat. 데이식스 성진",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-13T05:00:47-07:00",
+      "descriptionSummary": "DAY6 성진이 보컬로 참여한 2026 공식 예열 콘텐츠다. 설명은 선수들의 건강과 가을 사직 야구를 바라는 팬심을 제작 취지로 전한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 성진의 롯데 팬심과 가창을 반기고, 영상이 전년도 포스트시즌을 염두에 두고 일찍 제작됐을 것이라는 추측을 반복하지만 제작 시점은 공식 확인되지 않았다."
+      ],
+      "supports": [
+        "officialCover2026",
+        "sungjinParticipation",
+        "currentUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-forward-official-2026",
+      "songId": "lotte-giants-march-for-victory",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27T17:00:09-07:00",
+      "descriptionSummary": "구단 공식 전곡 영상이 40분 15초에 ‘승리를 위한 전진’을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬 타임라인이 같은 제목과 위치를 재확인하며, 댓글 전반은 새 시즌 직관 준비와 구단의 많은 팀 응원가 수에 대한 반응이 중심이다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle",
+        "timestamp"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-glory-bnk-2025",
+      "songId": "lotte-giants-for-glory",
+      "url": "https://www.youtube.com/watch?v=hTCii4Vbzu0",
+      "videoId": "hTCii4Vbzu0",
+      "title": "부산BNK썸 부산의함성 응원가 배워봅시다💯",
+      "channel": "TWOBINPAPA",
+      "publishedAt": "2025-11-18T07:01:32-08:00",
+      "descriptionSummary": "부산 BNK 썸의 ‘부산의 함성’을 안무와 함께 익히는 현장 영상으로, 롯데 공식 공개보다 앞선 2025년 11월에 게시됐다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "단일 댓글은 이 선율이 다른 프로야구 응원가와도 공유된다고 주장하지만 독립 확인되지 않아 보조 제보로만 취급했다."
+      ],
+      "supports": [
+        "bnkPriorUse",
+        "sharedMelodyContext",
+        "crossSportUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-glory-official-2026",
+      "songId": "lotte-giants-for-glory",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27T17:00:09-07:00",
+      "descriptionSummary": "구단 공식 전곡 영상이 42분 24초에 ‘영광을 위해’를 수록하고 이 곡에 신규 응원가 표식을 붙인다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 공개 댓글은 자신이 곡을 만들었고 구단판은 재편곡됐다고 주장한다. 다른 팬들은 곧바로 라인업송으로 쓰자는 의견을 냈지만 작성자 신원과 제작 크레딧은 검증되지 않았다."
+      ],
+      "supports": [
+        "officialIntroduction2026",
+        "officialTitle",
+        "creatorClaimUnverified"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-glory-audio-2026",
+      "songId": "lotte-giants-for-glory",
+      "url": "https://www.youtube.com/watch?v=mIiJ9YtfG80",
+      "videoId": "mIiJ9YtfG80",
+      "title": "※웅장함 MAX※ 2026 롯데 자이언츠 신규 응원가 - 영광을 위해",
+      "channel": "KBOPLAYLIST",
+      "publishedAt": "2026-03-27T21:14:20-07:00",
+      "descriptionSummary": "공식 전곡 영상 공개 직후 2026 롯데 신규 응원가임을 제목과 설명에 명시한 2분 28초 독립 업로드다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "웅장함과 대표곡 가능성을 높게 평가하고 우승·가을야구에서 부르고 싶다는 반응이 많다. 라인업송으로 적합하다는 제안도 반복된다."
+      ],
+      "supports": [
+        "newSong2026",
+        "fanReception",
+        "lineupRequest"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-glory-field-2026",
+      "songId": "lotte-giants-for-glory",
+      "url": "https://www.youtube.com/watch?v=AvoaP-83nUI",
+      "videoId": "AvoaP-83nUI",
+      "title": "롯데 자이언츠 응원가 - 영광을 위해 (260405)",
+      "channel": "Flyingbee",
+      "publishedAt": "2026-04-06T20:46:28-07:00",
+      "descriptionSummary": "2026년 4월 5일 사직 현장에서 응원단장과 치어리더가 새 곡을 공연하는 직접 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "소수 댓글은 좋지 않은 경기력에도 다시 응원하는 팬 분위기와 응원단장 활동 20주년을 함께 언급한다."
+      ],
+      "supports": [
+        "liveUse2026",
+        "choreography",
+        "earlySeasonUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-glory-fanmv-2026",
+      "songId": "lotte-giants-for-glory",
+      "url": "https://www.youtube.com/watch?v=tEU7NW3GsGo",
+      "videoId": "tEU7NW3GsGo",
+      "title": "롯데 자이언츠 라인업송 | 영광을 위해 M/V",
+      "channel": "롯데 온앤오프",
+      "publishedAt": "2026-06-21T05:47:33-07:00",
+      "descriptionSummary": "2025·2026 하이라이트를 엮은 팬 제작 영상으로, 실제 구단 도입 한 달 전부터 제목에서 이 곡을 라인업송 후보처럼 제시한다. 설명·댓글의 전체 가사는 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "구호 뒤에 타자 호명을 넣으면 좋겠다는 구체적 제안과, 사직 홈 경기력 회복을 바라는 반응, 은퇴 선수를 회상하는 반응이 함께 나타난다."
+      ],
+      "supports": [
+        "preAdoptionLineupRequest",
+        "fanMV",
+        "lyricsSourceLinkOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-glory-lineup-2026",
+      "songId": "lotte-giants-for-glory",
+      "url": "https://www.youtube.com/watch?v=9jQLqGjh4K0",
+      "videoId": "9jQLqGjh4K0",
+      "title": "롯데 자이언츠 새로운 라인업송 (영광을 위해)",
+      "channel": "롯데 현장 직캠",
+      "publishedAt": "2026-07-23T02:25:47-07:00",
+      "descriptionSummary": "2026년 7월 23일 사직에서 새 라인업송으로 사용된 ‘영광을 위해’ 버전을 직접 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "가사가 있는 새 라인업송을 반기는 반응과 선수 호명 사이 간격이 길어져 박력이 줄었다는 반응이 엇갈리며, 구호 배치 수정 제안도 다수다."
+      ],
+      "supports": [
+        "lineupAdoptionDate",
+        "currentUseJuly2026",
+        "versionReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-love-source-2008",
+      "songId": "lotte-giants-love-lotte-only",
+      "url": "https://www.youtube.com/watch?v=VnNVee8RPsU",
+      "videoId": "VnNVee8RPsU",
+      "title": "험한세상 다리되어",
+      "channel": "강훈 - Topic",
+      "publishedAt": "2025-06-23T01:12:34-07:00",
+      "descriptionSummary": "권리자 제공 메타데이터가 강훈의 곡을 앨범 ‘Passion-Ista’ 수록, 2008년 2월 4일 발매, Danal Entertainment 제공으로 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "sourceSong",
+        "releaseDate2008",
+        "rightsMetadata"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-love-old-audio-2012",
+      "songId": "lotte-giants-love-lotte-only",
+      "url": "https://www.youtube.com/watch?v=HO_wjaA6jWs",
+      "videoId": "HO_wjaA6jWs",
+      "title": "롯데자이언츠 응원가 - 롯데만을 사랑하리",
+      "channel": "아이고 대다",
+      "publishedAt": "2012-10-18T08:18:06-07:00",
+      "descriptionSummary": "박상민 롯데판의 전체 가사를 설명에 제공하는 오래된 음원·하이라이트 영상이다. 가사 전문은 저장하지 않고 링크와 구조만 남긴다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 2008 로이스터 시절의 공격 야구와 사직 열기를 회상하고, 클래식 행사나 2026년에 곡이 다시 들리는 것을 반긴다."
+      ],
+      "supports": [
+        "oldCheerVersion",
+        "officialTitleCirculation",
+        "lyricsSourceLinkOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-love-version-2011",
+      "songId": "lotte-giants-love-lotte-only",
+      "url": "https://www.youtube.com/watch?v=7uunJqHhQfU",
+      "videoId": "7uunJqHhQfU",
+      "title": "롯데자이언츠 응원가 - 롯데만을 사랑하리 (2011 ver.)",
+      "channel": "쉬미시미의 롯데역사창고",
+      "publishedAt": "2023-06-15T07:52:49-07:00",
+      "descriptionSummary": "롯데 30주년 영상을 배경으로 2011 버전이라고 표기한 역사 아카이브형 재업로드다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "단일 댓글은 당시 원정 유니폼 시절의 강한 팀 이미지를 회상한다."
+      ],
+      "supports": [
+        "versionHistory",
+        "historicalCirculation",
+        "teamArchiveContext"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-love-playlist-2024",
+      "songId": "lotte-giants-love-lotte-only",
+      "url": "https://www.youtube.com/watch?v=KT2N8wx5oko",
+      "videoId": "KT2N8wx5oko",
+      "title": "LOTTE GIANTS 팀응원가 PLAYIST🔥",
+      "channel": "롯뽀드",
+      "publishedAt": "2024-12-27T17:21:52-08:00",
+      "descriptionSummary": "2024 말 팬 플레이리스트가 16분 48초에 이 곡을 넣고 뒤이어 ‘자이언츠 러브송’을 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 출근·직관 전 반복 청취와 연패 탈출·가을야구를 기원하는 반응, 두 사랑 노래에서 오래된 팬심을 재확인한다는 반응이 이어진다."
+      ],
+      "supports": [
+        "late2024Circulation",
+        "pairedWithGiantsLoveSong",
+        "fanPlaylist"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-love-field-2025",
+      "songId": "lotte-giants-love-lotte-only",
+      "url": "https://www.youtube.com/watch?v=6wKX1ZB5ZlE",
+      "videoId": "6wKX1ZB5ZlE",
+      "title": "롯데자이언츠 누리가 말아주는 \"롯데만을 사랑하리라\" (가사포함)(4K)",
+      "channel": "나오라구",
+      "publishedAt": "2025-04-23T01:00:14-07:00",
+      "descriptionSummary": "치어리더 누리의 2025 현장 공연과 전체 가사를 제공하며 제목에는 변형인 ‘롯데만을 사랑하리라’를 쓴다. 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 댓글은 박상민과 당시 롯데 선수의 친분이 제작 계기였고 가수가 두산 팬에서 롯데 팬으로 옮겼다고 설명하지만, 이는 언론 기사와 함께 보조적으로만 사용했다."
+      ],
+      "supports": [
+        "fieldUse2025",
+        "titleVariant",
+        "lyricsSourceLinkOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-lotte-e-love-official-2026",
+      "songId": "lotte-giants-love-lotte-only",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27T17:00:09-07:00",
+      "descriptionSummary": "구단 공식 2026 전곡 영상이 23분 33초에 ‘롯데만을 사랑하리’를 수록해 공식 제목과 현행성을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬 타임라인은 같은 위치를 재확인하고, 일부 댓글은 오래된 사랑 노래와 자이언츠 러브송이 공식 목록에 돌아온 점을 반긴다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle",
+        "inventoryOmission"
+      ],
+      "accessedAt": "2026-08-09"
+    }
+  ]
+}

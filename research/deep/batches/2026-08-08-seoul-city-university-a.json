@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-seoul-city-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-uos",
+    "name": "서울시립대학교",
+    "type": "university"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명·댓글 원문은 저장하지 않는다. 공식 음원 페이지와 영상에 가사 전문이 공개돼 있어도 제작 크레딧·구조·주제·현장 반응만 요약하며, 2026년 직접 사용이 확인되지 않은 곡은 현행 확정곡과 분리한다.",
+  "items": [
+    {
+      "id": "uos-in-the-name-of-uos",
+      "title": "시대의 이름으로",
+      "aliases": ["시대의이름으로"],
+      "currentStatus": "current-representative-cheer-directly-verified-through-2026",
+      "summary": "서울시립대 학생들이 자발적 참여와 재능기부로 만든 학교 최초의 응원가 시리즈 첫 곡이다. 2021년 4월 음원 발매·제작 영상 공개 뒤 아미커스가 안무를 정착시켰고, 2022 응원제·인향제, 2023 트로이카·새내기배움터, 2025 인향제, 2026 새내기배움터·서울메이트·제14회 응원제까지 반복 사용했다. 2026 공식 설명도 이를 학교의 ‘대표 응원가’로 부른다.",
+      "claims": [
+        {
+          "field": "release",
+          "value": "2021년 4월 7일 음원 발매, 4월 24일 제작팀 영상 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-uos-a-bugs", "yt-uos-a-name-creator"],
+          "notes": "음원 플랫폼 발매일과 제작자 채널 공개일을 구분했다."
+        },
+        {
+          "field": "creatorCredits",
+          "value": "기획·작사 심준성, 작곡·편곡 김샤론, 보컬 이건주, 백보컬 최해인, 안무 AMICUS, 촬영·편집 안재형, 가이드 손준하",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-name-creator", "ev-uos-a-bugs", "yt-uos-a-name-story"],
+          "notes": "공식 제작 영상 설명과 Bugs 크레딧이 핵심 작가·보컬을 교차 확인한다."
+        },
+        {
+          "field": "seriesStatus",
+          "value": "서울시립대학교 응원가 시리즈 첫 곡이자 당시 학교 최초 응원가 프로젝트",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-name-creator", "yt-uos-a-name-story", "ev-uos-a-bugs-artist"],
+          "notes": "제작진 인터뷰의 기획 동기와 가수 소개의 ‘시리즈 첫 곡’ 표기가 일치한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026년 2월 새내기배움터, 3월 서울메이트, 5월 제14회 응원제 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-name-ot-2026", "yt-uos-a-name-seoulmate-2026", "yt-uos-a-name-cheerfest-2026"],
+          "notes": "입학·교류·정기 응원제의 서로 다른 2026 행사에서 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "새내기배움터·입학식·입시 전형안내에서는 신입생과 지원자를 환영하고 학교 정체성을 전달하는 대표곡으로 쓴다.",
+        "정기 응원제·인향제·트로이카에서는 아미커스의 액션 안무와 관중 떼창을 결합하는 학교 고유 피날레급 레퍼토리로 사용한다.",
+        "학생·동문 행사와 국제학생 환영 행사에서도 반복되어 특정 축제에 한정되지 않는 범용 대표 응원가로 자리 잡았다."
+      ],
+      "trivia": [
+        {
+          "id": "uos-name-volunteer-origin",
+          "summary": "제작진은 ‘학교만의 응원가가 없다’는 아쉬움에서 출발했다고 밝혔다. 기획·작곡·작사·녹음·연주·영상·안무를 모두 재학생의 자발적 참여와 재능기부로 완성했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-name-story", "yt-uos-a-name-creator"]
+        },
+        {
+          "id": "uos-name-musical-intent",
+          "summary": "작곡자는 강한 드럼·기타·건반과 샤우팅을 사용해 힘찬 인상을 만들었다고 설명했고, 아미커스는 중간 떼창 구간에 관중이 따라 하기 쉬운 동작을 두는 것을 중시했다고 밝혔다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-name-story"]
+        },
+        {
+          "id": "uos-name-post-pandemic-live",
+          "summary": "2022년 2년 만에 열린 제10회 응원제와 대동제에서 본격적인 관중 합창이 기록됐다. 교내신문은 이건주와 아미커스의 합동 무대에서 관객이 곡을 따라 부르는 모습을 캠퍼스 활력 회복의 장면으로 묘사했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-name-cheerfest-2022", "ev-uos-a-festival-2022"]
+        },
+        {
+          "id": "uos-name-audience-response",
+          "summary": "댓글은 곡의 중독성과 벅찬 학교 자부심, 입학 합격 기원을 반복해서 언급했다. 창작자와 보컬도 직접 제작 과정·세션 참여·코로나 시기 함께 부를 날에 대한 기대를 상세히 남겼다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-name-creator", "yt-uos-a-name-story", "yt-uos-a-name-troika-2023"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university original released commercially; named lyric/composition/arrangement/vocal/performance credits are known, but reuse licenses for lyrics, master, and AMICUS choreography are not documented here",
+        "sourceUrls": ["https://music.bugs.co.kr/track/32226666", "https://www.youtube.com/watch?v=CklTZ3UO4fo", "https://www.youtube.com/watch?v=J6cXqxV6IA4"],
+        "structureSummary": "별과 빛을 중심 이미지로 삼아 학우가 어둠 속에서도 공동체의 길잡이가 되기를 바라는 도입, 혼자 걷지 않도록 곁에 있겠다는 응답형 후렴, 같은 후렴을 여러 차례 확장하는 떼창 종결부로 구성된 3분 23초 록 응원가다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-uos-a-name-creator", "yt-uos-a-name-story", "yt-uos-a-name-cheerfest-2022", "yt-uos-a-name-troika-2023", "yt-uos-a-name-festival-2025", "yt-uos-a-name-ot-2026", "yt-uos-a-name-seoulmate-2026", "yt-uos-a-name-cheerfest-2026"],
+      "unresolved": [
+        "음원 마스터와 아미커스 안무의 구체적 권리 귀속·재사용 조건",
+        "2021년 4월 7일 음원 발매 전 내부 공개·초연 여부",
+        "제작 영상 크레딧에 없는 세션 연주자 전체 명단과 녹음·믹싱·마스터링 세부 크레딧",
+        "나무위키에서 곡 단위 연혁·여담을 다룬 문서는 검색으로 확인하지 못함"
+      ]
+    },
+    {
+      "id": "uos-forever-by-uos-side",
+      "title": "시대 곁에 영원히: You Are My Star",
+      "aliases": ["시대 곁에 영원히", "You are my star", "You Are My Star"],
+      "currentStatus": "recent-through-2025-but-direct-2026-use-unconfirmed-additional-review",
+      "summary": "서울시립대 제60대 총학생회 ‘사계’가 공약으로 추진하고 응원가 제작 TF ‘시대를 응원하다’가 만든 2024년 신곡이며, 안무는 AMICUS가 맡았다. 2024년 5월 18일 공개 뒤 정기 응원제·대학발전 포럼·2025 입학식·학과 행사·학생 포상식·첫 아미커스 콘서트까지 사용됐다. 2025년 11월 말까지의 직접 사용은 확인되지만, 2026년에 열린 행사에서의 직접 사용 영상은 찾지 못해 현행 확정곡과 구분했다.",
+      "claims": [
+        {
+          "field": "production",
+          "value": "제60대 총학생회 사계 주관, 응원가 제작 TF ‘시대를 응원하다’ 음원 제작, AMICUS 안무",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-forever-mv", "ev-uos-a-council-review", "yt-uos-a-forever-cheerfest-2024"],
+          "notes": "대학 공식 MV, 교내신문, 응원단 공식 무대 설명이 일치한다."
+        },
+        {
+          "field": "creatorCredits",
+          "value": "작사 JOMINSEONG·JEONHUISU·KIMCHAEWON·SEOYEONU·OEUNSEO·YUHYEONBIN·JOHYEONGJUN, 작곡 KIMDONGHYEON·KIMJUNU·CHOIDONGU",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-forever-topic"],
+          "notes": "YouTube Music 유통 메타데이터의 로마자 표기를 원문대로 보존했다. 공식 한글명·편곡·가창 크레딧은 별도 확인이 필요하다."
+        },
+        {
+          "field": "introduction",
+          "value": "2024년 5월 18일 공개, 5월 20일 제12회 응원제에서 다섯 번째 곡으로 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-uos-a-council-review", "yt-uos-a-forever-cheerfest-2024"],
+          "notes": "교내신문의 공개일과 응원단의 첫 확보 공연일을 분리했다."
+        },
+        {
+          "field": "commercialRelease",
+          "value": "2024년 7월 26일 제60대 총학생회 사계 명의 싱글 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-forever-topic", "ev-uos-a-apple"] ,
+          "notes": "YouTube 유통 메타데이터와 Apple Music 발매일이 일치한다."
+        },
+        {
+          "field": "latestDirectUse",
+          "value": "2025년 11월 29일 제1회 AMICUS 콘서트",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-forever-concert-2025", "yt-uos-a-forever-awards-2025"],
+          "notes": "영상 게시일은 2026년 2월이지만 설명의 실제 공연일은 2025년 11월 29일이다. 2026 행사 사용으로 잘못 세지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "정기 응원제에서는 총학생회와 만든 새 학교 응원가로 소개하고 AMICUS 액션 안무와 관중 구호를 결합한다.",
+        "입학식에서는 신입생 환영곡, 대학발전 포럼과 학생 포상식에서는 구성원의 성취와 학교 공동체를 축하하는 의전형 응원곡으로 사용했다.",
+        "학과의 밤과 AMICUS 단독 콘서트에서도 공연돼 2024 한 차례 홍보 프로젝트를 넘어 2025년 말까지 레퍼토리로 이어졌다."
+      ],
+      "trivia": [
+        {
+          "id": "uos-forever-crowdfunding",
+          "summary": "총학생회는 제작비 확보를 위해 크라우드 펀딩을 진행했고 1,223,904원을 모았다. 교내신문은 2021년 이후 멈췄던 응원가 제작을 다시 잇고 ‘시대인의 청춘’을 밝게 그린 점이 호응을 얻었다고 평가했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-uos-a-council-review"]
+        },
+        {
+          "id": "uos-forever-title-and-fm",
+          "summary": "제목의 별 이미지는 첫 응원가 ‘시대의 이름으로’가 사용한 별·빛 모티프를 이어가며, 후렴에는 학교 FM ‘민중시대’를 관중이 외치는 구간이 포함된다. 제목의 영문 대소문자는 공식 자료마다 달라 별칭으로 모두 보존했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-forever-mv", "yt-uos-a-name-creator"]
+        },
+        {
+          "id": "uos-forever-audience-response",
+          "summary": "공식 MV 댓글은 입학 합격 기원, 졸업 뒤에도 남는 학교 자부심, 음악·가사·안무의 완성도를 칭찬하는 반응이 중심이다. 2024 응원제의 짧은 댓글도 아미커스를 응원한다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-uos-a-forever-mv", "yt-uos-a-forever-cheerfest-2024"]
+        },
+        {
+          "id": "uos-forever-current-status-caution",
+          "summary": "2026년에 업로드된 콘서트 영상 때문에 2026 실사용처럼 보일 수 있으나 설명상 공연일은 2025년 11월이다. 2026 새내기배움터·서울메이트·제14회 응원제 공개 영상에서는 이 곡을 직접 확인하지 못해 현행 여부를 보수적으로 남겼다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-uos-a-forever-concert-2025", "yt-uos-a-name-ot-2026", "yt-uos-a-name-seoulmate-2026", "yt-uos-a-name-cheerfest-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university original commercially released under the 60th student council; official MV publishes full lyrics, but master, performer, arrangement, and reuse-license details remain incomplete",
+        "sourceUrls": ["https://www.youtube.com/watch?v=J45gp9Ggl5c", "https://www.youtube.com/watch?v=9Q93Jkl3l4I", "https://music.apple.com/kr/song/1758885155"],
+        "structureSummary": "달려온 시간과 계절을 돌아보며 새 출발을 권하는 두 개의 절, 함께 빛나는 순간과 학교의 기억을 노래하는 영문 훅 결합 후렴, ‘민중시대’ 구호와 영원히 곁에 있겠다는 약속을 반복하는 마지막 후렴으로 구성된 약 3분 28초 록 응원가다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-uos-a-forever-mv", "yt-uos-a-forever-topic", "yt-uos-a-forever-cheerfest-2024", "yt-uos-a-forever-forum-2024", "yt-uos-a-forever-entrance-2025", "yt-uos-a-forever-department-2025", "yt-uos-a-forever-awards-2025", "yt-uos-a-forever-concert-2025"],
+      "unresolved": [
+        "로마자 작가 크레딧의 공식 한글 표기와 개인별 당시 소속",
+        "편곡·가창·연주·녹음·믹싱·마스터링 및 음원 마스터 세부 크레딧",
+        "2026년 행사에서의 직접 사용 또는 레퍼토리 제외 여부",
+        "크라우드 펀딩 리워드·예산 집행·권리 귀속의 상세 문서",
+        "나무위키에서 곡 단위 연혁·여담을 다룬 문서는 검색으로 확인하지 못함"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-uos-a-club",
+      "type": "official",
+      "url": "https://www.uos.ac.kr/kor/html/life/campusLife/club/club.do?identified=anonymous",
+      "title": "서울시립대학교 동아리 — AMICUS",
+      "publisher": "서울시립대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "공연분과 AMICUS를 서울시립대학교 응원단으로 등재한 대학 공식 동아리 목록이다.",
+      "supports": ["organizationStatus"]
+    },
+    {
+      "id": "ev-uos-a-bugs",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/track/32226666",
+      "title": "시대의 이름으로 — 이건주",
+      "publisher": "벅스",
+      "publishedAt": "2021-04-07",
+      "accessedAt": "2026-08-09",
+      "summary": "재생시간 3분 23초, 보컬 이건주, 작곡·편곡 김샤론, 작사 심준성의 상업 음원 메타데이터와 가사를 제공한다. 전문은 복제하지 않았다.",
+      "supports": ["uos-in-the-name-of-uos.release", "uos-in-the-name-of-uos.creatorCredits", "lyricsSource"]
+    },
+    {
+      "id": "ev-uos-a-bugs-artist",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/artist/20133261",
+      "title": "이건주",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "이건주를 서울시립대 토목공학과 18학번·밴드 Thrash AL 보컬로 소개하고, ‘시대의 이름으로’를 서울시립대 응원가 시리즈 첫 곡이라고 설명한다.",
+      "supports": ["uos-in-the-name-of-uos.seriesStatus", "performerBackground"]
+    },
+    {
+      "id": "ev-uos-a-festival-2022",
+      "type": "campus-press",
+      "url": "https://pdfpress.uos.ac.kr/771/77113.pdf",
+      "title": "제771호 대동제 보도",
+      "publisher": "서울시립대신문",
+      "publishedAt": "2022-05-24",
+      "accessedAt": "2026-08-09",
+      "summary": "대동제에서 Thrash AL 보컬 이건주와 AMICUS가 합동으로 ‘시대의 이름으로’를 공연했고 관객이 따라 부른 장면을 캠퍼스 활력 회복의 상징으로 기록한다.",
+      "supports": ["uos-in-the-name-of-uos.liveUse", "postPandemicContext"]
+    },
+    {
+      "id": "ev-uos-a-council-review",
+      "type": "campus-press",
+      "url": "https://press.uos.ac.kr/news/articleView.html?idxno=14505",
+      "title": "우리가 함께한 사계를 돌아보다",
+      "publisher": "서울시립대신문",
+      "publishedAt": "2024-12-10",
+      "accessedAt": "2026-08-09",
+      "summary": "제60대 총학생회 사계가 TF ‘시대를 응원하다’를 구성해 2024년 5월 18일 신곡을 공개했고, 크라우드 펀딩 1,223,904원을 모았으며 ‘시대인의 청춘’을 밝게 그려 호응을 얻었다고 공약 이행을 평가한다.",
+      "supports": ["uos-forever-by-uos-side.production", "uos-forever-by-uos-side.introduction", "uos-forever-by-uos-side.crowdfunding"]
+    },
+    {
+      "id": "ev-uos-a-apple",
+      "type": "music-metadata",
+      "url": "https://music.apple.com/kr/song/1758885155",
+      "title": "시대 곁에 영원히: You are my star",
+      "publisher": "Apple Music",
+      "publishedAt": "2024-07-26",
+      "accessedAt": "2026-08-09",
+      "summary": "제60대 총학생회 사계 명의 싱글의 2024년 7월 26일 상업 발매를 확인한다.",
+      "supports": ["uos-forever-by-uos-side.commercialRelease"]
+    },
+    {
+      "id": "ev-uos-a-namuwiki-gap",
+      "type": "wiki-search",
+      "url": "https://namu.wiki/Search?q=%EC%84%9C%EC%9A%B8%EC%8B%9C%EB%A6%BD%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9D%91%EC%9B%90%EA%B0%80%20AMICUS",
+      "title": "나무위키 서울시립대 응원가·AMICUS 검색 점검",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "AMICUS와 두 곡의 제목을 조합해 검색했으나 제작·사용 연혁을 직접 다룬 곡 문서의 색인 결과를 확보하지 못했다. 나무위키에 정보가 없다는 단정이 아닌 조사 공백 기록이다.",
+      "supports": ["sourceGap"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-uos-a-name-creator",
+      "songId": "uos-in-the-name-of-uos",
+      "url": "https://www.youtube.com/watch?v=CklTZ3UO4fo",
+      "videoId": "CklTZ3UO4fo",
+      "title": "서울시립대학교 응원가 시리즈 첫 번째 - [ 시대의 이름으로 ]",
+      "channel": "심준성",
+      "publishedAt": "2021-04-24T00:43:15-07:00",
+      "descriptionSummary": "학생 제작팀이 공개한 첫 곡 영상으로 기획·작사·작곡·편곡·보컬·백보컬·안무·촬영·가이드·떼창 참여자를 상세히 밝히고 자발적 제작 취지를 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["작곡자·보컬·기획 참여자가 시행착오와 세션 참여, 코로나 시기 제작 소감을 직접 남겼다.", "일반 댓글은 중독성, 학교 자부심, 합격 경험·입학 목표, 음원 발매 요청을 반복한다."],
+      "supports": ["release", "creatorCredits", "seriesStatus", "audienceResponse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-name-story",
+      "songId": "uos-in-the-name-of-uos",
+      "url": "https://www.youtube.com/watch?v=J6cXqxV6IA4",
+      "videoId": "J6cXqxV6IA4",
+      "title": "[서울人세계人] 시대의 이름으로, 응원가 제작 STORY",
+      "channel": "서울시립대학교 University Of Seoul",
+      "publishedAt": "2021-05-06T18:31:00-07:00",
+      "descriptionSummary": "대학 공식 인터뷰가 학생 재능기부 제작, 학교 고유 응원가 부재에서 출발한 기획, 강한 록 사운드와 샤우팅, 쉬운 떼창 안무라는 창작 의도를 자세히 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학교가 함께 부를 응원가를 갖게 된 점과 제작진의 노력을 고마워하고 응원하는 반응이 중심이다."],
+      "supports": ["productionStory", "musicalIntent", "choreographyIntent"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-name-cheerfest-2022",
+      "songId": "uos-in-the-name-of-uos",
+      "url": "https://www.youtube.com/watch?v=p4brtHlyxps",
+      "videoId": "p4brtHlyxps",
+      "title": "[서울시립대학교 응원단 AMICUS] 시대의 이름으로 / 제10회 응원제",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2022-05-27T01:36:55-07:00",
+      "descriptionSummary": "2년 만에 열린 제10회 응원제 ‘시밀래’에서 이 곡을 액션곡이자 서울시립대 응원가로 소개한 공식 무대다.",
+      "commentsStatus": "available",
+      "commentSummary": ["출연 단원의 가족으로 보이는 시청자가 치어리딩 무대를 반기는 짧은 반응이 있다."],
+      "supports": ["liveUse", "officialCheerClassification"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-name-troika-2023",
+      "songId": "uos-in-the-name-of-uos",
+      "url": "https://www.youtube.com/watch?v=4IzTB4GLhNI",
+      "videoId": "4IzTB4GLhNI",
+      "title": "[2023 TROIKA] 서울시립대학교 응원가_시대의 이름으로 | AMICUS",
+      "channel": "TROIKA_트로이카",
+      "publishedAt": "2023-09-05T17:50:57-07:00",
+      "descriptionSummary": "경희대·서울시립대·한국외대 연합행사 2023 TROIKA의 서울시립대 대표 응원가 영상으로 AMICUS를 공연 주체로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학교·응원단·퍼포먼스를 응원하고 노래가 좋다는 반응이 반복된다."],
+      "supports": ["interUniversityUse", "representativeStatus"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-name-festival-2025",
+      "songId": "uos-in-the-name-of-uos",
+      "url": "https://www.youtube.com/watch?v=368PqUWEyvk",
+      "videoId": "368PqUWEyvk",
+      "title": "[서울시립대학교 응원단 AMICUS] 2025 인향제 / 시대의 이름으로",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2025-11-12T08:04:42-08:00",
+      "descriptionSummary": "2025년 9월 22일 가을 축제 인향제 무대에서 공연한 공식 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["continuedUse", "festivalUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-name-ot-2026",
+      "songId": "uos-in-the-name-of-uos",
+      "url": "https://www.youtube.com/watch?v=dhfcFWXgb5I",
+      "videoId": "dhfcFWXgb5I",
+      "title": "[서울시립대학교 응원단 AMICUS] 2026 새내기 배움터 / 시대의 이름으로",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2026-02-20T03:04:00-08:00",
+      "descriptionSummary": "2026년 2월 19일 새내기새로배움터에서 26학번을 환영하며 공연한 공식 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["영상 후반의 핵심 구간에 감탄하는 짧은 반응이 있다."],
+      "supports": ["currentUse", "freshmanOrientation"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-name-seoulmate-2026",
+      "songId": "uos-in-the-name-of-uos",
+      "url": "https://www.youtube.com/watch?v=Y7A_K-v9egI",
+      "videoId": "Y7A_K-v9egI",
+      "title": "[서울시립대학교 응원단 AMICUS] 서울시립대학교 서울메이트 공연 / 시대의 이름으로",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2026-03-30T20:12:09-07:00",
+      "descriptionSummary": "2026년 3월 20일 서울메이트 행사에서 학우들의 환호 속에 공연한 공식 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "campusCommunityEvent"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-name-cheerfest-2026",
+      "songId": "uos-in-the-name-of-uos",
+      "url": "https://www.youtube.com/watch?v=pjMAEELvYlc",
+      "videoId": "pjMAEELvYlc",
+      "title": "[서울시립대학교 응원단 AMICUS] 제14회 응원제: 시밀래 / 시대의 이름으로",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2026-07-02T20:07:33-07:00",
+      "descriptionSummary": "2026년 5월 19일 제14회 응원제에서 공연됐고, 설명이 이 곡을 서울시립대의 대표 응원가이자 학우에게 힘을 주는 곡으로 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "representativeStatus", "cheerFestivalUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-forever-mv",
+      "songId": "uos-forever-by-uos-side",
+      "url": "https://www.youtube.com/watch?v=J45gp9Ggl5c",
+      "videoId": "J45gp9Ggl5c",
+      "title": "2024 서울시립대학교 응원가 \"시대 곁에 영원히: You are my star\" MV 공개",
+      "channel": "서울시립대학교 University Of Seoul",
+      "publishedAt": "2024-06-26T02:00:14-07:00",
+      "descriptionSummary": "제60대 총학생회 사계가 공개한 대학 공식 MV로 TF ‘시대를 응원하다’의 음원 제작, AMICUS 안무와 가사 전문을 싣는다. 전문은 별도 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["지원자의 합격 기원, 졸업생의 지속되는 자부심, 음악·가사·안무와 캠퍼스를 함께 칭찬하는 반응이 반복된다."],
+      "supports": ["production", "choreography", "lyricsSource", "audienceResponse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-forever-topic",
+      "songId": "uos-forever-by-uos-side",
+      "url": "https://www.youtube.com/watch?v=9Q93Jkl3l4I",
+      "videoId": "9Q93Jkl3l4I",
+      "title": "You are my star",
+      "channel": "Release - Topic",
+      "publishedAt": "2024-07-25T07:22:50-07:00",
+      "descriptionSummary": "유통사가 자동 생성한 음원 영상으로 2024년 7월 26일 발매, 제60대 총학생회 명의 권리 표기, KOMCA 출판 정보와 작사 7명·작곡 3명의 로마자 크레딧을 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["commercialRelease", "creatorCredits", "musicPublisher"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-forever-cheerfest-2024",
+      "songId": "uos-forever-by-uos-side",
+      "url": "https://www.youtube.com/watch?v=FAx3gaOz0-c",
+      "videoId": "FAx3gaOz0-c",
+      "title": "[서울시립대학교 응원단 AMICUS] 제12회 응원제: 시밀래 / 시대 곁에 영원히: You are my star",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2024-05-31T20:28:10-07:00",
+      "descriptionSummary": "2024년 5월 20일 제12회 응원제의 다섯 번째 곡으로 공연됐으며 제60대 총학생회 사계와 함께한 프로젝트의 새 서울시립대 응원가라고 직접 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["AMICUS를 응원하는 짧은 반응이 있다."],
+      "supports": ["introduction", "firstKnownPerformance", "studentCouncilProject"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-forever-forum-2024",
+      "songId": "uos-forever-by-uos-side",
+      "url": "https://www.youtube.com/watch?v=k17SyR7T2aE",
+      "videoId": "k17SyR7T2aE",
+      "title": "[서울시립대학교 응원단 AMICUS] 대학발전 포럼행사 / 시대 곁에 영원히",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2024-09-06T01:28:40-07:00",
+      "descriptionSummary": "2024년 8월 26일 그랜드 워커힐 호텔의 대학발전 포럼에서 첫 번째 곡으로 공연한 공식 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["formalEventUse", "continuedUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-forever-entrance-2025",
+      "songId": "uos-forever-by-uos-side",
+      "url": "https://www.youtube.com/watch?v=pckpHbzspWQ",
+      "videoId": "pckpHbzspWQ",
+      "title": "[서울시립대학교 응원단 AMICUS] 2025 입학식 / 시대 곁에 영원히 : You are my star",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2025-03-13T23:17:52-07:00",
+      "descriptionSummary": "2025년 3월 4일 서울시립대 입학식에서 25학번 신입생을 환영하며 공연한 공식 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["continuedUse", "entranceCeremony"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-forever-department-2025",
+      "songId": "uos-forever-by-uos-side",
+      "url": "https://www.youtube.com/watch?v=05ibHRpW4zM",
+      "videoId": "05ibHRpW4zM",
+      "title": "[서울시립대학교 응원단 AMICUS] 2025 전전컴인의 밤 / 시대 곁에 영원히",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2026-01-09T17:01:28-08:00",
+      "descriptionSummary": "2025년 11월 7일 전자전기컴퓨터공학부 행사 찬조공연이다. 게시일은 2026년이지만 실제 사용일은 2025년임을 분리했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["latestUse", "departmentEvent"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-forever-awards-2025",
+      "songId": "uos-forever-by-uos-side",
+      "url": "https://www.youtube.com/watch?v=rpSqclcI7wk",
+      "videoId": "rpSqclcI7wk",
+      "title": "[서울시립대학교 응원단 AMICUS] 2025 2학기 학생 포상식 / 시대 곁에 영원히: You are my star",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2026-01-11T18:02:00-08:00",
+      "descriptionSummary": "2025년 11월 12일 2학기 학생 포상식에서 축하 공연으로 사용한 공식 영상이다. 게시일과 행사일을 구분했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["latestUse", "awardsCeremony"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-uos-a-forever-concert-2025",
+      "songId": "uos-forever-by-uos-side",
+      "url": "https://www.youtube.com/watch?v=_LurZkfRYdk",
+      "videoId": "_LurZkfRYdk",
+      "title": "[서울시립대학교 응원단 AMICUS] 제1회 아미커스 콘서트 : 시대의 이름으로 / 시대 곁에 영원히",
+      "channel": "서울시립대학교 응원단 AMICUS",
+      "publishedAt": "2026-02-14T20:07:52-08:00",
+      "descriptionSummary": "2025년 11월 29일 열린 제1회 AMICUS 콘서트의 공연 영상이다. 2026년 업로드이지만 2026 현장 사용 근거로 세지 않았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["latestDirectUse", "concertUse", "dateCaution"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 2,
+    "youtubeSampleCount": 16,
+    "songsMeetingYoutubeMinimum": 2,
+    "openIssueCount": 9
+  }
+}

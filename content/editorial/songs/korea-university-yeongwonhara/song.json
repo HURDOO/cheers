@@ -5,7 +5,7 @@
     "organizationId": "korea-university",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "research_ready",
+    "workflowStage": "review_ready",
     "title": "영원하라",
     "aliases": [
       "고대여 영원하라"
@@ -59,8 +59,8 @@
       "originNote": "Vanessa-Mae의 전자 바이올린 곡 ‘Contradanza’를 응원가로 개사·편곡했다.",
       "chronologyNote": "사용자가 지정한 2024 입실렌티 영상의 곡 시작 화면에 ‘since 2004’가 표시된다."
     },
-    "revision": 1,
+    "revision": 2,
     "createdAt": null,
-    "updatedAt": "2026-08-26T05:17:36.278Z"
+    "updatedAt": "2026-08-27T09:48:51.435Z"
   }
 }

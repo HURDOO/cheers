@@ -1,0 +1,979 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-seoul-national-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-seoul-national",
+    "name": "서울대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 응원가·시·영상 설명·댓글의 전문은 저장하지 않는다. 가사는 구조와 주제만 요약하고 공개 댓글은 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "snu-a-look-at-gwanak",
+      "title": "관악을 보게 하라",
+      "aliases": ["관악을 보게하라"],
+      "currentStatus": "current-directly-verified-through-2026-spring-festival",
+      "summary": "서울대학교 응원단이 공식 채널과 학교·동창회 매체에서 대표곡으로 부르는 자체 응원가다. 핵심 문구와 이미지는 정희성이 1971년 관악캠퍼스 기공식에서 발표한 축시 ‘여기 타오르는 빛의 성전이’에서 왔다. 응원단의 공개 출범기인 2016년 동문 행사 기록과 2017년 공식 음원 영상부터 2026 새터·봄축제까지 사용이 이어진다. 다만 시를 응원가로 다시 구성한 작사·작곡자, 정확한 초연 행사와 원시 이용 허락은 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "representativeStatus",
+          "value": "서울대학교 응원단 대표곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-gwanak-audio-2017", "yt-snu-a-gwanak-lyric-2023", "ev-snu-a-alumni-2022"],
+          "notes": "2017 공식 제목은 대표곡으로 표기하고 2022 총동창신문도 같은 곡을 대표곡으로 특정한다."
+        },
+        {
+          "field": "sourceText",
+          "value": "정희성의 1971년 관악캠퍼스 기공식 축시 ‘여기 타오르는 빛의 성전이’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-history-photo", "ev-snu-a-campus-essay-2025", "ev-snu-a-namu-general"],
+          "notes": "학교 역사자료와 대학신문이 시인·행사·연도를 일치해 기록한다. 나무위키 일반 문서도 찬시 항목에서 같은 계보를 서술하지만 응원가 제작 정보는 없다."
+        },
+        {
+          "field": "earliestDocumentedUse",
+          "value": "2016년 응원단 출범기 동문 행사; 현재 남은 공식 곡별 영상은 2017-06-07 게시",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-snu-a-alumni-2016-pdf", "ev-snu-a-donga-2016", "yt-snu-a-gwanak-audio-2017"],
+          "notes": "2016 동문회보는 응원단이 관악 문구를 주제로 공연한 정황을 남기지만 초연이라고 명시하지 않는다. 2017 영상은 현재 확보한 가장 이른 곡별 공식 업로드다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 늦어도 2016년에는 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-snu-a-alumni-2016-pdf", "yt-snu-a-gwanak-audio-2017"],
+          "notes": "응원단 준비·창단 연도 자체가 학교 공식 2015와 당대 언론·동창회 2016으로 갈려, 곡의 제작연도도 단일 연도로 확정하지 않았다."
+        },
+        {
+          "field": "creators",
+          "value": "원시 정희성; 응원가 작사·작곡·편곡자는 미확인",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-history-photo", "ev-snu-a-donga-2016", "ev-snu-a-alumni-2022"],
+          "notes": "2016 보도는 교내 밴드를 통해 응원가를 만들었다고만 하고, 이 곡의 개인별 크레딧은 공개하지 않는다."
+        },
+        {
+          "field": "textVariants",
+          "value": "1971 원시는 ‘조국으로 가는 길/눈 들어’, 대중적 변형은 ‘조국의 미래/고개 들어’, 2017 응원가 본문은 ‘길/관악’으로 압축",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-history-photo", "ev-snu-a-campus-essay-2025", "yt-snu-a-gwanak-audio-2017", "yt-snu-a-gwanak-lyric-2023", "yt-snu-a-gwanak-spring-2025"],
+          "notes": "서로 다른 문구를 하나의 ‘원문’처럼 합치지 않고 시 원문·통용 인용·응원가 가사를 구분한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 새내기 새로배움터와 2026 봄축제 폐막제",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-gwanak-freshman-2026", "yt-snu-a-gwanak-spring-2026", "ev-snu-a-official-newcomer-2026"],
+          "notes": "신입생 참여 행사와 전교 축제라는 서로 다른 맥락에서 2026년 직접 확인된다."
+        },
+        {
+          "field": "documentedContinuity",
+          "value": "2016 출범기, 2017 공식 음원, 2020 새터 회고, 2023 리릭비디오, 2024·2025 축제 기록, 2025·2026 새터와 축제",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-gwanak-audio-2017", "ev-snu-a-official-unity-2020", "yt-snu-a-gwanak-lyric-2023", "ev-snu-a-campus-festival-2024", "yt-snu-a-gwanak-spring-2025", "yt-snu-a-gwanak-spring-2026"],
+          "notes": "연도별 표본 사이 공백은 비사용을 의미하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "새내기 새로배움터에서 신입생이 자리에서 일어나 어깨동무하고 구호와 노래를 함께 익히는 대표 참여곡으로 사용된다.",
+        "봄·가을 축제 폐막제와 응원단 정기공연에서 학교 정체성과 공동체 책임을 강조하는 후반부 핵심 순서로 공연된다.",
+        "응원단은 공식 소셜미디어에 별도 관객 구호를 공개해 무대와 관객의 교창을 유도한다."
+      ],
+      "trivia": [
+        {
+          "id": "gwanak-poem-and-popular-misquotation",
+          "summary": "유명한 ‘조국의 미래를 묻거든’ 문구는 1971년 시의 문장을 그대로 옮긴 것이 아니라 변형한 통용형이다. 응원가도 다시 짧게 압축하므로 시·표어·노랫말을 구별해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-history-photo", "ev-snu-a-campus-essay-2025", "yt-snu-a-gwanak-audio-2017"]
+        },
+        {
+          "id": "gwanak-founding-year-conflict",
+          "summary": "2025 학교 공식 소개는 응원단을 2015년 창단으로, 2016 당대 기사와 2022 동창회 기사는 2016년 출범·창단으로 적는다. 준비 조직과 공개 출범을 달리 셌을 가능성이 있지만 확인 자료가 없어 두 주장을 보존한다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-official-profile-2025", "ev-snu-a-donga-2016", "ev-snu-a-alumni-2022"]
+        },
+        {
+          "id": "gwanak-call-and-response-memory",
+          "summary": "2020 학교 인터뷰에서 단원은 약 천 명의 새내기와 조국의 오늘·내일을 연결하는 구호를 주고받은 순간을 응원단이 화합을 만드는 힘을 체감한 장면으로 회고했다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-official-unity-2020"]
+        },
+        {
+          "id": "gwanak-comment-reception",
+          "summary": "공식 음원과 2025 축제 영상 댓글은 웅장함·학교 자부심·합격 기원을 높이 평가하는 반응과, 응원가치고 흥이 약하거나 문구가 자만적으로 들린다는 반응이 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-gwanak-audio-2017", "yt-snu-a-gwanak-spring-2025"]
+        },
+        {
+          "id": "gwanak-wiki-scope-gap",
+          "summary": "나무위키에는 서울대학교 일반 문서의 찬시 항목은 있으나 별도 ‘서울대학교/응원가’ 문서는 존재하지 않는다. 편집형 문서의 공백을 곡의 비현행 근거로 사용하지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-namu-general", "ev-snu-a-namu-cheer-missing"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted cheer song incorporating imagery and phrases from Jeong Hee-seong's 1971 poem; adaptation, composition, arrangement, choreography and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=7CGS90UFWiM",
+          "https://www.youtube.com/watch?v=KR5Qn-u8O80",
+          "https://en.snu.ac.kr/webdata/uploads/eng/file/2020/02/SNU_in_Photos_for_Download_2018.pdf"
+        ],
+        "structureSummary": "진리·조국·겨레·민족과 관악을 연결하는 짧은 후렴을 반복하고, 중간에 가슴에 뜻을 품고 불처럼 일어서자는 전환부를 둔 뒤 대표 후렴으로 돌아간다. 시 원문의 여러 연을 그대로 노래하지 않는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-snu-a-gwanak-audio-2017",
+        "yt-snu-a-gwanak-lyric-2023",
+        "yt-snu-a-gwanak-freshman-2025",
+        "yt-snu-a-gwanak-spring-2025",
+        "yt-snu-a-gwanak-fall-2025",
+        "yt-snu-a-gwanak-freshman-2026",
+        "yt-snu-a-gwanak-spring-2026"
+      ],
+      "unresolved": [
+        "응원가의 정확한 작사·작곡·편곡자와 교내 밴드 참여자",
+        "초연 행사와 2015 준비기·2016 공개 출범기 가운데 실제 제작 시점",
+        "정희성 원시를 응원가에 이용한 허락·권리 처리 범위",
+        "시 원문·통용 인용·공식 응원가의 연도별 문구 변화 경위",
+        "공인 악보·편곡본·안무 제작자와 버전 기록",
+        "2017보다 이른 곡별 영상 또는 음원 원본",
+        "학교 공식 2015 창단과 당대 언론·동창회 2016 창단 표기의 차이 원인"
+      ]
+    },
+    {
+      "id": "snu-a-light-of-truth",
+      "title": "진리의 빛",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-through-2026-spring-festival",
+      "summary": "서울대학교의 표어 ‘VERITAS LUX MEA(진리는 나의 빛)’와 진리의 횃불 이미지를 학교의 사회적 책임·미래로 확장한 서울대학교 응원단 자체곡이다. 2017 공식 음원, 2018 관객안무, 2019 새터, 2024 응원제, 2025·2026 새터와 봄·가을 축제로 이어진다. 총동창신문은 자체 응원곡으로 분류하고 2016 창단 보도는 교내 밴드와 응원가를 만들었다고 하지만 개인 작사·작곡자와 정확한 공개연도는 확인되지 않는다. 공식 채널의 별도 곡 ‘진리는 나의 빛’과 제목이 비슷하므로 동일곡으로 합치지 않는다.",
+      "claims": [
+        {
+          "field": "songType",
+          "value": "서울대학교 응원단 자체 응원곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-alumni-2022", "yt-snu-a-truth-audio-2017"],
+          "notes": "총동창신문이 ‘진리의 빛’과 ‘샤애가’를 자체 응원곡으로 직접 분류한다."
+        },
+        {
+          "field": "titleTheme",
+          "value": "학교 표어 VERITAS LUX MEA와 휘장의 횃불·빛 이미지",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-official-symbol", "yt-snu-a-truth-audio-2017"],
+          "notes": "공식 상징 설명과 노랫말 주제가 직접 겹치지만 작명 당사자의 설명은 찾지 못했다."
+        },
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2017-06-07 공식 곡별 음원 영상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-truth-audio-2017"],
+          "notes": "영상 게시일은 곡의 초연일과 동일하다고 볼 수 없다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 늦어도 2017년에는 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-donga-2016", "yt-snu-a-truth-audio-2017"],
+          "notes": "2016 기사에 교내 밴드 제작이 언급되지만 곡명을 붙여 제작시점을 특정하지 않아 2016 신곡으로 단정하지 않는다."
+        },
+        {
+          "field": "creators",
+          "value": "미확인; 출범기 교내 밴드 협업 보도만 존재",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-snu-a-donga-2016", "ev-snu-a-alumni-2022"],
+          "notes": "작사·작곡·편곡·보컬 크레딧을 개인 이름으로 밝힌 공식 자료는 찾지 못했다."
+        },
+        {
+          "field": "titleDisambiguation",
+          "value": "‘진리의 빛’과 ‘진리는 나의 빛’은 공식 채널에서 별도 곡으로 게시",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-truth-audio-2017", "ev-snu-a-separate-truth-is-my-light"],
+          "notes": "유사 제목을 별칭 관계로 병합하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 새내기 새로배움터와 2026 봄축제 폐막제",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-truth-freshman-2026", "yt-snu-a-truth-spring-2026", "ev-snu-a-official-newcomer-2026"],
+          "notes": "2025 가을축제 공식 영상 뒤 2026년 두 행사에서 다시 확인된다."
+        },
+        {
+          "field": "documentedContinuity",
+          "value": "2017 음원, 2018 관객안무, 2019 새터, 2024 응원제·가을축제, 2025 새터·봄·가을축제, 2026 새터·봄축제",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-truth-audio-2017", "yt-snu-a-truth-audience-2018", "yt-snu-a-truth-freshman-2019", "yt-snu-a-truth-cheerfest-2024", "ev-snu-a-campus-festival-2024", "yt-snu-a-truth-spring-2025", "yt-snu-a-truth-spring-2026"],
+          "notes": "교육용 안무 영상과 실제 행사 영상을 함께 보되 각각의 역할을 구분했다."
+        }
+      ],
+      "usageContexts": [
+        "새내기 새로배움터에서 학교 표어·상징과 공동체 역할을 소개하는 참여형 응원가로 공연된다.",
+        "응원단 정기 응원제와 봄·가을 축제 폐막제에서 관객 구호와 군무를 결합한 학교 응원 순서로 사용된다.",
+        "별도 관객안무 영상이 있어 일반 학생의 반복 동작 학습을 전제로 한 곡임을 확인할 수 있다."
+      ],
+      "trivia": [
+        {
+          "id": "truth-name-collision",
+          "summary": "공식 채널에는 ‘진리의 빛’ 외에 ‘진리는 나의 빛’이라는 별도 응원가가 있다. 학교 표어와 제목이 비슷해 검색 결과가 섞이지만 음원·영상 제목이 분리돼 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-truth-audio-2017", "ev-snu-a-separate-truth-is-my-light"]
+        },
+        {
+          "id": "truth-audience-tutorial",
+          "summary": "2018 공식 관객안무 영상은 일반 공연보다 길고 동작 교육에 초점을 둔다. 단순 감상곡이 아니라 관객 참여를 설계한 레퍼토리라는 직접 자료다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-truth-audience-2018"]
+        },
+        {
+          "id": "truth-comment-vocal-range",
+          "summary": "2017 음원 댓글에는 노래가 괜찮지만 부르기 어렵거나 고음 보컬과 어울릴 것 같다는 반응, 합격을 기원하며 반복 청취한다는 반응이 함께 있다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-truth-audio-2017"]
+        },
+        {
+          "id": "truth-wiki-gap",
+          "summary": "별도 나무위키 응원가 문서가 없고 일반 서울대 문서도 이 곡의 제작자·연혁을 제공하지 않는다. 공식 영상과 학교·동창회 자료를 우선했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-namu-cheer-missing", "ev-snu-a-namu-general"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original cheer song; individual lyric, composition, arrangement, performance, choreography and recording credits are not publicly documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=kPWcCq1eH1U",
+          "https://www.youtube.com/watch?v=2rY6LsNyLGI",
+          "https://www.snu.ac.kr/about/symbol/ui"
+        ],
+        "structureSummary": "진리의 빛으로 사회를 밝히고 조국의 다음 세대를 책임지겠다는 두 문장을 반복한 뒤, 푸른 횃불과 새로운 내일·학교 자긍심을 묶는 중간 절을 지나 처음 후렴을 여러 번 되풀이한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-snu-a-truth-audio-2017",
+        "yt-snu-a-truth-audience-2018",
+        "yt-snu-a-truth-freshman-2019",
+        "yt-snu-a-truth-cheerfest-2024",
+        "yt-snu-a-truth-freshman-2025",
+        "yt-snu-a-truth-spring-2025",
+        "yt-snu-a-truth-fall-2025",
+        "yt-snu-a-truth-freshman-2026",
+        "yt-snu-a-truth-spring-2026"
+      ],
+      "unresolved": [
+        "정확한 작사·작곡·편곡자와 교내 밴드 협업 참여자",
+        "초연 행사와 2017 공식 업로드보다 이른 사용 기록",
+        "공식 음원·MR·악보의 권리 주체와 배포 허락 범위",
+        "관객안무와 무대안무의 제작자·개정 연혁",
+        "‘진리는 나의 빛’과 나란히 만들어진 순서와 기획 배경",
+        "공식 채널 가사본 이후 문구·편곡 변경 여부"
+      ]
+    },
+    {
+      "id": "snu-a-sha-love-song",
+      "title": "샤애가",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-through-2026-spring-festival",
+      "summary": "서울대학교 응원단이 자체 응원곡으로 분류하는 청춘·연대 중심의 곡이다. 2017 공식 음원, 2018 공식 MV, 2023 리릭비디오·정기공연, 2025·2026 새터와 봄·가을 축제에서 사용됐고 서울대 입학본부 웹진도 공식 영상을 단독 소개한다. 2025 홈커밍데이에서는 동문과 가족이 함께 구호에 참여한 세대 통합 순서로 쓰였다. 제목을 ‘샤(서울대 별칭)+애가(사랑 노래)’로 푸는 설명은 공개 댓글에는 있으나 제작 당사자의 공식 해설이 아니므로 민간 해석으로만 남긴다.",
+      "claims": [
+        {
+          "field": "songType",
+          "value": "서울대학교 응원단 자체 응원곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-alumni-2022", "yt-snu-a-sha-audio-2017"],
+          "notes": "총동창신문이 자체곡으로 명시한다."
+        },
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2017-06-07 공식 곡별 음원 영상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-sha-audio-2017"],
+          "notes": "2018 MV보다 이른 공식 자료이나 초연일은 아니다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 늦어도 2017년에는 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-donga-2016", "yt-snu-a-sha-audio-2017"],
+          "notes": "2016 교내 밴드 제작 보도에 개별 곡명이 없어 2016 발표로 단정하지 않는다."
+        },
+        {
+          "field": "creators",
+          "value": "미확인; 응원단 자체곡이며 출범기 교내 밴드 협업 가능성",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-snu-a-donga-2016", "ev-snu-a-alumni-2022"],
+          "notes": "개인별 작사·작곡·편곡·가창 크레딧은 공개 자료에서 찾지 못했다."
+        },
+        {
+          "field": "officialInstitutionalUse",
+          "value": "서울대학교 입학본부 웹진이 곡 영상을 단독 소개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-admissions-sha"],
+          "notes": "응원단 채널 밖의 학교 공식 입학 매체에서도 대표 캠퍼스 콘텐츠로 선택됐다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 새내기 새로배움터와 2026 봄축제 폐막제",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-sha-freshman-2026", "yt-snu-a-sha-spring-2026", "ev-snu-a-official-newcomer-2026"],
+          "notes": "2025 가을축제·홈커밍데이에 이어 2026년에도 직접 확인된다."
+        },
+        {
+          "field": "intergenerationalUse",
+          "value": "2025 홈커밍데이에서 동문 가족과 함께 부른 응원 순서",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-alumni-homecoming-2025"],
+          "notes": "재학생 축제를 넘어 동문·가족 행사에서 학교 공동체 곡으로 쓰이는 사례다."
+        },
+        {
+          "field": "titleMeaning",
+          "value": "공식 설명 미확인; 댓글에서 ‘샤+애가’ 풀이가 유통",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-snu-a-sha-audio-2017"],
+          "notes": "제작 당사자의 명명 설명이 아니므로 사실 필드로 확정하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "새내기 새로배움터에서 청춘의 출발과 학교와의 동행을 강조하는 참여곡으로 사용된다.",
+        "응원단 정기공연과 봄·가을 축제 폐막제에서 관객이 학교명·감탄 구호를 함께 외치는 핵심 자체곡으로 공연된다.",
+        "홈커밍데이에서는 재학생뿐 아니라 동문과 가족까지 같은 박자와 구호에 참여시키는 세대 통합 순서로 쓰였다."
+      ],
+      "trivia": [
+        {
+          "id": "sha-official-mv-and-admissions",
+          "summary": "2018년에는 별도 공식 MV가 제작됐고 서울대 입학본부 웹진도 ‘관악로 1번지’에서 샤애가 영상을 단독으로 소개한다. 공연 기록을 넘어 학교 홍보 콘텐츠로 확장된 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-sha-mv-2018", "ev-snu-a-admissions-sha"]
+        },
+        {
+          "id": "sha-title-folk-etymology",
+          "summary": "공식 음원 댓글에는 제목을 서울대의 ‘샤’와 사랑 노래를 뜻하는 ‘애가’의 결합으로 푸는 설명이 있다. 널리 이해하기 쉬운 해석이지만 공식 명명 기록은 확인되지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-snu-a-sha-audio-2017"]
+        },
+        {
+          "id": "sha-comment-memory-and-aspiration",
+          "summary": "2017 음원과 2018 MV 댓글은 수험생의 합격 기원, 재학생의 학교 자긍심, 졸업을 앞둔 동문의 애증과 추억을 반복해서 언급한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-snu-a-sha-audio-2017", "yt-snu-a-sha-mv-2018"]
+        },
+        {
+          "id": "sha-homecoming-participation",
+          "summary": "2025 홈커밍데이 기사에는 아이부터 여러 세대의 동문까지 두 팔을 흔들고 구호에 화답한 장면이 기록돼, 곡의 참여층이 재학생에 한정되지 않음을 보여 준다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-alumni-homecoming-2025"]
+        },
+        {
+          "id": "sha-wiki-gap",
+          "summary": "별도 나무위키 응원가 문서가 없어 제작연혁·크레딧을 교차할 편집형 정보가 비어 있다. 공식 채널·학교 입학본부·동창회·대학신문 자료를 우선했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-snu-a-namu-cheer-missing", "ev-snu-a-admissions-sha", "ev-snu-a-alumni-2022"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original cheer song; individual lyric, composition, arrangement, performance, choreography and recording credits are not publicly documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=oTG5EwuBUZ8",
+          "https://www.youtube.com/watch?v=D6GcgRirUh8",
+          "https://www.youtube.com/watch?v=M7TBBkWKBbE",
+          "https://snuarori.snu.ac.kr/campus-life/snu?dataidx=6"
+        ],
+        "structureSummary": "밤을 지나서도 학교와 함께하겠다는 짧은 학교명 후렴으로 시작해, 열정과 인내로 어려운 세상 속 꽃·등불·빛이 되겠다는 긴 절을 거친다. 함께라면 두렵지 않다는 연결부 뒤 처음 후렴을 여러 차례 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-snu-a-sha-audio-2017",
+        "yt-snu-a-sha-mv-2018",
+        "yt-snu-a-sha-lyric-2023",
+        "yt-snu-a-sha-concert-2023",
+        "yt-snu-a-sha-freshman-2025",
+        "yt-snu-a-sha-spring-2025",
+        "yt-snu-a-sha-fall-2025",
+        "yt-snu-a-sha-freshman-2026",
+        "yt-snu-a-sha-spring-2026"
+      ],
+      "unresolved": [
+        "정확한 작사·작곡·편곡·가창자와 교내 밴드 협업 참여자",
+        "초연 행사와 2017 공식 업로드보다 이른 사용 기록",
+        "‘샤애가’ 제목의 제작 당사자 공식 명명 뜻",
+        "공식 음원·MR·MV·안무의 권리 주체와 배포 허락 범위",
+        "2018 MV 제작진 전체 크레딧과 마지막 삽입 대사의 출처",
+        "연도별 편곡·안무 개정 기록"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-snu-a-inventory",
+      "type": "internal-inventory",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/universities.md#서울대학교--서울대학교-응원단",
+      "title": "대학 응원단·현행 응원가 인벤토리 — 서울대학교",
+      "publisher": "project research",
+      "publishedAt": "2026-08-08",
+      "accessedAt": "2026-08-09",
+      "summary": "현행 확정 세 곡으로 관악을 보게 하라·진리의 빛·샤애가를 제시한다.",
+      "supports": ["snu-a-look-at-gwanak", "snu-a-light-of-truth", "snu-a-sha-love-song"]
+    },
+    {
+      "id": "ev-snu-a-official-profile-2025",
+      "type": "official",
+      "url": "https://www.snu.ac.kr/snunow/snu_story?bbsidx=162060&md=v",
+      "title": "우리의 청춘을 응원하는 이들, 서울대학교 응원단",
+      "publisher": "서울대학교",
+      "publishedAt": "2025-11-24",
+      "accessedAt": "2026-08-09",
+      "summary": "응원단을 2015년 창단된 유일한 치어리딩 중앙동아리로 소개하고 새내기 행사·축제·자체 연습·관객 참여·새 응원가 제작 협업을 설명한다.",
+      "supports": ["snu-a-look-at-gwanak", "snu-a-light-of-truth", "snu-a-sha-love-song"]
+    },
+    {
+      "id": "ev-snu-a-official-newcomer-2026",
+      "type": "official",
+      "url": "https://www.snu.ac.kr/snunow/snu_story?bbsidx=165596&md=v",
+      "title": "관악에서 맞이하는 첫걸음, 2026 새내기대학",
+      "publisher": "서울대학교",
+      "publishedAt": "2026-03-25",
+      "accessedAt": "2026-08-09",
+      "summary": "2026 새내기대학 말미 응원단 공연에서 학생 전원이 일어나 어깨동무하고 함께 노래·환호했다고 기록한다. 기사 자체는 곡명을 열거하지 않아 곡별 공식 영상과 교차했다.",
+      "supports": ["snu-a-look-at-gwanak", "snu-a-light-of-truth", "snu-a-sha-love-song"]
+    },
+    {
+      "id": "ev-snu-a-donga-2016",
+      "type": "news",
+      "url": "https://www.donga.com/news/People/article/all/20160610/78587659/1",
+      "title": "공부만 1등? 노는 것도 1등!",
+      "publisher": "동아일보",
+      "publishedAt": "2016-06-10",
+      "accessedAt": "2026-08-09",
+      "summary": "개교 70년 만의 첫 응원단 출범을 보도하며 학생들이 교내 밴드를 통해 응원가를 만들고 전문 강사에게 안무를 배웠다고 기록한다. 개별 곡 크레딧은 없다.",
+      "supports": ["snu-a-look-at-gwanak", "snu-a-light-of-truth", "snu-a-sha-love-song"]
+    },
+    {
+      "id": "ev-snu-a-alumni-2016-pdf",
+      "type": "alumni-press",
+      "url": "https://snuaa.org/wp-content/uploads/2016/12/Seoulalum1611_web.pdf",
+      "title": "서울대 미주동창회보 제271호",
+      "publisher": "서울대학교 미주동창회",
+      "publishedAt": "2016-11",
+      "accessedAt": "2026-08-09",
+      "summary": "2016년 동문 행사에서 신생 응원단이 관악을 보게 하라는 주제의 응원을 선보인 기록이 있어 출범기 사용의 보조 근거가 된다. 초연·제작일은 밝히지 않는다.",
+      "supports": ["snu-a-look-at-gwanak"]
+    },
+    {
+      "id": "ev-snu-a-alumni-2022",
+      "type": "alumni-press",
+      "url": "https://www.snua.or.kr/magazine?md=v&seqidx=10511",
+      "title": "서울대학교 응원단, ‘응원단 사랑은 모교 사랑, 선배님들 함께 해요’",
+      "publisher": "서울대학교총동창회 총동창신문",
+      "publishedAt": "2022-06",
+      "accessedAt": "2026-08-09",
+      "summary": "응원단을 2016년 한 재학생의 제안으로 창단했다고 적고, 관악을 보게 하라를 대표곡, 진리의 빛·샤애가를 자체 응원곡으로 분류한다. 모든 안무를 단내에서 직접 만든다고 설명한다.",
+      "supports": ["snu-a-look-at-gwanak", "snu-a-light-of-truth", "snu-a-sha-love-song"]
+    },
+    {
+      "id": "ev-snu-a-history-photo",
+      "type": "official-history",
+      "url": "https://en.snu.ac.kr/webdata/uploads/eng/file/2020/02/SNU_in_Photos_for_Download_2018.pdf",
+      "title": "SNU History in Photos",
+      "publisher": "서울대학교",
+      "publishedAt": "2018",
+      "accessedAt": "2026-08-09",
+      "summary": "1971년 관악캠퍼스 기공식과 정희성의 축시를 원문·영역과 함께 수록해 ‘관악을 보게 하라’ 문구의 1차 학교 기록을 제공한다.",
+      "supports": ["snu-a-look-at-gwanak"]
+    },
+    {
+      "id": "ev-snu-a-campus-essay-2025",
+      "type": "campus-press",
+      "url": "https://www.snunews.com/news/articleView.html?idxno=34105",
+      "title": "왜 관악을 보게 하라 했을까",
+      "publisher": "대학신문",
+      "publishedAt": "2025-05-18",
+      "accessedAt": "2026-08-09",
+      "summary": "통용되는 ‘조국의 미래’ 문장이 1971년 정희성 축시의 시구를 살짝 변형한 것임을 설명하고, 원문 의미와 오늘의 사회적 책임을 논한다.",
+      "supports": ["snu-a-look-at-gwanak"]
+    },
+    {
+      "id": "ev-snu-a-official-symbol",
+      "type": "official",
+      "url": "https://www.snu.ac.kr/about/symbol/ui",
+      "title": "서울대학교 상징",
+      "publisher": "서울대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "학교 표어 VERITAS LUX MEA를 ‘진리는 나의 빛’으로 설명하고 휘장의 펜·횃불이 지식 탐구로 겨레의 길을 밝히겠다는 뜻이라고 밝힌다.",
+      "supports": ["snu-a-light-of-truth", "snu-a-look-at-gwanak"]
+    },
+    {
+      "id": "ev-snu-a-official-unity-2020",
+      "type": "official",
+      "url": "https://www.snu.ac.kr/snunow/snu_story?bbsidx=130367&md=v",
+      "title": "서울대인의 온전한 화합을 도모하다",
+      "publisher": "서울대학교",
+      "publishedAt": "2020-12-17",
+      "accessedAt": "2026-08-09",
+      "summary": "단원이 새내기 OT에서 관악을 보게 하라를 약 천 명과 구호로 주고받으며 화합의 힘을 느꼈다고 회고한다.",
+      "supports": ["snu-a-look-at-gwanak"]
+    },
+    {
+      "id": "ev-snu-a-campus-festival-2024",
+      "type": "campus-press",
+      "url": "https://www.snunews.com/news/articleView.html?idxno=33487",
+      "title": "낭만의 계절을 알린 가을 축제",
+      "publisher": "대학신문",
+      "publishedAt": "2024-10-06",
+      "accessedAt": "2026-08-09",
+      "summary": "2024 가을축제에서 응원단이 관악을 보게 하라·진리의 빛·샤애가를 공연하고 학생들이 구호로 호응했다고 곡명을 함께 기록한다.",
+      "supports": ["snu-a-look-at-gwanak", "snu-a-light-of-truth", "snu-a-sha-love-song"]
+    },
+    {
+      "id": "ev-snu-a-admissions-sha",
+      "type": "official",
+      "url": "https://snuarori.snu.ac.kr/campus-life/snu?dataidx=6",
+      "title": "관악로 1번지 — 서울대학교 응원단 ‘샤애가’",
+      "publisher": "서울대학교 입학본부 아로리",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "서울대 입학정보 웹진의 캠퍼스 생활 페이지가 샤애가 공식 영상을 단독 소개한다.",
+      "supports": ["snu-a-sha-love-song"]
+    },
+    {
+      "id": "ev-snu-a-alumni-homecoming-2025",
+      "type": "alumni-press",
+      "url": "https://www.snua.or.kr/magazine?md=v&seqidx=12809",
+      "title": "단풍 물드는 버들골…동문 가족 2000명 함께 웃었다",
+      "publisher": "서울대학교총동창회 총동창신문",
+      "publishedAt": "2025-11",
+      "accessedAt": "2026-08-09",
+      "summary": "2025 홈커밍데이에서 응원단이 그대에게와 샤애가를 부르고 동문 가족이 두 팔을 흔들며 구호에 화답한 장면을 기록한다.",
+      "supports": ["snu-a-sha-love-song"]
+    },
+    {
+      "id": "ev-snu-a-separate-truth-is-my-light",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=r4slz8Aqz_c",
+      "title": "[서울대학교 응원단] 응원가: 진리는 나의 빛",
+      "publisher": "서울대학교 응원단",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "공식 채널이 ‘진리는 나의 빛’을 ‘진리의 빛’과 별도 제목·영상으로 운영해 두 곡이 검색에서 섞이는 것을 방지한다.",
+      "supports": ["snu-a-light-of-truth"]
+    },
+    {
+      "id": "ev-snu-a-namu-general",
+      "type": "editorial-wiki",
+      "url": "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90",
+      "title": "서울대학교",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "일반 문서의 찬시 항목은 정희성과 1971년 관악캠퍼스 기공식 및 시 전문을 다루지만 세 응원가의 제작자·연혁은 제공하지 않는다.",
+      "supports": ["snu-a-look-at-gwanak", "snu-a-light-of-truth", "snu-a-sha-love-song"]
+    },
+    {
+      "id": "ev-snu-a-namu-cheer-missing",
+      "type": "editorial-wiki-gap",
+      "url": "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "서울대학교/응원가 — 문서 없음",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "접근 시 해당 문서가 존재하지 않아 나무위키 기반 곡별 연혁·원곡·여담 교차검증이 불가능했다.",
+      "supports": ["snu-a-look-at-gwanak", "snu-a-light-of-truth", "snu-a-sha-love-song"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-snu-a-gwanak-audio-2017",
+      "songId": "snu-a-look-at-gwanak",
+      "url": "https://www.youtube.com/watch?v=7CGS90UFWiM",
+      "videoId": "7CGS90UFWiM",
+      "title": "[서울대학교 응원단] 응원가: [대표곡] 관악을 보게 하라",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2017-06-07T12:57:35-07:00",
+      "descriptionSummary": "공식 다운로드 링크와 전체 가사를 제공하고 제목에서 대표곡임을 명시한다. 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["웅장하고 학교의 책임·자부심이 느껴진다는 반응이 많다.", "합격 발표·수험 준비 때 반복해서 듣는다는 반응과 응원가치고 흥이 약하다는 상반된 평가가 있다."],
+      "supports": ["representativeStatus", "earliestDirectlyConfirmedUse", "lyricsStructure"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-gwanak-lyric-2023",
+      "songId": "snu-a-look-at-gwanak",
+      "url": "https://www.youtube.com/watch?v=KR5Qn-u8O80",
+      "videoId": "KR5Qn-u8O80",
+      "title": "[서울대학교 응원단] 서울대 응원가: ‘관악을 보게 하라’ 리릭비디오",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2023-01-14T20:27:47-08:00",
+      "descriptionSummary": "대표 응원곡 리릭비디오라고 소개하고 인스타그램의 별도 관객 구호를 참고해 무대와 관객이 하나가 되길 요청한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["가사의 상징성과 학교 대표성을 칭찬하는 반응이 있다.", "문구를 다른 표현으로 고치자는 의견과 곡을 둘러싼 가벼운 농담도 보인다."],
+      "supports": ["representativeStatus", "audienceParticipation", "textVariant"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-gwanak-freshman-2025",
+      "songId": "snu-a-look-at-gwanak",
+      "url": "https://www.youtube.com/watch?v=eBhrJwgRWAI",
+      "videoId": "eBhrJwgRWAI",
+      "title": "[서울대학교 응원단] 2025 새내기 새로배움터 ‘관악을 보게 하라’",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2025-05-04T07:47:05-07:00",
+      "descriptionSummary": "2025년 2월 25학번 새내기 새로배움터 무대이며 신입생 입학 축하와 응원 메시지를 담는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["freshmanUse2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-gwanak-spring-2025",
+      "songId": "snu-a-look-at-gwanak",
+      "url": "https://www.youtube.com/watch?v=58Tf3M9nLNs",
+      "videoId": "58Tf3M9nLNs",
+      "title": "[서울대학교 응원단] 서울대 최고의 응원가, 관악을 보게 하라 무대 영상 I 2025 서울대학교 봄 축제 폐막제",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2025-08-31T21:00:08-07:00",
+      "descriptionSummary": "2025-05-15 버들골 봄축제 폐막제 무대이며 서울대인이 가장 사랑하는 대표 응원가로 소개한다. SUB 촬영 원본을 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": ["수험생이 합격 기운을 얻고 싶다는 반응과 무대가 멋지다는 반응이 있다.", "곡의 분위기나 학교의 사회적 역할을 비판적으로 보는 반응도 함께 있다."],
+      "supports": ["springFestival2025", "representativeStatus", "commentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-gwanak-fall-2025",
+      "songId": "snu-a-look-at-gwanak",
+      "url": "https://www.youtube.com/watch?v=MYqLuFrY9sw",
+      "videoId": "MYqLuFrY9sw",
+      "title": "[서울대학교 응원단] 관악을 보게 하라 - 2025 서울대학교 가을 축제",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2025-12-07T19:03:00-08:00",
+      "descriptionSummary": "2025-09-18 버들골 가을축제 폐막제 대표 응원가 무대이며 SUB 촬영·기획단원 편집 정보를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["관악캠퍼스에 대한 자부심과 무대 인물에 대한 짧은 호평이 있다.", "측면 구도가 다소 위압적으로 보인다는 가벼운 반응도 있다."],
+      "supports": ["fallFestival2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-gwanak-freshman-2026",
+      "songId": "snu-a-look-at-gwanak",
+      "url": "https://www.youtube.com/watch?v=PIyB3ocNHjI",
+      "videoId": "PIyB3ocNHjI",
+      "title": "[서울대학교 응원단] 2026 새내기 새로배움터 ‘관악을 보게 하라’",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2026-03-16T08:15:39-07:00",
+      "descriptionSummary": "2026년 2월 26학번 새내기 새로배움터 곡별 무대이며 입학 축하와 지속적인 응원을 전한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse2026", "freshmanUse2026"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-gwanak-spring-2026",
+      "songId": "snu-a-look-at-gwanak",
+      "url": "https://www.youtube.com/watch?v=ZyxzaNuJ7Y4",
+      "videoId": "ZyxzaNuJ7Y4",
+      "title": "[서울대학교 응원단] 관악을 보게 하라 - 2026 서울대학교 봄 축제 폐막제",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2026-07-22T02:50:37-07:00",
+      "descriptionSummary": "2026-05-14 봄축제 루미네스 폐막제에서 공연된 대표 응원가 곡별 영상이며 SUB 촬영과 편집자를 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse2026", "springFestival2026"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-truth-audio-2017",
+      "songId": "snu-a-light-of-truth",
+      "url": "https://www.youtube.com/watch?v=kPWcCq1eH1U",
+      "videoId": "kPWcCq1eH1U",
+      "title": "[서울대학교 응원단] 응원가: 진리의 빛",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2017-06-07T12:58:40-07:00",
+      "descriptionSummary": "공식 다운로드 링크와 전체 가사를 제공하는 초기 곡별 음원 영상이다. 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡의 고음과 가창 난도를 언급하는 반응이 있다.", "합격을 기원하며 듣거나 학교 응원가를 외웠다는 반응과 비판적 댓글이 함께 있다."],
+      "supports": ["earliestDirectlyConfirmedUse", "lyricsStructure"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-truth-audience-2018",
+      "songId": "snu-a-light-of-truth",
+      "url": "https://www.youtube.com/watch?v=2rY6LsNyLGI",
+      "videoId": "2rY6LsNyLGI",
+      "title": "[서울대학교 응원단] ‘진리의 빛’ 관객안무영상",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2018-06-04T23:50:56-07:00",
+      "descriptionSummary": "공개 설명은 비어 있으나 제목과 5분 41초 영상이 관객용 안무 교육 자료임을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["영상 속 참여자의 복장과 동작을 귀엽게 본 짧은 반응이 있다.", "응원 메시지를 남긴 댓글이 있다."],
+      "supports": ["audienceChoreography", "continuity2018"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-truth-freshman-2019",
+      "songId": "snu-a-light-of-truth",
+      "url": "https://www.youtube.com/watch?v=II3CGY482Ps",
+      "videoId": "II3CGY482Ps",
+      "title": "[서울대학교 응원단] ‘진리의 빛’ (2019 경영대학 새내기 새로배움터)",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2019-02-26T09:05:00-08:00",
+      "descriptionSummary": "2019-02-13 경영대학 새내기 새로배움터 공연임을 날짜와 제목으로 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["freshmanUse2019"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-truth-cheerfest-2024",
+      "songId": "snu-a-light-of-truth",
+      "url": "https://www.youtube.com/watch?v=oqRn5pzfV7s",
+      "videoId": "oqRn5pzfV7s",
+      "title": "[서울대학교 응원단 / 제1회 응원제 ‘청춘서울: 백야’] 진리의 빛 무대 영상",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2024-06-22T05:00:48-07:00",
+      "descriptionSummary": "2024-05-22 문화관 대강당 제1회 응원제 청춘서울: 백야 곡별 무대라고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["cheerFestival2024"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-truth-freshman-2025",
+      "songId": "snu-a-light-of-truth",
+      "url": "https://www.youtube.com/watch?v=Ww80nI7obwU",
+      "videoId": "Ww80nI7obwU",
+      "title": "[서울대학교 응원단] 2025 새내기 새로배움터 ‘진리의 빛’",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2025-05-04T07:48:21-07:00",
+      "descriptionSummary": "2025년 2월 25학번 새내기 새로배움터 곡별 무대이며 입학 축하 메시지를 담는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["무대를 반기는 매우 짧은 감탄 댓글이 확인된다."],
+      "supports": ["freshmanUse2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-truth-spring-2025",
+      "songId": "snu-a-light-of-truth",
+      "url": "https://www.youtube.com/watch?v=ZN-e9XZb2UI",
+      "videoId": "ZN-e9XZb2UI",
+      "title": "[서울대학교 응원단] 조국의 자랑 서울대학교, 진리의 빛 무대 영상 I 2025 서울대학교 봄 축제 폐막제",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2025-08-31T21:00:48-07:00",
+      "descriptionSummary": "2025-05-15 버들골 봄축제 폐막제의 열기를 달군 응원가로 소개하고 SUB 촬영 원본을 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": ["하트와 웃음으로 호응한 짧은 댓글이 확인된다."],
+      "supports": ["springFestival2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-truth-fall-2025",
+      "songId": "snu-a-light-of-truth",
+      "url": "https://www.youtube.com/watch?v=E0vMFrGOMgg",
+      "videoId": "E0vMFrGOMgg",
+      "title": "[서울대학교 응원단] 진리의 빛 - 2025 서울대학교 가을 축제",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2025-12-07T19:02:00-08:00",
+      "descriptionSummary": "2025-09-18 버들골 가을축제 폐막제 곡별 영상이며 SUB 촬영·기획단원 편집 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fallFestival2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-truth-freshman-2026",
+      "songId": "snu-a-light-of-truth",
+      "url": "https://www.youtube.com/watch?v=2lcPJVRmTMg",
+      "videoId": "2lcPJVRmTMg",
+      "title": "[서울대학교 응원단] 2026 새내기 새로배움터 ‘진리의 빛’",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2026-03-16T08:00:05-07:00",
+      "descriptionSummary": "2026년 2월 26학번 새내기 새로배움터 곡별 무대이며 신입생 입학을 축하한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse2026", "freshmanUse2026"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-truth-spring-2026",
+      "songId": "snu-a-light-of-truth",
+      "url": "https://www.youtube.com/watch?v=ivYDq94IGKw",
+      "videoId": "ivYDq94IGKw",
+      "title": "[서울대학교 응원단] 진리의 빛 - 2026 서울대학교 봄 축제 폐막제",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2026-07-25T19:44:28-07:00",
+      "descriptionSummary": "2026-05-14 봄축제 루미네스 폐막제 응원가 곡별 영상이며 SUB 촬영과 편집자를 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse2026", "springFestival2026"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-sha-audio-2017",
+      "songId": "snu-a-sha-love-song",
+      "url": "https://www.youtube.com/watch?v=oTG5EwuBUZ8",
+      "videoId": "oTG5EwuBUZ8",
+      "title": "[서울대학교 응원단] 응원가: 샤애가",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2017-06-07T12:59:03-07:00",
+      "descriptionSummary": "공식 다운로드 링크와 전체 가사를 제공하는 초기 곡별 음원 영상이다. 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["청춘·학교 자긍심과 곡의 감성을 좋아한다는 반응이 많다.", "수험생의 합격 기원과 제목을 ‘샤+애가’로 풀이한 비공식 설명, 발라드 같은 응원가라는 평이 함께 있다."],
+      "supports": ["earliestDirectlyConfirmedUse", "lyricsStructure", "titleFolkEtymology"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-sha-mv-2018",
+      "songId": "snu-a-sha-love-song",
+      "url": "https://www.youtube.com/watch?v=D6GcgRirUh8",
+      "videoId": "D6GcgRirUh8",
+      "title": "[서울대학교 응원단] 응원가 샤애가 MV",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2018-04-22T19:06:02-07:00",
+      "descriptionSummary": "공개 설명은 비어 있으나 공식 채널이 곡을 4분 3초 분량의 별도 MV로 제작했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["졸업을 앞둔 동문이 학교에 대한 애증과 고마움을 회고한다.", "영상미·곡의 새벽 감성·학교 합격 동기를 칭찬하고 마지막 대사의 출처를 묻는 반응이 있다."],
+      "supports": ["officialMV2018", "commentMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-sha-lyric-2023",
+      "songId": "snu-a-sha-love-song",
+      "url": "https://www.youtube.com/watch?v=M7TBBkWKBbE",
+      "videoId": "M7TBBkWKBbE",
+      "title": "[서울대학교 응원단] 서울대 응원가: ‘샤애가’ 리릭비디오",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2023-01-14T20:12:24-08:00",
+      "descriptionSummary": "대표 응원곡의 리릭비디오로 소개하며 예쁜 가사에 귀 기울여 달라고 하고 관객과 하나가 될 때 무대가 완성된다고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["미소 이모지로 호응한 짧은 댓글이 확인된다."],
+      "supports": ["lyricsStructure", "audienceParticipation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-sha-concert-2023",
+      "songId": "snu-a-sha-love-song",
+      "url": "https://www.youtube.com/watch?v=iomQuwBaG8M",
+      "videoId": "iomQuwBaG8M",
+      "title": "[서울대학교 응원단 / 제9회 정기공연 ‘청춘서울: 개화’] 샤애가 무대 영상",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2023-08-08T02:00:24-07:00",
+      "descriptionSummary": "2023-05-23 문화관 대강당 제9회 정기공연 청춘서울: 개화의 곡별 무대라고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["다른 대학의 파워풀한 응원과 분위기가 다르다는 비교 반응이 있다."],
+      "supports": ["regularConcert2023"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-sha-freshman-2025",
+      "songId": "snu-a-sha-love-song",
+      "url": "https://www.youtube.com/watch?v=Tjh3-gKNFR8",
+      "videoId": "Tjh3-gKNFR8",
+      "title": "[서울대학교 응원단] 2025 새내기 새로배움터 ‘샤애가’",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2025-05-05T01:09:28-07:00",
+      "descriptionSummary": "2025년 2월 25학번 새내기 새로배움터 곡별 무대이며 입학 축하 메시지를 담는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["freshmanUse2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-sha-spring-2025",
+      "songId": "snu-a-sha-love-song",
+      "url": "https://www.youtube.com/watch?v=oql2sdIZ-Ig",
+      "videoId": "oql2sdIZ-Ig",
+      "title": "[서울대학교 응원단] 빛나는 당신의 청춘을 위해, 샤애가 I 2025 서울대학교 봄 축제 폐막제",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2025-08-31T21:00:56-07:00",
+      "descriptionSummary": "2025-05-15 버들골 봄축제 폐막제에서 청춘의 찬란한 기억을 새긴 응원가로 소개하고 SUB 촬영 원본을 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": ["지원 학과 합격 후 실제 무대를 보고 싶다는 수험생 반응이 있다.", "학교와 곡을 응원하는 짧은 반응이 있다."],
+      "supports": ["springFestival2025", "commentAspiration"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-sha-fall-2025",
+      "songId": "snu-a-sha-love-song",
+      "url": "https://www.youtube.com/watch?v=kdFKKQEVRL8",
+      "videoId": "kdFKKQEVRL8",
+      "title": "[서울대학교 응원단] 샤애가 - 2025 서울대학교 가을 축제",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2025-12-07T19:04:00-08:00",
+      "descriptionSummary": "2025-09-18 버들골 가을축제 폐막제 곡별 영상이며 청춘의 기억을 강조하고 SUB 촬영·기획단원 편집 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fallFestival2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-sha-freshman-2026",
+      "songId": "snu-a-sha-love-song",
+      "url": "https://www.youtube.com/watch?v=VvwyvJTLgag",
+      "videoId": "VvwyvJTLgag",
+      "title": "[서울대학교 응원단] 2026 새내기 새로배움터 ‘샤애가’",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2026-03-16T08:00:56-07:00",
+      "descriptionSummary": "2026년 2월 26학번 새내기 새로배움터 곡별 무대이며 입학 축하와 응원을 전한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["입학 의지를 짧게 표현한 댓글이 확인된다."],
+      "supports": ["currentUse2026", "freshmanUse2026"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-snu-a-sha-spring-2026",
+      "songId": "snu-a-sha-love-song",
+      "url": "https://www.youtube.com/watch?v=4JVgIvoREl4",
+      "videoId": "4JVgIvoREl4",
+      "title": "[서울대학교 응원단] 샤애가 - 2026 서울대학교 봄 축제 폐막제",
+      "channel": "서울대학교 응원단",
+      "publishedAt": "2026-07-23T21:49:33-07:00",
+      "descriptionSummary": "2026-05-14 봄축제 루미네스 폐막제에서 청춘의 기억을 새긴 곡으로 소개하며 SUB 촬영과 편집자를 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse2026", "springFestival2026"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 3,
+    "youtubeSampleCount": 25,
+    "songsMeetingYoutubeMinimum": 3,
+    "openIssueCount": 19
+  }
+}

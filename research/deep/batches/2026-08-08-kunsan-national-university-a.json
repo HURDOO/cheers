@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kunsan-national-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-kunsan-national",
+    "name": "국립군산대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 응원가의 전체 가사, 영상 설명, 댓글 전문은 저장하지 않는다. 국립군산대학교 공식 페이지는 이 저작물에 공공누리 자유이용 허락표시를 적용하지 않는다고 명시하므로, 구조·주제·짧은 표기 차이만 요약하고 원문은 공식 링크로 연결한다. 댓글은 작성자를 식별하지 않고 반응만 재서술한다.",
+  "items": [
+    {
+      "id": "kunsan-national-university-seungnireul-wihae",
+      "title": "승리를 위해",
+      "aliases": ["국립군산대 승리를 위해", "군산대 승리를 위해"],
+      "currentStatus": "current-official-catalog-and-2025-three-song-contest",
+      "summary": "국립군산대학교가 AR·MR·Inst·악보와 함께 제공하는 현행 3곡 중 하나다. 2023년 2월 28일 신입생 행사에서 학교 응원가가 공개됐고 세 곡의 현행 미디어 파일이 같은 시기에 묶여 올라온 정황 때문에 2023년을 가장 이른 확인 경계로 두되, 당시 기사에 개별 곡명이 없어 정확한 초연일은 확정하지 않았다. 빠른 학교명 제창과 꿈·열정·황룡·승리를 연결하는 창작형 팀송이며 외부 원곡과 제작자는 공개 자료에서 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "originAndEarliestVerifiedYear",
+          "value": "2023년 공개 추정; 2023-02-28 신입생 행사에서 학교 응원가 공개, 현행 3곡 미디어는 같은 해 3월 생성 정황",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ksnu-2023-unveiling", "ev-ksnu-official-catalog"],
+          "notes": "행사 기사는 개별 제목을 열거하지 않는다. 따라서 2023은 세 곡 각각의 확정 초연일이 아니라 현재 확인 가능한 가장 이른 공개 경계다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025년 공식 군무 콘테스트가 학교 응원가 3곡 중 하나를 선택하게 했고 현행 공식 페이지가 음원·악보를 계속 제공",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-2025-dance-contest", "ev-ksnu-official-catalog", "yt-ksnu-seungri-official-song"],
+          "notes": "2025 공지는 이 곡의 공식 안무 영상을 참고 링크로 직접 연결한다."
+        },
+        {
+          "field": "creatorAndOriginal",
+          "value": "제작자·외부 원곡 미확인; 학교가 AR·MR·Inst를 직접 배포하는 독자 제작물 정황",
+          "assessment": "unresolved",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ksnu-official-catalog"],
+          "notes": "유사 제목의 다른 대학·프로구단 곡과 동일곡으로 간주할 근거가 없다."
+        },
+        {
+          "field": "scoreAndForm",
+          "value": "공식 악보 표기 빠르기 208; 무가사 도입 뒤 학교명·꿈·승리·황룡을 연결하는 합창형",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-seungri-score"],
+          "notes": "빠르기와 구조는 공식 악보를 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "학교명 응답과 승리 구호가 반복되는 가장 전형적인 대형 집단응원곡으로, 공식 3D 캐릭터 안무와 2025 군무 콘테스트의 참고곡으로 쓰였다.",
+        "가사는 개인의 꿈에서 국립군산대의 미래와 황룡의 비상으로 범위를 넓혀 입학식·축제·체육 응원에 모두 붙일 수 있게 구성된다."
+      ],
+      "trivia": [
+        {
+          "id": "ksnu-seungri-reference-dance",
+          "summary": "2025 황룡학술문화제 공지는 세 곡 가운데 자유롭게 고르게 하면서도 참고 안무 링크는 이 곡의 공식 영상 하나를 제시했다. 기존 안무를 따라 하거나 새 안무를 만들어도 된다고 명시했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-2025-dance-contest", "yt-ksnu-seungri-official-song"]
+        },
+        {
+          "id": "ksnu-shared-rebrand-line",
+          "summary": "세 현행곡 모두 학교의 공동 문구인 ‘다 함께 다시 새롭게’를 품는다. 승리를 위해에서는 도입부의 학교명 선언으로 배치된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-official-catalog"]
+        },
+        {
+          "id": "ksnu-seungri-comment-reception",
+          "summary": "공식 영상 댓글에는 학교에 응원가가 생긴 점과 곡 자체를 반기는 반응이 있고, 흰 장갑을 쓰면 손동작이 더 잘 보이겠다는 구체적인 공연 제안도 보인다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ksnu-seungri-official-song"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "official school work with KOGL/open-government-license mark explicitly not applied; creator, master, arrangement, choreography and reuse permissions are not separately documented",
+        "sourceUrls": [
+          "https://www.kunsan.ac.kr/index.kunsan?menuCd=DOM_000000102009006000&sso=ok",
+          "https://www.kunsan.ac.kr/upload_data/board_data/CNT_ATCHDOWN/167928068533267.jpg",
+          "https://www.kunsan.ac.kr/upload_data/board_data/CNT_ATCHDOWN/167928068533680.jpg"
+        ],
+        "structureSummary": "네 묶음의 무가사 합창으로 시작해 학교에서 함께 품은 꿈과 미래를 제시하고, 빠른 승리 후렴을 거쳐 황룡·학교의 미래를 향한 비상 선언으로 끝난다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ksnu-seungri-official-song",
+        "yt-ksnu-seungri-3d-dance",
+        "yt-ksnu-seungri-2024-entrance-context",
+        "yt-ksnu-seungri-2026-entrance-context",
+        "yt-ksnu-seungri-2026-worldcup-context"
+      ],
+      "unresolved": [
+        "정확한 작사·작곡·편곡·가창·녹음 제작진",
+        "2023년 개별 곡 초연일과 공개 당시 세트리스트",
+        "외부 원곡·라이선스 유무 또는 완전 창작곡 여부",
+        "현 응원단의 2025~2026 실제 행사별 사용 빈도",
+        "음원 마스터와 안무의 재사용 허락 범위"
+      ]
+    },
+    {
+      "id": "kunsan-national-university-naraolla",
+      "title": "날아올라",
+      "aliases": ["날아 올라", "국립군산대 날아올라", "군산대 날아 올라"],
+      "currentStatus": "current-official-catalog-and-2025-three-song-contest-direct-2024-official-bgm",
+      "summary": "국립군산대학교 현행 3곡 가운데 가장 긴 서사형 곡이다. 공식 페이지 제목은 붙여 쓴 ‘날아올라’지만 가사 표제와 후렴은 ‘날아 올라’로 띄어 쓴다. 2023 응원가 공개 기사와 같은 시기의 미디어 묶음을 바탕으로 2023년을 가장 이른 확인 경계로 두었으며, 2024학년도 입학식 공식 영상은 설명에서 배경음악을 이 곡이라고 직접 밝힌다. 제작자와 외부 원곡은 아직 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "originAndEarliestVerifiedYear",
+          "value": "2023년 공개 추정; 학교 응원가 공개 기사와 현행 3곡 미디어의 동시기 등록 정황",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ksnu-2023-unveiling", "ev-ksnu-official-catalog"],
+          "notes": "기사에 제목이 없어 개별 초연일은 불명확하다고 표시한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 3곡 군무 콘테스트 대상이며 현행 공식 AR·MR·Inst·악보 제공",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-2025-dance-contest", "ev-ksnu-official-catalog"],
+          "notes": "2025 공지는 세 곡 전체를 현재 학교 응원가로 다룬다."
+        },
+        {
+          "field": "directMediaUse",
+          "value": "2024학년도 입학식 공식 하이라이트 배경음악",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ksnu-naraolla-2024-entrance"],
+          "notes": "영상 설명이 배경음악을 ‘국립군산대학교 응원가 날아 올라’라고 직접 명시한다."
+        },
+        {
+          "field": "titleStyle",
+          "value": "공식 페이지 제목 ‘날아올라’, 가사 표제·영상 설명 ‘날아 올라’ 병존",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-official-catalog", "yt-ksnu-naraolla-2024-entrance"],
+          "notes": "사이트 대표 제목은 붙여 쓰고 띄어쓰기형은 별칭으로 보존한다."
+        },
+        {
+          "field": "creatorAndOriginal",
+          "value": "제작자·외부 원곡 미확인",
+          "assessment": "unresolved",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ksnu-official-catalog"],
+          "notes": "동명 대중가요·두산 응원가와 연결할 근거가 없어 다른 곡으로 취급한다."
+        }
+      ],
+      "usageContexts": [
+        "청춘·태양·미래·비상이라는 긴 서사를 두 절로 전개해 입학식 홍보 영상이나 축제처럼 학교 정체성을 보여 주는 장면에 적합하다.",
+        "공식 2024 입학식 하이라이트에서는 현장 실연이 아니라 배경음악으로 쓰였으며, 곡별 최근 라이브 공연은 별도로 확인해야 한다."
+      ],
+      "trivia": [
+        {
+          "id": "ksnu-naraolla-title-spacing",
+          "summary": "한 공식 페이지 안에서도 메뉴 제목은 ‘날아올라’, 가사 표제는 ‘날아 올라’로 다르며 2024 공식 영상 설명도 띄어쓰기형을 쓴다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-official-catalog", "yt-ksnu-naraolla-2024-entrance"]
+        },
+        {
+          "id": "ksnu-naraolla-long-form",
+          "summary": "공식 악보는 세 장, 빠르기 140으로 세 곡 중 가장 긴 본문을 갖는다. 1절의 개인적 청춘 서사에서 2절의 정의·진리·지성·공동체로 확장된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-naraolla-score", "ev-ksnu-official-catalog"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "official school work with KOGL/open-government-license mark explicitly not applied; creator, master, arrangement and reuse permissions remain undocumented",
+        "sourceUrls": [
+          "https://www.kunsan.ac.kr/index.kunsan?menuCd=DOM_000000102009006000&sso=ok",
+          "https://www.kunsan.ac.kr/upload_data/board_data/CNT_ATCHDOWN/167928068532064.jpg",
+          "https://www.kunsan.ac.kr/upload_data/board_data/CNT_ATCHDOWN/167928068532524.jpg",
+          "https://www.kunsan.ac.kr/upload_data/board_data/CNT_ATCHDOWN/167928068532917.jpg"
+        ],
+        "structureSummary": "짧은 기악 도입 뒤 청춘과 열정을 노래하는 1절, 더 크게·높이·멀리 나아가자는 연결부, 태양처럼 함께 날아오르는 후렴이 이어진다. 2절은 정의·진리·지성과 좌절 뒤 다시 일어서는 공동체를 강조하고 같은 학교명 후렴으로 돌아온다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ksnu-naraolla-2024-entrance",
+        "yt-ksnu-naraolla-official-song-context",
+        "yt-ksnu-naraolla-3d-context",
+        "yt-ksnu-naraolla-2026-entrance-context",
+        "yt-ksnu-naraolla-2026-worldcup-context"
+      ],
+      "unresolved": [
+        "정확한 작사·작곡·편곡·가창·녹음 제작진",
+        "2023년 개별 곡 초연일",
+        "외부 원곡·라이선스 유무 또는 완전 창작곡 여부",
+        "2024 입학식에서 응원단 실연도 있었는지와 영상의 음원 편집 범위",
+        "2025~2026 현 응원단 라이브 세트리스트와 사용 빈도"
+      ]
+    },
+    {
+      "id": "kunsan-national-university-hamkkehal-geu-ireum",
+      "title": "함께할 그 이름",
+      "aliases": ["국립군산대 함께할 그 이름", "군산대 함께할 그 이름"],
+      "currentStatus": "current-official-catalog-and-2025-three-song-contest-recent-song-specific-youtube-performance-unresolved",
+      "summary": "국립군산대학교 현행 3곡 가운데 가장 짧고 구호 지향적인 곡이다. 학교명·KSNU·축제·젊음을 빠르게 묶으며, 공식 악보는 빠르기 156을 표시한다. 2023년 학교 응원가 공개와 동시기 미디어 등록을 근거로 2023년 공개곡으로 추정하고 2025 공식 군무 콘테스트가 현재성을 확정하지만, 이 곡 자체를 식별한 공개 YouTube 실연은 찾지 못했다. 공식 HTML의 일부 철자와 악보가 달라 원문 오류도 별도로 보존했다.",
+      "claims": [
+        {
+          "field": "originAndEarliestVerifiedYear",
+          "value": "2023년 공개 추정; 학교 응원가 공개 기사와 현행 3곡 미디어의 동시기 등록 정황",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ksnu-2023-unveiling", "ev-ksnu-official-catalog"],
+          "notes": "2023 행사 기사에는 개별 곡명이 없어 정확한 초연일과 공개 순서는 미확정이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 3곡 군무 콘테스트 대상이며 현행 공식 AR·MR·Inst·악보 제공",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-2025-dance-contest", "ev-ksnu-official-catalog"],
+          "notes": "최근 곡별 공연 영상이 없어 공식 운용과 공개 실연을 구분했다."
+        },
+        {
+          "field": "creatorAndOriginal",
+          "value": "제작자·외부 원곡 미확인",
+          "assessment": "unresolved",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ksnu-official-catalog"],
+          "notes": "공식 음원·악보에 노출되는 크레딧이 없다."
+        },
+        {
+          "field": "officialTextConflict",
+          "value": "공식 HTML은 ‘편쳐라’를 쓰지만 공식 악보는 ‘펼쳐라’로 표기; ‘겨례’ 표기는 양쪽에 남음",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-official-catalog", "ev-ksnu-hamkke-score"],
+          "notes": "사이트 데이터에서는 더 명백한 악보형 ‘펼쳐라’를 본문 요약에 쓰되 HTML 원문 차이를 기록한다. ‘겨례’는 임의로 ‘겨레’로 고치지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "학교명과 KSNU를 짧게 반복하고 축제를 직접 언급해 관중 참여형 축제·군무에 맞춘 곡이다.",
+        "2025 공식 콘테스트가 새 안무 창작을 허용했으므로 고정 안무만을 전제하지 않는 참여형 레퍼토리로 운용됐다."
+      ],
+      "trivia": [
+        {
+          "id": "ksnu-hamkke-html-score-conflict",
+          "summary": "현행 학교 HTML 가사는 ‘편쳐라’라고 오기하지만 공식 악보 이미지는 ‘펼쳐라’로 적는다. 반면 규범 표기와 다른 ‘겨례’는 HTML과 악보 모두에 보인다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-official-catalog", "ev-ksnu-hamkke-score"]
+        },
+        {
+          "id": "ksnu-hamkke-compact-form",
+          "summary": "공식 악보는 두 장, 빠르기 156이며 세 곡 중 가장 직접적으로 축제와 KSNU 영문 약칭을 전면에 둔다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-hamkke-score"]
+        },
+        {
+          "id": "ksnu-hamkke-youtube-scarcity",
+          "summary": "공식 페이지와 2025 콘테스트는 현재성을 확정하지만 검색 가능한 YouTube 표본에서는 곡 자체를 제목·설명으로 식별하지 못했다. 다섯 표본은 모두 다른 현행곡 또는 학교·응원 행사 맥락임을 명시했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ksnu-official-catalog", "ev-ksnu-2025-dance-contest", "yt-ksnu-hamkke-official-song-context"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "official school work with KOGL/open-government-license mark explicitly not applied; creator, master, arrangement, choreography and reuse permissions remain undocumented",
+        "sourceUrls": [
+          "https://www.kunsan.ac.kr/index.kunsan?menuCd=DOM_000000102009006000&sso=ok",
+          "https://www.kunsan.ac.kr/upload_data/board_data/CNT_ATCHDOWN/167928068534099.jpg",
+          "https://www.kunsan.ac.kr/upload_data/board_data/CNT_ATCHDOWN/167928068534478.jpg"
+        ],
+        "structureSummary": "무가사 합창으로 시작해 학교명과 공동체를 선언하고, 꿈·축제·젊음을 향해 날아가자는 짧은 본문 뒤 제목과 KSNU를 반복하는 후렴으로 모인다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ksnu-hamkke-official-song-context",
+        "yt-ksnu-hamkke-3d-context",
+        "yt-ksnu-hamkke-2024-entrance-context",
+        "yt-ksnu-hamkke-2026-entrance-context",
+        "yt-ksnu-hamkke-2026-worldcup-context"
+      ],
+      "unresolved": [
+        "정확한 작사·작곡·편곡·가창·녹음 제작진",
+        "2023년 개별 곡 초연일",
+        "외부 원곡·라이선스 유무 또는 완전 창작곡 여부",
+        "‘겨례’가 의도된 표기인지 공식 원문의 오기인지",
+        "곡 자체를 식별할 수 있는 2023~2026 공개 공연·안무 영상"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ksnu-official-catalog",
+      "type": "official-current-catalog",
+      "title": "대학소개 > 학교상징 > 응원가",
+      "publisher": "국립군산대학교",
+      "url": "https://www.kunsan.ac.kr/index.kunsan?menuCd=DOM_000000102009006000&sso=ok",
+      "publishedAt": "최종수정 2025-04-22",
+      "accessedAt": "2026-08-09",
+      "summary": "승리를 위해·날아올라·함께할 그 이름 세 곡을 현행 응원가로 열거하고 각 곡의 AR·MR·Inst·다운로드·악보·가사를 제공한다. 페이지는 공공누리 자유이용 허락표시가 적용되지 않는다고 명시한다. 전체 가사는 저장하지 않았다.",
+      "supports": ["currentCatalog", "officialTitles", "audioAndScore", "lyricsStructure", "rightsRestriction"]
+    },
+    {
+      "id": "ev-ksnu-2023-unveiling",
+      "type": "official-news",
+      "title": "2023학년도 전공박람회 및 오리엔테이션",
+      "publisher": "국립군산대학교",
+      "url": "https://www.kunsan.ac.kr/board/view.kunsan?boardId=BBS_0000021&dataSid=1321475&menuCd=DOM_000000105001008000&paging=ok&startPage=100",
+      "publishedAt": "2023-02-28",
+      "accessedAt": "2026-08-09",
+      "summary": "2023년 2월 28일 신입생 행사 순서에 ‘군산대학교 응원가 공개’가 있었다고 보도한다. 개별 제목은 열거하지 않아 세 현행곡의 정확한 초연일 증거로 확대하지 않았다.",
+      "supports": ["earliestPublicBoundary", "unveilingContext"]
+    },
+    {
+      "id": "ev-ksnu-2025-dance-contest",
+      "type": "official-notice",
+      "title": "황룡학술문화제 국립군산대학교 응원가 군무 콘테스트",
+      "publisher": "국립군산대학교 대외협력본부",
+      "url": "https://www.kunsan.ac.kr/board/view.kunsan?boardId=BBS_0000008&dataSid=1352489&menuCd=DOM_000000105001001000&paging=ok&startPage=1",
+      "publishedAt": "2025-04-24",
+      "accessedAt": "2026-08-09",
+      "summary": "학교 구성원이 공식 응원가 3곡 중 하나를 골라 군무 영상을 제출하는 콘테스트다. 기존 안무 모방과 새 안무 창작을 모두 허용하고 승리를 위해 공식 영상을 참고 링크로 제시해 세 곡의 2025 운용을 직접 확인한다.",
+      "supports": ["currentUse2025", "threeSongCatalog", "danceUse", "choreographyFlexibility"]
+    },
+    {
+      "id": "ev-ksnu-2024-official-event",
+      "type": "official-event-record",
+      "title": "2024 국립군산대학교 공식 행사 응원단 공연 게시물",
+      "publisher": "국립군산대학교",
+      "url": "https://www.kunsan.ac.kr/ksnudp/board/view.kunsan?boardId=BBS_0001171&dataSid=1345866&menuCd=DOM_000013505001000000&paging=ok&startPage=1",
+      "publishedAt": "2024",
+      "accessedAt": "2026-08-09",
+      "summary": "대학 공식 행사 기록이 응원단 공연의 최근 활동 맥락을 제공한다. 공개 본문만으로 세 곡의 개별 세트리스트는 식별하지 못해 조직 맥락 자료로만 사용했다.",
+      "supports": ["activeSquadContext", "contextOnly"]
+    },
+    {
+      "id": "ev-ksnu-seungri-score",
+      "type": "official-score",
+      "title": "승리를 위해 공식 악보",
+      "publisher": "국립군산대학교",
+      "url": "https://www.kunsan.ac.kr/upload_data/board_data/CNT_ATCHDOWN/167928068533267.jpg",
+      "publishedAt": "공식 미디어 경로 생성 정황 2023-03-20",
+      "accessedAt": "2026-08-09",
+      "summary": "첫 장에 제목·빠르기 208·도입과 학교명·꿈·미래를 향하는 선율이 표시된다. 작사·작곡자 크레딧은 보이지 않는다.",
+      "supports": ["tempo", "scoreStructure", "creditGap"]
+    },
+    {
+      "id": "ev-ksnu-naraolla-score",
+      "type": "official-score",
+      "title": "날아 올라 공식 악보",
+      "publisher": "국립군산대학교",
+      "url": "https://www.kunsan.ac.kr/upload_data/board_data/CNT_ATCHDOWN/167928068532064.jpg",
+      "publishedAt": "공식 미디어 경로 생성 정황 2023-03-20",
+      "accessedAt": "2026-08-09",
+      "summary": "첫 장은 제목을 띄어 쓴 ‘날아 올라’로 표시하고 빠르기 140의 C장조형 진행을 보인다. 전체 악보는 세 장이며 제작자 크레딧은 보이지 않는다.",
+      "supports": ["tempo", "titleVariant", "scoreStructure", "creditGap"]
+    },
+    {
+      "id": "ev-ksnu-hamkke-score",
+      "type": "official-score",
+      "title": "함께할 그 이름 공식 악보",
+      "publisher": "국립군산대학교",
+      "url": "https://www.kunsan.ac.kr/upload_data/board_data/CNT_ATCHDOWN/167928068534099.jpg",
+      "publishedAt": "공식 미디어 경로 생성 정황 2023-03-20",
+      "accessedAt": "2026-08-09",
+      "summary": "첫 장은 빠르기 156과 학교명·축제·열정 부분을 표시한다. HTML의 ‘편쳐라’와 달리 악보는 ‘펼쳐라’로 적지만 ‘겨례’ 표기는 그대로이며 제작자 크레딧은 보이지 않는다.",
+      "supports": ["tempo", "scoreStructure", "officialTextConflict", "creditGap"]
+    },
+    {
+      "id": "ev-ksnu-namu-scope-gap",
+      "type": "community-wiki-access-note",
+      "title": "국립군산대학교 나무위키 미러 대조 기록",
+      "publisher": "나무위키 비공식 미러",
+      "url": "https://namu.moe/w/%EA%B5%AD%EB%A6%BD%EA%B5%B0%EC%82%B0%EB%8C%80%ED%95%99%EA%B5%90",
+      "publishedAt": "continuously edited",
+      "accessedAt": "2026-08-09",
+      "summary": "접근 과정에서 곡별 응원가 서술을 안정적으로 확보하지 못했다. 이 출처는 제작자·원곡·연도 주장의 근거로 사용하지 않고 편집형 자료의 공백 자체만 기록한다.",
+      "supports": ["sourceGap", "contextOnly"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ksnu-seungri-official-song",
+      "songId": "kunsan-national-university-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=hNuACZ2n_Eo",
+      "videoId": "hNuACZ2n_Eo",
+      "title": "국립군산대학교 응원단 _ 승리를 위해",
+      "channel": "국립군산대학교",
+      "publishedAt": "2024-07-14",
+      "descriptionSummary": "대학 공식 채널의 약 2분 23초 곡·안무 영상이다. 별도 설명은 없지만 제목이 대상곡과 응원단을 직접 식별하고 2025 공식 군무 콘테스트가 참고 안무로 다시 연결한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학교에 고유 응원가가 생긴 점과 곡 자체를 반기는 반응이 보인다.", "손동작이 더 잘 보이도록 흰 장갑을 활용해 달라는 구체적인 공연 제안이 있다."],
+      "accessedAt": "2026-08-09",
+      "supports": ["directSongRecording", "directChoreography", "currentUse2025", "audienceReception"]
+    },
+    {
+      "id": "yt-ksnu-seungri-3d-dance",
+      "songId": "kunsan-national-university-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=iskqQNJtX0U",
+      "videoId": "iskqQNJtX0U",
+      "title": "🧡💙국립군산대학교 3D캐릭터 응원가 안무 (승리를위해)🧡💙",
+      "channel": "국립군산대학교",
+      "publishedAt": "2024 (exact upload day unresolved)",
+      "descriptionSummary": "학교 3D 캐릭터로 승리를 위해 안무를 보여 주며 설명은 ‘다함께! 다시 새롭게!’라는 학교 공통 문구를 강조한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["directSongRecording", "directChoreography", "schoolBranding"]
+    },
+    {
+      "id": "yt-ksnu-seungri-2024-entrance-context",
+      "songId": "kunsan-national-university-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=rdGTY_4n_sQ",
+      "videoId": "rdGTY_4n_sQ",
+      "title": "국립군산대학교 2024학년도 입학식 이모저모",
+      "channel": "국립군산대학교",
+      "publishedAt": "2024 (exact upload day unresolved)",
+      "descriptionSummary": "학교 공식 입학식 하이라이트이며 설명이 배경음악을 다른 현행곡 ‘날아 올라’로 명시한다. 승리를 위해의 직접 표본이 아니라 같은 3곡 체계와 행사 운용을 보여 주는 맥락 표본이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "sameCatalogContext", "officialEventContext"]
+    },
+    {
+      "id": "yt-ksnu-seungri-2026-entrance-context",
+      "songId": "kunsan-national-university-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=J_HvJCltslQ",
+      "videoId": "J_HvJCltslQ",
+      "title": "국립군산대학교 2026학년도 입학식 및 오리엔테이션",
+      "channel": "국립군산대학교",
+      "publishedAt": "2026 (exact upload day unresolved)",
+      "descriptionSummary": "약 3시간 12분의 대학 공식 행사 기록이다. 대상곡의 구간·곡명은 확인하지 못했으며 최근 입학식 응원 문화의 조직 맥락만 제공한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "recentOfficialEventContext"]
+    },
+    {
+      "id": "yt-ksnu-seungri-2026-worldcup-context",
+      "songId": "kunsan-national-university-seungnireul-wihae",
+      "url": "https://www.youtube.com/watch?v=PbS7BRt6F3s",
+      "videoId": "PbS7BRt6F3s",
+      "title": "[국립군산대 X JTBC] 역대급 열기의 2026 월드컵 체코전 응원 현장 ⚽🔥",
+      "channel": "국립군산대학교",
+      "publishedAt": "2026-06 (exact upload day unresolved)",
+      "descriptionSummary": "학교와 지역민이 함께한 월드컵 응원 현장을 담은 공식 영상이다. 학교 고유곡 사용은 확인되지 않아 최근 집단응원 문화의 맥락 표본으로만 사용한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "recentCheeringCulture"]
+    },
+    {
+      "id": "yt-ksnu-naraolla-2024-entrance",
+      "songId": "kunsan-national-university-naraolla",
+      "url": "https://www.youtube.com/watch?v=rdGTY_4n_sQ",
+      "videoId": "rdGTY_4n_sQ",
+      "title": "국립군산대학교 2024학년도 입학식 이모저모",
+      "channel": "국립군산대학교",
+      "publishedAt": "2024 (exact upload day unresolved)",
+      "descriptionSummary": "학교 공식 입학식 하이라이트이며 영상 설명이 배경음악을 ‘국립군산대학교 응원가 날아 올라’라고 직접 명시한다. 현장 라이브가 아니라 공식 음원 사용 표본이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["directSongRecording", "officialBgmUse", "titleVariant"]
+    },
+    {
+      "id": "yt-ksnu-naraolla-official-song-context",
+      "songId": "kunsan-national-university-naraolla",
+      "url": "https://www.youtube.com/watch?v=hNuACZ2n_Eo",
+      "videoId": "hNuACZ2n_Eo",
+      "title": "국립군산대학교 응원단 _ 승리를 위해",
+      "channel": "국립군산대학교",
+      "publishedAt": "2024-07-14",
+      "descriptionSummary": "다른 현행곡 승리를 위해의 공식 곡·안무 영상이다. 날아올라 자체의 표본이 아니라 같은 학교 3곡 체계와 응원단 제작 형식을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학교 고유 응원가의 존재와 곡을 반기는 반응이 중심이며, 대상곡 날아올라를 특정한 댓글은 확인되지 않았다."],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "sameCatalogContext", "activeSquadContext"]
+    },
+    {
+      "id": "yt-ksnu-naraolla-3d-context",
+      "songId": "kunsan-national-university-naraolla",
+      "url": "https://www.youtube.com/watch?v=iskqQNJtX0U",
+      "videoId": "iskqQNJtX0U",
+      "title": "🧡💙국립군산대학교 3D캐릭터 응원가 안무 (승리를위해)🧡💙",
+      "channel": "국립군산대학교",
+      "publishedAt": "2024 (exact upload day unresolved)",
+      "descriptionSummary": "다른 현행곡 승리를 위해의 캐릭터 안무 영상이다. 날아올라의 안무·음원을 증명하지 않으며 학교 응원가 홍보 맥락만 보조한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "sameCatalogContext", "schoolBranding"]
+    },
+    {
+      "id": "yt-ksnu-naraolla-2026-entrance-context",
+      "songId": "kunsan-national-university-naraolla",
+      "url": "https://www.youtube.com/watch?v=J_HvJCltslQ",
+      "videoId": "J_HvJCltslQ",
+      "title": "국립군산대학교 2026학년도 입학식 및 오리엔테이션",
+      "channel": "국립군산대학교",
+      "publishedAt": "2026 (exact upload day unresolved)",
+      "descriptionSummary": "최근 대학 공식 입학식 전체 기록이다. 날아올라의 구간·곡명은 식별하지 못해 최근 행사 맥락으로만 사용한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "recentOfficialEventContext"]
+    },
+    {
+      "id": "yt-ksnu-naraolla-2026-worldcup-context",
+      "songId": "kunsan-national-university-naraolla",
+      "url": "https://www.youtube.com/watch?v=PbS7BRt6F3s",
+      "videoId": "PbS7BRt6F3s",
+      "title": "[국립군산대 X JTBC] 역대급 열기의 2026 월드컵 체코전 응원 현장 ⚽🔥",
+      "channel": "국립군산대학교",
+      "publishedAt": "2026-06 (exact upload day unresolved)",
+      "descriptionSummary": "2026 학교 공식 집단응원 현장이다. 날아올라 사용은 확인되지 않아 현재 캠퍼스 응원 문화의 맥락으로만 남긴다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "recentCheeringCulture"]
+    },
+    {
+      "id": "yt-ksnu-hamkke-official-song-context",
+      "songId": "kunsan-national-university-hamkkehal-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=hNuACZ2n_Eo",
+      "videoId": "hNuACZ2n_Eo",
+      "title": "국립군산대학교 응원단 _ 승리를 위해",
+      "channel": "국립군산대학교",
+      "publishedAt": "2024-07-14",
+      "descriptionSummary": "다른 현행곡 승리를 위해의 공식 곡·안무 영상이다. 함께할 그 이름의 음원·공연을 보여 주지 않으며 같은 응원단과 3곡 카탈로그의 맥락만 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학교 응원가를 반기는 반응이 있으나 함께할 그 이름을 특정한 댓글은 확인되지 않았다."],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "sameCatalogContext", "activeSquadContext"]
+    },
+    {
+      "id": "yt-ksnu-hamkke-3d-context",
+      "songId": "kunsan-national-university-hamkkehal-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=iskqQNJtX0U",
+      "videoId": "iskqQNJtX0U",
+      "title": "🧡💙국립군산대학교 3D캐릭터 응원가 안무 (승리를위해)🧡💙",
+      "channel": "국립군산대학교",
+      "publishedAt": "2024 (exact upload day unresolved)",
+      "descriptionSummary": "승리를 위해 안무를 보여 주는 다른 곡의 공식 영상이다. 함께할 그 이름의 직접 표본이 아니라 학교 응원가 홍보 형식을 확인하는 맥락 표본이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "sameCatalogContext", "schoolBranding"]
+    },
+    {
+      "id": "yt-ksnu-hamkke-2024-entrance-context",
+      "songId": "kunsan-national-university-hamkkehal-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=rdGTY_4n_sQ",
+      "videoId": "rdGTY_4n_sQ",
+      "title": "국립군산대학교 2024학년도 입학식 이모저모",
+      "channel": "국립군산대학교",
+      "publishedAt": "2024 (exact upload day unresolved)",
+      "descriptionSummary": "설명에서 다른 현행곡 날아 올라를 배경음악으로 밝힌 공식 입학식 영상이다. 함께할 그 이름의 직접 증거가 아니며 3곡 체계의 공식 행사 사용 맥락만 제공한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "sameCatalogContext", "officialEventContext"]
+    },
+    {
+      "id": "yt-ksnu-hamkke-2026-entrance-context",
+      "songId": "kunsan-national-university-hamkkehal-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=J_HvJCltslQ",
+      "videoId": "J_HvJCltslQ",
+      "title": "국립군산대학교 2026학년도 입학식 및 오리엔테이션",
+      "channel": "국립군산대학교",
+      "publishedAt": "2026 (exact upload day unresolved)",
+      "descriptionSummary": "최근 대학 공식 입학식 전체 기록이다. 함께할 그 이름의 곡명·구간은 식별하지 못해 최근 행사 맥락으로만 사용한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "recentOfficialEventContext"]
+    },
+    {
+      "id": "yt-ksnu-hamkke-2026-worldcup-context",
+      "songId": "kunsan-national-university-hamkkehal-geu-ireum",
+      "url": "https://www.youtube.com/watch?v=PbS7BRt6F3s",
+      "videoId": "PbS7BRt6F3s",
+      "title": "[국립군산대 X JTBC] 역대급 열기의 2026 월드컵 체코전 응원 현장 ⚽🔥",
+      "channel": "국립군산대학교",
+      "publishedAt": "2026-06 (exact upload day unresolved)",
+      "descriptionSummary": "2026 공식 집단응원 현장이다. 함께할 그 이름이 들리는지는 확인되지 않아 캠퍼스 응원 문화의 맥락 표본으로만 남긴다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "recentCheeringCulture"]
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 3,
+    "youtubeSampleCount": 15,
+    "songsMeetingYoutubeMinimum": 3,
+    "openIssueCount": 15
+  }
+}

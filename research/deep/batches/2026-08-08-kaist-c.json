@@ -1,0 +1,1353 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kaist-c",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-kaist",
+    "name": "KAIST",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고 공개 댓글은 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "kaist-c-lalala",
+      "title": "랄랄라",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-through-2026-taeul-seokrim-festival",
+      "summary": "원곡·제작자·정식 가사 문서가 아직 확인되지 않은 약 80초 길이의 짧은 KAIST 응원가다. ELKA 공식 채널의 2012 제1회 Libera Me 1부 영상이 현재 확보한 가장 이른 직접 사용 기록이고, 같은 행사 2부에도 다시 배치됐다. 이후 2013 응원제, 2015 새내기 응원대제전, 2019·2022·2025·2026 교내 축제 영상이 이어져 장기간 현행 레퍼토리였음을 확인할 수 있다. 다만 2012년을 초연 또는 제작연도로 단정할 1차 자료는 없다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2012년 제1회 KAIST 응원제 Libera Me 1부",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-lalala-2012-libera-1"],
+          "notes": "행사 영상은 2013-01-15에 게시됐다. 행사연도와 게시일을 분리했으며 이 기록만으로 2012년 초연이라고 단정하지 않는다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 2012년은 현재 확인된 가장 이른 사용연도",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-lalala-2012-libera-1", "ev-kaist-c-namu-cheers"],
+          "notes": "현행 나무위키 응원가 문서에는 이 곡의 항목 자체가 없고 ELKA 영상 설명도 신곡·제작연도를 적지 않는다."
+        },
+        {
+          "field": "originalSongAndCreators",
+          "value": "미확인",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kaist-c-lalala-2012-libera-1", "yt-kaist-c-lalala-2025-festival", "yt-kaist-c-lalala-2026-festival", "ev-kaist-c-namu-cheers"],
+          "notes": "2012~2026 공식 영상 제목·설명에는 원곡 태그나 작사·작곡·편곡자가 없고, 편집형 문서도 수록하지 않는다. 이를 ELKA 창작곡이라는 증거로 역추론하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 태울석림제에서 곡별 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-lalala-2026-festival", "ev-kaist-c-inventory", "ev-kaist-c-kaist-official"],
+          "notes": "2026 공식 곡별 영상과 2026-08-08 현행 인벤토리가 일치한다."
+        },
+        {
+          "field": "documentedContinuity",
+          "value": "2012·2013 응원제, 2015 새내기 행사, 2019·2022·2025·2026 교내 축제",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-lalala-2012-libera-1", "yt-kaist-c-lalala-2013-libera", "yt-kaist-c-lalala-2015-freshman", "yt-kaist-c-lalala-2019-festival", "yt-kaist-c-lalala-2022-busking", "yt-kaist-c-lalala-2025-festival", "yt-kaist-c-lalala-2026-festival"],
+          "notes": "선택 표본은 응원제·신입생 교육·축제라는 서로 다른 사용 맥락을 포괄한다."
+        }
+      ],
+      "usageContexts": [
+        "Libera Me에서 짧은 곡별 순서로 공연되고, 2012년 첫 응원제에서는 1부와 2부에 각각 배치됐다.",
+        "새내기 응원대제전에서 신입생이 익히는 레퍼토리로 사용됐다.",
+        "태울석림제·석림태울제의 본공연과 버스킹에서 약 80초짜리 집단 응원 순서로 사용된다."
+      ],
+      "trivia": [
+        {
+          "id": "lalala-2012-two-stagings",
+          "summary": "제1회 Libera Me에는 1부와 2부에 각각 ‘랄랄라’ 곡별 영상이 있다. 별도 제목·가사 버전이라기보다 한 행사에서 같은 레퍼토리를 두 차례 배치한 기록으로 보는 것이 안전하다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-lalala-2012-libera-1", "ev-kaist-c-lalala-2012-libera-2"]
+        },
+        {
+          "id": "lalala-duration-stability",
+          "summary": "선택한 2012~2026 공식 영상 7편의 길이는 76~83초에 모여 있다. 공개 영상 편집 길이 기준으로는 매우 안정적인 짧은 곡이지만, 이것만으로 내부 편곡이 한 번도 바뀌지 않았다고 단정할 수는 없다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-lalala-2012-libera-1", "yt-kaist-c-lalala-2015-freshman", "yt-kaist-c-lalala-2022-busking", "yt-kaist-c-lalala-2026-festival"]
+        },
+        {
+          "id": "lalala-wiki-omission",
+          "summary": "현행 인벤토리와 2026 공식 영상에는 포함되지만, 접근한 나무위키 응원가 문서의 목차·본문에는 항목이 없다. 문서 누락을 비현행 또는 신곡의 증거로 사용하지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-inventory", "ev-kaist-c-namu-cheers", "yt-kaist-c-lalala-2026-festival"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "origin and authorship are unidentified; the KAIST lyrics, arrangement, choreography, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=umIn5WOcPeA",
+          "https://www.youtube.com/watch?v=RhD9l7G89fE",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "공식 곡별 영상은 대체로 약 80초로 짧고 제목이 비어휘적 후렴을 가리키지만, 공인 가사·순서표가 없어 음절·절별 전문을 재구성하지 않았다. 영상 길이와 행사 배치만 보존한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-c-lalala-2012-libera-1",
+        "yt-kaist-c-lalala-2013-libera",
+        "yt-kaist-c-lalala-2015-freshman",
+        "yt-kaist-c-lalala-2019-festival",
+        "yt-kaist-c-lalala-2022-busking",
+        "yt-kaist-c-lalala-2025-festival",
+        "yt-kaist-c-lalala-2026-festival"
+      ],
+      "unresolved": [
+        "2012년 이전 사용 여부와 정확한 제작·초연 행사",
+        "원곡 또는 선율 출처, KAIST판 작사·작곡·편곡자",
+        "공인 가사본·응원법·안무표와 사용 허락 범위",
+        "연도별 편곡·동작 수정 여부"
+      ]
+    },
+    {
+      "id": "kaist-c-bloom-you",
+      "title": "꽃피우라 그대",
+      "aliases": ["꽃피우라그대"],
+      "currentStatus": "current-directly-verified-through-2026-taeul-seokrim-festival",
+      "summary": "더 크로스의 2003년 록 발라드 ‘당신을 위하여’를 바탕으로 전진·비상·개화·단결의 서사와 선창·후창을 붙인 응원가다. 첫 직접 기록은 2022 제9회 Libera Me ‘개화(開花)’ 영상이며, 행사명과 곡 제목의 주제가 맞고 ELKA가 Libera Me에서 신곡을 발표한다고 설명해 2022년 도입 가능성이 높다. 그러나 영상이나 당시 프로그램이 이 곡을 명시적으로 ‘신곡’이라고 적지는 않아 도입연도는 추정으로 유지한다. 2023 카포전 합동응원과 2026 태울석림제까지 직접 사용이 이어진다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2022년 제9회 응원제 Libera Me: 개화(開花)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-bloom-2022-libera"],
+          "notes": "현재 검색 가능한 ELKA 곡별 영상 중 가장 이른 직접 기록이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2022년 신곡으로 추정; 명시적 초연 표기 없음",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kaist-c-bloom-2022-libera", "ev-kaist-c-elka-events"],
+          "notes": "ELKA는 Libera Me에서 신곡을 발표한다고 설명하며 제9회 주제 ‘개화’와 곡의 개화 이미지가 맞는다. 다만 모든 Libera Me 곡이 그해 신곡인 것은 아니므로 확정하지 않는다."
+        },
+        {
+          "field": "originalSong",
+          "value": "더 크로스 ‘당신을 위하여’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-bloom-2022-libera", "yt-kaist-c-bloom-2023-joint", "yt-kaist-c-bloom-2026-festival", "yt-kaist-c-bloom-source-artist", "yt-kaist-c-bloom-source-topic", "ev-kaist-c-bugs-cross"],
+          "notes": "2022·2023·2024·2026 ELKA 공식 설명이 더 크로스와 원곡명을 직접 태그하고 원가수·배급 영상과 음원 카탈로그가 일치한다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "원곡 가창 김혁건, 작사·작곡 이시하",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-bloom-source-artist", "ev-kaist-c-bugs-cross-remake", "ev-kaist-c-maniadb-siha"],
+          "notes": "원가수 공식 채널 제목이 1집 가창을 김혁건으로 식별하고, 후대 정식 리메이크 음원 카탈로그와 음악 데이터베이스가 이시하의 작사·작곡을 일치해 적는다. 원곡 편곡 크레딧은 음악 데이터베이스만 제공하므로 핵심 값에서 제외했다."
+        },
+        {
+          "field": "sourceReleaseDate",
+          "value": "2003-08-01(Bugs) / 2003-08-02(YouTube Topic)",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-bugs-cross", "yt-kaist-c-bloom-source-topic"],
+          "notes": "두 카탈로그가 하루 차이를 보여 병합하지 않고 그대로 보존한다. 앨범과 작품의 2003년 귀속에는 충돌이 없다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 태울석림제에서 곡별 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-bloom-2026-festival", "ev-kaist-c-inventory"],
+          "notes": "2026 공식 설명도 원곡 태그를 다시 병기한다."
+        },
+        {
+          "field": "performanceFormat",
+          "value": "전진·비상·극복의 도입, 개화 이미지의 후렴, 네 차례 선창·후창, 변형 후렴과 제목 마무리",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-namu-cheers", "yt-kaist-c-bloom-2023-festival", "yt-kaist-c-bloom-2026-festival"],
+          "notes": "가사 전문 대신 편집형 문서의 블록 구조와 공식 공연의 집단 응답 형식만 요약했다."
+        }
+      ],
+      "usageContexts": [
+        "Libera Me에서 개화와 성장을 상징하는 장편 응원 순서로 공연된다.",
+        "태울석림제 본공연에서 원곡의 고조되는 록 발라드 선율에 관중 응답을 결합한다.",
+        "2023 카포전 개막식에서 CHEERO가 함께 표기된 합동응원 곡으로 사용됐다."
+      ],
+      "trivia": [
+        {
+          "id": "bloom-libera-theme-alignment",
+          "summary": "가장 이른 영상의 응원제 부제는 ‘개화(開花)’이고 곡 제목·가사 구조도 꽃봉오리와 피어남을 중심에 둔다. 제작 의도를 설명하는 직접 자료는 없으므로 강한 정황으로만 남긴다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kaist-c-bloom-2022-libera", "ev-kaist-c-elka-events", "ev-kaist-c-namu-cheers"]
+        },
+        {
+          "id": "bloom-2023-joint-cheer",
+          "summary": "2023 제20회 학생대제전 영상은 제목에 ‘합동응원’을, 설명에 POSTECH 응원단 CHEERO를 함께 적는다. 라이벌전 곡이지만 양교가 함께 수행한 개막식 순서였다는 점이 확인된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-bloom-2023-joint", "ev-kaist-c-times-kapo-2022"]
+        },
+        {
+          "id": "bloom-source-date-conflict",
+          "summary": "벅스는 원곡이 든 1집 발매일을 2003-08-01, 권리자 제공 YouTube Topic은 2003-08-02로 표시한다. 하루 차이는 유통 메타데이터 차이일 수 있으나 원인을 확인하지 못했다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-bugs-cross", "yt-kaist-c-bloom-source-topic"]
+        },
+        {
+          "id": "bloom-source-comment-reception",
+          "summary": "원가수 공식 채널의 공개 댓글은 학창 시절·노래방 기억, 높은 음역과 김혁건의 보컬, 위로와 응원을 반복해 언급한다. 이는 원곡 수용이며 KAIST 응원가의 현장 반응으로 계산하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-bloom-source-artist"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of The Cross's 당신을 위하여; the KAIST lyric adaptation, arrangement, choreography, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=q3X_xLjxdXA",
+          "https://www.youtube.com/watch?v=ZlZAQ8Qvs1g",
+          "https://music.bugs.co.kr/track/469777",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "전진·비상·극복을 다짐하는 도입 뒤 꽃봉오리와 현재 순간을 중심으로 한 후렴이 나온다. 이어 짧은 지시어를 관중이 그대로 되받는 네 묶음의 선창·후창, 두 가지 후렴 변형, 제목을 길게 맺는 종결로 구성된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-c-bloom-2022-libera",
+        "yt-kaist-c-bloom-2023-festival",
+        "yt-kaist-c-bloom-2023-joint",
+        "yt-kaist-c-bloom-2024-festival",
+        "yt-kaist-c-bloom-2025-festival",
+        "yt-kaist-c-bloom-2025-libera",
+        "yt-kaist-c-bloom-2026-festival",
+        "yt-kaist-c-bloom-source-artist",
+        "yt-kaist-c-bloom-source-topic"
+      ],
+      "unresolved": [
+        "2022 제9회 Libera Me가 실제 초연인지와 정확한 발표일",
+        "KAIST판 작사·편곡·안무·녹음 제작자와 제작 경위",
+        "원곡 카탈로그의 2003-08-01과 2003-08-02 발매일 차이 원인",
+        "KAIST 공인 가사본·응원법·버전 기록과 원곡 이용 허락 범위"
+      ]
+    },
+    {
+      "id": "kaist-c-remember",
+      "title": "Remember",
+      "aliases": ["remember", "리멤버"],
+      "currentStatus": "current-directly-verified-through-2026-taeul-seokrim-festival",
+      "summary": "Carlos Gardel이 작곡하고 Alfredo Le Pera가 가사를 쓴 1935년 탱고 ‘Por una cabeza’ 선율에 기억·푸른 함성·단결을 주제로 한 한국어 응원 문구를 얹은 곡이다. ELKA 공식 채널의 2011 입학수속 영상이 가장 이른 직접 기록이고 2012 첫 Libera Me, 2016·2019 응원제, 2023 워크숍, 2024 응원제, 2025 후기 새내기 행사, 2026 태울석림제까지 이어진다. 최근 공식 설명의 ‘여인의 향기’ 태그는 널리 알려진 영화 사용처를 가리키며, 원작 영화는 1935년 ‘Tango Bar’이므로 기원과 후대 영화 연상을 구분해야 한다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2011년 입학수속",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-remember-2011-admission"],
+          "notes": "영상 제목과 설명이 모두 2011 입학수속을 적고 게시일도 2011-07-22다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 2011년은 현재 확인된 가장 이른 사용연도",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-remember-2011-admission", "ev-kaist-c-namu-cheers"],
+          "notes": "편집형 문서는 가사 구조만 적고 제작·도입연도는 제시하지 않는다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Carlos Gardel·Alfredo Le Pera ‘Por una cabeza’(1935)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-remember-2025-freshman", "yt-kaist-c-remember-2026-festival", "ev-kaist-c-gardel-foundation", "ev-kaist-c-rabasf-catalog", "yt-kaist-c-remember-source-gardel"],
+          "notes": "2025·2026 ELKA 설명의 원곡 태그와 1935년 악보·녹음 카탈로그를 교차했다."
+        },
+        {
+          "field": "sourceCreditsAndRecording",
+          "value": "음악 Carlos Gardel, 가사 Alfredo Le Pera; 1935-03-19 뉴욕 Victor 녹음; 영화 Tango Bar 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-gardel-foundation", "ev-kaist-c-rabasf-catalog"],
+          "notes": "Gardel 재단 음반목록은 녹음일·매트릭스·레이블을, 왕립미술원 악보 서지는 영화·저작 역할을 확인한다."
+        },
+        {
+          "field": "movieAssociation",
+          "value": "ELKA는 ‘여인의 향기’를 연상 태그로 사용하지만 작품의 원작 영화는 Tango Bar",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-remember-2025-freshman", "yt-kaist-c-remember-2026-festival", "ev-kaist-c-rabasf-catalog", "yt-kaist-c-remember-source-gardel"],
+          "notes": "원곡 영상 댓글에도 여러 후대 영화가 언급된다. 영화 사용처와 창작 기원을 혼동하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 태울석림제에서 곡별 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-remember-2026-festival", "ev-kaist-c-inventory"],
+          "notes": "공식 설명이 곡명·별칭·원곡·영화 연상을 함께 태그한다."
+        },
+        {
+          "field": "performanceFormat",
+          "value": "무가사 구음 도입, 기억·간직·푸른 함성의 두 절, 네 단어 선창·후창, 전반 반복과 확장 종결",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-namu-cheers", "yt-kaist-c-remember-2012-libera", "yt-kaist-c-remember-2026-festival"],
+          "notes": "가사 전문은 저장하지 않고 편집형 문서가 제시한 반복 순서와 공연 형식만 요약했다."
+        }
+      ],
+      "usageContexts": [
+        "입학수속·새내기 응원대제전에서 기억과 단결의 문구를 익히는 교육 곡으로 사용된다.",
+        "Libera Me와 워크숍에서 단장 선창 뒤 관중이 같은 짧은 단어를 되받는 집단 응원 순서로 사용된다.",
+        "교내 축제에서 탱고 선율의 고조와 푸른 함성·열정의 주제를 결합한 곡별 공연으로 사용된다."
+      ],
+      "trivia": [
+        {
+          "id": "remember-scent-is-association-not-origin",
+          "summary": "2025·2026 ELKA 설명은 ‘여인의 향기’를 태그하지만 1935년 악보 서지는 ‘Por una cabeza’를 영화 ‘Tango Bar’의 탱고로 기록한다. ‘여인의 향기’는 후대 대중적 연상 경로이지 작곡 배경이 아니다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-remember-2025-freshman", "yt-kaist-c-remember-2026-festival", "ev-kaist-c-rabasf-catalog"]
+        },
+        {
+          "id": "remember-combined-upload-not-variant",
+          "summary": "2016 영상은 제목에 ‘Remember + 승리의 노래’를 적고 254초 동안 두 곡을 연속 수록한다. 이를 ‘Remember’의 장편 버전이나 부제로 보지 않고 합본 업로드로 분류했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-remember-2016-combined", "ev-kaist-c-namu-cheers"]
+        },
+        {
+          "id": "remember-numbered-staging",
+          "summary": "2019 제8회 Libera Me에는 Remember (1)·(2)가 각각 게시됐다. 현행 인벤토리와 가사 골격은 한 곡이므로 번호는 별도 작품보다 공연 순서 구분으로 보았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-remember-2019-libera-1", "ev-kaist-c-remember-2019-libera-2", "ev-kaist-c-inventory"]
+        },
+        {
+          "id": "remember-topic-credit-conflict",
+          "summary": "선택한 RCA 제공 Topic 설명은 Alfredo Le Pera를 ‘Composer, Lyricist’로만 표시하지만, 1935년 악보·녹음 카탈로그는 가사 Le Pera, 음악 Gardel로 역할을 나눈다. 현대 자동 메타데이터의 불완전한 크레딧보다 두 역사자료를 우선했다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-remember-source-gardel", "ev-kaist-c-gardel-foundation", "ev-kaist-c-rabasf-catalog"]
+        },
+        {
+          "id": "remember-source-comment-reception",
+          "summary": "원곡 영상의 공개 댓글은 탱고의 우아함, 세대와 국경을 넘은 청취, ‘여인의 향기’·‘트루 라이즈’ 등 후대 영화 유입 경로를 반복해 언급한다. KAIST판 반응과는 별개다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-remember-source-gardel"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "adaptation of the 1935 tango Por una cabeza; underlying-work public-domain status is jurisdiction-dependent, while the KAIST Korean lyrics, arrangement, choreography, performances and recordings have separate undocumented rights",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=WuHTx6-kyQM",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://fundacioncarlosgardel.org/discografia/discografia-1935",
+          "https://www.academiacolecciones.com/musica/inventario.php?id=M-6640"
+        ],
+        "structureSummary": "짧은 구음으로 시작해 기억과 푸른 함성, 간직함과 열정을 짝지은 두 절이 이어진다. 가운데에서는 네 개의 핵심어를 선창자가 던지고 관중이 되받으며, 전반부를 다시 부른 뒤 마지막 절을 한 번 더 확장해 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-c-remember-2011-admission",
+        "yt-kaist-c-remember-2012-libera",
+        "yt-kaist-c-remember-2016-combined",
+        "yt-kaist-c-remember-2019-libera-1",
+        "yt-kaist-c-remember-2023-workshop",
+        "yt-kaist-c-remember-2024-libera",
+        "yt-kaist-c-remember-2025-freshman",
+        "yt-kaist-c-remember-2026-festival",
+        "yt-kaist-c-remember-source-gardel"
+      ],
+      "unresolved": [
+        "2011년 이전 사용 여부와 정확한 도입·초연 행사",
+        "KAIST판 작사·편곡·안무·녹음 제작자와 제작 경위",
+        "KAIST 편곡이 기준으로 삼은 구체적 녹음·영화 편곡판",
+        "공인 가사본·응원법·연도별 버전 기록",
+        "기초 작품·한국어 개사·녹음·영상 각각의 관할별 이용 허락 범위"
+      ]
+    },
+    {
+      "id": "kaist-c-victory-anthem",
+      "title": "승전가",
+      "aliases": [],
+      "currentStatus": "current-inventory-listed-and-directly-verified-through-2025-kapo-and-libera-me",
+      "summary": "원곡·제작자·공인 가사가 아직 확인되지 않은 KAIST 승리 응원가다. ELKA 공식 채널의 2013 제2회 Libera Me 영상이 가장 이른 직접 기록이다. 정확히 일치하는 곡별 영상은 그 뒤 2024 Libera Me와 제21회 카포전 합동응원, 2025 Libera Me와 제22회 카포전 합동응원에서 다시 확인된다. 2014~2023 제목 일치 영상 공백은 휴지·폐곡의 증거가 아니며, 현행 인벤토리는 별도 곡 ‘승리의 노래’와 구분해 ‘승전가’를 현재 곡으로 수록한다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2013년 제2회 KAIST 응원제 Libera Me 1부",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-victory-2013-libera"],
+          "notes": "영상 제목과 게시일이 모두 2013년이다. 이 기록만으로 2013년 초연이라고 단정하지 않는다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "미확인; 2013년은 현재 확인된 가장 이른 사용연도",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-victory-2013-libera", "ev-kaist-c-namu-cheers"],
+          "notes": "나무위키 현행 문서에는 승전가 항목이 없고 2013 영상도 신곡 여부를 적지 않는다."
+        },
+        {
+          "field": "originalSongAndCreators",
+          "value": "미확인",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kaist-c-victory-2013-libera", "yt-kaist-c-victory-2024-libera", "yt-kaist-c-victory-2025-libera", "ev-kaist-c-namu-cheers"],
+          "notes": "확인한 공식 설명에는 원곡 태그·제작 크레딧이 없고 편집형 문서에도 항목이 없다. 자체 창작인지 차용인지 단정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 Libera Me와 제22회 카포전 개막식에서 공연; 2026-08-08 현행 인벤토리 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-victory-2025-libera", "yt-kaist-c-victory-2025-joint", "ev-kaist-c-inventory"],
+          "notes": "2026 곡별 영상은 확보하지 못해 직접 확인 종점과 인벤토리 확인일을 분리했다."
+        },
+        {
+          "field": "jointCheerUse",
+          "value": "2024·2025 KAIST-POSTECH 학생대제전 개막식 합동응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-victory-2024-joint", "yt-kaist-c-victory-2025-joint", "ev-kaist-c-times-kapo-2024"],
+          "notes": "두 공식 영상 제목이 모두 합동응원을 명시한다."
+        },
+        {
+          "field": "documentedPublicationGap",
+          "value": "선택한 정확 제목 곡별 기록은 2013 다음 2024로 이어짐",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-victory-2013-libera", "yt-kaist-c-victory-2024-libera", "ev-kaist-c-youtube-search-scope"],
+          "notes": "검색 가능한 공식 채널 제목 기준의 공백이다. 메들리 포함·비공개·삭제 영상 또는 현장 사용을 배제하지 않으므로 비사용 기간으로 해석하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "Libera Me에서 승리 분위기를 만드는 곡별 응원 순서로 공연된다.",
+        "카포전 개막식에서 양교 응원단이 함께하는 합동응원 레퍼토리로 사용된다.",
+        "현행 인벤토리에서는 베토벤 선율 기반의 별도 곡 ‘승리의 노래’와 독립된 제목으로 관리된다."
+      ],
+      "trivia": [
+        {
+          "id": "victory-five-exact-direct-videos",
+          "summary": "접근일 현재 제목이 정확히 ‘승전가’인 ELKA 곡별 영상은 2013 한 편, 2024 두 편, 2025 두 편으로 다섯 편을 확인했다. 모두 댓글 창은 열려 있었으나 공개 댓글은 0개였다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-victory-2013-libera", "yt-kaist-c-victory-2024-libera", "yt-kaist-c-victory-2024-joint", "yt-kaist-c-victory-2025-libera", "yt-kaist-c-victory-2025-joint"]
+        },
+        {
+          "id": "victory-not-victory-song",
+          "summary": "‘승전가’와 ‘승리의 노래’는 공식 채널에서 서로 다른 제목의 영상으로 게시되고 현행 인벤토리도 두 곡을 별도로 센다. 2016 ‘Remember + 승리의 노래’ 합본도 승전가 표본으로 분류하지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-inventory", "yt-kaist-c-victory-2013-libera", "yt-kaist-c-remember-2016-combined", "ev-kaist-c-namu-cheers"]
+        },
+        {
+          "id": "victory-gap-not-inactivity",
+          "summary": "정확 제목 영상은 2013에서 2024로 크게 건너뛰지만 ELKA 채널의 촬영·업로드 선별, 메들리 포함, 비공개 사용 가능성이 있다. 따라서 ‘11년 만의 부활’ 같은 서사는 자료가 생기기 전까지 보류한다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-victory-2013-libera", "yt-kaist-c-victory-2024-libera", "ev-kaist-c-youtube-search-scope"]
+        },
+        {
+          "id": "victory-video-length-difference",
+          "summary": "2013 영상은 97초, 2024 표본은 124~130초, 2025 표본은 108초다. 촬영 전후 멘트·현장 호흡·편집 차이일 수 있어 길이만으로 편곡 개정을 판정하지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-victory-2013-libera", "yt-kaist-c-victory-2024-joint", "yt-kaist-c-victory-2025-joint"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "origin and authorship are unidentified; the KAIST lyrics, composition or adaptation, arrangement, choreography, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=IVZioqGjVYQ",
+          "https://www.youtube.com/watch?v=IvmZUEDEjTY",
+          "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "공식 곡별 영상은 약 97~130초의 승리 지향 집단 공연임을 확인할 수 있으나, 공인 가사·순서표와 원곡 표기가 없어 절별 문구나 반복 순서를 추정해 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-c-victory-2013-libera",
+        "yt-kaist-c-victory-2024-libera",
+        "yt-kaist-c-victory-2024-joint",
+        "yt-kaist-c-victory-2025-libera",
+        "yt-kaist-c-victory-2025-joint"
+      ],
+      "unresolved": [
+        "정확한 제작·초연 연도와 2014~2023 현장 사용·메들리 포함 여부",
+        "원곡 또는 선율 출처, KAIST판 작사·작곡·편곡자",
+        "공인 가사본·응원법·안무표와 사용 허락 범위",
+        "2013·2024·2025 영상 길이 차이가 편곡 개정인지 편집 차이인지",
+        "현행 나무위키 문서에서 항목이 누락된 경위와 과거 판본 수록 여부"
+      ]
+    },
+    {
+      "id": "kaist-c-youth",
+      "title": "청춘",
+      "aliases": [],
+      "currentStatus": "current-inventory-listed-and-directly-verified-through-2025-libera-me",
+      "summary": "박효신의 2016년 곡 ‘Home’을 원곡으로 삼은 응원가다. ELKA 공식 채널에서 정확히 ‘청춘’으로 확인되는 직접 영상은 2023 제10회 Libera Me, 2024 제11회, 2025 제12회 세 편이며 첫 영상 설명이 박효신과 ‘Home’을 직접 태그한다. Libera Me가 신곡 발표 행사라는 설명과 2023 이전 정확 제목 영상 부재 때문에 2023년 도입 가능성이 높지만, 명시적 신곡 표기가 없어 추정으로 유지한다. 2015 ‘청춘예찬’과 2018 ‘청춘가’는 제목이 비슷한 별개의 과거 곡이다.",
+      "claims": [
+        {
+          "field": "earliestDirectlyConfirmedUse",
+          "value": "2023년 제10회 응원제 Libera Me: Lux",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-youth-2023-libera"],
+          "notes": "현재 검색 가능한 ELKA 곡별 영상에서 정확한 제목 ‘청춘’의 가장 이른 직접 기록이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2023년 신곡으로 추정; 명시적 초연 표기 없음",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kaist-c-youth-2023-libera", "ev-kaist-c-elka-events", "ev-kaist-c-youtube-search-scope"],
+          "notes": "Libera Me의 신곡 발표 관행과 2023 이전 정확 제목 영상 부재를 결합한 추정이다."
+        },
+        {
+          "field": "originalSong",
+          "value": "박효신 ‘Home’(2016)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-youth-2023-libera", "yt-kaist-c-youth-source-mv", "yt-kaist-c-youth-source-topic", "ev-kaist-c-bugs-home"],
+          "notes": "2023 ELKA 설명이 박효신·Home을 직접 태그하고 공식 뮤직비디오·권리자 음원·카탈로그가 일치한다."
+        },
+        {
+          "field": "sourceCredits",
+          "value": "보컬 박효신; 작곡 박효신·정재일; 작사 박효신·김이나; 편곡 정재일",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-bugs-home", "yt-kaist-c-youth-source-topic"],
+          "notes": "벅스 곡 참여 정보와 권리자 제공 음원을 교차했다."
+        },
+        {
+          "field": "sourceRelease",
+          "value": "2016-10-03 정규 7집 I am A Dreamer의 1번 타이틀곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-bugs-home-album", "yt-kaist-c-youth-source-topic"],
+          "notes": "Topic의 YouTube 게시일은 2023년이지만 설명 속 원 음원 발매일은 2016-10-03이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 제12회 Libera Me에서 공연; 2026-08-08 현행 인벤토리 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-youth-2025-libera", "ev-kaist-c-inventory"],
+          "notes": "2026 곡별 영상은 확보하지 못해 직접 확인 종점과 인벤토리 확인일을 분리했다."
+        },
+        {
+          "field": "sourceSongThemeAndForm",
+          "value": "불확실한 삶을 향한 위로·응원, 반복 피아노와 후반부 고조·대합창",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-bugs-home-album", "yt-kaist-c-youth-source-mv"],
+          "notes": "앨범 공식 소개의 원곡 설명이다. 이 성격이 KAIST 채택 이유였다는 직접 진술은 없다."
+        }
+      ],
+      "usageContexts": [
+        "Libera Me에서 약 3분으로 압축한 감정 고조형 응원 순서로 공연된다.",
+        "박효신 ‘Home’의 위로·응원과 후반 떼창 성격을 대학의 청춘·연대 이미지로 전환하는 레퍼토리로 사용된다.",
+        "현행 목록에서는 이름이 비슷한 과거 영상 ‘청춘가’·‘청춘예찬’과 독립된 곡으로 관리된다."
+      ],
+      "trivia": [
+        {
+          "id": "youth-title-disambiguation",
+          "summary": "ELKA 채널에는 2015 ‘청춘예찬’, 2018 ‘청춘가’, 2023 이후 ‘청춘’ 영상이 각각 존재한다. 현행 인벤토리는 마지막 제목만 수록하므로 세 제목을 한 곡의 변천사로 합치지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kaist-c-youth-praise-2015", "ev-kaist-c-youth-song-2018", "yt-kaist-c-youth-2023-libera", "ev-kaist-c-inventory"]
+        },
+        {
+          "id": "youth-only-three-kaist-videos",
+          "summary": "정확 제목의 KAIST 직접 영상은 2023·2024·2025 세 편만 확인됐다. 5개 YouTube 표본 요건을 채우는 나머지 두 편은 박효신의 공식 MV와 권리자 제공 음원이며 KAIST 사용 증거로 계산하지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-youth-2023-libera", "yt-kaist-c-youth-2024-libera", "yt-kaist-c-youth-2025-libera", "yt-kaist-c-youth-source-mv", "yt-kaist-c-youth-source-topic"]
+        },
+        {
+          "id": "youth-source-length-and-cheer-fit",
+          "summary": "원곡 음원은 약 6분 9초, 공식 MV는 7분 45초지만 KAIST 공연은 164~181초다. 원곡 앨범 소개가 후반부 대합창과 위로·응원을 강조하는 점은 응원곡화와 잘 맞지만, 구체적인 발췌·개사 기준은 공개되지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-youth-2023-libera", "yt-kaist-c-youth-2025-libera", "yt-kaist-c-youth-source-mv", "yt-kaist-c-youth-source-topic", "ev-kaist-c-bugs-home-album"]
+        },
+        {
+          "id": "youth-comment-reception-separated",
+          "summary": "KAIST 2023 영상 댓글은 단장의 유연한 동작과 감정적 호응을 짧게 언급한다. 원곡 영상 댓글은 귀가·새출발·결혼식·위로와 뮤직비디오 해석을 반복한다. 서로 다른 수용 층이므로 현장 반응과 원곡 반응을 분리했다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kaist-c-youth-2023-libera", "yt-kaist-c-youth-source-mv", "yt-kaist-c-youth-source-topic"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of Park Hyo Shin's Home; the KAIST lyric adaptation or excerpt selection, arrangement, choreography, recording and redistribution permissions are undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=XpswrtSoFIc",
+          "https://www.youtube.com/watch?v=rtYikSrxdvs",
+          "https://music.bugs.co.kr/track/4793925",
+          "https://music.bugs.co.kr/album/20058051"
+        ],
+        "structureSummary": "KAIST 영상은 6분대 원곡을 약 164~181초 공연으로 줄인다. 원곡의 반복 피아노, 위로와 동행의 절, 고조되는 후렴과 후반 대합창 성격을 활용하지만 공인 KAIST 가사·발췌표가 없어 원문과 개사 문구의 경계를 재구성하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kaist-c-youth-2023-libera",
+        "yt-kaist-c-youth-2024-libera",
+        "yt-kaist-c-youth-2025-libera",
+        "yt-kaist-c-youth-source-mv",
+        "yt-kaist-c-youth-source-topic"
+      ],
+      "unresolved": [
+        "2023 제10회 Libera Me가 실제 초연인지와 정확한 발표일",
+        "KAIST판 작사·편곡·안무·녹음 제작자와 제작 경위",
+        "원곡 가사 유지·개사·발췌 구간과 공식 편곡 차이",
+        "공인 가사본·응원법·버전 기록과 원곡 이용 허락 범위",
+        "2026년 행사에서의 직접 사용 영상 또는 공식 세트리스트"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kaist-c-inventory",
+      "type": "internal-inventory",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/universities.md#kaist--elka",
+      "title": "대학 응원단·현행 응원가 인벤토리 — KAIST",
+      "publisher": "project research",
+      "publishedAt": "2026-08-08",
+      "accessedAt": "2026-08-09",
+      "summary": "ELKA 공식 사이트와 공식 채널의 최근 자료를 바탕으로 KAIST 현행 16곡에 랄랄라·꽃피우라 그대·Remember·승전가·청춘을 각각 독립 제목으로 수록한 내부 발견 목록이다.",
+      "supports": ["kaist-c-lalala", "kaist-c-bloom-you", "kaist-c-remember", "kaist-c-victory-anthem", "kaist-c-youth"]
+    },
+    {
+      "id": "ev-kaist-c-kaist-official",
+      "type": "official",
+      "url": "https://www.kaist.ac.kr/kr/html/campus/053401.html",
+      "title": "학생자치기구 — 카이스트 응원단 ELKA",
+      "publisher": "KAIST",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "ELKA를 2005년 창단된 KAIST 공식 응원단으로 소개하고, 입학식·새터/OT·교내 축제·POSTECH과의 카포전에서 공연과 응원리드를 한다고 설명한다.",
+      "supports": ["kaist-c-lalala", "kaist-c-bloom-you", "kaist-c-remember", "kaist-c-victory-anthem", "kaist-c-youth"]
+    },
+    {
+      "id": "ev-kaist-c-elka-events",
+      "type": "official",
+      "url": "https://elka.kaist.ac.kr/%EC%9D%91%EC%9B%90%EB%8B%A8-%ED%99%9C%EB%8F%99-events",
+      "title": "응원단 활동 EVENTS",
+      "publisher": "KAIST 응원단 ELKA",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "새내기 응원대제전을 이후 응원제와 카포전을 위한 응원가 교육 자리로 설명하고, Libera Me에서는 신곡 발표·액션치어·기수부 공연과 대규모 어깨동무·점프가 이뤄진다고 밝힌다.",
+      "supports": ["kaist-c-lalala", "kaist-c-bloom-you", "kaist-c-remember", "kaist-c-victory-anthem", "kaist-c-youth"]
+    },
+    {
+      "id": "ev-kaist-c-times-freshman-2023",
+      "type": "campus-press",
+      "url": "https://times.kaist.ac.kr/news/articleView.html?idxno=21187",
+      "title": "4년 만에 대면으로 돌아온 새내기새로배움터, 새출발의 설렘과 함께하다",
+      "publisher": "카이스트신문",
+      "publishedAt": "2023-03-07",
+      "accessedAt": "2026-08-09",
+      "summary": "2023 새터에서 ELKA가 학교 응원가와 응원법을 소개했고 참가 학생들이 소리 지르고 어깨동무하며 함께한 경험을 보도한다.",
+      "supports": ["kaist-c-lalala", "kaist-c-remember"]
+    },
+    {
+      "id": "ev-kaist-c-times-kapo-2022",
+      "type": "campus-press",
+      "url": "https://times.kaist.ac.kr/news/articleView.html?idxno=21002",
+      "title": "2022 카포전, 압도적인 승리",
+      "publisher": "카이스트신문",
+      "publishedAt": "2022-10-04",
+      "accessedAt": "2026-08-09",
+      "summary": "카포전 전야 응원제를 학생 화합의 자리로, 개막식의 ELKA·CHEERO 응원을 경쟁 열기를 높이는 순서로 보도하며 경쟁 뒤 교류와 우정이라는 행사 취지를 함께 전한다.",
+      "supports": ["kaist-c-bloom-you", "kaist-c-victory-anthem"]
+    },
+    {
+      "id": "ev-kaist-c-times-kapo-2024",
+      "type": "campus-press",
+      "url": "https://times.kaist.ac.kr/news/articleView.html?idxno=21915",
+      "title": "호우 속에서도 빛나는 3년 연속 카이스트-포스텍 학생대제전 승리",
+      "publisher": "카이스트신문",
+      "publishedAt": "2024-09-24",
+      "accessedAt": "2026-08-09",
+      "summary": "2024 제21회 카포전 개막식에서 ELKA와 CHEERO가 응원 무대를 열어 경쟁심과 양교 화합을 함께 만들었다고 보도한다.",
+      "supports": ["kaist-c-bloom-you", "kaist-c-victory-anthem"]
+    },
+    {
+      "id": "ev-kaist-c-namu-cheers",
+      "type": "editorial-wiki",
+      "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9B%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "한국과학기술원/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Remember와 꽃피우라 그대의 한국어 가사 블록·반복 구조를 제공하지만 제작·도입연도는 적지 않는다. 접근한 현행 판본에는 랄랄라·승전가·청춘 항목이 없어 공식 최신 영상 및 현행 인벤토리와 문서 범위가 어긋난다.",
+      "supports": ["kaist-c-lalala", "kaist-c-bloom-you", "kaist-c-remember", "kaist-c-victory-anthem", "kaist-c-youth"]
+    },
+    {
+      "id": "ev-kaist-c-bugs-cross",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/469777",
+      "title": "당신을 위하여 / 더 크로스(The Cross)",
+      "publisher": "Bugs",
+      "publishedAt": "2003-08-01",
+      "accessedAt": "2026-08-09",
+      "summary": "더 크로스의 4분 3초 곡을 정규 1집 Melody Quus 수록작으로 식별하고 발매일을 2003-08-01로 표시한다. 원곡 페이지에는 참여 크레딧이 노출되지 않아 별도 정식 리메이크 카탈로그로 저작자를 교차했다.",
+      "supports": ["kaist-c-bloom-you"]
+    },
+    {
+      "id": "ev-kaist-c-bugs-cross-remake",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/33561027",
+      "title": "당신을 위하여 (용용 죽겠지) / 안태규 (Dragon Pony)",
+      "publisher": "Bugs",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "MBC 복면가왕의 정식 리메이크 음원으로 작사·작곡자를 모두 이시하로 표기한다. 리메이크 편곡자 권태은은 2003년 원곡 편곡 크레딧과 구분했다.",
+      "supports": ["kaist-c-bloom-you"]
+    },
+    {
+      "id": "ev-kaist-c-maniadb-siha",
+      "type": "music-database",
+      "url": "https://www.maniadb.com/artist/106167?o=s",
+      "title": "이시하 — Songs",
+      "publisher": "ManiaDB",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "‘당신을 위하여’의 작사·작곡·편곡을 이시하로 정리한다. 원곡 편곡은 이 단일 데이터베이스에만 의존하므로 핵심 확정 크레딧에서는 작사·작곡만 사용했다.",
+      "supports": ["kaist-c-bloom-you"]
+    },
+    {
+      "id": "ev-kaist-c-gardel-foundation",
+      "type": "creator-foundation-discography",
+      "url": "https://fundacioncarlosgardel.org/discografia/discografia-1935",
+      "title": "Discografía 1935",
+      "publisher": "Fundación Internacional Carlos Gardel",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "‘Por una cabeza’를 1935년 탱고로 수록하고 저자 Alfredo Le Pera, 작곡 Carlos Gardel, 매트릭스 BVE 89227-1·2, 1935-03-19 뉴욕 Victor 전기녹음으로 기록한다.",
+      "supports": ["kaist-c-remember"]
+    },
+    {
+      "id": "ev-kaist-c-rabasf-catalog",
+      "type": "academy-library-catalog",
+      "url": "https://www.academiacolecciones.com/musica/inventario.php?id=M-6640",
+      "title": "Por una cabeza: tango de la película Tango Bar",
+      "publisher": "Real Academia de Bellas Artes de San Fernando",
+      "publishedAt": "1935",
+      "accessedAt": "2026-08-09",
+      "summary": "1935년 바르셀로나 출판 악보를 서지화하며 영화 Tango Bar의 탱고, 가사 Alfredo Le Pera, 음악 Carlos Gardel로 명시한다.",
+      "supports": ["kaist-c-remember"]
+    },
+    {
+      "id": "ev-kaist-c-bugs-home",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/4793925",
+      "title": "Home / 박효신",
+      "publisher": "Bugs",
+      "publishedAt": "2016-10-03",
+      "accessedAt": "2026-08-09",
+      "summary": "박효신의 6분 8초 곡으로 식별하고 보컬 박효신, 작곡 박효신·정재일, 작사 박효신·김이나, 편곡 정재일을 명시한다.",
+      "supports": ["kaist-c-youth"]
+    },
+    {
+      "id": "ev-kaist-c-bugs-home-album",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/20058051",
+      "title": "I am A Dreamer / 박효신",
+      "publisher": "Bugs",
+      "publishedAt": "2016-10-03",
+      "accessedAt": "2026-08-09",
+      "summary": "박효신 정규 7집의 1번 타이틀곡으로 Home을 싣는다. 앨범 소개는 반복 피아노 위에 후반으로 갈수록 웅장해지는 사운드, 불확실한 삶을 향한 위로·응원, 중독성 있는 후렴과 폭발적인 대합창을 곡의 특징으로 설명한다.",
+      "supports": ["kaist-c-youth"]
+    },
+    {
+      "id": "ev-kaist-c-youth-praise-2015",
+      "type": "official-youtube-disambiguation",
+      "url": "https://www.youtube.com/watch?v=0_vHtcmVqic",
+      "title": "[카이스트 응원단 ELKA] 2015 제4회 응원제 리베라메 - 청춘예찬",
+      "publisher": "ELKA카이스트 응원단",
+      "publishedAt": "2015-11-24",
+      "accessedAt": "2026-08-09",
+      "summary": "2015 공식 영상이 ‘청춘예찬’이라는 별도 제목을 사용한다. 현재 곡 ‘청춘’의 과거 표본으로 합치지 않는 제목 식별 근거다.",
+      "supports": ["kaist-c-youth"]
+    },
+    {
+      "id": "ev-kaist-c-youth-song-2018",
+      "type": "official-youtube-disambiguation",
+      "url": "https://www.youtube.com/watch?v=eJxlufVLy4M",
+      "title": "[카이스트 응원단 ELKA] 2018 제7회 응원제 Libera Me - 청춘가",
+      "publisher": "ELKA카이스트 응원단",
+      "publishedAt": "2018-11-21",
+      "accessedAt": "2026-08-09",
+      "summary": "2018 공식 영상이 ‘청춘가’라는 별도 제목을 사용한다. 현재 곡 ‘청춘’ 및 2015 ‘청춘예찬’과 이름만 비슷한 작품으로 분리했다.",
+      "supports": ["kaist-c-youth"]
+    },
+    {
+      "id": "ev-kaist-c-lalala-2012-libera-2",
+      "type": "official-youtube-context",
+      "url": "https://www.youtube.com/watch?v=cRZ2vHk_yZ8",
+      "title": "[카이스트 응원단 ELKA] 2012 제1회 KAIST 응원제 리베라메 - 2부 랄랄라",
+      "publisher": "ELKA카이스트 응원단",
+      "publishedAt": "2013-01-15",
+      "accessedAt": "2026-08-09",
+      "summary": "제1회 Libera Me 2부에도 같은 제목의 77초 공연이 게시돼 한 행사 안의 반복 배치를 확인한다.",
+      "supports": ["kaist-c-lalala"]
+    },
+    {
+      "id": "ev-kaist-c-remember-2019-libera-2",
+      "type": "official-youtube-context",
+      "url": "https://www.youtube.com/watch?v=aMGYlokFguM",
+      "title": "[카이스트 응원단 ELKA] 2019 제8회 응원제 Libera Me: 無限 - Remember(2)",
+      "publisher": "ELKA카이스트 응원단",
+      "publishedAt": "2019-10-09",
+      "accessedAt": "2026-08-09",
+      "summary": "같은 행사의 Remember (1)과 함께 게시된 두 번째 공연 순서로, 번호가 작품 버전보다 행사 배치 표기임을 뒷받침한다.",
+      "supports": ["kaist-c-remember"]
+    },
+    {
+      "id": "ev-kaist-c-youtube-search-scope",
+      "type": "search-audit",
+      "url": "https://www.youtube.com/@ELKAvideo11/search",
+      "title": "ELKA 공식 YouTube 채널 제목 검색 감사",
+      "publisher": "project research",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "공식 채널과 YouTube 검색에서 곡명·띄어쓰기·영문 별칭·행사명을 조합해 확인했다. 정확 제목 기준으로 승전가는 2013·2024·2025 다섯 편, 청춘은 2023·2024·2025 세 편이며, 검색 누락·비공개·삭제·메들리 내부 사용 가능성은 남긴다.",
+      "supports": ["kaist-c-lalala", "kaist-c-victory-anthem", "kaist-c-youth"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kaist-c-lalala-2012-libera-1",
+      "songId": "kaist-c-lalala",
+      "url": "https://www.youtube.com/watch?v=umIn5WOcPeA",
+      "videoId": "umIn5WOcPeA",
+      "title": "[카이스트 응원단 ELKA] 2012 제1회 KAIST 응원제 리베라메 - 1부 랄랄라",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2013-01-15",
+      "descriptionSummary": "별도 설명은 없고 제목이 2012년 제1회 Libera Me 1부의 80초 곡별 공연임을 밝힌다. 현재 확인된 가장 이른 직접 사용 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "liberaMeUse", "shortFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-lalala-2013-libera",
+      "songId": "kaist-c-lalala",
+      "url": "https://www.youtube.com/watch?v=VE0-DZvm-Oc",
+      "videoId": "VE0-DZvm-Oc",
+      "title": "[카이스트 응원단 ELKA] 2013 제2회 KAIST 응원제 리베라메 - 2부 랄랄라",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2013-11-16",
+      "descriptionSummary": "별도 설명은 없고 제목이 2013년 제2회 Libera Me 2부의 77초 곡별 공연임을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earlyContinuity", "liberaMeUse", "durationStability"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-lalala-2015-freshman",
+      "songId": "kaist-c-lalala",
+      "url": "https://www.youtube.com/watch?v=ih66vFZQXQg",
+      "videoId": "ih66vFZQXQg",
+      "title": "[카이스트 응원단 ELKA] 2015 새내기 응원대제전 - 랄랄라",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2015-02-28",
+      "descriptionSummary": "별도 설명은 없고 제목이 2015 새내기 응원대제전에서 사용된 76초 공연임을 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["freshmanEducation", "documentedContinuity", "durationStability"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-lalala-2019-festival",
+      "songId": "kaist-c-lalala",
+      "url": "https://www.youtube.com/watch?v=l79JekKFLmQ",
+      "videoId": "l79JekKFLmQ",
+      "title": "[카이스트 응원단 ELKA] 2019 KAIST 태울석림제 - 랄랄라",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-07-29",
+      "descriptionSummary": "별도 설명은 없고 제목이 2019 태울석림제의 80초 곡별 공연임을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["festivalUse", "documentedContinuity", "durationStability"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-lalala-2022-busking",
+      "songId": "kaist-c-lalala",
+      "url": "https://www.youtube.com/watch?v=WveETBH6H8s",
+      "videoId": "WveETBH6H8s",
+      "title": "[카이스트 응원단 ELKA] 2022 태울석림제 버스킹 1일차 - 응원가 '랄랄라'",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2022-08-28",
+      "descriptionSummary": "일반 KAIST·응원단 태그만 있고 제목이 태울석림제 버스킹 1일차의 83초 공연임을 밝힌다. 같은 행사 2일차 영상도 별도로 존재한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["festivalBuskingUse", "documentedContinuity", "durationStability"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-lalala-2025-festival",
+      "songId": "kaist-c-lalala",
+      "url": "https://www.youtube.com/watch?v=b6lJC-tjV6c",
+      "videoId": "b6lJC-tjV6c",
+      "title": "[카이스트 응원단 ELKA] 응원가 '랄랄라' - 2025 석림태울제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-06-26",
+      "descriptionSummary": "설명은 KAIST·ELKA·응원가·랄랄라 태그만 제공하며 2025 석림태울제의 80초 공식 곡별 영상이다. 원곡·제작자 표기는 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recentContinuity", "festivalUse", "unknownSource"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-lalala-2026-festival",
+      "songId": "kaist-c-lalala",
+      "url": "https://www.youtube.com/watch?v=RhD9l7G89fE",
+      "videoId": "RhD9l7G89fE",
+      "title": "[카이스트 응원단 ELKA] 응원가 '랄랄라' - 2026 태울석림제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-08",
+      "descriptionSummary": "2026 태울석림제·태석제와 곡명을 태그한 81초 공식 영상이다. 원곡·제작자 표기는 없어 현행 사용만 직접 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "festivalUse", "unknownSource", "durationStability"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-bloom-2022-libera",
+      "songId": "kaist-c-bloom-you",
+      "url": "https://www.youtube.com/watch?v=ckfA2X5q2UQ",
+      "videoId": "ckfA2X5q2UQ",
+      "title": "[카이스트 응원단 ELKA] 2022 제9회 응원제 Libera Me : 개화(開花) - 응원가 '꽃피우라 그대'",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2022-10-04",
+      "descriptionSummary": "제9회 Libera Me의 부제 ‘개화’와 곡명을 함께 적고 더 크로스·당신을 위하여 태그로 원곡을 직접 표시한 122초 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "introductionInference", "originalSong", "themeAlignment"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-bloom-2023-festival",
+      "songId": "kaist-c-bloom-you",
+      "url": "https://www.youtube.com/watch?v=i6rj9GNrqvI",
+      "videoId": "i6rj9GNrqvI",
+      "title": "[카이스트 응원단 ELKA] 응원가 '꽃피우라 그대' - 2023 석림태울제 본공연",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2023-07-04",
+      "descriptionSummary": "2023 석림태울제 본공연의 136초 곡별 영상이며 더 크로스·당신을 위하여 태그를 다시 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 공연을 다시 보아도 멋지다고 긍정적으로 평가한다. 역사·원곡에 관한 추가 사실은 없다."
+      ],
+      "supports": ["festivalUse", "originalSong", "performanceFormat", "directCommentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-bloom-2023-joint",
+      "songId": "kaist-c-bloom-you",
+      "url": "https://www.youtube.com/watch?v=UgzWnSLHJmM",
+      "videoId": "UgzWnSLHJmM",
+      "title": "[카이스트 응원단 ELKA] 합동응원 KAIST 응원가 '꽃피우라 그대' - 2023 제20회 KAIST-POSTECH 학생대제전 개막식",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2023-10-24",
+      "descriptionSummary": "제20회 학생대제전 개막식 합동응원임을 명시하고 KAIST·POSTECH·CHEERO와 더 크로스·당신을 위하여 태그를 함께 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["jointCheerUse", "kapoUse", "originalSong", "interUniversityContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-bloom-2024-festival",
+      "songId": "kaist-c-bloom-you",
+      "url": "https://www.youtube.com/watch?v=8vWoi8-azL0",
+      "videoId": "8vWoi8-azL0",
+      "title": "[카이스트 응원단 ELKA] 응원가 '꽃피우라 그대' - 2024 태울석림제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-06-18",
+      "descriptionSummary": "2024 태울석림제의 131초 공식 공연이며 설명이 더 크로스·당신을 위하여·꽃피우라 그대를 함께 태그한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["festivalUse", "originalSong", "documentedContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-bloom-2025-festival",
+      "songId": "kaist-c-bloom-you",
+      "url": "https://www.youtube.com/watch?v=8xobOBxejVU",
+      "videoId": "8xobOBxejVU",
+      "title": "[카이스트 응원단 ELKA] 응원가 '꽃피우라 그대' - 2025 석림태울제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-06-26",
+      "descriptionSummary": "2025 석림태울제의 128초 공식 영상이다. 일반 곡명 태그만 있고 이 업로드 자체에는 원곡 태그가 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recentContinuity", "festivalUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-bloom-2025-libera",
+      "songId": "kaist-c-bloom-you",
+      "url": "https://www.youtube.com/watch?v=TrQiyGWa57g",
+      "videoId": "TrQiyGWa57g",
+      "title": "[카이스트 응원단 ELKA] 응원가 '꽃피우라 그대' - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "2025 제12회 Libera Me ‘바람’의 126초 곡별 영상이며 일반 행사 태그만 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recentContinuity", "liberaMeUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-bloom-2026-festival",
+      "songId": "kaist-c-bloom-you",
+      "url": "https://www.youtube.com/watch?v=q3X_xLjxdXA",
+      "videoId": "q3X_xLjxdXA",
+      "title": "[카이스트 응원단 ELKA] 응원가 '꽃피우라 그대' - 2026 태울석림제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-08",
+      "descriptionSummary": "2026 태울석림제의 123초 공식 공연이며 더 크로스·당신을 위하여·꽃피우라 그대 태그로 현행 사용과 원곡을 함께 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "festivalUse", "originalSong", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-bloom-source-artist",
+      "songId": "kaist-c-bloom-you",
+      "url": "https://www.youtube.com/watch?v=ZlZAQ8Qvs1g",
+      "videoId": "ZlZAQ8Qvs1g",
+      "title": "더크로스 02 당신을 위하여 | 1집 Melody Quus | 김혁건",
+      "channel": "The Cross 김혁건",
+      "publishedAt": "2020-02-24",
+      "descriptionSummary": "원가수 공식 채널이 1집 Melody Quus 2번 곡과 김혁건을 제목으로 식별한다. 설명에는 전체 가사가 실려 있었으나 저장하지 않고 원곡 식별과 구조 확인에만 사용했다. KAIST 사용 증거가 아닌 원곡 참고 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 학창 시절과 노래방의 기억, 높은 음역과 강한 보컬을 반복해서 언급한다.",
+        "여러 댓글이 곡에서 위로를 받았다고 말하며 김혁건의 건강과 활동을 응원한다. 이는 원곡 수용이고 KAIST 공연 반응은 아니다."
+      ],
+      "supports": ["sourceIdentification", "sourceVocal", "sourceCommentReception", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-bloom-source-topic",
+      "songId": "kaist-c-bloom-you",
+      "url": "https://www.youtube.com/watch?v=rdMuZNrzsLM",
+      "videoId": "rdMuZNrzsLM",
+      "title": "당신을 위하여",
+      "channel": "더 크로스 - Topic",
+      "publishedAt": "2024-08-13",
+      "descriptionSummary": "오감엔터테인먼트 제공 자동 생성 음원으로 곡·아티스트·앨범 Melody Quus와 원 음원 발매일 2003-08-02를 표시한다. KAIST 사용 증거가 아닌 권리·발매 메타데이터 참고 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["sourceIdentification", "sourceReleaseDateConflict", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-remember-2011-admission",
+      "songId": "kaist-c-remember",
+      "url": "https://www.youtube.com/watch?v=D_vi26tUa4s",
+      "videoId": "D_vi26tUa4s",
+      "title": "[카이스트 응원단 ELKA] 2011 입학수속 - Remember",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2011-07-22",
+      "descriptionSummary": "제목과 설명이 2011 입학수속에서의 97초 Remember 공연임을 직접 밝힌다. 현재 확보한 가장 이른 직접 사용 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "admissionUse", "earlyFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-remember-2012-libera",
+      "songId": "kaist-c-remember",
+      "url": "https://www.youtube.com/watch?v=YPfcG9E3DGs",
+      "videoId": "YPfcG9E3DGs",
+      "title": "[카이스트 응원단 ELKA] 2012 제1회 KAIST 응원제 리베라메 - 1부 Remember",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2013-01-15",
+      "descriptionSummary": "별도 설명은 없고 제목이 2012 첫 Libera Me 1부의 115초 곡별 공연임을 확인한다. 같은 행사 2부에도 다시 게시됐다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earlyContinuity", "liberaMeUse", "repeatedStaging"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-remember-2016-combined",
+      "songId": "kaist-c-remember",
+      "url": "https://www.youtube.com/watch?v=QHLQyXBdDLo",
+      "videoId": "QHLQyXBdDLo",
+      "title": "[카이스트 응원단 ELKA] 2016 제 5회 응원제 리베라메 – Remember + 승리의 노래",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2017-02-11",
+      "descriptionSummary": "설명은 정보 없는 한 단어뿐이며 제목이 Remember와 별도 곡 ‘승리의 노래’를 연속 수록한 254초 합본 공연임을 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "combinedUpload", "titleDisambiguation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-remember-2019-libera-1",
+      "songId": "kaist-c-remember",
+      "url": "https://www.youtube.com/watch?v=6AV3oQNYR_4",
+      "videoId": "6AV3oQNYR_4",
+      "title": "[카이스트 응원단 ELKA] 2019 제8회 응원제 Libera Me : 無限 - Remember(1)",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2019-10-09",
+      "descriptionSummary": "별도 설명은 없고 제목이 2019 제8회 Libera Me의 첫 번째 Remember 배치임을 표시한다. 같은 행사 (2) 영상이 따로 존재한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "numberedStaging", "documentedContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-remember-2023-workshop",
+      "songId": "kaist-c-remember",
+      "url": "https://www.youtube.com/watch?v=l3v7p32KDVc",
+      "videoId": "l3v7p32KDVc",
+      "title": "[카이스트 응원단 ELKA] 응원가 'Remember' - 2023 원티드 정주행 워크샵",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2023-04-04",
+      "descriptionSummary": "일반 KAIST·응원단 태그만 있고 제목이 2023 원티드 정주행 워크숍의 127초 공식 공연임을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["workshopUse", "documentedContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-remember-2024-libera",
+      "songId": "kaist-c-remember",
+      "url": "https://www.youtube.com/watch?v=Ovh7c7UcdlM",
+      "videoId": "Ovh7c7UcdlM",
+      "title": "[카이스트 응원단 ELKA] 응원가 'Remember' - 2024 제11회 응원제 Libera Me: 靑龍",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-11-08",
+      "descriptionSummary": "2024 제11회 Libera Me ‘청룡’의 131초 곡별 영상이며 일반 곡명·행사 태그만 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "recentContinuity", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-remember-2025-freshman",
+      "songId": "kaist-c-remember",
+      "url": "https://www.youtube.com/watch?v=fTcMNr17HEI",
+      "videoId": "fTcMNr17HEI",
+      "title": "[카이스트 응원단 ELKA] 응원가 'Remember' - 2025 후기 새내기 응원대제전",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-10-31",
+      "descriptionSummary": "2025 후기 새내기 응원대제전의 116초 영상이며 Remember·리멤버와 Por una cabeza·여인의 향기 태그로 원곡 및 영화 연상을 직접 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["freshmanEducation", "originalSong", "movieAssociation", "recentContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-remember-2026-festival",
+      "songId": "kaist-c-remember",
+      "url": "https://www.youtube.com/watch?v=WuHTx6-kyQM",
+      "videoId": "WuHTx6-kyQM",
+      "title": "[카이스트 응원단 ELKA] 응원가 'Remember' - 2026 태울석림제",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2026-06-08",
+      "descriptionSummary": "2026 태울석림제의 121초 공식 영상이며 Remember·리멤버와 Por una cabeza·여인의 향기 태그를 함께 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "festivalUse", "originalSong", "movieAssociation", "performanceFormat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-remember-source-gardel",
+      "songId": "kaist-c-remember",
+      "url": "https://www.youtube.com/watch?v=hM8qB3l0Q7g",
+      "videoId": "hM8qB3l0Q7g",
+      "title": "Por una Cabeza",
+      "channel": "Carlos Gardel - Topic",
+      "publishedAt": "2014-11-08",
+      "descriptionSummary": "RCA 제공 Carlos Gardel 음원으로 1935 BMG 권리 표기와 1995 앨범 발매 메타데이터를 제공한다. 자동 설명은 Alfredo Le Pera만 Composer, Lyricist로 적어 역사 카탈로그와 크레딧이 충돌한다. KAIST 사용 증거가 아닌 원곡 참고 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "다국어 공개 댓글은 세대를 넘어 듣는 탱고의 우아함과 강한 감정 전달을 반복해서 칭찬한다.",
+        "여인의 향기뿐 아니라 트루 라이즈 등 여러 영화로 곡을 알게 됐다는 반응이 있어 후대 영화 연상 경로가 다양함을 보여준다.",
+        "전체 원가사를 붙인 댓글도 있었지만 저작권·개인정보 원칙에 따라 원문은 저장하지 않았다."
+      ],
+      "supports": ["sourceIdentification", "sourceCreditConflict", "filmAssociationReception", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-victory-2013-libera",
+      "songId": "kaist-c-victory-anthem",
+      "url": "https://www.youtube.com/watch?v=IVZioqGjVYQ",
+      "videoId": "IVZioqGjVYQ",
+      "title": "[카이스트 응원단 ELKA] 2013 제2회 KAIST 응원제 리베라메 - 1부 승전가",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2013-11-16",
+      "descriptionSummary": "별도 설명은 없고 제목이 2013 제2회 Libera Me 1부의 97초 승전가 공연임을 밝힌다. 현재 확보한 가장 이른 직접 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestDirectlyConfirmedUse", "liberaMeUse", "earlyLength"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-victory-2024-libera",
+      "songId": "kaist-c-victory-anthem",
+      "url": "https://www.youtube.com/watch?v=l0_J8sSdw40",
+      "videoId": "l0_J8sSdw40",
+      "title": "[카이스트 응원단 ELKA] 응원가 '승전가' - 2024 제11회 응원제 Libera Me: 靑龍",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-11-08",
+      "descriptionSummary": "2024 제11회 Libera Me ‘청룡’의 124초 공식 곡별 영상이다. 일반 행사·곡명 태그만 있고 원곡·제작자 정보는 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["documentedPublicationGapEnd", "liberaMeUse", "unknownSource", "lengthDifference"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-victory-2024-joint",
+      "songId": "kaist-c-victory-anthem",
+      "url": "https://www.youtube.com/watch?v=qjEVAxm85Rk",
+      "videoId": "qjEVAxm85Rk",
+      "title": "[카이스트 응원단 ELKA] 합동응원 KAIST 응원가 '승전가' - 2024 제21회 KAIST-POSTECH 학생대제전 개막식",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-11-10",
+      "descriptionSummary": "제21회 카포전 개막식 합동응원과 곡명을 직접 적은 130초 공식 영상이다. 설명에는 행사·합동응원 태그만 있고 원곡 정보는 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["jointCheerUse", "kapoUse", "lengthDifference"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-victory-2025-libera",
+      "songId": "kaist-c-victory-anthem",
+      "url": "https://www.youtube.com/watch?v=rW57rqwdi4I",
+      "videoId": "rW57rqwdi4I",
+      "title": "[카이스트 응원단 ELKA] 응원가 '승전가' - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-13",
+      "descriptionSummary": "2025 제12회 Libera Me ‘바람’의 108초 곡별 영상이며 일반 행사·곡명 태그만 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentDirectUse", "liberaMeUse", "unknownSource", "lengthDifference"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-victory-2025-joint",
+      "songId": "kaist-c-victory-anthem",
+      "url": "https://www.youtube.com/watch?v=IvmZUEDEjTY",
+      "videoId": "IvmZUEDEjTY",
+      "title": "[카이스트 응원단 ELKA] 합동응원 KAIST 응원가 '승전가' - 2025 제22회 KAIST-POSTECH 학생대제전 개막식",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "제22회 카포전 개막식 합동응원의 108초 곡별 영상이다. 원곡 정보는 없고 행사·합동응원·곡명 태그만 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentDirectUse", "jointCheerUse", "kapoUse", "lengthDifference"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-youth-2023-libera",
+      "songId": "kaist-c-youth",
+      "url": "https://www.youtube.com/watch?v=XpswrtSoFIc",
+      "videoId": "XpswrtSoFIc",
+      "title": "[카이스트 응원단 ELKA] 응원가 '청춘' - 2023 제10회 응원제 Libera Me: Lux",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2023-10-24",
+      "descriptionSummary": "2023 제10회 Libera Me ‘Lux’의 164초 곡별 영상이며 박효신·Home 태그로 원곡을 직접 표시한다. 정확 제목 기준 가장 이른 직접 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 댓글은 전년도 단장의 유연한 동작을 긍정적으로 평가하고, 다른 댓글은 감정적인 호응을 짧게 표현한다. 곡 역사 정보는 없다."
+      ],
+      "supports": ["earliestDirectlyConfirmedUse", "introductionInference", "originalSong", "directCommentReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-youth-2024-libera",
+      "songId": "kaist-c-youth",
+      "url": "https://www.youtube.com/watch?v=ZQ4PHe0MIdw",
+      "videoId": "ZQ4PHe0MIdw",
+      "title": "[카이스트 응원단 ELKA] 응원가 '청춘' - 2024 제11회 응원제 Libera Me: 靑龍",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2024-11-08",
+      "descriptionSummary": "2024 제11회 Libera Me ‘청룡’의 181초 곡별 영상이며 일반 행사·곡명 태그만 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["liberaMeUse", "documentedContinuity", "adaptationLength"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-youth-2025-libera",
+      "songId": "kaist-c-youth",
+      "url": "https://www.youtube.com/watch?v=fasmpmj1hkM",
+      "videoId": "fasmpmj1hkM",
+      "title": "[카이스트 응원단 ELKA] 응원가 '청춘' - 2025 제12회 응원제 Libera Me: 바람",
+      "channel": "ELKA카이스트 응원단",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "2025 제12회 Libera Me ‘바람’의 179초 곡별 영상이다. 일반 행사·곡명 태그만 있고 원곡 태그는 이 업로드에 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentDirectUse", "liberaMeUse", "adaptationLength"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-youth-source-mv",
+      "songId": "kaist-c-youth",
+      "url": "https://www.youtube.com/watch?v=rtYikSrxdvs",
+      "videoId": "rtYikSrxdvs",
+      "title": "Park Hyo Shin 박효신_Home_Official Music Video",
+      "channel": "Glove Entertainment",
+      "publishedAt": "2016-10-09",
+      "descriptionSummary": "Glove Entertainment 공식 뮤직비디오로 제목이 박효신·Home을 식별하고 2016년 저작권 고지를 제공한다. 7분 45초 영상이며 KAIST 사용 증거가 아닌 원곡 참고 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 위로·귀가·성취감과 새로운 출발을 떠올린다는 반응, 박효신의 음악성과 가창에 대한 찬사를 반복한다.",
+        "뮤직비디오의 소년·여행·역경 장면을 꿈과 회복의 상징으로 읽는 해석이 다수 있으나 창작자의 공식 해설로 보지는 않았다."
+      ],
+      "supports": ["sourceIdentification", "sourceRights", "sourceThemeReception", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kaist-c-youth-source-topic",
+      "songId": "kaist-c-youth",
+      "url": "https://www.youtube.com/watch?v=iJYYqKi5J6c",
+      "videoId": "iJYYqKi5J6c",
+      "title": "Home",
+      "channel": "Park Hyo Shin - Topic",
+      "publishedAt": "2023-07-31",
+      "descriptionSummary": "FLUXUS 제공 자동 생성 음원으로 박효신·Home·I am A Dreamer, 원 음원 발매일 2016-10-03, Glove·Jellyfish 및 Dreamus 라이선스 표기를 제공한다. KAIST 사용 증거가 아닌 원곡 권리·발매 참고 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 결혼식 입장곡, 등하교·운동, 새해와 새 출발, 집과 관계의 안정감을 떠올리는 개인적 사용 경험을 반복한다.",
+        "한 댓글이 전체 가사를 재게시했지만 전문은 저장하지 않고 공개 댓글 존재와 주제만 기록했다."
+      ],
+      "supports": ["sourceIdentification", "sourceRelease", "sourceRights", "sourceCommentReception", "rightsReferenceOnly", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 35,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 23
+  }
+}

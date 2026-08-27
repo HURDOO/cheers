@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-korea-university-h",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-korea",
+    "name": "고려대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 응원가의 전체 가사, 영상 설명 전문과 댓글 원문은 저장하지 않는다. 가사는 합법적으로 열람 가능한 출처 URL, 권리 상태, 반복 구조와 주제만 요약한다. 공개 댓글은 작성자 식별정보를 제외하고 도입 이력·현장 사용·수용을 확인하는 데 필요한 반응만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "korea-university-victory-shout",
+      "title": "승리의 함성",
+      "aliases": ["승리의 라인업"],
+      "currentStatus": "current-directly-verified-at-2026-ipselenti",
+      "summary": "고려대학교가 개교 120주년과 정기 고연전 60주년을 맞은 2025년에 공개한 신곡이다. 2025년 9월 서울 응원 OT와 양교 합동응원에서 제목·학교 소속·신곡 표기를 직접 확인했고, 2026 입실렌티에도 이어졌다. 단결한 응원이 승리로 이어진다는 짧은 합창과 선창·후창을 중심으로 하며, 2025 정기 고연전 야구에서는 선수 소개용 `승리의 라인업`으로도 운용됐다. 대학 공식 120주년 페이지는 같은 해 응원곡 공모전과 `승리의 함성` 공지를 함께 싣지만, 공모전 금상작은 `불멸의 함성`이므로 두 작품이 편곡 전후의 같은 곡인지는 공개 근거 없이 단정하지 않는다.",
+      "claims": [
+        {
+          "field": "officialTitleAndOrganization",
+          "value": "고려대학교 응원가 `승리의 함성`",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-h-ku120-project", "yt-ku-h-victory-shout-2025-seoul-ot", "yt-ku-h-victory-shout-2025-joint-long", "yt-ku-h-victory-shout-2026-ipselenti"],
+          "notes": "고려대 120주년 공식 사업 페이지가 곡명을 공지 제목으로 싣고, 2025 합동응원 설명은 `승리의 함성 (KU)`로 학교를 직접 구분한다. 2026 입실렌티 영상은 별도 곡 제목을 다시 확인한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2025년 신곡; 현재 확인한 가장 이른 직접 실연은 2025-09-02 서울 응원 OT",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-h-victory-shout-2025-seoul-ot", "yt-ku-h-victory-shout-2025-joint", "yt-ku-h-victory-shout-2025-joint-long", "ev-ku-h-namu-ku-2020s"],
+          "notes": "곡별 영상과 합동응원 설명이 모두 2025 신곡으로 표기한다. 120주년 공식 페이지의 공지일은 10월 30일이므로, 공지일을 초연일로 오인하지 않았다. 비공개 제작·시연이나 9월 2일보다 앞선 공개는 미확인이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-05-22 입실렌티에서 `012: 영원히`와 별도 곡으로 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-h-victory-shout-2026-ipselenti"],
+          "notes": "영상 제목이 두 곡을 더하기 기호로 나눠 적고 실제 공연도 순서대로 수록한다."
+        },
+        {
+          "field": "baseballAliasAndUse",
+          "value": "2025 정기 고연전 야구 선수 소개용 `승리의 라인업`으로 운용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-h-victory-shout-2025-lineup"],
+          "notes": "고려대 응원단 촬영팀 제공 영상의 제목·설명은 `승리의 라인업 (승리의 함성, 2025 신곡)`이라고 직접 연결한다. 별도 응원가가 아니라 경기용 운용명으로 처리했다."
+        },
+        {
+          "field": "performanceStructure",
+          "value": "금관·브라스풍 무가사 전주, 단결과 승리를 주제로 한 짧은 합창, MC 선창·관중 후창, 합창 재현과 반복 종결",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-h-victory-shout-2025-structure", "yt-ku-h-victory-shout-2025-seoul-ot", "yt-ku-h-victory-shout-2025-joint-long"],
+          "notes": "가사 전문은 저장하지 않고 공개 영상의 타임스탬프와 실연을 바탕으로 곡의 진행만 요약했다."
+        },
+        {
+          "field": "externalOriginalSong",
+          "value": "확인된 외부 원곡 없음",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-h-ku120-project", "ev-ku-h-ku-contest-news", "ev-ku-h-namu-ku-2020s", "yt-ku-h-victory-shout-2025-seoul-ot"],
+          "notes": "검토한 대학 공식 페이지, 나무위키, 영상 제목·설명은 외부 원곡을 밝히지 않는다. 이를 자작곡 확정이나 표절 부재의 증명으로 확대하지 않는다."
+        },
+        {
+          "field": "contestLineage",
+          "value": "120주년 응원곡 공모전과 시기·사업 맥락은 겹치지만 금상작 `불멸의 함성`과 현행곡 `승리의 함성`의 동일성은 미확인",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-h-ku120-project", "ev-ku-h-ku-contest-news"],
+          "notes": "공식 사업 페이지는 공모전 아래에 `승리의 함성` 공지를 싣지만, 공식 뉴스는 금상작을 전민의 `불멸의 함성`으로 적는다. 제목 변경·편곡 채택·별도 제작 중 어느 경우인지 공개 자료가 설명하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "2025 서울 응원 OT와 하반기 양교 합동응원에서 신곡으로 공연됐다.",
+        "2025 정기 고연전 야구에서는 선수 명단을 소개하는 `승리의 라인업` 구간으로 변형 운용됐다.",
+        "2026 입실렌티에서 `012: 영원히` 다음의 독립 곡으로 공연돼 다음 해 현행성을 확인했다.",
+        "짧은 합창 뒤 단장이 승리 구호를 선창하고 관중이 되받는 구조라 대형 경기와 축제의 집단 응답에 적합하다."
+      ],
+      "trivia": [
+        {
+          "id": "victory-shout-two-anniversaries",
+          "summary": "곡이 공개된 2025년은 고려대 개교 120주년이자 정기 고연전 60주년이었다. 합동응원 영상 설명은 두 기념 연도를 함께 전면에 내세운다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-h-ku120-project", "yt-ku-h-victory-shout-2025-joint-long"]
+        },
+        {
+          "id": "victory-shout-new-song-pairing",
+          "summary": "2025 합동응원에서는 연세대 신곡 `푸른 연세`가 먼저, 고려대 신곡 `승리의 함성`이 뒤이어 공연됐다. 두 학교·두 곡의 귀속을 분리하는 핵심 자료다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-h-victory-shout-2025-joint", "yt-ku-h-victory-shout-2025-duel", "yt-ku-h-victory-shout-2025-joint-long"]
+        },
+        {
+          "id": "victory-shout-alumni-performance",
+          "summary": "2025년 말에는 고려대 95학번 동기회가 이 신곡을 별도 공연 영상으로 남겨, 공개 직후부터 재학생 무대를 넘어 동문 응원에도 옮겨 갔음을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-h-victory-shout-2025-alumni"]
+        },
+        {
+          "id": "victory-shout-initial-reception",
+          "summary": "초기 댓글 표본에는 청춘 분위기를 긍정하는 반응, 양교 신곡을 비교하는 반응, 처음 듣는 곡이라는 현장 반응이 함께 나타난다. 소수 표본이므로 전체 선호로 일반화하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-h-victory-shout-2025-seoul-ot", "yt-ku-h-victory-shout-2025-joint", "yt-ku-h-victory-shout-2025-lineup"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted or rights-undocumented 2025 university cheer song; authorship, arrangement, recording, choreography and public reproduction permissions are not fully published",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=WHDhhddbyVw",
+          "https://www.youtube.com/watch?v=GLrX5enIo-M",
+          "https://120.korea.ac.kr/project/view?idx=54"
+        ],
+        "structureSummary": "브라스처럼 들리는 무가사 전주를 반복해 군중의 주의를 모은 뒤, 응원이 하나가 된다는 짧은 절과 승리 함성을 요구하는 후렴으로 이동한다. 중간에는 단장의 말과 네 단계 선창·후창이 들어가고, 첫 절과 후렴을 재현한 다음 마지막 핵심 문장을 한 번 더 늘여 마친다. 전체 문구는 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-h-victory-shout-2025-seoul-ot",
+        "yt-ku-h-victory-shout-2025-structure",
+        "yt-ku-h-victory-shout-2025-alumni",
+        "yt-ku-h-victory-shout-2025-joint",
+        "yt-ku-h-victory-shout-2025-duel",
+        "yt-ku-h-victory-shout-2025-joint-long",
+        "yt-ku-h-victory-shout-2025-lineup",
+        "yt-ku-h-victory-shout-2026-ipselenti"
+      ],
+      "unresolved": [
+        "120주년 공모전 금상작 `불멸의 함성`이 편곡·개명되어 `승리의 함성`이 된 것인지, 별개의 곡인지",
+        "작사·작곡·편곡·보컬·연주·안무·현행 음원 제작진의 공식 전체 크레딧",
+        "2025-09-02 서울 응원 OT보다 이른 공개·비공개 시연과 정확한 초연 행사",
+        "외부 원곡·샘플·참조 음악의 존재 여부",
+        "응원가 가사·편곡·녹음·안무의 권리자와 재사용 허락 범위",
+        "야구 `승리의 라인업`에서 선수별로 바뀌는 선창과 정규곡 사이의 공식 운용 규칙"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ku-h-ku120-project",
+      "type": "official-university-project",
+      "url": "https://120.korea.ac.kr/project/view?idx=54",
+      "title": "개교 120주년 기념 응원가 ‘제2의 민족의 아리아’ 공모전",
+      "publisher": "고려대학교 120주년",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "120주년 응원곡 공모전 사업 기간을 2024년 12월부터 2025년 9월로 적고, 2025년 10월 30일자 `개교 120주년 기념 응원가 '승리의 함성'` 공지를 목록에 싣는다.",
+      "supports": ["공식 곡명", "120주년 사업 맥락", "공모전 일정", "2025 공식 공지"]
+    },
+    {
+      "id": "ev-ku-h-ku-contest-news",
+      "type": "official-university-news",
+      "url": "https://www.korea.ac.kr/ko/552/subview.do?enc=Zm5jdDF8QEB8JTJGa3VzdG9yeSUyRmtvJTJGYXJ0Y2xWaWV3LmRvJTNGYXJ0Y2xTZXElM0QyNzkwMCUyNg%3D%3D",
+      "title": "고려대, ‘제2의 민족의 아리아’ 시상식 개최… 고대 열정 담은 응원곡 탄생",
+      "publisher": "고려대학교 커뮤니케이션팀",
+      "publishedAt": "2025-06-24",
+      "accessedAt": "2026-08-09",
+      "summary": "2025년 6월 23일 공모전 시상식에서 5편을 선정했고, 금상은 전민의 `불멸의 함성`이었다고 밝힌다. 수상곡들은 편곡과 응원 동작을 더해 정기 고연전 등 주요 행사에서 공식 활용할 예정이라고 설명한다.",
+      "supports": ["공모전 금상작 제목·수상자", "편곡·안무 후 공식 활용 계획", "승리의 함성과의 계보 미확인"]
+    },
+    {
+      "id": "ev-ku-h-namu-ku-2020s",
+      "type": "community-encyclopedia",
+      "url": "https://namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80",
+      "title": "고려대학교/응원가/2020년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "`승리의 함성`을 2025년 신곡으로 분류하고 고연전 응원 OT 공개 및 야구 라인업 사용을 서술한다. 편집형 2차 출처이므로 현장 영상으로 교차 확인했다.",
+      "supports": ["2025 도입", "응원 OT", "야구 라인업 사용"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ku-h-victory-shout-2025-seoul-ot",
+      "songId": "korea-university-victory-shout",
+      "url": "https://www.youtube.com/watch?v=GLrX5enIo-M",
+      "videoId": "GLrX5enIo-M",
+      "title": "2025.09.02 고려대학교 서울 응원OT[승리의 함성] #2025신곡",
+      "channel": "KODA",
+      "publishedAt": "2025-09-05",
+      "descriptionSummary": "2025년 9월 2일 고려대 서울 응원 OT 곡별 영상이다. 제목과 해시태그가 `2025 신곡`, 학교·응원 OT·고연전을 함께 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 곡의 청춘 분위기를 긍정하고 최근 고려대 응원가의 스타일 변화를 연세대풍으로 인식한다."],
+      "supports": ["가장 이른 직접 실연", "2025 신곡", "고려대 소속", "초기 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-h-victory-shout-2025-structure",
+      "songId": "korea-university-victory-shout",
+      "url": "https://www.youtube.com/watch?v=WHDhhddbyVw",
+      "videoId": "WHDhhddbyVw",
+      "title": "2025년 응원가 신곡 [승리의 함성]",
+      "channel": "고대95 동기회",
+      "publishedAt": "2025-09-04",
+      "descriptionSummary": "약 2분 11초짜리 곡별 영상이다. 설명은 전주, 첫 절, 후렴, 단장 멘트, 선창·후창, 재현부의 타임스탬프와 동작 단서를 제공한다. 설명의 가사 전문은 복제하지 않았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["곡 구조", "가사 출처", "선창·후창", "2025 신곡"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-h-victory-shout-2025-alumni",
+      "songId": "korea-university-victory-shout",
+      "url": "https://www.youtube.com/watch?v=ZWD2IfY_SW0",
+      "videoId": "ZWD2IfY_SW0",
+      "title": "고려대 95학번 응원단 승리의 함성",
+      "channel": "고대95 동기회",
+      "publishedAt": "2025-12-13",
+      "descriptionSummary": "고려대 95학번 동문 응원단이 신곡을 공연한 기록이다. 별도 설명은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["동문 공연", "고려대 소속", "2025 하반기 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-h-victory-shout-2025-joint",
+      "songId": "korea-university-victory-shout",
+      "url": "https://www.youtube.com/watch?v=9Essku9fWrQ",
+      "videoId": "9Essku9fWrQ",
+      "title": "2025.09.12 합동 응원OT 2025양교 신곡[승리의 함성(KU)+푸른 연세(YU)]",
+      "channel": "KODA",
+      "publishedAt": "2025-09-16",
+      "descriptionSummary": "2025년 9월 12일 합동응원에서 양교 신곡을 한 영상에 담고, 제목이 `승리의 함성(KU)`과 `푸른 연세(YU)`로 학교 귀속을 직접 나눈다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 양교 신곡을 비교하거나 연고전 시기가 다가왔음을 반기는 반응을 보인다."],
+      "supports": ["KU 소속 직접 표기", "2025 양교 신곡", "합동응원 사용", "초기 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-h-victory-shout-2025-duel",
+      "songId": "korea-university-victory-shout",
+      "url": "https://www.youtube.com/watch?v=2IGQJiu_5dI",
+      "videoId": "2IGQJiu_5dI",
+      "title": "양교 신곡대결, \"푸른 연세\", \"승리의 함성\" | 2025 하반기 연고대 합동응원전",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-10-08",
+      "descriptionSummary": "2025년 9월 12일 합동응원 영상으로, 공개 타임라인은 연세대 `푸른 연세`를 00:00, 고려대 `승리의 함성`을 02:14에 분리한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 주로 `푸른 연세`의 원곡 추정과 응원단 구성에 관해 질문하며, `승리의 함성`에 대한 별도 사실 정보는 없다."],
+      "supports": ["합동응원 사용", "양교 신곡 분리", "승리의 함성 시작 시각"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-h-victory-shout-2025-joint-long",
+      "songId": "korea-university-victory-shout",
+      "url": "https://www.youtube.com/watch?v=CNDcUtNrIkI",
+      "videoId": "CNDcUtNrIkI",
+      "title": "2025 정기 고연전 D-Day! 합응 마지막 3부 판쓸이 진검승부 37분! #포에버 #하늘끝까지 #민족의아리아 #연세여사랑한다 #푸른연세 #승리의함성 #합동응원 [4k60p]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-09-18",
+      "descriptionSummary": "개교 120주년·고연전 60주년 합동응원 기록이다. 고려대 응원단 촬영팀 제공 영상이며, 타임라인은 09:01의 `승리의 함성 (KU)`를 2025 고려대 신곡으로 명시하고 양교 곡을 번갈아 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 양교의 열기와 청춘 문화를 회상·응원하며, 고연전 참가를 앞둔 기대와 동문의 감사가 섞여 있다."],
+      "supports": ["KU 소속 직접 표기", "2025 고려대 신곡", "120주년·고연전 60주년", "합동응원 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-h-victory-shout-2025-lineup",
+      "songId": "korea-university-victory-shout",
+      "url": "https://www.youtube.com/watch?v=u39SUZ-HPQU",
+      "videoId": "u39SUZ-HPQU",
+      "title": "[2025 고연전 응원] 야구 경기 시작. '승리의 라인업 & Young Tigers' #고연전야구 #고려대응원가 #2025고연전 #고연전 #부단장 바람 [4k60p]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-09-26",
+      "descriptionSummary": "2025 정기 고연전 야구의 선수 소개를 담는다. 고려대 응원단 촬영팀 제공 설명이 `승리의 라인업 (승리의 함성, 2025 신곡)`이라고 직접 연결하고 이어 `Young Tigers`를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 야구장 현장과 선수·응원단에 반응하며, 한 시청자는 처음 듣는 곡이라고 적는다."],
+      "supports": ["승리의 라인업 별칭", "2025 고연전 야구", "선수 소개용 운용", "초기 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-h-victory-shout-2026-ipselenti",
+      "songId": "korea-university-victory-shout",
+      "url": "https://www.youtube.com/watch?v=bUelhg5cc0E",
+      "videoId": "bUelhg5cc0E",
+      "title": "2026.05.22 IPSELENTI 지.야의 함성 [012:영원히 + 승리의 함성]",
+      "channel": "KODA",
+      "publishedAt": "2026-06-13",
+      "descriptionSummary": "2026년 5월 22일 입실렌티에서 `012: 영원히`와 `승리의 함성`을 더하기 기호로 나눠 연속 수록한다. 두 제목이 별도 곡이며 `승리의 함성`이 다음 해에도 현행임을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현행 사용", "입실렌티", "012: 영원히와 별도 곡"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 1,
+    "youtubeSampleCount": 8,
+    "songsMeetingYoutubeMinimum": 1,
+    "openIssueCount": 6
+  }
+}

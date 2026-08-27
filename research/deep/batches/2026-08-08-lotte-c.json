@@ -1,0 +1,1322 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-lotte-c",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-lotte-giants",
+    "name": "롯데 자이언츠",
+    "type": "kbo"
+  },
+  "rightsNote": "응원가 개사·편곡과 현행 녹음의 전체 가사·음원·영상 설명 전문은 저장하지 않는다. 원곡의 권리와 응원용 편곡의 권리를 구분해 출처·구조·주제만 기록하며, 공개 댓글은 작성자 정보와 원문 장문 인용 없이 반복되는 반응을 익명 요약한다.",
+  "items": [
+    {
+      "id": "lotte-giants-fighting-song",
+      "title": "파이팅송",
+      "aliases": [
+        "화이팅송",
+        "롯데 자이언츠 화이팅",
+        "구 김성배 응원가"
+      ],
+      "currentStatus": "current-official-2026",
+      "summary": "Shaun Cassidy가 부른 ‘Da Doo Ron Ron’의 선율을 사용한 곡이다. 먼저 투수 김성배의 개인 응원가로 쓰인 구간을 팀 응원가로 확장했다. 나무위키와 2023~2025 현장·팬 영상은 주로 ‘화이팅송’이라 적지만, 구단의 2026 공식 플레이리스트는 ‘파이팅송’으로 표기하므로 현재 공식명을 우선하고 종전 표기를 별칭으로 보존했다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "2026 구단 공식 표기는 ‘파이팅송’; 종전 통용 표기는 ‘화이팅송’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-official-2026",
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-fighting-official-2026",
+            "yt-lotte-c-fighting-field-2023",
+            "yt-lotte-c-fighting-field-2024"
+          ],
+          "notes": "표기만 바뀐 것으로 보이며 동일 음원을 가리킨다. 공식 개명 시점과 공지 문서는 미확인이다."
+        },
+        {
+          "field": "origin",
+          "value": "Shaun Cassidy의 1977년 ‘Da Doo Ron Ron’ 버전 선율",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "ev-lotte-c-shaun-album",
+            "ev-lotte-c-songwriters-hall",
+            "yt-lotte-c-fighting-field-2023"
+          ],
+          "notes": "곡 자체는 Phil Spector·Jeff Barry·Ellie Greenwich가 만들고 The Crystals가 1963년에 발표했으며, 롯데 응원가는 나무위키가 특정한 Shaun Cassidy 커버 계열을 출처로 기록했다."
+        },
+        {
+          "field": "adaptationHistory",
+          "value": "김성배 개인 응원가의 짧은 구간을 팀 응원가로 재사용·확장",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-fighting-kim-2017",
+            "yt-lotte-c-fighting-field-2023"
+          ],
+          "notes": "김성배 시절 영상은 개인 이름을 반복하는 짧은 버전을, 현행 영상은 팀 구호가 추가된 확장형을 보여 준다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 팀 응원가로 현행 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-official-2026",
+            "yt-lotte-c-fighting-official-2026",
+            "yt-lotte-c-fighting-field-2026",
+            "yt-lotte-c-fighting-choreo-2026"
+          ],
+          "notes": "구단 공식 플레이리스트와 2026년 7월 직접 현장 영상이 일치한다."
+        }
+      ],
+      "usageContexts": [
+        "공격 중 관중의 박수와 안무를 끌어올리는 팀 응원",
+        "팀명과 파이팅 구호를 응원단과 관중이 주고받는 콜 앤 리스폰스",
+        "개인 응원가에서 팀 응원가로 확장된 재활용 사례"
+      ],
+      "trivia": [
+        {
+          "id": "fighting-name-shift",
+          "summary": "현장 영상과 팬 플레이리스트에서 오랫동안 ‘화이팅송’으로 불렸지만 2026 구단 영상은 외래어 표준 표기에 가까운 ‘파이팅송’을 사용한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-c-fighting-official-2026",
+            "yt-lotte-c-fighting-field-2023",
+            "yt-lotte-c-fighting-field-2024"
+          ]
+        },
+        {
+          "id": "fighting-reuse-reaction",
+          "summary": "김성배 개인 응원가 영상과 현행 팀 영상 댓글에는 개인곡을 팀곡으로 재활용한 사례라는 인식과 선율이 익숙하고 신난다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-lotte-c-fighting-kim-2017",
+            "yt-lotte-c-fighting-field-2023"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-pop-song-adaptation-and-club-arrangement-no-redistribution-permission",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://open.spotify.com/album/37Ljhop4vZGAPhn20ugBv9"
+        ],
+        "structureSummary": "팀 응원에 힘을 모으자는 두 개의 짧은 문장을 반복한 뒤, ‘Hey’ 선창에 팀명과 파이팅 구호로 응답하는 확장부를 거쳐 같은 후렴으로 마무리한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-c-fighting-kim-2017",
+        "yt-lotte-c-fighting-field-2023",
+        "yt-lotte-c-fighting-field-2024",
+        "yt-lotte-c-fighting-mv-2026",
+        "yt-lotte-c-fighting-choreo-2026",
+        "yt-lotte-c-fighting-field-2026",
+        "yt-lotte-c-fighting-official-2026"
+      ],
+      "unresolved": [
+        "김성배 개인곡을 팀곡으로 전환한 정확한 경기·연도",
+        "‘화이팅송’에서 ‘파이팅송’으로 공식 표기를 바꾼 시점과 공지",
+        "응원용 개사·편곡·보컬의 전체 크레딧"
+      ]
+    },
+    {
+      "id": "lotte-giants-oh-strongest",
+      "title": "오 최강롯데",
+      "aliases": [
+        "오~ 최강 롯데",
+        "샹젤리제 응원가"
+      ],
+      "currentStatus": "current-official-2026",
+      "summary": "‘Les Champs-Élysées(오 샹젤리제)’로 널리 알려진 선율에 승리·최강 롯데 구호를 붙인 응원가다. 2018년까지의 짧은 구버전에서 2019년 풀버전으로 편곡됐고 2020년부터 짧게 부를 때도 새 음원 계열을 쓴다는 기록이 있다. 2026 공식 플레이리스트와 5월 현장 영상에서 계속 사용된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "‘Les Champs-Élysées’로 널리 알려진 선율의 개사",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-ohmy-strongest",
+            "yt-lotte-c-oh-origin-comparison"
+          ],
+          "notes": "1968년 영국곡 ‘Waterloo Road’와 1969년 프랑스어 각색곡 ‘Les Champs-Élysées’의 계보가 있으나 응원 편곡이 직접 참조한 녹음은 미확정이다."
+        },
+        {
+          "field": "arrangementHistory",
+          "value": "2018년까지 짧은 구버전, 2019년 현행 풀버전 제작, 2020년부터 짧은 버전도 새 음원 계열 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-oh-karaoke-2018",
+            "yt-lotte-c-oh-old-version",
+            "yt-lotte-c-oh-full-version"
+          ],
+          "notes": "구단 제작 공지 대신 나무위키의 연도 설명과 구·현행 음원을 교차했다."
+        },
+        {
+          "field": "usageContext",
+          "value": "부산 갈매기·돌아와요 부산항에·뱃노래로 이어지는 긴 응원 사이클의 마무리 등에 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-oh-field-2026"
+          ],
+          "notes": "2026 현장에서는 독립적으로도 여러 차례 나온다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 팀 응원가이자 직접 현장 사용곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-official-2026",
+            "yt-lotte-c-oh-official-2026",
+            "yt-lotte-c-oh-field-2026"
+          ],
+          "notes": "공식 플레이리스트 8분 10초와 2026년 5월 15일 떼창 영상에서 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "팀의 승리와 ‘최강’ 정체성을 반복하는 합창형 응원",
+        "연속 응원 사이클의 마무리 또는 공격 분위기 고조",
+        "박수·팀명 구호와 후렴의 ‘라라라’ 합창이 결합된 곡"
+      ],
+      "trivia": [
+        {
+          "id": "oh-version-expansion",
+          "summary": "구버전은 핵심 후렴을 짧게 반복했지만 2019 편곡은 박수·팀명 응답과 긴 후렴을 추가해 독립된 풀버전 팀곡으로 확장했다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-oh-old-version",
+            "yt-lotte-c-oh-full-version"
+          ]
+        },
+        {
+          "id": "oh-strongest-culture",
+          "summary": "롯데 팬 문화 기사에서는 크게 지는 상황에도 ‘최강’을 외치는 행위를 결과보다 팀을 지지하는 태도로 해석하며, 이 곡을 그 상징적 사례로 들었다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-c-ohmy-strongest"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-pop-melody-adaptation-and-club-arrangement-no-redistribution-permission",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002969003&SRS_CD=0000016988"
+        ],
+        "structureSummary": "승리를 위해 함께 외치자는 도입 뒤 팀명을 반복하고, 익숙한 샹젤리제 계열 후렴에서 ‘오’와 ‘라라라’ 합창을 이어 간다. 중간에는 박수 리듬과 팀명 응답이 들어간다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-c-oh-karaoke-2018",
+        "yt-lotte-c-oh-old-version",
+        "yt-lotte-c-oh-origin-comparison",
+        "yt-lotte-c-oh-field-2022",
+        "yt-lotte-c-oh-full-version",
+        "yt-lotte-c-oh-field-2026",
+        "yt-lotte-c-oh-official-2026"
+      ],
+      "unresolved": [
+        "최초 도입 경기와 연도",
+        "Waterloo Road·Les Champs-Élysées 중 응원 편곡이 직접 참조한 버전",
+        "2019 풀버전의 개사·편곡·보컬 크레딧"
+      ]
+    },
+    {
+      "id": "lotte-giants-shout-victory",
+      "title": "롯데의 승리를 외치자",
+      "aliases": [
+        "우리모두",
+        "우리 모두 다 같이 손뼉을 응원가"
+      ],
+      "currentStatus": "current-official-2026",
+      "summary": "동요 ‘우리 모두 다 같이 손뼉을’의 선율에 롯데의 승리를 반복하는 구호를 얹어 2019년에 공개한 곡이다. 같은 구단의 ‘승리를 외치자(할아버지 시계·점프송)’와 제목이 비슷하지만 서로 다른 곡이다. 2019년의 짧은 버전은 사라졌고 풀버전은 2026 공식 목록에 남아 있다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2019년 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-shout-audio-2019",
+            "yt-lotte-c-shout-field-2019"
+          ],
+          "notes": "3월 27일 경기 직캠과 3월 30일 업로드 음원이 도입 시기를 직접 보강한다."
+        },
+        {
+          "field": "origin",
+          "value": "동요 ‘우리 모두 다 같이 손뼉을’ 선율",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-shout-mr-2022"
+          ],
+          "notes": "국제적으로 ‘If You're Happy and You Know It’로 알려진 전승 동요 계열이며 특정 녹음은 원곡으로 단정하지 않았다."
+        },
+        {
+          "field": "disambiguation",
+          "value": "‘승리를 외치자(할아버지 시계·점프송)’와 별개의 곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-official-2026",
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-shout-official-2026"
+          ],
+          "notes": "공식 2026 영상이 00:00 ‘승리를 외치자’와 14:54 ‘롯데의 승리를 외치자’를 별도 챕터로 수록한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 팀 응원가로 현행",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-c-shout-official-2026",
+            "yt-lotte-c-shout-choreo-2026"
+          ],
+          "notes": "공식 음원과 2026 안무·현장 모음이 일치한다."
+        }
+      ],
+      "usageContexts": [
+        "친숙한 동요 선율 위에서 팀명과 승리를 반복하는 관중 참여형 곡",
+        "선창 뒤 관중이 짧게 팀명을 응답하는 콜 앤 리스폰스",
+        "중간의 ‘최강’·‘승리’ 대구 구호 뒤 후렴으로 복귀"
+      ],
+      "trivia": [
+        {
+          "id": "shout-title-collision",
+          "summary": "영상 검색에서는 ‘승리를 외치자’만 적은 자료가 할아버지 시계 기반 점프송과 자주 섞인다. 따라서 ‘롯데의’ 포함 여부와 선율·영상 설명을 함께 확인해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-official-2026",
+            "yt-lotte-c-shout-audio-2019",
+            "yt-lotte-c-shout-audio-2023"
+          ]
+        },
+        {
+          "id": "shout-short-version",
+          "summary": "2019년 초에는 약 30초 길이의 짧은 버전도 사용됐으나 현재는 풀버전만 남았다는 기록이 있으며, 초기 음원이 별도 영상으로 보존돼 있다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-shout-audio-2019"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "traditional-melody-adaptation-club-lyrics-and-arrangement-rights-unverified",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=DjHbmv1qzDQ"
+        ],
+        "structureSummary": "롯데의 승리를 외치자는 한 문장을 익숙한 동요 선율로 여러 번 반복하고 관중이 팀명으로 응답한다. 중간에 최강과 승리를 교환한 뒤 후렴을 확대 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-c-shout-audio-2019",
+        "yt-lotte-c-shout-field-2019",
+        "yt-lotte-c-shout-mr-2022",
+        "yt-lotte-c-shout-audio-2023",
+        "yt-lotte-c-shout-choreo-2026",
+        "yt-lotte-c-shout-official-2026"
+      ],
+      "unresolved": [
+        "2019년 최초 공개일과 구단 공지",
+        "응원용 편곡·보컬 크레딧",
+        "짧은 버전의 마지막 실제 사용일"
+      ]
+    },
+    {
+      "id": "lotte-giants-win-today",
+      "title": "오늘도 승리한다",
+      "aliases": [
+        "The Entertainer 응원가",
+        "분위기 업송"
+      ],
+      "currentStatus": "current-official-2026",
+      "summary": "Scott Joplin이 1902년에 발표한 래그타임 ‘The Entertainer’의 선율에 오늘과 내일의 승리를 선언하는 짧은 후렴을 붙인 팀 응원가다. 공수 교대와 공격 분위기 고조 때 사용되고, 2026년에는 부산 출신 롯데 팬인 DAY6 성진의 공식 커버 영상도 공개됐다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Scott Joplin 작곡 ‘The Entertainer’(1902)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "ev-lotte-c-loc-entertainer"
+          ],
+          "notes": "미 의회도서관 악보 서지가 작곡자와 1902년 출판을 확인한다. 응원용 편곡은 별도 권리다."
+        },
+        {
+          "field": "usageContext",
+          "value": "공수 교대 또는 공격 중 관중의 분위기를 끌어올릴 때 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-today-field-2022-a",
+            "yt-lotte-c-today-field-2026"
+          ],
+          "notes": "직접 현장 영상에서 경기 중 안무·합창 형태를 확인했다."
+        },
+        {
+          "field": "earliestConfirmedCurrentArrangement",
+          "value": "현행 풀버전은 늦어도 2022년 4월 직접 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-c-today-field-2022-a",
+            "yt-lotte-c-today-field-2022-b"
+          ],
+          "notes": "나무위키는 2020년까지 쓰인 짧은 버전을 별도로 언급하나 최초 도입 연도는 제시하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 팀 응원가이며 성진 공식 커버와 7월 현장 사용이 존재",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-official-2026",
+            "yt-lotte-c-today-official-cover-2026",
+            "yt-lotte-c-today-field-2026",
+            "yt-lotte-c-today-official-2026"
+          ],
+          "notes": "공식 챕터는 16분 21초다."
+        }
+      ],
+      "usageContexts": [
+        "공수 교대 때 관중의 박수와 율동을 유도",
+        "공격 분위기가 올라갈 때 핵심 승리 후렴만 반복",
+        "짧고 반복적인 팀명·모음 발성 뒤 승리 선언으로 마무리"
+      ],
+      "trivia": [
+        {
+          "id": "today-sungjin-cover",
+          "summary": "구단은 2026년 ‘주간 예열’ 시리즈에서 경남고 응원단 출신이자 롯데 팬으로 알려진 DAY6 성진의 커버를 공개했다. 댓글에서는 보컬 완성도와 팬 정체성의 결합을 호평했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-c-today-official-cover-2026"
+          ]
+        },
+        {
+          "id": "today-results-joke",
+          "summary": "팬 영상 댓글에서는 승리한 날 곡을 다시 찾는다는 반응과, 팀 성적이 좋지 않은 날 제목을 반대로 바꾸는 자조적 패러디가 함께 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-c-today-mv-2024"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "public-domain-1902-composition-but-club-lyrics-arrangement-and-recording-rights-unverified",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.loc.gov/item/2023864238/"
+        ],
+        "structureSummary": "팀명을 세 차례씩 부른 뒤 모음 발성으로 선율을 이어 가고, 오늘과 내일의 승리 및 최강 정체성을 선언하는 후렴을 반복한다. 분위기 고조 시 마지막 후렴만 떼어 쓰기도 한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-c-today-field-2022-a",
+        "yt-lotte-c-today-field-2022-b",
+        "yt-lotte-c-today-mv-2024",
+        "yt-lotte-c-today-official-cover-2026",
+        "yt-lotte-c-today-field-2026",
+        "yt-lotte-c-today-official-2026"
+      ],
+      "unresolved": [
+        "짧은 구버전과 현행 풀버전의 최초 도입일",
+        "응원용 개사·편곡·보컬의 전체 크레딧",
+        "구단의 ‘분위기 업송’ 내부 표기와 현재 별칭 사용 여부"
+      ]
+    },
+    {
+      "id": "lotte-giants-who-wins",
+      "title": "승리는 누구",
+      "aliases": [
+        "도원최강 개사곡",
+        "우리는 누구"
+      ],
+      "currentStatus": "current-official-2026",
+      "summary": "대만 프로야구 라미고 몽키스가 2014년 공식 공개한 ‘桃猿最強(도원최강)’을 개사해 2020년에 선보인 롯데 승전가다. 처음에는 무관중 경기의 승리 뒤에 주로 나왔고 이후 9회 공수 교대와 일반 열광응원으로 사용 범위가 넓어졌다. 2026 공식 영상·개막전 직캠·팬 문화 기사에서 현행성이 확인된다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "라미고 몽키스의 팀 응원가 ‘桃猿最強(도원최강)’ 개사",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "ev-lotte-c-rakuten-original"
+          ],
+          "notes": "현재 Rakuten Monkeys 공식 채널에 남아 있는 2014 영상과 선율·구조를 대조했다. 사용 허락·라이선스 문서는 미확인이다."
+        },
+        {
+          "field": "introduction",
+          "value": "2020년에 새 승전가로 공개",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-who-field-2022-a"
+          ],
+          "notes": "2020 구단 공지 원문은 확보하지 못했고, 나무위키 연혁과 후속 직접 영상으로 확인했다."
+        },
+        {
+          "field": "usageEvolution",
+          "value": "무관중 시기 승리 후 중심에서 2022년 이후 9회 공수 교대·일반 열광응원으로 확대",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-who-field-2022-a",
+            "yt-lotte-c-who-field-2026"
+          ],
+          "notes": "경기별 사용 빈도는 별도 로그가 없어 정성적 판정이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 팀 응원가이자 개막전·깃발 응원 현행곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-official-2026",
+            "ev-lotte-c-knn-flags",
+            "yt-lotte-c-who-official-warmup-2026",
+            "yt-lotte-c-who-field-2026",
+            "yt-lotte-c-who-official-2026"
+          ],
+          "notes": "공식 플레이리스트 33분 45초와 3월 28일 개막전 현장 영상이 직접 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "승리 직후 또는 경기 후반에 관중 전체가 일어나 부르는 승전가",
+        "긴 서사형 절 뒤 ‘누구’ 질문에 팀 구호로 답하는 콜 앤 리스폰스",
+        "대형 깃발 응원과 결합되는 웅장한 합창곡"
+      ],
+      "trivia": [
+        {
+          "id": "who-pronoun-variation",
+          "summary": "공식적으로 정리된 첫 질문은 ‘우리는 누구’지만 현장에서는 ‘우리가 누구’로 부르는 경우도 많아 댓글에서 정확한 조사 표현을 두고 반복적으로 정정이 나온다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-namu-cheers",
+            "yt-lotte-c-who-audio-2022",
+            "yt-lotte-c-who-mv-2022"
+          ]
+        },
+        {
+          "id": "who-cross-team-praise",
+          "summary": "여러 영상 댓글에서 타 구단 팬도 곡의 웅장함과 후반부 팀 구호를 높이 평가하고, 롯데의 긴 암흑기와 결합해 비장하게 들린다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-lotte-c-who-audio-2022",
+            "yt-lotte-c-who-mv-2022",
+            "yt-lotte-c-who-mv-2024"
+          ]
+        },
+        {
+          "id": "who-flag-culture",
+          "summary": "2026년 KNN 팬 문화 기사에서는 이 곡이 울릴 때 사직의 대형 깃발 부대가 자연스럽게 깃발을 올리는 대표 레퍼토리 중 하나로 소개됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-lotte-c-knn-flags"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "cross-club-cheer-adaptation-authorization-and-korean-lyrics-rights-unverified",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+          "https://www.youtube.com/watch?v=plvM2CFvDus",
+          "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "모음 발성으로 시작해 관중이 모두 일어나 승리를 향해 나아가자는 긴 절을 부른다. 역경에도 자리를 지키겠다는 선언 뒤 ‘우리는 누구·승리는 누구’라는 질문마다 네 박자의 팀 구호로 응답한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lotte-c-who-audio-2022",
+        "yt-lotte-c-who-field-2022-a",
+        "yt-lotte-c-who-mv-2022",
+        "yt-lotte-c-who-mv-2024",
+        "yt-lotte-c-who-official-warmup-2026",
+        "yt-lotte-c-who-field-2026",
+        "yt-lotte-c-who-official-2026"
+      ],
+      "unresolved": [
+        "2020년 최초 공개 경기와 구단 공지",
+        "라미고·롯데 사이의 사용 허락 또는 교류 경위 문서",
+        "한국어 개사·편곡·보컬의 전체 크레딧"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-lotte-c-official-2026",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "publisher": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "accessedAt": "2026-08-08",
+      "summary": "구단 공식 2026 플레이리스트는 오 최강롯데·파이팅송·롯데의 승리를 외치자·오늘도 승리한다·승리는 누구를 각각 독립 챕터로 수록한다. 특히 종전 ‘화이팅송’을 ‘파이팅송’으로 표기하고 비슷한 제목의 두 ‘승리를 외치자’를 분리한다.",
+      "supports": [
+        "lotte-giants-fighting-song.officialTitle",
+        "lotte-giants-oh-strongest.currentUse",
+        "lotte-giants-shout-victory.disambiguation",
+        "lotte-giants-win-today.currentUse",
+        "lotte-giants-who-wins.currentUse"
+      ]
+    },
+    {
+      "id": "ev-lotte-c-namu-cheers",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "롯데 자이언츠/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "2026 시즌 팀 응원가 목차, 각 곡의 가사 열람 경로, 원곡·도입 연도·편곡 변천·사용 상황을 확인했다. 전체 가사는 복제하지 않았고 공식 영상과 직접 현장 영상으로 현행성을 별도 교차했다.",
+      "supports": [
+        "lotte-giants-fighting-song.history",
+        "lotte-giants-oh-strongest.history",
+        "lotte-giants-shout-victory.history",
+        "lotte-giants-win-today.history",
+        "lotte-giants-who-wins.history",
+        "coverage.lyricsSources"
+      ]
+    },
+    {
+      "id": "ev-lotte-c-shaun-album",
+      "type": "official-streaming-catalog",
+      "url": "https://open.spotify.com/album/37Ljhop4vZGAPhn20ugBv9",
+      "title": "Shaun Cassidy",
+      "publisher": "Spotify / Curb Records",
+      "publishedAt": "1977",
+      "accessedAt": "2026-08-08",
+      "summary": "1977년 Shaun Cassidy 앨범의 첫 트랙으로 ‘Da Doo Ron Ron’을 수록하며 음원과 발매 계보를 확인할 수 있다.",
+      "supports": [
+        "lotte-giants-fighting-song.origin"
+      ]
+    },
+    {
+      "id": "ev-lotte-c-songwriters-hall",
+      "type": "music-organization",
+      "url": "https://www.songhall.org/profiles/ellie-greenwich",
+      "title": "Ellie Greenwich",
+      "publisher": "Songwriters Hall of Fame",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "작곡가 소개는 Ellie Greenwich와 Jeff Barry가 Phil Spector와 함께 ‘Da Doo Ron Ron’을 만든 계보를 확인한다.",
+      "supports": [
+        "lotte-giants-fighting-song.originCredits"
+      ]
+    },
+    {
+      "id": "ev-lotte-c-ohmy-strongest",
+      "type": "news-feature",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002969003&SRS_CD=0000016988",
+      "title": "기아, 두산, 삼성, 한화도... 롯데만 쓰는 게 아니네?",
+      "publisher": "오마이뉴스",
+      "publishedAt": "2023-10-14",
+      "accessedAt": "2026-08-08",
+      "summary": "롯데 팬의 현장 경험을 바탕으로 오 최강롯데를 ‘오 샹젤리제’ 선율의 개사곡으로 소개하고, 지는 상황에도 ‘최강’을 외치는 응원 문화의 의미를 서술한다.",
+      "supports": [
+        "lotte-giants-oh-strongest.origin",
+        "lotte-giants-oh-strongest.culturalContext"
+      ]
+    },
+    {
+      "id": "ev-lotte-c-loc-entertainer",
+      "type": "library-catalog",
+      "url": "https://www.loc.gov/item/2023864238/",
+      "title": "The Entertainer",
+      "publisher": "Library of Congress",
+      "publishedAt": "1902",
+      "accessedAt": "2026-08-08",
+      "summary": "미 의회도서관 악보 서지는 Scott Joplin을 작곡자로, John Stark의 1902년 출판 악보로 기록한다.",
+      "supports": [
+        "lotte-giants-win-today.origin",
+        "lotte-giants-win-today.compositionRights"
+      ]
+    },
+    {
+      "id": "ev-lotte-c-rakuten-original",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=plvM2CFvDus",
+      "title": "【猿風加油】桃猿最強",
+      "publisher": "Rakuten Monkeys",
+      "publishedAt": "2014-07-18",
+      "accessedAt": "2026-08-08",
+      "summary": "라쿠텐 몽키스 공식 채널에 보존된 라미고 시절 ‘桃猿最強’ 영상으로, 롯데 ‘승리는 누구’와 선율·절-질문응답 구조를 공유한다.",
+      "supports": [
+        "lotte-giants-who-wins.origin"
+      ]
+    },
+    {
+      "id": "ev-lotte-c-knn-flags",
+      "type": "news-feature",
+      "url": "https://v.daum.net/v/20260212092530357?f=p",
+      "title": "사직을 흔드는 깃발, 변하지 않는 롯데 팬의 의지",
+      "publisher": "KNN",
+      "publishedAt": "2026-02-12",
+      "accessedAt": "2026-08-08",
+      "summary": "사직 대형 깃발 응원 문화를 취재하며 ‘승리는 누구’가 울릴 때 깃발이 자연스럽게 올라가는 현행 대표 레퍼토리 중 하나라고 소개한다.",
+      "supports": [
+        "lotte-giants-who-wins.currentUse",
+        "lotte-giants-who-wins.flagCulture"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-lotte-c-fighting-kim-2017",
+      "songId": "lotte-giants-fighting-song",
+      "url": "https://www.youtube.com/watch?v=48HyhdnqpvM",
+      "videoId": "48HyhdnqpvM",
+      "title": "(02.02) 롯데 자이언츠 김성배 응원가 #비크",
+      "channel": "비크티비: 프로야구 응원가 전문채널",
+      "publishedAt": "2017-02-01",
+      "descriptionSummary": "전 롯데 투수 김성배의 짧은 개인 응원가 음원을 보존한다. 현행 팀곡으로 확장되기 전 형태를 비교할 수 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팀 응원가로 재활용된 사례라는 반응과 김성배 사용 시기를 2012~2016년으로 기억하는 팬 의견이 있다."
+      ],
+      "supports": [
+        "formerPlayerVersion",
+        "adaptationHistory"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-fighting-field-2023",
+      "songId": "lotte-giants-fighting-song",
+      "url": "https://www.youtube.com/watch?v=fW5ZfbdfxOg",
+      "videoId": "fW5ZfbdfxOg",
+      "title": "롯데 자이언츠 팀 응원가 화이팅송 | 230812",
+      "channel": "롯데 현장 직캠",
+      "publishedAt": "2023-08-12",
+      "descriptionSummary": "2023년 8월 12일 관중 떼창 현장을 ‘화이팅송’이라는 당시 통용 표기로 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원곡이 ‘Da Doo Ron Ron’인 듯하다는 확인과 곡이 신난다는 호평이 있다."
+      ],
+      "supports": [
+        "formerTitle",
+        "fieldUse2023",
+        "originRecognition"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-fighting-field-2024",
+      "songId": "lotte-giants-fighting-song",
+      "url": "https://www.youtube.com/watch?v=c59pNb9o154",
+      "videoId": "c59pNb9o154",
+      "title": "짱구와함께하는 부산동백시리즈 롯데자이언츠 응원가 '화이팅송' 240421",
+      "channel": "하늘별티비 (Skystar TV)",
+      "publishedAt": "2024-04-21",
+      "descriptionSummary": "부산 동백시리즈에서 치어리더 안무와 마스코트 공연에 맞춘 2024 직접 사용 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "마스코트 협업과 안무의 귀여움을 언급하며 팀을 응원하는 반응이 중심이다."
+      ],
+      "supports": [
+        "fieldUse2024",
+        "formerTitle"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-fighting-mv-2026",
+      "songId": "lotte-giants-fighting-song",
+      "url": "https://www.youtube.com/watch?v=gW1wkF_ASPI",
+      "videoId": "gW1wkF_ASPI",
+      "title": "롯데자이언츠 팀 응원가 '파이팅송' M/V",
+      "channel": "막스 베르스타펜",
+      "publishedAt": "2026-04-23",
+      "descriptionSummary": "팬이 경기 영상을 편집해 만든 비수익 목적 뮤직비디오로, 2026 공식 표기인 ‘파이팅송’을 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "이 곡 때문에 응원하는 맛이 난다는 반응과 다른 선수 영상 신청이 있다."
+      ],
+      "supports": [
+        "officialTitleAdoption",
+        "fanReception2026"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-fighting-choreo-2026",
+      "songId": "lotte-giants-fighting-song",
+      "url": "https://www.youtube.com/watch?v=60mgJLCNfIg",
+      "videoId": "60mgJLCNfIg",
+      "title": "[4k] Playlist 2026 롯데자이언츠 팀 응원가 모음 + 치어리더 안무",
+      "channel": "김하운",
+      "publishedAt": "2026-05-05",
+      "descriptionSummary": "2026 현장 안무 모음이 파이팅송을 4분 8초에 독립 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관 전에 팀 응원가와 안무를 익히는 데 유용하다는 반응과 응원 문화 전반에 대한 호평이 많다."
+      ],
+      "supports": [
+        "fieldUse2026",
+        "choreography"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-fighting-field-2026",
+      "songId": "lotte-giants-fighting-song",
+      "url": "https://www.youtube.com/watch?v=b6HtiEoWqv8",
+      "videoId": "b6HtiEoWqv8",
+      "title": "롯데자이언츠 팀 응원가 \"화이팅송\" 20260723",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-07-24",
+      "descriptionSummary": "2026년 7월 23일 현장 사용을 직접 촬영했으며 영상 제목에는 종전 통용 표기가 남아 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directFieldUse2026",
+        "titleVariation"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-fighting-official-2026",
+      "songId": "lotte-giants-fighting-song",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단이 9분 59초 챕터를 ‘파이팅송’으로 표기해 현행성과 현재 공식명을 직접 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬 타임라인에는 구 김성배 응원가였다는 설명이 달렸고, 공식 플레이리스트의 음질과 구성을 호평하는 반응이 많다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialTitle"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-oh-karaoke-2018",
+      "songId": "lotte-giants-oh-strongest",
+      "url": "https://www.youtube.com/watch?v=Ac8PUHiPZ5w",
+      "videoId": "Ac8PUHiPZ5w",
+      "title": "롯데 자이언츠 Lotte Giants 오최강롯데 응원가 노래방 | MAGICSING",
+      "channel": "ASSA KARAOKE MAGICSING",
+      "publishedAt": "2018-05-25",
+      "descriptionSummary": "2018년에 공개된 짧은 노래방형 음원으로 현행 풀버전 이전의 사용을 보강한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원가를 호평하면서 샹젤리제 원곡 계열을 알아보는 반응이 있다."
+      ],
+      "supports": [
+        "pre2019Version",
+        "originRecognition"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-oh-old-version",
+      "songId": "lotte-giants-oh-strongest",
+      "url": "https://www.youtube.com/watch?v=K6ys_mfcj18",
+      "videoId": "K6ys_mfcj18",
+      "title": "오 최강롯데-구버전",
+      "channel": "Ss ss",
+      "publishedAt": "2022-12-03",
+      "descriptionSummary": "출처를 명시한 45초 길이의 구버전 보존 영상으로, 2019년 확장 전 짧은 구조를 비교할 수 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오래전부터 사용한 근본 버전이라는 회고와 2005년부터 들었다는 미확인 기억이 있다."
+      ],
+      "supports": [
+        "oldArrangement",
+        "unverifiedEarlyMemory"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-oh-origin-comparison",
+      "songId": "lotte-giants-oh-strongest",
+      "url": "https://www.youtube.com/watch?v=PbVT6XRN_R8",
+      "videoId": "PbVT6XRN_R8",
+      "title": "롯데자이언츠 응원가 오~ 최강롯데 (Waterloo Road, Les Champs-Elysées, 샹젤리제)",
+      "channel": "46채널",
+      "publishedAt": "2021-10-17",
+      "descriptionSummary": "영상 제목이 영국 원곡과 프랑스어 각색곡 계보를 함께 제시해 선율 비교 경로를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "어디서 들은 선율인지 이제 알았다는 반응과 다른 종목에서도 쓰인다는 사례 제보가 있다."
+      ],
+      "supports": [
+        "melodyLineage",
+        "crossSportUseAnecdote"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-oh-field-2022",
+      "songId": "lotte-giants-oh-strongest",
+      "url": "https://www.youtube.com/watch?v=TVzcFCuSwEQ",
+      "videoId": "TVzcFCuSwEQ",
+      "title": "롯데자이언츠 팀 응원가 \"오 최강롯데\" 20220408",
+      "channel": "DJ Landers",
+      "publishedAt": "2022-04-10",
+      "descriptionSummary": "2022년 4월 8일 경기장에서 현행 계열의 곡과 관중 안무를 직접 촬영했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse2022"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-oh-full-version",
+      "songId": "lotte-giants-oh-strongest",
+      "url": "https://www.youtube.com/watch?v=MdZI7fdXrsw",
+      "videoId": "MdZI7fdXrsw",
+      "title": "오~최강롯데",
+      "channel": "힛",
+      "publishedAt": "2025-02-02",
+      "descriptionSummary": "약 1분 46초의 풀버전 음원으로 구버전보다 확장된 후렴·박수 구간을 확인할 수 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡의 흥을 표현하거나 ‘샹젤리제’ 선율을 바로 연상하는 반응이 있다."
+      ],
+      "supports": [
+        "currentFullArrangement"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-oh-field-2026",
+      "songId": "lotte-giants-oh-strongest",
+      "url": "https://www.youtube.com/watch?v=dCNm2r4Mtaw",
+      "videoId": "dCNm2r4Mtaw",
+      "title": "롯데 자이언츠 응원가 떼창 모음 (26.05.15)",
+      "channel": "어게인1992자이언츠",
+      "publishedAt": "2026-05-16",
+      "descriptionSummary": "2026년 5월 15일 두산전 떼창 모음의 시작과 34분 59초·42분 10초에 오 최강롯데가 반복 사용된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "경기 흐름에 따른 전체 타임라인을 공유하고 타 구단 팬이 함께 포스트시즌에 가자는 반응을 남겼다."
+      ],
+      "supports": [
+        "directFieldUse2026",
+        "repeatUseInGame"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-oh-official-2026",
+      "songId": "lotte-giants-oh-strongest",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 영상이 오 최강롯데를 8분 10초 독립 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원가가 많다는 놀라움과 시즌 승리·가을야구를 바라는 반응이 중심이다."
+      ],
+      "supports": [
+        "officialCurrentUse2026"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-shout-audio-2019",
+      "songId": "lotte-giants-shout-victory",
+      "url": "https://www.youtube.com/watch?v=DjHbmv1qzDQ",
+      "videoId": "DjHbmv1qzDQ",
+      "title": "롯데 자이언츠 팀 응원가 - 롯데의 승리를 외치자",
+      "channel": "실버불렛S",
+      "publishedAt": "2019-03-30",
+      "descriptionSummary": "2019 롯데 응원가라고 명시한 33초 초기 음원으로 도입 시기와 짧은 버전을 보존한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "introduction2019",
+        "shortVersion"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-shout-field-2019",
+      "songId": "lotte-giants-shout-victory",
+      "url": "https://www.youtube.com/watch?v=fRFhq4W2D-k",
+      "videoId": "fRFhq4W2D-k",
+      "title": "2019.03.27 삼성 vs 롯데, 롯데의 승리를 외치자",
+      "channel": "짜리",
+      "publishedAt": "2019-03-29",
+      "descriptionSummary": "2019년 3월 27일 사직 삼성전의 직접 현장 사용을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "짧게 롯데의 선전을 기원하는 반응이 있다."
+      ],
+      "supports": [
+        "directFieldUse2019",
+        "introduction2019"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-shout-mr-2022",
+      "songId": "lotte-giants-shout-victory",
+      "url": "https://www.youtube.com/watch?v=4K5izwFgt-k",
+      "videoId": "4K5izwFgt-k",
+      "title": "롯데 팀응원가 - 롯데의 승리를 외치자 MR (우리모두)",
+      "channel": "HJ P",
+      "publishedAt": "2022-07-19",
+      "descriptionSummary": "팬이 제작한 MR 영상이 별칭 ‘우리모두’를 병기하고 동요 기반 선율과 풀버전 구조를 들려준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "편곡을 호평하고 FC서울에서 들은 선율과의 유사성을 지적하는 반응이 있다."
+      ],
+      "supports": [
+        "alias",
+        "melodyRecognition"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-shout-audio-2023",
+      "songId": "lotte-giants-shout-victory",
+      "url": "https://www.youtube.com/watch?v=t3gYyE3UybQ",
+      "videoId": "t3gYyE3UybQ",
+      "title": "롯데 자이언츠 응원가 - 롯데의 승리를 외치자",
+      "channel": "짬찌 기갑병",
+      "publishedAt": "2023-08-05",
+      "descriptionSummary": "약 1분 27초 길이의 현행 풀버전 음원으로 비슷한 제목의 점프송과 구분된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "동요의 첫 구절을 떠올리거나 다른 프로스포츠 응원에서 같은 선율을 들었다는 반응이 있다."
+      ],
+      "supports": [
+        "fullArrangement",
+        "crossSportMelody"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-shout-choreo-2026",
+      "songId": "lotte-giants-shout-victory",
+      "url": "https://www.youtube.com/watch?v=60mgJLCNfIg",
+      "videoId": "60mgJLCNfIg",
+      "title": "[4k] Playlist 2026 롯데자이언츠 팀 응원가 모음 + 치어리더 안무",
+      "channel": "김하운",
+      "publishedAt": "2026-05-05",
+      "descriptionSummary": "2026 안무 모음이 ‘롯데의 승리를 외치자’를 다른 점프송과 구분해 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관에서 따라 부르기 어려웠던 팀곡과 안무를 익힐 수 있어 고맙다는 반응이 있다."
+      ],
+      "supports": [
+        "fieldUse2026",
+        "disambiguation"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-shout-official-2026",
+      "songId": "lotte-giants-shout-victory",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 영상이 14분 54초에 ‘롯데의 승리를 외치자’를 수록하고 00:00의 ‘승리를 외치자’와 명확히 분리한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬이 전체 챕터를 다시 정리하고 곡이 많아진 공식 플레이리스트를 반기는 반응이 있다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "disambiguation"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-today-field-2022-a",
+      "songId": "lotte-giants-win-today",
+      "url": "https://www.youtube.com/watch?v=05ucKbTzqSM",
+      "videoId": "05ucKbTzqSM",
+      "title": "롯데자이언츠 팀 응원가 \"오늘도 승리한다\" 20220408",
+      "channel": "DJ Landers",
+      "publishedAt": "2022-04-10",
+      "descriptionSummary": "2022년 4월 8일 경기장의 현행 풀버전과 안무를 직접 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "영상 기록에 고맙다는 짧은 반응이 있다."
+      ],
+      "supports": [
+        "earliestDirectFullVersion",
+        "fieldUse2022"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-today-field-2022-b",
+      "songId": "lotte-giants-win-today",
+      "url": "https://www.youtube.com/watch?v=5fy5DN3ZWjc",
+      "videoId": "5fy5DN3ZWjc",
+      "title": "2022년 롯데 자이언츠 팀 응원가 - 오늘도 승리한다",
+      "channel": "다현",
+      "publishedAt": "2022-09-11",
+      "descriptionSummary": "2022년 9월 10일 사직 NC전에서 사용된 곡 전체를 직접 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse2022"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-today-mv-2024",
+      "songId": "lotte-giants-win-today",
+      "url": "https://www.youtube.com/watch?v=sV8ikOR2MMU",
+      "videoId": "sV8ikOR2MMU",
+      "title": "롯데자이언츠 팀 응원가 ‘오늘도 승리한다’ M/V",
+      "channel": "팬롯데",
+      "publishedAt": "2024-05-19",
+      "descriptionSummary": "팬심으로 만든 비수익 목적 경기 하이라이트 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관에서 부른 뒤 곡을 좋아하게 됐거나 승리한 날 다시 들으러 왔다는 반응과 성적을 빗댄 자조적 패러디가 함께 나타난다."
+      ],
+      "supports": [
+        "fanReception",
+        "titleParody"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-today-official-cover-2026",
+      "songId": "lotte-giants-win-today",
+      "url": "https://www.youtube.com/watch?v=UBKpmJ2G9VE",
+      "videoId": "UBKpmJ2G9VE",
+      "title": "[주간 예열] 예열을 위한 미리 듣는 롯데자이언츠 응원가 시리즈 | 오늘도 승리한다 feat. 데이식스 성진",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-12",
+      "descriptionSummary": "구단이 부산 출신 롯데 팬 DAY6 성진의 보컬로 재녹음한 공식 2026 커버와 본인의 응원 메시지를 공개했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "경남고 응원단 경력과 롯데 팬 정체성을 반기고 보컬 품질을 호평하며 팀 성적이 따라주길 바라는 반응이 많다."
+      ],
+      "supports": [
+        "officialCover2026",
+        "sungjinConnection"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-today-field-2026",
+      "songId": "lotte-giants-win-today",
+      "url": "https://www.youtube.com/watch?v=lDfAHUUAId8",
+      "videoId": "lDfAHUUAId8",
+      "title": "롯데자이언츠 팀 응원가 \"오늘도 승리한다\" 20260722",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-07-24",
+      "descriptionSummary": "2026년 7월 22일 경기장 직접 사용을 약 2분간 촬영한 최신 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directFieldUse2026"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-today-official-2026",
+      "songId": "lotte-giants-win-today",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 플레이리스트가 16분 21초에 오늘도 승리한다를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원가를 들으며 개막전 승리와 가을야구를 기대하는 반응이 반복된다."
+      ],
+      "supports": [
+        "officialCurrentUse2026"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-who-audio-2022",
+      "songId": "lotte-giants-who-wins",
+      "url": "https://www.youtube.com/watch?v=X-gcOX59VlE",
+      "videoId": "X-gcOX59VlE",
+      "title": "승리는 누구",
+      "channel": "야쏭",
+      "publishedAt": "2022-08-24",
+      "descriptionSummary": "곡 전체를 들을 수 있는 팬 음원 영상으로 질문-응답 구조와 현행 가사 흐름을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "롯데 응원가 중 가장 좋아한다거나 타 구단 팬도 중독됐다는 반응, 암흑기와 대비되는 비장함을 언급하는 반응이 많다."
+      ],
+      "supports": [
+        "fullArrangement",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-who-field-2022-a",
+      "songId": "lotte-giants-who-wins",
+      "url": "https://www.youtube.com/watch?v=JMxS1oBfjSQ",
+      "videoId": "JMxS1oBfjSQ",
+      "title": "22.09.22 잠실 롯데자이언츠 팀응원가 승리는 누구? 최강롯데!!",
+      "channel": "현장응원맛집",
+      "publishedAt": "2022-09-22",
+      "descriptionSummary": "2022년 9월 22일 잠실 원정석의 대규모 떼창과 팀 구호를 직접 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "잠실 원정 응원의 화력과 부산 출신 상경 팬의 향수를 언급하고 가을야구를 기원하는 반응이 많다."
+      ],
+      "supports": [
+        "fieldUse2022",
+        "awayCrowdCulture"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-who-mv-2022",
+      "songId": "lotte-giants-who-wins",
+      "url": "https://www.youtube.com/watch?v=FTkvihIJtZ4",
+      "videoId": "FTkvihIJtZ4",
+      "title": "롯데자이언츠 팀응원가 승리는 누구 [M/V]",
+      "channel": "야구는 치윗뮤",
+      "publishedAt": "2022-09-25",
+      "descriptionSummary": "롯데 역사·경기 장면을 곡에 맞춰 편집한 팬 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "암흑기를 견디는 팬의 감정과 곡의 서사가 잘 맞는다는 평가, 정확한 ‘우리는 누구’ 표현을 바로잡는 반응이 있다."
+      ],
+      "supports": [
+        "narrativeReception",
+        "pronounVariation"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-who-mv-2024",
+      "songId": "lotte-giants-who-wins",
+      "url": "https://www.youtube.com/watch?v=v6fdPaUpzZs",
+      "videoId": "v6fdPaUpzZs",
+      "title": "[M/V] 승리는 누구 - 롯데자이언츠",
+      "channel": "롯뽀드",
+      "publishedAt": "2024-11-20",
+      "descriptionSummary": "고난 속에서도 같은 자리에서 승리를 외친다는 곡의 주제를 경기 장면으로 재구성한 팬 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "대학교 축제 같은 응원 분위기와 곡의 우렁찬 합창을 호평하고, 정확한 질문 표현을 정정하는 반응이 있다."
+      ],
+      "supports": [
+        "fanReception2024",
+        "pronounVariation"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-who-official-warmup-2026",
+      "songId": "lotte-giants-who-wins",
+      "url": "https://www.youtube.com/watch?v=cIFTD8GO6uY",
+      "videoId": "cIFTD8GO6uY",
+      "title": "[주간 예열] 예열을 위한 미리 듣는 롯데자이언츠 응원가 시리즈 | 승리는 누구",
+      "channel": "Giants TV",
+      "publishedAt": "2026-02-08",
+      "descriptionSummary": "구단이 2026 개막을 앞두고 캠프 영상과 곡을 결합해 현행 응원가로 공식 소개했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "영상 편집과 타격음 동기화를 호평하고 가을에도 이 곡을 듣고 싶다는 반응, 팀을 끝까지 응원한다는 반응이 많다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialPromotion"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-who-field-2026",
+      "songId": "lotte-giants-who-wins",
+      "url": "https://www.youtube.com/watch?v=hmRXgtMwwks",
+      "videoId": "hmRXgtMwwks",
+      "title": "[개막전] 롯데자이언츠 팀응원가 \"승리는 누구\" 떼창(삼성라이온즈파크) | 26.03.28",
+      "channel": "롯데 현장 직캠",
+      "publishedAt": "2026-03-28",
+      "descriptionSummary": "2026년 개막전 대구 원정석의 직접 떼창을 기록해 시즌 현행성을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "가을야구를 기원하거나 응원 열기에 고양됐다는 짧은 반응이 있다."
+      ],
+      "supports": [
+        "directFieldUse2026",
+        "openingDayUse"
+      ],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lotte-c-who-official-2026",
+      "songId": "lotte-giants-who-wins",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "videoId": "AtyqKrWmvGE",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "channel": "Giants TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 플레이리스트가 33분 45초에 승리는 누구를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 플레이리스트의 완성도와 팀 응원가의 다양성을 호평하고 시즌 선전을 기원하는 반응이 중심이다."
+      ],
+      "supports": [
+        "officialCurrentUse2026"
+      ],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 33,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 15
+  }
+}

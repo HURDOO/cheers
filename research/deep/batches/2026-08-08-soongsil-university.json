@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-soongsil-university",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-soongsil",
+    "name": "숭실대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 응원가의 전체 가사, 영상 설명, 댓글 전문은 저장하지 않는다. 공개 음원·공식 채널·공연 영상은 사실 확인과 구조·주제 요약에만 사용하고, 링크는 재배포 허락을 뜻하지 않는다. 댓글은 작성자를 식별하지 않고 수용 양상에 필요한 내용만 재서술한다.",
+  "items": [
+    {
+      "id": "soongsil-together-soongsil",
+      "title": "함께하라, 숭실",
+      "aliases": [
+        "함께하라 숭실"
+      ],
+      "currentStatus": "current-directly-verified-in-2025-and-2026-performances",
+      "summary": "숭실대학교 응원단 WINNI가 2025년 5월 20일 공개한 공식 음원이다. Bugs의 곡 정보와 ATO Entertainment 배급 영상에서 제작진·발매일을 교차 확인했고, WINNI 공식 채널의 2025 대동제·정기공연 및 2026 예비대학 영상과 숭실대학교 공식 채널의 퍼포먼스 영상으로 현행 사용을 확인했다. 음원 제작자와 안무 제작자는 구분해야 하며, 공개 영상 설명은 안무가 WINNI의 창작물임을 밝히지만 개인 안무가 이름은 싣지 않는다.",
+      "claims": [
+        {
+          "field": "releaseDate",
+          "value": "2025-05-20",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-soongsil-bugs-together",
+            "ev-soongsil-apple-album",
+            "yt-soongsil-together-ato"
+          ],
+          "notes": "Bugs, Apple Music, 배급 영상의 발매 정보가 일치한다. 이 날짜는 음원 발매일이며 초연일을 뜻하지 않는다."
+        },
+        {
+          "field": "songCredits",
+          "value": "작사 지민·원양희, 작곡 원양희·류동민·지민, 편곡 원양희, 가창 WINNI",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-soongsil-bugs-together"
+          ],
+          "notes": "공개 음원 크레디트를 옮긴 것이다. 영상 안무 크레디트와 혼동하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "대동제·정기공연·예비대학과 대학 공식 홍보 퍼포먼스에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-soongsil-together-festival",
+            "yt-soongsil-together-primotus",
+            "yt-soongsil-together-precollege",
+            "yt-soongsil-together-university"
+          ],
+          "notes": "WINNI와 대학 공식 채널의 행사명·영상 설명을 기준으로 확인했다."
+        },
+        {
+          "field": "officialLinkListing",
+          "value": "WINNI 공식 링크 허브에 음원 링크가 현재 노출됨",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-soongsil-linktree-live"
+          ],
+          "notes": "2026-08-09 접근 시 링크트리에서 직접 확인했다."
+        },
+        {
+          "field": "organizationContext",
+          "value": "WINNI는 2023년 6월 소모임으로 결성되고 같은 해 9월 중앙동아리로 등록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-soongsil-news-winni"
+          ],
+          "notes": "숭대시보의 2024년 인터뷰 기사에 따른 응원단 연혁이다. 곡의 제작 시기와는 별개의 정보다."
+        }
+      ],
+      "usageContexts": [
+        "WINNI 공식 채널에서 2025 대동제와 정기공연 PRIMOTUS의 단체 액션 응원곡으로 확인된다.",
+        "2026 예비대학 공연에서 신입생을 대상으로 다시 사용됐다.",
+        "숭실대학교 공식 채널은 교내 곳곳에서 촬영한 응원가 퍼포먼스를 학생기자단 기획·제작물로 공개했다.",
+        "공연 영상 설명은 안무 전체를 WINNI의 창작물로 밝히며 무단 사용·재배포를 금지한다."
+      ],
+      "trivia": [
+        {
+          "id": "soongsil-together-three-track-single",
+          "summary": "첫 음원 묶음은 이 곡과 ‘Forward, white horse’, ‘Truth’까지 세 곡을 담은 록 장르 싱글로 유통됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-soongsil-apple-album",
+            "yt-soongsil-together-ato"
+          ]
+        },
+        {
+          "id": "soongsil-together-student-press-video",
+          "summary": "대학 공식 퍼포먼스 영상은 학생기자단 네 명이 기획·제작 크레디트에 올라, 응원단 공연 기록이자 학교 홍보 콘텐츠로도 제작됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-soongsil-together-university"
+          ]
+        },
+        {
+          "id": "soongsil-together-public-response",
+          "summary": "공개 댓글 표본은 적지만 대학 공식 퍼포먼스에 대한 짧고 강한 호응이 확인된다. 표본이 한두 건뿐이므로 일반적인 반응으로 확대 해석하지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": [
+            "yt-soongsil-together-performance"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-release-summary-only",
+        "structureSummary": "학교와 함께 역사를 써 나가자는 후렴이 반복되는 집단 응원 구조다. 중간부는 진리·배움·민족 숭실의 자긍심과 첫걸음을 강조하고, 학교명과 핵심 가치의 구호 블록을 거쳐 처음 후렴으로 돌아간다. 정확한 문장과 전체 가사는 저장하지 않았다.",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/33541907",
+          "https://www.youtube.com/watch?v=W60Z65ONZ74"
+        ]
+      },
+      "youtubeSampleRefs": [
+        "yt-soongsil-together-ato",
+        "yt-soongsil-together-festival",
+        "yt-soongsil-together-primotus",
+        "yt-soongsil-together-precollege",
+        "yt-soongsil-together-performance",
+        "yt-soongsil-together-university"
+      ],
+      "unresolved": [
+        "2025-05-20 음원 발매보다 앞선 초연·교내 첫 공개 날짜는 확인되지 않았다.",
+        "공개 크레디트의 가창 표기가 단체 WINNI이므로 개별 보컬·세션 연주자는 확인되지 않았다.",
+        "영상 설명은 안무를 WINNI 창작물이라고만 밝혀 개인 안무 제작자와 제작 과정은 미확인이다.",
+        "음원·영상·안무의 권리 주체별 이용 허락 범위는 별도 확인이 필요하다."
+      ]
+    },
+    {
+      "id": "soongsil-roar-of-youth",
+      "title": "청춘의 함성",
+      "aliases": [
+        "Roar of Youth"
+      ],
+      "currentStatus": "released-in-2026-and-recently-indexed-by-official-link-hub-performance-use-unverified",
+      "summary": "WINNI가 2026년 6월 12일 공개한 두 번째 응원가 음원이다. Bugs와 YouTube 배급 메타데이터로 제목·제작진·발매일은 확인했으나, 조사 시점에 확인 가능한 직접 YouTube 표본은 공식 배급 음원 두 건뿐이었다. 표본 기준을 보완한 나머지 세 영상은 WINNI의 2025~2026 현행 활동과 직전 응원가·조직 맥락만 보여 주는 contextOnly 자료이며 이 곡의 공연 증거가 아니다. 최근 검색 색인에는 WINNI 링크 허브가 이 곡을 함께 나열했지만 실제 접속 화면에서는 ‘함께하라, 숭실’만 남아 있어 현재 공연 사용은 단정하지 않는다.",
+      "claims": [
+        {
+          "field": "releaseDate",
+          "value": "2026-06-12",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-soongsil-bugs-youth",
+            "yt-soongsil-youth-ato",
+            "yt-soongsil-youth-topic"
+          ],
+          "notes": "Bugs 곡 페이지와 두 배급 영상 메타데이터가 일치한다."
+        },
+        {
+          "field": "songCredits",
+          "value": "작사 원양희·윤주원, 작곡·편곡 원양희·신승광·장현아·윤주원, 가창 WINNI",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-soongsil-bugs-youth"
+          ],
+          "notes": "Bugs 공개 크레디트 기준이다."
+        },
+        {
+          "field": "officialLinkListing",
+          "value": "최근 검색 색인에는 공식 링크 허브가 ‘청춘의 함성’을 나열함",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-soongsil-linktree-indexed"
+          ],
+          "notes": "검색 색인에서 확인했지만 실제 링크트리의 현재 화면과 불일치한다."
+        },
+        {
+          "field": "officialLinkListing",
+          "value": "2026-08-09 실제 링크 허브에는 ‘함께하라, 숭실’만 노출됨",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-soongsil-linktree-live"
+          ],
+          "notes": "색인이 오래된 것인지 링크가 일시적으로 내려간 것인지는 확인되지 않았다."
+        },
+        {
+          "field": "currentPerformanceUse",
+          "value": "현재 공연 사용 여부 미확인",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-soongsil-winni-youtube-search",
+            "yt-soongsil-youth-ato",
+            "yt-soongsil-youth-topic"
+          ],
+          "notes": "공식 채널 내부 검색과 YouTube 전체 검색에서 공연 영상이 나오지 않았다는 조사 결과다. 곡이 사용되지 않는다는 뜻은 아니다."
+        }
+      ],
+      "usageContexts": [
+        "2026년 6월 12일부터 디지털 음원으로 유통되고 있다.",
+        "최근 검색 색인은 WINNI 공식 링크 허브가 곡 링크를 노출했다고 기록하지만, 조사일의 실제 페이지에서는 링크가 보이지 않았다.",
+        "WINNI 공식 YouTube 채널의 제목·검색 결과에서는 조사 시점까지 이 곡의 공연 영상을 찾지 못했다."
+      ],
+      "trivia": [
+        {
+          "id": "soongsil-youth-english-title",
+          "summary": "YouTube 자동 배급 음원은 영어 제목을 ‘Roar of Youth’로 표시한다. 별도 영어 홍보명인지 단순 유통 번역인지는 확인되지 않아 별칭으로만 보존했다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-soongsil-youth-topic"
+          ]
+        },
+        {
+          "id": "soongsil-youth-linktree-drift",
+          "summary": "같은 링크트리 URL에 대해 최근 검색 색인과 실제 접속 화면의 곡 목록이 달랐다. 삭제·임시 비공개·색인 지연 가운데 어느 경우인지는 알 수 없다.",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-soongsil-linktree-indexed",
+            "ev-soongsil-linktree-live"
+          ]
+        },
+        {
+          "id": "soongsil-youth-sparse-video-record",
+          "summary": "발매 약 두 달 뒤 조사했기 때문에 공개 영상 기록이 아직 매우 적다. 정확 제목으로 공식 채널과 YouTube 전체를 확인했으나 서로 다른 영상 ID는 배급 음원 두 개뿐이었다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-soongsil-winni-youtube-search",
+            "yt-soongsil-youth-ato",
+            "yt-soongsil-youth-topic"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-release-summary-only",
+        "structureSummary": "짧은 두 행짜리 핵심 구절을 반복하는 구호형 구성으로, 청춘의 목소리를 학교의 영광에, 구성원의 한마음을 학교의 진리에 연결한다. 반복 사이에는 말 없는 합창 구간이 들어간다. 정확한 문장과 전체 가사는 저장하지 않았다.",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/33966843?wl_ref=list_tr_08",
+          "https://www.youtube.com/watch?v=VVbvnfM-tIo"
+        ]
+      },
+      "youtubeSampleRefs": [
+        "yt-soongsil-youth-ato",
+        "yt-soongsil-youth-topic",
+        "yt-soongsil-youth-context-festival",
+        "yt-soongsil-youth-context-precollege",
+        "yt-soongsil-youth-context-university"
+      ],
+      "unresolved": [
+        "음원 공개 이전의 초연일과 공개 이후 실제 교내 행사 사용 여부를 확인할 공연 기록이 필요하다.",
+        "서로 다른 YouTube URL·영상 ID 5개는 확보했지만 직접 곡 표본은 배급 음원 2개뿐이며, 나머지 3개는 WINNI 현행 활동·직전 응원가 맥락 자료(contextOnly)다.",
+        "공식 링크 허브에서 곡 링크가 보이지 않게 된 이유와 재노출 여부는 미확인이다.",
+        "개별 보컬·세션 연주자와 공연 안무의 존재·제작자는 공개 자료에서 확인되지 않았다.",
+        "음원과 향후 공연 영상의 권리 주체별 이용 허락 범위는 별도 확인이 필요하다."
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-soongsil-bugs-together",
+      "type": "music-service",
+      "title": "함께하라, 숭실 곡 정보",
+      "publisher": "Bugs",
+      "url": "https://music.bugs.co.kr/track/33541907",
+      "publishedAt": "2025-05-20",
+      "accessedAt": "2026-08-09",
+      "summary": "앨범명, 발매일, 가창 WINNI, 작사·작곡·편곡자, 2분 40초 재생시간과 가사 원문을 제공한다. 가사 전문은 저장하지 않고 구조 확인에만 사용했다.",
+      "supports": [
+        "releaseDate",
+        "songCredits",
+        "lyricsStructure"
+      ]
+    },
+    {
+      "id": "ev-soongsil-bugs-youth",
+      "type": "music-service",
+      "title": "청춘의 함성 곡 정보",
+      "publisher": "Bugs",
+      "url": "https://music.bugs.co.kr/track/33966843?wl_ref=list_tr_08",
+      "publishedAt": "2026-06-12",
+      "accessedAt": "2026-08-09",
+      "summary": "Vol.2의 발매일, 가창 WINNI, 작사·작곡·편곡자, 2분 39초 재생시간과 가사 원문을 제공한다. 가사 전문은 저장하지 않고 반복 구조와 주제만 확인했다.",
+      "supports": [
+        "releaseDate",
+        "songCredits",
+        "lyricsStructure"
+      ]
+    },
+    {
+      "id": "ev-soongsil-apple-album",
+      "type": "music-service",
+      "title": "숭실대학교 WINNI 응원가 - Single",
+      "publisher": "Apple Music",
+      "url": "https://music.apple.com/us/album/%EC%88%AD%EC%8B%A4%EB%8C%80%ED%95%99%EA%B5%90-winni-%EC%9D%91%EC%9B%90%EA%B0%80-single/1815436343",
+      "publishedAt": "2025-05-20",
+      "accessedAt": "2026-08-09",
+      "summary": "2025년 발매된 록 장르 싱글이 세 곡으로 구성됐고 ATO Entertainment 명의로 유통됐음을 확인한다.",
+      "supports": [
+        "releaseDate",
+        "albumTrackCount",
+        "genre"
+      ]
+    },
+    {
+      "id": "ev-soongsil-news-winni",
+      "type": "campus-press",
+      "title": "숭실의 열정을 응원하는 WINNI",
+      "publisher": "숭대시보",
+      "url": "https://www.ssunews.net/news/articleView.html?idxno=11205",
+      "publishedAt": "2024-11-26",
+      "accessedAt": "2026-08-09",
+      "summary": "WINNI의 2023년 결성·중앙동아리 등록, 2024년 23명 규모, 축제·예비대학·새내기배움터·채플·U리그·대학 응원대제전 등 활동 영역을 단장 인터뷰로 설명한다.",
+      "supports": [
+        "organizationHistory",
+        "usageContext"
+      ]
+    },
+    {
+      "id": "ev-soongsil-linktree-live",
+      "type": "official-link-hub",
+      "title": "WINNI 공식 링크 허브 현재 화면",
+      "publisher": "숭실대학교 응원단 WINNI",
+      "url": "https://linktr.ee/ssu_cheer",
+      "accessedAt": "2026-08-09",
+      "summary": "실제 접속 화면에는 조사 시점에 ‘함께하라, 숭실’ 링크가 보이고 ‘청춘의 함성’ 링크는 보이지 않았다.",
+      "supports": [
+        "officialLinkListing",
+        "currentListingConflict"
+      ]
+    },
+    {
+      "id": "ev-soongsil-linktree-indexed",
+      "type": "search-index-snapshot",
+      "title": "WINNI 링크 허브 검색 색인 스냅숏",
+      "publisher": "검색엔진 색인 / WINNI",
+      "url": "https://linktr.ee/ssu_cheer",
+      "accessedAt": "2026-08-09",
+      "summary": "최근 색인된 검색 결과 설명에는 ‘청춘의 함성’과 ‘함께하라, 숭실’ 두 곡이 함께 나열됐다. 실제 페이지와 불일치하므로 과거 또는 지연된 색인으로 취급한다.",
+      "supports": [
+        "reportedOfficialLinkListing",
+        "currentListingConflict"
+      ]
+    },
+    {
+      "id": "ev-soongsil-winni-youtube-search",
+      "type": "official-channel-search",
+      "title": "WINNI 공식 YouTube 채널 ‘청춘의 함성’ 검색",
+      "publisher": "숭실대학교 응원단 WINNI",
+      "url": "https://www.youtube.com/@ssucheerWINNI/search?query=%EC%B2%AD%EC%B6%98%EC%9D%98%20%ED%95%A8%EC%84%B1",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 채널 내부 정확 제목 검색에서 일치하는 업로드를 찾지 못했다. YouTube 전체 검색에서도 배급 음원 두 건 외 공연 영상이 확인되지 않았다.",
+      "supports": [
+        "youtubeCoverageGap",
+        "currentPerformanceUseUnverified"
+      ]
+    },
+    {
+      "id": "ev-soongsil-namu-main",
+      "type": "namuwiki",
+      "title": "숭실대학교",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EC%88%AD%EC%8B%A4%EB%8C%80%ED%95%99%EA%B5%90",
+      "accessedAt": "2026-08-09",
+      "summary": "대학 일반 문서에는 조사 대상 WINNI 응원가 두 곡의 제작·현행 사용 정보가 정리돼 있지 않았다. 나무위키 부재를 사실 부재로 해석하지 않고 검색 범위의 한계로만 기록한다.",
+      "supports": [
+        "sourceCoverageLimitation"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-soongsil-together-ato",
+      "songId": "soongsil-together-soongsil",
+      "url": "https://www.youtube.com/watch?v=W60Z65ONZ74",
+      "videoId": "W60Z65ONZ74",
+      "title": "[K-POP ROCK] 숭실대학교 WINNI 응원가 - 함께하라, 숭실 _ATOENT",
+      "channel": "ATO ENTERTAINMENT",
+      "publishedAt": "2025-05-20T03:32:14-07:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "가수·앨범·2025년 5월 20일 발매일·록 장르와 국내외 음원 서비스 링크를 적은 공식 배급 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "releaseDate",
+        "officialAudio",
+        "albumContext"
+      ]
+    },
+    {
+      "id": "yt-soongsil-together-festival",
+      "songId": "soongsil-together-soongsil",
+      "url": "https://www.youtube.com/watch?v=NwJmvYvynQE",
+      "videoId": "NwJmvYvynQE",
+      "title": "2025 대동제 공연 - 함께하라, 숭실",
+      "channel": "숭실대학교 응원단 WINNI",
+      "publishedAt": "2026-01-05T05:31:41-08:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "2025 대동제 무대임을 밝히고 출연 단원 명단을 기록한다. 안무 전체가 WINNI의 창작물이며 무단 사용·재배포를 금지한다고 고지한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "2025FestivalUse",
+        "choreographyRightsNotice"
+      ]
+    },
+    {
+      "id": "yt-soongsil-together-primotus",
+      "songId": "soongsil-together-soongsil",
+      "url": "https://www.youtube.com/watch?v=ESbMlzJ3Dsk",
+      "videoId": "ESbMlzJ3Dsk",
+      "title": "2025 정기공연 PRIMOTUS - 함께하라, 숭실",
+      "channel": "숭실대학교 응원단 WINNI",
+      "publishedAt": "2026-03-09T01:45:05-07:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "2025 정기공연 PRIMOTUS의 해당 곡 무대와 출연 명단을 기록하고, 안무의 창작성 및 무단 사용·재배포 금지를 명시한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "2025RegularPerformanceUse",
+        "choreographyRightsNotice"
+      ]
+    },
+    {
+      "id": "yt-soongsil-together-precollege",
+      "songId": "soongsil-together-soongsil",
+      "url": "https://www.youtube.com/watch?v=Lmm7mBpqJ6w",
+      "videoId": "Lmm7mBpqJ6w",
+      "title": "2026 예비대학 공연 - 함께하라, 숭실",
+      "channel": "숭실대학교 응원단 WINNI",
+      "publishedAt": "2026-04-03T05:52:52-07:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "2026 예비대학 공연, 출연 단원 명단, WINNI 창작 안무의 무단 사용·재배포 금지 고지를 담는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "2026PrecollegeUse",
+        "choreographyRightsNotice"
+      ]
+    },
+    {
+      "id": "yt-soongsil-together-performance",
+      "songId": "soongsil-together-soongsil",
+      "url": "https://www.youtube.com/watch?v=ODMgADmIcWQ",
+      "videoId": "ODMgADmIcWQ",
+      "title": "숭실대학교 응원가 퍼포먼스 - 함께하라, 숭실",
+      "channel": "숭실대학교 응원단 WINNI",
+      "publishedAt": "2026-02-08T06:52:34-08:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "캠퍼스에 응원가의 울림과 온기를 전한다는 취지의 단체 퍼포먼스 영상이다. 안무 전체가 WINNI 창작물이라고 고지한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개된 비어 있지 않은 댓글 한 건은 대학과 퍼포먼스를 매우 긍정적으로 평가한다. 표본이 작아 전체 반응으로 일반화할 수 없다."
+      ],
+      "supports": [
+        "currentPerformanceUse",
+        "audienceReception"
+      ]
+    },
+    {
+      "id": "yt-soongsil-together-university",
+      "songId": "soongsil-together-soongsil",
+      "url": "https://www.youtube.com/watch?v=liTXaNqh4NU",
+      "videoId": "liTXaNqh4NU",
+      "title": "[함께하라, 숭실] 숭실대학교 응원가 퍼포먼스",
+      "channel": "숭실대학교",
+      "publishedAt": "2025-12-05T19:01:06-08:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "캠퍼스에 퍼지는 흰 물결과 하나 되는 숭실을 콘셉트로 한 대학 공식 영상이다. 학생기자단 네 명을 기획·제작자로 크레디트한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "universityOfficialUse",
+        "studentPressProduction"
+      ]
+    },
+    {
+      "id": "yt-soongsil-youth-ato",
+      "songId": "soongsil-roar-of-youth",
+      "url": "https://www.youtube.com/watch?v=09tHMdCcT4o",
+      "videoId": "09tHMdCcT4o",
+      "title": "[K-POP ROCK] 숭실대학교 WINNI 응원가 - 청춘의 함성 _ATOENT",
+      "channel": "ATO ENTERTAINMENT",
+      "publishedAt": "2026-06-13T05:17:45-07:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "가수·앨범·2026년 6월 12일 발매일·록 장르와 음원 서비스 링크를 제공하는 공식 배급 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "releaseDate",
+        "officialAudio"
+      ]
+    },
+    {
+      "id": "yt-soongsil-youth-topic",
+      "songId": "soongsil-roar-of-youth",
+      "url": "https://www.youtube.com/watch?v=VVbvnfM-tIo",
+      "videoId": "VVbvnfM-tIo",
+      "title": "Roar of Youth",
+      "channel": "Soongsil University WINNI - Topic",
+      "publishedAt": "2026-06-11T20:05:05-07:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "자동 생성된 음원 영상으로 영어 제목, Vol.2 앨범명, 2026년 원양희 권리 표기, 2026년 6월 12일 발매 정보를 제공한다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "releaseDate",
+        "englishAlias",
+        "rightsMetadata"
+      ]
+    },
+    {
+      "id": "yt-soongsil-youth-context-festival",
+      "songId": "soongsil-roar-of-youth",
+      "url": "https://www.youtube.com/watch?v=NwJmvYvynQE",
+      "videoId": "NwJmvYvynQE",
+      "title": "2025 대동제 공연 - 함께하라, 숭실",
+      "channel": "숭실대학교 응원단 WINNI",
+      "publishedAt": "2026-01-05T05:31:41-08:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "‘청춘의 함성’ 직접 표본이 아니다. 신곡 발매 전 WINNI가 2025 대동제에서 직전 응원가 ‘함께하라, 숭실’을 공연한 기록으로, 응원단의 현행 축제 활동과 자체 안무·출연진 기록을 보완하는 contextOnly 자료다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "contextOnly",
+        "WINNI2025FestivalActivity",
+        "preReleaseOrganizationContext"
+      ]
+    },
+    {
+      "id": "yt-soongsil-youth-context-precollege",
+      "songId": "soongsil-roar-of-youth",
+      "url": "https://www.youtube.com/watch?v=Lmm7mBpqJ6w",
+      "videoId": "Lmm7mBpqJ6w",
+      "title": "2026 예비대학 공연 - 함께하라, 숭실",
+      "channel": "숭실대학교 응원단 WINNI",
+      "publishedAt": "2026-04-03T05:52:52-07:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "‘청춘의 함성’ 직접 표본이 아니다. 신곡 발매 약 두 달 전 예비대학에서 ‘함께하라, 숭실’을 공연한 영상으로, 2026년에도 WINNI가 신입생 행사에서 활동했다는 조직·사용 환경만 입증하는 contextOnly 자료다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "contextOnly",
+        "WINNI2026PrecollegeActivity",
+        "preReleaseOrganizationContext"
+      ]
+    },
+    {
+      "id": "yt-soongsil-youth-context-university",
+      "songId": "soongsil-roar-of-youth",
+      "url": "https://www.youtube.com/watch?v=liTXaNqh4NU",
+      "videoId": "liTXaNqh4NU",
+      "title": "[함께하라, 숭실] 숭실대학교 응원가 퍼포먼스",
+      "channel": "숭실대학교",
+      "publishedAt": "2025-12-05T19:01:06-08:00",
+      "accessedAt": "2026-08-09",
+      "descriptionSummary": "‘청춘의 함성’ 직접 표본이 아니다. 숭실대학교 공식 채널이 직전 응원가 ‘함께하라, 숭실’을 학생기자단 제작 퍼포먼스로 다룬 자료이며, 대학 차원의 응원가 홍보·제작 맥락만 보여 주는 contextOnly 영상이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": [
+        "contextOnly",
+        "universityOfficialCheerPromotionContext",
+        "preReleaseSongProgramContext"
+      ]
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 2,
+    "youtubeSampleCount": 11,
+    "songsMeetingYoutubeMinimum": 2,
+    "openIssueCount": 9
+  }
+}

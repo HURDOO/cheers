@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-hufs-seoul-b",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-hufs-seoul",
+    "name": "한국외국어대학교 서울",
+    "type": "university"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문은 저장하지 않는다. 저작권이 있는 원곡과 개사 응원가는 출처·권리 상태·구조 요약만 기록한다.",
+  "items": [
+    {
+      "id": "hufs-seoul-for-tomorrow",
+      "title": "내일을 위해",
+      "aliases": ["내일을 위하여"],
+      "currentStatus": "current-introduced-in-2024",
+      "summary": "아이유의 ‘있잖아 (Rock Ver.)’를 원곡으로 한 2024년 한국외대 응원가다. 2024년 10월 제2회 퀸쿠아트리아에서 새로 공개됐다는 공식 설명과 같은 행사 전 응원법·가사지, 2025 제3회 응원제, 2026 신입생 환영회가 이어진다. 공식 영상 한 건은 ‘내일을 위하여’라고 쓰지만 다수 공식 제목과 총학생회 표기는 ‘내일을 위해’이므로 전자는 별칭·오기 가능 표기로 보존했다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "아이유 ‘있잖아 (Rock Ver.)’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-b-tomorrow-live-2024", "yt-hufs-b-tomorrow-freshman-2026", "yt-hufs-b-tomorrow-origin"],
+          "notes": "2024·2026 응원단 설명이 원곡을 직접 병기하고 1theK 공식 MV 설명으로 Rock Ver.의 정체를 교차했다."
+        },
+        {
+          "field": "introduction",
+          "value": "2024년 10월 8일 제2회 퀸쿠아트리아에서 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-b-tomorrow-council-2024", "yt-hufs-b-tomorrow-live-2024"],
+          "notes": "행사 전 총학생회 안무 안내와 행사 후 응원단의 ‘새로운 응원제 공개’ 설명이 맞물린다."
+        },
+        {
+          "field": "officialTitle",
+          "value": "내일을 위해; ‘내일을 위하여’ 표기 1건은 별칭·오기 가능성으로 병기",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-b-tomorrow-council-2024", "yt-hufs-b-tomorrow-live-2024", "yt-hufs-b-tomorrow-guide-2025", "yt-hufs-b-tomorrow-freshman-2026"],
+          "notes": "영상 제목과 공연곡 표기는 반복해서 ‘내일을 위해’를 사용하고, 2025 가이드 설명 본문만 ‘내일을 위하여’라고 적는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 환영회 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-b-tomorrow-freshman-2026"],
+          "notes": "2026년 공식 단독 공연 영상으로 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "퀸쿠아트리아와 신입생 환영회에서 빠른 록 리듬과 밝은 단체 안무로 관중의 호응을 끌어올리는 고유 개사곡으로 사용한다.",
+        "총학생회는 2024 행사 전에 안무 영상과 가사지를 배포해 관중이 현장에서 함께 부르고 움직이도록 준비했다."
+      ],
+      "trivia": [
+        {
+          "id": "tomorrow-title-variant",
+          "summary": "2025 응원법 가이드의 영상 제목은 ‘내일을 위해’인데 설명 본문은 ‘내일을 위하여’라고 적는다. 다른 공식 자료가 전자를 일관되게 사용하므로 두 표기를 합쳐 지우지 않고 정식명과 별칭으로 분리했다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-b-tomorrow-guide-2025", "yt-hufs-b-tomorrow-live-2024", "yt-hufs-b-tomorrow-freshman-2026"]
+        },
+        {
+          "id": "tomorrow-source-version",
+          "summary": "‘있잖아’는 첫 미니앨범 수록 원곡과 정규 1집의 Rock Ver.이 별개로 존재한다. 한국외대 공식 영상이 연결한 1theK URL과 공연의 빠른 편곡은 Rock Ver.을 가리킨다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-b-tomorrow-live-2024", "yt-hufs-b-tomorrow-origin"]
+        },
+        {
+          "id": "tomorrow-comments",
+          "summary": "한국외대 공식 안무 영상 댓글은 짧게 공연 완성도를 칭찬한다. 원곡 MV 댓글은 오래된 곡이지만 촌스럽지 않다는 평가와 아이유 초기 활동에 대한 회고가 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hufs-b-tomorrow-council-2024", "yt-hufs-b-tomorrow-origin"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "adaptation of copyrighted IU song; original recording is copyrighted and HUFS lyric, arrangement, choreography, and permission details are not documented here",
+        "sourceUrls": ["https://www.youtube.com/watch?v=clsIHu4Jces", "https://www.youtube.com/watch?v=7WINyXmPRAE"],
+        "structureSummary": "Rock Ver.의 빠른 도입, 짧은 절, 반복되는 질문형 후렴 골격을 유지하면서 연애 고백의 대상을 외대 공동체의 도전·내일·승리 메시지로 바꾼 개사곡이다. 군중이 따라 하기 쉬운 구호와 손동작을 후렴에 배치한다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-hufs-b-tomorrow-council-2024", "yt-hufs-b-tomorrow-live-2024", "yt-hufs-b-tomorrow-live-2025", "yt-hufs-b-tomorrow-guide-2025", "yt-hufs-b-tomorrow-freshman-2026", "yt-hufs-b-tomorrow-origin"],
+      "unresolved": [
+        "한국외대판 개사·편곡·녹음 참여자와 안무 제작자 개인별 크레딧",
+        "아이유 원곡의 개사·편곡 이용허락과 응원 음원 마스터 소유자",
+        "‘내일을 위하여’ 표기가 의도한 공식 별칭인지 단순 오기인지",
+        "2024년 10월 8일 이전 비공개·소규모 초연 여부"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-hufs-b-namu-event",
+      "type": "community-wiki",
+      "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%99%B8%EA%B5%AD%EC%96%B4%EB%8C%80%ED%95%99%EA%B5%90/%ED%96%89%EC%82%AC",
+      "title": "한국외국어대학교/행사",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "퀸쿠아트리아 등 학교 축제를 설명하는 편집형 문서다. 검색 가능한 본문에는 ‘내일을 위해’의 원곡·도입연도·제작진을 판정할 곡별 정보가 없어 공식 영상 설명을 우선했다.",
+      "supports": ["나무위키 확인", "축제 맥락", "곡별 정보 공백"]
+    },
+    {
+      "id": "ev-hufs-b-quin-2023-news",
+      "type": "news",
+      "url": "https://www.newsis.com/view/NISX20231005_0002472662",
+      "title": "한국외대, 가을 대동제 ‘퀸쿠아트리아’ 개최",
+      "publisher": "뉴시스",
+      "publishedAt": "2023-10-05",
+      "accessedAt": "2026-08-09",
+      "summary": "퀸쿠아트리아 응원제에서 아이기스와 중앙밴드가 공연하는 행사 구조를 보도한다. 2024 신곡의 직접 근거는 아니며 행사 맥락 교차용이다.",
+      "supports": ["퀸쿠아트리아 응원제 구조", "아이기스 공연 맥락"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-hufs-b-tomorrow-council-2024",
+      "songId": "hufs-seoul-for-tomorrow",
+      "url": "https://www.youtube.com/watch?v=fms68PBjpdg",
+      "videoId": "fms68PBjpdg",
+      "title": "QUINQUATRIA 70th Anniversary | 응원단 안무 영상 및 가사지 - 내일을 위해",
+      "channel": "한국외국어대학교 서울캠퍼스 총학생회",
+      "publishedAt": "2024-09-27",
+      "descriptionSummary": "2024년 10월 8일 응원제를 앞두고 곡의 안무 영상과 가사지를 공개하며 안무 아이기스, 촬영·편집 영상사업단을 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 두 건은 출연자와 공연 완성도를 짧게 칭찬한다."],
+      "supports": ["2024 행사 전 공개", "공식 제목", "안무·영상 제작 주체"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-b-tomorrow-live-2024",
+      "songId": "hufs-seoul-for-tomorrow",
+      "url": "https://www.youtube.com/watch?v=clsIHu4Jces",
+      "videoId": "clsIHu4Jces",
+      "title": "[한국외국어대학교 응원단] 2024 퀸쿠아트리아 응원제 ‘내일을 위해’",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2024-11-18",
+      "descriptionSummary": "2024년 10월 8일 제2회 응원제에서 새로 공개됐다고 설명하고 원곡을 아이유 ‘있잖아’로 직접 표기·연결한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 신곡", "초기 직접 공연", "아이유 있잖아 원곡"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-b-tomorrow-live-2025",
+      "songId": "hufs-seoul-for-tomorrow",
+      "url": "https://www.youtube.com/watch?v=9eaQVcBTz-E",
+      "videoId": "9eaQVcBTz-E",
+      "title": "[한국외국어대학교 응원단] 2025 퀸쿠아트리아 응원제 ‘내일을 위해’",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2025-06-26",
+      "descriptionSummary": "2025년 5월 20일 제3회 퀸쿠아트리아의 공연곡과 6·7기 참여 단원을 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 직접 공연", "지속 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-b-tomorrow-guide-2025",
+      "songId": "hufs-seoul-for-tomorrow",
+      "url": "https://www.youtube.com/watch?v=ulBUwQNX8lE",
+      "videoId": "ulBUwQNX8lE",
+      "title": "[한국외국어대학교 응원단] ‘내일을 위해’ 응원법 가이드 영상",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2025-12-08",
+      "descriptionSummary": "‘2024년도 응원가’라고 설명한다. 제목은 ‘내일을 위해’지만 본문은 ‘내일을 위하여’라고 적어 표기 충돌을 남긴다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 도입연도", "현행 응원법", "제목 변형"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-b-tomorrow-freshman-2026",
+      "songId": "hufs-seoul-for-tomorrow",
+      "url": "https://www.youtube.com/watch?v=NmbLFRh0a3A",
+      "videoId": "NmbLFRh0a3A",
+      "title": "[한국외국어대학교 응원단 아이기스] 한국외대 응원가 ‘내일을 위해’ | 2026 신입생 환영회",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2026-04-04",
+      "descriptionSummary": "2026년 3월 3일 신입생 환영회에서 공연했고 원곡을 ‘있잖아’로 표기하며 안무 권리 고지를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현행", "있잖아 원곡", "안무 권리 고지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-b-tomorrow-origin",
+      "songId": "hufs-seoul-for-tomorrow",
+      "url": "https://www.youtube.com/watch?v=7WINyXmPRAE",
+      "videoId": "7WINyXmPRAE",
+      "title": "IU(아이유) - 있잖아 (Rock Ver.) MV",
+      "channel": "1theK (원더케이)",
+      "publishedAt": "2011-05-16",
+      "descriptionSummary": "정규 1집 후속곡인 Rock Ver.이 첫 미니앨범 수록 원곡의 록 편곡임을 공식 설명한다. 한국외대판이 아니라 원곡 계보 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 아이유 초기 활동을 회고하고 오래 지나도 편곡이 촌스럽지 않다는 평가를 반복한다. 한 댓글의 원곡 가사 전문은 저장하지 않았다."],
+      "supports": ["원곡 정체", "Rock Ver. 계보", "원곡 공식 MV", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 1,
+    "youtubeSampleCount": 6,
+    "songsMeetingYoutubeMinimum": 1,
+    "openIssueCount": 4
+  }
+}

@@ -1,0 +1,1190 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-doosan-d",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-doosan-bears",
+    "name": "두산 베어스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 구단 제작곡, 선수 응원가 재사용곡, 상업 음원 개사곡은 원곡 계보·구조·도입 및 사용 이력·권리 상태만 요약하며 lyrics.fullTextStored는 false로 둔다. 공개 댓글은 작성자를 식별하지 않고 곡의 수용·현장 경험·제목 혼동에 필요한 내용만 익명으로 재서술한다. 나무위키의 연표와 사용 관행은 구단 공식 목록, 동시대 영상·기사, 음원 메타데이터와 교차하고 단독 주장에는 reported를 붙인다.",
+  "items": [
+    {
+      "id": "doosan-bears-strongest-doosan-seungnihari",
+      "title": "최강두산 승리하리라",
+      "aliases": ["최강두산 승리하라", "최강두산 오오오", "최강두산", "최강두산 승리하리라(공식 목록 표기)"],
+      "currentStatus": "current-core-official-cleaning-time-2026",
+      "summary": "두산의 2025·2026 구단 공식 플레이리스트가 ‘최강두산 승리하리라’라는 제목으로 싣는 장기 사용 팀 응원가다. 그러나 현행 나무위키의 절 제목은 ‘최강두산 승리하라’, 2016년 팬 음원 제목은 ‘최강두산 오오오’여서 세 제목 층위가 공존한다. 나무위키는 2013년부터 사용하고 클리닝타임에 재생한다고 기록하며, 2015 치어리더 공연과 2018·2019 잠실 직캠이 연속 사용을 직접 보여 준다. 외부 상업곡 원곡은 확인되지 않아 구단 제작 원곡으로 추정하되 작사·작곡·편곡·보컬 크레딧은 미확인으로 남겼다. 짧은 팀명·승리 구호, 관중 박수, 반복 합창으로 구성되어 긴 공수교대 시간에 맞는 공연형 응원이다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "최강두산 승리하리라",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-official-2025", "ev-doosan-d-official-2026", "yt-doosan-d-strong-official-2025", "yt-doosan-d-strong-official-2026"],
+          "notes": "BEARS TV가 2025년 21:14, 2026년 21:24 챕터에 같은 제목을 연속 표기하므로 사이트 정본은 구단 최신 표기를 우선한다."
+        },
+        {
+          "field": "titleConflict",
+          "value": "나무위키 ‘최강두산 승리하라’·과거 팬 음원 ‘최강두산 오오오’·구단 최신 ‘최강두산 승리하리라’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-strong-audio-2016", "yt-doosan-d-strong-field-2018", "yt-doosan-d-strong-official-2026"],
+          "notes": "같은 음원과 구조를 가리키는 제목 차이로 보이지만 구단의 공식 개명 공지나 변경 시점은 찾지 못했다. 세 표기를 별칭으로 보존한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2013",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-strong-cheer-2015"],
+          "notes": "현행 나무위키의 사용 연도다. 2013년 제작 공지나 첫 경기 영상은 이번 조사에서 확보하지 못했고, 가장 이른 직접 표본은 2015년이다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "클리닝타임의 치어리딩·관중 합창",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-strong-cheer-2015", "yt-doosan-d-strong-field-2018", "yt-doosan-d-strong-field-2019"],
+          "notes": "문서는 클리닝타임 곡으로 설명하고 여러 시즌 직캠이 치어리더 전곡 공연을 보여 주지만, 고정 이닝과 2026 운영 순서는 확인하지 못했다."
+        },
+        {
+          "field": "sourceWork",
+          "value": "외부 원곡이 확인되지 않은 구단 제작곡으로 추정",
+          "assessment": "inferred",
+          "confidence": "low",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-strong-audio-2016"],
+          "notes": "조사한 편집 문서·음원 제목 어디에도 외부 원곡이 제시되지 않는다. 이는 창작 크레딧 확인을 대신하지 않으므로 원곡 없음으로 확정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 구단 공식 팀 응원가 목록 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-strong-official-2025", "yt-doosan-d-strong-official-2026"],
+          "notes": "공식 챕터 제목과 완성 음원이 두 시즌 연속 일치한다."
+        }
+      ],
+      "usageContexts": [
+        "나무위키는 클리닝타임에 나오는 응원가로 분류하며, 긴 음원을 치어리더 안무와 관중 박수에 맞춰 전곡 공연한다.",
+        "팀명과 승리 구호를 짧게 주고받은 뒤 정형 박수 구간을 거쳐 같은 합창으로 돌아오는 공수교대형 구조다.",
+        "2015·2018·2019 직캠은 홈·원정 구장에서 치어리더가 큰 팔 동작과 박수로 곡을 이끄는 모습을 보여 준다.",
+        "2025·2026 공식 목록에는 독립 팀 응원가로 남아 있으나 실제 2026 고정 이닝은 별도 진행표가 필요하다."
+      ],
+      "trivia": [
+        {
+          "id": "strongest-doosan-three-title-layers",
+          "summary": "후렴 첫 구절에서 따온 ‘최강두산 오오오’, 명령형 문서 제목 ‘최강두산 승리하라’, 최신 구단 목록 ‘최강두산 승리하리라’가 같은 곡을 가리킨다. 검색·카드 별칭을 모두 유지해야 과거 영상이 누락되지 않는다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-strong-audio-2016", "yt-doosan-d-strong-field-2018", "yt-doosan-d-strong-official-2026"]
+        },
+        {
+          "id": "strongest-doosan-stadium-atmosphere",
+          "summary": "과거 음원 댓글에는 잠실에서 들을 때 놀이공원처럼 들뜨고 중독성이 있다는 반응과 최근에는 왜 자주 나오지 않느냐는 질문이 함께 남아 있다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-doosan-d-strong-audio-2016"]
+        },
+        {
+          "id": "strongest-doosan-title-evolution-unannounced",
+          "summary": "2018·2019 현장 영상 제목은 ‘승리하라’를 쓰지만 2025년부터 구단 목록은 ‘승리하리라’를 쓴다. 공개 개명 공지가 없어 제목이 언제·왜 정리됐는지는 남은 쟁점이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-strong-field-2018", "yt-doosan-d-strong-field-2019", "yt-doosan-d-strong-official-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "apparently commissioned or team-produced stadium song; lyric, composition, arrangement, recording and redistribution rights and credits remain unconfirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=rdypuB4eg7s",
+          "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=1284s",
+          "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "팀명과 승리 명령을 모음 합창으로 주고받는 짧은 블록을 두 차례 반복하고, 정형 박수·팀명 구호 구간을 삽입한 뒤 처음 블록으로 돌아간다. 마지막에는 단결과 응원 구호를 압축해 여러 번 찍으며 끝난다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-d-strong-audio-2016",
+        "yt-doosan-d-strong-cheer-2015",
+        "yt-doosan-d-strong-field-2018",
+        "yt-doosan-d-strong-field-2019",
+        "yt-doosan-d-strong-official-2025",
+        "yt-doosan-d-strong-official-2026"
+      ],
+      "unresolved": [
+        "2013년 제작·최초 공개·첫 경기 사용일과 당시 원본 영상",
+        "작사·작곡·편곡·보컬·녹음 제작의 공식 크레딧과 외부 원곡 존재 여부",
+        "‘최강두산 오오오’·‘최강두산 승리하라’에서 ‘최강두산 승리하리라’로 공식 표기가 정리된 시점과 근거",
+        "2026 정규시즌 클리닝타임의 고정 이닝·실제 사용 빈도와 재배포 권리 범위"
+      ]
+    },
+    {
+      "id": "doosan-bears-strongest-doosan-chant",
+      "title": "최강두산 구호",
+      "aliases": ["워워워워 최강두산", "워워워 최강두산", "최강두산 점프 구호", "최용제 응원가 재활용곡"],
+      "currentStatus": "current-core-official-jump-chant-2026",
+      "summary": "2022년 4월 1일 BEARS TV가 공개한 최용제 선수 응원가의 선율을, 최용제가 그해 10월 재계약 불가 통보를 받은 뒤 2023년 팀 구호로 바꾼 곡이다. 2023년 3월 25일 현장 영상은 ‘최용제 응원가 재활용’이라고 제목에 직접 적고, 같은 시즌 모음은 41:35에 팀 구호를 수록한다. 나무위키는 한재권 응원단장이 팀곡으로 재사용했다고 설명하며, 보컬 황석빈 문서는 최용제판과 팀곡 ‘워워워워 최강두산’ 양쪽 녹음 참여를 적지만 별도 음원 크레딧은 찾지 못해 보고 수준으로 둔다. 긴 모음 뒤 팀명을 외치는 매우 단순한 구조와 제자리 점프가 결합돼 현장 평가가 좋았고, 2025·2026 공식 목록은 제목을 ‘최강두산 구호’로 정리한다.",
+      "claims": [
+        {
+          "field": "melodicLineage",
+          "value": "2022 최용제 선수 응원가 → 2023 최강두산 팀 구호",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-chant-player-official-2022", "yt-doosan-d-chant-team-first-2023", "ev-doosan-d-namu-cheers", "ev-doosan-d-namu-choi-yongje"],
+          "notes": "구단 공식 선수곡 공개본과 이듬해 같은 선율을 팀명으로 바꾼 현장 영상이 직접 이어진다."
+        },
+        {
+          "field": "teamIntroduction",
+          "value": "2023년, 늦어도 2023-03-25 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-chant-team-first-2023", "yt-doosan-d-chant-season-2023"],
+          "notes": "나무위키의 2023 표기와 3월 25일 날짜가 특정된 현장 영상이 일치한다. 정확한 공식 공개·첫 사용일은 확인하지 못했다."
+        },
+        {
+          "field": "reuseReason",
+          "value": "최용제의 2022년 방출 뒤 선수명을 팀명으로 바꾸어 재사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-choi-release-news", "ev-doosan-d-namu-choi-yongje", "yt-doosan-d-chant-team-first-2023"],
+          "notes": "동시대 방출 보도와 구단 선수곡, 다음 시즌 팀곡이 시간 순서로 이어진다."
+        },
+        {
+          "field": "creationCredits",
+          "value": "한재권 자작곡·황석빈 보컬로 문서화됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-d-namu-choi-yongje", "ev-doosan-d-namu-hwang-seokbin", "yt-doosan-d-chant-player-official-2022"],
+          "notes": "편집형 인물 문서가 한재권의 재사용과 황석빈의 두 버전 녹음을 기록한다. 구단 공식 영상에는 작곡·보컬 크레딧이 없어 독립 확정하지 않았다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "자리에서 뛰며 긴 모음과 팀명 구호를 반복하는 점프 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-chant-team-first-2023", "yt-doosan-d-chant-field-2024", "yt-doosan-d-chant-sajik-2025"],
+          "notes": "문서 설명과 복수 현장 영상이 같은 참여 동작을 보여 준다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 구단 공식 목록 및 2025·2026 현장·팬 목록 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-chant-official-2025", "yt-doosan-d-chant-sajik-2025", "yt-doosan-d-chant-fanlist-may-2026", "yt-doosan-d-chant-official-2026"],
+          "notes": "2025 공식 22:48, 2026 공식 22:57 챕터와 날짜가 특정된 현장·전광판 목록이 교차한다."
+        }
+      ],
+      "usageContexts": [
+        "긴 모음을 부르는 동안 관중이 제자리에서 뛰고 마지막 팀명에서 팔과 목소리를 모으는 단순 점프 응원이다.",
+        "2023년 시범경기부터 팀 응원으로 직접 확인되고, 2024년 현장 단독 영상과 2025 사직 원정 영상에도 이어진다.",
+        "선수 호명만 팀명으로 바꿀 수 있는 구조라 최용제 개인곡에서 팀 전체 구호로 자연스럽게 전환됐다.",
+        "2025·2026 공식 목록은 짧은 38~39초 독립 트랙으로 두어 긴 팀곡 사이의 빠른 분위기 전환에 쓰기 적합하다."
+      ],
+      "trivia": [
+        {
+          "id": "chant-outlived-player",
+          "summary": "최용제판은 2022년 4월 공개됐지만 선수는 그 시즌 1군 한 타석 뒤 방출됐다. 댓글에서는 선수곡으로 거의 부르지 못한 선율이 팀 응원으로 살아남았다는 점을 반복해 언급한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-chant-player-official-2022", "ev-doosan-d-choi-release-news", "yt-doosan-d-chant-team-first-2023"]
+        },
+        {
+          "id": "chant-simple-structure-reception",
+          "summary": "최용제판 공개 댓글은 가사가 지나치게 단순하다는 비판과, 오히려 육성 떼창에 가장 잘 맞는 웅장한 구조라는 호평으로 갈렸다. 팀곡 전환 뒤에는 현장에서 매우 신난다는 반응이 우세하다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-chant-player-official-2022", "yt-doosan-d-chant-team-first-2023"]
+        },
+        {
+          "id": "chant-alias-to-official-title",
+          "summary": "2023·2024 팬 영상은 소리를 그대로 옮긴 ‘워워워워 최강두산’을 썼고, 구단은 2025·2026 목록에서 기능 중심의 ‘최강두산 구호’로 표준화했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-chant-season-2023", "yt-doosan-d-chant-field-2024", "yt-doosan-d-chant-official-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "team/player cheer composition with no external source work identified; composition, arrangement, vocal recording and reuse rights are not formally credited in the official video",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=u__bCHYcAhI&t=216s",
+          "https://www.youtube.com/watch?v=6I-GrKI7ITc",
+          "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=1377s"
+        ],
+        "structureSummary": "상승하는 긴 모음 구호를 세 덩어리로 이어 붙인 뒤 팀명을 짧게 찍는 한 문장 구조를 네 차례 반복한다. 선수판과 팀판은 마지막 호명 대상만 달라 선율·리듬의 연속성이 분명하다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-d-chant-player-official-2022",
+        "yt-doosan-d-chant-team-first-2023",
+        "yt-doosan-d-chant-season-2023",
+        "yt-doosan-d-chant-field-2024",
+        "yt-doosan-d-chant-official-2025",
+        "yt-doosan-d-chant-fanlist-2025",
+        "yt-doosan-d-chant-sajik-2025",
+        "yt-doosan-d-chant-fanlist-may-2026",
+        "yt-doosan-d-chant-fanlist-june-2026",
+        "yt-doosan-d-chant-official-2026"
+      ],
+      "unresolved": [
+        "2023 팀 구호의 공식 공개일과 정확한 최초 경기 사용일",
+        "최용제판과 팀판의 작사·작곡·편곡·보컬·녹음 공식 크레딧",
+        "한재권 작곡·황석빈 보컬이라는 편집형 문서 주장의 1차 크레딧 확인",
+        "2026 경기 중 고정 사용 상황·빈도와 점프 안무의 공식 진행 지침",
+        "선수 응원가를 팀곡으로 바꾼 음원·가사·녹음의 권리 귀속과 외부 재배포 허용 범위"
+      ]
+    },
+    {
+      "id": "doosan-bears-haenaetda-doosan",
+      "title": "해냈다 두산",
+      "aliases": ["해냈다! 두산", "해냈다 해냈어", "해냈다 해냈어 두산이 해냈어", "해냈다 송 두산판"],
+      "currentStatus": "current-official-post-victory-song-2026",
+      "summary": "2005년 5월 5일 어린이날 LG전에서 처음 공개한 승리 후 응원가다. 동시대 조이뉴스24 보도에 따르면 애니메이션 ‘뚱보가 된 백설공주’ 삽입곡 ‘해냈다 송’을 두산에 맞게 개사했고, 서울음반이 약 20명의 합창으로 녹음했으며 바른손·서울음반·프림포가 응원가와 3D 전광판 영상을 함께 만들었다. 나무위키 문서 제목은 ‘해냈다! 두산’, 본문 음원 표시는 첫 후렴에서 온 ‘해냈다 해냈어’, 최신 구단 목록은 ‘해냈다 두산’이어서 세 표기를 별칭으로 보존한다. 2012년 리마스터 주장은 편집 문서와 구·신 음원 아카이브가 보조하지만 공식 발매 자료가 없어 reported로 남겼다. 경기 승리 직후 재생되는 대표 곡이며 2025·2026 공식 목록에도 연속 수록된다.",
+      "claims": [
+        {
+          "field": "firstPublicUse",
+          "value": "2005-05-05 LG전 어린이날 홈경기 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-haenaetda-launch-news", "ev-doosan-d-namu-cheers"],
+          "notes": "행사 하루 전 동시대 보도가 경기·공개일·프로모션 내용을 구체적으로 예고한다."
+        },
+        {
+          "field": "sourceWork",
+          "value": "애니메이션 ‘뚱보가 된 백설공주’ 삽입곡 ‘해냈다’ 또는 ‘해냈다 송’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-haenaetda-launch-news", "ev-doosan-d-ost-cd", "yt-doosan-d-didit-old-version-2020"],
+          "notes": "동시대 기사와 OST CD 트랙 19 ‘해냈다’가 원천 작품을 교차하며, 올드 버전 댓글도 같은 원곡명을 식별한다. 원곡 작가·가창자는 미확인이다."
+        },
+        {
+          "field": "launchProduction",
+          "value": "바른손·서울음반·프림포 공동 프로모션; 약 20명 합창과 키씨아이 3D 모션 영상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-haenaetda-launch-news", "ev-doosan-d-ost-cd"],
+          "notes": "기사에 참여 회사와 제작 역할이 구체적으로 적혀 있다. 개인 작가·합창자 명단은 없다."
+        },
+        {
+          "field": "remasterHistory",
+          "value": "2012년 현행판으로 리마스터",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-didit-audio-2016", "yt-doosan-d-didit-old-version-2020"],
+          "notes": "나무위키가 2012년 리마스터를 명시하고 구·신 버전 아카이브가 별도로 존재하지만, 2012 공식 공지·발매일·크레딧을 찾지 못했다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "두산 승리로 경기 종료 시 재생되는 사후 축하곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-didit-audio-2016", "yt-doosan-d-didit-victory-2019", "yt-doosan-d-didit-season-2023"],
+          "notes": "음원 설명이 승리 종료 시 사용을 직접 밝히고 마지막 아웃카운트 현장 영상과 시즌 모음의 마지막 배치가 일치한다."
+        },
+        {
+          "field": "officialAndCommonTitles",
+          "value": "최신 공식 ‘해냈다 두산’; 문서명 ‘해냈다! 두산’; 후렴 통용명 ‘해냈다 해냈어’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-didit-early-2011", "yt-doosan-d-didit-official-2025", "yt-doosan-d-didit-official-2026"],
+          "notes": "제목·문장부호·후렴 통칭의 차이이며 별도 곡으로 분리하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 구단 공식 팀 응원가 목록 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-didit-official-2025", "yt-doosan-d-didit-official-2026"],
+          "notes": "각각 23:27과 23:35 독립 챕터다."
+        }
+      ],
+      "usageContexts": [
+        "마지막 아웃카운트 뒤 두산의 승리가 확정되면 장내에 재생되는 경기 종료 축하곡이다.",
+        "반복 후렴은 응원단 안내 없이도 즉시 합창하기 쉬워 승리 뒤 관중석과 퇴장 동선의 여운을 만든다.",
+        "2005 어린이날 첫 공개 당시에는 어린이용 애니메이션 상영과 3D 캐릭터 전광판 영상이 결합된 가족 프로모션이었다.",
+        "2025·2026 공식 목록에서는 승리곡이면서도 다른 팀 응원가와 동일하게 독립 전곡 음원으로 제공된다."
+      ],
+      "trivia": [
+        {
+          "id": "didit-childrens-day-launch",
+          "summary": "첫 공개일은 어린이날 잠실 라이벌전이었다. 경기 전 원작 애니메이션을 전광판으로 상영하고 어린이 관중에게 기념물을 배포하는 행사와 응원가·3D 영상 공개를 묶었다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-haenaetda-launch-news"]
+        },
+        {
+          "id": "didit-internet-sound-effect",
+          "summary": "짧고 결과가 분명한 후렴 때문에 야구 밖의 인터넷 영상·방송에서 성공 장면 효과음이나 반어적 실패 밈으로 폭넓게 재사용됐다. 직접 음원 댓글도 다양한 인터넷 콘텐츠를 통해 곡을 알게 됐다는 반응이 많다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-didit-early-2011", "yt-doosan-d-didit-audio-2016"]
+        },
+        {
+          "id": "didit-old-new-archives",
+          "summary": "같은 팬 채널에 현행 음원과 ‘올드 버전’이 별도로 남아 있어 편곡·믹스 변화를 청취 비교할 수 있다. 다만 그 차이가 곧 2012 리마스터의 공식 마스터 구분이라는 보증은 아니다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-doosan-d-didit-audio-2016", "yt-doosan-d-didit-old-version-2020"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted adaptation of the children's animation song ‘해냈다’; original OST, adapted lyric, arrangement, choir recording, character video and remaster rights remain with their respective owners",
+        "sourceUrls": [
+          "https://www.joynews24.com/view/150194",
+          "https://www.yes24.com/Product/goods/4022107",
+          "https://www.youtube.com/watch?v=9gGCzLUHXHw"
+        ],
+        "structureSummary": "성공을 선언하는 짧은 두 문장 후렴을 먼저 반복하고, 팀이 이길 것이라는 안심·단결 메시지를 담은 중간부로 이동한 뒤 같은 후렴을 여러 차례 되돌린다. 마지막은 핵심 동사를 박자에 맞춰 강조해 승리 확정의 종지감을 만든다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-d-didit-early-2011",
+        "yt-doosan-d-didit-audio-2016",
+        "yt-doosan-d-didit-victory-2019",
+        "yt-doosan-d-didit-old-version-2020",
+        "yt-doosan-d-didit-season-2023",
+        "yt-doosan-d-didit-official-2025",
+        "yt-doosan-d-didit-fanlist-2025",
+        "yt-doosan-d-didit-fanlist-2026",
+        "yt-doosan-d-didit-official-2026"
+      ],
+      "unresolved": [
+        "원작 OST ‘해냈다’의 작사·작곡·가창·최초 발매일과 영화·음반 권리자",
+        "2005 두산 개사·편곡·약 20명 합창 녹음의 개인별 제작 크레딧",
+        "2012 리마스터의 공식 공개일·제작자·구판과 현행판의 정확한 마스터 차이",
+        "2026 승리 뒤 실제 재생 순서·빈도와 다른 승리곡과의 운영 구분",
+        "원작 OST·두산 개사판·3D 키씨아이 영상·리마스터 음원의 외부 재배포 권리 범위"
+      ]
+    },
+    {
+      "id": "doosan-bears-haeya",
+      "title": "해야",
+      "aliases": ["해야떠라", "해야 떠라", "두산 해야", "두산 해야떠라"],
+      "currentStatus": "current-revived-official-high-momentum-2026",
+      "summary": "마그마가 1980년 제4회 MBC 대학가요제에서 은상을 받은 ‘해야’를 경기장용으로 편곡·개사한 팀 응원가다. 금영 공식 곡 정보는 박두진 작사, 조하문·김광현 작곡을 제시한다. 두산판의 시작 연도는 확정 자료가 없어 나무위키의 2011년을 비공식 시작 연도로 두며, 2011~2017 사용 뒤 저작권 문제로 중단되고 2025년에 돌아왔다는 문서 서술과 BEARS TV의 ‘8년 만’ 표현을 함께 기록한다. 2025년 3월 22일 공식 플레이리스트가 온라인 복귀를 확정했고, 3월 28일 잠실 홈 개막전이 공식 현장 복귀일이다. 나무위키의 ‘연세대 해야를 모티브로 했다’는 인과 주장은 사용자 승인과 충돌하므로 상충 주장으로만 보존하며, 정본은 연세대판과 두산판이 같은 마그마 원곡을 공유하되 가사는 완전히 다른 별도 개사곡이라는 판정이다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "마그마 — 해야; 박두진 작사, 조하문·김광현 작곡; 1980 MBC 대학가요제 은상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-mbc-1980-haeya", "ev-doosan-d-bugs-magma-haeya", "ev-doosan-d-ky-magma-credits", "yt-doosan-d-haeya-audio-2016"],
+          "notes": "MBC가 곡·팀·수상 연도를 확인하고 금영 공식 채널이 작사·작곡자를 제공하며 벅스가 상업 음원을 교차한다."
+        },
+        {
+          "field": "relationshipToYonseiHaeya",
+          "value": "연세대 ‘해야’와 마그마 원곡을 공유하지만 가사가 완전히 다른 별개 개사곡",
+          "assessment": "user-adjudicated",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-user-decision-haeya", "ev-doosan-d-mbc-1980-haeya", "ev-doosan-d-namu-cheers"],
+          "notes": "나무위키는 연세대판을 모티브로 삼았다고 적지만 직접 제작자 증언이 없다. 사용자 확정에 따라 직접 차용이 아니라 공통 원곡 관계로 정리하고 문서 주장은 충돌 항목으로 남긴다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2011 (비공식 시작 연도; 정확한 도입일 불명확)",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "ev-doosan-d-user-decision-haeya"],
+          "notes": "나무위키도 ‘2011년부터 사용한 것으로 보인다’고 유보한다. 2011년 최초 경기 원본은 확보하지 못했다."
+        },
+        {
+          "field": "usePeriods",
+          "value": "2011~2017, 2025~",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "ev-doosan-d-user-decision-haeya", "yt-doosan-d-haeya-archive-2020", "yt-doosan-d-haeya-home-return-2025"],
+          "notes": "중단 전후의 연표는 편집 문서와 ‘추억의 응원가’ 아카이브, 구단의 ‘8년 만’ 복귀 표현이 맞물린다."
+        },
+        {
+          "field": "copyrightHiatus",
+          "value": "2017년 8월부터 2024년까지 저작권 문제로 사용 중단",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-haeya-archive-2020"],
+          "notes": "정확한 권리단체·계약·중단 경기는 공개 1차 자료로 확인하지 못했다. 당시 팬 댓글도 저작권 중단을 인지하고 있었다."
+        },
+        {
+          "field": "officialReturn",
+          "value": "2025-03-22 공식 플레이리스트로 온라인 복귀; 2025-03-28 잠실 홈 개막전에서 현장 복귀",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-haeya-official-2025", "yt-doosan-d-haeya-home-return-2025", "ev-doosan-d-home-opener-news"],
+          "notes": "BEARS TV 목록 공개일과 3월 28일 홈 개막전 날짜를 분리했다. 구단은 4월 8일 공개한 직캠에서 이를 ‘8년 만에 잠실로 돌아온 해야’라고 공식 표현했다."
+        },
+        {
+          "field": "returnMix",
+          "value": "과거 음원을 재녹음하지 않고 보컬 음량을 높인 2025 믹스",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-haeya-audio-2016", "yt-doosan-d-haeya-official-2025"],
+          "notes": "문서의 청취 비교 서술이다. 구단 믹싱 크레딧이나 원본 마스터 정보는 없다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "큰 선취점·역전·경기 후반 우세 상황의 고조 응원",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-doosan-d-namu-cheers", "yt-doosan-d-haeya-field-2025", "yt-doosan-d-haeya-home-return-2025"],
+          "notes": "나무위키 설명과 2025년 7회 빅이닝 및 승리 경기 직캠이 일치한다. 모든 경기의 고정 조건은 아니다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 구단 공식 팀 응원가 목록 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-haeya-official-2025", "yt-doosan-d-haeya-official-2026"],
+          "notes": "각각 25:00과 25:06 챕터로 수록된다."
+        }
+      ],
+      "usageContexts": [
+        "큰 선취점이나 역전으로 흐름을 잡았을 때, 또는 경기 종료가 가까운 우세 상황에서 반복 합창으로 분위기를 끌어올린다.",
+        "2025년 3월 28일 홈 개막전 승리 뒤풀이에서 8년 만에 잠실 관중과 다시 불렀고, 4월 18일 7회 빅이닝 직캠도 같은 고조 용도를 보여 준다.",
+        "원곡의 긴 록 서사를 쓰지 않고 핵심 선율에 팀명 중심의 짧은 문장을 얹어 여러 번 반복하는 경기장용 개사다.",
+        "‘해야 해야’와 제목이 비슷하지만 원곡·리듬·가사·타월 응원 방식이 다른 별도 곡이므로 검색과 카드에서 합치지 않는다."
+      ],
+      "trivia": [
+        {
+          "id": "haeya-shared-source-not-direct-borrowing",
+          "summary": "연세대판과 두산판은 모두 마그마 ‘해야’의 선율을 쓰지만 개사 내용은 서로 전혀 다르다. 나무위키의 ‘연세대판 모티브’ 주장은 제작자 직접 증언이 없어 정본 관계로 채택하지 않았다.",
+          "assessment": "user-adjudicated",
+          "confidence": "high",
+          "evidenceRefs": ["ev-doosan-d-user-decision-haeya", "ev-doosan-d-namu-cheers", "ev-doosan-d-mbc-1980-haeya"]
+        },
+        {
+          "id": "haeya-eight-year-return-reception",
+          "summary": "중단기에 올라온 아카이브 댓글은 복귀가 시급하다는 요구가 반복됐고, 2025년 복귀 음원 댓글은 오랜 기다림이 끝났다는 향수와 현장 기대가 압도적이다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-haeya-archive-2020", "yt-doosan-d-haeya-fan-return-a-2025", "yt-doosan-d-haeya-fan-return-b-2025"]
+        },
+        {
+          "id": "haeya-return-arrangement-reaction",
+          "summary": "홈 개막전 공식 직캠 댓글에는 복귀 자체를 반기면서도 과거판의 전주가 빠진 점을 아쉬워하는 반응이 있다. 문서가 말하는 보컬 증폭과 함께 2025판의 편집 차이를 추가 확인할 단서다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-doosan-d-haeya-home-return-2025", "ev-doosan-d-namu-cheers"]
+        },
+        {
+          "id": "haeya-name-confusion",
+          "summary": "팬 댓글에는 공식 제목이 ‘해야’인지 통칭 ‘해야떠라’인지 묻는 반응이 계속되고, 별도 곡 ‘해야 해야’와도 검색 결과가 섞인다. 공식 제목은 2025·2026 구단 챕터의 ‘해야’를 따른다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-doosan-d-haeya-fan-return-a-2025", "yt-doosan-d-haeya-official-2025", "yt-doosan-d-haeya-official-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of Magma's ‘해야’; original poem/song, adapted lyric, arrangement, historic recording and 2025 remix/reuse rights are not documented for redistribution",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/194756",
+          "https://www.youtube.com/watch?v=Hb7CzTIQuNY",
+          "https://www.youtube.com/watch?v=Hr8ER2a_YbY&t=1194s"
+        ],
+        "structureSummary": "마그마 원곡의 상승하는 후렴 선율을 가져와 팀명을 길게 부르는 두 개의 호명과 짧은 팀 구호를 한 블록으로 만들고, 이를 세 차례 반복한다. 원곡의 시적 벌스 전체와 연세대판 개사 가사는 사용하지 않는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-doosan-d-haeya-audio-2016",
+        "yt-doosan-d-haeya-archive-2020",
+        "yt-doosan-d-haeya-fan-return-a-2025",
+        "yt-doosan-d-haeya-fan-return-b-2025",
+        "yt-doosan-d-haeya-official-2025",
+        "yt-doosan-d-haeya-home-return-2025",
+        "yt-doosan-d-haeya-field-2025",
+        "yt-doosan-d-haeya-official-2026"
+      ],
+      "unresolved": [
+        "2011년 최초 사용 경기·정확한 도입일과 두산판 최초 편곡·개사·보컬 크레딧",
+        "2017년 8월 중단을 일으킨 정확한 저작권 쟁점·권리단체·마지막 사용 경기",
+        "2025 복귀를 가능하게 한 이용 허락·계약 조건과 공식 인스타그램 최초 게시 시각",
+        "과거 음원에서 보컬을 키운 2025 믹스의 편곡·믹싱 담당자와 사용 마스터",
+        "2025판 전주 편집 여부와 2011~2017판 사이의 초기 가사·음정 변화",
+        "2026 경기별 고정 사용 조건·빈도 및 원곡·개사·녹음의 외부 재배포 권리 범위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-doosan-d-namu-cheers",
+      "type": "community-reference",
+      "url": "https://namu.moe/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "두산 베어스/응원가",
+      "publisher": "나무모에 미러(나무위키 문서 미러)",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "2026-07-14 수정본의 1.8·1.17·1.22·1.23절을 사용했다. 최강두산 승리하라의 2013년 표기와 클리닝타임 용도, 해냈다 두산의 2005년 어린이날 공개·2012 리마스터·승리 후 사용, 최강두산 구호의 최용제 선수곡 재사용과 점프 응원, 해야의 2011~2017·2025~ 연표·저작권 중단·2025 보컬 증폭판·사용 상황을 제공한다. 전체 가사는 옮기지 않았으며 공식·동시대 자료와 교차했다. 해야의 연세대 직접 모티브 주장은 사용자 결정과 충돌해 상충 주장으로만 보존했다.",
+      "supports": ["strong.historyTitleUsage", "chant.lineageUsage", "didit.historyRemasterUsage", "haeya.historyConflictUsage"]
+    },
+    {
+      "id": "ev-doosan-d-official-2025",
+      "type": "official-video",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "publisher": "BEARS TV",
+      "publishedAt": "2025-03-22",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 공식 2025 목록은 최강두산 승리하리라 21:14, 최강두산 구호 22:48, 해냈다 두산 23:27, 해야 25:00을 연속 표기한다. 네 곡의 당시 공식 제목과 현행성, 해야의 온라인 복귀일을 확정한다.",
+      "supports": ["batch.currentOfficial2025", "batch.officialTitles", "haeya.onlineReturn"]
+    },
+    {
+      "id": "ev-doosan-d-official-2026",
+      "type": "official-video",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "publisher": "BEARS TV",
+      "publishedAt": "2026-03-27",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 공식 2026 목록은 최강두산 승리하리라 21:24, 최강두산 구호 22:57, 해냈다 두산 23:35, 해야 25:06을 수록한다. 최신 공식 제목과 2026 현행성을 직접 확인한다.",
+      "supports": ["batch.currentOfficial2026", "batch.officialTitlesAndChapters"]
+    },
+    {
+      "id": "ev-doosan-d-namu-choi-yongje",
+      "type": "community-reference",
+      "url": "https://namu.moe/w/%EC%B5%9C%EC%9A%A9%EC%A0%9C",
+      "title": "최용제",
+      "publisher": "나무모에 미러(나무위키 문서 미러)",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "최용제가 2022년 한 타석만 소화한 뒤 방출돼 선수 응원가가 사라질 뻔했으나 한재권 응원단장이 선수명 대신 팀명을 넣어 재활용했다고 설명한다. 공식 선수곡과 팀곡 영상으로 선율 계보를 교차했다.",
+      "supports": ["chant.playerLineage", "chant.reportedReuseByHanJaekwon"]
+    },
+    {
+      "id": "ev-doosan-d-namu-hwang-seokbin",
+      "type": "community-reference",
+      "url": "https://namu.moe/w/%ED%99%A9%EC%84%9D%EB%B9%88",
+      "title": "황석빈",
+      "publisher": "나무모에 미러(나무위키 문서 미러)",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "응원가 보컬 황석빈의 두산 녹음 목록에 최용제 응원가와 ‘워워워워 최강두산’을 모두 포함한다. 구단 공식 음원 크레딧이 없으므로 보컬 참여는 reported로만 사용했다.",
+      "supports": ["chant.reportedVocalCredit"]
+    },
+    {
+      "id": "ev-doosan-d-choi-release-news",
+      "type": "contemporary-news",
+      "url": "https://sports.news.nate.com/view/20221013n12889",
+      "title": "왕조의 필승조·백업 포수 방출 통보…두산 선수단 정리 칼바람 [공식발표]",
+      "publisher": "OSEN/네이트 스포츠",
+      "publishedAt": "2022-10-13",
+      "accessedAt": "2026-08-09",
+      "summary": "두산이 포수 최용제를 포함한 7명에게 재계약 불가를 통보했다고 보도한다. 2022년 4월 선수 응원가 공개 뒤 2023년 팀곡으로 재사용된 시간 순서를 확정한다.",
+      "supports": ["chant.playerDeparture2022", "chant.reuseChronology"]
+    },
+    {
+      "id": "ev-doosan-d-haenaetda-launch-news",
+      "type": "contemporary-news",
+      "url": "https://www.joynews24.com/view/150194",
+      "title": "두산, 응원가 '해냈다 두산' 5일 발표",
+      "publisher": "조이뉴스24",
+      "publishedAt": "2005-05-04",
+      "accessedAt": "2026-08-09",
+      "summary": "두산이 2005년 5월 5일 LG와의 홈경기에서 ‘해냈다 두산’ 응원가와 영상을 공개한다고 보도한다. ‘뚱보가 된 백설공주’의 ‘해냈다 송’을 개사했고 서울음반이 약 20명 합창을 제작했으며, 바른손·서울음반·프림포 공동 프로모션과 키씨아이 3D 모션 영상·어린이날 행사를 구체적으로 기록한다.",
+      "supports": ["didit.firstPublic2005", "didit.sourceWork", "didit.productionPartners"]
+    },
+    {
+      "id": "ev-doosan-d-ost-cd",
+      "type": "music-retail-metadata",
+      "url": "https://www.yes24.com/Product/goods/4022107",
+      "title": "V.A. - 뚱보가 된 백설공주 +1 - 키씨아이의 신나는 건강체조 (2CD)",
+      "publisher": "YES24",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "서울음반 레이블의 원작 OST CD 트랙 목록에서 19번 ‘해냈다’와 영어판 ‘We Did It’을 확인한다. 조이뉴스24가 말한 ‘해냈다 송’의 음반 실재를 교차하지만 작가·가창 크레딧은 제공하지 않는다.",
+      "supports": ["didit.ostTrackExistence", "didit.sourceTitle"]
+    },
+    {
+      "id": "ev-doosan-d-mbc-1980-haeya",
+      "type": "official-broadcast-archive",
+      "url": "https://program.imbc.com/Info/1000261100000100000?seq=2089",
+      "title": "1980년 4회 참가자 및 수상자",
+      "publisher": "MBC 역대 대학가요제",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "1980년 제4회 MBC 대학가요제 은상 수상자로 마그마(문영식·김광현·조하문)와 곡 ‘해야’를 공식 기록한다.",
+      "supports": ["haeya.originalArtistTitleYear", "haeya.silverPrize"]
+    },
+    {
+      "id": "ev-doosan-d-bugs-magma-haeya",
+      "type": "music-service",
+      "url": "https://music.bugs.co.kr/track/194756",
+      "title": "해야 — 마그마(Magma)",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "상업 음원 서비스가 곡명 ‘해야’와 아티스트 마그마를 제공한다. 가사 전문은 저장하지 않고 원곡 식별과 권리 상태 확인에만 사용했다.",
+      "supports": ["haeya.originalCommercialTrack"]
+    },
+    {
+      "id": "ev-doosan-d-ky-magma-credits",
+      "type": "official-music-metadata-video",
+      "url": "https://www.youtube.com/watch?v=Hb7CzTIQuNY",
+      "title": "[KY ENTERTAINMENT] 해야 - 마그마 (KY.4626)",
+      "publisher": "금영 노래방 공식 유튜브 채널",
+      "publishedAt": "2020-04-01",
+      "accessedAt": "2026-08-09",
+      "summary": "금영 공식 곡 정보가 제목 ‘해야’, 가수 마그마, 작사 박두진, 작곡 조하문·김광현을 명시한다. 두산판이 가져온 원곡의 창작자 확인에 사용했다.",
+      "supports": ["haeya.originalCredits"]
+    },
+    {
+      "id": "ev-doosan-d-user-decision-haeya",
+      "type": "research-decision",
+      "url": "research/batches/2026-08-07-initial-cheer-songs/decisions.json",
+      "title": "초기 응원가 조사 사용자 승인 — doosan-bears-haeya",
+      "publisher": "cheers2 연구 결정 기록",
+      "publishedAt": "2026-08-07",
+      "accessedAt": "2026-08-09",
+      "summary": "사용자가 두산 ‘해야’와 연세대 ‘해야’를 마그마 원곡을 공유하지만 가사는 별개인 두 개의 개사곡으로 승인했다. 2011년은 나무위키 기반 비공식 시작 연도이며 사용 기간은 2011~2017·2025~, 연세대판 직접 차용설은 상충 주장으로만 보존한다는 결정도 포함한다.",
+      "supports": ["haeya.userAdjudicatedRelationship", "haeya.reportedPeriods"]
+    },
+    {
+      "id": "ev-doosan-d-home-opener-news",
+      "type": "contemporary-news",
+      "url": "https://v.daum.net/v/20250328180819235",
+      "title": "'시작이 좋다' 두산 베어스, 홈 개막전부터 2만3750석 매진 [IS 잠실]",
+      "publisher": "일간스포츠/다음",
+      "publishedAt": "2025-03-28",
+      "accessedAt": "2026-08-09",
+      "summary": "두산의 2025시즌 잠실 홈 개막전 날짜가 3월 28일임을 동시대 기사로 확인한다. BEARS TV가 ‘홈 개막전’·‘8년 만에 잠실로 돌아온 해야’라고 제목 붙인 직캠의 실제 경기일을 교차한다.",
+      "supports": ["haeya.firstHomeReturnDate"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-doosan-d-strong-audio-2016",
+      "songId": "doosan-bears-strongest-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=rdypuB4eg7s",
+      "videoId": "rdypuB4eg7s",
+      "title": "[음원]두산 베어스 응원가 - 최강두산 오오오",
+      "channel": "두산베어스",
+      "publishedAt": "2016-01-02",
+      "descriptionSummary": "설명란은 비어 있지만 제목이 이 곡의 과거 통용명 ‘최강두산 오오오’를 보존하는 음원 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "현장에서 들으면 놀이공원처럼 들뜨고 반복이 중독적이라는 반응이 있다.",
+        "최근 경기에서는 왜 자주 재생되지 않느냐거나 정확한 가사를 묻는 반응도 보인다."
+      ],
+      "supports": ["historical-title", "audio-structure", "fan-reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-strong-cheer-2015",
+      "songId": "doosan-bears-strongest-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=19cwgMzFUm4",
+      "videoId": "19cwgMzFUm4",
+      "title": "150602 두산 베어스 치어리더 - 최강두산 오오오",
+      "channel": "Loge",
+      "publishedAt": "2015-06-05",
+      "descriptionSummary": "2015년 6월 2일 촬영 사실과 출연 치어리더를 적은 현장 영상으로, 적어도 2015시즌 치어리딩 곡으로 사용됐음을 보여 준다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["direct-use-2015", "historical-title", "cheerleading-context"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-strong-field-2018",
+      "songId": "doosan-bears-strongest-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=fKIPcTuAIjA",
+      "videoId": "fKIPcTuAIjA",
+      "title": "두산베어스 치어리더 서현숙 - 최강두산 승리하라 @잠실야구장 [4K 60fps 직캠] 180620 (2018 신한은행 마이카 KBO리그 넥센vs두산)",
+      "channel": "gilsan99",
+      "publishedAt": "2018-07-25",
+      "descriptionSummary": "2018년 6월 20일 잠실 넥센전 치어리더 직캠이며, 현장 통용 제목 ‘최강두산 승리하라’와 치어리딩 사용을 함께 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["direct-use-2018", "alternate-title", "stadium-performance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-strong-field-2019",
+      "songId": "doosan-bears-strongest-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=jfemLq7Qgzw",
+      "videoId": "jfemLq7Qgzw",
+      "title": "두산베어스 치어리더 서현숙 - 최강두산 승리하라 @잠실야구장 [4K 60fps 직캠] 190326 (2019 신한은행 MY CAR KBO리그 키움vs두산)",
+      "channel": "gilsan99",
+      "publishedAt": "2019-04-24",
+      "descriptionSummary": "2019년 3월 26일 잠실 키움전 직캠으로, 전년도와 같은 ‘승리하라’ 표기와 치어리딩 안무의 연속 사용을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 출연자에 대한 짧은 호평뿐이라 곡의 역사나 사용 관행을 추가로 확인할 내용은 없다."
+      ],
+      "supports": ["direct-use-2019", "alternate-title", "usage-continuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-strong-official-2025",
+      "songId": "doosan-bears-strongest-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI&t=1274s",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-22",
+      "descriptionSummary": "구단 공식 2025 팀 응원가 모음의 21:14 챕터가 제목을 ‘최강두산 승리하리라’로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "새 시즌을 앞두고 응원가를 익히거나 야구장 분위기를 미리 느끼는 데 유용하다는 반응이 중심이다."
+      ],
+      "supports": ["official-title", "current-official-2025", "official-audio"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-strong-official-2026",
+      "songId": "doosan-bears-strongest-doosan-seungnihari",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=1284s",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 플레이리스트의 21:24 챕터도 ‘최강두산 승리하리라’를 사용해 최신 정식 표기와 현행 수록을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 목록으로 노래를 예습한다는 반응과 함께 전통 응원가를 더 자주 틀어 달라는 요청을 남긴다."
+      ],
+      "supports": ["official-title", "current-official-2026", "usage-continuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-chant-player-official-2022",
+      "songId": "doosan-bears-strongest-doosan-chant",
+      "url": "https://www.youtube.com/watch?v=u__bCHYcAhI&t=85s",
+      "videoId": "u__bCHYcAhI",
+      "title": "[선공개] 안재석 & 안권수 & 장승현 & 최용제 & 강진성 응원가 대공개!",
+      "channel": "BEARS TV",
+      "publishedAt": "2022-04-01",
+      "descriptionSummary": "구단이 2022년 다섯 선수 응원가를 공개한 영상이다. 네 번째 최용제 응원가는 모음 합창 뒤 선수 이름을 붙이는 짧은 구호형으로, 훗날 팀 구호의 직접 전신이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "일부는 너무 단순하다고 평가하지만, 다른 팬들은 웅장하고 모두가 바로 따라 하기 좋은 구조라고 반긴다."
+      ],
+      "supports": ["player-cheer-origin", "official-2022", "chant-structure"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-chant-team-first-2023",
+      "songId": "doosan-bears-strongest-doosan-chant",
+      "url": "https://www.youtube.com/watch?v=6I-GrKI7ITc",
+      "videoId": "6I-GrKI7ITc",
+      "title": "두산 베어스 새로운 팀응원가 (최용제 응원가 재활용)",
+      "channel": "EK HWANG",
+      "publishedAt": "2023-03-25",
+      "descriptionSummary": "최용제 응원가의 이름 자리를 팀명으로 바꾼 새 팀 응원가를 기록한 초기 현장 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "2023년 시범경기에서 직접 불렀다는 관중 반응이 있어 팀 공용 전환 시점을 보강한다."
+      ],
+      "supports": ["team-conversion-2023", "player-cheer-reuse", "early-field-use"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-chant-season-2023",
+      "songId": "doosan-bears-strongest-doosan-chant",
+      "url": "https://www.youtube.com/watch?v=RMbrFYRWWtY&t=2495s",
+      "videoId": "RMbrFYRWWtY",
+      "title": "2023시즌 두산베어스 응원 모음",
+      "channel": "잭참새",
+      "publishedAt": "2024-03-01",
+      "descriptionSummary": "설명란 41:35에 ‘워워워워 최강두산’이라는 통용 제목으로 수록된 2023시즌 응원 모음이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 야구장 방문 전 예습용으로 듣는다고 말하고 팀명을 길게 외치는 구호의 현장감을 반긴다."
+      ],
+      "supports": ["season-2023", "common-title", "fan-practice"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-chant-field-2024",
+      "songId": "doosan-bears-strongest-doosan-chant",
+      "url": "https://www.youtube.com/watch?v=vzlkezu6klQ",
+      "videoId": "vzlkezu6klQ",
+      "title": "두산베어스 팀응원가 워워워워 최강두산 20240924",
+      "channel": "잭참새",
+      "publishedAt": "2025-02-09",
+      "descriptionSummary": "2024년 9월 24일 경기에서 촬영한 독립 현장 영상으로, 선수명이 아닌 팀명을 넣는 현행 구호 사용을 보여 준다. 설명란은 촬영 장비 정보 위주다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["direct-use-2024", "team-version", "common-title"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-chant-official-2025",
+      "songId": "doosan-bears-strongest-doosan-chant",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI&t=1368s",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-22",
+      "descriptionSummary": "구단 공식 2025 목록의 22:48 챕터가 ‘최강두산 구호’라는 정식 제목을 부여한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 목록을 새 시즌 관람 전 응원 연습용으로 활용한다."
+      ],
+      "supports": ["official-title", "current-official-2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-chant-fanlist-2025",
+      "songId": "doosan-bears-strongest-doosan-chant",
+      "url": "https://www.youtube.com/watch?v=n6hwLmr0b-Q&t=1380s",
+      "videoId": "n6hwLmr0b-Q",
+      "title": "※원년구단의 자부심※ 2025 두산 베어스 팀응원가 모음",
+      "channel": "KBOPLAYLIST",
+      "publishedAt": "2025-09-16",
+      "descriptionSummary": "2025 팀 응원가 모음의 23:00 타임스탬프가 ‘최강두산 구호 (구 최용제 응원가)’라고 표기해 공식 제목과 계보를 한꺼번에 보존한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원년 구단의 전통과 기존 응원곡을 한 번에 들을 수 있다는 점을 높이 평가하는 반응이 있다."
+      ],
+      "supports": ["player-cheer-lineage", "title-alias", "season-2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-chant-sajik-2025",
+      "songId": "doosan-bears-strongest-doosan-chant",
+      "url": "https://www.youtube.com/watch?v=tWyIn-UD-_8",
+      "videoId": "tWyIn-UD-_8",
+      "title": "부산 동백-S | 두산 vs 롯데 | 두산 팀응원가 - 최강두산 구호(1)",
+      "channel": "응하컬 - 응원가로 하나되는 컬렉션",
+      "publishedAt": "2025-04-05",
+      "descriptionSummary": "2025년 4월 4일 사직 롯데전 촬영 사실을 밝힌 원정 현장 영상으로, ‘최강두산 구호’가 원정석에서도 쓰이는 모습을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["direct-use-2025", "away-stand-use", "official-title"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-chant-fanlist-may-2026",
+      "songId": "doosan-bears-strongest-doosan-chant",
+      "url": "https://www.youtube.com/watch?v=7RcLrKhhcvg&t=3713s",
+      "videoId": "7RcLrKhhcvg",
+      "title": "2026 5월판 두산베어스 잠실 전광판 버전 응원가 모음",
+      "channel": "브이의지",
+      "publishedAt": "2026-05-04",
+      "descriptionSummary": "2026년 5월판 잠실 전광판형 모음의 1:01:53에 ‘최강두산 구호’를 수록해 최신 현장 배열을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "출퇴근이나 일할 때 듣는 응원 목록으로 유용하며 최신판 갱신을 계속 요청한다는 반응이 있다."
+      ],
+      "supports": ["current-field-2026", "fanlist-timestamp", "stadium-sequence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-chant-fanlist-june-2026",
+      "songId": "doosan-bears-strongest-doosan-chant",
+      "url": "https://www.youtube.com/watch?v=yy68zvRN9Z4&t=4015s",
+      "videoId": "yy68zvRN9Z4",
+      "title": "2026 6월판 두산베어스 잠실 전광판 버전 응원가 모음",
+      "channel": "브이의지",
+      "publishedAt": "2026-06-01",
+      "descriptionSummary": "설명란 1:06:55에 ‘최강두산 구호’를 싣는 2026년 6월판 현장형 목록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관하지 못할 때도 잠실 분위기를 느끼거나 응원법을 익힐 수 있다는 반응이 반복된다."
+      ],
+      "supports": ["current-field-2026", "fanlist-timestamp", "fan-practice"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-chant-official-2026",
+      "songId": "doosan-bears-strongest-doosan-chant",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=1377s",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 목록의 22:57 챕터가 ‘최강두산 구호’를 연속 수록해 현행 지위를 확정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 시즌 전 예습용 목록을 환영하며 과거 응원곡도 함께 되살려 달라고 요청한다."
+      ],
+      "supports": ["official-title", "current-official-2026", "usage-continuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-didit-early-2011",
+      "songId": "doosan-bears-haenaetda-doosan",
+      "url": "https://www.youtube.com/watch?v=lKQRKCI77m8",
+      "videoId": "lKQRKCI77m8",
+      "title": "두산 베어스 응원가 - 해냈다! 두산!",
+      "channel": "poLESSwer",
+      "publishedAt": "2011-02-06",
+      "descriptionSummary": "제목이 감탄부호를 포함한 과거 표기 ‘해냈다! 두산!’을 보존하는 이른 유튜브 음원 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원곡이 키씨아이 애니메이션에 등장한 노래라는 기억과 인터넷 합성·효과음을 통해 먼저 접했다는 반응이 반복된다."
+      ],
+      "supports": ["early-online-sample", "alternate-title", "source-memory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-didit-audio-2016",
+      "songId": "doosan-bears-haenaetda-doosan",
+      "url": "https://www.youtube.com/watch?v=9gGCzLUHXHw",
+      "videoId": "9gGCzLUHXHw",
+      "title": "[음원]두산 베어스 응원가 - 해냈다 두산",
+      "channel": "두산베어스",
+      "publishedAt": "2016-01-02",
+      "descriptionSummary": "설명란이 경기 승리 종료 때 울려 퍼지는 곡이라고 명시해 승리 직후 사용 관행을 직접 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "승리 뒤 야구장에서 들으면 편안하고 가장 좋아하는 응원가라는 반응이 있다.",
+        "두산 팬이 아니어도 친숙하다는 반응과 인터넷 유행물에서 알게 됐다는 기억도 보인다."
+      ],
+      "supports": ["victory-use", "audio-title", "fan-reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-didit-victory-2019",
+      "songId": "doosan-bears-haenaetda-doosan",
+      "url": "https://www.youtube.com/watch?v=pMkcK8aHSLM",
+      "videoId": "pMkcK8aHSLM",
+      "title": "마지막 아웃카운트/두산 승리/해냈다 해냈어~",
+      "channel": "T。강규 Kang Kyu",
+      "publishedAt": "2019-05-25",
+      "descriptionSummary": "마지막 아웃카운트와 두산 승리 직후 곡이 재생되는 장면을 담아 승리 종료 음악이라는 사용 맥락을 영상으로 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 웃음 표현이나 경기 장면 반응이 대부분이라 곡의 계보를 보강할 정보는 없다."
+      ],
+      "supports": ["direct-victory-use-2019", "common-chorus-title", "postgame-context"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-didit-old-version-2020",
+      "songId": "doosan-bears-haenaetda-doosan",
+      "url": "https://www.youtube.com/watch?v=7lSonzpF74Y",
+      "videoId": "7lSonzpF74Y",
+      "title": "[음원]두산베어스 응원가 - 해냈다 두산( 올드 버전 )",
+      "channel": "두산베어스",
+      "publishedAt": "2020-02-13",
+      "descriptionSummary": "‘올드 버전’이라 명시된 별도 음원으로, 현행판과 구판 녹음이 구별되어 유통됐음을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원곡을 키씨아이의 ‘해냈다’로 식별하는 반응과 구판을 특히 좋아한다는 반응이 있다."
+      ],
+      "supports": ["old-recording", "source-identification", "version-history"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-didit-season-2023",
+      "songId": "doosan-bears-haenaetda-doosan",
+      "url": "https://www.youtube.com/watch?v=RMbrFYRWWtY&t=3824s",
+      "videoId": "RMbrFYRWWtY",
+      "title": "2023시즌 두산베어스 응원 모음",
+      "channel": "잭참새",
+      "publishedAt": "2024-03-01",
+      "descriptionSummary": "설명란 1:03:44에 ‘해냈다 두산’을 독립 곡으로 수록한 2023시즌 현장 응원 모음이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "야구장에 가기 전 응원곡을 익히거나 시즌 분위기를 되새기는 용도로 듣는다는 반응이 있다."
+      ],
+      "supports": ["season-2023", "current-title", "usage-continuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-didit-official-2025",
+      "songId": "doosan-bears-haenaetda-doosan",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI&t=1407s",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-22",
+      "descriptionSummary": "구단 공식 2025 목록 23:27 챕터가 ‘해냈다 두산’을 수록해 현행 제목과 음원을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 목록을 경기장 방문 전 예습하거나 과거 응원가를 다시 듣는 자료로 활용한다."
+      ],
+      "supports": ["official-title", "current-official-2025", "official-audio"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-didit-fanlist-2025",
+      "songId": "doosan-bears-haenaetda-doosan",
+      "url": "https://www.youtube.com/watch?v=n6hwLmr0b-Q&t=1628s",
+      "videoId": "n6hwLmr0b-Q",
+      "title": "※원년구단의 자부심※ 2025 두산 베어스 팀응원가 모음",
+      "channel": "KBOPLAYLIST",
+      "publishedAt": "2025-09-16",
+      "descriptionSummary": "2025 팀 응원가 모음 27:08에 ‘해냈다 두산’을 싣고 있어 시즌 후반에도 목록상 현행 곡이었음을 보강한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오랜 팀 응원가를 모아 들을 수 있다는 점과 구단의 역사성이 잘 드러난다는 반응이 있다."
+      ],
+      "supports": ["season-2025", "fanlist-timestamp", "usage-continuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-didit-fanlist-2026",
+      "songId": "doosan-bears-haenaetda-doosan",
+      "url": "https://www.youtube.com/watch?v=7RcLrKhhcvg&t=4394s",
+      "videoId": "7RcLrKhhcvg",
+      "title": "2026 5월판 두산베어스 잠실 전광판 버전 응원가 모음",
+      "channel": "브이의지",
+      "publishedAt": "2026-05-04",
+      "descriptionSummary": "2026년 5월판 잠실 전광판형 목록 1:13:14에 ‘해냈다 두산’을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "실제 구장 전광판 순서와 비슷해 경기장에 있는 듯하고 일상 중 듣기 좋다는 반응이 있다."
+      ],
+      "supports": ["current-field-2026", "fanlist-timestamp", "stadium-sequence"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-didit-official-2026",
+      "songId": "doosan-bears-haenaetda-doosan",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=1415s",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 목록 23:35 챕터가 ‘해냈다 두산’을 연속 수록해 현재 사용 목록에 남아 있음을 확정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 새 시즌 응원가를 익히는 한편 익숙한 전통 곡을 현장에서 더 자주 듣고 싶다고 말한다."
+      ],
+      "supports": ["official-title", "current-official-2026", "usage-continuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-haeya-audio-2016",
+      "songId": "doosan-bears-haeya",
+      "url": "https://www.youtube.com/watch?v=zgreU91V1dY",
+      "videoId": "zgreU91V1dY",
+      "title": "(부활한 레전드 응원가)[음원]두산 베어스 응원가 - 해야",
+      "channel": "두산베어스",
+      "publishedAt": "2016-01-02",
+      "descriptionSummary": "설명란이 원곡을 ‘마그마 - 해야’로 밝히고 응원가를 살려 달라고 적은 과거 음원 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오랫동안 복귀를 기다렸다는 반응과 실제 부활을 반기는 감정적인 반응이 두드러진다."
+      ],
+      "supports": ["source-song", "pre-hiatus-audio", "revival-demand"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-haeya-archive-2020",
+      "songId": "doosan-bears-haeya",
+      "url": "https://www.youtube.com/watch?v=jiv9me9kvpA",
+      "videoId": "jiv9me9kvpA",
+      "title": "두산 베어스 추억의 응원가 해야 (해야떠라) [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2020-01-24",
+      "descriptionSummary": "중단기인 2020년에 ‘추억의 응원가’와 별칭 ‘해야떠라’를 함께 보존한 아카이브 영상이다. 설명란은 채널 안내 위주다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "다른 팀 팬도 곡 자체를 높이 평가하고, 복귀를 요청하거나 중단 이유를 저작권 문제로 기억하는 반응이 이어진다."
+      ],
+      "supports": ["hiatus-memory", "common-alias", "revival-demand"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-haeya-fan-return-a-2025",
+      "songId": "doosan-bears-haeya",
+      "url": "https://www.youtube.com/watch?v=q5OnuLqzVvM",
+      "videoId": "q5OnuLqzVvM",
+      "title": "해야",
+      "channel": "야쏭",
+      "publishedAt": "2025-03-21",
+      "descriptionSummary": "공식 시즌 목록 직전 공개된 복귀 음원 표본이며 설명란은 비어 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "단순하지만 팀의 정체성이 강하게 느껴지는 곡이라며 복귀를 반기는 반응이 많다.",
+        "제목이 ‘해야’인지 ‘해야떠라’인지 묻는 반응과 현장에서 부르기 힘들다는 소수 의견도 있다."
+      ],
+      "supports": ["online-return-2025", "title-confusion", "fan-reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-haeya-fan-return-b-2025",
+      "songId": "doosan-bears-haeya",
+      "url": "https://www.youtube.com/watch?v=qvXEG8y-wQ8",
+      "videoId": "qvXEG8y-wQ8",
+      "title": "※팀 응원가 GOAT 부활※ 두산 베어스 해야떠라 음원",
+      "channel": "KBOPLAYLIST",
+      "publishedAt": "2025-03-21",
+      "descriptionSummary": "‘해야떠라’라는 널리 알려진 별칭으로 복귀 음원을 공개한 표본이며, 설명란은 곡과 팀 관련 해시태그 중심이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오랫동안 기다린 곡의 복귀가 감격스럽고 개막전 현장에서 듣고 싶다는 반응이 많다.",
+        "과거 저작권 문제가 어떻게 해결됐는지 궁금해하는 반응도 반복된다."
+      ],
+      "supports": ["online-return-2025", "common-alias", "copyright-memory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-haeya-official-2025",
+      "songId": "doosan-bears-haeya",
+      "url": "https://www.youtube.com/watch?v=M4ZjtWK3UqI&t=1500s",
+      "videoId": "M4ZjtWK3UqI",
+      "title": "[𝑃𝐿𝐴𝑌𝐿𝐼𝑆𝑇] 야구장 가면서 듣기 좋은 팀 두산 응원가 플레이리스트🎵",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-03-22",
+      "descriptionSummary": "구단 공식 2025 목록 25:00 챕터가 정식 제목 ‘해야’로 곡을 다시 수록한다. 온라인 공식 복귀를 확인하는 기준점이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 전통 응원가의 귀환을 반기며 경기장에서 다시 부를 날을 기대한다."
+      ],
+      "supports": ["official-title", "official-online-return-2025", "current-official-2025"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-haeya-home-return-2025",
+      "songId": "doosan-bears-haeya",
+      "url": "https://www.youtube.com/watch?v=Hr8ER2a_YbY&t=1194s",
+      "videoId": "Hr8ER2a_YbY",
+      "title": "8년 만에 잠실로 돌아온 '해야!' 홈 개막전을 승리로 이끈 응원 직캠📢 [베어스티비]",
+      "channel": "BEARS TV",
+      "publishedAt": "2025-04-08",
+      "descriptionSummary": "2025년 3월 28일 홈 개막전 현장을 구단이 ‘8년 만에 잠실로 돌아온 해야’라고 소개하며, 설명란 19:54에 복귀 구간을 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 채널이 현장 응원 전체를 길게 담아 준 점을 반기며 예전 전주가 빠진 점을 아쉬워하는 반응이 있다.",
+        "구호의 강세를 정확히 맞추자는 제안과 직접 잠실에 가고 싶다는 반응도 보인다."
+      ],
+      "supports": ["first-home-return-2025", "eight-year-return", "stadium-performance"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-haeya-field-2025",
+      "songId": "doosan-bears-haeya",
+      "url": "https://www.youtube.com/watch?v=MtxkdKIMuho",
+      "videoId": "MtxkdKIMuho",
+      "title": "🔥7회 빅이닝... 결국 울려퍼지는 해야 & 아파트... (250418vs KIA) 두산베어스 응원 현장",
+      "channel": "야직영",
+      "publishedAt": "2025-04-18",
+      "descriptionSummary": "2025년 4월 18일 KIA전 7회 빅이닝 뒤 ‘해야’가 울려 퍼지는 현장 영상으로, 큰 득점·경기 흐름 전환 때의 실제 사용을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "대규모 관중 합창이 웅장하고 현장감이 크다는 반응이 있다.",
+        "직관하기 어려운 상황에서 영상으로 분위기를 대신 느꼈다는 반응도 보인다."
+      ],
+      "supports": ["direct-use-2025", "big-inning-context", "crowd-reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-doosan-d-haeya-official-2026",
+      "songId": "doosan-bears-haeya",
+      "url": "https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=1506s",
+      "videoId": "Cs6u1CZzkbE",
+      "title": "[𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻] 지금부터 외쳐보자 두산베어스⚾🎶 | 2026 두산베어스 응원가 플레이리스트",
+      "channel": "BEARS TV",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "구단 공식 2026 목록 25:06 챕터가 ‘해야’를 다시 수록해 2025 복귀가 일회성이 아니라 다음 시즌까지 이어졌음을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 응원가를 미리 익힐 수 있는 목록을 환영하고 전통 곡의 지속 사용을 기대한다."
+      ],
+      "supports": ["official-title", "current-official-2026", "post-revival-continuity"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 4,
+    "youtubeSampleCount": 33,
+    "songsMeetingYoutubeMinimum": 4,
+    "openIssueCount": 20
+  }
+}

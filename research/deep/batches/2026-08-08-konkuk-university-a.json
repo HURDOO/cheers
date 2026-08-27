@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-konkuk-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-konkuk",
+    "name": "건국대학교",
+    "type": "university"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문은 저장하지 않는다. 공식 영상 설명에 가사 전문이 있어도 출처 URL과 구조·권리 상태만 기록한다.",
+  "items": [
+    {
+      "id": "konkuk-konkuk-anthem",
+      "title": "건국찬가",
+      "aliases": ["제2의 교가"],
+      "currentStatus": "official-university-song-reissued-2024-but-current-ox-k-stage-use-unconfirmed",
+      "summary": "문정희 시인이 작사하고 건국대 음악교육과 전 교수 김진수가 작곡한 2000년대 ‘제2의 교가’ 성격의 경쾌한 학교 노래다. 대학 공식 채널이 2014·2019·2024 세 차례 홍보 영상으로 재공개해 학교의 현행 상징곡임은 확인되지만, OX-K의 2024~2026 공개 세트에서 직접 공연한 영상은 찾지 못했다. 따라서 인벤토리상의 ‘현행 응원가’ 판정은 학교 홍보곡과 응원단 실연을 분리해 재검토해야 한다.",
+      "claims": [
+        {
+          "field": "creatorCredits",
+          "value": "작사 문정희, 작곡 김진수(건국대학교 음악교육과 전 교수)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-anthem-2024", "yt-konkuk-a-anthem-2019"],
+          "notes": "대학 공식 영상 설명 두 건이 같은 크레딧을 직접 제공한다."
+        },
+        {
+          "field": "institutionalRole",
+          "value": "2000년대 ‘제2의 교가’이자 건국대를 대표하는 노래",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-konkuk-a-anthem-2019", "yt-konkuk-a-anthem-2014"],
+          "notes": "2019 공식 설명의 직접 표현이다. 정확한 최초 발표 연도는 쓰지 않아 ‘2000년대’까지만 확정한다."
+        },
+        {
+          "field": "recentUse",
+          "value": "2024 대학 공식 홍보 영상 재발행; 2025~2026 OX-K 직접 실연 미확인",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-anthem-2024", "ev-konkuk-a-guide-2026"],
+          "notes": "학교 상징곡으로는 현재성이 있으나 응원단의 공개된 최근 공연곡 목록에는 나타나지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "대학 공식 홍보 영상에서 캠퍼스 풍경·학생 생활과 결합한 학교 정체성 노래로 사용한다.",
+        "전통 교가보다 빠르고 경쾌한 ‘제2의 교가’로 소개되며 입학 희망자와 동문이 학교 소속감을 표현하는 온라인 상징곡 역할을 한다."
+      ],
+      "trivia": [
+        {
+          "id": "konkuk-anthem-admission-comments",
+          "summary": "2019·2024 영상 댓글에는 합격을 기원하거나 실제 합격 뒤 돌아왔다는 예비 학생 반응, 모교를 그리워하는 동문 반응이 반복돼 공연 응원보다 입학·소속 상징으로 강하게 소비된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-anthem-2019", "yt-konkuk-a-anthem-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university song with named lyricist and composer; master, publishing, and reuse terms are not documented here",
+        "sourceUrls": ["https://www.youtube.com/watch?v=0SUd3DW5pqk", "https://www.youtube.com/watch?v=sKIxBk1eoyk"],
+        "structureSummary": "밝은 관현악·합창 도입 뒤 건국의 이름, 청춘, 배움, 미래를 노래하는 절과 학교를 찬양하는 상승형 후렴으로 이어지는 홍보·합창곡이다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-konkuk-a-anthem-2012", "yt-konkuk-a-anthem-2014", "yt-konkuk-a-school-song-2019", "yt-konkuk-a-anthem-2019", "yt-konkuk-a-anthem-2024"],
+      "unresolved": [
+        "정확한 작곡·초연·공식 채택 연도와 최초 악보·음반",
+        "2025~2026 OX-K가 이 곡을 실제 공연 레퍼토리로 사용하는지 여부",
+        "현행 음원 마스터·출판권·공연권 관리 주체"
+      ]
+    },
+    {
+      "id": "konkuk-forever",
+      "title": "건국과 영원히",
+      "aliases": [],
+      "currentStatus": "official-main-cheer-on-current-student-council-page-last-direct-ox-k-use-2024",
+      "summary": "이승환의 ‘슈퍼히어로’를 바탕으로 건국대 교시 성·신·의를 녹인 2024년 메인 응원가다. 총학생회는 편곡 김우용·김정용, 보컬 고하정과 간주에 KU 모스부호를 넣은 설정을 직접 공개했다. OX-K가 제44회 함성과 건국체전에서 공연했으며 현행 총학생회 페이지도 이를 ‘공식 응원가’로 노출하지만, 2025·2026 공개 공연 세트에는 직접 확인되지 않아 최신 실연은 재검토 상태다.",
+      "claims": [
+        {
+          "field": "originAndCredits",
+          "value": "이승환 ‘슈퍼히어로’ 원곡; 편곡 김우용·김정용, 보컬 고하정",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-forever-official-2024", "yt-konkuk-a-superhero-artist"],
+          "notes": "총학생회 공식 설명의 직접 크레딧이며 원가수 공식 채널 음원으로 원곡을 교차했다. 개사자 이름은 공개되지 않았다."
+        },
+        {
+          "field": "specialArrangement",
+          "value": "원곡의 모스부호를 바꿔 간주에 ‘KU’ 모스부호 삽입",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-forever-official-2024"],
+          "notes": "총학생회가 곡 소개에서 직접 밝힌 제작 여담이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 OX-K 직접 공연 및 현행 총학생회 공식 응원가 페이지 수록; 2025~2026 직접 공연 미확인",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-forever-hamseong-2024", "yt-konkuk-a-forever-sports-2024", "ev-konkuk-a-council-current"],
+          "notes": "공식 지위는 현재 페이지로 확인되나 실연 레퍼토리의 최신성은 2024에서 멈춘다."
+        }
+      ],
+      "usageContexts": [
+        "응원대제전 ‘함성’의 후반부 메인 곡과 교내 체육대회 축구 결승 하프타임 응원으로 사용했다.",
+        "교시 성·신·의를 각각 지성·진실, 단결·협동, 정의·용기의 집단 구호로 풀어 학교 정체성을 교육하는 역할도 한다."
+      ],
+      "trivia": [
+        {
+          "id": "konkuk-forever-morse",
+          "summary": "원곡 간주의 모스부호 장치를 학교 이니셜 KU에 맞게 다시 설계한 점이 공식 소개에 기록돼 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-forever-official-2024"]
+        },
+        {
+          "id": "konkuk-forever-reception",
+          "summary": "공식 영상 댓글은 ‘학교가 함께 부를 대표 응원가가 생겼다’는 호평과 과거에 이런 곡이 있었는지 묻는 동문 반응을 함께 보여 새 응원가의 세대 차를 드러낸다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-konkuk-a-forever-official-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "adaptation of copyrighted Lee Seung-hwan song; arrangement and vocalist are named, but lyric adaptation credit and permission are not documented here",
+        "sourceUrls": ["https://www.youtube.com/watch?v=l8IHSBW14WY", "https://www.youtube.com/watch?v=nAhr20IAZV4"],
+        "structureSummary": "원곡의 밝은 록 도입과 합창형 후렴을 유지하고 성·신·의의 세 의미, 건국의 위상과 영속성을 절별로 배치한다. 중간에는 KU 모스부호 간주와 관중 구호가 들어간다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-konkuk-a-forever-official-2024", "yt-konkuk-a-forever-hamseong-2024", "yt-konkuk-a-forever-sports-2024", "yt-konkuk-a-superhero-artist", "yt-konkuk-a-superhero-genie"],
+      "unresolved": [
+        "개사자·안무 제작자와 정확한 최초 공개일",
+        "이승환 원곡 개사·편곡 이용허락과 응원 음원 마스터 권리",
+        "2025~2026 OX-K 공개 공연에서의 직접 사용 여부"
+      ]
+    },
+    {
+      "id": "konkuk-victory-aria",
+      "title": "승리의 아리아",
+      "aliases": ["승리의 아리아 (락 ver)", "승리의 아리아 (성악 ver)"],
+      "currentStatus": "official-cheer-with-2024-direct-use-but-2025-2026-stage-use-unconfirmed",
+      "summary": "바흐 관현악 모음곡 3번의 ‘Air’를 흔히 알려진 ‘G선상의 아리아’ 계보로 받아 록 밴드 사운드와 학교 구호를 결합한 2024년 응원가다. 총학생회가 락·성악 두 공식 판본, 편곡 김우용·김정용, 보컬 김태선을 공개했고 OX-K가 제44회 함성에서 공연했다. 원작 악곡 자체는 퍼블릭 도메인이지만 현대 녹음·한국외대가 아닌 건국대 편곡·가사·음원은 별도 권리 대상이다.",
+      "claims": [
+        {
+          "field": "originAndCredits",
+          "value": "J. S. Bach 관현악 모음곡 3번 BWV 1068 제2곡 Air 계보; 편곡 김우용·김정용, 보컬 김태선",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-aria-rock-2024", "yt-konkuk-a-aria-vocal-2024", "yt-konkuk-a-air-halidon"],
+          "notes": "총학생회는 통칭 ‘G선상의 아리아’를 사용한다. 이 명칭은 August Wilhelmj의 1871년 바이올린 편곡에서 유래하므로 바흐 원곡 Air와 후대 편곡을 구분했다."
+        },
+        {
+          "field": "versions",
+          "value": "락 버전과 성악 버전 두 공식 판본",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-aria-rock-2024", "yt-konkuk-a-aria-vocal-2024"],
+          "notes": "두 영상의 곡·편곡·보컬 크레딧은 동일하며 보컬 처리와 사운드 판본을 구분한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024년 5월 21일 제44회 함성 직접 공연; 2025~2026 직접 공연 미확인",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-aria-hamseong-2024", "ev-konkuk-a-guide-2026"],
+          "notes": "공식 신곡·실연은 확인되나 최근 OX-K 세트의 일반 액션곡 목록에는 포함되지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "응원대제전에서 짧고 장엄한 오프닝형 학교 응원가로 공연하며, 초록색·성신의·승리 이미지를 군중 구호와 결합한다."
+      ],
+      "trivia": [
+        {
+          "id": "konkuk-aria-name-lineage",
+          "summary": "‘G선상의 아리아’는 바흐가 붙인 원제라기보다 19세기 Wilhelmj 편곡에서 널리 퍼진 통칭이다. 건국대 공식 설명의 표현을 보존하되 원작 계보에는 BWV 1068 제2곡 Air를 병기했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-aria-rock-2024", "yt-konkuk-a-air-halidon"]
+        },
+        {
+          "id": "konkuk-aria-recording-rights",
+          "summary": "바흐 작품은 퍼블릭 도메인이지만 비교용 현대 오케스트라 영상은 녹음 저작인접권과 동기화 라이선스를 별도로 고지한다. 건국대 편곡도 별도 저작물로 취급해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-konkuk-a-air-halidon", "yt-konkuk-a-air-lso"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "underlying Bach composition is public domain; the university lyrics, arrangement, recordings, and performance assets are separately copyrighted",
+        "sourceUrls": ["https://www.youtube.com/watch?v=ezP2wRZ7gfw", "https://www.youtube.com/watch?v=1PkD47rNkfY"],
+        "structureSummary": "느린 현악 Air의 진행을 록 드럼·기타와 성악 보컬로 확대하고, 성신의·초록빛·승리·파도 이미지를 담은 한 개의 짧은 절을 반복 가능한 응원 구절로 만든다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-konkuk-a-aria-rock-2024", "yt-konkuk-a-aria-vocal-2024", "yt-konkuk-a-aria-hamseong-2024", "yt-konkuk-a-air-halidon", "yt-konkuk-a-air-lso"],
+      "unresolved": [
+        "개사자·안무 제작자와 정확한 최초 공개 순서",
+        "2025~2026 OX-K의 직접 공연 여부와 두 판본의 행사별 선택 기준",
+        "건국대 편곡·가사·음원 마스터의 재사용 조건"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-konkuk-a-council-current",
+      "type": "official-student-council",
+      "url": "https://student.konkuk.ac.kr/136",
+      "title": "건국대학교 공식 응원가",
+      "publisher": "건국대학교 총학생회",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "현행 총학생회 사이트의 공식 응원가 영역이 ‘건국과 영원히’를 단독 노출하고 총학생회 공식 영상을 연결한다. 승리의 아리아·건국찬가는 이 페이지에서 직접 노출되지 않는다.",
+      "supports": ["건국과 영원히 공식 지위", "현행 총학생회 페이지", "다른 두 곡의 페이지 미노출"]
+    },
+    {
+      "id": "ev-konkuk-a-guide-2026",
+      "type": "official-university-guide",
+      "url": "https://caku.konkuk.ac.kr/bbs/caku/397/1205814/download.do",
+      "title": "2026학년도 건국대학교 재학생 가이드북",
+      "publisher": "건국대학교",
+      "publishedAt": "2026",
+      "accessedAt": "2026-08-09",
+      "summary": "OX-K를 학교 중앙정책동아리로 소개하고 응원단 훈련과 축제 등 주요 행사 공연을 활동으로 명시한다. 곡별 현행 목록은 싣지 않는다.",
+      "supports": ["OX-K 공식성", "2026 활동", "곡별 목록 공백"]
+    },
+    {
+      "id": "ev-konkuk-a-namu-check",
+      "type": "community-wiki-search-audit",
+      "url": "https://namu.wiki/w/%EA%B1%B4%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90",
+      "title": "건국대학교",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "나무위키 본문과 검색 색인을 곡명·응원단명으로 확인했으나 세 곡의 제작진·도입연도·최근 사용을 검증할 곡별 서술을 확보하지 못했다. 공식 대학·총학생회·OX-K 자료를 우선했다.",
+      "supports": ["나무위키 확인", "곡별 정보 공백"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-konkuk-a-anthem-2012",
+      "songId": "konkuk-konkuk-anthem",
+      "url": "https://www.youtube.com/watch?v=w5LUlzHsZKw",
+      "videoId": "w5LUlzHsZKw",
+      "title": "건국대학교 건국찬가",
+      "channel": "문학채널",
+      "publishedAt": "2012-09-04",
+      "descriptionSummary": "오케스트라·합창 판본으로 표기된 현재 확보한 가장 오래된 YouTube 음원이다. 공식 채널은 아니며 초연 증거로 쓰지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 곡이 듣기 좋다는 짧은 감상을 남긴다."],
+      "supports": ["2012 공개 표본", "오케스트라·합창 판본"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-anthem-2014",
+      "songId": "konkuk-konkuk-anthem",
+      "url": "https://www.youtube.com/watch?v=FUKiiapbJmk",
+      "videoId": "FUKiiapbJmk",
+      "title": "2014년 건국대학교 공식 홍보 영상 (건국찬가 Version)",
+      "channel": "건국대학교Konkuk University",
+      "publishedAt": "2014-01-06",
+      "descriptionSummary": "대학 공식 홍보 영상에 건국대를 대표하는 노래로 사용했다고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["입학 가능성을 묻는 예비 학생 반응과 영상 속 출연자를 알아보는 반응이 있다."],
+      "supports": ["공식 홍보곡", "2014 사용", "대표 노래"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-school-song-2019",
+      "songId": "konkuk-konkuk-anthem",
+      "url": "https://www.youtube.com/watch?v=3l-9OdDZ79I",
+      "videoId": "3l-9OdDZ79I",
+      "title": "[KU라오케] 우리학교 교가, 어디까지 들어봤니??",
+      "channel": "건국대학교Konkuk University",
+      "publishedAt": "2019-12-16",
+      "descriptionSummary": "학생들이 학교 노래를 맞히는 공식 콘텐츠로 전통 교가와 ‘제2의 교가’가 학생에게 얼마나 인지되는지 보여주는 관련 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["학교 노래 인지도 맥락", "공식 관련 콘텐츠"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-anthem-2019",
+      "songId": "konkuk-konkuk-anthem",
+      "url": "https://www.youtube.com/watch?v=sKIxBk1eoyk",
+      "videoId": "sKIxBk1eoyk",
+      "title": "유쾌, 상쾌, 경쾌!! 건국찬가 2019",
+      "channel": "건국대학교Konkuk University",
+      "publishedAt": "2019-12-22",
+      "descriptionSummary": "건국찬가를 2000년대 제2의 교가로 설명하고 문정희 작사·김진수 작곡을 직접 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["합격 기원과 합격 후기, 과거 연주 경험을 회고하는 반응이 다수를 이룬다."],
+      "supports": ["제2의 교가", "작사·작곡", "2000년대", "학생 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-anthem-2024",
+      "songId": "konkuk-konkuk-anthem",
+      "url": "https://www.youtube.com/watch?v=0SUd3DW5pqk",
+      "videoId": "0SUd3DW5pqk",
+      "title": "[건국대] 2024년 건국대학교 건국찬가",
+      "channel": "건국대학교Konkuk University",
+      "publishedAt": "2024-02-16",
+      "descriptionSummary": "새 캠퍼스 영상으로 재공개하며 문정희 작사·김진수 작곡을 다시 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문은 모교를 그리워하고 예비 학생은 합격·입학을 다짐하며 학교 자부심을 표현한다."],
+      "supports": ["2024 공식 재공개", "작사·작곡", "학교 상징 현재성"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-forever-official-2024",
+      "songId": "konkuk-forever",
+      "url": "https://www.youtube.com/watch?v=l8IHSBW14WY",
+      "videoId": "l8IHSBW14WY",
+      "title": "건국대학교 공식 응원가: 건국과 영원히",
+      "channel": "건국대학교 총학생회",
+      "publishedAt": "2024-05-10",
+      "descriptionSummary": "이승환 ‘슈퍼히어로’ 원곡, 편곡 김우용·김정용, 보컬 고하정, 성·신·의 해석과 KU 모스부호 설정을 직접 공개한다. 설명의 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["새 대표 응원가를 환영하는 반응, 입학 기원, 과거에는 없었다고 회고하는 동문 반응이 공존한다."],
+      "supports": ["공식 메인 응원가", "원곡", "편곡·보컬", "KU 모스부호"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-forever-hamseong-2024",
+      "songId": "konkuk-forever",
+      "url": "https://www.youtube.com/watch?v=AtAFWZPYRrI",
+      "videoId": "AtAFWZPYRrI",
+      "title": "[2024.05.21 제44회 함성] 8. 건국과 영원히",
+      "channel": "건국대학교 응원단 OX-K",
+      "publishedAt": "2024-06-13",
+      "descriptionSummary": "제44회 응원대제전 ‘함성’의 여덟 번째 곡으로 직접 공연한 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 OX-K 직접 공연", "함성 세트 순서"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-forever-sports-2024",
+      "songId": "konkuk-forever",
+      "url": "https://www.youtube.com/watch?v=bsw_t9XpZ6c",
+      "videoId": "bsw_t9XpZ6c",
+      "title": "[건국대학교 응원단 OX-K] 24.10.29 건국체전 | 건국과 영원히",
+      "channel": "건국대학교 응원단 OX-K",
+      "publishedAt": "2024-10-30",
+      "descriptionSummary": "교내 축구 결승 전·후반 사이 노천극장 하프타임 공연으로 사용했다고 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 건국체전", "스포츠 응원 맥락", "OX-K 직접 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-superhero-artist",
+      "songId": "konkuk-forever",
+      "url": "https://www.youtube.com/watch?v=nAhr20IAZV4",
+      "videoId": "nAhr20IAZV4",
+      "title": "이승환 LEE SEUNG HWAN ‘SUPER HERO’",
+      "channel": "이승환 LEE SEUNG HWAN",
+      "publishedAt": "2011-01-12",
+      "descriptionSummary": "원가수 공식 채널이 2008년 앨범 수록곡과 DreamFactoryClub 권리 표기를 제공한다. 건국대판이 아니라 원곡 계보 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 힘을 주는 노래라는 평가와 영화·공연·사회적 사건을 통해 다시 들었다는 다양한 수용 맥락을 남긴다."],
+      "supports": ["원곡 공식 채널", "2008 앨범", "원곡 권리 표기", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-superhero-genie",
+      "songId": "konkuk-forever",
+      "url": "https://www.youtube.com/watch?v=RmkDtdVOirE",
+      "videoId": "RmkDtdVOirE",
+      "title": "이승환 - 슈퍼히어로 Official M/V",
+      "channel": "GENIE MUSIC",
+      "publishedAt": "2026-01-29",
+      "descriptionSummary": "지니뮤직 공식 재업로드로 원곡 제목·가수를 교차한다. 건국대판이 아니라 원곡 참고 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 이전에 보지 못한 영상판을 발견했다는 감상을 남긴다."],
+      "supports": ["원곡 제목", "원가수", "공식 유통 영상", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-aria-rock-2024",
+      "songId": "konkuk-victory-aria",
+      "url": "https://www.youtube.com/watch?v=ezP2wRZ7gfw",
+      "videoId": "ezP2wRZ7gfw",
+      "title": "건국대학교 공식 응원가: 승리의 아리아 (락 ver)",
+      "channel": "건국대학교 총학생회",
+      "publishedAt": "2024-05-10",
+      "descriptionSummary": "G선상의 아리아 원곡, 편곡 김우용·김정용, 보컬 김태선과 락·성악 두 판본을 설명한다. 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["락 공식판", "원곡", "편곡·보컬", "두 판본"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-aria-vocal-2024",
+      "songId": "konkuk-victory-aria",
+      "url": "https://www.youtube.com/watch?v=-xXuoh5F6h8",
+      "videoId": "-xXuoh5F6h8",
+      "title": "건국대학교 공식 응원가: 승리의 아리아 (성악 ver)",
+      "channel": "건국대학교 총학생회",
+      "publishedAt": "2024-05-10",
+      "descriptionSummary": "동일 곡의 성악 공식판과 같은 편곡·보컬 크레딧을 제공한다. 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 곡의 완성도를 긍정적으로 평가한다."],
+      "supports": ["성악 공식판", "편곡·보컬", "공식 제목"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-aria-hamseong-2024",
+      "songId": "konkuk-victory-aria",
+      "url": "https://www.youtube.com/watch?v=M088JXWCxAY",
+      "videoId": "M088JXWCxAY",
+      "title": "[2024.05.21 제44회 함성] 2. 승리의 아리아",
+      "channel": "건국대학교 응원단 OX-K",
+      "publishedAt": "2024-06-13",
+      "descriptionSummary": "제44회 응원대제전 ‘함성’의 두 번째 곡으로 OX-K가 직접 공연했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 직접 공연", "함성 세트 순서", "OX-K 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-air-halidon",
+      "songId": "konkuk-victory-aria",
+      "url": "https://www.youtube.com/watch?v=1PkD47rNkfY",
+      "videoId": "1PkD47rNkfY",
+      "title": "Bach: Air on the G String (Orchestral Suite No. 3)",
+      "channel": "HALIDONMUSIC",
+      "publishedAt": "2020-09-25",
+      "descriptionSummary": "BWV 1068 제2곡 Air와 Wilhelmj의 1871년 G현 편곡 명칭 계보를 설명하고 현대 녹음의 별도 라이선스를 고지한다. 건국대판이 아닌 원작 참고다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 세대를 넘어 마음을 진정시키는 작품이라는 평가와 음악적 완전성에 대한 찬사를 반복한다. 출처 없는 작곡 일화는 채택하지 않았다."],
+      "supports": ["바흐 원작 계보", "G선상의 아리아 명칭", "현대 녹음 권리"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-konkuk-a-air-lso",
+      "songId": "konkuk-victory-aria",
+      "url": "https://www.youtube.com/watch?v=QT0deS-fjr0",
+      "videoId": "QT0deS-fjr0",
+      "title": "Air on a G String (Bach)",
+      "channel": "London Symphony Orchestra - Topic",
+      "publishedAt": "2018-08-16",
+      "descriptionSummary": "London Symphony Orchestra 명의 현대 녹음과 V&H Holdings 권리 표기를 제공한다. 건국대판이 아닌 원작·녹음권 비교 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 곡의 아름다움을 짧게 칭찬하고 노래방 판본을 요청한다."],
+      "supports": ["원작 비교", "현대 녹음 별도 권리", "오케스트라 판본"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 3,
+    "youtubeSampleCount": 15,
+    "songsMeetingYoutubeMinimum": 3,
+    "openIssueCount": 9
+  }
+}

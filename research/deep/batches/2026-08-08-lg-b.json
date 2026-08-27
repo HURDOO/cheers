@@ -1,0 +1,1205 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-lg-b",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-lg-twins",
+    "name": "LG 트윈스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문은 저장하지 않는다. 가사는 출처·권리 상태·구조 요약만 기록하고, 전문은 사용자 제공 또는 이용 허락이 확인된 경우에만 별도 승인 뒤 저장한다.",
+  "items": [
+    {
+      "id": "lg-twins-lg-eopsineun-motsara",
+      "title": "LG 없이는 못살아",
+      "aliases": ["LG 없이는 못 살아", "엘지 없이는 못살아"],
+      "currentStatus": "current",
+      "summary": "패티김의 ‘그대 없이는 못살아’를 짧은 팀명 반복 구호로 바꾼 응원가다. 2012년 동시대 팬 칼럼에서 이미 경기 중반 사용을 확인하며, 2026년 구단 공식 모음집에도 수록됐다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "패티김 — 그대 없이는 못살아",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-2026-official-playlist", "ev-lg-current-namu", "ev-lg-without-bugs-original"],
+          "notes": "2026년 구단 공식 설명은 원곡 가수와 길옥윤의 작사·작곡 크레딧까지 명시한다."
+        },
+        {
+          "field": "adaptationLineage",
+          "value": "고려대학교 응원 편곡 → 창원 LG 세이커스 → KIA·LG 야구 응원가로 확산했다는 계보",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-current-namu"],
+          "notes": "현재 확인한 독립 자료만으로 각 팀의 정확한 선후관계를 확정하지 않는다."
+        },
+        {
+          "field": "earliestDocumentedUse",
+          "value": "2012-03-22 이전",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-without-ccej-2012"],
+          "notes": "2012년 3월 22일 공개된 LG 팬의 동시대 칼럼이 경기 중반에 으레 나오는 곡으로 기록한다. 정확한 도입 연도는 아니다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 시즌 현행 팀 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-2026-official-playlist"],
+          "notes": "구단 공식 모음집 18:04에 수록된다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "가수 패티김, 작사·작곡 길옥윤",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-2026-official-playlist"],
+          "notes": "LG판 편곡·녹음 크레딧과 원곡 크레딧은 구분한다."
+        }
+      ],
+      "usageContexts": [
+        "경기 중반 이후 분위기를 끌어올리는 단체 응원",
+        "9회 공격과 정규시즌 마지막 경기 뒤풀이에서도 사용 기록이 있다"
+      ],
+      "trivia": [
+        {
+          "id": "lg-without-shared-origin",
+          "summary": "창원 LG 세이커스와 KIA 타이거즈도 같은 원곡의 팀명 개사판을 사용한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-current-namu", "yt-lg-without-qqn"]
+        },
+        {
+          "id": "lg-without-priority-comments",
+          "summary": "공개 댓글에서는 KIA 야구판과 창원 LG 농구판 중 어느 쪽이 먼저였는지를 두고 반복 논쟁이 나타나지만, 댓글 주장은 연혁 근거로 채택하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-lg-without-qqn", "yt-lg-without-2016"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1084s",
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://music.bugs.co.kr/track/440807"
+        ],
+        "structureSummary": "원곡의 핵심 어구를 팀명으로 치환한 네 줄짜리 짧은 구호 블록을 두 차례 반복한다. 관중이 즉시 따라 부를 수 있도록 선율과 문구를 극도로 압축한 형태다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lg-without-qqn",
+        "yt-lg-without-2016",
+        "yt-lg-without-2022",
+        "yt-lg-without-2013-finale",
+        "yt-lg-without-official-2026"
+      ],
+      "unresolved": [
+        "LG 트윈스판의 정확한 도입 연도와 첫 사용 경기",
+        "LG 야구판의 개사·편곡·녹음 담당자",
+        "고려대·창원 LG·KIA·LG 사이의 독립 자료로 검증 가능한 도입 선후관계"
+      ]
+    },
+    {
+      "id": "lg-twins-lg-ui-seungnireul-wihayeo",
+      "title": "LG의 승리를 위하여",
+      "aliases": ["엘지의 승리를 위하여"],
+      "currentStatus": "current",
+      "summary": "2021년에 공개된 구단 자체 제작 계열의 짧은 팀 응원가다. 경기 흐름이 LG 쪽으로 넘어오는 순간에 쓰이며 2026년 공식 모음집으로 현행 사용을 확인했다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "구단 자체 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-current-namu"],
+          "notes": "외부 원곡은 현재 자료에서 확인되지 않지만 제작 크레딧은 공개되지 않았다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2021",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-current-namu", "ev-lg-victory-2021-field"],
+          "notes": "2021년 10월 현장 영상 설명이 그해 초 나온 곡이라고 기록하고, 현행 문서도 2021년 신곡으로 분류한다."
+        },
+        {
+          "field": "usageContext",
+          "value": "득점 등으로 경기 흐름이 LG 쪽으로 넘어왔을 때",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-current-namu", "yt-lg-victory-comeback-2023"],
+          "notes": "2023년 KIA전 영상에서는 역전 적시타와 연속 안타 뒤 사용된다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 시즌 현행 팀 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-2026-official-playlist"],
+          "notes": "구단 공식 모음집 18:32에 수록된다."
+        }
+      ],
+      "usageContexts": [
+        "득점·역전·연속 안타 뒤 흐름을 이어가는 짧은 떼창",
+        "손동작을 결합한 리듬 응원"
+      ],
+      "trivia": [
+        {
+          "id": "lg-victory-short-format",
+          "summary": "공개 댓글에는 선율과 동작이 기억에 잘 남는다는 호평과 함께 곡이 너무 짧아 더 긴 버전을 원한다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-lg-victory-audio", "yt-lg-victory-collection"]
+        },
+        {
+          "id": "lg-victory-2021-race",
+          "summary": "2021년 현장음 업로더는 정규시즌 최종전의 선두 경쟁과 V3 염원을 이 곡에 연결했다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-lg-victory-field-2021"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1112s",
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "선창형 감탄사와 승리 지향 두 문장, 길게 끄는 합창형 마무리로 구성된 약 30초 길이의 반복 블록이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-lg-victory-audio",
+        "yt-lg-victory-field-2021",
+        "yt-lg-victory-comeback-2023",
+        "yt-lg-victory-collection",
+        "yt-lg-victory-official-2026"
+      ],
+      "unresolved": [
+        "작사·작곡·편곡·녹음 참여자",
+        "2021년의 정확한 첫 사용 경기"
+      ]
+    },
+    {
+      "id": "lg-twins-yeohaengeul-tteonayo",
+      "title": "여행을 떠나요",
+      "aliases": [],
+      "currentStatus": "current",
+      "summary": "조용필의 1985년 곡을 대부분 그대로 부르면서 각 구절 사이에 LG 구호를 넣는 대형 떼창곡이다. 확인 가능한 가장 오래된 현장 영상은 2016년이며, 정확한 도입 연도는 더 오래됐을 가능성을 남겨 둔다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "조용필 — 여행을 떠나요",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-current-namu", "ev-travel-cho-official"],
+          "notes": "조용필 공식 7집 목록과 현행 응원가 문서가 같은 원곡을 확인한다."
+        },
+        {
+          "field": "originalReleaseYear",
+          "value": "1985",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-travel-cho-official"],
+          "notes": "조용필 공식 홈페이지의 7집 수록곡 목록 기준이다."
+        },
+        {
+          "field": "earliestDocumentedUse",
+          "value": "2016-10-10 공개 현장 영상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-travel-wildcard-2016"],
+          "notes": "2016 와일드카드 1차전 LG 응원 영상이다. 도입 연도와 동일하다는 뜻은 아니다."
+        },
+        {
+          "field": "possibleEarlierUse",
+          "value": "2011년경에도 들었다는 2021년 업로더 회고",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-travel-2021-return"],
+          "notes": "‘10년 전’이라는 회고만 있어 연도 정본으로 채택하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 시즌 현행 팀 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-2026-official-playlist"],
+          "notes": "구단 공식 모음집 19:00에 수록된다."
+        },
+        {
+          "field": "derbyVariant",
+          "value": "두산전에는 일반 팀 구호 대신 서울 연고를 강조한 구호로 바꿔 부른다",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-current-namu"],
+          "notes": "가사 전문은 저장하지 않고 변형 원칙만 기록한다."
+        }
+      ],
+      "usageContexts": [
+        "역전 뒤 상대 투수 교체 시간에 분위기를 이어가는 떼창",
+        "대량 득점 경기와 만원 관중의 후반부 축제형 응원",
+        "두산전에는 서울 연고 정체성을 강조하는 별도 구호를 사용"
+      ],
+      "trivia": [
+        {
+          "id": "travel-concert-reception",
+          "summary": "현장 영상 제목과 댓글은 이 곡의 응원을 ‘콘서트장’에 비유하고, 노란 수건 물결과 깃발의 시각적 장관을 반복해서 언급한다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-travel-2022-choir", "yt-travel-2025-comeback"]
+        },
+        {
+          "id": "travel-current-popularity",
+          "summary": "2026년 대중음악 방송 보도는 이 곡을 LG 대표 응원가로 소개하고 경기 주도권 확보나 분위기 고양 때 쓰인다고 설명했다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-travel-kbsjoy-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1140s",
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://choyongpil.com/68"
+        ],
+        "structureSummary": "원곡의 두 절과 후렴을 유지하고, 각 절의 짧은 어구 뒤에 관중이 팀 구호를 답하는 콜앤드리스폰스가 삽입된다. 후렴은 큰 합창으로 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-travel-wildcard-2016",
+        "yt-travel-2021-return",
+        "yt-travel-2018-performance",
+        "yt-travel-2022-choir",
+        "yt-travel-2023-full-house",
+        "yt-travel-2025-comeback",
+        "yt-travel-official-2026"
+      ],
+      "unresolved": [
+        "LG 트윈스가 처음 도입한 연도와 경기",
+        "원곡에 팀 구호를 추가한 편곡·응원 설계 담당자"
+      ]
+    },
+    {
+      "id": "lg-twins-forever-lg",
+      "title": "Forever LG",
+      "aliases": ["포에버 LG", "포에버 엘지", "FOREVER LG"],
+      "currentStatus": "current",
+      "summary": "Secret Garden의 기악곡 ‘Song From A Secret Garden’을 팀에 대한 사랑과 영원을 노래하는 느린 떼창으로 바꾼 곡이다. 2016년 사용 뒤 저작인격권 문제로 중단됐다가 팬과 구단의 장기 요청 끝에 2025년 3월 22일 공식 부활했다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Secret Garden — Song From A Secret Garden",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-forever-lg-official-release", "ev-lg-2026-official-playlist", "ev-secret-garden-official-track"],
+          "notes": "공식 구단 보도자료와 2026년 모음집 설명이 동일한 원곡을 명시한다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "Rolf Løvland 작곡·프로듀싱",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-secret-garden-official-track"],
+          "notes": "Secret Garden 공식 아티스트 채널의 음원 크레딧 기준이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2016",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-current-namu", "ev-forever-lg-official-release"],
+          "notes": "현행 문서는 2016년 신곡으로 기록하고, 공식 보도자료는 2016 플레이오프 4차전을 중단 전 마지막 사용으로 특정한다."
+        },
+        {
+          "field": "hiatus",
+          "value": "2017년 이후 저작인격권 문제로 사용 중단",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-forever-lg-official-release"],
+          "notes": "공식 보도자료의 표현을 따른다."
+        },
+        {
+          "field": "rightsResolution",
+          "value": "2025년 2월 응원가 사용 최종 승인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-forever-lg-official-release"],
+          "notes": "구단이 2017년부터 관리사에 계속 문의했고 팬들도 원작자에게 허가 요청을 보냈다고 공식 발표했다."
+        },
+        {
+          "field": "revivalDate",
+          "value": "2025-03-22 잠실 홈 개막전",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-forever-lg-official-release", "yt-forever-official-return", "yt-forever-return-field"],
+          "notes": "공식 직캠과 같은 날 현장 영상이 부활 순간을 직접 보여 준다."
+        },
+        {
+          "field": "currentUse",
+          "value": "경기 후반 단체 응원이며 2026 시즌에도 현행",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-forever-lg-official-release", "ev-lg-2026-official-playlist"],
+          "notes": "공식 보도자료는 매 경기 후반부 사용을, 2026 모음집은 20:40 수록을 확인한다."
+        }
+      ],
+      "usageContexts": [
+        "주로 7회초 종료 뒤 경기 후반의 대형 떼창",
+        "팀을 향한 장기적 사랑과 팬 공동체의 기억을 확인하는 감성 응원",
+        "좋은 흐름뿐 아니라 크게 뒤진 경기에서 분위기를 되살릴 때도 사용된다는 현행 문서 설명이 있다"
+      ],
+      "trivia": [
+        {
+          "id": "forever-most-wanted",
+          "summary": "구단 팬 자문단 조사에서 가장 다시 부르고 싶은 응원가이자 2023년 우승 당시 가장 부르고 싶었던 곡으로 꼽혔다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-forever-lg-official-release"]
+        },
+        {
+          "id": "forever-fan-campaign",
+          "summary": "구단의 반복 협의뿐 아니라 팬들이 원작자에게 자발적으로 사용 허가 요청을 보낸 사실이 공식 보도자료와 부활 전 댓글 양쪽에서 확인된다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-forever-lg-official-release", "yt-forever-audio-2021"]
+        },
+        {
+          "id": "forever-return-reception",
+          "summary": "부활 직캠 댓글은 오랜 중단 뒤에도 응원법을 기억했다는 놀라움, 눈물·울컥함, 다른 구단 부활곡과의 연대를 반복해서 드러낸다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-forever-official-return", "yt-forever-return-field"]
+        },
+        {
+          "id": "forever-choreography",
+          "summary": "현행 문서는 2025년 부활 뒤 안무가 2016년판보다 단순해졌다고 기록한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-current-namu"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-use-approved-for-stadium-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1240s",
+          "https://www.youtube.com/watch?v=B78FVgbE0TI",
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.lg.co.kr/media/release/28767"
+        ],
+        "structureSummary": "느린 기악 선율 위에 말 없는 모음 합창과 네 박자의 팀 구호를 반복하고, 중앙부에 팀을 사랑하고 영원하기를 바라는 짧은 두 문장형 합창을 배치한 뒤 처음의 모음 합창으로 돌아간다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-forever-audio-2021",
+        "yt-forever-yearend-2023",
+        "yt-forever-official-return",
+        "yt-forever-fan-mv-2025",
+        "yt-forever-return-field",
+        "yt-forever-official-2026"
+      ],
+      "unresolved": [
+        "LG판의 개사·편곡·녹음 담당자"
+      ]
+    },
+    {
+      "id": "lg-twins-seoul-ui-aria",
+      "title": "서울의 아리아",
+      "aliases": ["민족의 아리아", "승리의 아리아"],
+      "currentStatus": "current",
+      "summary": "Andrea Bocelli의 ‘Melodramma’를 바탕으로 한 고려대 ‘민족의 아리아’를 LG판으로 개사한 대표 후반부 떼창곡이다. 구단 관계자 취재 기사에 따라 2012 시즌 중반 도입을 대표값으로 두고, 나무위키 미러의 2011년 주장은 상충값으로 보존한다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Andrea Bocelli — Melodramma",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-2026-official-playlist", "ev-lg-current-namu", "ev-seoul-press-2014"],
+          "notes": "2026 구단 설명에는 제목이 ‘Melodrama’로 표기되지만 다른 계보 자료의 ‘Melodramma’를 정식 표기로 사용한다."
+        },
+        {
+          "field": "sourceCheerSong",
+          "value": "고려대학교 — 민족의 아리아",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-current-namu", "ev-seoul-press-2014", "ev-korea-official-songbook"],
+          "notes": "고려대 공식 응원곡 악보에도 민족의 아리아가 수록된다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2012 시즌 중반",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-seoul-press-2014"],
+          "notes": "일간스포츠가 LG 홍보팀과 구단 관계자를 취재해 보도한 시점을 대표값으로 채택한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2011",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-lg-current-namu"],
+          "notes": "현행 나무위키 미러의 주장이나 직접 인용 근거가 없어 2012년설과 합치지 않는다."
+        },
+        {
+          "field": "recordedVocal",
+          "value": "황석빈",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-seoul-dugout-hwang"],
+          "notes": "황석빈 본인은 가이드 보컬이 그대로 채택됐으며 작사·작곡·편곡에는 참여하지 않았다고 설명했다."
+        },
+        {
+          "field": "usageContext",
+          "value": "8회 말·9회 초 등 경기 후반, 또는 초반부터 큰 점수 차로 앞설 때",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-current-namu", "ev-seoul-press-2014"],
+          "notes": "역전 직후 현장 영상도 있어 특정 이닝 전용으로 한정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 시즌 현행 팀 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-lg-2026-official-playlist"],
+          "notes": "구단 공식 모음집 22:23에 수록된다."
+        }
+      ],
+      "usageContexts": [
+        "8회 말·9회 초 공격 전의 대표 후반부 떼창",
+        "역전 직후나 초반 대량 리드처럼 승리 분위기가 무르익은 상황",
+        "국가대표 응원에서는 팀명 구호를 국가명으로 바꾼 변형이 보고된다"
+      ],
+      "trivia": [
+        {
+          "id": "seoul-fan-favorite",
+          "summary": "DUGOUT 팬 투표에서 LG 팀 응원가 1위로 소개됐으며 웅장한 떼창이 핵심 매력으로 언급됐다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-seoul-dugout-favorite"]
+        },
+        {
+          "id": "seoul-first-recording",
+          "summary": "황석빈이 처음 녹음한 야구 응원가가 이 곡이며, 간단한 가이드 보컬이 최종 사용으로 이어졌다고 직접 회고했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-seoul-dugout-hwang"]
+        },
+        {
+          "id": "seoul-cross-team",
+          "summary": "창원 LG 세이커스는 같은 계열의 곡을 ‘창원의 아리아’로 부르며, 키움의 ‘승리를 위한 함성’도 같은 원곡 계열로 비교된다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-lg-current-namu", "yt-seoul-kiwoom-compare"]
+        },
+        {
+          "id": "seoul-comment-reception",
+          "summary": "영상 댓글은 웅장함·울컥함, 2013년 응원 열기에 대한 향수, 2023년 통합우승 축하를 반복하며 타 팀 팬의 호평도 두드러진다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-seoul-2013-reversal", "yt-seoul-2023-crowd", "yt-seoul-championship"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1343s",
+          "https://www.youtube.com/watch?v=Y-cBDnUl5k4&t=1451s",
+          "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.korea.ac.kr/sites/ko/files/song/ku_cheer_song.pdf"
+        ],
+        "structureSummary": "원곡 선율의 말 없는 도입 합창 뒤 함성을 모으는 짧은 연결구가 나오고, 팀의 승리를 촉구하는 대칭형 후렴을 반복한다. 마지막에는 네 박자 팀명 구호로 응집한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-seoul-2023-crowd",
+        "yt-seoul-fan-mv",
+        "yt-seoul-championship",
+        "yt-seoul-official-2023",
+        "yt-seoul-2013-reversal",
+        "yt-seoul-kiwoom-compare",
+        "yt-seoul-official-2026"
+      ],
+      "unresolved": [
+        "2012 시즌 중반의 정확한 첫 사용 경기",
+        "LG판 작사·편곡 담당자",
+        "2026 공식 설명의 ‘Melodrama’와 통용 원제 ‘Melodramma’ 표기 차이"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-lg-2026-official-playlist",
+      "type": "official",
+      "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8",
+      "title": "[𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧] 엘팬들 직관 준비 끝! 26시즌 LG트윈스 응원가 모음집🎶",
+      "publisher": "LGTWINSTV",
+      "publishedAt": "2026-04-09",
+      "accessedAt": "2026-08-08",
+      "summary": "LG 없이는 못 살아 18:04, LG의 승리를 위하여 18:32, 여행을 떠나요 19:00, FOREVER LG 20:40, 서울의 아리아 22:23을 수록한다. 설명은 패티김·Secret Garden·Andrea Bocelli 원곡과 원저작자 크레딧도 일부 제공한다.",
+      "supports": [
+        "lg-twins-lg-eopsineun-motsara:currentUse",
+        "lg-twins-lg-ui-seungnireul-wihayeo:currentUse",
+        "lg-twins-yeohaengeul-tteonayo:currentUse",
+        "lg-twins-forever-lg:currentUse",
+        "lg-twins-seoul-ui-aria:currentUse"
+      ]
+    },
+    {
+      "id": "ev-lg-current-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "LG 트윈스/응원가",
+      "publisher": "namu.moe",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "현행 응원가 문서의 원곡·가사 구조·도입 연도 주장·사용 상황·부활 일화를 확인했다. 문서 단독 주장은 reported로 낮춰 두고 공식·언론·영상과 교차했다.",
+      "supports": [
+        "lg-twins-lg-eopsineun-motsara",
+        "lg-twins-lg-ui-seungnireul-wihayeo",
+        "lg-twins-yeohaengeul-tteonayo",
+        "lg-twins-forever-lg",
+        "lg-twins-seoul-ui-aria"
+      ]
+    },
+    {
+      "id": "ev-lg-without-bugs-original",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/440807",
+      "title": "그대 없이는 못살아 — 패티김",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "패티김의 원곡 제목과 가수 정보를 확인한다. 가사 전문은 저장하지 않았다.",
+      "supports": ["lg-twins-lg-eopsineun-motsara:origin"]
+    },
+    {
+      "id": "ev-lg-without-ccej-2012",
+      "type": "web",
+      "url": "https://ccej.or.kr/posts/4XtmE1",
+      "title": "[스포츠이야기] 난 ‘무적 LG’가 불편하다",
+      "publisher": "경제정의실천시민연합",
+      "publishedAt": "2012-03-22",
+      "accessedAt": "2026-08-08",
+      "summary": "LG 팬이 쓴 동시대 칼럼이 경기 중반에 이 응원가가 으레 나온다고 기록해 2012년 이전 사용의 직접 문헌 근거가 된다.",
+      "supports": ["lg-twins-lg-eopsineun-motsara:earliestDocumentedUse"]
+    },
+    {
+      "id": "ev-lg-victory-2021-field",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=Rzgyc3iJNck",
+      "title": "LG의 승리를 위하여 (2021 LG트윈스 팀 응원가) (현장음)",
+      "publisher": "엘트",
+      "publishedAt": "2021-10-29",
+      "accessedAt": "2026-08-08",
+      "summary": "제목은 2021 팀 응원가로, 설명은 그해 초 공개된 곡으로 기록한다. 2021년 도입의 동시대 영상 근거다.",
+      "supports": ["lg-twins-lg-ui-seungnireul-wihayeo:introductionYear"]
+    },
+    {
+      "id": "ev-travel-cho-official",
+      "type": "official-artist",
+      "url": "https://choyongpil.com/68",
+      "title": "조용필 7집",
+      "publisher": "YPC 공식 홈페이지",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "1985년 7집의 수록곡으로 ‘여행을 떠나요’를 확인한다.",
+      "supports": ["lg-twins-yeohaengeul-tteonayo:origin", "lg-twins-yeohaengeul-tteonayo:originalReleaseYear"]
+    },
+    {
+      "id": "ev-travel-kbsjoy-2026",
+      "type": "press",
+      "url": "https://v.daum.net/v/0QHxmJ1yvs",
+      "title": "‘힛트쏭’ 김희철, LG 홍창기 응원가 부르는 한화팬 이미주에 ‘스파이네’",
+      "publisher": "뉴스엔·다음",
+      "publishedAt": "2026-04-18",
+      "accessedAt": "2026-08-08",
+      "summary": "KBS Joy 방송 내용을 전하며 ‘여행을 떠나요’를 LG의 대표 응원가로 소개하고, 앞서가거나 분위기를 끌어올릴 때 쓰인다고 설명한다.",
+      "supports": ["lg-twins-yeohaengeul-tteonayo:usageContext"]
+    },
+    {
+      "id": "ev-forever-lg-official-release",
+      "type": "official",
+      "url": "https://www.lg.co.kr/media/release/28767",
+      "title": "팬들이 염원하던 응원가 ‘Forever LG’ 부활",
+      "publisher": "LG",
+      "publishedAt": "2025-03-24",
+      "accessedAt": "2026-08-08",
+      "summary": "원곡, 2016 플레이오프 마지막 사용, 2017년 이후 중단, 구단·팬의 장기 허가 요청, 2025년 2월 승인과 3월 22일 부활, 경기 후반 사용 맥락을 공식 확인한다.",
+      "supports": [
+        "lg-twins-forever-lg:origin",
+        "lg-twins-forever-lg:hiatus",
+        "lg-twins-forever-lg:rightsResolution",
+        "lg-twins-forever-lg:revivalDate",
+        "lg-twins-forever-lg:currentUse"
+      ]
+    },
+    {
+      "id": "ev-secret-garden-official-track",
+      "type": "official-artist",
+      "url": "https://www.youtube.com/watch?v=jR1gerSNTYk",
+      "title": "Song From A Secret Garden",
+      "publisher": "Secret Garden - Official",
+      "publishedAt": "2018-05-24",
+      "accessedAt": "2026-08-08",
+      "summary": "Universal 제공 공식 음원으로 1995년 원곡과 Rolf Løvland의 작곡·프로듀싱 크레딧을 확인한다.",
+      "supports": ["lg-twins-forever-lg:origin", "lg-twins-forever-lg:originalCredits"]
+    },
+    {
+      "id": "ev-seoul-press-2014",
+      "type": "press",
+      "url": "https://sports.news.nate.com/view/20140208n04707",
+      "title": "[어처구니 질문 위원회] 대학응원가와 프로 응원가는 왜 같을까",
+      "publisher": "일간스포츠·네이트 스포츠",
+      "publishedAt": "2014-02-08",
+      "accessedAt": "2026-08-08",
+      "summary": "LG 홍보팀과 구단 관계자를 취재해 2012 시즌 중반 도입, 고려대 ‘민족의 아리아’와 Bocelli 원곡 계보, 경기 후반 사용을 보도한다.",
+      "supports": ["lg-twins-seoul-ui-aria:origin", "lg-twins-seoul-ui-aria:sourceCheerSong", "lg-twins-seoul-ui-aria:introductionYear"]
+    },
+    {
+      "id": "ev-seoul-dugout-favorite",
+      "type": "press",
+      "url": "https://v.daum.net/v/EDCqEsbvJl",
+      "title": "[DUGOUT Live] 팬이 뽑은 최애 응원가 1탄 – LG 트윈스 편",
+      "publisher": "DUGOUT·대단한미디어",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "팬 투표 1위로 서울의 아리아를 소개하고 민족의 아리아·Melodramma 계보와 떼창의 웅장함을 설명한다.",
+      "supports": ["lg-twins-seoul-ui-aria:origin", "lg-twins-seoul-ui-aria:trivia"]
+    },
+    {
+      "id": "ev-seoul-dugout-hwang",
+      "type": "interview",
+      "url": "https://v.daum.net/v/Pnna1XBEsH",
+      "title": "[DUGOUT Inside The Park] 응원가 가수 황석빈",
+      "publisher": "DUGOUT·대단한미디어",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "황석빈이 처음 녹음한 야구 응원가가 서울의 아리아였으며 가이드 보컬이 채택됐다고 직접 설명한다. 작사·작곡·편곡에는 참여하지 않았다고 선을 긋는다.",
+      "supports": ["lg-twins-seoul-ui-aria:recordedVocal"]
+    },
+    {
+      "id": "ev-korea-official-songbook",
+      "type": "official",
+      "url": "https://www.korea.ac.kr/sites/ko/files/song/ku_cheer_song.pdf",
+      "title": "고려대학교 응원곡 악보",
+      "publisher": "고려대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "고려대학교 공식 응원곡 목록에서 ‘민족의 아리아’를 확인한다. 가사 전문은 저장하지 않았다.",
+      "supports": ["lg-twins-seoul-ui-aria:sourceCheerSong"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-lg-without-qqn",
+      "songId": "lg-twins-lg-eopsineun-motsara",
+      "url": "https://www.youtube.com/watch?v=QQNMYoZNCUk",
+      "videoId": "QQNMYoZNCUk",
+      "title": "LG 트윈스 응원가 - LG 없이는 못살아 [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-06-18",
+      "descriptionSummary": "곡명만을 제시한 짧은 LG 응원가 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "KIA 야구판과 창원 LG 농구판의 선후관계를 두고 상반된 팬 주장이 반복된다.",
+        "다른 지역·종목의 같은 선율 개사판도 언급되지만 연혁 사실로는 사용하지 않았다."
+      ],
+      "supports": ["origin-reception", "shared-adaptation-discussion"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-without-2016",
+      "songId": "lg-twins-lg-eopsineun-motsara",
+      "url": "https://www.youtube.com/watch?v=Wm3TMo_2MbQ",
+      "videoId": "Wm3TMo_2MbQ",
+      "title": "[160529] LG 9회말 lg없이는 못살아 응원가",
+      "channel": ". DK",
+      "publishedAt": "2016-05-29",
+      "descriptionSummary": "2016년 5월 29일 9회 말 현장 사용을 기록한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 1건뿐이며 KIA판과의 선후관계를 단정하지만 근거 없는 팬 의견이라 사실 판정에 쓰지 않았다."
+      ],
+      "supports": ["historical-use", "late-inning-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-without-2022",
+      "songId": "lg-twins-lg-eopsineun-motsara",
+      "url": "https://www.youtube.com/watch?v=bqCQvqWqUO8",
+      "videoId": "bqCQvqWqUO8",
+      "title": "20220703 롯데전 LG트윈스 LG 없이는 못살아 LG 응원가",
+      "channel": "하얀팬더곰",
+      "publishedAt": "2022-07-15",
+      "descriptionSummary": "2022년 7월 3일 롯데전의 응원단장·치어리더 현장을 담았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2022-field-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-without-2013-finale",
+      "songId": "lg-twins-lg-eopsineun-motsara",
+      "url": "https://www.youtube.com/watch?v=MCJt3qU4_Lw",
+      "videoId": "MCJt3qU4_Lw",
+      "title": "LG Twins - 사랑한다LG,  LG없이는못살아 2013년 10월 5일",
+      "channel": "김성래",
+      "publishedAt": "2013-10-06",
+      "descriptionSummary": "2013년 정규시즌 마지막 경기 승리 뒤풀이에서 두 곡을 부른 현장 기록이다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "supports": ["2013-field-use", "postgame-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-without-official-2026",
+      "songId": "lg-twins-lg-eopsineun-motsara",
+      "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1084s",
+      "videoId": "BhwoJFjkAf8",
+      "title": "[𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧] 엘팬들 직관 준비 끝! 26시즌 LG트윈스 응원가 모음집🎶",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2026-04-09",
+      "descriptionSummary": "2026 공식 응원가 예습·복습 영상으로 18:04에 곡을 수록하고 원곡·가수·작사·작곡 크레딧을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 모음집 자체에 대한 만족과 직관 예습에 활용한다는 반응이 반복된다.",
+        "이 곡의 제목을 직접 적으며 장기적인 LG 팬 정체성을 드러내는 반응이 높은 공감을 받았다."
+      ],
+      "supports": ["current-use", "origin", "original-credits"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-victory-audio",
+      "songId": "lg-twins-lg-ui-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=Rd5qh4tGAzI",
+      "videoId": "Rd5qh4tGAzI",
+      "title": "LG트윈스 응원가 - LG의 승리를 위하여",
+      "channel": "LG윤빠",
+      "publishedAt": "2021-11-17",
+      "descriptionSummary": "별도 설명 없이 곡 전체를 들려주는 2021년 응원가 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "짧고 귀에 잘 꽂히는 선율과 손동작을 좋아한다는 반응이 반복된다.",
+        "길이가 짧아 더 긴 팀 응원가 버전을 원한다는 아쉬움도 여러 댓글에서 보인다."
+      ],
+      "supports": ["2021-use", "fan-reception", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-victory-field-2021",
+      "songId": "lg-twins-lg-ui-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=Rzgyc3iJNck",
+      "videoId": "Rzgyc3iJNck",
+      "title": "LG의 승리를 위하여 (2021 LG트윈스 팀 응원가) (현장음)",
+      "channel": "엘트",
+      "publishedAt": "2021-10-29",
+      "descriptionSummary": "그해 초 나온 신곡임을 밝히고 2021 정규시즌 최종전 선두 경쟁과 우승 염원을 연결한 현장음 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 2건이며 영상 편집 호평과 우승 염원을 나타낸다."
+      ],
+      "supports": ["introduction-year", "2021-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-victory-comeback-2023",
+      "songId": "lg-twins-lg-ui-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=6JWo98YMzN0",
+      "videoId": "6JWo98YMzN0",
+      "title": "🔥5회 홍창기 역전 적시타!!🔥 & LG 없이는 못살아 & 김현수 연속 안타 후 LG의 승리를 위하여 떼창 응원까지!! 현장 응원 모음 (2023.04.28 vs KIA)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2023-04-28",
+      "descriptionSummary": "2023년 KIA전에서 역전 적시타와 연속 안타 뒤 이 곡으로 이어지는 흐름을 담았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["usage-context", "2023-field-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-victory-collection",
+      "songId": "lg-twins-lg-ui-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=c0Mqq1vq72c",
+      "videoId": "c0Mqq1vq72c",
+      "title": "LG의 승리를 위하여(2021~2025 Collection)",
+      "channel": "LGGOLSU",
+      "publishedAt": "2026-01-10",
+      "descriptionSummary": "2021년부터 2025년까지의 사용 장면을 노동요형 모음으로 편집했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 적지만 2020년대 LG 팀 응원가 중 특히 뛰어나다는 평가가 있다.",
+        "야구·농구 등 LG 계열 스포츠 응원 문화의 연결도 언급된다."
+      ],
+      "supports": ["multi-year-use", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-lg-victory-official-2026",
+      "songId": "lg-twins-lg-ui-seungnireul-wihayeo",
+      "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1112s",
+      "videoId": "BhwoJFjkAf8",
+      "title": "[𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧] 엘팬들 직관 준비 끝! 26시즌 LG트윈스 응원가 모음집🎶",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2026-04-09",
+      "descriptionSummary": "2026 공식 응원가 모음집의 18:32 장에 이 곡을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 공식 모음집의 예습 가치와 구단의 제작을 칭찬하고 시즌 우승을 바라는 반응이 중심이다.",
+        "곡별 댓글이 아닌 전체 플레이리스트 반응이라는 한계가 있다."
+      ],
+      "supports": ["current-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-travel-wildcard-2016",
+      "songId": "lg-twins-yeohaengeul-tteonayo",
+      "url": "https://www.youtube.com/watch?v=NNuKedpTvag",
+      "videoId": "NNuKedpTvag",
+      "title": "엘지트윈스 와일드카드 1차전 여행을떠나요 응원영상",
+      "channel": "머니파이프만들기 - 지제이",
+      "publishedAt": "2016-10-10",
+      "descriptionSummary": "2016년 와일드카드 1차전의 현장 응원을 담은 현재 확보한 가장 오래된 직접 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "포스트시즌 현장에 가지 못한 아쉬움과 이후 다시 즐거운 경기를 맞았다는 회고가 나온다.",
+        "원곡이 조용필의 같은 제목 곡인지 묻는 반응도 있다."
+      ],
+      "supports": ["earliest-documented-use", "postseason-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-travel-2021-return",
+      "songId": "lg-twins-yeohaengeul-tteonayo",
+      "url": "https://www.youtube.com/watch?v=UjKgsysrW90",
+      "videoId": "UjKgsysrW90",
+      "title": "LG트윈스 여행을 떠나요 응원가",
+      "channel": "송죽의 길",
+      "publishedAt": "2021-06-03",
+      "descriptionSummary": "2021년 6월 2일 현장 영상이며 업로더가 약 10년 만에 다시 들었다고 회고한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["possible-earlier-use", "2021-field-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-travel-2018-performance",
+      "songId": "lg-twins-yeohaengeul-tteonayo",
+      "url": "https://www.youtube.com/watch?v=UXauXPOiOW0",
+      "videoId": "UXauXPOiOW0",
+      "title": "LG트윈스·180704(수) 응원단공연｜여행을 떠나요 - 응원가｜잠실야구장 [4K60fps]",
+      "channel": "LG Twins",
+      "publishedAt": "2018-07-07",
+      "descriptionSummary": "2018년 7월 4일 NC전 대량 득점 경기의 응원단 공연과 촬영 정보를 자세히 적었다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "치어리더·선수·팬 모두를 격려하고 후반기 선전을 바라는 짧은 응원 반응이 확인된다."
+      ],
+      "supports": ["2018-field-use", "performance-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-travel-2022-choir",
+      "songId": "lg-twins-yeohaengeul-tteonayo",
+      "url": "https://www.youtube.com/watch?v=fETjOYYbj-M",
+      "videoId": "fETjOYYbj-M",
+      "title": "혹시 여기 콘서트장인가요..? LG 여행을 떠나요 육성 떼창 응원가 (2022.06.04)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2022-06-05",
+      "descriptionSummary": "2022년 6월 4일 육성 떼창을 콘서트장에 비유한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직접 그 경기를 관람했다는 회고와 어떤 상황에 쓰는 곡인지 묻는 반응이 각각 확인된다.",
+        "댓글 수가 적어 반복 주제로 일반화하지 않았다."
+      ],
+      "supports": ["crowd-singalong", "2022-field-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-travel-2023-full-house",
+      "songId": "lg-twins-yeohaengeul-tteonayo",
+      "url": "https://www.youtube.com/watch?v=C58GxMr13vc",
+      "videoId": "C58GxMr13vc",
+      "title": "우승으로 여행을 떠나요~ 만원 관중 속 LG트윈스 여행을 떠나요 응원 직캠🔥 (2023.10.06 vs KIA)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2023-10-06",
+      "descriptionSummary": "2023년 정규시즌 우승 무렵 KIA전 만원 관중의 현장 응원을 담았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "짧은 환호, 팀 애정, 앙코르 요청처럼 곡의 축제성을 즐기는 반응이 나온다."
+      ],
+      "supports": ["championship-context", "full-house-singalong"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-travel-2025-comeback",
+      "songId": "lg-twins-yeohaengeul-tteonayo",
+      "url": "https://www.youtube.com/watch?v=B5RUVSt9Auc",
+      "videoId": "B5RUVSt9Auc",
+      "title": "5회초 역전하고 투수교체때 부르는 여행을 떠나요 떼창! [2025.09.10 VS 두산 15차전 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2025-09-10",
+      "descriptionSummary": "2025년 두산전 5회 초 역전 뒤 상대 투수 교체 때 부른 현장을 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "노란 수건 물결과 LG 깃발이 멋있다는 시각적 반응이 반복된다.",
+        "환호 이모지 반응도 많아 역전 뒤 축제 분위기를 확인한다."
+      ],
+      "supports": ["usage-context", "2025-field-use", "derby-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-travel-official-2026",
+      "songId": "lg-twins-yeohaengeul-tteonayo",
+      "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1140s",
+      "videoId": "BhwoJFjkAf8",
+      "title": "[𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧] 엘팬들 직관 준비 끝! 26시즌 LG트윈스 응원가 모음집🎶",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2026-04-09",
+      "descriptionSummary": "2026 공식 응원가 모음집의 19:00 장에 곡을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관 전 예습과 이동 중 반복 청취에 쓴다는 댓글이 이어진다.",
+        "전체 모음집 댓글이라 이 곡에만 한정된 반응으로 보지는 않았다."
+      ],
+      "supports": ["current-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-forever-audio-2021",
+      "songId": "lg-twins-forever-lg",
+      "url": "https://www.youtube.com/watch?v=0oW6zLm7EtQ",
+      "videoId": "0oW6zLm7EtQ",
+      "title": "LG트윈스 응원가 - Forever LG",
+      "channel": "LG윤빠",
+      "publishedAt": "2021-02-27",
+      "descriptionSummary": "사용 중단기에 곡을 들을 수 있게 올린 설명 없는 응원가 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "부활 전 댓글은 사용 재개 요청과 저작권 협의 촉구가 압도적이다.",
+        "원작자에게 직접 허가 요청을 보냈다는 팬 행동과 부활 뒤 환영 반응도 확인된다."
+      ],
+      "supports": ["hiatus-reception", "fan-campaign", "revival-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-forever-yearend-2023",
+      "songId": "lg-twins-forever-lg",
+      "url": "https://www.youtube.com/watch?v=XWcWtoesmE0",
+      "videoId": "XWcWtoesmE0",
+      "title": "[4K직]포에버 엘지♬ - 2024 V4를 향해 외치는 LG트윈스의 영원한 응원가 'Forever LG' [231231]",
+      "channel": "네카",
+      "publishedAt": "2023-12-31",
+      "descriptionSummary": "2023년 마지막 날 V4 염원과 원곡 정보를 적은 공연 영상이다. 설명의 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡의 감성·영원성에 대한 호평과 2024년 우승 염원이 나타난다.",
+        "사용 재개와 저작권 해결을 바라는 반응이 반복된다."
+      ],
+      "supports": ["origin", "pre-revival-demand", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-forever-official-return",
+      "songId": "lg-twins-forever-lg",
+      "url": "https://www.youtube.com/watch?v=B78FVgbE0TI",
+      "videoId": "B78FVgbE0TI",
+      "title": "Welcome back ❤️‍🔥FOREVER LG❤️‍🔥 응원석 직캠 [트윈스 치얼업]",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2025-03-22",
+      "descriptionSummary": "2025 시즌 개막에 맞춘 공식 부활 현장 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오래 기다린 곡의 귀환에 감격하고 몇 년이 지나도 응원법을 기억한다는 반응이 반복된다.",
+        "승리보다 무조건적인 팀 사랑을 담은 가사라 각별하다는 해석과 타 구단 부활곡을 떠올리는 연대 반응도 많다."
+      ],
+      "supports": ["revival-date", "revival-reception", "lyric-theme"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-forever-fan-mv-2025",
+      "songId": "lg-twins-forever-lg",
+      "url": "https://www.youtube.com/watch?v=uOK-VU8x8DU",
+      "videoId": "uOK-VU8x8DU",
+      "title": "Forever LG 포에버 LG｜LG트윈스 응원가｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2025-07-20",
+      "descriptionSummary": "팬들 곁에 돌아온 곡을 기념한 2025년 경기영상형 MV다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 업로더의 복귀를 반기는 반응과 LG 우승을 바라는 짧은 응원으로 나뉜다.",
+        "곡 자체에 대한 상세 반응은 적어 다른 표본으로 보충했다."
+      ],
+      "supports": ["post-revival-use", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-forever-return-field",
+      "songId": "lg-twins-forever-lg",
+      "url": "https://www.youtube.com/watch?v=erKq2TjxwYA",
+      "videoId": "erKq2TjxwYA",
+      "title": "250322(토) 9년만에 잠실에서 울려퍼진 포에버 LG",
+      "channel": "형도",
+      "publishedAt": "2025-03-22",
+      "descriptionSummary": "2025년 3월 22일 응원 메들리 중 05:18부터 부활한 곡의 현장음을 담았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡의 장엄함과 눈물을 부르는 기억을 강조하는 반응이 반복된다.",
+        "영상의 현장음 품질을 칭찬하며 다른 채널보다 직관 감각이 강하다는 반응도 많다."
+      ],
+      "supports": ["revival-date", "field-use", "emotional-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-forever-official-2026",
+      "songId": "lg-twins-forever-lg",
+      "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1240s",
+      "videoId": "BhwoJFjkAf8",
+      "title": "[𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧] 엘팬들 직관 준비 끝! 26시즌 LG트윈스 응원가 모음집🎶",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2026-04-09",
+      "descriptionSummary": "2026 공식 모음집 20:40에 곡을 수록하고 Secret Garden 원곡과 Rolf Løvland 크레딧을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "구단 공식 버전 공개와 직관 예습 활용을 반기는 반응이 반복된다.",
+        "전체 모음집 댓글이라 이 곡에만 한정된 반응으로 보지는 않았다."
+      ],
+      "supports": ["current-use", "origin", "original-credits"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-seoul-2023-crowd",
+      "songId": "lg-twins-seoul-ui-aria",
+      "url": "https://www.youtube.com/watch?v=ar44EdDl5PM",
+      "videoId": "ar44EdDl5PM",
+      "title": "[4K] 진짜 역대급 서울의 아리아 떼창!!! 그리고, 사랑한다 LG~ 까지! [2023.10.06 (VS 기아 16차전) 9회말 전 서울의 아리아 떼창 직캠]",
+      "channel": "엘트",
+      "publishedAt": "2023-10-06",
+      "descriptionSummary": "2023년 10월 6일 KIA전 9회 말 직전 두 곡의 대형 떼창을 담았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "29년 만의 통합우승을 축하하고 팬들의 오랜 한이 풀렸다는 감동 반응이 반복된다.",
+        "타 팀 팬도 떼창의 웅장함과 LG의 팀 정체성을 높게 평가한다."
+      ],
+      "supports": ["late-inning-use", "championship-reception", "crowd-scale"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-seoul-fan-mv",
+      "songId": "lg-twins-seoul-ui-aria",
+      "url": "https://www.youtube.com/watch?v=VcYP02oXyhY",
+      "videoId": "VcYP02oXyhY",
+      "title": "LG트윈스 응원가｜민족의 아리아 or 서울의 아리아 경기영상 M/V｜야구장 뽐뿌영상｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2020-03-26",
+      "descriptionSummary": "민족의 아리아·서울의 아리아 두 검색명을 병기한 단독 경기영상형 MV다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "성적과 무관하게 팬을 계속 붙잡는 곡이라는 애정과 2023 우승 축하가 반복된다.",
+        "두산·KIA 등 타 팀 팬도 선율과 영상을 칭찬한다."
+      ],
+      "supports": ["alias", "fan-reception", "cross-team-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-seoul-championship",
+      "songId": "lg-twins-seoul-ui-aria",
+      "url": "https://www.youtube.com/watch?v=xr6wPZxyhxI",
+      "videoId": "xr6wPZxyhxI",
+      "title": "서울의 아리아",
+      "channel": "야쏭",
+      "publishedAt": "2023-11-13",
+      "descriptionSummary": "별도 설명 없이 2023 한국시리즈 우승 장면을 곡과 함께 편집한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "박해민의 수비와 임찬규의 눈물 등 우승 장면의 감동을 되짚는 반응이 많다.",
+        "타 팀 팬의 우승 축하와 29년 기다림에 대한 공감이 반복된다."
+      ],
+      "supports": ["championship-context", "emotional-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-seoul-official-2023",
+      "songId": "lg-twins-seoul-ui-aria",
+      "url": "https://www.youtube.com/watch?v=Y-cBDnUl5k4&t=1451s",
+      "videoId": "Y-cBDnUl5k4",
+      "title": "🌟직관 전 필수 시청!🌟 2023 LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2023-08-22",
+      "descriptionSummary": "공식 응원 예습 영상이며 24:11에 서울의 아리아를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "당장 잠실에 가고 싶게 만든다는 반응과 공식 설명 영상의 완성도를 칭찬하는 댓글이 반복된다.",
+        "서울의 아리아가 팀 자부심을 끌어올리는 곡이라는 직접 반응도 확인된다."
+      ],
+      "supports": ["official-current-use", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-seoul-2013-reversal",
+      "songId": "lg-twins-seoul-ui-aria",
+      "url": "https://www.youtube.com/watch?v=YVJr6fVorTc",
+      "videoId": "YVJr6fVorTc",
+      "title": "[직캠]13.10.05 LG트윈스, 역전 후 서울의 아리아 떼창 @형도SPORTS+",
+      "channel": "형도",
+      "publishedAt": "2014-01-26",
+      "descriptionSummary": "2013년 10월 5일 두산전 6회 말 역전 직후의 대형 떼창을 기록했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "2013~2014년 관중석의 강한 응원 열기와 암흑기 뒤 포스트시즌 진출에 대한 향수가 반복된다.",
+        "타 팀 팬도 웅장함과 울컥함을 말하고 국가대표 응원으로도 듣고 싶다는 반응을 보인다."
+      ],
+      "supports": ["2013-field-use", "post-reversal-use", "nostalgia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-seoul-kiwoom-compare",
+      "songId": "lg-twins-seoul-ui-aria",
+      "url": "https://www.youtube.com/watch?v=SrYqulrbd-E",
+      "videoId": "SrYqulrbd-E",
+      "title": "같은 곡 다른느낌 - 키움히어로즈 \"승리를 위한 함성\" vs LG트윈스 \"서울의 아리아\" - 고척스카이돔 떼창",
+      "channel": "엘떠",
+      "publishedAt": "2019-10-14",
+      "descriptionSummary": "같은 원곡 계열을 쓰는 키움과 LG의 고척돔 응원 장면을 비교한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "키움판은 위압적이고 LG판은 함께 즐기기 좋다는 식으로 두 가사와 분위기를 비교하는 반응이 반복된다.",
+        "어느 쪽이 더 좋은지 취향은 갈리지만 두 곡 모두 웅장하다는 평이 공통적이다."
+      ],
+      "supports": ["shared-origin-comparison", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-seoul-official-2026",
+      "songId": "lg-twins-seoul-ui-aria",
+      "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1343s",
+      "videoId": "BhwoJFjkAf8",
+      "title": "[𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧] 엘팬들 직관 준비 끝! 26시즌 LG트윈스 응원가 모음집🎶",
+      "channel": "LGTWINSTV",
+      "publishedAt": "2026-04-09",
+      "descriptionSummary": "2026 공식 모음집 22:23에 곡을 수록하고 Andrea Bocelli 원곡과 저작자 정보를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 모음집을 직관 예습과 반복 청취에 쓰며 시즌 우승을 바라는 반응이 반복된다.",
+        "전체 모음집 댓글이라는 한계를 명시하고 곡별 반응은 다른 표본으로 보충했다."
+      ],
+      "supports": ["current-use", "origin", "official-credit"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 30,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 11
+  }
+}

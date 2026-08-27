@@ -1,0 +1,1250 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-samsung-d",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-samsung-lions",
+    "name": "삼성 라이온즈",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 노래는 출처·크레딧·구조·사용 이력만 요약하며, 공개 댓글은 작성자를 식별하지 않는 반복 반응만 기록한다. 고전 원곡이 퍼블릭 도메인이어도 구단 편곡·실연·녹음에는 별도 권리가 있을 수 있다.",
+  "items": [
+    {
+      "id": "samsung-lions-eldorado",
+      "title": "엘도라도",
+      "aliases": ["El Dorado", "승리의 엘도라도", "삼성 엘도라도"],
+      "currentStatus": "revived-current",
+      "summary": "Goombay Dance Band의 1980년 곡 ‘Eldorado’를 바탕으로 김용일 전 응원단장이 만든 삼성의 대표 응원가다. 2012~2017년 사용 뒤 원곡의 동일성유지권·개작 승인 문제와 권리자 협의 난항으로 2018~2023년 공식 사용이 중단됐으며, 팬들은 그 사이 육성으로 명맥을 이었다. 이종열 단장 취임 뒤 제일기획 독일 법인의 협조를 받아 권리 협상을 마치고 2024년 3월 23일 수원 개막전에서 부활했다. 2025 구단 공식 포스트시즌 영상과 날짜가 특정된 2026년 현장 직캠 세 편이 현행 사용을 직접 확인한다. 다만 2026 구단 공식 유튜브 플레이리스트에는 ‘엘도라도를 포함한 일부 응원가’가 음원 사용 제한으로 빠졌으므로, 경기장 사용 허락과 온라인 음원 재배포 권한은 구분해야 한다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "Goombay Dance Band — Eldorado, 1980",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-eldorado-spotify", "ev-samsung-d-eldorado-shazam", "yt-samsung-d-eldorado-original-official"],
+          "notes": "Spotify와 Shazam이 1980년 공개를 일치해 기록한다. 후대 2022 재녹음판과 구분했다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "작곡 Wolff-Eckehardt Stein·Wolfgang Jass; Shazam은 작사 Ivo Fisher와 편곡 Jochen Petersen도 표기",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-eldorado-shazam", "yt-samsung-d-eldorado-rerecord-2022"],
+          "notes": "Shazam의 원곡 크레딧과 2022 Topic 영상의 작사·작곡 표기가 완전히 같지 않다. 버전·서비스별 메타데이터 차이로 보존하고 권리단체 원장을 추가 확인해야 한다."
+        },
+        {
+          "field": "stadiumAdaptation",
+          "value": "김용일 전 응원단장이 삼성 응원가로 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-namu", "ev-samsung-d-club-legacy-catalog"],
+          "notes": "현행 편집형 문서의 제작자 서술과 구단의 구형 음원·가사 카탈로그를 함께 썼다. 최초 제작 계약·편곡 크레딧 원문은 찾지 못했다."
+        },
+        {
+          "field": "usageYears",
+          "value": "2012~2017 사용, 2018~2023 공식 사용 중단, 2024~ 재사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-namu", "ev-samsung-d-eldorado-mhn", "ev-samsung-d-eldorado-mbc", "yt-samsung-d-eldorado-legacy-2017", "yt-samsung-d-eldorado-revival-news-2024"],
+          "notes": "2017 이승엽 은퇴 경기의 마지막 사용과 2024년 3월 23일 복귀는 기사·영상이 교차 확인한다. 2012 최초 도입 경기는 편집형 문서에 의존한다."
+        },
+        {
+          "field": "rightsHiatus",
+          "value": "원곡 개작에 필요한 저작인격권상 동일성유지권 동의와 권리자 접촉·협의 문제로 공식 사용 중단",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-eldorado-mhn", "ev-samsung-d-eldorado-mbc", "ev-samsung-d-copyright-case", "ev-samsung-d-copyright-lawsuit"],
+          "notes": "당시 프로야구 응원가 소송·판결의 일반 법적 맥락과 엘도라도 복원 기사를 구분했다. ‘저작권료만 내면 해결’되는 사안으로 단순화하지 않는다."
+        },
+        {
+          "field": "revival",
+          "value": "이종열 단장 주도로 제일기획 독일 법인이 권리자 접촉을 지원해 협상을 마치고 2024-03-23 수원 KT전에서 복귀",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-eldorado-mhn", "ev-samsung-d-eldorado-mbc", "yt-samsung-d-eldorado-revival-news-2024"],
+          "notes": "2024년 2월 협상 진행, 3월 19일 티저, 3월 21일 타결 보도라는 세부 순서는 편집형 문서로 보완했다."
+        },
+        {
+          "field": "usageContext",
+          "value": "통상 8회초 종료 뒤 삼성의 8회말 공격 직전; 투수 교체·득점·역전 등 분위기를 끌어올릴 때도 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-namu", "ev-samsung-d-eldorado-mbc", "yt-samsung-d-eldorado-field-a-2026", "yt-samsung-d-eldorado-field-c-2026"],
+          "notes": "경기 흐름에 따라 반복 횟수와 재생 시점이 달라져 8회 전용으로 단정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 구단 공식 포스트시즌 영상과 2026-04-04·04-18·05-16 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-d-eldorado-official-2025", "yt-samsung-d-eldorado-field-a-2026", "yt-samsung-d-eldorado-field-b-2026", "yt-samsung-d-eldorado-field-c-2026"],
+          "notes": "2026 공식 플레이리스트 미수록과 모순되지 않는다. 플레이리스트 설명 자체가 온라인 음원 사용 제한에 따른 누락임을 밝힌다."
+        },
+        {
+          "field": "officialPlaylistOmission",
+          "value": "2026 구단 공식 응원가 플레이리스트에서 음원 사용 제한으로 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-official-playlist-2026", "yt-samsung-d-eldorado-official-playlist-2026"],
+          "notes": "설명문이 엘도라도를 직접 지목한다. 이는 현장 사용 중단이 아니라 유튜브 플레이리스트의 음원 수록 제한이다."
+        }
+      ],
+      "usageContexts": [
+        "홈 경기에서는 흔히 8회말 공격을 앞두고 장내 음원과 율동에 맞춰 대합창한다.",
+        "원정·달빛시리즈에서도 재생 또는 육성 합창이 확인되며, 득점·역전·투수 교체 등 고조된 상황에 추가로 나올 수 있다.",
+        "2018~2023년 공식 음원 공백에는 올스타전 우천 중단, 경기 뒤, 타 종목 현장 등에서 팬들의 육성 합창이 상징을 유지했다.",
+        "경기장 공연 이용과 유튜브 플레이리스트 음원 재배포는 권리 범위가 다르므로 현행 여부를 공식 플레이리스트 수록 여부만으로 판단하지 않는다."
+      ],
+      "trivia": [
+        {
+          "id": "eldorado-a-cappella-gap",
+          "summary": "공식 사용 중단기에도 팬들은 육성 합창으로 곡을 이어 갔고, 2022 올스타전 우천 중단과 2023년 경기 뒤 합창 등이 복원 요구의 상징적 장면으로 회고된다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-namu", "ev-samsung-d-eldorado-mhn"]
+        },
+        {
+          "id": "eldorado-last-2017",
+          "summary": "중단 전 마지막 공식 사용은 2017년 10월 이승엽 은퇴 경기로 알려져 있으며, 당시 대규모 합창 영상은 2024년 부활 뒤 다시 찾는 역사 표본이 됐다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-eldorado-mbc", "yt-samsung-d-eldorado-legacy-2017"]
+        },
+        {
+          "id": "eldorado-cross-team-series",
+          "summary": "2024 클래식 시리즈와 2026 달빛시리즈 표본에서는 상대 팀 관중도 합창에 참여해 구단 대표곡을 넘어 교류 응원으로 소비되는 장면이 확인된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-namu", "yt-samsung-d-eldorado-field-b-2026"]
+        },
+        {
+          "id": "eldorado-original-comment-traffic",
+          "summary": "원곡 공식 영상과 2022 재녹음판 댓글에는 삼성 팬의 방문·사용 허락 요청·응원 구호가 반복되며, 원곡의 진지한 내용과 경기장 분위기의 대비를 언급하는 반응도 있다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-samsung-d-eldorado-original-official", "yt-samsung-d-eldorado-rerecord-2022"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-commercial-song-and-stadium-adaptation; venue-use-restored-in-2024-but-online-audio-redistribution-remains-restricted",
+        "sourceUrls": [
+          "https://www.samsunglions.com/m/ajax/fan_fan05.ajax.asp",
+          "https://www.youtube.com/watch?v=x80gQwyanKk",
+          "https://open.spotify.com/track/3Ii7S0TeBj4tZDDDc3GpIz",
+          "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡의 서정적인 도입 선율을 짧게 사용한 뒤 삼성의 승리와 전진을 선언하는 개사 후렴을 반복하고 팀명 구호로 절정을 만든다. 현장에서는 장내 음원, 손동작, 관중 합창이 결합되며 공식 중단기에는 반주 없이 같은 핵심 후렴을 부르기도 했다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-samsung-d-eldorado-legacy-2017",
+        "yt-samsung-d-eldorado-original-official",
+        "yt-samsung-d-eldorado-rerecord-2022",
+        "yt-samsung-d-eldorado-revival-news-2024",
+        "yt-samsung-d-eldorado-official-2025",
+        "yt-samsung-d-eldorado-field-a-2026",
+        "yt-samsung-d-eldorado-field-b-2026",
+        "yt-samsung-d-eldorado-field-c-2026",
+        "yt-samsung-d-eldorado-official-playlist-2026"
+      ],
+      "unresolved": [
+        "2012년 최초 도입 경기·공식 발표일과 당시 제작 계약서",
+        "삼성판 편곡·개사 전체 크레딧과 2024년 체결된 이용 허락의 정확한 권리 범위·기간",
+        "원곡 크레딧에서 Ivo Fisher·Jochen Petersen 표기가 서비스와 버전에 따라 다른 이유",
+        "8회 외 추가 재생 조건과 홈·원정별 운영 매뉴얼"
+      ]
+    },
+    {
+      "id": "samsung-lions-jump-up-lions",
+      "title": "Jump up Lions",
+      "aliases": ["점프 업 라이온즈", "Jump Up Lions", "구 이학주 응원가", "학주교"],
+      "currentStatus": "current",
+      "summary": "허니크루가 2022년 4월 15일 공개한 김상헌 작사·작곡, 박유진 편곡의 구단 창작곡이다. 이학주가 삼성을 떠난 뒤 그의 선수 응원가 선율과 ‘학주교’로 불리던 점프 동작을 살려 2022년 후반기 팀 응원가로 전환했다. 2022 올스타전 첫선 영상, 2024·2025 현장 영상, 2026년 3월 21일 라팍 연습경기 직캠이 계승과 현행 사용을 잇는다. 2026 구단 공식 플레이리스트에는 없지만, 설명문은 엘도라도 외 개별 누락 사유를 밝히지 않으므로 미수록을 사용 중단이나 권리 문제로 해석하지 않는다.",
+      "claims": [
+        {
+          "field": "recordingRelease",
+          "value": "허니크루 — Jump up Lions, 2022-04-15",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-jump-bugs", "ev-samsung-d-jump-apple", "yt-samsung-d-jump-topic-2022"],
+          "notes": "벅스·Apple Music·YouTube Topic 메타데이터가 날짜와 가수를 일치해 기록한다."
+        },
+        {
+          "field": "credits",
+          "value": "작사·작곡 김상헌, 편곡 박유진, 가창 허니크루",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-jump-bugs", "yt-samsung-d-jump-topic-2022"],
+          "notes": "상업 음원 메타데이터 기준이다. 선수 응원가 시절 별도 녹음·편곡 크레딧은 확인하지 못했다."
+        },
+        {
+          "field": "originAsPlayerSong",
+          "value": "이학주 전 삼성 선수 응원가의 선율과 율동을 팀 응원가로 재사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-namu", "yt-samsung-d-jump-debut-2022", "yt-samsung-d-jump-field-2022"],
+          "notes": "영상 제목과 편집형 문서가 ‘구 이학주 응원가’ 계보를 일치해 기록한다."
+        },
+        {
+          "field": "teamSongIntroduction",
+          "value": "2022년 올스타전 무렵 첫선을 보이고 후반기부터 팀 응원가로 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-namu", "yt-samsung-d-jump-debut-2022", "yt-samsung-d-jump-field-2022"],
+          "notes": "2022-07-16 올스타전 촬영과 7월 23일 고척 현장 촬영이 이어진다. 구단의 별도 최초 사용 공지는 확인하지 못했다."
+        },
+        {
+          "field": "choreography",
+          "value": "선수 응원가 시절의 점프 중심 ‘학주교’ 동작을 보존",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-namu", "yt-samsung-d-jump-debut-2022", "yt-samsung-d-jump-field-2024"],
+          "notes": "별칭과 동작의 공식 명칭이 아니라 팬덤 표현이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024·2025 현장 사용과 2026-03-21 대구 연습경기 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-d-jump-field-2024", "yt-samsung-d-jump-field-2025", "yt-samsung-d-jump-field-2026"],
+          "notes": "2026 표본은 정규시즌이 아닌 연습경기이지만 날짜·상대·장소와 곡명이 모두 제목·설명에 명시돼 현행 레퍼토리임을 직접 뒷받침한다."
+        },
+        {
+          "field": "officialPlaylistOmission",
+          "value": "2026 구단 공식 유튜브 플레이리스트 챕터에는 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-official-playlist-2026"],
+          "notes": "설명문이 권리 제한 대상으로 직접 지목하는 곡은 엘도라도뿐이다. Jump up Lions의 누락 사유는 공개되지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "응원단과 관중이 제자리에서 뛰는 동작을 반복하며 팀명과 상승 이미지를 강조하는 분위기 전환용 팀 응원이다.",
+        "파도타기나 다른 팀 응원가와 이어지는 메들리형 현장 사용이 확인된다.",
+        "정규 경기뿐 아니라 2026년 시즌 전 연습경기에도 사용돼 현행 학습·운용 레퍼토리임을 확인할 수 있다."
+      ],
+      "trivia": [
+        {
+          "id": "jump-melody-preserved",
+          "summary": "2022년 첫선 영상 댓글에는 이학주가 이적한 뒤에도 좋은 선율과 율동을 버리지 않고 팀 곡으로 남긴 결정을 반기는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-d-jump-debut-2022"]
+        },
+        {
+          "id": "jump-hakjugyo",
+          "summary": "‘학주교’는 점프 동작과 집단 응원의 열광적 모습을 빗댄 팬덤 별칭으로, 공식 곡명이나 종교적 성격을 뜻하지 않는다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-namu", "yt-samsung-d-jump-debut-2022"]
+        },
+        {
+          "id": "jump-release-before-team-debut",
+          "summary": "상업 음원 발매일은 2022년 4월 15일이지만 팀 응원가 첫 현장 표본은 7월이어서, 음원 공개와 팀 곡 전환 시점 사이에 간격이 있다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-jump-apple", "yt-samsung-d-jump-debut-2022", "yt-samsung-d-jump-field-2022"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-recording-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/6169547",
+          "https://www.youtube.com/watch?v=pNP1GTbdA3E",
+          "https://www.youtube.com/watch?v=s-eeobuk_yU",
+          "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "짧은 전자음 도입 뒤 영어 제목 구호와 삼성·라이온즈 계열의 짧은 문구를 반복하고, 점프 동작에 맞춘 박자와 집단 구호로 끝나는 1분 미만 구성이다. 선수 이름 중심이던 옛 응원가를 팀 단위 표현으로 바꾼 버전이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-samsung-d-jump-topic-2022",
+        "yt-samsung-d-jump-debut-2022",
+        "yt-samsung-d-jump-field-2022",
+        "yt-samsung-d-jump-field-2024",
+        "yt-samsung-d-jump-field-2025",
+        "yt-samsung-d-jump-field-2026"
+      ],
+      "unresolved": [
+        "이학주 선수 응원가 원형의 최초 사용일·제작 크레딧과 팀 곡 전환 승인 과정",
+        "2022년 팀 응원가로서의 정확한 최초 경기와 구단 공지",
+        "2026 정규시즌의 날짜가 특정된 단독 현장 영상과 구체적 재생 상황",
+        "2026 구단 공식 플레이리스트 미수록 사유"
+      ]
+    },
+    {
+      "id": "samsung-lions-love-my-samsung",
+      "title": "사랑한다 나의 삼성",
+      "aliases": ["사랑한다 삼성 나의 삼성", "사랑한다 나의삼성", "Love My Samsung"],
+      "currentStatus": "current",
+      "summary": "김상헌이 작사·작곡하고 박유진이 편곡한 허니크루의 2024년 구단 창작곡이다. 음원과 구단 공식 학습 영상이 2024년 5월 10일 한국시간 같은 날 공개됐다. 승리 뒤 홈에서는 수훈선수 인터뷰 후, 원정에서는 응원단 인사 뒤 선수·응원단·관중이 함께 부르는 마무리 성격이 강하다. 2024 승리 뒤 현장 영상, 2026 팬 제작 응원가 모음 수록, 2026년 7월 18일 클래식시리즈 애프터샤우팅의 곡명·구간 표기가 현행 사용을 뒷받침한다. 공식 2026 플레이리스트에는 빠져 있으나 개별 누락 사유는 공개되지 않았다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2024년 신규 팀 응원가로 2024-05-10 한국시간 공식 영상·음원 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-namu", "yt-samsung-d-love-official-2024", "yt-samsung-d-love-topic-2024"],
+          "notes": "YouTube 표시는 미국 태평양 시간 5월 9일이지만 음원 메타데이터와 한국 현지 공개일은 5월 10일이다."
+        },
+        {
+          "field": "credits",
+          "value": "작사·작곡 김상헌, 편곡 박유진, 가창 허니크루",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-d-love-topic-2024"],
+          "notes": "YouTube Topic의 유통 메타데이터 기준이다."
+        },
+        {
+          "field": "usageContext",
+          "value": "승리 뒤 홈 수훈선수 인터뷰 후 또는 원정 응원단 인사 후 부르는 마무리 응원",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-namu", "yt-samsung-d-love-win-a-2024", "yt-samsung-d-love-win-b-2024"],
+          "notes": "두 2024 현장 영상 제목·장면이 승리 후 사용을 직접 확인한다. 예외적인 사용 시점은 더 확인해야 한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 응원가 모음과 2026-07-18 클래식시리즈 애프터샤우팅에서 곡명·구간 확인",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-samsung-d-love-playlist-2026", "yt-samsung-d-love-classic-2026"],
+          "notes": "클래식시리즈 영상 설명이 38:35 구간에 곡명을 명시한다. 단독 공식 2026 영상은 찾지 못했다."
+        },
+        {
+          "field": "officialPlaylistOmission",
+          "value": "2026 구단 공식 유튜브 플레이리스트 챕터에는 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-official-playlist-2026"],
+          "notes": "구단은 이 곡의 누락 이유를 개별적으로 밝히지 않았다. 현장 미사용의 증거로 취급하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "승리 뒤 선수단·응원단·관중이 서로 인사하며 부르는 감사·결속형 마무리 곡이다.",
+        "홈에서는 수훈선수 인터뷰가 끝난 뒤, 원정에서는 응원단의 마지막 인사 뒤가 대표적 운용 시점이다.",
+        "양 팀 응원가를 교환하는 2026 클래식시리즈 애프터샤우팅에서도 사용됐다."
+      ],
+      "trivia": [
+        {
+          "id": "love-upload-after-win",
+          "summary": "공식 학습 영상 댓글에는 연패·부진 뒤 승리 직후 새 노래가 공개된 타이밍을 반기는 반응과 시즌 마지막에도 이 곡을 부르고 싶다는 기대가 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-samsung-d-love-official-2024"]
+        },
+        {
+          "id": "love-mutual-greeting",
+          "summary": "2024년 승리 뒤 영상은 곡이 단순 장내 재생보다 선수단과 응원석의 상호 인사 장면을 묶는 의식에 가깝게 운용됨을 보여 준다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-d-love-win-a-2024", "yt-samsung-d-love-win-b-2024"]
+        },
+        {
+          "id": "love-title-order",
+          "summary": "일부 현장 영상은 후렴의 어순을 따라 ‘사랑한다 삼성 나의 삼성’으로 제목을 적지만 상업 음원과 공식 학습 영상의 정식 표기는 ‘사랑한다 나의 삼성’이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-d-love-topic-2024", "yt-samsung-d-love-official-2024", "yt-samsung-d-love-win-b-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-recording-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=N71si7qeMV8",
+          "https://www.youtube.com/watch?v=ciNNnn7corY",
+          "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "감사와 사랑을 고백하는 짧은 도입 뒤 삼성과 팬의 동행을 말하고, 공식 제목에 해당하는 핵심 문장을 여러 번 함께 부르는 느린 합창형 구성이다. 승리 뒤 인사 동작에 맞게 반복성이 높다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-samsung-d-love-topic-2024",
+        "yt-samsung-d-love-official-2024",
+        "yt-samsung-d-love-win-a-2024",
+        "yt-samsung-d-love-win-b-2024",
+        "yt-samsung-d-love-playlist-2026",
+        "yt-samsung-d-love-classic-2026"
+      ],
+      "unresolved": [
+        "2024년 최초 경기 사용일과 제작을 의뢰한 구단의 공식 보도자료",
+        "승리 뒤 홈·원정 운용 순서의 공식 매뉴얼과 패배 뒤 예외 사용 여부",
+        "2026 구단 공식 플레이리스트 미수록 사유와 구단 단독 2026 현장 영상"
+      ]
+    },
+    {
+      "id": "samsung-lions-fur-elise",
+      "title": "엘리제를 위하여",
+      "aliases": ["엘리제를위하여", "Für Elise", "붐샤깔라까"],
+      "currentStatus": "current-needs-review",
+      "summary": "베토벤의 1810년작 피아노 바가텔 A단조 WoO 59 ‘Für Elise’ 선율에 김용일 전 응원단장이 구호를 붙인 삼성 응원가다. 편집형 문서는 약 2007년부터 사용, 한때 비활성화, 2018년 외부 곡 권리 문제 뒤 재사용, 구단 창작곡 증가 뒤 다시 중단, 2024 포스트시즌과 2025년에 재등장했다고 서술한다. 구단 구형 카탈로그에도 곡명·음원이 남아 있으나 그 버전은 현재 팬 기록의 구호 배치와 달라 복수 버전을 분리해야 한다. 2026 팬 플레이리스트에는 52:01 챕터로 수록됐고 2026년 5월 3일 라팍 종합 직캠이 검색상 연결되지만, 후자의 정확한 곡 구간을 제목·설명으로 확정하지 못해 2026 직접 현장 사용은 중간 신뢰도로 남긴다.",
+      "claims": [
+        {
+          "field": "underlyingComposition",
+          "value": "Ludwig van Beethoven — Bagatelle in A minor WoO 59, 1810 작곡·1867 초판",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-beethoven-haus"],
+          "notes": "베토벤 하우스는 자필 악보가 소실됐고 ‘Elise’의 정체와 제목 전승에도 불확실성이 있다고 설명한다."
+        },
+        {
+          "field": "stadiumAdaptation",
+          "value": "김용일 전 응원단장이 약 2007년 삼성 응원가로 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-namu", "ev-samsung-d-club-legacy-catalog"],
+          "notes": "정확한 최초 경기와 편곡·녹음 크레딧은 확인되지 않아 ‘약 2007년’으로 유지한다."
+        },
+        {
+          "field": "usageHistory",
+          "value": "초기 사용 뒤 비활성화, 2018년 권리 분쟁기 재사용, 창작곡 증가 뒤 재중단, 2024 포스트시즌·2025 재등장",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-namu", "yt-samsung-d-fur-elise-2018", "yt-samsung-d-fur-elise-playoff-2024", "yt-samsung-d-fur-elise-2025"],
+          "notes": "각 중단·재개일을 모두 특정하는 공식 공지는 찾지 못했다. 2018 영상은 당시 현장 형태를, 2024·2025 영상은 재등장을 보완한다."
+        },
+        {
+          "field": "versionConflict",
+          "value": "구단 구형 카탈로그의 팀명 중심 명령형 버전과 최근 현장의 선율 음절·분절 구호 버전이 다름",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-club-legacy-catalog", "ev-samsung-d-namu", "yt-samsung-d-fur-elise-2018", "yt-samsung-d-fur-elise-playoff-2024"],
+          "notes": "가사 전문은 저장하지 않았다. 구형 페이지가 최신 상태로 갱신되지 않았을 가능성이 크므로 어느 하나를 현행 공식판으로 단정하지 않는다."
+        },
+        {
+          "field": "crossTeamMelodyUse",
+          "value": "같은 베토벤 선율이 SSG 이재원·KIA 이홍구의 선수 응원가에도 사용된 것으로 기록",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-namu"],
+          "notes": "각 타 구단 응원가의 최초 사용일과 편곡 동일성은 이번 범위에서 별도 검증하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 팬 플레이리스트에 52:01 챕터 수록; 2026-05-03 라팍 종합 직캠과의 검색상 연결은 있으나 정확한 구간 미확정",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-samsung-d-fur-elise-playlist-2026", "yt-samsung-d-fur-elise-field-2026"],
+          "notes": "팬 플레이리스트는 현행 레퍼토리 인식을 보여 주지만 직접 경기 사용과 같지 않다. 단독 제목이나 설명 챕터가 있는 2026 현장 영상이 필요하다."
+        },
+        {
+          "field": "officialPlaylistOmission",
+          "value": "2026 구단 공식 유튜브 플레이리스트 챕터에는 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-official-playlist-2026"],
+          "notes": "구단은 이 곡의 누락 이유를 개별적으로 밝히지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "익숙한 클래식 선율 위에 짧은 음절과 팀명 구호를 얹어 응원단 동작을 따라 하는 분위기 전환형 응원이다.",
+        "2018년에는 외부 상업곡 응원가가 빠진 공백을 메우는 레거시 곡으로 다시 사용됐고, 2024 포스트시즌에도 복원형 레퍼토리로 등장했다.",
+        "구형 구단판과 최근 현장판의 구호 배열이 달라 영상의 연도와 버전을 함께 기록해야 한다."
+      ],
+      "trivia": [
+        {
+          "id": "fur-elise-title-uncertainty",
+          "summary": "원곡의 통칭은 널리 굳어졌지만 베토벤 하우스는 자필 악보가 소실됐고 헌정 대상 ‘Elise’의 정체가 확정되지 않았다고 설명한다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-beethoven-haus"]
+        },
+        {
+          "id": "fur-elise-revival-reaction",
+          "summary": "2018·2024 영상 댓글에는 오래된 삼성 응원가의 복귀와 과거 왕조 시절 레퍼토리 재건을 반기는 반응이 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-samsung-d-fur-elise-2018", "yt-samsung-d-fur-elise-playoff-2024"]
+        },
+        {
+          "id": "fur-elise-nickname",
+          "summary": "2026 팬 플레이리스트는 현장 도입부의 의성 구호를 따 ‘붐샤깔라까 부활’로 소개한다. 이는 공식 곡명이 아닌 팬 식별 표현이다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-samsung-d-fur-elise-playlist-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "public-domain-1810-composition; stadium-arrangement-performance-and-recording-may-remain-copyrighted",
+        "sourceUrls": [
+          "https://www.beethoven.de/en/work/view/ag9iZWV0aG92ZW4tdml1cjNyEQsSBHdvcmsYgICArO2tuwkM/Bagatelle%2Bfor%2Bpiano%2B%26%23040%3BA%2Bminor%26%23041%3B%2BWoO%2B59",
+          "https://www.samsunglions.com/m/ajax/fan_fan05.ajax.asp",
+          "https://www.youtube.com/watch?v=QhOq9-MWsVo",
+          "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "베토벤 원곡의 첫 주제를 빠른 경기장 반주로 반복하고, 선율을 따라가는 의미 없는 음절과 짧게 분절한 팀명·승리 구호를 번갈아 외친다. 구단 구형 카탈로그판은 더 긴 명령형 문장 중심이라 최근 현장판과 별도 버전으로 취급한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-samsung-d-fur-elise-2018",
+        "yt-samsung-d-fur-elise-field-2018",
+        "yt-samsung-d-fur-elise-playoff-2024",
+        "yt-samsung-d-fur-elise-2025",
+        "yt-samsung-d-fur-elise-playlist-2026",
+        "yt-samsung-d-fur-elise-field-2026"
+      ],
+      "unresolved": [
+        "약 2007년으로 전해지는 최초 사용의 정확한 경기·공식 발표일",
+        "김용일 제작판의 편곡·녹음·실연 전체 크레딧과 구형·현행 버전 전환 시점",
+        "2018년 재사용과 이후 재중단의 정확한 시작·종료일",
+        "2026-05-03 종합 직캠에서 곡이 실제 등장하는 정확한 타임스탬프와 단독 2026 현장 영상",
+        "2026 구단 공식 플레이리스트 미수록 사유"
+      ]
+    },
+    {
+      "id": "samsung-lions-blue-heart-run",
+      "title": "푸른 심장아 뛰어라",
+      "aliases": ["푸른 심장", "푸른 심장아 뛰어라 최강삼성 ver", "Blue Heart"],
+      "currentStatus": "current-needs-review",
+      "summary": "김상헌 작사·작곡, 박유진 편곡, 허니크루 가창으로 2025년 3월 30일 발매된 삼성 구단 창작곡이다. 2025년 전반기에는 원 녹음·가사를 온전히 사용하다가 후반기부터 긴 도입과 응원단장 주도의 ‘최강삼성’ 연호 뒤 핵심 후렴으로 넘어가는 현장판이 병행됐다. 블루존과 SKY석이 서로 구호를 주고받는 응원 대결에도 쓰인다. 2025년 날짜가 특정된 다섯 영상이 원형과 변형을 보여 주고, 2026 팬 제작 응원가 모음과 라팍 종합 직캠 검색 결과가 현행성을 시사한다. 다만 공식 2026 플레이리스트에는 없고 종합 직캠의 정확한 곡 구간도 미확정이라 2026 직접 현장 사용은 중간 신뢰도로 남긴다.",
+      "claims": [
+        {
+          "field": "recordingRelease",
+          "value": "허니크루 — 푸른 심장아 뛰어라, 2025-03-30",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-d-blue-heart-topic-2025"],
+          "notes": "YouTube Topic의 음원 공개일과 유통 메타데이터를 기준으로 했다."
+        },
+        {
+          "field": "credits",
+          "value": "작사·작곡 김상헌, 편곡 박유진, 가창 허니크루",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-d-blue-heart-topic-2025"],
+          "notes": "상업 음원 메타데이터 기준이다. 후반기 현장판의 추가 편집 크레딧은 공개되지 않았다."
+        },
+        {
+          "field": "introduction",
+          "value": "2025 시즌 신규 응원가로 3월 하순 현장 공개, 2025-03-30 음원 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-samsung-d-blue-heart-new-2025", "yt-samsung-d-blue-heart-topic-2025"],
+          "notes": "3월 23일 팬 현장 영상이 음원 발매보다 앞선다. 정확한 최초 경기·공식 학습 영상은 찾지 못했다."
+        },
+        {
+          "field": "versionChange",
+          "value": "2025 전반기 원곡 전개에서 후반기 긴 도입·응원단장 주도 최강삼성 연호 뒤 후렴으로 이어지는 버전으로 변화",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-namu", "yt-samsung-d-blue-heart-new-2025", "yt-samsung-d-blue-heart-chant-a-2025", "yt-samsung-d-blue-heart-chant-b-2025"],
+          "notes": "5월 25일 영상 제목부터 ‘최강삼성 연호 ver’를 명시하므로 변화가 반드시 시즌 후반에만 시작됐다는 문서 서술과는 시점 차이가 있다. 변형판의 조기 시험 운용 가능성을 남긴다."
+        },
+        {
+          "field": "cheerBattle",
+          "value": "블루존과 SKY석이 구호를 주고받는 응원 대결에 사용; 김상헌이 블루존, 이범형이 SKY석을 이끄는 것으로 기록",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-namu"],
+          "notes": "구역별 운영은 편집형 문서에 의존하며 날짜가 특정된 구단 공식 영상은 찾지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 팬 제작 응원가 모음 수록 및 2026 라팍 종합 직캠 검색 연결; 정확한 현장 구간은 미확정",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-samsung-d-blue-heart-playlist-2026", "yt-samsung-d-blue-heart-field-2026"],
+          "notes": "팬 플레이리스트 설명은 22:11 챕터에 곡명을 직접 적지만, 2026-04-17 종합 직캠은 제목·설명에 곡별 타임스탬프가 없어 직접 현장 증거를 확정 단계로 올리지 않았다."
+        },
+        {
+          "field": "officialPlaylistOmission",
+          "value": "2026 구단 공식 유튜브 플레이리스트 챕터에는 미수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-official-playlist-2026"],
+          "notes": "구단은 이 곡의 누락 이유를 개별적으로 밝히지 않았다. 엘도라도의 권리 제한 설명을 이 곡에 자동 적용하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "전반기 원음원판은 응원단의 동작을 따라 전곡을 함께 부르는 팀 응원으로 사용됐다.",
+        "변형판은 긴 도입과 응원단장 선창·관중의 팀명 연호로 긴장을 끌어올린 뒤 핵심 후렴으로 연결한다.",
+        "블루존과 SKY석이 서로 응답하는 구역 대항 응원으로도 운용된다고 기록돼 있다."
+      ],
+      "trivia": [
+        {
+          "id": "blue-heart-version-timing-conflict",
+          "summary": "편집형 문서는 후반기 변형이라고 적지만 ‘최강삼성 연호 ver’ 현장 영상이 2025년 5월 25일에 이미 올라와 있다. 후반기 정착과 전반기 시험 운용을 구분할 필요가 있다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-samsung-d-namu", "yt-samsung-d-blue-heart-chant-a-2025"]
+        },
+        {
+          "id": "blue-heart-zone-duel",
+          "summary": "한 곡을 관중석 구역 대항 형식으로 확장해 블루존과 SKY석의 소리 크기를 겨루는 운용이 팬 문서에 기록돼 있다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-samsung-d-namu"]
+        },
+        {
+          "id": "blue-heart-title-imagery",
+          "summary": "제목과 가사는 구단색인 파랑을 심장 박동·전진 이미지와 결합하며, 공개 영상 댓글에서도 파란 하트로 곡을 식별하는 반응이 나타난다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-samsung-d-blue-heart-new-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-recording-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=Qo9uIAXwkZ0",
+          "https://www.youtube.com/watch?v=5X0FsyTs28A",
+          "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원 음원판은 파란 심장과 승리 이미지를 제시하는 도입, 하나 됨을 강조하는 본문, 팀명과 승리 구호를 반복하는 후렴으로 구성된다. 현장 변형판은 긴 기악 도입과 선창·응답식 팀명 연호를 앞에 붙인 뒤 원곡의 핵심 후렴으로 들어간다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-samsung-d-blue-heart-topic-2025",
+        "yt-samsung-d-blue-heart-new-2025",
+        "yt-samsung-d-blue-heart-chant-a-2025",
+        "yt-samsung-d-blue-heart-chant-b-2025",
+        "yt-samsung-d-blue-heart-cheerleader-2025",
+        "yt-samsung-d-blue-heart-playlist-2026",
+        "yt-samsung-d-blue-heart-field-2026"
+      ],
+      "unresolved": [
+        "2025년 최초 현장 사용일과 구단 공식 학습 영상·보도자료",
+        "‘최강삼성 연호 ver’의 편집·제작자와 5월 시험 운용·후반기 정착의 정확한 시점",
+        "블루존·SKY석 응원 대결의 공식 운영 영상과 2026 지속 여부",
+        "2026-04-17 종합 직캠에서 곡이 실제 등장하는 정확한 타임스탬프와 단독 2026 현장 영상",
+        "2026 구단 공식 플레이리스트 미수록 사유"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-samsung-d-namu",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "삼성 라이온즈/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "엘도라도의 2012~2017·2024~ 사용, 권리 공백과 복원 과정, Jump up Lions의 이학주 응원가 계승, 사랑한다 나의 삼성의 승리 뒤 운용, 엘리제를 위하여의 재사용 이력, 푸른 심장아 뛰어라의 버전 변화·구역 대항 응원을 정리한 편집형 문서다. 가사 전문은 옮기지 않았고 연도·평가는 직접 영상과 보도로 교차 확인했다.",
+      "supports": ["history", "usageContext", "versionHistory", "aliases", "trivia"]
+    },
+    {
+      "id": "ev-samsung-d-club-legacy-catalog",
+      "type": "official",
+      "url": "https://www.samsunglions.com/m/ajax/fan_fan05.ajax.asp",
+      "title": "삼성 라이온즈 응원가 구형 카탈로그",
+      "publisher": "삼성 라이온즈",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "구단 모바일 페이지가 엘도라도와 ‘엘리제를위하여’의 구형 음원 링크와 가사 항목을 제공한다. 최근 창작곡은 빠져 있어 현행 전체 목록이 아닌 레거시 카탈로그로 취급했다. 엘리제를 위하여의 구형 문구는 최근 현장판과 달라 버전 충돌 근거가 된다.",
+      "supports": ["officialLegacyCatalog", "lyricsSource", "versionConflict"]
+    },
+    {
+      "id": "ev-samsung-d-official-playlist-2026",
+      "type": "official-youtube",
+      "url": "https://www.youtube.com/watch?v=HAPsuHspHn8",
+      "title": "2026 삼성라이온즈 응원가 PLAYLIST 🎧",
+      "publisher": "LionsTV",
+      "publishedAt": "2026-04-28",
+      "accessedAt": "2026-08-08",
+      "summary": "구단 공식 2026 플레이리스트다. 설명은 엘도라도를 포함한 일부 응원가가 음원 사용 제한 때문에 빠졌다고 명시한다. 챕터 목록에는 이번 다섯 곡이 모두 없지만, 제한 사유가 직접 귀속되는 곡은 엘도라도뿐이므로 나머지 네 곡의 미수록 이유는 미확정으로 남겼다.",
+      "supports": ["officialPlaylistOmission", "eldoradoAudioRestriction", "rightsBoundary"]
+    },
+    {
+      "id": "ev-samsung-d-eldorado-mhn",
+      "type": "news",
+      "url": "https://v.daum.net/v/20240326000007563?f=m",
+      "title": "[김현희의 낭만야구] 삼성 선수단과 팬들에게 '엘도라도'는 어떤 의미일까",
+      "publisher": "MHN스포츠",
+      "publishedAt": "2024-03-26",
+      "accessedAt": "2026-08-08",
+      "summary": "엘도라도가 2012~2017년 사용된 뒤 저작인격권상 개작 동의와 권리자 접촉 문제로 2018~2023년 빠졌고, 이종열 단장과 제일기획 독일 법인의 협조로 협상을 완료해 2024년 복원됐다고 보도한다. 원곡 연대는 기사 표현보다 음악 서비스 메타데이터를 우선했다.",
+      "supports": ["usageYears", "rightsHiatus", "revival", "fanMeaning"]
+    },
+    {
+      "id": "ev-samsung-d-eldorado-mbc",
+      "type": "news",
+      "url": "https://v.daum.net/v/bz6P75YcV3",
+      "title": "삼성라이온즈 왕조의 추억···돌아온 '승리의 엘도라도'",
+      "publisher": "대구MBC",
+      "publishedAt": "2024-03-25",
+      "accessedAt": "2026-08-08",
+      "summary": "2024년 3월 23일 수원 KT전 8회에 복원된 엘도라도가 울린 현장을 보도하고, 2017년 이승엽 은퇴 경기를 중단 전 마지막 사용으로 설명한다. 이종열 단장의 복원 추진과 팬·선수 반응도 담는다.",
+      "supports": ["revivalDate", "lastUse2017", "eighthInningUse", "reception"]
+    },
+    {
+      "id": "ev-samsung-d-copyright-case",
+      "type": "official-legal-summary",
+      "url": "https://www.kcopa.or.kr/lay1/bbs/S1T11C480/A/80/view.do?article_seq=4089&condition=&cpage=&keyword=&mode=view&rows=",
+      "title": "프로야구 응원가 사건 판결 소개",
+      "publisher": "한국저작권보호원",
+      "publishedAt": "2022",
+      "accessedAt": "2026-08-08",
+      "summary": "프로야구 응원가의 개사·편곡과 저작인격권 쟁점을 다룬 2021년 항소심 판결을 설명하는 공공기관 자료다. 엘도라도 개별 계약을 입증하는 자료가 아니라 당시 구단들이 직면한 법적 구조를 확인하는 데만 사용했다.",
+      "supports": ["legalContext", "moralRights", "adaptationRights"]
+    },
+    {
+      "id": "ev-samsung-d-copyright-lawsuit",
+      "type": "news",
+      "url": "https://sports.khan.co.kr/article/201804041913003/amp",
+      "title": "프로야구 응원가 저작권 소송 관련 보도",
+      "publisher": "스포츠경향",
+      "publishedAt": "2018-04-04",
+      "accessedAt": "2026-08-08",
+      "summary": "2018년 프로야구 응원가 개사·편곡을 둘러싼 저작권 분쟁과 구단들의 응원가 교체 배경을 동시대에 보도한다. 엘도라도만의 중단 사유는 복원 기사로 별도 확인했다.",
+      "supports": ["2018CopyrightDispute", "industryContext"]
+    },
+    {
+      "id": "ev-samsung-d-original-cheer-interview",
+      "type": "news-interview",
+      "url": "https://v.daum.net/v/20190529080303024?s=print_news",
+      "title": "통신사 광고 강타한 삼성 응원가, ‘짭도라도’를 아시나요",
+      "publisher": "스포츠한국",
+      "publishedAt": "2019-05-29",
+      "accessedAt": "2026-08-08",
+      "summary": "2018년 저작권 문제 뒤 삼성 응원단이 외부 곡 대신 창작 응원가를 늘린 배경과 김상헌·허니크루 제작 협업을 인터뷰로 설명한다. 이번 세 창작곡의 개별 제작일을 직접 입증하지는 않지만 제작 생태와 권리 대응의 맥락을 제공한다.",
+      "supports": ["originalSongStrategy", "honeyCrewContext", "rightsContext"]
+    },
+    {
+      "id": "ev-samsung-d-eldorado-spotify",
+      "type": "music-service",
+      "url": "https://open.spotify.com/track/3Ii7S0TeBj4tZDDDc3GpIz",
+      "title": "Eldorado",
+      "publisher": "Spotify",
+      "publishedAt": "1980",
+      "accessedAt": "2026-08-08",
+      "summary": "Goombay Dance Band의 앨범 Land of Gold 수록곡으로 1980년 공개와 4분 25초 재생 시간을 표시한다. 삼성의 경기장 편집판이 아닌 원곡 메타데이터다.",
+      "supports": ["origin", "releaseYear", "originalRecording"]
+    },
+    {
+      "id": "ev-samsung-d-eldorado-shazam",
+      "type": "music-service",
+      "url": "https://www.shazam.com/en-us/song/1100688607/eldorado",
+      "title": "Eldorado — Goombay Dance Band",
+      "publisher": "Shazam",
+      "publishedAt": "1980-01-01",
+      "accessedAt": "2026-08-08",
+      "summary": "원곡 공개 연도를 1980년으로 표시하고 Wolff-Eckehardt Stein·Wolfgang Jass를 작곡, Ivo Fisher를 작사, Jochen Petersen을 편곡으로 제시한다. 2022 Topic판의 간략 크레딧과 차이가 있어 그대로 병기했다.",
+      "supports": ["origin", "originalCredits", "creditConflict"]
+    },
+    {
+      "id": "ev-samsung-d-jump-bugs",
+      "type": "music-service",
+      "url": "https://music.bugs.co.kr/track/6169547?wl_ref=list_tr_08_tr",
+      "title": "Jump up Lions",
+      "publisher": "벅스",
+      "publishedAt": "2022-04-15",
+      "accessedAt": "2026-08-08",
+      "summary": "허니크루의 2022 삼성라이온즈 응원가 음원으로 곡 길이 39초, 작사·작곡 김상헌, 편곡 박유진을 표시한다. 가사 전문은 저장하지 않았다.",
+      "supports": ["releaseDate", "credits", "recordingMetadata"]
+    },
+    {
+      "id": "ev-samsung-d-jump-apple",
+      "type": "music-service",
+      "url": "https://music.apple.com/kr/song/1635500702",
+      "title": "Jump up Lions",
+      "publisher": "Apple Music",
+      "publishedAt": "2022-04-15",
+      "accessedAt": "2026-08-08",
+      "summary": "허니크루의 Jump up Lions 발매일을 2022년 4월 15일로 표시해 벅스와 YouTube Topic의 날짜를 교차 확인한다.",
+      "supports": ["releaseDate", "artist"]
+    },
+    {
+      "id": "ev-samsung-d-beethoven-haus",
+      "type": "music-archive",
+      "url": "https://www.beethoven.de/en/work/view/ag9iZWV0aG92ZW4tdml1cjNyEQsSBHdvcmsYgICArO2tuwkM/Bagatelle%2Bfor%2Bpiano%2B%26%23040%3BA%2Bminor%26%23041%3B%2BWoO%2B59",
+      "title": "Bagatelle for piano in A minor WoO 59",
+      "publisher": "Beethoven-Haus Bonn",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "‘Für Elise’로 알려진 A단조 바가텔 WoO 59를 1810년 4월 작품으로 설명하고, Ludwig Nohl이 관여한 1867년 초판과 소실된 자필 악보, 헌정 대상과 제목의 불확실성을 정리한 권위 있는 작품 자료다.",
+      "supports": ["underlyingComposition", "compositionDate", "firstEdition", "titleUncertainty"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-samsung-d-eldorado-legacy-2017",
+      "songId": "samsung-lions-eldorado",
+      "url": "https://www.youtube.com/watch?v=ond4qiBXKqU",
+      "videoId": "ond4qiBXKqU",
+      "title": "가을야구의 아쉬움을 이승엽 은퇴경기에서 푸는 삼성팬들.. 역대급 응원가 떼창 (소름)",
+      "channel": "SLFT",
+      "publishedAt": "2017-10-07T06:50:58-07:00",
+      "descriptionSummary": "2017년 이승엽 은퇴 경기의 대규모 삼성 응원 장면을 담은 현장 영상이다. 댓글이 지목하는 약 9분 지점부터 엘도라도 합창이 이어져 공식 중단 전 말기의 직접 표본이 된다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 약 9분 지점을 엘도라도 시작으로 안내하고, 2024년 복원 뒤 다시 찾아온 팬들의 향수와 방송 중계가 합창을 살려 준 점을 반복해 언급한다."],
+      "supports": ["historicalUse", "lastUse2017", "crowdSinging", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-eldorado-original-official",
+      "songId": "samsung-lions-eldorado",
+      "url": "https://www.youtube.com/watch?v=x80gQwyanKk",
+      "videoId": "x80gQwyanKk",
+      "title": "Goombay Dance Band - Eldorado (Official Video)",
+      "channel": "Goombay Dance Band",
+      "publishedAt": "2020-11-27T01:16:58-08:00",
+      "descriptionSummary": "Goombay Dance Band 공식 채널의 Eldorado 원곡 뮤직비디오다. 삼성 응원가가 사용하는 선율의 원출처를 직접 확인하는 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["여러 나라 청취자의 향수 반응 사이에 삼성 팬의 응원 구호와 방문 기록이 반복된다.", "일부 반응은 원곡의 진지한 서사와 경기장에서 밝고 웅장하게 소비되는 분위기의 차이를 언급한다."],
+      "supports": ["origin", "originalRecording", "crossContextReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-eldorado-rerecord-2022",
+      "songId": "samsung-lions-eldorado",
+      "url": "https://www.youtube.com/watch?v=NBjw-Fa1TC4",
+      "videoId": "NBjw-Fa1TC4",
+      "title": "Eldorado (2022 Version)",
+      "channel": "Goombay Dance Band - Topic",
+      "publishedAt": "2022-05-26T03:02:05-07:00",
+      "descriptionSummary": "Aviator 레이블의 2022 재녹음판으로 2022년 5월 27일 발매, Peer Southern 권리 표기와 Wolfgang Jass·Wolff-Ekkehardt Stein 크레딧을 제공한다. 1980년 원곡판과 구분했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["삼성 팬이 경기장 사용 허락과 복귀를 요청하거나 응원 구호를 적은 반응이 반복된다.", "일부 청취자는 새 반주보다 익숙한 원 녹음의 질감을 선호한다."],
+      "supports": ["laterVersion", "credits", "rightsMetadata", "fanDemand"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-eldorado-revival-news-2024",
+      "songId": "samsung-lions-eldorado",
+      "url": "https://www.youtube.com/watch?v=STjKCn69YyI",
+      "videoId": "STjKCn69YyI",
+      "title": "7년 기다림 끝에 울려퍼진 '엘도라도' 떼창 순간.. 선수들도 감격",
+      "channel": "엠빅뉴스",
+      "publishedAt": "2024-03-25T01:36:44-07:00",
+      "descriptionSummary": "2024년 수원 KT 원정 개막 시리즈에서 6년 만에 경기장에 돌아온 엘도라도 합창과 복원 사연을 보도한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 이종열 단장과 제일기획 독일 법인의 권리자 접촉 노력에 감사를 표한다.", "삼성 외 구단 팬도 대표 응원가의 귀환과 현장 합창을 반긴다는 반응이 보인다."],
+      "supports": ["revival", "rightsNegotiation", "fieldUse2024", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-eldorado-official-2025",
+      "songId": "samsung-lions-eldorado",
+      "url": "https://www.youtube.com/watch?v=M-Ur4RDP7p4",
+      "videoId": "M-Ur4RDP7p4",
+      "title": "삼성 라이온즈의 가을, 파랗게 물든 엘도라도 물결🌊💙 (2025 포스트 시즌 ver.)",
+      "channel": "LionsTV",
+      "publishedAt": "2025-10-23T02:30:11-07:00",
+      "descriptionSummary": "구단 공식 채널이 2025 포스트시즌의 엘도라도 합창 장면을 별도 편집한 영상으로 복원 뒤 공식 사용이 계속됨을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬들은 엘도라도를 구단 정체성과 가을야구의 상징으로 평가하고 2024년 복원과 연속 포스트시즌 기억을 연결한다.", "타 구단 팬도 관중 합창의 규모와 대표성을 긍정적으로 평가한다."],
+      "supports": ["officialUse", "postseasonUse", "currentUse", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-eldorado-field-a-2026",
+      "songId": "samsung-lions-eldorado",
+      "url": "https://www.youtube.com/watch?v=DR8OveN8chI",
+      "videoId": "DR8OveN8chI",
+      "title": "[삼성 vs LG] 7연승 순간 라팍 떼창 폭발! 엘도라도 환희 현장 | 대구삼성라이온즈파크 삼성 직관 2026.04.18",
+      "channel": "Lionsdiary",
+      "publishedAt": "2026-04-18T02:39:40-07:00",
+      "descriptionSummary": "2026년 4월 18일 대구 LG전 7연승 장면과 엘도라도 합창을 제목·설명에 명시한 현장 직캠이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 만원 관중의 합창이 선수와 경기 흐름에 힘을 준다고 평가하고, 응원 박자와 재생 타이밍에 관한 가벼운 반응도 나눈다."],
+      "supports": ["currentUse", "homeUse", "crowdSinging", "victoryContext"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-eldorado-field-b-2026",
+      "songId": "samsung-lions-eldorado",
+      "url": "https://www.youtube.com/watch?v=bIkCsLNoCAg",
+      "videoId": "bIkCsLNoCAg",
+      "title": "2026 달빛시리즈 대구에서 삼성라이온즈와 기아타이거즈가 함께 부른 엘도라도🔥",
+      "channel": "PSG TV",
+      "publishedAt": "2026-05-16T03:38:14-07:00",
+      "descriptionSummary": "2026년 5월 16일 달빛시리즈에서 삼성·KIA 관중이 함께 부른 엘도라도를 담은 날짜 특정 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["양 팀 팬이 서로의 응원 문화를 존중하고 함께 합창한 장면을 ‘달빛동맹’의 좋은 사례로 보는 반응이 반복된다."],
+      "supports": ["currentUse", "crossTeamSeries", "crowdSinging"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-eldorado-field-c-2026",
+      "songId": "samsung-lions-eldorado",
+      "url": "https://www.youtube.com/watch?v=CeyCbTbuNnM",
+      "videoId": "CeyCbTbuNnM",
+      "title": "[4K]26.04.04 수원 KT위즈파크 삼성라이온즈 라인업송+육성 엘도라도",
+      "channel": "삼뽕쌈뽕",
+      "publishedAt": "2026-04-04T07:03:54-07:00",
+      "descriptionSummary": "2026년 4월 4일 수원 원정에서 라인업송과 반주 없는 엘도라도 합창을 담은 4K 현장 영상이며 별도 상세 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 8회 원정 응원석의 합창 규모 때문에 홈처럼 느껴진다고 평가하며 육성판과 음원판의 선호를 비교한다."],
+      "supports": ["currentUse", "awayUse", "aCappellaUse", "eighthInningUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-eldorado-official-playlist-2026",
+      "songId": "samsung-lions-eldorado",
+      "url": "https://www.youtube.com/watch?v=HAPsuHspHn8",
+      "videoId": "HAPsuHspHn8",
+      "title": "2026 삼성라이온즈 응원가 PLAYLIST 🎧",
+      "channel": "LionsTV",
+      "publishedAt": "2026-04-28T06:02:19-07:00",
+      "descriptionSummary": "구단 공식 플레이리스트 설명이 엘도라도를 포함한 일부 응원가를 음원 사용 제한으로 수록하지 못했다고 직접 밝힌다. 경기장 사용 중단 공지는 아니다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬들은 공식 학습용 플레이리스트 공개를 반기면서 엘도라도 등 빠진 곡의 추가 수록을 요청한다.", "게시 시점의 승리와 연결해 응원가를 복습하겠다는 반응도 보인다."],
+      "supports": ["officialPlaylistOmission", "audioRestriction", "rightsBoundary"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-jump-topic-2022",
+      "songId": "samsung-lions-jump-up-lions",
+      "url": "https://www.youtube.com/watch?v=pNP1GTbdA3E",
+      "videoId": "pNP1GTbdA3E",
+      "title": "Jump up Lions",
+      "channel": "Honey Crew - Topic",
+      "publishedAt": "2022-07-17T21:31:48-07:00",
+      "descriptionSummary": "2022년 4월 15일 발매된 허니크루 음원의 자동 생성 영상으로 김상헌 작사·작곡, 박유진 편곡, Funny honey·YG PLUS 유통 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recordingRelease", "credits", "officialAudioMetadata"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-jump-debut-2022",
+      "songId": "samsung-lions-jump-up-lions",
+      "url": "https://www.youtube.com/watch?v=s-eeobuk_yU",
+      "videoId": "s-eeobuk_yU",
+      "title": "220716 KBO 올스타전 삼성 Jump up lions (구. 이학주 응원가) 첫선",
+      "channel": "Youngjin",
+      "publishedAt": "2022-07-18T00:26:43-07:00",
+      "descriptionSummary": "2022년 7월 16일 KBO 올스타전에서 구 이학주 응원가를 Jump up Lions 팀 곡으로 선보인 장면을 제목으로 특정한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["좋은 선율과 점프 동작을 선수가 떠난 뒤에도 팀 응원가로 보존한 결정을 반기는 반응이 반복된다.", "옛 선수 응원가의 정체성이 강해 팀 곡 전환이 어색하다는 의견도 일부 있다."],
+      "supports": ["teamSongDebut", "playerSongOrigin", "choreography", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-jump-field-2022",
+      "songId": "samsung-lions-jump-up-lions",
+      "url": "https://www.youtube.com/watch?v=DofKnpDX2Wc",
+      "videoId": "DofKnpDX2Wc",
+      "title": "22.07.23 고척 키움전 삼성 라이온즈 팀 응원가 '점프 업 라이온즈'",
+      "channel": "제구왕 김무신",
+      "publishedAt": "2023-02-21T16:15:05-08:00",
+      "descriptionSummary": "업로드는 2023년이지만 제목이 실제 촬영일을 2022년 7월 23일 고척 키움전으로 특정하는 초기 팀 응원가 현장 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earlyFieldUse", "awayUse", "teamSongTransition"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-jump-field-2024",
+      "songId": "samsung-lions-jump-up-lions",
+      "url": "https://www.youtube.com/watch?v=KXOnM3uzf_U",
+      "videoId": "KXOnM3uzf_U",
+      "title": "(240414) 삼성라이온즈 vs NC 3차전 우리들의 함성 + Jump Up Lions + 파도타기",
+      "channel": "zeze_lions",
+      "publishedAt": "2024-04-14T06:02:03-07:00",
+      "descriptionSummary": "2024년 4월 14일 NC전에서 우리들의 함성, Jump Up Lions, 파도타기를 잇달아 담은 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글에는 당일 승리를 축하하는 짧은 반응이 있으며 곡 자체에 대한 반복 평가는 확인되지 않는다."],
+      "supports": ["fieldUse", "medleyContext", "currentUse2024"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-jump-field-2025",
+      "songId": "samsung-lions-jump-up-lions",
+      "url": "https://www.youtube.com/watch?v=EfAXfinZzME",
+      "videoId": "EfAXfinZzME",
+      "title": "20250920 삼성라이온즈 이재현 쐐기 2타점 후 Jump Up Lions + 최강삼성 구호",
+      "channel": "46채널",
+      "publishedAt": "2025-09-20T07:17:48-07:00",
+      "descriptionSummary": "2025년 9월 20일 이재현의 쐐기 2타점 뒤 Jump Up Lions와 최강삼성 구호가 이어진 상황을 제목으로 특정한 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse", "scoringContext", "currentUse2025"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-jump-field-2026",
+      "songId": "samsung-lions-jump-up-lions",
+      "url": "https://www.youtube.com/watch?v=qcL3Gso_dSE",
+      "videoId": "qcL3Gso_dSE",
+      "title": "[ 삼성라이온즈 직캠 ] Jump up Lions 응원가 , 2026.03.21. 연습경기 LG전 in 대구 라팍",
+      "channel": "라희온 | rahuion | 삼성라이온즈",
+      "publishedAt": "2026-03-21T17:22:28-07:00",
+      "descriptionSummary": "2026년 3월 21일 대구 삼성라이온즈파크 LG 연습경기의 Jump up Lions 응원을 곡명·날짜·상대·장소까지 특정한 직캠이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "homeUse", "preseasonUse", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-love-topic-2024",
+      "songId": "samsung-lions-love-my-samsung",
+      "url": "https://www.youtube.com/watch?v=N71si7qeMV8",
+      "videoId": "N71si7qeMV8",
+      "title": "사랑한다 나의 삼성",
+      "channel": "Honey Crew - Topic",
+      "publishedAt": "2024-05-09T20:03:31-07:00",
+      "descriptionSummary": "2024년 5월 10일 발매된 허니크루 음원의 자동 생성 영상으로 김상헌 작사·작곡, 박유진 편곡, Funny honey·YG PLUS 유통 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recordingRelease", "credits", "officialTitle"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-love-official-2024",
+      "songId": "samsung-lions-love-my-samsung",
+      "url": "https://www.youtube.com/watch?v=ciNNnn7corY",
+      "videoId": "ciNNnn7corY",
+      "title": "2024년 신규 팀 응원가! 사랑한다 나의 삼성💙 #응원가배우기",
+      "channel": "LionsTV",
+      "publishedAt": "2024-05-09T05:34:20-07:00",
+      "descriptionSummary": "구단 공식 채널이 2024년 신규 팀 응원가라는 표제와 함께 동작·합창을 익히도록 공개한 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 승리 직후 업로드된 타이밍과 곡의 감정적인 분위기를 반기고 시즌 마지막 승리 때 함께 부르고 싶다는 기대를 보인다.", "김상헌 응원단장의 창작곡을 긍정적으로 평가하는 반응도 반복된다."],
+      "supports": ["officialIntroduction", "officialTitle", "choreography", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-love-win-a-2024",
+      "songId": "samsung-lions-love-my-samsung",
+      "url": "https://www.youtube.com/watch?v=cP_NLJi9pp4",
+      "videoId": "cP_NLJi9pp4",
+      "title": "240711 삼성라이온즈 승리후  사랑한다 나의삼성(삼성라이온즈파크)",
+      "channel": "호우라이온즈",
+      "publishedAt": "2024-07-15T01:32:38-07:00",
+      "descriptionSummary": "2024년 7월 11일 대구 홈 승리 뒤 사랑한다 나의 삼성을 부르는 장면을 촬영한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글에는 삼성에 대한 애정을 표현하는 짧은 반응이 있으며 구체적 곡 평가는 많지 않다."],
+      "supports": ["postWinUse", "homeUse", "fieldUse2024"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-love-win-b-2024",
+      "songId": "samsung-lions-love-my-samsung",
+      "url": "https://www.youtube.com/watch?v=C0_HZjc6yS4",
+      "videoId": "C0_HZjc6yS4",
+      "title": "'위닝시리즈' 선수와 응원단의 따뜻한 인사,  승리후 응원가와 함께! \"사랑한다 삼성 나의 삼성\"ㅣ [삼성 vs LG] 20240801",
+      "channel": "GRIJUA 그리주아TV",
+      "publishedAt": "2024-08-01T09:44:52-07:00",
+      "descriptionSummary": "2024년 8월 1일 LG전 위닝시리즈 뒤 선수단과 응원단이 인사하며 곡을 부르는 장면을 담은 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 주로 채널의 경기 영상 안내에 반응하며 곡만을 평가하는 반복 의견은 확인되지 않는다."],
+      "supports": ["postWinUse", "mutualGreeting", "fieldUse2024", "alias"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-love-playlist-2026",
+      "songId": "samsung-lions-love-my-samsung",
+      "url": "https://www.youtube.com/watch?v=CVSxMmHpiKA",
+      "videoId": "CVSxMmHpiKA",
+      "title": "[PLAYLIST] 삼뽕이 차오른다! 2026년 삼성 라이온즈 팀응원가 모음",
+      "channel": "승리를위해",
+      "publishedAt": "2026-04-02T20:00:11-07:00",
+      "descriptionSummary": "팬 제작 2026 팀 응원가 모음으로 설명 챕터가 24:35에 사랑한다 나의 삼성을 명시한다. 구단 공식 목록은 아니므로 팬의 현행 레퍼토리 인식 근거로만 쓴다.",
+      "commentsStatus": "available",
+      "commentSummary": ["청취자들은 시즌 응원을 익히기 좋다고 평가하고 현장 관람에 대한 기대를 표현한다.", "일부는 자신이 선호하는 누락곡의 추가를 요청한다."],
+      "supports": ["currentRepertoire", "fanPlaylist", "titleIdentification"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-love-classic-2026",
+      "songId": "samsung-lions-love-my-samsung",
+      "url": "https://www.youtube.com/watch?v=bzrV9EaWDNk",
+      "videoId": "bzrV9EaWDNk",
+      "title": "[클래식씨리즈] 삼성라이온즈, 롯데자이언츠가 함께하는 애프터샤우팅 양팀 응원가 메들리 직캠 풀버전",
+      "channel": "46채널",
+      "publishedAt": "2026-07-18T10:45:44-07:00",
+      "descriptionSummary": "2026년 7월 18일 클래식시리즈 뒤 양 팀 응원가 메들리를 담은 현장 영상이며 설명 챕터가 38:35에 사랑한다 나의 삼성을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["양 팀 팬이 상대 응원가까지 함께 즐긴 애프터샤우팅 문화와 긴 현장 기록을 긍정적으로 평가하는 반응이 중심이다."],
+      "supports": ["currentUse", "fieldUse2026", "postgameUse", "crossTeamSeries"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-fur-elise-2018",
+      "songId": "samsung-lions-fur-elise",
+      "url": "https://www.youtube.com/watch?v=QhOq9-MWsVo",
+      "videoId": "QhOq9-MWsVo",
+      "title": "[프로야구 응원가] 삼성라이온즈 응원가 - 엘리제를 위하여",
+      "channel": "슈퍼코리안",
+      "publishedAt": "2018-10-10T01:00:02-07:00",
+      "descriptionSummary": "2018년 삼성의 엘리제를 위하여 응원 형태를 곡명과 함께 정리한 팬 영상이며, 설명이 사용 영상의 출처를 별도로 안내한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 2018년 레거시 응원가의 재등장을 반기고 베토벤 제목을 활용한 말장난을 나눈다.", "같은 선율을 쓴 타 구단 선수 응원가와의 비교 요청도 보인다."],
+      "supports": ["use2018", "arrangementVersion", "reception", "crossTeamComparison"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-fur-elise-field-2018",
+      "songId": "samsung-lions-fur-elise",
+      "url": "https://www.youtube.com/watch?v=C832sDGBvyQ",
+      "videoId": "C832sDGBvyQ",
+      "title": "180428 삼성라이온즈 치어리더 (잠실) 03",
+      "channel": "Ra",
+      "publishedAt": "2021-10-12T23:54:19-07:00",
+      "descriptionSummary": "설명은 실제 촬영일을 2018년 4월 28일 잠실 삼성 경기로 특정한다. 검색 결과가 엘리제를 위하여와 연결하지만 제목·설명에 곡명이 없어 보조 현장 표본으로만 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["possibleFieldUse2018", "choreography", "sourceIdentificationCaveat"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-fur-elise-playoff-2024",
+      "songId": "samsung-lions-fur-elise",
+      "url": "https://www.youtube.com/watch?v=3LHLrwasr48",
+      "videoId": "3LHLrwasr48",
+      "title": "24.10.17 잠실 플레이오프 3차전 삼성 라이온즈 '엘리제를 위하여'+디아즈 응원가",
+      "channel": "제구왕 김무신",
+      "publishedAt": "2024-10-20T05:07:27-07:00",
+      "descriptionSummary": "2024년 10월 17일 잠실 플레이오프 3차전의 엘리제를 위하여와 디아즈 응원가를 제목으로 특정한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["오래된 왕조 시절 응원가가 포스트시즌에 다시 등장한 것을 ‘재건’으로 받아들이는 반응이 나타난다."],
+      "supports": ["revival2024", "postseasonUse", "fieldUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-fur-elise-2025",
+      "songId": "samsung-lions-fur-elise",
+      "url": "https://www.youtube.com/watch?v=zHWGjjDIjj0",
+      "videoId": "zHWGjjDIjj0",
+      "title": "2025 삼성라이온즈 엘리제를 위하여 (잠실 ver)",
+      "channel": "46채널",
+      "publishedAt": "2025-09-01T07:22:57-07:00",
+      "descriptionSummary": "2025년 잠실 원정판 엘리제를 위하여를 곡명으로 특정한 현장 영상이며 상세 설명은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse2025", "awayUse", "versionEvidence"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-fur-elise-playlist-2026",
+      "songId": "samsung-lions-fur-elise",
+      "url": "https://www.youtube.com/watch?v=S_m6HKQVaAU",
+      "videoId": "S_m6HKQVaAU",
+      "title": "🔥붐샤깔라까 부활🔥 2026 🦁삼성라이온즈 PLAYLIST⚾️ (끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-04-10T23:30:12-07:00",
+      "descriptionSummary": "팬 제작 2026 플레이리스트로 설명 챕터가 52:01에 엘리제를 위하여를 명시한다. 직접 경기 사용이 아닌 현행 팬 레퍼토리 인식 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 곡별 시각표와 재생 구성을 공유하고 특정 등장곡·응원가의 추가를 요청한다.", "엘리제를 위하여만을 분리한 반복 평가는 표면 댓글에서 확인되지 않는다."],
+      "supports": ["currentRepertoire", "fanPlaylist", "alias", "titleIdentification"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-fur-elise-field-2026",
+      "songId": "samsung-lions-fur-elise",
+      "url": "https://www.youtube.com/watch?v=sHOCJfT_0QU",
+      "videoId": "sHOCJfT_0QU",
+      "title": "대구 라팍에서 본 삼성라이온즈 응원석 260503 4k",
+      "channel": "S깡통",
+      "publishedAt": "2026-05-05T09:30:21-07:00",
+      "descriptionSummary": "2026년 5월 3일 대구 라팍 응원석을 담은 4K 종합 직캠이다. 엘리제를 위하여 검색 결과와 연결됐지만 제목·설명에 곡명·타임스탬프가 없어 직접 증거의 신뢰도를 낮췄다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["possibleFieldUse2026", "homeCrowd", "exactSegmentUnresolved"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-blue-heart-topic-2025",
+      "songId": "samsung-lions-blue-heart-run",
+      "url": "https://www.youtube.com/watch?v=Qo9uIAXwkZ0",
+      "videoId": "Qo9uIAXwkZ0",
+      "title": "푸른 심장아 뛰어라",
+      "channel": "Honey Crew - Topic",
+      "publishedAt": "2025-03-30T02:02:25-07:00",
+      "descriptionSummary": "2025년 3월 30일 발매된 허니크루 음원의 자동 생성 영상으로 김상헌 작사·작곡, 박유진 편곡, Funny honey·YG PLUS 유통 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["recordingRelease", "credits", "officialAudioMetadata"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-blue-heart-new-2025",
+      "songId": "samsung-lions-blue-heart-run",
+      "url": "https://www.youtube.com/watch?v=5X0FsyTs28A",
+      "videoId": "5X0FsyTs28A",
+      "title": "삼성라이온즈 2025 새 응원가 푸른 심장아 뛰어라",
+      "channel": "46채널",
+      "publishedAt": "2025-03-23T07:04:23-07:00",
+      "descriptionSummary": "2025년 3월 23일 새 응원가의 현장 형태를 곡명과 함께 공개한 팬 영상이다. 상업 음원 발매보다 일주일 이른 초기 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글에는 파란 하트로 새 노래에 호응하는 짧은 반응이 있으며 구체적인 평가는 많지 않다."],
+      "supports": ["earlyFieldUse", "introduction", "originalVersion", "reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-blue-heart-chant-a-2025",
+      "songId": "samsung-lions-blue-heart-run",
+      "url": "https://www.youtube.com/watch?v=G2B8mr8xTAs",
+      "videoId": "G2B8mr8xTAs",
+      "title": "삼성라이온즈 푸른심장아 뛰어라 (최강삼성 연호 ver) + 이호성 등장곡 잔혹한 천사의 테제",
+      "channel": "46채널",
+      "publishedAt": "2025-05-25T07:56:41-07:00",
+      "descriptionSummary": "2025년 5월 25일 ‘최강삼성 연호 ver’와 이호성 등장곡을 함께 담은 현장 영상으로 변형판이 5월에 이미 쓰였음을 제목이 직접 보여 준다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["versionChange", "chantVersion", "timingConflict", "fieldUse2025"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-blue-heart-chant-b-2025",
+      "songId": "samsung-lions-blue-heart-run",
+      "url": "https://www.youtube.com/watch?v=Eyq1q4d7nY4",
+      "videoId": "Eyq1q4d7nY4",
+      "title": "20250906 삼성라이온즈 푸른심장아뛰어라 (최강삼성 ver) + 전병우 타석",
+      "channel": "46채널",
+      "publishedAt": "2025-09-06T05:18:59-07:00",
+      "descriptionSummary": "2025년 9월 6일 최강삼성 구호 버전과 전병우 타석을 함께 담은 현장 영상으로 후반기에도 변형판이 유지됐음을 보여 준다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["versionChange", "chantVersion", "fieldUse2025"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-blue-heart-cheerleader-2025",
+      "songId": "samsung-lions-blue-heart-run",
+      "url": "https://www.youtube.com/watch?v=nXLmsG2NigY",
+      "videoId": "nXLmsG2NigY",
+      "title": "250928 삼성 라이온즈 박지영 치어리더 푸른 심장아 뛰어라 4k 직캠",
+      "channel": "carpediem_216",
+      "publishedAt": "2025-10-05T04:33:34-07:00",
+      "descriptionSummary": "2025년 9월 28일 고척 경기에서 치어리더 동작과 푸른 심장아 뛰어라를 담은 4K 원정 직캠이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2025", "awayUse", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-blue-heart-playlist-2026",
+      "songId": "samsung-lions-blue-heart-run",
+      "url": "https://www.youtube.com/watch?v=CVSxMmHpiKA",
+      "videoId": "CVSxMmHpiKA",
+      "title": "[PLAYLIST] 삼뽕이 차오른다! 2026년 삼성 라이온즈 팀응원가 모음",
+      "channel": "승리를위해",
+      "publishedAt": "2026-04-02T20:00:11-07:00",
+      "descriptionSummary": "팬 제작 2026 팀 응원가 모음으로 설명 챕터가 22:11에 푸른 심장아 뛰어라를 명시한다. 직접 현장 영상이 아닌 팬의 현행 레퍼토리 분류 근거다.",
+      "commentsStatus": "available",
+      "commentSummary": ["청취자들은 시즌 응원을 익히기 좋다고 평가하고 라팍 관람에 대한 기대를 표현한다.", "곡명을 묻거나 자신이 원하는 누락곡 추가를 요청하는 반응도 있다."],
+      "supports": ["currentRepertoire", "fanPlaylist", "titleIdentification"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-samsung-d-blue-heart-field-2026",
+      "songId": "samsung-lions-blue-heart-run",
+      "url": "https://www.youtube.com/watch?v=0w--3ba1xW4",
+      "videoId": "0w--3ba1xW4",
+      "title": "2026 삼성라이온즈 직관 응원가 모음",
+      "channel": "삼성라이온즈와함께",
+      "publishedAt": "2026-04-17T05:15:00-07:00",
+      "descriptionSummary": "2026년 대구 삼성라이온즈파크의 여러 응원가를 모은 현장 직캠이다. 푸른 심장아 뛰어라 검색 결과와 연결되지만 설명에 곡별 챕터가 없어 정확한 시작 구간을 확정하지 못했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 여러 구간의 곡명을 서로 묻고 답하며 응원가 학습에 활용한다.", "가사와 현장 합창의 에너지를 긍정적으로 평가하는 반응이 있으나 푸른 심장만의 반복 평가는 분리되지 않는다."],
+      "supports": ["possibleFieldUse2026", "homeCrowd", "exactSegmentUnresolved"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 34,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 21
+  }
+}

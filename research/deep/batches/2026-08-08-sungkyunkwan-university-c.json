@@ -1,0 +1,796 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-sungkyunkwan-university-c",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-sungkyunkwan",
+    "name": "성균관대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 역사·사용법·수용을 확인하는 데 필요한 내용만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "sungkyunkwan-university-who-are-we",
+      "title": "우리가 누구",
+      "aliases": ["우리가 누구 응원가", "성대 우리가 누구"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-festival",
+      "summary": "킹고응원단이 2024년 공개한 자작 응원가다. 공식 음원 설명이 조지훈·윤소영을 공동 작사·작곡자로 직접 기재해 원곡이 따로 있는 번안곡과 구분된다. 2024 ESKARA 1·2부, 2025 명륜 대동제와 ESKARA, 2026 응원 OT와 문행대동제까지 사용됐고 공식 응원법 가이드 Chapter 9에도 포함됐다. 제목형 질문과 집단 응답을 축으로 학교의 색과 공동체 정체성을 확인하는 곡이며, 1970·1990년대 학번을 밝힌 동문의 댓글까지 나타나 세대 간 수용도 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2024년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-who-audio-2024", "yt-skku-c-who-2025-eskara", "yt-skku-c-who-2026-ot", "yt-skku-c-who-2026-festival"],
+          "notes": "2024-09-07 공식 음원 자체가 2024년 곡으로 표기되고 2025·2026 공식 영상이 같은 연도를 반복한다."
+        },
+        {
+          "field": "authorship",
+          "value": "작사·작곡 조지훈, 윤소영",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-who-audio-2024"],
+          "notes": "공식 음원 설명의 직접 크레딧이다. 총괄 채인영, 영상 편집 신지원 표기도 음악 저작 크레딧과 구분해 보존한다."
+        },
+        {
+          "field": "sourceLineage",
+          "value": "상업 원곡을 번안한 곡이 아니라 킹고응원단 제작진의 자작곡으로 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-who-audio-2024", "ev-skku-c-alumni"],
+          "notes": "공식 음원이 작사와 작곡을 모두 교내 제작진에게 직접 귀속한다. 이후 라이브 편곡의 세부 제작자는 별도 공개되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026년 상반기 응원 OT와 2026-05-15 문행대동제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-who-2026-ot", "yt-skku-c-who-2026-festival", "ev-skku-c-2026-ot-program", "ev-skku-c-2026-festival-program"],
+          "notes": "공식 곡별 영상과 전체 프로그램이 일치한다."
+        },
+        {
+          "field": "officialCheerGuide",
+          "value": "2024 공식 응원법 가이드 Chapter 9",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-who-guide-2024", "ev-skku-c-linktree"],
+          "notes": "공식 링크 인덱스와 영상 제목에서 직접 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "2024 ESKARA에서 1부와 2부에 각각 공연돼 새 곡을 하루의 두 응원 세트에 반복 배치했다.",
+        "2025 명륜 대동제와 ESKARA의 정규 공연, 2026 상반기 응원 OT의 교육·본 공연과 문행대동제에 이어졌다.",
+        "공식 Chapter 9 가이드로 관중 동작을 사전 교육하고, 제목형 질문에 학교 공동체가 함께 응답하는 집단 정체성 확인 곡으로 사용한다.",
+        "2026 문행대동제 9곡 공식 플레이리스트에서는 마지막 곡으로 배치돼 세트 종결부 역할을 맡았다."
+      ],
+      "trivia": [
+        {
+          "id": "who-direct-creator-credit",
+          "summary": "이 배치의 오래된 곡들과 달리 공식 음원이 공동 작사·작곡자를 실명으로 명시해 창작 계보를 직접 추적할 수 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-who-audio-2024"]
+        },
+        {
+          "id": "who-two-part-debut-season",
+          "summary": "2024 ESKARA의 1부와 2부 영상이 같은 날 별도 공개돼, 신곡이 단일 무대가 아니라 두 세트에 반복 사용됐음을 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-who-eskara-2024-part1", "yt-skku-c-who-eskara-2024-part2"]
+        },
+        {
+          "id": "who-school-color-reception",
+          "summary": "공식 음원 댓글에서 1990년대 학번 동문은 성균관대만의 색이 들어간 곡이라고 평가한다. 이는 작품 의도에 대한 공식 설명이 아니라 동문 수용 자료다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-who-audio-2024"]
+        },
+        {
+          "id": "who-cross-generational-audience",
+          "summary": "2025 명륜 대동제 영상에는 1970년대 학번 해외 동문과 후배의 공연을 격려하는 반응이 함께 나타나 세대와 지역을 넘는 시청을 보여준다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-who-myeongnyun-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "2024 original university cheer song credited to Jo Ji-hoon and Yoon So-young; arrangement, performance, recording, and downstream reuse permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=GkQMfq4qsLE",
+          "https://www.youtube.com/watch?v=Ye4fgabsJ5s",
+          "https://www.youtube.com/watch?v=phbfSRFQ8mk",
+          "https://www.youtube.com/watch?v=RF6lacWQ8XU"
+        ],
+        "structureSummary": "제목과 같은 질문을 던지고 관중이 학교 정체성을 되받는 선창·후창형 중심부를 갖는다. 공식 2025 영상은 1절과 2절을 구분하며, 각 절은 성균 공동체·학교의 색·연대를 강조한 뒤 반복 합창으로 모인다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-c-who-audio-2024",
+        "yt-skku-c-who-guide-2024",
+        "yt-skku-c-who-eskara-2024-part1",
+        "yt-skku-c-who-eskara-2024-part2",
+        "yt-skku-c-who-myeongnyun-2025",
+        "yt-skku-c-who-2025-eskara",
+        "yt-skku-c-who-2026-ot",
+        "yt-skku-c-who-2026-festival"
+      ],
+      "unresolved": [
+        "2024년 최초 공개 행사와 정확한 초연 날짜",
+        "작사·작곡 외 최초 편곡·연주·보컬 제작진의 전체 크레딧",
+        "2024 음원과 2026 라이브 편곡 사이의 개정 여부",
+        "가사·악곡·녹음·공연 영상의 재사용 권리 범위"
+      ]
+    },
+    {
+      "id": "sungkyunkwan-university-like-sungdae",
+      "title": "성대를 좋아해",
+      "aliases": ["성대 없이는 못살아", "성대를 좋아해요"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-festival",
+      "summary": "킹고응원단이 최근 공식 영상에서 2005년 곡으로 표기하는 장수 응원가다. 2014 수시 OT, 2015 건학기념제, 2016·2021 입학식, 2024 응원법 가이드, 2025 ESKARA, 2026 응원 OT·문행대동제까지 폭넓은 행사 사용이 확인된다. 2014·2015 공식 설명의 핵심 문구와 반복 구조는 패티김의 ‘그대 없이는 못살아’를 학교 이름으로 바꾼 형태와 밀접하게 대응하고, 원곡 후보의 작사·작곡자는 길옥윤으로 확인된다. 그러나 응원단이 원곡을 직접 명시한 자료는 없어 이 계보는 중간 신뢰도의 추론으로 보존한다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2005년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-like-2025-eskara", "yt-skku-c-like-2026-ot", "yt-skku-c-like-2026-festival"],
+          "notes": "2025·2026 공식 곡별 영상 세 편이 모두 2005로 표시한다. 2005년 당시 프로그램은 아직 확보하지 못했다."
+        },
+        {
+          "field": "probableOriginalSong",
+          "value": "패티김 ‘그대 없이는 못살아’",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-skku-c-like-2014-ot", "yt-skku-c-like-2015-anniversary", "ev-skku-c-bugs-patty"],
+          "notes": "공식 성균관대 영상 설명의 핵심 문구·반복 어법과 패티김 곡의 제목·후렴 구조, 공개 녹음의 대응을 비교한 판정이다. 킹고응원단의 직접 원곡 표기가 없으므로 확정값으로 올리지 않는다."
+        },
+        {
+          "field": "probableOriginalSongCredits",
+          "value": "패티김 가창, 길옥윤 작사·작곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-c-bugs-patty"],
+          "notes": "원곡 후보 자체의 음원 크레딧은 확인됐다. 이 크레딧이 성균관대판의 개사·편곡자를 뜻하지는 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026년 상반기 응원 OT와 2026-05-15 문행대동제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-like-2026-ot", "yt-skku-c-like-2026-festival", "ev-skku-c-2026-ot-program", "ev-skku-c-2026-festival-program"],
+          "notes": "응원 OT에서는 교육과 공연, 문행대동제에서는 공식 플레이리스트와 현장 곡별 영상으로 확인된다."
+        },
+        {
+          "field": "officialCheerGuide",
+          "value": "2024 공식 응원법 가이드 Chapter 6",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-like-guide-2024", "ev-skku-c-linktree"],
+          "notes": "오래된 곡이지만 2024년 현행 동작 교육 체계에 포함됐음을 보여준다."
+        }
+      ],
+      "usageContexts": [
+        "수시 OT와 웰컴파티, 2016·2021 입학식에서 신입생에게 친숙한 반복 합창으로 학교 애정을 소개했다.",
+        "건학기념제·명륜 대동제·ESKARA·문행대동제에서 관중 전체가 제목과 핵심 후렴을 쉽게 반복하는 참여곡으로 쓰인다.",
+        "2024 공식 가이드 Chapter 6로 동작을 교육하고, 2026 응원 OT에서는 교육 직후 본 공연과 피날레에 다시 배치했다.",
+        "2026 문행대동제 공식 9곡 플레이리스트의 중반부에 들어가 장중한 곡 사이의 친근한 합창 구간을 만든다."
+      ],
+      "trivia": [
+        {
+          "id": "like-oldest-direct-online-sample",
+          "summary": "현재 확보한 가장 이른 공식 온라인 표본은 2014-12-22 수시 OT지만, 최근 공식 영상은 곡 자체를 2005년으로 표기한다. 온라인 기록 시점과 도입 시점을 혼동하면 안 된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-like-2014-ot", "yt-skku-c-like-2025-eskara"]
+        },
+        {
+          "id": "like-patty-adaptation",
+          "summary": "공식 설명이 학교 이름을 사랑 대상으로 바꾼 핵심 문구를 사용하고, 패티김 곡도 같은 반복 문법과 독립된 3단계 사랑 표현을 가진다. 음악적·언어적 대응은 강하지만 직접 크레딧이 없어 ‘추정 원곡’으로만 기록한다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-skku-c-like-2014-ot", "yt-skku-c-like-2015-anniversary", "ev-skku-c-bugs-patty"]
+        },
+        {
+          "id": "like-entrance-ceremony-continuity",
+          "summary": "2016 현장 입학식과 2021 온라인 스트리밍 입학식에 모두 쓰여 행사 방식이 달라져도 신입생 환영 기능이 유지됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-like-2016-entrance", "yt-skku-c-like-2021-entrance"]
+        },
+        {
+          "id": "like-favorite-song-comment",
+          "summary": "2015 건학기념제 영상의 공개 댓글에는 이 곡을 가장 좋아하는 응원가로 꼽고 당시 단장 무대를 호평하는 반응이 남아 있다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-like-2015-anniversary"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "probable adaptation of a copyrighted Patty Kim song written by Gil Ok-yoon; the university lyric adaptation, arrangement, performance, recording, and permission trail are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=_zNkQiz7bes",
+          "https://www.youtube.com/watch?v=1c6WNlHev-4",
+          "https://music.bugs.co.kr/track/11005392",
+          "https://www.youtube.com/watch?v=CqETueNW-7w"
+        ],
+        "structureSummary": "좋아함·사랑·의존을 단계적으로 반복하는 원곡 후보의 단순한 절 구조를 학교 이름과 공동체 애정으로 치환한 합창형 번안으로 들린다. 최근 공식 영상은 1절과 2절을 구분하고, 각 절 뒤에 같은 핵심 후렴이 돌아와 신입생도 쉽게 참여할 수 있다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-c-like-2014-ot",
+        "yt-skku-c-like-2015-anniversary",
+        "yt-skku-c-like-2016-entrance",
+        "yt-skku-c-like-2021-entrance",
+        "yt-skku-c-like-guide-2024",
+        "yt-skku-c-like-2025-eskara",
+        "yt-skku-c-like-2026-ot",
+        "yt-skku-c-like-2026-festival"
+      ],
+      "unresolved": [
+        "2005년 최초 공개 행사·날짜와 당시 프로그램",
+        "패티김 ‘그대 없이는 못살아’를 원곡으로 삼았다는 응원단 또는 제작자의 직접 확인",
+        "성균관대판 최초 개사자·편곡자와 편곡 개정 이력",
+        "원곡 이용·개사·편곡 허락의 구체적 범위",
+        "가사·편곡·녹음·공연 영상의 재사용 권리 범위"
+      ]
+    },
+    {
+      "id": "sungkyunkwan-university-march-out",
+      "title": "출정",
+      "aliases": ["성대 출정", "출정 응원가"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-festival",
+      "summary": "Bellini의 1997년 댄스곡 ‘Samba de Janeiro’를 바탕으로 킹고응원단이 2025년에 제작한 응원가다. 공식 음원은 기획·작사 조준범, 제작·편곡 김민기, 기타 천우진, 보컬 남재헌, 믹싱·마스터링 오권호까지 상세히 적고 원곡도 직접 명시한다. 2025 하반기 응원 OT와 ESKARA에 이어 2026 응원 OT·문행대동제에서 사용됐으며, 문행대동제 플레이리스트와 현장 세트의 첫 곡으로 배치됐다. 말 없는 도입 합창, 어깨동무, 학교 연호·선창후창, 반복 절을 결합한 출발·결집용 곡이다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2025년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-march-ot-2025", "yt-skku-c-march-eskara-2025", "yt-skku-c-march-2026-ot", "yt-skku-c-march-2026-festival"],
+          "notes": "공식 음원과 이후 공식 곡별 영상이 모두 2025를 표시한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Bellini ‘Samba de Janeiro’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-march-ot-2025", "ev-skku-c-german-charts-bellini"],
+          "notes": "킹고응원단 공식 음원 설명이 원곡을 직접 적고 독일 공식 차트 자료가 작품·아티스트를 확인한다."
+        },
+        {
+          "field": "originalSongCredits",
+          "value": "1997년 Bellini 싱글; 작사·작곡 크레딧 Gottfried Engels, Ramon Zenker, Airto Moreira, 프로듀서 Engels·Zenker",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-c-german-charts-bellini"],
+          "notes": "독일 공식 차트 데이터의 연도와 크레딧을 따른다. 성균관대판 제작진과 구분한다."
+        },
+        {
+          "field": "adaptationCredits",
+          "value": "기획·작사 조준범; 제작·편곡 김민기; 기타 천우진; 보컬 남재헌; 믹싱·마스터링 오권호",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-march-ot-2025"],
+          "notes": "공식 음원 설명의 직접 크레딧이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026년 상반기 응원 OT와 2026-05-15 문행대동제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-march-2026-ot", "yt-skku-c-march-2026-festival", "ev-skku-c-2026-ot-program", "ev-skku-c-2026-festival-program"],
+          "notes": "2026 응원 OT에서는 교육·공연·피날레, 문행대동제에서는 공식 플레이리스트와 현장 세트의 첫 곡으로 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "2025 하반기 응원 OT에서 교육·공연용으로 공개되고 같은 달 ESKARA 정규 세트에 들어갔다.",
+        "2026 상반기 응원 OT에서는 1부 교육과 본 공연, 2부 피날레 공연에 반복 배치됐다.",
+        "2026 문행대동제 공식 플레이리스트와 현장 전체 세트의 첫 곡으로 사용돼 제목 그대로 출발·입장·결집 기능을 맡았다.",
+        "말 없는 도입 합창에서 어깨동무로 연결하고, 학교 연호와 선창·후창을 거쳐 반복 절로 고조하는 대규모 참여곡이다."
+      ],
+      "trivia": [
+        {
+          "id": "march-detailed-credits",
+          "summary": "공식 음원 설명이 원곡뿐 아니라 기획·작사, 제작·편곡, 기타, 보컬, 믹싱·마스터링까지 공개해 성균관대 응원가 가운데 제작 계보가 특히 상세한 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-march-ot-2025"]
+        },
+        {
+          "id": "march-opening-role",
+          "summary": "2025 ‘웅장’ 모음과 2026 문행대동제 플레이리스트·전체 세트가 모두 출정을 첫 곡으로 둔다. 댓글도 시작 반주의 묵직하고 장중한 인상을 반복해서 언급한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-march-grand-mix-2025", "yt-skku-c-march-eskara-2025", "yt-skku-c-march-2026-festival", "ev-skku-c-2026-festival-program"]
+        },
+        {
+          "id": "march-european-dance-lineage",
+          "summary": "학교·민족·미래를 강조하는 한국어 응원가지만 음악적 뼈대는 1997년 독일 차트 2위에 오른 유로댄스 싱글에서 왔다. 원곡의 축제성 강한 리듬이 대규모 응원 동작에 재배치됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-march-ot-2025", "ev-skku-c-german-charts-bellini"]
+        },
+        {
+          "id": "march-release-to-festival-window",
+          "summary": "공식 음원 영상은 2025-09-10 게시됐고 ESKARA 공연일은 9월 12일로 기록돼, 온라인 공개 직후 대형 축제 세트에 투입된 양상을 보여준다. 다만 영상 제목이 가리키는 OT의 실제 초연 날짜는 별도 확인이 필요하다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-c-march-ot-2025", "yt-skku-c-march-eskara-2025", "ev-skku-c-official-ot-news-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 1997 Bellini composition and a credited 2025 university adaptation; the exact licensing and reuse permissions for composition, adaptation, performance, and recording are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=QvwLGKrqVxA",
+          "https://www.youtube.com/watch?v=GEPnnswGbM8",
+          "https://www.offiziellecharts.de/charts/titel-details-3468",
+          "https://www.youtube.com/watch?v=-NJDbftqcIc"
+        ],
+        "structureSummary": "말 없는 합창형 도입 뒤 어깨동무 신호가 나오고, 학교 공동체의 함성·미래·열정을 압축한 절로 넘어간다. 간주에서는 학교 연호와 짧은 선창·후창을 주고받고, 같은 핵심 절을 여러 차례 고조해 반복한 뒤 도입의 말 없는 합창으로 닫는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-c-march-ot-2025",
+        "yt-skku-c-march-eskara-2025",
+        "yt-skku-c-march-grand-mix-2025",
+        "yt-skku-c-march-fullset-2025",
+        "yt-skku-c-march-2026-ot",
+        "yt-skku-c-march-2026-ot-mix",
+        "yt-skku-c-march-2026-festival"
+      ],
+      "unresolved": [
+        "2025년 최초 공개·교육 행사의 정확한 날짜와 초연 순서",
+        "Bellini 원곡 이용·개사·편곡 허락의 구체적 범위",
+        "2025 음원과 2026 라이브 편곡 사이의 개정 여부",
+        "가사·편곡·녹음·공연 영상의 재사용 권리 범위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-skku-c-official-squad",
+      "type": "university-primary",
+      "url": "https://www.skku.edu/skku_bak/campus/activities/cheering_party.do",
+      "title": "성균관대학교 응원단",
+      "publisher": "성균관대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "킹고응원단이 신입생 OT와 교내외 행사, 가을 건학기념제의 ‘킹고인의 함성’ 응원대제전 등을 통해 학우를 하나로 묶는다고 학교가 설명한다.",
+      "supports": ["응원단 공식성", "신입생 OT", "축제·응원대제전", "공동체 기능"]
+    },
+    {
+      "id": "ev-skku-c-linktree",
+      "type": "official-social-index",
+      "url": "https://linktr.ee/eskarakinggo",
+      "title": "성균관대학교 킹고응원단 Official",
+      "publisher": "성균관대학교 킹고응원단",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "응원단 공식 YouTube·Instagram과 응원가 플레이리스트·응원법 영상을 연결한다. 현재 노출된 가이드에서 성대를 좋아해는 Chapter 6, 우리가 누구는 Chapter 9로 확인된다.",
+      "supports": ["공식 채널", "성대를 좋아해 가이드", "우리가 누구 가이드", "현행 응원법"]
+    },
+    {
+      "id": "ev-skku-c-official-ot-news-2025",
+      "type": "university-news-primary",
+      "url": "https://www.skku.edu/skku/campus/skk_comm/news04.do?article.offset=0&articleLimit=10&articleNo=129845&mode=view",
+      "title": "킹고응원단, 제1회 응원 오리엔테이션 개최",
+      "publisher": "성균관대학교",
+      "publishedAt": "2025-09-12",
+      "accessedAt": "2026-08-09",
+      "summary": "2025-09-05 자연과학캠퍼스 대강당의 첫 응원 OT에서 500명이 응원가와 구호를 익힌 1부 교육과 2부 공연에 참여했다고 보도한다.",
+      "supports": ["2025 응원 OT", "출정 초기 사용 맥락", "응원가 교육", "관중 참여"]
+    },
+    {
+      "id": "ev-skku-c-webzine-2025",
+      "type": "university-webzine",
+      "url": "https://www.skku.edu/skkuzine/section/coverStory.do?articleNo=129860&mode=list&pager.offset=60&pagerLimit=10",
+      "title": "2025 ESKARA: 초록의 파도 현장과 응원 OT",
+      "publisher": "성균웹진",
+      "publishedAt": "2025",
+      "accessedAt": "2026-08-09",
+      "summary": "응원 OT에서 미리 구호·동작을 익히고 어깨동무하며 유대감을 형성했으며, 신곡 제작·기존 응원가 개편·흥몰이 동작 개선을 고유 응원문화 정착 작업으로 추진했다고 설명한다.",
+      "supports": ["신곡 제작", "기존곡 개편", "어깨동무", "ESKARA 맥락", "공동체 유대"]
+    },
+    {
+      "id": "ev-skku-c-alumni",
+      "type": "official-alumni-interview",
+      "url": "https://swb.skku.edu/alumni/circular/interview.do?article.offset=30&articleLimit=10&articleNo=59367&mode=view",
+      "title": "모교 학생 동아리 탐방 - 킹고응원단, 세대를 뛰어넘어 ‘응원 열정’",
+      "publisher": "성균관대학교 총동창회",
+      "publishedAt": "2025-10-24",
+      "accessedAt": "2026-08-09",
+      "summary": "2024 ESKARA 2부 체제와 어깨동무 응원, 2025 응원가 공모전·응원문화혁신위원회, 2026 음악부 신설 계획을 응원단 인터뷰로 기록한다.",
+      "supports": ["창작 체계", "2024 신곡 맥락", "응원문화 혁신", "세대 교류"]
+    },
+    {
+      "id": "ev-skku-c-namu-access",
+      "type": "community-encyclopedia-access-limited",
+      "url": "https://namu.wiki/w/%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "성균관대학교/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "곡별 교차 확인 대상으로 문서 URL과 제목은 확인했으나 조사 환경에서 본문 접근이 차단·점검 상태여서 내용을 직접 검토하지 못했다. 이 배치의 연도·원곡·현행 판정은 공식 영상과 외부 음원 자료로 독립 확인했다.",
+      "supports": ["나무위키 교차검토 시도", "본문 미확인 고지", "단독 근거 배제"]
+    },
+    {
+      "id": "ev-skku-c-bugs-patty",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/track/11005392",
+      "title": "그대 없이는 못살아 - 패티김",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "패티김의 ‘그대 없이는 못살아’와 길옥윤의 작사·작곡 크레딧을 제공한다. 곡의 반복 어법과 핵심 후렴은 성대를 좋아해의 공식 설명과 비교하는 원곡 후보 자료로 사용했다.",
+      "supports": ["성대를 좋아해 원곡 후보", "패티김", "길옥윤 작사·작곡", "반복 구조"]
+    },
+    {
+      "id": "ev-skku-c-german-charts-bellini",
+      "type": "official-chart-database",
+      "url": "https://www.offiziellecharts.de/charts/titel-details-3468",
+      "title": "Samba de Janeiro - Bellini",
+      "publisher": "Offizielle Deutsche Charts",
+      "publishedAt": "1997",
+      "accessedAt": "2026-08-09",
+      "summary": "Bellini의 ‘Samba de Janeiro’를 1997년 싱글로 기록하고 독일 차트 최고 2위, 작사·작곡 Gottfried Engels·Ramon Zenker·Airto Moreira, 프로듀서 Engels·Zenker를 제공한다.",
+      "supports": ["출정 원곡", "1997 발매", "원곡 크레딧", "독일 차트 2위"]
+    },
+    {
+      "id": "ev-skku-c-2026-ot-program",
+      "type": "official-youtube-program",
+      "url": "https://www.youtube.com/watch?v=LZPuqk93SqQ",
+      "title": "2026 성균관대학교 상반기 응원 OT LIVE",
+      "publisher": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-06",
+      "accessedAt": "2026-08-09",
+      "summary": "상세 타임라인이 성대를 좋아해·우리가 누구·출정의 교육과 공연을 명시하고, 출정은 1부 교육·공연과 2부 피날레에 반복 배치한다.",
+      "supports": ["2026 응원 OT", "세 곡 현행 사용", "교육과 공연", "출정 피날레"]
+    },
+    {
+      "id": "ev-skku-c-2026-festival-program",
+      "type": "official-youtube-program",
+      "url": "https://www.youtube.com/watch?v=5TuN6DY8fdQ",
+      "title": "Playlist | 2026 문행대동제 성균관대학교 응원가 플레이리스트",
+      "publisher": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-05-11",
+      "accessedAt": "2026-08-09",
+      "summary": "문행대동제 중심 9곡의 첫 곡으로 출정, 여섯 번째로 성대를 좋아해, 마지막 곡으로 우리가 누구를 배치한다.",
+      "supports": ["2026 문행대동제", "출정 오프닝", "성대를 좋아해", "우리가 누구 피날레"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-skku-c-who-audio-2024",
+      "songId": "sungkyunkwan-university-who-are-we",
+      "url": "https://www.youtube.com/watch?v=GkQMfq4qsLE",
+      "videoId": "GkQMfq4qsLE",
+      "title": "우리가 누구",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-09-07",
+      "descriptionSummary": "2024년 공식 음원이다. 작사·작곡 조지훈·윤소영, 총괄 채인영, 편집 신지원, 썸네일 최준희를 직접 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["1990년대 학번 동문은 성균관대의 색이 드러나는 곡이라고 호평한다.", "곡과 무관하거나 의미를 판별하기 어려운 짧은 댓글은 사실 요약에서 제외했다."],
+      "supports": ["2024 도입", "자작곡", "작사·작곡 크레딧", "동문 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-who-guide-2024",
+      "songId": "sungkyunkwan-university-who-are-we",
+      "url": "https://www.youtube.com/watch?v=Ye4fgabsJ5s",
+      "videoId": "Ye4fgabsJ5s",
+      "title": "킹고응원단 응원법 가이드 영상 : Chapter 9. 우리가 누구",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-09-23",
+      "descriptionSummary": "관객이 무대를 더 잘 즐기도록 제작한 공식 Chapter 9 응원법 영상이며 총괄·촬영·편집·출연 정보를 적는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["공식 응원법", "Chapter 9", "2024 신곡 교육"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-who-eskara-2024-part1",
+      "songId": "sungkyunkwan-university-who-are-we",
+      "url": "https://www.youtube.com/watch?v=uUXkGxHKmu4",
+      "videoId": "uUXkGxHKmu4",
+      "title": "[성균관대학교 킹고응원단] RE-PLAY 킹고 : 2024 ESKARA 1부 우리가 누구",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-11-04",
+      "descriptionSummary": "2024 ESKARA 1부 공연이며 총괄 조지훈과 촬영·편집·출연 제작진을 기재한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 ESKARA 1부", "신곡 현장 사용", "제작진"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-who-eskara-2024-part2",
+      "songId": "sungkyunkwan-university-who-are-we",
+      "url": "https://www.youtube.com/watch?v=0BF3yC6hu2o",
+      "videoId": "0BF3yC6hu2o",
+      "title": "[성균관대학교 킹고응원단] RE-PLAY 킹고 : 2024 ESKARA 2부 우리가 누구",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-11-04",
+      "descriptionSummary": "2024 ESKARA 2부 공연이며 1부와 같은 총괄·촬영·편집진의 별도 곡별 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 ESKARA 2부", "하루 두 세트 사용", "공식 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-who-myeongnyun-2025",
+      "songId": "sungkyunkwan-university-who-are-we",
+      "url": "https://www.youtube.com/watch?v=uDWgWcUo2Vg",
+      "videoId": "uDWgWcUo2Vg",
+      "title": "[성균관대학교 킹고응원단] Re-play kinggo : 2025 명륜 대동제 우리가 누구",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-05-23",
+      "descriptionSummary": "2025 명륜 대동제 곡별 영상이며 총괄·촬영·편집·출연 제작진을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["후배들의 공연을 격려하는 반응과 해외에서 시청한 1970년대 학번 동문의 짧은 반응이 함께 보인다."],
+      "supports": ["2025 명륜 대동제", "동문 수용", "해외 시청"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-who-2025-eskara",
+      "songId": "sungkyunkwan-university-who-are-we",
+      "url": "https://www.youtube.com/watch?v=phbfSRFQ8mk",
+      "videoId": "phbfSRFQ8mk",
+      "title": "[2025 ESKARA] ‘우리가 누구’ 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-27",
+      "descriptionSummary": "2025-09-12 ESKARA ‘응원제 1398’ 공연이다. 곡 연도를 2024로 표시하고 1·2절 시작 시점을 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 ESKARA", "2024 연도", "1·2절 구조"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-who-2026-ot",
+      "songId": "sungkyunkwan-university-who-are-we",
+      "url": "https://www.youtube.com/watch?v=RF6lacWQ8XU",
+      "videoId": "RF6lacWQ8XU",
+      "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '우리가 누구' (2024) 4K",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026-03-06 상반기 응원 OT 공식 곡별 영상으로 2024년 곡 표기를 직접 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 응원 OT", "현재성", "2024 연도"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-who-2026-festival",
+      "songId": "sungkyunkwan-university-who-are-we",
+      "url": "https://www.youtube.com/watch?v=46e6FOGvIGo",
+      "videoId": "46e6FOGvIGo",
+      "title": "[2026 문행대동제] '우리가 누구' (2024) 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-06-27",
+      "descriptionSummary": "2026-05-15 문행대동제 공연이며 곡 연도를 2024로 표시하고 00:18부터 본편을 안내한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 문행대동제", "현재성", "2024 연도", "세트 종결부"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-like-2014-ot",
+      "songId": "sungkyunkwan-university-like-sungdae",
+      "url": "https://www.youtube.com/watch?v=_zNkQiz7bes",
+      "videoId": "_zNkQiz7bes",
+      "title": "[2014.12.22] 성대를 좋아해 - 킹고응원단",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2014-12-28",
+      "descriptionSummary": "2014-12-22 공학계열 15학번 수시 OT 공연이다. 설명은 학교 없이는 살 수 없다는 핵심 후렴을 짧게 소개한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2014 수시 OT", "신입생 사용", "원곡 후보 비교 문구"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-like-2015-anniversary",
+      "songId": "sungkyunkwan-university-like-sungdae",
+      "url": "https://www.youtube.com/watch?v=n2X_UYcvIqI",
+      "videoId": "n2X_UYcvIqI",
+      "title": "2015.09.22. 성균관대학교 건학기념제 - 성대를 좋아해",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2015-10-04",
+      "descriptionSummary": "2015-09-22 건학기념제 공연으로 핵심 후렴의 학교 이름 치환을 설명란에서 다시 확인할 수 있다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 시청자는 이 곡을 가장 좋아하는 곡으로 꼽고 당시 단장 무대를 호평한다."],
+      "supports": ["2015 건학기념제", "원곡 후보 비교", "선호 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-like-2016-entrance",
+      "songId": "sungkyunkwan-university-like-sungdae",
+      "url": "https://www.youtube.com/watch?v=xp3-a--Pxcg",
+      "videoId": "xp3-a--Pxcg",
+      "title": "[킹고응원단] 성대를 좋아해(Stage Ver.) - 2016.02.26 (2016 성균관대학교 입학식)",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2016-03-12",
+      "descriptionSummary": "2016-02-26 성균관대학교 입학식의 무대 버전 공연이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2016 입학식", "Stage Version", "신입생 환영"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-like-2021-entrance",
+      "songId": "sungkyunkwan-university-like-sungdae",
+      "url": "https://www.youtube.com/watch?v=wYbFGJB58DI",
+      "videoId": "wYbFGJB58DI",
+      "title": "[킹고응원단] 성대를 좋아해 - 2021 성균관대학교 입학식",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2021-02-24",
+      "descriptionSummary": "2021-02-19 온라인 스트리밍 입학식 공연이며 화질 제약과 입학식 전체 영상 링크를 안내한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2021 입학식", "온라인 스트리밍", "신입생 환영 연속성"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-like-guide-2024",
+      "songId": "sungkyunkwan-university-like-sungdae",
+      "url": "https://www.youtube.com/watch?v=1c6WNlHev-4",
+      "videoId": "1c6WNlHev-4",
+      "title": "킹고응원단 응원법 가이드 영상 : Chapter 6. 성대를 좋아해",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-09-23",
+      "descriptionSummary": "관객이 무대를 더 잘 즐기도록 만든 공식 Chapter 6 응원법 영상이며 제작진과 출연진을 적는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["공식 응원법", "Chapter 6", "2024 현행 동작"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-like-2025-eskara",
+      "songId": "sungkyunkwan-university-like-sungdae",
+      "url": "https://www.youtube.com/watch?v=2ujyKh9yosA",
+      "videoId": "2ujyKh9yosA",
+      "title": "[2025 ESKARA] ‘성대를 좋아해’ 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-27",
+      "descriptionSummary": "2025-09-12 ESKARA ‘응원제 1398’ 공연이다. 곡 연도를 2005로 표시하고 하이라이트와 1·2절 시작 시점을 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2005 연도", "2025 ESKARA", "1·2절 구조"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-like-2026-ot",
+      "songId": "sungkyunkwan-university-like-sungdae",
+      "url": "https://www.youtube.com/watch?v=CqETueNW-7w",
+      "videoId": "CqETueNW-7w",
+      "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '성대를 좋아해' (2005) 4K",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026-03-06 상반기 응원 OT 공식 곡별 영상으로 2005년 곡임을 직접 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 응원 OT", "현재성", "2005 연도"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-like-2026-festival",
+      "songId": "sungkyunkwan-university-like-sungdae",
+      "url": "https://www.youtube.com/watch?v=tPpLaNLJE78",
+      "videoId": "tPpLaNLJE78",
+      "title": "[2026 문행대동제] '성대를 좋아해' (2005) 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-06-26",
+      "descriptionSummary": "2026-05-15 문행대동제 공식 곡별 공연이며 2005년 곡 표기와 00:18 본편 시작 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 문행대동제", "현재성", "2005 연도"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-march-ot-2025",
+      "songId": "sungkyunkwan-university-march-out",
+      "url": "https://www.youtube.com/watch?v=QvwLGKrqVxA",
+      "videoId": "QvwLGKrqVxA",
+      "title": "'출정' - 성균관대학교 응원가 (2025 하반기 응원 OT)",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-09-10",
+      "descriptionSummary": "2025년 출정을 하반기 응원 OT 곡으로 공개한다. 전문 가사와 함께 기획·작사, 제작·편곡, 연주·보컬·믹싱 크레딧 및 Bellini 원곡을 제공하지만 이 데이터에는 전문을 복제하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자들은 원곡 여부를 질문하거나 새로운 학교 응원가와 응원문화의 성장을 격려한다."],
+      "supports": ["2025 도입", "원곡", "제작진", "가사 구조", "응원 OT"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-march-eskara-2025",
+      "songId": "sungkyunkwan-university-march-out",
+      "url": "https://www.youtube.com/watch?v=GEPnnswGbM8",
+      "videoId": "GEPnnswGbM8",
+      "title": "[2025 ESKARA] ‘출정’ 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-27",
+      "descriptionSummary": "2025-09-12 ESKARA ‘응원제 1398’ 공연이다. 곡 연도를 2025로 표시하고 하이라이트와 1·2절 시작 시점을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 시청자는 시작 반주의 장중하고 묵직한 인상을 호평하고, 다른 시청자는 대량 공개된 응원 영상 자체를 반긴다."],
+      "supports": ["2025 ESKARA", "2025 연도", "1·2절 구조", "장중한 도입 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-march-grand-mix-2025",
+      "songId": "sungkyunkwan-university-march-out",
+      "url": "https://www.youtube.com/watch?v=5Lqj3yIkiHg",
+      "videoId": "5Lqj3yIkiHg",
+      "title": "[Mix] 성균관대 웅장 1티어 응원가 모음.zip – ‘출정 / 여명 / 승리를 위하여 / 그대에게’",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-28",
+      "descriptionSummary": "2025 ESKARA 장중한 응원가 모음으로 00:13부터 출정을 첫 곡으로 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 첫 도입부터 장중한 출정의 인상을 강조한다."],
+      "supports": ["2025 ESKARA", "오프닝 배치", "장중한 곡 분류", "수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-march-fullset-2025",
+      "songId": "sungkyunkwan-university-march-out",
+      "url": "https://www.youtube.com/watch?v=fTeHh_EvuVw",
+      "videoId": "fTeHh_EvuVw",
+      "title": "[Mix] 성균관대 응원가 전곡 총출동! – 응원가 14개 모음.zip",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-28",
+      "descriptionSummary": "2025-09-12 ESKARA 공식 14곡 전체 세트로 02:29부터 출정을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자들은 응원가·백밴드·보컬 수준의 향상을 호평하고 동문 자부심이나 입학 의지를 드러낸다."],
+      "supports": ["2025 전체 세트", "출정 수록", "밴드 수용", "세대 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-march-2026-ot",
+      "songId": "sungkyunkwan-university-march-out",
+      "url": "https://www.youtube.com/watch?v=-NJDbftqcIc",
+      "videoId": "-NJDbftqcIc",
+      "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '출정' (2025) 4K",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026-03-06 상반기 응원 OT 공식 곡별 영상으로 출정을 2025년 곡으로 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 응원 OT", "현재성", "2025 연도"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-march-2026-ot-mix",
+      "songId": "sungkyunkwan-university-march-out",
+      "url": "https://www.youtube.com/watch?v=yTIbhE5hB-s",
+      "videoId": "yTIbhE5hB-s",
+      "title": "[Mix] 성균관대 2026 상반기 응원 OT 하이라이트만 모아보기!",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-31",
+      "descriptionSummary": "2026-03-06 응원 OT의 곡별 하이라이트 모음이며 30:45부터 출정을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 시청자는 다른 대학 응원문화와 비교하며 무대 규모·역동성·단장 비중을 개인적으로 평가한다."],
+      "supports": ["2026 응원 OT", "출정 타임스탬프", "외부 비교 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-c-march-2026-festival",
+      "songId": "sungkyunkwan-university-march-out",
+      "url": "https://www.youtube.com/watch?v=uZp-9RTduik",
+      "videoId": "uZp-9RTduik",
+      "title": "[2026 문행대동제] '출정' (2025) 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-06-26",
+      "descriptionSummary": "2026-05-15 문행대동제 곡별 공연으로 2025년 곡 표기와 00:20 본편 시작 정보를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 문행대동제", "현재성", "2025 연도", "오프닝 곡"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 3,
+    "youtubeSampleCount": 23,
+    "songsMeetingYoutubeMinimum": 3,
+    "openIssueCount": 13
+  }
+}

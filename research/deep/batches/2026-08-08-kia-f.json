@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kia-f",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kia-tigers",
+    "name": "KIA 타이거즈",
+    "type": "kbo"
+  },
+  "rightsNote": "김수희의 상업음원과 가사, 구단·팬 영상의 설명 전문 및 댓글 원문은 저장하지 않는다. 저작권이 있는 가사는 출처·권리 상태·구조와 경기장 사용법만 요약하며, 댓글은 작성자를 식별하지 않는 반복 반응만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "kia-tigers-southbound-train",
+      "title": "남행열차",
+      "aliases": ["김수희의 남행열차", "타이거즈 남행열차", "KIA 남행열차", "해태 남행열차"],
+      "currentStatus": "current-core-official-heritage-song-directly-verified-2026",
+      "summary": "김수희가 1987년 발표한 대중가요를 가사 변경 없이 함께 부르는 타이거즈의 대표 헤리티지 응원곡이다. 호남선이 등장하는 원곡의 지역 이미지 때문에 해태 시절 응원가로 자리 잡았고, 작곡가 김진룡은 해태 응원가 채택이 곡의 뒤늦은 대중화에 결정적이었다고 회고했다. 정확한 최초 사용 경기와 연도는 확인되지 않아 ‘1987년부터’라고 단정하지 않는다. 확인 가능한 가장 이른 온라인 현장 표본은 2009 한국시리즈이며, 2017 우승·2022 무앰프 원정·2024 한국시리즈 공식 복습·2025 정규시즌을 거쳐 2026 구단 공식 목록 24분 45초와 3월·7월 현장에서 연속 확인된다. 서한국 응원단장은 2026 인터뷰에서 고정 규칙은 아니지만 KIA의 마지막 공격 때 주로 튼다고 설명했다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "김수희 — 남행열차; 1987-06-10 공개, 김진룡 작사·작곡으로 현행 크레딧됨",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-f-apple-original", "ev-kia-f-songwriter-interview", "ev-kia-f-namu-song"],
+          "notes": "과거 음반·문서의 작사자 표기 ‘정혜경’은 김진룡의 필명이라는 당사자 설명과 현행 저작권 등록 설명이 있으나, 가사 원문은 저장하지 않았다."
+        },
+        {
+          "field": "introduction",
+          "value": "해태 타이거즈 시절 채택; 정확한 최초 경기·연도 미확인, 늦어도 2009 한국시리즈 직접 표본 확인",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-f-songwriter-interview", "ev-kia-f-namu-song", "yt-kia-f-ks-2009"],
+          "notes": "곡 발표연도와 응원가 채택연도를 동일시하지 않는다. 작곡가·가수 회고는 채택과 대중화의 관계를 뒷받침하지만 최초 경기 날짜는 제시하지 않는다."
+        },
+        {
+          "field": "regionalMeaning",
+          "value": "호남선과 남행열차의 이미지가 광주·호남 기반 타이거즈 팬덤의 지역 정체성과 결합",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-f-ytn-history", "ev-kia-f-namu-song", "yt-kia-f-original-fan-video"],
+          "notes": "원곡은 이별 노래지만 경기장에서는 지역·팀 연대의 합창곡으로 맥락이 바뀐다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "고정 규칙은 아니나 KIA의 마지막 공격에 주로 사용하며, 승리·포스트시즌 뒤풀이에서는 앙코르 합창으로도 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-f-cheerleader-interview-2026", "yt-kia-f-championship-2017", "yt-kia-f-no-amp-2022", "yt-kia-f-official-2024"],
+          "notes": "응원단장 인터뷰의 현행 운영 설명과 서로 다른 시대의 현장 표본을 구분해 기록했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 응원가 모음 24:45 수록, 2026-03-29·03-31·07-16 현장 사용 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-f-official-2026", "yt-kia-f-opening-2026", "yt-kia-f-field-march-2026", "yt-kia-f-field-july-2026"],
+          "notes": "나무위키의 ‘비공식 응원가’ 분류와 달리 구단 공식 2024·2026 영상에 독립 챕터로 실렸으므로, 이 아카이브에서는 ‘구단 창작곡은 아니지만 공식 운용되는 현행 헤리티지 곡’으로 분류한다."
+        },
+        {
+          "field": "historicalStatus",
+          "value": "‘목포의 눈물’과 함께 해태 시절부터 불렸고, 시간이 지나며 더 흥겨운 남행열차가 주된 대중가요 응원곡으로 자리 잡았다는 서술",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-f-ytn-history", "ev-kia-f-namu-song"],
+          "notes": "두 곡의 시대별 실제 재생 빈도를 수치화한 운영표는 확인하지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "정규시즌에는 홈·원정을 가리지 않고 KIA의 마지막 공격을 여는 대형 합창곡으로 주로 사용된다.",
+        "잠실의 야간 앰프 제한처럼 음향을 쓸 수 없는 상황에서도 관중이 육성만으로 이어 부르는 레퍼토리다.",
+        "한국시리즈 승리나 우승 확정 뒤에는 정규 응원 순서를 넘어 앙코르·뒤풀이 노래로 길게 반복된다.",
+        "구단 공식 영상은 별도 개사본이 아니라 원곡의 절과 후렴, 열차 효과음을 포함한 경기장용 재생·안무 구성을 가르친다."
+      ],
+      "trivia": [
+        {
+          "id": "southbound-adoption-helped-hit",
+          "summary": "작곡가 김진룡은 앨범의 구색용으로 마지막에 넣을 뻔한 곡이 해태 타이거즈 응원가로 쓰이면서 국민 애창곡이 됐다고 회고했다. 가수 김수희 역시 야구장 합창이 곡의 확산에 큰 역할을 했다고 설명했다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-f-songwriter-interview", "ev-kia-f-singer-interview"]
+        },
+        {
+          "id": "southbound-unofficial-label-conflict",
+          "summary": "나무위키 응원가 문서는 구단 창작곡이 아니라는 의미에서 이 곡을 ‘비공식’ 장에 두지만, KIA 공식 채널은 2024·2026 주요 팀 응원가 목록에 안무와 함께 직접 수록한다. 출처의 ‘비공식’은 현행 사용 여부가 아니라 저작·기원 분류로 해석해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-f-namu-cheers", "yt-kia-f-official-2024", "yt-kia-f-official-2026"]
+        },
+        {
+          "id": "southbound-no-amp-chorus",
+          "summary": "2022년 잠실 원정 영상은 밤 10시 이후 앰프 제한 뒤에도 관중이 무반주로 합창을 완주한 장면을 담는다. 댓글 반응은 홈·원정을 뒤집어 놓는 팬 규모와 오래된 곡의 공동 기억에 집중한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-f-no-amp-2022"]
+        },
+        {
+          "id": "southbound-opening-sound",
+          "summary": "팬 댓글에서는 전주 열차 경적만 들려도 관중이 일어선다는 반응이 반복된다. 선율뿐 아니라 열차 출발 효과음 자체가 응원 시작 신호로 기능한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-f-original-fan-video", "yt-kia-f-official-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted commercial song performed without a team-specific lyric rewrite; reproduction rights not granted",
+        "sourceUrls": [
+          "https://music.apple.com/kr/song/1817392968",
+          "https://www.youtube.com/watch?v=VAQV7_inmxg",
+          "https://www.youtube.com/watch?v=l7XROs9lYSo",
+          "https://namu.wiki/w/%EB%82%A8%ED%96%89%EC%97%B4%EC%B0%A8"
+        ],
+        "structureSummary": "열차 경적·주행 효과음으로 출발한 뒤 호남선을 배경으로 한 이별 서사를 1절과 2절에서 되풀이하고, 기억과 사랑을 남기는 같은 후렴으로 수렴한다. 경기장에서는 원곡을 팀명으로 개사하지 않고 관중이 전곡을 합창하며, 마지막 공격과 승리 뒤풀이에서는 후렴과 추임새가 특히 크게 강조된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-f-official-2026",
+        "yt-kia-f-opening-2026",
+        "yt-kia-f-field-march-2026",
+        "yt-kia-f-field-july-2026",
+        "yt-kia-f-field-2025",
+        "yt-kia-f-official-2024",
+        "yt-kia-f-no-amp-2022",
+        "yt-kia-f-championship-2017",
+        "yt-kia-f-ks-2009",
+        "yt-kia-f-original-fan-video"
+      ],
+      "unresolved": [
+        "해태 시절 최초 사용 경기와 정확한 도입 연도·선곡 주체",
+        "경기장용 음원·열차 효과음 편집본의 제작자와 버전별 변경 이력",
+        "원곡 공연·복제에 관한 구단의 이용 허락 범위",
+        "정규시즌 마지막 공격 외 예외 상황의 공식 선곡 기준",
+        "‘목포의 눈물’에서 ‘남행열차’ 중심으로 바뀐 시기의 운영 자료"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kia-f-apple-original",
+      "type": "official-streaming-catalog",
+      "url": "https://music.apple.com/kr/song/1817392968",
+      "title": "남행열차 — 김수희",
+      "publisher": "Apple Music",
+      "publishedAt": "1987-06-10",
+      "accessedAt": "2026-08-08",
+      "summary": "김수희의 ‘남행열차’를 1987년 6월 10일 공개된 음원으로 표기해 원곡 가수·연도를 확인한다.",
+      "supports": ["kia-tigers-southbound-train.originalSong"]
+    },
+    {
+      "id": "ev-kia-f-cheerleader-interview-2026",
+      "type": "news-interview",
+      "url": "https://v.daum.net/v/20260611135949504",
+      "title": "[영상인터뷰] ‘벌써 10년이나 됐어요?’ KIA 서한국 응원단장의 ‘승리의 함성’",
+      "publisher": "스포츠서울",
+      "publishedAt": "2026-06-11",
+      "accessedAt": "2026-08-08",
+      "summary": "서한국 응원단장이 남행열차는 정확히 고정된 것은 아니지만 KIA가 마지막 공격에 들어갈 때 틀고 있다고 직접 설명한다.",
+      "supports": ["kia-tigers-southbound-train.usagePattern"]
+    },
+    {
+      "id": "ev-kia-f-songwriter-interview",
+      "type": "news-interview",
+      "url": "https://www.sportschosun.com/entertainment/2019-06-22/201906220100163950011336",
+      "title": "‘불후의 명곡’ 김진룡 ‘남행열차? 국민 애창곡이자 내 인생곡’",
+      "publisher": "스포츠조선",
+      "publishedAt": "2019-06-22",
+      "accessedAt": "2026-08-08",
+      "summary": "작곡가 김진룡은 앨범 말미에 수록된 곡이 해태 타이거즈 응원가로 채택된 뒤 대중적 사랑을 얻었다고 회고한다.",
+      "supports": ["kia-tigers-southbound-train.introduction", "kia-tigers-southbound-train.trivia"]
+    },
+    {
+      "id": "ev-kia-f-singer-interview",
+      "type": "broadcast-interview-report",
+      "url": "https://news.nate.com/view/20210119n07588",
+      "title": "김수희 ‘남행열차, 해태 타이거즈 응원가로 유명해져’",
+      "publisher": "뉴스엔·네이트",
+      "publishedAt": "2021-01-19",
+      "accessedAt": "2026-08-08",
+      "summary": "김수희가 KBS 인터뷰에서 야구장 응원가 사용이 곡의 대중화에 기여했다고 회고한다. 기억상 시점 표현은 공식 1987 음원 연도와 어긋나므로 정확 연대 근거로 쓰지 않는다.",
+      "supports": ["kia-tigers-southbound-train.trivia"]
+    },
+    {
+      "id": "ev-kia-f-ytn-history",
+      "type": "news-feature",
+      "url": "https://www.ytn.co.kr/_ln/0103_202305181536291770",
+      "title": "우승팀의 구슬픈 응원가…5·18과 해태 타이거즈",
+      "publisher": "YTN",
+      "publishedAt": "2023-05-18",
+      "accessedAt": "2026-08-08",
+      "summary": "해태 시대의 지역·야구 문화에서 ‘목포의 눈물’과 더 흥겨운 ‘남행열차’가 어떻게 함께 불렸는지 설명한다. 정치·지역 비하성 댓글은 수집하지 않았다.",
+      "supports": ["kia-tigers-southbound-train.regionalMeaning", "kia-tigers-southbound-train.historicalStatus"]
+    },
+    {
+      "id": "ev-kia-f-namu-cheers",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "KIA 타이거즈/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "남행열차를 구단 창작곡과 구분해 ‘비공식 응원가’ 장에 배치한다. 현행 여부는 구단 공식 2024·2026 영상과 날짜 특정 현장 자료로 별도 교차한다.",
+      "supports": ["kia-tigers-southbound-train.currentUse", "kia-tigers-southbound-train.trivia"]
+    },
+    {
+      "id": "ev-kia-f-namu-song",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/%EB%82%A8%ED%96%89%EC%97%B4%EC%B0%A8",
+      "title": "남행열차",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "원곡의 1987년 발표·김진룡 크레딧 논쟁, 해태 시절부터의 사용, 호남선 지역 이미지, 목포의 눈물과의 세대 변화 등을 종합한 편집형 출처다.",
+      "supports": ["kia-tigers-southbound-train.originalSong", "kia-tigers-southbound-train.introduction", "kia-tigers-southbound-train.regionalMeaning", "kia-tigers-southbound-train.historicalStatus"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kia-f-official-2026",
+      "songId": "kia-tigers-southbound-train",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "videoId": "l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (카스트로 & 데일 응원가)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24",
+      "descriptionSummary": "구단 공식 2026 팀·선수 응원가 안무 모음이 남행열차를 24분 45초에 독립 팀 응원가 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관 전 가사와 안무를 예습하는 자료로 사용한다는 반응이 반복된다.",
+        "팬이 공식 타임스탬프를 다시 공유해 곡 순서와 수록 위치를 교차 확인할 수 있다."
+      ],
+      "supports": ["officialCurrentUse2026", "officialClassification", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-f-opening-2026",
+      "songId": "kia-tigers-southbound-train",
+      "url": "https://www.youtube.com/watch?v=wFnbVho5uEM",
+      "videoId": "wFnbVho5uEM",
+      "title": "[2026 개막시리즈] KIA타이거즈 팀 응원가 ‘남행열차’ 뒷부분 20260329",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026 개막 시리즈에서 남행열차 후반부가 실제 재생된 날짜 특정 현장 표본이다. 설명은 이어지는 김호령 응원가 전환 시점도 구분한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2026", "openingSeriesUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-f-field-march-2026",
+      "songId": "kia-tigers-southbound-train",
+      "url": "https://www.youtube.com/watch?v=fHlUW5fKxh0",
+      "videoId": "fHlUW5fKxh0",
+      "title": "기아타이거즈 남행열차 응원 260331 4k",
+      "channel": "S깡통",
+      "publishedAt": "2026-03-31",
+      "descriptionSummary": "3월 31일 치어리더와 응원단장이 함께 진행한 2분 53초 현장 영상으로 2026 초반 전곡형 운용을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 치어리더 개인 응원에 관한 내용으로 곡 역사 판단에는 사용하지 않았다."
+      ],
+      "supports": ["fieldUse2026", "choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-f-field-july-2026",
+      "songId": "kia-tigers-southbound-train",
+      "url": "https://www.youtube.com/watch?v=KlNIanE0TX4",
+      "videoId": "KlNIanE0TX4",
+      "title": "KIA타이거즈 팀 응원가 ‘남행열차’ 20260716",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-07-16",
+      "descriptionSummary": "7월 16일 경기의 2분 47초 직접 현장 표본으로 개막기 이후에도 시즌 중반 운용이 이어짐을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2026", "midseasonUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-f-field-2025",
+      "songId": "kia-tigers-southbound-train",
+      "url": "https://www.youtube.com/watch?v=bNcODk9jQOU",
+      "videoId": "bNcODk9jQOU",
+      "title": "2025/06/29 기아타이거즈 응원가 남행열차",
+      "channel": "은비닝",
+      "publishedAt": "2025-07-03",
+      "descriptionSummary": "2025년 6월 29일 KIA-LG 잠실 경기에서 촬영한 1분 5초 현장 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2025", "awayUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-f-official-2024",
+      "songId": "kia-tigers-southbound-train",
+      "url": "https://www.youtube.com/watch?v=QH7DYaRnXMg",
+      "videoId": "QH7DYaRnXMg",
+      "title": "한국시리즈 대비 기아타이거즈 응원가 모음집 (2024년 10월 최신 ver.)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-10-13",
+      "descriptionSummary": "구단이 한국시리즈 대비 주요 팀 응원가 가운데 남행열차를 20분 53초에 수록하고 팬에게 전절 숙지를 요청한 공식 복습 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "남행열차의 2절까지 외워 오라는 응원단장의 요청을 재확인하는 댓글이 여러 건 있다.",
+        "팬들은 긴 포스트시즌 응원에 대비해 식사·목 관리·가사 숙지를 준비한다는 반응을 보인다."
+      ],
+      "supports": ["officialUse2024", "fullSongChant", "postseasonUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-f-no-amp-2022",
+      "songId": "kia-tigers-southbound-train",
+      "url": "https://www.youtube.com/watch?v=-y5LYQHm1OQ",
+      "videoId": "-y5LYQHm1OQ",
+      "title": "2022년 첫 잠실원정 앰프없이 남행열차 부르는 기아 팬들",
+      "channel": "Snow Yuki",
+      "publishedAt": "2022-05-13",
+      "descriptionSummary": "잠실의 밤 10시 이후 앰프 제한 상황에서 KIA 팬들이 반주 없이 합창한 70초 현장 영상이다. 경기 결과는 KIA의 10대1 승리로 적혀 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원정석 규모와 무반주 합창이 홈구장처럼 들린다는 반응이 반복된다.",
+        "오래된 응원가를 가진 팀의 역사성과 세대 기억을 부러워하는 타 팀 팬 반응이 보인다.",
+        "지역 비하성 댓글은 채널이 삭제한다고 밝혔으며 조사에서도 재수록하지 않았다."
+      ],
+      "supports": ["unamplifiedChant", "awayFanCulture", "heritageReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-f-championship-2017",
+      "songId": "kia-tigers-southbound-train",
+      "url": "https://www.youtube.com/watch?v=ssWocIQL51c",
+      "videoId": "ssWocIQL51c",
+      "title": "171030 기아타이거즈 우승 남행열차 떼창 앵콜",
+      "channel": "갸뽕맞은호갱",
+      "publishedAt": "2017-10-31",
+      "descriptionSummary": "2017 한국시리즈 우승 확정 뒤 잠실에서 남행열차를 앙코르로 합창한 77초 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 우승 직관의 감정과 대규모 원정 팬 합창을 오래 기억하는 반응이 중심이다.",
+        "후대의 대표 신곡과 비교해도 남행열차가 가장 강한 전통성을 지닌다는 평가가 반복된다."
+      ],
+      "supports": ["championshipUse2017", "encoreUse", "heritageReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-f-ks-2009",
+      "songId": "kia-tigers-southbound-train",
+      "url": "https://www.youtube.com/watch?v=vhGMC6Tnec4",
+      "videoId": "vhGMC6Tnec4",
+      "title": "기아타이거즈 코시 남행열차",
+      "channel": "NEO",
+      "publishedAt": "2009-11-01",
+      "descriptionSummary": "2009 한국시리즈 5차전 승리 뒤 남행열차 합창을 기록한 1분 45초 영상이며 이번 조사에서 확인한 가장 이른 온라인 직접 현장 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "2009 우승 시즌의 가족·학교·직관 기억과 함께 곡을 들으면 뭉클하다는 회고가 반복된다.",
+        "롯데의 부산 갈매기와 나란히 지역·구단을 대표하는 노래라는 타 팀 팬 비교가 보인다."
+      ],
+      "supports": ["earliestDirectOnlineSample", "postseasonUse2009", "longTermMemory"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-f-original-fan-video",
+      "songId": "kia-tigers-southbound-train",
+      "url": "https://www.youtube.com/watch?v=dudVNSG9foc",
+      "videoId": "dudVNSG9foc",
+      "title": "KIA 타이거즈 응원가 남행열차 (원곡) [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-10-20",
+      "descriptionSummary": "원곡 전체를 KIA 대표 응원가로 편집한 팬 영상으로 팀명이 들어가지 않는 원가사 사용과 열차 효과음의 상징성을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "첫 경적이 들리면 관중이 일어나고 가사·율동을 필수처럼 익힌다는 반응이 반복된다.",
+        "호남을 상징하는 노래이자 여러 세대가 함께 부르는 KIA 대표곡이라는 인식이 강하다.",
+        "다른 구단 팬도 이 곡만큼은 따라 부른다는 반응이 보인다."
+      ],
+      "supports": ["originalLyricsUse", "openingSoundCue", "fanReception"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 1,
+    "youtubeSampleCount": 10,
+    "songsMeetingYoutubeMinimum": 1,
+    "openIssueCount": 5
+  }
+}

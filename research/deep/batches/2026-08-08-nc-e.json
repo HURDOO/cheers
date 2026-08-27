@@ -1,0 +1,1654 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-nc-e",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-nc-dinos",
+    "name": "NC 다이노스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 가사는 구단 페이지와 영상의 원문 위치만 연결하고 구조·주제·사용 구간을 요약한다. 공개 댓글은 작성자 식별정보와 원문 인용을 배제하고 반복되는 반응만 익명 요약한다.",
+  "items": [
+    {
+      "id": "nc-dinos-love-nc",
+      "title": "사랑한다 NC",
+      "aliases": [
+        "사랑한다 엔씨",
+        "사랑한다 다이노스"
+      ],
+      "currentStatus": "current-directly-verified-2026",
+      "summary": "이범형이 작사하고 이범형·이수가 작곡한 2020 시즌 구단 창작곡이다. 구단은 2020년 5월 팀 응원가 언박싱에서 처음 공개한 뒤 7월 단독 음원을 올렸다. 짧은 두 문장과 반복 구조 때문에 경기 중 잔응원·전환 구간에 쓰이며, 2024 문학 원정과 2026 창원NC파크 전반기 현장 영상에서 직접 확인된다. 2026 공식 플레이리스트에도 수록돼 현재 사용이 확실하다.",
+      "claims": [
+        {
+          "field": "introductionDate",
+          "value": "2020-05-18 한국시간 공식 팀 응원가 언박싱 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-love-unboxing-2020",
+            "yt-nc-e-love-official-2020",
+            "ev-nc-e-namu"
+          ],
+          "notes": "공식 언박싱은 2020 시즌 새 팀 응원가라고 명시하고 2:27 구간에 배치한다. 실제 무관중 경기장 첫 재생일은 별도 확인하지 못했다."
+        },
+        {
+          "field": "credits",
+          "value": "작사 이범형, 작곡 이범형·이수",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-official-music",
+            "ev-nc-e-namu"
+          ],
+          "notes": "현행 구단 음악 페이지와 나무위키 표기가 일치한다."
+        },
+        {
+          "field": "usageContext",
+          "value": "짧은 잔응원 또는 경기 전환 구간의 팀 합창",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-nc-e-love-fan-2025",
+            "yt-nc-e-love-away-2024",
+            "yt-nc-e-love-field-2026"
+          ],
+          "notes": "2025 팬 모음이 잔응원으로 분류하고 날짜가 특정된 원정·홈 현장 영상이 짧은 사용 형태를 보여 준다. 구단의 공식 상황표는 찾지 못했다."
+        },
+        {
+          "field": "catalogueHistory",
+          "value": "2020 공식 공개, 2023·2024·2026 공식 시즌 목록 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-love-unboxing-2020",
+            "yt-nc-e-love-official-2023",
+            "yt-nc-e-love-official-2024",
+            "yt-nc-e-love-official-2026"
+          ],
+          "notes": "구단 공식 영상의 구간표가 같은 제목을 지속적으로 사용한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 시즌 공식 목록과 전반기 홈 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-love-official-2026",
+            "yt-nc-e-love-field-2026"
+          ],
+          "notes": "공식 2026 플레이리스트 16:56 수록과 여러 경기의 현장을 모은 2026 전반기 영상 29:10 사용을 함께 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "경기 중 짧은 전환 시간에 팀을 향한 애정을 두 차례 반복하는 잔응원",
+        "치어리더의 단순 반복 동작과 관중 합창으로 빠르게 참여시키는 구간",
+        "원정에서도 긴 설명 없이 팀명과 함성만으로 참여하는 짧은 팀 응원"
+      ],
+      "trivia": [
+        {
+          "id": "love-pandemic-launch",
+          "summary": "2020 공식 언박싱 댓글에는 관중 입장이 재개되면 새 곡을 떼창하고 싶다는 반응이 반복돼, 응원가가 무관중 시즌에 먼저 학습용 영상으로 확산된 맥락을 보여 준다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-love-unboxing-2020"
+          ]
+        },
+        {
+          "id": "love-early-favorite",
+          "summary": "2020 공식 단독 영상 댓글에서는 우리의 NC와 함께 가장 마음에 드는 신곡이라는 평가와 긴 반복 버전을 요청하는 반응이 보인다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-nc-e-love-official-2020"
+          ]
+        },
+        {
+          "id": "love-city-neutral-wording",
+          "summary": "가사가 처음부터 연고지명 대신 다이노스를 사용해 2026년 ‘창원 NC’ 문구 변경 논쟁의 직접 대상이 아니며, 공식 2020·2026 음원 구조도 같은 핵심 표현을 유지한다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-nc-e-love-official-2020",
+            "yt-nc-e-love-official-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.dev.ncdinos.com/fan/music.do",
+          "https://www.youtube.com/watch?v=yxVqQWMYeOc",
+          "https://namu.wiki/w/NC%20%EB%8B%A4%EC%9D%B4%EB%85%B8%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "팀을 사랑한다는 선언, 함께 외치자는 요청, 관중의 함성을 들어 달라는 마무리를 짧게 배열하고 같은 선율을 반복하는 30초대 잔응원이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-nc-e-love-unboxing-2020",
+        "yt-nc-e-love-official-2020",
+        "yt-nc-e-love-official-2023",
+        "yt-nc-e-love-away-2024",
+        "yt-nc-e-love-official-2024",
+        "yt-nc-e-love-fan-2025",
+        "yt-nc-e-love-archive-2025",
+        "yt-nc-e-love-official-2026",
+        "yt-nc-e-love-field-2026"
+      ],
+      "unresolved": [
+        "2020년 공식 영상 공개 뒤 경기장에서 최초 재생된 정확한 날짜",
+        "구단이 정한 세부 사용 상황과 응원단장 재량의 범위",
+        "스튜디오 음원 가창자와 편곡자 크레딧",
+        "외부에서 가사·음원을 재사용할 수 있는 허락 범위"
+      ]
+    },
+    {
+      "id": "nc-dinos-victory-nc-2016",
+      "title": "승리의 NC(2016판)",
+      "aliases": [
+        "승리의 NC (2016)",
+        "승리의 NC 질주의 다이노스",
+        "질주의 다이노스"
+      ],
+      "currentStatus": "current-officially-verified-2026-field-use-last-directly-confirmed-2025",
+      "summary": "임태현이 작사·작곡한 짧은 득점 상황 응원가로, 2016년 영상에서 처음 직접 확인된다. 2017~2018 시즌에 사라졌다가 구단이 2023년 4월 21일 박민우의 옛 응원가와 함께 공식적으로 부활시켰다. 현행 구단 음악 웹페이지의 ‘승리의 NC’는 강호연의 2019판이어서 이 곡과 혼동되지만, 2026 구단 공식 플레이리스트는 첫 구절을 딴 ‘승리의 NC 질주의 다이노스’로 2016판을 별도 수록한다.",
+      "claims": [
+        {
+          "field": "earliestConfirmedUse",
+          "value": "2016-05-10 이전 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-victory-2016",
+            "ev-nc-e-namu"
+          ],
+          "notes": "2016년 5월 10일 한국시간 게시된 단독 영상과 나무위키의 2016판 분류가 일치한다. 정확한 초연 경기일은 확인하지 못했다."
+        },
+        {
+          "field": "credits",
+          "value": "작사·작곡 임태현",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-nc-e-namu"
+          ],
+          "notes": "나무위키가 전 NC 응원단장 임태현을 표기하지만 구단 현행 음악 페이지는 2016판 자체를 싣지 않아 공식 크레딧을 교차 확인하지 못했다."
+        },
+        {
+          "field": "usageContext",
+          "value": "주로 득점 직후 사용하는 짧은 상황 응원",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-nc-e-namu",
+            "yt-nc-e-victory-field-2025"
+          ],
+          "notes": "위키 설명과 2025 응원 모음의 짧은 반복 사용을 근거로 한다. 공식 상황표는 찾지 못했다."
+        },
+        {
+          "field": "hiatus",
+          "value": "2017~2018 시즌 미사용 후 장기 공백",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-nc-e-namu",
+            "yt-nc-e-victory-2016",
+            "yt-nc-e-victory-comeback-2023"
+          ],
+          "notes": "나무위키의 시즌 서술과 2023 공식 복귀 예고 사이의 공백을 보존한다. 2019~2022년의 모든 경기 미사용을 전수 확인하지는 못했다."
+        },
+        {
+          "field": "revivalDate",
+          "value": "2023-04-21 공식 부활",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-victory-comeback-2023",
+            "yt-nc-e-victory-revival-2023",
+            "ev-nc-e-namu"
+          ],
+          "notes": "구단 공식 예고가 2023년 4월 21일 창원NC파크를 명시하고, 이틀 뒤 팬 영상과 댓글이 복귀를 확인한다."
+        },
+        {
+          "field": "titleConflict",
+          "value": "현행 웹페이지의 동명곡은 2019판, 2026 공식 영상의 ‘질주의 다이노스’는 2016판",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-official-music",
+            "yt-nc-e-victory-official-2026",
+            "yt-nc-e-victory-fan-2026",
+            "ev-nc-e-namu"
+          ],
+          "notes": "구단 음악 페이지는 강호연의 2019판만 ‘승리의 NC’로 표시한다. 2026 공식 영상과 팬 구간표는 2016판을 첫 구절로 구별한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 시즌 목록 수록; 현장 사용은 2025까지 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-victory-field-2025",
+            "yt-nc-e-victory-official-2026"
+          ],
+          "notes": "2026 구단 공식 플레이리스트 17:33 수록으로 현행곡임은 확실하다. 날짜가 특정된 2026 경기 직캠은 찾지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "NC 득점 직후 팀의 승리와 질주를 짧게 반복하는 상황 응원",
+        "약 1분 이내 반복 선율로 관중이 바로 합류하는 잔응원",
+        "마산구장 시절 기억을 환기하는 복고 응원으로 2023년 재도입"
+      ],
+      "trivia": [
+        {
+          "id": "victory-comeback-nostalgia",
+          "summary": "2023 공식 복귀 예고 댓글에는 창단·마산구장 시절을 떠올리며 전율과 눈물을 느꼈다는 반응이 매우 집중적으로 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-victory-comeback-2023"
+          ]
+        },
+        {
+          "id": "victory-park-minwoo-pair",
+          "summary": "부활은 박민우의 옛 등장곡·응원가 복귀와 함께 예고돼, 팬들은 두 응원을 하나의 마산구장 시대 패키지처럼 기억한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-victory-comeback-2023",
+            "ev-nc-e-namu"
+          ]
+        },
+        {
+          "id": "victory-search-title",
+          "summary": "2025 단독 업로더는 정식 제목이 승리의 NC이지만 첫 구절로 찾는 사람이 많아 영상 제목을 ‘승리의 NC 질주의 다이노스’로 정했다고 설명한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-victory-archive-2025"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-song-2016-version-not-separated-on-current-music-page-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=56TT7uu8KnE",
+          "https://www.youtube.com/watch?v=XvOb7Nx3co0",
+          "https://namu.wiki/w/NC%20%EB%8B%A4%EC%9D%B4%EB%85%B8%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "팀의 승리와 다이노스의 질주를 한 문장으로 선언하고 워 계열의 무의미 음절을 이어 붙인 짧은 후렴을 여러 차례 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-nc-e-victory-2016",
+        "yt-nc-e-victory-comeback-2023",
+        "yt-nc-e-victory-revival-2023",
+        "yt-nc-e-victory-field-2025",
+        "yt-nc-e-victory-archive-2025",
+        "yt-nc-e-victory-fan-2026",
+        "yt-nc-e-victory-official-2026"
+      ],
+      "unresolved": [
+        "2016 시즌 최초 공개일과 첫 사용 경기",
+        "임태현 외 가창·편곡·녹음 크레딧",
+        "2019~2022 시즌 중 일회성 사용도 전혀 없었는지 여부",
+        "구단 음악 페이지에 2016판을 별도 곡으로 싣지 않은 이유와 권리 상태"
+      ]
+    },
+    {
+      "id": "nc-dinos-our-nc",
+      "title": "우리의 NC",
+      "aliases": [
+        "우리의 엔씨"
+      ],
+      "currentStatus": "current-directly-verified-2026",
+      "summary": "이범형이 작사하고 이수가 작곡한 2020 시즌 구단 창작곡이다. 구단의 2020 팀 응원가 언박싱 첫 곡으로 공개됐으며, 팀을 함께 노래하고 하나가 되자는 30초대 합창형 잔응원이다. 팬 댓글에는 투수코치가 마운드를 방문할 때 사용한다는 기억이 있고 2025 팬 목록도 잔응원으로 분류한다. 2026 공식 플레이리스트와 5월 5일 현장 영상이 현재 사용을 직접 확인한다.",
+      "claims": [
+        {
+          "field": "introductionDate",
+          "value": "2020-05-18 한국시간 공식 팀 응원가 언박싱 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-our-unboxing-2020",
+            "yt-nc-e-our-official-2020",
+            "ev-nc-e-namu"
+          ],
+          "notes": "공식 영상이 2020 시즌 새 팀 응원가 첫 곡으로 0:04에 공개한다."
+        },
+        {
+          "field": "credits",
+          "value": "작사 이범형, 작곡 이수",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-official-music",
+            "ev-nc-e-namu"
+          ],
+          "notes": "구단 현행 음악 페이지와 나무위키 표기가 일치한다."
+        },
+        {
+          "field": "usageContext",
+          "value": "짧은 잔응원이며 투수코치 마운드 방문 때도 사용됐다는 팬 증언",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-nc-e-our-official-2020",
+            "yt-nc-e-our-fan-2025",
+            "yt-nc-e-our-field-2026"
+          ],
+          "notes": "공식 2020 영상 댓글이 마운드 방문 사용을 언급하고 2025 팬 목록은 잔응원으로 분류한다. 현장 용도는 시즌별로 달라질 수 있다."
+        },
+        {
+          "field": "catalogueHistory",
+          "value": "2020 공식 공개, 2023·2024·2026 공식 시즌 목록 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-our-unboxing-2020",
+            "yt-nc-e-our-official-2023",
+            "yt-nc-e-our-official-2024",
+            "yt-nc-e-our-official-2026"
+          ],
+          "notes": "같은 제목과 짧은 음원 구조가 공식 목록에서 이어진다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-05-05 경기 현장과 2026 공식 목록에서 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-our-official-2026",
+            "yt-nc-e-our-field-2026"
+          ],
+          "notes": "구단 공식 플레이리스트 18:06 수록과 어린이날 현장 33초 영상이 현재 사용을 직접 확인한다."
+        }
+      ],
+      "usageContexts": [
+        "팀의 승리 노래를 모두 함께 부르자는 짧은 합창형 잔응원",
+        "마운드 방문이나 경기 중 대기 시간에 관중 흐름을 유지하는 상황",
+        "치어리더의 반복 동작과 하나가 되자는 메시지로 결속을 강조하는 구간"
+      ],
+      "trivia": [
+        {
+          "id": "our-same-launch-package",
+          "summary": "우리의 NC와 사랑한다 NC는 2020 공식 팀 응원가 언박싱 한 영상에서 각각 첫 곡과 세 번째 곡으로 함께 공개됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-our-unboxing-2020"
+          ]
+        },
+        {
+          "id": "our-early-mound-memory",
+          "summary": "공식 단독 영상 댓글에는 투수코치가 마운드에 올라올 때 이 곡이 나온다는 현장 기억이 남아 있어 제목보다 상황곡으로 인식되기도 했다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-nc-e-our-official-2020"
+          ]
+        },
+        {
+          "id": "our-short-song-durability",
+          "summary": "2020 공식 음원이 39초이고 2026 어린이날 현장 영상도 33초여서, 긴 전곡보다 한 번의 짧은 합창을 전제로 한 구조가 그대로 유지된 것으로 보인다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-our-official-2020",
+            "yt-nc-e-our-field-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.dev.ncdinos.com/fan/music.do",
+          "https://www.youtube.com/watch?v=TNVIb72TI4w",
+          "https://namu.wiki/w/NC%20%EB%8B%A4%EC%9D%B4%EB%85%B8%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "팀을 노래하자는 제안, 승리의 노래를 모두 함께 부르자는 확장, 하나가 되어 외치겠다는 결론을 한 번의 짧은 선율로 진행한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-nc-e-our-unboxing-2020",
+        "yt-nc-e-our-official-2020",
+        "yt-nc-e-our-official-2023",
+        "yt-nc-e-our-official-2024",
+        "yt-nc-e-our-fan-2025",
+        "yt-nc-e-our-official-2026",
+        "yt-nc-e-our-field-2026"
+      ],
+      "unresolved": [
+        "2020년 실제 경기장 첫 재생일",
+        "마운드 방문 외에 구단이 지정한 상황별 사용 규칙",
+        "음원 가창자와 편곡자 크레딧",
+        "2026 시즌 전체 사용 빈도"
+      ]
+    },
+    {
+      "id": "nc-dinos-for-nc",
+      "title": "NC를 위하여",
+      "aliases": [
+        "엔씨를 위하여",
+        "NC 위하여"
+      ],
+      "currentStatus": "current-directly-verified-2026",
+      "summary": "빈티지프랭키가 작사·작곡한 2020 시즌 구단 창작 응원가다. 홈 경기에서는 1회말 공격 종료 뒤 랠리 다이노스의 공연곡으로 사용된다는 운용이 나무위키에 정리돼 있고, 지역 댄스 스튜디오의 치어리딩 영상도 정형화된 안무를 기록한다. 2023·2024·2026 구단 공식 목록에 계속 수록됐으며 2026년 6월 28일 창원NC파크 직캠이 현재 사용을 직접 확인한다. 안치환 원곡을 개사한 별도 곡 ‘위하여’와 제목을 혼동하면 안 된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2020 시즌",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-namu",
+            "yt-nc-e-for-nc-compilation-2020",
+            "ev-nc-e-official-music"
+          ],
+          "notes": "나무위키가 2020 신곡으로 기록하고 그해 구단 공식 음원을 출처로 한 모음이 존재한다. 정확한 공식 공개일은 찾지 못했다."
+        },
+        {
+          "field": "credits",
+          "value": "작사·작곡 빈티지프랭키",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-official-music",
+            "ev-nc-e-namu"
+          ],
+          "notes": "구단 음악 페이지와 나무위키 표기가 일치한다."
+        },
+        {
+          "field": "usageContext",
+          "value": "홈 1회말 공격 종료 뒤 랠리 다이노스 공연",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-namu",
+            "yt-nc-e-for-nc-cheer-2021",
+            "yt-nc-e-for-nc-field-2026"
+          ],
+          "notes": "위키의 운용 설명, 안무 학습 영상, 2026 치어리더 현장 직캠을 교차한다. 모든 홈경기에서 같은 이닝에 고정되는지는 확인하지 못했다."
+        },
+        {
+          "field": "titleDistinction",
+          "value": "‘NC를 위하여’는 빈티지프랭키 창작곡, ‘위하여’는 안치환 원곡 개사곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-official-music",
+            "yt-nc-e-for-nc-official-2026"
+          ],
+          "notes": "구단 음악 페이지와 2026 공식 구간표가 두 제목을 별도 곡으로 나열한다."
+        },
+        {
+          "field": "catalogueHistory",
+          "value": "2023·2024·2026 공식 시즌 목록 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-for-nc-official-2023",
+            "yt-nc-e-for-nc-official-2024",
+            "yt-nc-e-for-nc-official-2026"
+          ],
+          "notes": "공식 구간표에서 동일 제목으로 연속 확인된다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-06-28 창원NC파크 현장과 2026 공식 목록에서 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-for-nc-official-2026",
+            "yt-nc-e-for-nc-field-2026"
+          ],
+          "notes": "구단 공식 플레이리스트 18:44 수록과 날짜·장소가 특정된 4K 직캠을 함께 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "홈 1회말 공격 종료 뒤 랠리 다이노스가 안무를 선보이는 팀 공연",
+        "관중이 일어나 승리 구호와 팀명을 반복하는 경기 초반 분위기 조성",
+        "오오오 계열 후렴과 정형화된 치어리딩을 결합한 참여형 응원"
+      ],
+      "trivia": [
+        {
+          "id": "for-nc-name-collision",
+          "summary": "‘NC를 위하여’와 ‘위하여’가 같은 공식 목록에 함께 있어 검색 결과와 팬 대화에서 자주 섞인다. 전자는 2020년 빈티지프랭키 창작곡이고 후자는 안치환 곡의 임태현 개사·박동현 편곡판이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-official-music",
+            "yt-nc-e-for-nc-official-2026"
+          ]
+        },
+        {
+          "id": "for-nc-local-cheer-class",
+          "summary": "2021년 창원 어린이 댄스학원이 이 곡의 치어리딩 수업 영상을 공개해 구단 밖 지역 생활문화에서도 안무가 학습됐음을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-nc-e-for-nc-cheer-2021"
+          ]
+        },
+        {
+          "id": "for-nc-current-performance",
+          "summary": "2026 직캠은 음원만 남은 옛 곡이 아니라 현 랠리 다이노스의 공연 레퍼토리로 유지됨을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-for-nc-field-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.dev.ncdinos.com/fan/music.do",
+          "https://www.youtube.com/watch?v=khqhl2Yk21E",
+          "https://namu.wiki/w/NC%20%EB%8B%A4%EC%9D%B4%EB%85%B8%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "팀명 구호 뒤 관중이 함께 일어나 함성을 모아 승리를 외치자는 벌스를 부르고, 팀의 승리와 영원한 동행을 강조하는 오오오 후렴을 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-nc-e-for-nc-compilation-2020",
+        "yt-nc-e-for-nc-cheer-2021",
+        "yt-nc-e-for-nc-official-2023",
+        "yt-nc-e-for-nc-official-2024",
+        "yt-nc-e-for-nc-archive-2025",
+        "yt-nc-e-for-nc-official-2026",
+        "yt-nc-e-for-nc-field-2026"
+      ],
+      "unresolved": [
+        "2020 시즌 정확한 공식 공개일과 첫 경기 사용일",
+        "홈 1회말 종료 뒤 공연이 모든 경기에서 고정되는지 여부",
+        "음원 가창자·편곡자 크레딧",
+        "외부 안무·음원 재사용 허락 범위"
+      ]
+    },
+    {
+      "id": "nc-dinos-shout-dinos",
+      "title": "외쳐라 다이노스",
+      "aliases": [
+        "외쳐라 NC 다이노스",
+        "Shout Dinos"
+      ],
+      "currentStatus": "current-directly-verified-2026",
+      "summary": "김준석(원트리브 뮤직)이 작사·작곡한 2018 시즌 구단 창작곡이다. 투수 교체 때 사용하기 시작했고 현재는 NC 공격 이닝이 끝날 때도 사용한다는 운용이 정리돼 있다. 작곡자라고 밝힌 2019 게시자는 현장에서 쉽게 부르도록 짧고 빠르며 높지 않은 음역으로 설계했다고 설명했다. 2019 단독 현장 영상부터 2023·2024·2026 구단 공식 목록으로 이어지고, 2026년 3월 19일 치어리더 직캠에서도 직접 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2018 시즌",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-namu",
+            "yt-nc-e-shout-2019"
+          ],
+          "notes": "나무위키가 2018년부터 사용으로 기록한다. 현재 찾은 가장 이른 단독 영상은 2019년이므로 정확한 초연일은 미확인이다."
+        },
+        {
+          "field": "credits",
+          "value": "작사·작곡 김준석(원트리브 뮤직)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-official-music",
+            "ev-nc-e-namu",
+            "ev-nc-e-creator-post"
+          ],
+          "notes": "구단 페이지와 나무위키의 실명·회사 표기가 일치하며, 작곡자라고 밝힌 게시글도 외쳐라 다이노스를 자신의 곡으로 언급한다."
+        },
+        {
+          "field": "designIntent",
+          "value": "현장 경험을 반영해 짧고 빠르며 높지 않은 음역으로 설계",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-nc-e-creator-post",
+            "yt-nc-e-shout-2019"
+          ],
+          "notes": "익명 1인칭 게시글의 주장으로 실명 인증은 없지만 곡 구조와 일치한다."
+        },
+        {
+          "field": "usageContext",
+          "value": "투수 교체 및 NC 공격 이닝 종료",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-namu",
+            "yt-nc-e-shout-field-2019",
+            "yt-nc-e-shout-field-2026"
+          ],
+          "notes": "위키의 상황 설명과 서로 다른 시즌의 현장 영상이 사용을 교차 확인한다."
+        },
+        {
+          "field": "catalogueHistory",
+          "value": "2023·2024·2026 공식 시즌 목록 및 현행 구단 음악 페이지 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-nc-e-official-music",
+            "yt-nc-e-shout-official-2023",
+            "yt-nc-e-shout-official-2024",
+            "yt-nc-e-shout-official-2026"
+          ],
+          "notes": "구단 공식 출처에서 제목과 제작진이 지속적으로 확인된다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-03-19 현장과 2026 공식 목록에서 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-shout-official-2026",
+            "yt-nc-e-shout-field-2026"
+          ],
+          "notes": "2026 구단 공식 플레이리스트 20:41 수록과 날짜가 특정된 1분 현장 직캠이 현재 사용을 직접 확인한다."
+        }
+      ],
+      "usageContexts": [
+        "상대 또는 NC 투수 교체 동안 반복 구호로 관중 흐름을 유지",
+        "NC 공격 이닝 종료 뒤 다음 수비로 넘어가는 전환 응원",
+        "응원단장 선창과 관중의 팀명 응답을 길게 반복하는 합창 구간"
+      ],
+      "trivia": [
+        {
+          "id": "shout-creator-trio",
+          "summary": "작곡자라고 밝힌 게시자는 외쳐라 다이노스, We Are NC, 챔피언 NC 세 곡을 함께 만들었다고 소개하며 각각 현장 참여를 우선했다고 설명한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-nc-e-creator-post"
+          ]
+        },
+        {
+          "id": "shout-old-song-reception",
+          "summary": "2019 단독 영상의 최근 댓글에서는 곡을 근본 응원가로 부르거나 예전 곡 특유의 분위기가 더 좋다고 평가한다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-nc-e-shout-2019"
+          ]
+        },
+        {
+          "id": "shout-choreography-spread",
+          "summary": "2025·2026 치어리더 직캠이 짧은 곡 전체에 반복 동작이 붙은 공연 레퍼토리임을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-nc-e-shout-field-2025",
+            "yt-nc-e-shout-field-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-original-no-text-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.dev.ncdinos.com/fan/music.do",
+          "https://www.youtube.com/watch?v=d8d71f8_jDo",
+          "https://namu.wiki/w/NC%20%EB%8B%A4%EC%9D%B4%EB%85%B8%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "끝없는 하늘에 오늘의 승리를 새기자는 짧은 주제 문장을 반복한 뒤, 다이노스 선창과 관중의 팀명 응답을 여러 차례 주고받는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-nc-e-shout-2019",
+        "yt-nc-e-shout-field-2019",
+        "yt-nc-e-shout-official-2023",
+        "yt-nc-e-shout-official-2024",
+        "yt-nc-e-shout-fan-2025",
+        "yt-nc-e-shout-archive-2025",
+        "yt-nc-e-shout-official-2026",
+        "yt-nc-e-shout-field-2025",
+        "yt-nc-e-shout-field-2026"
+      ],
+      "unresolved": [
+        "2018 시즌 최초 사용 경기와 공개일",
+        "2019 작곡자 게시글 계정의 실명 인증",
+        "투수 교체와 공격 이닝 종료 중 시즌별 우선 사용 규칙",
+        "스튜디오 음원 가창·편곡 크레딧"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-nc-e-inventory",
+      "type": "project-inventory",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/titles.json",
+      "title": "2026-08-08 current cheer song inventory — NC 다이노스",
+      "publisher": "프로젝트 조사 인벤토리",
+      "publishedAt": "2026-08-08",
+      "accessedAt": "2026-08-09",
+      "summary": "NC 다이노스 currentTitles에 사랑한다 NC, 승리의 NC(2016판), 우리의 NC, NC를 위하여, 외쳐라 다이노스를 수록한 선행 목록이다. 심층 배치에서는 제목을 그대로 보존하고 2016판과 2019판의 동명 충돌을 별도 검증했다.",
+      "supports": [
+        "scope",
+        "exactTitles"
+      ]
+    },
+    {
+      "id": "ev-nc-e-namu",
+      "type": "namuwiki",
+      "url": "https://namu.wiki/w/NC%20%EB%8B%A4%EC%9D%B4%EB%85%B8%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "NC 다이노스/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "다섯 곡의 제작진·도입 시즌·상황별 사용을 정리한다. 2020년 사랑한다 NC·우리의 NC·NC를 위하여 추가, 외쳐라 다이노스의 2018년 도입과 투수 교체·공격 종료 사용, 승리의 NC 2016판의 득점 사용·공백·2023년 4월 21일 부활을 제공하며 공식 영상과 현장 기록으로 교차검증했다.",
+      "supports": [
+        "credits",
+        "introductionYear",
+        "usageContext",
+        "hiatus",
+        "revivalDate",
+        "versionDistinction"
+      ]
+    },
+    {
+      "id": "ev-nc-e-official-music",
+      "type": "official-club-music-page",
+      "url": "https://www.dev.ncdinos.com/fan/music.do",
+      "title": "다이노스 뮤직",
+      "publisher": "NC 다이노스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "현행 구단 음악 페이지는 사랑한다 NC의 이범형·이수, 우리의 NC의 이범형·이수, NC를 위하여의 빈티지프랭키, 외쳐라 다이노스의 김준석 크레딧과 가사·음원을 제공한다. ‘승리의 NC’는 강호연의 2019판만 보여 2016판과 구분이 필요하다.",
+      "supports": [
+        "officialCatalogue",
+        "credits",
+        "lyricsSource",
+        "titleConflict",
+        "versionDistinction"
+      ]
+    },
+    {
+      "id": "ev-nc-e-official-2026",
+      "type": "official-youtube-playlist",
+      "url": "https://www.youtube.com/watch?v=XvOb7Nx3co0",
+      "title": "[Playlist] NC 다이노스 2026시즌 팀 응원가🎶",
+      "publisher": "NC 다이노스",
+      "publishedAt": "2026-03-27T00:30:16-07:00",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 공식 2026 팀 응원가 18곡 목록으로 사랑한다 NC 16:56, 승리의 NC 질주의 다이노스 17:33, 우리의 NC 18:06, NC를 위하여 18:44, 외쳐라 다이노스 20:41을 연속 수록한다. 2016판의 현행 여부와 동명곡 구분을 확정하는 핵심 자료다.",
+      "supports": [
+        "currentUse2026",
+        "officialCatalogue2026",
+        "timecodes",
+        "victory2016Version"
+      ]
+    },
+    {
+      "id": "ev-nc-e-creator-post",
+      "type": "creator-first-person-post",
+      "url": "https://m.dcinside.com/board/ncdinos/3061225",
+      "title": "안녕하세요 형들 위아엔씨 작곡자에요",
+      "publisher": "디시인사이드 NC 다이노스 갤러리",
+      "publishedAt": "2019-05-21T02:19:54+09:00",
+      "accessedAt": "2026-08-09",
+      "summary": "익명 게시자가 외쳐라 다이노스·We Are NC·챔피언 NC를 자신이 만든 곡이라고 밝히고, 현장 경험을 바탕으로 짧고 빠르며 높지 않은 음역을 택했다고 설명한다. 구단·나무위키의 김준석 표기와 내용은 맞물리지만 계정 실명은 독립 확인되지 않았다.",
+      "supports": [
+        "shoutCreatorClaim",
+        "designIntent",
+        "productionContext"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-nc-e-love-unboxing-2020",
+      "songId": "nc-dinos-love-nc",
+      "url": "https://www.youtube.com/watch?v=caD27HYfZRY",
+      "videoId": "caD27HYfZRY",
+      "title": "2020시즌 새로운 응원가, 그 마지막! | 응원가 언박싱",
+      "channel": "NC 다이노스",
+      "publishedAt": "2020-05-17T20:01:05-07:00",
+      "descriptionSummary": "구단이 2020 시즌 새 팀 응원가와 안타송을 공개한 공식 영상이다. 우리의 NC 0:04, Together NC 0:41, 사랑한다 NC 2:27의 구간표를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "새 팀 응원가들이 전반적으로 잘 만들어졌고 관중 입장 뒤 떼창하고 싶다는 반응이 반복된다.",
+        "사랑한다 NC와 Together NC를 특히 좋아하며 경기장에서 빨리 부르고 싶다는 의견이 있다.",
+        "무관중 시즌 한국시리즈에서 단체 응원이 울리길 기대하는 반응이 보인다."
+      ],
+      "supports": [
+        "introductionDate",
+        "officialLaunch",
+        "launchPackage",
+        "pandemicContext",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-love-official-2020",
+      "songId": "nc-dinos-love-nc",
+      "url": "https://www.youtube.com/watch?v=yxVqQWMYeOc",
+      "videoId": "yxVqQWMYeOc",
+      "title": "사랑한다 NC | 응원가 플레이리스트",
+      "channel": "NC 다이노스",
+      "publishedAt": "2020-07-15T20:05:26-07:00",
+      "descriptionSummary": "구단이 사랑한다 NC를 팀 신규 응원가로 명시해 올린 38초 공식 단독 음원이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "우리의 NC와 함께 2020 신곡 중 가장 좋다는 평가가 있다.",
+        "우승을 기원하며 팀을 사랑한다는 응답이 이어진다.",
+        "짧은 곡을 한 시간 반복으로 듣고 싶다는 요청이 보인다."
+      ],
+      "supports": [
+        "officialTitle",
+        "newSong2020",
+        "duration",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-love-official-2023",
+      "songId": "nc-dinos-love-nc",
+      "url": "https://www.youtube.com/watch?v=_g7Lr4QP9xM",
+      "videoId": "_g7Lr4QP9xM",
+      "title": "[플레이리스트] NC 다이노스 2023시즌 팀 응원가 🎵",
+      "channel": "NC 다이노스",
+      "publishedAt": "2023-03-27T02:01:00-07:00",
+      "descriptionSummary": "구단 공식 2023 팀 응원가 모음으로 사랑한다 NC를 16:11에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "NC 팀 응원가의 에너지와 웅장함을 높게 평가하는 반응이 많다.",
+        "상황별 일부 곡만 반복돼 좋은 곡을 경기장에서 듣기 어렵다는 아쉬움이 있다.",
+        "구단의 오래된 응원 유산을 유지하고 다양하게 사용해 달라는 요청이 보인다."
+      ],
+      "supports": [
+        "officialCatalogue2023",
+        "title",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-love-away-2024",
+      "songId": "nc-dinos-love-nc",
+      "url": "https://www.youtube.com/watch?v=yhuCaS0RLg8",
+      "videoId": "yhuCaS0RLg8",
+      "title": "20240623 문학 NC 다이노스 원정 응원가(Come On Come On 마산 스트리트여 / 사랑한다 NC) 강지유치어리더",
+      "channel": "엘롯기팬",
+      "publishedAt": "2024-08-25T15:25:30-07:00",
+      "descriptionSummary": "2024년 6월 23일 문학 원정에서 마산스트리트와 사랑한다 NC를 이어 기록한 1분 57초 치어리더 현장 영상이다. 설명과 공개 댓글은 비어 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "awayFieldUse2024",
+        "sequence",
+        "choreography"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-love-official-2024",
+      "songId": "nc-dinos-love-nc",
+      "url": "https://www.youtube.com/watch?v=RgGDGZR8wGI",
+      "videoId": "RgGDGZR8wGI",
+      "title": "[플레이리스트] NC 다이노스 2024시즌 팀 응원가 🎵",
+      "channel": "NC 다이노스",
+      "publishedAt": "2024-03-20T20:00:56-07:00",
+      "descriptionSummary": "구단 공식 2024 팀 응원가 모음으로 사랑한다 NC를 17:48에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 구단 팀 응원가 전체가 명곡이라고 평가한다.",
+        "좋아하지만 경기에서 자주 듣지 못하는 곡도 틀어 달라는 요청이 있다.",
+        "플레이리스트를 들으며 시즌 개막과 원정 응원을 기다린다는 반응이 보인다."
+      ],
+      "supports": [
+        "officialCatalogue2024",
+        "title",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-love-archive-2025",
+      "songId": "nc-dinos-love-nc",
+      "url": "https://www.youtube.com/watch?v=kDp5gDlMFBo",
+      "videoId": "kDp5gDlMFBo",
+      "title": "NC다이노스 팀응원가 '사랑한다 NC'",
+      "channel": "엔씨뮤직",
+      "publishedAt": "2025-10-14T05:43:01-07:00",
+      "descriptionSummary": "사랑한다 NC를 34초로 정리한 비공식 단독 음원 아카이브다. 설명과 공개 댓글은 수집 시점에 비어 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fullSong",
+        "title",
+        "archive2025"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-love-official-2026",
+      "songId": "nc-dinos-love-nc",
+      "url": "https://www.youtube.com/watch?v=XvOb7Nx3co0",
+      "videoId": "XvOb7Nx3co0",
+      "title": "[Playlist] NC 다이노스 2026시즌 팀 응원가🎶",
+      "channel": "NC 다이노스",
+      "publishedAt": "2026-03-27T00:30:16-07:00",
+      "descriptionSummary": "구단 공식 2026 팀 응원가 18곡 모음으로 사랑한다 NC를 16:56에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팀 응원가를 들으면 개막을 실감하고 울컥한다는 반응이 반복된다.",
+        "직관 준비를 하며 곡을 외우거나 원정길에 듣는다는 팬 경험이 있다.",
+        "연고지 문구 변경은 아쉽지만 구단의 사정을 이해한다는 의견과 옛 곡 복귀 요청이 함께 보인다."
+      ],
+      "supports": [
+        "currentUse2026",
+        "officialCatalogue2026",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-love-field-2026",
+      "songId": "nc-dinos-love-nc",
+      "url": "https://www.youtube.com/watch?v=ZJ_wEAHcyK8",
+      "videoId": "ZJ_wEAHcyK8",
+      "title": "2026시즌 전반기 NC다이노스 응원직캠 모음 (4K) | 창원NC파크 떼창",
+      "channel": "엔씨노트",
+      "publishedAt": "2026-07-07T16:00:37-07:00",
+      "descriptionSummary": "2026 전반기 창원NC파크 선수·팀 응원 현장 모음으로 사랑한다 NC를 29:10에 싣는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관을 자주 못 가도 현장 팬들과 함께 있는 느낌을 준다는 반응이 있다.",
+        "긴 영상과 주야간 장면을 엮은 편집, 관중 떼창을 높이 평가한다.",
+        "NC가 응원가를 잘 만든다는 타 구단·NC 팬의 반응이 반복된다."
+      ],
+      "supports": [
+        "currentUse2026",
+        "homeFieldUse",
+        "timecode",
+        "crowdParticipation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-victory-2016",
+      "songId": "nc-dinos-victory-nc-2016",
+      "url": "https://www.youtube.com/watch?v=56TT7uu8KnE",
+      "videoId": "56TT7uu8KnE",
+      "title": "NC 응원가 \"승리의 NC\"",
+      "channel": "SSM-TV",
+      "publishedAt": "2016-05-10T01:23:54-07:00",
+      "descriptionSummary": "2016 시즌 승리의 NC를 1분 1초로 기록한 초기 단독 영상이며 설명은 당시 별도 MP3 안내 링크를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오랫동안 부활을 요청하다 실제 복귀 뒤 다시 찾아왔다는 반응이 여러 건 있다.",
+        "타 구단 팬도 곡을 좋아하며 NC 팀 응원가 가운데 손꼽는다는 평가가 보인다.",
+        "2023년 복귀와 2020년 우승을 계기로 다시 듣는 팬의 흔적이 남아 있다."
+      ],
+      "supports": [
+        "earliestConfirmedUse",
+        "2016Version",
+        "historicalAudio",
+        "revivalReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-victory-comeback-2023",
+      "songId": "nc-dinos-victory-nc-2016",
+      "url": "https://www.youtube.com/watch?v=IhOB4TzIcJk",
+      "videoId": "IhOB4TzIcJk",
+      "title": "COMING BACK",
+      "channel": "NC 다이노스",
+      "publishedAt": "2023-04-20T17:01:43-07:00",
+      "descriptionSummary": "구단이 2023년 4월 21일 창원NC파크에서 박민우의 옛 응원과 승리의 NC 2016판이 돌아옴을 암시한 39초 공식 예고다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "창단·마산구장 시절 응원가의 귀환에 전율과 눈물을 느낀다는 반응이 집중된다.",
+        "박민우의 옛 응원가와 연결되면 공격 시작을 실감했다는 기억이 공유된다.",
+        "앞으로 계속 들을 수 있느냐고 묻고 즉시 경기장에서 사용해 달라는 요청이 많다."
+      ],
+      "supports": [
+        "revivalDate",
+        "officialComeback",
+        "parkMinwooPair",
+        "nostalgia"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-victory-revival-2023",
+      "songId": "nc-dinos-victory-nc-2016",
+      "url": "https://www.youtube.com/watch?v=e8SjgHzli0w",
+      "videoId": "e8SjgHzli0w",
+      "title": "승리의 NC 질주의 다이노스",
+      "channel": "팥빈수",
+      "publishedAt": "2023-04-23T19:24:25-07:00",
+      "descriptionSummary": "공식 복귀 이틀 뒤 부활 소식을 계기로 제작한 59초 팬 편집 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "NC 팀 응원가 중 이 곡을 특히 높게 평가한다.",
+        "복귀 소식만으로 마산구장이 눈앞에 펼쳐지는 듯한 향수를 느낀다는 반응이 있다.",
+        "짧은 팬 편집도 구단에 대한 자부심을 끌어올린다는 호평이 보인다."
+      ],
+      "supports": [
+        "revival2023",
+        "searchAlias",
+        "nostalgia",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-victory-field-2025",
+      "songId": "nc-dinos-victory-nc-2016",
+      "url": "https://www.youtube.com/watch?v=gym3_XshMHY",
+      "videoId": "gym3_XshMHY",
+      "title": "승리의 NC , 질주의 다이노스 응원모음@ 주희님@추억@2025",
+      "channel": "sports응원 여행기",
+      "publishedAt": "2025-10-07T17:23:03-07:00",
+      "descriptionSummary": "2025년 승리의 NC 질주의 다이노스 현장 응원을 3분 19초로 모은 영상이다. 설명과 공개 댓글은 비어 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse2025",
+        "choreography",
+        "historicalContinuity"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-victory-archive-2025",
+      "songId": "nc-dinos-victory-nc-2016",
+      "url": "https://www.youtube.com/watch?v=U7yUPVMtgDA",
+      "videoId": "U7yUPVMtgDA",
+      "title": "NC다이노스 팀응원가 '승리의 NC 질주의 다이노스'",
+      "channel": "엔씨뮤직",
+      "publishedAt": "2025-10-26T20:07:15-07:00",
+      "descriptionSummary": "59초 비공식 단독 음원으로 정식 제목은 승리의 NC지만 첫 구절로 검색하는 이용자가 많아 제목에 ‘질주의 다이노스’를 붙였다고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "활기차고 상쾌한 분위기의 곡이라는 평가가 있다.",
+        "경기장용 더 짧은 편집본도 올려 달라는 요청이 보인다."
+      ],
+      "supports": [
+        "formalTitle",
+        "searchAlias",
+        "shortEditQuestion",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-victory-fan-2026",
+      "songId": "nc-dinos-victory-nc-2016",
+      "url": "https://www.youtube.com/watch?v=6calbTVQ4FI",
+      "videoId": "6calbTVQ4FI",
+      "title": "[Playlist] 2026시즌 NC 다이노스 응원가 모음⚾️(등장곡, 응원가 최신 버전 반영)",
+      "channel": "민트네이비",
+      "publishedAt": "2026-03-28T07:21:31-07:00",
+      "descriptionSummary": "2026 팬 편집본이 35:43의 ‘승리의 NC 질주의 다이노스’와 44:18의 2019판 ‘승리의 NC’를 별도 곡으로 나열해 동명 버전을 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 팀의 승리와 연패 탈출을 기원하는 짧은 응원을 남긴다.",
+        "댓글 구간표가 두 승리의 NC를 서로 다른 시간에 재확인한다.",
+        "설명은 옛 곡 부활을 기다렸으나 실제 운영에 포함되지 않은 사례도 별도 표시해 팬 목록의 한계를 드러낸다."
+      ],
+      "supports": [
+        "versionDistinction",
+        "fanCatalogue2026",
+        "titleConflict",
+        "timecodes"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-victory-official-2026",
+      "songId": "nc-dinos-victory-nc-2016",
+      "url": "https://www.youtube.com/watch?v=XvOb7Nx3co0",
+      "videoId": "XvOb7Nx3co0",
+      "title": "[Playlist] NC 다이노스 2026시즌 팀 응원가🎶",
+      "channel": "NC 다이노스",
+      "publishedAt": "2026-03-27T00:30:16-07:00",
+      "descriptionSummary": "구단 공식 2026 팀 응원가 모음으로 2016판을 첫 구절을 딴 ‘승리의 NC 질주의 다이노스’라는 이름으로 17:33에 싣는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 팀 응원가를 들으며 개막과 직관을 준비한다는 반응이 반복된다.",
+        "팀 응원가가 선수 응원가와 다른 울컥함을 준다는 팬 경험이 있다.",
+        "옛 응원가를 더 부활시켜 달라는 요청이 있어 2016판 복귀의 맥락과 맞물린다."
+      ],
+      "supports": [
+        "currentUse2026",
+        "officialCatalogue2026",
+        "versionDistinction",
+        "timecode"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-our-unboxing-2020",
+      "songId": "nc-dinos-our-nc",
+      "url": "https://www.youtube.com/watch?v=caD27HYfZRY",
+      "videoId": "caD27HYfZRY",
+      "title": "2020시즌 새로운 응원가, 그 마지막! | 응원가 언박싱",
+      "channel": "NC 다이노스",
+      "publishedAt": "2020-05-17T20:01:05-07:00",
+      "descriptionSummary": "구단의 2020 팀 응원가 공식 언박싱으로 우리의 NC를 첫 곡 0:04에 공개하고 사랑한다 NC·Together NC·안타송도 함께 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개된 팀 응원가가 모두 좋고 현장에서 떼창하고 싶다는 반응이 반복된다.",
+        "무관중 때문에 바로 부르지 못하지만 곡을 미리 외우겠다는 팬이 있다.",
+        "2020 시즌 우승 가능성과 한국시리즈 단체 응원을 기대하는 반응이 보인다."
+      ],
+      "supports": [
+        "introductionDate",
+        "officialLaunch",
+        "launchPackage",
+        "pandemicContext"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-our-official-2020",
+      "songId": "nc-dinos-our-nc",
+      "url": "https://www.youtube.com/watch?v=TNVIb72TI4w",
+      "videoId": "TNVIb72TI4w",
+      "title": "우리의 NC | 응원가 플레이리스트",
+      "channel": "NC 다이노스",
+      "publishedAt": "2020-07-15T20:05:35-07:00",
+      "descriptionSummary": "구단이 우리의 NC를 팀 신규 응원가로 명시해 올린 39초 공식 단독 음원이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "2020 신곡이 잘 만들어졌고 야구장에서 부르고 싶다는 반응이 있다.",
+        "승리와 우승을 기원하는 짧은 응답이 이어진다.",
+        "투수코치가 마운드에 올라갈 때 나오는 곡이라는 당시 현장 기억이 남아 있다."
+      ],
+      "supports": [
+        "officialTitle",
+        "newSong2020",
+        "moundVisitMemory",
+        "duration"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-our-official-2023",
+      "songId": "nc-dinos-our-nc",
+      "url": "https://www.youtube.com/watch?v=_g7Lr4QP9xM",
+      "videoId": "_g7Lr4QP9xM",
+      "title": "[플레이리스트] NC 다이노스 2023시즌 팀 응원가 🎵",
+      "channel": "NC 다이노스",
+      "publishedAt": "2023-03-27T02:01:00-07:00",
+      "descriptionSummary": "구단 공식 2023 팀 응원가 모음으로 우리의 NC를 16:48에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "NC 팀 응원가의 에너지와 웅장함을 높게 평가하는 반응이 많다.",
+        "상황별 일부 곡만 반복돼 좋은 곡을 경기장에서 듣기 어렵다는 아쉬움이 있다.",
+        "오래된 대표곡과 다양한 상황곡을 더 자주 사용해 달라는 요청이 보인다."
+      ],
+      "supports": [
+        "officialCatalogue2023",
+        "title",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-our-official-2024",
+      "songId": "nc-dinos-our-nc",
+      "url": "https://www.youtube.com/watch?v=RgGDGZR8wGI",
+      "videoId": "RgGDGZR8wGI",
+      "title": "[플레이리스트] NC 다이노스 2024시즌 팀 응원가 🎵",
+      "channel": "NC 다이노스",
+      "publishedAt": "2024-03-20T20:00:56-07:00",
+      "descriptionSummary": "구단 공식 2024 팀 응원가 모음으로 우리의 NC를 18:25에 싣는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 NC 팀 응원가 전체가 명곡이라고 평가한다.",
+        "좋지만 자주 나오지 않는 곡도 경기장에서 틀어 달라는 요청이 있다.",
+        "플레이리스트를 들으며 새 시즌 개막을 실감한다는 반응이 반복된다."
+      ],
+      "supports": [
+        "officialCatalogue2024",
+        "title",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-our-fan-2025",
+      "songId": "nc-dinos-our-nc",
+      "url": "https://www.youtube.com/watch?v=Q8hzQHM1-nc",
+      "videoId": "Q8hzQHM1-nc",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 NC다이노스 응원가 모음 Ver.2025 ⚾ 응원 단디 해보자!!",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2025-07-21T08:51:46-07:00",
+      "descriptionSummary": "2025 선수·잔응원·팀 응원 모음으로 우리의 NC를 잔응원 범주의 21:38에 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "NC파크에서 응원을 보고 새 팬이 됐다는 반응이 있다.",
+        "옛 곡과 당시 다른 팀으로 이동한 응원단 영상이 섞여 있어 완전한 2025 현장 목록은 아니라는 지적이 있다.",
+        "팀의 가을야구와 승리를 기원하는 반응이 반복된다."
+      ],
+      "supports": [
+        "fanCatalogue2025",
+        "minorCheerClassification",
+        "timecode",
+        "sourceLimitation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-our-official-2026",
+      "songId": "nc-dinos-our-nc",
+      "url": "https://www.youtube.com/watch?v=XvOb7Nx3co0",
+      "videoId": "XvOb7Nx3co0",
+      "title": "[Playlist] NC 다이노스 2026시즌 팀 응원가🎶",
+      "channel": "NC 다이노스",
+      "publishedAt": "2026-03-27T00:30:16-07:00",
+      "descriptionSummary": "구단 공식 2026 팀 응원가 모음으로 우리의 NC를 18:06에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팀 응원가가 새 시즌 개막의 실감을 주고 울컥하게 한다는 반응이 있다.",
+        "직관 전에 곡을 외우거나 원정길에 들으며 응원한다는 경험이 공유된다.",
+        "옛 응원가의 복귀를 바라는 요청과 팀의 한국시리즈 진출 기원이 보인다."
+      ],
+      "supports": [
+        "currentUse2026",
+        "officialCatalogue2026",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-our-field-2026",
+      "songId": "nc-dinos-our-nc",
+      "url": "https://www.youtube.com/watch?v=-qH7Qx48RsM",
+      "videoId": "-qH7Qx48RsM",
+      "title": "[2026 어린이날] NC다이노스 팀 응원가 \"우리의 NC\" 20260505",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-05-06T02:22:11-07:00",
+      "descriptionSummary": "2026년 5월 5일 어린이날 경기에서 우리의 NC가 사용된 33초 현장 기록이다. 설명과 공개 댓글은 비어 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "currentUse2026",
+        "fieldUse",
+        "shortSongStructure"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-for-nc-compilation-2020",
+      "songId": "nc-dinos-for-nc",
+      "url": "https://www.youtube.com/watch?v=RCwaHNa6AmA",
+      "videoId": "RCwaHNa6AmA",
+      "title": "NC다이노스 2020년 팀응원가 모음",
+      "channel": "𝐃𝐈𝐍𝐎𝐒 𝐏𝐋𝐀𝐘𝐋𝐈𝐒𝐓",
+      "publishedAt": "2020-10-01T11:05:11-07:00",
+      "descriptionSummary": "2020년에 구단이 발표한 신규 팀 응원가를 공식 유튜브 영상·음원에서 모았다고 설명하는 7분 34초 팬 편집본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 채널 워터마크와 영상 재사용 안전성을 걱정하는 반응이 있다.",
+        "편집을 칭찬하면서도 최신 선수 이동이 반영됐는지 묻는 댓글이 있어 팬 모음의 시점 한계를 보여 준다."
+      ],
+      "supports": [
+        "newSong2020",
+        "fanCompilation",
+        "officialSourceReuse",
+        "sourceLimitation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-for-nc-cheer-2021",
+      "songId": "nc-dinos-for-nc",
+      "url": "https://www.youtube.com/watch?v=bDUulZ2gkZs",
+      "videoId": "bDUulZ2gkZs",
+      "title": "[치어리딩] NC를 위하여 - NC다이노스 응원가 | 창원 어린이 댄스학원",
+      "channel": "라이트업 댄스 스튜디오",
+      "publishedAt": "2021-08-12T18:00:13-07:00",
+      "descriptionSummary": "창원 지역 어린이 치어리딩 수업에서 NC를 위하여의 1분 44초 안무를 시연한 영상으로, 설명은 수업 시간·장소와 방역 절차를 안내한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "choreography",
+        "communityUse",
+        "localCulture"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-for-nc-official-2023",
+      "songId": "nc-dinos-for-nc",
+      "url": "https://www.youtube.com/watch?v=_g7Lr4QP9xM",
+      "videoId": "_g7Lr4QP9xM",
+      "title": "[플레이리스트] NC 다이노스 2023시즌 팀 응원가 🎵",
+      "channel": "NC 다이노스",
+      "publishedAt": "2023-03-27T02:01:00-07:00",
+      "descriptionSummary": "구단 공식 2023 팀 응원가 모음으로 NC를 위하여를 1:44에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "NC 응원가의 웅장함과 에너지를 높이 평가하는 반응이 반복된다.",
+        "경기장에서는 일부 상황곡만 자주 나와 다른 좋은 곡을 알기 어렵다는 지적이 있다.",
+        "팀의 응원 유산을 유지하고 다양한 곡을 더 자주 사용해 달라는 의견이 보인다."
+      ],
+      "supports": [
+        "officialCatalogue2023",
+        "title",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-for-nc-official-2024",
+      "songId": "nc-dinos-for-nc",
+      "url": "https://www.youtube.com/watch?v=RgGDGZR8wGI",
+      "videoId": "RgGDGZR8wGI",
+      "title": "[플레이리스트] NC 다이노스 2024시즌 팀 응원가 🎵",
+      "channel": "NC 다이노스",
+      "publishedAt": "2024-03-20T20:00:56-07:00",
+      "descriptionSummary": "구단 공식 2024 팀 응원가 모음으로 NC를 위하여를 1:44에 수록하며 별도 곡 위하여도 12:45에 나열한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 NC 팀 응원가 전체가 명곡이라고 평가한다.",
+        "좋지만 자주 나오지 않는 곡도 경기장에서 틀어 달라는 요청이 있다.",
+        "플레이리스트를 들으며 시즌 개막과 원정 응원을 기다린다는 반응이 보인다."
+      ],
+      "supports": [
+        "officialCatalogue2024",
+        "titleDistinction",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-for-nc-archive-2025",
+      "songId": "nc-dinos-for-nc",
+      "url": "https://www.youtube.com/watch?v=khqhl2Yk21E",
+      "videoId": "khqhl2Yk21E",
+      "title": "NC다이노스 팀응원가 'NC를 위하여'",
+      "channel": "엔씨뮤직",
+      "publishedAt": "2025-10-14T04:52:40-07:00",
+      "descriptionSummary": "NC를 위하여 전곡을 1분 48초로 정리한 비공식 단독 음원이다. 설명과 공개 댓글은 비어 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fullSong",
+        "title",
+        "archive2025"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-for-nc-official-2026",
+      "songId": "nc-dinos-for-nc",
+      "url": "https://www.youtube.com/watch?v=XvOb7Nx3co0",
+      "videoId": "XvOb7Nx3co0",
+      "title": "[Playlist] NC 다이노스 2026시즌 팀 응원가🎶",
+      "channel": "NC 다이노스",
+      "publishedAt": "2026-03-27T00:30:16-07:00",
+      "descriptionSummary": "구단 공식 2026 팀 응원가 모음으로 NC를 위하여를 18:44에 수록한다. 별도 개사곡은 ‘승리를 위하여’ 4:27로 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팀 응원가를 들으며 개막과 직관을 준비한다는 반응이 반복된다.",
+        "서울에서 홈 개막전으로 내려가며 듣는 등 원정·이동 중 학습 경험이 공유된다.",
+        "옛 곡 부활과 팀의 포스트시즌 진출을 기원하는 의견이 보인다."
+      ],
+      "supports": [
+        "currentUse2026",
+        "officialCatalogue2026",
+        "titleDistinction",
+        "timecode"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-for-nc-field-2026",
+      "songId": "nc-dinos-for-nc",
+      "url": "https://www.youtube.com/watch?v=uM2InlRxJRA",
+      "videoId": "uM2InlRxJRA",
+      "title": "260628 NC 다이노스 강지유 치어리더 NC를 위하여 4k 직캠",
+      "channel": "carpediem_216",
+      "publishedAt": "2026-07-07T19:18:17-07:00",
+      "descriptionSummary": "2026년 6월 28일 창원NC파크에서 강지유 치어리더가 NC를 위하여 안무를 선보이는 1분 31초 4K 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "currentUse2026",
+        "homeFieldUse",
+        "choreography",
+        "rallyDinos"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-shout-2019",
+      "songId": "nc-dinos-shout-dinos",
+      "url": "https://www.youtube.com/watch?v=d8d71f8_jDo",
+      "videoId": "d8d71f8_jDo",
+      "title": "[NC응원가] 외쳐라 다이노스",
+      "channel": "SSM-TV",
+      "publishedAt": "2019-03-16T04:43:22-07:00",
+      "descriptionSummary": "외쳐라 다이노스의 1분 52초 단독 현장 음원으로 설명은 곡명과 구단 태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡이 좋고 NC의 근본 응원가라는 짧은 평가가 있다.",
+        "예전 응원가 특유의 분위기가 더 좋다는 최근 회고가 보인다."
+      ],
+      "supports": [
+        "historicalUse2019",
+        "title",
+        "fieldAudio",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-shout-field-2019",
+      "songId": "nc-dinos-shout-dinos",
+      "url": "https://www.youtube.com/watch?v=aAxbm7YkKD0",
+      "videoId": "aAxbm7YkKD0",
+      "title": "프로야구 NC다이노스 응원가 \"외쳐라 다이노스\"",
+      "channel": "NC직관러",
+      "publishedAt": "2019-09-04T06:24:06-07:00",
+      "descriptionSummary": "2019 시즌 외쳐라 다이노스의 반복 구호와 치어리딩을 1분 26초로 기록한 현장 영상이다. 설명과 공개 댓글은 비어 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fieldUse2019",
+        "choreography",
+        "crowdResponse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-shout-official-2023",
+      "songId": "nc-dinos-shout-dinos",
+      "url": "https://www.youtube.com/watch?v=_g7Lr4QP9xM",
+      "videoId": "_g7Lr4QP9xM",
+      "title": "[플레이리스트] NC 다이노스 2023시즌 팀 응원가 🎵",
+      "channel": "NC 다이노스",
+      "publishedAt": "2023-03-27T02:01:00-07:00",
+      "descriptionSummary": "구단 공식 2023 팀 응원가 모음으로 외쳐라 다이노스를 3:36에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "NC 응원가의 웅장함과 에너지를 높이 평가하는 반응이 반복된다.",
+        "외쳐라 다이노스를 포함한 좋은 곡을 경기장에서 더 자주 듣고 싶다는 의견이 있다.",
+        "구단의 오래된 응원 유산을 유지하고 발전시켜 달라는 요청이 보인다."
+      ],
+      "supports": [
+        "officialCatalogue2023",
+        "title",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-shout-official-2024",
+      "songId": "nc-dinos-shout-dinos",
+      "url": "https://www.youtube.com/watch?v=RgGDGZR8wGI",
+      "videoId": "RgGDGZR8wGI",
+      "title": "[플레이리스트] NC 다이노스 2024시즌 팀 응원가 🎵",
+      "channel": "NC 다이노스",
+      "publishedAt": "2024-03-20T20:00:56-07:00",
+      "descriptionSummary": "구단 공식 2024 팀 응원가 모음으로 외쳐라 다이노스를 3:41에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 구단 팀 응원가 전체가 명곡이라고 평가한다.",
+        "좋지만 자주 나오지 않는 곡도 경기장에서 틀어 달라는 요청이 있다.",
+        "플레이리스트를 들으며 새 시즌 개막과 원정 응원을 기다린다는 반응이 보인다."
+      ],
+      "supports": [
+        "officialCatalogue2024",
+        "title",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-shout-fan-2025",
+      "songId": "nc-dinos-shout-dinos",
+      "url": "https://www.youtube.com/watch?v=Q8hzQHM1-nc",
+      "videoId": "Q8hzQHM1-nc",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 NC다이노스 응원가 모음 Ver.2025 ⚾ 응원 단디 해보자!!",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2025-07-21T08:51:46-07:00",
+      "descriptionSummary": "2025 선수·잔응원·팀 응원 팬 모음으로 외쳐라 다이노스를 팀 응원 범주의 28:45에 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "NC파크 응원을 처음 보고 새 팬이 됐다는 경험이 공유된다.",
+        "옛 선수·응원단 영상도 섞여 있어 완전한 2025 현행 목록은 아니라는 지적이 있다.",
+        "팬들은 팀의 가을야구와 승리를 기원한다."
+      ],
+      "supports": [
+        "fanCatalogue2025",
+        "timecode",
+        "teamSongClassification",
+        "sourceLimitation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-shout-archive-2025",
+      "songId": "nc-dinos-shout-dinos",
+      "url": "https://www.youtube.com/watch?v=fDc5YLDOgLw",
+      "videoId": "fDc5YLDOgLw",
+      "title": "NC다이노스 팀응원가 '외쳐라 다이노스'",
+      "channel": "엔씨뮤직",
+      "publishedAt": "2025-10-14T04:56:13-07:00",
+      "descriptionSummary": "외쳐라 다이노스를 1분 6초로 정리한 비공식 단독 음원이다. 설명과 공개 댓글은 비어 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fullSong",
+        "title",
+        "archive2025"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-shout-official-2026",
+      "songId": "nc-dinos-shout-dinos",
+      "url": "https://www.youtube.com/watch?v=XvOb7Nx3co0",
+      "videoId": "XvOb7Nx3co0",
+      "title": "[Playlist] NC 다이노스 2026시즌 팀 응원가🎶",
+      "channel": "NC 다이노스",
+      "publishedAt": "2026-03-27T00:30:16-07:00",
+      "descriptionSummary": "구단 공식 2026 팀 응원가 모음으로 외쳐라 다이노스를 20:41에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팀 응원가를 들으며 개막과 직관을 준비한다는 반응이 반복된다.",
+        "선수 응원가와 달리 팀 응원가는 울컥하는 감정을 준다는 팬 경험이 있다.",
+        "옛 응원가의 추가 부활과 팀의 한국시리즈 진출을 기원하는 의견이 보인다."
+      ],
+      "supports": [
+        "currentUse2026",
+        "officialCatalogue2026",
+        "timecode",
+        "reception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-shout-field-2025",
+      "songId": "nc-dinos-shout-dinos",
+      "url": "https://www.youtube.com/watch?v=zsWCHUeWR9Q",
+      "videoId": "zsWCHUeWR9Q",
+      "title": "외쳐라 다이노스 \\ 김수현 NC다이노스 치어리더 \\ 20250502 부산 사직야구장 직캠 4K60P cheerleader fancam",
+      "channel": "C-CHEERS",
+      "publishedAt": "2026-04-01T19:45:58-07:00",
+      "descriptionSummary": "제목이 2025년 5월 2일 부산 사직야구장 외쳐라 다이노스 치어리딩을 특정하는 1분 6초 원정 직캠이다. 2026년에 지연 게시됐으며 설명은 채널 안내를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "채널 운영자가 전체 응원 영상은 멤버십에서 볼 수 있다고 안내한다. 곡에 대한 별도 공개 반응은 수집되지 않았다."
+      ],
+      "supports": [
+        "awayFieldUse2025",
+        "choreography",
+        "delayedUpload"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-love-fan-2025",
+      "songId": "nc-dinos-love-nc",
+      "url": "https://www.youtube.com/watch?v=Q8hzQHM1-nc",
+      "videoId": "Q8hzQHM1-nc",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 NC다이노스 응원가 모음 Ver.2025 ⚾ 응원 단디 해보자!!",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2025-07-21T08:51:46-07:00",
+      "descriptionSummary": "2025 선수·잔응원·팀 응원 팬 모음으로 사랑한다 NC를 잔응원 범주의 18:21에 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "NC파크 응원을 처음 보고 새 팬이 됐다는 경험이 공유된다.",
+        "옛 곡과 다른 시즌 응원단 영상이 섞여 있어 완전한 현행 목록은 아니라는 지적이 있다.",
+        "팬들은 팀의 가을야구와 승리를 기원한다."
+      ],
+      "supports": [
+        "fanCatalogue2025",
+        "minorCheerClassification",
+        "timecode",
+        "sourceLimitation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-nc-e-shout-field-2026",
+      "songId": "nc-dinos-shout-dinos",
+      "url": "https://www.youtube.com/watch?v=gq2lcv31fRU",
+      "videoId": "gq2lcv31fRU",
+      "title": "260319 | 안수연 치어리더 | 외쳐라 다이노스 | 엔씨다이노스",
+      "channel": "동동손",
+      "publishedAt": "2026-03-19T02:00:58-07:00",
+      "descriptionSummary": "2026년 3월 19일 안수연 치어리더의 외쳐라 다이노스 안무를 기록한 1분 현장 영상이다. 설명은 인물·구단 태그를 제공하고 공개 댓글은 비어 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "currentUse2026",
+        "fieldUse",
+        "choreography"
+      ],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 39,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

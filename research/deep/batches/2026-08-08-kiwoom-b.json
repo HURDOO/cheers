@@ -1,0 +1,1126 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kiwoom-b",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kiwoom-heroes",
+    "name": "키움 히어로즈",
+    "type": "kbo"
+  },
+  "rightsNote": "상업음원·응원가 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고, 영상 설명과 댓글은 곡의 역사·사용법·수용을 확인하는 데 필요한 부분만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "kiwoom-heroes-victory-song",
+      "title": "승리가(歌)",
+      "aliases": ["승리가", "우리가 원하는 건", "우리가 원하는 건 승리"],
+      "currentStatus": "current-official-catalog-and-2026-playlist-directly-verified",
+      "summary": "미국 민요 ‘Red River Valley’ 선율에 승리를 요구하는 짧은 선창·응답을 얹은 히어로즈의 장수 상황 응원가다. 구단 공식 홈페이지 표기는 ‘승리가(歌)’이고, 현장에서는 첫 구절을 딴 ‘우리가 원하는 건’으로 더 자주 불린다. 현대 유니콘스 시절부터 이어졌다는 편집형 문서·매체 설명과 2013 넥센 현장, 2022·2024·2025 키움 현장, 2026 공식 플레이리스트를 연결해 계보와 현행성을 확인했다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "승리가(歌)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-official-page", "yt-kiwoom-b-victory-2026-official"],
+          "notes": "공식 홈페이지와 2026 구단 플레이리스트가 같은 제목을 사용한다. ‘우리가 원하는 건’은 현장 별칭이다."
+        },
+        {
+          "field": "originalSong",
+          "value": "미국 민요 Red River Valley",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kiwoom-b-namu", "ev-kiwoom-b-dugout"],
+          "notes": "나무위키 미러와 더그아웃 매거진이 일치한다. 구단 홈페이지는 원곡 크레딧을 제공하지 않는다."
+        },
+        {
+          "field": "lineage",
+          "value": "현대 유니콘스 시절부터 사용한 응원가를 히어로즈가 계승",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kiwoom-b-namu", "ev-kiwoom-b-dugout", "yt-kiwoom-b-victory-2013-nexen"],
+          "notes": "정확한 현대 시절 최초 연도와 당시 공식 음원은 아직 특정하지 못했다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "수비 아웃, 공격 출루·진루·득점 및 유리한 상황",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kiwoom-b-namu", "yt-kiwoom-b-victory-2024-sajik", "yt-kiwoom-b-victory-2025-field"],
+          "notes": "구단의 공개 경기 진행표가 없어 상황별 세부 트리거는 편집형 문서와 현장 영상으로 교차했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 팀 응원가 플레이리스트 27:04 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-victory-2026-official", "ev-kiwoom-b-official-page"],
+          "notes": "2025년 9월 현장 영상도 직전 시즌 사용을 직접 뒷받침한다."
+        }
+      ],
+      "usageContexts": [
+        "수비에서 아웃카운트를 잡았을 때, 공격에서 주자가 출루·진루하거나 득점했을 때 짧게 반복한다.",
+        "응원단장의 질문형 선창에 관중이 승리를 외치고, 이어지는 구음과 팀의 영원한 승리를 함께 부르는 콜 앤드 리스폰스 구조다.",
+        "30초 안팎의 짧은 길이 덕분에 경기 흐름 사이에 즉시 삽입되는 상황곡으로 쓰인다."
+      ],
+      "trivia": [
+        {
+          "id": "victory-song-unicorns-memory",
+          "summary": "더그아웃 매거진은 이 곡을 현대 유니콘스에서 물려받은 목동 시대의 대표 기억으로 소개했다. 영상 댓글에서도 현대·수원 시절부터 썼다는 기억과 다른 종목 응원가와의 선후 관계 논쟁이 반복된다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kiwoom-b-dugout", "yt-kiwoom-b-victory-2013-nexen"]
+        },
+        {
+          "id": "victory-song-title-gap",
+          "summary": "공식 제목 ‘승리가’보다 첫 구절인 ‘우리가 원하는 건’이 영상 제목과 팬 검색어에 널리 쓰인다. 같은 곡을 두 곡으로 중복 집계하지 않도록 별칭을 함께 유지해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-official-page", "yt-kiwoom-b-victory-2022-cam", "yt-kiwoom-b-victory-2024-sajik"]
+        },
+        {
+          "id": "victory-song-cross-sport-dispute",
+          "summary": "2013 영상 댓글에는 수원 삼성 응원과의 선후 관계를 두고 격한 논쟁이 남아 있다. 댓글만으로 창작·도입 우선권을 판정하지 않고, 현대 유니콘스 계승 주장과 별개의 미해결 쟁점으로 보존한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-victory-2013-nexen"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "traditional melody with a modern team adaptation; adaptation authorship and reproduction permission not documented",
+        "sourceUrls": [
+          "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+          "https://www.youtube.com/watch?v=bGoso_4ibeo",
+          "https://m.namu.moe/w/%ED%82%A4%EC%9B%80%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "응원단장이 원하는 것을 묻고 관중이 한 단어로 답한 뒤, 세 마디 구음과 히어로즈의 지속적인 승리를 비는 한 줄을 두 차례 반복하는 초단형 응원이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kiwoom-b-victory-2026-official",
+        "yt-kiwoom-b-victory-2025-loop",
+        "yt-kiwoom-b-victory-2025-field",
+        "yt-kiwoom-b-victory-2024-sajik",
+        "yt-kiwoom-b-victory-2022-cam",
+        "yt-kiwoom-b-victory-2017-audio",
+        "yt-kiwoom-b-victory-2013-nexen"
+      ],
+      "unresolved": [
+        "현대 유니콘스 시절 최초 사용 연도와 당시 제작·편곡 주체",
+        "다른 종목 응원과의 정확한 도입 선후 관계 및 개사 계보",
+        "현행 경기 진행표에 적힌 세부 재생 트리거",
+        "공식 표기의 한자 ‘歌’를 실제 장내 안내에서도 사용하는지"
+      ]
+    },
+    {
+      "id": "kiwoom-heroes-for-victory",
+      "title": "승리를 위하여",
+      "aliases": ["키움 승리를 위하여", "히어로즈 승리를 위하여", "카츄샤 응원가"],
+      "currentStatus": "current-official-catalog-and-direct-field-use-2026",
+      "summary": "러시아 노래 ‘카츄샤’ 선율을 바탕으로 2017시즌 도입된 행진곡형 팀 응원가다. 하나가 되어 히어로즈의 승리를 외치자는 긴 합창과 마지막 철자 구호로 구성된다. 2017 구단 공식 음원, 2019·2025 현장, 2026 공식 플레이리스트와 2026년 8월 1일 현장을 확보해 현행성을 직접 확인했다. 유사 선율을 쓴 대학·프로 종목의 응원가가 여럿 있어 ‘누구에게서 차용했다’는 단일 계보보다 같은 원곡을 공유하는 사례로 기록하는 편이 안전하다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2017시즌 신규 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-namu", "ev-kiwoom-b-dugout", "yt-kiwoom-b-for-victory-2017-official"],
+          "notes": "구단 공식 영상이 2017년 8월 게시됐고 두 편집·매체 자료의 도입 연도와 일치한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "러시아 대중가요·군가로 알려진 카츄샤",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-namu", "ev-kiwoom-b-dugout", "yt-kiwoom-b-for-victory-2017-official"],
+          "notes": "공식 영상 설명에는 원곡명이 없지만 선율 식별과 독립 자료가 일치한다."
+        },
+        {
+          "field": "relatedUses",
+          "value": "삼성·OB/두산과 타 종목 구단도 같은 원곡 또는 키움판 변형을 사용한 사례가 있음",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kiwoom-b-namu"],
+          "notes": "개별 구단 버전의 최초 도입과 직접 차용 관계는 각각 추가 검증이 필요하다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 플레이리스트 09:48 및 2026-08-01 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-for-victory-2026-official", "yt-kiwoom-b-for-victory-2026-field"],
+          "notes": "최신 구단 편집본과 날짜 특정 직캠이 모두 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "응원단장의 박자 유도 뒤 관중 전체가 긴 후렴을 반복하고, 마지막에 팀명과 승리 구호를 음절별로 외친다.",
+        "공격 흐름을 끌어올리는 일반 팀 응원으로 사용되며 최신 공식 플레이리스트에서도 핵심 팀곡 사이에 배치된다.",
+        "강한 기타 편곡과 행진곡 선율 때문에 올스타 응원석이나 포스트시즌처럼 대규모 합창이 필요한 장면에도 사용된 것으로 보도됐다."
+      ],
+      "trivia": [
+        {
+          "id": "for-victory-original-recognition",
+          "summary": "2017 공식 영상 댓글에서는 선율을 듣고 카츄샤를 알아보는 반응과 타 팀 팬이 곡의 웅장함·중독성을 높게 평가하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-for-victory-2017-official"]
+        },
+        {
+          "id": "for-victory-war-era-continuity",
+          "summary": "나무위키 미러는 러시아의 우크라이나 침공 이후 다른 러시아 군가 기반 곡이 중단된 사례와 달리 이 곡은 2022년에도 계속 사용됐다고 적는다. 2022 현장 모음과 2026 자료가 실제 지속 사용을 뒷받침한다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kiwoom-b-namu", "yt-kiwoom-b-for-victory-2026-official"]
+        },
+        {
+          "id": "for-victory-education-anecdote",
+          "summary": "공식 영상 댓글에는 이 응원가 선율로 자격시험 내용을 외워 합격했다는 개인 일화가 있어, 단순 경기 응원을 넘어 기억 보조 선율로 소비되는 양상을 보여준다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-for-victory-2017-official"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted team adaptation of a twentieth-century song; adaptation and recording rights not documented here",
+        "sourceUrls": [
+          "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+          "https://www.youtube.com/watch?v=DqiP4UvS7CQ",
+          "https://m.namu.moe/w/%ED%82%A4%EC%9B%80%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "하나가 되자는 도입 두 마디 뒤 히어로즈의 승리를 위해 함께 외치자는 세 줄 후렴을 두 번 반복하고, 팀명·승리 구호를 음절별로 끊은 뒤 후렴을 한 차례 더 부른다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kiwoom-b-for-victory-2026-official",
+        "yt-kiwoom-b-for-victory-2026-field",
+        "yt-kiwoom-b-for-victory-2025-august",
+        "yt-kiwoom-b-for-victory-2025-april",
+        "yt-kiwoom-b-for-victory-2019-audio",
+        "yt-kiwoom-b-for-victory-2017-official"
+      ],
+      "unresolved": [
+        "2017년 최초 사용 경기와 편곡·개사·보컬 크레딧",
+        "카츄샤 계열 국내 응원가들 사이의 직접 차용 관계",
+        "김정석 응원단장 등장곡으로 쓰인 기간과 현행 여부",
+        "정규 경기 진행표에서 사용하는 정확한 상황 조건"
+      ]
+    },
+    {
+      "id": "kiwoom-heroes-we-win",
+      "title": "우리가 승리한다",
+      "aliases": ["키움 우리가 승리한다", "We Rock", "2021 키움 응원가 1번 트랙"],
+      "currentStatus": "current-official-catalog-and-2026-playlist-directly-verified",
+      "summary": "2021년 코로나19 시기 재회를 기다리는 정서와 승리 구호를 결합해 발표한 크라잉넛 가창의 팀송이다. 이민휘가 작사·작곡하고 크라잉넛이 편곡했으며, 2021년 5월 25일 ‘2021 키움히어로즈 응원가’ 싱글의 타이틀곡으로 정식 발매됐다. 구단 홈페이지, 2022·2024·2025·2026 공식 또는 현장 플레이리스트를 통해 도입부터 현행까지의 지속성을 확인했다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2021시즌부터 사용, 음원은 2021-05-25 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-namu", "ev-kiwoom-b-bugs-album", "yt-kiwoom-b-we-win-topic"],
+          "notes": "구단 홈페이지 이미지 경로는 2021-04-08로 더 이르지만, 공개 최초일로 단정하지 않고 정식 음원 발매일과 구분한다."
+        },
+        {
+          "field": "credits",
+          "value": "보컬 크라잉넛, 작사·작곡 이민휘, 편곡 크라잉넛",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-bugs-we-win", "yt-kiwoom-b-we-win-topic"],
+          "notes": "벅스 참여정보와 유통사 제공 YouTube 메타데이터가 일치한다."
+        },
+        {
+          "field": "releaseContext",
+          "value": "키움증권주식회사 기획, 사운드리퍼블리카 유통의 3곡 싱글 타이틀곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-bugs-album", "yt-kiwoom-b-we-win-topic"],
+          "notes": "같은 싱글에 ‘오 키움, 키움히어로즈’와 ‘사랑한다 키움’이 실렸다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 플레이리스트 22:00 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-we-win-2026-official", "ev-kiwoom-b-official-page"],
+          "notes": "2024·2025 공식 플레이리스트에도 연속 수록된다."
+        }
+      ],
+      "usageContexts": [
+        "관중이 다시 만나는 날과 뜨거운 가슴을 노래하는 절 뒤에 팀명과 승리 선언을 반복하는 전곡형 합창이다.",
+        "짧은 상황 콜보다 응원단 안무·관중 합창에 맞춘 팀 응원가 블록에서 사용된다.",
+        "2021년 무관중·제한 관중 환경을 연상시키는 ‘다시 만나는 날’의 서사가 현장 재결합의 의미를 더한다."
+      ],
+      "trivia": [
+        {
+          "id": "we-win-reunion-context",
+          "summary": "첫 절이 다시 만나는 날을 기다리는 내용이라 2021년 팬과 경기장의 재회를 염두에 둔 곡으로 읽힌다. 다만 제작자가 코로나19를 직접 언급한 인터뷰는 아직 찾지 못해 해석으로만 둔다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kiwoom-b-official-page", "ev-kiwoom-b-bugs-we-win"]
+        },
+        {
+          "id": "we-win-crying-nut-cluster",
+          "summary": "같은 싱글의 앞선 두 곡을 크라잉넛이 불렀고, 나무위키 미러도 크라잉넛이 히어로즈 응원가를 유난히 많이 부른 배경을 멤버들의 팬심과 연결해 설명한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kiwoom-b-bugs-album", "ev-kiwoom-b-namu"]
+        },
+        {
+          "id": "we-win-long-running-official-playlists",
+          "summary": "2024·2025·2026 구단 공식 플레이리스트에서 빠지지 않아, 2021 신곡이 일회성 시즌 테마가 아니라 현행 레퍼토리로 정착했음을 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-we-win-2024-official", "yt-kiwoom-b-we-win-2025-official", "yt-kiwoom-b-we-win-2026-official"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original team song released commercially in 2021",
+        "sourceUrls": [
+          "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+          "https://music.bugs.co.kr/track/32239677",
+          "https://www.youtube.com/watch?v=-alWc0xcFRw"
+        ],
+        "structureSummary": "재회를 기다리는 첫 절과 근심을 던지자는 둘째 절이 같은 승리 후렴으로 이어진다. 후반부에서는 팀명·자랑·승리 선언과 짧은 영어 추임새를 여러 차례 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kiwoom-b-we-win-2026-official",
+        "yt-kiwoom-b-we-win-2025-official",
+        "yt-kiwoom-b-we-win-2024-official",
+        "yt-kiwoom-b-we-win-topic",
+        "yt-kiwoom-b-we-win-2022-playlist",
+        "yt-kiwoom-b-we-win-2022-study"
+      ],
+      "unresolved": [
+        "2021년 최초 경기장 사용일과 최초 공개 공지",
+        "곡 제작을 의뢰한 구단·응원단 실무 주체와 제작 인터뷰",
+        "절 사이 관중 동작과 현행 고정 사용 이닝",
+        "음원상 영어 추임새와 구단 홈페이지 표기의 차이가 공식 버전 차이인지"
+      ]
+    },
+    {
+      "id": "kiwoom-heroes-oh-kiwoom",
+      "title": "오 키움, 키움 히어로즈",
+      "aliases": ["오 키움", "오 키움 키움히어로즈", "2021 키움 응원가 2번 트랙"],
+      "currentStatus": "current-official-catalog-and-2026-playlist-directly-verified",
+      "summary": "전진·당당한 승부·승리 구호를 짧고 빠르게 반복하는 2021년 크라잉넛 가창 팀 응원가다. 이민휘가 작사·작곡하고 크라잉넛이 편곡했으며 2021년 5월 25일 발매 싱글의 두 번째 트랙이다. 2021 신규곡 현장 영상부터 2023·2024 치어리더 직캠, 2025 현장, 2024~2026 구단 공식 플레이리스트가 있어 도입과 현재 사용을 연속해서 확인할 수 있다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2021시즌부터 사용, 음원은 2021-05-25 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-namu", "ev-kiwoom-b-bugs-album", "yt-kiwoom-b-oh-kiwoom-2021-new"],
+          "notes": "2021-04-15 현장 영상이 정식 음원 발매보다 앞서 이미 ‘신규 응원가’로 사용됐음을 보여준다."
+        },
+        {
+          "field": "credits",
+          "value": "보컬 크라잉넛, 작사·작곡 이민휘, 편곡 크라잉넛",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-bugs-album", "yt-kiwoom-b-oh-kiwoom-topic"],
+          "notes": "유통사가 제공한 자동 생성 음원 메타데이터에서 세부 크레딧을 확인했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 플레이리스트 23:47 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-oh-kiwoom-2026-official", "ev-kiwoom-b-official-page"],
+          "notes": "2025년 5월 현장 영상과 2024 구단 플레이리스트도 지속 사용을 뒷받침한다."
+        },
+        {
+          "field": "performanceForm",
+          "value": "치어리더 안무와 관중의 음절별 팀명·승리 콜을 결합한 전곡형 응원",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kiwoom-b-oh-kiwoom-2023-cheer", "yt-kiwoom-b-oh-kiwoom-2024-cheer", "yt-kiwoom-b-oh-kiwoom-2025-field"],
+          "notes": "공식 문서의 상황 규칙이 아니라 여러 시즌 현장 영상에서 확인한 공연 형태다."
+        }
+      ],
+      "usageContexts": [
+        "응원단 안무와 함께 전진·승리 내용을 부르는 일반 팀 응원가로 사용된다.",
+        "짧은 절을 반복한 뒤 팀명과 승리 선언을 음절별로 끊어 외쳐 관중 참여를 끌어낸다.",
+        "2023·2024 직캠에서는 치어리더 공연형 진행이 뚜렷하며, 2025 현장에서도 같은 길이와 구성이 유지된다."
+      ],
+      "trivia": [
+        {
+          "id": "oh-kiwoom-sands-resemblance",
+          "summary": "2021 신규곡 영상 댓글에서는 도입을 과거 샌즈 선수 응원가의 개사처럼 들었다는 반응이 있다. 실제 작곡 계보를 입증하는 자료는 아니므로 청감상 유사성에 대한 팬 반응으로만 보존한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-oh-kiwoom-2021-new"]
+        },
+        {
+          "id": "oh-kiwoom-release-pair",
+          "summary": "‘우리가 승리한다’와 같은 이민휘·크라잉넛 조합으로 제작돼 한 싱글에서 연속 배치됐다. 두 곡은 메시지는 비슷하지만 전자는 서사형, 이 곡은 행진 구호형이라 별개의 곡이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-bugs-album", "yt-kiwoom-b-oh-kiwoom-topic"]
+        },
+        {
+          "id": "oh-kiwoom-cheer-cam-footprint",
+          "summary": "다른 두 2021 신곡보다 치어리더 개인 직캠 표본이 풍부해, 관중 합창뿐 아니라 응원단 안무 레퍼토리로도 널리 기록된 곡이다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kiwoom-b-oh-kiwoom-2023-cheer", "yt-kiwoom-b-oh-kiwoom-2024-cheer"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original team song released commercially in 2021",
+        "sourceUrls": [
+          "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+          "https://music.bugs.co.kr/album/20398252?wl_ref=list_tr_07",
+          "https://www.youtube.com/watch?v=P61Q2hhs7VI"
+        ],
+        "structureSummary": "가슴을 펴고 당당히 전진하자는 두 줄을 두 번 부른 뒤, 팀명과 승리 선언을 음절별로 두 차례 외치고 처음의 절을 다시 반복한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kiwoom-b-oh-kiwoom-2026-official",
+        "yt-kiwoom-b-oh-kiwoom-2025-official",
+        "yt-kiwoom-b-oh-kiwoom-2024-official",
+        "yt-kiwoom-b-oh-kiwoom-topic",
+        "yt-kiwoom-b-oh-kiwoom-2021-new",
+        "yt-kiwoom-b-oh-kiwoom-2025-field",
+        "yt-kiwoom-b-oh-kiwoom-2023-cheer",
+        "yt-kiwoom-b-oh-kiwoom-2024-cheer"
+      ],
+      "unresolved": [
+        "2021년 실제 첫 사용 경기와 구단의 최초 공개일",
+        "응원단이 정한 현행 고정 사용 이닝 또는 상황",
+        "공식 안무 제작자와 안무 변경 이력",
+        "과거 샌즈 응원가와의 청감상 유사성이 우연인지 의도적 재사용인지"
+      ]
+    },
+    {
+      "id": "kiwoom-heroes-love-kiwoom",
+      "title": "사랑한다 키움",
+      "aliases": ["키움 사랑한다", "내 가슴 깊이 사랑한다 키움", "2021 키움 응원가 3번 트랙"],
+      "currentStatus": "current-official-catalog-and-2026-playlist-directly-verified",
+      "summary": "팀을 자신의 자랑으로 부르며 사랑을 거듭 고백하는 2021년 서정형 팀송이다. 김상우가 노래하고 이민휘가 작사·작곡, 이해준이 편곡했으며 2021년 5월 25일 싱글의 세 번째 트랙으로 발매됐다. 2024·2025·2026 공식 플레이리스트와 2026 팬 플레이리스트가 모두 수록해 현행성은 확실하지만, 어느 이닝·상황에 고정 사용하는지는 공개 자료에서 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2021시즌부터 사용, 음원은 2021-05-25 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-namu", "ev-kiwoom-b-bugs-album", "yt-kiwoom-b-love-kiwoom-topic"],
+          "notes": "구단 홈페이지 이미지 경로가 2021-04-08을 가리키지만 이를 공개일로 확정하지는 않는다."
+        },
+        {
+          "field": "credits",
+          "value": "보컬 김상우, 작사·작곡 이민휘, 편곡 이해준",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-bugs-love", "yt-kiwoom-b-love-kiwoom-topic"],
+          "notes": "벅스 참여정보와 유통사 제공 YouTube 메타데이터가 일치한다."
+        },
+        {
+          "field": "releaseContext",
+          "value": "2021 키움히어로즈 응원가 싱글의 3번 트랙",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-bugs-album"],
+          "notes": "앞의 두 트랙과 달리 크라잉넛이 아닌 김상우가 가창했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 플레이리스트 20:13 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-love-kiwoom-2026-official", "ev-kiwoom-b-official-page"],
+          "notes": "2024·2025 공식 목록에도 같은 제목으로 연속 수록된다."
+        }
+      ],
+      "usageContexts": [
+        "경기의 즉각적 사건을 지시하기보다 팀에 대한 애정과 자부심을 함께 부르는 서정형 합창곡이다.",
+        "팀 응원가 플레이리스트에서는 경기 후반 핵심곡과 2021 발매 동료곡 사이에 배치되지만, 실제 고정 이닝은 확인되지 않았다.",
+        "짧은 두 문장을 여러 번 되풀이해 처음 듣는 관중도 쉽게 합류할 수 있는 구조다."
+      ],
+      "trivia": [
+        {
+          "id": "love-kiwoom-different-vocalist",
+          "summary": "같은 2021 싱글의 앞선 두 곡은 크라잉넛이 불렀지만 이 곡만 김상우가 가창하고 이해준이 편곡했다. 세 곡을 한 제작 묶음으로 보되 보컬·편곡 크레딧은 분리해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kiwoom-b-bugs-album", "ev-kiwoom-b-bugs-love"]
+        },
+        {
+          "id": "love-kiwoom-official-continuity",
+          "summary": "2024·2025·2026 구단 공식 플레이리스트에 연속 수록돼 낮은 개별 영상 검색량과 무관하게 현행 공식 레퍼토리임이 확인된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kiwoom-b-love-kiwoom-2024-official", "yt-kiwoom-b-love-kiwoom-2025-official", "yt-kiwoom-b-love-kiwoom-2026-official"]
+        },
+        {
+          "id": "love-kiwoom-search-footprint",
+          "summary": "독립 현장 영상보다 장편 플레이리스트와 음원 카탈로그에서 주로 발견된다. 영상 검색량이 적다는 이유만으로 사용 빈도나 폐지를 추론하면 안 되는 사례다.",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kiwoom-b-love-kiwoom-topic", "yt-kiwoom-b-love-kiwoom-2026-fan-a", "yt-kiwoom-b-love-kiwoom-2026-fan-b"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted original team song released commercially in 2021",
+        "sourceUrls": [
+          "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+          "https://music.bugs.co.kr/track/32239679?wl_ref=list_tr_08_ar",
+          "https://www.youtube.com/watch?v=FToN5S_Hg4g"
+        ],
+        "structureSummary": "팀을 자신의 자랑으로 부르는 문장과 마음 깊이 사랑한다는 문장을 교대로 반복한다. 중간에 사랑 고백을 세 번 연속 강조한 뒤 같은 두 문장으로 돌아와 마지막 고백으로 끝난다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kiwoom-b-love-kiwoom-2026-official",
+        "yt-kiwoom-b-love-kiwoom-2025-official",
+        "yt-kiwoom-b-love-kiwoom-2024-official",
+        "yt-kiwoom-b-love-kiwoom-topic",
+        "yt-kiwoom-b-love-kiwoom-2026-fan-a",
+        "yt-kiwoom-b-love-kiwoom-2026-fan-b"
+      ],
+      "unresolved": [
+        "2021년 최초 사용 경기와 최초 공개 공지",
+        "보컬 김상우의 동명이인 식별 및 제작 참여 인터뷰",
+        "현행 고정 사용 이닝·상황과 공식 안무",
+        "경기장용 편집본과 상업 음원 사이의 차이"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kiwoom-b-official-page",
+      "type": "official-team-website",
+      "url": "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+      "title": "응원가",
+      "publisher": "키움 히어로즈",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "구단이 현재 공개하는 팀 응원가 목록에 승리가(歌), 승리를 위하여, 우리가 승리한다, 오 키움·키움 히어로즈, 사랑한다 키움을 모두 싣고 각 곡의 공식 표기·음원 다운로드·가사 보기를 제공한다.",
+      "supports": [
+        "kiwoom-heroes-victory-song.officialTitle",
+        "kiwoom-heroes-victory-song.currentUse",
+        "kiwoom-heroes-for-victory.currentUse",
+        "kiwoom-heroes-we-win.currentUse",
+        "kiwoom-heroes-oh-kiwoom.currentUse",
+        "kiwoom-heroes-love-kiwoom.currentUse"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-b-namu",
+      "type": "namuwiki-mirror",
+      "url": "https://m.namu.moe/w/%ED%82%A4%EC%9B%80%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "키움 히어로즈/응원가",
+      "publisher": "나무모에(나무위키 미러)",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "2025-10-04 수정본. 승리가의 Red River Valley·현대 유니콘스 계보와 상황별 사용, 승리를 위하여의 2017 도입·카츄샤 원곡·타 구단 사례, 2021 신곡 세 곡의 시작연도와 보컬을 서술한다. 편집형 자료이므로 구단·음원·날짜 특정 영상과 교차했다.",
+      "supports": [
+        "kiwoom-heroes-victory-song.originalSong",
+        "kiwoom-heroes-victory-song.lineage",
+        "kiwoom-heroes-victory-song.usagePattern",
+        "kiwoom-heroes-for-victory.introduction",
+        "kiwoom-heroes-for-victory.originalSong",
+        "kiwoom-heroes-we-win.introduction",
+        "kiwoom-heroes-oh-kiwoom.introduction",
+        "kiwoom-heroes-love-kiwoom.introduction"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-b-dugout",
+      "type": "sports-magazine-article",
+      "url": "https://v.daum.net/v/ZKIBJ9C29x?f=m",
+      "title": "[DUGOUT Live] 팬이 뽑은 최애 응원가 7탄 – 키움 히어로즈",
+      "publisher": "대단한미디어·더그아웃 매거진",
+      "publishedAt": "2022-09",
+      "accessedAt": "2026-08-08",
+      "summary": "팬 투표 결과와 함께 승리가를 Red River Valley 기반의 현대 유니콘스 계승곡으로, 승리를 위하여를 2017 도입의 카츄샤 기반 행진곡으로 소개한다. 승리를 위하여의 다른 대학 응원가 관련 문구에는 오기 가능성이 있어 직접 계보 근거로 쓰지 않았다.",
+      "supports": [
+        "kiwoom-heroes-victory-song.originalSong",
+        "kiwoom-heroes-victory-song.lineage",
+        "kiwoom-heroes-for-victory.introduction",
+        "kiwoom-heroes-for-victory.originalSong"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-b-bugs-album",
+      "type": "official-streaming-catalog",
+      "url": "https://music.bugs.co.kr/album/20398252?wl_ref=list_tr_07",
+      "title": "2021 키움히어로즈 응원가",
+      "publisher": "벅스",
+      "publishedAt": "2021-05-25",
+      "accessedAt": "2026-08-08",
+      "summary": "키움증권주식회사 기획·사운드리퍼블리카 유통의 3곡 싱글로, 우리가 승리한다와 오 키움·키움히어로즈를 크라잉넛, 사랑한다 키움을 김상우 가창으로 표기한다.",
+      "supports": [
+        "kiwoom-heroes-we-win.introduction",
+        "kiwoom-heroes-we-win.releaseContext",
+        "kiwoom-heroes-oh-kiwoom.introduction",
+        "kiwoom-heroes-oh-kiwoom.credits",
+        "kiwoom-heroes-love-kiwoom.introduction",
+        "kiwoom-heroes-love-kiwoom.releaseContext"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-b-bugs-we-win",
+      "type": "official-streaming-catalog",
+      "url": "https://music.bugs.co.kr/track/32239677",
+      "title": "우리가 승리한다",
+      "publisher": "벅스",
+      "publishedAt": "2021-05-25",
+      "accessedAt": "2026-08-08",
+      "summary": "보컬 크라잉넛, 작사·작곡 이민휘, 편곡 크라잉넛과 1분 47초 재생 시간을 제공한다.",
+      "supports": [
+        "kiwoom-heroes-we-win.credits"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-b-bugs-love",
+      "type": "official-streaming-catalog",
+      "url": "https://music.bugs.co.kr/track/32239679?wl_ref=list_tr_08_ar",
+      "title": "사랑한다 키움",
+      "publisher": "벅스",
+      "publishedAt": "2021-05-25",
+      "accessedAt": "2026-08-08",
+      "summary": "보컬 김상우, 작사·작곡 이민휘, 편곡 이해준과 1분 48초 재생 시간을 제공한다.",
+      "supports": [
+        "kiwoom-heroes-love-kiwoom.credits"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kiwoom-b-victory-2026-official",
+      "songId": "kiwoom-heroes-victory-song",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20",
+      "descriptionSummary": "구단의 2026 팀·선수 응원가 목록이며 승리가를 27:04에 공식 표기로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 응원가보다 구단 운영과 선수 은퇴식에 대한 요구가 많지만, 팬이 전체 타임라인을 다시 올려 곡 위치를 교차 확인해 준다.",
+        "누락된 기존 응원가를 지적하는 반응이 있어 공식 플레이리스트도 실제 전체 상황곡을 완전히 포괄하지 않을 수 있음을 보여준다."
+      ],
+      "supports": ["currentCatalog2026", "officialTitle", "chapter27:04"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-victory-2025-loop",
+      "songId": "kiwoom-heroes-victory-song",
+      "url": "https://www.youtube.com/watch?v=2nmUxM0ksw4",
+      "videoId": "2nmUxM0ksw4",
+      "title": "키움 히어로즈 팀 응원가 '승리가(우리가 원하는 건)' 1시간 반복재생",
+      "channel": "야옹",
+      "publishedAt": "2025-11-14",
+      "descriptionSummary": "공식 제목과 현장 별칭을 함께 적은 1시간 반복 음원이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "짧고 반복적인 선율을 잘 만든 곡으로 평가하는 반응과 타 팀 팬의 감사 반응이 있다."
+      ],
+      "supports": ["alias", "audio", "fanReception2025"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-victory-2025-field",
+      "songId": "kiwoom-heroes-victory-song",
+      "url": "https://www.youtube.com/watch?v=ZKs4wG3jau8",
+      "videoId": "ZKs4wG3jau8",
+      "title": "키움히어로즈 팀 응원가 \"승리의 함성\" 뒷부분 + \"우리가 원하는건\" 20250930",
+      "channel": "DJ Landers",
+      "publishedAt": "2025-09-30",
+      "descriptionSummary": "2025년 9월 30일 현장에서 승리의 함성 뒤 0:34부터 우리가 원하는 건을 연속 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 당시 상대 팀을 묻는 짧은 현장 확인 질문이다."
+      ],
+      "supports": ["fieldUse2025", "alias", "sequenceAfterVictoryShout"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-victory-2024-sajik",
+      "songId": "kiwoom-heroes-victory-song",
+      "url": "https://www.youtube.com/watch?v=JrUp-gMBTwE",
+      "videoId": "JrUp-gMBTwE",
+      "title": "사직 호러-S | 키움 vs 롯데 | 키움 메인 팀응원가 - 승리가(우리가 원하는건)",
+      "channel": "응하컬 - 응원가로 하나되는 컬렉션",
+      "publishedAt": "2024-08-18",
+      "descriptionSummary": "2024년 8월 17일 사직 원정 현장에서 이 곡을 키움의 메인 팀 응원가로 촬영했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2024", "awayUse", "mainCheerLabel"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-victory-2022-cam",
+      "songId": "kiwoom-heroes-victory-song",
+      "url": "https://www.youtube.com/watch?v=-wpU95vf94Y",
+      "videoId": "-wpU95vf94Y",
+      "title": "[키움 응원석 직캠] 우리가 원하는 건",
+      "channel": "거지팬",
+      "publishedAt": "2022-11-19",
+      "descriptionSummary": "2022년 10월 23일 준플레이오프 5차전 고척 응원석에서 촬영했으며 설명에 현장 별칭과 콜 구조를 적었다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["postseasonUse2022", "homeUse", "callAndResponse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-victory-2017-audio",
+      "songId": "kiwoom-heroes-victory-song",
+      "url": "https://www.youtube.com/watch?v=pABwOVj0OUU",
+      "videoId": "pABwOVj0OUU",
+      "title": "넥센히어로즈 팀응원가 - 승리가",
+      "channel": "잭참새",
+      "publishedAt": "2017-03-15",
+      "descriptionSummary": "넥센 시절 공식 제목 ‘승리가’를 사용한 27초 음원 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "타 팀 팬이 곡이 좋아 찾아왔다고 밝히는 반응과 팀명을 이용한 말장난이 있다."
+      ],
+      "supports": ["nexenEra", "officialTitle", "audio"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-victory-2013-nexen",
+      "songId": "kiwoom-heroes-victory-song",
+      "url": "https://www.youtube.com/watch?v=dqOl6a-t2yQ",
+      "videoId": "dqOl6a-t2yQ",
+      "title": "넥센 히어로즈 응원 우리가 원하는건 승리",
+      "channel": "워노브라더스",
+      "publishedAt": "2013-06-22",
+      "descriptionSummary": "2013년 6월 22일 NC전 연패 탈출 경기의 넥센 현장 응원을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "수원 삼성과 현대 유니콘스 가운데 누가 먼저 썼는지를 두고 상충하는 팬 기억이 이어진다.",
+        "다른 종목 응원가의 공유·차용을 둘러싼 감정적 논쟁이 많아 댓글만으로 계보를 확정할 수 없다."
+      ],
+      "supports": ["fieldUse2013", "nexenEra", "crossSportDispute"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-for-victory-2026-official",
+      "songId": "kiwoom-heroes-for-victory",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20",
+      "descriptionSummary": "구단의 2026 공식 플레이리스트가 승리를 위하여를 09:48에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 목록의 늦은 게시 시점을 지적하면서도 직관 예습 자료로 반기는 반응이 있다.",
+        "일부 기존 곡의 누락을 지적하는 댓글이 있어 곡 목록과 경기 진행표가 완전히 같지 않을 수 있다."
+      ],
+      "supports": ["currentCatalog2026", "officialPlaylist", "chapter09:48"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-for-victory-2026-field",
+      "songId": "kiwoom-heroes-for-victory",
+      "url": "https://www.youtube.com/watch?v=eC8T00encwo",
+      "videoId": "eC8T00encwo",
+      "title": "키움히어로즈 팀 응원가 \"승리를 위하여\" 20260801",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-08-02",
+      "descriptionSummary": "2026년 8월 1일 경기에서 촬영한 1분 길이의 최신 현장 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2026", "currentUse", "livePerformance"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-for-victory-2025-august",
+      "songId": "kiwoom-heroes-for-victory",
+      "url": "https://www.youtube.com/watch?v=-J4GCdgx31w",
+      "videoId": "-J4GCdgx31w",
+      "title": "키움 히어로즈 응원가 승리를 위하여 (0810)",
+      "channel": "윤병호",
+      "publishedAt": "2025-08-23",
+      "descriptionSummary": "2025년 8월 10일로 표시된 현장 응원을 1분 35초 동안 담았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2025", "fullCheerLength"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-for-victory-2025-april",
+      "songId": "kiwoom-heroes-for-victory",
+      "url": "https://www.youtube.com/watch?v=v8q5kukCElg",
+      "videoId": "v8q5kukCElg",
+      "title": "키움 히어로즈 응원가 승리를 위하여 (0424)",
+      "channel": "윤병호",
+      "publishedAt": "2025-04-27",
+      "descriptionSummary": "2025년 4월 24일로 표시된 시즌 초 현장 응원을 기록했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2025", "earlySeasonUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-for-victory-2019-audio",
+      "songId": "kiwoom-heroes-for-victory",
+      "url": "https://www.youtube.com/watch?v=yV0Cic1LcW8",
+      "videoId": "yV0Cic1LcW8",
+      "title": "키움 히어로즈 응원가 - 승리를 위하여 [함라산스포츠]",
+      "channel": "Hamrasan Sports",
+      "publishedAt": "2019-06-19",
+      "descriptionSummary": "키움 명칭 전환 첫해의 승리를 위하여 음원 전체를 제공하는 팬 아카이브다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 곡 제목을 다시 확인하는 짧은 반응으로, 제목 식별을 보조한다."
+      ],
+      "supports": ["kiwoomNameEra2019", "audio", "titleIdentification"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-for-victory-2017-official",
+      "songId": "kiwoom-heroes-for-victory",
+      "url": "https://www.youtube.com/watch?v=DqiP4UvS7CQ",
+      "videoId": "DqiP4UvS7CQ",
+      "title": "[영웅 응원가] 승리를 위하여",
+      "channel": "키움히어로즈",
+      "publishedAt": "2017-08-15",
+      "descriptionSummary": "구단 공식 채널이 넥센 시절 게시한 1분 38초 응원가 영상으로 제목과 당시 가창 구조를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "카츄샤 선율을 즉시 알아보는 반응과 군가 특유의 웅장함·중독성을 높게 평가하는 반응이 많다.",
+        "타 팀 팬도 좋아한다는 반응과 이 선율로 시험 내용을 외웠다는 개인 일화가 남아 있다."
+      ],
+      "supports": ["officialAudio2017", "introduction", "originalRecognition", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-we-win-2026-official",
+      "songId": "kiwoom-heroes-we-win",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20",
+      "descriptionSummary": "구단 2026 공식 목록에서 우리가 승리한다를 22:00에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 플레이리스트를 직관 예습용으로 사용하며 전체 팀곡의 타임라인을 댓글로 재공유한다.",
+        "기존 곡 누락 지적과 구단 콘텐츠 운영에 대한 요구가 함께 나타난다."
+      ],
+      "supports": ["currentCatalog2026", "officialPlaylist", "chapter22:00"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-we-win-2025-official",
+      "songId": "kiwoom-heroes-we-win",
+      "url": "https://www.youtube.com/watch?v=phqdZsLhyJ8",
+      "videoId": "phqdZsLhyJ8",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 직관 가기 전 필수 예습 코스⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2025-06-30",
+      "descriptionSummary": "2025 시즌 추가곡까지 반영한 공식 목록이며 우리가 승리한다를 24:12에 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관에서 가사를 볼 수 있도록 전광판 안내를 강화해 달라는 요청이 반복된다.",
+        "팬과 타 팀 팬 모두 팀 응원가의 완성도를 높게 평가하며 예습·귀가·운동 때 플레이리스트를 듣는다고 말한다."
+      ],
+      "supports": ["officialCatalog2025", "chapter24:12", "fanLearning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-we-win-2024-official",
+      "songId": "kiwoom-heroes-we-win",
+      "url": "https://www.youtube.com/watch?v=OjoYnwcZMOI",
+      "videoId": "OjoYnwcZMOI",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 안그래도 뜨거운 가슴🔥 더 뜨겁게 달궈줄 응원가 플레이리스트 #이걸로_직관준비_끝",
+      "channel": "키움히어로즈",
+      "publishedAt": "2024-04-04",
+      "descriptionSummary": "2024 공식 팀 응원가 목록에서 우리가 승리한다를 16:31에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 응원가 모음을 반기며 러닝이나 직관 준비에 반복 재생한다는 반응이 있다.",
+        "팀 성적이 힘든 시기에도 다시 일어나자는 정서로 응원가를 찾는 팬 반응이 이어진다."
+      ],
+      "supports": ["officialCatalog2024", "chapter16:31", "fanReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-we-win-topic",
+      "songId": "kiwoom-heroes-we-win",
+      "url": "https://www.youtube.com/watch?v=-alWc0xcFRw",
+      "videoId": "-alWc0xcFRw",
+      "title": "우리가 승리한다",
+      "channel": "Crying Nut - Topic",
+      "publishedAt": "2026-01-13",
+      "descriptionSummary": "유통사 제공 자동 생성 음원으로 2021-05-25 발매, 키움증권 기획, 크라잉넛 가창과 이민휘·크라잉넛의 세부 크레딧을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["commercialAudio", "releaseDate", "credits", "rightsHolderMetadata"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-we-win-2022-playlist",
+      "songId": "kiwoom-heroes-we-win",
+      "url": "https://www.youtube.com/watch?v=Guhl3ABtyZY",
+      "videoId": "Guhl3ABtyZY",
+      "title": "[Playlist] 2022 키움 히어로즈 등장곡&응원가",
+      "channel": "채욘",
+      "publishedAt": "2022-09-12",
+      "descriptionSummary": "2022 야수·팀 응원가 모음에서 우리가 승리한다를 15:24에, 같은 싱글의 오 키움을 17:10에 연속 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "키움 응원가를 모두 좋은 곡으로 평가하고 경기장에 가고 싶다는 반응이 있다.",
+        "제작자가 이후 공동 안타송까지 보강한 새 버전 링크를 안내한다."
+      ],
+      "supports": ["catalog2022", "chapter15:24", "releasePairSequence"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-we-win-2022-study",
+      "songId": "kiwoom-heroes-we-win",
+      "url": "https://www.youtube.com/watch?v=Or3O2dxttkc",
+      "videoId": "Or3O2dxttkc",
+      "title": "키움 히어로즈 응원가 모음",
+      "channel": "sw3959",
+      "publishedAt": "2022-05-23",
+      "descriptionSummary": "구단 홈페이지를 출처로 외우기 위해 만든 2022 모음이며 우리가 승리한다를 08:51에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "히어로즈를 응원하는 짧은 격려 반응이 있다."
+      ],
+      "supports": ["catalog2022", "officialPageReuse", "fanStudyUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-oh-kiwoom-2026-official",
+      "songId": "kiwoom-heroes-oh-kiwoom",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20",
+      "descriptionSummary": "2026 구단 공식 목록에서 오 키움·키움히어로즈를 23:47에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬이 전체 타임라인을 댓글로 재정리해 곡의 위치를 다시 확인할 수 있다.",
+        "공식 목록에 빠진 옛곡을 지적하는 반응도 있어 목록 범위 해석에 주의가 필요하다."
+      ],
+      "supports": ["currentCatalog2026", "officialPlaylist", "chapter23:47"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-oh-kiwoom-2025-official",
+      "songId": "kiwoom-heroes-oh-kiwoom",
+      "url": "https://www.youtube.com/watch?v=phqdZsLhyJ8",
+      "videoId": "phqdZsLhyJ8",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 직관 가기 전 필수 예습 코스⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2025-06-30",
+      "descriptionSummary": "2025 공식 목록에서 오 키움·키움 히어로즈를 25:57에 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "현장에서 가사를 따라 부르기 어렵다며 전광판 가사 표출을 요청하는 반응이 반복된다.",
+        "직관 전 잊은 응원가를 복습하는 자료로 활용한다는 반응이 있다."
+      ],
+      "supports": ["officialCatalog2025", "chapter25:57", "fanLearning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-oh-kiwoom-2024-official",
+      "songId": "kiwoom-heroes-oh-kiwoom",
+      "url": "https://www.youtube.com/watch?v=OjoYnwcZMOI",
+      "videoId": "OjoYnwcZMOI",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 안그래도 뜨거운 가슴🔥 더 뜨겁게 달궈줄 응원가 플레이리스트 #이걸로_직관준비_끝",
+      "channel": "키움히어로즈",
+      "publishedAt": "2024-04-04",
+      "descriptionSummary": "2024 구단 공식 팀곡 목록에서 오 키움 히어로즈를 15:13에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "타 팀 팬도 키움의 팀 응원가를 높게 평가하고 반복해서 듣는다는 반응이 있다.",
+        "팬들은 시즌의 부침과 무관하게 플레이리스트에서 재도전의 정서를 얻는다고 말한다."
+      ],
+      "supports": ["officialCatalog2024", "chapter15:13", "crossTeamReception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-oh-kiwoom-topic",
+      "songId": "kiwoom-heroes-oh-kiwoom",
+      "url": "https://www.youtube.com/watch?v=P61Q2hhs7VI",
+      "videoId": "P61Q2hhs7VI",
+      "title": "오 키움, 키움히어로즈",
+      "channel": "Crying Nut - Topic",
+      "publishedAt": "2026-01-13",
+      "descriptionSummary": "유통사 제공 자동 생성 음원으로 2021-05-25 발매, 키움증권 기획, 크라잉넛 가창과 이민휘·크라잉넛의 크레딧을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["commercialAudio", "releaseDate", "credits", "rightsHolderMetadata"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-oh-kiwoom-2021-new",
+      "songId": "kiwoom-heroes-oh-kiwoom",
+      "url": "https://www.youtube.com/watch?v=0jdJB4YOtP8",
+      "videoId": "0jdJB4YOtP8",
+      "title": "키움 신규 응원가 '오 키움, 키움 히어로즈'",
+      "channel": "키움직관러",
+      "publishedAt": "2021-04-15",
+      "descriptionSummary": "정식 음원 발매 전인 2021년 4월 현장에서 크라잉넛 가창의 신규 응원가로 촬영했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "가사를 받아 적은 반응과 과거 샌즈 선수 응원가를 개사한 것처럼 들린다는 청감상 비교가 있다."
+      ],
+      "supports": ["fieldUseBeforeRelease", "newSong2021", "fanResemblanceClaim"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-oh-kiwoom-2025-field",
+      "songId": "kiwoom-heroes-oh-kiwoom",
+      "url": "https://www.youtube.com/watch?v=0v8YpC5haUw",
+      "videoId": "0v8YpC5haUw",
+      "title": "키움 히어로즈 응원가 오 키움! 키움 히어로즈 (0501)",
+      "channel": "윤병호",
+      "publishedAt": "2025-05-12",
+      "descriptionSummary": "2025년 5월 1일로 표시된 현장에서 1분 16초 길이로 곡 전체를 촬영했다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2025", "fullCheerLength"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-oh-kiwoom-2023-cheer",
+      "songId": "kiwoom-heroes-oh-kiwoom",
+      "url": "https://www.youtube.com/watch?v=Me1w0bykCF4",
+      "videoId": "Me1w0bykCF4",
+      "title": "230824 키움히어로즈 이예빈 치어리더 응원가 - 오 키움, 키움 히어로즈",
+      "channel": "huny cam_후니",
+      "publishedAt": "2023-08-24",
+      "descriptionSummary": "2023년 8월 24일 치어리더 안무와 곡 진행을 함께 기록한 현장 직캠이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2023", "cheerDance", "performanceForm"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-oh-kiwoom-2024-cheer",
+      "songId": "kiwoom-heroes-oh-kiwoom",
+      "url": "https://www.youtube.com/watch?v=VKs3NJ7rR34",
+      "videoId": "VKs3NJ7rR34",
+      "title": "김하나 치어리더 응원가 - 오 키움, 키움히어로즈 (키움히어로즈 240829)",
+      "channel": "huny cam_후니",
+      "publishedAt": "2024-08-30",
+      "descriptionSummary": "2024년 8월 29일 치어리더 안무와 관중 콜을 기록한 1분 7초 현장 직캠이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["fieldUse2024", "cheerDance", "performanceContinuity"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-love-kiwoom-2026-official",
+      "songId": "kiwoom-heroes-love-kiwoom",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20",
+      "descriptionSummary": "2026 구단 공식 목록에서 사랑한다 키움을 20:13에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬이 전체 타임라인을 다시 제공해 곡의 위치와 표기를 교차 확인할 수 있다.",
+        "공식 목록 공개를 반기면서도 구단 콘텐츠 운영과 누락곡에 대한 요구가 이어진다."
+      ],
+      "supports": ["currentCatalog2026", "officialPlaylist", "chapter20:13"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-love-kiwoom-2025-official",
+      "songId": "kiwoom-heroes-love-kiwoom",
+      "url": "https://www.youtube.com/watch?v=phqdZsLhyJ8",
+      "videoId": "phqdZsLhyJ8",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 직관 가기 전 필수 예습 코스⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2025-06-30",
+      "descriptionSummary": "2025 구단 공식 목록에서 사랑한다 키움을 22:26에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관에서 가사를 함께 부르기 위해 전광판 안내가 필요하다는 요청이 많다.",
+        "팬들은 경기장에 가지 못할 때도 공식 목록으로 응원가를 복습한다고 말한다."
+      ],
+      "supports": ["officialCatalog2025", "chapter22:26", "fanLearning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-love-kiwoom-2024-official",
+      "songId": "kiwoom-heroes-love-kiwoom",
+      "url": "https://www.youtube.com/watch?v=OjoYnwcZMOI",
+      "videoId": "OjoYnwcZMOI",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 안그래도 뜨거운 가슴🔥 더 뜨겁게 달궈줄 응원가 플레이리스트 #이걸로_직관준비_끝",
+      "channel": "키움히어로즈",
+      "publishedAt": "2024-04-04",
+      "descriptionSummary": "2024 구단 공식 팀곡 목록에서 사랑한다 키움을 25:10에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 응원가 영상이 생긴 것을 반기며 운동·직관 준비에 반복 재생한다는 반응이 있다.",
+        "힘든 시즌에도 팀을 포기하지 않고 응원가로 마음을 다잡는 팬 반응이 이어진다."
+      ],
+      "supports": ["officialCatalog2024", "chapter25:10", "fanLoyalty"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-love-kiwoom-topic",
+      "songId": "kiwoom-heroes-love-kiwoom",
+      "url": "https://www.youtube.com/watch?v=FToN5S_Hg4g",
+      "videoId": "FToN5S_Hg4g",
+      "title": "사랑한다 키움",
+      "channel": "Release - Topic",
+      "publishedAt": "2026-01-13",
+      "descriptionSummary": "유통사 제공 자동 생성 음원으로 2021-05-25 발매, 키움증권 기획, 김상우 가창과 이민휘·이해준의 크레딧을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["commercialAudio", "releaseDate", "credits", "rightsHolderMetadata"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-love-kiwoom-2026-fan-a",
+      "songId": "kiwoom-heroes-love-kiwoom",
+      "url": "https://www.youtube.com/watch?v=cBzazXQxdMI",
+      "videoId": "cBzazXQxdMI",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 2026.03ver. 키움 히어로즈 선수&팀응원가 (신규 응원가 포함)",
+      "channel": "석민대디",
+      "publishedAt": "2026-03-27",
+      "descriptionSummary": "2026년 3월 팬 정리본이 사랑한다 키움을 35:06에 수록하고 신규 팀곡까지 포함한 전체 타임라인을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 목록에 없는 곡까지 들을 수 있어 고맙다는 반응과 직관 전 외우는 데 도움이 된다는 반응이 있다.",
+        "힘든 팀 성적 속에서도 오래 응원해 온 팬의 복합적인 애정이 드러난다."
+      ],
+      "supports": ["fanCatalog2026", "chapter35:06", "fanStudyUse"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kiwoom-b-love-kiwoom-2026-fan-b",
+      "songId": "kiwoom-heroes-love-kiwoom",
+      "url": "https://www.youtube.com/watch?v=KFnGYWBCI4k",
+      "videoId": "KFnGYWBCI4k",
+      "title": "2026 🦸키움 히어로즈 PLAYLIST⚾️ (신규응원가 포함, 끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-04-04",
+      "descriptionSummary": "2026 등장곡·선수곡·팀곡 팬 목록에서 사랑한다 키움을 36:53에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "편집과 곡 배열을 높게 평가하며 팀의 순위 회복과 우승을 바라는 반응이 있다.",
+        "선수 등장곡과 타임라인의 세부 오류를 서로 보완하는 댓글도 남아 있다."
+      ],
+      "supports": ["fanCatalog2026", "chapter36:53", "fanReception"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 33,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

@@ -1,0 +1,1254 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kia-b",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kia-tigers",
+    "name": "KIA 타이거즈",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 상업 음원 개사곡과 구단 응원곡은 원곡·크레딧·구조·사용 이력만 요약하고, 전체 가사는 권리자 허락 또는 사용자 제공이 확인된 뒤 별도 처리한다. 공개 댓글은 작성자를 식별하지 않고 곡의 수용·현장 경험과 관련된 반복 반응만 재서술한다.",
+  "items": [
+    {
+      "id": "kia-tigers-for-strongest-kia",
+      "title": "최강 KIA를 위해",
+      "aliases": ["최강기아를 위해", "최강 기아를 위해"],
+      "currentStatus": "current-official-third-inning-event-and-situational-2026",
+      "summary": "2013시즌부터 사용한 것으로 정리되는 비장한 록 계열 팀 응원가다. 현행 나무위키는 SBS ESPN 프로야구 삽입곡 ‘전력질주’를 부른 밴드 더 크랙이 이 곡을 커버했다고 설명하지만, 이는 가창·커버 정보이지 작사·작곡 크레딧은 아니다. 2013년 6월 10일 단독 업로드가 같은 해 사용을 직접 보강하고, 구단의 2024·2026 공식 전체 모음에도 연속 수록돼 현행성이 확실하다. 초기에는 8회 KIA 공격을 여는 곡이었으나 ‘광주의 함성’ 계열 도입 뒤 그 자리를 내주고 현재는 주로 3회 이벤트, 때때로 마운드 방문이나 경기 흐름상 메들리에서 쓰인다. 팬 반응은 웅장함과 록 보컬을 장점으로 꼽는 한편 높은 음역 때문에 떼창 난도가 높다고 본다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2013",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-strong-archive-2013"],
+          "notes": "현행 문서의 시즌 기록과 2013-06-10 단독 응원가 업로드가 일치한다. 정확한 첫 경기일은 확인되지 않았다."
+        },
+        {
+          "field": "recordedVocalOrCover",
+          "value": "더 크랙(The Crack)이 커버한 것으로 알려짐",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers"],
+          "notes": "나무위키는 더 크랙을 SBS ESPN 삽입곡 ‘전력질주’의 가창 밴드이자 이 곡의 커버 주체로 소개한다. 작사·작곡자로 확대 해석하지 않는다."
+        },
+        {
+          "field": "historicalUsage",
+          "value": "‘최강 KIA 타이거즈’/‘광주의 함성’ 계열이 나오기 전 8회 KIA 공격 시작곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers"],
+          "notes": "8회 대표곡의 교체 시점은 ‘광주의 함성’의 2017 도입 전후로 추정되나 정확한 경기 단위 전환일은 미확인이다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "주로 3회 이벤트, 가끔 마운드 방문; 경기 흐름에 따라 후반 메들리에도 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-strong-official-2024", "yt-kia-b-strong-medley-2025", "yt-kia-b-strong-official-2026"],
+          "notes": "문서의 고정 운용 설명과 구단 공식 모음, 2025년 8회 대량득점 뒤 메들리 표본을 구분해 기록한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 응원가 총정리 17:43 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-b-strong-official-2026"],
+          "notes": "구단 공식 채널이 제목과 안무를 직접 제시한다."
+        },
+        {
+          "field": "creatorCredits",
+          "value": "작사·작곡·편곡 및 최초 녹음 제작 크레딧 미확인",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-strong-official-2024", "yt-kia-b-strong-official-2026"],
+          "notes": "확인한 공식 영상 설명과 문서는 더 크랙의 커버 사실 외에 완전한 제작진을 제공하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "현재 홈 응원 운영에서는 3회 공수교대 이벤트의 안무·합창곡으로 주로 쓰인다.",
+        "투수·포수가 잠시 마운드에서 상의하는 동안 응원 흐름을 잇는 상황곡으로도 나온다.",
+        "과거에는 8회 공격 시작의 대표곡이었지만 이후 ‘광주의 함성’ 계열이 그 역할을 맡으며 배치가 바뀌었다.",
+        "2025년 7월 5일 큰 점수 차로 앞선 8회에는 파도타기 뒤 여러 대표곡과 함께 메들리로 불려, 현재도 경기 분위기에 따라 후반에 유동적으로 재등장한다."
+      ],
+      "trivia": [
+        {
+          "id": "strong-the-crack-credit-caution",
+          "summary": "더 크랙은 이 곡의 ‘커버’ 주체로 기록될 뿐 창작자로 확인된 것은 아니다. 팬 자료에서 가수·편곡자·작곡가가 한꺼번에 혼동되기 쉬운 사례다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers"]
+        },
+        {
+          "id": "strong-high-key-reception",
+          "summary": "팬과 타 팀 팬 댓글에서는 웅장하고 중독성 강한 록 응원가라는 호평이 반복되지만, 실제로 따라 부르기에는 음역이 높다는 반응도 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-b-strong-archive-2013", "yt-kia-b-strong-mv-2020"]
+        },
+        {
+          "id": "strong-championship-revisits",
+          "summary": "오래된 음원·MV 댓글에는 우승 시즌을 회고하거나 V12·V13을 기원하며 다시 찾았다는 반응이 쌓여, 단순한 상황곡 이상으로 왕조 기억과 연결된다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kia-b-strong-archive-2013", "yt-kia-b-strong-mv-2020"]
+        },
+        {
+          "id": "strong-eighth-inning-flexibility",
+          "summary": "고정 8회 시작곡 역할은 사라졌지만 2025년 큰 리드 상황의 8회 메들리에 포함됐다. 역사적 고정 배치와 현행 유동적 재사용을 구분해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-strong-medley-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted team anthem/cover recording; authorship and lyric redistribution permission not confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=l7XROs9lYSo&t=1063s",
+          "https://www.youtube.com/watch?v=EBXYYrsEqvY",
+          "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "제목을 앞세운 짧은 승리 선언 두 줄을 먼저 두 차례 제시하고, 간주 뒤 가슴에 팀명과 정체성을 새기라는 서술형 절, 열정·합창을 촉구하는 연결구, 같은 제목 후렴의 반복으로 확장한다. 후반은 전반 재료를 재현해 관중이 짧은 구호와 긴 록 보컬을 번갈아 받도록 짜였다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-b-strong-archive-2013",
+        "yt-kia-b-strong-mv-2020",
+        "yt-kia-b-strong-cheerleader-2024",
+        "yt-kia-b-strong-field-2024",
+        "yt-kia-b-strong-official-2024",
+        "yt-kia-b-strong-medley-2025",
+        "yt-kia-b-strong-repeat-2026",
+        "yt-kia-b-strong-official-2026"
+      ],
+      "unresolved": [
+        "2013년 최초 공개·경기장 사용일과 당시 구단 또는 응원단 공지",
+        "작사·작곡·편곡·원가창·커버 녹음의 전체 제작 크레딧",
+        "더 크랙 커버 음원의 공식 발매 여부와 권리 관계",
+        "2026 홈·원정에서 3회 이벤트와 마운드 방문에 실제로 쓰이는 빈도"
+      ]
+    },
+    {
+      "id": "kia-tigers-kiareul-eungwonhara",
+      "title": "KIA를 응원하라",
+      "aliases": ["기아를 응원하라", "KIA를 응원하라!", "핸드폰 플래시 응원"],
+      "currentStatus": "current-core-official-phone-flash-cheer-2026",
+      "summary": "Andrea Bocelli의 1995년 곡 ‘Con te partirò’ 선율을 바탕으로 한 대형 합창 응원가다. 현행 나무위키는 2011~2012시즌부터 불렀다고 적지만, 현재 확보한 가장 이른 날짜 특정 단독 영상은 2013년 6월 10일이므로 정확한 도입 연도는 미확정으로 남긴다. 고려대학교의 ‘고대를 노래하라’와 같은 편곡 계열을 공유한다는 기록이 있으나 어느 쪽이 다른 쪽을 직접 차용했는지까지는 단정하지 않는다. 현재 7~8회에 휴대전화 플래시를 켜고 부르는 대표 장관곡이며, 극적인 역전·추격이나 상대 투수 교체처럼 흐름이 크게 바뀌는 순간에도 나온다. 구단의 2024 공식 영상은 제목에 플래시 응원을 직접 명시했고 2026 공식 총정리에도 수록됐다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "Andrea Bocelli — Con te partirò",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "ev-kia-b-bocelli-apple", "yt-kia-b-support-archive-2013"],
+          "notes": "Apple Music은 Andrea Bocelli, 1995년, Francesco Sartori·Lucio Quarantotto 및 편곡 크레딧을 제공한다. 응원단판 개사·편곡자는 별개로 미확인이다."
+        },
+        {
+          "field": "reportedIntroductionYear",
+          "value": "2011~2012 시즌부터 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers"],
+          "notes": "나무위키의 범위형 서술이다. 동시대 구단 공지나 날짜 특정 2011·2012 현장 원본을 이번 조사에서 확보하지 못했다."
+        },
+        {
+          "field": "earliestDirectlyDocumentedUse",
+          "value": "2013-06-10 온라인 단독 응원가 영상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-b-support-archive-2013"],
+          "notes": "이는 확인된 가장 이른 온라인 표본이지 경기장 최초 사용일을 뜻하지 않는다. 기존 승인 데이터의 2013년 추정 근거다."
+        },
+        {
+          "field": "sharedArrangementLineage",
+          "value": "고려대학교 ‘고대를 노래하라’와 같은 원곡·편곡 계열을 공유",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-support-cbo-2023"],
+          "notes": "같은 편곡을 공유한다는 점만 기록한다. KIA가 고려대를 차용했는지, 반대인지, 공통 제3 편곡을 쓴 것인지는 확정하지 않는다. ‘고대를 응원하라’라는 변형 제목도 팬 자료에서 보인다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "7~8회 휴대전화 플래시 합창; 극적인 추격·역전 또는 상대 투수 교체 때도 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-support-official-2024", "yt-kia-b-support-field-2024", "yt-kia-b-support-field-2025"],
+          "notes": "구단 공식 2024 장 제목과 2024·2025 현장 표본이 플래시 운용을 직접 보여 준다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024·2026 구단 공식 응원가 모음에 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-b-support-official-2024", "yt-kia-b-support-official-2026"],
+          "notes": "2026 공식 영상에서는 23:12에 시작한다."
+        },
+        {
+          "field": "titleCapitalization",
+          "value": "공식 2026 표기 ‘KIA를 응원하라’; 2024 및 오래된 업로드에는 ‘기아를 응원하라’도 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-b-support-official-2024", "yt-kia-b-support-official-2026", "yt-kia-b-support-archive-2013"],
+          "notes": "곡이 다른 것이 아니라 브랜드명 표기 변화·혼용이다. 인벤토리 제목인 영문 대문자 표기를 기본값으로 둔다."
+        }
+      ],
+      "usageContexts": [
+        "야간 경기 후반 7~8회에 관중이 휴대전화 플래시를 켜고 좌우로 흔들며 대형 합창을 만든다.",
+        "경기 흐름이 급격히 좋아진 추격·역전 직후 감정을 길게 끌어올리는 곡으로 사용된다.",
+        "상대 투수가 교체되는 긴 공백에도 장엄한 전주와 반복 합창으로 응원 흐름을 유지한다.",
+        "홈 광주뿐 아니라 수도권 원정에서도 넓은 원정석의 플래시가 함께 켜지는 현장 표본이 확인된다."
+      ],
+      "trivia": [
+        {
+          "id": "support-shared-korea-university-arrangement",
+          "summary": "고려대학교의 ‘고대를 노래하라’도 같은 ‘Con te partirò’ 계열 편곡을 쓴다고 알려져 양쪽 팬이 서로의 버전을 알아보는 댓글이 반복된다. 직접 차용 방향은 이번 자료만으로 확정하지 않는다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-support-cbo-2023", "yt-kia-b-support-field-2024"]
+        },
+        {
+          "id": "support-flash-spectacle",
+          "summary": "공개 댓글은 음원 자체보다 응원석 전체가 휴대전화 불빛으로 이어지는 장관과 원정에서도 퍼지는 불빛을 자주 언급한다. 곡의 현행 별칭과 대표 연출이 결합된 사례다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-b-support-mv-2022", "yt-kia-b-support-field-2024", "yt-kia-b-support-field-2025"]
+        },
+        {
+          "id": "support-comeback-emotion",
+          "summary": "팬 반응에서는 역전 직후 경기장에서 들을 때 가장 벅찬 응원가, 타 팀 팬도 인정하는 장엄한 곡이라는 평가가 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-b-support-archive-2013", "yt-kia-b-support-mv-2022"]
+        },
+        {
+          "id": "support-two-chronologies",
+          "summary": "문서에는 2011~2012 도입설이 있지만 공개 날짜가 확실한 초기 단독 표본은 2013년이다. 보고된 도입 범위와 직접 확인 연도를 별도 필드로 보존했다.",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-support-archive-2013"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of Andrea Bocelli's Con te partirò; adaptation, arrangement, and recording rights unknown",
+        "sourceUrls": [
+          "https://music.apple.com/br/song/1440840587",
+          "https://www.youtube.com/watch?v=l7XROs9lYSo&t=1392s",
+          "https://www.youtube.com/watch?v=Wivyv50vsrk",
+          "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡의 길게 상승하는 성악 선율 위에 무가사 ‘오’ 합창을 먼저 배치하고, 현재 순간의 열정과 팀 응원을 선언하는 짧은 한국어 본문을 붙인다. 같은 두 블록을 반복해 휴대전화 불빛을 오래 유지할 수 있게 하며, 빠른 구호보다 장음·호흡·군중 화음이 중심이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-b-support-archive-2013",
+        "yt-kia-b-support-field-2015",
+        "yt-kia-b-support-mv-2022",
+        "yt-kia-b-support-cbo-2023",
+        "yt-kia-b-support-official-2024",
+        "yt-kia-b-support-field-2024",
+        "yt-kia-b-support-field-2025",
+        "yt-kia-b-support-official-2026"
+      ],
+      "unresolved": [
+        "2011~2012 도입설을 직접 입증하는 날짜 특정 구단 공지·현장 원본",
+        "정확한 최초 경기장 사용일과 도입을 주도한 응원단 관계자",
+        "한국어 개사자·응원단 편곡자·녹음 가창자 및 이용 허락 범위",
+        "고려대학교판과 KIA판의 편곡 선후·직접 차용 관계",
+        "2026 정규시즌에서 7회와 8회 중 어느 상황을 우선하는지에 대한 공식 운영표"
+      ]
+    },
+    {
+      "id": "kia-tigers-butterfly",
+      "title": "버터플라이",
+      "aliases": ["Butterfly", "기아 버터플라이", "버터플라이 응원"],
+      "currentStatus": "current-short-situational-fan-documented-2026-official-playlist-omission",
+      "summary": "덴마크 그룹 SMiLE.dk가 1998년 발표한 ‘Butterfly’의 초반 선율을 짧게 쓴 상황 응원이다. 현행 나무위키는 2001년부터 사용했다고 기록하며, 확보한 가장 오래된 실제 경기 표본은 2011년 준플레이오프 장면을 후대에 올린 영상이다. 안타·홈런·볼넷, 호수비·병살처럼 KIA에 유리한 짧은 사건 직후 폭넓게 쓰이고, 기분이 좋을 때 넣는 성공 효과음에 가까운 성격도 있다. 과거 네 단위까지 길게 이어지던 구성이 현재는 보통 한 단위만 짧게 재생되는 것으로 정리된다. 2026 구단 공식 ‘총정리’ 장 목록에는 빠졌으나 2026 팬 현행 목록과 2026 응원가 연구 채널의 원음형 표본에는 남아 있어 저빈도 상황곡으로 판정하되 실제 경기 사용일은 추가 확인이 필요하다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "SMiLE.dk — Butterfly",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "ev-kia-b-smiledk-apple", "yt-kia-b-butterfly-original-version-2026"],
+          "notes": "Apple Music은 1998-07-13 발표된 SMiLE.dk의 곡을 확인한다. 응원가는 특히 원곡 초반의 즉시 알아볼 수 있는 짧은 선율을 쓴다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2001",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers"],
+          "notes": "현행 나무위키 단독 연도다. 2001년 당시의 구단 자료나 현장 영상은 이번 조사에서 찾지 못했다."
+        },
+        {
+          "field": "earliestDirectlyDocumentedEvent",
+          "value": "2011년 준플레이오프 1차전 현장 장면",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kia-b-butterfly-2011-event"],
+          "notes": "영상은 2025년에 업로드됐으나 제목과 화면이 2011 준플레이오프 경기 장면임을 특정한다. 원본 촬영일 메타데이터는 없다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "안타·홈런·볼넷·호수비·병살 등 성공 직후 또는 좋은 분위기의 짧은 효과성 응원",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-butterfly-away-2018", "yt-kia-b-butterfly-outcount-2023"],
+          "notes": "상황 범위가 넓고 짧아서 고정 이닝곡과 구별된다."
+        },
+        {
+          "field": "currentForm",
+          "value": "과거 긴 반복 대신 현재는 보통 한 개의 짧은 단위만 사용",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-butterfly-original-version-2026"],
+          "notes": "2026 원음형 연구 영상도 약 30초 길이의 짧은 단위를 제공하지만 실제 경기별 반복 횟수는 상황에 따라 달라질 수 있다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 팬 제작 현행 전체 목록에는 수록되나 구단 공식 2026 장 목록에는 미수록",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kia-b-butterfly-playlist-2026", "yt-kia-b-butterfly-original-version-2026", "yt-kia-b-strong-official-2026"],
+          "notes": "팬 목록과 응원가 연구 영상은 현행 레퍼토리임을 지지하지만, 2026 날짜 특정 경기장 표본이 없어 공식 고정곡만큼 강하게 판정하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "타자가 안타·홈런을 치거나 볼넷으로 출루한 직후 짧은 성공 알림처럼 재생된다.",
+        "호수비·병살 등 수비에서 좋은 결과가 나왔을 때도 같은 짧은 블록을 붙일 수 있다.",
+        "특정 이닝 전체를 채우는 대표곡이 아니라 응원단이 좋은 분위기에 삽입하는 유동적 상황곡이다.",
+        "현행판은 원곡 초반을 한 차례 짧게 쓰는 경우가 많아 오래된 영상의 긴 반복과 체감 길이가 다르다."
+      ],
+      "trivia": [
+        {
+          "id": "butterfly-long-lived-effect-song",
+          "summary": "2001 도입설이 맞다면 KIA의 현행 레퍼토리 가운데 가장 오래된 축에 속하지만, 고정 이닝곡이 아니라 짧은 효과성 응원이라 구단 공식 전체 모음에서 누락되기 쉽다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-butterfly-playlist-2026"]
+        },
+        {
+          "id": "butterfly-other-sports-use",
+          "summary": "현행 문서는 같은 원곡이 일본 프로야구 요미우리 자이언츠와 한국 프로농구 원주 DB에서도 쓰인다고 기록한다. 각 팀의 도입 시점과 동일 편곡 여부는 이번 배치에서 전수 확인하지 않았다.",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-kia-b-namu-cheers"]
+        },
+        {
+          "id": "butterfly-nostalgia",
+          "summary": "2011 준플레이오프와 2017 단독 표본 댓글에는 오래된 클래식 응원가를 다시 듣는다는 회고가 나타나며, 짧은 길이에도 세대 기억을 강하게 자극한다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kia-b-butterfly-2011-event", "yt-kia-b-butterfly-archive-2017"]
+        },
+        {
+          "id": "butterfly-four-to-one-unit",
+          "summary": "문서 기록상 과거에는 짧은 선율을 여러 단위 이어 부르기도 했으나 현재는 한 단위만 쓰는 경우가 일반적이다. 같은 곡의 영상 길이가 크게 다른 이유다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-butterfly-original-version-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of SMiLE.dk's Butterfly; adaptation and recording permissions not confirmed",
+        "sourceUrls": [
+          "https://music.apple.com/dk/song/944330909",
+          "https://www.youtube.com/watch?v=XxmxW4y1PwU",
+          "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡 도입부의 빠르고 밝은 전자음 선율에 팀명과 짧은 성공 구호를 얹는 초단형 구조다. 긴 벌스나 서사가 없고 한 번의 호출·응답만으로도 끝낼 수 있으며, 과거에는 같은 단위를 여러 번 이어 썼지만 현재는 대체로 한 단위로 축약한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-b-butterfly-2011-event",
+        "yt-kia-b-butterfly-archive-2017",
+        "yt-kia-b-butterfly-away-2018",
+        "yt-kia-b-butterfly-outcount-2023",
+        "yt-kia-b-butterfly-repeat-2025",
+        "yt-kia-b-butterfly-playlist-2026",
+        "yt-kia-b-butterfly-original-version-2026"
+      ],
+      "unresolved": [
+        "2001년 최초 도입을 입증하는 동시대 구단·응원단 자료",
+        "KIA판 개사·편집·녹음 제작자와 원곡 이용 허락 범위",
+        "2026 날짜 특정 정규시즌 경기에서의 직접 사용 표본과 실제 빈도",
+        "현재 한 단위 사용이 공식 운영 규칙인지 응원단의 상황별 관행인지"
+      ]
+    },
+    {
+      "id": "kia-tigers-always-victorious",
+      "title": "언제나 승리하리",
+      "aliases": ["소나무송", "머진송", "KIA 투수 교체곡"],
+      "currentStatus": "current-pitching-change-fan-documented-2026-official-playlist-omission",
+      "summary": "독일 노래 ‘O Tannenbaum’의 널리 알려진 선율을 팀 승리 구호로 바꾼 짧은 투수 교체·마운드 방문곡이다. 한국에서는 동요 ‘소나무야’와 같은 선율로도 익숙하다. 현행 나무위키는 2016시즌 도입으로 기록하며, 현재 확보한 날짜가 분명한 단독 표본은 2019년부터 이어진다. 코치·포수가 마운드에 올라갈 때, 투수 교체가 길어질 때, 기타 공백을 메울 때 부른다. 이대진 투수코치가 비판받던 시기에는 좋지 않은 교체 상황과 결합해 ‘머진송’이라는 냉소적 별칭도 생겼다. 2026 구단 공식 총정리에는 빠졌지만 같은 해 팬 제작 현행 목록에는 수록돼 상황곡으로 남은 것으로 보며, 2026 현장 직접 표본은 추가 확인 대상으로 둔다.",
+      "claims": [
+        {
+          "field": "melodySource",
+          "value": "독일 노래 O Tannenbaum의 선율; 한국에서 ‘소나무야’로도 알려짐",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "ev-kia-b-o-tannenbaum-loc", "yt-kia-b-always-audio-2019"],
+          "notes": "단일 현대 상업 음원을 원곡으로 삼은 경우가 아니라 여러 언어와 편곡으로 전승된 오래된 선율 계열이다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2016",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers"],
+          "notes": "동시대 구단 공지 또는 2016 날짜 특정 원본을 찾지 못해 문서 보고값으로 둔다."
+        },
+        {
+          "field": "earliestDirectOnlineSample",
+          "value": "2019-06-28 단독 응원가 영상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-b-always-audio-2019"],
+          "notes": "최초 사용일이 아니라 이번 조사에서 확인한 가장 이른 공개 표본이다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "코치·포수의 마운드 방문, 투수 교체, 기타 경기 중 공백을 메우는 합창",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-always-audio-2019", "yt-kia-b-always-pitching-medley-2024", "yt-kia-b-always-pitching-set-2024"],
+          "notes": "여러 영상 제목이 이 곡을 투수 교체곡 묶음으로 직접 분류한다."
+        },
+        {
+          "field": "nickname",
+          "value": "이대진 투수코치 시절 ‘머진송’으로 불림",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-always-audio-2019"],
+          "notes": "공식 제목이 아니라 당시 투수 운영 비판과 결합한 팬 은어다. 인물 비하 표현을 확대 재생산하지 않고 역사적 별칭만 기록한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 팬 현행 목록 27:50 수록; 구단 공식 2026 장 목록에는 미수록",
+          "assessment": "inferred",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kia-b-always-playlist-2026", "yt-kia-b-strong-official-2026"],
+          "notes": "상황곡이 공식 안무 중심 모음에서 빠졌을 가능성이 있다. 2026 날짜 특정 경기장 사용은 아직 확인하지 못했다."
+        }
+      ],
+      "usageContexts": [
+        "코치나 포수가 마운드로 올라와 투수와 상의하는 동안 관중 합창으로 공백을 채운다.",
+        "투수 교체가 진행되고 새 투수가 준비하는 시간에 다른 교체곡들과 번갈아 쓰인다.",
+        "경기 진행이 멈춘 기타 짧은 대기 시간에도 반복 가능한 필러 곡으로 운용된다.",
+        "팬에게는 멜로디 자체의 친숙함과 별개로 불안한 투수 교체 상황을 알리는 신호처럼 받아들여지기도 한다."
+      ],
+      "trivia": [
+        {
+          "id": "always-not-subway-arrival",
+          "summary": "친숙한 반복 선율과 짧은 전자 반주 때문에 지하철 도착 음악 같다는 농담이 붙었고, 현행 문서는 이를 취소선 여담으로 남긴다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers"]
+        },
+        {
+          "id": "always-mueojin-nickname",
+          "summary": "이대진 투수코치 시절 반복되는 좋지 않은 교체 상황과 결합해 ‘머진송’이라는 팬 은어가 생겼다. 곡의 음악적 기원과는 무관한 특정 시기 수용사다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-always-audio-2019", "yt-kia-b-always-audio-2020"]
+        },
+        {
+          "id": "always-love-hate-reception",
+          "summary": "댓글에서는 노래는 중독적이고 좋지만 대개 투수 교체·위기 때 들려 반갑지 않다는 양가적 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-b-always-audio-2019", "yt-kia-b-always-pitching-set-2024"]
+        },
+        {
+          "id": "always-traditional-melody",
+          "summary": "‘O Tannenbaum’은 다양한 현대 녹음이 존재하지만 이 곡의 계보를 특정 가수의 상업 음원 하나로 환원하기 어렵다. KIA판의 권리는 새 가사·편곡·녹음 단위로 별도 확인해야 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-o-tannenbaum-loc", "ev-kia-b-namu-cheers"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "traditional/public-domain melody lineage; KIA-specific lyrics, arrangement, and recording rights not confirmed",
+        "sourceUrls": [
+          "https://www.loc.gov/nls/services-and-resources/music-service-and-materials/holiday-music-catalog/",
+          "https://www.youtube.com/watch?v=l1gD_KInmgo",
+          "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "익숙한 ‘O Tannenbaum’ 선율 한 단위에 팀명과 승리 선언을 두 번 얹고, 중간에는 말 대신 길게 잇는 군중 음가를 넣은 뒤 처음 문장을 되풀이한다. 짧은 대기 시간이 늘어나면 같은 블록을 반복하기 쉬운 폐쇄형 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-b-always-audio-2019",
+        "yt-kia-b-always-audio-2020",
+        "yt-kia-b-always-pitching-medley-2024",
+        "yt-kia-b-always-pitching-set-2024",
+        "yt-kia-b-always-repeat-2025",
+        "yt-kia-b-always-playlist-2026"
+      ],
+      "unresolved": [
+        "2016년 도입을 직접 입증하는 당시 구단·응원단 자료와 최초 사용일",
+        "KIA판 개사·편곡·녹음 제작자 및 음원 권리 상태",
+        "2026 정규시즌 날짜 특정 경기장에서의 직접 사용 표본",
+        "현재 투수 교체곡 묶음 안에서의 선곡 우선순위와 사용 빈도"
+      ]
+    },
+    {
+      "id": "kia-tigers-kiareul-saranghari",
+      "title": "KIA를 사랑하리",
+      "aliases": ["KIA를 사랑하라", "기아를 사랑하리", "기아를 사랑하라"],
+      "currentStatus": "current-low-frequency-uncertain-official-and-comprehensive-playlist-omission-2026",
+      "summary": "이동기의 1982년 히트곡 ‘논개’를 바탕으로 2016시즌 추가된 것으로 기록되는 짧은 KIA 사랑 구호다. 2024년 팬 제작 투수 교체곡 모음 두 편과 2025년 현행 전체 플레이리스트 두 편에는 수록돼 적어도 최근까지 투수 교체 계열로 인식됐다. 그러나 구단의 2026 공식 ‘총정리’와 2026 팬 제작 종합 목록은 모두 이 곡을 빼고 있으며, 2026년 7월 단독 업로드는 경기장 현장이 아닌 응원가 카탈로그형 영상이다. 따라서 폐지라고 단정하지는 않되 ‘현행 저빈도/불확실’로 판정한다. 인벤토리와 현재 나무위키 제목은 ‘KIA를 사랑하리’지만, 이전 수집·미러에서 나타난 ‘KIA를 사랑하라’도 상충 별칭으로 보존한다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "이동기 — 논개; 작사 이건우, 작곡 이동기",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "ev-kia-b-nongae-bugs", "yt-kia-b-love-pitching-medley-2024"],
+          "notes": "원곡 크레딧과 KIA판 개사·편곡 크레딧을 구분한다. 원곡은 1982년 발표 계열로 확인된다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2016",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers"],
+          "notes": "나무위키 기록이며 동시대 구단 발표나 2016 현장 원본은 이번 조사에서 확보하지 못했다."
+        },
+        {
+          "field": "title",
+          "value": "KIA를 사랑하리",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-love-pitching-medley-2024", "yt-kia-b-love-standalone-2026"],
+          "notes": "현재 나무위키의 절 제목, 인벤토리, 2024·2026 영상 제목이 일치한다."
+        },
+        {
+          "field": "title",
+          "value": "KIA를 사랑하라",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-kia-b-namu-cheers"],
+          "notes": "이전 수집·미러에서 보고된 표기라 별칭으로 보존한다. 2026-08-08에 직접 확인한 현행 나무위키 본문은 ‘사랑하리’이므로 현행 공식 제목으로 간주하지 않는다."
+        },
+        {
+          "field": "recentUsageFamily",
+          "value": "2024 팬 영상에서 ‘언제나 승리하리’, ‘위하여’ 등과 함께 투수 교체곡으로 묶임",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kia-b-love-pitching-medley-2024", "yt-kia-b-love-pitching-set-2024"],
+          "notes": "영상 제목과 장 구성이 사용 계열을 직접 보여 주지만 구단의 공식 운영표는 아니다."
+        },
+        {
+          "field": "currentStatusEvidence",
+          "value": "2025 현행 팬 목록 두 편에는 수록; 2026 구단 공식 총정리와 2026 팬 종합 목록에는 미수록",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kia-b-love-playlist-feb-2025", "yt-kia-b-love-playlist-mar-2025", "yt-kia-b-strong-official-2026", "yt-kia-b-always-playlist-2026"],
+          "notes": "2026 단독 음원형 업로드는 곡의 온라인 존속을 보여 주지만 실제 경기장 사용 증거는 아니다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 현장 사용 직접 확인 불가; 저빈도 존속 또는 사실상 휴지 상태 모두 가능",
+          "assessment": "inferred",
+          "confidence": "low",
+          "evidenceRefs": ["yt-kia-b-love-standalone-2026", "yt-kia-b-strong-official-2026", "yt-kia-b-always-playlist-2026"],
+          "notes": "누락만으로 폐지 처리하지 않고 현행 불확실 상태를 유지한다."
+        }
+      ],
+      "usageContexts": [
+        "2024년 팬 영상 분류에서는 투수 교체 시간이 길어질 때 부르는 짧은 곡 묶음에 포함된다.",
+        "원곡 후렴의 반복감을 이용해 팀에 대한 사랑과 영속성을 짧게 외치는 형태다.",
+        "2025 현행 팬 플레이리스트에는 후반 팀 응원가 구간에 수록됐지만 2026 공식·팬 종합 목록에서는 모두 누락됐다.",
+        "2026 단독 업로드는 음원형 카탈로그 표본이어서 실제 홈·원정 경기 사용을 입증하지는 않는다."
+      ],
+      "trivia": [
+        {
+          "id": "love-title-conflict",
+          "summary": "‘사랑하리’와 ‘사랑하라’가 혼용됐으나 현재 직접 확인 가능한 나무위키 절 제목과 최근 영상은 ‘KIA를 사랑하리’를 쓴다. 검색 누락을 막기 위해 두 표기를 모두 별칭 인덱스에 남긴다.",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-namu-cheers", "yt-kia-b-love-standalone-2026"]
+        },
+        {
+          "id": "love-pitching-change-family",
+          "summary": "2024 팬 편집물 두 편이 이 곡을 ‘언제나 승리하리’, ‘위하여’ 등과 한 묶음으로 구성해, 독립 대표곡보다 투수 교체 시간의 짧은 레퍼토리로 기억되는 양상을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kia-b-love-pitching-medley-2024", "yt-kia-b-love-pitching-set-2024"]
+        },
+        {
+          "id": "love-original-wordplay",
+          "summary": "원곡 ‘논개’의 후렴 끝에 반복되는 영속성 표현이 팀을 계속 사랑한다는 KIA판 제목과 자연스럽게 맞물려 개사 핵심이 됐다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-b-nongae-bugs", "ev-kia-b-namu-cheers"]
+        },
+        {
+          "id": "love-omission-pattern",
+          "summary": "2025 목록 두 편의 수록과 2026 공식·팬 종합 목록 두 편의 누락이 맞서는 드문 사례다. 2026 단독 업로드만으로 현장 존속을 확정하지 않고 불확실성을 데이터에 남겼다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-b-love-playlist-feb-2025", "yt-kia-b-love-playlist-mar-2025", "yt-kia-b-love-standalone-2026", "yt-kia-b-strong-official-2026", "yt-kia-b-always-playlist-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of Lee Dong-gi's Nongae; adaptation and recording permissions not confirmed",
+        "sourceUrls": [
+          "https://music.bugs.co.kr/track/80097314",
+          "https://www.youtube.com/watch?v=PsglxJU8wYg",
+          "https://www.youtube.com/watch?v=3ElK_2XDp3Y",
+          "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡의 강하게 반복되는 후렴 선율과 마지막 영속성 어휘를 남기고, 서사적 원곡 벌스는 빼거나 크게 줄여 팀 사랑을 선언하는 한 개의 짧은 반복 블록으로 바꾼다. 투수 교체 시간에 길이에 맞춰 반복하기 쉬운 형태다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-b-love-pitching-medley-2024",
+        "yt-kia-b-love-pitching-set-2024",
+        "yt-kia-b-love-playlist-feb-2025",
+        "yt-kia-b-love-playlist-mar-2025",
+        "yt-kia-b-love-standalone-2026"
+      ],
+      "unresolved": [
+        "2016년 도입과 최초 경기장 사용을 입증하는 동시대 자료",
+        "KIA판 개사·편곡·녹음 제작자와 원곡 이용 허락 범위",
+        "‘KIA를 사랑하라’ 표기가 실제 과거 공식명인지 단순 오기인지",
+        "2026 정규시즌 홈·원정에서 실제 사용됐는지와 최근 마지막 사용일",
+        "2026 공식 및 팬 종합 목록에서 동시에 빠진 이유와 향후 재사용 여부"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kia-b-namu-cheers",
+      "type": "community-reference",
+      "url": "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "KIA 타이거즈/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "현행 문서에서 최강 KIA를 위해의 2013 도입·더 크랙 커버·8회에서 3회 이벤트로의 이동, KIA를 응원하라의 2011~2012 보고·Con te partirò·고려대판과 같은 편곡·후반 플래시 응원, 버터플라이의 2001 보고·성공 상황·짧은 현행 단위, 언제나 승리하리의 2016 보고·O Tannenbaum·투수 교체·머진송 별칭, KIA를 사랑하리의 2016·논개 계보를 확인했다. 2026-08-08 현행 절 제목은 ‘KIA를 사랑하리’이며 이전 수집·미러에서 보고된 ‘사랑하라’는 상충 별칭으로만 보존한다. 가사 전문은 옮기지 않았다.",
+      "supports": ["strong.historyAndUse", "support.originChronologyAndUse", "butterfly.originAndUse", "always.originUseAndNickname", "love.originTitleAndYear"]
+    },
+    {
+      "id": "ev-kia-b-bocelli-apple",
+      "type": "music-metadata",
+      "url": "https://music.apple.com/br/song/1440840587?l=en-GB",
+      "title": "Con te partiro — Andrea Bocelli",
+      "publisher": "Apple Music",
+      "publishedAt": "1995-01-01",
+      "accessedAt": "2026-08-08",
+      "summary": "Andrea Bocelli의 ‘Romanza’ 수록곡 ‘Con te partiro’를 1995년 곡으로 제공한다. 작곡·작사에 Francesco Sartori와 Lucio Quarantotto, 편곡에 Mauro Malavasi와 Joe Amoruso가 표시된다. 가사 전문은 연구 파일에 옮기지 않았다.",
+      "supports": ["support.originalTitle", "support.originalArtist", "support.originalCredits"]
+    },
+    {
+      "id": "ev-kia-b-smiledk-apple",
+      "type": "music-metadata",
+      "url": "https://music.apple.com/dk/song/944330909?l=da",
+      "title": "Butterfly — SMiLE.dk",
+      "publisher": "Apple Music",
+      "publishedAt": "1998-07-13",
+      "accessedAt": "2026-08-08",
+      "summary": "SMiLE.dk의 곡 ‘Butterfly’와 1998년 7월 13일 음원 메타데이터를 확인해 KIA 버터플라이 응원의 원곡 식별을 보강한다. 전체 음원·가사는 저장하지 않았다.",
+      "supports": ["butterfly.originalTitle", "butterfly.originalArtist", "butterfly.releaseDate"]
+    },
+    {
+      "id": "ev-kia-b-o-tannenbaum-loc",
+      "type": "institutional-music-catalog",
+      "url": "https://www.loc.gov/nls/services-and-resources/music-service-and-materials/holiday-music-catalog/",
+      "title": "Holiday Music Catalog",
+      "publisher": "Library of Congress, National Library Service",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "미국 의회도서관 NLS의 성탄 음악 목록이 ‘O Tannenbaum’을 독립 작품명으로 수록하며 여러 교육·연주 자료가 존재하는 전승 선율임을 확인한다. KIA판은 이 익숙한 선율에 별도 한국어 응원 문구를 얹은 것으로 구분했다.",
+      "supports": ["always.melodyIdentity", "always.traditionalLineage"]
+    },
+    {
+      "id": "ev-kia-b-nongae-bugs",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/track/80097314",
+      "title": "논개 — 이동기",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "이동기의 ‘논개’ 음원과 원곡의 반복 후렴 구조를 확인한다. 별도 벅스 크레딧 표본과 언론 자료에서는 이건우 작사·이동기 작곡으로 일치한다. 가사 전문은 저장하지 않았다.",
+      "supports": ["love.originalTitle", "love.originalArtist", "love.originalStructure"]
+    },
+    {
+      "id": "ev-kia-b-nongae-article",
+      "type": "media",
+      "url": "https://www.nongmin.com/article/20210730342474",
+      "title": "[그 노래 그 사연] 이동기 ‘논개’, 몸 바쳐서 몸 바쳐서…그 절개 잊을 수 없어라",
+      "publisher": "농민신문",
+      "publishedAt": "2021-08-06",
+      "accessedAt": "2026-08-08",
+      "summary": "1982년 이건우의 노랫말에 이동기가 멜로디를 붙인 곡으로 ‘논개’를 소개해 원곡의 작사·작곡 및 시대 정보를 교차 확인한다. 기사 제목 이상의 가사 구절은 재수록하지 않았다.",
+      "supports": ["love.originalCredits", "love.originalEra"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kia-b-strong-archive-2013",
+      "songId": "kia-tigers-for-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=EBXYYrsEqvY",
+      "videoId": "EBXYYrsEqvY",
+      "title": "최강기아를 위해",
+      "channel": "dsHaha_",
+      "publishedAt": "2013-06-10",
+      "descriptionSummary": "‘기아타이거즈 팀응원가 / 최강기아를 위해’라고 명시한 초기 단독 음원형 업로드다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "KIA 팬과 타 팀 팬 모두 웅장하고 중독성 강한 곡이라는 반응을 반복한다.",
+        "높은 록 보컬이 매력적이지만 직접 부르기 어렵다는 평가와 우승 시즌을 회고하며 다시 찾았다는 반응이 있다."
+      ],
+      "supports": ["2013-direct-archive", "fan-reception", "high-key-rock-character"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-strong-mv-2020",
+      "songId": "kia-tigers-for-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=aSoo8TlAxnU",
+      "videoId": "aSoo8TlAxnU",
+      "title": "KIA 응원가｜최강 기아를 위해 경기영상 M/V!｜프로야구응원가｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2020-07-15",
+      "descriptionSummary": "KIA 경기 영상을 응원가에 맞춰 편집한 팬 제작 뮤직비디오이며 제목과 태그로 곡을 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "타 팀 팬도 곡의 완성도와 록 보컬을 높게 평가하고, KIA 팬은 안무·떼창을 익히는 자료로 쓴다는 반응이 있다.",
+        "가족과 함께 듣거나 우승 기억을 떠올린다는 정서적 반응도 반복된다."
+      ],
+      "supports": ["2020-online-circulation", "fan-reception", "cheer-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-strong-cheerleader-2024",
+      "songId": "kia-tigers-for-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=P1koCdRRUfY",
+      "videoId": "P1koCdRRUfY",
+      "title": "유세빈 치어리더 최강기아를 위해 응원가 240331",
+      "channel": "emperorphoto",
+      "publishedAt": "2024-04-01",
+      "descriptionSummary": "2024년 3월 31일 치어리더 안무와 함께 ‘최강기아를 위해’를 촬영한 세로형 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 출연 치어리더에 관한 짧은 반응이 중심이며 곡의 연혁이나 사용 규칙을 뒷받침하는 정보는 없다."
+      ],
+      "supports": ["2024-field-choreography", "current-dance-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-strong-field-2024",
+      "songId": "kia-tigers-for-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=dB5kjmNxlN4",
+      "videoId": "dB5kjmNxlN4",
+      "title": "240623 광주기아챔피언스필드 최강 기아를 위해 응원가 (KlA-한화전, DH 2차전)",
+      "channel": "로맨틱별",
+      "publishedAt": "2024-06-24",
+      "descriptionSummary": "2024년 6월 23일 광주 KIA-한화 더블헤더 2차전 현장에서 부른 곡을 경기·장소 태그와 함께 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024-home-field-use", "date-specific-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-strong-official-2024",
+      "songId": "kia-tigers-for-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=ZEPS5Bm3iqc",
+      "videoId": "ZEPS5Bm3iqc",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 도입부 듣자마자 야구장 가고 싶어지는 노래 ｜기아타이거즈 선수 & 팀 응원가 모음",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-03-20",
+      "descriptionSummary": "구단 공식 2024 선수·팀 응원가 모음이 17:26 장에 ‘최강 기아를 위해’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 영상으로 안무를 익히고 최신판도 계속 제작해 달라고 요청한다.",
+        "도입부만으로 경기장과 새 시즌이 떠오른다는 반응과 팀 응원가 전체의 현장감을 칭찬하는 반응이 많다."
+      ],
+      "supports": ["official-2024-use", "official-chapter-title", "cheer-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-strong-medley-2025",
+      "songId": "kia-tigers-for-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=DY5bh5GZkoQ",
+      "videoId": "DY5bh5GZkoQ",
+      "title": "20250705 KIA타이거즈 13점차로 앞선 8회말 응원가 메들리 (파도타기 이후) 외쳐라 최강KIA + 승리의 이름 (광주의 함성) + 최강KIA를위해 + 남행열차",
+      "channel": "46채널",
+      "publishedAt": "2025-07-05",
+      "descriptionSummary": "13점 차로 앞선 8회 말 파도타기 뒤 네 곡을 이어 부른 현장 메들리이며 ‘최강KIA를위해’를 제목에 직접 포함한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025-field-use", "eighth-inning-flexible-use", "medley-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-strong-repeat-2026",
+      "songId": "kia-tigers-for-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=MAf-EaBnqz8",
+      "videoId": "MAf-EaBnqz8",
+      "title": "KIA 타이거즈 팀 응원가 '최강 KIA를 위해' 1시간 반복재생",
+      "channel": "야옹",
+      "publishedAt": "2026-01-14",
+      "descriptionSummary": "곡명을 정확히 표기한 1시간 반복 음원형 팬 업로드로, 현장 기록이 아니라 온라인 감상·학습용 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026-online-circulation", "exact-title-match"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-strong-official-2026",
+      "songId": "kia-tigers-for-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "videoId": "l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (🆕 카스트로 & 데일 응원가)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24",
+      "descriptionSummary": "구단 공식 2026 응원가 총정리 영상이 17:43 장에 ‘최강 KIA를 위해’를 제목 그대로 싣고 안무를 제시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 안무·학습 영상 덕분에 경기장에서 반복해 따라 하기 쉽다고 평가한다.",
+        "새 선수 응원가 추가 요청과 전통 팀 응원가에 대한 애정, 우승을 바라는 반응이 함께 나타난다."
+      ],
+      "supports": ["official-current-2026", "official-title", "official-choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-support-archive-2013",
+      "songId": "kia-tigers-kiareul-eungwonhara",
+      "url": "https://www.youtube.com/watch?v=Wivyv50vsrk",
+      "videoId": "Wivyv50vsrk",
+      "title": "기아를 응원하라",
+      "channel": "dsHaha_",
+      "publishedAt": "2013-06-10",
+      "descriptionSummary": "‘기아타이거즈 팀응원가 / 기아를 응원하라’라고 명시한 초기 단독 음원형 업로드다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "KIA 팬과 타 팀 팬 모두 장엄하고 감정적인 대표 응원가로 평가하며, 역전과 우승 기억을 떠올린다는 반응이 많다.",
+        "휴대전화 플래시 응원, ‘Time to Say Goodbye’ 계열 원곡, 고려대학교판과 같은 선율을 알아보는 댓글도 반복된다."
+      ],
+      "supports": ["2013-direct-archive", "fan-reception", "original-recognition", "flash-cheer-recognition"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-support-field-2015",
+      "songId": "kia-tigers-kiareul-eungwonhara",
+      "url": "https://www.youtube.com/watch?v=FJqGFDHVzd0",
+      "videoId": "FJqGFDHVzd0",
+      "title": "기아타이거즈응원가 -기아를 응원하라",
+      "channel": "기아우승",
+      "publishedAt": "2015-06-07",
+      "descriptionSummary": "설명에 2015년 4월 24일을 적은 짧은 현장 응원 영상으로, 2015 시즌 사용을 날짜와 함께 보강한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2015-field-use", "date-specific-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-support-mv-2022",
+      "songId": "kia-tigers-kiareul-eungwonhara",
+      "url": "https://www.youtube.com/watch?v=pf6Q9U82HRk",
+      "videoId": "pf6Q9U82HRk",
+      "title": "기아타이거즈 팀 응원가 기아를 응원하라 M/V",
+      "channel": "기아타이거즈 팬",
+      "publishedAt": "2022-09-05",
+      "descriptionSummary": "플래시 응원 태그와 경기 영상을 결합해 곡의 현장 연출을 강조한 팬 제작 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "경기장에서 들을 때 더 벅차고 특히 역전 뒤 가장 좋아하는 곡이라는 반응이 반복된다.",
+        "원곡을 ‘Time to Say Goodbye’로 알아보거나 우승 시즌을 떠올리는 댓글도 있다."
+      ],
+      "supports": ["2022-online-circulation", "flash-cheer", "comeback-reception", "original-recognition"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-support-cbo-2023",
+      "songId": "kia-tigers-kiareul-eungwonhara",
+      "url": "https://www.youtube.com/watch?v=zFLZh4TWqW8",
+      "videoId": "zFLZh4TWqW8",
+      "title": "(KIA타이거즈 응원가)기아를 응원하라",
+      "channel": "크보뮤지션",
+      "publishedAt": "2023-04-19",
+      "descriptionSummary": "곡명과 KIA 응원가 태그를 붙인 단독 음원형 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "짧은 호응 댓글과 함께 고려대학교의 ‘고대를 노래하라’와 같은 선율·편곡을 알아본 반응이 있다."
+      ],
+      "supports": ["2023-online-circulation", "korea-university-arrangement-recognition"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-support-official-2024",
+      "songId": "kia-tigers-kiareul-eungwonhara",
+      "url": "https://www.youtube.com/watch?v=ZEPS5Bm3iqc",
+      "videoId": "ZEPS5Bm3iqc",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 도입부 듣자마자 야구장 가고 싶어지는 노래 ｜기아타이거즈 선수 & 팀 응원가 모음",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-03-20",
+      "descriptionSummary": "구단 공식 2024 모음의 22:19 장이 ‘기아를 응원하라 (핸드폰 플래쉬 응원)’라고 제목과 연출을 함께 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 영상으로 안무와 응원 타이밍을 익히며 최신 버전도 지속적으로 올려 달라고 요청한다.",
+        "전체 팀 응원가의 현장감과 원정 응원단의 열정을 칭찬하고 새 시즌을 기다리는 반응이 많다."
+      ],
+      "supports": ["official-2024-use", "phone-flash-cheer", "official-title-variant"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-support-field-2024",
+      "songId": "kia-tigers-kiareul-eungwonhara",
+      "url": "https://www.youtube.com/watch?v=yjJYj4AqUl8",
+      "videoId": "yjJYj4AqUl8",
+      "title": "지금이순간, 기아를 응원하라!  1루외야까지! 함께하는 떼창!  팀응원가 [기아 vs LG] 240817",
+      "channel": "GRIJUA  그리주아TV",
+      "publishedAt": "2024-08-17",
+      "descriptionSummary": "2024년 8월 17일 LG전 원정에서 1루 외야까지 이어진 플래시 떼창을 촬영하고 KIA·플래시·원정 응원 태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "원정석 바깥의 흩어진 관중까지 불빛을 켠 장관과 수도권의 큰 KIA 관중 규모를 언급하는 반응이 많다.",
+        "고려대학교 응원가와 같은 계열을 알아보는 댓글도 있으나 직접 차용 방향은 제시하지 않는다."
+      ],
+      "supports": ["2024-away-field-use", "phone-flash-cheer", "large-away-crowd"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-support-field-2025",
+      "songId": "kia-tigers-kiareul-eungwonhara",
+      "url": "https://www.youtube.com/watch?v=6yi4MNKBHIE",
+      "videoId": "6yi4MNKBHIE",
+      "title": "[호영대제전] KIA타이거즈 KIA를응원하라 플래시응원",
+      "channel": "46채널",
+      "publishedAt": "2025-07-05",
+      "descriptionSummary": "KIA 경기 현장의 플래시 응원을 곡명과 함께 직접 촬영한 2025년 짧은 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "불빛과 촬영 구도가 아름답다는 반응, 현장 촬영 방법을 묻는 반응이 확인된다."
+      ],
+      "supports": ["2025-field-use", "phone-flash-cheer", "visual-spectacle"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-support-official-2026",
+      "songId": "kia-tigers-kiareul-eungwonhara",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "videoId": "l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (🆕 카스트로 & 데일 응원가)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24",
+      "descriptionSummary": "구단 공식 2026 응원가 총정리 영상이 23:12 장에 ‘KIA를 응원하라’를 수록하고 안무·플래시 연출을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 학습 영상의 반복 시청으로 응원가와 동작을 익힌다고 말한다.",
+        "새 선수곡 요청과 함께 오래된 팀 응원가를 계속 보존해 달라는 반응, 우승을 바라는 반응이 반복된다."
+      ],
+      "supports": ["official-current-2026", "official-title", "official-choreography"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-butterfly-2011-event",
+      "songId": "kia-tigers-butterfly",
+      "url": "https://www.youtube.com/watch?v=MGhGK1VAkNo",
+      "videoId": "MGhGK1VAkNo",
+      "title": "2011년 준플레이오프 1차전 기아타이거즈 응원 버터플라이",
+      "channel": "윤석렬",
+      "publishedAt": "2025-09-09",
+      "descriptionSummary": "2011년 준플레이오프 1차전의 KIA 버터플라이 응원 장면을 후대에 짧게 올린 기록으로 설명도 같은 경기 정보를 반복한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오래된 클래식 응원가와 당시 경기장의 기억을 회고하는 반응이 있다.",
+        "업로더 이름을 소재로 한 무관한 댓글은 곡 정보에서 제외했다."
+      ],
+      "supports": ["2011-event-footage", "historical-use", "nostalgia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-butterfly-archive-2017",
+      "songId": "kia-tigers-butterfly",
+      "url": "https://www.youtube.com/watch?v=DtVI47pGqUg",
+      "videoId": "DtVI47pGqUg",
+      "title": "기아 버터플라이",
+      "channel": "기아기아",
+      "publishedAt": "2017-07-17",
+      "descriptionSummary": "곡명을 제목에 직접 적은 31초짜리 짧은 KIA 응원 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오래된 영상과 곡을 다시 발견한 반가움을 표현하는 짧은 회고 댓글이 있다."
+      ],
+      "supports": ["2017-online-archive", "short-form-use", "nostalgia"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-butterfly-away-2018",
+      "songId": "kia-tigers-butterfly",
+      "url": "https://www.youtube.com/watch?v=RnRmgQTB6qE",
+      "videoId": "RnRmgQTB6qE",
+      "title": "20180811 KIA 응원시작 + 버터플라이 응원가",
+      "channel": "DJ Landers",
+      "publishedAt": "2018-08-11",
+      "descriptionSummary": "2018년 8월 11일 경기의 응원 시작 구호와 버터플라이를 연속 촬영한 51초 현장 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2018-field-use", "short-situational-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-butterfly-outcount-2023",
+      "songId": "kia-tigers-butterfly",
+      "url": "https://www.youtube.com/watch?v=YGi_FRYv2_o",
+      "videoId": "YGi_FRYv2_o",
+      "title": "20230903 문학 KIA타이거즈 원정 아웃카운트송7(버터플라이)",
+      "channel": "엘롯기팬",
+      "publishedAt": "2023-09-26",
+      "descriptionSummary": "2023년 9월 3일 문학 원정에서 버터플라이를 아웃카운트송 계열로 촬영한 15초 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글은 영상 속 인물에 관한 반응으로, 곡의 역사나 사용 규칙을 뒷받침하지 않는다."
+      ],
+      "supports": ["2023-away-field-use", "out-count-context", "very-short-form"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-butterfly-repeat-2025",
+      "songId": "kia-tigers-butterfly",
+      "url": "https://www.youtube.com/watch?v=Z7ONNOWt8lQ",
+      "videoId": "Z7ONNOWt8lQ",
+      "title": "KIA 타이거즈 팀 응원가 '버터플라이' 1시간 반복재생",
+      "channel": "야옹",
+      "publishedAt": "2025-07-15",
+      "descriptionSummary": "곡명을 정확히 표기한 1시간 반복 음원형 팬 업로드로 현장 기록이 아닌 감상·학습용 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "좋아하던 응원가를 길게 들을 수 있어 고맙다는 짧은 반응이 있다."
+      ],
+      "supports": ["2025-online-circulation", "fan-listening"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-butterfly-playlist-2026",
+      "songId": "kia-tigers-butterfly",
+      "url": "https://www.youtube.com/watch?v=p6rFHkWu1Zg",
+      "videoId": "p6rFHkWu1Zg",
+      "title": "2026 🐯KIA타이거즈 PLAYLIST⚾️ (끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-03-31",
+      "descriptionSummary": "팬 제작 2026 종합 목록이 26:09 장에 버터플라이를 넣어 현행 인식과 재생 위치를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 새 시즌 응원 학습과 경기 전 예열에 목록을 활용하며 제작자에게 감사를 표한다.",
+        "빠진 선수곡 추가 요청과 우승을 바라는 반응도 있으나, 버터플라이의 세부 연혁을 말하는 댓글은 드물다."
+      ],
+      "supports": ["2026-fan-current-list", "playlist-inclusion", "fan-learning"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-butterfly-original-version-2026",
+      "songId": "kia-tigers-butterfly",
+      "url": "https://www.youtube.com/watch?v=XxmxW4y1PwU",
+      "videoId": "XxmxW4y1PwU",
+      "title": "KIA 팀응원가 - 버터플라이 원음 Ver. | 응하컬 X 프로야구 응원가 | 야구 응원가 연구",
+      "channel": "응하컬 - 응원가로 하나되는 컬렉션",
+      "publishedAt": "2026-04-19",
+      "descriptionSummary": "2026년 4월 조사일과 KIA 공식 자료를 출처로 적은 약 29초 원음형 응원가 연구 영상이다. 경기장 현장 표본은 아니다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026-online-catalog", "short-current-form", "exact-title-match"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-always-audio-2019",
+      "songId": "kia-tigers-always-victorious",
+      "url": "https://www.youtube.com/watch?v=l1gD_KInmgo",
+      "videoId": "l1gD_KInmgo",
+      "title": "[프로야구 응원가] KIA타이거즈 응원가 - 언제나 승리하리",
+      "channel": "슈퍼코리안",
+      "publishedAt": "2019-06-28",
+      "descriptionSummary": "곡명을 정확히 적은 단독 음원형 응원가 영상이며 채널 소개와 다른 응원가 요청 안내가 긴 설명의 대부분을 차지한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "마운드 방문과 투수 교체 때 나오는 곡으로 기억하며, 위기 상황을 알리는 노래라 싫지만 중독적이라는 양가적 반응이 반복된다.",
+        "‘O Tannenbaum’·‘소나무야’나 다른 대중문화 편곡과 같은 선율을 알아보는 댓글도 있다."
+      ],
+      "supports": ["2019-direct-archive", "pitching-change-use", "melody-recognition", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-always-audio-2020",
+      "songId": "kia-tigers-always-victorious",
+      "url": "https://www.youtube.com/watch?v=4xAFTRQt3VI",
+      "videoId": "4xAFTRQt3VI",
+      "title": "2020 언제나 승리하리",
+      "channel": "최지환",
+      "publishedAt": "2020-09-17",
+      "descriptionSummary": "2020년 표기를 붙인 31초 단독 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "투수 운영에 대한 냉소를 노래와 결부한 짧은 농담이 있어 당시 부정적 상황 연상을 보여 준다."
+      ],
+      "supports": ["2020-online-circulation", "negative-pitching-association"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-always-pitching-medley-2024",
+      "songId": "kia-tigers-always-victorious",
+      "url": "https://www.youtube.com/watch?v=PsglxJU8wYg",
+      "videoId": "PsglxJU8wYg",
+      "title": "[M/V] KIA 타이거즈 투수교체곡 - 언제나 승리하리, 위하여, 기아를 사랑하리",
+      "channel": "광주의함성",
+      "publishedAt": "2024-07-31",
+      "descriptionSummary": "세 곡을 ‘투수교체곡’으로 직접 묶은 팬 제작 뮤직비디오로 제목과 태그가 언제나 승리하리의 사용 계열을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "특정 투수 교체 안내와 선수 기억이 떠오른다는 반응, 해당 시즌 투수진을 격려하는 반응이 있다.",
+        "곡이 투수 교체 순간의 감정과 강하게 결합돼 있다는 댓글이 중심이다."
+      ],
+      "supports": ["2024-pitching-change-family", "fan-memory", "multi-song-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-always-pitching-set-2024",
+      "songId": "kia-tigers-always-victorious",
+      "url": "https://www.youtube.com/watch?v=7aCfYGEOYoY",
+      "videoId": "7aCfYGEOYoY",
+      "title": "[KIA 타이거즈] - 투수 교체곡 모음 (열광하라 최강기아, 언제나 승리하리, 위하여, 기아를 사랑하리)",
+      "channel": "광주의함성",
+      "publishedAt": "2024-08-17",
+      "descriptionSummary": "네 곡을 KIA 투수 교체곡 모음으로 편집하고 각 곡의 재생 위치를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 음악은 좋지만 교체가 필요한 상황 때문에 자주 듣고 싶지는 않다는 농담을 반복한다.",
+        "특정 시기 부진한 투수와 곡을 연상하는 반응은 수용사로만 보고 선수 평가 사실로 쓰지 않았다."
+      ],
+      "supports": ["2024-pitching-change-family", "love-hate-reception", "multi-song-context"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-always-repeat-2025",
+      "songId": "kia-tigers-always-victorious",
+      "url": "https://www.youtube.com/watch?v=J5B5DkL4zmY",
+      "videoId": "J5B5DkL4zmY",
+      "title": "KIA 타이거즈 팀 응원가 '언제나 승리하리' 1시간 반복재생",
+      "channel": "야옹",
+      "publishedAt": "2025-07-10",
+      "descriptionSummary": "곡명을 정확히 표기한 1시간 반복 음원형 팬 업로드다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 이 곡의 역사보다 같은 채널에 다른 KIA 응원가도 올려 달라는 요청이 중심이다."
+      ],
+      "supports": ["2025-online-circulation", "fan-request"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-always-playlist-2026",
+      "songId": "kia-tigers-always-victorious",
+      "url": "https://www.youtube.com/watch?v=p6rFHkWu1Zg",
+      "videoId": "p6rFHkWu1Zg",
+      "title": "2026 🐯KIA타이거즈 PLAYLIST⚾️ (끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-03-31",
+      "descriptionSummary": "팬 제작 2026 종합 목록이 27:50 장에 언제나 승리하리를 수록한다. 같은 목록에는 KIA를 사랑하리가 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 응원가를 다시 익히고 야구를 기다리는 데 목록을 쓴다며 감사와 우승 기원을 남긴다.",
+        "빠진 선수곡 추가 요청은 있으나 언제나 승리하리의 실제 2026 사용 빈도를 설명하는 댓글은 찾지 못했다."
+      ],
+      "supports": ["2026-fan-current-list", "playlist-inclusion", "love-song-omission"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-love-pitching-medley-2024",
+      "songId": "kia-tigers-kiareul-saranghari",
+      "url": "https://www.youtube.com/watch?v=PsglxJU8wYg",
+      "videoId": "PsglxJU8wYg",
+      "title": "[M/V] KIA 타이거즈 투수교체곡 - 언제나 승리하리, 위하여, 기아를 사랑하리",
+      "channel": "광주의함성",
+      "publishedAt": "2024-07-31",
+      "descriptionSummary": "제목에서 ‘기아를 사랑하리’를 투수 교체곡 세 곡 중 하나로 명시한 팬 제작 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "투수 교체 안내와 특정 선수의 기억을 떠올리는 반응, 당시 투수진을 격려하는 반응이 중심이다.",
+        "개별 곡의 도입 연도나 현행 빈도를 설명하는 댓글은 찾지 못했다."
+      ],
+      "supports": ["2024-pitching-change-family", "exact-title-match", "recent-online-use"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-love-pitching-set-2024",
+      "songId": "kia-tigers-kiareul-saranghari",
+      "url": "https://www.youtube.com/watch?v=7aCfYGEOYoY",
+      "videoId": "7aCfYGEOYoY",
+      "title": "[KIA 타이거즈] - 투수 교체곡 모음 (열광하라 최강기아, 언제나 승리하리, 위하여, 기아를 사랑하리)",
+      "channel": "광주의함성",
+      "publishedAt": "2024-08-17",
+      "descriptionSummary": "네 곡을 투수 교체곡 모음으로 분류하고 2:18 장에 기아를 사랑하리를 배치한 팬 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "투수 교체곡은 음악적으로 좋지만 위기 상황을 떠올리게 한다는 양가적 농담이 반복된다.",
+        "개별 곡보다 네 곡 묶음과 특정 투수 기억에 관한 반응이 많다."
+      ],
+      "supports": ["2024-pitching-change-family", "chaptered-title", "fan-reception"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-love-playlist-feb-2025",
+      "songId": "kia-tigers-kiareul-saranghari",
+      "url": "https://www.youtube.com/watch?v=tixezIwcp5k",
+      "videoId": "tixezIwcp5k",
+      "title": "[PLAYLIST] 올 시즌도 압도하라! 2025시즌 기아타이거즈 응원가 모음 (등장곡 포함, 홍종표 응원가 x)",
+      "channel": "화분띠",
+      "publishedAt": "2025-02-23",
+      "descriptionSummary": "팬 제작 2025 현행 응원가 목록이 26:42 장에 KIA를 사랑하리를 수록하며 다른 팀 응원가와 선수곡도 함께 정리한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 새 시즌을 기다리며 목록 제작에 감사하고 누락·변경된 선수곡의 보완을 요청한다.",
+        "곡과 무관한 인신공격성 논쟁은 조사 데이터에서 제외했다."
+      ],
+      "supports": ["2025-fan-current-list", "playlist-inclusion", "chaptered-title"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-love-playlist-mar-2025",
+      "songId": "kia-tigers-kiareul-saranghari",
+      "url": "https://www.youtube.com/watch?v=vVbVWDY5xIs",
+      "videoId": "vVbVWDY5xIs",
+      "title": "[PLAYLIST] 2025 기아타이거즈 선수&팀 응원가 (+등장곡, 신규응원가 포함, 위즈덤 포함, 홍종표 응원가 x)",
+      "channel": "화분띠",
+      "publishedAt": "2025-03-16",
+      "descriptionSummary": "신규 선수곡까지 갱신한 팬 제작 2025 목록이 28:53 장에 KIA를 사랑하리를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "목록 갱신에 대한 감사와 시즌 기대, 타 팀 팬도 KIA 응원가를 즐긴다는 반응이 있다.",
+        "타임라인 수정과 추가곡 요청은 있으나 KIA를 사랑하리의 고정 사용 시점 정보는 없다."
+      ],
+      "supports": ["2025-fan-current-list", "playlist-inclusion", "chaptered-title"],
+      "accessedAt": "2026-08-08"
+    },
+    {
+      "id": "yt-kia-b-love-standalone-2026",
+      "songId": "kia-tigers-kiareul-saranghari",
+      "url": "https://www.youtube.com/watch?v=3ElK_2XDp3Y",
+      "videoId": "3ElK_2XDp3Y",
+      "title": "기아 타이거즈 응원가 | 기아를 사랑하리",
+      "channel": "OLIO〔 CY GROUP 〕",
+      "publishedAt": "2026-07-29",
+      "descriptionSummary": "2026·2027 KIA 관련 태그와 정확한 곡명을 붙인 55초 단독 응원가 업로드다. 경기장 촬영이 아니라 온라인 카탈로그 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026-online-circulation", "exact-title-match", "not-direct-field-proof"],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 34,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 22
+  }
+}

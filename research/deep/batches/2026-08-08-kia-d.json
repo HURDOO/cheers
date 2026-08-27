@@ -1,0 +1,1342 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kia-d",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kia-tigers",
+    "name": "KIA 타이거즈",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사와 영상 설명·댓글 원문은 저장하지 않는다. 상업 음원에서 차용한 다섯 응원가는 원곡·구조·사용 이력만 요약하고 lyrics.fullTextStored는 false로 둔다. 공개 댓글은 작성자를 식별하지 않는 반복 반응만 익명으로 재서술한다. 유튜브 팬 플레이리스트는 곡의 공개 유통·목록 잔존을 확인하는 보조 자료로만 쓰며 실제 경기장 사용 및 구단 공식 현행 목록과 구분한다.",
+  "items": [
+    {
+      "id": "kia-tigers-wanted",
+      "title": "WANTED",
+      "aliases": ["Wanted", "미치도록 사랑해요", "원티드"],
+      "currentStatus": "current-situational-directly-verified-2026-official-playlist-omission",
+      "summary": "영국 가족 그룹 The Dooleys의 1979년 히트곡 ‘Wanted’를 짧은 상황 응원으로 바꾼 KIA의 장수곡이다. 현행 나무위키는 안타 뒤 상대 작전타임에 자주 부른다고 설명하고, 2025년 6월 현장 영상도 희생플라이 뒤 WANTED가 이어지는 진행을 적어 상황곡 성격을 보강한다. 저작권 사태 때 중단됐다가 해결 뒤 돌아왔고 2019년에는 쓰지 않다가 2021년 부활했으며, 2015년에는 새 버전으로 재녹음됐다는 이력은 편집형 문서에만 남아 있어 보고 수준으로 둔다. 2026 구단 공식 총정리에는 빠졌지만 7월 7일 현장 영상과 두 개의 2026 팬 목록에서 확인돼 폐기곡이 아니라 공식 모음에 누락된 현행 상황곡으로 판정한다. 특히 2026 플레이리스트가 24:31의 ‘미치도록 사랑해요’와 35:31의 ‘사랑한다 기아’를 따로 싣기 때문에, 유사한 첫 문구 때문에 생기는 두 곡의 혼동을 직접 해소한다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "The Dooleys — Wanted; Ben Findon, Mike Myers, Robert Puzey 작곡·작사 크레딧",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "ev-kia-d-official-charts-wanted", "yt-kia-d-wanted-original-topic"],
+          "notes": "Official Charts는 1979년 6월 16일 첫 차트 진입과 최고 3위를, Sony 제공 Topic 영상은 작가 크레딧을 제공한다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "안타 등 공격 성과 뒤, 특히 상대 작전타임 동안 부르는 짧은 상황 응원",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "ev-kia-d-dugout-favorites", "yt-kia-d-wanted-field-june-2025", "yt-kia-d-wanted-fan-standalone-2023"],
+          "notes": "2025 영상은 희생플라이 뒤 곡명을 타임라인에 적고, 팬 댓글도 접전의 적시타 직후 경험을 반복해 설명한다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "2015 시즌 새 버전 재녹음",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-wanted-archive-2013", "yt-kia-d-wanted-field-2022"],
+          "notes": "2013 이전판과 2022 후대판은 존재하지만 재녹음 날짜·보컬·편곡 크레딧은 1차 자료로 확인하지 못했다."
+        },
+        {
+          "field": "interruptionAndReturn",
+          "value": "KBO 응원가 저작권 사태 때 중단, 해결 뒤 복귀; 2019 미사용 후 2021 재부활",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-wanted-field-2022", "yt-kia-d-wanted-field-2024"],
+          "notes": "중단·복귀 연표는 나무위키 서술에 의존하며, 2022·2024 표본은 부활 이후 사용만 직접 입증한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-07-07 현장 사용과 2026 팬 목록 두 곳 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-wanted-field-july-2026", "yt-kia-d-wanted-playlist-2026", "yt-kia-d-wanted-fan-catalog-2026", "yt-kia-d-wanted-official-omission-2026"],
+          "notes": "구단 공식 총정리에는 없지만 날짜가 특정된 동시즌 현장 영상이 있으므로 현장 표본을 우선한다."
+        },
+        {
+          "field": "disambiguation",
+          "value": "WANTED의 ‘미치도록 사랑해요’와 자체곡 ‘사랑한다 KIA/미치도록 사랑한다’는 서로 다른 곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-wanted-playlist-2026", "ev-kia-d-dugout-favorites", "yt-kia-d-wanted-original-topic"],
+          "notes": "한 영상이 두 곡을 24:31과 35:31에 별도 챕터로 구분하며, 원곡도 WANTED에만 존재한다."
+        }
+      ],
+      "usageContexts": [
+        "안타·희생플라이 등 공격 결과가 나온 뒤 상대 수비가 작전타임을 갖는 틈에 짧게 반복한다.",
+        "전곡형 팀 응원보다 짧은 전환 블록이라 팬 목록에서는 ‘잔응원’ 또는 상황 응원 구역에 들어가기도 한다.",
+        "2026 공식 안무 모음에는 빠졌지만 같은 시즌 현장에서는 계속 사용돼 공식 영상의 수록 범위와 실제 운영이 다르다.",
+        "‘사랑한다 KIA’와 도입 문구가 비슷해도 선율·원곡·가사 구조가 완전히 다른 별도곡이다."
+      ],
+      "trivia": [
+        {
+          "id": "wanted-name-confusion",
+          "summary": "팬 목록이 WANTED를 ‘미치도록 사랑해요’, 자체곡을 ‘사랑한다 기아’로 서로 떨어진 챕터에 두어 두 곡의 동명이의성 혼동을 해소한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-wanted-playlist-2026", "yt-kia-d-wanted-fan-catalog-2026"]
+        },
+        {
+          "id": "wanted-clutch-reception",
+          "summary": "댓글에서는 접전에서 적시타 뒤 이 곡이 시작되면 상대가 압박을 받을 듯하다는 반응과 KIA 대표 응원가로 오래 기억한다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-wanted-fan-standalone-2023", "yt-kia-d-wanted-archive-2013"]
+        },
+        {
+          "id": "wanted-catalog-caution",
+          "summary": "2026 구단 공식 총정리의 누락과 2026년 7월 현장 사용이 동시에 존재한다. 상황곡은 공식 ‘주요 팀 응원가’ 목록만으로 폐지 여부를 판단하면 안 되는 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-wanted-official-omission-2026", "yt-kia-d-wanted-field-july-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of a commercial song; lyric, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=pzW6Xl2DvLE",
+          "https://www.youtube.com/watch?v=2jOVBB7cDwo",
+          "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "짧은 애정 고백형 선창 뒤 팀명을 길게 늘이는 합창을 여러 번 배치하고, 박자를 세는 구호를 사이에 넣어 같은 블록을 즉시 반복할 수 있게 만든다. 원곡의 서사형 절은 사용하지 않는 짧은 상황 응원이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-d-wanted-field-july-2026",
+        "yt-kia-d-wanted-playlist-2026",
+        "yt-kia-d-wanted-fan-catalog-2026",
+        "yt-kia-d-wanted-field-june-2025",
+        "yt-kia-d-wanted-field-2024",
+        "yt-kia-d-wanted-field-2022",
+        "yt-kia-d-wanted-fan-standalone-2023",
+        "yt-kia-d-wanted-archive-2013",
+        "yt-kia-d-wanted-original-topic",
+        "yt-kia-d-wanted-official-omission-2026"
+      ],
+      "unresolved": [
+        "KIA가 WANTED를 최초로 사용한 시즌과 첫 경기",
+        "2015 재녹음의 정확한 공개일·보컬·편곡·녹음 크레딧",
+        "저작권 사태 뒤 이용 허락이 해결된 계약·관리 단체 자료와 2019 미사용의 구단 사유",
+        "2026 정규시즌 전체에서 실제 사용한 빈도와 공식 총정리 영상 누락 기준"
+      ]
+    },
+    {
+      "id": "kia-tigers-frenzy-tigers",
+      "title": "열광하라 타이거즈",
+      "aliases": ["타이타닉", "타이타닉 응원가", "열광하라 KIA 타이거즈"],
+      "currentStatus": "current-core-official-directly-verified-2026",
+      "summary": "Céline Dion의 영화 ‘Titanic’ 주제가 ‘My Heart Will Go On’의 넓게 상승하는 후렴 선율을 KIA의 장중한 떼창으로 바꾼 곡이다. 나무위키는 2015년 제작, 2016년 구호 변경에 따른 재녹음, 2017년 저작권 사태로 폐기, 2022년 7월 29일 SSG 홈경기에서 6년 만의 부활이라는 연표를 제시한다. 2016년 아카이브와 2022년 부활 직후 영상이 양쪽 시기를 잇고, 2024·2026 구단 공식 안무 모음 및 2025·2026 현장 표본이 현재 사용을 직접 확인한다. 부활 영상 댓글에는 오래된 곡을 알아보고 다시 어깨동무해 좌우로 움직일 수 있어 반갑다는 반응, 한국시리즈 출정식에서 전율을 느꼈다는 후대 회상이 반복된다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "Céline Dion — My Heart Will Go On, 영화 Titanic 주제가; James Horner 작곡, Will Jennings 작사",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "ev-kia-d-grammy-my-heart", "yt-kia-d-frenzy-original-celine", "yt-kia-d-frenzy-archive-2016"],
+          "notes": "Céline Dion 공식 오디오는 곡과 가수를, Grammy 기록은 두 송라이터와 1999 Song of the Year 수상을 확인한다. 원곡 가사 전문은 저장하지 않았다."
+        },
+        {
+          "field": "introductionAndRerecording",
+          "value": "2015 시즌 제작, 2016년 구호 변경에 맞춰 재녹음",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-frenzy-archive-2016"],
+          "notes": "2016 당시 온라인 표본은 존재하지만 2015 초판과 2016 재녹음의 공식 크레딧은 찾지 못했다."
+        },
+        {
+          "field": "retirementAndRevival",
+          "value": "2017 저작권 사태로 폐기 뒤 2022-07-29 광주 SSG전에서 6년 만에 부활",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-frenzy-revival-mv-2022", "yt-kia-d-frenzy-revival-field-2022"],
+          "notes": "복귀 날짜는 나무위키가 제공하고 7월 30일 게시된 부활 영상과 8월 3일 현장이 직후 사용을 교차한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 및 2026 구단 공식 안무 모음 수록, 2025-06-29와 2026-07-02 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-frenzy-official-2024", "yt-kia-d-frenzy-official-2026", "yt-kia-d-frenzy-field-2025", "yt-kia-d-frenzy-field-2026"],
+          "notes": "공식 목록과 날짜 특정 현장 기록이 2026 시즌에도 일치한다."
+        },
+        {
+          "field": "versionDifference",
+          "value": "2015판과 2016 이후판은 일부 구호가 다름",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-frenzy-archive-2016", "yt-kia-d-frenzy-official-2024"],
+          "notes": "저작권 때문에 전체 가사를 대조표로 옮기지 않고 구호 개정 사실만 기록한다."
+        }
+      ],
+      "usageContexts": [
+        "느린 상승 선율을 길게 끌어 관중 전체가 한 호흡으로 부르는 장중한 팀 떼창이다.",
+        "부활 이후 홈과 원정 모두에서 사용되며 2025 잠실, 2026 현장 영상이 지속성을 보여 준다.",
+        "팬들은 어깨동무한 채 좌우로 움직이는 참여 방식과 후반의 집단 구호를 곡의 기억점으로 언급한다.",
+        "공식 2024 영상 20:34, 공식 2026 영상 21:27에 별도 안무 챕터로 수록됐다."
+      ],
+      "trivia": [
+        {
+          "id": "frenzy-six-year-revival",
+          "summary": "2022년 복귀 직후 팬 영상 제목부터 ‘6년 만에 부활’이라고 강조했고, 댓글에서도 예전 곡을 알아본 팬과 처음 들은 팬이 함께 복귀 여부를 확인했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-frenzy-revival-mv-2022"]
+        },
+        {
+          "id": "frenzy-titanic-memory",
+          "summary": "팬 유통명 ‘타이타닉’은 원곡이 영화와 강하게 결합돼 있다는 점에서 생겼고, 2016 아카이브도 제목을 ‘기아타이거즈 응원가 타이타닉’으로 남겼다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-frenzy-archive-2016", "yt-kia-d-frenzy-original-celine"]
+        },
+        {
+          "id": "frenzy-grammy-lineage",
+          "summary": "원곡은 1999년 Grammy Song of the Year와 Best Song Written for Visual Media를 받은 James Horner·Will Jennings의 곡이다. 경기장 개사와 별개로 원곡의 공식 작가 계보를 보존한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-grammy-my-heart"]
+        },
+        {
+          "id": "frenzy-emotional-reception",
+          "summary": "댓글은 곡을 단순히 신나는 노래보다 웅장하고 뭉클한 곡으로 받아들이며, 2024 한국시리즈 출정식에서 들었을 때 전율이 컸다는 회상을 남긴다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-frenzy-revival-mv-2022", "yt-kia-d-frenzy-official-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of a commercial film song; lyric, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=mNsm2P0l_7Y",
+          "https://www.youtube.com/watch?v=l7XROs9lYSo&t=1287s",
+          "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡의 느리고 넓은 후렴 선율 위에 팀의 열정과 승리 의지를 제시하는 긴 합창을 얹고, 중간과 끝에 팀명 철자를 끊어 외치는 구호를 넣는다. 2016판은 일부 구호를 고쳐 다시 녹음했으나 전문 비교는 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-d-frenzy-field-2026",
+        "yt-kia-d-frenzy-official-2026",
+        "yt-kia-d-frenzy-field-2025",
+        "yt-kia-d-frenzy-official-2024",
+        "yt-kia-d-frenzy-revival-mv-2022",
+        "yt-kia-d-frenzy-revival-field-2022",
+        "yt-kia-d-frenzy-archive-2016",
+        "yt-kia-d-frenzy-original-celine"
+      ],
+      "unresolved": [
+        "2015 초판의 최초 사용 경기와 구단 제작자·보컬·편곡 크레딧",
+        "2016 구호 변경의 공식 공지와 재녹음 날짜",
+        "2017 중단 및 2022 복귀를 가능하게 한 이용 허락의 구체적 범위",
+        "2022-07-29 복귀 경기의 구단 공식 원본 영상"
+      ]
+    },
+    {
+      "id": "kia-tigers-shout-strongest-kia",
+      "title": "외쳐라 최강 KIA",
+      "aliases": ["외쳐라 최강기아", "외쳐라! 최강 KIA!"],
+      "currentStatus": "current-core-eighth-inning-official-directly-verified-2026",
+      "summary": "2023년 4월 4일 구단이 공식 신규 응원가 영상으로 공개한 뒤 2024 통합우승 서사를 대표하게 된 장중한 떼창이다. 원선율은 영화 ‘Gloomy Sunday’의 피아노 테마 ‘András Spielt’ 계열이며, 영화 자료는 음악을 Detlef Petersen에게 크레딧한다. 나무위키는 같은 선율을 쓰는 연세대 ‘내 이름 그리고 연세’를 모티프로 제작했다고 서술하지만 KIA 제작자의 직접 확인은 없어 보고 주장으로 보존한다. 팬들이 어깨동무하고 좌우로 이동한 뒤 앞뒤로 숙이는 동작, 주로 8회 공격 전 사용, 짧고 약간 빠른 편집판이 있다는 설명이 현장 영상과 대체로 맞는다. 2024 정규시즌 우승 세리머니와 한국시리즈 우승 직후 선수·팬이 함께 부른 기록을 거쳐 2026 공식 영상 27:36 및 5월 고척 현장에서도 확인된다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2023 시즌 신규 팀 응원가; 구단 공식 공개일 2023-04-04",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-shout-official-intro-2023", "ev-kia-d-namu-cheers"],
+          "notes": "구단 영상이 곡명을 타임라인에 직접 적어 최초 공개의 확실한 상한을 제공한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "영화 Gloomy Sunday의 피아노 테마 András Spielt; 영화 음악 Detlef Petersen",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "ev-kia-d-filmportal-gloomy-sunday", "yt-kia-d-shout-original-andras"],
+          "notes": "영상 설명은 트랙을 Detlef Friedrich Petersen 작곡·연주로 표기하고 filmportal은 영화 음악 크레딧을 Detlef Petersen으로 확인한다."
+        },
+        {
+          "field": "yonseiMotif",
+          "value": "같은 원곡을 쓰는 연세대 ‘내 이름 그리고 연세’를 모티프로 제작했다는 주장",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-shout-yonsei-comparison"],
+          "notes": "팬 비교 영상은 두 곡의 선율 관계를 들려 주지만 제작자가 모티프를 직접 인정한 1차 자료는 확인하지 못했다."
+        },
+        {
+          "field": "usageAndChoreography",
+          "value": "주로 8회 공격 전, 어깨동무 후 좌우 이동과 앞뒤 이동; 짧은 고속 편집판도 사용",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-shout-eighth-inning-2024", "yt-kia-d-shout-official-2024", "yt-kia-d-shout-official-2026"],
+          "notes": "8회 현장 제목과 공식 안무 영상이 문서 서술을 보강한다. 짧은판의 공식 음원명은 미확인이다."
+        },
+        {
+          "field": "championshipRole",
+          "value": "2024 정규시즌 우승 세리머니와 한국시리즈 우승 확정 직후의 대표 합창곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-shout-regular-season-championship-2024", "yt-kia-d-shout-korean-series-win-2024", "ev-kia-d-namu-cheers"],
+          "notes": "두 날짜 특정 영상이 선수·응원단·팬의 우승 세리머니 사용을 직접 기록한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 총정리 27:36 수록 및 2026-05-26 고척 원정 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-shout-official-2026", "yt-kia-d-shout-field-2026"],
+          "notes": "공식 목록과 날짜 특정 원정 현장 표본이 일치한다."
+        }
+      ],
+      "usageContexts": [
+        "주로 8회 KIA 공격을 앞두고 긴 전주부터 관중을 결집시키는 후반 핵심곡으로 운용된다.",
+        "팬들이 어깨동무하고 좌우로 이동한 뒤 앞뒤로 몸을 움직이는 집단 안무가 긴 버전의 핵심이다.",
+        "경기 중간에는 템포와 종지가 조금 다른 짧은 편집판이 삽입될 수 있다.",
+        "정규시즌 우승·한국시리즈 출정식·한국시리즈 우승처럼 팀과 팬이 함께하는 공식 세리머니에도 쓰인다."
+      ],
+      "trivia": [
+        {
+          "id": "shout-hogeori-express",
+          "summary": "나무위키는 마스코트 호걸이가 이 곡의 좌우·앞뒤 안무 때 단상 주변 팬이나 치어리더를 붙잡고 강하게 함께 움직이는 장면을 ‘호걸이 익스프레스’라고 부른다고 전한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-shout-official-2024"]
+        },
+        {
+          "id": "shout-cross-team-popularity",
+          "summary": "공개 초기부터 타 구단 팬이 현장에서 들은 뒤 찾아왔다는 댓글이 많고, 웅장함과 쉽게 합류할 수 있는 합창 구조를 장점으로 꼽는다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-shout-fan-mv-2023", "yt-kia-d-shout-field-2026"]
+        },
+        {
+          "id": "shout-v12-emotional-anchor",
+          "summary": "2024 한국시리즈 우승 직후 영상에서는 응원단도 울면서 곡을 부르는 장면이 남았고, 댓글도 한 시즌 동안 전국 원정을 함께한 응원단의 기여와 곡의 감정적 무게를 연결한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-shout-korean-series-win-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of a copyrighted film theme; lyric, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=eZ2xdatpqeQ",
+          "https://www.youtube.com/watch?v=PlMfsROqxcg",
+          "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "긴 피아노 선율을 따라가는 무가사 합창 도입 뒤, 선창이 승리와 열광을 촉구하고 관중이 팀명과 긴 모음 합창으로 응답한다. 같은 핵심 절을 반복해 좌우·앞뒤 집단 동작과 맞추며, 짧은 경기용 편집판도 따로 운용된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-d-shout-official-2026",
+        "yt-kia-d-shout-field-2026",
+        "yt-kia-d-shout-korean-series-win-2024",
+        "yt-kia-d-shout-regular-season-championship-2024",
+        "yt-kia-d-shout-eighth-inning-2024",
+        "yt-kia-d-shout-official-2024",
+        "yt-kia-d-shout-official-intro-2023",
+        "yt-kia-d-shout-fan-mv-2023",
+        "yt-kia-d-shout-original-andras",
+        "yt-kia-d-shout-yonsei-comparison"
+      ],
+      "unresolved": [
+        "KIA판의 작사·편곡·보컬·녹음 크레딧과 경기장 이용 허락 범위",
+        "연세대 ‘내 이름 그리고 연세’를 모티프로 삼았다는 제작자의 직접 확인",
+        "긴 버전과 짧은 버전의 공식 음원명·최초 사용일·정확한 편집 차이",
+        "2023 이후 시즌별 8회 고정 운용률과 예외 상황"
+      ]
+    },
+    {
+      "id": "kia-tigers-sunset-glow",
+      "title": "붉은 노을",
+      "aliases": ["붉은노을", "Sunset Glow"],
+      "currentStatus": "retired-or-dormant-since-2025",
+      "summary": "BIGBANG이 2008년 발표한 ‘붉은 노을’ 버전을 팀명·승리 서사로 바꿔 2024년 3월 21일 구단이 신규 응원가 뮤직비디오로 공개한 곡이다. 3월 31일 잠실에서 처음 불렀다는 복수 현장 기록이 있고, 나무위키는 그 뒤 거의 부르지 않았다고 적는다. 그러나 5월 4일 광주 KIA-한화전 현장 영상이 명확한 반례이므로 ‘3월 31일 이후 미사용’은 사실로 채택하지 않고 상충 주장으로 보존한다. 이후 2024년 10월 구단의 한국시리즈 주요 응원가 모음과 2026 공식 총정리에서 모두 빠졌고, 나무위키도 2025년부터 부르지 않는다고 적어 현 시점은 ‘2025년 이후 폐기 또는 휴면’으로 판정한다. 다만 2025·2026 비공식 팬 목록에는 계속 팀 응원가로 남아 있으므로 곡의 온라인 잔존과 실제 경기장 현행 사용을 구분해야 한다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "BIGBANG — 붉은 노을 (Sunset Glow), 앨범 Remember 수록 YG 음원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "ev-kia-d-bugs-sunset-glow", "yt-kia-d-sunset-official-intro-2024", "yt-kia-d-sunset-original-bigbang"],
+          "notes": "KIA 공식 영상과 YG 제공 Topic 메타데이터가 BIGBANG 버전 차용을 확인하며, 벅스는 이영훈 원작에 G-DRAGON·TEDDY·T.O.P이 참여한 2008 재작업 크레딧을 제공한다."
+        },
+        {
+          "field": "introduction",
+          "value": "2024-03-21 공식 공개, 2024-03-31 잠실에서 초기 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-sunset-official-intro-2024", "yt-kia-d-sunset-first-jamsil-a", "yt-kia-d-sunset-first-jamsil-b", "ev-kia-d-namu-cheers"],
+          "notes": "두 독립 팬 영상이 같은 3월 31일 잠실 사용을 기록하며 한 영상은 ‘처음’이라고 제목에 적는다."
+        },
+        {
+          "field": "afterMarch31Use",
+          "value": "‘3월 31일 뒤 더는 부르지 않았다’는 서술에는 2024-05-04 광주 사용 반례가 있음",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-sunset-home-may-2024"],
+          "notes": "날짜·경기·장소·곡명이 특정된 현장 영상 때문에 문서의 단정은 그대로 채택할 수 없다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025년부터 경기장 합창 미확인; 폐기 또는 휴면으로 판단",
+          "assessment": "reported",
+          "confidence": "medium-high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-sunset-official-omission-postseason-2024", "yt-kia-d-sunset-official-omission-2026", "yt-kia-d-sunset-fan-list-2025", "yt-kia-d-sunset-fan-list-2026"],
+          "notes": "공식 목록 연속 누락과 문서 서술을 우선하되 팬 목록 잔존은 상충 보조 자료로 보존한다."
+        },
+        {
+          "field": "pregamePlayback",
+          "value": "폐기 뒤에도 챔피언스필드 경기 전 잠깐 재생된다는 주장",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-sunset-official-intro-2024"],
+          "notes": "날짜 특정 현장 재생 표본을 찾지 못해 가능성만 남긴다."
+        },
+        {
+          "field": "entranceSongImpact",
+          "value": "팀 응원가 채택으로 이창진의 기존 같은 곡 등장음악이 변경됐다는 주장",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-sunset-official-intro-2024"],
+          "notes": "공식 공개 영상 댓글도 기존 이창진 등장곡이 팀 응원가로 돌아왔다는 인식을 반복하지만 변경 공지는 미확인이다."
+        }
+      ],
+      "usageContexts": [
+        "2024 시즌 초에는 긴 팀 응원가와 치어리더 안무로 공개돼 3월 31일 잠실, 5월 4일 광주에서 확인된다.",
+        "원곡의 노래 후렴과 랩 성격의 중간부를 모두 포함해 다른 상황곡보다 관중이 외울 분량이 많았다.",
+        "2024 포스트시즌 공식 주요곡 목록부터 빠지고 2026 공식 총정리에도 없어 현재 정규 응원 순서에서는 제외된 것으로 보인다.",
+        "팬 제작 2025·2026 전곡 목록의 수록은 아카이브·학습 자료 잔존이지 동시기 경기장 사용의 직접 증거가 아니다."
+      ],
+      "trivia": [
+        {
+          "id": "sunset-rap-learning-curve",
+          "summary": "공식 공개 댓글에는 중간의 랩 성격 구간까지 관중이 따라 해야 하는지 묻는 반응이 반복됐고, 3월 31일 현장 댓글은 응원단장도 초기에 전부 익숙하지 않았다는 농담을 남겼다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-sunset-official-intro-2024", "yt-kia-d-sunset-first-jamsil-a"]
+        },
+        {
+          "id": "sunset-red-team-fit",
+          "summary": "공개 당시 팬들은 제목과 후렴 이미지가 붉은 팀 색을 가진 타이거즈에 잘 맞는다고 받아들였고, 포스트시즌에서 부르기를 기대했다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-sunset-official-intro-2024"]
+        },
+        {
+          "id": "sunset-bigbang-remake-lineage",
+          "summary": "응원가가 직접 차용한 것은 BIGBANG 버전이며, 그 버전 자체는 이영훈 원작에 G-DRAGON·TEDDY가 작곡, T.O.P·G-DRAGON이 작사에 추가 참여하고 TEDDY가 편곡한 2008년 재작업이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-bugs-sunset-glow", "yt-kia-d-sunset-original-bigbang"]
+        },
+        {
+          "id": "sunset-list-versus-field",
+          "summary": "비공식 팬 목록에는 2025·2026에도 남아 있지만 2024년 10월과 2026 구단 공식 목록에는 없다. 공개 음원 아카이브와 현행 경기 운영을 분리해야 하는 대표 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-sunset-fan-list-2025", "yt-kia-d-sunset-fan-list-2026", "yt-kia-d-sunset-official-omission-postseason-2024", "yt-kia-d-sunset-official-omission-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of BIGBANG's commercial recording/version; lyric, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=LVIXH2g5RY8",
+          "https://www.youtube.com/watch?v=UJn-F2kPCaQ",
+          "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "BIGBANG 버전의 밝은 노래 후렴, 말하듯 빠른 중간부, 모음 합창을 유지하면서 연애 서사를 팀에 대한 애정·승리·오랜 기억으로 바꾼다. 마지막은 핵심 후렴과 짧은 팀명 응답을 반복해 끝낸다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-d-sunset-official-intro-2024",
+        "yt-kia-d-sunset-first-jamsil-a",
+        "yt-kia-d-sunset-first-jamsil-b",
+        "yt-kia-d-sunset-home-may-2024",
+        "yt-kia-d-sunset-cheerleader-2024",
+        "yt-kia-d-sunset-official-omission-postseason-2024",
+        "yt-kia-d-sunset-fan-list-2025",
+        "yt-kia-d-sunset-fan-list-2026",
+        "yt-kia-d-sunset-official-omission-2026",
+        "yt-kia-d-sunset-original-bigbang"
+      ],
+      "unresolved": [
+        "2024-05-04 이후 실제 경기장에서 마지막으로 합창한 날짜",
+        "2025 시즌 공식 폐기 또는 휴면 전환을 알린 구단 공지와 중단 사유",
+        "2025·2026 경기 전 음원 재생 여부와 날짜 특정 현장 표본",
+        "KIA판 작사·편곡·랩·보컬 크레딧과 이용 허락 범위"
+      ]
+    },
+    {
+      "id": "kia-tigers-strongest-kia-will-win",
+      "title": "최강 KIA 승리하리라",
+      "aliases": ["최강기아 승리하리라", "승리하리라", "최강 KIA 승전가"],
+      "currentStatus": "current-core-official-directly-verified-2026",
+      "summary": "KSHMR와 Zafrir가 2021년 Dharma에서 발표한 전자음악 ‘Winners Anthem’의 장중한 동기를 짧고 반복적인 팀 합창으로 바꾼 곡이다. 나무위키는 2024 시즌 개막전에 공개됐다고 적고, 3월 31일 잠실과 4월 17일 구단 공식 현장 영상이 시즌 초 정착을 직접 보여 준다. 2024년 10월 한국시리즈 대비 공식 모음 16:15와 2026 공식 총정리 29:30에 수록됐으며, 2025년 6월 현장에서는 6회 빅이닝과 8회 공격 양쪽에서 확인돼 고정 이닝곡보다 상황에 따라 전곡·짧은판을 쓰는 승리 분위기 곡에 가깝다. 같은 원곡은 포항 스틸러스 ‘저 아시아 끝이라 해도’에도 쓰인다고 알려져 있고, 구단 공식 영상 댓글에도 포항 구호를 알아본 반응이 있어 선율의 다종목 확산을 보조한다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "KSHMR & Zafrir — Winners Anthem; Dharma, 2021-08-06",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "ev-kia-d-shazam-winners-anthem", "yt-kia-d-victory-original-official", "yt-kia-d-victory-original-orchestral"],
+          "notes": "KSHMR 공식 오디오는 두 아티스트를, Shazam은 발매일과 레이블을 확인한다."
+        },
+        {
+          "field": "introduction",
+          "value": "2024 시즌 개막전 공개",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-victory-field-march-2024", "yt-kia-d-victory-official-field-april-2024"],
+          "notes": "정확한 개막전 원본은 찾지 못했지만 3월 31일과 4월 17일 초기 시즌 자료가 도입 시기를 강하게 보강한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 포스트시즌 공식 목록과 2026 구단 공식 총정리에 연속 수록, 2025 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-victory-official-postseason-2024", "yt-kia-d-victory-field-june-2025-a", "yt-kia-d-victory-field-june-2025-b", "yt-kia-d-victory-official-2026"],
+          "notes": "공식 목록 연속성과 날짜 특정 현장 사용이 모두 확인된다."
+        },
+        {
+          "field": "usagePattern",
+          "value": "긴 버전과 짧은 상황판이 있으며 6회·8회 등 공격 흐름에 따라 유동적으로 사용",
+          "assessment": "verified",
+          "confidence": "medium-high",
+          "evidenceRefs": ["yt-kia-d-victory-fan-audio-2025", "yt-kia-d-victory-field-june-2025-a", "yt-kia-d-victory-field-june-2025-b"],
+          "notes": "팬 목록은 짧은판과 팀 응원가 풀판을 별도 위치에 싣고, 두 2025 현장은 서로 다른 이닝을 기록한다. 공식 버전 명칭은 미확인이다."
+        },
+        {
+          "field": "sharedOriginal",
+          "value": "포항 스틸러스 ‘저 아시아 끝이라 해도’와 같은 원곡을 공유",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-kia-d-namu-cheers", "yt-kia-d-victory-official-field-april-2024", "yt-kia-d-victory-original-official"],
+          "notes": "나무위키 서술과 KIA 공식 영상의 포항 팬 반응이 일치하지만 포항 공식 원본은 이번 배치 범위 밖이라 추가 검증이 필요하다."
+        },
+        {
+          "field": "currentOfficialTimestamp",
+          "value": "2026 공식 응원가 총정리 29:30",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-victory-official-2026"],
+          "notes": "구단이 팀 응원가 챕터의 마지막 곡으로 표기한다."
+        }
+      ],
+      "usageContexts": [
+        "강한 전자음악 빌드업 위에 짧은 팀명·승리 구호를 얹어 대형 떼창이나 무반주 연장에 적합하다.",
+        "2025년 6월 29일 잠실에서는 6회 빅이닝 중에도, 8회 공격 흐름에서도 사용돼 특정 이닝에만 고정되지 않는다.",
+        "팬 목록에는 짧은 상황용 편집과 긴 팀 응원가 버전이 따로 잡혀 있어 진행 상황에 따라 길이를 달리하는 것으로 보인다.",
+        "2024 한국시리즈 대비 공식 학습 목록과 2026 공식 안무 모음에 모두 포함된 현행 핵심곡이다."
+      ],
+      "trivia": [
+        {
+          "id": "victory-source-orchestral",
+          "summary": "원곡 공동 아티스트 Zafrir는 2022년 청소년 교향악단과의 관현악 버전도 공개했다. 원곡 자체가 경기장 규모의 합창으로 확장되기 쉬운 성격임을 들려 주는 별도 1차 자료다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-victory-original-orchestral"]
+        },
+        {
+          "id": "victory-pohang-overlap",
+          "summary": "KIA 공식 현장 영상 댓글에 포항 응원 문구가 그대로 등장해 축구 팬도 선율을 즉시 알아봤다. 다만 어느 팀의 개사가 먼저인지는 이번 자료로 판단하지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-kia-d-victory-official-field-april-2024", "ev-kia-d-namu-cheers"]
+        },
+        {
+          "id": "victory-live-reception",
+          "summary": "구단 공식 현장 영상과 2026 공식 모음 댓글은 녹음보다 만원 관중 직관에서 더 웅장하고, 무반주로 이어 부를 때 만족감이 크다는 반응을 남긴다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-kia-d-victory-official-field-april-2024", "yt-kia-d-victory-official-2026", "yt-kia-d-victory-field-june-2025-a"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted stadium adaptation of a commercial electronic track; lyric, arrangement and recording redistribution rights not granted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=flymqIAa6H8",
+          "https://www.youtube.com/watch?v=l7XROs9lYSo&t=1770s",
+          "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "원곡의 강한 전자음악 동기 위에 팀의 승리를 선언하는 매우 짧은 선창을 두고, 긴 모음 합창으로 응답하는 블록을 반복한다. 중간 반주 뒤 같은 블록을 되풀이하며 짧은 상황판은 이 반복 수를 줄인다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-kia-d-victory-official-2026",
+        "yt-kia-d-victory-field-june-2025-a",
+        "yt-kia-d-victory-field-june-2025-b",
+        "yt-kia-d-victory-fan-audio-2025",
+        "yt-kia-d-victory-official-postseason-2024",
+        "yt-kia-d-victory-official-field-april-2024",
+        "yt-kia-d-victory-field-march-2024",
+        "yt-kia-d-victory-original-official",
+        "yt-kia-d-victory-original-orchestral"
+      ],
+      "unresolved": [
+        "2024 개막전 최초 공개를 담은 구단 원본과 정확한 첫 사용 이닝",
+        "KIA판 작사·편곡·보컬·녹음 크레딧과 원곡 이용 허락 범위",
+        "짧은 상황판과 긴 팀 응원가판의 공식 명칭·길이·첫 도입일",
+        "포항 스틸러스 개사와의 정확한 선후 관계"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kia-d-namu-cheers",
+      "type": "community-reference",
+      "url": "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "KIA 타이거즈/응원가",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "현행 응원가 문서의 WANTED·열광하라 타이거즈·외쳐라 최강 KIA·붉은 노을·최강 KIA 승리하리라 절을 대조했다. 원곡, 도입·재녹음·중단·부활 이력, 상황과 안무, 2024 우승 세리머니, 붉은 노을의 2025 이후 미사용 주장을 제공한다. 가사 전문은 옮기지 않았고 구단 공식 영상·원곡 자료·날짜 특정 현장 기록과 교차했다. 붉은 노을의 3월 31일 이후 미사용 단정은 5월 4일 영상과 충돌해 반박 표시했다.",
+      "supports": ["wanted.historyAndUse", "frenzy.historyAndRevival", "shout.originalMotifUsage", "sunset.historyAndDormancy", "victory.originalAndIntroduction"]
+    },
+    {
+      "id": "ev-kia-d-dugout-favorites",
+      "type": "media",
+      "url": "https://v.daum.net/v/5bK2iFS4wL",
+      "title": "[DUGOUT Live] 팬이 뽑은 최애 응원가 5탄 – KIA 타이거즈",
+      "publisher": "대단한미디어 DUGOUT",
+      "publishedAt": "2022-06-03",
+      "accessedAt": "2026-08-09",
+      "summary": "KIA 팬 선호 응원가 취재에서 WANTED를 The Dooleys 원곡의 상황 응원으로 소개하고, 자체 창작곡 ‘사랑한다 KIA’와 별개의 곡으로 다룬다. WANTED의 원곡·사용 맥락·동명이의 혼동을 보강하는 데만 사용했다.",
+      "supports": ["wanted.originalSong", "wanted.usagePattern", "wanted.disambiguation"]
+    },
+    {
+      "id": "ev-kia-d-official-charts-wanted",
+      "type": "music-chart-primary",
+      "url": "https://www.officialcharts.com/songs/dooleys-wanted/",
+      "title": "WANTED – DOOLEYS",
+      "publisher": "Official Charts Company",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "The Dooleys의 ‘Wanted’가 1979년 6월 16일 영국 싱글 차트에 처음 진입해 최고 3위, 14주 차트인한 GTO 싱글임을 제공한다. 응원가 원곡의 동시대 발매·인지도를 확인한다.",
+      "supports": ["wanted.originalTitleArtist", "wanted.releaseEra", "wanted.chartHistory"]
+    },
+    {
+      "id": "ev-kia-d-grammy-my-heart",
+      "type": "award-primary",
+      "url": "https://www.grammy.com/awards/categories/song-of-the-year/1999/",
+      "title": "Song Of The Year 1999 Winners & Nominees",
+      "publisher": "Recording Academy / Grammy Awards",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "1999 Song of the Year 수상작 ‘My Heart Will Go On (Love Theme From Titanic)’의 송라이터를 James Horner와 Will Jennings로 기록한다. 열광하라 타이거즈 원곡의 공식 작가 크레딧을 보강한다.",
+      "supports": ["frenzy.originalSongwriters", "frenzy.grammyHistory"]
+    },
+    {
+      "id": "ev-kia-d-bugs-sunset-glow",
+      "type": "music-metadata",
+      "url": "https://music.bugs.co.kr/track/1621583",
+      "title": "붉은 노을/BIGBANG (빅뱅)",
+      "publisher": "벅스",
+      "publishedAt": "2008-11-05",
+      "accessedAt": "2026-08-09",
+      "summary": "BIGBANG ‘붉은 노을’의 앨범 Remember와 참여 크레딧을 제공한다. 작곡은 G-DRAGON·TEDDY·이영훈, 작사는 T.O.P·G-DRAGON·이영훈, 편곡은 TEDDY로 표기한다. 페이지의 가사 전문은 연구 파일에 옮기지 않았다.",
+      "supports": ["sunset.bigbangVersionCredits", "sunset.leeYoungHoonLineage", "sunset.releaseDate"]
+    },
+    {
+      "id": "ev-kia-d-filmportal-gloomy-sunday",
+      "type": "film-database-primary",
+      "url": "https://www.filmportal.de/film/ein-lied-von-liebe-und-tod-gloomy-sunday_d0e545236f8a4dd2916b11f0bd06ee77",
+      "title": "Ein Lied von Liebe und Tod - Gloomy Sunday",
+      "publisher": "filmportal.de",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "독일 영화 아카이브가 1998/1999년 작품 ‘Gloomy Sunday’의 영화 음악을 Detlef Petersen에게 크레딧하고 독일 개봉일을 1999년 10월 21일로 기록한다. ‘András Spielt’ 계열의 영화 음악 출처를 보강한다.",
+      "supports": ["shout.filmSource", "shout.detlefPetersenCredit"]
+    },
+    {
+      "id": "ev-kia-d-shazam-winners-anthem",
+      "type": "music-metadata",
+      "url": "https://www.shazam.com/song/1576383405/winners-anthem",
+      "title": "Winners Anthem - KSHMR & Zafrir",
+      "publisher": "Shazam / Apple",
+      "publishedAt": "2021-08-06",
+      "accessedAt": "2026-08-09",
+      "summary": "‘Winners Anthem’을 KSHMR와 Zafrir의 Dance 싱글로 식별하고 2021년 8월 6일 Dharma 발매임을 제공한다. 공식 오디오와 함께 최강 KIA 승리하리라의 원곡 메타데이터를 확인한다.",
+      "supports": ["victory.originalArtist", "victory.releaseDate", "victory.label"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kia-d-wanted-field-july-2026",
+      "songId": "kia-tigers-wanted",
+      "url": "https://www.youtube.com/watch?v=8w2Qxst8Dts",
+      "videoId": "8w2Qxst8Dts",
+      "title": "기아타이거즈 미치도록 사랑해요 💙 김호령선수 260707",
+      "channel": "TWOBINPAPA",
+      "publishedAt": "2026-07-07T23:35:34-07:00",
+      "descriptionSummary": "2026년 7월 7일 김호령 타석 전후 현장에서 ‘미치도록 사랑해요’를 부르는 2분 13초 기록이다. 별도 설명은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["wanted.currentFieldUse2026"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-wanted-playlist-2026",
+      "songId": "kia-tigers-wanted",
+      "url": "https://www.youtube.com/watch?v=p6rFHkWu1Zg",
+      "videoId": "p6rFHkWu1Zg",
+      "title": "2026 🐯KIA타이거즈 PLAYLIST⚾️ (끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-03-31T22:29:17-07:00",
+      "descriptionSummary": "2026 팬 플레이리스트가 24:31에 ‘미치도록 사랑해요’를, 35:31에 ‘사랑한다 기아’를 별도 챕터로 표기해 WANTED와 자체곡을 직접 분리한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 새 시즌 직관 전에 응원가를 복습하고 팀의 V13을 기원한다는 전체 목록 반응이 중심이다."],
+      "supports": ["wanted.currentCatalog2026", "wanted.disambiguation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-wanted-fan-catalog-2026",
+      "songId": "kia-tigers-wanted",
+      "url": "https://www.youtube.com/watch?v=GiM8SNYBvFo",
+      "videoId": "GiM8SNYBvFo",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 기아타이거즈 응원가 모음 Ver.2026⚾끼끼 응원가 업데이트 완료🐵✨",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2026-05-19T23:00:13-07:00",
+      "descriptionSummary": "팬 제작 2026 전곡 목록은 24:46 WANTED를 잔응원 구역에 두고 31:30 사랑한다 KIA와 분리한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 구단 공식 영상에 빠진 등장곡과 잔응원까지 함께 정리해 유용하다고 평가한다."],
+      "supports": ["wanted.situationalCatalog", "wanted.disambiguation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-wanted-field-june-2025",
+      "songId": "kia-tigers-wanted",
+      "url": "https://www.youtube.com/watch?v=KmJYXqcy5Bc",
+      "videoId": "KmJYXqcy5Bc",
+      "title": "20250629 KIA타이거즈의 위닝을 향한 6회초 빅이닝 응원석 외야에서 본 직캠 (오선우부터 김석환, 박찬호, 김태군 타석 + 외쳐라 최강KIA, 최강KIA 승리하리라)",
+      "channel": "46채널",
+      "publishedAt": "2025-06-29T07:33:07-07:00",
+      "descriptionSummary": "2025년 6월 29일 잠실 원정의 6회 빅이닝을 기록하며, 6:54에 박찬호 희생플라이 뒤 WANTED가 이어졌다고 타임라인에 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 더운 날씨에도 원정 응원석의 화력이 강했다며 팬들의 건강과 팀 승리를 함께 기원한다."],
+      "supports": ["wanted.fieldUse2025", "wanted.postResultContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-wanted-field-2024",
+      "songId": "kia-tigers-wanted",
+      "url": "https://www.youtube.com/watch?v=gB-NpBZuGVY",
+      "videoId": "gB-NpBZuGVY",
+      "title": "2024/09/19 기아타이거즈 남행열차, 아파트, 미치도록 사랑해요(Wanted)",
+      "channel": "은비닝",
+      "publishedAt": "2024-09-19T09:15:16-07:00",
+      "descriptionSummary": "2024년 9월 19일 잠실 KIA-두산전에서 남행열차·아파트·WANTED가 이어지는 메들리를 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["wanted.fieldUse2024", "wanted.longTermContinuity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-wanted-field-2022",
+      "songId": "kia-tigers-wanted",
+      "url": "https://www.youtube.com/watch?v=AUgsGeT4AQs",
+      "videoId": "AUgsGeT4AQs",
+      "title": "최강기아를위해&미치도록 사랑해요(wanted)&김선빈응원가 박신비 치어리더 //221002",
+      "channel": "가냥이♡",
+      "publishedAt": "2022-10-08T10:21:11-07:00",
+      "descriptionSummary": "2022년 10월 2일 현장에서 최강 KIA를 위해, WANTED, 김선빈 응원가를 연속 촬영한 부활 이후 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["wanted.postRevivalFieldUse2022"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-wanted-fan-standalone-2023",
+      "songId": "kia-tigers-wanted",
+      "url": "https://www.youtube.com/watch?v=WwDVl3K3YmY",
+      "videoId": "WwDVl3K3YmY",
+      "title": "KIA 타이거즈 - [팀 응원가] 미치도록 사랑해요(WANTED)",
+      "channel": "Soooul",
+      "publishedAt": "2023-12-02T04:38:27-08:00",
+      "descriptionSummary": "야구 입문 친구에게 들려줄 팬 플레이리스트용으로 만든 31초 WANTED 단독 음원 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["KIA와 타 구단 팬 모두 중독성이 강한 대표곡으로 꼽고, 접전의 적시타 뒤 나오면 상대에게 압박이 클 것 같다고 회상한다."],
+      "supports": ["wanted.fanRecognition", "wanted.clutchContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-wanted-archive-2013",
+      "songId": "kia-tigers-wanted",
+      "url": "https://www.youtube.com/watch?v=pzW6Xl2DvLE",
+      "videoId": "pzW6Xl2DvLE",
+      "title": "미치도록 사랑해요 (원곡 Wanted_Dooleys)",
+      "channel": "dsHaha_",
+      "publishedAt": "2013-06-10T07:28:12-07:00",
+      "descriptionSummary": "2013년 6월 KIA 팀 응원가를 30초로 보존하고 제목과 설명에서 The Dooleys의 Wanted를 원곡으로 식별한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["오래된 팬은 목이 쉬도록 불렀다고 회상하고, 후대 팬도 남행열차·사랑한다 KIA와 함께 팀의 대표곡으로 기억한다."],
+      "supports": ["wanted.archive2013", "wanted.originalIdentification", "wanted.longstandingPopularity"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-wanted-original-topic",
+      "songId": "kia-tigers-wanted",
+      "url": "https://www.youtube.com/watch?v=2jOVBB7cDwo",
+      "videoId": "2jOVBB7cDwo",
+      "title": "Wanted",
+      "channel": "The Dooleys - Topic",
+      "publishedAt": "2015-09-23T08:29:35-07:00",
+      "descriptionSummary": "Sony/Epic 제공 Topic 음원이 The Dooleys의 Wanted와 Ben Findon, Mike Myers, Robert Puzey의 작사·작곡 크레딧을 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["wanted.originalSong", "wanted.originalCredits"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-wanted-official-omission-2026",
+      "songId": "kia-tigers-wanted",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "videoId": "l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (🆕 카스트로 & 데일 응원가)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24T02:38:00-07:00",
+      "descriptionSummary": "구단의 2026 팀·선수 응원가 안무 총정리는 주요 팀 응원가 열 곡을 챕터로 싣지만 WANTED는 수록하지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 공식 안무 학습 자료가 생긴 점을 반기고, 현장에서 반복 연습하면 자연스럽게 외우게 된다고 말한다."],
+      "supports": ["wanted.officialCatalogOmission2026"],
+      "accessedAt": "2026-08-09"
+    },
+
+    {
+      "id": "yt-kia-d-frenzy-field-2026",
+      "songId": "kia-tigers-frenzy-tigers",
+      "url": "https://www.youtube.com/watch?v=ARvUeTIy72o",
+      "videoId": "ARvUeTIy72o",
+      "title": "KIA타이거즈 팀 응원가 \"열광하라 타이거즈 (타이타닉)\" 20260702",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-07-02T09:31:01-07:00",
+      "descriptionSummary": "2026년 7월 2일 현장에서 0:00 열광하라 타이거즈, 1:22 두다를 연속 촬영한 날짜 특정 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["frenzy.currentFieldUse2026"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-frenzy-official-2026",
+      "songId": "kia-tigers-frenzy-tigers",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "videoId": "l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (🆕 카스트로 & 데일 응원가)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24T02:38:00-07:00",
+      "descriptionSummary": "구단의 2026 공식 안무 모음이 팀 응원가 ‘열광하라 타이거즈’를 21:27에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 이 곡을 현장에서 들으면 뭉클한 최애 응원가 중 하나라고 평가하고 공식 학습 영상의 안무를 복습한다."],
+      "supports": ["frenzy.currentOfficial2026", "frenzy.choreography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-frenzy-field-2025",
+      "songId": "kia-tigers-frenzy-tigers",
+      "url": "https://www.youtube.com/watch?v=wV6LQKiSlaU",
+      "videoId": "wV6LQKiSlaU",
+      "title": "2025/06/29 기아타이거즈 외쳐라 최강기아 열광하라 타이거즈",
+      "channel": "은비닝",
+      "publishedAt": "2025-07-03T01:02:19-07:00",
+      "descriptionSummary": "2025년 6월 29일 잠실 KIA-LG전에서 외쳐라 최강 KIA와 열광하라 타이거즈를 연속 촬영한 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["짧은 댓글은 오랜만의 KIA 직관과 경기 내용을 긍정적으로 회상한다."],
+      "supports": ["frenzy.fieldUse2025", "frenzy.awayUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-frenzy-official-2024",
+      "songId": "kia-tigers-frenzy-tigers",
+      "url": "https://www.youtube.com/watch?v=ZEPS5Bm3iqc",
+      "videoId": "ZEPS5Bm3iqc",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 도입부 듣자마자 야구장 가고 싶어지는 노래 ｜기아타이거즈 선수 & 팀 응원가 모음",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-03-20T04:30:26-07:00",
+      "descriptionSummary": "구단의 2024 시즌 초 공식 팀 응원가 목록이 열광하라 타이거즈를 20:34에 수록해 부활 후 공식 지위를 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 공식 안무를 보며 직관 전에 가사와 동작을 복습하고 전 구장 응원단 파견을 반긴다."],
+      "supports": ["frenzy.currentOfficial2024", "frenzy.choreography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-frenzy-revival-mv-2022",
+      "songId": "kia-tigers-frenzy-tigers",
+      "url": "https://www.youtube.com/watch?v=pSSk6apWIbo",
+      "videoId": "pSSk6apWIbo",
+      "title": "[MV] 6년만에 부활한 열광하라 타이거즈 (타이타닉 ost) 응원가!!",
+      "channel": "기아타이거즈 팬",
+      "publishedAt": "2022-07-30T17:36:41-07:00",
+      "descriptionSummary": "2022년 7월 30일 팬 뮤직비디오가 곡을 Titanic OST 기반 응원가이자 6년 만의 부활곡으로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["오래 기다린 곡이 돌아와 반갑고 어깨동무해 좌우로 움직이고 싶다는 반응이 반복된다.", "후대 댓글은 한국시리즈 출정식에서 들었을 때 전율이 컸다고 회상하고 실제 경기장 사용 여부를 서로 확인한다."],
+      "supports": ["frenzy.revival2022", "frenzy.fanChoreographyMemory", "frenzy.emotionalReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-frenzy-revival-field-2022",
+      "songId": "kia-tigers-frenzy-tigers",
+      "url": "https://www.youtube.com/watch?v=bD06EYYlIKw",
+      "videoId": "bD06EYYlIKw",
+      "title": "[4K]22.08.03 기아응원가 열광하라 타이거즈 정가예 치어리더 직캠",
+      "channel": "가냥이♡",
+      "publishedAt": "2022-08-03T11:26:37-07:00",
+      "descriptionSummary": "2022년 8월 3일 치어리더와 함께 진행한 열광하라 타이거즈의 4K 현장 영상으로 복귀 직후 실제 사용을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["frenzy.postRevivalFieldUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-frenzy-archive-2016",
+      "songId": "kia-tigers-frenzy-tigers",
+      "url": "https://www.youtube.com/watch?v=fqfwZZ2amlo",
+      "videoId": "fqfwZZ2amlo",
+      "title": "기아타이거즈 응원가 타이타닉",
+      "channel": "예진",
+      "publishedAt": "2016-02-03T07:39:53-08:00",
+      "descriptionSummary": "2016년 2월에 공개된 33초 응원가 아카이브가 곡을 팬 통칭 ‘타이타닉’으로 식별한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["frenzy.archive2016", "frenzy.titanicAlias"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-frenzy-original-celine",
+      "songId": "kia-tigers-frenzy-tigers",
+      "url": "https://www.youtube.com/watch?v=mNsm2P0l_7Y",
+      "videoId": "mNsm2P0l_7Y",
+      "title": "Céline Dion - My Heart Will Go On (Official Audio)",
+      "channel": "CelineDionVEVO",
+      "publishedAt": "2013-02-01T00:00:29-08:00",
+      "descriptionSummary": "Céline Dion 공식 오디오가 ‘My Heart Will Go On’을 가수의 공식 채널에서 제공한다. 설명의 원곡 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 곡을 영화 Titanic의 감정과 분리할 수 없는 시대적 명곡으로 기억하고 세대가 바뀌어도 계속 듣는다고 말한다."],
+      "supports": ["frenzy.originalSong", "frenzy.titanicAssociation"],
+      "accessedAt": "2026-08-09"
+    },
+
+    {
+      "id": "yt-kia-d-shout-official-2026",
+      "songId": "kia-tigers-shout-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "videoId": "l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (🆕 카스트로 & 데일 응원가)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24T02:38:00-07:00",
+      "descriptionSummary": "구단의 2026 공식 안무 총정리가 외쳐라 최강 KIA를 27:36에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 한여름 현장에서 부르면 강한 몰입감이 생기는 곡으로 꼽고, 공식 영상으로 동작을 복습한다."],
+      "supports": ["shout.currentOfficial2026", "shout.choreography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-shout-field-2026",
+      "songId": "kia-tigers-shout-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=gUZrLvFMowY",
+      "videoId": "gUZrLvFMowY",
+      "title": "2026 시즌 기아타이거즈 고척돔 가장 높은 곳에서 직접 담은 외쳐라 최강기아🐯",
+      "channel": "PSG TV",
+      "publishedAt": "2026-05-26T04:49:28-07:00",
+      "descriptionSummary": "2026년 5월 고척 원정에서 가장 높은 좌석에서 촬영한 2분 22초 외쳐라 최강 KIA 현장 떼창이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 평일 원정인데도 고척을 홈처럼 채운 KIA 팬의 규모와 곡을 들을 때의 벅참을 반복해 언급한다.", "타 구단 팬도 곡을 좋아한다고 밝히며 원정 응원 화력을 높이 평가한다."],
+      "supports": ["shout.currentFieldUse2026", "shout.awayCrowd", "shout.crossTeamReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-shout-korean-series-win-2024",
+      "songId": "kia-tigers-shout-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=DTIX9VP_6nA",
+      "videoId": "DTIX9VP_6nA",
+      "title": "우승 직후 부르는 '외쳐라 최강기아'⚾기아타이거즈 눈물의 떼창",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2024-11-01T03:01:49-07:00",
+      "descriptionSummary": "2024년 10월 28일 한국시리즈 5차전 우승 확정 뒤 응원단과 팬이 울면서 외쳐라 최강 KIA를 부르는 현장을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 1년간 전국 구장을 다닌 응원단을 우승의 숨은 공로자로 평가하고 눈물의 합창에 함께 울컥했다고 회상한다.", "타 구단 팬도 곡의 장중하고 애틋한 정서 때문에 감정이 올라온다고 반응한다."],
+      "supports": ["shout.koreanSeriesWinUse", "shout.emotionalAnchor", "shout.cheerSquadRecognition"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-shout-regular-season-championship-2024",
+      "songId": "kia-tigers-shout-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=1n1cYtCMm24",
+      "videoId": "1n1cYtCMm24",
+      "title": "240917 정규시즌 우승 세리머니 - 외쳐라 최강기아 단체응원 KIA타이거즈 전상현",
+      "channel": "sskk",
+      "publishedAt": "2024-09-17T16:36:07-07:00",
+      "descriptionSummary": "2024년 9월 17일 정규시즌 우승 세리머니에서 선수와 팬이 외쳐라 최강 KIA 단체 안무를 하는 장면을 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 평소 차분한 선수들이 활짝 웃고 동작을 정확히 따라 하는 모습에서 우승의 기쁨을 느꼈다고 반응한다."],
+      "supports": ["shout.regularSeasonChampionshipUse", "shout.playerParticipation"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-shout-eighth-inning-2024",
+      "songId": "kia-tigers-shout-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=c0rdDMQHG6E",
+      "videoId": "c0rdDMQHG6E",
+      "title": "🐯이때까지는 역전할 줄 몰랐던 8회 기아타이거즈 역대급 외쳐라 최강기아 육성 떼창 응원 현장 직캠!!🔥 (2024.08.16 vs LG)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2024-08-16T05:36:49-07:00",
+      "descriptionSummary": "2024년 8월 16일 LG전, 뒤지고 있던 8회 KIA 응원석의 외쳐라 최강 KIA 육성 떼창을 촬영한 106초 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 패색이 짙은 상황에도 큰 합창을 이어 간 장면 자체가 감동적이었고 뒤이은 역전과 연결돼 오래 남는다고 회상한다.", "타 구단 팬도 곡의 웅장함과 KIA 원정 응원의 규모를 높이 평가한다."],
+      "supports": ["shout.eighthInningUse", "shout.losingGameUse", "shout.comebackMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-shout-official-2024",
+      "songId": "kia-tigers-shout-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=ZEPS5Bm3iqc",
+      "videoId": "ZEPS5Bm3iqc",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 도입부 듣자마자 야구장 가고 싶어지는 노래 ｜기아타이거즈 선수 & 팀 응원가 모음",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-03-20T04:30:26-07:00",
+      "descriptionSummary": "구단의 2024 공식 팀 응원가·안무 목록이 외쳐라 최강 KIA를 26:42에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 한여름 현장에서 치어리더와 관중이 함께 부르는 구간을 특히 좋아하고, 우승 무대에서 듣기를 기대한다."],
+      "supports": ["shout.currentOfficial2024", "shout.officialChoreography"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-shout-official-intro-2023",
+      "songId": "kia-tigers-shout-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=eZ2xdatpqeQ",
+      "videoId": "eZ2xdatpqeQ",
+      "title": "2023 신규 응원가 떴다! 🎶 변우혁, 주효상, 김규성, 팀 응원가",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2023-04-04T00:54:06-07:00",
+      "descriptionSummary": "구단이 2023 신규 선수·팀 응원가를 공개하며 2:28에 ‘외쳐라 최강기아!’를 공식 타임라인으로 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 당일부터 팬들은 가을야구와 잠실 원정에서 대규모 떼창을 기대하고, 기존에 드물던 웅장한 스타일의 팀 응원가가 생겼다고 반겼다.", "녹음 가수가 자신의 가족이라는 댓글이 있으나 실명·제작 크레딧은 확인되지 않아 채택하지 않았다."],
+      "supports": ["shout.officialIntroduction2023", "shout.initialReception", "shout.unverifiedVocalCredit"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-shout-fan-mv-2023",
+      "songId": "kia-tigers-shout-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=yirww4738cs",
+      "videoId": "yirww4738cs",
+      "title": "외쳐라 최강기아! M/V",
+      "channel": "기아타이거즈 팬",
+      "publishedAt": "2023-04-04T06:56:38-07:00",
+      "descriptionSummary": "공식 공개 당일 팬이 만든 119초 뮤직비디오로 곡의 초기 유통과 빠른 팬 반응을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": ["KIA·두산·NC·삼성·LG 등 여러 구단 팬이 경기장에서 들은 뒤 찾아왔고 웅장함과 중독성을 높이 평가한다.", "2024 우승 뒤에는 한국시리즈에서 실제로 곡이 울린 순간을 되짚는 후대 댓글이 쌓였다."],
+      "supports": ["shout.earlyFanCirculation", "shout.crossTeamPopularity", "shout.postChampionshipMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-shout-original-andras",
+      "songId": "kia-tigers-shout-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=PlMfsROqxcg",
+      "videoId": "PlMfsROqxcg",
+      "title": "Gloomy Sunday OST-András Spielt",
+      "channel": "Jade Lee",
+      "publishedAt": "2010-08-19T16:52:54-07:00",
+      "descriptionSummary": "영화 Gloomy Sunday의 4번 트랙 ‘András Spielt (Piano Thema)’를 Detlef Friedrich Petersen 작곡·연주로 표기한 135초 원선율 아카이브다.",
+      "commentsStatus": "available",
+      "commentSummary": ["최근 댓글 다수는 KIA 응원가를 통해 원곡을 찾아왔고 피아노 선율에서도 외쳐라 최강 KIA가 들린다고 반응한다.", "영화 관객은 응원가와 무관하게 작품과 피아노 테마의 아름다움을 오래 기억한다."],
+      "supports": ["shout.originalTheme", "shout.detlefPetersenCredit", "shout.reverseDiscovery"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-shout-yonsei-comparison",
+      "songId": "kia-tigers-shout-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=Olj0bGK4044",
+      "videoId": "Olj0bGK4044",
+      "title": "외쳐라 최강기아(기아 타이거즈 응원가)X내 이름 그리고 연세(연세대 응원가)",
+      "channel": "민사이트",
+      "publishedAt": "2024-09-02T08:41:23-07:00",
+      "descriptionSummary": "KIA 외쳐라 최강 KIA와 연세대 내 이름 그리고 연세를 한 영상에 이어 붙여 같은 원선율 관계를 비교하는 팬 편집물이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["짧은 댓글은 두 응원가를 결합한 비교 편집을 긍정적으로 평가한다."],
+      "supports": ["shout.sharedMelodyWithYonsei", "shout.motifClaimCaveat"],
+      "accessedAt": "2026-08-09"
+    },
+
+    {
+      "id": "yt-kia-d-sunset-official-intro-2024",
+      "songId": "kia-tigers-sunset-glow",
+      "url": "https://www.youtube.com/watch?v=LVIXH2g5RY8",
+      "videoId": "LVIXH2g5RY8",
+      "title": "신규 팀 응원가 '붉은 노을' [M/V ver.]",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-03-21T06:00:18-07:00",
+      "descriptionSummary": "구단이 2024년 3월 21일 ‘신규 팀 응원가 붉은 노을’ 뮤직비디오를 직접 공개했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 BIGBANG 버전의 랩 성격 구간까지 따라 해야 하는지 묻고, 붉은 이미지가 타이거즈와 잘 맞는다며 포스트시즌 사용을 기대한다.", "이창진의 기존 등장음악이 팀 응원가로 돌아왔다는 인식도 반복된다."],
+      "supports": ["sunset.officialIntroduction", "sunset.originalIdentification", "sunset.initialReception", "sunset.entranceSongMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-sunset-first-jamsil-a",
+      "songId": "kia-tigers-sunset-glow",
+      "url": "https://www.youtube.com/watch?v=_x7t2_NmALw",
+      "videoId": "_x7t2_NmALw",
+      "title": "240331 기아타이거즈 응원가 | 붉은노을 | 잠실 기아 응원",
+      "channel": "직관타이거즈",
+      "publishedAt": "2024-03-31T01:04:45-07:00",
+      "descriptionSummary": "2024년 3월 31일 잠실에서 진행한 붉은 노을의 109초 초기 현장 표본이다. 별도 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 잠실을 홈처럼 채운 원정 응원 규모를 언급하고, 응원단장도 초기에는 모든 구간이 익숙하지 않았다는 현장 농담을 전한다."],
+      "supports": ["sunset.jamsilUseMarch31", "sunset.initialLearningCurve"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-sunset-first-jamsil-b",
+      "songId": "kia-tigers-sunset-glow",
+      "url": "https://www.youtube.com/watch?v=xma4RRPA8nk",
+      "videoId": "xma4RRPA8nk",
+      "title": "잠실에서 처음으로 부르는 기아타이거즈 붉은노을 응원가 (24.3.31 kia vs 두산)",
+      "channel": "이나솜",
+      "publishedAt": "2024-03-31T03:20:01-07:00",
+      "descriptionSummary": "독립 팬 영상이 2024년 3월 31일 KIA-두산 잠실전의 붉은 노을을 ‘처음으로 부르는’ 응원가라고 제목에 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["sunset.firstFieldUseClaim", "sunset.jamsilUseMarch31"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-sunset-home-may-2024",
+      "songId": "kia-tigers-sunset-glow",
+      "url": "https://www.youtube.com/watch?v=wqm8bZA7Wd0",
+      "videoId": "wqm8bZA7Wd0",
+      "title": "240504 광주기아챔피언스필드 붉은 노을 응원가 (KIA-한화전)",
+      "channel": "로맨틱별",
+      "publishedAt": "2024-05-04T23:16:02-07:00",
+      "descriptionSummary": "2024년 5월 4일 광주 KIA-한화전에서 붉은 노을을 부른 72초 현장 기록으로, 3월 31일 뒤 미사용이라는 서술의 직접 반례다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["sunset.fieldUseMay4", "sunset.afterMarch31Contradiction"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-sunset-cheerleader-2024",
+      "songId": "kia-tigers-sunset-glow",
+      "url": "https://www.youtube.com/watch?v=KwuU9IBYQmo",
+      "videoId": "KwuU9IBYQmo",
+      "title": "기아타이거즈 신규팀응원가 붉은노을⚾유세빈 치어리더⚾Kia Tigers Yu Se bin Cheerleader 4K Cam",
+      "channel": "스포츠디비_Cheers",
+      "publishedAt": "2024-04-02T15:44:01-07:00",
+      "descriptionSummary": "2024년 3월 31일 잠실의 신규 응원가 안무를 치어리더 중심 4K 영상으로 보존한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 랩 성격의 구간과 치어리더 안무를 주로 언급하고, 다른 구단의 같은 곡 사용 기억을 비교한다."],
+      "supports": ["sunset.choreography", "sunset.rapSection", "sunset.crossClubMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-sunset-official-omission-postseason-2024",
+      "songId": "kia-tigers-sunset-glow",
+      "url": "https://www.youtube.com/watch?v=QH7DYaRnXMg",
+      "videoId": "QH7DYaRnXMg",
+      "title": "한국시리즈 대비 기아타이거즈 응원가 모음집 (2024년 10월 최신 ver.)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-10-13T16:17:21-07:00",
+      "descriptionSummary": "구단이 ‘2024년 10월 최신’ 한국시리즈 대비 주요 팀 응원가 여덟 곡을 싣지만 시즌 초 공개한 붉은 노을은 제외한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬들은 한국시리즈 직전 공식 목록으로 가사와 금지된 임의 추임새를 복습하지만 붉은 노을의 누락 자체를 직접 논의하지는 않는다."],
+      "supports": ["sunset.officialOmissionOctober2024", "sunset.deprioritizationByPostseason"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-sunset-fan-list-2025",
+      "songId": "kia-tigers-sunset-glow",
+      "url": "https://www.youtube.com/watch?v=Y55NxjqfP6s",
+      "videoId": "Y55NxjqfP6s",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 기아타이거즈 응원가 모음 Ver.2025 ⚾ 응원가 끝판왕 곰감독의 최애팀 응원가",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2025-06-27T19:25:54-07:00",
+      "descriptionSummary": "비공식 2025 팬 목록이 붉은 노을을 48:51 팀 응원가로 수록한다. 목록 잔존은 확인하지만 경기장 사용 증거로 보지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 새 시즌 전체 목록을 기다렸고 직관 전 복습에 사용한다고 반응하며, 곡별 현행 여부는 거의 논의하지 않는다."],
+      "supports": ["sunset.fanCatalogPersistence2025", "sunset.currentUseCaveat"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-sunset-fan-list-2026",
+      "songId": "kia-tigers-sunset-glow",
+      "url": "https://www.youtube.com/watch?v=GiM8SNYBvFo",
+      "videoId": "GiM8SNYBvFo",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 기아타이거즈 응원가 모음 Ver.2026⚾끼끼 응원가 업데이트 완료🐵✨",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2026-05-19T23:00:13-07:00",
+      "descriptionSummary": "비공식 2026 팬 목록도 붉은 노을을 45:20 팀 응원가로 남긴다. 같은 해 구단 공식 목록에는 없어 아카이브 잔존으로 해석한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 공식 영상에 없는 잔응원과 등장곡까지 포함한 폭넓은 목록이라는 점을 장점으로 본다."],
+      "supports": ["sunset.fanCatalogPersistence2026", "sunset.officialFanCatalogConflict"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-sunset-official-omission-2026",
+      "songId": "kia-tigers-sunset-glow",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "videoId": "l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (🆕 카스트로 & 데일 응원가)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24T02:38:00-07:00",
+      "descriptionSummary": "구단의 2026 시즌 팀·선수 응원가 총정리는 주요 팀 응원가 열 곡을 싣지만 붉은 노을은 수록하지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 현행 응원가와 안무를 학습하는 공식 자료로 활용하지만 붉은 노을의 부재를 직접 설명하지 않는다."],
+      "supports": ["sunset.officialOmission2026", "sunset.dormantAssessment"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-sunset-original-bigbang",
+      "songId": "kia-tigers-sunset-glow",
+      "url": "https://www.youtube.com/watch?v=UJn-F2kPCaQ",
+      "videoId": "UJn-F2kPCaQ",
+      "title": "붉은 노을 (Sunset Glow)",
+      "channel": "Bigbang - Topic",
+      "publishedAt": "2016-09-21T19:24:51-07:00",
+      "descriptionSummary": "YG Entertainment 제공 Topic 음원이 BIGBANG의 ‘붉은 노을 (Sunset Glow)’과 앨범 Remember를 식별한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자는 원곡의 정서를 해치지 않은 대표적인 리메이크이자 세대를 잇는 밝은 추억의 곡으로 평가한다."],
+      "supports": ["sunset.originalSong", "sunset.bigbangVersion", "sunset.albumMetadata"],
+      "accessedAt": "2026-08-09"
+    },
+
+    {
+      "id": "yt-kia-d-victory-official-2026",
+      "songId": "kia-tigers-strongest-kia-will-win",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "videoId": "l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (🆕 카스트로 & 데일 응원가)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24T02:38:00-07:00",
+      "descriptionSummary": "구단의 2026 공식 안무 총정리가 마지막 팀 응원가로 최강 KIA 승리하리라를 29:30에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 직관에서 이 곡의 웅장함이 특히 좋다며 29:30 타임스탬프를 별도로 공유한다."],
+      "supports": ["victory.currentOfficial2026", "victory.officialTimestamp"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-victory-field-june-2025-a",
+      "songId": "kia-tigers-strongest-kia-will-win",
+      "url": "https://www.youtube.com/watch?v=KPMqhN3AwoQ",
+      "videoId": "KPMqhN3AwoQ",
+      "title": "20250629 KIA타이거즈 약속의 8회초 아파트, 최강KIA 승리하리라, 사랑한다 KIA 외야에서 본 직캠 응원석",
+      "channel": "46채널",
+      "publishedAt": "2025-06-29T08:01:24-07:00",
+      "descriptionSummary": "2025년 6월 29일 잠실 8회초에 2:08부터 최강 KIA 승리하리라의 반주 및 무반주 떼창이 이어졌다고 타임라인에 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["짧은 댓글은 뒤이어 나온 사랑한다 KIA를 가장 좋아하는 곡으로 꼽는다."],
+      "supports": ["victory.fieldUse2025", "victory.eighthInningUse", "victory.instrumentalAndAcappella"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-victory-field-june-2025-b",
+      "songId": "kia-tigers-strongest-kia-will-win",
+      "url": "https://www.youtube.com/watch?v=KmJYXqcy5Bc",
+      "videoId": "KmJYXqcy5Bc",
+      "title": "20250629 KIA타이거즈의 위닝을 향한 6회초 빅이닝 응원석 외야에서 본 직캠 (오선우부터 김석환, 박찬호, 김태군 타석 + 외쳐라 최강KIA, 최강KIA 승리하리라)",
+      "channel": "46채널",
+      "publishedAt": "2025-06-29T07:33:07-07:00",
+      "descriptionSummary": "같은 경기의 6회초 빅이닝에서 3:50부터 최강 KIA 승리하리라가 나온다고 타임라인에 적어 8회 고정곡이 아님을 보여 준다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 무더위 속에서도 원정 응원석이 강한 화력을 냈다고 평가한다."],
+      "supports": ["victory.sixthInningUse", "victory.flexibleUsage"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-victory-fan-audio-2025",
+      "songId": "kia-tigers-strongest-kia-will-win",
+      "url": "https://www.youtube.com/watch?v=BuM5Pv0eLII",
+      "videoId": "BuM5Pv0eLII",
+      "title": "(고음질) [KIA 타이거즈] 팀 응원가 - 최강 KIA 승리하리라",
+      "channel": "은최",
+      "publishedAt": "2025-11-08T21:33:26-08:00",
+      "descriptionSummary": "2025년 팬 업로드가 최강 KIA 승리하리라를 61초 고음질 팀 응원가로 단독 정리한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["짧은 댓글은 음절과 반복 구호가 실제 승리를 예감하게 한다는 인상을 남긴다."],
+      "supports": ["victory.fanAudio2025", "victory.shortStructure"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-victory-official-postseason-2024",
+      "songId": "kia-tigers-strongest-kia-will-win",
+      "url": "https://www.youtube.com/watch?v=QH7DYaRnXMg",
+      "videoId": "QH7DYaRnXMg",
+      "title": "한국시리즈 대비 기아타이거즈 응원가 모음집 (2024년 10월 최신 ver.)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-10-13T16:17:21-07:00",
+      "descriptionSummary": "구단의 한국시리즈 대비 2024년 10월 최신 목록이 최강 KIA 승리하리라를 16:15에 주요 팀 응원가로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬들은 한국시리즈를 앞두고 공식 가사와 안무를 정확히 익혀 한 목소리로 응원하겠다고 반응한다."],
+      "supports": ["victory.officialPostseasonUse2024", "victory.coreStatus"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-victory-official-field-april-2024",
+      "songId": "kia-tigers-strongest-kia-will-win",
+      "url": "https://www.youtube.com/watch?v=IRRg6vsnedw",
+      "videoId": "IRRg6vsnedw",
+      "title": "직관서 부르면 웅장해지는 최강기아 승리하리라 ♬ 직캠",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-04-17T08:23:28-07:00",
+      "descriptionSummary": "구단이 2024년 4월 17일 홈 현장에서 관중과 함께 부른 최강 KIA 승리하리라 직캠을 공식 공개했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팬은 신규곡 중 특히 좋아한다며 고음질 음원을 요청하고, 만원 관중에서 더 웅장할 것이라고 기대한다.", "포항 팬의 기존 응원 문구를 적어 같은 원곡을 알아본 댓글도 있다."],
+      "supports": ["victory.earlyOfficialFieldUse", "victory.liveReception", "victory.pohangRecognition"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-victory-field-march-2024",
+      "songId": "kia-tigers-strongest-kia-will-win",
+      "url": "https://www.youtube.com/watch?v=cC79lAMaJbQ",
+      "videoId": "cC79lAMaJbQ",
+      "title": "240331 기아타이거즈 응원가 떼창 | 승리하리라(?)+외쳐라 최강기아",
+      "channel": "직관타이거즈",
+      "publishedAt": "2024-03-31T04:30:12-07:00",
+      "descriptionSummary": "2024년 3월 31일 잠실에서 시즌 초 신규곡 최강 KIA 승리하리라와 외쳐라 최강 KIA를 연속 촬영한 현장 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 신규 승리하리라가 좋고 KIA의 웅장한 팀 응원가가 늘었다고 반응한다."],
+      "supports": ["victory.earlyFieldUseMarch2024", "victory.initialReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-victory-original-official",
+      "songId": "kia-tigers-strongest-kia-will-win",
+      "url": "https://www.youtube.com/watch?v=flymqIAa6H8",
+      "videoId": "flymqIAa6H8",
+      "title": "KSHMR & Zafrir - Winners Anthem [Official Audio]",
+      "channel": "KSHMR",
+      "publishedAt": "2021-08-05T21:00:10-07:00",
+      "descriptionSummary": "KSHMR 공식 채널이 Zafrir와의 공동곡 Winners Anthem 및 Dharma 배포 링크를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["세계 각지 시청자는 곡의 강한 에너지와 스포츠·승리 장면에 어울리는 분위기를 높이 평가한다.", "한국 팬 댓글에는 여러 야구·축구 응원에서 이 선율을 듣고 찾아왔다는 반응이 섞여 있다."],
+      "supports": ["victory.originalSong", "victory.originalArtists", "victory.stadiumEnergy"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-d-victory-original-orchestral",
+      "songId": "kia-tigers-strongest-kia-will-win",
+      "url": "https://www.youtube.com/watch?v=xGMptYwSJ50",
+      "videoId": "xGMptYwSJ50",
+      "title": "KSHMR, ZAFRIR - Winners Anthem (with Youth Raanana Symphony)",
+      "channel": "Zafrir",
+      "publishedAt": "2022-07-06T08:15:47-07:00",
+      "descriptionSummary": "공동 아티스트 Zafrir가 Raanana Youth Symphony와 녹음한 관현악 버전을 공개하고 지휘·녹음·오케스트레이션 크레딧을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 전자음악 원곡이 교향악 편성에서도 강한 승리 테마로 들린다고 평가한다."],
+      "supports": ["victory.originalOrchestralVersion", "victory.sourceScale"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 47,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

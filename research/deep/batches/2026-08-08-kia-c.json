@@ -1,0 +1,1610 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kia-c",
+  "checkedAt": "2026-08-08",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kia-tigers",
+    "name": "KIA 타이거즈",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 구단 응원가·편곡은 합법적으로 열람 가능한 출처 URL, 권리 상태, 구성·주제 요약만 남긴다. 공개 댓글은 작성자 식별정보와 원문 인용 없이 반복되는 반응만 익명 요약한다. 퍼블릭 도메인 원곡도 구단 편곡·녹음의 별도 권리를 구분한다.",
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 39,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 24
+  },
+  "items": [
+    {
+      "id": "kia-tigers-cheer-strongest-kia",
+      "title": "열광하라 최강 KIA",
+      "currentStatus": "current-reported-low-frequency-mound-visit-song-official-core-list-omission",
+      "summary": "가브리엘 포레의 ‘Pavane, Op. 50’을 바탕으로 2016시즌 추가된 짧고 장중한 응원가다. 2016년 8월과 와일드카드 결정전 현장 영상이 도입 연도를 뒷받침한다. 현행 나무위키는 과거 투수 첫 등판 BGM에서 현재 마운드 방문곡으로 용도가 옮겨갔다고 설명하고, 2024·2025 투수 교체곡 정리 및 현장 영상도 이 특수상황 사용을 뒷받침한다. 다만 구단의 2026 공식 핵심 응원가 영상에는 없고 팬 2026 목록에는 남아 있다. 따라서 폐지로 단정하지 않되, 정규 제창곡보다 저빈도 상황곡으로 판정한다.",
+      "aliases": [
+        "열광하라 최강기아",
+        "투수 마운드 방문곡",
+        "파반느 응원가",
+        "좋됨송"
+      ],
+      "usageContexts": [
+        "현재로 보고되는 코칭스태프의 투수 마운드 방문·투수 교체 시간",
+        "과거 새 투수가 처음 등판할 때의 선수 소개·입장 BGM",
+        "간헐적인 치어리더 안무·관중 구호 공연"
+      ],
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2016시즌 도입; 늦어도 2016-08-11 현장 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "yt-kia-c-cheer-oldest-2016",
+            "yt-kia-c-cheer-wildcard-2016"
+          ],
+          "notes": "현행 문서의 2016년 도입 서술과 동년 8월·10월 직캠이 일치한다. 정확한 구단 음원 공개일은 확인되지 않았다."
+        },
+        {
+          "field": "origin",
+          "value": "Gabriel Fauré ‘Pavane, Op. 50’ 선율의 KIA 응원 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "ev-kia-c-faure-bnf",
+            "yt-kia-c-cheer-mound-2024"
+          ],
+          "notes": "프랑스국립도서관은 포레의 작품·작곡연도 1887·조성·초연 정보를 제공한다. KIA판의 작사·편곡자는 공개 크레딧으로 확인하지 못했다."
+        },
+        {
+          "field": "historicalUsage",
+          "value": "과거 투수가 처음 등판할 때 주로 재생",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers"
+          ],
+          "notes": "현행 나무위키의 과거형 서술이다. 시즌별 첫 등판 사례를 충분히 확보하지 못해 사용 종료 연도는 열어 둔다."
+        },
+        {
+          "field": "currentUsage",
+          "value": "최근에는 투수 마운드 방문·교체 때 주로 재생되는 저빈도 상황곡",
+          "assessment": "verified-with-limited-direct-sampling",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "yt-kia-c-cheer-mound-2024",
+            "yt-kia-c-cheer-pitching-medley-2024",
+            "yt-kia-c-cheer-pitching-medley-2025",
+            "yt-kia-c-cheer-field-2025"
+          ],
+          "notes": "전용 영상 제목과 투수 교체곡 묶음이 용도를 직접 표기한다. 2025 현장 공연도 확인되지만 2026 정규경기 마운드 방문 장면을 독립 촬영한 표본은 확보하지 못했다."
+        },
+        {
+          "field": "currentStatusConflict",
+          "value": "2026 구단 공식 핵심 목록에는 없지만 2026 팬 목록에는 26:36에 수록",
+          "assessment": "verified-conflict",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-official-2026",
+            "yt-kia-c-cheer-fanlist-2026",
+            "yt-kia-c-cheer-venue-vlog-2026"
+          ],
+          "notes": "공식 영상은 대표 안무곡을 선별한 자료이므로 누락만으로 폐지를 뜻하지 않는다. 2026 경기 브이로그는 제목·설명에서 곡명을 언급하지만 정확한 재생 시점이 없어 보조 근거로만 쓴다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "cheer-pavane-history",
+          "summary": "원곡은 포레가 1887년에 쓴 올림바단조의 파반느이며 1888년 합창을 포함한 형태로 초연됐다. 느리고 장중한 선율이 위기 상황과 결합해 KIA판의 독특한 긴장감을 만든다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-faure-bnf"
+          ]
+        },
+        {
+          "id": "cheer-ptsd-nickname",
+          "summary": "마운드 방문이 곧 투수의 위기와 연결되는 탓에 팬 댓글은 이 곡을 ‘좋됨송’처럼 자조적으로 부른다. 동시에 노래 자체는 웅장하고 좋아서 따로 찾아 듣는다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-cheer-mound-2024",
+            "yt-kia-c-cheer-pitching-medley-2024",
+            "yt-kia-c-cheer-pitching-medley-2025"
+          ]
+        },
+        {
+          "id": "cheer-wildcard-2016",
+          "summary": "도입 시즌인 2016 와일드카드 결정전 2차전의 360도 현장 영상에도 곡이 남아 있어, 정규시즌을 넘어 포스트시즌에서 곧바로 사용된 사실을 확인할 수 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-cheer-wildcard-2016"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "public-domain-composition-with-copyrighted-club-arrangement-and-recording",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=hnRpJovN_lc",
+          "https://catalogue.bnf.fr/ark:/12148/cb13912056f",
+          "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "포레의 느린 주제를 따라가는 무의미음 도입 뒤, 짧게 끊은 구단명 구호와 승리 지향 문장, 모두의 외침을 요구하는 종결부를 한 번 더 반복하는 1분 남짓의 구성이다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "2016시즌 정확한 최초 공개일과 최초 경기 사용일",
+        "KIA판 작사·편곡·보컬·음원 제작의 공식 전체 크레딧",
+        "투수 첫 등판 BGM에서 마운드 방문곡으로 바뀐 정확한 시즌",
+        "2026 정규경기에서 실제 마운드 방문 때 사용된 직접 영상과 사용 빈도",
+        "2026 공식 핵심 목록 누락이 선별 편집인지 향후 폐지 예고인지 여부"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kia-c-cheer-oldest-2016",
+        "yt-kia-c-cheer-wildcard-2016",
+        "yt-kia-c-cheer-mound-2024",
+        "yt-kia-c-cheer-pitching-medley-2024",
+        "yt-kia-c-cheer-field-2025",
+        "yt-kia-c-cheer-pitching-medley-2025",
+        "yt-kia-c-cheer-fanlist-2026",
+        "yt-kia-c-cheer-venue-vlog-2026"
+      ]
+    },
+    {
+      "id": "kia-tigers-we-are-one",
+      "title": "우리는 하나",
+      "currentStatus": "current-official-2026",
+      "summary": "2017 한국시리즈에서 공개된 것으로 전해지는 트랜스픽션 제작의 장중한 팀 응원가다. 구단은 2018년 공식 학습 영상에서 7회 종료 뒤 부르는 곡으로 소개했고, 2024 공식 목록과 한국시리즈의 머플러 응원, 2025년 4월 19일 비 오는 잠실의 우산 퍼포먼스를 거쳐 2026 공식 안무 목록 20분 2초에도 수록했다. 2026년 7월 직접 현장 영상까지 있어 다섯 곡 가운데 현재성이 가장 분명하다.",
+      "aliases": [
+        "최강 KIA 우리는 하나",
+        "머플러 응원가",
+        "우산 응원"
+      ],
+      "usageContexts": [
+        "7회 종료 뒤 또는 경기 후반의 장중한 관중 제창",
+        "한국시리즈에서 빨강·노랑 머플러를 돌리는 대형 퍼포먼스",
+        "비 오는 원정에서 응원봉 대신 우산을 위아래로 드는 변형 퍼포먼스"
+      ],
+      "claims": [
+        {
+          "field": "introductionAndCreator",
+          "value": "2017 한국시리즈 공개, 트랜스픽션 제작",
+          "assessment": "reported-with-official-later-use",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "yt-kia-c-one-official-learn-2018"
+          ],
+          "notes": "공개 시점과 제작자는 현행 나무위키에 의존한다. 2018 구단 영상의 오래된 댓글에는 전년도 9월 현장에서 처음 들었다는 회고도 있으나 정식 크레딧 자료는 아니다."
+        },
+        {
+          "field": "regularUsage",
+          "value": "구단이 2018년에 7회 종료 뒤 부르는 곡으로 안내",
+          "assessment": "verified-historical",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-one-official-learn-2018"
+          ],
+          "notes": "공식 영상 설명이 당시의 사용 시점을 명시한다. 이후 모든 경기에서 같은 시점에 고정되는지는 별도 확인이 필요하다."
+        },
+        {
+          "field": "koreanSeries2024",
+          "value": "2024 한국시리즈에서 빨강·노랑 머플러와 함께 반복 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "yt-kia-c-one-ks-angle-2024",
+            "yt-kia-c-one-ks-vlog-2024"
+          ],
+          "notes": "한국시리즈 4·5차전 현장 영상이 머플러 회전과 홀짝 변형을 직접 보여준다."
+        },
+        {
+          "field": "umbrellaPerformance",
+          "value": "2025-04-19 잠실 두산전에서 우산을 응원봉처럼 위아래로 움직인 변형",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "yt-kia-c-one-umbrella-2025"
+          ],
+          "notes": "당일 게시 영상의 날짜와 화면·제목이 비 오는 원정의 우산 퍼포먼스를 직접 확인한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 구단 공식 안무 모음 20:02 수록 및 2026-07-02 현장 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-official-2026",
+            "yt-kia-c-one-official-2026",
+            "yt-kia-c-one-field-2026"
+          ],
+          "notes": "공식 영상과 시즌 중 직접 현장 표본이 함께 있어 현재 사용 판정이 강하다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "one-prop-adaptation",
+          "summary": "같은 곡이 평시에는 응원봉, 한국시리즈에는 머플러, 비 오는 날에는 우산으로 변형돼 소도구 자체가 집단 안무의 일부가 됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-one-official-2026",
+            "yt-kia-c-one-ks-vlog-2024",
+            "yt-kia-c-one-umbrella-2025"
+          ]
+        },
+        {
+          "id": "one-mascot-cameo",
+          "summary": "2018 구단 학습 영상에서는 마스코트가 응원단 뒤에서 동작을 따라 해 댓글의 반복적인 주목을 받았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-one-official-learn-2018"
+          ]
+        },
+        {
+          "id": "one-fan-favorite",
+          "summary": "공식 영상과 현장 댓글에서는 웅장함과 큰 관중이 함께 부를 때의 몰입감을 이유로 최애 응원가로 꼽는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-one-official-learn-2018",
+            "yt-kia-c-one-official-2024"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-commissioned-song-no-redistribution-permission-confirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=SowLIvc9lAM",
+          "https://www.youtube.com/watch?v=l7XROs9lYSo&t=1202s",
+          "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "구단명을 네 차례 선창하며 승리·동행·하나됨을 각기 붙이는 전반부와, 길게 이어지는 무의미음 합창을 두 번 반복하는 후반부로 나뉜다. 느린 템포와 넓은 음가가 머플러·우산 동작에 맞는다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "2017 한국시리즈 정확한 최초 공개 경기·날짜와 정식 공개 자료",
+        "트랜스픽션 구성원별 작사·작곡·편곡·보컬 전체 크레딧",
+        "현재도 7회 종료 뒤 고정 사용되는 경기 비율",
+        "2025 잠실 우산 퍼포먼스가 즉흥인지 사전 기획인지 여부"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kia-c-one-official-learn-2018",
+        "yt-kia-c-one-official-2024",
+        "yt-kia-c-one-field-2024",
+        "yt-kia-c-one-ks-angle-2024",
+        "yt-kia-c-one-ks-vlog-2024",
+        "yt-kia-c-one-umbrella-2025",
+        "yt-kia-c-one-official-2026",
+        "yt-kia-c-one-field-2026"
+      ]
+    },
+    {
+      "id": "kia-tigers-love-forever",
+      "title": "영원히 사랑한다",
+      "currentStatus": "retired-or-dormant-since-2025-with-fan-catalog-circulation",
+      "summary": "2018년 하반기에 도입된 짧은 리듬형 응원가다. 2018년 10월 현장 영상과 2022 구단 공식 모음, 2023 현장 클립까지 실제 사용 계보가 남는다. 현행 나무위키는 2025시즌부터 사용되지 않는다고 명시한다. 반면 2025·2026 팬 제작 목록은 계속 곡을 싣고 있어 음원 유통과 기억은 이어지지만, 이는 구장 현행성 증거와 구분해야 한다. 2026 구단 공식 핵심 목록에도 빠져 있어 현재 판정은 ‘2025년부터 미사용 또는 휴면’으로 둔다.",
+      "aliases": [
+        "영원히 사랑한다 KIA",
+        "영원히 사랑한다 기아",
+        "새 리듬 응원"
+      ],
+      "usageContexts": [
+        "짧은 구단명 선창과 관중 응답을 반복하는 잔응원",
+        "2018~2024 응원단 안무·경기 중 리듬 응원",
+        "현재는 팬 플레이리스트·게임 콘텐츠에 남은 과거 레퍼토리"
+      ],
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2018년 하반기 도입",
+          "assessment": "verified-with-contemporary-field-video",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "yt-kia-c-forever-field-2018"
+          ],
+          "notes": "현행 문서의 하반기 도입 서술과 2018-10-21 현장 영상의 ‘새 리듬 응원’ 표기가 일치한다. 최초 공개일은 확인되지 않았다."
+        },
+        {
+          "field": "officialUse2022",
+          "value": "2022 구단 공식 응원가 모음 12:42 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-forever-official-2022"
+          ],
+          "notes": "구단 영상은 주요 팀 응원가로 직접 분류한다."
+        },
+        {
+          "field": "retirement",
+          "value": "2025시즌부터 경기에서 사용되지 않는다는 현행 나무위키 서술",
+          "assessment": "reported-and-consistent-with-official-2026-omission",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "ev-kia-c-official-2026"
+          ],
+          "notes": "구단 2026 핵심 목록의 누락은 단독 폐지 증거가 아니지만, 명시적 미사용 서술과 방향이 일치한다. 2025 이후 직접 경기 사용 영상은 찾지 못했다."
+        },
+        {
+          "field": "fanListConflict",
+          "value": "2025·2026 팬 제작 응원가 목록에는 계속 수록",
+          "assessment": "verified-catalog-circulation-not-live-use",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-forever-fanlist-2025",
+            "yt-kia-c-forever-fanlist-a-2026",
+            "yt-kia-c-forever-fanlist-b-2026"
+          ],
+          "notes": "2025 목록 27:54, 2026 목록 28:22·23:24에 남아 있다. 목록 수록은 과거 음원 접근성을 보여줄 뿐 현행 구장 사용으로 승격하지 않는다."
+        },
+        {
+          "field": "gameUse",
+          "value": "컴투스프로야구V에서 들을 수 있다는 설명",
+          "assessment": "reported",
+          "confidence": "medium-low",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers"
+          ],
+          "notes": "게임 버전·수록 기간·라이선스 화면을 독립 확인하지 못했다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "forever-title-confusion",
+          "summary": "KIA에는 ‘사랑한다 KIA’와 ‘영원하리라 KIA 타이거즈’도 있어 검색 결과에서 제목이 자주 뒤섞인다. 이번 배치는 짧은 구단명 반복 리듬곡만 이 제목으로 분리했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-forever-field-2018",
+            "yt-kia-c-forever-clip-2023"
+          ]
+        },
+        {
+          "id": "forever-list-category-shift",
+          "summary": "2022 구단 영상은 ‘주요 팀 응원가’로 묶었지만 2025·2026 팬 목록은 ‘잔응원’ 구간에 둔다. 공식 분류 변경은 아니지만 체감 위상이 낮아진 흐름을 보여준다.",
+          "assessment": "inference",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "yt-kia-c-forever-official-2022",
+            "yt-kia-c-forever-fanlist-2025",
+            "yt-kia-c-forever-fanlist-b-2026"
+          ]
+        },
+        {
+          "id": "forever-memory-after-retirement",
+          "summary": "미사용 주장 이후에도 반복재생·러닝용 재편집과 팬 목록 수록이 이어져, 경기 레퍼토리에서 빠져도 팬 기억 속 음원으로는 계속 유통된다.",
+          "assessment": "verified-circulation",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-forever-fanlist-a-2026",
+            "yt-kia-c-forever-fanlist-b-2026"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-song-creator-and-redistribution-rights-unconfirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=FhKry6Q4xoU&t=762s",
+          "https://www.youtube.com/watch?v=MSopaeyoNWo",
+          "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "짧은 구단명 선창 뒤 영원한 사랑을 두 차례 응답하고, 무의미음 합창과 ‘최강’ 구호로 닫는 약 25~30초짜리 블록을 반복하는 잔응원형 구성이다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "정확한 2018년 최초 공개·사용 날짜",
+        "작사·작곡·편곡·보컬·음원 제작의 공식 전체 크레딧",
+        "마지막 직접 경기 사용일과 2025 미사용 결정의 공식 공지 여부",
+        "컴투스프로야구V의 정확한 버전·수록 기간·음원 권리",
+        "팬 목록 수록 뒤 2025~2026 구장에서 예외적으로 재생된 사례 존재 여부"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kia-c-forever-field-2018",
+        "yt-kia-c-forever-official-2022",
+        "yt-kia-c-forever-playlist-2022",
+        "yt-kia-c-forever-clip-2023",
+        "yt-kia-c-forever-fanlist-2025",
+        "yt-kia-c-forever-fanlist-a-2026",
+        "yt-kia-c-forever-fanlist-b-2026"
+      ]
+    },
+    {
+      "id": "kia-tigers-new-challenge",
+      "title": "새로운 도전",
+      "currentStatus": "reported-current-special-context-post-home-loss-official-core-list-omission",
+      "summary": "2019 캐치프레이즈 ‘도전, 새로운 미래_Always KIA TIGERS’에 맞춰 도입된 구단 자체 응원가다. 2019년 3월 23일 홈 개막 현장과 4월 24일 구단 공식 신규 응원가 영상으로 도입이 확인된다. 현행 나무위키는 현재 홈 패배 뒤 장내 재생, 구단 대표전화 대기음, 갸티비 연습경기 자체중계 시작음으로 쓰인다고 적지만 세 용도 모두 독립 검증 강도가 다르다. 2023 현장 공연과 2025·2026 팬 목록은 존속 기억을 보여주지만 2026 구단 핵심 목록에는 없어, 일반 경기 제창곡이 아닌 특수상황·브랜딩 곡으로 보수적으로 분류한다.",
+      "aliases": [
+        "2019 새로운 팀 응원가",
+        "패전가",
+        "도전 새로운 미래 응원가"
+      ],
+      "usageContexts": [
+        "홈 패배 뒤 장내 재생으로 보고되는 경기 종료곡",
+        "구단 대표전화 연결 대기 배경음으로 보고되는 브랜딩 음원",
+        "갸티비 연습경기 자체중계 시작 화면 음악으로 보고되는 영상 BGM"
+      ],
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2019시즌 캐치프레이즈 변경과 함께 도입; 2019-03-23 홈 개막 사용 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "ev-kia-c-slogan-2019",
+            "yt-kia-c-challenge-opening-2019",
+            "yt-kia-c-challenge-official-2019"
+          ],
+          "notes": "1월 보도는 캐치프레이즈 의미를, 3월 현장 영상과 4월 구단 영상은 곡의 실제 도입을 각각 확인한다."
+        },
+        {
+          "field": "postLossUse",
+          "value": "현재 홈경기 패배 뒤 장내에서 재생",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers"
+          ],
+          "notes": "현행 나무위키의 현재형 서술이다. 패배 직후 전광판·장내 음향을 끝까지 담은 최근 직접 영상을 찾지 못했다."
+        },
+        {
+          "field": "telephoneHoldMusic",
+          "value": "KIA 타이거즈 구단 대표전화의 연결 대기 배경음",
+          "assessment": "reported-unverified",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers"
+          ],
+          "notes": "전화 연결은 외부 상태를 바꾸는 직접 통화로 검증하지 않았다. 공식 홈페이지의 전화 안내에도 음악 제목은 표기되지 않는다."
+        },
+        {
+          "field": "practiceBroadcastOpening",
+          "value": "갸티비 연습경기 자체중계 시작 음악",
+          "assessment": "reported",
+          "confidence": "medium-low",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers"
+          ],
+          "notes": "현행 문서 서술은 보존했으나 어떤 연도·중계 영상에 반복 적용됐는지 목록화하지 못했다."
+        },
+        {
+          "field": "laterCirculation",
+          "value": "2023 현장 공연, 2025·2026 팬 응원가 목록 수록",
+          "assessment": "verified-with-use-caveat",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "yt-kia-c-challenge-field-2023",
+            "yt-kia-c-challenge-fanlist-2025",
+            "yt-kia-c-challenge-fanlist-2026"
+          ],
+          "notes": "2023 영상은 실제 안무를, 이후 목록은 음원의 지속 유통을 보여준다. 팬 목록만으로 2026 경기 제창을 단정하지 않는다."
+        },
+        {
+          "field": "official2026Omission",
+          "value": "2026 구단 공식 핵심 응원가 안무 모음에 미수록",
+          "assessment": "verified-nonconclusive",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-official-2026"
+          ],
+          "notes": "대표전화·패배 뒤·방송 시작처럼 안무 목록 밖 특수 용도와 양립할 수 있어 폐지 증거로 쓰지 않는다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "challenge-launch-during-losing-streak",
+          "summary": "2019 구단 공식 공개 시점이 장기 연패와 겹치면서 댓글은 곡명을 팀의 연패 ‘도전’에 빗댄 자조와 감독 교체 요구로 채워졌다. 곡에 대한 평가는 좋다는 반응도 함께 있었다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-challenge-official-2019"
+          ]
+        },
+        {
+          "id": "challenge-slogan-language",
+          "summary": "2019 캐치프레이즈가 모든 구성원의 도전 의식과 구단의 미래를 강조했고, 곡도 도전·미래·전진을 핵심 어휘로 삼아 시즌 브랜딩과 직접 맞물렸다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-slogan-2019",
+            "yt-kia-c-challenge-opening-2019"
+          ]
+        },
+        {
+          "id": "challenge-defeat-nickname",
+          "summary": "홈 패배 뒤 재생된다는 인식 때문에 최근 팬 목록 댓글에서도 ‘패전가’라는 별칭이 확인된다. 이는 공식 제목이나 구단 분류가 아닌 팬들의 상황 기반 별칭이다.",
+          "assessment": "anecdotal",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "yt-kia-c-challenge-fanlist-2025"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-club-song-creator-and-redistribution-rights-unconfirmed",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=Cmjiva77lAE",
+          "https://www.youtube.com/watch?v=KOnSxuKgDKU",
+          "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "무의미음 합창 뒤 새로운 도전과 미래를 향한 전진을 각각 선언하는 두 문장형 절이 이어지고, 박수 두 번과 파이팅·최강·구단명 구호를 순서대로 맞추는 블록을 반복한다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "작사·작곡·편곡·보컬·음원 제작의 공식 전체 크레딧",
+        "2019년 3월 23일보다 앞선 행사·시범경기 최초 사용 여부",
+        "2025~2026 홈 패배 경기 뒤 실제 재생 횟수와 예외",
+        "현재 대표전화 연결음의 직접 확인과 적용 시작일",
+        "갸티비 자체중계 시작음으로 사용된 영상 목록과 사용 종료 여부"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kia-c-challenge-opening-2019",
+        "yt-kia-c-challenge-opening-angle-2019",
+        "yt-kia-c-challenge-official-2019",
+        "yt-kia-c-challenge-playlist-2021",
+        "yt-kia-c-challenge-field-2023",
+        "yt-kia-c-challenge-fanlist-2025",
+        "yt-kia-c-challenge-fanlist-2026",
+        "yt-kia-c-challenge-running-edit-2026"
+      ]
+    },
+    {
+      "id": "kia-tigers-doo-dah",
+      "title": "두다",
+      "currentStatus": "current-in-fan-reference-lists-direct-2026-stadium-use-unconfirmed-official-core-list-omission",
+      "summary": "스티븐 포스터의 1850년 곡 ‘Camptown Races’ 선율로 만든 2017 로저 버나디나 개인 응원가를 2020년 무렵 구단 공용곡으로 재사용한 곡이다. 2017 직캠과 동시대 수상식 보도, 2020 팀 응원가 영상, 2022 ‘구 버나디나’ 표기 현장 영상이 계보를 연결한다. 2025·2026 팬 목록에는 ‘두다’라는 이름으로 계속 수록되지만 구단 2026 공식 핵심 목록에는 없다. 2026 직접 구장 사용을 확인하지 못했으므로 현행 가능성은 열어 두되 공식 현행으로 확정하지 않는다. 수원 한국전력 빅스톰도 같은 곡을 쓴다는 현행 나무위키 주장은 구단의 2025-26 공식 목록에서 대응곡을 식별하지 못해 별도 미확정으로 둔다.",
+      "aliases": [
+        "Doo-Dah",
+        "두다(우리 모두 외쳐보자)",
+        "구 버나디나 응원가",
+        "버나디나 응원가"
+      ],
+      "usageContexts": [
+        "2017~2018 로저 버나디나 타석의 개인 응원가",
+        "2020년 이후 짧은 팀 공용 잔응원과 관중의 ‘HEY’ 응답",
+        "현재는 팬 응원가 목록·반복재생에서 보존되는 레퍼토리"
+      ],
+      "claims": [
+        {
+          "field": "lineage",
+          "value": "2017 로저 버나디나 개인 응원가를 2020년 무렵 팀 응원가로 재사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "ev-kia-c-bernardina-2017",
+            "yt-kia-c-doodah-bernardina-2017",
+            "yt-kia-c-doodah-team-2020",
+            "yt-kia-c-doodah-field-2022"
+          ],
+          "notes": "2017 영상·보도는 개인 응원가를, 2020 영상 제목과 2022 ‘구 버나디나’ 현장 표기는 팀 공용화 뒤의 계보를 확인한다. 정확한 전환일은 미확정이다."
+        },
+        {
+          "field": "origin",
+          "value": "Stephen Foster ‘Camptown Races’ 선율의 KIA 응원 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "ev-kia-c-camptown-loc",
+            "yt-kia-c-doodah-bernardina-archive-2025"
+          ],
+          "notes": "미국 의회도서관과 Foster 연구 가이드가 작품의 제목·작곡가·1850년 계보를 확인한다. KIA판 제목은 원곡 후렴의 음가에서 온 것으로 보인다."
+        },
+        {
+          "field": "currentCatalogPresence",
+          "value": "2025·2026 팬 목록 23:30·25:01·20:21에 수록",
+          "assessment": "verified-catalog-circulation",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-doodah-fanlist-2025",
+            "yt-kia-c-doodah-fanlist-a-2026",
+            "yt-kia-c-doodah-fanlist-b-2026"
+          ],
+          "notes": "팬 목록은 곡이 현재 학습·회고 대상임을 확인하지만 경기에서 실제 부르는 빈도까지 입증하지 않는다."
+        },
+        {
+          "field": "official2026Omission",
+          "value": "2026 구단 공식 핵심 응원가 안무 모음에 미수록",
+          "assessment": "verified-nonconclusive",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-official-2026"
+          ],
+          "notes": "짧은 잔응원은 공식 영상의 선별 범위 밖일 수 있어 누락만으로 폐지 판정을 하지 않는다."
+        },
+        {
+          "field": "suwonKepcoSharedUse",
+          "value": "수원 한국전력 빅스톰도 같은 선율의 응원가를 사용한다는 주장",
+          "assessment": "reported-unverified-currently",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-kia-c-namu-cheers",
+            "ev-kia-c-kepco-official-2025"
+          ],
+          "notes": "현행 나무위키 서술은 보존한다. 한국전력의 2025-26 공식 목록에는 ‘두다’·‘Camptown Races’ 대응 제목이 없고, ‘승리를 위해’는 별개의 포레 ‘Pavane’ 곡으로 표기돼 독립 확인에 실패했다. 이는 과거 사용을 반증하지 않는다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "doodah-bernardina-sang-it",
+          "summary": "버나디나는 2017 KBO 시상식 득점상 수상 뒤 자신의 응원가 첫 부분을 직접 선창했고 현장 팬들이 이름을 받아 불렀다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-bernardina-2017"
+          ]
+        },
+        {
+          "id": "doodah-fan-recognition",
+          "summary": "팀 공용판 영상 댓글에서는 곡을 듣자마자 버나디나 응원가였음을 알아보고 그 시절을 회상하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kia-c-doodah-team-2020",
+            "yt-kia-c-doodah-bernardina-archive-2025"
+          ]
+        },
+        {
+          "id": "doodah-original-context",
+          "summary": "원곡은 1850년 미국 민스트럴 쇼 문화에서 나온 곡이다. 의회도서관은 포스터의 작품들이 당시 흑인 비하적 재현과 연결된 역사적 한계를 함께 지적한다. 응원 편곡의 선율 계보와 원곡의 문화적 배경을 분리해 기록한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kia-c-foster-guide",
+            "ev-kia-c-camptown-loc"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "public-domain-composition-with-copyrighted-club-arrangement-and-recording",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=9kmfAUp-tCs",
+          "https://www.loc.gov/item/2023805524/",
+          "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "모두의 외침을 권하는 짧은 도입 뒤 구단명과 승리 문장을 제시하고, 두 차례의 팀명·‘HEY’ 선창과 관중 응답을 거쳐 같은 승리 문장으로 닫는 블록을 두 번 반복한다. 버나디나판은 같은 자리에 선수 이름을 넣는다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "버나디나 개인 응원가의 KIA판 작사·편곡·음원 제작 전체 크레딧",
+        "개인 응원가에서 ‘두다’ 팀 공용곡으로 바뀐 정확한 최초 경기·공개일",
+        "2026 정규경기에서 실제 사용된 직접 영상과 잔응원 빈도",
+        "구단 2026 공식 핵심 목록 누락의 편집 기준",
+        "수원 한국전력 빅스톰의 동일 선율 사용 시기·공식 제목·현재 존속 여부"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kia-c-doodah-bernardina-2017",
+        "yt-kia-c-doodah-team-2020",
+        "yt-kia-c-doodah-field-2022",
+        "yt-kia-c-doodah-official-playlist-2022",
+        "yt-kia-c-doodah-bernardina-archive-2025",
+        "yt-kia-c-doodah-fanlist-2025",
+        "yt-kia-c-doodah-fanlist-a-2026",
+        "yt-kia-c-doodah-fanlist-b-2026"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kia-c-namu-cheers",
+      "type": "community-reference",
+      "url": "https://namu.moe/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "KIA 타이거즈/응원가",
+      "publisher": "나무모에 미러(나무위키 문서 미러)",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "2026-07-05 수정본의 2.14~2.18 절을 사용했다. 열광하라 최강 KIA의 2016 도입·Pavane·투수 첫 등판 및 마운드 방문, 우리는 하나의 2017 한국시리즈·트랜스픽션·2024 한국시리즈·2025 우산, 영원히 사랑한다의 2018 하반기·2025 미사용, 새로운 도전의 2019 캐치프레이즈·패배 뒤·대표전화·갸티비 용도, 두다의 버나디나 재사용·Camptown Races·한국전력 공유 주장을 제공한다. 가사 전문은 저장하지 않고 독립 영상·보도와 교차했다.",
+      "supports": [
+        "cheer.historyOriginUse",
+        "one.historyCreatorSpecialUses",
+        "forever.introductionRetirementGame",
+        "challenge.introductionSpecialUses",
+        "doodah.lineageOriginCrossClub"
+      ]
+    },
+    {
+      "id": "ev-kia-c-official-2024",
+      "type": "official-video",
+      "url": "https://www.youtube.com/watch?v=ZEPS5Bm3iqc",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 도입부 듣자마자 야구장 가고 싶어지는 노래 ｜기아타이거즈 선수 & 팀 응원가 모음",
+      "publisher": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-03-20T04:30:26-07:00",
+      "accessedAt": "2026-08-09",
+      "summary": "구단의 2024년 초 공식 선수·팀 응원가 모음이다. ‘우리는 하나’를 19:09에 공식 안무와 함께 수록한다. 나머지 네 대상곡은 핵심 팀 목록에 없지만 선별 범위를 알 수 없어 누락 자체를 폐지 판정으로 쓰지 않는다.",
+      "supports": [
+        "one.official2024",
+        "batch.officialSelectionBoundary2024"
+      ]
+    },
+    {
+      "id": "ev-kia-c-official-2026",
+      "type": "official-video",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (🆕 카스트로 & 데일 응원가)",
+      "publisher": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24T02:38:00-07:00",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 공식 2026 팀·선수 응원가 안무 모음이다. ‘우리는 하나’를 20:02에 수록하고, 열광하라 최강 KIA·영원히 사랑한다·새로운 도전·두다는 타임라인에 없다. 누락은 현황 교차 자료로 쓰되 짧은 잔응원·특수상황곡의 폐지 근거로 단독 사용하지 않는다.",
+      "supports": [
+        "one.officialCurrent2026",
+        "cheer.officialCoreOmission2026",
+        "forever.officialCoreOmission2026",
+        "challenge.officialCoreOmission2026",
+        "doodah.officialCoreOmission2026"
+      ]
+    },
+    {
+      "id": "ev-kia-c-official-site-2026",
+      "type": "official-club-page",
+      "url": "https://tigers.co.kr/contents/tv/1036623",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리!",
+      "publisher": "KIA 타이거즈",
+      "publishedAt": "2026-03-24",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 웹사이트의 타이거즈 TV 게시물이 2026 응원가 총정리 영상을 공식 콘텐츠로 재확인한다.",
+      "supports": [
+        "batch.official2026Publisher"
+      ]
+    },
+    {
+      "id": "ev-kia-c-faure-bnf",
+      "type": "library-catalog",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb13912056f",
+      "title": "Notice de titre musical [Pavane. Op. 50]",
+      "publisher": "Bibliothèque nationale de France",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Gabriel Fauré의 ‘Pavane, Op. 50’을 1887년 작품, 올림바단조, Robert de Montesquiou 텍스트, 1888년 4월 28일 합창 초연으로 식별하는 프랑스국립도서관 전거다.",
+      "supports": [
+        "cheer.originalTitleComposerHistory"
+      ]
+    },
+    {
+      "id": "ev-kia-c-slogan-2019",
+      "type": "media",
+      "url": "https://www.asiae.co.kr/article/2019012712272864471",
+      "title": "KIA, 2019 캐치프레이즈 '도전, 새로운 미래_Always KIA TIGERS'",
+      "publisher": "아시아경제",
+      "publishedAt": "2019-01-27",
+      "accessedAt": "2026-08-09",
+      "summary": "KIA 제공 자료를 바탕으로 2019 캐치프레이즈의 정확한 표기와 선수·프런트 모두의 도전 의식, 구단의 새로운 미래를 열겠다는 의미를 보도한다.",
+      "supports": [
+        "challenge.slogan2019",
+        "challenge.introductionContext"
+      ]
+    },
+    {
+      "id": "ev-kia-c-bernardina-2017",
+      "type": "media",
+      "url": "https://www.joynews24.com/view/wrlted/1058542",
+      "title": "\"최강 KIA\"…팬들과 응원가 부른 버나디나",
+      "publisher": "조이뉴스24",
+      "publishedAt": "2017-11-06",
+      "accessedAt": "2026-08-09",
+      "summary": "2017 KBO 시상식에서 득점상을 받은 로저 버나디나가 자신의 KIA 개인 응원가를 선창하고 현장 팬들이 이름으로 응답했다고 보도한다. ‘두다’ 팀 공용화 이전의 개인곡 계보를 동시대 자료로 확인한다.",
+      "supports": [
+        "doodah.bernardinaIndividualSong2017",
+        "doodah.bernardinaSangIt"
+      ]
+    },
+    {
+      "id": "ev-kia-c-camptown-loc",
+      "type": "library-catalog",
+      "url": "https://www.loc.gov/item/2023805524/",
+      "title": "Camptown races",
+      "publisher": "Library of Congress",
+      "publishedAt": "1852",
+      "accessedAt": "2026-08-09",
+      "summary": "미국 의회도서관이 보유한 ‘Camptown Races’ 악보 레코드로 제목, 1852 볼티모어 출판본, 민스트럴 음악 분류와 퍼블릭 도메인 악보 접근점을 제공한다.",
+      "supports": [
+        "doodah.originalTitleHistoricalScore"
+      ]
+    },
+    {
+      "id": "ev-kia-c-foster-guide",
+      "type": "library-research-guide",
+      "url": "https://guides.loc.gov/stephen-foster",
+      "title": "Stephen Collins Foster: A Guide to Resources",
+      "publisher": "Library of Congress",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "스티븐 포스터가 1850년 ‘De Camptown Races’를 작곡했고 Christy Minstrels가 소개했다고 정리한다. 동시에 작품의 원가사가 당시 흑인 비하적 민스트럴 전통과 연결된 역사적 문제도 명시한다.",
+      "supports": [
+        "doodah.originalComposerYearContext"
+      ]
+    },
+    {
+      "id": "ev-kia-c-kepco-official-2025",
+      "type": "official-video",
+      "url": "https://www.youtube.com/watch?v=CMw9-exheS8",
+      "title": "한국전력 빅스톰 선수&팀 응원가 모음⚡️ 25-26 ver.",
+      "publisher": "한국전력 빅스톰 배구단",
+      "publishedAt": "2025-12-17T00:41:02-08:00",
+      "accessedAt": "2026-08-09",
+      "summary": "한국전력 구단의 2025-26 공식 응원가 목록이다. ‘두다’나 ‘Camptown Races’ 대응 제목은 없고 9:04의 ‘승리를 위해’는 ‘파반느’라고 명시한다. 현행 공유 여부를 확인하지 못한 근거이며 과거 사용을 반증하지 않는다.",
+      "supports": [
+        "doodah.kepcoCurrentVerificationGap",
+        "cheer.pavaneCrossSportCurrentUse"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kia-c-cheer-oldest-2016",
+      "songId": "kia-tigers-cheer-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=mrMynSgIh_E",
+      "videoId": "mrMynSgIh_E",
+      "title": "기아타이거즈 응원 - 최강기아 응원가 열광하라 최강기아",
+      "channel": "기아타이거즈",
+      "publishedAt": "2016-08-11T16:07:25-07:00",
+      "descriptionSummary": "2016년 8월의 1분 13초 현장 응원 영상이다. 설명에는 짧은 구호 구조가 적혀 있지만 가사 전문은 저장하지 않았다. 현재 확인한 가장 이른 독립 업로드다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 훗날 마운드 위기 상황과 연결된 팬 별칭 하나만 남아 있어, 현재의 상황곡 인식이 오래된 영상에도 역으로 투영됐음을 보여준다."
+      ],
+      "supports": [
+        "introduction2016",
+        "earlyFieldUse",
+        "lyricsSourceLinkOnly"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-cheer-wildcard-2016",
+      "songId": "kia-tigers-cheer-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=cyIJFZAonN8",
+      "videoId": "cyIJFZAonN8",
+      "title": "기아타이거즈 - 가을야구 와일드카드 2차전 응원가 열광하라 최강기아- 360°  vr 영상",
+      "channel": "기아타이거즈",
+      "publishedAt": "2016-10-13T04:47:39-07:00",
+      "descriptionSummary": "2016 와일드카드 결정전 2차전의 360도 현장 영상으로, 도입 시즌 포스트시즌 사용을 직접 남긴다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "introduction2016",
+        "postseasonUse2016"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-cheer-mound-2024",
+      "songId": "kia-tigers-cheer-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=hnRpJovN_lc",
+      "videoId": "hnRpJovN_lc",
+      "title": "[KIA 타이거즈] - 열광하라 최강기아 (투수 마운드 방문곡)",
+      "channel": "광주의함성",
+      "publishedAt": "2024-08-09T17:00:19-07:00",
+      "descriptionSummary": "곡의 경기장 음원을 1분 16초로 정리하고 제목에서 투수 마운드 방문곡이라는 용도를 직접 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 마운드 위기와 투수 교체가 연상돼 듣기 두렵다고 농담하면서도, 선율은 웅장하고 좋아 따로 찾아 듣게 된다는 반응을 반복한다.",
+        "특정 불펜 투수·위기 장면을 떠올리는 회고가 많아 곡의 상황적 맥락을 재확인한다."
+      ],
+      "supports": [
+        "moundVisitUse",
+        "fanNickname",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-cheer-pitching-medley-2024",
+      "songId": "kia-tigers-cheer-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=7aCfYGEOYoY",
+      "videoId": "7aCfYGEOYoY",
+      "title": "[KIA 타이거즈] - 투수 교체곡 모음 (열광하라 최강기아, 언제나 승리하리, 위하여, 기아를 사랑하리)",
+      "channel": "광주의함성",
+      "publishedAt": "2024-08-17T23:41:08-07:00",
+      "descriptionSummary": "KIA 투수 교체곡 네 곡을 묶고 0:00에 이 곡을 배치한다. 상황곡 분류와 다른 교체곡과의 공존을 보여준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "직관에서는 투수 교체 자체를 반기기 어렵지만 곡들은 좋아서 다시 듣는다는 양가적 반응이 중심이다."
+      ],
+      "supports": [
+        "pitchingChangeContext",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-cheer-field-2025",
+      "songId": "kia-tigers-cheer-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=dPgpb8Tkyy4",
+      "videoId": "dPgpb8Tkyy4",
+      "title": "20250808 열광하라 최강기아!! (윤수인,유세리 치어리더)",
+      "channel": "피솔(PISOL)",
+      "publishedAt": "2025-08-14T00:26:27-07:00",
+      "descriptionSummary": "2025년 8월 8일 치어리더 공연을 담은 1분 38초 직캠으로, 공식 핵심 목록 밖에서도 그 시즌 직접 사용됐음을 보여준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 공연자에 대한 짧은 호응이 중심이며 곡의 역사나 사용 상황에 관한 추가 정보는 없다."
+      ],
+      "supports": [
+        "directUse2025",
+        "lowFrequencyLiveUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-cheer-pitching-medley-2025",
+      "songId": "kia-tigers-cheer-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=NRAgGu6LZsI",
+      "videoId": "NRAgGu6LZsI",
+      "title": "KIA 타이거즈 투수교체송 모음집",
+      "channel": "광주의함성",
+      "publishedAt": "2025-08-17T22:07:53-07:00",
+      "descriptionSummary": "2025년 투수 교체송들을 3분 54초로 묶은 자료다. 제목과 구성은 곡이 일반 제창보다 투수 교체 상황에 묶여 유통됨을 보강한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 교체송이 들리는 순간을 공포 영화에 빗대거나 직관에서 가급적 듣고 싶지 않다고 자조한다.",
+        "첫 곡의 원곡을 묻는 반응도 있어 Pavane 계보가 널리 알려진 것은 아님을 보여준다."
+      ],
+      "supports": [
+        "pitchingChangeContext2025",
+        "fanNickname",
+        "originAwareness"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-cheer-fanlist-2026",
+      "songId": "kia-tigers-cheer-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=p6rFHkWu1Zg",
+      "videoId": "p6rFHkWu1Zg",
+      "title": "2026 🐯KIA타이거즈 PLAYLIST⚾️ (끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-03-31T22:29:17-07:00",
+      "descriptionSummary": "2026 팬 제작 종합 목록이 26:36에 이 곡을 수록한다. 구단 공식 핵심 목록 누락과 대비되는 현재 유통 보조 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "전체 목록에 대한 감사, 시즌 우승 기원, 직관 전 복습 용도라는 반응이 중심이며 이 곡의 개별 사용 빈도 논의는 거의 없다."
+      ],
+      "supports": [
+        "fanCatalog2026",
+        "officialOmissionConflict"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-cheer-venue-vlog-2026",
+      "songId": "kia-tigers-cheer-strongest-kia",
+      "url": "https://www.youtube.com/watch?v=W86XzULGHP0",
+      "videoId": "W86XzULGHP0",
+      "title": "기아찐팬 챔피언스필드 첫직관 @기아타이거즈/ 기아응원/웅장한 응원/ 열광하라 기아타이거즈/ 김호령/김선빈/김도영",
+      "channel": "피비",
+      "publishedAt": "2026-05-01T23:57:04-07:00",
+      "descriptionSummary": "2026년 5월 1일 챔피언스필드 첫 직관 브이로그다. 제목과 설명에서 이 곡의 구호를 언급하지만 영상 내 정확한 타임스탬프는 제공하지 않는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "possibleVenueUse2026",
+        "directEvidenceCaveat"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-one-official-learn-2018",
+      "songId": "kia-tigers-we-are-one",
+      "url": "https://www.youtube.com/watch?v=SowLIvc9lAM",
+      "videoId": "SowLIvc9lAM",
+      "title": "[갸티비] 응원가 배우기 - 우리는 하나",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2018-05-31T00:34:04-07:00",
+      "descriptionSummary": "구단이 공식 안무를 가르치는 영상이다. 설명에서 7회가 끝난 뒤 울려 퍼지는 곡이라고 당시 사용 시점을 직접 안내한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 대형 관중이 함께 부를 때의 웅장함과 곡 자체를 특히 좋아한다는 반응을 반복한다.",
+        "한 오래된 댓글은 전년도 9월 현장에서 처음 들었다고 회고하고, 마스코트의 배경 동작을 귀엽게 보는 반응도 많다."
+      ],
+      "supports": [
+        "officialUse2018",
+        "afterSeventhInningContext",
+        "introductionMemory",
+        "mascotTrivia"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-one-official-2024",
+      "songId": "kia-tigers-we-are-one",
+      "url": "https://www.youtube.com/watch?v=ZEPS5Bm3iqc",
+      "videoId": "ZEPS5Bm3iqc",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 도입부 듣자마자 야구장 가고 싶어지는 노래 ｜기아타이거즈 선수 & 팀 응원가 모음",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2024-03-20T04:30:26-07:00",
+      "descriptionSummary": "구단 공식 2024년 초 안무 모음이 19:09에 ‘우리는 하나’를 수록하고 전국 모든 경기 응원단 파견을 공지한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 이 곡을 자랑스럽고 웅장한 응원가로 평가하며 가을야구에서 큰 떼창을 기대했다.",
+        "공식 율동·가사 복습 자료를 다음 시즌에도 반복해서 찾는다는 반응이 있다."
+      ],
+      "supports": [
+        "officialCurrentUse2024",
+        "officialChoreography",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-one-field-2024",
+      "songId": "kia-tigers-we-are-one",
+      "url": "https://www.youtube.com/watch?v=1npvyzCWHhs",
+      "videoId": "1npvyzCWHhs",
+      "title": "240717 광주기아챔피언스필드 우리는 하나 응원가 (KIA-삼성전)",
+      "channel": "로맨틱별",
+      "publishedAt": "2024-07-17T20:25:09-07:00",
+      "descriptionSummary": "2024년 7월 17일 KIA-삼성전에서 곡과 응원단 안무를 직접 담은 1분 32초 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "regularSeasonUse2024",
+        "fieldChoreography"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-one-ks-angle-2024",
+      "songId": "kia-tigers-we-are-one",
+      "url": "https://www.youtube.com/watch?v=2B5STl9D-QU",
+      "videoId": "2B5STl9D-QU",
+      "title": "[한국시리즈] KIA타이거즈 우리는 하나 (빨강 노랑 머플러 ver 다른 각도)",
+      "channel": "46채널",
+      "publishedAt": "2024-10-26T08:18:25-07:00",
+      "descriptionSummary": "2024 한국시리즈 관중석의 빨강·노랑 머플러 회전 응원을 다른 각도에서 담은 1분 4초 직접 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 머플러가 동시에 회전하는 광경과 우승 전통에 대한 자부심을 강조한다."
+      ],
+      "supports": [
+        "koreanSeriesUse2024",
+        "scarfPerformance"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-one-ks-vlog-2024",
+      "songId": "kia-tigers-we-are-one",
+      "url": "https://www.youtube.com/watch?v=hXdOT2cA1fA",
+      "videoId": "hXdOT2cA1fA",
+      "title": "믿고보는 곰감독 우승브이로그⚾기아타이거즈 한국시리즈 5차전[1시간 순삭]",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2024-11-01T22:10:05-07:00",
+      "descriptionSummary": "2024 한국시리즈 5차전 브이로그가 15:23 머플러 응원, 22:53 홀짝 응원, 33:57 관중석 시점으로 이 곡의 세 장면을 구분해 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 우승 결정전의 현장감과 시즌 내내 응원단을 기록한 영상에 감사하며 다시 봐도 감동적이라고 회고한다."
+      ],
+      "supports": [
+        "koreanSeriesUse2024",
+        "scarfVariants",
+        "championshipContext"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-one-umbrella-2025",
+      "songId": "kia-tigers-we-are-one",
+      "url": "https://www.youtube.com/watch?v=Q0gGzGPaoIg",
+      "videoId": "Q0gGzGPaoIg",
+      "title": "250419 기아타이거즈 잠실 응원 | 비가 오면 응원봉 대신 우산☔️☔️",
+      "channel": "직관타이거즈",
+      "publishedAt": "2025-04-19T02:06:44-07:00",
+      "descriptionSummary": "설명란은 비어 있지만 2025년 4월 19일 잠실 원정에서 우산을 위아래로 움직이는 57초 현장 영상을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 응원봉을 우산으로 바꾼 집단 동작을 유쾌하고 독창적인 응원으로 받아들이며, 실제 참여자는 옷이 젖었다는 현장 경험도 남겼다."
+      ],
+      "supports": [
+        "umbrellaPerformance2025",
+        "directFieldUse2025",
+        "fanReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-one-official-2026",
+      "songId": "kia-tigers-we-are-one",
+      "url": "https://www.youtube.com/watch?v=l7XROs9lYSo",
+      "videoId": "l7XROs9lYSo",
+      "title": "이 영상 하나로 2026시즌 응원가 총정리! (🆕 카스트로 & 데일 응원가)",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2026-03-24T02:38:00-07:00",
+      "descriptionSummary": "구단 공식 2026 팀·선수 안무 모음이 20:02에 이 곡을 독립 챕터로 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 영상이 응원가·안무를 한 번에 복습하기 좋다고 평가하고, 현장에서는 응원단장이 반복 학습시켜 자연스럽게 외워진다고 말한다."
+      ],
+      "supports": [
+        "officialCurrentUse2026",
+        "officialChoreography"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-one-field-2026",
+      "songId": "kia-tigers-we-are-one",
+      "url": "https://www.youtube.com/watch?v=-6BUNZObs2I",
+      "videoId": "-6BUNZObs2I",
+      "title": "KIA타이거즈 팀 응원가 \"우리는 하나\" 20260702",
+      "channel": "DJ Landers",
+      "publishedAt": "2026-07-02T09:28:31-07:00",
+      "descriptionSummary": "2026년 7월 2일 현장에서 0:00부터 이 곡, 1:22부터 다른 팀 응원가를 구분해 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directCurrentUse2026",
+        "fieldPerformance"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-forever-field-2018",
+      "songId": "kia-tigers-love-forever",
+      "url": "https://www.youtube.com/watch?v=MSopaeyoNWo",
+      "videoId": "MSopaeyoNWo",
+      "title": "2018 챔피언스필드 메아리 응원+영원히 사랑한다 (새 리듬 응원)",
+      "channel": "Look-a-like-cam",
+      "publishedAt": "2018-10-21T09:56:38-07:00",
+      "descriptionSummary": "2018년 챔피언스필드의 메아리 응원과 당시 새 리듬 응원으로 소개된 이 곡을 55초로 담는다. 하반기 도입과 동시대 사용을 확인하는 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 화면 속 관중에 대한 짧은 농담 하나뿐이며 곡 자체에 관한 추가 정보는 없다."
+      ],
+      "supports": [
+        "introductionSecondHalf2018",
+        "directFieldUse2018",
+        "newRhythmLabel"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-forever-official-2022",
+      "songId": "kia-tigers-love-forever",
+      "url": "https://www.youtube.com/watch?v=FhKry6Q4xoU",
+      "videoId": "FhKry6Q4xoU",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 이거 들으면서 공부하면 이번 학기 C- 보장 ｜KIA 타이거즈 응원가 율동 모음",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2022-04-04T06:42:44-07:00",
+      "descriptionSummary": "구단 공식 2022 안무 모음이 주요 팀 응원가 구간 12:42에 ‘영원히 사랑한다’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공식 응원가 모음을 한 번에 볼 수 있다는 점을 반기는 반응과 당시 신규 선수 응원가를 바꿔 달라는 논의가 대부분이다.",
+        "이 곡의 개별 역사보다 직관을 기다리는 팬들의 시즌 초 기대가 중심이다."
+      ],
+      "supports": [
+        "officialUse2022",
+        "officialChoreography",
+        "officialCategoryMajorTeamSong"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-forever-playlist-2022",
+      "songId": "kia-tigers-love-forever",
+      "url": "https://www.youtube.com/watch?v=yOvS5UFRB2E",
+      "videoId": "yOvS5UFRB2E",
+      "title": "(영원히 사랑한다 KIA) 2022 KIA 타이거즈 선수 응원가 모음",
+      "channel": "스타티",
+      "publishedAt": "2022-05-21T20:35:22-07:00",
+      "descriptionSummary": "2022 선수 응원가 모음 제목에서 이 곡을 대표 꼬리표로 사용하고, 선수별 타임라인 뒤 짧은 팀 응원을 붙인다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 당시 선수 응원가 선호와 특정 투수 응원가의 사용 여부를 묻는 내용이 중심이며 이 곡에 대한 추가 설명은 없다."
+      ],
+      "supports": [
+        "fanCirculation2022",
+        "titleVariant"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-forever-clip-2023",
+      "songId": "kia-tigers-love-forever",
+      "url": "https://www.youtube.com/watch?v=gsN18fIo5j4",
+      "videoId": "gsN18fIo5j4",
+      "title": "타이거즈 응원가 영원히 사랑한다 기아",
+      "channel": "축토리",
+      "publishedAt": "2023-05-20T18:26:05-07:00",
+      "descriptionSummary": "2023년 경기장 음향과 관중 구호를 30초로 기록한 짧은 직접 영상이다. 설명 해시태그는 경기 장면의 홈런 맥락을 덧붙인다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "곡 제목을 묻는 짧은 질문이 있어 다른 사랑 계열 응원가와 구별하기 쉽지 않음을 보여준다."
+      ],
+      "supports": [
+        "directUse2023",
+        "titleRecognitionGap"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-forever-fanlist-2025",
+      "songId": "kia-tigers-love-forever",
+      "url": "https://www.youtube.com/watch?v=Y55NxjqfP6s",
+      "videoId": "Y55NxjqfP6s",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 기아타이거즈 응원가 모음 Ver.2025 ⚾ 응원가 끝판왕 곰감독의 최애팀 응원가",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2025-06-27T19:25:54-07:00",
+      "descriptionSummary": "2025 팬 종합 목록이 ‘잔응원’ 구간 27:54에 이 곡을 수록한다. 현행 미사용 주장과 충돌하는 음원 유통 자료이지 직접 경기 사용 증거는 아니다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 2025 버전을 기다렸다고 반기며 직관 전 복습과 추억의 선수 응원가 회고에 활용한다.",
+        "개별 곡의 현장 사용 여부를 바로잡는 댓글은 확인되지 않는다."
+      ],
+      "supports": [
+        "fanCatalog2025",
+        "retirementConflict",
+        "minorCheerCategory"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-forever-fanlist-a-2026",
+      "songId": "kia-tigers-love-forever",
+      "url": "https://www.youtube.com/watch?v=p6rFHkWu1Zg",
+      "videoId": "p6rFHkWu1Zg",
+      "title": "2026 🐯KIA타이거즈 PLAYLIST⚾️ (끊김없이 재생, 등장곡, 팀응원가 포함)",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-03-31T22:29:17-07:00",
+      "descriptionSummary": "2026 팬 제작 목록이 28:22에 이 곡을 수록한다. 구단 공식 2026 안무 목록에는 없는 과거 곡의 계속된 유통을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "전체 목록에 대한 감사와 우승 기원, 오랜만의 직관을 앞둔 복습 반응이 중심이다."
+      ],
+      "supports": [
+        "fanCatalog2026",
+        "officialOmissionConflict"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-forever-fanlist-b-2026",
+      "songId": "kia-tigers-love-forever",
+      "url": "https://www.youtube.com/watch?v=GiM8SNYBvFo",
+      "videoId": "GiM8SNYBvFo",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 기아타이거즈 응원가 모음 Ver.2026⚾끼끼 응원가 업데이트 완료🐵✨",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2026-05-19T23:00:13-07:00",
+      "descriptionSummary": "2026 팬 종합 목록이 ‘잔응원’ 구간 23:24에 이 곡을 수록하고, 팀 핵심 곡과 별도 분류한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 공식 영상에 없는 등장곡·잔응원까지 모은 점을 반기고 전체 2026 목록 정리에 감사를 표한다."
+      ],
+      "supports": [
+        "fanCatalog2026",
+        "minorCheerCategory",
+        "retirementConflict"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-challenge-opening-2019",
+      "songId": "kia-tigers-new-challenge",
+      "url": "https://www.youtube.com/watch?v=KOnSxuKgDKU",
+      "videoId": "KOnSxuKgDKU",
+      "title": "2019 KIA타이거즈 새로운 팀 응원가 '새로운 도전'",
+      "channel": "Look-a-like-cam",
+      "publishedAt": "2019-03-23T18:26:43-07:00",
+      "descriptionSummary": "2019년 3월 23일 홈 개막일에 새 팀 응원가와 안무를 담은 1분 27초 영상이다. 설명에 가사 전문이 있으나 연구 파일에는 구조만 남긴다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 새 곡을 긍정적으로 평가하면서 기존 인기 응원가와 비교하거나 오래전부터 있던 노래처럼 익숙하다고 반응한다."
+      ],
+      "supports": [
+        "introduction2019",
+        "homeOpeningUse",
+        "lyricsSourceLinkOnly",
+        "earlyReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-challenge-opening-angle-2019",
+      "songId": "kia-tigers-new-challenge",
+      "url": "https://www.youtube.com/watch?v=xLXDIPyqh8I",
+      "videoId": "xLXDIPyqh8I",
+      "title": "19 KIA 타이거즈 팀 응원가 - 새로운 도전",
+      "channel": "위닝JTV",
+      "publishedAt": "2019-04-16T06:08:07-07:00",
+      "descriptionSummary": "2019년 3월 23일 광주 홈 오프닝 시리즈 촬영이라고 설명한 다른 각도의 현장 영상이다. 당시 구단 공식 페이스북에 가사가 있었다는 기록도 남긴다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "introduction2019",
+        "homeOpeningUse",
+        "historicalOfficialFacebookReference"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-challenge-official-2019",
+      "songId": "kia-tigers-new-challenge",
+      "url": "https://www.youtube.com/watch?v=Cmjiva77lAE",
+      "videoId": "Cmjiva77lAE",
+      "title": "[신규 응원가] 이창진 & 새로운 도전 & 안타송",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2019-04-24T19:35:18-07:00",
+      "descriptionSummary": "구단이 2019시즌 신규 응원가 세 곡을 3분 32초로 소개한 공식 영상으로, ‘새로운 도전’의 공식 제목과 도입 시즌을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "시즌 초 장기 연패와 겹쳐 팬들은 곡명을 연패에 빗댄 자조와 감독 교체 요구를 쏟아냈다.",
+        "그 와중에도 노래 자체는 좋고 이기는 상황에서 신나게 부르고 싶다는 반응이 함께 남아 있다."
+      ],
+      "supports": [
+        "officialIntroduction2019",
+        "officialTitle",
+        "losingStreakReception",
+        "defeatAssociationOrigin"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-challenge-playlist-2021",
+      "songId": "kia-tigers-new-challenge",
+      "url": "https://www.youtube.com/watch?v=9-Ue689BkgM",
+      "videoId": "9-Ue689BkgM",
+      "title": "[Playlist] 호랑이들을 위한 플레이리스트 기아타이거즈 응원가",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2021-01-20T03:41:12-08:00",
+      "descriptionSummary": "2021 팬 종합 목록이 18:45에 ‘새로운 도전’을 수록해 도입 뒤 초기 유통을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "타 구단 팬도 이 곡이 좋다고 평가하는 반응이 있고, 전체 목록을 노동요·시즌 준비용으로 듣는 팬이 많다."
+      ],
+      "supports": [
+        "fanCirculation2021",
+        "crossTeamReception"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-challenge-field-2023",
+      "songId": "kia-tigers-new-challenge",
+      "url": "https://www.youtube.com/watch?v=sJYMjBwW5g8",
+      "videoId": "sJYMjBwW5g8",
+      "title": "#기아타이거즈 응원가 #새로운도전 #박신비 치어리더 // 20230401",
+      "channel": "가냥이♡",
+      "publishedAt": "2023-04-01T08:34:00-07:00",
+      "descriptionSummary": "2023년 4월 1일 경기장에서 치어리더가 곡에 맞춰 공연하는 장면을 2분 18초로 담은 직접 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 공연자에 대한 짧은 호응뿐이며 곡의 용도나 역사에 관한 추가 내용은 없다."
+      ],
+      "supports": [
+        "directUse2023",
+        "choreography"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-challenge-fanlist-2025",
+      "songId": "kia-tigers-new-challenge",
+      "url": "https://www.youtube.com/watch?v=tixezIwcp5k",
+      "videoId": "tixezIwcp5k",
+      "title": "[PLAYLIST] 올 시즌도 압도하라! 2025시즌 기아타이거즈 응원가 모음 (등장곡 포함, 홍종표 응원가 x)",
+      "channel": "화분띠",
+      "publishedAt": "2025-02-23T06:31:45-08:00",
+      "descriptionSummary": "2025시즌 준비용 팬 목록이 31:52에 이 곡을 수록한다. 공식 현행성보다 팬 학습·유통을 보여주는 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 개막을 기다리며 목록을 복습하고, 한 댓글은 이 곡을 상황 때문에 ‘패전가’라고 짧게 부른다."
+      ],
+      "supports": [
+        "fanCatalog2025",
+        "defeatNickname"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-challenge-fanlist-2026",
+      "songId": "kia-tigers-new-challenge",
+      "url": "https://www.youtube.com/watch?v=M5w10FKa85k",
+      "videoId": "M5w10FKa85k",
+      "title": "기아타이거즈 전 응원가 2026.ver 곧 개막기념으로 낋여옴 이적선수 응원가까지 꾹꾹 눌러담았습니다!☀︎ ꒰◡̈ ꒱◡̈ ꒱◡̈ ꒱◞ ̑̑#기아타이거즈 #야구 #응원가",
+      "channel": "춤추는 채깡총",
+      "publishedAt": "2026-02-14T14:02:15-08:00",
+      "descriptionSummary": "2026 개막 전 팬 종합 목록이 40:26에 이 곡을 수록한다. 구단 공식 2026 핵심 목록 누락 전후에도 팬 카탈로그에는 남아 있음을 보여준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 이적 선수들을 회고하며 새 시즌 우승을 기원하고, ‘우리는 하나’ 같은 곡이 주요 응원가로 더 자주 쓰이길 바라는 반응을 남긴다."
+      ],
+      "supports": [
+        "fanCatalog2026",
+        "officialOmissionConflict"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-challenge-running-edit-2026",
+      "songId": "kia-tigers-new-challenge",
+      "url": "https://www.youtube.com/watch?v=S3CzK_hVoxM",
+      "videoId": "S3CzK_hVoxM",
+      "title": "180BPM 러닝 음악 🔥 끝까지 뛰게 만드는 기아 타이거즈 응원가 | 새로운 도전",
+      "channel": "RUN PACE",
+      "publishedAt": "2026-06-05T01:45:45-07:00",
+      "descriptionSummary": "2026년 곡을 180 BPM 러닝 페이스 유지용으로 재편집한 1분 30초 팬 영상이다. 저작권은 원저작자에게 있다고만 밝히며 경기 사용 자료는 아니다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "fanCirculation2026",
+        "nonStadiumDerivativeUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-doodah-bernardina-2017",
+      "songId": "kia-tigers-doo-dah",
+      "url": "https://www.youtube.com/watch?v=tg9AHPhJSys",
+      "videoId": "tg9AHPhJSys",
+      "title": "170701 기아타이거즈vs엘지트윈스 잠실야구장 버나디나 응원가",
+      "channel": "예진",
+      "publishedAt": "2017-07-01T16:10:00-07:00",
+      "descriptionSummary": "2017년 7월 1일 잠실 원정에서 로저 버나디나의 당시 개인 응원가를 관중이 부르는 30초 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "bernardinaPersonalCheer2017",
+        "directUse2017",
+        "melodicLineage"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-doodah-team-2020",
+      "songId": "kia-tigers-doo-dah",
+      "url": "https://www.youtube.com/watch?v=9kmfAUp-tCs",
+      "videoId": "9kmfAUp-tCs",
+      "title": "기아 타이거즈 응원가 NEW \"두다\" 팀 응원가 / kia tigers song",
+      "channel": "[노.Fan.T]노래하는 Fan들을 위한 Team 응원가 (OKeol PAPA)",
+      "publishedAt": "2020-05-16T19:30:46-07:00",
+      "descriptionSummary": "2020년 팬 채널이 KIA 타이거즈 TV 음원을 출처로 적고, 버나디나 개인곡을 팀 응원가 ‘두다’로 소개한 1분 43초 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 선율을 버나디나의 과거 개인 응원가로 곧바로 알아보고 선수 시절을 회상한다.",
+        "짧은 선창·응답이 반복되는 점을 좋아한다는 반응도 보인다."
+      ],
+      "supports": [
+        "teamReuseBy2020",
+        "teamTitleDoodah",
+        "bernardinaLineage",
+        "fanRecognition"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-doodah-field-2022",
+      "songId": "kia-tigers-doo-dah",
+      "url": "https://www.youtube.com/watch?v=cAlBpGHrNqE",
+      "videoId": "cAlBpGHrNqE",
+      "title": "20220527 KIA 두다(구 버나디나) + 최형우 응원가",
+      "channel": "DJ Landers",
+      "publishedAt": "2022-05-27T07:43:37-07:00",
+      "descriptionSummary": "2022년 5월 27일 경기장에서 ‘두다’를 ‘구 버나디나’로 병기해 촬영한 현장 영상으로, 개인곡에서 팀곡으로 이어진 계보와 당시 사용을 함께 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "directUse2022",
+        "teamReuse",
+        "bernardinaLineage"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-doodah-official-playlist-2022",
+      "songId": "kia-tigers-doo-dah",
+      "url": "https://www.youtube.com/watch?v=FhKry6Q4xoU",
+      "videoId": "FhKry6Q4xoU",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 경기장에서 떼창하고 싶어지는 노래｜기아타이거즈 응원가 모음",
+      "channel": "기아타이거즈 KIA TIGERS",
+      "publishedAt": "2022-04-04T06:42:44-07:00",
+      "descriptionSummary": "구단 공식 2022 응원가 모음이 16:18에 ‘두다’를 수록한다. 같은 영상의 12:42에는 ‘영원히 사랑한다’, 21:40에는 ‘우리는 하나’가 실려 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 구단 응원가를 한데 들을 수 있다는 점을 반기며 개막과 구장 응원을 기대하는 반응이 중심이다.",
+        "일부 팬은 수록된 선수 개인곡과 과거 선수들을 함께 회상한다."
+      ],
+      "supports": [
+        "officialCatalog2022",
+        "officialTitle",
+        "currentAt2022"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-doodah-bernardina-archive-2025",
+      "songId": "kia-tigers-doo-dah",
+      "url": "https://www.youtube.com/watch?v=iB0u5J3mmes",
+      "videoId": "iB0u5J3mmes",
+      "title": "前KIA타이거즈 로저 버나디나 응원가",
+      "channel": "응원가",
+      "publishedAt": "2025-01-06T08:35:06-08:00",
+      "descriptionSummary": "2025년 과거 로저 버나디나 개인 응원가를 다시 올린 짧은 아카이브 영상으로, 팀곡 ‘두다’ 이전 형태를 들을 수 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 이 응원가가 이후 팀 응원가로 재활용됐다고 설명하고, 버나디나 시절의 활약과 곡을 그리워한다."
+      ],
+      "supports": [
+        "bernardinaOriginalForm",
+        "fanRecognition",
+        "laterReuseMemory"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-doodah-fanlist-2025",
+      "songId": "kia-tigers-doo-dah",
+      "url": "https://www.youtube.com/watch?v=Y55NxjqfP6s",
+      "videoId": "Y55NxjqfP6s",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 기아타이거즈 응원가 모음 Ver.2025 ⚾ 응원가 끝판왕 곰감독의 최애팀 응원가",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2025-06-27T19:25:54-07:00",
+      "descriptionSummary": "2025 팬 종합 목록이 23:30에 ‘두다’를 수록한다. 현장 사용을 직접 증명하기보다 곡이 팬 레퍼토리에서 계속 유통됨을 보여준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 최신 선수 응원가와 팀곡을 한 목록에서 반복해 들으며 원정·홈 응원을 준비한다.",
+        "댓글은 목록 전체의 선곡과 누락·추가 희망곡을 논의하며, ‘두다’의 현장 빈도를 구체적으로 밝히지는 않는다."
+      ],
+      "supports": [
+        "fanCatalog2025",
+        "catalogCirculation"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-doodah-fanlist-a-2026",
+      "songId": "kia-tigers-doo-dah",
+      "url": "https://www.youtube.com/watch?v=p6rFHkWu1Zg",
+      "videoId": "p6rFHkWu1Zg",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 2026 KIA 타이거즈 응원가 모음 전곡 가사포함 (등장곡 포함) ㅣ 신규 선수응원가 포함",
+      "channel": "놀맘댈",
+      "publishedAt": "2026-03-31T22:29:17-07:00",
+      "descriptionSummary": "2026년 팬 제작 전곡 목록이 25:01에 ‘두다’를 수록한다. 같은 목록은 현행 학습 자료이지만 실제 정규경기 사용 장면은 아니다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 새 선수곡의 추가와 시간표를 공유하고, 시즌 중 응원 연습용으로 목록을 이용한다.",
+        "‘두다’가 2026 경기에서 얼마나 자주 쓰이는지는 댓글에서 확인되지 않는다."
+      ],
+      "supports": [
+        "fanCatalog2026",
+        "catalogCirculation",
+        "directUseStillUnconfirmed"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kia-c-doodah-fanlist-b-2026",
+      "songId": "kia-tigers-doo-dah",
+      "url": "https://www.youtube.com/watch?v=GiM8SNYBvFo",
+      "videoId": "GiM8SNYBvFo",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 기아타이거즈 응원가 모음 Ver.2026⚾끼끼 응원가 업데이트 완료🐵✨",
+      "channel": "스포츠디비 SportsDB",
+      "publishedAt": "2026-05-19T23:00:13-07:00",
+      "descriptionSummary": "2026시즌 팬 종합 목록이 20:21에 ‘두다’를 수록해 서로 다른 팬 목록에서의 동시 유통을 교차 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 새 선수 응원가 업데이트와 전체 구성에 호응하고, 구장에서 함께 부르기 위한 학습 자료로 활용한다.",
+        "개별 곡의 공식 존속 여부를 확인할 만한 구단 관계자 설명은 없다."
+      ],
+      "supports": [
+        "independentFanCatalog2026",
+        "catalogCirculation",
+        "officialOmissionConflict"
+      ],
+      "accessedAt": "2026-08-09"
+    }
+  ]
+}

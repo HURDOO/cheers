@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-current-cheer-song-inventory",
+  "checkedAt": "2026-08-09",
+  "status": "title-inventory-complete",
+  "phase": "current-title-inventory",
+  "rightsNote": "전체 가사와 음원은 저장하지 않는다. 현행 제목·별칭·사용 상태·출처 URL만 수집하며, 곡별 심층 검증과 사용자 승인 전에는 정본 data/에 반영하지 않는다.",
+  "detailFiles": {
+    "titles": "titles.json",
+    "kbo": "kbo.md",
+    "universities": "universities.md",
+    "review": "review.md",
+    "deepReviewPlan": "deep-review-plan.md"
+  },
+  "summary": {
+    "kboOrganizationsComplete": 10,
+    "kboCurrentSongs": 244,
+    "kboUncertainSongs": 14,
+    "kboExistingApprovedSongs": 12,
+    "kboNewCurrentCandidates": 232,
+    "universityCandidatesAudited": 73,
+    "universityReviewRows": 35,
+    "universityRowsWithCurrentSongs": 26,
+    "universityRowsWithoutConfirmedSongs": 9,
+    "universityCurrentSongs": 154,
+    "universityUncertainSongs": 28,
+    "universityExistingApprovedSongs": 11,
+    "universityNewCurrentCandidates": 143,
+    "combinedCurrentSongs": 398,
+    "combinedUncertainSongs": 42,
+    "combinedExistingApprovedSongs": 23,
+    "combinedNewCurrentCandidates": 375
+  },
+  "organizations": [
+    {
+      "id": "lg-twins",
+      "name": "LG 트윈스",
+      "type": "kbo",
+      "inventoryStatus": "title-list-complete",
+      "currentSongCount": 27,
+      "uncertainSongCount": 0,
+      "existingApprovedSongCount": 3,
+      "detailRef": "kbo.md#lg-트윈스",
+      "sources": [
+        "https://www.youtube.com/watch?v=BhwoJFjkAf8",
+        "https://www.youtube.com/watch?v=Y-cBDnUl5k4",
+        "https://namu.wiki/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+      ]
+    },
+    {
+      "id": "hanwha-eagles",
+      "name": "한화 이글스",
+      "type": "kbo",
+      "inventoryStatus": "title-list-complete",
+      "currentSongCount": 23,
+      "uncertainSongCount": 0,
+      "existingApprovedSongCount": 1,
+      "detailRef": "kbo.md#한화-이글스",
+      "sources": [
+        "https://www.youtube.com/watch?v=3xzAdp1MFoY",
+        "https://www.youtube.com/watch?v=XX_M533cPdI",
+        "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+      ]
+    },
+    {
+      "id": "ssg-landers",
+      "name": "SSG 랜더스",
+      "type": "kbo",
+      "inventoryStatus": "title-list-complete-with-current-checks",
+      "currentSongCount": 22,
+      "uncertainSongCount": 0,
+      "existingApprovedSongCount": 0,
+      "detailRef": "kbo.md#ssg-랜더스",
+      "sources": [
+        "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+        "https://www.ssglanders.com/media/news/detail?idx=19360",
+        "https://namu.wiki/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+      ]
+    },
+    {
+      "id": "samsung-lions",
+      "name": "삼성 라이온즈",
+      "type": "kbo",
+      "inventoryStatus": "title-list-complete",
+      "currentSongCount": 22,
+      "uncertainSongCount": 0,
+      "existingApprovedSongCount": 0,
+      "detailRef": "kbo.md#삼성-라이온즈",
+      "sources": [
+        "https://www.youtube.com/watch?v=HAPsuHspHn8",
+        "https://www.samsunglions.com/m/ajax/fan_fan05.ajax.asp",
+        "https://namu.wiki/w/%EC%82%BC%EC%84%B1%20%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+      ]
+    },
+    {
+      "id": "nc-dinos",
+      "name": "NC 다이노스",
+      "type": "kbo",
+      "inventoryStatus": "title-list-complete-with-current-checks",
+      "currentSongCount": 30,
+      "uncertainSongCount": 3,
+      "existingApprovedSongCount": 0,
+      "detailRef": "kbo.md#nc-다이노스",
+      "sources": [
+        "https://www.youtube.com/watch?v=XvOb7Nx3co0",
+        "https://www.ncdinos.com/fan/music.do",
+        "https://namu.wiki/w/NC%20%EB%8B%A4%EC%9D%B4%EB%85%B8%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+      ]
+    },
+    {
+      "id": "kt-wiz",
+      "name": "kt wiz",
+      "type": "kbo",
+      "inventoryStatus": "title-list-complete-with-current-checks",
+      "currentSongCount": 29,
+      "uncertainSongCount": 3,
+      "existingApprovedSongCount": 0,
+      "detailRef": "kbo.md#kt-wiz",
+      "sources": [
+        "https://www.ktwiz.co.kr/player/song",
+        "https://www.youtube.com/watch?v=2kJf0pbtajA",
+        "https://namu.wiki/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80"
+      ]
+    },
+    {
+      "id": "lotte-giants",
+      "name": "롯데 자이언츠",
+      "type": "kbo",
+      "inventoryStatus": "title-list-complete-with-current-checks",
+      "currentSongCount": 24,
+      "uncertainSongCount": 2,
+      "existingApprovedSongCount": 2,
+      "detailRef": "kbo.md#롯데-자이언츠",
+      "sources": [
+        "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+        "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80"
+      ]
+    },
+    {
+      "id": "kia-tigers",
+      "name": "KIA 타이거즈",
+      "type": "kbo",
+      "inventoryStatus": "title-list-complete",
+      "currentSongCount": 20,
+      "uncertainSongCount": 3,
+      "existingApprovedSongCount": 1,
+      "detailRef": "kbo.md#kia-타이거즈",
+      "sources": [
+        "https://www.youtube.com/@kiatigerstv",
+        "https://www.youtube.com/watch?v=l7XROs9lYSo",
+        "https://www.youtube.com/watch?v=ZEPS5Bm3iqc",
+        "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+      ]
+    },
+    {
+      "id": "doosan-bears",
+      "name": "두산 베어스",
+      "type": "kbo",
+      "inventoryStatus": "title-list-complete-with-current-checks",
+      "currentSongCount": 28,
+      "uncertainSongCount": 1,
+      "existingApprovedSongCount": 4,
+      "detailRef": "kbo.md#두산-베어스",
+      "sources": [
+        "https://www.youtube.com/watch?v=Cs6u1CZzkbE",
+        "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+      ]
+    },
+    {
+      "id": "kiwoom-heroes",
+      "name": "키움 히어로즈",
+      "type": "kbo",
+      "inventoryStatus": "title-list-complete-with-current-checks",
+      "currentSongCount": 19,
+      "uncertainSongCount": 2,
+      "existingApprovedSongCount": 1,
+      "detailRef": "kbo.md#키움-히어로즈",
+      "sources": [
+        "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+        "https://www.youtube.com/watch?v=bGoso_4ibeo",
+        "https://www.youtube.com/@heroesbaseballclub",
+        "https://namu.wiki/w/%ED%82%A4%EC%9B%80%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80"
+      ]
+    }
+  ],
+  "songStorageNote": "곡별 제목 배열은 titles.json에, 판정 근거와 제외·보류 목록은 kbo.md와 universities.md에 기록한다."
+}

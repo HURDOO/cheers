@@ -1,0 +1,1430 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-yonsei-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-yonsei-sinchon",
+    "name": "연세대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 역사·사용법·수용을 확인하는 데 필요한 내용만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "yonsei-university-seosi",
+      "title": "서시",
+      "aliases": ["연세대 서시"],
+      "currentStatus": "current-directly-verified-at-2026-akaraka-and-cheer-ot",
+      "summary": "BanYa의 ‘베토벤 바이러스’를 응원곡으로 편곡하고 윤동주의 시 ‘서시’를 응원가 형식으로 재구성한 대표 헌정곡이다. 원선율은 베토벤 피아노 소나타 제8번 ‘비창’ 3악장까지 거슬러 올라간다. 2026 아카라카 화면, 나무위키 계열 두 문서와 언론 보도가 도입 연도를 2003년으로 지지한다. 고려대학교 교우회보 제628호의 2002년 표기는 채택하지 않고 상충 주장으로 별도 보존한다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2003년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-seosi-2026-akaraka", "ev-yonsei-a-namu-2000s", "ev-yonsei-a-namu-minjogui", "ev-yonsei-a-segye-seosi"],
+          "notes": "2026 영상의 16:51 화면에 ‘서시 since 2003’이 표시된다. 연세대 응원가 문서와 민족의 아리아 문서도 2003년 아카라카 등장을 적고, 2025년 언론 보도도 같은 연도를 제시한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2002년",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-yonsei-a-kuaa-bulletin-628"],
+          "notes": "고려대학교 교우회보 제628호의 단독 주장이다. 다수 자료의 2003년 표기와 당시 신곡 배열의 정합성 때문에 대표 연도로 채택하지 않는다."
+        },
+        {
+          "field": "melodyLineage",
+          "value": "BanYa ‘베토벤 바이러스’ → 베토벤 피아노 소나타 제8번 ‘비창’ 3악장",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-seosi-official-2020", "ev-yonsei-a-segye-seosi", "ev-yonsei-a-piu-song-list"],
+          "notes": "공식 응원단은 직접 원곡을 BanYa로 적고, 언론은 그 선율의 클래식 원전까지 설명한다."
+        },
+        {
+          "field": "lyricSourceAndDedication",
+          "value": "윤동주 ‘서시’를 응원가 형식으로 일부 재구성하고 윤동주에게 헌정",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-seosi-official-2020", "ev-yonsei-a-segye-seosi"],
+          "notes": "공식 영상의 헌정 문구와 언론의 제작 계보가 일치한다. 가사 전문이나 원시 전문은 이 데이터에 저장하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원 OT와 2026-05-23 아카라카에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-seosi-2026-ot", "yt-yonsei-a-seosi-2026-akaraka", "yt-yonsei-a-seosi-jannabi-2026"],
+          "notes": "행사 주최가 명시된 YBS 응원 OT 영상과 같은 해 아카라카 현장·초청가수 공식 채널 영상을 교차했다."
+        }
+      ],
+      "usageContexts": [
+        "아카라카와 신입생 응원 OT에서 윤동주 헌정 소개 뒤 대규모 합창으로 부른다.",
+        "정기 연고전과 학교 대표 영상에서 문학적 정체성과 공동체 윤리를 상징하는 곡으로 사용한다.",
+        "학교 공식 다국어 콘텐츠와 동문 초청가수 공연처럼 경기장 밖 홍보·문화 콘텐츠로도 확장된다."
+      ],
+      "trivia": [
+        {
+          "id": "seosi-dedication-ritual",
+          "summary": "공식 응원단과 다수 현장 영상은 곡 앞에 윤동주를 선배로 호명하는 헌정 소개를 둔다. 단순한 원작 표기를 넘어 공연의 고정된 의례적 도입으로 기능한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-seosi-official-2020", "yt-yonsei-a-seosi-dicachoo-2022", "yt-yonsei-a-seosi-10cm-2025"]
+        },
+        {
+          "id": "seosi-artist-reinterpretations",
+          "summary": "2025년 10CM은 동문 서사와 함께 곡을 불렀고, 2026년 잔나비는 낭독 중심의 도입과 밴드 편곡을 결합했다. 댓글에서는 두 무대가 응원곡을 문학·공연예술로 재해석했다는 반응이 반복된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-seosi-10cm-2025", "yt-yonsei-a-seosi-jannabi-2026"]
+        },
+        {
+          "id": "seosi-multilingual-and-motivation",
+          "summary": "대학 공식 채널은 2021년 여섯 언어 버전을 제작했다. 여러 영상의 댓글에서는 언어별 차이를 비교하는 반응과 수험생이 공부 동기로 삼는 반응, 동문이 윤동주와 학교 기억을 연결하는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-seosi-multilingual-2021", "yt-yonsei-a-seosi-dicachoo-2022", "yt-yonsei-a-seosi-2026-akaraka"]
+        },
+        {
+          "id": "seosi-minjogui-aria-chronology",
+          "summary": "나무위키 계열 자료는 서시가 2003년 아카라카에 등장하고 고려대 민족의 아리아가 같은 해 정기전용 대응곡으로 제작됐다고 설명한다. 당시 제작자 1차 증언까지 확보한 것은 아니므로 관계 설명은 편집형 자료의 주장으로 남긴다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yonsei-a-namu-minjogui", "ev-yonsei-a-namu-2000s"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "Beethoven melody is public domain, but BanYa's modern arrangement, the modern cheer arrangement, recordings, and the adapted lyric text have separate rights; permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=sHZY36KlQn8",
+          "https://www.segye.com/newsView/20250217513506",
+          "https://xx.piugame.com/piu.prime2/intro/pdf/PumpItUp_Prime2_FullSongList.pdf"
+        ],
+        "structureSummary": "헌정 선포 뒤 빠른 기악 전주가 이어지고, 윤동주 시의 핵심 윤리와 이미지를 압축한 절을 두 차례 전개한 다음 학교 공동체가 함께 외치는 종결부로 고조된다. 어깨를 걸고 좌우로 움직이는 단순한 동작이 합창을 받친다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yonsei-a-seosi-2026-akaraka",
+        "yt-yonsei-a-seosi-2026-ot",
+        "yt-yonsei-a-seosi-jannabi-2026",
+        "yt-yonsei-a-seosi-10cm-2025",
+        "yt-yonsei-a-seosi-official-2020",
+        "yt-yonsei-a-seosi-dicachoo-2022",
+        "yt-yonsei-a-seosi-multilingual-2021"
+      ],
+      "unresolved": [
+        "2003년 연세대판의 최초 편곡자·개사자 개인별 크레딧",
+        "교우회보의 2002년 표기가 근거로 삼은 동시대 1차 기록과 오기 발생 경위",
+        "현행 편곡·가사·공연 영상의 게시 및 재사용 권리 범위"
+      ]
+    },
+    {
+      "id": "yonsei-university-haneul-kkeutkkaji",
+      "title": "하늘끝까지",
+      "aliases": ["하늘 끝까지", "하늘끝"],
+      "currentStatus": "current-directly-verified-at-2026-akaraka-and-cheer-ot",
+      "summary": "2003년 영화 ‘클래식’ OST인 한성민의 ‘사랑하면 할수록’을 원곡으로 한 2016년 응원가다. 2016-05-21 아카라카의 동시대 영상과 후대 전체 영상이 신곡·첫 공개임을 확인하며, 제작자 임현택 동문은 당시 단장과 가사와 동작을 만들었다고 회고했다. 한화 이글스 ‘사랑한다 이글스’가 같은 원곡을 2015년에 먼저 쓴 사실과 사용자의 영향 관계 승인은 보존하되, 제작자 인터뷰에는 한화를 직접 참고했다는 발언이 없어 직접 영향은 ‘유력하지만 미확인’으로 구분한다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2016년, 2016-05-21 아카라카에서 신곡 첫 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haneul-first-2016", "yt-yonsei-a-haneul-first-full-2016", "ev-yonsei-a-chunchu-creator-2024", "ev-yonsei-a-namu-2010s"],
+          "notes": "행사 직후 게시된 제목과 후대 전체 영상 설명이 모두 신곡·첫 공개로 적고 제작자 회고의 2016년과 일치한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "한성민 ‘사랑하면 할수록’(영화 ‘클래식’ OST, 2003)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haneul-official-2020", "ev-yonsei-a-bugs-classic"],
+          "notes": "응원단 공식 영상의 원곡 표기와 음원 서비스의 OST 발매 정보를 교차했다."
+        },
+        {
+          "field": "creationCredit",
+          "value": "임현택 동문(2016년 당시 부단장)과 당시 단장이 가사·응원 동작을 공동 구성",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-chunchu-creator-2024", "ev-yonsei-a-tcatmon-history"],
+          "notes": "제작자 본인의 연세춘추 회고가 핵심 근거다. 과거 문서에는 경영학과 임강우가 원곡 선율을 추천했다는 보조 주장이 있다."
+        },
+        {
+          "field": "influencedByCheer",
+          "value": "한화 이글스 ‘사랑한다 이글스’의 영향을 받은 것으로 승인·보고됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yonsei-a-namu-2010s", "ev-yonsei-a-librewiki-motifs", "ev-yonsei-a-hanwha-2015", "yt-yonsei-a-haneul-first-2016"],
+          "notes": "한화판의 2015년 사용과 연세대판의 2016년 후발 제작, 동일 원곡·유사한 합창 구조는 강하게 확인된다. 다만 임현택 인터뷰가 한화판 참고를 언급하지 않아 직접 제작 경로는 확정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원 OT와 2026-05-23 아카라카에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haneul-2026-ot", "yt-yonsei-a-haneul-2026-akaraka"],
+          "notes": "2026 두 공식 행사 표본에서 연속 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "아카라카와 합동응원전의 후반부에서 선창과 대규모 후렴 응답으로 분위기를 끌어올린다.",
+        "신입생 응원 OT에서 구호·동작을 교육하고 연고전에서 승리를 향한 집단 합창으로 사용한다.",
+        "동문 행사와 양교 응원가 리믹스 등 학교 간·세대 간 콘텐츠에도 재편곡된다."
+      ],
+      "trivia": [
+        {
+          "id": "haneul-first-reception",
+          "summary": "2016년 첫 공개 영상의 당시 댓글에는 신곡이라는 놀라움과 곡의 장중함에 대한 호평이 함께 남아 있다. 동시에 한화 응원가와 같다는 지적도 공개 직후부터 등장해 영향 관계 논쟁이 오래됐음을 보여준다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haneul-first-2016", "yt-yonsei-a-haneul-first-full-2016"]
+        },
+        {
+          "id": "haneul-creator-intent",
+          "summary": "임현택 동문은 곡이 오래 쓰일 수 있도록 단장과 가사·동작을 함께 다듬었다고 회고한다. 제작 시기의 세부 계절은 기사 HTML과 지면 표현이 어긋나므로 여기서는 2016년 제작 사실만 사용한다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-chunchu-creator-2024"]
+        },
+        {
+          "id": "haneul-cross-university-remix",
+          "summary": "2024년에는 고려대 교육TV 방송국 협업으로 고려대 ‘Forever’와 결합한 리믹스가 제작됐다. 댓글에서는 양교 곡의 전환과 학업 동기 효과가 반복해서 언급된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haneul-remix-2024"]
+        },
+        {
+          "id": "haneul-drama-discovery",
+          "summary": "2022년 현장 영상 댓글에는 드라마 ‘치얼업’을 보고 실제 응원가와 동작을 찾아왔다는 반응이 다수 보인다. 이는 대중 드라마가 대학 응원문화를 외부에 재유통한 사례다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haneul-2022"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 2003 film soundtrack and modern university adaptation; lyric, arrangement, performance, and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=-UYGsQLVJgc",
+          "https://music.bugs.co.kr/album/29611",
+          "https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=31561"
+        ],
+        "structureSummary": "독수리와 승리를 호명하는 짧은 선창 뒤 넓은 음역의 합창 후렴이 두 차례 반복되고, 학교 구호와 힘찬 종결로 이어진다. 팔을 크게 펼치는 동작과 어깨동무가 장중한 선율을 시각화한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yonsei-a-haneul-2026-akaraka",
+        "yt-yonsei-a-haneul-2026-ot",
+        "yt-yonsei-a-haneul-official-2020",
+        "yt-yonsei-a-haneul-first-2016",
+        "yt-yonsei-a-haneul-first-full-2016",
+        "yt-yonsei-a-haneul-2022",
+        "yt-yonsei-a-haneul-remix-2024"
+      ],
+      "unresolved": [
+        "임현택 동문과 공동 제작한 당시 단장, 원곡 추천자 및 녹음 참여자의 정확한 개인별 역할",
+        "한화 이글스판을 실제 제작 참고자료로 삼았는지 확인하는 당시 제작자 직접 기록",
+        "원곡·개사·현행 음원 및 공연 영상의 권리 처리 범위"
+      ]
+    },
+    {
+      "id": "yonsei-university-yonseiyeo-saranghanda",
+      "title": "연세여 사랑한다",
+      "aliases": ["사랑한다 연세", "연사"],
+      "currentStatus": "current-directly-verified-at-2026-joint-cheer-and-akaraka",
+      "summary": "Carlos Gardel의 탱고 ‘Por una Cabeza’와 김선경의 ‘마지막 선택’을 결합해 2005년에 만든 대표 합창곡이다. 응원단 FAQ는 응원단원들이 두 곡을 편곡해 제작했다고 설명하고, 나무위키와 연세대학교 미래캠퍼스 공식 영상은 미래캠퍼스 록 동아리 커런트가 만들었다고 설명한다. 두 설명은 작사·편곡·연주·제작 주체의 역할 분담이 밝혀지지 않아 병존시킨다. 2025~2026 학교 공식 영상, 동문 행사와 합동응원전에서 현행 사용을 직접 확인했다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2005년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-cheer-faq", "ev-yonsei-a-namu-2000s", "yt-yonsei-a-yonseiyeo-futurecamp-2025"],
+          "notes": "응원단 FAQ와 미래캠퍼스 공식 영상, 나무위키 계열 문서가 같은 연도를 제시한다."
+        },
+        {
+          "field": "sourceWorks",
+          "value": "Carlos Gardel ‘Por una Cabeza’와 김선경 ‘마지막 선택’의 결합 편곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-cheer-faq", "yt-yonsei-a-yonseiyeo-official-2020", "ev-yonsei-a-gardel-1935", "ev-yonsei-a-last-choice"],
+          "notes": "공식 응원단이 두 원곡을 함께 명시하며, 원작·음원 자료로 각 작품의 크레딧과 시기를 확인했다."
+        },
+        {
+          "field": "productionCredit",
+          "value": "연세대학교 응원단원들이 두 원곡을 편곡해 제작",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-cheer-faq", "ev-yonsei-a-chunchu-copyright-2018"],
+          "notes": "응원단 FAQ의 공식 설명이다. 다만 개인별 작사·편곡·연주 크레딧은 공개하지 않는다."
+        },
+        {
+          "field": "productionCredit",
+          "value": "미래캠퍼스 록 동아리 ‘커런트’가 제작",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yonsei-a-namu-2000s", "yt-yonsei-a-yonseiyeo-futurecamp-2025"],
+          "notes": "사용자 지시에 따라 나무위키발 주장을 보존한다. 2025년 미래캠퍼스 공식 영상 설명도 같은 주장을 명시해 근거가 강화됐지만, 응원단 FAQ와의 역할 분담은 여전히 설명되지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 공식 뮤직비디오, 2026 합동응원전·아카라카·동문 행사에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-yonseiyeo-mv-2025", "yt-yonsei-a-yonseiyeo-joint-2026", "yt-yonsei-a-yonseiyeo-akaraka-2026", "yt-yonsei-a-yonseiyeo-alumni-2026"],
+          "notes": "학교 공식 채널과 2026 현장 표본이 현재성을 직접 보여준다."
+        },
+        {
+          "field": "alumniEventIdentity",
+          "value": "동문 아카라카 행사의 공식 명칭이자 피날레 정체성 곡으로 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-official-alumni-event", "yt-yonsei-a-yonseiyeo-alumni-2026"],
+          "notes": "2025 행사 안내와 2026 대학 공식 기록 영상이 세대 간 학교 기억을 묶는 사용 맥락을 보여준다."
+        }
+      ],
+      "usageContexts": [
+        "아카라카와 합동응원전 후반에 반주 합창과 육성 반복을 연결해 학교 사랑을 집단 선언한다.",
+        "동문 아카라카와 공식 홍보 영상에서 세대를 잇는 학교 대표곡으로 사용한다.",
+        "미래캠퍼스 홍보, 다국어 콘텐츠, 초청가수 무대와 프로야구 개사곡 등 캠퍼스 밖으로도 널리 확장됐다."
+      ],
+      "trivia": [
+        {
+          "id": "yonseiyeo-initial-draft",
+          "summary": "응원단 FAQ는 제작 초기에 현재와 다른 내용의 가사 초안이 있었고, 여러 날의 수정 끝에 지금의 짧고 반복적인 형식으로 다듬었다고 설명한다. 원문 가사는 저장하지 않는다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-cheer-faq"]
+        },
+        {
+          "id": "yonseiyeo-unaccompanied-response",
+          "summary": "2026 합동응원전 영상은 반주 공연 뒤 관중 육성 반복을 별도 구간으로 기록한다. 댓글은 양교 대표곡 비교와 가족·신입생의 소속감에 집중한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-yonseiyeo-joint-2026"]
+        },
+        {
+          "id": "yonseiyeo-suzi-viral-memory",
+          "summary": "2018년 수지 공연 영상은 이후에도 해마다 다시 찾는다는 댓글, 다른 학교 학생도 노래를 기억한다는 반응, 대학 홍보 효과가 컸다는 평가가 반복되는 장기 표본이 됐다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-yonseiyeo-suzi-2018"]
+        },
+        {
+          "id": "yonseiyeo-multilingual",
+          "summary": "대학 공식 채널은 2021년 여섯 언어 버전을 공개했다. 댓글은 언어별 음색·번역의 차이를 비교하면서 한국어판의 집단 정서를 중심 기준으로 삼는다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-yonseiyeo-multilingual-2021"]
+        },
+        {
+          "id": "yonseiyeo-rights-case",
+          "summary": "연세춘추는 이 곡을 포함한 다수 응원가가 기존 대중음악을 편곡·개사하는 제작 관행 속에 있다고 설명하며 저작권 쟁점을 제기했다. 이는 무단 사용을 일괄 확정하는 자료가 아니라 권리 확인 필요성을 보여주는 자료로 사용한다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-chunchu-copyright-2018"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted source recording and modern combined adaptation; Gardel/Le Pera work status can vary by jurisdiction, and the Kim Seon-gyeong source, arrangement, lyric adaptation, and recordings require separate rights review",
+        "sourceUrls": [
+          "https://akaraka.yonsei.ac.kr/faq",
+          "https://www.youtube.com/watch?v=cGdOCYiQNyg",
+          "https://www.youtube.com/watch?v=aP9CzVTxQPE",
+          "https://fundacioncarlosgardel.org/discografia/discografia-1935"
+        ],
+        "structureSummary": "탱고풍의 짧은 도입과 장중한 선율 위에 학교 사랑을 선언하는 두 개의 짧은 문장을 반복하고, 반주가 줄어든 육성 합창과 학교 구호로 마무리한다. 가사가 단순해 첫 참여자도 쉽게 합류하는 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yonsei-a-yonseiyeo-joint-2026",
+        "yt-yonsei-a-yonseiyeo-akaraka-2026",
+        "yt-yonsei-a-yonseiyeo-alumni-2026",
+        "yt-yonsei-a-yonseiyeo-mv-2025",
+        "yt-yonsei-a-yonseiyeo-futurecamp-2025",
+        "yt-yonsei-a-yonseiyeo-official-2020",
+        "yt-yonsei-a-yonseiyeo-multilingual-2021",
+        "yt-yonsei-a-yonseiyeo-suzi-2018"
+      ],
+      "unresolved": [
+        "응원단 FAQ의 ‘응원단원 제작’과 커런트 제작설 사이 작사·편곡·연주·녹음 역할 분담",
+        "2005년 제작 참여자의 개인별 크레딧과 당시 원본 제작 기록",
+        "두 원곡 결합 편곡과 개사·현행 음원·영상의 허락 범위"
+      ]
+    },
+    {
+      "id": "yonsei-university-wonsirim",
+      "title": "원시림",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-akaraka-and-alumni-event",
+      "summary": "Styx의 ‘Music Time’을 바탕으로 1989년에 만든 고강도 응원가다. 2026 아카라카 영상 화면의 ‘since 1989’, 연세대 동문회보 인터뷰와 나무위키 계열 문서가 도입 연도를 지지한다. 동문회보는 브라스밴드 중심 응원에서 록밴드 소나기와 협업하는 방식으로 바뀌던 시기에 응원단 선배·단장·소나기가 함께 만들었다고 회고한다. 득점 직후와 경기·행사 후반의 승리 분위기에서 쓰이며 2026에도 신입생 OT·아카라카·동문 행사에서 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "1989년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-wonsirim-2026-akaraka", "ev-yonsei-a-alumni-wonsirim", "ev-yonsei-a-namu-pre2000"],
+          "notes": "2026 영상 22:55 화면에 ‘원시림 since 1989’이 표시되고 전 응원단장 회고 및 편집형 문서가 일치한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Styx ‘Music Time’(1984, ‘Caught in the Act’ 수록 신곡)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-wonsirim-official-2020", "ev-yonsei-a-styx-music-time", "ev-yonsei-a-namu-pre2000"],
+          "notes": "공식 응원단 크레딧과 A&M 음반 자료를 교차했다."
+        },
+        {
+          "field": "creationCredit",
+          "value": "1989년 당시 응원단 선배·단장과 록밴드 소나기의 공동 제작",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yonsei-a-alumni-wonsirim"],
+          "notes": "전 응원단장 인터뷰가 브라스밴드에서 록밴드 녹음으로 바뀌던 제작 맥락과 협업 주체를 회고한다. 개인별 역할은 확인되지 않았다."
+        },
+        {
+          "field": "usageContext",
+          "value": "득점 직후의 승리 응원과 경기·행사 후반의 고조·마무리 곡",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-namu-pre2000", "ev-yonsei-a-chunchu-creator-2024", "yt-yonsei-a-wonsirim-dicachoo-2018"],
+          "notes": "편집형 문서, 동문 인터뷰 기사와 현장 댓글이 득점·승리 맥락을 일관되게 보여준다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원 OT·아카라카·동문 행사에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-wonsirim-2026-ot", "yt-yonsei-a-wonsirim-2026-akaraka", "yt-yonsei-a-wonsirim-alumni-2026"],
+          "notes": "서로 다른 2026 행사 세 종류에서 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "연고전에서 득점 직후 또는 승리 흐름을 빠르게 끌어올릴 때 부른다.",
+        "아카라카와 합동응원전 후반에 앉기·서기·멈추기·뛰기 동작을 결합한 전신 응원으로 사용한다.",
+        "동문 행사와 공식 응원 교육 콘텐츠에서 세대가 함께 참여하는 대표 고전곡으로 쓰인다."
+      ],
+      "trivia": [
+        {
+          "id": "wonsirim-superlative-intro",
+          "summary": "공식 응원단은 곡을 소개할 때 지구를 넘어 우주 최고의 응원곡이라는 과장된 정형 문구를 사용한다. 이 소개 자체가 현장 참여를 예열하는 고정 구호가 됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-wonsirim-official-2020", "yt-yonsei-a-wonsirim-mv-2021"]
+        },
+        {
+          "id": "wonsirim-physicality",
+          "summary": "공식 MV와 댓글은 한 곡만으로 숨이 찰 정도의 강한 앉기·서기·점프 동작을 대표 특징으로 꼽는다. 이는 원곡 감상보다 몸의 동시성이 중요한 응원가임을 보여준다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-wonsirim-official-2020", "yt-yonsei-a-wonsirim-mv-2021", "yt-yonsei-a-wonsirim-2026-ot"]
+        },
+        {
+          "id": "wonsirim-action-change",
+          "summary": "2023년 공식 교육 영상 댓글과 2018년 현장 영상 댓글은 과거 중앙 참가자에게 장난스럽게 접촉하던 방식이 오늘날에는 달라졌음을 회상한다. 구체적 안전 규칙과 변경 시점은 공식 문서로 확인되지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yonsei-a-wonsirim-akaraka101-2023", "yt-yonsei-a-wonsirim-dicachoo-2018"]
+        },
+        {
+          "id": "wonsirim-generational-continuity",
+          "summary": "2018~2026 영상 댓글에는 1989년 첫 가을과 1990년대·2000년대 학창 시절을 회상하는 동문, 우연히 Styx 원곡을 듣고 응원가를 떠올린 동문 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-wonsirim-dicachoo-2018", "yt-yonsei-a-wonsirim-alumni-2026", "yt-yonsei-a-wonsirim-2026-akaraka"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted Styx composition and recording plus modern university adaptation; arrangement, lyric adaptation, performance, and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=qwKuY1SfPPE",
+          "https://www.onamrecords.com/sites/default/files/2023-01/Styx_AM_Albums_PR.pdf",
+          "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84"
+        ],
+        "structureSummary": "코믹한 정글 이미지를 빠르게 나열하는 절, 응원 참여를 재촉하는 짧은 연결부, 앉기·서기·정지·점프를 지시하는 반복 후렴으로 구성된다. 후렴이 재차 반복되며 집단 동작과 체력을 극대화한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yonsei-a-wonsirim-2026-akaraka",
+        "yt-yonsei-a-wonsirim-2026-ot",
+        "yt-yonsei-a-wonsirim-alumni-2026",
+        "yt-yonsei-a-wonsirim-official-2020",
+        "yt-yonsei-a-wonsirim-mv-2021",
+        "yt-yonsei-a-wonsirim-akaraka101-2023",
+        "yt-yonsei-a-wonsirim-dicachoo-2018"
+      ],
+      "unresolved": [
+        "1989년 응원단 선배·단장·소나기 구성원의 개인별 작사·편곡·연주·녹음 크레딧",
+        "1989년 최초 공개 행사·날짜와 당시 공연 또는 제작 1차 기록",
+        "원곡 편곡 권리와 과거 동작이 현재 방식으로 바뀐 정확한 시점·공식 안전 지침"
+      ]
+    },
+    {
+      "id": "yonsei-university-haeya",
+      "title": "해야",
+      "aliases": ["해야 떠라", "해야떠라"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-akaraka-and-alumni-event",
+      "summary": "박두진의 시 ‘해’를 바탕으로 조하문이 이끈 그룹 마그마가 만든 ‘해야’를 응원곡으로 재구성한 고전 응원가다. 마그마 원곡은 1980-11-08 제4회 MBC 대학가요제에서 은상을 받았고, 사용자가 지정한 2026 아카라카 영상 2:37 화면은 연세대판을 ‘since 1981’로 표기한다. 일부 보존 위키 문서의 1982년 표기는 상충 주장으로 남긴다. 두산의 ‘해야’와는 마그마 원곡을 공유하지만 가사와 사용 맥락이 다른 별개의 개사곡이다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "1981년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haeya-2026-akaraka"],
+          "notes": "사용자가 지정한 2026 아카라카 영상 02:37 화면의 ‘해야 since 1981’ 표기를 직접 확인했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "1982년",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-yonsei-a-librewiki-motifs"],
+          "notes": "리브레위키의 보존 문서가 제시하는 상충값이다. 사용자 승인 연도와 영상 화면을 우선해 대표 연도로 채택하지 않는다."
+        },
+        {
+          "field": "originalSong",
+          "value": "마그마 ‘해야’; 1980-11-08 제4회 MBC 대학가요제 은상",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-mbc-magma", "yt-yonsei-a-haeya-official-2020", "ev-yonsei-a-genie-magma"],
+          "notes": "MBC 아카이브는 당시 공연과 수상 기록을, 공식 응원단은 마그마 원곡 크레딧을 제공한다."
+        },
+        {
+          "field": "lyricSource",
+          "value": "박두진의 시 ‘해’를 조하문이 노래로 재구성",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yonsei-a-namu-pre2000", "ev-yonsei-a-genie-magma", "ev-yonsei-a-mbc-magma"],
+          "notes": "음원 서비스와 편집형 자료가 일치한다. 시와 응원가 전문은 저장하지 않는다."
+        },
+        {
+          "field": "relationshipToDoosanHaeya",
+          "value": "마그마 ‘해야’를 원곡으로 공유하는 별개의 개사곡이며 연세대판 직접 차용으로 단정하지 않음",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haeya-official-2020", "ev-yonsei-a-mbc-magma"],
+          "notes": "사용자 승인에 따라 동일 원곡 계보와 서로 다른 가사·사용 맥락을 구분한다. 댓글의 두산 구호는 교차 종목 인지의 표본일 뿐 제작 경로 증거로 쓰지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원 OT·아카라카에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haeya-2026-ot-ybs", "yt-yonsei-a-haeya-2026-ot", "yt-yonsei-a-haeya-2026-akaraka"],
+          "notes": "공식 응원단 주최 OT와 같은 해 아카라카에서 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT의 초반부에서 오래된 기본곡과 동작을 가르치는 데 사용한다.",
+        "아카라카와 동문 행사에서 승리의 해가 떠오른다는 선창 뒤 빠른 록 응원으로 분위기를 전환한다.",
+        "연고전에서 세대가 함께 부르는 고전곡으로 사용되며, 다른 종목의 같은 원곡 응원가와도 선율 기억이 교차한다."
+      ],
+      "trivia": [
+        {
+          "id": "haeya-magma-yonsei-link",
+          "summary": "원곡을 만든 마그마는 연세대 학생 조하문이 참여한 대학 밴드였고, 원작 시인 박두진도 연세대 교수로 재직했다. 영상 댓글에서는 이 두 연결을 곡의 학교 정체성으로 반복해 기억한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yonsei-a-namu-pre2000", "ev-yonsei-a-mbc-magma", "yt-yonsei-a-haeya-dicachoo-2022"]
+        },
+        {
+          "id": "haeya-long-continuity",
+          "summary": "2022~2026 영상 댓글에는 1970년대 말·1990년대 학번 동문이 여전히 같은 곡을 부른다는 반가움과 세대 연속성을 언급한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haeya-dicachoo-2022", "yt-yonsei-a-haeya-2026-ot"]
+        },
+        {
+          "id": "haeya-title-alias",
+          "summary": "공식 표기는 ‘해야’이지만 영상 제목·해시태그와 현장 검색에서는 첫 후렴에서 온 ‘해야 떠라’·‘해야떠라’가 널리 쓰인다. 데이터에서는 정식명과 별칭을 함께 유지한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haeya-official-2020", "yt-yonsei-a-haeya-ot-2025"]
+        },
+        {
+          "id": "haeya-official-metadata-error",
+          "summary": "2024 응원단 공식 영상은 제목과 해시태그가 해야를 가리키지만 설명 본문에는 다른 곡명이 잘못 남아 있다. 영상 내용·제목을 우선하되 자동 수집 시 설명만으로 곡을 분류하면 오류가 생기는 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yonsei-a-haeya-official-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "modern musical setting of a literary poem, original recording, and university adaptation are copyrighted or otherwise rights-sensitive; lyric, arrangement, performance, and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=UCBHUcdYCWo",
+          "https://www.youtube.com/watch?v=kaoZ_oPuTQo",
+          "https://www.genie.co.kr/detail/artistInfo?xxnm=14948772"
+        ],
+        "structureSummary": "록 밴드 전주 뒤 해가 떠오르는 이미지를 반복하는 선창·합창, 짧은 구음과 학교 응원 구호, 다시 원래 후렴으로 돌아오는 구조다. 팔을 위로 뻗고 좌우로 크게 움직이는 동작이 상승 이미지를 강조한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yonsei-a-haeya-2026-akaraka",
+        "yt-yonsei-a-haeya-2026-ot-ybs",
+        "yt-yonsei-a-haeya-2026-ot",
+        "yt-yonsei-a-haeya-official-2020",
+        "yt-yonsei-a-haeya-dicachoo-2022",
+        "yt-yonsei-a-haeya-official-2024",
+        "yt-yonsei-a-haeya-ot-2025"
+      ],
+      "unresolved": [
+        "1981년 연세대판의 최초 편곡·개사 및 녹음 참여자 개인별 크레딧",
+        "연세대 응원가로 최초 공개된 정확한 행사·날짜와 동시대 1차 기록",
+        "1982년 표기의 원출처와 1981년 영상 표기 사이 상충을 해소할 추가 기록"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-yonsei-a-namu-2000s",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+      "title": "나무위키 미러 — 연세대학교/응원가/2000년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "서시를 2003년, 연세여 사랑한다를 2005년 곡으로 배열하고 각 원곡·공연 맥락과 커런트 제작설을 설명하는 편집형 보조 자료다. 연도와 원곡은 공식 영상·FAQ·언론으로 교차했다.",
+      "supports": ["서시 2003", "연세여 사랑한다 2005", "커런트 제작설"]
+    },
+    {
+      "id": "ev-yonsei-a-namu-pre2000",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84",
+      "title": "나무위키 미러 — 연세대학교/응원가/2000년 이전",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "원시림의 1989년 도입·Styx 원곡·득점 사용과 해야의 마그마·박두진·조하문 계보 및 동작을 정리한다. 핵심 크레딧과 연도는 공식 영상·동문회보·MBC 자료로 교차했다.",
+      "supports": ["원시림 연도·원곡·사용 맥락", "해야 원곡·문학 계보"]
+    },
+    {
+      "id": "ev-yonsei-a-namu-2010s",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80?from=%ED%95%98%EB%8A%98%EB%81%9D%EA%B9%8C%EC%A7%80",
+      "title": "나무위키 미러 — 연세대학교/응원가/2010년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "하늘끝까지를 2016년 아카라카 신곡으로 설명하고, 같은 원곡을 쓴 한화 이글스판이 2015년에 먼저 사용됐다고 비교한다. 첫 공개와 제작자는 영상·제작자 인터뷰로 별도 확인했다.",
+      "supports": ["하늘끝까지 2016", "한화 선사용 비교"]
+    },
+    {
+      "id": "ev-yonsei-a-namu-minjogui",
+      "type": "namuwiki-mirror",
+      "url": "https://namu.moe/w/%EB%AF%BC%EC%A1%B1%EC%9D%98%20%EC%95%84%EB%A6%AC%EC%95%84",
+      "title": "나무위키 미러 — 민족의 아리아",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "연세대 서시가 2003년 아카라카에 등장했고 고려대 민족의 아리아가 같은 해 정기전에 맞춰 제작됐다는 관계를 설명한다. 서시의 연도 교차 확인과 양교 곡 관계의 보조 자료로만 사용한다.",
+      "supports": ["서시 2003", "민족의 아리아와의 같은 해 관계"]
+    },
+    {
+      "id": "ev-yonsei-a-segye-seosi",
+      "type": "news",
+      "url": "https://www.segye.com/newsView/20250217513506",
+      "title": "연세대 응원가 된 윤동주의 ‘서시’",
+      "publisher": "세계일보",
+      "publishedAt": "2025-02-17",
+      "accessedAt": "2026-08-09",
+      "summary": "서시가 2003년부터 불렸고 윤동주 시를 바탕으로 하며, 응원 선율이 BanYa를 거쳐 베토벤 ‘비창’ 3악장에 닿는다고 설명한다. 공연 전 윤동주 헌정 소개도 다룬다.",
+      "supports": ["서시 2003", "윤동주 헌정", "베토벤 선율 계보"]
+    },
+    {
+      "id": "ev-yonsei-a-kuaa-bulletin-628",
+      "type": "official-alumni-bulletin-scan",
+      "url": "https://www.scribd.com/document/1004670663/%25EA%25B5%2590%25EC%259A%25B0%25ED%259A%258C%25EB%25B3%25B4-628",
+      "title": "고려대학교 교우회보 제628호",
+      "publisher": "고려대학교 교우회",
+      "publishedAt": "2022-11-10",
+      "accessedAt": "2026-08-09",
+      "summary": "서시를 2002년 발표로 적고 민족의 아리아를 그에 대응한 2003년 곡으로 설명한다. 현재 확보한 자료 중 2002년을 제시하는 유일한 출처여서 상충 주장으로 보존한다.",
+      "supports": ["서시 2002년 상충 주장"]
+    },
+    {
+      "id": "ev-yonsei-a-piu-song-list",
+      "type": "official-game-song-list",
+      "url": "https://xx.piugame.com/piu.prime2/intro/pdf/PumpItUp_Prime2_FullSongList.pdf",
+      "title": "Pump It Up Prime 2 Full Song List",
+      "publisher": "Andamiro",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "BanYa의 ‘Beethoven Virus’를 펌프 잇 업 초기 수록곡 계열로 확인하는 공식 곡 목록이다. 연세대 응원단의 원곡 표기와 함께 서시의 직접 선율 출처를 지지한다.",
+      "supports": ["BanYa ‘Beethoven Virus’ 작품 확인"]
+    },
+    {
+      "id": "ev-yonsei-a-chunchu-creator-2024",
+      "type": "university-news-interview",
+      "url": "https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=31561",
+      "title": "‘2017년 연고전 5:0 전승의 역사를 그대에게’",
+      "publisher": "연세춘추",
+      "publishedAt": "2024-09-22",
+      "accessedAt": "2026-08-09",
+      "summary": "임현택 동문이 2016년 부단장 시절 당시 단장과 하늘끝까지의 가사·동작을 만들었다고 직접 회고한다. 원시림의 일반적인 후반·승리 사용과 동문 행사 일화도 설명하지만 한화 응원가 참고 여부는 말하지 않는다.",
+      "supports": ["하늘끝까지 제작자·제작 연도", "원시림 사용 맥락", "한화 직접 영향 미확인"]
+    },
+    {
+      "id": "ev-yonsei-a-tcatmon-history",
+      "type": "namuwiki-derived-archive",
+      "url": "https://tcatmon.com/wiki/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "연세대학교/응원가 과거 편집 문서",
+      "publisher": "Tcatmon 나무위키 계열 아카이브",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "서시의 2003년 등장, 하늘끝까지의 2016년 아카라카 첫 공개·원곡 추천 경위, 연세여 사랑한다의 2005년 정보와 현장 사용을 담은 과거 편집형 자료다.",
+      "supports": ["서시 역사", "하늘끝까지 제작 보조 주장", "연세여 사랑한다 역사"]
+    },
+    {
+      "id": "ev-yonsei-a-bugs-classic",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/29611",
+      "title": "영화 ‘클래식’ OST",
+      "publisher": "Bugs",
+      "publishedAt": "2003-02-11",
+      "accessedAt": "2026-08-09",
+      "summary": "한성민의 ‘사랑하면 할수록’을 영화 ‘클래식’ OST 수록곡으로 확인하고 2003년 발매일을 제공한다.",
+      "supports": ["하늘끝까지 원곡·연도"]
+    },
+    {
+      "id": "ev-yonsei-a-librewiki-motifs",
+      "type": "archived-community-wiki",
+      "url": "https://librewiki.net/wiki/%EC%9C%84%ED%82%A4%EB%8F%85%3A%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC_%EC%9D%91%EC%9B%90%EA%B0%80/%EC%97%B0%EA%B3%A0%EB%8C%80_%EC%9D%91%EC%9B%90%EA%B0%80_%EB%AA%A8%ED%8B%B0%EB%B8%8C",
+      "title": "프로야구 응원가/연고대 응원가 모티브 보존 문서",
+      "publisher": "리브레위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "한화 사랑한다 이글스의 2015년 선사용과 연세대 하늘끝까지의 2016년 등장을 비교한다. 해야의 연세대 사용 시작을 1982년으로 적어 2026 영상의 1981년 표기와 충돌하므로 이견도 함께 보존한다.",
+      "supports": ["하늘끝까지·한화 연대 비교", "해야 1982년 상충 주장"]
+    },
+    {
+      "id": "ev-yonsei-a-cheer-faq",
+      "type": "official-cheering-squad",
+      "url": "https://akaraka.yonsei.ac.kr/faq",
+      "title": "연세대학교 응원단 FAQ",
+      "publisher": "연세대학교 응원단",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "연세여 사랑한다가 2005년 ‘Por una Cabeza’와 ‘마지막 선택’을 결합해 만들어졌고 응원단원들이 여러 날 편곡·개사했다고 설명한다. 초기 가사 초안이 수정됐다는 제작 일화도 담는다.",
+      "supports": ["연세여 사랑한다 2005", "두 원곡", "응원단 제작 설명", "초기 초안 일화"]
+    },
+    {
+      "id": "ev-yonsei-a-chunchu-copyright-2018",
+      "type": "university-news",
+      "url": "https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=24694",
+      "title": "연세대학교 응원가의 제작과 저작권을 다룬 기사",
+      "publisher": "연세춘추",
+      "publishedAt": "2018-09-30",
+      "accessedAt": "2026-08-09",
+      "summary": "응원단이 선곡·편곡·개사를 하고 교내 밴드 동아리와 녹음하는 일반적 제작 구조, 연세여 사랑한다의 두 원곡 결합, 당시 현행 편곡곡 수와 저작권 쟁점을 설명한다.",
+      "supports": ["응원가 제작 구조", "연세여 사랑한다 원곡 결합", "권리 검토 필요성"]
+    },
+    {
+      "id": "ev-yonsei-a-gardel-1935",
+      "type": "artist-foundation-discography",
+      "url": "https://fundacioncarlosgardel.org/discografia/discografia-1935",
+      "title": "Carlos Gardel 1935 discography",
+      "publisher": "Fundación Internacional Carlos Gardel",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "1935년 ‘Por una Cabeza’의 Carlos Gardel·Alfredo Le Pera 크레딧을 확인하는 재단 디스코그래피다.",
+      "supports": ["연세여 사랑한다 첫 번째 원곡 크레딧"]
+    },
+    {
+      "id": "ev-yonsei-a-official-alumni-event",
+      "type": "official-university-event",
+      "url": "https://gsis.yonsei.ac.kr/gsis/community/boards2_01.do?articleNo=449708&mode=view",
+      "title": "2025 ‘연세여 사랑한다’ 동문 행사 안내",
+      "publisher": "연세대학교",
+      "publishedAt": "2025-06-30",
+      "accessedAt": "2026-08-09",
+      "summary": "과거 동문 아카라카를 ‘연세여 사랑한다’라는 이름으로 운영하고 공식 응원단 공연과 전 참가자 피날레를 구성한 2025 행사 맥락을 확인한다.",
+      "supports": ["연세여 사랑한다의 동문 행사 정체성"]
+    },
+    {
+      "id": "ev-yonsei-a-alumni-wonsirim",
+      "type": "official-alumni-magazine-scan",
+      "url": "https://fliphtml5.com/zklxi/dicr/2022.09_3%EC%B0%A8_%EC%8B%9C%EC%95%88_compressed/55/",
+      "title": "연세대학교 동문회보 — 원시림 제작 회고",
+      "publisher": "연세대학교 총동문회",
+      "publishedAt": "2022-09",
+      "accessedAt": "2026-08-09",
+      "summary": "전 응원단장이 원시림이 1989년에 처음 등장했고, 브라스밴드에서 록밴드 소나기와 협업하는 방식으로 바뀌던 시기에 응원단 선배·단장·소나기가 함께 만들었다고 회고한다.",
+      "supports": ["원시림 1989", "소나기·응원단 공동 제작"]
+    },
+    {
+      "id": "ev-yonsei-a-styx-music-time",
+      "type": "label-discography",
+      "url": "https://www.onamrecords.com/sites/default/files/2023-01/Styx_AM_Albums_PR.pdf",
+      "title": "Styx A&M albums press reference",
+      "publisher": "On A&M Records",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "1984년 라이브 음반 ‘Caught in the Act’에 신곡 ‘Music Time’이 포함됐음을 정리한 A&M 음반 자료다.",
+      "supports": ["원시림 원곡 ‘Music Time’과 1984년 수록 정보"]
+    },
+    {
+      "id": "ev-yonsei-a-genie-magma",
+      "type": "music-catalog-biography",
+      "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=14948772",
+      "title": "마그마 아티스트 정보",
+      "publisher": "Genie Music",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "마그마의 1981년 1집과 박두진 시를 노래로 만든 ‘해야’의 작품 계보를 설명한다.",
+      "supports": ["해야의 박두진 시 계보", "마그마 1981년 음반"]
+    },
+    {
+      "id": "ev-yonsei-a-mbc-magma",
+      "type": "official-broadcast-archive-youtube",
+      "url": "https://www.youtube.com/watch?v=UCBHUcdYCWo",
+      "title": "[대학가요제 1980] 마그마 - 해야, 제4회 MBC대학가요제 은상",
+      "publisher": "엠픽쓰리 MPICK3",
+      "publishedAt": "2012-08-14",
+      "accessedAt": "2026-08-09",
+      "summary": "1980-11-08 제4회 MBC 대학가요제에서 연세대 그룹 마그마가 ‘해야’를 공연해 은상을 받은 방송 기록이다. 댓글의 일화는 사실 근거로 채택하지 않는다.",
+      "supports": ["마그마 원곡 1980년 공연", "MBC 대학가요제 은상"]
+    },
+    {
+      "id": "ev-yonsei-a-hanwha-2015",
+      "type": "youtube-historical-record",
+      "url": "https://www.youtube.com/watch?v=XJzz9Nu9vjA",
+      "title": "사랑한다 이글스",
+      "publisher": "임플래커블",
+      "publishedAt": "2015-05-06",
+      "accessedAt": "2026-08-09",
+      "summary": "한화 이글스 ‘사랑한다 이글스’의 2015-05-06 게시 영상으로, 연세대 하늘끝까지의 2016년 첫 공개보다 앞선 사용 기록이다. 직접 영향 자체가 아니라 시간적 선행을 입증한다.",
+      "supports": ["한화 응원가의 2015년 선행 사용"]
+    },
+    {
+      "id": "ev-yonsei-a-last-choice",
+      "type": "official-distributor-youtube",
+      "url": "https://www.youtube.com/watch?v=aP9CzVTxQPE",
+      "title": "[OST] 김선경 - 마지막 선택 (미안하다 사랑한다 OST)",
+      "publisher": "OGAM Entertainment",
+      "publishedAt": "2022-06-27",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 유통 채널이 김선경의 ‘마지막 선택’을 2004-12-24 발매 OST 곡으로 크레딧한다. 연세여 사랑한다의 두 번째 원곡 확인에 사용한다.",
+      "supports": ["연세여 사랑한다 두 번째 원곡·가수·발매일"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-yonsei-a-seosi-2026-akaraka",
+      "songId": "yonsei-university-seosi",
+      "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1001s",
+      "videoId": "MqAMtWxrpcU",
+      "title": "[4K] 아카라카 1부 응원 모음.zip [2026 아카라카를 온누리에] | 2026 AKARAKA",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-06-09",
+      "descriptionSummary": "2026-05-23 아카라카 1부 11곡 모음으로 서시는 16:41부터 수록된다. 곡 시작 뒤 16:51 화면에 ‘서시 since 2003’이 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "동문이 과거 아카라카를 회상하고 재학생 가족이 소속감을 표현하는 반응이 있다.",
+        "운동할 때 반복해 듣는다는 반응과 대학 간 응원문화를 비교하는 반응이 함께 보인다."
+      ],
+      "supports": ["서시 2003 화면 표기", "2026 아카라카 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-seosi-2026-ot",
+      "songId": "yonsei-university-seosi",
+      "url": "https://www.youtube.com/watch?v=wlcxZc5APPE&t=548s",
+      "videoId": "wlcxZc5APPE",
+      "title": "[2026 응원 OT] 💙🦅 연세대 응원곡 모음집 (1부) 🦅💙 _서곡 / 파란 / 서시 / 하늘 끝까지 / Oh My Friend / 연세여 사랑한다",
+      "channel": "연세교육방송국 YBS",
+      "publishedAt": "2026-02-21",
+      "descriptionSummary": "연세대학교 응원단이 주최한 2026 신입생 응원 OT를 교내 방송국이 기록했다. 서시는 설명의 09:08부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "신입생 가족과 예비 지원자가 합격·입학을 상상하며 감동을 표현한다.",
+        "응원단의 보컬과 에너지를 평가하는 반응, 대학 간 경쟁을 언급하는 반응이 함께 있다."
+      ],
+      "supports": ["2026 공식 응원 OT 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-seosi-jannabi-2026",
+      "songId": "yonsei-university-seosi",
+      "url": "https://www.youtube.com/watch?v=jfEpnsvzvoY",
+      "videoId": "jfEpnsvzvoY",
+      "title": "잔나비 - 서시 | 260523 연세대학교 아카라카",
+      "channel": "잔나비 JANNABI",
+      "publishedAt": "2026-05-23",
+      "descriptionSummary": "잔나비 공식 채널이 2026-05-23 연세대 아카라카에서 공연한 서시를 공개했다. 낭독형 도입과 밴드 편곡이 포함된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공연자가 실제로 읽던 시집을 활용한 낭독형 도입과 진지한 준비를 높이 평가하는 반응이 반복된다.",
+        "윤동주를 학교 선배로 호명하는 문화와 대규모 어깨동무 합창이 영화 같은 장면을 만들었다는 반응이 많다."
+      ],
+      "supports": ["2026 초청가수 재해석", "윤동주 헌정 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-seosi-10cm-2025",
+      "songId": "yonsei-university-seosi",
+      "url": "https://www.youtube.com/watch?v=jeXikLVIBr4",
+      "videoId": "jeXikLVIBr4",
+      "title": "10CM/십센치 - '서시' - 연세대학교 응원가 @아카라카",
+      "channel": "10CM Official",
+      "publishedAt": "2025-05-24",
+      "descriptionSummary": "10CM 공식 채널의 2025-05-24 아카라카 공연으로, 윤동주 헌정 소개를 설명에 직접 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "연세대 동문인 공연자가 과거 노천극장 무대를 꿈꿨다가 후배들 앞에서 실현한 서사를 높이 평가한다.",
+        "수험생의 공부 동기와 학교 정체성에 잘 맞는 가수·곡의 결합이라는 반응이 있다."
+      ],
+      "supports": ["2025 현행 공연", "윤동주 헌정 관행", "동문 가수 재해석"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-seosi-official-2020",
+      "songId": "yonsei-university-seosi",
+      "url": "https://www.youtube.com/watch?v=sHZY36KlQn8",
+      "videoId": "sHZY36KlQn8",
+      "title": "서시",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "공식 응원단 음원 영상으로 윤동주 헌정 문구와 직접 원곡 BanYa ‘베토벤 바이러스’ 크레딧을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "윤동주와 연세대의 연결을 학교 정체성으로 받아들이는 반응과 동문 추억이 반복된다.",
+        "공부하기 싫을 때 동기로 삼거나 입학을 바란다는 반응이 보인다."
+      ],
+      "supports": ["공식 원곡 크레딧", "윤동주 헌정", "응원가 음원 구조"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-seosi-dicachoo-2022",
+      "songId": "yonsei-university-seosi",
+      "url": "https://www.youtube.com/watch?v=g1yEipg__e0",
+      "videoId": "g1yEipg__e0",
+      "title": "[2022 아카라카 1부 응원] 윤동주 선배님께 바칩니다. '서시' - 연세대학교 응원가 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-09-26",
+      "descriptionSummary": "3년 만에 열린 2022 아카라카 1부의 서시 공연으로, 설명과 현장 소개가 윤동주 헌정을 전면에 둔다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "윤동주를 선배로 기억하는 학교 문화와 시가 요구하는 윤리적 책임을 연결하는 반응이 많다.",
+        "공부 동기, 수십 년 전 학창 시절 회상, 현장 합창의 에너지를 언급하는 반응이 반복된다."
+      ],
+      "supports": ["2022 현장 사용", "헌정 의례", "세대별 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-seosi-multilingual-2021",
+      "songId": "yonsei-university-seosi",
+      "url": "https://www.youtube.com/watch?v=IAgmDb4Undw",
+      "videoId": "IAgmDb4Undw",
+      "title": "연대생이 6개국어로 부르는 \"서시\"💙",
+      "channel": "연세대학교 Yonsei University",
+      "publishedAt": "2021-06-15",
+      "descriptionSummary": "대학 공식 채널이 한국어·영어·중국어·러시아어·독일어·프랑스어로 서시를 이어 부른 기획 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "언어별 발음과 음색을 비교하면서 시의 정서 때문에 한국어 버전이 특히 강하게 들린다는 반응이 많다.",
+        "각 언어의 전체 버전을 요청하거나 연세대 입학을 꿈꾼다는 반응이 보인다."
+      ],
+      "supports": ["공식 다국어 확장", "학교 홍보·문화 콘텐츠 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haneul-2026-akaraka",
+      "songId": "yonsei-university-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1110s",
+      "videoId": "MqAMtWxrpcU",
+      "title": "[4K] 아카라카 1부 응원 모음.zip [2026 아카라카를 온누리에] | 2026 AKARAKA",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-06-09",
+      "descriptionSummary": "2026-05-23 아카라카 1부 응원 모음으로 하늘끝까지는 설명의 18:30부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "동문이 과거 응원 현장을 회상하고 재학생 가족이 학교 공동체에 대한 자부심을 표현한다.",
+        "빠른 응원 메들리를 운동용으로 반복해 듣는다는 반응이 있다."
+      ],
+      "supports": ["2026 아카라카 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haneul-2026-ot",
+      "songId": "yonsei-university-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=wlcxZc5APPE&t=427s",
+      "videoId": "wlcxZc5APPE",
+      "title": "[2026 응원 OT] 💙🦅 연세대 응원곡 모음집 (1부) 🦅💙 _서곡 / 파란 / 서시 / 하늘 끝까지 / Oh My Friend / 연세여 사랑한다",
+      "channel": "연세교육방송국 YBS",
+      "publishedAt": "2026-02-21",
+      "descriptionSummary": "연세대학교 응원단 주최 2026 신입생 응원 OT 기록으로 하늘 끝까지는 07:07부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "신입생 가족과 지원자가 현장 참여를 상상하며 응원단의 에너지와 보컬을 칭찬한다.",
+        "해당 구간에 한화 이글스판의 구호를 적은 댓글이 있어 같은 선율을 인지하는 교차 종목 수용이 확인된다."
+      ],
+      "supports": ["2026 공식 응원 OT 사용", "한화판 선율 인지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haneul-official-2020",
+      "songId": "yonsei-university-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=-UYGsQLVJgc",
+      "videoId": "-UYGsQLVJgc",
+      "title": "하늘끝까지",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "공식 응원단 음원 영상으로 한성민 ‘사랑하면 할수록’을 원곡으로 명시하고, 함성이 하늘 끝까지 닿는다는 공연 의도를 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "이 곡을 들으며 공부해 실제 입학했다는 경험과 앞으로 입학하겠다는 목표가 다수 공유된다.",
+        "한화 이글스 구호를 적거나 두 응원가의 유사성을 알아보는 반응도 반복된다."
+      ],
+      "supports": ["공식 원곡 크레딧", "응원 주제", "한화판 교차 인지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haneul-first-2016",
+      "songId": "yonsei-university-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=QRn673QHZbg",
+      "videoId": "QRn673QHZbg",
+      "title": "2016.05.21 아카라카_신곡_하늘끝까지",
+      "channel": "KODA",
+      "publishedAt": "2016-05-25",
+      "descriptionSummary": "2016-05-21 아카라카에서 촬영한 하늘끝까지를 행사 직후 ‘신곡’이라는 제목으로 게시한 동시대 기록이다. 별도 설명문은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "당시 시청자가 신곡의 장중함과 벅찬 분위기를 호평하고 의외로 최근 곡이었다는 반응을 남겼다.",
+        "한화 응원가와 같다는 지적과 차용을 비판하는 반응도 있어 공개 초기부터 영향 논쟁이 존재했음을 보여준다."
+      ],
+      "supports": ["2016-05-21 신곡 기록", "첫 공개 시기", "동시대 한화 영향 논쟁"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haneul-first-full-2016",
+      "songId": "yonsei-university-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=Zqtk3gIPuKU&t=605s",
+      "videoId": "Zqtk3gIPuKU",
+      "title": "[랜선 아카라카] 떼창 가득한 아카라카 응원! - 해야 파란 토요일은 밤이 좋아 오늘밤새 하늘끝까지 서시 연세여 사랑한다 원시림 / 연세대 응원가",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2021-06-04",
+      "descriptionSummary": "2016 아카라카 1부 전체 기록으로 설명이 10:05 구간을 하늘 끝까지의 신곡 첫 공개라고 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "코로나 시기에 다시 대면 응원을 하고 싶다는 그리움과 연세대 응원의 부드럽고 세련된 분위기를 평가하는 반응이 많다.",
+        "긴 메들리를 쉬지 않고 수행하는 응원단의 체력을 언급하는 반응이 있다."
+      ],
+      "supports": ["2016 아카라카 첫 공개 설명", "전체 행사 맥락"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haneul-2022",
+      "songId": "yonsei-university-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=VDBqyV-0WPs",
+      "videoId": "VDBqyV-0WPs",
+      "title": "[2022 아카라카 1부 응원] 3년 만에! '하늘 끝까지' & '연세여 사랑한다' - 연세대학교 응원가 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-09-25",
+      "descriptionSummary": "3년 만에 열린 2022 아카라카 1부에서 하늘 끝까지와 연세여 사랑한다를 연속 수록한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "드라마 ‘치얼업’을 보고 실제 응원가와 동작을 찾아왔다는 반응이 다수 반복된다.",
+        "코로나 이후 다시 열린 대규모 합창을 재학생 가족과 동문이 청춘의 회복으로 받아들이는 반응이 많다."
+      ],
+      "supports": ["2022 복귀 행사 사용", "대중 드라마를 통한 확산"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haneul-remix-2024",
+      "songId": "yonsei-university-haneul-kkeutkkaji",
+      "url": "https://www.youtube.com/watch?v=i0xQzFzU9V8",
+      "videoId": "i0xQzFzU9V8",
+      "title": "하늘 끝까지 FOREVER (연세대 × 고려대 응원가 리믹스)",
+      "channel": "상상이상이상길",
+      "publishedAt": "2024-09-12",
+      "descriptionSummary": "고려대학교 교육TV 방송국과 협업해 연세대 하늘 끝까지와 고려대 Forever를 결합하고 양교 밴드 보컬이 참여한 리믹스다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "두 학교 곡의 전환과 중간에 삽입된 다른 응원가 선율 같은 세부 편곡을 높이 평가한다.",
+        "수험생이 연고대 진학 목표와 공부 동기를 공유하는 반응이 반복된다."
+      ],
+      "supports": ["양교 응원가 재편곡", "캠퍼스 밖 2차 창작 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-yonseiyeo-joint-2026",
+      "songId": "yonsei-university-yonseiyeo-saranghanda",
+      "url": "https://www.youtube.com/watch?v=v4mp82NpLyk&t=33s",
+      "videoId": "v4mp82NpLyk",
+      "title": "[2026 고려대/연세대 합동응원전] 양교 최고의 응원곡. '민족의 아리아 vs 연세여 사랑한다' #고려대학교응원단 #연세대학교응원단 #합응 #떼창 #고려대 #연세대 [4K60P]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-03-20",
+      "descriptionSummary": "2026 상반기 합동응원 OT에서 연세여 사랑한다를 00:33, 반주 없는 관중 합창을 01:54부터 기록하고 이어 고려대 민족의 아리아를 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "양교 대표곡을 비교하며 각 학교의 응원 색깔과 경쟁을 평가하는 반응이 중심이다.",
+        "신입생 가족이 자녀가 현장에 있을 것을 상상하거나 젊은 세대의 열정을 응원하는 반응이 반복된다."
+      ],
+      "supports": ["2026 합동응원 현행 사용", "육성 반복 구간", "양교 대표곡 맥락"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-yonseiyeo-akaraka-2026",
+      "songId": "yonsei-university-yonseiyeo-saranghanda",
+      "url": "https://www.youtube.com/watch?v=0CdgT7F2R58",
+      "videoId": "0CdgT7F2R58",
+      "title": "2026.05.23 개교 141주년 아카라카를 온누리에 [연세여 사랑한다]",
+      "channel": "KODA",
+      "publishedAt": "2026-05-24",
+      "descriptionSummary": "2026-05-23 개교 141주년 아카라카의 연세여 사랑한다 단독 현장 영상으로 정식명·별칭 관련 해시태그를 함께 쓴다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "학교 구성원의 강한 애교심을 일상에서 목격했다는 반응과 응원단을 칭찬하는 짧은 반응이 있다."
+      ],
+      "supports": ["2026 아카라카 현행 사용", "정식명·별칭 병용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-yonseiyeo-alumni-2026",
+      "songId": "yonsei-university-yonseiyeo-saranghanda",
+      "url": "https://www.youtube.com/watch?v=MQDpN6VptcU",
+      "videoId": "MQDpN6VptcU",
+      "title": "2026 연세여 사랑한다 | 동문 아카라카의 푸른 함성을 그대에게",
+      "channel": "연세대학교 Yonsei University",
+      "publishedAt": "2026-05-26",
+      "descriptionSummary": "대학 공식 채널이 2000년대 아카라카 기록과 현재 동문들의 삶을 연결해 세 번째 동문 아카라카를 소개한 아카이브형 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "여러 학번 동문이 행사를 응원하고 해외 시청자가 연세대를 꿈의 대학으로 표현하는 반응이 있다.",
+        "응원단 비하인드 기록을 추가로 요청하는 반응도 보인다."
+      ],
+      "supports": ["2026 동문 행사", "세대 간 학교 기억", "대학 공식 기록"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-yonseiyeo-mv-2025",
+      "songId": "yonsei-university-yonseiyeo-saranghanda",
+      "url": "https://www.youtube.com/watch?v=EtZlShzAOrU",
+      "videoId": "EtZlShzAOrU",
+      "title": "[MV] 연세여 사랑한다 (2025 ver.)",
+      "channel": "연세대학교 Yonsei University",
+      "publishedAt": "2025-02-06",
+      "descriptionSummary": "연세대학교 공식 채널이 제작한 2025 버전 연세여 사랑한다 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "합격 후 처음 마음껏 부를 수 있게 됐다는 신입생과 입학을 목표로 공부한다는 국내외 지원자의 반응이 매우 많다.",
+        "수십 년 전 입학·졸업 뒤에도 이 곡에 가슴이 뛴다는 동문 반응이 반복된다."
+      ],
+      "supports": ["2025 공식 현행 버전", "입시·동문 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-yonseiyeo-futurecamp-2025",
+      "songId": "yonsei-university-yonseiyeo-saranghanda",
+      "url": "https://www.youtube.com/watch?v=yRmq1WGs_vQ",
+      "videoId": "yRmq1WGs_vQ",
+      "title": "2025 연세여 사랑한다_응원가 영상",
+      "channel": "연세대학교 미래캠퍼스",
+      "publishedAt": "2025-02-20",
+      "descriptionSummary": "미래캠퍼스 공식 채널이 2005년 미래캠퍼스 록 동아리 커런트가 곡을 만들었다고 설명하는 응원가 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "커런트와 미래캠퍼스의 제작 기여를 자랑스럽게 여기는 반응과 곡의 완성도를 칭찬하는 반응이 많다.",
+        "캠퍼스 간 위계 논쟁도 일부 있으나 제작 크레딧을 확정하는 근거로는 사용하지 않는다."
+      ],
+      "supports": ["커런트 제작설의 대학 공식 채널 표기", "2005년", "미래캠퍼스 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-yonseiyeo-official-2020",
+      "songId": "yonsei-university-yonseiyeo-saranghanda",
+      "url": "https://www.youtube.com/watch?v=cGdOCYiQNyg",
+      "videoId": "cGdOCYiQNyg",
+      "title": "연세여 사랑한다",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "공식 응원단 음원 영상으로 ‘마지막 선택’과 ‘Por una Cabeza’, 김선경과 Carlos Gardel을 원곡·저작자 계보로 함께 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "이 영상을 들으며 공부해 합격했다는 경험과 다음 입시에서 합격하겠다는 목표가 지속해서 누적된다.",
+        "LG 트윈스가 이 응원가 계보를 사용한다는 교차 종목 반응과 드라마를 통해 곡을 발견했다는 반응도 보인다."
+      ],
+      "supports": ["공식 두 원곡 크레딧", "대표 음원 구조", "교차 종목 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-yonseiyeo-multilingual-2021",
+      "songId": "yonsei-university-yonseiyeo-saranghanda",
+      "url": "https://www.youtube.com/watch?v=oS7q5QnETdQ",
+      "videoId": "oS7q5QnETdQ",
+      "title": "연대생이 6개국어로 부르는  \"연세여 사랑한다\"💙",
+      "channel": "연세대학교 Yonsei University",
+      "publishedAt": "2021-05-17",
+      "descriptionSummary": "대학 공식 채널이 한국어·영어·중국어·러시아어·독일어·프랑스어로 연세여 사랑한다를 이어 부른 기획 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "언어별 부드러움과 보컬 특성을 비교하고 각 언어의 전체 버전을 요청하는 반응이 많다.",
+        "한국어 구간에서 집단 정서가 가장 강해진다는 평가와 입학 열망이 반복된다."
+      ],
+      "supports": ["공식 다국어 확장", "국제 홍보 콘텐츠"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-yonseiyeo-suzi-2018",
+      "songId": "yonsei-university-yonseiyeo-saranghanda",
+      "url": "https://www.youtube.com/watch?v=wDU6Y1PNAt8",
+      "videoId": "wDU6Y1PNAt8",
+      "title": "[2018 아카라카] 수지(SUZY) - 연세여 사랑한다 직캠",
+      "channel": "Yonsei YVAC",
+      "publishedAt": "2018-05-21",
+      "descriptionSummary": "연세영상제작센터가 촬영·편집한 2018-05-19 아카라카 수지 공연으로, 2차 가공과 재업로드 금지 안내도 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "해마다 아카라카·입시철에 다시 찾는다는 반응과 다른 학교 학생도 함께 부르게 된 영상이라는 반응이 반복된다.",
+        "학교와 공연자의 이미지 결합이 큰 홍보 효과를 냈다는 평가가 장기간 누적됐다."
+      ],
+      "supports": ["2018 초청가수 공연", "장기 대중 수용", "영상 재사용 제한 고지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-wonsirim-2026-akaraka",
+      "songId": "yonsei-university-wonsirim",
+      "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1370s",
+      "videoId": "MqAMtWxrpcU",
+      "title": "[4K] 아카라카 1부 응원 모음.zip [2026 아카라카를 온누리에] | 2026 AKARAKA",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-06-09",
+      "descriptionSummary": "2026-05-23 아카라카 1부 응원 모음으로 원시림은 22:50부터 수록된다. 22:55 화면에 ‘원시림 since 1989’이 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "동문이 과거 축제 현장을 회상하고 재학생 가족이 학생들의 열정과 안전을 함께 언급한다.",
+        "운동할 때 들을 만큼 신난다는 반응이 있다."
+      ],
+      "supports": ["원시림 1989 화면 표기", "2026 아카라카 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-wonsirim-2026-ot",
+      "songId": "yonsei-university-wonsirim",
+      "url": "https://www.youtube.com/watch?v=gpQW33QJ90M&t=515s",
+      "videoId": "gpQW33QJ90M",
+      "title": "[4K] 어이 연세대 26학번, 허리는 괜찮아졌지? 다시 시작하자 ‘서곡’ ‘해야’ ‘파란’ ‘원시림’ | 2026 연세대학교 신입생 응원 오리엔테이션",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-02-16",
+      "descriptionSummary": "2026-02-13 신입생 응원 OT 네 곡 모음으로 원시림은 08:35부터 수록된다. 제목은 응원 동작의 높은 신체 강도를 강조한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "예비 지원자가 다음 해 현장 참여를 다짐하고 신입생 가족이 자녀의 참가를 자랑스러워한다.",
+        "오래된 해야가 여전히 쓰인다는 동문 반응이 함께 있어 같은 OT의 세대 구성을 보여준다."
+      ],
+      "supports": ["2026 공식 응원 OT 사용", "고강도 동작 맥락"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-wonsirim-alumni-2026",
+      "songId": "yonsei-university-wonsirim",
+      "url": "https://www.youtube.com/watch?v=Q31samk3t9U&t=838s",
+      "videoId": "Q31samk3t9U",
+      "title": "[4K] 연세대 동문들과 응원 달려보자! 1부 응원 메들리 서곡 해야 친구야 하늘아래 서시 원시림 [2026 연세여 사랑한다] | 2026 I LOVE YONSEI",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-05-18",
+      "descriptionSummary": "2026-05-17 동문 행사 1부 메들리로 원시림은 13:58부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "동문과 재학생 가족이 세대가 함께 만드는 응원과 파란 관중석을 칭찬한다.",
+        "우연히 Styx 음악을 듣고 원시림 선율을 떠올렸다는 동문 반응이 있어 원곡 인지 경로를 보여준다."
+      ],
+      "supports": ["2026 동문 행사 현행 사용", "Styx 원곡 인지", "세대 연속성"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-wonsirim-official-2020",
+      "songId": "yonsei-university-wonsirim",
+      "url": "https://www.youtube.com/watch?v=qwKuY1SfPPE",
+      "videoId": "qwKuY1SfPPE",
+      "title": "원시림",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "공식 응원단 음원 영상으로 Styx ‘Music Time’을 원곡으로 명시하고, 우주 최고의 응원곡이라는 정형 소개를 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "대표곡 중에서도 핵심 곡이라는 평가와 학교 구성원이 아니어도 오랫동안 듣는다는 반응이 있다.",
+        "한 곡을 뛰고 나면 숨이 찰 만큼 신체 강도가 높다는 세대별 체감이 반복된다."
+      ],
+      "supports": ["공식 원곡 크레딧", "정형 소개", "신체 강도 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-wonsirim-mv-2021",
+      "songId": "yonsei-university-wonsirim",
+      "url": "https://www.youtube.com/watch?v=QoSzFrCJCuY",
+      "videoId": "QoSzFrCJCuY",
+      "title": "[응원곡 MV]  원시림",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2021-11-21",
+      "descriptionSummary": "공식 응원곡 MV로 곡의 A-B-C 구간과 반복 순서를 설명한다. 설명에 가사 전문이 있으나 이 데이터에는 구조만 요약했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "2000년대 초 학번 동문이 당시 가장 흥겨운 곡이었다고 회상하고, 득점 순간 선율이 떠오른다는 반응이 있다.",
+        "정규 동작으로 수행하면 매우 힘들다는 반응과 응원단 공연에 대한 평가가 보인다."
+      ],
+      "supports": ["공식 곡 구조", "현행 동작", "득점 연상"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-wonsirim-akaraka101-2023",
+      "songId": "yonsei-university-wonsirim",
+      "url": "https://www.youtube.com/watch?v=RhtnLw7ZlBI",
+      "videoId": "RhtnLw7ZlBI",
+      "title": "4화 | 응원의 시작과 끝, 서곡 & 원시림 | 아카라카 101 | 연세대학교 응원단×기록영상단",
+      "channel": "연세대학교 Yonsei University",
+      "publishedAt": "2023-08-21",
+      "descriptionSummary": "대학 기록영상단과 응원단이 연고전을 앞두고 서곡과 원시림을 가르치는 공식 장편 교육 콘텐츠다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "과거에는 원시림의 특정 구간에서 중앙 참가자를 대상으로 한 장난스러운 동작이 있었는데 현재 방식이 달라졌다는 동문 회상이 있다."
+      ],
+      "supports": ["공식 응원 교육", "원시림의 시작·끝 배치", "동작 변화 일화"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-wonsirim-dicachoo-2018",
+      "songId": "yonsei-university-wonsirim",
+      "url": "https://www.youtube.com/watch?v=XIgEiPShYI8",
+      "videoId": "XIgEiPShYI8",
+      "title": "[2018 연세대 아카라카 응원] 승리의 노래! '원시림' - 연세대학교 응원단",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-06-21",
+      "descriptionSummary": "2018-05-19 아카라카 1부에서 원시림을 승리의 노래이자 우주 최고의 응원곡으로 소개한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "20~30년 전에도 인기곡이었다는 동문 회상과 1989년 가을 첫 공개·Styx 원곡을 기억하는 구체적 증언이 있다.",
+        "득점 직후 부르면 특히 좋다는 반응과 과거 동작·추임새가 현재와 달랐다는 반응이 반복된다."
+      ],
+      "supports": ["승리·득점 사용", "장기 세대 연속성", "1989년·원곡에 대한 동문 기억"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haeya-2026-akaraka",
+      "songId": "yonsei-university-haeya",
+      "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU&t=154s",
+      "videoId": "MqAMtWxrpcU",
+      "title": "[4K] 아카라카 1부 응원 모음.zip [2026 아카라카를 온누리에] | 2026 AKARAKA",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-06-09",
+      "descriptionSummary": "2026-05-23 아카라카 1부 응원 모음으로 해야는 02:34부터 수록된다. 02:37 화면에 ‘해야 since 1981’이 표시된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "동문이 과거 축제와 학창 시절을 회상하고 재학생 가족이 응원 공동체에 자부심을 보인다.",
+        "메들리를 운동할 때 듣는다는 반응과 세대 간 안전을 바라는 반응이 있다."
+      ],
+      "supports": ["해야 1981 화면 표기", "2026 아카라카 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haeya-2026-ot-ybs",
+      "songId": "yonsei-university-haeya",
+      "url": "https://www.youtube.com/watch?v=zTjYgUVsRc8",
+      "videoId": "zTjYgUVsRc8",
+      "title": "[2026 응원 OT] 💙🦅 연세대 응원곡 모음집 (2부) 🦅💙 _해야 / J에게 / 친구야 / 오늘밤새 / 하늘 아래 / 내 이름 그리고 연세",
+      "channel": "연세교육방송국 YBS",
+      "publishedAt": "2026-02-21",
+      "descriptionSummary": "연세대학교 응원단이 주최한 2026 신입생 응원 OT 2부 기록으로 해야가 00:00 첫 곡으로 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "신입생 가족이 자녀의 입학과 현장 참여를 축하하고 그해 응원단 활동을 기대하는 반응이 있다."
+      ],
+      "supports": ["2026 공식 응원 OT 현행 사용", "OT 첫 곡 배치"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haeya-2026-ot",
+      "songId": "yonsei-university-haeya",
+      "url": "https://www.youtube.com/watch?v=gpQW33QJ90M&t=176s",
+      "videoId": "gpQW33QJ90M",
+      "title": "[4K] 어이 연세대 26학번, 허리는 괜찮아졌지? 다시 시작하자 ‘서곡’ ‘해야’ ‘파란’ ‘원시림’ | 2026 연세대학교 신입생 응원 오리엔테이션",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-02-16",
+      "descriptionSummary": "2026-02-13 신입생 응원 OT 네 곡 모음으로 해야는 02:56부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "1970년대 학번 동문이 해야가 여전히 응원가로 쓰인다는 점을 반가워하고, 자녀 세대의 합동응원 참여와 강한 동작을 회상한다.",
+        "예비 지원자가 다음 해 현장에 가겠다고 다짐하는 반응도 있다."
+      ],
+      "supports": ["2026 OT 현행 사용", "세대 연속성"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haeya-official-2020",
+      "songId": "yonsei-university-haeya",
+      "url": "https://www.youtube.com/watch?v=kaoZ_oPuTQo",
+      "videoId": "kaoZ_oPuTQo",
+      "title": "해야",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "공식 응원단 음원 영상으로 승리의 해를 띄운다는 현장 소개와 마그마 ‘해야’ 원곡 크레딧을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 두 개 모두 같은 원곡을 쓰는 두산 베어스판 구호를 적어 교차 종목 선율 인지를 보여준다."
+      ],
+      "supports": ["공식 원곡 크레딧", "현장 소개", "두산판과의 교차 인지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haeya-dicachoo-2022",
+      "songId": "yonsei-university-haeya",
+      "url": "https://www.youtube.com/watch?v=O7CVrTUNnSA",
+      "videoId": "O7CVrTUNnSA",
+      "title": "[2022 아카라카 1부 응원] '해야' - 연세대학교 응원가 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-09-26",
+      "descriptionSummary": "3년 만에 열린 2022 아카라카 1부의 해야 단독 공연으로, 설명은 통용 구절을 이용해 곡을 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "박두진이 연세대 교수였고 마그마의 조하문이 연세대 동문이라는 연결을 설명하는 반응이 있다.",
+        "1990년대 학번 동문이 당시에도 좋아했던 곡이 여전히 쓰인다는 감동과 오래된 동작 기억을 공유한다."
+      ],
+      "supports": ["2022 현장 사용", "박두진·조하문 학교 연결", "세대 연속성"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haeya-official-2024",
+      "songId": "yonsei-university-haeya",
+      "url": "https://www.youtube.com/watch?v=9xf2OINJIPs",
+      "videoId": "9xf2OINJIPs",
+      "title": "[2024 아카라카를 온누리에]4K 3부 '해야'",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2024-07-07",
+      "descriptionSummary": "공식 응원단의 2024-05-25 아카라카 3부 해야 영상이다. 제목·해시태그는 해야지만 설명 본문에는 다른 곡명이 잘못 남아 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "그해 응원단장을 높이 평가하는 짧은 반응이 있다."
+      ],
+      "supports": ["2024 공식 현장 사용", "공식 설명 메타데이터 오류 사례"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yonsei-a-haeya-ot-2025",
+      "songId": "yonsei-university-haeya",
+      "url": "https://www.youtube.com/watch?v=5Z4-qdtWYWU",
+      "videoId": "5Z4-qdtWYWU",
+      "title": "2025.02.12 연세대학교 신입생 응원OT [해야]",
+      "channel": "KODA",
+      "publishedAt": "2025-02-15",
+      "descriptionSummary": "2025-02-12 신입생 응원 OT의 해야 단독 영상으로 설명 해시태그에 ‘해야떠라’ 별칭을 함께 사용한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 응원 OT 사용", "해야떠라 별칭"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 36,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 15
+  }
+}

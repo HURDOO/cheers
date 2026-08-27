@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-ewha-womans-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-ewha",
+    "name": "이화여자대학교",
+    "type": "university"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명·댓글 원문은 저장하지 않는다. 공식 영상과 기사에서 확인되는 제작·사용 정보, 가사 구조와 익명화한 반응만 기록하며 전문 저장은 권리 확인 또는 사용자 제공 뒤 별도 승인한다.",
+  "items": [
+    {
+      "id": "ewha-we-are-ewha",
+      "title": "우리는 이화",
+      "aliases": ["우리 이화"],
+      "currentStatus": "current-introduced-in-2025-directly-verified-through-2026",
+      "summary": "파이루스 38대가 2025년에 제작·공개한 이화여대의 두 번째 자체 응원가다. 공식 음원·응원법 영상, 2025 이화응원대제전, 2026 입학식·대동제·뮤직비디오까지 이어져 현행 사용이 직접 확인된다. 제작자의 개인별 작사·작곡·편곡·보컬 크레딧은 확인한 공개 자료에 적혀 있지 않다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2025년 파이루스 38대가 제작한 이화여대의 두 번째 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ewha-a-we-release", "yt-ewha-a-we-guide"],
+          "notes": "파이루스 공식 영상 설명 두 편이 제작 주체·순서·2025년 첫 응원제 무대를 직접 밝힌다."
+        },
+        {
+          "field": "earliestPublicRelease",
+          "value": "2025년 10월 21일 공식 음원 영상 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ewha-a-we-release"],
+          "notes": "현재 확보한 가장 이른 제목 단독 공식 공개다. 내부 제작 완료일이나 비공개 초연은 별도 확인되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026학년도 입학식, 2026 대동제, 2026년 5월 촬영 공식 MV에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ewha-a-we-entrance-2026", "yt-ewha-a-we-festival-2026", "yt-ewha-a-we-mv-2026"],
+          "notes": "서로 다른 2026년 공식 행사와 별도 MV로 현재 레퍼토리임을 교차 확인했다."
+        },
+        {
+          "field": "creatorCredits",
+          "value": "파이루스 38대 제작; 개인별 작사·작곡·편곡·가창 크레딧 미공개",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ewha-a-we-release"],
+          "notes": "공식 설명은 단체 제작만 밝힌다. 개인 크레딧이 없다는 것은 확인한 공개 자료 범위에 한정한 조사 결과다."
+        }
+      ],
+      "usageContexts": [
+        "이화응원대제전에서는 새 자체 응원가의 본 무대와 응원법 교육용 레퍼토리로 사용한다.",
+        "입학식·신입생 OT에서는 새내기 환영곡으로, 대동제에서는 관중과 학교 정체성을 함께 외치는 단체 응원곡으로 사용한다.",
+        "2026년에는 캠퍼스·깃발·액션 안무를 전면에 둔 별도 MV까지 제작해 행사 밖 홍보 콘텐츠로 확장했다."
+      ],
+      "trivia": [
+        {
+          "id": "we-second-original",
+          "summary": "공식 설명은 이 곡을 ‘빛나라 이화’를 잇는 두 번째 응원가라고 규정한다. 따라서 파이루스의 기존 대중가요 액션곡과 구분되는 자체 제작 계보가 명시적으로 형성됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ewha-a-we-release", "yt-ewha-a-we-guide"]
+        },
+        {
+          "id": "we-title-slip",
+          "summary": "2025 응원대제전 개별 영상의 제목은 ‘우리는 이화’지만 설명에는 한 차례 ‘우리 이화’라고 적혀 있다. 다른 모든 공식 표기가 일치하므로 정식 별칭보다는 설명란 오기로 보되 검색 별칭으로 보존했다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ewha-a-we-festival-2025", "yt-ewha-a-we-release"]
+        },
+        {
+          "id": "we-audience-response",
+          "summary": "공개 댓글은 맑고 힘 있는 보컬, 캠퍼스·깃발을 활용한 MV, 입학과 파이루스 지원에 대한 기대를 주로 언급했다. 2025 응원대제전·2026 대동제 영상은 공개 댓글이 없었다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ewha-a-we-release", "yt-ewha-a-we-guide", "yt-ewha-a-we-mv-2026", "yt-ewha-a-we-festival-2025", "yt-ewha-a-we-festival-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university original; the official channel requests prior contact for audio use and separately asserts PYRUS choreography rights, while individual lyric/composition/master owners are not identified",
+        "sourceUrls": ["https://www.youtube.com/watch?v=05tojNadgos", "https://www.youtube.com/watch?v=FtzAs4yJnzg", "https://www.youtube.com/watch?v=8b1jdtqXlFs"],
+        "structureSummary": "약 3분 길이의 자체 응원가로, 이화 공동체의 꿈·빛·연대와 함께 앞으로 나아가는 이미지를 전개하는 절, 학교 정체성을 반복해 모으는 상승형 후렴, 관중이 동작과 구호로 합류하는 재현부로 구성된다. 공식 응원법 영상은 약 2분 20초의 현장용 동작 구성을 보여주며 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-ewha-a-we-release", "yt-ewha-a-we-guide", "yt-ewha-a-we-festival-2025", "yt-ewha-a-we-entrance-2026", "yt-ewha-a-we-festival-2026", "yt-ewha-a-we-mv-2026"],
+      "unresolved": [
+        "개인별 작사·작곡·편곡·가창·녹음 크레딧과 정확한 제작 완료일",
+        "가사·음원 마스터·편곡·안무의 권리자별 이용 조건",
+        "2025년 10월 21일 공개 전 내부 또는 비공개 초연 여부",
+        "나무위키에서 이 곡을 직접 다룬 문서·역사 서술은 검색으로 확인하지 못함"
+      ]
+    },
+    {
+      "id": "ewha-shine-ewha",
+      "title": "빛나라 이화",
+      "aliases": [],
+      "currentStatus": "current-directly-verified-from-2023-through-2026",
+      "summary": "응원단 파이루스와 교내 작곡동아리 TEAM 이일이 함께 제작하고 학교 홍보실이 지원한 이화여대 자체 응원가다. 2023 이화응원대제전 무대와 2024학년도 입학·정시 홍보에서 공식화됐고, 2024·2025·2026 대동제와 응원대제전에서 반복 사용됐다. 공식 영상은 작사·작곡 TEAM 이일, 보컬 문지윤을 밝힌다.",
+      "claims": [
+        {
+          "field": "production",
+          "value": "파이루스와 교내 작곡동아리 이일 공동 제작, 이화여대 홍보실 제작 지원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ewha-a-entrance-2024", "yt-ewha-a-shine-full"],
+          "notes": "대학 공식 기사와 제작 동아리의 전체 버전 영상 설명이 서로 일치한다."
+        },
+        {
+          "field": "creatorCredits",
+          "value": "작사·작곡 TEAM 이일, 노래 문지윤",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ewha-a-shine-full", "yt-ewha-a-shine-eubs", "yt-ewha-a-shine-guide"],
+          "notes": "편곡·연주·녹음·믹싱 세부 크레딧은 공개 설명에서 확인되지 않았다."
+        },
+        {
+          "field": "earliestDirectUse",
+          "value": "2023 이화응원대제전 ‘동백(冬柏)’ 공연",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ewha-a-shine-2023", "yt-ewha-a-shine-full"],
+          "notes": "행사 영상은 2024년 1월 게시됐지만 제목·설명이 2023 행사 무대임을 명시한다. 정확한 공연일과 그보다 이른 내부 초연은 미확정이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 대동제 공식 공연까지 현행 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ewha-a-shine-2026", "ev-ewha-a-festival-2025"],
+          "notes": "2025 학보 현장 기사와 2026 파이루스 공식 공연 영상으로 연속 사용을 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "입학식·정시모집 홍보 영상에서는 새내기와 지원자를 향한 학교 대표 응원·브랜딩 곡으로 사용한다.",
+        "대동제와 이화응원대제전에서는 액션 안무와 관중의 ‘해방이화’ 구호를 결합한 단체 응원 레퍼토리로 사용한다.",
+        "공식 전체 버전은 약 3분 15초, 현장 액션 버전은 약 2분 8초로 편집돼 홍보용과 공연용 길이가 구분된다."
+      ],
+      "trivia": [
+        {
+          "id": "shine-fm-call",
+          "summary": "2025 대동제 현장 기사에는 이 곡에 맞춰 학교 FM인 ‘해방이화’를 외친 구호가 대강당을 채웠다고 기록돼, 음원 자체뿐 아니라 관중 콜앤드리스폰스가 곡의 현장 정체성임을 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ewha-a-festival-2025", "yt-ewha-a-shine-guide"]
+        },
+        {
+          "id": "shine-title-distinction",
+          "summary": "학교 공식 역사 아카이브에는 별개의 옛 노래 ‘이화는 빛나리’가 실려 있다. 이름이 비슷하지만 ‘빛나라 이화’는 2023년부터 확인되는 TEAM 이일·파이루스의 현대 응원가이므로 두 작품을 혼동하면 안 된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ewha-a-school-song-archive", "yt-ewha-a-shine-full"]
+        },
+        {
+          "id": "shine-audience-response",
+          "summary": "댓글에서는 입학 합격을 기원하거나 졸업생으로서 자부심을 느낀다는 반응, 제목과 후렴의 언어유희를 흥미롭게 본 반응, 밝은 에너지와 섬세한 손동작을 칭찬하는 반응이 반복됐다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ewha-a-shine-full", "yt-ewha-a-shine-eubs", "yt-ewha-a-shine-entrance-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university original credited to TEAM 이일 with vocal by 문지윤; university publicity support is documented, but lyric/master/choreography reuse licenses are not publicly specified",
+        "sourceUrls": ["https://www.youtube.com/watch?v=zOuJMVGLo1w", "https://www.youtube.com/watch?v=e_CuxonMWnQ", "https://www.youtube.com/watch?v=dRp-_v83XjM"],
+        "structureSummary": "희망과 진로를 묻는 도입 절에서 이화라는 답과 공동체의 빛을 연결하고, 학교명과 자기다움을 반복하는 밝은 후렴으로 상승한다. 현장판은 중간 전개를 줄여 관중의 ‘해방이화’ 구호와 반복 후렴을 중심으로 약 2분짜리 액션곡으로 구성한다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-ewha-a-shine-full", "yt-ewha-a-shine-2023", "yt-ewha-a-shine-entrance-2024", "yt-ewha-a-shine-eubs", "yt-ewha-a-shine-2025", "yt-ewha-a-shine-guide", "yt-ewha-a-shine-2026"],
+      "unresolved": [
+        "2023 응원대제전의 정확한 공연일과 그보다 이른 제작·초연 여부",
+        "TEAM 이일 내부의 개인별 작사·작곡 역할 및 편곡·연주·녹음·믹싱 크레딧",
+        "가사·음원 마스터·안무의 권리 귀속과 외부 재사용 조건",
+        "나무위키에서 이 곡을 직접 다룬 문서·제작 여담은 검색으로 확인하지 못함"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ewha-a-club-official",
+      "type": "official",
+      "url": "https://www.ewha.ac.kr/ewha/life/circles-show.do",
+      "title": "중앙동아리 소개 — PYRUS",
+      "publisher": "이화여자대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "파이루스가 1988년 창단됐고 신입생 OT·채플·대동제·응원 페스티벌·타 대학 찬조 공연 등에 참가한다고 소개하는 학교 공식 동아리 페이지다.",
+      "supports": ["organizationHistory", "usageContext"]
+    },
+    {
+      "id": "ev-ewha-a-entrance-2024",
+      "type": "official",
+      "url": "https://www.ewha.ac.kr/ewha/news/ewha-news.do?article.offset=2610&articleLimit=10&articleNo=346176&mode=view",
+      "title": "2024학년도 입학식 및 신입생 환영 행사 ‘웰컴 투 이화’ 개최",
+      "publisher": "이화여자대학교",
+      "publishedAt": "2024-02-29",
+      "accessedAt": "2026-08-09",
+      "summary": "파이루스가 교내 작곡동아리 이일과 함께 ‘빛나라 이화’를 제작했고 학교 홍보실이 지원했으며, 2024학년도 웰컴 투 이화에서 공연했다고 밝힌다.",
+      "supports": ["ewha-shine-ewha.production", "ewha-shine-ewha.usage"]
+    },
+    {
+      "id": "ev-ewha-a-festival-2025",
+      "type": "campus-press",
+      "url": "https://inews.ewha.ac.kr/news/articleView.html?idxno=73791",
+      "title": "이화에서 펼쳐진 환상의 놀이공원! 2025 대동제 ‘리베르테’",
+      "publisher": "이대학보",
+      "publishedAt": "2025-05-18",
+      "accessedAt": "2026-08-09",
+      "summary": "2025 대동제에서 파이루스가 ‘빛나라 이화’로 공연을 열었고 관중이 ‘해방이화’ 구호를 함께 외쳤다고 기록한 현장 기사다.",
+      "supports": ["ewha-shine-ewha.currentUse", "ewha-shine-ewha.fmCall"]
+    },
+    {
+      "id": "ev-ewha-a-entrance-2025",
+      "type": "campus-press",
+      "url": "https://inews.ewha.ac.kr/news/articleView.html?idxno=73312",
+      "title": "‘뱀뱀벗’의 등장, 2025학년도 입학식",
+      "publisher": "이대학보",
+      "publishedAt": "2025-03-02",
+      "accessedAt": "2026-08-09",
+      "summary": "2025학년도 웰컴 투 이화에서 파이루스가 축하 무대를 열고 신입생들이 학교 FM ‘해방이화’를 함께 외쳤다는 현장 기록이다. 기사에는 개별 곡명이 없어 일반 사용 맥락에만 쓴다.",
+      "supports": ["organizationUsageContext"]
+    },
+    {
+      "id": "ev-ewha-a-school-song-archive",
+      "type": "official",
+      "url": "https://www.ewha.ac.kr/ewha/intro/song02.do",
+      "title": "이화학당 교가 및 노래들",
+      "publisher": "이화여자대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "역사적 교가·기념가·로고송과 별개 작품 ‘이화는 빛나리’를 싣고 있다. 현대 응원가 ‘빛나라 이화’와 제목이 유사해 작품 구분에 사용했다.",
+      "supports": ["ewha-shine-ewha.titleDistinction"]
+    },
+    {
+      "id": "ev-ewha-a-pyrus-profile",
+      "type": "campus-press",
+      "url": "https://inews.ewha.ac.kr/news/articleView.html?idxno=33796",
+      "title": "[동방 박사] 힘이 필요한 ‘그대에게’, 응원단 파이루스",
+      "publisher": "이대학보",
+      "publishedAt": "2022-03-06",
+      "accessedAt": "2026-08-09",
+      "summary": "파이루스가 1988년 체육과학부 소속 동아리로 출발했고 공모전을 통해 배꽃의 라틴어에서 이름을 얻었으며, 코로나19기에 영상 중심으로 연습·공연을 이어간 사정을 다룬다.",
+      "supports": ["organizationHistory", "organizationTrivia"]
+    },
+    {
+      "id": "ev-ewha-a-namuwiki-search-gap",
+      "type": "wiki-search",
+      "url": "https://namu.wiki/Search?q=%EC%9D%B4%ED%99%94%EC%97%AC%EC%9E%90%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9D%91%EC%9B%90%EB%8B%A8%20%ED%8C%8C%EC%9D%B4%EB%A3%A8%EC%8A%A4",
+      "title": "나무위키 이화여대 응원단·응원가 검색 점검",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "파이루스·‘우리는 이화’·‘빛나라 이화’를 조합해 검색했으나 곡의 제작·연혁을 직접 다룬 색인 결과를 확보하지 못했다. 나무위키에 정보가 없다는 단정이 아니라 이번 조사에서 확인하지 못했다는 검색 공백 기록이다.",
+      "supports": ["sourceGap"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ewha-a-we-release",
+      "songId": "ewha-we-are-ewha",
+      "url": "https://www.youtube.com/watch?v=05tojNadgos",
+      "videoId": "05tojNadgos",
+      "title": "[이화여자대학교 응원단 PYRUS] 우리는 이화 | 이화여자대학교 응원가",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2025-10-21T04:00:04-07:00",
+      "descriptionSummary": "파이루스 38대가 ‘빛나라 이화’를 잇는 두 번째 이화여대 응원가로 제작했다고 밝힌 공식 공개 영상이며, 음원 사용 전 연락을 요청한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["보컬의 맑고 시원한 음색을 칭찬하는 반응이 확인된다."],
+      "supports": ["introduction", "earliestPublicRelease", "rights"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-we-guide",
+      "songId": "ewha-we-are-ewha",
+      "url": "https://www.youtube.com/watch?v=FtzAs4yJnzg",
+      "videoId": "FtzAs4yJnzg",
+      "title": "[이화여자대학교 응원단 PYRUS] 우리는 이화 응원법 | 이화여자대학교 응원가",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2025-10-22T04:00:36-07:00",
+      "descriptionSummary": "새 두 번째 응원가의 관중용 응원법을 공개하고 2025년 10월 31일 응원대제전 본공연을 예고한 공식 안내 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["입학 전형 합격과 응원단의 활동을 함께 응원하는 반응이 확인된다."],
+      "supports": ["introduction", "usageMethod", "festivalDate"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-we-festival-2025",
+      "songId": "ewha-we-are-ewha",
+      "url": "https://www.youtube.com/watch?v=AAj1ol9kB_o",
+      "videoId": "AAj1ol9kB_o",
+      "title": "[이화여자대학교 응원단 PYRUS] 우리는 이화 | 2025 이화응원대제전; 찬란(燦爛)",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2025-12-04T05:15:04-08:00",
+      "descriptionSummary": "2025 이화응원대제전 ‘찬란’에서 선보인 신곡의 공식 무대 영상이다. 설명에만 ‘우리 이화’라는 축약 표기가 한 차례 나타나며 안무 권리 공지가 붙는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["firstFestivalPerformance", "titleVariant", "choreographyRights"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-we-entrance-2026",
+      "songId": "ewha-we-are-ewha",
+      "url": "https://www.youtube.com/watch?v=WR3xSwCBxL8",
+      "videoId": "WR3xSwCBxL8",
+      "title": "[이화여자대학교 응원단 PYRUS] 우리는 이화 & let it be summer / 2026학년도 이화여자대학교 입학식 / 웰컴투이화",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2026-03-07T03:01:00-08:00",
+      "descriptionSummary": "2026학년도 웰컴 투 이화에서 ‘let it be summer’와 함께 공연한 액션 영상으로, 신입생 환영 맥락의 현행 사용을 보여준다.",
+      "commentsStatus": "available",
+      "commentSummary": ["신입생의 학교생활과 파이루스 지원을 응원하거나 기대하는 반응이 확인된다."],
+      "supports": ["currentUse", "entranceCeremony"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-we-festival-2026",
+      "songId": "ewha-we-are-ewha",
+      "url": "https://www.youtube.com/watch?v=DBaCVVhVAaU",
+      "videoId": "DBaCVVhVAaU",
+      "title": "[이화여자대학교 응원단 PYRUS] ♬우리는 이화 / 2026 대동제 Liberté : Moment",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2026-06-05T04:02:13-07:00",
+      "descriptionSummary": "2026년 5월 22일 대동제 본무대 네 곡 중 하나로 공연됐다고 밝히는 공식 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["currentUse", "festivalUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-we-mv-2026",
+      "songId": "ewha-we-are-ewha",
+      "url": "https://www.youtube.com/watch?v=8b1jdtqXlFs",
+      "videoId": "8b1jdtqXlFs",
+      "title": "[이화여자대학교 응원단 PYRUS] ♬ 우리는 이화 MV - 이화여자대학교 응원가",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2026-06-27T04:00:34-07:00",
+      "descriptionSummary": "2026년 5월 캠퍼스에서 촬영한 공식 치어리딩 MV로, 파이루스가 액션 안무 저작권과 사전 이용 문의 조건을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["캠퍼스·깃발·노래와 응원단의 조화를 칭찬하는 반응, 신입생의 지원 자격을 묻는 반응이 확인된다."],
+      "supports": ["currentUse", "musicVideo", "choreographyRights"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-shine-full",
+      "songId": "ewha-shine-ewha",
+      "url": "https://www.youtube.com/watch?v=zOuJMVGLo1w",
+      "videoId": "zOuJMVGLo1w",
+      "title": "[Full] 2024학년도 이화여자대학교 정시모집 홍보영상 응원가 - 빛나라 이화",
+      "channel": "이일(compo21tion)",
+      "publishedAt": "2023-12-05T19:43:00-08:00",
+      "descriptionSummary": "TEAM 이일이 공개한 3분 15초 전체 버전으로 작사·작곡 TEAM 이일, 노래 문지윤, 지원 이화여대 홍보실을 명시하고 2024학년도 정시 홍보영상에 연결한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["지원자들의 합격 기원, 졸업생의 학교 자부심, 음원 발매 요청이 반복된다.", "후렴의 표현을 학교 이름과 답변의 이중 의미로 읽는 반응도 있다."],
+      "supports": ["creatorCredits", "production", "fullArrangement", "audienceResponse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-shine-2023",
+      "songId": "ewha-shine-ewha",
+      "url": "https://www.youtube.com/watch?v=H5JUVSacqAk",
+      "videoId": "H5JUVSacqAk",
+      "title": "[이화여자대학교 응원단 PYRUS] 이화여자대학교 응원가 '빛나라 이화' / 2023 이화응원대제전; 동백 (冬柏)",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2024-01-17T23:00:06-08:00",
+      "descriptionSummary": "2023 이화응원대제전 ‘동백’의 공연을 담은 파이루스 공식 영상으로 현재 확인된 가장 이른 직접 무대다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공연을 간결하게 칭찬하는 반응이 확인된다."],
+      "supports": ["earliestDirectUse", "festivalUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-shine-entrance-2024",
+      "songId": "ewha-shine-ewha",
+      "url": "https://www.youtube.com/watch?v=pXhO3mse8nY",
+      "videoId": "pXhO3mse8nY",
+      "title": "[이화여자대학교 응원단 PYRUS] 빛나라 이화 / 2024학년도 이화여자대학교 입학식 / 웰컴투이화",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2024-04-10T02:00:39-07:00",
+      "descriptionSummary": "2024학년도 웰컴 투 이화에서 공연한 공식 액션 영상이다. 설명의 ‘2023학년도 입학식’ 표기는 제목·새내기 축하 문맥과 충돌해 오기로 보존한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["섬세한 손동작과 공연 영상에 감사를 전하는 반응이 확인된다."],
+      "supports": ["entranceCeremonyUse", "metadataConflict", "audienceResponse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-shine-eubs",
+      "songId": "ewha-shine-ewha",
+      "url": "https://www.youtube.com/watch?v=dRp-_v83XjM",
+      "videoId": "dRp-_v83XjM",
+      "title": "[EUBS 직캠] 빛나라 이화 - 파이루스 | 20240510 이화여대 대동제 'LIBER EWHA'",
+      "channel": "이화여자대학교방송국 EUBS",
+      "publishedAt": "2024-05-17T00:00:19-07:00",
+      "descriptionSummary": "교내 방송국이 촬영한 2024년 5월 10일 대동제 직캠으로 TEAM 이일 작사·작곡과 문지윤 보컬 크레딧을 재확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["밝은 에너지와 무대의 완성도를 칭찬하는 반응이 반복된다."],
+      "supports": ["creatorCredits", "festivalUse", "independentCampusSource"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-shine-2025",
+      "songId": "ewha-shine-ewha",
+      "url": "https://www.youtube.com/watch?v=BW6cBJCqJqQ",
+      "videoId": "BW6cBJCqJqQ",
+      "title": "[이화여자대학교 응원단 PYRUS] ♬ 빛나라 이화 - 이일 X 파이루스 / 2025 대동제",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2025-06-06T04:00:31-07:00",
+      "descriptionSummary": "2025년 5월 16일 대동제 본무대 다섯 곡 중 하나로 공연했으며 TEAM 이일의 작사·작곡을 다시 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["continuedUse", "creatorCredits"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-shine-guide",
+      "songId": "ewha-shine-ewha",
+      "url": "https://www.youtube.com/watch?v=e_CuxonMWnQ",
+      "videoId": "e_CuxonMWnQ",
+      "title": "[이화여자대학교 응원단 PYRUS] 빛나라 이화 응원법 | 이화여자대학교 응원가",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2025-12-04T02:01:11-08:00",
+      "descriptionSummary": "2025 이화응원대제전용 관중 응원법을 보여주는 재업로드 영상으로 TEAM 이일의 작사·작곡을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원 구호의 귀여움과 출연 단원을 칭찬하는 반응이 확인된다."],
+      "supports": ["usageMethod", "creatorCredits", "fmCall"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ewha-a-shine-2026",
+      "songId": "ewha-shine-ewha",
+      "url": "https://www.youtube.com/watch?v=dplZm9cqXwQ",
+      "videoId": "dplZm9cqXwQ",
+      "title": "[이화여자대학교 응원단 PYRUS] ♬빛나라 이화 / 2026 대동제 Liberté : Moment",
+      "channel": "이화여자대학교 응원단 PYRUS",
+      "publishedAt": "2026-06-05T04:04:04-07:00",
+      "descriptionSummary": "2026년 5월 22일 대동제 본무대 네 곡 중 하나로 공연됐고 TEAM 이일 작사·작곡을 표기해 현행 사용과 크레딧을 함께 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡의 베이스와 응원곡으로서의 매력을 칭찬하는 반응, 화면 연출 개선과 더 잦은 영상 업로드를 바라는 반응이 함께 있다."],
+      "supports": ["currentUse", "creatorCredits", "audienceResponse"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 2,
+    "youtubeSampleCount": 13,
+    "songsMeetingYoutubeMinimum": 2,
+    "openIssueCount": 8
+  }
+}

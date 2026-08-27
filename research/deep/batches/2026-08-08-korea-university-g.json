@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-korea-university-g",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-korea",
+    "name": "고려대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사, 영상 설명 전문과 댓글 원문은 저장하지 않는다. 가사는 합법적으로 열람 가능한 출처 URL, 권리 상태, 반복 구조와 주제만 요약한다. 공개 댓글은 작성자 식별정보를 제외하고 도입 이력·현장 사용·수용을 확인하는 데 필요한 반응만 익명으로 재서술한다. 고전 원곡이 퍼블릭 도메인이어도 대학 응원가의 개사·편곡·녹음은 별도 권리 대상일 수 있다.",
+  "items": [
+    {
+      "id": "korea-university-go-100",
+      "title": "Go! 100!",
+      "aliases": ["Go!100!", "GO! 100!", "Go100", "고백"],
+      "currentStatus": "current-directly-verified-at-2026-freshman-cheer-ot",
+      "summary": "고려대학교 개교 100주년인 2005년에 공개된 기념 응원가다. 고려대 응원단은 원곡을 ‘캐논 변주곡’으로 밝히며, 나무위키와 악보 자료를 교차하면 요한 파헬벨의 ‘Canon and Gigue in D major, P.37’ 선율을 가리키는 것으로 확인된다. 붉은 응원봉지를 흔들며 학교의 100년을 넘어 더 먼 미래를 함께 외치는 곡으로 운용되고, 2025 입실렌티와 2026 신입생 응원 OT에서 현행 사용을 직접 확인했다. 공식 채널 안에서도 `Go!100!`과 `Go! 100!` 띄어쓰기가 병존하며, ‘고백’은 현장·해시태그에서 널리 쓰는 줄임말이다.",
+      "claims": [
+        {
+          "field": "officialTitleAndAliases",
+          "value": "대표 표기는 ‘Go! 100!’; 공식 채널의 ‘Go!100!’ 무공백 표기도 병존; 통용 별칭은 ‘고백’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-go100-official-2013", "yt-ku-g-go100-official-2020", "yt-ku-g-go100-2026-ot", "ev-ku-g-namu-go100"],
+          "notes": "2013·2020 고려대 응원단 영상은 서로 다른 띄어쓰기를 쓰고, 2025·2026 현장 제목과 공식 해시태그는 ‘고백’을 병기한다. 이를 별도 곡으로 나누지 않는다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2005년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-go100-official-2020", "ev-ku-g-namu-go100", "ev-ku-g-ku-centennial-history"],
+          "notes": "공식 응원단이 개교 100주년을 맞아 2005년에 만든 곡이라고 직접 설명한다. 대학 공식 연혁도 1905년 설립과 2005년 100주년을 확인한다."
+        },
+        {
+          "field": "originalMusic",
+          "value": "요한 파헬벨 ‘Canon and Gigue in D major, P.37’ 중 Canon 선율(통칭 캐논 변주곡)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-go100-official-2020", "ev-ku-g-namu-go100", "ev-ku-g-imslp-pachelbel-canon"],
+          "notes": "고려대 응원단 설명은 구어적인 ‘캐논 변주곡’까지만 적는다. 나무위키 연결 문서와 작품 카탈로그를 이용해 작곡가·조성·작품번호를 보정했으며, 고려대판이 참조한 특정 녹음은 확정하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 입실렌티와 2026 신입생 응원 OT에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-go100-2025-ipselenti", "yt-ku-g-go100-2026-ot"],
+          "notes": "두 서로 다른 행사의 곡별 타임스탬프와 실제 공연에서 직접 확인했다."
+        },
+        {
+          "field": "performancePractice",
+          "value": "붉은 응원봉지를 흔드는 봉지응원; 후렴 블록과 학교 구호를 반복",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-go100-official-2013", "yt-ku-g-go100-2024-joint", "yt-ku-g-go100-2025-ipselenti", "ev-ku-g-namu-go100"],
+          "notes": "공식 교육 영상은 곡의 반복 순서를 공개하고, 2024·2025 현장 영상은 봉지응원을 직접 보여 준다. 나무위키는 붉은 노을 뒤에 자주 이어진다고 서술하지만 고정 순서로 단정하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT·합동응원전·입실렌티에서 붉은 응원봉지를 흔드는 참여형 레퍼토리로 사용한다.",
+        "관중이 짧은 학교 구호에 응답하고 무가사 합창을 반복해, 개교 100주년과 세대 연속성을 함께 강조한다.",
+        "나무위키는 붉은 노을 다음에 자주 배치된다고 기록하며, 2025 입실렌티 영상에서도 두 곡이 연속으로 나온다."
+      ],
+      "trivia": [
+        {
+          "id": "go100-centennial-message",
+          "summary": "공식 응원단은 1905년 보성전문학교 개교에서 2005년 100주년으로 이어지는 맥락을 직접 설명하고, 100년·1000년을 넘어 영원할 학교를 함께 외치는 곡으로 소개한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-go100-official-2020", "ev-ku-g-ku-centennial-history"]
+        },
+        {
+          "id": "go100-gobaek-alias",
+          "summary": "‘고백’은 별도 곡명이 아니라 Go와 100의 한국어 독음을 압축한 현장 별칭이다. 공식 응원단 해시태그와 2025 입실렌티 제목에도 함께 표기된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-go100-official-2020", "yt-ku-g-go100-2025-ipselenti"]
+        },
+        {
+          "id": "go100-bag-cheer-reception",
+          "summary": "댓글에서는 붉은 봉지 물결을 곡의 핵심 장면으로 기억하는 반응이 이어지고, 일회용 비닐 대신 종이 소재를 쓰자는 환경 관련 제안도 확인된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-go100-official-2020", "yt-ku-g-go100-2024-joint"]
+        },
+        {
+          "id": "go100-2024-description-date-mismatch",
+          "summary": "2024 합동응원 영상 제목과 게시일은 2024년을 가리키지만 설명 본문은 행사일을 2023년 3월 15일로 적는다. 곡의 현행성은 다른 2025·2026 표본으로 판정했다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-go100-2024-joint", "yt-ku-g-go100-2025-ipselenti", "yt-ku-g-go100-2026-ot"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "Pachelbel's underlying Canon is public domain; Korea University lyrics, arrangement, choreography and recordings remain copyrighted or rights-undocumented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=BW9pzp2WBYs",
+          "https://www.youtube.com/watch?v=00mxhYrxoY4",
+          "https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+          "https://imslp.org/wiki/Canon_in_D_%28Pachelbel%2C_Johann%29"
+        ],
+        "structureSummary": "전주에서 학교 구호가 붙는 무가사 합창 블록을 먼저 제시하고, 별과 태양의 이미지를 통해 학교 이름을 꺼내는 짧은 절로 이동한다. 이어 선창에 관중이 학교 정체성 구호로 답하는 구간과 무가사 후렴을 여러 차례 되풀이한다. 공식 2013 영상은 전주 뒤 후렴·간주·절·응답 구간을 거쳐 후렴을 누적 반복하는 순서를 공개한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-g-go100-2026-ot",
+        "yt-ku-g-go100-2025-ipselenti",
+        "yt-ku-g-go100-2024-joint",
+        "yt-ku-g-go100-official-2020",
+        "yt-ku-g-go100-official-2013"
+      ],
+      "unresolved": [
+        "2005년 정확한 초연 일자·행사 프로그램과 최초 악보",
+        "고려대판 작사·편곡·보컬·안무·현행 음원의 전체 공식 크레딧",
+        "고려대판이 직접 참조한 파헬벨 캐논의 특정 녹음·편곡판",
+        "대학 개사·편곡·녹음의 이용 허락과 권리 관리 관계"
+      ]
+    },
+    {
+      "id": "korea-university-012-yeongwonhi",
+      "title": "012: 영원히",
+      "aliases": ["영원히", "012(영원히)"],
+      "currentStatus": "current-directly-verified-at-2026-freshman-cheer-ot-and-ipselenti",
+      "summary": "S.O.G가 2023년 발표한 록 싱글 `012(영원히)`의 선율을 바탕으로 만든 2026년 고려대 신곡이다. 2026 신입생 응원 OT 전체 기록은 교육·공연 구간을 모두 `012: 영원히`로 적고, 고려대 응원가 나무위키 분류도 같은 표제를 사용한다. 단독 현장 영상은 짧게 ‘영원히’라고 부르므로 이를 별칭으로 보존했다. 원곡의 청춘 연애 서사를 고려대판에서는 함께 하나 되어 앞으로 나아가는 집단 구호로 바꾸었고, 같은 해 입실렌티에서도 `승리의 함성`과 별도 곡으로 연속 공연됐다.",
+      "claims": [
+        {
+          "field": "officialTitleAndAliases",
+          "value": "고려대 행사 표기는 ‘012: 영원히’; 단독 영상·현장 약칭은 ‘영원히’; 원곡 표기는 ‘012(영원히)’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-012-kutv-2026", "yt-ku-g-012-new-song-2026", "yt-ku-g-012-ipselenti-2026", "ev-ku-g-namu-ku-category", "ev-ku-g-apple-sog-012"],
+          "notes": "KUTV 전체 영상의 공개 타임라인은 교육과 공연에 똑같이 콜론 표기를 쓰며, 공연 시작 약 01:09:41의 영상 내 타이틀 카드도 `012: 영원히`로 표시한다. 나무위키 분류도 이를 따르므로 원곡 음원명과 대학판 제목의 문장부호 차이를 유지했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2026년 신곡; 2026-03-17 신입생 응원 OT 실연을 직접 확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-012-new-song-2026", "yt-ku-g-012-kutv-2026"],
+          "notes": "단독 영상이 2026학번을 신곡으로 환영한다고 밝히며 행사일을 3월 17일로 적는다. 더 이른 비공개 시연이나 최초 제작일은 별개다."
+        },
+        {
+          "field": "originalSong",
+          "value": "S.O.G ‘012(영원히)’, 2023-08-25",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-012-sog-mv", "yt-ku-g-012-sog-live", "ev-ku-g-apple-sog-012", "ev-ku-g-cj-sog-012", "ev-ku-g-gwanak-sog-interview"],
+          "notes": "원곡 공식 MV는 S.O.G와 협업진의 작사·작곡·편곡 크레딧을 제공하고, Apple Music은 발매일과 권리자를 확인한다. CJ문화재단·관악FM은 원곡의 청춘 사랑 주제를 보완한다."
+        },
+        {
+          "field": "numericTitleMeaning",
+          "value": "1990년대 무선호출기 숫자 암호에서 012는 ‘영원히’를 뜻함",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-g-skt-pager-history", "ev-ku-g-hankyung-pager-code"],
+          "notes": "SK텔레콤 사사 자료는 012486을 ‘영원히 사랑해’로 기록하고, 1990년대 배경 영화 인터뷰 기사는 012 자체를 ‘영원히’로 풀이한다. 제목 숫자의 문화적 배경으로만 사용했다."
+        },
+        {
+          "field": "adaptationTheme",
+          "value": "원곡의 청춘 연애 서사를 고려대 구성원의 연대·전진을 부르는 짧은 집단 구호로 개사",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-g-012-new-song-2026", "yt-ku-g-012-sog-mv", "ev-ku-g-cj-sog-012", "ev-ku-g-gwanak-sog-interview"],
+          "notes": "현장 영상 설명이 고려대판의 핵심 두 구호를 공개하고, 원작자·재단·방송 인터뷰는 원곡의 만남과 사랑 주제를 설명한다. 전체 가사는 저장하지 않았다."
+        },
+        {
+          "field": "currentUseAndDisambiguation",
+          "value": "2026 입실렌티에서 ‘승리의 함성’과 별도 곡으로 연속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-012-ipselenti-2026", "yt-ku-g-012-kutv-2026", "ev-ku-g-namu-ku-category"],
+          "notes": "입실렌티 영상 제목은 두 곡을 더하기 기호로 구분하고, KUTV 타임라인과 나무위키 분류도 두 제목을 각각 싣는다. ‘영원한 함성’이라는 합성 제목으로 병합하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "2026 신입생 응원 OT에서 동작 교육 뒤 부단장 순서의 신곡으로 공연됐다.",
+        "2026 입실렌티에서는 `승리의 함성` 바로 앞에 독립된 곡으로 배치됐다.",
+        "원곡의 반복적인 록 후렴을 짧은 학교 구호와 관중 응답에 맞춰 재구성해 새내기 환영과 단결을 강조한다."
+      ],
+      "trivia": [
+        {
+          "id": "012-pager-code-wordplay",
+          "summary": "숫자 `012`는 무선호출기 시절 ‘영원히’를 뜻하던 암호다. 원곡 제목과 고려대판 표기는 이 세대 문화의 숫자 말장난을 그대로 유지한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-g-skt-pager-history", "ev-ku-g-hankyung-pager-code", "ev-ku-g-apple-sog-012"]
+        },
+        {
+          "id": "012-versus-victory-shout",
+          "summary": "2026 KUTV 타임라인은 `012: 영원히`를 1시간대 부단장 순서에, `승리의 함성`을 2시간대 단장 순서에 각각 배치한다. 입실렌티 영상도 두 제목을 나란히 적어 별도 곡임을 확인한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-012-kutv-2026", "yt-ku-g-012-ipselenti-2026"]
+        },
+        {
+          "id": "012-original-before-release-entry",
+          "summary": "CJ문화재단의 2023년 4월 지원작 페이지에는 상업 발매 약 넉 달 전부터 `012 (영원히)`와 곡 소개가 올라와 있다. Apple Music의 8월 25일은 최초 구상일이 아니라 정식 음원 발매일이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-g-cj-sog-012", "ev-ku-g-apple-sog-012"]
+        },
+        {
+          "id": "012-initial-reception",
+          "summary": "신곡 단독 영상의 적은 댓글 표본은 호의적 반응과 익숙한 구성이라는 비판으로 갈린다. 두 댓글만으로 전체 수용을 일반화하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-g-012-new-song-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 2023 S.O.G song and 2026 university cheer adaptation; derivative lyric, arrangement, recording and performance permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=6M41kbUyd7E",
+          "https://www.youtube.com/watch?v=rusNrNz9VQM",
+          "https://www.cjazit.org/support/tune-up/entry/64/26104?p=4",
+          "https://music.apple.com/kr/album/012-%EC%98%81%EC%9B%90%ED%9E%88-single/1703010517"
+        ],
+        "structureSummary": "S.O.G 원곡의 반복적인 록 리듬과 후렴 윤곽을 유지하면서 긴 청춘 연애 서사를 덜어 내고, 고려대 구성원이 하나 되어 함께 나아가자는 짧은 선창·응답 구호를 중심으로 약 2분대 현장곡으로 압축한다. 교육 구간 뒤 실연하고, 끝에서는 같은 핵심 구호를 군중이 되풀이해 마무리한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-g-012-new-song-2026",
+        "yt-ku-g-012-kutv-2026",
+        "yt-ku-g-012-ipselenti-2026",
+        "yt-ku-g-012-sog-mv",
+        "yt-ku-g-012-sog-live"
+      ],
+      "unresolved": [
+        "고려대 응원단이 직접 배포한 단독 악보·음원에서의 최종 문장부호와 영문·숫자 표기",
+        "고려대판 개사·편곡·보컬·안무·음원 제작진의 전체 공식 크레딧",
+        "2026-03-17 응원 OT보다 이른 공개 시연 또는 교내 최초 발표가 있었는지",
+        "S.O.G 원곡의 대학 응원가 개사·편곡·공연·녹음 이용 허락 관계"
+      ]
+    },
+    {
+      "id": "korea-university-yeongwonhan-hamseong-recheck",
+      "title": "영원한 함성",
+      "aliases": [],
+      "currentStatus": "recheck-rejected-not-a-korea-university-song-current-yonsei-song",
+      "summary": "재검토 결과 `영원한 함성`은 고려대 응원가가 아니라 연세대학교 응원단의 곡이다. 연세대 응원단 공식 영상이 제목과 원곡을 직접 밝히고, 연세대 응원가 나무위키 문서는 이를 2010년대 곡으로 분류한다. 결정적인 2025 합동응원 영상 설명도 `영원한 함성 (YU)` 다음에 `엘리제를 위하여 (KU)`처럼 학교를 곡마다 명시한다. 고려대 쪽에는 서로 별개인 `012: 영원히`와 `승리의 함성`이 존재하므로, 후보명은 두 제목의 결합 또는 양교 곡을 섞어 적은 합동응원 영상 제목에서 생긴 오인으로 보는 것이 가장 타당하다. 고려대 현행 목록에는 올리지 않고 재검토 기록으로만 보존한다.",
+      "claims": [
+        {
+          "field": "organizationAttribution",
+          "value": "연세대학교 응원가이며 고려대학교 응원가가 아님",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-eternal-shout-yonsei-official", "yt-ku-g-eternal-shout-2025-joint", "yt-ku-g-eternal-shout-2025-akaraka", "yt-ku-g-eternal-shout-2026-yonsei-ot", "ev-ku-g-namu-yonsei-2010s"],
+          "notes": "검토 범위는 고려대 현행 나무위키 분류 전체, 2026 KUTV 응원 OT 전체 타임라인, 고려대 응원단 관련 YouTube 검색, 2025 합동응원 곡별 소속 표기, 연세대 응원단 공식 채널과 연세대 2010년대 응원가 문서다. 고려대 소속으로 표시한 자료는 찾지 못했고, 양교를 구분한 자료는 모두 YU로 판정한다."
+        },
+        {
+          "field": "likelyConfusion",
+          "value": "고려대의 별도 곡 `012: 영원히`와 `승리의 함성`을 합성했거나 양교 혼합 영상 제목을 학교별로 분리하지 않은 오인",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-012-kutv-2026", "yt-ku-g-012-ipselenti-2026", "yt-ku-g-eternal-shout-2025-joint", "ev-ku-g-namu-ku-category"],
+          "notes": "KUTV와 나무위키는 고려대의 두 제목을 별개로 적고, 입실렌티 영상은 두 곡 사이에 더하기 기호를 쓴다. 합동응원 영상은 `영원한 함성`을 YU로 명시한다. 다만 최초 재고 목록이 어떤 경로로 합성됐는지는 직접 문서가 없어 추론으로 남긴다."
+        },
+        {
+          "field": "originalMusic",
+          "value": "히사이시 조 ‘海の見える街 / A Town with an Ocean View’, 영화 ‘마녀 배달부 키키’ OST(1989)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-eternal-shout-yonsei-official", "ev-ku-g-hisaishi-kiki-soundtrack", "ev-ku-g-hisaishi-official-track"],
+          "notes": "연세대 응원단 공식 영상이 원곡과 작곡가를 직접 적고, Studio Ghibli 권리 표기가 있는 음원 카탈로그와 히사이시 조 공식 아티스트 영상이 발매일·작곡가를 교차 확인한다."
+        },
+        {
+          "field": "versionHistory",
+          "value": "2011년 곡을 2017 연고전 전승 기념으로 2018년에 리뉴얼·재공개했다는 설명",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-g-eternal-shout-2018-new", "yt-ku-g-eternal-shout-2024-alumni"],
+          "notes": "2018 현장 영상 설명과 2024 연세대 총동문회 영상 설명이 같은 계보를 전한다. 2018 영상의 공개 댓글에도 2012년에 이미 불렀다는 회상이 있어 2018을 완전한 최초 도입연도로 쓰지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "연세대학교에서 2025 아카라카와 2026 신입생 응원 OT에 계속 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-eternal-shout-2025-akaraka", "yt-ku-g-eternal-shout-2026-yonsei-ot"],
+          "notes": "고려대 현행성을 뜻하지 않는다. 연세대의 현재 레퍼토리임을 확인하기 위한 교정 근거다."
+        }
+      ],
+      "usageContexts": [
+        "연세대 신입생 응원 OT·아카라카·동문 아카라카에서 어깨동무형 합창곡으로 사용된다.",
+        "고려대·연세대 합동응원전에서는 연세대 순서의 곡으로 공연되며, 곡별 소속을 생략한 긴 제목만 보면 고려대 곡으로 오인할 수 있다.",
+        "고려대 데이터에서는 현행곡 카드로 노출하지 않고 잘못 들어온 후보를 교정한 재검토 레코드로만 유지한다."
+      ],
+      "trivia": [
+        {
+          "id": "eternal-shout-2011-2018-lineage",
+          "summary": "2018 영상은 ‘신곡’이라고 부르면서도 설명에서 2011년 곡의 리뉴얼이라고 밝힌다. 따라서 2011은 원형의 존재 연도, 2018은 현행판 재공개 연도로 분리해야 한다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-g-eternal-shout-2018-new", "yt-ku-g-eternal-shout-2024-alumni"]
+        },
+        {
+          "id": "eternal-shout-joint-video-entity-key",
+          "summary": "2025 합동응원 영상 설명은 각 곡 뒤에 YU·KU를 번갈아 붙인다. 첫 곡 `영원한 함성`에는 YU, 다음 곡 `엘리제를 위하여`에는 KU가 붙어 학교 식별의 직접 근거가 된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-g-eternal-shout-2025-joint"]
+        },
+        {
+          "id": "eternal-shout-kia-recognition",
+          "summary": "연세대 공식 영상 댓글에는 같은 선율을 쓰는 KIA 타이거즈 응원을 떠올리는 반응이 반복된다. 이는 선율의 다른 스포츠 사용에 대한 이용자 인지일 뿐, 연세대판이나 고려대판의 권리·계보 근거로 삼지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-g-eternal-shout-yonsei-official"]
+        },
+        {
+          "id": "eternal-shout-candidate-rejection",
+          "summary": "고려대 나무위키 분류에는 `승리의 함성`과 `012: 영원히`가 따로 있고 `영원한 함성`은 없지만, 연세대 2010년대 문서에는 정확한 제목이 있다. 누락이 아니라 학교 오분류로 판정한 이유다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-g-namu-ku-category", "ev-ku-g-namu-yonsei-2010s", "yt-ku-g-eternal-shout-yonsei-official"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted Joe Hisaishi film-score composition and Yonsei University cheer adaptation; lyric, arrangement, recording and performance permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=B8FMZwfsz7o",
+          "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80",
+          "https://classical.music.apple.com/us/album/882658777"
+        ],
+        "structureSummary": "히사이시 조 원곡의 서정적인 주선율을 따라 짧은 학교 공동체 서사를 부르고, 연세의 이름과 영속성을 강조하는 합창 후렴으로 고조한다. 현장에서는 어깨동무한 관중이 같은 선율·후렴을 함께 반복하는 약 2분 길이의 합창곡으로 운용된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-g-eternal-shout-yonsei-official",
+        "yt-ku-g-eternal-shout-2018-new",
+        "yt-ku-g-eternal-shout-2024-alumni",
+        "yt-ku-g-eternal-shout-2025-akaraka",
+        "yt-ku-g-eternal-shout-2026-yonsei-ot",
+        "yt-ku-g-eternal-shout-2025-joint"
+      ],
+      "unresolved": [
+        "2011년 원형의 정확한 제목·초연일·당시 악보와 직접 영상",
+        "2018년 리뉴얼에서 실제로 바뀐 편곡·가사·안무 범위와 제작진",
+        "연세대판 작사·편곡·녹음의 전체 크레딧과 히사이시 조 원곡 이용 허락",
+        "고려대 후보 목록에 처음 들어온 원문·수집 경로와 오분류가 발생한 정확한 단계",
+        "고려대 공식 응원단이 `영원한 함성`을 자교 곡이 아니라고 명시한 별도 공지의 존재 여부"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ku-g-namu-go100",
+      "type": "namuwiki-community-reference",
+      "url": "https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+      "title": "고려대학교/응원가/2000년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Go! 100!을 2005년 개교 100주년 기념곡으로 분류하고 원곡을 캐논 변주곡, 응원법을 봉지응원, 자주 이어지는 앞 곡을 붉은 노을로 설명한다. 공식 2013 영상과 같은 반복 순서도 제시하지만 가사 전문은 저장하지 않았다.",
+      "supports": ["Go! 100! 2005 도입", "캐논 변주곡", "봉지응원", "곡 구성"]
+    },
+    {
+      "id": "ev-ku-g-ku-centennial-history",
+      "type": "official-university-history",
+      "url": "https://www.korea.edu/en/1029/subview.do?enc=Zm5jdDF8QEB8JTJGaGlzdCUyRmVuJTJGNSUyRnZpZXcuZG8lM0ZmaW5kQ2xTZXElM0Q0OSUyNg%3D%3D",
+      "title": "Chronology",
+      "publisher": "Korea University",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "1905년 보성전문학교 설립과 2005년 5월 5일 고려대학교 개교 100주년 기념행사를 공식 연혁으로 확인한다.",
+      "supports": ["1905 설립", "2005 개교 100주년", "Go! 100! 기념 맥락"]
+    },
+    {
+      "id": "ev-ku-g-imslp-pachelbel-canon",
+      "type": "score-library",
+      "url": "https://imslp.org/wiki/Canon_in_D_%28Pachelbel%2C_Johann%29",
+      "title": "Canon and Gigue in D major, P.37 (Pachelbel, Johann)",
+      "publisher": "IMSLP",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "통칭 파헬벨의 캐논을 요한 파헬벨의 D장조 Canon and Gigue, P.37로 식별하고 원작 악보의 퍼블릭 도메인 상태와 편성을 확인한다.",
+      "supports": ["Go! 100! 원곡의 정확한 작품명·작곡가", "고전 원작 권리 상태"]
+    },
+    {
+      "id": "ev-ku-g-namu-ku-category",
+      "type": "namuwiki-community-reference",
+      "url": "https://dark.namu.moe/w/%EB%B6%84%EB%A5%98%3A%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "분류:고려대학교/응원가",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "2020년대 고려대 응원가 목록에 `승리의 함성`, `012: 영원히`, `오 필승 코리아`를 각각 별도 제목으로 싣는다. `영원한 함성`은 고려대 목록에 없다.",
+      "supports": ["012: 영원히 표제", "승리의 함성과 별도 곡", "영원한 함성 고려대 오분류 교정"]
+    },
+    {
+      "id": "ev-ku-g-apple-sog-012",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/album/012-%EC%98%81%EC%9B%90%ED%9E%88-single/1703010517",
+      "title": "012(영원히) - Single",
+      "publisher": "Apple Music",
+      "publishedAt": "2023-08-25",
+      "accessedAt": "2026-08-09",
+      "summary": "S.O.G의 록 싱글 `012(영원히)`가 2023년 8월 25일 발매됐고 권리 표기가 SOGFOEVER 및 Sound Republica 라이선스임을 확인한다.",
+      "supports": ["012: 영원히 원곡", "원곡 발매일", "원곡 권리자"]
+    },
+    {
+      "id": "ev-ku-g-cj-sog-012",
+      "type": "artist-entry-primary-description",
+      "url": "https://www.cjazit.org/support/tune-up/entry/64/26104?p=4",
+      "title": "S.O.G",
+      "publisher": "CJ문화재단",
+      "publishedAt": "2023-04-05",
+      "accessedAt": "2026-08-09",
+      "summary": "S.O.G의 튠업 지원작 소개로 `012 (영원히)`를 사춘기 학생의 서툰 사랑과 충동적인 행동을 다룬 곡이라고 설명한다. 상업 음원 발매 전 곡의 존재도 확인하지만 가사 전문은 저장하지 않았다.",
+      "supports": ["012 원곡 주제", "2023-04-05 이전 존재", "S.O.G 자가 소개"]
+    },
+    {
+      "id": "ev-ku-g-gwanak-sog-interview",
+      "type": "artist-interview",
+      "url": "https://m.radiogfm.net/news/21387",
+      "title": "[하로 재니의 봉사리팝스] 사랑과 평화를 노래하는 S.O.G #AFTER SCHOOL #012 #머쉬베놈가면맨 #LCK",
+      "publisher": "관악FM",
+      "publishedAt": "2023-10-17",
+      "accessedAt": "2026-08-09",
+      "summary": "S.O.G가 `012(영원히)`를 함께한 만남이 영원하기를 바라는 노래라고 직접 설명하고, 이 곡을 위해 춤 연습실도 빌렸다고 밝힌 방송 인터뷰다.",
+      "supports": ["012 원곡 주제", "원작자 설명", "원곡 퍼포먼스 여담"]
+    },
+    {
+      "id": "ev-ku-g-skt-pager-history",
+      "type": "corporate-history-primary-source",
+      "url": "https://www.sktelecom.com/assets/pdf/skt40th_s.pdf",
+      "title": "SK텔레콤 40년사",
+      "publisher": "SK텔레콤",
+      "publishedAt": "2024",
+      "accessedAt": "2026-08-09",
+      "summary": "무선호출기에 숫자 메시지를 남기던 문화를 설명하며 `012486`을 ‘영원히 사랑해’의 대표 암호로 기록한다.",
+      "supports": ["012 숫자 암호의 무선호출기 문화", "영원히 의미의 역사적 맥락"]
+    },
+    {
+      "id": "ev-ku-g-hankyung-pager-code",
+      "type": "news-interview",
+      "url": "https://plus.hankyung.com/apps/newsinside.view?aid=2022101980044&category=&sns=y",
+      "title": "김유정 ‘아는 삐삐 암호? 8282’(20세기 소녀)",
+      "publisher": "텐아시아·한국경제",
+      "publishedAt": "2022-10-19",
+      "accessedAt": "2026-08-09",
+      "summary": "1990년대를 배경으로 한 영화 인터뷰에서 당시 무선호출기 암호 `012`를 ‘영원히’라고 직접 풀이한다.",
+      "supports": ["012=영원히 숫자 암호", "1990년대 문화 맥락"]
+    },
+    {
+      "id": "ev-ku-g-namu-yonsei-2010s",
+      "type": "namuwiki-community-reference",
+      "url": "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80",
+      "title": "연세대학교/응원가/2010년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "연세대 2010년대 응원가 목록과 본문 16번 항목에 `영원한 함성`을 싣는다. 고려대 목록이 아닌 연세대 곡이라는 분류 교차검증에 사용했다.",
+      "supports": ["영원한 함성 연세대 소속", "2010년대 분류"]
+    },
+    {
+      "id": "ev-ku-g-hisaishi-kiki-soundtrack",
+      "type": "music-catalog",
+      "url": "https://classical.music.apple.com/us/album/882658777",
+      "title": "Kiki's Delivery Service (Original Soundtrack)",
+      "publisher": "Apple Music Classical",
+      "publishedAt": "1989-08-10",
+      "accessedAt": "2026-08-09",
+      "summary": "Studio Ghibli의 1989년 영화 사운드트랙에 Joe Hisaishi 작곡 `A Town with an Ocean View`가 수록됐음을 확인한다.",
+      "supports": ["영원한 함성 원곡", "히사이시 조 작곡", "1989 OST"]
+    },
+    {
+      "id": "ev-ku-g-hisaishi-official-track",
+      "type": "rights-holder-video-metadata",
+      "url": "https://www.youtube.com/watch?v=cZlrc8JCeWw",
+      "title": "A Town with an Ocean View",
+      "publisher": "Joe Hisaishi Official",
+      "publishedAt": "2020-06-29",
+      "accessedAt": "2026-08-09",
+      "summary": "히사이시 조 공식 아티스트 채널의 권리자 제공 음원으로, 곡이 `Kiki's Delivery Service Soundtrack Music Collection` 수록곡이며 1989년 8월 10일 발매됐고 작곡자가 Joe Hisaishi임을 명시한다.",
+      "supports": ["영원한 함성 원곡 크레딧", "Studio Ghibli 권리 표기"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ku-g-go100-2026-ot",
+      "songId": "korea-university-go-100",
+      "url": "https://www.youtube.com/watch?v=pZnAKBeS46w",
+      "videoId": "pZnAKBeS46w",
+      "title": "[2026 고려대 응원OT] 봉쥬르~ 너도 나도 룰루랄라 '샹젤리제' + 'Go100' #고려대학교응원단 #고려대응원가 #응원OT #서울OT #신입생OT #봉지응원 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-04-30",
+      "descriptionSummary": "2026년 3월 17일 화정체육관 신입생 응원 OT 영상이다. Go!100!은 05:34부터 시작하고, 설명과 해시태그는 봉지응원 및 별칭 `고백`을 함께 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 샹젤리제와 Go!100!의 곡별 시작 시각을 정리해 구간 탐색을 돕는다."],
+      "supports": ["2026 현행 사용", "신입생 응원 OT", "고백 별칭", "봉지응원"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-go100-2025-ipselenti",
+      "songId": "korea-university-go-100",
+      "url": "https://www.youtube.com/watch?v=2V6SMuW_DI8",
+      "videoId": "2V6SMuW_DI8",
+      "title": "[2025 입실렌티 응원] 신나는 봉지응원! '붉은 노을 + Go!100! 고백 + K.O.R.E.A 코리아' I 고려대 축제 I 고려대 응원단 I 신나는 고려대 응원가 [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-06-27",
+      "descriptionSummary": "2025 입실렌티 2부 봉지응원 영상으로 붉은 노을 뒤 02:26부터 Go!100!을 배치하고 제목·설명에 별칭 `고백`을 병기한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["짧은 댓글들은 과거를 그리워하거나 학생들을 응원하고, 현장의 젊음과 참여 문화를 부러워하는 반응을 보인다."],
+      "supports": ["2025 현행 사용", "입실렌티", "붉은 노을 뒤 배치", "고백 별칭"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-go100-2024-joint",
+      "songId": "korea-university-go-100",
+      "url": "https://www.youtube.com/watch?v=CzQqRncTmaE",
+      "videoId": "CzQqRncTmaE",
+      "title": "연대에는 없고 고대에만 있는 봉지응원!  'GO! 100!'  -  [2024 고려대/연세대 합동응원OT] #합응",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-03-25",
+      "descriptionSummary": "고려대 100주년 기념곡이자 붉은 봉지응원이라고 소개한다. 제목은 2024 합동응원 OT지만 본문 행사일이 2023년 3월 15일로 적혀 연도 메타데이터가 상충한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학교 구호와 고대 정체성을 응원하는 반응, 다른 전통곡 업로드 요청, 비닐 대신 종이 소재를 쓰자는 환경 관련 제안이 함께 나타난다."],
+      "supports": ["100주년 기념곡", "봉지응원", "합동응원 사용", "설명 날짜 불일치"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-go100-official-2020",
+      "songId": "korea-university-go-100",
+      "url": "https://www.youtube.com/watch?v=BW9pzp2WBYs",
+      "videoId": "BW9pzp2WBYs",
+      "title": "Go!100!  |  고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-10-24",
+      "descriptionSummary": "공식 응원단 교육 영상이다. 1905년 개교 뒤 2005년 100주년을 맞아 만든 곡이라는 설명, 반복 구성, 별칭 해시태그와 원곡 `캐논 변주곡` 표기를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["여러 학번의 동문이 오래된 기억을 공유하고 붉은 봉지 물결과 신입 단원의 동작을 핵심 장면으로 꼽는다. 일부는 한화 응원에서 같은 선율을 들었다고 인지한다."],
+      "supports": ["공식 제목", "2005 도입", "개교 100주년", "캐논 변주곡", "공식 구조", "고백 별칭"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-go100-official-2013",
+      "songId": "korea-university-go-100",
+      "url": "https://www.youtube.com/watch?v=00mxhYrxoY4",
+      "videoId": "00mxhYrxoY4",
+      "title": "Go! 100! - [고려대학교 응원단 온라인 응원OT]",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2013-04-23",
+      "descriptionSummary": "고려대 응원단이 공개한 초기 온라인 응원 OT 영상으로, 현재 대표 표기와 같은 띄어쓰기 및 전주·간주·세 블록의 상세 반복 순서를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["관중 전체가 함께 부를 때 매력이 커진다는 반응, 고려대 응원 특유의 밀착감을 좋아한다는 반응, 입학 동기로 삼는 반응이 나타난다."],
+      "supports": ["공식 제목 표기", "공식 곡 구조", "장기 사용"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-012-new-song-2026",
+      "songId": "korea-university-012-yeongwonhi",
+      "url": "https://www.youtube.com/watch?v=6M41kbUyd7E",
+      "videoId": "6M41kbUyd7E",
+      "title": "#고려대학교응원단 I 2026 고려대 대박신곡 '영원히' [2026 고려대 신입생 응원OT] #고려대응원가 #응원OT #서울OT #영원히 #012  [4K]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-03-19",
+      "descriptionSummary": "2026년 3월 17일 화정체육관 신입생 응원 OT에서 2026학번을 신곡으로 환영한다고 소개한다. 제목은 약칭 `영원히`, 해시태그는 `012`를 함께 쓰고 고려대판의 핵심을 단결·동행 구호로 요약한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["두 개뿐인 공개 댓글은 곡을 좋아한다는 반응과 구성이 익숙하다는 비판으로 갈린다."],
+      "supports": ["2026 신곡", "최초 확인 행사일", "영원히 별칭", "고려대판 주제"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-012-kutv-2026",
+      "songId": "korea-university-012-yeongwonhi",
+      "url": "https://www.youtube.com/watch?v=x11ylOMxco0",
+      "videoId": "x11ylOMxco0",
+      "title": "[KUTV 생중계] 2026 고려대학교 응원 오리엔테이션 라이브 다시보기",
+      "channel": "고려대학교 교육TV방송국 KUTV",
+      "publishedAt": "2026-03-23",
+      "descriptionSummary": "KUTV의 2026 응원 OT 전체 기록이다. 공개 타임라인은 `012: 영원히`를 사전 재생 00:02:48, 교육 01:05:34, 공연 01:09:39에 적고, 공연 시작 약 01:09:41의 영상 내 타이틀 카드도 같은 표기를 쓴다. `승리의 함성`은 별도 곡으로 02:06:46 교육·02:07:48 공연에 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 전체 곡별 타임라인을 제공하고, 동문은 과거 응원 문화를 회상하며, 시청자는 공연·편곡·진행에 대한 긍정과 개선 의견을 함께 남긴다."],
+      "supports": ["012: 영원히 정확 표기", "교육과 공연", "승리의 함성과 별도 곡", "공식 교내방송 기록"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-012-ipselenti-2026",
+      "songId": "korea-university-012-yeongwonhi",
+      "url": "https://www.youtube.com/watch?v=bUelhg5cc0E",
+      "videoId": "bUelhg5cc0E",
+      "title": "2026.05.22 IPSELENTI 지.야의 함성 [012:영원히 + 승리의 함성]",
+      "channel": "KODA",
+      "publishedAt": "2026-06-13",
+      "descriptionSummary": "2026년 5월 22일 입실렌티에서 `012:영원히`와 `승리의 함성`을 더하기 기호로 구분해 연속 수록한 4분 33초 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 입실렌티 현행 사용", "승리의 함성과 별도 곡", "콜론 표기"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-012-sog-mv",
+      "songId": "korea-university-012-yeongwonhi",
+      "url": "https://www.youtube.com/watch?v=rusNrNz9VQM",
+      "videoId": "rusNrNz9VQM",
+      "title": "[MV] S.O.G - 012(영원히)",
+      "channel": "S.O.G",
+      "publishedAt": "2023-08-25",
+      "descriptionSummary": "S.O.G 공식 MV다. S.O.G와 협업진의 작사·작곡·편곡, 보컬·코러스·악기, 믹싱·마스터링과 영상 제작 크레딧을 제공한다. 가사 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자들은 록 사운드와 뮤직비디오, 보컬의 중독성을 칭찬하고 반복 청취나 앞으로의 활동을 응원한다."],
+      "supports": ["원곡 공식 제목", "원곡 발매일", "원작 음악·영상 크레딧", "수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-012-sog-live",
+      "songId": "korea-university-012-yeongwonhi",
+      "url": "https://www.youtube.com/watch?v=Shc4OqncHGo",
+      "videoId": "Shc4OqncHGo",
+      "title": "〈012(영원히) - S.O.G〉 | 하로 재니의 봉사리팝스 | 관악FM 100.3MHz",
+      "channel": "8번가 더라이브",
+      "publishedAt": "2023-10-25",
+      "descriptionSummary": "관악FM 프로그램에서 S.O.G가 원곡을 직접 연주한 3분 8초 라이브 영상이다. 방송 기사와 결합해 원작자의 곡 주제 설명을 교차 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["원곡 실연", "원곡 제목·가수", "관악FM 인터뷰 연결"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-eternal-shout-yonsei-official",
+      "songId": "korea-university-yeongwonhan-hamseong-recheck",
+      "url": "https://www.youtube.com/watch?v=B8FMZwfsz7o",
+      "videoId": "B8FMZwfsz7o",
+      "title": "영원한 함성",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "연세대학교 응원단 공식 채널의 곡 단위 영상이다. 제목을 `영원한 함성`으로 적고 원곡을 히사이시 조의 `바다가 보이는 마을`로 직접 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["원곡을 지브리 영화 음악으로 알아보는 반응, 연세대의 다른 응원가와 함께 좋아한다는 반응, 같은 선율의 KIA 응원을 떠올리는 반응이 나타난다."],
+      "supports": ["연세대 공식 소속", "정확한 곡명", "원곡·작곡가", "다른 스포츠 선율 인지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-eternal-shout-2018-new",
+      "songId": "korea-university-yeongwonhan-hamseong-recheck",
+      "url": "https://www.youtube.com/watch?v=aA36nhG2S_k",
+      "videoId": "aA36nhG2S_k",
+      "title": "[2018 연세대 아카라카] 영원한 함성 (신곡) - 연세대학교 응원단 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-05-22",
+      "descriptionSummary": "2018년 5월 19일 연세대 아카라카 실연이다. 설명은 2017 연고전 전승을 기념해 2011년 곡을 리뉴얼한 신곡이라고 적으며 본문에 `영원한 힘성` 오기가 한 차례 있다.",
+      "commentsStatus": "available",
+      "commentSummary": ["원곡을 `바다가 보이는 마을`로 식별하는 반응이 있고, 한 시청자는 2012년에도 들었던 곡이라며 2018년 완전 신곡 표기에 의문을 제기한다."],
+      "supports": ["2018 연세대 사용", "2011 원형·2018 리뉴얼 주장", "원곡 인지", "연도 보조 회상"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-eternal-shout-2024-alumni",
+      "songId": "korea-university-yeongwonhan-hamseong-recheck",
+      "url": "https://www.youtube.com/watch?v=Sjchl33DyBw",
+      "videoId": "Sjchl33DyBw",
+      "title": "[4K] AKARAKA (2020, 2021 현역 연합 응원단) FAN ver. 영원한 함성 240526 @동문 아카라카",
+      "channel": "연세대학교 총동문회(연세톡톡)",
+      "publishedAt": "2024-06-12",
+      "descriptionSummary": "연세대 총동문회가 2024 동문 아카라카 공연을 공개했다. 설명은 2018 신입생 응원 OT 공개, 히사이시 조 원곡, 2011년 곡의 2018 리뉴얼이라는 계보를 함께 제시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 연세대 승리와 학교 정체성을 짧게 응원한다."],
+      "supports": ["연세대 총동문회 사용", "2011·2018 계보 주장", "원곡", "동문 아카라카"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-eternal-shout-2025-akaraka",
+      "songId": "korea-university-yeongwonhan-hamseong-recheck",
+      "url": "https://www.youtube.com/watch?v=Zd-wMMZgxMI",
+      "videoId": "Zd-wMMZgxMI",
+      "title": "노천을 함성으로 'WeCanFly' '승리의물결' '내이름그리고연세' '영원한함성' '하늘과더불어' [2025 아카라카를 온누리에 | 연세대학교 Yonsei university]",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-08-24",
+      "descriptionSummary": "2025년 5월 24일 개교 140주년 연세대 아카라카 공연 모음으로, 영원한 함성은 06:38부터 시작한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 영상을 잘 보았다는 짧은 감사 반응을 남긴다."],
+      "supports": ["2025 연세대 현행 사용", "아카라카", "연세대 소속"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-eternal-shout-2026-yonsei-ot",
+      "songId": "korea-university-yeongwonhan-hamseong-recheck",
+      "url": "https://www.youtube.com/watch?v=BwHi-vUYhWg",
+      "videoId": "BwHi-vUYhWg",
+      "title": "[4K] 연뽕 가득한 어깨동무곡 모음 “영원한 함성” \"온누리에\" \"서시\" \"룩셈부르크\" | 2026 연세대학교 신입생 응원 오리엔테이션",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-02-22",
+      "descriptionSummary": "2026년 2월 13일 연세대학교 신입생 응원 OT의 어깨동무곡 모음이다. 영원한 함성이 첫 곡으로 00:00부터 나온다.",
+      "commentsStatus": "available",
+      "commentSummary": ["시청자들은 2026 연세대 응원단의 열정과 진행을 긍정적으로 평가하고 영상 제작에 감사를 전한다."],
+      "supports": ["2026 연세대 현행 사용", "신입생 응원 OT", "어깨동무곡", "연세대 소속"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-g-eternal-shout-2025-joint",
+      "songId": "korea-university-yeongwonhan-hamseong-recheck",
+      "url": "https://www.youtube.com/watch?v=EY_OjeeKpeg",
+      "videoId": "EY_OjeeKpeg",
+      "title": "2025 합동응원 3부 I 고려대/연세대 A급 응원곡 모음집 I 영원한 함성/엘리제/하늘아래/석탑/온누리에/고래사냥/하늘이여/하늘끝까지/FOREVER/연세여 사랑한다/민족의 아리아",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-03-22",
+      "descriptionSummary": "2025년 3월 14일 양교 합동응원 3부 영상이다. 설명의 곡별 시간표가 `영원한 함성 (YU)`를 00:20, 다음 `엘리제를 위하여 (KU)`를 02:28로 명시하며 이후에도 YU와 KU를 번갈아 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 양교 응원단의 체력과 군중 에너지를 높게 평가하고, 동문은 과거 고연전을 회상하며, 수험생은 향후 참여를 목표로 삼는다."],
+      "supports": ["영원한 함성 YU 소속 직접 표기", "고려대·연세대 곡 구분", "오분류 발생 가능 맥락", "2025 합동응원 사용"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 3,
+    "youtubeSampleCount": 16,
+    "songsMeetingYoutubeMinimum": 3,
+    "openIssueCount": 13
+  }
+}

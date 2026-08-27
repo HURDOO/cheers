@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-kiwoom-e",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-kiwoom-heroes",
+    "name": "키움 히어로즈",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문과 댓글 원문은 저장하지 않는다. 저작권이 있는 구단 응원가·편곡은 합법적으로 열람 가능한 출처 URL, 권리 상태, 구성·주제 요약만 남긴다. 공개 댓글은 작성자 식별정보와 원문 인용 없이 반복되는 반응만 익명 요약한다. 검색 제목과 실제 영상 내용이 다른 경우에도 화면·구간 판정 결과만 남기고 가사 원문은 전재하지 않는다.",
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 1,
+    "youtubeSampleCount": 9,
+    "songsMeetingYoutubeMinimum": 1,
+    "openIssueCount": 6
+  },
+  "items": [
+    {
+      "id": "kiwoom-heroes-uriga-nugu",
+      "title": "우리가 누구",
+      "currentStatus": "dormant-provisional-no-verified-use-after-2019",
+      "summary": "재판정 결과는 ‘현행’이나 ‘저빈도 현행’이 아니라 ‘휴면 추정’이다. 곡은 늦어도 2014년 4월 팬 기록에 전체 구조가 남고 2017 넥센 현장 영상과 2019년 6월 14일 키움 경기의 14초 현장 영상으로 사용이 이어진다. 그러나 현행 구단 응원가 페이지와 2024·2025·2026 구단 공식 플레이리스트, 2024·2026 팬 현행 목록에는 모두 빠져 있다. 2025년 ‘모든 응원가’ 영상의 30:02 표기는 직접 구간 점검 결과 다른 이닝 시작송이며, 검색 상위의 2018 노래방 영상도 실제 화면은 ‘승리의 넥센(서곡)’이다. 따라서 2019년 이후 직접 사용 증거가 새로 나오기 전에는 현재 사용곡으로 올리지 않는다.",
+      "aliases": [
+        "우리가누구",
+        "히어로즈 달려나간다",
+        "우리가 앞으로 달려나간다"
+      ],
+      "usageContexts": [
+        "넥센 시절 위기 상황에 재생됐다고 기록된 수비 분위기 전환용 응원",
+        "응원단의 질문에 관중이 팀 정체성으로 답하는 짧은 선창·응답 후렴",
+        "긴 랩 전체보다 후렴 일부를 짧게 사용하는 현장형 운용으로 추정되는 2017·2019 영상",
+        "2020년 이후 실제 사용이 확인되지 않아 현재 운용 상황은 휴면으로 잠정 분류"
+      ],
+      "claims": [
+        {
+          "field": "earliestDocumentation",
+          "value": "늦어도 2014-04-23 존재; 팬 블로그가 직접 청취한 전체 구조를 기록",
+          "assessment": "verified-earliest-textual-record",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-e-naver-blog-2014",
+            "ev-kiwoom-e-umanwiki-2017"
+          ],
+          "notes": "2014 게시물은 제목과 반복 후렴·긴 랩의 구조를 구체적으로 남긴다. 실제 도입일이나 최초 경기는 더 이를 수 있으므로 since 연도는 확정하지 않는다."
+        },
+        {
+          "field": "historicalFieldUse",
+          "value": "2017 넥센 현장과 2019-06-14 키움 현장에서 사용 흔적 확인",
+          "assessment": "verified-with-uploader-identification",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "yt-kiwoom-e-who-field-2017",
+            "yt-kiwoom-e-who-field-2019"
+          ],
+          "notes": "2017 영상은 첫 구절을 딴 별칭으로, 2019 영상은 정식 통용명으로 곡을 식별한다. 두 영상 모두 경기장 응원단을 직접 보여 주지만 짧아 전체판 사용과 스폰서명 개사 여부까지 확정하지는 못한다."
+        },
+        {
+          "field": "historicalUsagePattern",
+          "value": "위기 상황에 틀던 곡으로 기록",
+          "assessment": "reported-historical",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kiwoom-e-umanwiki-2017",
+            "ev-kiwoom-e-namu-snapshot"
+          ],
+          "notes": "2017년 마지막 수정된 옛 편집형 문서가 수비 위기 상황을 명시한다. 구단 진행표나 특정 경기의 투구 상황으로는 아직 교차하지 못했다."
+        },
+        {
+          "field": "officialCurrentCatalog",
+          "value": "현행 구단 홈페이지 및 2024·2025·2026 공식 플레이리스트에 미수록",
+          "assessment": "verified-consecutive-omission",
+          "confidence": "high",
+          "evidenceRefs": [
+            "ev-kiwoom-e-official-cheer-page",
+            "yt-kiwoom-e-who-official-2024-omission",
+            "yt-kiwoom-e-who-official-2025-omission",
+            "yt-kiwoom-e-who-official-2026-omission"
+          ],
+          "notes": "공식 페이지의 13곡과 세 시즌 공식 영상의 팀 응원가 챕터를 모두 확인했다. 짧은 상황곡이 공식 목록에서 빠질 가능성은 있으나, 연속 누락은 현행 판정을 약화한다."
+        },
+        {
+          "field": "fanCurrentCatalogCrossCheck",
+          "value": "2024·2026 팬 현행 목록에도 미수록; 2025 ‘모든 응원가’의 30:02 표기는 실제 다른 이닝 시작송",
+          "assessment": "verified-with-false-positive-correction",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kiwoom-e-who-fan-current-2024-omission",
+            "yt-kiwoom-e-who-fan-all-mislabeled-2025",
+            "yt-kiwoom-e-who-fan-current-2026-omission"
+          ],
+          "notes": "2025 영상은 설명과 YouTube 챕터에 곡명을 적지만 30:02부터 직접 재생한 화면은 ‘이닝 시작송 1’, 30:18은 ‘이닝 시작송 2’로 표시되고 음원도 별개다. 제목 문자열만 수집하면 생기는 오탐이다."
+        },
+        {
+          "field": "searchResultFalsePositive",
+          "value": "2018 MAGICSING의 정확 제목 영상은 실제로 ‘승리의 넥센(서곡)’을 재생",
+          "assessment": "verified-false-positive",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kiwoom-e-who-karaoke-mislabeled-2018"
+          ],
+          "notes": "영상 0:05와 0:42의 화면 가사는 같은 다른 곡의 짧은 문장을 반복한다. ‘우리가 누구’의 긴 랩·질문형 후렴은 나오지 않아 양성 표본에서 제외했다."
+        },
+        {
+          "field": "currentClassification",
+          "value": "휴면 추정; 마지막 직접 사용 증거 2019-06-14, 2026 현행·저빈도 사용 증거 없음",
+          "assessment": "provisional-dormant",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "yt-kiwoom-e-who-field-2019",
+            "ev-kiwoom-e-official-cheer-page",
+            "yt-kiwoom-e-who-official-2024-omission",
+            "yt-kiwoom-e-who-official-2025-omission",
+            "yt-kiwoom-e-who-official-2026-omission",
+            "yt-kiwoom-e-who-fan-current-2026-omission"
+          ],
+          "notes": "공식 은퇴 공지는 찾지 못했으므로 ‘폐기 확정’이 아니라 ‘휴면 추정’이다. 2026 직접 현장 영상이나 응원단 공지가 나오면 재판정한다."
+        },
+        {
+          "field": "originAndCredits",
+          "value": "외부 원곡·작사·작곡·편곡·랩·보컬 크레딧 미확인",
+          "assessment": "unresolved",
+          "confidence": "low",
+          "evidenceRefs": [
+            "ev-kiwoom-e-naver-blog-2014",
+            "ev-kiwoom-e-umanwiki-2017",
+            "ev-kiwoom-e-namu-snapshot"
+          ],
+          "notes": "확인한 문서와 영상은 곡명·가사 구조·사용 상황만 제공한다. 2012년 MBC 예능 제작 응원가는 화면과 후렴이 달라 이 곡의 크레딧 근거로 사용하지 않았다."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "who-two-search-traps",
+          "summary": "정확한 곡명 검색에서 두 개의 강한 오탐이 나온다. 하나는 노래방 영상 제목과 실제 곡이 다르고, 다른 하나는 2025 장편 영상의 설명·챕터와 실제 30분대 콘텐츠가 다르다. 이 곡은 제목·설명 크롤링만으로 현행성을 판정하면 오류가 생기는 대표 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kiwoom-e-who-karaoke-mislabeled-2018",
+            "yt-kiwoom-e-who-fan-all-mislabeled-2025"
+          ]
+        },
+        {
+          "id": "who-full-rap-versus-short-chant",
+          "summary": "2014 기록의 곡은 반복 후렴 사이에 야구 플레이와 영웅의 특성을 나열하는 긴 랩이 들어가지만, 2019 현장 표본은 14초뿐이다. 경기장에서는 전체 음원보다 질문·응답형 핵심 후렴을 잘라 사용했을 가능성이 크다.",
+          "assessment": "structure-verified-use-inferred",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "ev-kiwoom-e-naver-blog-2014",
+            "yt-kiwoom-e-who-field-2019"
+          ]
+        },
+        {
+          "id": "who-sponsor-name-boundary",
+          "summary": "2014 기록의 전체판은 넥센 명칭을 포함하지만 2019 표본은 키움 출범 뒤 촬영됐다. 짧은 구간에서 스폰서 중립적인 질문·응답만 썼는지, 키움판을 따로 녹음했는지는 확인되지 않아 버전 계보를 열어 둔다.",
+          "assessment": "verified-boundary-unresolved-version",
+          "confidence": "medium",
+          "evidenceRefs": [
+            "ev-kiwoom-e-naver-blog-2014",
+            "yt-kiwoom-e-who-field-2019"
+          ]
+        },
+        {
+          "id": "who-title-collision",
+          "summary": "‘우리가 누구’라는 제목은 다른 KBO 구단과 대학 응원가 검색 결과에도 반복돼, 키움·넥센 또는 첫 구절 별칭을 함께 넣지 않으면 삼성·한화·성균관대 곡이 섞인다.",
+          "assessment": "verified-search-ambiguity",
+          "confidence": "high",
+          "evidenceRefs": [
+            "yt-kiwoom-e-who-field-2017",
+            "yt-kiwoom-e-who-field-2019"
+          ]
+        },
+        {
+          "id": "who-namu-other-section",
+          "summary": "나무위키 미러 스냅샷은 이 곡을 현행 공식 팀곡 묶음이 아니라 ‘그 외 응원가’에 보존한다. 존재 기록으로는 유용하지만 그 배치만으로 현재 저빈도 사용을 뜻한다고 해석하지 않았다.",
+          "assessment": "reported-with-classification-caution",
+          "confidence": "medium-high",
+          "evidenceRefs": [
+            "ev-kiwoom-e-namu-snapshot",
+            "ev-kiwoom-e-official-cheer-page"
+          ]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-or-rights-unresolved-club-song-lyrics-arrangement-and-recording",
+        "sourceUrls": [
+          "https://m.blog.naver.com/kbrkjs/50193345298",
+          "https://m.namu.moe/w/%ED%82%A4%EC%9B%80%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "https://www.youtube.com/watch?v=XaRZF-QdKb0"
+        ],
+        "structureSummary": "앞으로 나아가는 팀을 묻고 관중이 히어로즈라고 답하는 짧은 선창·응답 후렴을 두 번 제시한다. 이어 선수들의 힘·전략·투구·타격·승리 의지를 빠르게 나열하는 긴 랩 절이 나오고, 후렴을 여러 차례 되풀이한 뒤 영어 재시작 구호와 마지막 반복으로 닫는다.",
+        "shortExcerpt": null
+      },
+      "unresolved": [
+        "정확한 도입 연도·최초 공개일·초연 경기와 공식 곡명",
+        "작사·작곡·편곡·랩·보컬·음원 제작의 공식 전체 크레딧과 외부 원곡 여부",
+        "2019년 키움 현장 표본에서 실제로 부른 문구와 넥센판 전체 음원의 개사·재녹음 여부",
+        "과거 ‘위기 상황’의 정확한 투구·회차 조건과 전체판·후렴판 사용 기준",
+        "2020~2026 사이 비공식·저빈도 현장 사용 사례와 마지막 실제 사용일",
+        "구단의 공식 폐기·휴면 결정 여부와 나무위키 ‘그 외 응원가’에 계속 남은 근거"
+      ],
+      "youtubeSampleRefs": [
+        "yt-kiwoom-e-who-field-2019",
+        "yt-kiwoom-e-who-field-2017",
+        "yt-kiwoom-e-who-karaoke-mislabeled-2018",
+        "yt-kiwoom-e-who-official-2024-omission",
+        "yt-kiwoom-e-who-fan-current-2024-omission",
+        "yt-kiwoom-e-who-official-2025-omission",
+        "yt-kiwoom-e-who-fan-all-mislabeled-2025",
+        "yt-kiwoom-e-who-official-2026-omission",
+        "yt-kiwoom-e-who-fan-current-2026-omission"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-kiwoom-e-official-cheer-page",
+      "type": "official-current-catalog-negative-evidence",
+      "url": "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+      "title": "응원가",
+      "publisher": "키움 히어로즈",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "현행 구단 페이지는 New Heroes Come Here부터 2026 신곡 영웅필승까지 13개 팀 응원가를 제목·음원·가사 보기로 제공하지만 ‘우리가 누구’는 싣지 않는다. 짧은 경기 상황곡을 전부 망라한다고 명시하지는 않으므로 단독 폐기 증거가 아니라 공식 목록 부재 증거로 사용했다.",
+      "supports": [
+        "who.absentCurrentOfficialCatalog",
+        "who.dormantAssessment",
+        "who.notOfficiallyRetired"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-e-namu-snapshot",
+      "type": "community-reference-snapshot",
+      "url": "https://m.namu.moe/w/%ED%82%A4%EC%9B%80%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "키움 히어로즈/응원가",
+      "publisher": "나무모에 미러(나무위키 문서 미러)",
+      "publishedAt": "2025-10-04",
+      "accessedAt": "2026-08-09",
+      "summary": "2025-10-04 시점 스냅샷은 곡을 현행 공식 팀곡과 별도의 ‘그 외 응원가’ 장에 남긴다. 이는 역사적 존재를 뒷받침하지만 현재 사용 빈도나 2026 현행성을 직접 증명하지 않는다. 최종 접근 때 미러가 점검 화면을 반환해 세부 서술은 보조 자료로만 사용했다.",
+      "supports": [
+        "who.historicalListing",
+        "who.otherSectionClassification",
+        "who.currentUseNotEstablished"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-e-naver-blog-2014",
+      "type": "contemporary-fan-transcription",
+      "url": "https://m.blog.naver.com/kbrkjs/50193345298",
+      "title": "우리가 누구",
+      "publisher": "네이버 블로그",
+      "publishedAt": "2014-04-23T12:45:00+09:00",
+      "accessedAt": "2026-08-09",
+      "summary": "작성자가 직접 듣고 적었다고 밝힌 2014년 게시물로, 질문·응답 후렴과 긴 랩 절, 후렴 반복이라는 전체 구조 및 넥센판 팀명 문구를 남긴다. 청취 전사에 오기가 있을 수 있어 가사 원문은 저장하지 않고 존재 시점·구조·버전 경계만 사용했다.",
+      "supports": [
+        "who.existsNoLaterThan2014",
+        "who.fullSongStructure",
+        "who.nexenVersion",
+        "who.creditsAbsent"
+      ]
+    },
+    {
+      "id": "ev-kiwoom-e-umanwiki-2017",
+      "type": "historical-community-reference",
+      "url": "https://tcatmon.com/wiki/%EB%84%A5%EC%84%BC_%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "넥센 히어로즈/응원가",
+      "publisher": "우만위키 아카이브",
+      "publishedAt": "2017-02-04",
+      "accessedAt": "2026-08-09",
+      "summary": "2017년 2월 4일 마지막 수정된 옛 응원가 문서는 ‘우리가 누구’를 독립 항목으로 싣고 넥센 시절 위기 상황에 틀던 음악이라고 설명한다. 전체 가사는 저장하지 않고 제목·역사적 사용 상황·구성 비교만 활용했다.",
+      "supports": [
+        "who.historicalTitle",
+        "who.reportedCrisisUse",
+        "who.historicalStructure"
+      ]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-kiwoom-e-who-field-2019",
+      "songId": "kiwoom-heroes-uriga-nugu",
+      "url": "https://www.youtube.com/watch?v=-YpEOcyzkkA",
+      "videoId": "-YpEOcyzkkA",
+      "title": "우리가누구",
+      "channel": "꿀벌스토리",
+      "publishedAt": "2019-06-14T18:01:57-07:00",
+      "descriptionSummary": "설명은 2019년 6월 14일 키움 히어로즈 응원가라고 적고, 14초 영상은 경기 중 응원단이 관중을 이끄는 장면을 직접 보여 준다. 짧은 길이 때문에 전체 랩판과 키움 개사 문구는 확인되지 않는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "who.lastDirectFieldEvidence2019",
+        "who.kiwoomEraUse",
+        "who.shortHookUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-e-who-field-2017",
+      "songId": "kiwoom-heroes-uriga-nugu",
+      "url": "https://www.youtube.com/watch?v=XaRZF-QdKb0",
+      "videoId": "XaRZF-QdKb0",
+      "title": "넥센히어로즈 팀응원가 히어로즈 달려나간다",
+      "channel": "잭참새",
+      "publishedAt": "2018-05-14T08:00:02-07:00",
+      "descriptionSummary": "설명은 2017시즌 넥센 팀 응원가라고 밝히며, 50초 영상은 경기장에서 응원단장이 관중에게 곡을 이끄는 모습을 담는다. 제목은 첫 구절을 딴 별칭이라 2014 구조 기록과 연결된다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "who.fieldUse2017",
+        "who.aliasFirstLine",
+        "who.nexenEraUse"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-e-who-karaoke-mislabeled-2018",
+      "songId": "kiwoom-heroes-uriga-nugu",
+      "url": "https://www.youtube.com/watch?v=L9lxykBdSH0",
+      "videoId": "L9lxykBdSH0",
+      "title": "넥센히어로즈 Nexen Heroes 우리가 누구 응원가 노래방 | MAGICSING",
+      "channel": "ASSA KARAOKE MAGICSING",
+      "publishedAt": "2018-04-12T23:00:11-07:00",
+      "descriptionSummary": "제목과 설명은 ‘우리가 누구’라고 쓰지만 0:05와 0:42 화면에 나타나는 짧은 가사는 ‘승리의 넥센(서곡)’ 구조이며 전체 영상도 그 문장을 반복한다. 곡명 검색의 오탐으로 판정해 역사적 양성 표본에는 사용하지 않았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": [
+        "who.karaokeFalsePositive",
+        "who.searchTitleMismatch",
+        "who.notPositiveEvidence"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-e-who-official-2024-omission",
+      "songId": "kiwoom-heroes-uriga-nugu",
+      "url": "https://www.youtube.com/watch?v=OjoYnwcZMOI",
+      "videoId": "OjoYnwcZMOI",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 안그래도 뜨거운 가슴🔥 더 뜨겁게 달궈줄 응원가 플레이리스트 #이걸로_직관준비_끝",
+      "channel": "키움히어로즈",
+      "publishedAt": "2024-04-04T05:30:29-07:00",
+      "descriptionSummary": "구단 공식 2024 플레이리스트는 18개 팀 응원가와 라인업송을 시간표로 제공하지만 ‘우리가 누구’는 싣지 않는다. 제목이 비슷한 ‘우리가 승리한다’는 별도 곡으로 16:31에 있다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 구단이 공식 응원가 목록과 시간표를 공개한 점을 반긴다.",
+        "좋아하는 과거 곡과 다음 시즌 업데이트를 추가해 달라는 요청이 이어지지만 이 곡을 직접 언급하는 반응은 표본에서 보이지 않는다."
+      ],
+      "supports": [
+        "who.officialOmission2024",
+        "who.distinctFromUrigaSeunghanda",
+        "who.currentStatusNegativeEvidence"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-e-who-fan-current-2024-omission",
+      "songId": "kiwoom-heroes-uriga-nugu",
+      "url": "https://www.youtube.com/watch?v=KUTsNLgQmgE",
+      "videoId": "KUTsNLgQmgE",
+      "title": "[𝐏𝐋𝐀𝐘𝐋𝐈𝐒𝐓] 𝟐𝟎𝟐𝟒 키움 선수단, 팀 응원가 플레이리스트 +신규 응원가 포함",
+      "channel": "고척 응원석",
+      "publishedAt": "2024-06-24T03:19:11-07:00",
+      "descriptionSummary": "2024 선수·팀 현행 응원가를 정리한 팬 목록으로 14:31 이후 팀곡 일곱 개를 수록하지만 ‘우리가 누구’는 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 당시 변경된 선수곡과 팀곡을 최신 순서로 정리해 준 점을 높게 평가한다.",
+        "다른 구단 팬도 키움 팀곡의 합창성과 분위기를 긍정적으로 평가하지만 이 곡의 누락을 지적하는 반응은 보이지 않는다."
+      ],
+      "supports": [
+        "who.fanCurrentOmission2024",
+        "who.currentCatalogCrossCheck",
+        "who.noOmissionComplaintSample"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-e-who-official-2025-omission",
+      "songId": "kiwoom-heroes-uriga-nugu",
+      "url": "https://www.youtube.com/watch?v=phqdZsLhyJ8",
+      "videoId": "phqdZsLhyJ8",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 직관 가기 전 필수 예습 코스⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2025-06-30T02:30:29-07:00",
+      "descriptionSummary": "2025시즌 추가곡까지 반영했다고 밝힌 구단 공식 플레이리스트는 21개 팀곡을 시간표로 제시하지만 ‘우리가 누구’는 싣지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 시즌 중 최신 목록이 필요한 시점에 공식 업데이트가 나온 것을 반긴다.",
+        "구장 전광판에 가사를 표시해 장편 응원가도 함께 부르게 해 달라는 요청이 반복되며 이 곡을 직접 언급하는 반응은 표본에 없다."
+      ],
+      "supports": [
+        "who.officialOmission2025",
+        "who.currentStatusNegativeEvidence",
+        "who.noDirectFanDemandSample"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-e-who-fan-all-mislabeled-2025",
+      "songId": "kiwoom-heroes-uriga-nugu",
+      "url": "https://www.youtube.com/watch?v=MHd-CPrg-SI&t=1802s",
+      "videoId": "MHd-CPrg-SI",
+      "title": "2025시즌 키움히어로즈 선수/팀 모든 응원가 모음!",
+      "channel": "희돔 Huidom",
+      "publishedAt": "2025-12-19T22:36:52-08:00",
+      "descriptionSummary": "설명과 YouTube 챕터는 30:02를 ‘우리가 누구’로 적지만 직접 재생하면 30:04 화면은 ‘이닝 시작송 1’, 30:18은 ‘이닝 시작송 2’이며 음원도 옛 질문형 랩곡과 다르다. 시간표가 뒤섞인 오표기로 판정했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "두 댓글은 목록 제공에 짧게 감사를 표시할 뿐 특정 곡이나 30분대 표기 오류는 논하지 않는다."
+      ],
+      "supports": [
+        "who.fan2025FalsePositive",
+        "who.chapterContentMismatch",
+        "who.noVerified2025Use"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-e-who-official-2026-omission",
+      "songId": "kiwoom-heroes-uriga-nugu",
+      "url": "https://www.youtube.com/watch?v=bGoso_4ibeo",
+      "videoId": "bGoso_4ibeo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 야구장에 울려퍼질 그 노래들⚾ | 응원가 플레이리스트",
+      "channel": "키움히어로즈",
+      "publishedAt": "2026-04-20T20:00:28-07:00",
+      "descriptionSummary": "구단 공식 2026 플레이리스트는 신곡 영웅필승을 포함한 현행 팀곡 18개와 상황곡 두 개를 시간표로 싣지만 ‘우리가 누구’는 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 누락된 다른 현행곡을 구체적으로 지적하고 새 시즌 콘텐츠 보강을 요구한다.",
+        "댓글 시간표도 공식 설명의 팀곡 목록을 재확인하지만 이 곡의 누락을 지적하거나 사용을 회고하는 반응은 보이지 않는다."
+      ],
+      "supports": [
+        "who.officialOmission2026",
+        "who.no2026OfficialEvidence",
+        "who.dormantAssessment"
+      ],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-kiwoom-e-who-fan-current-2026-omission",
+      "songId": "kiwoom-heroes-uriga-nugu",
+      "url": "https://www.youtube.com/watch?v=qwSC4vADbGI",
+      "videoId": "qwSC4vADbGI",
+      "title": "[𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 2026 키움히어로즈 선수 등장곡 + 응원가 & 팀 응원가",
+      "channel": "박주홍은터진다",
+      "publishedAt": "2026-05-26T00:25:40-07:00",
+      "descriptionSummary": "2026 선수 등장곡·개인곡·상황곡과 팀곡을 1시간 동안 폭넓게 정리한 팬 목록이다. 댓글의 상세 시간표는 28:48부터 18개 팀곡을 나열하지만 ‘우리가 누구’는 싣지 않는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "팬들은 직관 전 선수곡과 팀곡을 익히는 자료로 활용하며 상세 시간표를 함께 보완한다.",
+        "새 선수와 빠진 등장곡의 추가 요청은 있지만 ‘우리가 누구’를 현행 누락곡으로 요구하는 반응은 표본에 없다."
+      ],
+      "supports": [
+        "who.fanCurrentOmission2026",
+        "who.broadCurrentCatalogCrossCheck",
+        "who.noVerifiedLowFrequencyUse"
+      ],
+      "accessedAt": "2026-08-09"
+    }
+  ]
+}

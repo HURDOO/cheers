@@ -1,0 +1,1112 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-korea-university-e",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-korea",
+    "name": "고려대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 응원가·원곡의 가사 전문, 영상 설명 전문, 댓글 원문과 작성자 식별 정보는 저장하지 않는다. 고려대학교 응원단 영상이 가사와 곡 구성을 공개한 경우에도 제목·도입 이력·구조·원곡 표기만 요약한다. 공개 댓글은 반복되는 현장 경험과 계보 주장만 익명으로 재서술하며, 외부 곡 차용 및 이용 허락은 별도 공개 자료가 없으면 미확인으로 둔다.",
+  "items": [
+    {
+      "id": "university-korea-countdown",
+      "title": "카운트다운",
+      "aliases": ["COUNT DOWN", "Count Down"],
+      "currentStatus": "current-directly-verified-through-2026-earliest-confirmed-2015",
+      "summary": "빠른 박자와 숫자 세기·구호를 결합한 조단장 턴의 참여형 응원가다. 직접 확인 가능한 가장 이른 표본은 2015년 9월 안암 응원OT이며, 2018 새내기 행사·2024 입실렌티와 서울 응원OT·2026 신입생 응원OT와 입실렌티가 이어진다. 2024 영상은 19곡 메들리의 25분 40초, 2026 입실렌티 영상은 8분 2초에 곡을 명시해 현행성을 직접 확인한다. 공개된 응원단 설명에서 외부 원곡이나 전체 제작진을 찾지 못했으므로 2015를 공식 발표연도가 아니라 확인된 가장 오래된 사용연도로 둔다.",
+      "claims": [
+        {
+          "field": "earliestVerifiedUse",
+          "value": "2015-09-10 안암 응원OT",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-countdown-2015"],
+          "notes": "영상 제목이 행사일과 곡명을 함께 적는다. 게시일은 2015-11-20이며 이보다 앞선 공식 초연은 확인하지 못했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원OT와 입실렌티에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-countdown-2026-ot", "yt-ku-e-countdown-2026-ipselenti"],
+          "notes": "두 영상 모두 설명 타임스탬프와 실제 메들리 순서에서 곡을 특정한다."
+        },
+        {
+          "field": "performancePlacement",
+          "value": "최근 대형 공연에서 조단장 턴의 빠른 참여곡으로 배치",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-e-countdown-2024-long", "yt-ku-e-countdown-2026-ipselenti"],
+          "notes": "2024·2026 입실렌티 설명이 모두 조단장 턴으로 분류한다. 고연전 경기 중 고정 상황을 뜻하지는 않는다."
+        },
+        {
+          "field": "sourceMusic",
+          "value": "공개 크레딧에서 확인되지 않음",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ku-e-namu-2010s", "yt-ku-e-countdown-2024-ot", "yt-ku-e-countdown-2026-ot"],
+          "notes": "검토한 응원단·현장 영상 설명과 편집형 문서 경로에서 외부 원곡을 확정할 크레딧을 찾지 못했다. 자작곡이라는 뜻은 아니다."
+        }
+      ],
+      "usageContexts": [
+        "신입생·서울 응원OT와 입실렌티의 조단장 턴에서 빠르게 분위기를 끌어올리는 참여곡으로 사용한다.",
+        "2026 신입생 응원OT에서는 `호랑이`와 연속 배치됐고, 2026 입실렌티에서는 청춘예찬·백야·출사표 뒤에 이어졌다."
+      ],
+      "trivia": [
+        {
+          "id": "countdown-2018-event-upload-gap",
+          "summary": "2018 새내기새로배움터 공연을 담은 영상이 2020년에 게시돼 있다. 영상 게시일을 행사연도로 오인하지 않도록 두 날짜를 분리했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-countdown-2018-event"]
+        },
+        {
+          "id": "countdown-since-overlay-comment",
+          "summary": "2024 입실렌티 장편 영상 댓글에서는 곡 시작 때 표시되는 `Since` 연도 표기가 유용하다는 반응이 확인된다. 다만 10초 간격 공개 스토리보드만으로 카운트다운의 숫자를 판독하지 못해 연도 근거로 사용하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-countdown-2024-long"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-or-rights-unknown-no-public-authorization-record-found",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=I06HPhjLtrE",
+          "https://www.youtube.com/watch?v=e1dGB_DNpUQ",
+          "https://www.youtube.com/watch?v=KrhyoCnPf8o"
+        ],
+        "structureSummary": "짧은 도입 뒤 빠른 선창·후창과 숫자 세기 성격의 반복 구호를 쌓고, 전원이 함께 뛰는 고조 구간으로 닫는 약 2분대 공연형 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-e-countdown-2015",
+        "yt-ku-e-countdown-2018-event",
+        "yt-ku-e-countdown-2024-long",
+        "yt-ku-e-countdown-2024-ot",
+        "yt-ku-e-countdown-2026-ot",
+        "yt-ku-e-countdown-2026-ipselenti"
+      ],
+      "unresolved": [
+        "정확한 발표·초연일과 2015년 이전 사용 여부",
+        "작사·작곡·편곡·보컬·안무의 공식 전체 크레딧",
+        "외부 원곡·샘플 사용 여부와 이용 허락",
+        "고연전 경기 진행표에서의 실제 사용 상황과 빈도"
+      ]
+    },
+    {
+      "id": "university-korea-yeah-yeah-yeah",
+      "title": "Yeah Yeah Yeah",
+      "aliases": ["예예예", "Yeah! Yeah! Yeah!"],
+      "currentStatus": "current-directly-verified-2014-to-2026",
+      "summary": "노브레인의 2007년 곡 `Rock It Rocket`을 바탕으로 한 춤 중심 응원가다. 고려대학교 응원단의 2014년 11월 공식 학습 영상과 같은 해 안암 응원OT 표본이 가장 이르며, 2018 입실렌티·2020 공식 교육 영상·2025 입실렌티와 고연전 라이브·2026 입실렌티까지 지속된다. 공식 설명이 원곡과 전체 반복 구조를 직접 밝히고, 현장 댓글은 원을 만들거나 한쪽으로 몰려 움직이는 집단 동작과 트위스트를 이 곡의 특징으로 반복해서 언급한다.",
+      "claims": [
+        {
+          "field": "earliestVerifiedUse",
+          "value": "늦어도 2014년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-yeah-official-2014", "yt-ku-e-yeah-2014-ot"],
+          "notes": "2014년 공식 온라인 응원OT 영상과 행사명이 명시된 현장 표본이 있다. 정확한 첫 공개·초연은 미확인이다."
+        },
+        {
+          "field": "originalSong",
+          "value": "노브레인 `Rock It Rocket`",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-yeah-official-2020", "ev-ku-e-nobrain-apple", "ev-ku-e-nobrain-credits"],
+          "notes": "응원단 공식 2020 영상이 원곡을 직접 표기하며 음원 카탈로그와 공식 제공 영상이 발매·크레딧을 보강한다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "황현성 작사·작곡, 노브레인 가창; 2007-09-17 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-e-nobrain-apple", "ev-ku-e-nobrain-credits"],
+          "notes": "원곡 크레딧이며 고려대판 개사·편곡 크레딧과 동일하다는 뜻은 아니다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 입실렌티에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-yeah-2026"],
+          "notes": "영상 설명이 15:05 시작을 특정한다."
+        },
+        {
+          "field": "movement",
+          "value": "트위스트와 좌우 이동·대형 이동을 강조하는 춤 응원",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-e-freshman-guide-2020", "yt-ku-e-yeah-2018", "yt-ku-e-yeah-2025"],
+          "notes": "신입생 자료집과 서로 다른 시기 댓글에서 같은 현장 기억이 반복된다. 공식 안무 제작자는 미확인이다."
+        }
+      ],
+      "usageContexts": [
+        "입실렌티·응원OT·고연전에서 관중이 트위스트와 좌우 이동을 함께 하는 빠른 춤 응원으로 사용한다.",
+        "2025 정기 고연전에서는 응원단 음악부 엘리제의 라이브 연주 표본이 남아 있다.",
+        "2026 입실렌티 3부 전반부에서 행사 후반의 조단장 턴을 마무리하는 곡으로 배치됐다."
+      ],
+      "trivia": [
+        {
+          "id": "yeah-circle-rush-memory",
+          "summary": "2018·2022 영상 댓글은 원을 만들거나 한 방향으로 몰려가는 동작을 이 곡의 재미로 반복해서 회상한다. 2025 댓글도 응원단의 앞뒤 대형 이동을 특징으로 지목한다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-yeah-2018", "yt-ku-e-yeah-2025", "yt-ku-e-yeah-2026"]
+        },
+        {
+          "id": "yeah-alumni-tattoo",
+          "summary": "고려대 교우회 인터뷰에는 외국인 교우가 이 곡을 가장 좋아해 가사의 한 구절을 팔에 새겼다는 사연이 소개됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-e-kuaa-yeah-interview"]
+        },
+        {
+          "id": "yeah-original-lyric-hook",
+          "summary": "원곡과 고려대판은 제목 구호의 반복과 분노·활력 이미지를 공유하지만, 고려대판은 호랑이와 학교 상징 중심으로 새로 구성된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-yeah-official-2014", "yt-ku-e-yeah-official-2020", "ev-ku-e-nobrain-credits"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-derivative-work-public-authorization-not-located",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=gTSkY-JMMRk",
+          "https://www.youtube.com/watch?v=0tX2SmbErik",
+          "https://music.apple.com/kr/song/1859254795"
+        ],
+        "structureSummary": "불만과 호랑이 이미지를 담은 짧은 두 절, 제목을 반복하는 영어 선창·후창, 무의미음 합창을 되풀이한다. 응원단 공식 영상은 전주와 절·후렴·간주 순서를 구분해 교육한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-e-yeah-official-2014",
+        "yt-ku-e-yeah-2014-ot",
+        "yt-ku-e-yeah-2018",
+        "yt-ku-e-yeah-official-2020",
+        "yt-ku-e-yeah-2025",
+        "yt-ku-e-yeah-2026"
+      ],
+      "unresolved": [
+        "2014년 정확한 발표일·초연 행사와 신곡 여부",
+        "고려대판 개사·편곡·보컬·녹음 제작진",
+        "원곡 이용 허락과 공개·공연·음원 배포의 권리 범위",
+        "원형 이동·트위스트 안무의 제작자와 공식 변경 이력"
+      ]
+    },
+    {
+      "id": "university-korea-goyeonga-love",
+      "title": "고연가: 고대를 사랑하라",
+      "aliases": ["고연가(사랑)", "고사랑", "고대를 사랑하라"],
+      "currentStatus": "current-directly-verified-2011-to-2026",
+      "summary": "이루마의 피아노곡 `Kiss the Rain` 선율에 학교를 향한 변하지 않는 애정을 얹은 서정형 고연가다. 고려대학교 응원단의 과거 공식 영상은 `2011 정기 고연전 신곡`이라고 명시하고, 2020 공식 영상은 원곡과 곡 구성을 밝힌다. 2022~2026 입실렌티·합동응원·응원OT 표본이 계속되며, 느린 합창과 선창·후창을 통해 경기 상황보다 학교 공동체에 대한 애정을 표현하는 성격이 강하다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2011 정기 고연전 신곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-love-official-2011"],
+          "notes": "고려대학교 응원단 공식 영상 제목과 설명이 동일하게 밝힌다. 정확한 첫 경기와 공개일은 미확인이다."
+        },
+        {
+          "field": "originalSong",
+          "value": "이루마 `Kiss the Rain`",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-love-official-2020", "ev-ku-e-yiruma-kiss-rain"],
+          "notes": "응원단 공식 표기와 이루마 공식·음원 카탈로그가 일치한다."
+        },
+        {
+          "field": "originalRelease",
+          "value": "이루마의 2003년 피아노곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-e-yiruma-kiss-rain"],
+          "notes": "Apple Music은 2003-10-23을 표시한다. 응원가판 제작연도와 구분한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원OT와 입실렌티에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-love-2026-ot", "yt-ku-e-love-2026-ipselenti"],
+          "notes": "각 영상 설명이 곡명과 시작 시간을 특정한다."
+        },
+        {
+          "field": "seriesPosition",
+          "value": "2011년 고연가 두 곡 중 사랑을 주제로 한 곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-love-official-2011", "yt-ku-e-shine-2024-new", "yt-ku-e-love-2025-set"],
+          "notes": "2024 세 번째 고연가 설명과 2025 3종 메들리가 연작 관계를 직접 밝힌다."
+        }
+      ],
+      "usageContexts": [
+        "응원OT·입실렌티·합동응원에서 학교를 향한 애정을 느린 대합창으로 확인하는 서정 구간에 사용한다.",
+        "2025 입실렌티에서는 `고대를 노래하라`, `고대를 빛내리라`와 3종 세트로 연속 공연됐다.",
+        "2026 입실렌티에서는 부단장 턴 후반에 배치되고, 신입생 응원OT에서는 별도의 곡 교육 뒤 실연됐다."
+      ],
+      "trivia": [
+        {
+          "id": "love-fan-healing-memory",
+          "summary": "서로 다른 시기 영상 댓글에서 이 곡을 들으면 학창 시절이 떠오르거나 마음이 편안해진다는 졸업생·관객 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-love-2023", "yt-ku-e-love-2024", "yt-ku-e-love-2025-set"]
+        },
+        {
+          "id": "love-2025-description-typo",
+          "summary": "2025 고연가 3종 영상의 제목·해시태그는 세 번째 곡을 `고대를 빛내리라`로 적지만 설명의 연도 목록은 실수로 `고대를 사랑하라(2024)`라고 중복 표기한다. 이를 별도 영상·2024 신곡 설명과 대조해 오기로 판정했다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-love-2025-set", "yt-ku-e-shine-2024-new"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-derivative-work-public-authorization-not-located",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=_668n2v3r4M",
+          "https://www.youtube.com/watch?v=0hoS4tD3INs",
+          "https://music.apple.com/us/song/1437487832"
+        ],
+        "structureSummary": "학교를 사랑하겠다는 서정적인 절과 짧은 선창·후창을 반복한 뒤 학교명 고백으로 맺는다. 공식 교육 영상은 한 절과 응답 구간을 되풀이하는 구조로 정리한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-e-love-official-2011",
+        "yt-ku-e-love-official-2020",
+        "yt-ku-e-love-2023",
+        "yt-ku-e-love-2024",
+        "yt-ku-e-love-2025-set",
+        "yt-ku-e-love-2026-ot",
+        "yt-ku-e-love-2026-ipselenti"
+      ],
+      "unresolved": [
+        "2011년 정확한 최초 공개·초연 경기",
+        "고려대판 개사·편곡·연주·보컬·녹음 제작진",
+        "Kiss the Rain 이용 허락과 공개·공연·음원 배포의 권리 범위",
+        "고연전 경기 안에서의 고정 사용 상황과 빈도"
+      ]
+    },
+    {
+      "id": "university-korea-goyeonga-sing",
+      "title": "고연가: 고대를 노래하라",
+      "aliases": ["고연가(노래)", "고노래", "고대를 노래하라"],
+      "currentStatus": "current-directly-verified-2011-to-2026",
+      "summary": "Andrea Bocelli의 `Con te partirò`를 Sarah Brightman과 함께 영어 제목으로 다시 녹음한 `Time to Say Goodbye` 계열 선율을 사용한 웅장한 합창곡이다. 고려대학교 응원단은 이 곡을 `2011 정기 고연전 신곡`으로 명시했고, 2020 공식 영상은 원곡명을 적었다. 2022 고연전, 2023·2024·2025 입실렌티와 합동응원, 2026 합동응원에서 계속 확인된다. 2022 교내 데이터인문학 연구도 2016~2022 경기에서 평균보다 자주 불린 2010년대 곡으로 분석했다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2011 정기 고연전 신곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-sing-official-2011"],
+          "notes": "응원단 공식 영상 제목과 설명이 직접 명시한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Sarah Brightman·Andrea Bocelli `Time to Say Goodbye` 계열",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-sing-official-2020", "ev-ku-e-time-goodbye"],
+          "notes": "응원단은 영어 제목을 표기한다. 공식 아티스트 자료는 Andrea Bocelli의 `Con te partirò`를 듀엣으로 재작업한 곡이라고 설명한다."
+        },
+        {
+          "field": "originalCredits",
+          "value": "Francesco Sartori 작곡, Lucio Quarantotto 작사; Frank Peterson 듀엣판 재작업",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-e-time-goodbye", "ev-ku-e-time-goodbye-rights"],
+          "notes": "원곡·듀엣판 크레딧이며 고려대판 개사·편곡 크레딧은 아니다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 상반기 합동응원에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-sing-2026"],
+          "notes": "양교 응원단장이 서로의 곡을 교류하는 1부에서 3:20부터 사용됐다."
+        },
+        {
+          "field": "historicalFrequency",
+          "value": "2016~2022 정기 고연전 분석에서 평균보다 자주 불린 2010년대 곡",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-e-datahumanities-2022"],
+          "notes": "학생 연구의 제한된 분석 가능한 중계 영상 표본에 대한 결과이며 전체 경기 전수조사는 아니다."
+        }
+      ],
+      "usageContexts": [
+        "입실렌티·정기 고연전·합동응원에서 관중이 긴 호흡으로 학교와 청춘을 노래하는 웅장한 합창곡으로 사용한다.",
+        "2026 합동응원에서는 양교 응원단장이 서로의 대표곡을 교류하는 친선 구간에 배치됐다.",
+        "2022 교내 연구 표본에서는 오래 지속될 가능성이 높은 고빈도 2010년대 곡으로 분류됐다."
+      ],
+      "trivia": [
+        {
+          "id": "sing-con-te-partiro-lineage",
+          "summary": "응원단이 적은 `Time to Say Goodbye`는 독립된 최초곡이라기보다 Bocelli의 이탈리아어곡 `Con te partirò`를 Brightman과 듀엣으로 재작업한 버전이다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ku-e-time-goodbye"]
+        },
+        {
+          "id": "sing-cross-school-exchange",
+          "summary": "2026 합동응원 영상은 고려대·연세대 단장이 상대 학교 곡까지 함께 이끄는 교류 구간에 이 곡을 포함해, 라이벌전 응원이 경쟁뿐 아니라 상호 학습의 장이기도 함을 보여준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-sing-2026"]
+        },
+        {
+          "id": "sing-performance-presence",
+          "summary": "2023 입실렌티 영상 댓글은 연기 사이 단장의 동작과 한복 의상을 곡의 웅장함과 함께 강하게 기억하는 반응이 많다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-sing-2023"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-derivative-work-public-authorization-not-located",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=XTl7SbARdBE",
+          "https://www.youtube.com/watch?v=n4oLtwjhTfI",
+          "https://sarahbrightman.com/discography/time-to-say-goodbye-single/"
+        ],
+        "structureSummary": "긴 무의미음 합창으로 시작해 현재의 장소와 청춘, 학교를 노래하라는 짧은 본문으로 이어지고 힘 있는 집단 구호를 삽입한 뒤 첫 합창을 되풀이한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-e-sing-official-2011",
+        "yt-ku-e-sing-official-2020",
+        "yt-ku-e-sing-2022",
+        "yt-ku-e-sing-2023",
+        "yt-ku-e-sing-2025",
+        "yt-ku-e-sing-2026"
+      ],
+      "unresolved": [
+        "2011년 정확한 최초 공개·초연 경기",
+        "고려대판 개사·편곡·연주·보컬·녹음 제작진",
+        "원곡 이용 허락과 공개·공연·음원 배포의 권리 범위",
+        "전체 고연전 경기에서의 연도별 실제 사용 빈도와 고정 상황"
+      ]
+    },
+    {
+      "id": "university-korea-goyeonga-shine",
+      "title": "고연가: 고대를 빛내리라",
+      "aliases": ["고연가(빛)", "고빛", "고대를 빛내리라"],
+      "currentStatus": "current-provisional-direct-use-verified-through-2025-no-exact-2026-sample",
+      "summary": "2011년 두 고연가를 잇는 `세 번째 이야기`로 2024년 하반기 응원OT에서 공개된 짧은 승리 합창곡이다. 2024년 9월 세종·서울 응원OT 표본과 2025 신입생 응원OT·입실렌티 3종 메들리가 확인된다. 영상 공개 댓글은 한화 이글스의 `사랑한다 최강한화`와 선율이 같다고 반복해서 지적하며 청감상 계보도 일치하지만, 고려대 응원단의 원곡·차용 크레딧이나 이용 허락은 찾지 못했다. 2026 표본에서 `고연가`라는 제목만 있는 영상은 모두 `고대를 노래하라`로 확인돼 2026 현행은 추가 검증이 필요하다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2024년 신곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-shine-2024-new", "yt-ku-e-shine-2024-sejong"],
+          "notes": "신곡 영상 제목·설명과 같은 달 세종 응원OT 영상이 일치한다."
+        },
+        {
+          "field": "seriesPosition",
+          "value": "2011년 고연가 두 곡을 잇는 세 번째 고연가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-shine-2024-new", "yt-ku-e-shine-2025-set"],
+          "notes": "2024 신곡 설명이 직접 `세 번째 이야기`라고 밝힌다."
+        },
+        {
+          "field": "sourceMelody",
+          "value": "한화 이글스 `사랑한다 최강한화`와 같은 선율이라는 공개 반응",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-ku-e-shine-2024-new", "ev-ku-e-hanwha-2024-list"],
+          "notes": "신곡 영상의 여러 댓글과 두 실연의 선율이 일치하지만 고려대판 공식 크레딧은 없다. 직접 차용인지 공통 원곡인지도 미확인이다."
+        },
+        {
+          "field": "latestDirectUse",
+          "value": "2025 입실렌티",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-shine-2025-set"],
+          "notes": "영상 제목·해시태그·실연은 세 번째 곡을 특정한다. 설명의 연도 목록에는 제목 오기가 있다."
+        },
+        {
+          "field": "currentUse2026",
+          "value": "직접 확인되지 않음",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ku-e-namu-2020s", "yt-ku-e-sing-2026"],
+          "notes": "현행 인벤토리와 편집형 문서에는 남지만, 조사한 2026 신입생·합동응원·입실렌티 영상의 `고연가`는 `고대를 노래하라`였다. 중단으로 단정하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "2024 하반기·세종 응원OT와 2025 신입생 응원OT에서 짧은 승리·별 이미지의 집단 합창으로 사용했다.",
+        "2025 입실렌티에서는 사랑·노래·빛 세 고연가를 한 묶음으로 소개하는 메들리의 세 번째 곡으로 공연됐다."
+      ],
+      "trivia": [
+        {
+          "id": "shine-hanwha-recognition",
+          "summary": "2024 신곡 영상의 공개 댓글 세 건은 곡이 시작되자 한화 이글스의 `사랑한다 최강한화`를 떠올렸고, 그중 일부는 대학 응원가가 야구 응원가 선율을 사용한 점에 놀랐다고 적었다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-shine-2024-new"]
+        },
+        {
+          "id": "shine-three-song-set",
+          "summary": "2025 입실렌티 영상은 2011년 두 곡과 2024년 곡을 `고연가 3종세트`로 묶어 연작 정체성을 전면에 내세웠다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-shine-2025-set"]
+        },
+        {
+          "id": "shine-description-label-error",
+          "summary": "같은 2025 영상 설명의 세 번째 연도 항목은 `고대를 사랑하라(2024)`라고 중복 표기하지만 제목·해시태그와 2024 공식 신곡 영상은 `고대를 빛내리라`임을 분명히 한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ku-e-shine-2025-set", "yt-ku-e-shine-2024-new"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-or-rights-unknown-possible-adaptation-public-authorization-not-located",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=EaiDQR_r4U4",
+          "https://www.youtube.com/watch?v=of6SYEpdWV4",
+          "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles"
+        ],
+        "structureSummary": "하늘과 승리의 별 이미지를 연결한 짧은 절을 두 번 제시하고, 긴 무의미음 합창과 학교를 빛내겠다는 결구를 반복하는 약 2분 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ku-e-shine-2024-new",
+        "yt-ku-e-shine-2024-sejong",
+        "yt-ku-e-shine-2024-autumn",
+        "yt-ku-e-shine-2025-ot",
+        "yt-ku-e-shine-2025-set"
+      ],
+      "unresolved": [
+        "고려대판 작사·작곡·편곡·보컬·녹음 제작진",
+        "한화 이글스 곡을 직접 차용했는지 또는 같은 외부 원곡을 공유하는지",
+        "선율 이용 허락과 공개·공연·음원 배포의 권리 범위",
+        "2026년 날짜·행사가 특정된 직접 사용 표본과 현행 여부",
+        "2025 영상 설명의 세 번째 곡 제목 오기를 게시자가 정정했는지"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ku-e-namu-2010s",
+      "type": "namuwiki-mirror",
+      "url": "https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80",
+      "title": "고려대학교/응원가/2010년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "고연가 두 곡, Yeah Yeah Yeah, 카운트다운 등 2010년대 곡을 분류하고 곡별 원곡·동작·사용 서술을 모은 편집형 자료다. 접근 시점에 미러 점검이 반복돼 검색 색인과 직접 영상으로 핵심 주장을 재검증했다.",
+      "supports": ["decadeClassification", "aliases", "reportedUsage"]
+    },
+    {
+      "id": "ev-ku-e-namu-2020s",
+      "type": "namuwiki-mirror",
+      "url": "https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80",
+      "title": "고려대학교/응원가/2020년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "고연가(빛)를 2020년대 곡 목록에 포함하는 편집형 자료다. 현행 여부는 목록 존재만으로 확정하지 않고 날짜 특정 현장 영상으로 별도 판정했다.",
+      "supports": ["decadeClassification", "inventoryPresence"]
+    },
+    {
+      "id": "ev-ku-e-datahumanities-2022",
+      "type": "university-research-project",
+      "url": "https://dh.aks.ac.kr/~jisun/edu/index.php/TeamCheerUpKU22",
+      "title": "정기 고연전 경기 상황에 따른 고려대학교 응원곡 사용 맥락 분석",
+      "publisher": "고려대학교 데이터인문학 수업 응원하조",
+      "publishedAt": "2022",
+      "accessedAt": "2026-08-09",
+      "summary": "응원단 제공 2022 가사집·홈페이지 음원 32곡과 2016~2022 중 분석 가능한 고연전 중계 여섯 편을 데이터화했다. `고대를 노래하라`를 평균보다 자주 불린 2010년대 곡으로 분류하고, 영상 표본 한계도 명시한다.",
+      "supports": ["sourceCorpus", "historicalFrequency", "methodLimitations"]
+    },
+    {
+      "id": "ev-ku-e-freshman-guide-2020",
+      "type": "university-student-guide",
+      "url": "https://sis.korea.ac.kr/sis/join/notice.do?articleNo=179103&attachNo=146961&mode=download",
+      "title": "2020년도 고려대학교 자유전공학부 새내기 자료집",
+      "publisher": "고려대학교 자유전공학부",
+      "publishedAt": "2020",
+      "accessedAt": "2026-08-09",
+      "summary": "Yeah Yeah Yeah에서 트위스트와 좌우로 통통 뛰는 동작을 설명하는 교내 신입생 안내 자료다. 가사 전문은 이 배치에 옮기지 않았다.",
+      "supports": ["movement", "freshmanOrientationContext"]
+    },
+    {
+      "id": "ev-ku-e-yiruma-kiss-rain",
+      "type": "artist-and-music-catalog",
+      "url": "https://music.apple.com/us/song/1437487832",
+      "title": "Kiss the Rain - Song by Yiruma",
+      "publisher": "Apple Music",
+      "publishedAt": "2003-10-23",
+      "accessedAt": "2026-08-09",
+      "summary": "이루마의 `Kiss the Rain`과 2003-10-23 발매 정보를 제공하는 음원 카탈로그다.",
+      "supports": ["originalSong", "originalRelease"]
+    },
+    {
+      "id": "ev-ku-e-time-goodbye",
+      "type": "artist-official",
+      "url": "https://sarahbrightman.com/discography/time-to-say-goodbye-single/",
+      "title": "Time to Say Goodbye Single",
+      "publisher": "Sarah Brightman Official",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Andrea Bocelli의 `Con te partirò`가 Sarah Brightman과의 듀엣을 위해 Frank Peterson에 의해 재작업되고 영어 제목으로 다시 녹음된 계보를 설명한다. 작곡·작사 크레딧은 권리 정보와 함께 교차 확인했다.",
+      "supports": ["originalSong", "versionLineage", "originalCredits"]
+    },
+    {
+      "id": "ev-ku-e-time-goodbye-rights",
+      "type": "rights-catalog",
+      "url": "https://www.easysong.com/search/songs/song-copyright-holder-information.aspx?s=52669",
+      "title": "Time to Say Goodbye - Song Copyright Information",
+      "publisher": "Easy Song Licensing",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "`Time to Say Goodbye`의 작사자 Lucio Quarantotto와 작곡자 Francesco Sartori를 열거하는 권리 정보다. 이 크레딧은 원곡 계열에 관한 것이며 고려대 응원가판 제작진을 뜻하지 않는다.",
+      "supports": ["originalCredits"]
+    },
+    {
+      "id": "ev-ku-e-nobrain-apple",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/kr/song/1859254795",
+      "title": "Rock It Rocket - 노브레인",
+      "publisher": "Apple Music",
+      "publishedAt": "2007-09-17",
+      "accessedAt": "2026-08-09",
+      "summary": "노브레인의 앨범 `그것이 젊음` 수록곡 `Rock It Rocket`과 2007-09-17 발매일을 확인한다.",
+      "supports": ["originalSong", "originalRelease"]
+    },
+    {
+      "id": "ev-ku-e-nobrain-credits",
+      "type": "official-audio",
+      "url": "https://www.youtube.com/watch?v=6DYlibpNCCo",
+      "title": "Rock It Rocket",
+      "publisher": "노브레인 Official Artist Channel",
+      "publishedAt": "2023-01-05",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 제공 음원 설명이 황현성을 작사·작곡자로 적는다. 응원가판의 개사·편곡 크레딧은 제공하지 않는다.",
+      "supports": ["originalCredits"]
+    },
+    {
+      "id": "ev-ku-e-hanwha-2024-list",
+      "type": "kbo-audio-playlist",
+      "url": "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+      "title": "한화이글스 응원가 (Ver. 2, No.95)",
+      "publisher": "KBO",
+      "publishedAt": "2024-07-02",
+      "accessedAt": "2026-08-09",
+      "summary": "2024 한화 이글스 응원가 목록에서 `사랑한다 최강한화`를 별도 팀곡으로 수록하고 타임스탬프를 제공한다. 고려대판과의 직접 계약·차용 관계는 설명하지 않는다.",
+      "supports": ["hanwhaSongIdentity", "melodyComparisonContext"]
+    },
+    {
+      "id": "ev-ku-e-kuaa-yeah-interview",
+      "type": "university-alumni-interview",
+      "url": "https://www.kuaascholarship.or.kr/member/bulletin/interview.do",
+      "title": "고려대학교 교우회 인터뷰 - 베로니카 프리드리히",
+      "publisher": "고려대학교 교우회",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "외국인 교우가 가장 좋아하는 응원가로 Yeah Yeah Yeah을 꼽고 그 기억을 문신으로 남겼다는 사연을 소개한다.",
+      "supports": ["alumniReception", "trivia"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ku-e-countdown-2015",
+      "songId": "university-korea-countdown",
+      "url": "https://www.youtube.com/watch?v=I06HPhjLtrE",
+      "videoId": "I06HPhjLtrE",
+      "title": "2015/09/10 안암 응원 OT \"count down\"",
+      "channel": "KODA",
+      "publishedAt": "2015-11-20",
+      "descriptionSummary": "설명은 비어 있지만 제목이 2015-09-10 안암 응원OT와 곡명을 함께 특정하는 가장 이른 직접 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["earliestVerifiedUse", "eventUse"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-countdown-2018-event",
+      "songId": "university-korea-countdown",
+      "url": "https://www.youtube.com/watch?v=VWXkRosY0lo",
+      "videoId": "VWXkRosY0lo",
+      "title": "2018년도 새내기새로배움터 - 카운트다운(바람)",
+      "channel": "고려대학교 호익응원단 루터스",
+      "publishedAt": "2020-01-03",
+      "descriptionSummary": "2018 새내기새로배움터의 카운트다운 공연을 보존한 영상이다. 게시일과 행사연도가 다르며 괄호 속 `바람`은 공연자·역할 표기로 보이나 확정하지 않았다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["eventUse2018", "dateDistinction"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-countdown-2024-long",
+      "songId": "university-korea-countdown",
+      "url": "https://www.youtube.com/watch?v=AnLm-gnWA9c",
+      "videoId": "AnLm-gnWA9c",
+      "title": "고대 응원가 뭘 좋아할지 몰라 다 가져옴. 2024 고려대 입실렌티 판쓸이 응원 I 고려대학교 응원단",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-06-14",
+      "descriptionSummary": "2024 입실렌티 19곡 메들리에서 카운트다운을 조단장 턴 25:40에 배치한다. 댓글은 곡 시작 화면의 Since 표기를 긍정하지만 해당 숫자는 표본 메타데이터만으로 판독하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 곡마다 시작 화면에 도입 연도를 표시한 편집이 유용하다고 평가한다.",
+        "고려대 재학생·졸업생뿐 아니라 수험생과 외부 관객도 메들리를 공부 동기와 공동체 기억으로 소비한다."
+      ],
+      "supports": ["use2024", "performancePlacement", "sinceOverlay"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-countdown-2024-ot",
+      "songId": "university-korea-countdown",
+      "url": "https://www.youtube.com/watch?v=e1dGB_DNpUQ",
+      "videoId": "e1dGB_DNpUQ",
+      "title": "2024.03.12 고려대학교 서울 응원OT [COUNT DOWN]",
+      "channel": "KODA",
+      "publishedAt": "2024-04-18",
+      "descriptionSummary": "2024-03-12 서울 응원OT 단독 공연이다. 설명은 행사·응원단 태그만 제공하며 원곡·제작진을 밝히지 않는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["use2024", "officialSpelling"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-countdown-2026-ot",
+      "songId": "university-korea-countdown",
+      "url": "https://www.youtube.com/watch?v=KrhyoCnPf8o",
+      "videoId": "KrhyoCnPf8o",
+      "title": "[2026 고려대 응원OT] 응원은 기세! '카운트다운 Countdown + 호랑이'",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-12",
+      "descriptionSummary": "2026-03-17 신입생 응원OT에서 카운트다운을 00:03, 호랑이를 02:24에 연속 배치한 현행 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건은 2026 의상과 곡 인상에 비판적인 반응을 남겼으며 도입·원곡 정보는 제공하지 않는다."
+      ],
+      "supports": ["currentUse2026", "pairingWithTiger"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-countdown-2026-ipselenti",
+      "songId": "university-korea-countdown",
+      "url": "https://www.youtube.com/watch?v=ORI0ZebruK8",
+      "videoId": "ORI0ZebruK8",
+      "title": "[2026 고려대 입실렌티] 3부 응원 전반부_청춘예찬 + 백야 + 출사표 + 카운트다운 + 연세치킨 + 입실렌티 + 예예예",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-07",
+      "descriptionSummary": "2026-05-22 입실렌티에서 카운트다운을 조단장 턴 08:02에 특정한다. 같은 표본에서 예예예는 15:05에 이어진다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 청춘과 입실렌티의 현장 분위기, 고려대 입학 목표에 관한 반응이 중심이며 곡 계보 주장은 없다."
+      ],
+      "supports": ["currentUse2026", "performancePlacement"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-yeah-official-2014",
+      "songId": "university-korea-yeah-yeah-yeah",
+      "url": "https://www.youtube.com/watch?v=gTSkY-JMMRk",
+      "videoId": "gTSkY-JMMRk",
+      "title": "Yeah Yeah Yeah - [고려대학교 응원단 온라인 응원OT]",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2014-11-02",
+      "descriptionSummary": "응원단 공식 초기 교육 영상으로 절·후렴·무의미음 구간과 전체 반복 순서를 제시한다. 2020 재업로드와 달리 원곡 크레딧은 쓰지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 오래전 이 영상으로 응원을 연습했던 신입생의 회상과 호랑이 동작에 대한 유쾌한 반응을 담는다."
+      ],
+      "supports": ["earliestOfficialVideo", "lyricsStructure"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-yeah-2014-ot",
+      "songId": "university-korea-yeah-yeah-yeah",
+      "url": "https://www.youtube.com/watch?v=HmjwIBpnG6M",
+      "videoId": "HmjwIBpnG6M",
+      "title": "2014 안암 응원 OT yeah yeah yeah",
+      "channel": "KODA",
+      "publishedAt": "2015-01-07",
+      "descriptionSummary": "2014 안암 응원OT 실연을 담은 직접 표본이다. 게시일은 2015년이므로 행사연도와 분리했다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 원곡을 노브레인의 Rock It Rocket으로 식별한다. 공식 2020 영상의 크레딧과 일치한다."
+      ],
+      "supports": ["use2014", "originalSongRecognition"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-yeah-2018",
+      "songId": "university-korea-yeah-yeah-yeah",
+      "url": "https://www.youtube.com/watch?v=Vsw0NpxXpdY",
+      "videoId": "Vsw0NpxXpdY",
+      "title": "[2018 고려대 입실렌티] 예예예 Yeah Yeah Yeah - 고려대학교 응원단",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2018-06-03",
+      "descriptionSummary": "2018-05-25 입실렌티 2부 판쓸이 응원 단독 영상으로 제목 구호와 호랑이 춤 구간을 소개한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 관중이 원을 만들고 한쪽으로 몰려가는 대형 이동을 이 곡의 핵심 재미로 회상한다.",
+        "수험생이 미래에 현장에 참여하겠다는 반응도 반복된다."
+      ],
+      "supports": ["use2018", "movementMemory"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-yeah-official-2020",
+      "songId": "university-korea-yeah-yeah-yeah",
+      "url": "https://www.youtube.com/watch?v=0tX2SmbErik",
+      "videoId": "0tX2SmbErik",
+      "title": "Yeah Yeah Yeah | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-11",
+      "descriptionSummary": "응원단 공식 재교육 영상으로 곡 구조와 원곡 `Rock it rocket – 노브레인`을 직접 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 단원의 역동적인 동작과 표정, 다른 학교 체육대회에서 사용하고 싶다는 해외 관객 반응을 담는다."
+      ],
+      "supports": ["officialOriginalCredit", "lyricsStructure", "movement"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-yeah-2025",
+      "songId": "university-korea-yeah-yeah-yeah",
+      "url": "https://www.youtube.com/watch?v=pdK6pXssBgk",
+      "videoId": "pdK6pXssBgk",
+      "title": "[2025 입실렌티 응원] '예예예 + 입실렌티'",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-06-28",
+      "descriptionSummary": "2025 입실렌티 2부 조단장 응원에서 예예예와 입실렌티를 연속 편집한 현행 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 다른 곡보다 응원단이 앞뒤로 크게 이동하는 대형이 귀엽고 인상적이라고 평가한다.",
+        "현장에 참여하고 싶다는 수험생·외국 관객 반응도 있다."
+      ],
+      "supports": ["use2025", "movementMemory"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-yeah-2026",
+      "songId": "university-korea-yeah-yeah-yeah",
+      "url": "https://www.youtube.com/watch?v=ORI0ZebruK8",
+      "videoId": "ORI0ZebruK8",
+      "title": "[2026 고려대 입실렌티] 3부 응원 전반부_청춘예찬 + 백야 + 출사표 + 카운트다운 + 연세치킨 + 입실렌티 + 예예예",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-06-07",
+      "descriptionSummary": "2026-05-22 입실렌티 조단장 턴에서 예예예를 15:05에 특정해 현재 사용을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 전체 메들리의 청춘·축제 분위기에 반응하며 개별 곡의 도입 연도 주장은 남기지 않는다."
+      ],
+      "supports": ["currentUse2026"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-love-official-2011",
+      "songId": "university-korea-goyeonga-love",
+      "url": "https://www.youtube.com/watch?v=_668n2v3r4M",
+      "videoId": "_668n2v3r4M",
+      "title": "고연가 : 고대를 사랑하라 (2011년 신곡) - [고려대학교 응원단 온라인 응원OT]",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2013-04-23",
+      "descriptionSummary": "응원단 공식 과거 교육 영상이 `2011 정기 고연전 신곡`이라고 명시하고 절과 선창·후창의 반복 순서를 제시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 학교를 향한 애정을 표현하고 원곡이 무엇인지 묻는다."
+      ],
+      "supports": ["introduction2011", "lyricsStructure"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-love-official-2020",
+      "songId": "university-korea-goyeonga-love",
+      "url": "https://www.youtube.com/watch?v=0hoS4tD3INs",
+      "videoId": "0hoS4tD3INs",
+      "title": "고연가-고대를 사랑하라 | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-19",
+      "descriptionSummary": "공식 재교육 영상이 원곡을 `Kiss the rain`으로 표기하고 절·후창·반복 순서를 안내한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 단원의 동작과 표정, 곡에서 느끼는 애교심과 감동을 반복해서 언급한다.",
+        "특정 단원이 뒤에 응원단장이 됐다는 회고성 관찰도 있으나 인사 기록으로 확정하지 않았다."
+      ],
+      "supports": ["officialOriginalCredit", "lyricsStructure", "reception"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-love-2023",
+      "songId": "university-korea-goyeonga-love",
+      "url": "https://www.youtube.com/watch?v=ZcGwS-YV5ks",
+      "videoId": "ZcGwS-YV5ks",
+      "title": "신촌의 중심에서 사랑을 외치다 '고연가 - 고대를 사랑하라' 2023 정기전 합동 응원 OT",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2023-09-07",
+      "descriptionSummary": "2023 합동 응원OT에서 연세대 노천극장에 울린 고연가 단독 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 고대 단장의 전신 동작과 곡의 감성적 인상을 높게 평가하며 현장 감동을 회상한다."
+      ],
+      "supports": ["use2023", "jointCheerContext", "reception"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-love-2024",
+      "songId": "university-korea-goyeonga-love",
+      "url": "https://www.youtube.com/watch?v=XA-5cDl2gVA",
+      "videoId": "XA-5cDl2gVA",
+      "title": "2024.05.25 IPSELENTI 지.야의 함성 [고연가(고대를사랑하라)]",
+      "channel": "KODA",
+      "publishedAt": "2024-06-16",
+      "descriptionSummary": "2024 입실렌티 단독 현장 표본으로 학교 사랑·고대라는 핵심 주제 태그를 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 곡을 명곡·힐링곡으로 부르며 학창 시절을 회상하는 반응이 중심이다."
+      ],
+      "supports": ["use2024", "theme", "reception"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-love-2025-set",
+      "songId": "university-korea-goyeonga-love",
+      "url": "https://www.youtube.com/watch?v=CMognvKFbHM",
+      "videoId": "CMognvKFbHM",
+      "title": "[2025 입실렌티 응원] 고대를 사랑하는 노래. 고연가 3종 세트",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-06-15",
+      "descriptionSummary": "2025 입실렌티에서 사랑·노래·빛 세 고연가를 연속 공연한다. 설명은 첫 두 곡을 2011로 적지만 세 번째를 실수로 `사랑하라(2024)`라고 중복 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 고연가 연작과 응원단의 활력·대형 이동을 긍정적으로 평가한다.",
+        "외부 관객이 이 공연을 통해 고려대에 애정을 느끼게 됐다는 반응도 있다."
+      ],
+      "supports": ["use2025", "threeSongSeries", "descriptionTypo"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-love-2026-ot",
+      "songId": "university-korea-goyeonga-love",
+      "url": "https://www.youtube.com/watch?v=JjGJ-Xg4Ao4",
+      "videoId": "JjGJ-Xg4Ao4",
+      "title": "[2026 고려대 응원OT] '젊은 그대 + 고연가 고대를 사랑하라'",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-10",
+      "descriptionSummary": "2026-03-17 신입생 응원OT에서 곡 교육 뒤 `고연가 고대를 사랑하라`를 03:36에 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 고려대를 향한 애정을 표현한다. 다른 곡에 대한 1985년 회고는 이 곡의 연도 근거로 사용하지 않았다."
+      ],
+      "supports": ["currentUse2026", "freshmanOrientationContext"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-love-2026-ipselenti",
+      "songId": "university-korea-goyeonga-love",
+      "url": "https://www.youtube.com/watch?v=fw49Km7AQ9Q",
+      "videoId": "fw49Km7AQ9Q",
+      "title": "[2026 고려대 입실렌티] 출사표 + 꿇어라 연세 + 고래사냥 + 예예예 + 고연가 사랑하라 + 붉은노을",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-30",
+      "descriptionSummary": "2026-05-22 입실렌티 부단장 턴에서 `고연가 고대를 사랑하라`를 09:07에 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 부단장들의 동작과 촬영 현장감을 높게 평가하며 곡 계보에 관한 새 주장은 없다."
+      ],
+      "supports": ["currentUse2026", "performancePlacement"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-sing-official-2011",
+      "songId": "university-korea-goyeonga-sing",
+      "url": "https://www.youtube.com/watch?v=XTl7SbARdBE",
+      "videoId": "XTl7SbARdBE",
+      "title": "고연가 - 고대를 노래하라 (2011년 신곡) - [고려대학교 응원단 온라인 응원OT]",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2013-04-23",
+      "descriptionSummary": "응원단 공식 과거 교육 영상이 `2011 정기 고연전 신곡`이라고 명시하고 무의미음 합창·본문·구호의 순서를 제시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 원곡을 묻고 향후 고려대에서 직접 부르고 싶다는 반응을 남긴다."
+      ],
+      "supports": ["introduction2011", "lyricsStructure"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-sing-official-2020",
+      "songId": "university-korea-goyeonga-sing",
+      "url": "https://www.youtube.com/watch?v=n4oLtwjhTfI",
+      "videoId": "n4oLtwjhTfI",
+      "title": "고연가-고대를 노래하라 | 고려대학교 응원단 온라인 응원 OT",
+      "channel": "고려대학교 응원단",
+      "publishedAt": "2020-11-19",
+      "descriptionSummary": "공식 재교육 영상이 원곡을 `Time to say goodbye`로 표기하고 구음·본문·구호 반복 구조를 안내한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 단원의 절도 있는 동작과 공연의 웅장함, 하이힐로 동작하는 난도를 언급한다."
+      ],
+      "supports": ["officialOriginalCredit", "lyricsStructure", "movement"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-sing-2022",
+      "songId": "university-korea-goyeonga-sing",
+      "url": "https://www.youtube.com/watch?v=08mHo4Rztvk",
+      "videoId": "08mHo4Rztvk",
+      "title": "[2022 고연전 응원] 고연가 고대를 노래하라 - 고려대학교 응원가 / 주경기장",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-11-19",
+      "descriptionSummary": "2022-10-29 고양종합운동장 정기 고연전 축구 응원에서 사용된 단독 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 영상 화질과 고려대 응원에 호응하고 양교 단장 교환응원 영상도 요청한다."
+      ],
+      "supports": ["regularMatchUse2022", "stadiumContext"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-sing-2023",
+      "songId": "university-korea-goyeonga-sing",
+      "url": "https://www.youtube.com/watch?v=LhvXKRLd3As",
+      "videoId": "LhvXKRLd3As",
+      "title": "3부 응원의 시작, 'Forever + 엘리제를 위하여 + 들보기 + Young Tigers + 고노래' 2023 고려대학교 축제",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2023-05-28",
+      "descriptionSummary": "2023 입실렌티 3부 메들리에서 `고연가 - 고대를 노래하라`를 09:40에 배치한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 연기 사이에서 한복을 입고 큰 동작을 보인 응원단장의 존재감을 강하게 기억한다."
+      ],
+      "supports": ["use2023", "performanceReception"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-sing-2025",
+      "songId": "university-korea-goyeonga-sing",
+      "url": "https://www.youtube.com/watch?v=Q3bjSAuZhSU",
+      "videoId": "Q3bjSAuZhSU",
+      "title": "2025.09.12 합동 응원OT[고연가(고대를 노래하라)(KU)]",
+      "channel": "KODA",
+      "publishedAt": "2025-09-15",
+      "descriptionSummary": "2025-09-12 합동 응원OT의 단독 표본으로 행사·양교·고연전 종목 태그를 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["use2025", "jointCheerContext"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-sing-2026",
+      "songId": "university-korea-goyeonga-sing",
+      "url": "https://www.youtube.com/watch?v=xNMFhFuvUNo",
+      "videoId": "xNMFhFuvUNo",
+      "title": "[2026 고려대/연세대 합동응원전] 양교 응원가 교류 '파란/고연가/온누리에/출사표/서시/들보기/하늘끝까지/포에버'",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-03-21",
+      "descriptionSummary": "2026 상반기 합동응원에서 양교 응원단장이 곡을 교류하며 `고대를 노래하라`를 03:20에 특정한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 양교 응원 문화와 단장의 표현력, 촬영 구도를 비교·평가한다.",
+        "재학생 가족과 졸업생이 현장을 개인적 기억과 연결하는 반응도 있다."
+      ],
+      "supports": ["currentUse2026", "crossSchoolExchange"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-shine-2024-new",
+      "songId": "university-korea-goyeonga-shine",
+      "url": "https://www.youtube.com/watch?v=EaiDQR_r4U4",
+      "videoId": "EaiDQR_r4U4",
+      "title": "2024 대박신곡. 고연가 세번째 이야기, '고연가 고대를 빛내리라' - 2024 고연전 응원OT",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-09-16",
+      "descriptionSummary": "2011년 두 고연가에 이은 세 번째 이야기이자 2024 신곡이라고 밝히며 짧은 두 구간과 반복 순서를 제시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "여러 댓글은 도입 선율을 한화 이글스의 `사랑한다 최강한화`로 즉시 식별한다.",
+        "대학 응원가가 야구 응원가와 같은 선율을 쓰는 점을 놀라워하는 반응이 있다."
+      ],
+      "supports": ["introduction2024", "seriesPosition", "lyricsStructure", "hanwhaMelodyRecognition"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-shine-2024-sejong",
+      "songId": "university-korea-goyeonga-shine",
+      "url": "https://www.youtube.com/watch?v=of6SYEpdWV4",
+      "videoId": "of6SYEpdWV4",
+      "title": "2024.09.09 고연전 세종응원OT[고연가(고대를 빛내리라)]",
+      "channel": "KODA",
+      "publishedAt": "2024-09-14",
+      "descriptionSummary": "2024-09-09 세종 응원OT 실연이며 설명 태그가 `2024 신곡`, 빛나는 별, 승리와 곡명을 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 고려대의 승리를 기원하는 짧은 응원 반응을 남긴다."
+      ],
+      "supports": ["introduction2024", "sejongCampusUse", "theme"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-shine-2024-autumn",
+      "songId": "university-korea-goyeonga-shine",
+      "url": "https://www.youtube.com/watch?v=nMKGhwgVvCo",
+      "videoId": "nMKGhwgVvCo",
+      "title": "고연가, 세번째 이야기 '고연가 - 고대를 빛내리라 + 붉은 노을 + KOREA' 고려대학교 2024 하반기 응원 OT",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2024-09-17",
+      "descriptionSummary": "2024 하반기 응원OT 메들리의 첫 곡으로 `고대를 빛내리라`를 00:00에 특정한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["use2024", "performancePlacement"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-shine-2025-ot",
+      "songId": "university-korea-goyeonga-shine",
+      "url": "https://www.youtube.com/watch?v=eq8CpoBBIWA",
+      "videoId": "eq8CpoBBIWA",
+      "title": "고대 응원단 부단장 '우리는 고대 + 고연가 + 청춘예찬 + 영타이거즈' 2025 신입생 응원 OT",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2025-03-13",
+      "descriptionSummary": "2025 신입생 응원OT 메들리에서 `고대를 빛내리라`를 05:02에 명시해 이듬해 사용을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 높은 굽을 신고 큰 동작을 이어가는 부단장의 체력과 표현력을 반복해서 평가한다.",
+        "졸업생은 응원가가 자신을 강하게 만드는 동력이며 학창 시절을 떠올리게 한다고 회상한다."
+      ],
+      "supports": ["use2025", "freshmanOrientationContext", "reception"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ku-e-shine-2025-set",
+      "songId": "university-korea-goyeonga-shine",
+      "url": "https://www.youtube.com/watch?v=CMognvKFbHM",
+      "videoId": "CMognvKFbHM",
+      "title": "[2025 입실렌티 응원] 고대를 사랑하는 노래. 고연가 3종 세트",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-06-15",
+      "descriptionSummary": "2025 입실렌티에서 고연가 세 곡을 연속 실연한다. 제목·해시태그는 `빛내리라`를 명시하지만 설명의 연도 목록은 세 번째 곡을 `사랑하라(2024)`라고 잘못 중복 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "댓글은 세 곡을 묶은 공연과 응원단의 이동·표현력을 높게 평가한다.",
+        "곡을 통해 학교에 새롭게 애정을 느꼈다는 외부 관객 반응이 있다."
+      ],
+      "supports": ["latestDirectUse2025", "threeSongSeries", "descriptionTypo"] ,
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 30,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 21
+  }
+}

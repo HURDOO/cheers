@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-pusan-national-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-pusan",
+    "name": "부산대학교",
+    "type": "university"
+  },
+  "rightsNote": "2026년 가이드 영상은 PINALE의 권리 고지를 포함하지만 작사·작곡·음원·안무의 개별 권리자는 공개하지 않는다. 전체 가사·음원·영상 설명·댓글 원문은 저장하지 않고, 공식 응원법의 구조와 익명화한 반응만 요약한다.",
+  "items": [
+    {
+      "id": "pusan-university-cheer-song",
+      "title": "부산대학교 응원가",
+      "aliases": ["부산대 응원가", "PINALE 부산대학교 응원가"],
+      "currentStatus": "current-confirmed-2026-newly-released",
+      "summary": "총학생회 특별기구인 부산대학교 응원단 PINALE가 2026년 5월 중순 처음 공개하고 같은 달 피우리오 무대용 공식 응원법을 배포한 신곡이다. 공식 영상의 표기는 아직 고유 제목 없이 ‘부산대학교 응원가’다. 가이드와 5월 27일 대학 공식 생중계가 현행 사용을 뒷받침하지만, 공개 원본·작사·작곡·가창·편곡·정식 가사와 ‘피날레 버전’ 외의 판본은 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "officialTitle",
+          "value": "부산대학교 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-pusan-a-guide-2026"],
+          "notes": "PINALE의 공식 가이드 제목을 따른다. 별도의 고유 곡명은 설명·대학 공식 생중계·검색 결과에서 확인되지 않았다."
+        },
+        {
+          "field": "release",
+          "value": "2026년 5월 중순 공개, 정확한 최초 공개일은 미상",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-pusan-a-guide-2026"],
+          "notes": "한국시간 5월 20일 게시된 가이드가 곡이 ‘지난주에 공개’됐다고 밝힌다. 최초 음원·게시물은 검색에서 확보하지 못했으므로 5월 중순보다 좁게 확정하지 않았다."
+        },
+        {
+          "field": "firstConfirmedUse",
+          "value": "2026년 5월 27일 피우리오 DAY 2 PINALE 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-pusan-a-guide-2026", "yt-pusan-a-festival-live-2026"],
+          "notes": "가이드는 5월 27일 PINALE 무대에서 같은 응원법을 진행한다고 예고한다. 대학 공식 생중계의 1:30:46 전후 화면에서 PINALE 단원들이 관객과 응원가를 진행하고, 당시 공개 라이브 채팅도 이를 ‘부산대 응원가’라고 반복해서 식별한다."
+        },
+        {
+          "field": "organizationStatus",
+          "value": "PINALE는 부산대학교 총학생회 특별기구 소속 응원단",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-pusan-a-rules-2026"],
+          "notes": "2026년 3월 11일 개정 응원단칙 제1조와 제4조에 명칭과 소속이 명시돼 있다."
+        },
+        {
+          "field": "creatorAndOrigin",
+          "value": "작사·작곡·편곡·가창 및 원곡·차용 관계 미공개",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["yt-pusan-a-guide-2026", "ev-pusan-a-namuwiki-gap"],
+          "notes": "가이드가 ‘피날레 버전 응원가’라고 표현해 다른 판본 가능성은 남지만, 이것만으로 PINALE의 자작곡·편곡곡 어느 쪽도 확정할 수 없다."
+        }
+      ],
+      "usageContexts": [
+        "2026 피우리오에서 관객이 단원의 거울 모드 안무와 구호를 따라 하는 참여형 무대",
+        "총학생회 특별기구 PINALE가 축제·체육 경기·교내외 주요 행사에서 구축하는 학교 응원문화의 신곡",
+        "2025~2026 초반 상업곡 커버 중심 세트에서 학교 고유 응원가를 추가한 전환점"
+      ],
+      "trivia": [
+        {
+          "id": "pusan-song-squad-before-song",
+          "summary": "PINALE는 2025년 3월 첫 공식 공연에서 무한궤도 ‘그대에게’와 소녀시대 ‘힘 내!’를 사용했고 2026 입학식에서도 ‘그대에게’와 DAY6 ‘한 페이지가 될 수 있게’를 공연했다. 학교 고유 응원가는 이 활동 뒤인 2026년 5월에 공개됐다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-pusan-a-first-official-2025", "yt-pusan-a-entry-2026", "yt-pusan-a-guide-2026"]
+        },
+        {
+          "id": "pusan-song-rules-history",
+          "summary": "2024년 12월 학내 언론은 회칙과 재정 지원이 없는 불안정한 창단을 보도했다. 응원단칙에는 2024년 12월 24일 제정, 2026년 3월 11일 개정이 기록돼 있어 신곡 공개 직전에 제도적 지위가 정비된 흐름을 확인할 수 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-pusan-a-launch-report-2024", "ev-pusan-a-rules-2026"]
+        },
+        {
+          "id": "pusan-song-guide-format",
+          "summary": "가이드 영상은 실제 무대와 같은 방향의 거울 모드로 제작됐고, 안무뿐 아니라 관객 구호까지 그대로 따라 하도록 안내한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-pusan-a-guide-2026"]
+        },
+        {
+          "id": "pusan-song-comments",
+          "summary": "신곡 가이드 자체에는 공개 댓글이 없다. PINALE의 기존 공연·학내 다큐 댓글은 신생 응원단의 첫 공연과 팀워크를 응원하는 반응이 중심이지만, 이를 신곡 평가로 오인하지 않았다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-pusan-a-guide-2026", "yt-pusan-a-first-official-2025", "yt-pusan-a-documentary-2025"]
+        },
+        {
+          "id": "pusan-song-sample-limit",
+          "summary": "신곡이 조사 시점 기준 공개 약 두 달 된 탓에 곡을 직접 특정하는 독립 영상은 공식 가이드와 공식 축제 생중계 두 편뿐이다. 나머지 표본은 창단·이전 레퍼토리·제작 연습을 확인하는 맥락 영상이며 직접 공연 표본으로 부풀리지 않았다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-pusan-a-guide-2026", "yt-pusan-a-festival-live-2026", "yt-pusan-a-launch-report-2024", "yt-pusan-a-first-official-2025", "yt-pusan-a-entry-2026", "yt-pusan-a-documentary-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "unknown authorship; official guide marked ©2026 PINALE All rights reserved",
+        "sourceUrls": ["https://www.youtube.com/watch?v=m91tGBZIynk", "https://www.youtube.com/watch?v=X8rV_A-pd14&t=5446s"],
+        "structureSummary": "55초 가이드에 맞춰 단원 안무와 관객 구호를 함께 익히는 짧은 참여형 구성이다. 공식 설명에는 가사·악보·음악 크레딧이 없으므로 전문이나 세부 절·후렴 문구를 전사하지 않았고, 공개 원본 확보 뒤 구조를 다시 판정해야 한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-pusan-a-guide-2026",
+        "yt-pusan-a-festival-live-2026",
+        "yt-pusan-a-entry-2026",
+        "yt-pusan-a-first-official-2025",
+        "yt-pusan-a-documentary-2025",
+        "yt-pusan-a-backstage-2025",
+        "yt-pusan-a-launch-report-2024"
+      ],
+      "unresolved": [
+        "2026년 5월 중순 최초 공개 원본과 정확한 공개일",
+        "공식 고유 곡명 존재 여부와 ‘부산대학교 응원가’가 임시·일반 표기인지 여부",
+        "작사·작곡·편곡·가창·음원 제작자와 원곡·샘플·차용 관계",
+        "‘피날레 버전’ 외 대학·총학생회·관중용 판본의 존재와 차이",
+        "공식 가사·악보·음원 및 곡·녹음·안무의 개별 권리자",
+        "5월 27일 이후 반복 사용과 2027년 현행 유지 여부",
+        "나무위키 곡 단위 문서와 제3자 직접 공연 영상의 부재"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-pusan-a-rules-2026",
+      "type": "official-regulation",
+      "url": "https://union.pusan.ac.kr/bbs/union/3154/978827/download.do",
+      "title": "부산대학교 응원단칙",
+      "publisher": "부산대학교 총학생회",
+      "publishedAt": "2026-03-11",
+      "accessedAt": "2026-08-09",
+      "summary": "PINALE의 명칭·목적·총학생회 특별기구 소속, 체육 경기·축제·교내외 주요 행사에서의 역할을 규정한다. 전문은 2024년 12월 24일 제정과 2026년 3월 11일 개정을 기록한다.",
+      "supports": ["organizationStatus", "organizationRole", "rulesHistory"]
+    },
+    {
+      "id": "ev-pusan-a-entry-program-2025",
+      "type": "official",
+      "url": "https://his.pusan.ac.kr/bbs/u-info/18541/1709399/artclView.do",
+      "title": "2025학년도 신입생 입학식 행사 개최 안내",
+      "publisher": "부산대학교",
+      "publishedAt": "2025-02-26",
+      "accessedAt": "2026-08-09",
+      "summary": "2025년 3월 4일 입학식 2부 여는 무대에 PINALE를 편성해 대학이 인정한 첫 공식 행사 맥락을 확인한다.",
+      "supports": ["earlyOfficialEvent", "organizationActivity"]
+    },
+    {
+      "id": "ev-pusan-a-namuwiki-gap",
+      "type": "wiki-search",
+      "url": "https://namu.wiki/Search?q=%EB%B6%80%EC%82%B0%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9D%91%EC%9B%90%EA%B0%80%20PINALE",
+      "title": "나무위키 부산대학교 응원가·PINALE 검색 점검",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "학교명·응원가·PINALE 조합으로 곡 단위 연혁·제작자를 검증할 문서를 확보하지 못했다. 문서 부재 자체를 출처 공백으로 남기며 검색 결과를 사실 근거로 사용하지 않는다.",
+      "supports": ["sourceGap", "creatorUnknown"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-pusan-a-guide-2026",
+      "songId": "pusan-university-cheer-song",
+      "url": "https://www.youtube.com/watch?v=m91tGBZIynk",
+      "videoId": "m91tGBZIynk",
+      "title": "[부산대학교 응원단 PINALE] 부산대학교 응원가 가이드 영상",
+      "channel": "부산대학교 응원단 PINALE",
+      "publishedAt": "2026-05-19T23:23:13-07:00",
+      "descriptionSummary": "곡이 전주에 공개됐다고 밝히고, 5월 27일 피우리오 PINALE 무대에서 사용할 안무·구호를 실제 무대 방향의 거울 모드로 안내한다. PINALE 권리 고지는 있으나 음악·가사 제작 크레딧은 없다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["officialTitle", "release", "directGuide", "officialCheerMethod", "rightsNotice"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-pusan-a-festival-live-2026",
+      "songId": "pusan-university-cheer-song",
+      "url": "https://www.youtube.com/watch?v=X8rV_A-pd14&t=5446s",
+      "videoId": "X8rV_A-pd14",
+      "title": "2026 부산대학교 축제 '피우리오' DAY 2",
+      "channel": "부산대학교 Pusan National University - PNU",
+      "publishedAt": "2026-05-27T17:33:13-07:00",
+      "descriptionSummary": "대학 본채널 생중계다. 1:30:46 전후 화면에서 PINALE 단원들이 관객을 향해 응원가와 동작을 진행하며, 당시 공개 라이브 채팅도 해당 구간을 ‘부산대 응원가’라고 반복해서 식별한다. 링크는 브라우저로 직접 확인한 구간에 맞췄다.",
+      "commentsStatus": "available",
+      "commentSummary": ["일반 댓글은 학생 공연과 초청 가수의 시점을 공유하는 반응이 중심이다.", "해당 공연 시점의 공개 라이브 채팅에서는 여러 시청자가 이를 부산대 응원가라고 식별하고 자긍심·호응을 나타냈으나 곡명·제작자 정보는 제시하지 않았다."],
+      "supports": ["firstConfirmedUse", "festivalPerformance", "officialLivestream"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-pusan-a-entry-2026",
+      "songId": "pusan-university-cheer-song",
+      "url": "https://www.youtube.com/watch?v=MY9WHY3loLU",
+      "videoId": "MY9WHY3loLU",
+      "title": "[부산대학교 응원단 PINALE] 2026 부산대학교 입학식 공연",
+      "channel": "부산대학교 응원단 PINALE",
+      "publishedAt": "2026-03-12T23:00:19-07:00",
+      "descriptionSummary": "3월 3일 입학식에서 ‘그대에게’와 ‘한 페이지가 될 수 있게’를 공연한 신곡 공개 전 레퍼토리 표본이다. 부산대학교 응원가는 목록에 없어 5월 공개가 후발이라는 맥락만 지원한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["PINALE 공연 실력과 다음 무대를 기대한다는 짧은 긍정 반응이 확인된다."],
+      "supports": ["preReleaseRepertoire", "organizationCurrent", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-pusan-a-first-official-2025",
+      "songId": "pusan-university-cheer-song",
+      "url": "https://www.youtube.com/watch?v=HpdnZQwh03M",
+      "videoId": "HpdnZQwh03M",
+      "title": "[부산대학교 응원단 PINALE] 2025 입학식 - 그대에게 & 힘내",
+      "channel": "부산대학교 응원단 PINALE",
+      "publishedAt": "2025-03-10T02:15:56-07:00",
+      "descriptionSummary": "PINALE가 2025 입학식을 첫 공식 공연이라고 직접 밝힌다. 두 상업곡 커버 세트로, 2026 신곡 직접 표본이 아니라 응원단과 학교 고유 응원가의 연혁을 분리하는 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": ["첫 공연의 센터·안무와 다음 무대를 칭찬하거나 다른 대학 방문을 요청하는 반응이 있다."],
+      "supports": ["firstOfficialPerformance", "earlyRepertoire", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-pusan-a-documentary-2025",
+      "songId": "pusan-university-cheer-song",
+      "url": "https://www.youtube.com/watch?v=uDcyo0IktiE",
+      "videoId": "uDcyo0IktiE",
+      "title": "[레디청춘 시즌3] EP 03. 부산대학교 응원단 피날레, 무대를 향한 카운트다운!",
+      "channel": "채널PNU 부산대학교 방송국",
+      "publishedAt": "2025-10-29T20:01:09-07:00",
+      "descriptionSummary": "학내 방송국이 PINALE의 연습·팀워크·무대 준비를 취재한 다큐 3편이다. 2026 신곡을 다루지는 않으며, 응원단이 자체 안무와 무대를 만드는 조직 맥락을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["학내 응원문화와 PINALE의 활동을 응원하고 영상 편집을 칭찬하는 반응이 확인된다."],
+      "supports": ["organizationPractice", "productionContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-pusan-a-backstage-2025",
+      "songId": "pusan-university-cheer-song",
+      "url": "https://www.youtube.com/watch?v=VcNHhl9MIdU",
+      "videoId": "VcNHhl9MIdU",
+      "title": "[레디청춘 시즌3] EP 04. 부산대학교 응원단 피날레, 백스테이지에서 본 무대에 서기까지!",
+      "channel": "채널PNU 부산대학교 방송국",
+      "publishedAt": "2025-11-05T19:01:13-08:00",
+      "descriptionSummary": "학내 방송국의 PINALE 백스테이지·공연 제작 후속편이다. 2026 신곡 직접 표본이 아니라 신생 응원단의 무대 운영 맥락을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 남성 단원의 존재 여부를 묻는 질문 한 건으로, 곡 관련 정보는 없다."],
+      "supports": ["organizationPerformance", "backstageContext", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-pusan-a-launch-report-2024",
+      "songId": "pusan-university-cheer-song",
+      "url": "https://www.youtube.com/watch?v=Jf78o1GiAM8",
+      "videoId": "Jf78o1GiAM8",
+      "title": "부산대 공식 응원단 창단 회칙 없이 위태로운 시작",
+      "channel": "채널PNU 부산대학교 방송국",
+      "publishedAt": "2024-12-02T20:30:07-08:00",
+      "descriptionSummary": "학내 언론이 새 이름으로 활동을 시작한 공식 응원단의 회칙·재정 지원 공백과 다음 해 대동제 무대 목표를 보도한다. 신곡 직접 영상이 아니라 PINALE 창단 배경을 확인하는 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": ["대학과 총학생회가 응원단에 제도적·재정적 지원책을 마련해야 한다는 의견이 확인된다."],
+      "supports": ["launchHistory", "rulesGap", "festivalGoal", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 1,
+    "youtubeSampleCount": 7,
+    "songsMeetingYoutubeMinimum": 1,
+    "openIssueCount": 7
+  }
+}

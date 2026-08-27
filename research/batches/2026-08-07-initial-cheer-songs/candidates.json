@@ -1,0 +1,1345 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-07-initial-cheer-songs",
+  "checkedAt": "2026-08-07",
+  "status": "research-candidates",
+  "itemCount": 23,
+  "rightsNote": "전체 가사와 음원은 저장하지 않았다. 제목·설명·짧은 특징·출처 URL만 후보 근거로 기록했으며, 정본 반영 전 권리와 사실관계에 대한 사람의 승인이 필요하다.",
+  "items": [
+    {
+      "id": "korea-university-minjogui-aria",
+      "teamName": "고려대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "민족의 아리아"
+      ],
+      "resolvedTitle": "민족의 아리아",
+      "aliases": [
+        "민아"
+      ],
+      "description": "고려대학교를 대표하는 장중한 군중 응원곡이다. 학교의 자유·정의·진리와 호랑이상을 연결하고, 후반부 무반주 떼창이 강한 상징으로 인식된다.",
+      "usageContext": "입실렌티와 고연전의 절정, 응원 OT·입학식, 무반주 육성 떼창, 학교 홍보와 교내 합창·축제 편곡 공연에 쓰인다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "Andrea Bocelli ‘Melodramma’",
+        "sourceArtist": "Andrea Bocelli",
+        "sourceYear": 2001,
+        "lyricSource": "조지훈의 호상비문을 바탕으로 한 응원가 가사",
+        "confidence": "high"
+      },
+      "chronology": {
+        "introductionYear": 2003,
+        "earliestDocumentedYear": 2003,
+        "confidence": "high",
+        "notes": "고려대 교우회 연표와 2014년 고려대 응원단 음악부 취재 보도가 일치한다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-korea-university-minjogui-aria-web-collection",
+        "ev-korea-university-minjogui-aria-yt-blzxqmxznty",
+        "ev-korea-university-minjogui-aria-yt-wprywayezky",
+        "ev-korea-university-minjogui-aria-yt-v4jtwzvwb98",
+        "ev-korea-university-minjogui-aria-yt-pjprgrpt1ew",
+        "ev-korea-university-minjogui-aria-yt-lixclsvujwu"
+      ],
+      "openQuestions": [
+        "응원가 편곡자와 가사 개작자의 정확한 크레딧",
+        "현재 편곡 음원·가사 게시 권리",
+        "무반주 구간 탄생 일화의 공식 기록"
+      ]
+    },
+    {
+      "id": "korea-university-forever",
+      "teamName": "고려대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "포에버"
+      ],
+      "resolvedTitle": "Forever",
+      "aliases": [
+        "FOREVER",
+        "포에버",
+        "포레버"
+      ],
+      "description": "짧고 반복적인 후렴과 웅장한 선율로 대규모 떼창을 만드는 대표곡이며 민족의 아리아와 함께 인기 응원가의 양대 축으로 취급된다.",
+      "usageContext": "입실렌티와 합동응원전의 절정·마무리, 어깨동무와 점프 동작, 야간 휴대전화 조명, 신입생 응원 OT와 아티스트 축제 공연에 쓰인다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "Stratovarius ‘Forever’",
+        "sourceArtist": "Stratovarius",
+        "sourceYear": 1996,
+        "additionalMusic": "간주에 영화 Cinema Paradiso의 Love Theme 사용",
+        "confidence": "high"
+      },
+      "chronology": {
+        "introductionYear": 2007,
+        "earliestDocumentedYear": 2007,
+        "confidence": "high",
+        "displayLabel": "since 2007",
+        "notes": "사용자가 제공한 2026 입실렌티 영상의 Forever 시작 장면(약 02:42)에 ‘Since 2007’이 표시된다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-korea-university-forever-web-collection",
+        "ev-korea-university-forever-yt-6jqz0bb8sa8",
+        "ev-korea-university-forever-yt-l1agotjwbcw",
+        "ev-korea-university-forever-yt-fc7j2waakfi",
+        "ev-korea-university-forever-yt-5g8mgu63k5a",
+        "ev-korea-university-forever-yt-gxsu759n4m",
+        "ev-korea-university-forever-yt-c8jjjhshk18"
+      ],
+      "openQuestions": [
+        "응원가 편곡자와 간주 편곡 크레딧",
+        "Love Theme 사용 권리"
+      ]
+    },
+    {
+      "id": "korea-university-deureora-boara-geurigo-gieokhara",
+      "teamName": "고려대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "들보기"
+      ],
+      "resolvedTitle": "들어라 보아라 그리고 기억하라",
+      "aliases": [
+        "들보기",
+        "들어라 보아라 기억하라"
+      ],
+      "description": "응원단과 관중의 선창·후창, 어깨동무, 좌우 이동이 결합된 장중한 응원곡이며 긴 정식명 때문에 현장에서 ‘들보기’로 줄여 부른다.",
+      "usageContext": "응원 OT·입학식 교육, 입실렌티·고연전 대규모 어깨동무 응원, 합동응원전에서 연세대 ‘서시’와 교차 배치되는 곡이다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "君をのせて (Kimi wo Nosete / Carrying You)",
+        "sourceArtist": "Azumi Inoue",
+        "composer": "Joe Hisaishi",
+        "lyricist": "Hayao Miyazaki",
+        "sourceYear": 1986,
+        "originalWork": "천공의 성 라퓨타 엔딩 테마",
+        "confidence": "high"
+      },
+      "chronology": {
+        "introductionYear": 2007,
+        "earliestDocumentedYear": 2007,
+        "confidence": "high",
+        "displayLabel": "since 2007",
+        "notes": "사용자가 제공한 2026 입실렌티 영상의 곡 시작 장면(약 00:16)에 ‘since 2007’이 표시된다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "alias": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-korea-university-deureora-boara-geurigo-gieokhara-web-collection",
+        "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-hejnzpoi",
+        "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-nrdkqyheb8",
+        "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-55shzmx8k0",
+        "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-ozdkakii7n8",
+        "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-8igllcy2txc",
+        "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-c8jjjhshk18"
+      ],
+      "openQuestions": [
+        "응원가 편곡·개사자 크레딧",
+        "사용 음원의 라이선스"
+      ]
+    },
+    {
+      "id": "korea-university-baennorae",
+      "teamName": "고려대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "뱃노래"
+      ],
+      "resolvedTitle": "뱃노래",
+      "aliases": [
+        "민족의 노래",
+        "승리의 노래",
+        "승리의 뱃노래"
+      ],
+      "description": "한국 전통민요를 응원용으로 편곡한 고려대의 대표 승리곡으로, 득점이나 경기 승리 직후 모두 어깨를 걸고 앞뒤로 움직이는 모습이 핵심이다.",
+      "usageContext": "고연전 득점·골·승리 직후, 입실렌티 피날레와 판쓸이 응원, 단과대·뒤풀이 응원에서 반복된다.",
+      "origin": {
+        "relationship": "arrangement",
+        "sourceWork": "한국 전통민요 ‘뱃노래’",
+        "sourceArtist": "전승 민요",
+        "sourceYear": null,
+        "confidence": "high",
+        "notes": "정확한 지역·전승 계통은 미확정이다."
+      },
+      "chronology": {
+        "introductionYear": 1974,
+        "earliestDocumentedYear": 1974,
+        "confidence": "high",
+        "notes": "공식 응원단 설명과 교우회 연표가 일치한다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-korea-university-baennorae-web-collection",
+        "ev-korea-university-baennorae-yt-eqmlpf8bvzo",
+        "ev-korea-university-baennorae-yt-wflxcx9xicq",
+        "ev-korea-university-baennorae-yt-xjjavwmsoac",
+        "ev-korea-university-baennorae-yt-nygy9kqzo04",
+        "ev-korea-university-baennorae-yt-ybadjueahzg"
+      ],
+      "openQuestions": [
+        "직접 편곡한 지역·전승 계통",
+        "1974년 편곡자와 최초 음원 제작자",
+        "긴 버전·득점용 짧은 버전의 정식 구분과 권리"
+      ]
+    },
+    {
+      "id": "korea-university-yeongwonhara",
+      "teamName": "고려대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "영원하라"
+      ],
+      "resolvedTitle": "영원하라",
+      "aliases": [
+        "고대여 영원하라"
+      ],
+      "description": "빠른 전자 바이올린 선율 위에 학교의 혼·단결·새 역사를 강조하는 응원곡으로 어깨동무와 좌우 이동, 반복적인 고개 동작이 현장 특징이다.",
+      "usageContext": "입실렌티와 고연전 응원 OT 중후반부, 기수부와 함께하는 공연에 쓰이며 롯데 자이언츠 ‘소리높여 외쳐보자’ 계열로 개사됐다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "Vanessa-Mae ‘Contradanza’",
+        "sourceArtist": "Vanessa-Mae",
+        "composer": "Mike Batt",
+        "sourceYear": 1995,
+        "confidence": "medium-high"
+      },
+      "chronology": {
+        "introductionYear": 2004,
+        "earliestDocumentedYear": 2004,
+        "confidence": "high",
+        "displayLabel": "since 2004",
+        "notes": "사용자가 제공한 2024 입실렌티 영상의 영원하라 시작 장면(약 04:32)에 ‘since 2004’가 표시된다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "medium-high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-korea-university-yeongwonhara-web-collection",
+        "ev-korea-university-yeongwonhara-yt-ifvoxjkdk4i",
+        "ev-korea-university-yeongwonhara-yt-ehgzzkhfq3m",
+        "ev-korea-university-yeongwonhara-yt-ximc4szjx8i",
+        "ev-korea-university-yeongwonhara-yt-0hparu40sqy",
+        "ev-korea-university-yeongwonhara-yt-mq28k1jssy",
+        "ev-korea-university-yeongwonhara-yt-anlmgnwa9c"
+      ],
+      "openQuestions": [
+        "응원가 편곡·개사자 크레딧",
+        "롯데 버전과의 권리 관계"
+      ]
+    },
+    {
+      "id": "yonsei-university-seosi",
+      "teamName": "연세대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "서시"
+      ],
+      "resolvedTitle": "서시",
+      "aliases": [
+        "연세대 서시"
+      ],
+      "description": "윤동주 시인을 기리는 헌정 성격의 대표 응원가다. 차분한 도입과 집단 합창으로 학교 정체성과 연대감을 강조한다.",
+      "usageContext": "응원 OT, 아카라카, 연고전과 학교 공식 다국어 콘텐츠에서 사용된다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "BanYa ‘베토벤 바이러스’",
+        "sourceArtist": "BanYa",
+        "sourceYear": null,
+        "underlyingWork": "베토벤 피아노 소나타 8번 ‘비창’ 3악장",
+        "lyricSource": "윤동주 「서시」를 응원가 형식에 맞게 일부 개작",
+        "dedication": "윤동주",
+        "confidence": "high"
+      },
+      "chronology": {
+        "introductionYear": 2003,
+        "earliestDocumentedYear": 2003,
+        "confidence": "high",
+        "displayLabel": "since 2003",
+        "notes": "2026 아카라카 영상의 ‘서시 since 2003’ 화면 표기, 연세대 응원가 나무위키 계열 문서, ‘민족의 아리아’ 나무위키 계열 문서와 언론 보도가 2003년으로 수렴한다.",
+        "conflictingClaims": [
+          {
+            "year": 2002,
+            "source": "고려대학교 교우회보 제628호",
+            "url": "https://www.scribd.com/document/1004670663/%25EA%25B5%2590%25EC%259A%25B0%25ED%259A%258C%25EB%25B3%25B4-628",
+            "status": "preserved-outlier-not-adopted",
+            "notes": "교우회보만 2002년 발표로 적는다. 사용자는 민족의 아리아가 서시에 대항해 2003년에 나왔다는 서술을 맞추는 과정에서 서시를 2002년으로 소급했을 가능성이 있다고 판단했다."
+          }
+        ]
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-yonsei-university-seosi-web-collection",
+        "ev-yonsei-university-seosi-yt-shzy36klqn8",
+        "ev-yonsei-university-seosi-yt-g1yeipge0",
+        "ev-yonsei-university-seosi-yt-6etjorrz2gu",
+        "ev-yonsei-university-seosi-yt-iagmdb4undw",
+        "ev-yonsei-university-seosi-yt-rqucsn86kyq",
+        "ev-yonsei-university-seosi-yt-mqamtwxrpcu"
+      ],
+      "openQuestions": [
+        "연세대판 최초 편곡·작사 담당자"
+      ]
+    },
+    {
+      "id": "yonsei-university-haneul-kkeutkkaji",
+      "teamName": "연세대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "하늘끝까지"
+      ],
+      "resolvedTitle": "하늘끝까지",
+      "aliases": [
+        "하늘 끝까지",
+        "하늘끝"
+      ],
+      "description": "선창과 대규모 후렴 응답이 두드러지는 현대 대표곡으로 학교 구성원 전체가 함께 외치는 곡이다.",
+      "usageContext": "아카라카, 합동응원, 신입생·동문 행사에서 사용되며 훈련 과정도 공식 콘텐츠로 소개됐다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "한성민 ‘사랑하면 할수록’",
+        "sourceArtist": "한성민",
+        "sourceYear": 2003,
+        "confidence": "high",
+        "influencedByCheer": {
+          "candidateId": "hanwha-eagles-saranghanda-eagles",
+          "title": "사랑한다 이글스",
+          "earliestDocumentedYear": 2015,
+          "relationship": "probable-influence",
+          "chronologicalPrecedenceConfidence": "high",
+          "directInfluenceConfidence": "low-medium",
+          "directAdaptationConfirmed": false
+        },
+        "notes": "사용자 확인에 따라 원곡만 우연히 공유한 독립 개사로 처리하지 않는다. 한화 이글스 ‘사랑한다 이글스’가 2015년에 먼저 사용됐고 연세대판은 2016년에 만들어진 순서는 확실하다. 다만 공개된 제작자 인터뷰에는 한화를 참고했다는 직접 언급이 없어 영향 관계 자체는 ‘유력·직접 확인 안 됨’으로 표시한다."
+      },
+      "chronology": {
+        "introductionYear": 2016,
+        "earliestDocumentedYear": 2016,
+        "confidence": "high",
+        "displayLabel": "since 2016",
+        "notes": "연세춘추 인터뷰에서 임현택 동문이 2016년 응원단 부단장 시절 이 곡을 만들었다고 회고한다. 2016-05-21 아카라카 영상에는 ‘신곡’이자 ‘첫 공개’로 기록돼 있다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-yonsei-university-haneul-kkeutkkaji-web-collection",
+        "ev-yonsei-university-haneul-kkeutkkaji-yt-uygsqlvjgc",
+        "ev-yonsei-university-haneul-kkeutkkaji-yt-vdbqyv0wps",
+        "ev-yonsei-university-haneul-kkeutkkaji-yt-i0xqzfzu9v8",
+        "ev-yonsei-university-haneul-kkeutkkaji-yt-08ah84djemc",
+        "ev-yonsei-university-haneul-kkeutkkaji-yt-lbw6f7au3a4"
+      ],
+      "openQuestions": [
+        "임현택 동문 외 공동 작사·편곡·안무 참여자의 정확한 개인별 크레딧",
+        "한화 응원가에서 연세대판으로 이어진 제작 경위를 직접 설명하는 당시 제작자 자료"
+      ]
+    },
+    {
+      "id": "yonsei-university-yonseiyeo-saranghanda",
+      "teamName": "연세대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "연세여 사랑한다",
+        "연세여사랑한다"
+      ],
+      "resolvedTitle": "연세여 사랑한다",
+      "aliases": [
+        "사랑한다 연세"
+      ],
+      "description": "장중한 분위기와 학교에 대한 애정을 전면에 둔 곡으로 경기·행사 후반부에 단결과 소속감을 표현한다.",
+      "usageContext": "아카라카, 합동응원, 미래캠퍼스와 동문 행사, 행사 마무리 구간에서 널리 사용된다.",
+      "origin": {
+        "relationship": "combined-adaptation",
+        "sourceWork": "‘Por una cabeza’와 ‘마지막 선택’",
+        "sourceArtist": "Carlos Gardel·김선경",
+        "sourceYear": null,
+        "confidence": "high",
+        "notes": "두 원곡을 결합·편곡했다는 공식 응원단 설명이 있다."
+      },
+      "chronology": {
+        "introductionYear": 2005,
+        "earliestDocumentedYear": 2005,
+        "confidence": "high",
+        "displayLabel": "since 2005",
+        "notes": "공식 응원단 FAQ가 2005년 제작을 명시한다."
+      },
+      "productionCreditClaims": [
+        {
+          "claim": "응원단원들이 두 원곡을 편곡해 제작",
+          "sourceClass": "official-cheering-squad",
+          "source": "https://akaraka.yonsei.ac.kr/faq",
+          "confidence": "high"
+        },
+        {
+          "claim": "미래캠퍼스 록 동아리 ‘커런트’ 제작설",
+          "sourceClass": "namuwiki",
+          "source": "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+          "confidence": "low",
+          "status": "attributed-claim-unresolved",
+          "notes": "사용자 지시에 따라 출처를 나무위키로 명시해 보존하며 공식 제작 크레딧으로 확정하지 않는다."
+        }
+      ],
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-yonsei-university-yonseiyeo-saranghanda-web-collection",
+        "ev-yonsei-university-yonseiyeo-saranghanda-yt-cgdocyiqnyg",
+        "ev-yonsei-university-yonseiyeo-saranghanda-yt-jrtyquwmtx0",
+        "ev-yonsei-university-yonseiyeo-saranghanda-yt-yrmq1wgsvq",
+        "ev-yonsei-university-yonseiyeo-saranghanda-yt-vdbqyv0wps",
+        "ev-yonsei-university-yonseiyeo-saranghanda-yt-wdu6y1pnat8"
+      ],
+      "openQuestions": [
+        "나무위키에 기재된 미래캠퍼스 록 동아리 ‘커런트’ 제작설과 공식 응원단 FAQ의 ‘응원단원 제작’ 설명 사이 역할 분담",
+        "작사·편곡·연주 세부 크레딧"
+      ]
+    },
+    {
+      "id": "yonsei-university-wonsirim",
+      "teamName": "연세대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "원시림"
+      ],
+      "resolvedTitle": "원시림",
+      "aliases": [],
+      "description": "빠른 템포와 앉기·서기·멈추기·뛰기 동작이 결합된 대표 고강도 응원가다.",
+      "usageContext": "연고전 득점 직후 승리 분위기를 끌어올리고 아카라카·합동응원·동문 행사에서도 핵심곡으로 쓰인다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "Styx ‘Music Time’",
+        "sourceArtist": "Styx",
+        "sourceYear": null,
+        "confidence": "high"
+      },
+      "chronology": {
+        "introductionYear": 1989,
+        "earliestDocumentedYear": 1989,
+        "confidence": "high",
+        "displayLabel": "since 1989",
+        "notes": "전 응원단장 회고와 보조 자료가 일치하며, 사용자가 지정한 2026 아카라카 영상 22:55의 화면 문구 ‘원시림 since 1989’를 직접 확인했다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-yonsei-university-wonsirim-web-collection",
+        "ev-yonsei-university-wonsirim-yt-qwkuy1sfppe",
+        "ev-yonsei-university-wonsirim-yt-yvw55mpyylm",
+        "ev-yonsei-university-wonsirim-yt-dnqank6bfay",
+        "ev-yonsei-university-wonsirim-yt-xigeipshyi8",
+        "ev-yonsei-university-wonsirim-yt-qoszfrcjcuy",
+        "ev-yonsei-university-wonsirim-yt-mqamtwxrpcu"
+      ],
+      "openQuestions": [
+        "당시 응원단 선배·단장·록밴드 소나기의 개인별 제작 역할"
+      ]
+    },
+    {
+      "id": "yonsei-university-haeya",
+      "teamName": "연세대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "해야떠라"
+      ],
+      "resolvedTitle": "해야",
+      "aliases": [
+        "해야 떠라",
+        "해야떠라"
+      ],
+      "description": "해가 떠오르는 이미지를 승리와 연결하는 고전 응원가로 큰 손동작과 집단 합창이 특징이다.",
+      "usageContext": "응원 OT와 아카라카에서 세대를 이어 사용된다. 두산 베어스 ‘해야’와는 마그마의 같은 원곡을 공유하지만 서로 별개의 개사곡으로 본다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "마그마 ‘해야’",
+        "sourceArtist": "마그마",
+        "sourceYear": 1980,
+        "lyricSource": "박두진 시",
+        "composer": "조하문",
+        "confidence": "high"
+      },
+      "chronology": {
+        "introductionYear": 1981,
+        "earliestDocumentedYear": 1981,
+        "confidence": "high",
+        "displayLabel": "since 1981",
+        "notes": "사용자가 지정한 2026 아카라카 영상 02:37의 화면 문구 ‘해야 since 1981’를 직접 확인했다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-yonsei-university-haeya-web-collection",
+        "ev-yonsei-university-haeya-yt-kaozoputqo",
+        "ev-yonsei-university-haeya-yt-o7cvrtunnsa",
+        "ev-yonsei-university-haeya-yt-b4vvfq7hrm4",
+        "ev-yonsei-university-haeya-yt-9xf2oinjips",
+        "ev-yonsei-university-haeya-yt-5z4qdtwywu",
+        "ev-yonsei-university-haeya-yt-bnxrhfh12g0",
+        "ev-yonsei-university-haeya-yt-mqamtwxrpcu"
+      ],
+      "openQuestions": [
+        "연세대판 편곡·개사 크레딧"
+      ]
+    },
+    {
+      "id": "hanyang-university-hanyangeul-wihayeo",
+      "teamName": "한양대학교",
+      "teamType": "university",
+      "requestedLabels": [
+        "승리를 위하여"
+      ],
+      "resolvedTitle": "한양을 위하여",
+      "aliases": [
+        "승리를 위하여",
+        "한양대 승리를 위하여",
+        "한양의 승리를 위하여"
+      ],
+      "description": "한양대 응원단 RHooters가 축제·응원행사에서 사용하는 집단 합창곡이다. 공식 제목은 ‘한양을 위하여’이며 ‘승리를 위하여’, ‘한양대 승리를 위하여’, ‘한양의 승리를 위하여’를 별칭으로 관리한다.",
+      "usageContext": "라치오스 축제, 응원단 공식 영상, 교내 방송과 아티스트 협업 무대에서 사용된다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "두산 베어스 ‘승리를 위하여’",
+        "sourceArtist": null,
+        "sourceYear": 2015,
+        "confidence": "medium"
+      },
+      "chronology": {
+        "introductionYear": null,
+        "reportedIntroductionYear": 2016,
+        "reportedIntroductionYearStatus": "unofficial",
+        "earliestDocumentedYear": 2020,
+        "confidence": "low-medium",
+        "displayLabel": "비공식 시작 연도 2016 · 정확한 도입 연도 불명확",
+        "reportedIntroductionYearSource": "https://namu.wiki/w/%EC%8A%B9%EB%A6%AC%EB%A5%BC%20%EC%9C%84%ED%95%98%EC%97%AC(%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4)",
+        "notes": "정확한 시작 연도는 알려지지 않았다. 사용자가 지정한 나무위키 ‘승리를 위하여(두산 베어스)’ 문서의 2016년 서술을 비공식 연도 출처로 사용한다. 공식 RHooters 영상으로는 2020년부터 사용을 확인한다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "medium",
+        "chronology": "low-medium"
+      },
+      "evidenceRefs": [
+        "ev-hanyang-university-hanyangeul-wihayeo-web-collection",
+        "ev-hanyang-university-hanyangeul-wihayeo-yt-sovndlkcpg0",
+        "ev-hanyang-university-hanyangeul-wihayeo-yt-qfdmphceho",
+        "ev-hanyang-university-hanyangeul-wihayeo-yt-06j63ca7i",
+        "ev-hanyang-university-hanyangeul-wihayeo-yt-ddrntqmokfg",
+        "ev-hanyang-university-hanyangeul-wihayeo-yt-qyefph9abhe"
+      ],
+      "openQuestions": [
+        "정확한 도입 연도와 최초 편곡자의 한양대 공식 문서 확인",
+        "두산 버전 사용 권리"
+      ]
+    },
+    {
+      "id": "doosan-bears-seungnireul-wihayeo",
+      "teamName": "두산 베어스",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "승리를 위하여"
+      ],
+      "resolvedTitle": "승리를 위하여",
+      "aliases": [
+        "두산 승리를 위하여",
+        "에메랄드 소드 응원가"
+      ],
+      "description": "팀 승리와 투지를 반복적으로 고조시키는 대형 떼창곡이다.",
+      "usageContext": "승리 직후 또는 뒤집기 어려운 큰 점수 차로 앞설 때 주로 사용된다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "Rhapsody ‘Emerald Sword’",
+        "sourceArtist": "Rhapsody",
+        "sourceYear": 1998,
+        "reportedCreator": "한재권 응원단장",
+        "confidence": "high",
+        "notes": "Rhapsody 공식 디스코그래피에서 ‘Emerald Sword’의 1998년 발표를 확인한다. 나무위키는 한재권 응원단장이 2015년에 새로 발표한 응원가라고 서술한다."
+      },
+      "versions": [
+        {
+          "label": "ver.1",
+          "reportedPeriod": "2015~2016",
+          "description": "영화 ‘대부’ OST와 Rhapsody ‘Emerald Sword’를 결합한 긴 버전",
+          "sourceStatus": "나무위키 기반 비공식 구분"
+        },
+        {
+          "label": "ver.2",
+          "reportedPeriod": "현재 사용(정확한 전환 시점 미확인)",
+          "description": "‘Emerald Sword’를 중심으로 줄인 현재 버전",
+          "sourceStatus": "나무위키 기반 비공식 구분"
+        }
+      ],
+      "relatedAdaptations": [
+        "한양대학교 ‘한양을 위하여’"
+      ],
+      "chronology": {
+        "introductionYear": 2015,
+        "earliestDocumentedYear": 2015,
+        "confidence": "high",
+        "displayLabel": "since 2015",
+        "notes": "2015년 첫 등장이라는 언론 설명과 2015-11-03 공개된 BEARS TV 전광판 영상이 일치한다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-doosan-bears-seungnireul-wihayeo-web-collection",
+        "ev-doosan-bears-seungnireul-wihayeo-yt-dqw2daojoho",
+        "ev-doosan-bears-seungnireul-wihayeo-yt-0vrj9pmcay4",
+        "ev-doosan-bears-seungnireul-wihayeo-yt-jex9ewpmdmm",
+        "ev-doosan-bears-seungnireul-wihayeo-yt-fflno0ar14",
+        "ev-doosan-bears-seungnireul-wihayeo-yt-krpuwcczxvq"
+      ],
+      "openQuestions": [
+        "정확한 편곡·제작 크레딧",
+        "ver.1·ver.2 구분과 전환 시점의 구단 공식 확인"
+      ],
+      "doNotMergeWith": []
+    },
+    {
+      "id": "doosan-bears-yayaya-doosan",
+      "teamName": "두산 베어스",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "야야야두산"
+      ],
+      "resolvedTitle": "야야야 두산",
+      "aliases": [
+        "야야야! 두산",
+        "야야야 두산!"
+      ],
+      "description": "짧은 구호와 팀명을 반복하며 어깨동무·호응을 유도하는 빠른 응원가다.",
+      "usageContext": "선취점, 홈런, 대량 득점 등 분위기가 크게 오를 때 어깨동무를 하고 사용된다.",
+      "origin": {
+        "relationship": "commissioned-original",
+        "sourceWork": null,
+        "sourceArtist": "강성찬",
+        "commissionedComposer": "정의송",
+        "sourceYear": 2006,
+        "confidence": "high",
+        "notes": "두산이 의뢰해 제작한 신규 응원가 5곡 중 하나다."
+      },
+      "chronology": {
+        "introductionYear": 2006,
+        "earliestDocumentedYear": 2006,
+        "confidence": "high",
+        "displayLabel": "since 2006",
+        "albumReleaseDate": "2006-04-01",
+        "firstPublicEvent": "2006-04-08 정규시즌 홈 개막전",
+        "notes": "2006 개막전 공개 보도와 2006-04-01 앨범 발매 정보가 일치한다. 나무위키에 따르면 2010년대 초반까지는 1절만 사용했으나 현재는 전곡을 사용한다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-doosan-bears-yayaya-doosan-web-collection",
+        "ev-doosan-bears-yayaya-doosan-yt-yorqwl5ek",
+        "ev-doosan-bears-yayaya-doosan-yt-vyzzyksptmg",
+        "ev-doosan-bears-yayaya-doosan-yt-3cpckhhwqd4",
+        "ev-doosan-bears-yayaya-doosan-yt-ihaesizj0s",
+        "ev-doosan-bears-yayaya-doosan-yt-ctutkmmkt8"
+      ],
+      "openQuestions": [
+        "상세 작사·편곡 크레딧"
+      ],
+      "doNotMergeWith": []
+    },
+    {
+      "id": "doosan-bears-haeya",
+      "teamName": "두산 베어스",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "해야"
+      ],
+      "resolvedTitle": "해야",
+      "aliases": [
+        "해야떠라",
+        "해야 떠라"
+      ],
+      "description": "웅장하게 팀명을 반복하며 역전·선취점·경기 후반 분위기를 끌어올리는 응원가다.",
+      "usageContext": "큰 선취점이나 역전, 경기 종료 무렵 우세 상황에서 사용된다. 나무위키 서술상 2017년 8월 저작권 문제로 중단되어 2024년까지 쓰이지 않다가 2025년에 복귀했다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "마그마 ‘해야’",
+        "sourceArtist": "마그마",
+        "sourceYear": 1980,
+        "sharedOriginalWith": "연세대학교 응원가 ‘해야’",
+        "notes": "두산과 연세대 응원가는 마그마 ‘해야’를 원곡으로 공유하지만 서로 직접 차용한 관계로 보지 않는다. 가사도 서로 별개다.",
+        "confidence": "high"
+      },
+      "chronology": {
+        "introductionYear": null,
+        "reportedIntroductionYear": 2011,
+        "reportedIntroductionYearStatus": "unofficial",
+        "earliestDocumentedYear": 2011,
+        "periods": [
+          "2011~2017",
+          "2025~"
+        ],
+        "confidence": "low-medium",
+        "displayLabel": "비공식 시작 연도 2011 · 정확한 도입 연도 불명확",
+        "reportedIntroductionYearSource": "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-1.23",
+        "notes": "정확한 도입 연도는 알려지지 않았다. 사용자가 지정한 나무위키 ‘두산 베어스/응원가’ 문서의 2011년 서술을 비공식 연도 출처로 사용한다. BEARS TV는 2025년 복귀를 ‘8년 만’이라고 공식 표현한다."
+      },
+      "historicalNotes": [
+        "‘해야떠라’로도 널리 불렸으나 2025년 구단 공식 영상 제목은 ‘해야’다.",
+        "나무위키에 따르면 2025년 3월 공식 인스타그램 응원가 목록에서 복귀가 예고됐고, 재녹음 대신 기존 음원의 보컬 음량을 높여 사용했다.",
+        "나무위키는 초기 가사와 현재 가사의 일부 차이 및 이후 음정 변경을 함께 기록한다."
+      ],
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "low-medium"
+      },
+      "evidenceRefs": [
+        "ev-doosan-bears-haeya-web-collection",
+        "ev-doosan-bears-haeya-yt-zgreu91v1dy",
+        "ev-doosan-bears-haeya-yt-hr8er2ayby",
+        "ev-doosan-bears-haeya-yt-jiv9me9kvpa",
+        "ev-doosan-bears-haeya-yt-qvxeg8ywq8",
+        "ev-doosan-bears-haeya-yt-q5onulqzvvm"
+      ],
+      "openQuestions": [
+        "2011년 첫 사용 경기",
+        "2017년 중단일과 저작권 처리"
+      ],
+      "doNotMergeWith": [
+        "doosan-bears-haeya-haeya"
+      ]
+    },
+    {
+      "id": "doosan-bears-haeya-haeya",
+      "teamName": "두산 베어스",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "해야해야"
+      ],
+      "resolvedTitle": "해야 해야",
+      "aliases": [
+        "해야해야"
+      ],
+      "description": "빠른 행진감과 흰색 타월 응원을 결합한 승리 지향 곡으로 ‘해야’와는 별도 곡이다.",
+      "usageContext": "흰색 응원 타월을 흔드는 동작이 특징이다. 원곡과 응원가의 첫 구절은 ‘해 해 해야’이지만 현장에서는 흥을 돋우려고 ‘헤이 헤이 해야’로 부르는 경우가 많다.",
+      "chantCue": {
+        "canonical": "해 해 해야",
+        "commonStadiumPronunciation": "헤이 헤이 해야",
+        "note": "‘헤이 헤이 해야’는 별칭이 아니라 현장 발음·구호로 관리한다."
+      },
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "김학래 ‘해야 해야’",
+        "sourceArtist": "김학래",
+        "sourceYear": 1986,
+        "reportedCreator": "한재권 응원단장",
+        "confidence": "high",
+        "notes": "나무위키는 한재권 응원단장이 취임 뒤 처음 만든 응원가라고 서술한다."
+      },
+      "chronology": {
+        "introductionYear": null,
+        "reportedIntroductionYear": 2014,
+        "reportedIntroductionYearStatus": "unofficial",
+        "earliestDocumentedYear": 2014,
+        "confidence": "low-medium",
+        "displayLabel": "비공식 시작 연도 2014 · 정확한 도입 연도 불명확",
+        "reportedIntroductionYearSource": "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-1.13",
+        "notes": "정확한 도입 연도는 알려지지 않았다. 사용자가 지정한 나무위키 ‘두산 베어스/응원가’ 문서의 2014년 서술을 비공식 연도 출처로 사용하며, 2014-12-05 공개된 현장 영상으로 같은 해 사용을 확인한다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "low-medium"
+      },
+      "evidenceRefs": [
+        "ev-doosan-bears-haeya-haeya-web-collection",
+        "ev-doosan-bears-haeya-haeya-yt-uqnyemhn8",
+        "ev-doosan-bears-haeya-haeya-yt-ijpbzdbhjk",
+        "ev-doosan-bears-haeya-haeya-yt-etggp3ppbu0",
+        "ev-doosan-bears-haeya-haeya-yt-slguracfzou",
+        "ev-doosan-bears-haeya-haeya-yt-s1g6uecofro"
+      ],
+      "openQuestions": [
+        "최초 사용 경기와 편곡 크레딧"
+      ],
+      "doNotMergeWith": [
+        "doosan-bears-haeya"
+      ]
+    },
+    {
+      "id": "hanwha-eagles-saranghanda-eagles",
+      "teamName": "한화 이글스",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "사랑한다 이글스"
+      ],
+      "resolvedTitle": "사랑한다 이글스",
+      "aliases": [
+        "사랑한다이글스"
+      ],
+      "description": "애절한 원곡을 빠르고 웅장한 4박 응원가로 바꿔 팀에 대한 사랑과 승리 열망을 표현한다.",
+      "usageContext": "한화 공격 중 상대 투수 교체로 경기가 멈췄을 때 자주 부르며 대형 떼창에 적합하다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "영화 ‘클래식’ OST 한성민 ‘사랑하면 할수록’",
+        "sourceArtist": "한성민",
+        "sourceYear": 2003,
+        "confidence": "high"
+      },
+      "chronology": {
+        "introductionYear": 2015,
+        "earliestDocumentedYear": 2015,
+        "confidence": "medium-high",
+        "displayLabel": "since 2015",
+        "source": "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-2.4",
+        "notes": "사용자 결정에 따라 나무위키의 2015년부터 사용 서술을 도입 연도 근거로 채택한다. 2015-05-06 공개된 동시대 영상과 2015-06-26 당시 한화 공식 이미지 서버의 팀 응원가 MP3 링크도 같은 해 사용을 뒷받침한다. 정확한 첫 경기는 미확인이다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "medium-high"
+      },
+      "evidenceRefs": [
+        "ev-hanwha-eagles-saranghanda-eagles-web-collection",
+        "ev-hanwha-eagles-saranghanda-eagles-yt-hz66kwereec",
+        "ev-hanwha-eagles-saranghanda-eagles-yt-un7r90i3wwa",
+        "ev-hanwha-eagles-saranghanda-eagles-yt-cnjf0k97qg",
+        "ev-hanwha-eagles-saranghanda-eagles-yt-cdxthb4ume",
+        "ev-hanwha-eagles-saranghanda-eagles-yt-gxrehg1mtq"
+      ],
+      "openQuestions": [
+        "공식 제작·편곡 크레딧",
+        "정확한 2015 첫 사용일"
+      ]
+    },
+    {
+      "id": "lg-twins-seoul-ui-aria",
+      "teamName": "LG 트윈스",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "서울의아리아"
+      ],
+      "resolvedTitle": "서울의 아리아",
+      "aliases": [
+        "민족의 아리아",
+        "승리의 아리아"
+      ],
+      "description": "서울과 LG의 승리를 웅장한 선율과 대규모 떼창으로 표현하는 대표 응원가다.",
+      "usageContext": "주로 경기 후반의 8회말·9회초 공격 시작 전이나 리드가 굳어질 때 사용된다. 극적인 역전 직후 또는 초반부터 크게 앞선 상황에도 나올 수 있어 특정 이닝 전용곡으로 한정하지 않는다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "고려대학교 ‘민족의 아리아’",
+        "underlyingWork": "Andrea Bocelli ‘Melodramma’",
+        "sourceArtist": "Andrea Bocelli",
+        "sourceYear": 2001,
+        "confidence": "high"
+      },
+      "chronology": {
+        "introductionYear": 2012,
+        "introductionPeriod": "2012 시즌 중반",
+        "earliestDocumentedYear": 2012,
+        "earliestDirectlyObservedEvent": "2013-10-05 LG 트윈스 경기",
+        "exactDebutDate": null,
+        "confidence": "medium-high",
+        "displayLabel": "since 2012",
+        "conflictingClaims": [
+          {
+            "year": 2011,
+            "source": "나무위키 ‘LG 트윈스/응원가’",
+            "url": "https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+            "handling": "무인용 상충 주장으로 보존하되 대표 연도로 채택하지 않음"
+          }
+        ],
+        "notes": "2014년 일간스포츠가 LG 홍보팀·구단 관계자를 인용해 2012 시즌 중반부터 사용했다고 보도했다."
+      },
+      "productionCreditClaims": [
+        {
+          "claim": "황석빈이 LG판 녹음 보컬을 담당",
+          "sourceClass": "interview",
+          "source": "https://v.daum.net/v/Pnna1XBEsH",
+          "confidence": "high",
+          "notes": "황석빈은 인터뷰에서 보컬 역할만 맡는다고 밝혔으므로 작사·편곡자로 기록하지 않는다."
+        }
+      ],
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "medium-high"
+      },
+      "evidenceRefs": [
+        "ev-lg-twins-seoul-ui-aria-web-collection",
+        "ev-lg-twins-seoul-ui-aria-yt-ycbdnul5k4",
+        "ev-lg-twins-seoul-ui-aria-yt-xr6wpzxyhxi",
+        "ev-lg-twins-seoul-ui-aria-yt-vcyp02oxyhy",
+        "ev-lg-twins-seoul-ui-aria-yt-yvjr6fvortc",
+        "ev-lg-twins-seoul-ui-aria-yt-ar44eddl5pm",
+        "ev-lg-twins-seoul-ui-aria-yt-sryqulrbd-e",
+        "ev-lg-twins-seoul-ui-aria-press-nate-2014",
+        "ev-lg-twins-seoul-ui-aria-interview-dugout-hwang"
+      ],
+      "openQuestions": [
+        "최초 공개 경기",
+        "LG 버전 편곡·가사 크레딧과 권리"
+      ]
+    },
+    {
+      "id": "lg-twins-saranghanda-lg",
+      "teamName": "LG 트윈스",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "사랑한다엘지"
+      ],
+      "resolvedTitle": "사랑한다 LG",
+      "aliases": [
+        "LG 사랑한다 LG",
+        "사랑한다LG",
+        "사랑한다 엘지"
+      ],
+      "description": "짧고 반복적인 선율로 팀에 대한 애정과 승리 염원을 표현한다.",
+      "usageContext": "득점, 동점·역전, 득점권 기회 등 경기 흐름이 LG 쪽으로 넘어올 때 사용된다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "연세대학교 ‘연세여 사랑한다’",
+        "underlyingWorks": [
+          "Carlos Gardel ‘Por una Cabeza’",
+          "김선경 ‘마지막 선택’"
+        ],
+        "officiallyCreditedOriginal": "Carlos Gardel ‘Por una Cabeza’",
+        "officiallyCreditedSongwriters": [
+          "Carlos Gardel",
+          "Alfredo Le Pera"
+        ],
+        "secondaryMotif": "김선경 ‘마지막 선택’",
+        "sourceYear": null,
+        "confidence": "high",
+        "notes": "2026년 LG 공식 영상은 ‘Por una Cabeza’만 원곡으로 표기한다. ‘마지막 선택’은 직접 차용 대상인 연세대판의 계보를 설명하는 보조 모티브로 남긴다."
+      },
+      "chronology": {
+        "introductionYear": null,
+        "earliestDocumentedYear": 2011,
+        "earliestDocumentedAt": "2011-06-17T08:20:02Z",
+        "confidence": "medium-low",
+        "displayLabel": "최초 확인 2011 · 공식 도입 연도 불명확",
+        "notes": "2011-06-17 SoundCloud에 완성 음원이 공개됐다. 비공식 업로드이므로 실제 구장 첫 사용일은 확정하지 않는다."
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "medium-low"
+      },
+      "evidenceRefs": [
+        "ev-lg-twins-saranghanda-lg-web-collection",
+        "ev-lg-twins-saranghanda-lg-yt-ycbdnul5k4",
+        "ev-lg-twins-saranghanda-lg-yt-krepccwmdgy",
+        "ev-lg-twins-saranghanda-lg-yt-xaaalqghfrm",
+        "ev-lg-twins-saranghanda-lg-yt-j4zvvkp6yka",
+        "ev-lg-twins-saranghanda-lg-yt-ar44eddl5pm",
+        "ev-lg-twins-saranghanda-lg-soundcloud-deedi-2011",
+        "ev-lg-twins-saranghanda-lg-yt-bhwojfjkaf8",
+        "ev-lg-twins-saranghanda-lg-yt-qdol5kmopxa",
+        "ev-lg-twins-saranghanda-lg-yt-cabwzhn8jc"
+      ],
+      "openQuestions": [
+        "공식 첫 사용 연도",
+        "LG 버전 편곡·작사자와 권리"
+      ]
+    },
+    {
+      "id": "lg-twins-seungni-ui-norae",
+      "teamName": "LG 트윈스",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "승리의노래"
+      ],
+      "resolvedTitle": "승리의 노래",
+      "aliases": [
+        "LG 승리의 노래",
+        "승리의노래",
+        "승리의 노래 (Forever)"
+      ],
+      "description": "전주 뒤 점프와 구호, 어깨동무형 떼창으로 승리의 기쁨을 나누는 대표곡이다.",
+      "usageContext": "경기 종료 후 승리 확정 시점 또는 후반 10점 이상 크게 앞서는 상황에 사용된다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "고려대학교 ‘Forever’",
+        "underlyingWork": "Stratovarius ‘Forever’",
+        "sourceArtist": "Stratovarius",
+        "sourceYear": 1996,
+        "confidence": "high"
+      },
+      "chronology": {
+        "introductionYear": 2011,
+        "earliestDocumentedYear": 2011,
+        "earliestDirectEvidenceDate": "2011-06-19",
+        "exactDebutDate": null,
+        "confidence": "high",
+        "displayLabel": "since 2011",
+        "notes": "2011-06-19 공개된 현행곡 영상의 제목·설명에서 연도와 핵심 구절을 직접 확인했다. 정확한 최초 사용 경기만 미확인이다."
+      },
+      "disambiguation": [
+        {
+          "title": "승리의 노래 구버전",
+          "relationship": "different-song-same-title",
+          "notes": "1995년 구단 자체 제작곡으로 2011년 현행곡과 교체됐다. 2009년 음원 사이트 수록곡은 이 구버전이다."
+        },
+        {
+          "title": "Forever LG",
+          "relationship": "different-song",
+          "notes": "Secret Garden ‘Song from a Secret Garden’을 원곡으로 한 2016년 별도 응원가다."
+        }
+      ],
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "high"
+      },
+      "evidenceRefs": [
+        "ev-lg-twins-seungni-ui-norae-web-collection",
+        "ev-lg-twins-seungni-ui-norae-yt-ycbdnul5k4",
+        "ev-lg-twins-seungni-ui-norae-yt-ctzmoiro9fo",
+        "ev-lg-twins-seungni-ui-norae-yt-atla6wft368",
+        "ev-lg-twins-seungni-ui-norae-yt-cegibg9exg0",
+        "ev-lg-twins-seungni-ui-norae-yt-8tqjypz5oi8",
+        "ev-lg-twins-seungni-ui-norae-yt-olleq6bzcbs",
+        "ev-lg-twins-seungni-ui-norae-yt-qtgsgy26se",
+        "ev-lg-twins-seungni-ui-norae-bugs-old-version",
+        "ev-lg-twins-seungni-ui-norae-lg-forever-separation"
+      ],
+      "openQuestions": [
+        "정확한 최초 사용 경기",
+        "초기 편곡·가사 크레딧과 권리"
+      ]
+    },
+    {
+      "id": "lotte-giants-baennorae",
+      "teamName": "롯데 자이언츠",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "뱃노래"
+      ],
+      "resolvedTitle": "뱃노래",
+      "aliases": [
+        "뱃놀이"
+      ],
+      "description": "고려대학교 응원가 ‘뱃노래’를 롯데 자이언츠에 맞게 개사한 집단 응원곡이다. 과거에는 ‘뱃놀이’로도 불렸고, 현재는 짧은 편곡 버전과 풀버전이 함께 확인된다.",
+      "usageContext": "과거와 현재 모두 어깨동무·점프를 곁들인 대규모 떼창으로 쓰인다. 2022년 편곡 버전 복귀 뒤에는 수비 시 9회말 2아웃이나 호수비 직후, 공격 시 승부처 득점 뒤 분위기를 끌어올릴 때 자주 사용하며, 풀버전은 큰 응원 흐름이나 경기 뒤풀이에서 간헐적으로 사용된다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "고려대학교 응원가 ‘뱃노래’",
+        "underlyingWork": "한국 전통민요 ‘뱃노래’",
+        "underlyingArtist": "전승 민요",
+        "sourceCheerIntroductionYear": 1974,
+        "confidence": "high",
+        "notes": "2014년 언론은 고려대학교 응원가의 롯데 개사를 명시한다. 계보는 한국 전통민요 → 고려대학교 응원가(1974) → 롯데 자이언츠 개사판으로 정리한다."
+      },
+      "chronology": {
+        "introductionYear": null,
+        "earliestDocumentedYear": 2009,
+        "confidence": "medium-high",
+        "displayLabel": "최초 확인 2009 · 정확한 도입 연도 불명확",
+        "earliestEvidence": "https://sports.donga.com/article/all/20090929/23101123/1",
+        "periods": [
+          "2009~2014(최소 확인 구간)",
+          "2022-07-26~(편곡 버전)",
+          "2024~(풀버전 간헐적 재사용)"
+        ],
+        "notes": "2009-09-29 준플레이오프 1차전에서 ‘뱃놀이’가 나온 사실을 동시대 스포츠동아 기사가 기록한다. 2014년 응원 자제 기간 사용 논란 뒤 중단됐고, 나무위키 서술상 2022-07-26 편곡 버전이 복귀했으며 2024년에는 풀버전도 다시 사용됐다. 정확한 최초 도입일은 확인하지 못했다."
+      },
+      "versions": [
+        {
+          "label": "편곡 버전",
+          "reportedPeriod": "2022-07-26~",
+          "usage": "공수교대·호수비·승부처 득점 뒤의 짧은 분위기 고조용",
+          "sourceStatus": "나무위키 서술과 2022년 현장 영상으로 확인"
+        },
+        {
+          "label": "풀버전",
+          "reportedPeriod": "2009~2014, 2024~",
+          "usage": "메들리·대형 떼창·뒤풀이에서 간헐적으로 사용",
+          "sourceStatus": "동시대 기사와 현장 영상으로 확인"
+        }
+      ],
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "medium-high"
+      },
+      "evidenceRefs": [
+        "ev-lotte-baennorae-press-donga-2009",
+        "ev-lotte-baennorae-press-nate-2014",
+        "ev-lotte-baennorae-press-newspim-2014",
+        "ev-lotte-baennorae-web-namu",
+        "ev-lotte-baennorae-yt-sffpq58qlhi",
+        "ev-lotte-baennorae-yt-ozg9jzxxklc",
+        "ev-lotte-baennorae-yt-3wd6axsubey",
+        "ev-lotte-baennorae-yt-8pobs1tmey4",
+        "ev-lotte-baennorae-yt-cw3cfwslrqk",
+        "ev-lotte-baennorae-yt-p4ymdoue4",
+        "ev-lotte-baennorae-yt-3dudjohandk",
+        "ev-lotte-baennorae-yt-o721qdixxiw"
+      ],
+      "openQuestions": [
+        "정확한 최초 도입 연도",
+        "롯데판 개사·편곡자와 고려대판 사용 권리"
+      ]
+    },
+    {
+      "id": "kia-tigers-kiareul-eungwonhara",
+      "teamName": "KIA 타이거즈",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "기아를 응원하라"
+      ],
+      "resolvedTitle": "기아를 응원하라",
+      "aliases": [
+        "KIA를 응원하라"
+      ],
+      "description": "고려대학교 ‘고대를 응원하라’를 KIA 타이거즈용으로 개사한 팀 응원가로 확인된다.",
+      "usageContext": "KIA 공식 영상은 핸드폰 플래시 응원곡으로 분류하고 2024년 팀 응원가 모음의 22분 19초 지점에 수록했다. 현장 영상 제목과 댓글은 주로 경기 후반, 특히 8회와 역전 분위기의 떼창을 강조한다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "고려대학교 응원가 ‘고대를 응원하라’",
+        "underlyingWork": "Andrea Bocelli ‘Con te partirò’",
+        "underlyingArtist": "Andrea Bocelli",
+        "confidence": "high",
+        "notes": "2014년 언론 보도에서 고려대학교 응원가의 개사 관계를 직접 설명한다. 기반 선율은 Andrea Bocelli의 ‘Con te partirò’이며, 고려대 2011년 신곡 ‘고연가: 고대를 노래하라’와 같은 편곡 계열로 정리한다."
+      },
+      "chronology": {
+        "introductionYear": null,
+        "reportedIntroductionYear": 2013,
+        "reportedIntroductionYearStatus": "estimated",
+        "earliestDocumentedYear": 2013,
+        "confidence": "low-medium",
+        "displayLabel": "추정 시작 연도 2013 · 정확한 도입 연도 불명확",
+        "reportedIntroductionYearSource": "https://www.youtube.com/watch?v=Wivyv50vsrk",
+        "notes": "2013-06-10 공개된 영상이 직접 확인 가능한 가장 오래된 사용 자료다. 사용자는 2013년을 추정 시작 연도로 승인했다. 나무위키의 2011~2012 시즌설과 옛 읽기전용위키의 2001년설은 직접 인용 근거가 없고 서로 충돌하므로 상충 주장으로만 보존한다.",
+        "conflictingClaims": [
+          {
+            "claim": "2011~2012 시즌부터 사용",
+            "source": "나무위키 계열 ‘Con te partirò’ 및 KIA 타이거즈/응원가 문서",
+            "handling": "직접 근거가 없어 추정 연도에 채택하지 않고 상충 주장으로 보존"
+          },
+          {
+            "claim": "2001년부터 사용",
+            "source": "옛 읽기전용위키 ‘KIA 타이거즈/응원가’ 문서",
+            "handling": "직접 근거가 없고 다른 서술과 충돌하므로 정본에 채택하지 않음"
+          }
+        ]
+      },
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "low"
+      },
+      "evidenceRefs": [
+        "ev-kia-eungwonhara-web-history",
+        "ev-kia-eungwonhara-press-nate-2014",
+        "ev-kia-eungwonhara-yt-zeps5bm3iqc",
+        "ev-kia-eungwonhara-yt-pf6q9u82hrk",
+        "ev-kia-eungwonhara-yt-yjjyj4aqul8",
+        "ev-kia-eungwonhara-yt-zflzh4twqw8",
+        "ev-kia-eungwonhara-yt-wivyv50vsrk",
+        "ev-kia-eungwonhara-yt-fjqgfdhvzd0",
+        "ev-kia-eungwonhara-yt-w3xzqhsxg"
+      ],
+      "openQuestions": [
+        "정확한 최초 도입 연도",
+        "KIA판 개사·편곡자와 권리 계보"
+      ]
+    },
+    {
+      "id": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "teamName": "롯데 자이언츠",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "소리높여 외쳐보자",
+        "영원하라"
+      ],
+      "resolvedTitle": "소리높여 외쳐보자",
+      "aliases": [
+        "영원하라",
+        "롯데 자이언츠 영원하라"
+      ],
+      "description": "오래된 영상은 ‘영원하라’, 최근 영상은 첫 구절을 딴 ‘소리높여 외쳐보자’로 부르는 동일 개사곡으로 확인된다.",
+      "usageContext": "보통 7·8회나 승기를 잡는 승부처에 옆 사람과 어깨동무하고 부르는 대형 떼창곡이다. 홈·원정과 클래식 시리즈에서도 사용되며, 댓글은 옛 ‘부산 롯데’ 버전의 향수와 응원단장의 선창·군중 반응을 반복해 언급한다.",
+      "origin": {
+        "relationship": "adaptation",
+        "sourceWork": "고려대학교 응원가 ‘영원하라’",
+        "underlyingWork": "Vanessa-Mae ‘Contradanza’",
+        "underlyingArtist": "Vanessa-Mae",
+        "underlyingWorkYear": 1995,
+        "sourceCheerIntroductionYear": 2004,
+        "confidence": "high",
+        "notes": "2014년 언론이 롯데가 고려대 ‘영원하라’를 개사했다고 설명한다. 계보는 Vanessa-Mae ‘Contradanza’(1995) → 고려대학교 ‘영원하라’(2004) → 롯데 자이언츠 개사판으로 정리한다."
+      },
+      "chronology": {
+        "introductionYear": null,
+        "reportedIntroductionYear": 2011,
+        "reportedIntroductionYearStatus": "estimated",
+        "earliestDocumentedYear": 2012,
+        "confidence": "low-medium",
+        "displayLabel": "추정 시작 연도 2011 · 최초 직접 확인 2012 · 정확한 도입 연도 불명확",
+        "reportedIntroductionYearSource": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.7",
+        "earliestDirectEvidence": "https://www.youtube.com/watch?v=JdjV7GUhdQU",
+        "reportedFirstPublicEvent": "2011년 플레이오프",
+        "notes": "현재 나무위키와 2017년 이전 문서 사본은 2011년 플레이오프 최초 공개라고 일치해 서술하지만 직접 확인 가능한 제목·설명 영상은 2012-10-18부터다. 따라서 2011년은 추정 시작 연도로만 두며 정확한 첫 경기와 도입일은 미확정이다."
+      },
+      "versions": [
+        {
+          "label": "부산 롯데 버전",
+          "reportedPeriod": "2011~2018",
+          "description": "과거 홈 경기에서 연고지 구호를 사용한 버전",
+          "sourceStatus": "나무위키와 2012년 영상으로 확인"
+        },
+        {
+          "label": "최강 롯데 버전",
+          "reportedPeriod": "과거 원정·2019~ 통합",
+          "description": "현재 홈·원정에서 사용하는 통합 구호 버전",
+          "sourceStatus": "나무위키 서술"
+        },
+        {
+          "label": "국악 버전",
+          "reportedPeriod": "2022~",
+          "description": "국립부산국악원과 함께 제작한 전통 공연예술 편곡",
+          "sourceStatus": "Giants TV와 아이뉴스24로 확인"
+        }
+      ],
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "high",
+        "chronology": "low-medium"
+      },
+      "evidenceRefs": [
+        "ev-lotte-sori-press-nate-2014",
+        "ev-lotte-sori-press-dugout",
+        "ev-lotte-sori-press-inews24-2022",
+        "ev-lotte-sori-web-namu",
+        "ev-lotte-sori-yt-atyqkrwmvge",
+        "ev-lotte-sori-yt-iex-80ewdxa",
+        "ev-lotte-sori-yt-jdjv7guhdqu",
+        "ev-lotte-sori-yt-hyzxp9etyr4",
+        "ev-lotte-sori-yt-x2vpamxdki",
+        "ev-lotte-sori-yt-elpltyqoxiw",
+        "ev-lotte-sori-yt-0iqgm5us1k",
+        "ev-lotte-sori-yt-h13wmh8jtdo",
+        "ev-lotte-sori-yt-nxngkmyc5yg"
+      ],
+      "openQuestions": [
+        "2011년 플레이오프 중 정확한 최초 사용 경기와 직접 자료",
+        "롯데판 개사·편곡자와 고려대판 사용 권리"
+      ]
+    },
+    {
+      "id": "kiwoom-heroes-seungni-ui-hamseong",
+      "teamName": "키움 히어로즈",
+      "teamType": "baseball",
+      "requestedLabels": [
+        "승리를 위한 함성"
+      ],
+      "resolvedTitle": "승리의 함성",
+      "aliases": [
+        "승리를 위한 함성"
+      ],
+      "description": "키움 공식 홈페이지의 곡명은 ‘승리의 함성’이고, 선창·후렴과 팬 영상에서는 ‘승리를 위한 함성’이 반복되어 통용 제목처럼 쓰인다.",
+      "usageContext": "응원단장의 ‘승리를 위한 함성 발사’ 선창 뒤 경기 후반 기세를 끌어올리는 대표 떼창으로 사용된다. 팬 투표 기사에서는 39%로 1위를 기록했고, 댓글은 8회말·역전·포스트시즌의 현장감과 타 구단 팬의 합창을 강조한다.",
+      "origin": {
+        "relationship": "motif-or-arrangement",
+        "sourceWork": "고려대학교 응원가 ‘민족의 아리아’",
+        "underlyingWork": "Andrea Bocelli ‘Melodramma’",
+        "underlyingArtist": "Andrea Bocelli",
+        "underlyingWorkYear": 2001,
+        "creditedComposer": "LUCIAN PAOLO",
+        "confidence": "medium",
+        "notes": "공식 홈페이지는 작곡자를 LUCIAN PAOLO로 적고, 팬 투표 기사는 고려대학교 ‘민족의 아리아’를 모티브로 했다고 설명한다. 기반 원곡은 Andrea Bocelli의 ‘Melodramma’다. LUCIAN PAOLO는 원곡 공동 작곡자 Paolo Luciani의 이름을 역순 표기한 것으로 보이므로 키움판 단독 편곡자 크레딧으로 해석하지 않는다."
+      },
+      "chronology": {
+        "introductionYear": null,
+        "reportedIntroductionYear": 2013,
+        "reportedIntroductionYearStatus": "estimated",
+        "earliestDocumentedYear": 2013,
+        "confidence": "low-medium",
+        "displayLabel": "추정 시작 연도 2013 · 정확한 도입 연도 불명확",
+        "reportedIntroductionYearSources": [
+          "https://mlbpark.donga.com/mlbpark/b.php?b=kbotown&id=1330344",
+          "https://gall.dcinside.com/board/view/?id=sh&no=2812684"
+        ],
+        "notes": "2013년 넥센 시절 게시물 두 건으로 당시 사용을 직접 확인하며, 사용자는 2013년을 추정 시작 연도로 승인했다. 2009년 초기 구호와 2012년 리뉴얼이라는 후대 팬 회고는 직접 자료가 없어 별도 주장으로만 보존한다. 2017년 저작인격권 분쟁 중 일시 중단됐고 2018년 재편곡판으로 이어졌다."
+      },
+      "versions": [
+        {
+          "label": "넥센 시절 구판",
+          "reportedPeriod": "2013년 이전~2017",
+          "sourceStatus": "2013년 게시물과 2017년 언론 보도로 사용 확인"
+        },
+        {
+          "label": "2018 재편곡판",
+          "reportedPeriod": "2018~",
+          "sourceStatus": "2018-04-03 영상 설명으로 확인"
+        },
+        {
+          "label": "현행 승리의 함성 판",
+          "reportedPeriod": "키움 시절~현재",
+          "sourceStatus": "키움 공식 홈페이지와 공식 채널로 확인"
+        }
+      ],
+      "fieldConfidence": {
+        "title": "high",
+        "origin": "medium",
+        "chronology": "low"
+      },
+      "evidenceRefs": [
+        "ev-kiwoom-hamseong-official",
+        "ev-kiwoom-hamseong-press-dugout",
+        "ev-kiwoom-hamseong-web-history-2013",
+        "ev-kiwoom-hamseong-press-spochoo-2017",
+        "ev-kiwoom-hamseong-yt-oiwl7wrjre",
+        "ev-kiwoom-hamseong-yt-7p2uyrclq",
+        "ev-kiwoom-hamseong-yt-sryqulrbde",
+        "ev-kiwoom-hamseong-yt-ml54vsgml2e",
+        "ev-kiwoom-hamseong-yt-tsq3ecwlzky",
+        "ev-kiwoom-hamseong-yt-ixfmmgk4sw4",
+        "ev-kiwoom-hamseong-yt-dy5bkaujalw",
+        "ev-kiwoom-hamseong-yt-sdsqc9jwdni"
+      ],
+      "openQuestions": [
+        "최초 도입 연도",
+        "민족의 아리아와의 편곡·저작권 관계 및 키움판 편곡자"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "batchId": "replace-me",
+  "checkedAt": "2026-08-08",
+  "status": "collecting",
+  "organization": {
+    "id": "replace-me",
+    "name": "replace-me",
+    "type": "kbo-or-university"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문은 저장하지 않는다. 가사는 출처·권리 상태·구조 요약만 기록하고, 전문은 사용자 제공 또는 이용 허락이 확인된 경우에만 별도 승인 뒤 저장한다.",
+  "items": [
+    {
+      "id": "replace-me",
+      "title": "replace-me",
+      "aliases": [],
+      "currentStatus": "current",
+      "summary": "",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": [],
+          "notes": ""
+        }
+      ],
+      "usageContexts": [],
+      "trivia": [],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "unknown",
+        "sourceUrls": [],
+        "structureSummary": "",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [],
+      "unresolved": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "replace-me",
+      "type": "official",
+      "url": "https://example.com",
+      "title": "",
+      "publisher": "",
+      "publishedAt": null,
+      "accessedAt": "2026-08-08",
+      "summary": "",
+      "supports": []
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "replace-me",
+      "songId": "replace-me",
+      "url": "https://www.youtube.com/watch?v=replace-me",
+      "videoId": "replace-me",
+      "title": "",
+      "channel": "",
+      "publishedAt": null,
+      "descriptionSummary": "",
+      "commentsStatus": "not-checked",
+      "commentSummary": [],
+      "supports": [],
+      "accessedAt": "2026-08-08"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 0,
+    "youtubeSampleCount": 0,
+    "songsMeetingYoutubeMinimum": 0,
+    "openIssueCount": 0
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-hufs-seoul-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-hufs-seoul",
+    "name": "한국외국어대학교 서울",
+    "type": "university"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명 전문은 저장하지 않는다. 저작권이 있는 원곡과 개사 응원가는 출처·권리 상태·구조 요약만 기록한다.",
+  "items": [
+    {
+      "id": "hufs-seoul-you-hufs",
+      "title": "너, 우리(You HUFS)",
+      "aliases": ["너, 우리", "You HUFS", "You, HUFS"],
+      "currentStatus": "current-directly-verified-through-2026",
+      "summary": "2021 트로이카 영상 설명에서 김종민·이진·안재근의 제작 크레딧이 직접 확인되는 한국외대 고유 응원가다. 2023 트로이카와 제1회 퀸쿠아트리아, 2024 신입생 환영회·제2회 퀸쿠아트리아, 2026 상반기 퀸쿠아트리아까지 반복 사용됐다. 2026 공식 설명은 이를 ‘한국외대 오리지널 응원가’라고 명시한다.",
+      "claims": [
+        {
+          "field": "creatorCredits",
+          "value": "작곡 김종민·이진·안재근, 작사 이진, 편곡 김종민·안재근",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-you-2021", "yt-hufs-a-you-2026"],
+          "notes": "2021 트로이카 공식 행사 영상 설명의 직접 크레딧이다. 동명이인 여부와 소속은 공개 설명만으로 특정하지 않았다."
+        },
+        {
+          "field": "earliestDirectUse",
+          "value": "2021년 11월 트로이카 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-you-2021", "ev-hufs-a-troika-2021"],
+          "notes": "현재 확보한 가장 오래된 직접 영상이다. 실제 초연일과 제작 완료일은 미확정이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 상반기 퀸쿠아트리아 공식 레퍼토리",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-you-2026"],
+          "notes": "응원단 공식 채널이 2026 공연곡이자 오리지널 응원가로 표기한다."
+        }
+      ],
+      "usageContexts": [
+        "트로이카 교류 응원전, 교내 퀸쿠아트리아 응원제, 신입생 환영회에서 대표 고유곡으로 사용한다.",
+        "빠른 단체 안무와 학교 이름을 중심으로 한 군중 합창을 결합하며, 2021 영상에서는 국제수어를 활용한 동작이 댓글의 주목을 받았다."
+      ],
+      "trivia": [
+        {
+          "id": "you-hufs-sign-language-response",
+          "summary": "2021 트로이카 댓글에서는 국제수어를 응원 안무에 녹인 점과 코로나19 시기 제작·대열 구성을 호평하는 반응이 반복됐다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hufs-a-you-2021"]
+        },
+        {
+          "id": "you-hufs-original-label",
+          "summary": "2026 공식 영상은 다른 개사곡들과 달리 원곡을 병기하지 않고 ‘한국외대 오리지널 응원가’라고 명시한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-you-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university original; named creator credits are public, but lyric, master, choreography, and reuse permissions are not documented here",
+        "sourceUrls": ["https://www.youtube.com/watch?v=zdaixJUtCyI", "https://www.youtube.com/watch?v=7z3YF2AaqRk"],
+        "structureSummary": "도입부 뒤 학교 공동체를 ‘너’와 ‘우리’로 연결하는 절, 학교명·승리를 반복하는 합창 후렴, 대형 이동을 동반한 재현부로 구성된다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-hufs-a-you-2021", "yt-hufs-a-you-guide-2023", "yt-hufs-a-you-troika-2023", "yt-hufs-a-you-quin-2023", "yt-hufs-a-you-freshman-2024", "yt-hufs-a-you-quin-2024", "yt-hufs-a-you-2026"],
+      "unresolved": [
+        "2021년 이전 초연 여부와 정확한 제작·발표일",
+        "크레딧에 적힌 세 제작자의 당시 소속·세부 역할 계약",
+        "음원 마스터·가사·안무의 권리자와 재사용 조건"
+      ]
+    },
+    {
+      "id": "hufs-seoul-dream",
+      "title": "외대의 꿈",
+      "aliases": [],
+      "currentStatus": "current-new-in-2026",
+      "summary": "코요태의 ‘우리의 꿈’을 원곡으로 한 2026년 한국외대 응원가다. 응원단 공식 신입생 환영회와 상반기 퀸쿠아트리아, 총학생회·영상사업단 소개 영상으로 현재 사용을 확인했다. 공식 설명은 외대인의 열정과 공동체를 담았다고 소개하지만 개사·편곡자의 이름과 이용허락은 공개하지 않는다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "코요태 ‘우리의 꿈’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-dream-freshman-2026", "yt-hufs-a-dream-quin-2026", "yt-hufs-a-dream-origin-topic"],
+          "notes": "응원단 공식 설명이 원곡명을 직접 병기하고 코요태 음원·공연 영상으로 원곡 정체를 교차했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2026년(현재 확인된 최초 직접 사용)",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hufs-a-dream-freshman-2026", "yt-hufs-a-dream-council-2026"],
+          "notes": "2025 공식 응원가 자료에는 확인되지 않고 2026 자료부터 등장한다. 별도의 ‘신곡’ 문구가 없어 실제 제작연도는 보수적으로 미확정 처리한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 환영회와 상반기 퀸쿠아트리아 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-dream-freshman-2026", "yt-hufs-a-dream-quin-2026"],
+          "notes": "서로 다른 2026 공식 행사에서 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 환영회에서 녹음 참여자들과 함께 부르고, 교내 퀸쿠아트리아에서는 밴드부 오디오필과 응원단이 구성한 응원예술위원회의 레퍼토리로 공연한다."
+      ],
+      "trivia": [
+        {
+          "id": "dream-source-nostalgia",
+          "summary": "원곡 공연 댓글은 애니메이션 ‘원피스’를 보던 시절의 향수와 꿈·용기 메시지에서 위로를 받는다는 반응이 압도적이다. 한국외대판은 이 익숙한 상승감을 학교 공동체 응원으로 전환한다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hufs-a-dream-origin-live"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "adaptation of copyrighted Koyote song; HUFS lyric and arrangement credits and permission are not publicly documented in the checked sources",
+        "sourceUrls": ["https://www.youtube.com/watch?v=NK5ccJAUOlI", "https://www.youtube.com/watch?v=Qm0MYaxlsiU"],
+        "structureSummary": "원곡의 밝은 록·댄스 진행과 긴 후렴 골격을 유지하면서 모험·꿈의 메시지를 외대인의 열정, 연대, 미래로 치환한 단체 합창형 개사곡이다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-hufs-a-dream-freshman-2026", "yt-hufs-a-dream-quin-2026", "yt-hufs-a-dream-council-2026", "yt-hufs-a-dream-origin-topic", "yt-hufs-a-dream-origin-live"],
+      "unresolved": [
+        "정확한 제작일·초연일과 개사·편곡·녹음 참여자 전체 크레딧",
+        "코요태 원곡의 개사·편곡 이용허락과 응원 음원 마스터 권리",
+        "공식 소개 영상과 공연판 사이의 편곡 차이"
+      ]
+    },
+    {
+      "id": "hufs-seoul-shout",
+      "title": "외대의 외침",
+      "aliases": [],
+      "currentStatus": "current-introduced-in-2025",
+      "summary": "KIA 타이거즈 팀 응원가 ‘외쳐라 최강기아’를 원곡으로 한 2025년 신곡이다. 2025년 5월 제3회 퀸쿠아트리아에서 처음 공개됐다는 응원단 설명, 2025 응원법 가이드, 2026 신입생 환영회로 도입과 현재 사용이 직접 이어진다. KIA판의 웅장함을 칭찬하는 원곡 댓글과 원곡을 즉시 알아본 한국외대 영상 댓글도 함께 보존했다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "KIA 타이거즈 ‘외쳐라 최강기아’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-shout-freshman-2026", "yt-hufs-a-shout-guide-2025", "yt-hufs-a-shout-kia-2023"],
+          "notes": "2026 응원단 공식 설명이 원곡명을 직접 표기한다. 2025 가이드 댓글에서도 KIA 원곡이 즉시 식별됐다."
+        },
+        {
+          "field": "introduction",
+          "value": "2025년 5월 20일 제3회 퀸쿠아트리아에서 첫 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-shout-debut-2025"],
+          "notes": "응원단 공식 공연 영상 설명의 ‘새로운 응원제’ 및 ‘첫선’ 문구에 따른 직접 판정이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 환영회 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-shout-freshman-2026"],
+          "notes": "2026년에도 녹음 참여자들과 함께 공연했다."
+        }
+      ],
+      "usageContexts": [
+        "짧고 웅장한 진행과 반복 구호를 활용해 퀸쿠아트리아와 신입생 환영회에서 관중의 학교명 합창을 빠르게 모으는 곡으로 사용한다."
+      ],
+      "trivia": [
+        {
+          "id": "shout-source-recognition",
+          "summary": "2025 응원법 가이드의 공개 댓글은 KIA판 구절과 원곡 제목을 바로 적었고, KIA 영상 댓글에서는 타 구단 팬까지 현장 웅장함을 높게 평가하는 반응이 반복됐다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-shout-guide-2025", "yt-hufs-a-shout-kia-2023", "yt-hufs-a-shout-kia-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "adaptation of copyrighted KIA Tigers cheer song; creator credits, adaptation permission, and HUFS master rights are not documented in the checked HUFS sources",
+        "sourceUrls": ["https://www.youtube.com/watch?v=GN_q1SmaMnE", "https://www.youtube.com/watch?v=yirww4738cs"],
+        "structureSummary": "원곡의 저음 도입, 상승하는 반복 후렴, 팀명·승리 구호 골격을 유지하고 KIA 관련 표지를 한국외대 공동체 표지로 바꾼 짧은 집단 합창곡이다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-hufs-a-shout-debut-2025", "yt-hufs-a-shout-guide-2025", "yt-hufs-a-shout-freshman-2026", "yt-hufs-a-shout-kia-2023", "yt-hufs-a-shout-kia-2024"],
+      "unresolved": [
+        "한국외대판 개사·편곡·녹음 참여자와 안무 제작자 세부 크레딧",
+        "KIA 원곡의 작사·작곡·음원 권리자 및 대학 개사 이용허락",
+        "2025년 5월 20일 공연 전 내부 공개·연습 영상 존재 여부"
+      ]
+    },
+    {
+      "id": "hufs-seoul-world",
+      "title": "외대여 세계로, 세계여 외대로",
+      "aliases": ["외대여 세계로 세계여 외대로"],
+      "currentStatus": "current-introduced-in-2023",
+      "summary": "유정석의 ‘질풍가도’를 원곡으로 한 2023년 한국외대 응원가다. 2023 제1회 퀸쿠아트리아 응원법·밴드 공연에서 시작해 2024·2025·2026 퀸쿠아트리아와 2026 입학식까지 이어졌다. 곡명은 학교의 오랜 슬로건형 문구를 그대로 사용하며, 공식 자료 일부의 ‘새계여’·‘외대여 세계로’ 중복은 오기로 처리했다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "유정석 ‘질풍가도’(작사 신동식, 작곡·편곡 박정식)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-world-guide-2023", "yt-hufs-a-world-band-2023", "ev-hufs-a-gale-credits"],
+          "notes": "응원단과 공연 영상이 원곡을 직접 표기하고 원가수 공식 음원 메타데이터로 작가 크레딧을 교차했다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2023년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-world-guide-2023", "yt-hufs-a-world-band-2023", "yt-hufs-a-world-guide-2025"],
+          "notes": "2023 제1회 응원제용 안내 영상과 2025 공식 가이드의 ‘2023년도 응원가’ 표기가 일치한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 입학식과 상반기 퀸쿠아트리아 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-world-entrance-2026", "yt-hufs-a-world-quin-2026"],
+          "notes": "두 개의 서로 다른 공식 2026 행사에서 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "교내 응원제에서는 밴드 반주와 응원단 안무를 결합하고, 입학식에서는 신입생에게 학교의 세계 지향 정체성을 전달하는 축하 무대로 사용한다."
+      ],
+      "trivia": [
+        {
+          "id": "world-title-typos",
+          "summary": "2024 총학생회 설명은 제목을 한 차례 ‘외대여 세계로, 외대여 세계로’로, 2025 가이드는 ‘새계여’로 적었다. 다수 공식 영상의 일관된 표기 ‘외대여 세계로, 세계여 외대로’를 정식 제목으로 채택했다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-world-council-2024", "yt-hufs-a-world-guide-2025", "yt-hufs-a-world-quin-2026"]
+        },
+        {
+          "id": "world-audience-comments",
+          "summary": "댓글은 역동적인 손동작과 활기를 칭찬하는 반응이 주류였고, 응원단의 성별 구성을 문제 삼는 반응도 한 건 있어 현장 수용의 온도 차를 익명으로 보존했다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hufs-a-world-council-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "adaptation of copyrighted ‘질풍가도’; original writer credits are known, but HUFS adaptation and performance permissions are not documented here",
+        "sourceUrls": ["https://www.youtube.com/watch?v=D-E_nzFZOzk", "https://www.youtube.com/watch?v=R1oY3eojua8"],
+        "structureSummary": "질풍가도의 빠른 록 진행과 상승형 후렴을 유지하면서 세계로 나아가는 외대와 학교 승리를 반복하는 절·후렴형 집단 합창으로 개사했다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-hufs-a-world-guide-2023", "yt-hufs-a-world-band-2023", "yt-hufs-a-world-council-2024", "yt-hufs-a-world-live-2024", "yt-hufs-a-world-live-2025", "yt-hufs-a-world-guide-2025", "yt-hufs-a-world-entrance-2026", "yt-hufs-a-world-quin-2026"],
+      "unresolved": [
+        "한국외대판 개사·편곡·녹음·안무의 개인별 크레딧",
+        "질풍가도 이용허락과 학교 응원 음원 마스터의 권리 범위",
+        "2023 제1회 퀸쿠아트리아가 정확한 초연인지 여부"
+      ]
+    },
+    {
+      "id": "hufs-seoul-for-hufs",
+      "title": "외대를 위하여",
+      "aliases": [],
+      "currentStatus": "current-new-in-2026",
+      "summary": "트랜스픽션의 축구 응원곡 ‘승리를 위하여’를 원곡으로 한 2026년 한국외대 응원가다. 2026 신입생 환영회와 총학생회·영상사업단 소개 영상에서 직접 확인했다. 원곡은 세대별 축구 응원 기억과 결합해 여러 판본으로 공연됐지만, 한국외대 개사판의 제작진과 권리 허락은 공개 자료에 없다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "트랜스픽션 ‘승리를 위하여’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-for-freshman-2026", "yt-hufs-a-for-origin-mv", "yt-hufs-a-for-origin-kbs"],
+          "notes": "2026 응원단 공식 설명이 원곡명을 직접 표기하고 트랜스픽션 공식 MV·KBS 공연으로 원작 정체를 교차했다."
+        },
+        {
+          "field": "earliestDirectUse",
+          "value": "2026년 3월 3일 신입생 환영회",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hufs-a-for-freshman-2026", "yt-hufs-a-for-council-2026"],
+          "notes": "현재 확보한 최초 직접 공연이다. 별도의 ‘신곡’ 발표문이 없어 제작연도는 미확정이다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 공식 응원가 소개와 신입생 환영회 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-hufs-a-for-freshman-2026", "yt-hufs-a-for-council-2026"],
+          "notes": "응원단과 총학생회 계열의 서로 다른 채널이 같은 제목을 사용한다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 환영회에서 학교의 승리·연대를 크게 합창하는 후반부 응원가로 사용하며, 익숙한 축구 응원곡의 무가사 후렴으로 즉각적인 참여를 유도한다."
+      ],
+      "trivia": [
+        {
+          "id": "for-hufs-source-longevity",
+          "summary": "원곡 공식 MV와 2026 KBS 공연 댓글은 월드컵 세대 기억, 경기 전 긴장감, 세대를 넘는 국민 응원가라는 평가를 반복한다. 한국외대판은 이 집단기억을 학교 응원에 가져온 사례다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-hufs-a-for-origin-mv", "yt-hufs-a-for-origin-kbs", "yt-hufs-a-for-origin-2014"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "adaptation of copyrighted Transfixion song; HUFS adaptation credits, permission, master ownership, and choreography terms are not documented",
+        "sourceUrls": ["https://www.youtube.com/watch?v=iAyAHnUaxio", "https://www.youtube.com/watch?v=7fsLYW8uUd8"],
+        "structureSummary": "원곡의 무가사 함성 후렴과 승리를 향한 록 진행을 유지하면서 국가대표·태극기 표지를 한국외대와 외대인의 공동 승리 표지로 교체한 절·후렴형 개사곡이다. 전문은 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": ["yt-hufs-a-for-freshman-2026", "yt-hufs-a-for-council-2026", "yt-hufs-a-for-origin-mv", "yt-hufs-a-for-origin-kbs", "yt-hufs-a-for-origin-2014"],
+      "unresolved": [
+        "정확한 제작·초연일과 한국외대판 개사·편곡·녹음·안무 크레딧",
+        "트랜스픽션 원곡의 대학 개사 이용허락과 음원 마스터 권리",
+        "2026 퀸쿠아트리아에서의 직접 실연 영상 추가 확보"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-hufs-a-official-cheer-page",
+      "type": "official-university-page",
+      "url": "https://builder.hufs.ac.kr/user/indexSub.action?codyMenuSeq=42959&linkUrl=01_010603.html&mainFrame=right&menuFrame=left&menuType=T&siteId=hufs&sortChar=AAGC&uId=1",
+      "title": "응원가",
+      "publisher": "한국외국어대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "구형 대학 공식 사이트의 상징 메뉴에 응원가 페이지가 존재하지만 현재 본문은 비어 있고 재생 기능도 주석 처리돼 있어 현행 여섯 곡의 제목·연혁·가사를 뒷받침하지 못한다.",
+      "supports": ["대학 공식 응원가 페이지 존재", "현행 세부 정보 공백"]
+    },
+    {
+      "id": "ev-hufs-a-troika-2021",
+      "type": "official-university-newspaper",
+      "url": "https://e-book.hufs.ac.kr/src/viewer/download.php?host=main&no=1&site=20211215_105445",
+      "title": "한국외대·경희대·서울시립대, 동대문구 3대학 축제 ‘트로이카’ 개최",
+      "publisher": "한국외대 학보 1063호",
+      "publishedAt": "2021-12-01",
+      "accessedAt": "2026-08-09",
+      "summary": "2021년 11월 24일 트로이카 공연전에 한국외대 응원단 아이기스가 참가했다고 보도해 같은 행사 영상의 날짜·공식 맥락을 교차한다.",
+      "supports": ["2021 트로이카", "아이기스 참가", "너, 우리 초기 사용 맥락"]
+    },
+    {
+      "id": "ev-hufs-a-quin-2023-news",
+      "type": "news",
+      "url": "https://www.newsis.com/view/NISX20231005_0002472662",
+      "title": "한국외대, 가을 대동제 ‘퀸쿠아트리아’ 개최",
+      "publisher": "뉴시스",
+      "publishedAt": "2023-10-05",
+      "accessedAt": "2026-08-09",
+      "summary": "2023 가을 대동제 응원제에서 아이기스와 중앙밴드 외인부대가 공연하고 졸업생 가수 윤하와 합동 무대를 했다고 보도한다.",
+      "supports": ["제1회 퀸쿠아트리아 맥락", "아이기스·외인부대 공연", "응원제 운영"]
+    },
+    {
+      "id": "ev-hufs-a-namu-event",
+      "type": "community-wiki",
+      "url": "https://namu.wiki/w/%ED%95%9C%EA%B5%AD%EC%99%B8%EA%B5%AD%EC%96%B4%EB%8C%80%ED%95%99%EA%B5%90/%ED%96%89%EC%82%AC",
+      "title": "한국외국어대학교/행사",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "퀸쿠아트리아 등 학교 축제를 설명하는 편집형 문서다. 검색 가능한 본문에는 이번 다섯 곡의 원곡·제작진·도입연도를 판정할 만한 곡별 정보가 없어 공식 영상 설명을 우선했다.",
+      "supports": ["나무위키 확인", "축제 맥락", "곡별 정보 공백"]
+    },
+    {
+      "id": "ev-hufs-a-gale-credits",
+      "type": "artist-official-youtube-metadata",
+      "url": "https://www.youtube.com/watch?v=R1oY3eojua8",
+      "title": "질풍가도",
+      "publisher": "유정석 공식 아티스트 채널",
+      "publishedAt": "2023-06-24",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 아티스트 음원 메타데이터가 노래 유정석, 작사 신동식, 작곡 박정식으로 표기한다. 별도 음원 설명은 편곡도 박정식으로 적는다.",
+      "supports": ["질풍가도 원가수", "작사 신동식", "작곡 박정식"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-hufs-a-you-2021",
+      "songId": "hufs-seoul-you-hufs",
+      "url": "https://www.youtube.com/watch?v=zdaixJUtCyI",
+      "videoId": "zdaixJUtCyI",
+      "title": "[2021 TROIKA 공연전 응원단 : 한국외대 아이기스]",
+      "channel": "동대문구 3대학 트로이카",
+      "publishedAt": "2021-11-24",
+      "descriptionSummary": "아이기스 공연과 함께 작곡 김종민·이진·안재근, 작사 이진, 편곡 김종민·안재근의 제작진을 직접 기재한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["국제수어 안무, 역동적인 대열, 코로나19 시기 제작 노력을 호평하는 반응이 반복됐다."],
+      "supports": ["너, 우리 초기 직접 영상", "제작진", "국제수어 안무 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-you-guide-2023",
+      "songId": "hufs-seoul-you-hufs",
+      "url": "https://www.youtube.com/watch?v=NLdR2uTJgG8",
+      "videoId": "NLdR2uTJgG8",
+      "title": "[한국외국어대학교 응원단] 아이기스(AEGIS) - 한국외국어대학교 응원가 \"너, 우리(You HUFS)",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2023-09-17",
+      "descriptionSummary": "2023 퀸쿠아트리아용 응원법 안내 영상으로 곡명과 교내 응원제 사용을 직접 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 단원의 외모를 칭찬하며 곡 정보는 보태지 않는다."],
+      "supports": ["2023 응원법", "공식 제목", "퀸쿠아트리아"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-you-troika-2023",
+      "songId": "hufs-seoul-you-hufs",
+      "url": "https://www.youtube.com/watch?v=HLKWKALHw0Y",
+      "videoId": "HLKWKALHw0Y",
+      "title": "[2023 TROIKA] 한국외국어대학교 응원가_너,우리 | AEGIS",
+      "channel": "TROIKA_트로이카",
+      "publishedAt": "2023-09-06",
+      "descriptionSummary": "2023 동대문구 3대학 트로이카의 한국외대 곡과 출연 응원단을 직접 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["특정 단원 응원과 학교 간 비교 반응이 섞였고, 곡의 연혁 정보는 없었다."],
+      "supports": ["2023 트로이카", "곡명", "아이기스"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-you-quin-2023",
+      "songId": "hufs-seoul-you-hufs",
+      "url": "https://www.youtube.com/watch?v=1CLc6TU73zc",
+      "videoId": "1CLc6TU73zc",
+      "title": "[한국외국어대학교 응원단] 2023 퀸쿠아트리아 응원제 \"너, 우리(You, HUFS)\"",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2023-12-27",
+      "descriptionSummary": "2023년 9월 21일 제1회 퀸쿠아트리아 응원제의 공연곡과 참여 단원을 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["제1회 퀸쿠아트리아", "2023 직접 공연"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-you-freshman-2024",
+      "songId": "hufs-seoul-you-hufs",
+      "url": "https://www.youtube.com/watch?v=0FfUI1-51Xw",
+      "videoId": "0FfUI1-51Xw",
+      "title": "[한국외국어대학교 응원단] 2024 신입생 환영회 \"너, 우리(You, HUFS)\"",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2024-03-26",
+      "descriptionSummary": "2024 신입생 환영회이자 4기 은퇴 무대에서 사용한 곡으로 설명한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 신입생 환영회", "세대 교체 맥락"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-you-quin-2024",
+      "songId": "hufs-seoul-you-hufs",
+      "url": "https://www.youtube.com/watch?v=imehkZG73Uc",
+      "videoId": "imehkZG73Uc",
+      "title": "[한국외국어대학교 응원단] 2024 퀸쿠아트리아 응원제 너,우리",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2024-11-18",
+      "descriptionSummary": "2024년 10월 8일 제2회 퀸쿠아트리아의 기존 응원가 공연임을 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 퀸쿠아트리아", "지속 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-you-2026",
+      "songId": "hufs-seoul-you-hufs",
+      "url": "https://www.youtube.com/watch?v=7z3YF2AaqRk",
+      "videoId": "7z3YF2AaqRk",
+      "title": "[한국외국어대학교 응원단 아이기스] 한국외대 응원가 \"너, 우리\" | 2026 상반기 퀸쿠아트리아 응원제",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2026-07-30",
+      "descriptionSummary": "2026 응원제 ‘퍼져감’ 공연곡이며 ‘한국외대 오리지널 응원가’로 명시한다. 응원예술위원회의 첫 공식 활동과 안무 권리 고지도 포함한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현행", "오리지널 응원가", "안무 권리 고지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-dream-freshman-2026",
+      "songId": "hufs-seoul-dream",
+      "url": "https://www.youtube.com/watch?v=NK5ccJAUOlI",
+      "videoId": "NK5ccJAUOlI",
+      "title": "[한국외국어대학교 응원단 아이기스] 한국외대 응원가 ‘외대의 꿈’ | 2026 신입생 환영회",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2026-04-04",
+      "descriptionSummary": "2026년 3월 3일 신입생 환영회 공연이며 원곡을 ‘우리의 꿈’으로 직접 표기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 직접 공연", "우리의 꿈 원곡"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-dream-quin-2026",
+      "songId": "hufs-seoul-dream",
+      "url": "https://www.youtube.com/watch?v=GoAuPY5fS30",
+      "videoId": "GoAuPY5fS30",
+      "title": "[한국외국어대학교 응원단 아이기스] 한국외대 응원가 \"외대의 꿈\" | 2026 상반기 퀸쿠아트리아 응원제",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2026-07-30",
+      "descriptionSummary": "응원예술위원회 첫 공식 활동에서 공연했으며 원곡을 ‘우리의 꿈’으로 표기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 퀸쿠아트리아", "우리의 꿈 원곡", "응원예술위원회"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-dream-council-2026",
+      "songId": "hufs-seoul-dream",
+      "url": "https://www.youtube.com/watch?v=dk43kayLmDU",
+      "videoId": "dk43kayLmDU",
+      "title": "한국외국어대학교 응원가 ‘외대의 꿈’",
+      "channel": "한국외국어대학교 서울캠퍼스 총학생회",
+      "publishedAt": "2026-04-02",
+      "descriptionSummary": "총학생회와 영상사업단이 외대인의 열정과 하나 되는 힘을 담은 응원가로 소개한다. 원곡·제작진은 쓰지 않는다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["총학생회 공식 소개", "공동체 주제"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-dream-origin-topic",
+      "songId": "hufs-seoul-dream",
+      "url": "https://www.youtube.com/watch?v=Qm0MYaxlsiU",
+      "videoId": "Qm0MYaxlsiU",
+      "title": "Our Dream (우리의 꿈)",
+      "channel": "KOYOTE - Topic",
+      "publishedAt": "2018-12-25",
+      "descriptionSummary": "코요태 ‘우리의 꿈’ 2018 Re-born Part.2 음원으로 KYT Entertainment 권리 표기를 제공한다. 한국외대판이 아니라 원곡 계보 표본이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["원곡 정체", "코요태", "원곡 권리 표기", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-dream-origin-live",
+      "songId": "hufs-seoul-dream",
+      "url": "https://www.youtube.com/watch?v=XSoP2KZRVNQ",
+      "videoId": "XSoP2KZRVNQ",
+      "title": "코요태, 우리의 꿈 | 월간 더 스테이지",
+      "channel": "THE K-POP2",
+      "publishedAt": "2023-03-25",
+      "descriptionSummary": "코요태의 원곡 라이브로 ‘원피스’ 연관 태그를 제공한다. 한국외대판이 아니라 원곡 수용 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 어린 시절 향수, 도입부의 설렘, 꿈과 용기 메시지에서 받는 위로를 반복해 언급한다."],
+      "supports": ["원곡 라이브", "원피스 연관", "원곡 수용", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-shout-debut-2025",
+      "songId": "hufs-seoul-shout",
+      "url": "https://www.youtube.com/watch?v=82UQQTp0B-8",
+      "videoId": "82UQQTp0B-8",
+      "title": "[한국외국어대학교 응원단] 2025 퀸쿠아트리아 응원제 ‘외대의 외침’",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2025-06-26",
+      "descriptionSummary": "2025년 5월 20일 제3회 응원제에서 새로운 곡이 첫선을 보였다고 직접 밝힌다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 첫 공개", "제3회 퀸쿠아트리아"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-shout-guide-2025",
+      "songId": "hufs-seoul-shout",
+      "url": "https://www.youtube.com/watch?v=5qlIrwLKPiw",
+      "videoId": "5qlIrwLKPiw",
+      "title": "[한국외국어대학교 응원단] ‘외대의 외침’ 응원법 가이드 영상",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2025-12-08",
+      "descriptionSummary": "‘2025년도 응원가’라고 명시한 공식 응원법 가이드다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 KIA 원곡의 구절과 제목을 적어 선율 계보를 즉시 식별했다."],
+      "supports": ["2025 응원가", "응원법", "KIA 원곡 인지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-shout-freshman-2026",
+      "songId": "hufs-seoul-shout",
+      "url": "https://www.youtube.com/watch?v=GN_q1SmaMnE",
+      "videoId": "GN_q1SmaMnE",
+      "title": "[한국외국어대학교 응원단 아이기스] 한국외대 응원가 ‘외대의 외침’ | 2026 신입생 환영회",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2026-04-04",
+      "descriptionSummary": "2026 신입생 환영회 공연이며 원곡을 ‘외쳐라 최강기아’로 직접 표기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현행", "외쳐라 최강기아 원곡"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-shout-kia-2023",
+      "songId": "hufs-seoul-shout",
+      "url": "https://www.youtube.com/watch?v=yirww4738cs",
+      "videoId": "yirww4738cs",
+      "title": "외쳐라 최강기아! M/V",
+      "channel": "기아타이거즈 팬",
+      "publishedAt": "2023-04-04",
+      "descriptionSummary": "한국외대판의 원곡인 KIA 팀 응원가를 제목과 태그로 식별하는 팬 제작 MV다.",
+      "commentsStatus": "available",
+      "commentSummary": ["타 구단 팬까지 현장 합창의 웅장함과 감정적 고양을 높게 평가하는 반응이 반복됐다."],
+      "supports": ["KIA 원곡 표본", "원곡 현장 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-shout-kia-2024",
+      "songId": "hufs-seoul-shout",
+      "url": "https://www.youtube.com/watch?v=kvTJ050XzxE",
+      "videoId": "kvTJ050XzxE",
+      "title": "외쳐라 최강기아! M/V 2024 ver.",
+      "channel": "기아타이거즈 팬",
+      "publishedAt": "2024-08-04",
+      "descriptionSummary": "KIA 원곡의 2024 영상판으로 한국외대판과 비교할 원곡 구조 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 직관에서 느끼는 웅장함과 울컥함을 반복했고, 한 댓글의 원곡 추정은 확인 자료 없이 제시돼 사실로 채택하지 않았다."],
+      "supports": ["KIA 원곡 비교", "원곡 반응", "미검증 원곡설 분리"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-world-guide-2023",
+      "songId": "hufs-seoul-world",
+      "url": "https://www.youtube.com/watch?v=D-E_nzFZOzk",
+      "videoId": "D-E_nzFZOzk",
+      "title": "[한국외국어대학교 응원단] 한국외국어대학교 응원가 ‘외대여 세계로, 세계여 외대로’",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2023-09-17",
+      "descriptionSummary": "2023 퀸쿠아트리아 응원법 안내이며 원곡을 유정석 ‘질풍가도’로 직접 표기한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["응원단을 칭찬하고 특정 단원을 응원하는 짧은 반응이 있다."],
+      "supports": ["2023 응원법", "질풍가도 원곡", "공식 제목"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-world-band-2023",
+      "songId": "hufs-seoul-world",
+      "url": "https://www.youtube.com/watch?v=vluCvab6GeE",
+      "videoId": "vluCvab6GeE",
+      "title": "[230921 QUINQUATRIA] 한국외대 응원가 ‘외대여 세계로, 세계여 외대로’ (원곡: 유정석 - 질풍가도)",
+      "channel": "외인부대",
+      "publishedAt": "2023-10-20",
+      "descriptionSummary": "중앙밴드 외인부대의 보컬·기타·베이스·키보드·드럼 실연자 이름을 제공하고 제목에서 원곡을 밝힌다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 맥락 없는 갈등 중단 요청으로 곡 정보에 활용하지 않았다."],
+      "supports": ["2023 밴드 실연", "질풍가도 원곡", "실연자 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-world-council-2024",
+      "songId": "hufs-seoul-world",
+      "url": "https://www.youtube.com/watch?v=BQv2QhTEYQ4",
+      "videoId": "BQv2QhTEYQ4",
+      "title": "QUINQUATRIA 70th Anniversary | 안무 영상 - 외대여 세계로, 세계여 외대로",
+      "channel": "한국외국어대학교 서울캠퍼스 총학생회",
+      "publishedAt": "2024-09-27",
+      "descriptionSummary": "2024 응원제용 안무·가사지 공개와 아이기스 안무, 영상사업단 촬영·편집 협조를 기록한다. 본문 제목 중복 오기가 있다.",
+      "commentsStatus": "available",
+      "commentSummary": ["활기찬 손동작을 칭찬하는 반응과 응원단 성별 구성을 묻는 반응이 공존한다."],
+      "supports": ["2024 응원법", "안무 크레딧", "제목 오기"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-world-live-2024",
+      "songId": "hufs-seoul-world",
+      "url": "https://www.youtube.com/watch?v=FzlwZhLQZb0",
+      "videoId": "FzlwZhLQZb0",
+      "title": "[한국외국어대학교 응원단] 2024 퀸쿠아트리아 ‘외대여 세계로, 세계여 외대로’",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2024-11-18",
+      "descriptionSummary": "2024년 10월 8일 제2회 응원제 공연과 유정석 ‘질풍가도’ 원곡을 명시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 직접 공연", "질풍가도 원곡"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-world-live-2025",
+      "songId": "hufs-seoul-world",
+      "url": "https://www.youtube.com/watch?v=KHkGH6rZHDM",
+      "videoId": "KHkGH6rZHDM",
+      "title": "[한국외국어대학교 응원단] 2025 퀸쿠아트리아 ‘외대여 세계로, 세계여 외대로’",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2025-06-26",
+      "descriptionSummary": "2025년 5월 20일 제3회 응원제의 공연곡과 참여 단원을 기록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 직접 공연", "지속 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-world-guide-2025",
+      "songId": "hufs-seoul-world",
+      "url": "https://www.youtube.com/watch?v=WfJ2RKluv_k",
+      "videoId": "WfJ2RKluv_k",
+      "title": "[한국외국어대학교 응원단] ‘외대여 세계로, 세계여 외대로’ 응원법 가이드",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2025-12-08",
+      "descriptionSummary": "이를 ‘2023년도 응원가’로 직접 설명하며 제목에 ‘새계여’ 오기가 한 번 있다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2023 도입연도", "현행 응원법", "표기 오기"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-world-entrance-2026",
+      "songId": "hufs-seoul-world",
+      "url": "https://www.youtube.com/watch?v=k-dIQ_0TZ8c",
+      "videoId": "k-dIQ_0TZ8c",
+      "title": "[한국외국어대학교 응원단 아이기스] ‘외대여 세계로, 세계여 외대로’ | 2026학년도 입학식",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2026-04-13",
+      "descriptionSummary": "2026년 2월 27일 오바마홀 입학식 공연의 정확한 타임라인과 질풍가도 원곡을 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 입학식", "타임라인", "질풍가도 원곡"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-world-quin-2026",
+      "songId": "hufs-seoul-world",
+      "url": "https://www.youtube.com/watch?v=_39O-WyQEwc",
+      "videoId": "_39O-WyQEwc",
+      "title": "[한국외국어대학교 응원단 아이기스] ‘외대여 세계로, 세계여 외대로’ | 2026 상반기 퀸쿠아트리아",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2026-07-30",
+      "descriptionSummary": "2026 응원예술위원회 공식 공연이며 질풍가도를 원곡으로 표기하고 안무 무단 사용 금지를 고지한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현행", "질풍가도 원곡", "안무 권리 고지"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-for-freshman-2026",
+      "songId": "hufs-seoul-for-hufs",
+      "url": "https://www.youtube.com/watch?v=iAyAHnUaxio",
+      "videoId": "iAyAHnUaxio",
+      "title": "[한국외국어대학교 응원단 아이기스] 한국외대 응원가 ‘외대를 위하여’ | 2026 신입생 환영회",
+      "channel": "한국외국어대학교 응원단 아이기스 AEGIS",
+      "publishedAt": "2026-04-04",
+      "descriptionSummary": "2026년 3월 3일 신입생 환영회 공연이며 원곡을 ‘승리를 위하여’로 직접 표기한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 직접 공연", "승리를 위하여 원곡"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-for-council-2026",
+      "songId": "hufs-seoul-for-hufs",
+      "url": "https://www.youtube.com/watch?v=UdPEF9jqiNQ",
+      "videoId": "UdPEF9jqiNQ",
+      "title": "한국외국어대학교 응원가 ‘외대를 위하여’",
+      "channel": "한국외국어대학교 서울캠퍼스 총학생회",
+      "publishedAt": "2026-04-02",
+      "descriptionSummary": "총학생회와 영상사업단이 외대인의 열정과 하나 되는 힘을 담은 응원가로 소개한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["총학생회 공식 소개", "공동체 주제", "2026 현행"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-for-origin-mv",
+      "songId": "hufs-seoul-for-hufs",
+      "url": "https://www.youtube.com/watch?v=7fsLYW8uUd8",
+      "videoId": "7fsLYW8uUd8",
+      "title": "트랜스픽션 - 승리를 위하여 (Music Video)",
+      "channel": "트랜스픽션 Transfixion",
+      "publishedAt": "2016-04-17",
+      "descriptionSummary": "트랜스픽션 공식 채널의 원곡 MV다. 한국외대판이 아니라 원곡 계보·구조 비교 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 월드컵 기억, 경기 전 고양감, 세대를 잇는 대표 축구 응원가라는 평가를 반복한다."],
+      "supports": ["원곡 아티스트", "원곡 공식 MV", "원곡 수용", "contextOnly"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-for-origin-kbs",
+      "songId": "hufs-seoul-for-hufs",
+      "url": "https://www.youtube.com/watch?v=3T3Rd4DV7CA",
+      "videoId": "3T3Rd4DV7CA",
+      "title": "트랜스픽션 - 승리를 위하여 | 열린 음악회 2026",
+      "channel": "KBS 레전드 케이팝",
+      "publishedAt": "2026-07-12",
+      "descriptionSummary": "KBS 공식 2026 실연으로 원곡이 현재도 공연되는 응원 레퍼토리임을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 월드컵 성적과 무관하게 노래가 오래 남았다는 반응, 청춘의 기억이라는 반응을 보인다."],
+      "supports": ["원곡 2026 실연", "장기 수용", "방송 공식 영상"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-hufs-a-for-origin-2014",
+      "songId": "hufs-seoul-for-hufs",
+      "url": "https://www.youtube.com/watch?v=uXION7lCnxw",
+      "videoId": "uXION7lCnxw",
+      "title": "트랜스픽션&걸스데이 민아 - 승리를 위하여 2014",
+      "channel": "GENIE MUSIC",
+      "publishedAt": "2014-03-11",
+      "descriptionSummary": "원곡의 2014 협업 판본으로, 응원가가 복수 공식 편곡판을 가진다는 비교 자료다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 월드컵 때마다 다시 듣는다는 반응과 여러 판본 중 이 편곡을 선호한다는 반응을 남긴다. 한 댓글의 가사 전문은 저장하지 않았다."],
+      "supports": ["원곡 2014 판본", "복수 편곡 계보", "원곡 반응"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 30,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 15
+  }
+}

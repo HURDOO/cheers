@@ -1,0 +1,1249 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-yonsei-university-c",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-yonsei-sinchon",
+    "name": "연세대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사와 영상 설명·댓글 전문은 저장하지 않는다. 가사는 권리 상태와 구조·주제만 요약하고, 영상 설명과 공개 댓글은 역사·사용법·수용을 확인하는 데 필요한 내용만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "yonsei-university-paran",
+      "title": "파란",
+      "aliases": ["연세대 파란"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot",
+      "summary": "영화 ‘오즈의 마법사’에서 Judy Garland가 부른 ‘Over the Rainbow’를 바탕으로 한 2004년 응원가로 정리된다. 공식 응원단 음원은 원곡명을 직접 밝히지만 Judy Garland를 ‘저작자’로 적어 역할을 잘못 분류한다. 미국 의회도서관 자료에 따르면 작곡은 Harold Arlen, 작사는 E. Y. Harburg, Garland는 1939년 대표 녹음의 가창자다. 2019~2026 현장 표본은 빠른 동작과 대규모 합창을 동반한 현행 사용을 보여준다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2004년",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-c-namu-2000s"],
+          "notes": "나무위키의 연대별 문서가 2004년 곡으로 분류한다. 현재 확보한 2004년 당시 프로그램·영상 같은 1차 기록은 없어 직접 검증 완료로 올리지 않는다."
+        },
+        {
+          "field": "originalSong",
+          "value": "‘Over the Rainbow’ — 영화 ‘The Wizard of Oz’에서 Judy Garland가 부른 1939년 노래",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-paran-official-2020", "ev-yu-c-loc-over-the-rainbow"],
+          "notes": "응원단 공식 영상의 직접 원곡 표기와 미국 의회도서관의 작품·녹음 기록이 일치한다."
+        },
+        {
+          "field": "originalSongCredits",
+          "value": "작곡 Harold Arlen, 작사 E. Y. Harburg, 대표 가창 Judy Garland",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-loc-over-the-rainbow"],
+          "notes": "공식 응원단 설명의 ‘저작자: Judy Garland’는 가창자를 저작자로 분류한 오류다. 곡 출처 자체는 맞지만 역할 크레딧은 이 판정으로 교정한다."
+        },
+        {
+          "field": "officialVideoCredit",
+          "value": "공식 영상은 원곡을 ‘over the rainbow’, 저작자를 Judy Garland로 표기",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-paran-official-2020", "ev-yu-c-loc-over-the-rainbow"],
+          "notes": "표기 사실은 직접 확인되지만 저작자 역할은 권위 자료와 충돌한다. 데이터에서 원문 표기와 교정된 크레딧을 모두 보존한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2019·2020·2022·2024·2025·2026 표본에서 연속 확인되며 2026 신입생 응원 OT에서도 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-paran-2019", "yt-yu-c-paran-official-2020", "yt-yu-c-paran-2022", "yt-yu-c-paran-2024", "yt-yu-c-paran-2025-ot", "yt-yu-c-paran-2026-ot"],
+          "notes": "각 연도의 공개 영상은 해당 시점 사용을 직접 입증한다. 이것이 그 사이 모든 개별 행사의 사용을 뜻하지는 않는다."
+        }
+      ],
+      "usageContexts": [
+        "아카라카와 신입생 응원 OT에서 빠른 동작과 대규모 합창을 결합해 분위기를 끌어올리는 곡으로 사용한다.",
+        "연속 응원 메들리에서는 해야·서시·하늘끝까지 같은 대표곡과 함께 전반부 또는 후반부에 배치된다.",
+        "관중이 구간마다 어깨를 걸거나 점프하고 동작을 빠르게 전환하는 참여형 응원으로 공연된다."
+      ],
+      "trivia": [
+        {
+          "id": "paran-title-and-blue-identity",
+          "summary": "공식 영상은 파란 물결과 독수리 이미지를 전면에 둔다. 제목 ‘파란’은 색 이름과 격동을 함께 떠올리게 하며 연세대의 파란색 관중석을 시각적 정체성과 연결한다.",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-paran-official-2020", "yt-yu-c-paran-2022"]
+        },
+        {
+          "id": "paran-high-intensity-motions",
+          "summary": "과거 편집형 자료는 구간별 동작이 빠르게 바뀌고 점프가 많아 체력 소모가 큰 곡으로 설명한다. 여러 현장 영상도 이 공연 특성을 시각적으로 뒷받침한다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-tcatmon-history", "yt-yu-c-paran-2019", "yt-yu-c-paran-2024"]
+        },
+        {
+          "id": "paran-cross-generational-reception",
+          "summary": "2019·2022·2026 영상 댓글에서는 1980~1990년대 학번 동문의 회상, 예비 지원자의 입학 동기, 타교 구성원이 반복 시청한다는 반응이 함께 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-paran-2019", "yt-yu-c-paran-2022", "yt-yu-c-paran-2026-ot"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 1939 popular song and modern university adaptation; arrangement, Korean lyric adaptation, performance, and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=aHJmo_SZzRU",
+          "https://www.loc.gov/item/prn-17-029/?loclr=ealn",
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80"
+        ],
+        "structureSummary": "익숙한 서정적 선율을 짧은 학교 정체성 선언으로 바꾸고, 독수리와 파란 물결의 이미지를 전개한 뒤 반복 합창과 점프로 고조한다. 구간 전환마다 동작이 달라지고 마지막은 집단 구호 성격의 종결부로 모인다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-c-paran-2019",
+        "yt-yu-c-paran-official-2020",
+        "yt-yu-c-paran-2022",
+        "yt-yu-c-paran-2024",
+        "yt-yu-c-paran-2025-ot",
+        "yt-yu-c-paran-2026-ot"
+      ],
+      "unresolved": [
+        "2004년 최초 공개 행사와 날짜를 확인할 동시대 1차 기록",
+        "연세대판 최초 편곡자·개사자와 제작 과정의 개인별 크레딧",
+        "현행 편곡·가사·공연 영상의 게시 및 재사용 권리 범위"
+      ]
+    },
+    {
+      "id": "yonsei-university-chinguya",
+      "title": "친구야",
+      "aliases": ["연세대 친구야"],
+      "currentStatus": "current-directly-verified-at-2026-akaraka",
+      "summary": "The Beatles의 ‘Let It Be’를 바탕으로 2006년에 도입된 것으로 정리되는 우정 중심 응원가다. 공식 응원단 영상이 원곡을 직접 명시하며, Beatles 공식 자료는 이 곡이 Paul McCartney가 쓰고 Lennon–McCartney로 크레딧되어 1970년에 발표됐음을 확인한다. 경쟁·승리 중심 곡 사이에서 친구와 공동체를 호명하는 단순한 합창곡으로 기능하며 2026 아카라카까지 사용이 직접 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2006년",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-namu-2000s", "ev-yu-c-tcatmon-history"],
+          "notes": "현재 나무위키와 과거 나무위키 계열 아카이브가 모두 2006년 신곡으로 정리한다. 당시 프로그램 같은 1차 자료는 아직 확보하지 못했다."
+        },
+        {
+          "field": "originalSong",
+          "value": "The Beatles ‘Let It Be’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-chinguya-official-2020", "ev-yu-c-beatles-let-it-be"],
+          "notes": "공식 응원단 설명이 직접 원곡과 아티스트를 적고 Beatles 공식 페이지가 작품을 확인한다."
+        },
+        {
+          "field": "originalSongCredits",
+          "value": "Paul McCartney가 쓰고 Lennon–McCartney로 크레딧된 1970년 Beatles 싱글",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-beatles-let-it-be"],
+          "notes": "Beatles 공식 페이지의 발매일과 작가 크레딧을 사용했다. 응원가 개사·편곡 크레딧과는 구분한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2020 공식 음원 이후 2022·2023·2024·2025·2026 행사 표본에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-chinguya-official-2020", "yt-yu-c-chinguya-2022", "yt-yu-c-chinguya-2023-ot", "yt-yu-c-chinguya-2024", "yt-yu-c-chinguya-2025-ot", "yt-yu-c-chinguya-2026-akaraka"],
+          "notes": "2026-05-23 아카라카 표본의 11:28부터 직접 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "아카라카·응원 OT에서 관중이 친구를 향한 짧은 문장을 함께 반복하는 대규모 합창으로 사용한다.",
+        "승리와 경쟁을 전면에 둔 곡 사이에서 우정과 동료애를 강조하는 정서적 완급 구간을 만든다.",
+        "선율과 반복부가 단순해 신입생 교육과 세대가 섞인 동문 행사에서도 쉽게 따라 부를 수 있는 곡으로 배치된다."
+      ],
+      "trivia": [
+        {
+          "id": "chinguya-singalong-design",
+          "summary": "과거 편집형 자료는 단순한 선율과 반복적인 내용 덕분에 별도 숙지 없이도 함께 부르기 쉽다고 설명한다. 현장 영상에서도 복잡한 경쟁 구호보다 관중 합창이 중심이 된다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-tcatmon-history", "yt-yu-c-chinguya-2022"]
+        },
+        {
+          "id": "chinguya-alumni-memory",
+          "summary": "2022 영상 댓글에는 타교 동문이 과거 양교 응원 현장에서 이 곡의 우정 정서를 기억한다는 반응과 오래전 재학 시절을 회상하는 반응이 함께 남아 있다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-chinguya-2022"]
+        },
+        {
+          "id": "chinguya-current-emotional-role",
+          "summary": "2023·2025 표본 댓글에서는 입학을 앞둔 학생의 기대, 청춘의 스트레스를 풀어 주는 느낌, 핵심 우정 메시지를 되풀이하는 반응이 나타난다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yu-c-chinguya-2023-ot", "yt-yu-c-chinguya-2025-ot"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted Beatles composition and modern university adaptation; arrangement, Korean lyric adaptation, performance, and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=r2HUILuny_w",
+          "https://www.thebeatles.com/let-it-be-1",
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80"
+        ],
+        "structureSummary": "원곡의 넓게 알려진 화성 진행 위에 친구와 연세 공동체를 호명하는 짧은 절을 두고, 같은 핵심 문장을 관중이 반복하는 합창형 후렴으로 이어진다. 가사 밀도와 동작 난도보다 함께 부르는 정서가 중심이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-c-chinguya-official-2020",
+        "yt-yu-c-chinguya-2022",
+        "yt-yu-c-chinguya-2023-ot",
+        "yt-yu-c-chinguya-2024",
+        "yt-yu-c-chinguya-2025-ot",
+        "yt-yu-c-chinguya-2026-akaraka"
+      ],
+      "unresolved": [
+        "2006년 최초 공개 행사·날짜를 확인할 동시대 1차 기록",
+        "연세대판 편곡자·개사자 및 Beatles 원곡 이용 허락의 구체적 범위",
+        "초기 버전과 2026년 현행 편곡·동작 사이의 개정 이력"
+      ]
+    },
+    {
+      "id": "yonsei-university-haneul-arae",
+      "title": "하늘 아래",
+      "aliases": ["하늘아래", "연세대 하늘 아래"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-akaraka",
+      "summary": "2024년 ‘신곡’으로 소개된 연세대학교 응원가다. 나무위키는 미래캠퍼스 축제에서 먼저 공개됐다고 서술하지만 해당 순간의 직접 영상은 아직 확보하지 못했다. 공개 녹음을 비교하면 대구FC가 2020년에 발매한 구단 응원가 ‘그 겨울’과 선율·구조가 사실상 같은 계보임을 확인할 수 있고, 2024 영상 댓글에서도 그 유사성이 반복 지적된다. 그러나 제작자가 직접 차용 경위나 허락 관계를 밝힌 자료가 없어 ‘같은 음악 재료를 쓴 후발 응원가’라는 음악적 판정과 법적·제작 경로를 분리한다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2024년 신곡",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-haneul-arae-new-2024", "yt-yu-c-haneul-arae-official-2024", "ev-yu-c-namu-2020s"],
+          "notes": "2024-05-30 게시 영상이 제목과 설명에서 신곡으로 명시하고, 공식 응원단의 2024-05-25 아카라카 영상이 같은 곡을 수록한다."
+        },
+        {
+          "field": "firstPublicPerformance",
+          "value": "2024년 미래캠퍼스 축제에서 최초 공개됐다는 주장",
+          "assessment": "reported",
+          "confidence": "low",
+          "evidenceRefs": ["ev-yu-c-namu-2020s"],
+          "notes": "편집형 자료의 주장이다. 현재 확보한 직접 기록 중에는 2024-05-25 신촌캠퍼스 아카라카 공연이 가장 이른 날짜가 명시된 영상이며, 미래캠퍼스 최초 공개 장면·공식 공지는 찾지 못했다."
+        },
+        {
+          "field": "priorWork",
+          "value": "대구FC ‘그 겨울’ — 2020-05-13 발매된 구단 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-daegu-geu-gyeoul-topic", "ev-yu-c-daegu-official-songs"],
+          "notes": "공식 배급 메타데이터가 발매일을, 대구FC 공식 영상이 구단의 두 오리지널 응원가 중 하나라는 사용 맥락을 확인한다."
+        },
+        {
+          "field": "musicalRelationship",
+          "value": "연세대 ‘하늘 아래’와 대구FC ‘그 겨울’은 같은 선율과 밀접하게 대응하는 절·후렴 구조를 공유",
+          "assessment": "inferred",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-haneul-arae-new-2024", "ev-yu-c-daegu-geu-gyeoul-topic", "ev-yu-c-daegu-fan-lyrics"],
+          "notes": "두 공개 녹음의 직접 비교에 따른 음악적 판정이다. 2024 영상 댓글도 같은 관계를 반복 지적하지만 댓글은 보조적 수용 자료일 뿐이다. 제작자 확인이 없어 정식 허락·직접 차용·공통 제3원곡 중 어느 경로인지는 확정하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024 합동응원 OT·아카라카, 2025 신입생 응원 OT, 2026 신입생 응원 OT·아카라카에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-haneul-arae-official-2024", "yt-yu-c-haneul-arae-joint-2024", "yt-yu-c-haneul-arae-2025-ot", "yt-yu-c-haneul-arae-2026-ot", "yt-yu-c-haneul-arae-2026-akaraka"],
+          "notes": "2026 두 행사 표본까지 직접 확인되므로 현행 사용은 높게 판정한다."
+        }
+      ],
+      "usageContexts": [
+        "아카라카와 신입생·합동 응원 OT에서 대규모 어깨동무 합창으로 공연한다.",
+        "느린 도입에서 넓은 후렴으로 올라가는 구조를 이용해 세대·관중 전체가 함께 부르는 감정적 고조 구간에 배치한다.",
+        "2024년 신곡 교육 이후 2025·2026 행사에서도 반복돼 신규곡이 정규 레퍼토리로 정착하는 양상을 보인다."
+      ],
+      "trivia": [
+        {
+          "id": "haneul-arae-first-release-evidence-gap",
+          "summary": "미래캠퍼스 축제 최초 공개설과 별개로, 현재 직접 날짜를 붙일 수 있는 가장 이른 확보 영상은 2024-05-25 신촌 아카라카 공연과 그 직후의 동문 행사 기록이다. ‘최초’와 ‘가장 오래된 확보 영상’을 혼동하지 않아야 한다.",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-namu-2020s", "yt-yu-c-haneul-arae-official-2024", "yt-yu-c-haneul-arae-new-2024"]
+        },
+        {
+          "id": "haneul-arae-daegu-comment-reaction",
+          "summary": "2024년 신곡 영상 댓글에는 대구FC ‘그 겨울’을 먼저 알던 시청자들이 선율과 가사의 강한 유사성을 지적하고 대구 응원 영상 링크를 제시하는 반응이 반복된다. 이는 인지·논쟁의 기록이지 제작 허락의 증거는 아니다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-haneul-arae-new-2024", "ev-yu-c-daegu-fan-lyrics"]
+        },
+        {
+          "id": "haneul-arae-rainy-akaraka-memory",
+          "summary": "공식 2024 아카라카 영상 댓글에서는 비가 온 공연을 즐거운 기억으로 회상하고 신곡의 현장 정서를 긍정적으로 평가하는 반응이 보인다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yu-c-haneul-arae-official-2024"]
+        },
+        {
+          "id": "haneul-arae-unconfirmed-third-source",
+          "summary": "일부 댓글은 해외 스포츠 선율과의 추가 유사성을 언급하지만 작곡·배급 메타데이터나 제작자 진술로 교차되지 않았다. 따라서 대구FC 이전의 제3원곡 주장으로 승격하지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-yu-c-haneul-arae-official-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "modern university cheer with a strongly corresponding 2020 Daegu FC song; composition, adaptation, authorization, lyric, performance, and recording rights are unresolved",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=0xj3CB4ut1k",
+          "https://www.youtube.com/watch?v=tzEhmEqYngY",
+          "https://www.youtube.com/watch?v=bhlFv9qiKIM",
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80"
+        ],
+        "structureSummary": "서정적인 도입에서 학교와 동료를 호명하는 절을 전개하고, 세월과 동행의 이미지를 담은 넓은 합창 후렴을 반복해 고조한다. 대구FC ‘그 겨울’과 선율 진행 및 절·후렴 배치가 밀접하게 대응하지만 문구 전문은 저장하지 않는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-c-haneul-arae-new-2024",
+        "yt-yu-c-haneul-arae-official-2024",
+        "yt-yu-c-haneul-arae-joint-2024",
+        "yt-yu-c-haneul-arae-2025-ot",
+        "yt-yu-c-haneul-arae-2026-ot",
+        "yt-yu-c-haneul-arae-2026-akaraka"
+      ],
+      "unresolved": [
+        "미래캠퍼스 축제 최초 공개설을 입증할 날짜가 명시된 공식 공지·현장 영상",
+        "하늘 아래의 작곡·편곡·개사자 개인별 크레딧과 제작 주체",
+        "대구FC ‘그 겨울’ 사용에 대한 허락·라이선스 또는 공통 제3원곡 존재 여부",
+        "두 곡의 가사·편곡·공연 영상 재사용 권리 범위"
+      ]
+    },
+    {
+      "id": "yonsei-university-oneul-bamsae",
+      "title": "오늘 밤새",
+      "aliases": ["오늘밤새", "오늘 밤 새"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-akaraka",
+      "summary": "PSY의 2010년 곡 ‘오늘밤새’를 원곡으로 한 2013년 응원가다. 공식 응원단 음원이 원곡을 PSY로 명시하고 음원 카탈로그가 앨범 ‘Psyfive’의 수록곡과 발매일을 확인한다. 단순한 반복 구호와 춤 중심 동작 때문에 응원 OT·아카라카에서 빠르게 따라 하기 쉬운 곡으로 쓰이며, 2018~2026의 직접 표본에서 사용이 확인된다. 데이터 표제는 인벤토리의 ‘오늘 밤새’를 유지하되 공식 영상의 붙여쓰기와 현장 영상의 ‘오늘 밤 새’를 별칭으로 보존한다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2013년",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-namu-2010s", "ev-yu-c-tcatmon-history", "yt-yu-c-oneul-bamsae-2018", "yt-yu-c-oneul-bamsae-2019"],
+          "notes": "현재·과거 편집형 자료가 2013년 신곡으로 일치하고, 2018·2019 영상 댓글에는 2013년 제작 시기를 기억한다는 동문 반응이 있다. 댓글은 보조 근거이며 동시대 공식 기록은 아직 없다."
+        },
+        {
+          "field": "originalSong",
+          "value": "PSY ‘오늘밤새’ — 앨범 ‘Psyfive’(2010)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-oneul-bamsae-official-2020", "ev-yu-c-bugs-psyfive", "ev-yu-c-psy-topic"],
+          "notes": "응원단 공식 설명, 음원 서비스의 앨범 메타데이터, 공식 유통 영상 설명이 일치한다."
+        },
+        {
+          "field": "canonicalTitleAndAliases",
+          "value": "인벤토리 표제 ‘오늘 밤새’; 공식 응원단 ‘오늘밤새’; 현장 제목 ‘오늘 밤 새’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-oneul-bamsae-official-2020", "yt-yu-c-oneul-bamsae-2019", "yt-yu-c-oneul-bamsae-2026-ot"],
+          "notes": "서로 다른 띄어쓰기는 동일 공연곡을 가리킨다. 검색·중복 제거를 위해 별칭을 모두 유지한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2018·2019·2020·2022·2024·2025·2026 표본에서 확인되며 2026 응원 OT와 아카라카에 모두 등장",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-oneul-bamsae-2018", "yt-yu-c-oneul-bamsae-2019", "yt-yu-c-oneul-bamsae-official-2020", "yt-yu-c-oneul-bamsae-2022", "yt-yu-c-oneul-bamsae-2024", "yt-yu-c-oneul-bamsae-2025-ot", "yt-yu-c-oneul-bamsae-2026-ot", "yt-yu-c-oneul-bamsae-2026-akaraka"],
+          "notes": "나열한 연도는 확보한 공개 표본의 연도이며, 중간의 모든 개별 행사 사용을 포괄한다는 뜻은 아니다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT에서 짧고 반복적인 구호와 춤 동작을 익히는 참여형 곡으로 사용한다.",
+        "아카라카 1부와 연속 메들리에서 빠르게 분위기를 전환하고 관중 전체의 점프·박수·응답을 유도한다.",
+        "연세대 스포츠 경기 응원을 먼저 접한 시청자가 축제 응원가로 다시 발견하는 교차 맥락도 댓글에서 확인된다."
+      ],
+      "trivia": [
+        {
+          "id": "oneul-bamsae-2013-survivor-report",
+          "summary": "과거 편집형 자료는 2013년에 발표된 신곡들 가운데 오늘 밤새만 후대 정규 응원에서 살아남았다고 설명한다. 당시 전체 신곡 목록과 퇴출 시점을 확인할 공식 문서는 아직 없다.",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-yu-c-tcatmon-history", "ev-yu-c-namu-2010s"]
+        },
+        {
+          "id": "oneul-bamsae-easy-motions",
+          "summary": "2022 현장 영상 댓글에서는 동작이 단순해 처음 보는 관중도 쉽게 따라가는 점이 장점으로 언급된다. 영상 자체도 반복되는 박수·몸동작 중심의 구성을 보여준다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-oneul-bamsae-2022"]
+        },
+        {
+          "id": "oneul-bamsae-drama-discovery",
+          "summary": "2018·2022·2024 영상 댓글에서는 드라마 ‘치얼업’을 통해 곡과 실제 대학 응원문화를 찾아왔다는 반응이 반복된다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-oneul-bamsae-2018", "yt-yu-c-oneul-bamsae-2022", "yt-yu-c-oneul-bamsae-2024"]
+        },
+        {
+          "id": "oneul-bamsae-2024-metadata-conflict",
+          "summary": "2024 합동응원 OT 영상은 제목·게시 맥락은 2024년인데 설명 본문에는 2023-03-15라고 적혀 있다. 행사 연도 판정에는 제목과 게시일을 사용하고 설명의 날짜 불일치를 별도 보존한다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-oneul-bamsae-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted PSY song and modern university adaptation; arrangement, Korean lyric adaptation, performance, and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=woI68V6jMFE",
+          "https://music.bugs.co.kr/album/242469",
+          "https://www.youtube.com/watch?v=iOi5fAzC7Ow",
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80"
+        ],
+        "structureSummary": "짧은 도입 뒤 밤과 열기를 소재로 한 간결한 절을 부르고, 제목을 리듬 구호처럼 되풀이하는 후렴과 구음 구간을 여러 번 순환한다. 가사의 서사보다 반복 박자와 군무가 중심이며 마지막은 학교 응원 구호로 수렴한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-c-oneul-bamsae-2018",
+        "yt-yu-c-oneul-bamsae-2019",
+        "yt-yu-c-oneul-bamsae-official-2020",
+        "yt-yu-c-oneul-bamsae-2022",
+        "yt-yu-c-oneul-bamsae-2024",
+        "yt-yu-c-oneul-bamsae-2025-ot",
+        "yt-yu-c-oneul-bamsae-2026-ot",
+        "yt-yu-c-oneul-bamsae-2026-akaraka"
+      ],
+      "unresolved": [
+        "2013년 최초 공개 행사·날짜 및 당시 다른 신곡 목록을 확인할 1차 기록",
+        "연세대판 편곡자·개사자와 제작 과정의 개인별 크레딧",
+        "PSY 원곡 이용과 현행 편곡·가사·공연 영상의 권리 범위"
+      ]
+    },
+    {
+      "id": "yonsei-university-go-yonsei",
+      "title": "GO연세",
+      "aliases": ["고연세", "GO 연세"],
+      "currentStatus": "current-directly-verified-at-2026-akaraka",
+      "summary": "2002년에 도입된 것으로 정리되는 연세대학교 응원가다. 공식 응원단 영상은 원곡을 노브레인의 ‘진군가’와 Queen의 ‘We Will Rock You’ 두 곡으로 동시에 명시하므로 어느 하나를 배제하지 않는다. 음원 자료는 ‘진군가’가 2002년 붉은악마 공식 앨범에 수록됐음을, Queen 공식 자료는 Brian May가 쓴 ‘We Will Rock You’가 1977년 ‘News of the World’에 실렸음을 확인한다. 표제는 공식 영상의 ‘GO연세’를 채택하고 현장형 표기 ‘고연세’, ‘GO 연세’를 별칭으로 유지한다.",
+      "claims": [
+        {
+          "field": "canonicalTitleAndAliases",
+          "value": "공식 표제 ‘GO연세’; 통용 표기 ‘고연세’, ‘GO 연세’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-go-yonsei-official-2020", "yt-yu-c-go-yonsei-2018", "yt-yu-c-go-yonsei-2025"],
+          "notes": "공식 단독 음원 제목을 표제로 채택하고, 현장 영상 제목·설명에서 실제 쓰이는 두 표기를 별칭으로 보존한다."
+        },
+        {
+          "field": "introductionYear",
+          "value": "2002년",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-namu-2000s", "ev-yu-c-tcatmon-history"],
+          "notes": "현재 나무위키와 과거 편집형 아카이브가 2002년 곡으로 일치한다. 당시 공연 프로그램이나 응원단 제작 문서는 아직 확보하지 못했다."
+        },
+        {
+          "field": "officialSourceCredit",
+          "value": "공식 응원단 설명은 노브레인 ‘진군가’와 Queen ‘We Will Rock You’를 함께 원곡으로 명시",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-go-yonsei-official-2020"],
+          "notes": "두 크레딧은 상충 주장이 아니라 한 편곡 안의 복수 출처 표기다. 다만 설명의 ‘저작자: 노브레인, Queen’은 가수·그룹 단위의 간략 표기이므로 세부 작곡자 크레딧과 구분한다."
+        },
+        {
+          "field": "sourceSongOne",
+          "value": "노브레인 ‘진군가’, 붉은악마 2002 공식 앨범 수록·2002-07-24 발매",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-nobrain-red-devil", "ev-yu-c-nobrain-topic", "yt-yu-c-go-yonsei-official-2020"],
+          "notes": "음원 카탈로그와 공식 유통 메타데이터로 작품·발매일을 교차했다."
+        },
+        {
+          "field": "sourceSongTwo",
+          "value": "Queen ‘We Will Rock You’, Brian May 작곡·1977년 ‘News of the World’ 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-yu-c-queen-brian-may", "ev-yu-c-queen-news-of-the-world", "ev-yu-c-queen-official-video", "yt-yu-c-go-yonsei-official-2020"],
+          "notes": "Queen 공식 자료로 작가와 앨범 발매 연도를 확인했다. 공식 응원단의 그룹명 크레딧을 작곡자 크레딧으로 오독하지 않는다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2018·2020·2021·2025·2026 표본에서 확인되며 2026 아카라카에서도 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-go-yonsei-2018", "yt-yu-c-go-yonsei-official-2020", "yt-yu-c-go-yonsei-medley-2021", "yt-yu-c-go-yonsei-mv-2021", "yt-yu-c-go-yonsei-2025", "yt-yu-c-go-yonsei-2026"],
+          "notes": "2026 아카라카 영상의 08:37부터 직접 확인된다."
+        }
+      ],
+      "usageContexts": [
+        "아카라카와 응원 OT에서 강한 북·박수 도입 뒤 관중이 짧은 전진 구호에 응답하는 곡으로 사용한다.",
+        "관중이 어깨를 걸고 좌우로 이동하거나 점프하면서 경기·축제의 승부 의지를 고조하는 구간에 배치한다.",
+        "친구야·파란 같은 대표곡과 이어지는 메들리, 응원단 공식 뮤직비디오와 온라인 공연에서도 사용한다."
+      ],
+      "trivia": [
+        {
+          "id": "go-yonsei-two-source-credit",
+          "summary": "공식 설명이 두 원곡을 쉼표로 함께 제시한다는 점이 핵심이다. ‘진군가’만을 원곡으로 정리하거나 ‘We Will Rock You’만을 리듬 출처로 정리하면 공식 크레딧의 절반을 잃게 된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-go-yonsei-official-2020", "ev-yu-c-nobrain-red-devil", "ev-yu-c-queen-official-video"]
+        },
+        {
+          "id": "go-yonsei-official-mv",
+          "summary": "응원단은 2021년 별도 뮤직비디오를 제작해 곡과 동작을 독립 콘텐츠로 제시했다. 설명에 전문이 보이더라도 이 데이터에는 구조 요약과 출처 링크만 남긴다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-yu-c-go-yonsei-mv-2021"]
+        },
+        {
+          "id": "go-yonsei-pandemic-stage",
+          "summary": "2021년 ‘연세의 꽃길’ 응원 메들리는 관중이 제한된 시기의 온라인형 무대와 밴드 소나기의 라이브 연주를 기록한다. 댓글은 무관중 상황에서도 응원문화와 밴드 사운드를 이어 간 점을 기억한다.",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yu-c-go-yonsei-medley-2021"]
+        },
+        {
+          "id": "go-yonsei-cross-sport-recognition",
+          "summary": "공식 음원 댓글에는 같은 원곡 계열의 프로야구 구호를 먼저 떠올리는 반응이 나타난다. 이는 선율·리듬의 교차 종목 인지 사례이며 특정 야구 응원가와의 직접 차용 방향을 입증하지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-yu-c-go-yonsei-official-2020"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted No Brain and Queen source songs plus a modern university arrangement; arrangement, lyric adaptation, performance, and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=-0EI8RqrIy4",
+          "https://www.genie.co.kr/detail/albumInfo?axnm=33430703",
+          "https://www.youtube.com/watch?v=-tJYN-eG1zk",
+          "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80"
+        ],
+        "structureSummary": "강한 발구르기·박수형 도입과 짧은 출정 구호가 시작을 만들고, 학교 이름과 승리를 호명하는 선창·후창을 반복한다. 노브레인 곡의 전진감과 Queen 곡의 군중 박자 요소가 공식적으로 함께 크레딧되며 마지막은 반복 점프로 고조된다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-yu-c-go-yonsei-2018",
+        "yt-yu-c-go-yonsei-official-2020",
+        "yt-yu-c-go-yonsei-medley-2021",
+        "yt-yu-c-go-yonsei-mv-2021",
+        "yt-yu-c-go-yonsei-2025",
+        "yt-yu-c-go-yonsei-2026"
+      ],
+      "unresolved": [
+        "2002년 최초 공개 행사·날짜와 연세대판 최초 제작자 개인별 크레딧",
+        "두 원곡이 현행 편곡의 어느 구간에 어떻게 배치됐는지 설명하는 공식 편곡 노트",
+        "노브레인·Queen 원곡 이용과 응원가 개사·공연 영상의 권리 범위"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-yu-c-official-faq",
+      "type": "official-university-organization",
+      "url": "https://akaraka.yonsei.ac.kr/faq",
+      "title": "FAQ — 응원곡은 어떻게 만들어지나요?",
+      "publisher": "연세대학교 응원단",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "응원단이 매년 신곡 회의를 열고 단원들이 가져온 곡을 검토해 응원 동작과 결합하며, 때로는 단과대·밴드와 협업한다고 설명한다. 이 다섯 곡의 개인별 크레딧은 제공하지 않는다.",
+      "supports": ["일반적 신곡 제작 절차", "응원 동작 결합", "외부·교내 협업 가능성", "개인별 크레딧 미공개"]
+    },
+    {
+      "id": "ev-yu-c-namu-2000s",
+      "type": "community-wiki",
+      "url": "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+      "title": "연세대학교/응원가/2000년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "GO연세를 2002년, 파란을 2004년, 친구야를 2006년 곡으로 분류하고 원곡·동작·현장 일화를 정리하는 편집형 자료다. 원곡 크레딧은 공식 영상과 권리자 자료로 별도 교차했다.",
+      "supports": ["GO연세 2002", "파란 2004", "친구야 2006", "세 곡의 동작·사용 맥락"]
+    },
+    {
+      "id": "ev-yu-c-namu-2010s",
+      "type": "community-wiki",
+      "url": "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80",
+      "title": "연세대학교/응원가/2010년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "오늘 밤새를 2013년 신곡으로 분류하고 PSY 동명곡을 원곡으로 적으며 동작과 현장 사용을 설명한다. 도입 연도는 동시대 공식 자료가 없어 보고값으로 유지한다.",
+      "supports": ["오늘 밤새 2013", "PSY 원곡", "동작·사용 맥락"]
+    },
+    {
+      "id": "ev-yu-c-namu-2020s",
+      "type": "community-wiki",
+      "url": "https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80",
+      "title": "연세대학교/응원가/2020년대",
+      "publisher": "나무위키",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "하늘 아래를 2024년 신곡으로 분류하고 미래캠퍼스 축제에서 먼저 공개됐다는 주장을 싣는다. 전자는 2024 직접 영상으로 교차했고 후자는 해당 장면을 확보하지 못해 보고값으로 분리했다.",
+      "supports": ["하늘 아래 2024", "미래캠퍼스 최초 공개 주장", "곡 구조·동작"]
+    },
+    {
+      "id": "ev-yu-c-tcatmon-history",
+      "type": "namuwiki-derived-archive",
+      "url": "https://tcatmon.com/wiki/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "연세대학교/응원가 과거 편집 문서",
+      "publisher": "Tcatmon 나무위키 계열 아카이브",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "친구야의 2006년 도입·Let It Be 원곡과 단순 합창 특성, GO연세의 2002년 도입·어깨동무 동작, 파란의 Over the Rainbow 원곡과 고강도 동작, 오늘 밤새의 2013년 도입·PSY 원곡을 정리한다.",
+      "supports": ["친구야 2006", "GO연세 2002", "파란 원곡·동작", "오늘 밤새 2013", "현장 사용법"]
+    },
+    {
+      "id": "ev-yu-c-loc-over-the-rainbow",
+      "type": "national-library-record",
+      "url": "https://www.loc.gov/item/prn-17-029/?loclr=ealn",
+      "title": "Judy Garland's ‘Over the Rainbow’ Named Song of the Century",
+      "publisher": "Library of Congress",
+      "publishedAt": "2017-03-29",
+      "accessedAt": "2026-08-09",
+      "summary": "1939년 Judy Garland 녹음을 설명하면서 작곡가를 Harold Arlen, 작사가를 E. Y. ‘Yip’ Harburg로 명시한다. Garland는 대표 가창자이지 곡의 저작자가 아니다.",
+      "supports": ["Over the Rainbow 작품 계보", "Harold Arlen 작곡", "E. Y. Harburg 작사", "Judy Garland 가창"]
+    },
+    {
+      "id": "ev-yu-c-beatles-let-it-be",
+      "type": "official-artist-discography",
+      "url": "https://www.thebeatles.com/let-it-be-1",
+      "title": "Let It Be",
+      "publisher": "The Beatles",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "공식 Beatles 페이지는 ‘Let It Be’ 싱글을 1970-03-06 발매로 기록하고 Paul McCartney가 썼으며 Lennon–McCartney로 크레딧됐다고 설명한다.",
+      "supports": ["친구야 원곡", "Let It Be 발매일", "Lennon–McCartney 크레딧"]
+    },
+    {
+      "id": "ev-yu-c-bugs-psyfive",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/album/242469",
+      "title": "PSYFIVE",
+      "publisher": "Bugs",
+      "publishedAt": "2010-10-20",
+      "accessedAt": "2026-08-09",
+      "summary": "PSY의 정규 앨범 ‘Psyfive’가 2010-10-20 발매됐고 ‘오늘밤새’가 수록됐음을 확인한다. 가사 전문은 저장하지 않는다.",
+      "supports": ["오늘 밤새 원곡", "PSY 원곡 발매일", "앨범 수록 정보"]
+    },
+    {
+      "id": "ev-yu-c-psy-topic",
+      "type": "official-distributor-youtube",
+      "url": "https://www.youtube.com/watch?v=iOi5fAzC7Ow",
+      "title": "오늘 밤 새",
+      "publisher": "PSY - Topic",
+      "publishedAt": "2020-06-25",
+      "accessedAt": "2026-08-09",
+      "summary": "YouTube 공식 음원 배급 메타데이터가 PSY의 곡과 ‘Psyfive’ 연결을 확인한다. 설명·댓글에 보이는 가사 전문은 복제하지 않았다.",
+      "supports": ["PSY 원곡 공식 유통", "원곡 제목 표기"]
+    },
+    {
+      "id": "ev-yu-c-nobrain-red-devil",
+      "type": "music-catalog",
+      "url": "https://www.genie.co.kr/detail/albumInfo?axnm=33430703",
+      "title": "꿈★은 이루어진다 - Red Devil 2002 Official Album",
+      "publisher": "Genie Music",
+      "publishedAt": "2002-07-24",
+      "accessedAt": "2026-08-09",
+      "summary": "붉은악마 2002 공식 앨범에 노브레인의 ‘진군가’가 수록됐음을 확인하는 음원 카탈로그다.",
+      "supports": ["GO연세 원곡 진군가", "노브레인", "2002 공식 앨범"]
+    },
+    {
+      "id": "ev-yu-c-nobrain-topic",
+      "type": "official-distributor-youtube",
+      "url": "https://www.youtube.com/watch?v=l125dHJf8XY",
+      "title": "진군가",
+      "publisher": "No Brain - Topic",
+      "publishedAt": "2025-12-22",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 유통 영상의 설명이 노브레인 ‘진군가’의 원 발매일을 2002-07-24로 적는다. YouTube 게시일은 재유통 시점이므로 작품 발매일과 분리한다.",
+      "supports": ["진군가 공식 유통", "2002-07-24 원 발매일", "게시일·발매일 구분"]
+    },
+    {
+      "id": "ev-yu-c-queen-brian-may",
+      "type": "official-artist-biography",
+      "url": "https://www.queenonline.com/brian_may",
+      "title": "Brian May",
+      "publisher": "Queen Online",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Queen 공식 사이트가 Brian May가 ‘We Will Rock You’를 썼다고 명시한다. 응원단 설명의 그룹 단위 ‘저작자 Queen’ 표기를 세부 역할 수준에서 보완한다.",
+      "supports": ["We Will Rock You 작가 Brian May", "공식 응원단 크레딧 보완"]
+    },
+    {
+      "id": "ev-yu-c-queen-news-of-the-world",
+      "type": "official-artist-feature",
+      "url": "https://www.queenonline.com/features/news-of-the-world-by-jim-jenkins",
+      "title": "News Of The World — by Jim Jenkins",
+      "publisher": "Queen Online",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "Queen 공식 사이트의 앨범 해설이 ‘News of the World’의 1977-10-28 발매와 ‘We Will Rock You’ 수록 맥락을 확인한다.",
+      "supports": ["We Will Rock You 1977", "News of the World 수록"]
+    },
+    {
+      "id": "ev-yu-c-queen-official-video",
+      "type": "official-artist-youtube",
+      "url": "https://www.youtube.com/watch?v=-tJYN-eG1zk",
+      "title": "Queen - We Will Rock You (Official Video)",
+      "publisher": "Queen Official",
+      "publishedAt": "2008-08-01",
+      "accessedAt": "2026-08-09",
+      "summary": "Queen 공식 영상과 설명이 곡을 1977년 앨범 ‘News of the World’의 수록곡으로 제시한다. 영상 게시일은 원 발매일과 구분한다.",
+      "supports": ["GO연세 두 번째 원곡", "Queen 공식 작품 확인", "원 발매 연도"]
+    },
+    {
+      "id": "ev-yu-c-daegu-geu-gyeoul-topic",
+      "type": "official-distributor-youtube",
+      "url": "https://www.youtube.com/watch?v=tzEhmEqYngY",
+      "title": "그 겨울 (feat. 더 베인)",
+      "publisher": "Daegu Citizen Football Club - Topic",
+      "publishedAt": "2025-12-22",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 유통 메타데이터가 대구FC 응원가 ‘그 겨울’의 원 발매일을 2020-05-13으로 적는다. YouTube 게시일은 후대 재유통 시점이다.",
+      "supports": ["대구FC 그 겨울", "2020-05-13 발매", "하늘 아래보다 앞선 공개 기록"]
+    },
+    {
+      "id": "ev-yu-c-daegu-official-songs",
+      "type": "official-club-youtube",
+      "url": "https://www.youtube.com/watch?v=bhlFv9qiKIM",
+      "title": "[ep.06] 고재현, 김우석이 직접 부르는 응원가🎶ㅣ우리의 대구FC, 그 겨울",
+      "publisher": "대구FC",
+      "publishedAt": "2022-05-31",
+      "accessedAt": "2026-08-09",
+      "summary": "대구FC 공식 채널이 선수들이 부르는 두 구단 응원가 중 하나로 ‘그 겨울’을 소개한다. 댓글은 선수들의 노래 실력을 유쾌하게 평가하지만 작품 크레딧 근거로 사용하지 않는다.",
+      "supports": ["그 겨울의 대구FC 공식 응원가 지위", "2022년 구단 사용"]
+    },
+    {
+      "id": "ev-yu-c-daegu-fan-lyrics",
+      "type": "youtube-fan-documentation",
+      "url": "https://www.youtube.com/watch?v=FnS8N8wuWFk",
+      "title": "대구FC 팬이라면 아는 응원가 : 대구FC 응원가 - 그 겨울 [가사/해석/lyrics]",
+      "publisher": "미르스 Myrrh",
+      "publishedAt": "2024-05-06",
+      "accessedAt": "2026-08-09",
+      "summary": "대구FC ‘그 겨울’의 공개 녹음과 구조를 비교할 수 있는 팬 기록이다. 댓글은 2018 FA컵·ACL 등 구단 기억과 곡을 연결하지만 가사 전문은 복제하지 않는다.",
+      "supports": ["하늘 아래와의 직접 청취 비교", "대구FC 팬 수용", "가사 출처 링크만 보존"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-yu-c-paran-2019",
+      "songId": "yonsei-university-paran",
+      "url": "https://www.youtube.com/watch?v=RAoGrQLcSbE",
+      "videoId": "RAoGrQLcSbE",
+      "title": "[2019 연세대 아카라카] 1부 응원제 '해야 & 파란' - 연세대 축제 / 연세대 응원가",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2019-05-19",
+      "descriptionSummary": "2019-05-17 아카라카 1부에서 해야와 파란을 연속으로 공연한 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "1980~1990년대 학번 동문이 당시 응원 현장을 회상하고 파란을 선호곡으로 꼽는다.",
+        "당시 행사 분위기와 응원단장·현장 진행을 평가하는 반응이 함께 보인다."
+      ],
+      "supports": ["2019 아카라카 사용", "동문 수용", "해야와의 메들리 배치"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-paran-official-2020",
+      "songId": "yonsei-university-paran",
+      "url": "https://www.youtube.com/watch?v=aHJmo_SZzRU",
+      "videoId": "aHJmo_SZzRU",
+      "title": "파란",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "응원단 공식 음원 영상이다. 파란 물결의 이미지를 소개하고 원곡을 ‘over the rainbow’로 적지만 Judy Garland를 저작자로 표기해 작곡·작사 역할을 잘못 분류한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "학교 색과 분위기에 가장 잘 맞는 응원가라는 평가와 입학을 바라는 반응이 있다.",
+        "원곡을 알아보거나 실제 작곡·작사자와 가창자 역할을 구분해야 한다는 지적이 보인다."
+      ],
+      "supports": ["공식 응원가 음원", "Over the Rainbow 원곡 표기", "Judy Garland 크레딧 오류", "학교 색 정체성"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-paran-2022",
+      "songId": "yonsei-university-paran",
+      "url": "https://www.youtube.com/watch?v=W00SFWMBkTM",
+      "videoId": "W00SFWMBkTM",
+      "title": "[2022 아카라카 1부 응원] '파란'  - 연세대학교 응원가 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-09-26",
+      "descriptionSummary": "2022 아카라카 1부 파란 공연을 무대 뒤쪽 시점에서 기록해 관중의 동작과 파란 관중석을 넓게 보여준다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "무대 뒤 시점이 관중의 일체감과 동작을 잘 보여 준다는 반응이 반복된다.",
+        "동문의 추억, 타교 구성원의 반복 시청, 현장 재개에 대한 기쁨이 함께 나타난다."
+      ],
+      "supports": ["2022 아카라카 사용", "집단 동작", "교차 세대·타교 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-paran-2024",
+      "songId": "yonsei-university-paran",
+      "url": "https://www.youtube.com/watch?v=l3xuj1JqAew",
+      "videoId": "l3xuj1JqAew",
+      "title": "[2024 아카라카를 온누리에] 4K 3부 '파란'",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2024-07-07",
+      "descriptionSummary": "연세대학교 응원단 공식 채널의 2024-05-25 아카라카 3부 파란 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 시청자가 대학 응원을 소재로 한 드라마 장면을 떠올린다고 반응한다."
+      ],
+      "supports": ["2024 공식 아카라카 사용", "현장 동작"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-paran-2025-ot",
+      "songId": "yonsei-university-paran",
+      "url": "https://www.youtube.com/watch?v=u3iDas7lPEA",
+      "videoId": "u3iDas7lPEA",
+      "title": "2025.02.12 연세대학교 신입생 응원OT [파란]",
+      "channel": "KODA",
+      "publishedAt": "2025-02-16",
+      "descriptionSummary": "2025-02-12 신입생 응원 OT에서 진행된 파란 단독 공연 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 신입생 응원 OT 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-paran-2026-ot",
+      "songId": "yonsei-university-paran",
+      "url": "https://www.youtube.com/watch?v=wlcxZc5APPE&t=167s",
+      "videoId": "wlcxZc5APPE",
+      "title": "[2026 응원 OT] 💙🦅 연세대 응원곡 모음집 (1부) 🦅💙 _서곡 / 파란 / 서시 / 하늘 끝까지 / Oh My Friend / 연세여 사랑한다",
+      "channel": "연세교육방송국 YBS",
+      "publishedAt": "2026-02-21",
+      "descriptionSummary": "연세대학교 응원단이 주최한 2026 신입생 응원 OT를 교내 방송국이 기록했다. 파란은 02:47부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "신입생 가족과 예비 지원자가 학교에 대한 자부심과 입학 희망을 표현한다.",
+        "응원단의 보컬·에너지와 현장 음향을 평가하고 대학 간 경쟁을 언급하는 반응이 있다."
+      ],
+      "supports": ["2026 공식 응원 OT 현행 사용", "메들리 위치", "수험생·가족 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-chinguya-official-2020",
+      "songId": "yonsei-university-chinguya",
+      "url": "https://www.youtube.com/watch?v=r2HUILuny_w",
+      "videoId": "r2HUILuny_w",
+      "title": "친구야",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "응원단 공식 음원 영상으로 원곡을 ‘Let it Be’, 저작자를 비틀즈라고 명시한다. 개별 작가 크레딧은 Beatles 공식 자료로 보완한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "친구에게 고마움을 전하거나 곡의 우정 메시지에 공감하는 반응이 있다.",
+        "Beatles 원곡을 알아보고 응원가로 바뀐 점을 언급하는 반응이 보인다."
+      ],
+      "supports": ["공식 응원가 음원", "Let It Be 원곡", "우정 주제 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-chinguya-2022",
+      "songId": "yonsei-university-chinguya",
+      "url": "https://www.youtube.com/watch?v=o3c95CRYH5M",
+      "videoId": "o3c95CRYH5M",
+      "title": "[2022 아카라카 1부 응원] '친구야'  - 연세대학교 응원가 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-09-26",
+      "descriptionSummary": "2022 아카라카 1부의 친구야 공연으로 관중 합창과 간단한 동작을 현장음으로 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "오래전 양교 응원 경험을 가진 타교 동문이 경쟁 속 우정의 기억을 회상한다.",
+        "한 동문은 재학 후반기에 새로 접한 곡으로 기억하며, 신규 시청자와 입학 예정 가족도 감동을 표현한다."
+      ],
+      "supports": ["2022 아카라카 사용", "세대별 기억", "우정 중심 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-chinguya-2023-ot",
+      "songId": "yonsei-university-chinguya",
+      "url": "https://www.youtube.com/watch?v=_XfenpugzW0",
+      "videoId": "_XfenpugzW0",
+      "title": "2023.02.15 연세대학교 신입생 응원 OT [친구야]",
+      "channel": "KODA",
+      "publishedAt": "2023-03-05",
+      "descriptionSummary": "2023-02-15 신입생 응원 OT의 친구야 단독 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "청춘의 스트레스를 풀어 주는 느낌이라는 반응과 신입생의 행사 참여 기대가 보인다."
+      ],
+      "supports": ["2023 신입생 응원 OT 사용", "신입생 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-chinguya-2024",
+      "songId": "yonsei-university-chinguya",
+      "url": "https://www.youtube.com/watch?v=fhCn4Ma-JHw",
+      "videoId": "fhCn4Ma-JHw",
+      "title": "[2024 아카라카를 온누리에] 4k 3부 '친구야'",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2024-07-05",
+      "descriptionSummary": "연세대학교 응원단 공식 채널이 공개한 2024-05-25 아카라카 3부 친구야 공연이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 공식 아카라카 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-chinguya-2025-ot",
+      "songId": "yonsei-university-chinguya",
+      "url": "https://www.youtube.com/watch?v=AdGqqovB6cc",
+      "videoId": "AdGqqovB6cc",
+      "title": "2025.02.12 연세대학교 신입생 응원OT [친구야]",
+      "channel": "KODA",
+      "publishedAt": "2025-02-16",
+      "descriptionSummary": "2025-02-12 신입생 응원 OT의 친구야 단독 공연 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "공개 댓글 한 건이 곡의 핵심 우정 메시지를 짧게 되풀이한다."
+      ],
+      "supports": ["2025 신입생 응원 OT 사용", "우정 메시지 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-chinguya-2026-akaraka",
+      "songId": "yonsei-university-chinguya",
+      "url": "https://www.youtube.com/watch?v=ockPfR7Iwzo&t=688s",
+      "videoId": "ockPfR7Iwzo",
+      "title": "[4K] 진짜 아카라카는 3부부터 ’서곡‘ ’해야‘ ’파란‘ ’GO연세‘ ’친구야‘ ’OhMyFriend’ ‘하늘아래‘ [2026 아카라카를 온누리에] | 2026 AKARAKA",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-06-16",
+      "descriptionSummary": "2026-05-23 아카라카 3부 응원 메들리로 친구야는 11:28부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 시청자가 현장 녹음의 보컬 균형과 응원 동작의 정밀도를 비판적으로 평가한다."
+      ],
+      "supports": ["2026 아카라카 현행 사용", "메들리 위치", "현장 공연 평가"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-haneul-arae-new-2024",
+      "songId": "yonsei-university-haneul-arae",
+      "url": "https://www.youtube.com/watch?v=0xj3CB4ut1k",
+      "videoId": "0xj3CB4ut1k",
+      "title": "AKARAKA (현역 응원단) 2024 ver. '신곡 하늘아래' - 연세대학교 응원가",
+      "channel": "연세여 사랑한다",
+      "publishedAt": "2024-05-30",
+      "descriptionSummary": "2024년 동문 아카라카의 현역 응원단 공연을 기록하며 제목과 설명에서 하늘아래를 신곡으로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원단 보컬을 높게 평가하거나 연세대 입학을 바라는 반응이 있다.",
+        "대구FC ‘그 겨울’과 선율·가사 구조가 매우 비슷하다는 지적과 비교 영상 링크가 반복해서 올라온다."
+      ],
+      "supports": ["2024 신곡 표기", "동문 행사 사용", "대구FC 유사성 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-haneul-arae-official-2024",
+      "songId": "yonsei-university-haneul-arae",
+      "url": "https://www.youtube.com/watch?v=pdKxpPUEeG4",
+      "videoId": "pdKxpPUEeG4",
+      "title": "[2024 아카라카를 온누리에] - 1부‘하늘아래+Oh my friend’ Live cam ver",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2024-07-02",
+      "descriptionSummary": "응원단 공식 채널의 2024-05-25 아카라카 1부 라이브 캠 영상으로 하늘아래가 00:00부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "비가 온 공연을 행복한 기억으로 회상하고 신곡을 좋게 평가하는 반응이 있다.",
+        "한 댓글은 해외 스포츠 선율과의 유사성을 언급하지만 제작 계보 근거는 제시하지 않는다."
+      ],
+      "supports": ["2024-05-25 공식 아카라카 사용", "곡 배열", "신곡 수용", "미확인 제3원곡 주장"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-haneul-arae-joint-2024",
+      "songId": "yonsei-university-haneul-arae",
+      "url": "https://www.youtube.com/watch?v=Wa4d_jR15hc",
+      "videoId": "Wa4d_jR15hc",
+      "title": "2024.09.20 합동응원OT[하늘 아래]",
+      "channel": "KODA",
+      "publishedAt": "2024-09-23",
+      "descriptionSummary": "2024-09-20 합동응원 OT에서 하늘 아래를 공연한 기록이며 설명 해시태그가 2024 신곡과 스포츠 응원 맥락을 함께 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2024 합동응원 OT 사용", "2024 신곡 표기", "스포츠 응원 맥락"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-haneul-arae-2025-ot",
+      "songId": "yonsei-university-haneul-arae",
+      "url": "https://www.youtube.com/watch?v=5HQ-psHODAQ",
+      "videoId": "5HQ-psHODAQ",
+      "title": "세월이 흘러가도 언제나 함께할, ‘하늘아래’ [2025 연세대학교 신입생 응원OT]",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-02-28",
+      "descriptionSummary": "2025 신입생 응원 OT에서 하늘아래를 단독으로 기록한 영상으로 제목은 곡의 시간·동행 주제를 요약한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 신입생 응원 OT 사용", "곡 주제"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-haneul-arae-2026-ot",
+      "songId": "yonsei-university-haneul-arae",
+      "url": "https://www.youtube.com/watch?v=vpFnysvGO1I",
+      "videoId": "vpFnysvGO1I",
+      "title": "2026.02.11 신입생 응원OT[하늘 아래]",
+      "channel": "KODA",
+      "publishedAt": "2026-02-16",
+      "descriptionSummary": "2026-02-11 신입생 응원 OT에서 하늘 아래를 공연한 단독 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 신입생 응원 OT 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-haneul-arae-2026-akaraka",
+      "songId": "yonsei-university-haneul-arae",
+      "url": "https://www.youtube.com/watch?v=ockPfR7Iwzo&t=948s",
+      "videoId": "ockPfR7Iwzo",
+      "title": "[4K] 진짜 아카라카는 3부부터 ’서곡‘ ’해야‘ ’파란‘ ’GO연세‘ ’친구야‘ ’OhMyFriend’ ‘하늘아래‘ [2026 아카라카를 온누리에] | 2026 AKARAKA",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-06-16",
+      "descriptionSummary": "2026-05-23 아카라카 3부 메들리에서 하늘아래가 15:48부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 시청자가 현장 녹음의 보컬 균형과 응원 동작의 정밀도를 비판적으로 평가한다."
+      ],
+      "supports": ["2026 아카라카 현행 사용", "메들리 위치", "현장 공연 평가"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-oneul-bamsae-2018",
+      "songId": "yonsei-university-oneul-bamsae",
+      "url": "https://www.youtube.com/watch?v=HOzGsNblDLU",
+      "videoId": "HOzGsNblDLU",
+      "title": "2018.02.12 연세대 OT -오늘밤새",
+      "channel": "KODA",
+      "publishedAt": "2018-02-13",
+      "descriptionSummary": "2018-02-12 연세대 신입생 OT의 오늘밤새 단독 공연 기록이며 별도 설명은 없다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "드라마를 통해 곡을 알게 됐다는 반응과 학교에 대한 자부심·입학 희망이 보인다.",
+        "한 동문은 2013년 무렵 제작에 참여한 기수의 기억을 전하지만 공식 제작 크레딧으로 채택하지 않는다.",
+        "다른 스포츠 응원에서 비슷한 요소를 접했다는 반응과 반복 청취 반응도 있다."
+      ],
+      "supports": ["2018 응원 OT 사용", "2013 제작 기억의 보조 댓글", "드라마·스포츠 교차 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-oneul-bamsae-2019",
+      "songId": "yonsei-university-oneul-bamsae",
+      "url": "https://www.youtube.com/watch?v=fir18CUnv7g",
+      "videoId": "fir18CUnv7g",
+      "title": "[2019 연세대 아카라카] 1부 응원제 '오늘 밤 새' - 연세대 응원가 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2019-05-19",
+      "descriptionSummary": "2019-05-17 아카라카 1부의 오늘 밤 새 공연을 현장음과 관중 동작 중심으로 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "2013년 무렵 학번·제작 기수의 기억을 언급하는 동문 반응이 있다.",
+        "학생이 스트레스를 발산하는 분위기와 드라마 속 대학 응원의 현실성을 평가하는 반응이 보인다."
+      ],
+      "supports": ["2019 아카라카 사용", "오늘 밤 새 표기", "2013 도입 보조 기억"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-oneul-bamsae-official-2020",
+      "songId": "yonsei-university-oneul-bamsae",
+      "url": "https://www.youtube.com/watch?v=woI68V6jMFE",
+      "videoId": "woI68V6jMFE",
+      "title": "오늘밤새",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-11",
+      "descriptionSummary": "응원단 공식 음원 영상으로 원곡을 PSY, 제목을 오늘밤새로 명시한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "응원 OT 동작이 허리에 부담됐다는 유머와 공부·나이에 따라 밤새기의 의미가 달라진다는 반응이 있다.",
+        "프로야구 응원 구호와 비슷한 리듬을 떠올리는 반응도 보인다."
+      ],
+      "supports": ["공식 응원가 음원", "PSY 원곡", "오늘밤새 붙여쓰기", "동작 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-oneul-bamsae-2022",
+      "songId": "yonsei-university-oneul-bamsae",
+      "url": "https://www.youtube.com/watch?v=LaXCouypn8w",
+      "videoId": "LaXCouypn8w",
+      "title": "[2022 아카라카 1부 응원] '오늘 밤새'  - 연세대학교 응원가 / 연세대 축제",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-09-27",
+      "descriptionSummary": "2022 아카라카 1부의 오늘 밤새 공연으로 관중이 반복 동작을 따라가는 모습을 넓게 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "드라마를 통해 실제 곡을 찾거나 스포츠 경기에서 먼저 들었다는 반응이 있다.",
+        "동작이 단순해 처음 보는 사람도 쉽게 따라 한다는 평가와 PSY 원곡을 알아보는 반응이 보인다."
+      ],
+      "supports": ["2022 아카라카 사용", "쉬운 반복 동작", "PSY 원곡 수용", "교차 매체 발견"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-oneul-bamsae-2024",
+      "songId": "yonsei-university-oneul-bamsae",
+      "url": "https://www.youtube.com/watch?v=bITbfVZDY7A",
+      "videoId": "bITbfVZDY7A",
+      "title": "오늘 밤 빰빰빰 빠바밤 새! '오늘 밤 새' (YU) #합응 #연세대응원가 [2024 고려대/연세대 합동응원OT]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2024-03-21",
+      "descriptionSummary": "제목과 게시 맥락은 2024 고려대·연세대 합동응원 OT를 가리키지만 설명 본문은 촬영일을 2023-03-15로 적어 연도 메타데이터가 충돌한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "드라마를 보고 실제 합동응원을 찾아왔으며 현장의 에너지가 기대를 높인다는 반응이 있다."
+      ],
+      "supports": ["2024 제목·게시 맥락", "설명 날짜 충돌", "합동응원 OT 사용", "드라마 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-oneul-bamsae-2025-ot",
+      "songId": "yonsei-university-oneul-bamsae",
+      "url": "https://www.youtube.com/watch?v=SIhbuYsjhVw",
+      "videoId": "SIhbuYsjhVw",
+      "title": "2025.02.12 연세대학교 신입생 응원OT [오늘밤새]",
+      "channel": "KODA",
+      "publishedAt": "2025-02-16",
+      "descriptionSummary": "2025-02-12 신입생 응원 OT에서 오늘밤새를 공연한 단독 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 댓글은 특정 공연 단원이 무대의 에너지를 더한다고 평가한다. 개인정보는 저장하지 않았다."
+      ],
+      "supports": ["2025 신입생 응원 OT 사용", "공연 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-oneul-bamsae-2026-ot",
+      "songId": "yonsei-university-oneul-bamsae",
+      "url": "https://www.youtube.com/watch?v=9KjKwQLVSJo",
+      "videoId": "9KjKwQLVSJo",
+      "title": "2026.02.11 신입생 응원OT[오늘 밤새]",
+      "channel": "KODA",
+      "publishedAt": "2026-02-16",
+      "descriptionSummary": "2026-02-11 신입생 응원 OT의 오늘 밤새 단독 현장 영상이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 신입생 응원 OT 현행 사용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-oneul-bamsae-2026-akaraka",
+      "songId": "yonsei-university-oneul-bamsae",
+      "url": "https://www.youtube.com/watch?v=cqbjuO5RFiQ",
+      "videoId": "cqbjuO5RFiQ",
+      "title": "2026.05.23 개교 141주년 아카라카를 온누리에 [오늘밤새]",
+      "channel": "KODA",
+      "publishedAt": "2026-05-26",
+      "descriptionSummary": "2026-05-23 개교 141주년 아카라카를 온누리에에서 오늘밤새를 공연한 단독 현장 기록이다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 아카라카 현행 사용", "행사 날짜"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-go-yonsei-2018",
+      "songId": "yonsei-university-go-yonsei",
+      "url": "https://www.youtube.com/watch?v=RG88whjXy-U",
+      "videoId": "RG88whjXy-U",
+      "title": "2018.05.19 아카라카 - [친구야 - 고연세 - 룩셈부르크]",
+      "channel": "KODA",
+      "publishedAt": "2018-06-22",
+      "descriptionSummary": "2018-05-19 아카라카에서 친구야·고연세·룩셈부르크를 연속으로 공연한 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "친구야를 좋아한다는 반응과 응원 무대를 지지하는 짧은 반응이 있다."
+      ],
+      "supports": ["2018 아카라카 사용", "고연세 별칭", "메들리 배치"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-go-yonsei-official-2020",
+      "songId": "yonsei-university-go-yonsei",
+      "url": "https://www.youtube.com/watch?v=-0EI8RqrIy4",
+      "videoId": "-0EI8RqrIy4",
+      "title": "GO연세",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "descriptionSummary": "응원단 공식 음원 영상이다. 출정형 소개 뒤 원곡을 ‘진군가, we will rock you’, 저작자를 ‘노브레인, Queen’으로 함께 적는다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "프로야구에서 들은 유사한 구호나 선율을 떠올리는 반응이 다수 보인다."
+      ],
+      "supports": ["공식 표제 GO연세", "진군가 원곡", "We Will Rock You 원곡", "공식 복수 출처 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-go-yonsei-medley-2021",
+      "songId": "yonsei-university-go-yonsei",
+      "url": "https://www.youtube.com/watch?v=IjktQdNmlMw&t=1200s",
+      "videoId": "IjktQdNmlMw",
+      "title": "[2021 연세의 꽃길] 응원 메들리",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2021-11-12",
+      "descriptionSummary": "응원단 공식 온라인 공연의 메들리 영상으로 GO연세는 20:00부터 수록되며 밴드 소나기의 라이브 반주가 함께한다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "밴드 소나기의 라이브 연주와 응원단 공연을 높이 평가한다.",
+        "동문·재학생·예비 지원자가 무관중 시기에도 학교 응원문화를 볼 수 있어 반갑다는 반응을 남긴다."
+      ],
+      "supports": ["2021 공식 공연", "밴드 소나기 협업", "무관중·온라인 시기 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-go-yonsei-mv-2021",
+      "songId": "yonsei-university-go-yonsei",
+      "url": "https://www.youtube.com/watch?v=z6FGpKrlRDU",
+      "videoId": "z6FGpKrlRDU",
+      "title": "[응원곡 MV]  GO연세",
+      "channel": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2021-11-17",
+      "descriptionSummary": "응원단 공식 뮤직비디오로 곡의 전체 공연 구조와 동작을 보여준다. 설명에 가사가 실려 있으나 전문은 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 시청자가 곡과 영상이 재미있다는 짧은 반응을 남긴다."
+      ],
+      "supports": ["공식 뮤직비디오", "곡 구조", "동작", "가사 출처 링크만 보존"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-go-yonsei-2025",
+      "songId": "yonsei-university-go-yonsei",
+      "url": "https://www.youtube.com/watch?v=u2wyWmOB0-s&t=450s",
+      "videoId": "u2wyWmOB0-s",
+      "title": "파란 하늘 아래, 1부 응원 시작! ‘파란‘ ’해야‘ ’I AM’ ‘고연세’ ‘친구야’ [2025 아카라카를 온누리에 | 연세대학교 Yonsei university]",
+      "channel": "청춘테이프",
+      "publishedAt": "2025-06-01",
+      "descriptionSummary": "2025-05-24 아카라카 1부 응원 메들리로 고연세는 07:30부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "학교에 대한 애정과 응원단 공연을 칭찬하는 반응이 있다.",
+        "행사 참석 경험과 다른 수록곡·무대 구성에 대한 비판적 평가도 함께 보인다."
+      ],
+      "supports": ["2025 아카라카 사용", "고연세 별칭", "메들리 위치", "현장 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-yu-c-go-yonsei-2026",
+      "songId": "yonsei-university-go-yonsei",
+      "url": "https://www.youtube.com/watch?v=ockPfR7Iwzo&t=517s",
+      "videoId": "ockPfR7Iwzo",
+      "title": "[4K] 진짜 아카라카는 3부부터 ’서곡‘ ’해야‘ ’파란‘ ’GO연세‘ ’친구야‘ ’OhMyFriend’ ‘하늘아래‘ [2026 아카라카를 온누리에] | 2026 AKARAKA",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-06-16",
+      "descriptionSummary": "2026-05-23 아카라카 3부 메들리로 GO연세는 08:37부터 수록된다.",
+      "commentsStatus": "available",
+      "commentSummary": [
+        "한 시청자가 현장 녹음의 보컬 균형과 응원 동작의 정밀도를 비판적으로 평가한다."
+      ],
+      "supports": ["2026 아카라카 현행 사용", "공식 표기 GO연세", "메들리 위치"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 32,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 16
+  }
+}

@@ -1,0 +1,1106 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-ssg-b",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "kbo-ssg-landers",
+    "name": "SSG 랜더스",
+    "type": "kbo"
+  },
+  "rightsNote": "전체 가사·음원·영상 설명·댓글 전문은 저장하지 않는다. 저작권이 있는 가사는 출처와 구조·주제만 요약하고, 공개 댓글은 계정명과 원문 인용을 배제한 반복 반응만 기록한다.",
+  "items": [
+    {
+      "id": "ssg-landers-victory-flag",
+      "title": "승리의 깃발",
+      "aliases": ["승리의깃발"],
+      "currentStatus": "current",
+      "summary": "2022년 박민수 응원단장 부임 첫해에 공개된 SSG 창단 이후의 신곡이다. SK 곡을 개사한 세 곡과 달리 직접적인 SK 원곡은 확인되지 않지만, ‘투혼’이라는 팀 언어를 새 곡 안에 이어 넣었다. 2022년 구단 최초 공개 영상과 2025·2026 구단 공식 팀 응원가 모음이 연속 수록해 현행성을 확인한다.",
+      "claims": [
+        {
+          "field": "lineage",
+          "value": "SK 응원가의 단순 개사가 아니라 2022년 SSG용으로 새로 공개한 팀 응원가",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "ev-ssg-b-dugout-poll", "yt-ssg-b-flag-official-launch-2022"],
+          "notes": "구단 영상은 ‘신규 응원가’와 ‘최초 공개’라고 명시한다. 곡 안의 투혼 어휘는 SK 시절 정체성을 잇지만 선율·가사를 그대로 옮긴 계승곡으로 분류할 근거는 없다."
+        },
+        {
+          "field": "officialIntroduction",
+          "value": "2022-04-01 구단 YouTube 최초 공개, 사용년도 2022~",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ssg-b-flag-official-launch-2022", "ev-ssg-b-namu-cheers", "ev-ssg-b-dugout-poll"],
+          "notes": "최초 경기장 사용일은 별도 공지에서 확인하지 못했으므로 구단 영상 공개일을 확정 기준으로 사용한다."
+        },
+        {
+          "field": "credits",
+          "value": "공식 공개 영상 CREDIT: 작사 에디(EDI), 작곡 %Percent·에디(EDI), 편곡 %Percent, 제작 WEownUS MUSIK, 믹스·마스터 데이오프",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ssg-b-victory-flag-launch-credits", "yt-ssg-b-flag-official-launch-2022"],
+          "notes": "크레딧은 승리의 깃발을 포함한 네 곡짜리 공식 공개 영상의 공통 설명에 적혀 있다. 각 참여자가 네 곡 모두에서 같은 역할을 했는지 곡별 크레딧 표는 없어 범위를 보수적으로 기록했다."
+        },
+        {
+          "field": "cheerLeaderRole",
+          "value": "박민수 응원단장 부임 후 처음 선보인 팀 응원가군 가운데 하나",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ssg-b-dugout-poll", "ev-ssg-b-park-minsu-namu", "ev-ssg-b-namu-cheers"],
+          "notes": "편집형 문서는 박민수가 곡을 만들었다고 요약하지만, 공식 영상은 별도 음악 제작진을 적는다. 따라서 박민수는 응원 기획·현장 제작 주체로, 음악 저작 크레딧은 공식 설명의 인물들로 분리했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 개막·포스트시즌과 2026 정규시즌 공식 팀 응원가 목록에 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-official-2025-playlist", "ev-ssg-b-official-2025-postseason", "ev-ssg-b-official-2026-playlist", "yt-ssg-b-flag-official-2025", "yt-ssg-b-flag-official-postseason-2025", "yt-ssg-b-flag-official-2026"],
+          "notes": "2025 공식 모음 02:48, 2025 포스트시즌 모음 08:57, 2026 공식 모음 08:59에 수록된다."
+        },
+        {
+          "field": "reception",
+          "value": "2022 팬 투표에서는 3%로 6위였으나 웅장함과 완성도는 긍정적으로 평가됨",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ssg-b-dugout-poll", "yt-ssg-b-flag-official-launch-2022", "yt-ssg-b-flag-ks-mv-2022"],
+          "notes": "득표율은 더그아웃 매거진의 당시 독자 투표이며 전체 팬 선호도의 영구적 순위로 일반화하지 않는다."
+        }
+      ],
+      "usageContexts": [
+        "구단이 ‘웅장한 팀응원가’로 소개한 장편 팀 응원으로, 단체 안무와 함께 공개됐다.",
+        "팀명 응답과 짧은 무가사 합창을 반복해 관중이 구간별로 크게 호응하는 구조다.",
+        "정규시즌 개막용 공식 모음과 포스트시즌 응원가 모음 모두에 수록돼 시즌 전반의 집단 응원 레퍼토리로 관리된다."
+      ],
+      "trivia": [
+        {
+          "text": "더그아웃 편집진은 2022 팬 투표 후보를 고를 때 이 곡과 ‘랜더스의 승리를 위해’ 사이에서 고민했으며, SSG에 부족하던 웅장함을 채운 신곡이라는 이유로 승리의 깃발을 골랐다고 밝혔다.",
+          "assessment": "reported",
+          "evidenceRefs": ["ev-ssg-b-dugout-poll"]
+        },
+        {
+          "text": "공식 최초 공개 영상 댓글에서는 예상보다 웅장하고 멜로디가 잘 붙는다는 반응, 실제 경기장에서 떼창하고 싶다는 반응이 반복됐다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-ssg-b-flag-official-launch-2022"]
+        },
+        {
+          "text": "2022 한국시리즈 하이라이트와 결합한 팬 영상 댓글에서는 곡을 들으면 우승 장면이 떠올라 벅차거나 울컥한다는 반응과 타 팀 팬의 호평이 함께 나타난다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-ssg-b-flag-ks-mv-2022"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-original-team-song",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=ZBarm-3Tfwk",
+          "https://www.youtube.com/watch?v=7wYyS_pztqo",
+          "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+          "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "팀명을 두 차례 부르는 도입 뒤 태양·함성·깃발·비상을 묶은 본절, 무가사 합창과 팀명 응답, 승리의 전사와 투혼을 선언하는 중간 절, 첫 본절과 승리 결구의 반복으로 끝나는 장편 합창형 곡이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-b-flag-official-2026",
+        "yt-ssg-b-flag-official-2025",
+        "yt-ssg-b-flag-official-postseason-2025",
+        "yt-ssg-b-flag-official-launch-2022",
+        "yt-ssg-b-flag-fanaudio-2022",
+        "yt-ssg-b-flag-ks-mv-2022"
+      ],
+      "unresolved": [
+        "공식 공개 영상의 묶음 크레딧이 승리의 깃발 한 곡에 적용되는 정확한 범위를 곡별 음원 크레딧으로 재확인해야 한다.",
+        "박민수 응원단장의 기획·작사·현장 안무 관여 범위와 음악 제작진의 역할 분담이 공개되지 않았다.",
+        "2022년 최초 경기장 사용 날짜와 처음 사용한 경기 상황은 확인되지 않았다.",
+        "2026년 세부 진행표상 사용 이닝·득점 상황과 실제 사용 빈도는 공식 모음만으로 확정할 수 없다."
+      ]
+    },
+    {
+      "id": "ssg-landers-shout-victory",
+      "title": "승리를 외쳐라",
+      "aliases": ["SK 승리를 외쳐라", "랜더스 승리를 외쳐라"],
+      "currentStatus": "current",
+      "summary": "잉글랜드 전통곡 ‘Greensleeves’ 선율을 바탕으로 SK 와이번스가 2018년 9월 공개한 열광응원을 SSG 팀명에 맞게 개사해 계승한 곡이다. 느린 합창에서 빠른 구간으로 전환되는 골격은 유지하고 SK·와이번스 표현을 랜더스·인천의 SSG로 바꿨다. 2025·2026 구단 공식 모음에 계속 수록된다.",
+      "claims": [
+        {
+          "field": "lineage",
+          "value": "SK 와이번스가 2018년 도입한 ‘승리를 외쳐라’를 2021년 SSG판으로 개사해 계승",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-sk-shout-victory-launch", "ev-ssg-b-namu-cheers", "yt-ssg-b-shoutvictory-sk-launch-2018", "yt-ssg-b-shoutvictory-ssg-adaptation-2021"],
+          "notes": "SK 구단 채널은 2018년 9월 22일 곡을 공개하고 9월 25일 홈 경기부터 사용한다고 예고했다. SSG판 직접 영상은 2021년 4월 공개됐다."
+        },
+        {
+          "field": "origin",
+          "value": "16세기 잉글랜드 전통곡 ‘Greensleeves’",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "ev-ssg-b-greensleeves-project", "yt-ssg-b-shoutvictory-sk-launch-2018"],
+          "notes": "응원가 문서와 당시 공식 영상 댓글이 같은 선율을 식별하고, 역사 연구 프로젝트는 Greensleeves의 현존 텍스트가 1584년까지 거슬러 올라가는 엘리자베스 시대 전통곡임을 확인한다."
+        },
+        {
+          "field": "lyricsRevision",
+          "value": "SK·투혼의 와이번스 구호를 랜더스·인천의 SSG로 교체",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "yt-ssg-b-shoutvictory-sk-launch-2018", "yt-ssg-b-shoutvictory-ssg-adaptation-2021"],
+          "notes": "전체 가사 대조는 저장하지 않고 팀명과 핵심 구호의 교체만 구조적으로 기록했다."
+        },
+        {
+          "field": "arrangementCredits",
+          "value": "SK판 및 SSG판의 개사·편곡·보컬·녹음 제작진 미확인",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ssg-b-sk-shout-victory-launch", "ev-ssg-b-official-music-use-list", "ev-ssg-b-soundcloud-index"],
+          "notes": "구단 공식 도입 영상과 현행 음원 페이지는 제작진을 적지 않는다. 전통 선율의 권리 상태와 경기장 편곡·녹음물의 권리는 별개다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 구단 공식 팀 응원가 모음에 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-official-2025-playlist", "ev-ssg-b-official-2025-postseason", "ev-ssg-b-official-2026-playlist", "yt-ssg-b-shoutvictory-official-2025", "yt-ssg-b-shoutvictory-official-postseason-2025", "yt-ssg-b-shoutvictory-official-2026"],
+          "notes": "2025 개막 모음 04:41, 포스트시즌 모음 15:04, 2026 모음 10:56에 수록된다."
+        },
+        {
+          "field": "performanceStructure",
+          "value": "느린 템포 선창·합창 뒤 빠른 템포로 전환하는 장편 열광응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "ev-ssg-b-sk-shout-victory-launch", "yt-ssg-b-shoutvictory-sk-launch-2018", "yt-ssg-b-shoutvictory-ssg-adaptation-2021"],
+          "notes": "SK 공식 공개는 이를 ‘열광응원’이라 부르고 미리 율동과 가사를 익히도록 안내했다."
+        }
+      ],
+      "usageContexts": [
+        "느리게 시작해 관중의 합창을 모은 뒤 빠른 박자와 같은 구호 반복으로 열기를 끌어올린다.",
+        "2018 SK 공식 안내는 가을야구를 앞둔 홈 경기의 ‘열광응원’으로 도입했다고 설명한다.",
+        "2022 한국시리즈 우승 확정 직후 현장 영상에도 남아 있으나, 이 장면만으로 평소의 고정 이닝을 정할 수는 없다."
+      ],
+      "trivia": [
+        {
+          "text": "2021 SSG판 영상 댓글에서는 명곡이 살아남아 다행이라는 반응과 함께, 새 팀명 박자가 어색하고 예전 보컬·‘투혼의 와이번스’ 구호가 더 웅장했다는 반응이 반복됐다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-ssg-b-shoutvictory-ssg-adaptation-2021"]
+        },
+        {
+          "text": "SK 공식 도입 영상 댓글에서도 원곡을 Greensleeves로 알아보는 반응과, 곡은 좋지만 대규모 떼창이 자리 잡기까지 시간이 필요하겠다는 반응이 함께 있었다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-ssg-b-shoutvictory-sk-launch-2018"]
+        },
+        {
+          "text": "2022 우승 현장 영상의 한 댓글은 이후 사용 빈도가 줄었다고 느꼈지만, 2025·2026 공식 목록은 곡 자체가 현행 카탈로그에서 제외되지 않았음을 보여 준다.",
+          "assessment": "reported",
+          "evidenceRefs": ["yt-ssg-b-shoutvictory-ks-2022", "yt-ssg-b-shoutvictory-official-2025", "yt-ssg-b-shoutvictory-official-2026"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "public-domain-traditional-melody-current-arrangement-and-lyrics-copyrighted",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=5JF5sxWg0JA",
+          "https://www.youtube.com/watch?v=VWDEAkjRSck",
+          "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+          "https://greensleevesproject.uk/",
+          "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "Greensleeves 선율 위에서 짧은 무가사 음절과 팀의 승리를 외치는 문장을 느리게 교대하고, 이후 같은 재료를 빠른 박자로 반복한다. 마지막에는 하나 된 목소리를 강조하는 구간이 더해지며 팀명과 연고지 구호로 맺는다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-b-shoutvictory-official-2026",
+        "yt-ssg-b-shoutvictory-official-2025",
+        "yt-ssg-b-shoutvictory-official-postseason-2025",
+        "yt-ssg-b-shoutvictory-ssg-adaptation-2021",
+        "yt-ssg-b-shoutvictory-sk-launch-2018",
+        "yt-ssg-b-shoutvictory-ks-2022"
+      ],
+      "unresolved": [
+        "2018 SK판과 2021 SSG판의 작사·개사·편곡·보컬·녹음 제작진을 밝힌 공식 크레딧이 필요하다.",
+        "2021년 SSG판이 처음 실제 경기에서 사용된 날짜와 시즌 중 보컬·편곡 교체 이력은 확인되지 않았다.",
+        "2025~2026 경기별 사용 빈도와 고정 사용 이닝·상황은 공식 목록만으로 확인할 수 없다.",
+        "전통 선율과 별도로 현재 경기장 음원·개사 가사의 권리자와 이용 승인 범위가 공개되지 않았다."
+      ]
+    },
+    {
+      "id": "ssg-landers-for-victory",
+      "title": "랜더스의 승리를 위해",
+      "aliases": ["랜더스 승리 위해", "랜더스의 승리위해", "와이번스 승리위해"],
+      "currentStatus": "current",
+      "summary": "SK 와이번스가 2018년 사용한 ‘와이번스 승리위해’를 SSG 출범 뒤 랜더스 명칭으로 바꿔 이어 쓰는 단체 구호형 응원가다. 2018년 직접 음원 영상, 2021년 SSG 개사판, 2022 한국시리즈 우승 현장과 2025·2026 구단 공식 목록이 계승과 현행성을 잇는다. 원곡·개사·편곡 제작진은 공개 자료에서 확인되지 않았다.",
+      "claims": [
+        {
+          "field": "lineage",
+          "value": "SK 와이번스가 2018년 사용한 ‘와이번스 승리위해’를 SSG판으로 개사해 계승",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "yt-ssg-b-forvictory-sk-original-2018", "yt-ssg-b-forvictory-ssg-adaptation-2021"],
+          "notes": "2018년 4월 25일 게시 영상 설명이 옛 팀명과 구호를 식별하고, 2021년 4월 6일 영상 제목이 ‘舊 와이번스 승리위해’임을 명시한다."
+        },
+        {
+          "field": "lyricsRevision",
+          "value": "와이번스 명칭을 랜더스로, 불꽃투혼·인천 SK 구호를 인천 SSG 중심 구호로 변경",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "yt-ssg-b-forvictory-sk-original-2018", "yt-ssg-b-forvictory-ssg-adaptation-2021"],
+          "notes": "전체 가사 원문 대신 바뀐 팀명·구호의 기능만 요약했다."
+        },
+        {
+          "field": "officialTitleVariant",
+          "value": "구단 YouTube는 ‘랜더스의 승리를 위해’, SoundCloud 음원은 ‘랜더스 승리 위해’로 표기",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-official-2025-playlist", "ev-ssg-b-official-2026-playlist", "ev-ssg-b-soundcloud-landers-victory"],
+          "notes": "사이트 카드에는 구단 영상의 현행 표기인 ‘랜더스의 승리를 위해’를 대표 제목으로 두고 SoundCloud형은 별칭으로 보존한다."
+        },
+        {
+          "field": "creditsAndOrigin",
+          "value": "SK 원판과 SSG 개사판의 작사·작곡·편곡·보컬 미확인; 외부 원곡도 확인되지 않음",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "ev-ssg-b-soundcloud-landers-victory", "ev-ssg-b-official-music-use-list"],
+          "notes": "현행 문서는 계승 관계만 설명하고 원곡·제작진을 제시하지 않는다. 구단의 외부 사용 음악 목록에도 이 팀곡의 개인별 크레딧은 없다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 구단 공식 팀 응원가 모음에 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-official-2025-playlist", "ev-ssg-b-official-2025-postseason", "ev-ssg-b-official-2026-playlist", "yt-ssg-b-forvictory-official-2025", "yt-ssg-b-forvictory-official-postseason-2025", "yt-ssg-b-forvictory-official-2026"],
+          "notes": "2025 개막 모음 06:05, 포스트시즌 모음 10:49, 2026 모음 12:23에 수록된다."
+        },
+        {
+          "field": "championshipUse",
+          "value": "2022 한국시리즈 6차전 우승 확정 현장에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-ssg-b-forvictory-ks-2022"],
+          "notes": "영상 제목과 촬영 맥락이 우승 확정 직후 사용을 직접 기록한다."
+        }
+      ],
+      "usageContexts": [
+        "짧은 승리 문장을 반복한 뒤 길게 이어지는 무가사 합창과 인천·SSG 구호를 교대하는 단체 응원이다.",
+        "2022 한국시리즈 우승 확정 현장처럼 큰 승리 뒤 관중 합창에 사용된 직접 기록이 있다.",
+        "구단의 개막·포스트시즌·다음 시즌 공식 모음에 모두 실려 시즌 공용 레퍼토리로 관리된다."
+      ],
+      "trivia": [
+        {
+          "text": "2021 SSG판 댓글에서는 팀명 글자 수가 바뀌었는데도 비교적 자연스럽다는 반응과, 옛 ‘불꽃투혼’ 구호가 빠져 아쉽다는 반응이 함께 나타난다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-ssg-b-forvictory-ssg-adaptation-2021"]
+        },
+        {
+          "text": "2018 SK판 공개 영상 댓글에는 당시 선수 응원가와 선율이 비슷하다는 기억이 있으나, 독립된 원곡·재사용 관계를 입증할 제작 자료는 찾지 못했다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-ssg-b-forvictory-sk-original-2018"]
+        },
+        {
+          "text": "SoundCloud에는 현행 구단 영상보다 짧은 ‘랜더스 승리 위해’라는 제목으로 2022년 4월 25일 음원이 게시돼 표기 변형의 근거가 된다.",
+          "assessment": "verified",
+          "evidenceRefs": ["ev-ssg-b-soundcloud-landers-victory"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-team-song-adaptation-credits-unknown",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=tr5Si2nI_mc",
+          "https://www.youtube.com/watch?v=XyWrtcwdpBk",
+          "https://soundcloud.com/gluz4sniw9tg/asqysljfwrso",
+          "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+          "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "팀의 승리를 위해 함께 외치자는 짧은 문장을 두 차례 제시한 뒤, 여러 마디의 무가사 합창과 인천·SSG 철자 구호를 반복한다. SK판의 와이번스·불꽃투혼·인천 SK 요소를 SSG판의 랜더스·인천 SSG로 압축해 바꿨다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-b-forvictory-official-2026",
+        "yt-ssg-b-forvictory-official-2025",
+        "yt-ssg-b-forvictory-official-postseason-2025",
+        "yt-ssg-b-forvictory-ssg-adaptation-2021",
+        "yt-ssg-b-forvictory-sk-original-2018",
+        "yt-ssg-b-forvictory-ks-2022"
+      ],
+      "unresolved": [
+        "2018 SK 원판과 2021 SSG 개사판의 작사·작곡·편곡·가창·녹음 제작진이 확인되지 않았다.",
+        "2018년 4월 게시일보다 앞선 최초 경기장 사용 날짜와 당시 공식 곡명은 추가 확인이 필요하다.",
+        "선수 응원가와 비슷하다는 댓글 기억이 실제 재사용·차용 관계인지 판단할 악보·제작자 자료가 없다.",
+        "2025~2026 실제 경기에서의 고정 사용 시점과 빈도는 공식 모음만으로 확정할 수 없다."
+      ]
+    },
+    {
+      "id": "ssg-landers-fighting-landers",
+      "title": "투혼의 랜더스",
+      "aliases": ["투혼의 와이번스", "SSG 랜더스 버전"],
+      "currentStatus": "current",
+      "summary": "이루마의 ‘Kiss the Rain’ 선율로 2014년부터 SK 와이번스가 사용한 ‘투혼의 와이번스’를 SSG 명칭에 맞게 계승한 대표 합창곡이다. 2021년 초 ‘투혼’을 뺀 구호가 혹평을 받은 뒤 같은 시즌에 ‘투혼의 랜더스’로 복원됐다고 전해진다. 원작자 이루마가 응원가 사용과 재녹음 제안을 직접 언급했으며, 2025·2026 공식 목록이 현행성을 확인한다.",
+      "claims": [
+        {
+          "field": "origin",
+          "value": "이루마가 2003년 발표한 피아노곡 ‘Kiss the Rain’의 멜로디",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-yiruma-interview", "ev-ssg-b-yiruma-catalog", "ev-ssg-b-dugout-poll", "ev-ssg-b-namu-cheers"],
+          "notes": "이루마 본인이 인터뷰에서 자신의 멜로디로 투혼의 랜더스가 탄생했다고 설명했다."
+        },
+        {
+          "field": "lineage",
+          "value": "SK ‘투혼의 와이번스’ 2014~2020을 SSG판으로 계승, 2021 시즌 중 ‘투혼의 랜더스’ 명칭 복원",
+          "assessment": "reported",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "ev-ssg-b-dugout-poll", "yt-ssg-b-fighting-ssg-mv-2021"],
+          "notes": "도입 연도와 2021 초기 구호 변경·복원은 편집형 문서와 2022 독립 기사에서 일치한다. 정확한 복원 경기 날짜는 찾지 못했다."
+        },
+        {
+          "field": "originalCreatorRelationship",
+          "value": "이루마는 응원가 사용료를 따로 받지 않았고 응원단장에게 다시 녹음해 주겠다고 제안했다고 밝힘",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-yiruma-interview"],
+          "notes": "인터뷰가 확인하는 것은 무상 사용과 재녹음 제안이다. 현재 경기장판의 실제 녹음 완료·납품과 세부 편곡 크레딧은 별도 확인이 필요하다."
+        },
+        {
+          "field": "currentArrangementCredit",
+          "value": "현행판을 이루마가 직접 편곡·녹음했다는 주장이 있으나 공식 음원 크레딧은 미확인",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "ev-ssg-b-yiruma-interview", "ev-ssg-b-soundcloud-index"],
+          "notes": "나무위키는 팬 커뮤니티를 근거로 완료 사실을 적지만, 이루마 인터뷰는 제안까지만 명시한다. 따라서 직접 제작 완료는 확정하지 않았다."
+        },
+        {
+          "field": "usageContext",
+          "value": "득점 뒤 대표 응원으로 알려졌고, 최근 문서에는 홈 리드 시 8회말 종료·그 외 9회 구간 사용으로도 정리됨",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ssg-b-dugout-poll", "ev-ssg-b-namu-cheers", "yt-ssg-b-fighting-allstar-2022"],
+          "notes": "2022 독립 기사와 2026 현행 문서가 서로 다른 상황을 적는다. 시즌·응원 진행 방식에 따라 쓰임이 달라졌을 가능성이 있어 두 기록을 함께 보존한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 구단 공식 팀 응원가 모음에 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-official-2025-playlist", "ev-ssg-b-official-2025-postseason", "ev-ssg-b-official-2026-playlist", "yt-ssg-b-fighting-official-2025", "yt-ssg-b-fighting-official-postseason-2025", "yt-ssg-b-fighting-official-2026"],
+          "notes": "2025 개막 모음 07:31, 포스트시즌 모음 13:32, 2026 모음 13:51에 수록된다."
+        }
+      ],
+      "usageContexts": [
+        "익숙한 피아노 선율을 관중 합창과 팀명 구호로 바꾼 대표 떼창 응원이다.",
+        "2022 올스타전에는 SSG 대표곡으로 소개돼 다른 팀 팬이 함께 있는 잠실에서도 육성 합창으로 진행됐다.",
+        "득점 뒤 사용됐다는 2022 기록과 경기 후반 고정 시점에 쓴다는 최신 기록이 함께 있어 시즌별 진행 변화 가능성이 있다."
+      ],
+      "trivia": [
+        {
+          "text": "2022 팬 투표에서 16%로 3위를 차지해 SK부터 이어진 대표곡의 지속적인 선호를 보여 줬다.",
+          "assessment": "reported",
+          "evidenceRefs": ["ev-ssg-b-dugout-poll"]
+        },
+        {
+          "text": "올스타전 영상 댓글에서는 명응원가라는 평가와 함께 자신도 모르게 옛 ‘투혼의 와이번스’로 부른다는 추억 반응이 반복됐다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-ssg-b-fighting-allstar-2022"]
+        },
+        {
+          "text": "현행 응원가 문서는 고려대학교 응원가 ‘고대를 사랑하라’도 같은 Kiss the Rain 선율을 쓴다고 적지만, 두 응원가의 제작·차용 관계가 있다는 뜻은 아니다.",
+          "assessment": "reported",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers"]
+        },
+        {
+          "text": "2021 SSG판 팬 MV 댓글은 SK에서 SSG로 이름이 바뀐 뒤에도 이 곡을 가장 좋아한다는 반응과 우승·정규시즌 기억을 곡에 연결하는 반응이 많다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-ssg-b-fighting-ssg-mv-2021"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-composition-adapted-team-lyrics-and-recording",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=WlMujqD6EYs",
+          "https://www.youtube.com/watch?v=01fdbQ7RQqk",
+          "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+          "https://ichannela.com/news/detail/000000384039.do",
+          "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "Kiss the Rain의 핵심 피아노 선율에 팀의 투혼과 승리를 짧게 선언하는 합창을 얹고, 인천·SSG 철자 구호가 들어간 타악 간주 뒤 같은 본절을 반복한다. SK판의 와이번스·불꽃투혼 구호는 SSG 명칭에 맞게 축약·교체됐다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-b-fighting-official-2026",
+        "yt-ssg-b-fighting-official-2025",
+        "yt-ssg-b-fighting-official-postseason-2025",
+        "yt-ssg-b-fighting-ssg-mv-2021",
+        "yt-ssg-b-fighting-allstar-2022"
+      ],
+      "unresolved": [
+        "2014 SK 원판의 작사·편곡·보컬·녹음 제작진과 정확한 최초 경기 사용일이 확인되지 않았다.",
+        "이루마가 제안한 재녹음이 실제 현행 음원으로 완성됐는지와 해당 버전의 편곡·녹음 크레딧이 필요하다.",
+        "2021년 ‘SSG 랜더스’ 구호판에서 ‘투혼의 랜더스’로 돌아온 정확한 날짜와 음원 버전 이력이 확인되지 않았다.",
+        "득점 직후와 경기 후반 고정 구간이라는 두 사용 맥락이 2025~2026에 각각 얼마나 적용되는지 현장 진행표가 필요하다."
+      ]
+    },
+    {
+      "id": "ssg-landers-shout-landers",
+      "title": "외쳐라 랜더스",
+      "aliases": ["외쳐라랜더스"],
+      "currentStatus": "current",
+      "summary": "2023년 4월 새로 공개된 SSG 창단 이후의 팀 응원가다. SK 시절 곡을 개사한 계승곡이 아니라 랜더스 이름과 하나 된 함성을 중심으로 만든 짧은 합창형 곡으로 확인된다. 2023 현장 영상, 2025 개막·포스트시즌 공식 모음과 2026 공식 모음이 연속 사용을 뒷받침한다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2023년 도입; SSG LANDERS SoundCloud 게시 시각 2023-04-07, 직접 영상 2023-04-09",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "ev-ssg-b-soundcloud-index", "yt-ssg-b-shoutlanders-initial-2023"],
+          "notes": "SoundCloud 게시일은 음원 공개 기준이며 최초 경기 사용일과 동일하다고 단정하지 않는다."
+        },
+        {
+          "field": "lineage",
+          "value": "확인된 SK 전신곡 없이 2023년 SSG용으로 추가된 팀 응원가",
+          "assessment": "reported",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "ev-ssg-b-soundcloud-index", "yt-ssg-b-shoutlanders-initial-2023"],
+          "notes": "현행 문서는 단순히 2023 신규 곡으로 분류하며 SK 계승 표시를 붙이지 않는다."
+        },
+        {
+          "field": "originAndCredits",
+          "value": "외부 원곡·작사·작곡·편곡·보컬 제작진 미확인",
+          "assessment": "contested",
+          "confidence": "low",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "ev-ssg-b-soundcloud-index", "ev-ssg-b-official-music-use-list"],
+          "notes": "공식 목록과 음원 계정은 곡명·게시일만 제시한다. 공개 댓글의 멜로디 유사성 언급만으로 특정 선수 응원가나 외부 곡을 원곡으로 판정하지 않았다."
+        },
+        {
+          "field": "performanceStructure",
+          "value": "팀명 응답과 하나 된 함성·승리 문장을 되풀이하는 단체 합창형 응원",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-namu-cheers", "yt-ssg-b-shoutlanders-initial-2023", "yt-ssg-b-shoutlanders-friday-2023"],
+          "notes": "가사 전문 대신 선창·응답과 반복 구조만 기록했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025·2026 구단 공식 팀 응원가 모음에 연속 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-ssg-b-official-2025-playlist", "ev-ssg-b-official-2025-postseason", "ev-ssg-b-official-2026-playlist", "yt-ssg-b-shoutlanders-official-2025", "yt-ssg-b-shoutlanders-official-postseason-2025", "yt-ssg-b-shoutlanders-official-2026"],
+          "notes": "2025 개막 모음 09:03, 포스트시즌 모음 12:16, 2026 모음 15:23에 수록된다."
+        }
+      ],
+      "usageContexts": [
+        "짧은 선창 뒤 관중이 랜더스 팀명으로 응답하고, 같은 함성·승리 구간을 반복해 열기를 유지한다.",
+        "2023년 ‘불금파티’ 현장에서는 대중가요 응원 ‘불티’와 연속 진행된 직접 영상이 남아 있다.",
+        "2025 포스트시즌과 2026 정규시즌 공식 목록에도 들어가 단기 이벤트곡이 아닌 현행 팀곡으로 관리된다."
+      ],
+      "trivia": [
+        {
+          "text": "초기 음원 영상 댓글에서는 ‘랜더스여’에 견줄 만큼 잘 만든 곡이라는 평가와 실제 직관에서 좋았다는 반응이 반복됐다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-ssg-b-shoutlanders-initial-2023"]
+        },
+        {
+          "text": "2023년 10월 6일 불금파티 현장 영상은 외쳐라 랜더스 뒤에 ‘불티’를 이어 수록해 이벤트성 응원 흐름을 보여 준다.",
+          "assessment": "verified",
+          "evidenceRefs": ["yt-ssg-b-shoutlanders-friday-2023"]
+        },
+        {
+          "text": "한 공개 댓글은 다른 선수 응원가와 선율이 비슷하다고 기억하지만, 제작·편곡 자료가 없어 단순 유사성 반응으로만 보존했다.",
+          "assessment": "anecdotal",
+          "evidenceRefs": ["yt-ssg-b-shoutlanders-initial-2023"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted-original-team-song-credits-unknown",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=3CLqlpoypI0",
+          "https://www.youtube.com/watch?v=tLYjnC_AAdU",
+          "https://soundcloud.com/gluz4sniw9tg/n5dsazkyjabm",
+          "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+          "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80"
+        ],
+        "structureSummary": "하나 된 함성과 팀명 응답을 두 번 같은 형식으로 되풀이한 뒤, 무가사 합창을 추가해 더 크게 외치도록 유도하고 승리와 랜더스 정체성으로 끝맺는다. 짧은 문장과 괄호형 응답이 중심인 집단 참여형 구조다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-ssg-b-shoutlanders-official-2026",
+        "yt-ssg-b-shoutlanders-official-2025",
+        "yt-ssg-b-shoutlanders-official-postseason-2025",
+        "yt-ssg-b-shoutlanders-initial-2023",
+        "yt-ssg-b-shoutlanders-friday-2023"
+      ],
+      "unresolved": [
+        "작사·작곡·편곡·보컬·녹음 제작진과 원음 권리자가 공개 자료에서 확인되지 않았다.",
+        "2023년 4월 음원 공개와 별개로 정확한 최초 경기장 사용 날짜가 필요하다.",
+        "공개 댓글에서 제기된 다른 선수 응원가와의 선율 유사성이 실제 재사용인지 확인할 제작 자료가 없다.",
+        "2025~2026 고정 사용 이닝·상황과 현장 사용 빈도는 공식 목록만으로 확정할 수 없다."
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-ssg-b-inventory",
+      "type": "project-inventory",
+      "url": "research/batches/2026-08-08-current-cheer-song-inventory/kbo.md",
+      "title": "KBO 현재 응원가 목록 — SSG 랜더스",
+      "publisher": "프로젝트 내부 목록 조사",
+      "publishedAt": "2026-08-08",
+      "accessedAt": "2026-08-09",
+      "summary": "SSG 현행 확정 목록에 이번 다섯 곡을 모두 포함하고, 투혼의 랜더스·승리를 외쳐라·랜더스의 승리를 위해가 SK 시절 곡을 개사해 계승한 곡이라고 구분한다. 심층 배치에서는 이 기준을 공식 영상과 직접 표본으로 재검증했다.",
+      "supports": ["batchScope", "currentCatalog", "legacyClassification"]
+    },
+    {
+      "id": "ev-ssg-b-namu-cheers",
+      "type": "editable-reference",
+      "url": "https://www.namu.moe/w/SSG%20%EB%9E%9C%EB%8D%94%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80",
+      "title": "SSG 랜더스/응원가",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "최근 수정 2026년 7월 14일의 현행 문서다. 승리의 깃발 2022 도입, 투혼의 랜더스의 SK 2014 계승과 Kiss the Rain 원곡, 승리를 외쳐라·랜더스의 승리를 위해의 SK 2018 계승, 외쳐라 랜더스 2023 도입 및 가사 구조·사용 맥락을 정리한다. 전체 가사는 옮기지 않았다.",
+      "supports": ["allItems.history", "allItems.lineage", "allItems.lyricsStructure", "allItems.usage"]
+    },
+    {
+      "id": "ev-ssg-b-official-2026-playlist",
+      "type": "official-video",
+      "url": "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 우리의 함성이 그대 지키는 힘이 될 거야⚾ | 2026 SSG랜더스 팀 응원가",
+      "publisher": "SSG랜더스",
+      "publishedAt": "2026-03-26T04:01:38-07:00",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 공식 2026 팀 응원가 모음이다. 승리의 깃발 08:59, 승리를 외쳐라 10:56, 랜더스의 승리를 위해 12:23, 투혼의 랜더스 13:51, 외쳐라 랜더스 15:23을 정확히 수록해 다섯 곡 모두의 2026 현행성과 공식 표기를 확인한다.",
+      "supports": ["allItems.currentUse2026", "allItems.officialTitle"]
+    },
+    {
+      "id": "ev-ssg-b-official-2025-playlist",
+      "type": "official-video",
+      "url": "https://www.youtube.com/watch?v=7wYyS_pztqo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 개막 D-2! 으쓱이들 필수 시청🔥 | 2025 SSG랜더스 팀 응원가",
+      "publisher": "SSG랜더스",
+      "publishedAt": "2025-03-20T04:00:02-07:00",
+      "accessedAt": "2026-08-09",
+      "summary": "구단 공식 2025 개막 전 팀 응원가 모음이다. 승리의 깃발 02:48, 승리를 외쳐라 04:41, 랜더스의 승리를 위해 06:05, 투혼의 랜더스 07:31, 외쳐라 랜더스 09:03을 수록한다.",
+      "supports": ["allItems.currentUse2025", "allItems.officialTitle"]
+    },
+    {
+      "id": "ev-ssg-b-official-2025-postseason",
+      "type": "official-video",
+      "url": "https://www.youtube.com/watch?v=BE1r-Exv42Q",
+      "title": "NEW 응원가 공개🚀 포스트시즌 대비 랜더스 팀 응원가 모음.zip",
+      "publisher": "SSG랜더스",
+      "publishedAt": "2025-10-06T02:01:16-07:00",
+      "accessedAt": "2026-08-09",
+      "summary": "2025 포스트시즌 대비 공식 팀 응원가 모음이다. 설명 목차가 승리의 깃발 08:57, 랜더스의 승리를 위해 10:49, 외쳐라 랜더스 12:16, 투혼의 랜더스 13:32, 승리를 외쳐라 15:04를 수록해 시즌 말에도 다섯 곡이 유지됐음을 확인한다.",
+      "supports": ["allItems.postseason2025", "allItems.continuity"]
+    },
+    {
+      "id": "ev-ssg-b-dugout-poll",
+      "type": "independent-feature",
+      "url": "https://v.daum.net/v/EWdWGEBJn6",
+      "title": "[DUGOUT Live] 팬이 뽑은 최애 응원가 4탄 – SSG 랜더스편",
+      "publisher": "더그아웃 매거진 / 대단한미디어",
+      "publishedAt": "2022-06",
+      "accessedAt": "2026-08-09",
+      "summary": "2022년 팬 투표와 현장 맥락을 정리한 독립 기사다. 승리의 깃발을 박민수 부임 뒤 처음 선보인 웅장한 신곡으로 설명하고 3%·6위로 기록한다. 투혼의 랜더스는 SK 대표곡 계승·Kiss the Rain 선율·득점 뒤 사용·2021 구호 복원 맥락과 16%·3위를 함께 전한다.",
+      "supports": ["ssg-landers-victory-flag.introduction", "ssg-landers-victory-flag.reception", "ssg-landers-fighting-landers.lineage", "ssg-landers-fighting-landers.usage"]
+    },
+    {
+      "id": "ev-ssg-b-park-minsu-namu",
+      "type": "editable-biographical-reference",
+      "url": "https://namu.moe/w/%EB%B0%95%EB%AF%BC%EC%88%98(%EC%9D%91%EC%9B%90%EB%8B%A8%EC%9E%A5)",
+      "title": "박민수(응원단장)",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "박민수가 2022년 SSG 응원단장으로 부임한 뒤 랜더스여·승리의 깃발·새 라인업송 등 팀 응원을 제작해 호평을 받았다고 정리한다. 음악 저작 크레딧과 현장 기획 역할을 구분하기 위해 공식 영상의 CREDIT와 교차했다.",
+      "supports": ["ssg-landers-victory-flag.cheerLeaderRole"]
+    },
+    {
+      "id": "ev-ssg-b-victory-flag-launch-credits",
+      "type": "official-video-description",
+      "url": "https://www.youtube.com/watch?v=ZBarm-3Tfwk",
+      "title": "주문하신 '웅장한 팀응원가' 나왔습니다 — 랜더스 신규 응원가 최초 공개",
+      "publisher": "SSG랜더스",
+      "publishedAt": "2022-04-01T06:10:44-07:00",
+      "accessedAt": "2026-08-09",
+      "summary": "공식 영상이 00:17에 승리의 깃발을 신규 팀 응원가로 최초 공개한다. 설명의 묶음 CREDIT는 작사 에디(EDI), 작곡 %Percent·에디, 편곡 %Percent, 제작 WEownUS MUSIK, 믹스·마스터 데이오프를 적는다. 곡별 역할 분할은 제시하지 않는다.",
+      "supports": ["ssg-landers-victory-flag.introduction", "ssg-landers-victory-flag.credits", "ssg-landers-victory-flag.performance"]
+    },
+    {
+      "id": "ev-ssg-b-sk-shout-victory-launch",
+      "type": "official-legacy-video",
+      "url": "https://www.youtube.com/watch?v=5JF5sxWg0JA",
+      "title": "[SK와이번스] NEW열광응원! '승리를 외쳐라'",
+      "publisher": "SSG랜더스(구 SK 와이번스 공식 채널)",
+      "publishedAt": "2018-09-22T17:00:00-07:00",
+      "accessedAt": "2026-08-09",
+      "summary": "SK 구단 공식 채널이 2018시즌 가을야구를 앞두고 열광응원 ‘승리를 외쳐라’를 공개하고 9월 25일 홈 경기부터 운영한다고 명시한다. 율동과 가사를 미리 익히도록 안내해 정확한 도입 맥락을 제공한다.",
+      "supports": ["ssg-landers-shout-victory.lineage", "ssg-landers-shout-victory.introduction", "ssg-landers-shout-victory.usage"]
+    },
+    {
+      "id": "ev-ssg-b-soundcloud-index",
+      "type": "team-branded-audio-index",
+      "url": "https://soundcloud.com/gluz4sniw9tg",
+      "title": "SSG LANDERS tracks",
+      "publisher": "SSG LANDERS",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "SSG LANDERS 명의 계정이 투혼의 랜더스·랜더스 승리 위해를 2022년 4월 25일, 승리를 외쳐라를 2022년 8월 7일, 외쳐라 랜더스를 2023년 4월 7일 게시했다. 구단 공식 홈페이지가 계정을 직접 연결하는 자료는 찾지 못해 ‘팀 브랜딩 음원 계정’으로 한정해 사용한다.",
+      "supports": ["ssg-landers-shout-victory.audioArchive", "ssg-landers-for-victory.titleVariant", "ssg-landers-fighting-landers.audioArchive", "ssg-landers-shout-landers.introduction"]
+    },
+    {
+      "id": "ev-ssg-b-soundcloud-landers-victory",
+      "type": "team-branded-audio",
+      "url": "https://soundcloud.com/gluz4sniw9tg/asqysljfwrso",
+      "title": "랜더스 승리 위해",
+      "publisher": "SSG LANDERS",
+      "publishedAt": "2022-04-25T23:32:29Z",
+      "accessedAt": "2026-08-09",
+      "summary": "SoundCloud 개별 트랙이 ‘랜더스 승리 위해’라는 축약 제목과 게시 시각, all-rights-reserved 라이선스를 표시한다. 현행 구단 YouTube의 ‘랜더스의 승리를 위해’ 표기와 함께 별칭 근거로 사용했다.",
+      "supports": ["ssg-landers-for-victory.titleVariant", "ssg-landers-for-victory.rights"]
+    },
+    {
+      "id": "ev-ssg-b-yiruma-interview",
+      "type": "creator-interview",
+      "url": "https://ichannela.com/news/detail/000000384039.do",
+      "title": "‘OPEN 인터뷰’ 무대 공포증 덕분에 탄생한 글로벌 작곡가 이루마",
+      "publisher": "채널A 뉴스",
+      "publishedAt": "2023-12-22T10:34:00+09:00",
+      "accessedAt": "2026-08-09",
+      "summary": "이루마가 자신의 Kiss the Rain 멜로디에서 투혼의 랜더스가 탄생했고 저작권료를 따로 받지 않았으며, 응원단장에게 다시 녹음해 주겠다고 제안했다고 직접 설명한다. 실제 현행판 납품 완료 여부는 기사에서 명시하지 않는다.",
+      "supports": ["ssg-landers-fighting-landers.origin", "ssg-landers-fighting-landers.creatorRelationship", "ssg-landers-fighting-landers.arrangementUncertainty"]
+    },
+    {
+      "id": "ev-ssg-b-yiruma-catalog",
+      "type": "creator-video-catalog",
+      "url": "https://www.youtube.com/watch?v=1e07OAWvWkQ",
+      "title": "Yiruma - Kiss The Rain (Orchestra Version)",
+      "publisher": "YIRUMA place",
+      "publishedAt": "2021-02-05",
+      "accessedAt": "2026-08-09",
+      "summary": "이루마 측 영상 설명은 Kiss the Rain이 2003년 피아노 솔로곡으로 처음 발표된 뒤 널리 알려졌고 오케스트라 버전으로 재편곡됐다고 소개한다. 응원가와 별개로 원작의 작곡자·발표 시점을 확인하는 자료다.",
+      "supports": ["ssg-landers-fighting-landers.origin", "ssg-landers-fighting-landers.originalRelease"]
+    },
+    {
+      "id": "ev-ssg-b-greensleeves-project",
+      "type": "independent-historical-project",
+      "url": "https://greensleevesproject.uk/",
+      "title": "The Greensleeves Project",
+      "publisher": "The Greensleeves Project / Society of Antiquaries 지원 연구진",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "역사학자·실연자 협업 프로젝트가 Greensleeves를 엘리자베스 시대의 역사적 노래로 설명하고, 현존하는 가장 이른 가사본을 1584년으로 제시한다. 응원가 문서의 ‘잉글랜드 옛 민요’ 설명을 독립적으로 교차 확인한다.",
+      "supports": ["ssg-landers-shout-victory.origin", "ssg-landers-shout-victory.rightsContext"]
+    },
+    {
+      "id": "ev-ssg-b-official-music-use-list",
+      "type": "official-rights-list",
+      "url": "https://www.ssglanders.com/media/news/detail?idx=19360",
+      "title": "SSG랜더스 응원가 사용 음악",
+      "publisher": "SSG랜더스",
+      "publishedAt": "2022-08-11",
+      "accessedAt": "2026-08-09",
+      "summary": "구단이 경기장 응원에 쓰는 외부 대중음악의 저작물 번호·가수·작사·작곡을 공개한 목록이다. 이번 팀 응원가들의 제작진은 별도로 제시하지 않으므로 외부 곡 목록의 크레딧을 팀곡 제작진으로 잘못 연결하지 않았다.",
+      "supports": ["allItems.creditBoundary", "allItems.rightsBoundary"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-ssg-b-flag-official-2026",
+      "songId": "ssg-landers-victory-flag",
+      "url": "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+      "videoId": "zPGEpmBj4iw",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 우리의 함성이 그대 지키는 힘이 될 거야⚾ | 2026 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2026-03-26T04:01:38-07:00",
+      "descriptionSummary": "2026 구단 공식 팀 응원가 모음이며 설명 목차 08:59에 ‘승리의 깃발’을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 SK 시절 대표곡 부활과 구단의 과거 정체성 회복을 반기는 반응이 압도적이다.", "승리의 깃발 한 곡보다 2026 공식 모음과 팀 응원가 전반을 평가하는 반응이 중심이다."],
+      "supports": ["currentUse2026", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-flag-official-2025",
+      "songId": "ssg-landers-victory-flag",
+      "url": "https://www.youtube.com/watch?v=7wYyS_pztqo",
+      "videoId": "7wYyS_pztqo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 개막 D-2! 으쓱이들 필수 시청🔥 | 2025 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-03-20T04:00:02-07:00",
+      "descriptionSummary": "2025 개막 이틀 전 공개한 구단 공식 모음으로 설명 목차 02:48에 ‘승리의 깃발’을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 라인업송·랜더스여·투혼의 랜더스를 포함한 팀 응원가 전반의 웅장함과 중독성을 높게 평가한다.", "당시 아직 부활하지 않은 과거 SK 대표곡을 다시 써 달라는 요청도 반복돼 2025년 초의 레퍼토리 맥락을 보여 준다."],
+      "supports": ["currentUse2025", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-flag-official-postseason-2025",
+      "songId": "ssg-landers-victory-flag",
+      "url": "https://www.youtube.com/watch?v=BE1r-Exv42Q",
+      "videoId": "BE1r-Exv42Q",
+      "title": "NEW 응원가 공개🚀 포스트시즌 대비 랜더스 팀 응원가 모음.zip",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-10-06T02:01:16-07:00",
+      "descriptionSummary": "2025 포스트시즌 신규곡과 기존 팀곡을 묶은 구단 공식 모음으로 목차 08:57에 ‘승리의 깃발’을 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 새 포스트시즌 곡과 되살아난 불꽃투혼 구호가 팀 고유 정체성을 강화했다는 반응이 중심이다.", "현장에서 부르기 위해 모음을 익히겠다는 반응과 다음 시즌에도 유지해 달라는 요청이 반복된다."],
+      "supports": ["postseasonUse2025", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-flag-official-launch-2022",
+      "songId": "ssg-landers-victory-flag",
+      "url": "https://www.youtube.com/watch?v=ZBarm-3Tfwk",
+      "videoId": "ZBarm-3Tfwk",
+      "title": "주문하신 '웅장한 팀응원가' 나왔습니다ᕦ(ò_óˇ)ᕤ  랜더스 신규 응원가!! 최/초/공/개 (팀 응원가 2곡 + 케빈크론, 하재훈)",
+      "channel": "SSG랜더스",
+      "publishedAt": "2022-04-01T06:10:44-07:00",
+      "descriptionSummary": "구단이 00:17에 승리의 깃발과 응원 동작을 최초 공개한다. 설명의 묶음 크레딧은 작사 에디, 작곡 %Percent·에디, 편곡 %Percent와 제작·믹싱 담당을 제시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["웅장하고 멜로디가 귀에 잘 붙으며 기대 이상이라는 반응이 반복된다.", "경기장에서 승리의 깃발을 떼창하고 싶다는 반응과 새 응원단장의 곡 품질을 긍정적으로 평가하는 의견이 많다."],
+      "supports": ["officialIntroduction", "credits", "cheerMotion", "reception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-flag-fanaudio-2022",
+      "songId": "ssg-landers-victory-flag",
+      "url": "https://www.youtube.com/watch?v=U345HdjjVMA",
+      "videoId": "U345HdjjVMA",
+      "title": "SSG랜더스 신규 팀응원가 승리의 깃발",
+      "channel": "H P",
+      "publishedAt": "2022-04-02T02:19:49-07:00",
+      "descriptionSummary": "공식 최초 공개 다음 날 게시된 15초 팬 음원 영상이다. 설명에는 가사가 길게 실려 있으나 데이터에는 신규 곡 식별과 짧은 구간이라는 사실만 남겼다.",
+      "commentsStatus": "available",
+      "commentSummary": ["웅장하고 잘 만든 응원가라는 평가와 현장 분위기가 좋다는 반응이 반복된다.", "곡을 별도로 올려 준 데 대한 감사와 단순한 선호 표현도 보인다."],
+      "supports": ["introductionEra", "fanReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-flag-ks-mv-2022",
+      "songId": "ssg-landers-victory-flag",
+      "url": "https://www.youtube.com/watch?v=4wXW-H4Gs3Q",
+      "videoId": "4wXW-H4Gs3Q",
+      "title": "SSG 랜더스 응원가｜승리의 깃발 뮤직비디오｜KS 하이라이트｜평찡",
+      "channel": "평찡 PyungZZing",
+      "publishedAt": "2022-12-17T03:45:52-08:00",
+      "descriptionSummary": "2022 한국시리즈 하이라이트 장면으로 승리의 깃발 팬 뮤직비디오를 구성했다고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡과 한국시리즈 장면이 결합돼 울컥하거나 눈물이 난다는 반응이 반복된다.", "타 팀 팬도 좋아하는 팀 응원가라고 평가하고 실제 승리 직후 들었을 때 감동적이었다는 경험담이 보인다."],
+      "supports": ["championshipAssociation", "fanReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutvictory-official-2026",
+      "songId": "ssg-landers-shout-victory",
+      "url": "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+      "videoId": "zPGEpmBj4iw",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 우리의 함성이 그대 지키는 힘이 될 거야⚾ | 2026 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2026-03-26T04:01:38-07:00",
+      "descriptionSummary": "2026 구단 공식 팀 응원가 모음이며 설명 목차 10:56에 ‘승리를 외쳐라’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 되살아난 SK 계승곡과 구단의 과거 정체성을 반기는 반응이 압도적이다.", "승리를 외쳐라 개별 곡보다 전체 레거시·현행 응원가 구성에 관한 평가가 중심이다."],
+      "supports": ["currentUse2026", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutvictory-official-2025",
+      "songId": "ssg-landers-shout-victory",
+      "url": "https://www.youtube.com/watch?v=7wYyS_pztqo",
+      "videoId": "7wYyS_pztqo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 개막 D-2! 으쓱이들 필수 시청🔥 | 2025 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-03-20T04:00:02-07:00",
+      "descriptionSummary": "2025 개막 이틀 전 공개한 구단 공식 모음으로 설명 목차 04:41에 ‘승리를 외쳐라’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 여러 현행 팀 응원가의 웅장함과 중독성을 평가하며 직관 전에 듣겠다는 반응이 많다.", "개별 곡보다는 아직 복귀하지 않았던 과거 SK 응원가의 부활 요청이 반복된다."],
+      "supports": ["currentUse2025", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutvictory-official-postseason-2025",
+      "songId": "ssg-landers-shout-victory",
+      "url": "https://www.youtube.com/watch?v=BE1r-Exv42Q",
+      "videoId": "BE1r-Exv42Q",
+      "title": "NEW 응원가 공개🚀 포스트시즌 대비 랜더스 팀 응원가 모음.zip",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-10-06T02:01:16-07:00",
+      "descriptionSummary": "2025 포스트시즌 대비 구단 공식 모음이며 설명 목차 15:04에 ‘승리를 외쳐라’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 포스트시즌 현장에서 부를 새·기존 응원가를 익히겠다는 반응과 팀 고유 구호를 선호하는 반응이 반복된다.", "이 곡 단독보다 신규곡과 되살아난 레거시 곡을 평가하는 의견이 중심이다."],
+      "supports": ["postseasonUse2025", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutvictory-ssg-adaptation-2021",
+      "songId": "ssg-landers-shout-victory",
+      "url": "https://www.youtube.com/watch?v=VWDEAkjRSck",
+      "videoId": "VWDEAkjRSck",
+      "title": "SSG랜더스 팀응원가 승리를 외쳐라(랜더스ver.)",
+      "channel": "H P",
+      "publishedAt": "2021-04-06T07:25:23-07:00",
+      "descriptionSummary": "2021년 SSG 팀명으로 바뀐 개사판 음원이다. 설명에는 가사가 길게 실려 있으나 팀명 교체와 느림·빠름 반복 구조만 요약했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["SK 시절 명곡이 살아남아 다행이라는 반응이 반복된다.", "새 팀명 박자가 어색하고 예전 보컬과 투혼의 와이번스 구호가 더 웅장했다는 아쉬움도 많다."],
+      "supports": ["ssgAdaptation2021", "lyricsRevision", "legacyReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutvictory-sk-launch-2018",
+      "songId": "ssg-landers-shout-victory",
+      "url": "https://www.youtube.com/watch?v=5JF5sxWg0JA",
+      "videoId": "5JF5sxWg0JA",
+      "title": "[SK와이번스] NEW열광응원! '승리를 외쳐라'",
+      "channel": "SSG랜더스",
+      "publishedAt": "2018-09-22T17:00:00-07:00",
+      "descriptionSummary": "SK 구단 공식 채널이 2018 가을야구용 열광응원으로 곡을 공개하고 9월 25일 홈 경기부터 운영한다고 안내한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["곡이 웅장하고 좋다는 평가와 마지막 구간은 육성만으로도 멋질 것 같다는 반응이 보인다.", "Greensleeves 선율을 알아보는 반응과, 대규모 떼창이 자리 잡기까지 시간이 필요하겠다는 의견도 있다."],
+      "supports": ["skIntroduction2018", "officialUsageStart", "originRecognition"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutvictory-ks-2022",
+      "songId": "ssg-landers-shout-victory",
+      "url": "https://www.youtube.com/watch?v=I1-_qVyu9ME",
+      "videoId": "I1-_qVyu9ME",
+      "title": "SSG랜더스 한국시리즈 6차전 우승 확정 승리를 외쳐라 응원가",
+      "channel": "린동",
+      "publishedAt": "2022-11-13T06:39:54-08:00",
+      "descriptionSummary": "별도 설명 없이 2022 한국시리즈 6차전 우승 확정 뒤 ‘승리를 외쳐라’ 현장 사용을 제목으로 식별한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["우승 현장 영상을 공유받고 싶다는 반응이 있으며, 한 댓글은 최근 사용이 줄었다고 느껴 이유를 묻는다."],
+      "supports": ["championshipUse2022", "frequencyQuestion"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-forvictory-official-2026",
+      "songId": "ssg-landers-for-victory",
+      "url": "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+      "videoId": "zPGEpmBj4iw",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 우리의 함성이 그대 지키는 힘이 될 거야⚾ | 2026 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2026-03-26T04:01:38-07:00",
+      "descriptionSummary": "2026 구단 공식 팀 응원가 모음이며 설명 목차 12:23에 ‘랜더스의 승리를 위해’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 과거 SK 대표곡이 돌아온 점과 인천 야구의 연속성을 반기는 반응이 중심이다.", "랜더스의 승리를 위해 개별 곡보다 공식 모음 전체에 대한 감사와 우승 기원이 반복된다."],
+      "supports": ["currentUse2026", "officialTitle"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-forvictory-official-2025",
+      "songId": "ssg-landers-for-victory",
+      "url": "https://www.youtube.com/watch?v=7wYyS_pztqo",
+      "videoId": "7wYyS_pztqo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 개막 D-2! 으쓱이들 필수 시청🔥 | 2025 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-03-20T04:00:02-07:00",
+      "descriptionSummary": "2025 개막 이틀 전 공개한 구단 공식 모음으로 설명 목차 06:05에 ‘랜더스의 승리를 위해’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 현행 팀 응원가 전반을 직관 전에 익히려는 반응과 선호 순위를 나누는 반응이 많다.", "이 곡 단독보다 과거 SK 대표곡의 추가 부활을 요청하는 의견이 반복된다."],
+      "supports": ["currentUse2025", "officialTitle"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-forvictory-official-postseason-2025",
+      "songId": "ssg-landers-for-victory",
+      "url": "https://www.youtube.com/watch?v=BE1r-Exv42Q",
+      "videoId": "BE1r-Exv42Q",
+      "title": "NEW 응원가 공개🚀 포스트시즌 대비 랜더스 팀 응원가 모음.zip",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-10-06T02:01:16-07:00",
+      "descriptionSummary": "2025 포스트시즌 대비 구단 공식 모음이며 설명 목차 10:49에 ‘랜더스의 승리를 위해’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 포스트시즌 응원가를 빨리 익히겠다는 반응과 팀만의 구호·정체성을 선호하는 반응이 반복된다.", "개별 곡보다 신규 포스트시즌 곡과 부활한 레거시 응원가를 평가하는 의견이 중심이다."],
+      "supports": ["postseasonUse2025", "officialTitle"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-forvictory-ssg-adaptation-2021",
+      "songId": "ssg-landers-for-victory",
+      "url": "https://www.youtube.com/watch?v=XyWrtcwdpBk",
+      "videoId": "XyWrtcwdpBk",
+      "title": "SSG랜더스 팀 응원가 랜더스의 승리위해(舊 와이번스 승리위해)",
+      "channel": "H P",
+      "publishedAt": "2021-04-06T07:28:48-07:00",
+      "descriptionSummary": "제목이 옛 와이번스 승리위해의 SSG 개사판임을 직접 밝힌다. 설명의 전체 가사는 저장하지 않고 팀명·구호 교체 구조만 요약했다.",
+      "commentsStatus": "available",
+      "commentSummary": ["팀명 글자 수가 바뀌었는데도 새 가사가 비교적 자연스럽다는 반응이 있다.", "옛 불꽃투혼 구호가 빠진 점을 아쉬워하거나 다른 SK 계승곡도 살아 있는지 묻는 반응이 보인다."],
+      "supports": ["ssgAdaptation2021", "lyricsRevision", "titleVariant"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-forvictory-sk-original-2018",
+      "songId": "ssg-landers-for-victory",
+      "url": "https://www.youtube.com/watch?v=tr5Si2nI_mc",
+      "videoId": "tr5Si2nI_mc",
+      "title": "SK와이번스 new 팀 응원가",
+      "channel": "H P",
+      "publishedAt": "2018-04-25T19:49:53-07:00",
+      "descriptionSummary": "2018년 SK 신곡 음원으로 설명이 와이번스 승리 문장과 불꽃투혼·인천 SK 구호를 식별한다. 전체 가사는 저장하지 않았다.",
+      "commentsStatus": "available",
+      "commentSummary": ["노래를 좋아한다는 반응과 당시 선수 응원가와 비슷하다는 기억이 있다.", "투혼 계열 응원가의 사용 여부를 묻는 반응도 보인다."],
+      "supports": ["skOriginal2018", "legacyLyricsStructure", "melodySimilarityAnecdote"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-forvictory-ks-2022",
+      "songId": "ssg-landers-for-victory",
+      "url": "https://www.youtube.com/watch?v=tSPoDAEbcks",
+      "videoId": "tSPoDAEbcks",
+      "title": "SSG랜더스 한국시리즈 6차전 우승 확정 랜더스의 승리 위해 응원가",
+      "channel": "린동",
+      "publishedAt": "2022-11-13T06:41:55-08:00",
+      "descriptionSummary": "별도 설명 없이 2022 한국시리즈 6차전 우승 확정 현장에서 곡을 사용한 장면을 제목으로 식별한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["championshipUse2022", "stadiumFootage"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-fighting-official-2026",
+      "songId": "ssg-landers-fighting-landers",
+      "url": "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+      "videoId": "zPGEpmBj4iw",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 우리의 함성이 그대 지키는 힘이 될 거야⚾ | 2026 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2026-03-26T04:01:38-07:00",
+      "descriptionSummary": "2026 구단 공식 팀 응원가 모음이며 설명 목차 13:51에 ‘투혼의 랜더스’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 SK 시절부터 이어진 응원 문화가 되살아났다는 반응과 오래된 팬의 추억이 반복된다.", "투혼의 랜더스 개별 곡보다 공식 모음 전체와 다른 부활곡을 함께 평가하는 반응이 중심이다."],
+      "supports": ["currentUse2026", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-fighting-official-2025",
+      "songId": "ssg-landers-fighting-landers",
+      "url": "https://www.youtube.com/watch?v=7wYyS_pztqo",
+      "videoId": "7wYyS_pztqo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 개막 D-2! 으쓱이들 필수 시청🔥 | 2025 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-03-20T04:00:02-07:00",
+      "descriptionSummary": "2025 개막 이틀 전 공개한 구단 공식 모음으로 설명 목차 07:31에 ‘투혼의 랜더스’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["투혼의 랜더스를 랜더스여와 함께 팀의 최고 응원가로 꼽는 반응이 직접 확인된다.", "타 팀 팬도 SSG의 웅장한 팀 응원가를 좋아한다는 반응과 직관 전에 익히겠다는 의견이 보인다."],
+      "supports": ["currentUse2025", "fanPreference"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-fighting-official-postseason-2025",
+      "songId": "ssg-landers-fighting-landers",
+      "url": "https://www.youtube.com/watch?v=BE1r-Exv42Q",
+      "videoId": "BE1r-Exv42Q",
+      "title": "NEW 응원가 공개🚀 포스트시즌 대비 랜더스 팀 응원가 모음.zip",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-10-06T02:01:16-07:00",
+      "descriptionSummary": "2025 포스트시즌 대비 구단 공식 모음이며 설명 목차 13:32에 ‘투혼의 랜더스’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 포스트시즌 현장에서 곡을 익혀 함께 부르겠다는 반응과 SK 계승 정체성을 반기는 반응이 많다.", "개별 곡보다 새 포스트시즌 곡과 부활한 레거시 응원가를 묶어 평가하는 의견이 중심이다."],
+      "supports": ["postseasonUse2025", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-fighting-ssg-mv-2021",
+      "songId": "ssg-landers-fighting-landers",
+      "url": "https://www.youtube.com/watch?v=WlMujqD6EYs",
+      "videoId": "WlMujqD6EYs",
+      "title": "SSG 랜더스 팀응원가 | 투혼의 랜더스 MV",
+      "channel": "한화의노토바이",
+      "publishedAt": "2021-11-18T22:34:45-08:00",
+      "descriptionSummary": "별도 설명 없이 2021 SSG판 ‘투혼의 랜더스’를 영상과 함께 제공한 팬 뮤직비디오다.",
+      "commentsStatus": "available",
+      "commentSummary": ["SK에서 SSG로 바뀐 뒤에도 가장 좋아하는 응원가라는 반응과 옛 와이번스 구호를 함께 기억하는 반응이 보인다.", "정규시즌·우승·국가대표 경기 등 승리 기억을 곡과 연결하는 댓글이 반복되며 타 팀 팬의 감사 반응도 많다."],
+      "supports": ["ssgVersion2021", "legacyMemory", "fanReception"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-fighting-allstar-2022",
+      "songId": "ssg-landers-fighting-landers",
+      "url": "https://www.youtube.com/watch?v=01fdbQ7RQqk",
+      "videoId": "01fdbQ7RQqk",
+      "title": "[2022 올스타전] \"SSG의 대표곡'' 투혼의 랜더스 육성 떼창 응원가 (2022.07.16)",
+      "channel": "야직영[야구직관영상]",
+      "publishedAt": "2022-07-18T00:43:13-07:00",
+      "descriptionSummary": "2022년 7월 16일 올스타전에서 SSG 대표곡으로 진행된 육성 떼창을 촬영한 현장 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["명응원가라는 평가와 관중이 손동작까지 정확히 맞춘다는 반응이 있다.", "자신도 모르게 옛 ‘투혼의 와이번스’로 부른다는 SK 시절 향수 표현이 반복된다."],
+      "supports": ["allStarUse2022", "crowdParticipation", "legacyMemory"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutlanders-official-2026",
+      "songId": "ssg-landers-shout-landers",
+      "url": "https://www.youtube.com/watch?v=zPGEpmBj4iw",
+      "videoId": "zPGEpmBj4iw",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 우리의 함성이 그대 지키는 힘이 될 거야⚾ | 2026 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2026-03-26T04:01:38-07:00",
+      "descriptionSummary": "2026 구단 공식 팀 응원가 모음이며 설명 목차 15:23에 ‘외쳐라 랜더스’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 구단이 SK와 SSG의 응원 유산을 함께 정리한 점을 반기고 우승을 기원하는 반응이 많다.", "외쳐라 랜더스 한 곡보다 2026 전체 레퍼토리와 부활곡에 관한 평가가 중심이다."],
+      "supports": ["currentUse2026", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutlanders-official-2025",
+      "songId": "ssg-landers-shout-landers",
+      "url": "https://www.youtube.com/watch?v=7wYyS_pztqo",
+      "videoId": "7wYyS_pztqo",
+      "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 개막 D-2! 으쓱이들 필수 시청🔥 | 2025 SSG랜더스 팀 응원가",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-03-20T04:00:02-07:00",
+      "descriptionSummary": "2025 개막 이틀 전 공개한 구단 공식 모음으로 설명 목차 09:03에 ‘외쳐라 랜더스’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 현행 응원가 전반의 중독성과 웅장함을 평가하고 직관 전에 모음을 익히겠다는 반응이 많다.", "외쳐라 랜더스 단독 평가는 적고 당시 빠진 옛 SK 응원가의 부활 요청이 반복된다."],
+      "supports": ["currentUse2025", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutlanders-official-postseason-2025",
+      "songId": "ssg-landers-shout-landers",
+      "url": "https://www.youtube.com/watch?v=BE1r-Exv42Q",
+      "videoId": "BE1r-Exv42Q",
+      "title": "NEW 응원가 공개🚀 포스트시즌 대비 랜더스 팀 응원가 모음.zip",
+      "channel": "SSG랜더스",
+      "publishedAt": "2025-10-06T02:01:16-07:00",
+      "descriptionSummary": "2025 포스트시즌 대비 구단 공식 모음이며 설명 목차 12:16에 ‘외쳐라 랜더스’를 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["포스트시즌 현장에서 새·기존 응원가를 함께 부르기 위해 익히겠다는 반응이 반복된다.", "외쳐라 랜더스 개별 곡보다 신규곡과 팀 고유 레거시 구호를 평가하는 의견이 중심이다."],
+      "supports": ["postseasonUse2025", "officialCatalog"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutlanders-initial-2023",
+      "songId": "ssg-landers-shout-landers",
+      "url": "https://www.youtube.com/watch?v=3CLqlpoypI0",
+      "videoId": "3CLqlpoypI0",
+      "title": "(SSG랜더스 응원가)외쳐라 랜더스",
+      "channel": "크보뮤지션",
+      "publishedAt": "2023-04-09T13:46:27-07:00",
+      "descriptionSummary": "2023년 4월 초 곡을 단독으로 게시한 팬 음원 영상이며 설명은 SSG·야구·응원가 해시태그만 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["잘 만든 곡이며 ‘랜더스여’에 견줄 만하다는 긍정 평가와 실제 직관에서 좋았다는 반응이 반복된다.", "지금도 사용하는지 묻는 반응과 다른 선수 응원가와 선율이 비슷하다는 개인적 기억도 있다."],
+      "supports": ["introduction2023", "fanReception", "melodySimilarityAnecdote"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-ssg-b-shoutlanders-friday-2023",
+      "songId": "ssg-landers-shout-landers",
+      "url": "https://www.youtube.com/watch?v=tLYjnC_AAdU",
+      "videoId": "tLYjnC_AAdU",
+      "title": "SSG랜더스 불금파티 팀 응원가 \"외쳐라 랜더스\" + \"불티\" 20231006",
+      "channel": "DJ Landers",
+      "publishedAt": "2023-10-06T08:18:39-07:00",
+      "descriptionSummary": "2023년 10월 6일 불금파티 현장 영상으로 00:00 외쳐라 랜더스, 01:19 불티를 연속 수록한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["stadiumUse2023", "eventSequence"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 28,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

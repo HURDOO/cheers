@@ -1,0 +1,4022 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-07-initial-cheer-songs",
+  "checkedAt": "2026-08-07",
+  "itemCount": 166,
+  "methodology": {
+    "youtube": "곡마다 공개 YouTube 영상 5개 이상에서 제목·설명과 공개 댓글의 반복 주제를 확인했다. 댓글 작성자명과 식별정보는 저장하지 않았고, 댓글 반응은 사실 확정 근거가 아닌 현장 맥락의 보조 자료로만 사용했다.",
+    "web": "공식 학교·구단·응원단·권리자 자료와 언론을 우선했다. 나무위키 직접 열람이 허용되지 않은 항목은 검색 색인과 공개 미러를 단서로만 사용하고 다른 출처와 교차 확인했다.",
+    "copyright": "영상 설명이나 웹페이지에 가사 전문이 있어도 저장하지 않고 필요한 관찰만 요약했다."
+  },
+  "items": [
+    {
+      "id": "ev-korea-university-minjogui-aria-web-collection",
+      "candidateId": "korea-university-minjogui-aria",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "민족의 아리아 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 미러",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "나무위키 미러 — 민족의 아리아",
+          "url": "https://www.namu.moe/w/%EB%AF%BC%EC%A1%B1%EC%9D%98%20%EC%95%84%EB%A6%AC%EC%95%84",
+          "observation": "원곡, 호상비문, 2003년 등장과 무반주 응원을 정리한 보조 자료다."
+        },
+        {
+          "title": "대학응원가와 프로 응원가는 왜 같을까",
+          "url": "https://sports.news.nate.com/view/20140208n04707",
+          "observation": "고려대 응원단 음악부 취재를 통해 2003년 Melodramma를 골라 호상비문 기반 가사를 붙였다고 보도한다."
+        },
+        {
+          "title": "청록색의 정신을 보다 — 고대신문",
+          "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=40181",
+          "observation": "조지훈의 호상비문이 민족의 아리아에 차용됐음을 교내 언론이 확인한다."
+        },
+        {
+          "title": "고려대학교 자유전공학부 새내기 자료집",
+          "url": "https://sis.korea.ac.kr/sis/join/notice.do?articleNo=179103&attachNo=146961&mode=download",
+          "observation": "대표 응원가와 무반주 현장 맥락을 설명한다."
+        },
+        {
+          "title": "Andrea Bocelli 공식 디스코그래피 — Cieli Di Toscana",
+          "url": "https://www.andreabocelli.com/discography/cieli-di-toscana/",
+          "observation": "Melodramma가 2001년 앨범 수록곡임을 확인한다."
+        },
+        {
+          "title": "고려대학교 교우회 고연전 100주년 연표",
+          "url": "https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0",
+          "observation": "2003년 민족의 아리아 초연을 기록한다."
+        }
+      ],
+      "observations": [
+        "원곡, 호상비문, 2003년 등장과 무반주 응원을 정리한 보조 자료다.",
+        "고려대 응원단 음악부 취재를 통해 2003년 Melodramma를 골라 호상비문 기반 가사를 붙였다고 보도한다.",
+        "조지훈의 호상비문이 민족의 아리아에 차용됐음을 교내 언론이 확인한다.",
+        "대표 응원가와 무반주 현장 맥락을 설명한다.",
+        "Melodramma가 2001년 앨범 수록곡임을 확인한다.",
+        "2003년 민족의 아리아 초연을 기록한다."
+      ]
+    },
+    {
+      "id": "ev-korea-university-minjogui-aria-yt-blzxqmxznty",
+      "candidateId": "korea-university-minjogui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2023 입실렌티] 민족고대 최고의 응원곡. '민족의 아리아' 떼창 - 고려대학교 응원단 / 고려대 축제 / Korea University",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=blzXqmXZntY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2023년 제44회 입실렌티 2부 응원제 현장과 고려대 응원단 촬영팀 크레딧을 담는다."
+      ],
+      "youtube": {
+        "videoId": "blzXqmXZntY",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2023년 제44회 입실렌티 2부 응원제 현장과 고려대 응원단 촬영팀 크레딧을 담는다.",
+        "commentSummary": "고려대 진학 동기, 공부 자극, 졸업생·외부인이 느끼는 벅참과 공동체적 메시지가 반복된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-minjogui-aria-yt-lixclsvujwu",
+      "candidateId": "korea-university-minjogui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[고연전 특별영상] 고려대학교 16개 단과대학 학생들이 함께 부르는 '민족의 아리아'",
+      "publisher": "고려대학교 교육TV방송국 KUTV",
+      "url": "https://www.youtube.com/watch?v=LIxcLsvUjWU",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "16개 단과대 학생이 함께 부른 2019 고연전 특별 합창 영상이다."
+      ],
+      "youtube": {
+        "videoId": "LIxcLsvUjWU",
+        "channel": "고려대학교 교육TV방송국 KUTV",
+        "descriptionSummary": "16개 단과대 학생이 함께 부른 2019 고연전 특별 합창 영상이다.",
+        "commentSummary": "단과대별 연출과 학생 표정에 관한 유머, 화음과 영상 콘셉트 호평이 많다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-minjogui-aria-yt-pjprgrpt1ew",
+      "candidateId": "korea-university-minjogui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[4K] 고려대학교 축제 YB (윤도현밴드) 민족의 아리아 (고려대학교 응원가) | 240523 석탑대동제 KUTOPIA 3일차",
+      "publisher": "고려대학교 교육TV방송국 KUTV",
+      "url": "https://www.youtube.com/watch?v=PjPRGRPt1ew",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2024 석탑대동제에서 YB가 록 스타일로 편곡해 공연한 교내방송 영상이다."
+      ],
+      "youtube": {
+        "videoId": "PjPRGRPt1ew",
+        "channel": "고려대학교 교육TV방송국 KUTV",
+        "descriptionSummary": "2024 석탑대동제에서 YB가 록 스타일로 편곡해 공연한 교내방송 영상이다.",
+        "commentSummary": "아티스트의 별도 편곡 라이브와 학교 축제의 결합을 높이 평가한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-minjogui-aria-yt-v4jtwzvwb98",
+      "candidateId": "korea-university-minjogui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "고려대학교 민족의 아리아",
+      "publisher": "고려대학교 입학처",
+      "url": "https://www.youtube.com/watch?v=v4jTwzvwb98",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "민족의 아리아를 배경음악으로 사용한 고려대학교 공식 홍보영상이다."
+      ],
+      "youtube": {
+        "videoId": "v4jTwzvwb98",
+        "channel": "고려대학교 입학처",
+        "descriptionSummary": "민족의 아리아를 배경음악으로 사용한 고려대학교 공식 홍보영상이다.",
+        "commentSummary": "최근 댓글 대부분이 학과와 목표 학번을 적는 지원자들의 입학 다짐이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-minjogui-aria-yt-wprywayezky",
+      "candidateId": "korea-university-minjogui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[음원] 고려대학교 응원가 - 민족의 아리아 - 가사 (lyrics)",
+      "publisher": "고려대학교 연세대학교 응원가 TV",
+      "url": "https://www.youtube.com/watch?v=wpRywAyeZkY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "고대생이 가장 사랑하는 간판 응원가로 소개하며 예습·복습용 음원을 제공한다."
+      ],
+      "youtube": {
+        "videoId": "wpRywAyeZkY",
+        "channel": "고려대학교 연세대학교 응원가 TV",
+        "descriptionSummary": "고대생이 가장 사랑하는 간판 응원가로 소개하며 예습·복습용 음원을 제공한다.",
+        "commentSummary": "수험생의 합격 다짐과 오랜 졸업생이 다시 힘을 얻는다는 반응이 두드러진다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-forever-web-collection",
+      "candidateId": "korea-university-forever",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "Forever 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 미러",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "나무위키 미러 — 고려대학교 응원가 2000년대",
+          "url": "https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+          "observation": "2007년 신곡, 원곡과 간주, 휴대전화 조명과 응원 동작을 정리한다."
+        },
+        {
+          "title": "고려대학교 응원단 온라인 응원 OT — Forever",
+          "url": "https://www.youtube.com/watch?v=GxSU75-9n4M",
+          "observation": "공식 채널이 원곡을 Stratovarius의 Forever, 간주를 Cinema Paradiso Love Theme로 명시한다."
+        },
+        {
+          "title": "Stratovarius 공식 디스코그래피 — Episode",
+          "url": "https://stratovarius.com/portfolio-items/episode/",
+          "observation": "Forever가 1996년 앨범 Episode의 12번 트랙임을 확인한다."
+        },
+        {
+          "title": "고려대학교 자유전공학부 새내기 자료집",
+          "url": "https://sis.korea.ac.kr/sis/join/notice.do?articleNo=179103&attachNo=146961&mode=download",
+          "observation": "민족의 아리아 다음으로 사랑받으며 특정 추임새의 강한 동작을 설명한다."
+        },
+        {
+          "title": "2025 상반기 합동응원전 — 고대신문",
+          "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=43692",
+          "observation": "합동응원전 막바지에 Forever와 민족의 아리아가 배치됐음을 기록한다."
+        }
+      ],
+      "observations": [
+        "2007년 신곡, 원곡과 간주, 휴대전화 조명과 응원 동작을 정리한다.",
+        "공식 채널이 원곡을 Stratovarius의 Forever, 간주를 Cinema Paradiso Love Theme로 명시한다.",
+        "Forever가 1996년 앨범 Episode의 12번 트랙임을 확인한다.",
+        "민족의 아리아 다음으로 사랑받으며 특정 추임새의 강한 동작을 설명한다.",
+        "합동응원전 막바지에 Forever와 민족의 아리아가 배치됐음을 기록한다."
+      ]
+    },
+    {
+      "id": "ev-korea-university-forever-yt-5g8mgu63k5a",
+      "candidateId": "korea-university-forever",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[4K] 고려대학교 축제 에이핑크 (Apink) FOREVER (고려대학교 응원가) | 240521 석탑대동제 KUTOPIA 1일차",
+      "publisher": "고려대학교 교육TV방송국 KUTV",
+      "url": "https://www.youtube.com/watch?v=5G8MgU63K5A",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2024 석탑대동제에서 에이핑크가 Forever를 부른 공식 교내방송 영상이다."
+      ],
+      "youtube": {
+        "videoId": "5G8MgU63K5A",
+        "channel": "고려대학교 교육TV방송국 KUTV",
+        "descriptionSummary": "2024 석탑대동제에서 에이핑크가 Forever를 부른 공식 교내방송 영상이다.",
+        "commentSummary": "대학축제와 응원가 결합 및 에이핑크 라이브를 높이 평가한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-forever-yt-6jqz0bb8sa8",
+      "candidateId": "korea-university-forever",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[음원] 고려대학교 응원가 - FOREVER - 가사 (lyrics)",
+      "publisher": "고려대학교 연세대학교 응원가 TV",
+      "url": "https://www.youtube.com/watch?v=6jQz0Bb8SA8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "민족의 아리아와 함께 인기 최상위인 곡으로 소개하는 예습용 음원이다."
+      ],
+      "youtube": {
+        "videoId": "6jQz0Bb8SA8",
+        "channel": "고려대학교 연세대학교 응원가 TV",
+        "descriptionSummary": "민족의 아리아와 함께 인기 최상위인 곡으로 소개하는 예습용 음원이다.",
+        "commentSummary": "LG 트윈스 응원가와의 연결, 음원 서비스 수록 요청, 중독성에 관한 반응이 많다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-forever-yt-fc7j2waakfi",
+      "candidateId": "korea-university-forever",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "포레버 Forever - 입실렌티 응원 / 고려대학교응원단 / 고려대 응원가",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=fc7J2waAKfI",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "입실렌티의 대규모 Forever 응원 장면을 담는다."
+      ],
+      "youtube": {
+        "videoId": "fc7J2waAKfI",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "입실렌티의 대규모 Forever 응원 장면을 담는다.",
+        "commentSummary": "응원단장과 붉은 단복·군중 연출을 상징적으로 기억한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-forever-yt-gxsu759n4m",
+      "candidateId": "korea-university-forever",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "Forever | 고려대학교 응원단 온라인 응원 OT",
+      "publisher": "고려대학교 응원단",
+      "url": "https://www.youtube.com/watch?v=GxSU75-9n4M",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 동작 영상이며 Stratovarius 및 Cinema Paradiso 원곡 정보를 명시한다."
+      ],
+      "youtube": {
+        "videoId": "GxSU75-9n4M",
+        "channel": "고려대학교 응원단",
+        "descriptionSummary": "공식 동작 영상이며 Stratovarius 및 Cinema Paradiso 원곡 정보를 명시한다.",
+        "commentSummary": "반주의 중독성, 높은 동작 난도, 수험 직전 동기부여가 주된 반응이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-forever-yt-l1agotjwbcw",
+      "candidateId": "korea-university-forever",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2018 고려대 입실렌티] 포레버 FOREVER - 고려대학교 응원단 / 3부 판쓸이 응원",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=l1AgotJWBCw",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2018 입실렌티 3부 판쓸이 응원의 시작을 담은 현장 영상이다."
+      ],
+      "youtube": {
+        "videoId": "l1AgotJWBCw",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2018 입실렌티 3부 판쓸이 응원의 시작을 담은 현장 영상이다.",
+        "commentSummary": "비고대생도 곡과 동작을 외울 만큼 강한 흡인력과 붉은 군중의 에너지를 언급한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-deureora-boara-geurigo-gieokhara-web-collection",
+      "candidateId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "들어라 보아라 그리고 기억하라 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 미러",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "나무위키 미러 — 고려대학교 응원가 2000년대",
+          "url": "https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+          "observation": "원곡, 2007년 등장, 어깨동무 동작과 긴 제목의 ‘들보기’ 축약을 명시한다."
+        },
+        {
+          "title": "고려대학교 응원단 온라인 응원 OT",
+          "url": "https://www.youtube.com/watch?v=8iGlLcy2TXc",
+          "observation": "공식 영상이 정식 제목과 원곡 Carrying You를 명시한다."
+        },
+        {
+          "title": "Castle in the Sky Press Kit",
+          "url": "https://www.nausicaa.net/presskit/kits/ghiblink/castle/lpk-press.pdf",
+          "observation": "엔딩곡 Kimi wo Nosete의 작곡·가창·작사 크레딧을 확인한다."
+        },
+        {
+          "title": "2023학년도 입학식 — 고대신문",
+          "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=40571",
+          "observation": "신입생들이 입학식에서 이 곡의 동작을 배웠다고 기록한다."
+        },
+        {
+          "title": "고려대학교 자유전공학부 새내기 자료집",
+          "url": "https://sis.korea.ac.kr/sis/join/notice.do?articleNo=179103&attachNo=146961&mode=download",
+          "observation": "정식 곡명과 곡 구성을 공식 자료 출처와 함께 싣는다."
+        }
+      ],
+      "observations": [
+        "원곡, 2007년 등장, 어깨동무 동작과 긴 제목의 ‘들보기’ 축약을 명시한다.",
+        "공식 영상이 정식 제목과 원곡 Carrying You를 명시한다.",
+        "엔딩곡 Kimi wo Nosete의 작곡·가창·작사 크레딧을 확인한다.",
+        "신입생들이 입학식에서 이 곡의 동작을 배웠다고 기록한다.",
+        "정식 곡명과 곡 구성을 공식 자료 출처와 함께 싣는다."
+      ]
+    },
+    {
+      "id": "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-55shzmx8k0",
+      "candidateId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "2023 고려대학교 응원 OT | “들어라 보아라 그리고 기억하라” 다시보기🐯",
+      "publisher": "고려대학교 교육TV방송국 KUTV",
+      "url": "https://www.youtube.com/watch?v=55sHZMX8K-0",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2023 응원 OT 생중계에서 해당 곡만 다시 편집한 교내방송 영상이다."
+      ],
+      "youtube": {
+        "videoId": "55sHZMX8K-0",
+        "channel": "고려대학교 교육TV방송국 KUTV",
+        "descriptionSummary": "2023 응원 OT 생중계에서 해당 곡만 다시 편집한 교내방송 영상이다.",
+        "commentSummary": "역동적이면서 정돈된 동작과 편집이 곡의 열정을 잘 살렸다는 반응이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-8igllcy2txc",
+      "candidateId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "들어라 보아라 그리고 기억하라 | 고려대학교 응원단 온라인 응원 OT",
+      "publisher": "고려대학교 응원단",
+      "url": "https://www.youtube.com/watch?v=8iGlLcy2TXc",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 영상으로 곡 구성과 천공의 성 라퓨타 OST 원곡 정보를 제공한다."
+      ],
+      "youtube": {
+        "videoId": "8iGlLcy2TXc",
+        "channel": "고려대학교 응원단",
+        "descriptionSummary": "공식 영상으로 곡 구성과 천공의 성 라퓨타 OST 원곡 정보를 제공한다.",
+        "commentSummary": "울컥하거나 몸을 움직이게 된다는 반응과 응원단 공연 호평이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-hejnzpoi",
+      "candidateId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[음원] 고려대학교 응원가 - 들어라 보아라 그리고 기억하라 - 가사 (lyrics)",
+      "publisher": "고려대학교 연세대학교 응원가 TV",
+      "url": "https://www.youtube.com/watch?v=H-EJ__NzpoI",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "정식 제목과 들보기 약칭을 함께 사용하는 예습용 음원이다."
+      ],
+      "youtube": {
+        "videoId": "H-EJ__NzpoI",
+        "channel": "고려대학교 연세대학교 응원가 TV",
+        "descriptionSummary": "정식 제목과 들보기 약칭을 함께 사용하는 예습용 음원이다.",
+        "commentSummary": "편곡 호평, 2007년 새내기 시절 회상, 수험생의 진학 다짐이 나타난다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-nrdkqyheb8",
+      "candidateId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[고연전 응원] 들어라 보아라 그리고 기억하라 - 고려대학교 응원단 / 고려대 응원가",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=_nrdKqYheB8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2018 고연전 응원 영상으로 선창·후창 구조와 들보기 태그를 제시한다."
+      ],
+      "youtube": {
+        "videoId": "_nrdKqYheB8",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2018 고연전 응원 영상으로 선창·후창 구조와 들보기 태그를 제시한다.",
+        "commentSummary": "응원단장·단복 호평과 학부모가 학생에게 힘을 얻는다는 반응이 많다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-ozdkakii7n8",
+      "candidateId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2024 고려대/연세대 합동응원OT] '서시 (YU) vs 들어라 보아라 그리고 기억하라 (KU)'",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=OzdKakiI7N8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "연세대 서시와 고려대 들보기를 연속 배치한 합동응원 영상이다."
+      ],
+      "youtube": {
+        "videoId": "OzdKakiI7N8",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "연세대 서시와 고려대 들보기를 연속 배치한 합동응원 영상이다.",
+        "commentSummary": "고려대 진학을 새 목표로 삼았다는 반응과 붉은 단복 연출 호평이 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-baennorae-web-collection",
+      "candidateId": "korea-university-baennorae",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "뱃노래 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 미러",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "고려대학교 응원단 온라인 응원 OT — 뱃노래",
+          "url": "https://www.youtube.com/watch?v=YbADjuEahzg",
+          "observation": "1974년 전통민요를 편곡했으며 득점·승리 순간에 쓰는 곡이라고 공식 설명한다."
+        },
+        {
+          "title": "고려대학교 자유전공학부 새내기 자료집",
+          "url": "https://sis.korea.ac.kr/sis/join/notice.do?articleNo=179103&attachNo=146961&mode=download",
+          "observation": "득점·승리 때 울리는 곡과 강한 앞뒤 동작을 설명한다."
+        },
+        {
+          "title": "고대답게 탐색하고, 고대답게 고민해라 — 고대신문",
+          "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=32516",
+          "observation": "고연전 득점 후 관중이 어깨를 걸고 붉은 물결을 만든다고 기록한다."
+        },
+        {
+          "title": "고려대학교 응원곡 경기상황 연구",
+          "url": "https://dh.aks.ac.kr/~jisun/edu/index.php/TeamCheerUpKU22",
+          "observation": "오래되고 특색 있는 곡이 경기에서 자주 반복된다고 설명한다."
+        },
+        {
+          "title": "고려대학교 교우회 고연전 100주년 연표",
+          "url": "https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0",
+          "observation": "1974년 응원곡 뱃노래 등장을 기록한다."
+        },
+        {
+          "title": "대학응원가와 프로 응원가는 왜 같을까",
+          "url": "https://sports.news.nate.com/view/20140208n04707",
+          "observation": "롯데 자이언츠가 고려대 뱃노래를 개사해 사용한다고 보도한다."
+        }
+      ],
+      "observations": [
+        "1974년 전통민요를 편곡했으며 득점·승리 순간에 쓰는 곡이라고 공식 설명한다.",
+        "득점·승리 때 울리는 곡과 강한 앞뒤 동작을 설명한다.",
+        "고연전 득점 후 관중이 어깨를 걸고 붉은 물결을 만든다고 기록한다.",
+        "오래되고 특색 있는 곡이 경기에서 자주 반복된다고 설명한다.",
+        "1974년 응원곡 뱃노래 등장을 기록한다.",
+        "롯데 자이언츠가 고려대 뱃노래를 개사해 사용한다고 보도한다."
+      ]
+    },
+    {
+      "id": "ev-korea-university-baennorae-yt-eqmlpf8bvzo",
+      "candidateId": "korea-university-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[음원] 고려대학교 응원가 - 뱃노래 (full ver.) - 가사 (lyrics)",
+      "publisher": "고려대학교 연세대학교 응원가 TV",
+      "url": "https://www.youtube.com/watch?v=eqmlpF8bvZo",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "민족의 노래·승리의 노래 별칭과 긴 버전임을 명시한 예습용 음원이다."
+      ],
+      "youtube": {
+        "videoId": "eqmlpF8bvZo",
+        "channel": "고려대학교 연세대학교 응원가 TV",
+        "descriptionSummary": "민족의 노래·승리의 노래 별칭과 긴 버전임을 명시한 예습용 음원이다.",
+        "commentSummary": "강한 라이벌 의식과 전투적인 에너지가 곡의 인상이라는 반응이 많다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-baennorae-yt-nygy9kqzo04",
+      "candidateId": "korea-university-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "2023 고려대학교 축제 - 응원 3대 명곡 'Forever + 민족의 아리아 + 뱃노래'",
+      "publisher": "Cheerss 치얼쓰",
+      "url": "https://www.youtube.com/watch?v=NyGY9kQzO04",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2023 입실렌티에서 대표 3곡을 이어 담는다."
+      ],
+      "youtube": {
+        "videoId": "NyGY9kQzO04",
+        "channel": "Cheerss 치얼쓰",
+        "descriptionSummary": "2023 입실렌티에서 대표 3곡을 이어 담는다.",
+        "commentSummary": "외부 시청자도 벅차오른다는 반응과 응원단장·보컬의 열정 호평이 많다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-baennorae-yt-wflxcx9xicq",
+      "candidateId": "korea-university-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2022 입실렌티] '민족의 노래, 승리의 노래 뱃노래!' / 고려대 축제 IPSELENTI",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=WFLXcX9xICQ",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "3년 만에 재개된 2022 입실렌티에서 2만 관중이 함께한 피날레성 영상이다."
+      ],
+      "youtube": {
+        "videoId": "WFLXcX9xICQ",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "3년 만에 재개된 2022 입실렌티에서 2만 관중이 함께한 피날레성 영상이다.",
+        "commentSummary": "허리가 아플 만큼 격한 동작이라는 유머와 현장 진행의 아쉬움이 나타난다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-baennorae-yt-xjjavwmsoac",
+      "candidateId": "korea-university-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "2014 고연전 - 농구 경기종료 직전 & 승리의 뱃노래",
+      "publisher": "SPORTS KU",
+      "url": "https://www.youtube.com/watch?v=XjjAVWMSoac",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2014 고연전 농구 승리 직전부터 종료 후 뱃노래까지 실제 경기 맥락을 담는다."
+      ],
+      "youtube": {
+        "videoId": "XjjAVWMSoac",
+        "channel": "SPORTS KU",
+        "descriptionSummary": "2014 고연전 농구 승리 직전부터 종료 후 뱃노래까지 실제 경기 맥락을 담는다.",
+        "commentSummary": "역전승 직후의 흥분을 잘 포착했고 당시 경기를 잊지 못한다는 회상이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-baennorae-yt-ybadjueahzg",
+      "candidateId": "korea-university-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "뱃노래 | 고려대학교 응원단 온라인 응원 OT",
+      "publisher": "고려대학교 응원단",
+      "url": "https://www.youtube.com/watch?v=YbADjuEahzg",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "1974년 전통민요 편곡과 득점·승리용이라는 역사·용도를 공식 설명한다."
+      ],
+      "youtube": {
+        "videoId": "YbADjuEahzg",
+        "channel": "고려대학교 응원단",
+        "descriptionSummary": "1974년 전통민요 편곡과 득점·승리용이라는 역사·용도를 공식 설명한다.",
+        "commentSummary": "고연전 승리 후 대규모 떼창을 기대하며 허리가 아픈 곡이라는 현장 유머가 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-yeongwonhara-web-collection",
+      "candidateId": "korea-university-yeongwonhara",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "영원하라 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 미러",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "나무위키 미러 — 고려대학교 응원가 2000년대",
+          "url": "https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+          "observation": "2004년 신곡, Contradanza 원곡, 동작과 롯데 개사 관계를 정리한다."
+        },
+        {
+          "title": "Apple Music Classical — The Violin Player",
+          "url": "https://classical.music.apple.com/us/album/1465123736",
+          "observation": "Contradanza가 Vanessa-Mae의 1995년 앨범 수록곡이며 Mike Batt 작품임을 확인한다."
+        },
+        {
+          "title": "Vanessa-Mae 공식 아티스트 채널 — Contradanza",
+          "url": "https://www.youtube.com/watch?v=pf9eBn4yyqA",
+          "observation": "공식 음원 메타데이터가 연주·작곡·프로듀싱 크레딧을 확인한다."
+        },
+        {
+          "title": "대학응원가와 프로 응원가는 왜 같을까",
+          "url": "https://sports.news.nate.com/view/20140208n04707",
+          "observation": "롯데가 고려대 영원하라를 구단용으로 개사했다고 보도한다."
+        },
+        {
+          "title": "지야의 함성 + 영원하라 — 2023 고연전 응원 OT",
+          "url": "https://www.youtube.com/watch?v=mQ28K1-JSsY",
+          "observation": "영상 설명이 영원하라를 2004년 곡으로 명시하는 보조 근거다."
+        }
+      ],
+      "observations": [
+        "2004년 신곡, Contradanza 원곡, 동작과 롯데 개사 관계를 정리한다.",
+        "Contradanza가 Vanessa-Mae의 1995년 앨범 수록곡이며 Mike Batt 작품임을 확인한다.",
+        "공식 음원 메타데이터가 연주·작곡·프로듀싱 크레딧을 확인한다.",
+        "롯데가 고려대 영원하라를 구단용으로 개사했다고 보도한다.",
+        "영상 설명이 영원하라를 2004년 곡으로 명시하는 보조 근거다."
+      ]
+    },
+    {
+      "id": "ev-korea-university-yeongwonhara-yt-0hparu40sqy",
+      "candidateId": "korea-university-yeongwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[고연전 응원] '영원하라' - 고려대학교 응원단 / 고려대 응원가 @ 잠실 주경기장",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=0hparu40SQY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2014 정기 고연전 잠실 주경기장의 응원 장면이다."
+      ],
+      "youtube": {
+        "videoId": "0hparu40SQY",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2014 정기 고연전 잠실 주경기장의 응원 장면이다.",
+        "commentSummary": "곡을 새롭게 발견하거나 롯데 응원가로 먼저 알았다는 반응이 많다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-yeongwonhara-yt-ehgzzkhfq3m",
+      "candidateId": "korea-university-yeongwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "'영원하라' 떼창 / 입실렌티 응원제 / 고려대학교 응원단",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=EhgZZKHFq3M",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "입실렌티의 영원하라 떼창 현장을 담는다."
+      ],
+      "youtube": {
+        "videoId": "EhgZZKHFq3M",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "입실렌티의 영원하라 떼창 현장을 담는다.",
+        "commentSummary": "당시 응원단장 회상, 롯데 버전 인지, 수험 기간 위로를 받았다는 반응이 나타난다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-yeongwonhara-yt-ifvoxjkdk4i",
+      "candidateId": "korea-university-yeongwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[음원] 고려대학교 응원가 - 영원하라 - 가사 (lyrics)",
+      "publisher": "고려대학교 연세대학교 응원가 TV",
+      "url": "https://www.youtube.com/watch?v=IFVoxjKDk4I",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "학교의 단결과 새 역사를 강조하는 예습용 응원 음원이다."
+      ],
+      "youtube": {
+        "videoId": "IFVoxjKDk4I",
+        "channel": "고려대학교 연세대학교 응원가 TV",
+        "descriptionSummary": "학교의 단결과 새 역사를 강조하는 예습용 응원 음원이다.",
+        "commentSummary": "곡과 보컬 음색 호평, 현장에서 부르고 싶다는 반응이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-yeongwonhara-yt-mq28k1jssy",
+      "candidateId": "korea-university-yeongwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "'지야의 함성' + '영원하라' - 2023 정기 고연전 응원OT",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=mQ28K1-JSsY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2023 응원 OT의 시작 시점과 2004년 곡이라는 메타데이터를 제공한다."
+      ],
+      "youtube": {
+        "videoId": "mQ28K1-JSsY",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2023 응원 OT의 시작 시점과 2004년 곡이라는 메타데이터를 제공한다.",
+        "commentSummary": "학교 자부심과 응원단장의 지휘·열정에 대한 감탄이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-yeongwonhara-yt-ximc4szjx8i",
+      "candidateId": "korea-university-yeongwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2018 고려대 입실렌티] 영원하라 - 고려대학교 응원단 / 단장 & Young Tigers",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=XIMC4SZjx8I",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2018 입실렌티에서 응원단장과 기수부가 함께한 공연이다."
+      ],
+      "youtube": {
+        "videoId": "XIMC4SZjx8I",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2018 입실렌티에서 응원단장과 기수부가 함께한 공연이다.",
+        "commentSummary": "해당 보컬 버전 선호와 롯데 응원가와 선율이 같다는 인지가 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-seosi-web-collection",
+      "candidateId": "yonsei-university-seosi",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "서시 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 계열",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "연세대학교 응원가 ‘서시’",
+          "url": "https://www.youtube.com/watch?v=sHZY36KlQn8",
+          "observation": "공식 응원단이 윤동주 헌정곡과 BanYa ‘베토벤 바이러스’ 원곡을 명시한다."
+        },
+        {
+          "title": "세계일보 — 연세대 응원가 된 윤동주의 서시",
+          "url": "https://www.segye.com/newsView/20250217513506",
+          "observation": "2003년부터 불렸다는 설명과 윤동주 시·베토벤 ‘비창’ 3악장 계보를 확인한다."
+        },
+        {
+          "title": "연합뉴스 — 한양대도 윤동주·이영지 같은 대표 응원가를",
+          "url": "https://www.yna.co.kr/view/AKR20221029020200004",
+          "observation": "연세대 ‘서시’를 윤동주 기념 응원가 사례로 언급한다."
+        },
+        {
+          "title": "나무위키 계열 연세대 응원가 과거 덤프",
+          "url": "https://tcatmon.com/wiki/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "observation": "2003년 등장, 윤동주 헌정과 응원 방식을 설명하는 보조 자료다."
+        },
+        {
+          "title": "나무위키 계열 연세대학교 응원가/2000년대 문서",
+          "url": "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+          "observation": "서시를 2003년 곡으로 분류한다. 사용자가 같은 문서에서 2002~2006년 발표곡이 해마다 하나씩 배열되는 연혁 정합성도 확인했다."
+        },
+        {
+          "title": "나무위키 계열 — 민족의 아리아",
+          "url": "https://namu.moe/w/%EB%AF%BC%EC%A1%B1%EC%9D%98%20%EC%95%84%EB%A6%AC%EC%95%84",
+          "observation": "서시가 2003년 아카라카에서 등장했고 민족의 아리아가 같은 해 고연전 때 만들어졌다고 설명한다."
+        },
+        {
+          "title": "고려대학교 교우회보 제628호",
+          "url": "https://www.scribd.com/document/1004670663/%25EA%25B5%2590%25EC%9A%25B0%25ED%259A%258C%25EB%25B3%25B4-628",
+          "observation": "유일하게 서시를 2002년 발표로 적는다. 다수의 2003년 근거와 상충하므로 채택하지 않되 상충 주장으로 보존한다."
+        }
+      ],
+      "observations": [
+        "공식 응원단이 윤동주 헌정곡과 BanYa ‘베토벤 바이러스’ 원곡을 명시한다.",
+        "2003년부터 불렸다는 설명과 윤동주 시·베토벤 ‘비창’ 3악장 계보를 확인한다.",
+        "연세대 ‘서시’를 윤동주 기념 응원가 사례로 언급한다.",
+        "연세대 응원가 문서와 민족의 아리아 문서가 모두 서시의 2003년 등장을 지지한다.",
+        "고려대학교 교우회보 제628호의 2002년 표기는 유일한 상충 주장으로 보존하되 대표 연도로 채택하지 않는다."
+      ]
+    },
+    {
+      "id": "ev-yonsei-university-seosi-yt-6etjorrz2gu",
+      "candidateId": "yonsei-university-seosi",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2018 연세대 아카라카] 서시 - 연세대학교 응원단",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=6eTJOrRz2GU",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2018-05-19 노천극장 아카라카 1부 응원이다."
+      ],
+      "youtube": {
+        "videoId": "6eTJOrRz2GU",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2018-05-19 노천극장 아카라카 1부 응원이다.",
+        "commentSummary": "윤동주 추모, 연세대 정체성, 연고전·국가대항전에도 어울린다는 평가가 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-seosi-yt-g1yeipge0",
+      "candidateId": "yonsei-university-seosi",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2022 아카라카 1부 응원] 윤동주 선배님께 바칩니다. '서시' - 연세대학교 응원가 / 연세대 축제",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=g1yEipg__e0",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2022 아카라카 현장 공연이다."
+      ],
+      "youtube": {
+        "videoId": "g1yEipg__e0",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2022 아카라카 현장 공연이다.",
+        "commentSummary": "윤동주를 선배로 기억하는 학교 문화, 공부·입시 동기, 대규모 합창의 장엄함을 언급한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-seosi-yt-iagmdb4undw",
+      "candidateId": "yonsei-university-seosi",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "연대생이 6개국어로 부르는 \"서시\"💙",
+      "publisher": "연세대학교 Yonsei University",
+      "url": "https://www.youtube.com/watch?v=IAgmDb4Undw",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "한국어·영어·중국어·러시아어·독일어·프랑스어 공연이다."
+      ],
+      "youtube": {
+        "videoId": "IAgmDb4Undw",
+        "channel": "연세대학교 Yonsei University",
+        "descriptionSummary": "한국어·영어·중국어·러시아어·독일어·프랑스어 공연이다.",
+        "commentSummary": "한국어판의 정서적 울림, 언어별 발음·보컬 비교, 다국어 기획의 신선함을 말한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-seosi-yt-rqucsn86kyq",
+      "candidateId": "yonsei-university-seosi",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "2023 연세대학교 축제 '서시 + 연세여 사랑한다 + 원시림 + 하늘 끝까지' 아카라카 AKARAKA 4k 60p",
+      "publisher": "Cheerss 치얼쓰",
+      "url": "https://www.youtube.com/watch?v=RQUCsN86KYQ",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2023-05-20 공연 모음이며 서시는 00:00부터 수록된다."
+      ],
+      "youtube": {
+        "videoId": "RQUCsN86KYQ",
+        "channel": "Cheerss 치얼쓰",
+        "descriptionSummary": "2023-05-20 공연 모음이며 서시는 00:00부터 수록된다.",
+        "commentSummary": "청춘·동문 향수, 푸른 관중석, 서시의 감성과 고려대 대표곡의 강렬함을 비교한다.",
+        "commentsAvailable": true,
+        "startSeconds": 0
+      }
+    },
+    {
+      "id": "ev-yonsei-university-seosi-yt-shzy36klqn8",
+      "candidateId": "yonsei-university-seosi",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "서시",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "url": "https://www.youtube.com/watch?v=sHZY36KlQn8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "윤동주 헌정곡, 원곡 ‘베토벤 바이러스’, BanYa 크레딧을 명시한다."
+      ],
+      "youtube": {
+        "videoId": "sHZY36KlQn8",
+        "channel": "아카라카TV [연세대학교 응원단]",
+        "descriptionSummary": "윤동주 헌정곡, 원곡 ‘베토벤 바이러스’, BanYa 크레딧을 명시한다.",
+        "commentSummary": "윤동주와 연세대의 연결에 대한 자부심, 학창 시절 추억, 다른 작품의 응원가화 요청이 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haneul-kkeutkkaji-web-collection",
+      "candidateId": "yonsei-university-haneul-kkeutkkaji",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "하늘끝까지 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 계열",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "나무위키 계열 2010년대 응원가 문서",
+          "url": "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80",
+          "observation": "2016 아카라카 신곡이며, 같은 원곡을 쓰는 한화 이글스가 2015년에 먼저 사용했다고 설명한다."
+        },
+        {
+          "title": "연세춘추 — ‘2017년 연고전 5:0 전승의 역사를 그대에게’",
+          "url": "https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=31561",
+          "observation": "임현택 동문이 2016년 응원단 부단장 시절 ‘하늘끝까지’를 만들었고, 그해 아카라카를 준비하던 봄 당시 단장과 응원 동작을 짜고 가사를 붙였다고 직접 회고한다. 한화판 참고 여부는 언급하지 않는다."
+        },
+        {
+          "title": "KODA — 2016.05.21 아카라카 신곡 하늘끝까지",
+          "url": "https://www.youtube.com/watch?v=QRn673QHZbg",
+          "observation": "2016-05-21 아카라카에서 선보인 ‘신곡’이라는 제목과 행사 직후 게시일로 최초 공개 시점을 뒷받침한다."
+        },
+        {
+          "title": "2016 아카라카 1부 전체 영상",
+          "url": "https://www.youtube.com/watch?v=Zqtk3gIPuKU",
+          "observation": "설명에 ‘하늘 끝까지 (신곡 첫 공개)’라고 명시하고 10:05부터 공연을 수록한다."
+        },
+        {
+          "title": "한화 이글스 ‘사랑한다 이글스’ 2015년 영상",
+          "url": "https://www.youtube.com/watch?v=XJzz9Nu9vjA",
+          "observation": "2015-05-06 게시돼 연세대판 최초 공개보다 약 1년 앞선 사용 기록을 제공한다."
+        },
+        {
+          "title": "리브레 위키 보존 문서 — 프로야구 응원가/연고대 응원가 모티브",
+          "url": "https://librewiki.net/wiki/%EC%9C%84%ED%82%A4%EB%8F%85%3A%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC_%EC%9D%91%EC%9B%90%EA%B0%80/%EC%97%B0%EA%B3%A0%EB%8C%80_%EC%9D%91%EC%9B%90%EA%B0%80_%EB%AA%A8%ED%8B%B0%EB%B8%8C",
+          "observation": "한화 ‘사랑한다 이글스’가 2015년부터 먼저 사용됐고 연세대판은 2016년 신곡으로 등장했다고 비교한다."
+        },
+        {
+          "title": "연세대학교 응원단 소개",
+          "url": "https://akaraka.yonsei.ac.kr/%EC%86%8C%EA%B0%9C",
+          "observation": "아카라카, 신입생 OT, 정기·비정기 연고전 등 공식 응원단 활동 맥락을 확인한다."
+        },
+        {
+          "title": "공식 응원가 영상",
+          "url": "https://www.youtube.com/watch?v=-UYGsQLVJgc",
+          "observation": "한성민 ‘사랑하면 할수록’을 원곡으로 표기한다."
+        },
+        {
+          "title": "벅스 — 영화 클래식 OST",
+          "url": "https://music.bugs.co.kr/album/29611",
+          "observation": "2003년 영화 ‘클래식’ OST 수록곡으로 한성민 ‘사랑하면 할수록’을 확인한다."
+        }
+      ],
+      "observations": [
+        "2016 아카라카 신곡이며, 같은 원곡을 쓰는 한화 이글스가 2015년에 먼저 사용했다고 설명한다.",
+        "임현택 동문이 2016년 응원단 부단장 시절 곡을 만들고 당시 단장과 동작·가사를 구성했다고 직접 회고하되 한화판 참고 여부는 언급하지 않는다.",
+        "2016-05-21 아카라카의 신곡이자 첫 공개였음을 동시대·후대 영상 설명이 교차 확인한다.",
+        "한화 ‘사랑한다 이글스’ 영상은 2015-05-06 게시돼 연세대판보다 약 1년 앞선다.",
+        "한화 ‘사랑한다 이글스’가 2015년부터 먼저 사용됐고 연세대판은 2016년 신곡으로 등장했다고 비교한다.",
+        "아카라카, 신입생 OT, 정기·비정기 연고전 등 공식 응원단 활동 맥락을 확인한다.",
+        "한성민 ‘사랑하면 할수록’을 원곡으로 표기한다.",
+        "원곡은 2003년 영화 ‘클래식’ OST 수록곡이다.",
+        "공개 자료로는 한화판 선행이 확정되지만 제작자가 한화를 직접 참고했다고 밝힌 자료는 찾지 못했다."
+      ]
+    },
+    {
+      "id": "ev-yonsei-university-haneul-kkeutkkaji-yt-08ah84djemc",
+      "candidateId": "yonsei-university-haneul-kkeutkkaji",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2018 연세대 아카라카] 하늘 끝까지 - 연세대학교 응원단",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=08ah84dJEmc",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2018-05-19 노천극장 아카라카 공연이다."
+      ],
+      "youtube": {
+        "videoId": "08ah84dJEmc",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2018-05-19 노천극장 아카라카 공연이다.",
+        "commentSummary": "전율과 정서적 고양, 고려대 민족의 아리아와 함께 양교 대표곡이라는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haneul-kkeutkkaji-yt-i0xqzfzu9v8",
+      "candidateId": "yonsei-university-haneul-kkeutkkaji",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "하늘 끝까지 FOREVER (연세대 × 고려대 응원가 리믹스)",
+      "publisher": "상상이상이상길",
+      "url": "https://www.youtube.com/watch?v=i0xQzFzU9V8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "KUTV와 협업해 하늘끝까지와 고려대 FOREVER를 재편곡·연주·믹싱했다."
+      ],
+      "youtube": {
+        "videoId": "i0xQzFzU9V8",
+        "channel": "상상이상이상길",
+        "descriptionSummary": "KUTV와 협업해 하늘끝까지와 고려대 FOREVER를 재편곡·연주·믹싱했다.",
+        "commentSummary": "두 대학 곡의 결합, 시험·학업 동기, 세부 편곡을 칭찬한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haneul-kkeutkkaji-yt-lbw6f7au3a4",
+      "candidateId": "yonsei-university-haneul-kkeutkkaji",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[연세대학교 응원단 - 하늘 끝까지] 그들이 무대에 오르기까지",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "url": "https://www.youtube.com/watch?v=LBW6F7AU3A4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "무대 전 훈련과 응원단 준비 과정을 담는다."
+      ],
+      "youtube": {
+        "videoId": "LBW6F7AU3A4",
+        "channel": "아카라카TV [연세대학교 응원단]",
+        "descriptionSummary": "무대 전 훈련과 응원단 준비 과정을 담는다.",
+        "commentSummary": "훈련량과 단장의 기술, 아카라카 추억, 세대별 응원 문화 회상을 언급한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haneul-kkeutkkaji-yt-uygsqlvjgc",
+      "candidateId": "yonsei-university-haneul-kkeutkkaji",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "하늘끝까지",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "url": "https://www.youtube.com/watch?v=-UYGsQLVJgc",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "응원 함성이 하늘 끝까지 닿기를 바란다는 소개와 한성민 원곡 크레딧을 담는다."
+      ],
+      "youtube": {
+        "videoId": "-UYGsQLVJgc",
+        "channel": "아카라카TV [연세대학교 응원단]",
+        "descriptionSummary": "응원 함성이 하늘 끝까지 닿기를 바란다는 소개와 한성민 원곡 크레딧을 담는다.",
+        "commentSummary": "입시·학업 동기, 신입생과 동문의 중요한 기억, 연세대 입학 열망이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haneul-kkeutkkaji-yt-vdbqyv0wps",
+      "candidateId": "yonsei-university-haneul-kkeutkkaji",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2022 아카라카 1부 응원] 3년 만에! '하늘 끝까지' & '연세여 사랑한다'",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=VDBqyV-0WPs",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "3년 만에 열린 2022 아카라카의 두 곡 연속 공연이다."
+      ],
+      "youtube": {
+        "videoId": "VDBqyV-0WPs",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "3년 만에 열린 2022 아카라카의 두 곡 연속 공연이다.",
+        "commentSummary": "드라마를 통한 유입, 집단 합창, 부모·학생의 자부심, 코로나 이후 청춘의 회복을 언급한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-yonseiyeo-saranghanda-web-collection",
+      "candidateId": "yonsei-university-yonseiyeo-saranghanda",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "연세여 사랑한다 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 계열",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "연세대학교 응원단 FAQ",
+          "url": "https://akaraka.yonsei.ac.kr/faq",
+          "observation": "2005년 두 곡을 편곡해 응원단원들이 만들었다고 설명한다."
+        },
+        {
+          "title": "연세춘추 — 마성의 중독성 ‘응원가’",
+          "url": "https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=15489",
+          "observation": "학생들이 사실상 교가처럼 여기며 애착을 느끼는 곡과 제작 과정을 다룬다."
+        },
+        {
+          "title": "연세춘추 — OT·아카라카 행사 기사",
+          "url": "https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=10308",
+          "observation": "학교 행사에서 정체성과 단결을 형성하는 곡으로 쓰인 사례다."
+        },
+        {
+          "title": "나무위키 계열 2000년대 응원가 문서 — 커런트 제작설",
+          "url": "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80",
+          "observation": "미래캠퍼스 록 동아리 ‘커런트’가 제작했다는 주장은 사용자의 출처 지정에 따라 나무위키발 보조 주장으로만 남긴다. 공식 제작 크레딧으로 확정하지 않는다."
+        },
+        {
+          "title": "나무위키 계열 과거 덤프",
+          "url": "https://tcatmon.com/wiki/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "observation": "2005년 곡, 행사·경기 마무리 사용과 두 원곡을 설명하는 보조 자료다."
+        }
+      ],
+      "observations": [
+        "2005년 두 곡을 편곡해 응원단원들이 만들었다고 설명한다.",
+        "학생들이 사실상 교가처럼 여기며 애착을 느끼는 곡과 제작 과정을 다룬다.",
+        "학교 행사에서 정체성과 단결을 형성하는 곡으로 쓰인 사례다.",
+        "미래캠퍼스 록 동아리 ‘커런트’ 제작설은 나무위키발 보조 주장으로만 보존하며 공식 사실로 확정하지 않는다.",
+        "2005년 곡, 행사·경기 마무리 사용과 두 원곡을 설명하는 보조 자료다."
+      ]
+    },
+    {
+      "id": "ev-yonsei-university-yonseiyeo-saranghanda-yt-cgdocyiqnyg",
+      "candidateId": "yonsei-university-yonseiyeo-saranghanda",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "연세여 사랑한다",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "url": "https://www.youtube.com/watch?v=cGdOCYiQNyg",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "‘마지막 선택’, ‘Por una Cabeza’ 및 김선경·Carlos Gardel 크레딧을 담는다."
+      ],
+      "youtube": {
+        "videoId": "cGdOCYiQNyg",
+        "channel": "아카라카TV [연세대학교 응원단]",
+        "descriptionSummary": "‘마지막 선택’, ‘Por una Cabeza’ 및 김선경·Carlos Gardel 크레딧을 담는다.",
+        "commentSummary": "합격 기원·학습 의식처럼 반복해 듣고 신입생으로 학교 정체성을 갖게 됐다는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-yonseiyeo-saranghanda-yt-jrtyquwmtx0",
+      "candidateId": "yonsei-university-yonseiyeo-saranghanda",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2024 고려대/연세대 합동응원OT] '연세여 사랑한다 vs 민족의 아리아'",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=jRTyQuwMTX0",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "합동 OT에서 양교 단장이 서로의 대표곡을 선보인다."
+      ],
+      "youtube": {
+        "videoId": "jRTyQuwMTX0",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "합동 OT에서 양교 단장이 서로의 대표곡을 선보인다.",
+        "commentSummary": "오랜 우호적 경쟁, 비재학생도 느끼는 청춘과 에너지, 양교 대표곡 비교가 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-yonseiyeo-saranghanda-yt-vdbqyv0wps",
+      "candidateId": "yonsei-university-yonseiyeo-saranghanda",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2022 아카라카 1부 응원] 3년 만에! '하늘 끝까지' & '연세여 사랑한다'",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=VDBqyV-0WPs",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2022 아카라카에서 두 곡을 연결한 현장 공연이다."
+      ],
+      "youtube": {
+        "videoId": "VDBqyV-0WPs",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2022 아카라카에서 두 곡을 연결한 현장 공연이다.",
+        "commentSummary": "드라마 유입, 합창 규모, 부모·학생의 자부심이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-yonseiyeo-saranghanda-yt-wdu6y1pnat8",
+      "candidateId": "yonsei-university-yonseiyeo-saranghanda",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[2018 아카라카] 수지(SUZY) - 연세여 사랑한다 직캠",
+      "publisher": "Yonsei YVAC",
+      "url": "https://www.youtube.com/watch?v=wDU6Y1PNAt8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2018-05-19 아카라카 수지 공연이며 연세영상제작센터 제작이다."
+      ],
+      "youtube": {
+        "videoId": "wDU6Y1PNAt8",
+        "channel": "Yonsei YVAC",
+        "descriptionSummary": "2018-05-19 아카라카 수지 공연이며 연세영상제작센터 제작이다.",
+        "commentSummary": "여러 해 재시청, 타교생도 따라 부를 대중성, 학교 자부심을 언급한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-yonseiyeo-saranghanda-yt-yrmq1wgsvq",
+      "candidateId": "yonsei-university-yonseiyeo-saranghanda",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "2025 연세여 사랑한다_응원가 영상",
+      "publisher": "연세대학교 미래캠퍼스",
+      "url": "https://www.youtube.com/watch?v=yRmq1WGs_vQ",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "연세대학교 미래캠퍼스가 게시한 2025년 응원가 영상이다. 커런트 제작설의 근거로는 사용하지 않는다."
+      ],
+      "youtube": {
+        "videoId": "yRmq1WGs_vQ",
+        "channel": "연세대학교 미래캠퍼스",
+        "descriptionSummary": "연세대학교 미래캠퍼스가 게시한 2025년 ‘연세여 사랑한다’ 응원가 영상이다.",
+        "commentSummary": "학교에 대한 애정과 입학 동기가 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-wonsirim-web-collection",
+      "candidateId": "yonsei-university-wonsirim",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "원시림 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 계열",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "연세대학교 동문회보 인터뷰 스캔",
+          "url": "https://fliphtml5.com/zklxi/dicr/2022.09_3%EC%B0%A8_%EC%8B%9C%EC%95%88_compressed/55/",
+          "observation": "전 응원단장이 1989년 첫 등장과 응원단·록밴드 소나기의 공동 제작을 회고한다."
+        },
+        {
+          "title": "나무위키 계열 2000년 이전 응원가 문서",
+          "url": "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84",
+          "observation": "1989년 도입, Styx ‘Music Time’, 득점 직후 사용과 역동적 동작을 설명한다."
+        },
+        {
+          "title": "뉴스프리존 — 연세 스포츠 나이트",
+          "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=502864",
+          "observation": "행사 마지막에 연세 구호와 원시림을 함께 부른 공동체·마무리 용례다."
+        },
+        {
+          "title": "공식 응원가 영상",
+          "url": "https://www.youtube.com/watch?v=qwKuY1SfPPE",
+          "observation": "원곡을 Styx ‘Music Time’으로 표기한다."
+        }
+      ],
+      "observations": [
+        "전 응원단장이 1989년 첫 등장과 응원단·록밴드 소나기의 공동 제작을 회고한다.",
+        "1989년 도입, Styx ‘Music Time’, 득점 직후 사용과 역동적 동작을 설명한다.",
+        "행사 마지막에 연세 구호와 원시림을 함께 부른 공동체·마무리 용례다.",
+        "원곡을 Styx ‘Music Time’으로 표기한다."
+      ]
+    },
+    {
+      "id": "ev-yonsei-university-wonsirim-yt-dnqank6bfay",
+      "candidateId": "yonsei-university-wonsirim",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "AKARAKA (현역 응원단) 2024 ver. '원시림' - 연세대학교 응원가",
+      "publisher": "연세여 사랑한다",
+      "url": "https://www.youtube.com/watch?v=dnqank6BFaY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "첫 동문 아카라카에서 현역 응원단이 선보인 2024 버전이다."
+      ],
+      "youtube": {
+        "videoId": "dnqank6BFaY",
+        "channel": "연세여 사랑한다",
+        "descriptionSummary": "첫 동문 아카라카에서 현역 응원단이 선보인 2024 버전이다.",
+        "commentSummary": "청춘과 진학 열망, 높은 에너지, 해외 시청자의 감탄이 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-wonsirim-yt-qoszfrcjcuy",
+      "candidateId": "yonsei-university-wonsirim",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[응원곡 MV] 원시림",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "url": "https://www.youtube.com/watch?v=QoSzFrCJCuY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "대표 응원가 공식 뮤직비디오다."
+      ],
+      "youtube": {
+        "videoId": "QoSzFrCJCuY",
+        "channel": "아카라카TV [연세대학교 응원단]",
+        "descriptionSummary": "대표 응원가 공식 뮤직비디오다.",
+        "commentSummary": "동문이 여전히 가장 신나는 곡으로 꼽고 목표 달성·스포츠 기억과 연결한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-wonsirim-yt-qwkuy1sfppe",
+      "candidateId": "yonsei-university-wonsirim",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "원시림",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "url": "https://www.youtube.com/watch?v=qwKuY1SfPPE",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "대표성을 강조하며 Styx ‘Music Time’을 원곡으로 기재한다."
+      ],
+      "youtube": {
+        "videoId": "qwKuY1SfPPE",
+        "channel": "아카라카TV [연세대학교 응원단]",
+        "descriptionSummary": "대표성을 강조하며 Styx ‘Music Time’을 원곡으로 기재한다.",
+        "commentSummary": "핵심 응원가라는 평가, 비재학생의 장기 팬덤, 강한 운동량과 동문 향수가 나타난다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-wonsirim-yt-xigeipshyi8",
+      "candidateId": "yonsei-university-wonsirim",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2018 연세대 아카라카 응원] 승리의 노래! '원시림' - 연세대학교 응원단",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=XIgEiPShYI8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2018 아카라카에서 승리의 노래로 소개한다."
+      ],
+      "youtube": {
+        "videoId": "XIgEiPShYI8",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2018 아카라카에서 승리의 노래로 소개한다.",
+        "commentSummary": "20~30년 전 동문까지 이어지는 기억과 오래 지나도 기억나는 대표곡이라는 평가가 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-wonsirim-yt-yvw55mpyylm",
+      "candidateId": "yonsei-university-wonsirim",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2022 합동응원] 연세대학교 승리의 응원곡! '원시림' - 합응 I 고연전 I 연고전",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=Yvw55MpYylM",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2022 합동응원에서 ‘승리의 응원곡’으로 소개한다."
+      ],
+      "youtube": {
+        "videoId": "Yvw55MpYylM",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "2022 합동응원에서 ‘승리의 응원곡’으로 소개한다.",
+        "commentSummary": "대표곡 슬로건, 아카라카 참여 열망, 연세대에 대한 애정과 추억이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haeya-web-collection",
+      "candidateId": "yonsei-university-haeya",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "해야 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 계열",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "나무위키 계열 2000년 이전 응원가 문서",
+          "url": "https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84",
+          "observation": "마그마 원곡, 박두진·조하문·연세대 연결과 응원 동작을 설명한다."
+        },
+        {
+          "title": "MBC강원영동 공식 아카이브 영상",
+          "url": "https://www.youtube.com/watch?v=UCBHUcdYCWo",
+          "observation": "마그마가 1980-11-08 제4회 MBC 대학가요제에서 ‘해야’로 은상을 받은 기록이다."
+        },
+        {
+          "title": "지니 마그마 아티스트 정보",
+          "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=14948772",
+          "observation": "1981년 1집과 박두진 시를 곡으로 만든 작품이라는 설명을 제공한다."
+        },
+        {
+          "title": "연세대 응원단 공식 영상",
+          "url": "https://www.youtube.com/watch?v=kaoZ_oPuTQo",
+          "observation": "원곡 ‘해야’, 마그마 크레딧을 명시한다."
+        }
+      ],
+      "observations": [
+        "마그마 원곡, 박두진·조하문·연세대 연결과 응원 동작을 설명한다.",
+        "마그마가 1980-11-08 제4회 MBC 대학가요제에서 ‘해야’로 은상을 받은 기록이다.",
+        "1981년 1집과 박두진 시를 곡으로 만든 작품이라는 설명을 제공한다.",
+        "원곡 ‘해야’, 마그마 크레딧을 명시한다."
+      ]
+    },
+    {
+      "id": "ev-yonsei-university-haeya-yt-5z4qdtwywu",
+      "candidateId": "yonsei-university-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "2025.02.12 연세대학교 신입생 응원OT [해야]",
+      "publisher": "KODA",
+      "url": "https://www.youtube.com/watch?v=5Z4-qdtWYWU",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2025 신입생 응원 OT 영상이며 해시태그에 ‘해야떠라’가 사용된다."
+      ],
+      "youtube": {
+        "videoId": "5Z4-qdtWYWU",
+        "channel": "KODA",
+        "descriptionSummary": "2025 신입생 응원 OT 영상이며 해시태그에 ‘해야떠라’가 사용된다.",
+        "commentSummary": "확인 시점에 공개 댓글이 표시되지 않았다.",
+        "commentsAvailable": false
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haeya-yt-9xf2oinjips",
+      "candidateId": "yonsei-university-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[2024 아카라카를 온누리에]4K 3부 '해야'",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "url": "https://www.youtube.com/watch?v=9xf2OINJIPs",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2024-05-25 노천극장 아카라카 3부 공연이다."
+      ],
+      "youtube": {
+        "videoId": "9xf2OINJIPs",
+        "channel": "아카라카TV [연세대학교 응원단]",
+        "descriptionSummary": "2024-05-25 노천극장 아카라카 3부 공연이다.",
+        "commentSummary": "공개 댓글 한 개가 2024년 응원단장 퍼포먼스를 높게 평가한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haeya-yt-b4vvfq7hrm4",
+      "candidateId": "yonsei-university-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "AKARAKA (현역 응원단) 2024 ver. '해야' - 연세대학교 응원가",
+      "publisher": "연세여 사랑한다",
+      "url": "https://www.youtube.com/watch?v=b4vvfq7HRM4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "첫 동문 아카라카에서 현역 응원단이 선보인 공연이다."
+      ],
+      "youtube": {
+        "videoId": "b4vvfq7HRM4",
+        "channel": "연세여 사랑한다",
+        "descriptionSummary": "첫 동문 아카라카에서 현역 응원단이 선보인 공연이다.",
+        "commentSummary": "공개 댓글 한 개가 연세대에 대한 열망과 애정을 드러낸다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haeya-yt-kaozoputqo",
+      "candidateId": "yonsei-university-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "해야",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "url": "https://www.youtube.com/watch?v=kaoZ_oPuTQo",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "승리의 해를 띄운다는 소개와 마그마 원곡·저작권자를 표기한다."
+      ],
+      "youtube": {
+        "videoId": "kaoZ_oPuTQo",
+        "channel": "아카라카TV [연세대학교 응원단]",
+        "descriptionSummary": "승리의 해를 띄운다는 소개와 마그마 원곡·저작권자를 표기한다.",
+        "commentSummary": "공개 댓글은 두 개뿐이며 두산 야구 응원 버전을 연상해 종목 간 선율 확산을 보여 준다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haeya-yt-o7cvrtunnsa",
+      "candidateId": "yonsei-university-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2022 아카라카 1부 응원] '해야' - 연세대학교 응원가 / 연세대 축제",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=O7CVrTUNnSA",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "3년 만에 열린 2022 아카라카 공연이다."
+      ],
+      "youtube": {
+        "videoId": "O7CVrTUNnSA",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "descriptionSummary": "3년 만에 열린 2022 아카라카 공연이다.",
+        "commentSummary": "1990년대 학번 동문의 기억, 박두진·조하문 연결, 단장 퍼포먼스 호평이 나타난다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haeya-yt-bnxrhfh12g0",
+      "candidateId": "yonsei-university-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2022 아카라카 3부 응원 #1] 하늘 끝까지 / 연세여 사랑한다 / 서곡 / 해야 / 파란 - 연세대학교 응원가 / 연세대 축제",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=bnXrhfh12g0",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2022 아카라카 3부 공연에서 ‘해야’가 07:48부터 시작하며, 설명에 곡별 타임스탬프와 촬영·제작 크레딧이 제공된다."
+      ],
+      "youtube": {
+        "videoId": "bnXrhfh12g0",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "songTimestamp": "07:48",
+        "descriptionSummary": "3년 만에 열린 2022 아카라카 3부 공연 영상으로, ‘해야’의 시작 시점 07:48을 포함한 곡별 타임스탬프와 촬영·제작 크레딧을 제공한다.",
+        "commentSummary": "입시·공부를 버티게 하는 동기, 오랜 동문의 학교 회상, 합격생과 가족의 기쁨, 불꽃놀이 뒤 대규모 합창의 감동이 반복된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-hanyang-university-hanyangeul-wihayeo-web-collection",
+      "candidateId": "hanyang-university-hanyangeul-wihayeo",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "한양을 위하여 웹 교차 확인",
+      "publisher": "공식·언론·권리자·나무위키 계열",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "승리를 위하여(두산 베어스) — 나무위키",
+          "url": "https://namu.wiki/w/%EC%8A%B9%EB%A6%AC%EB%A5%BC%20%EC%9C%84%ED%95%98%EC%97%AC(%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4)",
+          "observation": "한양대가 2016년부터 가사를 바꿔 ‘한양을 위하여’로 사용한다고 설명한다. 사용자의 결정에 따라 2016년을 확정 도입 연도가 아닌 비공식 시작 연도로 인용한다."
+        },
+        {
+          "title": "RHooters 공식 개별 영상",
+          "url": "https://www.youtube.com/watch?v=sovNdLkcpG0",
+          "observation": "2020-07-27 공개된 영상으로, 공식 제목이 ‘한양을 위하여’임을 확인한다."
+        },
+        {
+          "title": "RHooters 공식 응원가 모음",
+          "url": "https://www.youtube.com/watch?v=LaoIbQOPPsQ",
+          "observation": "25곡 공식 영상의 37:38에 ‘한양을 위하여’로 수록된다."
+        },
+        {
+          "title": "나무위키 계열 한양대학교 문서",
+          "url": "https://d.namu.moe/w/%ED%95%9C%EC%96%91%EB%8C%80%ED%95%99%EA%B5%90",
+          "observation": "RHooters가 서울·ERICA 통합 응원단이며 입학식·축제 등에 활동한다고 설명한다."
+        }
+      ],
+      "observations": [
+        "나무위키 문서는 한양대가 2016년부터 가사를 바꿔 사용했다고 설명하며, 사용자 결정에 따라 이를 비공식 시작 연도 출처로 사용한다.",
+        "2020-07-27 공개된 RHooters 영상으로 공식 제목 ‘한양을 위하여’와 그 시점의 사용을 확인한다.",
+        "25곡 공식 영상의 37:38에 ‘한양을 위하여’로 수록된다.",
+        "RHooters가 서울·ERICA 통합 응원단이며 입학식·축제 등에 활동한다고 설명한다."
+      ]
+    },
+    {
+      "id": "ev-hanyang-university-hanyangeul-wihayeo-yt-06j63ca7i",
+      "candidateId": "hanyang-university-hanyangeul-wihayeo",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "한양을 위하여 ㅣ [2025] 라치오스 : 더 높이 ㅣ 루터스 ㅣ HUBS",
+      "publisher": "HUBS 한양대학교 교육방송국",
+      "url": "https://www.youtube.com/watch?v=06J63c__a7I",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2025 라치오스 공연 및 제작·장비 크레딧을 담는다."
+      ],
+      "youtube": {
+        "videoId": "06J63c__a7I",
+        "channel": "HUBS 한양대학교 교육방송국",
+        "descriptionSummary": "2025 라치오스 공연 및 제작·장비 크레딧을 담는다.",
+        "commentSummary": "캠퍼스 향수, 라이브 밴드 호평, 두산 곡과의 연관 인지가 나타난다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-hanyang-university-hanyangeul-wihayeo-yt-ddrntqmokfg",
+      "candidateId": "hanyang-university-hanyangeul-wihayeo",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "한양을 위하여 - [2024] 한양대학교 축제 라치오스 : 파도 I 3일차 무대 _잔나비 I HUBS",
+      "publisher": "HUBS 한양대학교 교육방송국",
+      "url": "https://www.youtube.com/watch?v=ddRnTqmokFg",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2024 축제 3일 차 잔나비 출연 무대다."
+      ],
+      "youtube": {
+        "videoId": "ddRnTqmokFg",
+        "channel": "HUBS 한양대학교 교육방송국",
+        "descriptionSummary": "2024 축제 3일 차 잔나비 출연 무대다.",
+        "commentSummary": "입시·학업 동기, 아티스트의 준비와 합창 호평, 비재학생도 곡에 빠졌다는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-hanyang-university-hanyangeul-wihayeo-yt-qfdmphceho",
+      "candidateId": "hanyang-university-hanyangeul-wihayeo",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[2022] 라치오스 도약 - 한양을 위하여 | 한양대학교 응원단 RHooters",
+      "publisher": "한양대학교 응원단 RHooters",
+      "url": "https://www.youtube.com/watch?v=qFdmpHce_ho",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2022 라치오스 공연과 출연·제작 크레딧을 제공한다."
+      ],
+      "youtube": {
+        "videoId": "qFdmpHce_ho",
+        "channel": "한양대학교 응원단 RHooters",
+        "descriptionSummary": "2022 라치오스 공연과 출연·제작 크레딧을 제공한다.",
+        "commentSummary": "한양대 합격 동기와 동문 응원, 두산 베어스 곡과 같은 멜로디라는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-hanyang-university-hanyangeul-wihayeo-yt-qyefph9abhe",
+      "candidateId": "hanyang-university-hanyangeul-wihayeo",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "사자후, 라치오스, 한양을 위하여, 나나나 I [2024] 한양대학교 축제 라치오스 : 파도 I 3일차 무대",
+      "publisher": "HUBS 한양대학교 교육방송국",
+      "url": "https://www.youtube.com/watch?v=qYeFPh9abHE",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2024 라치오스 3일 차 RHooters 응원 무대 모음이다."
+      ],
+      "youtube": {
+        "videoId": "qYeFPh9abHE",
+        "channel": "HUBS 한양대학교 교육방송국",
+        "descriptionSummary": "2024 라치오스 3일 차 RHooters 응원 무대 모음이다.",
+        "commentSummary": "학교 자부심, 관객 호응, 응원단과 학생의 에너지를 높이 평가한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-hanyang-university-hanyangeul-wihayeo-yt-sovndlkcpg0",
+      "candidateId": "hanyang-university-hanyangeul-wihayeo",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[한양대학교 응원가] 한양을 위하여",
+      "publisher": "한양대학교 응원단 RHooters",
+      "url": "https://www.youtube.com/watch?v=sovNdLkcpG0",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2020-07-27 공개된 영상이다. 본문 설명은 최소 수준이나 공식 제목과 그 시점의 사용 확인에 유용하다."
+      ],
+      "youtube": {
+        "videoId": "sovNdLkcpG0",
+        "channel": "한양대학교 응원단 RHooters",
+        "descriptionSummary": "2020-07-27 공개된 공식 영상이다. 본문 설명은 최소 수준이나 공식 제목 확인에 유용하다.",
+        "commentSummary": "입시·추가합격 기원, 학교 자부심, 예비 학생과 동문의 정체성이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-seungnireul-wihayeo-web-collection",
+      "candidateId": "doosan-bears-seungnireul-wihayeo",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "승리를 위하여 웹 교차 확인",
+      "publisher": "공식·언론·음원·나무위키",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "승리를 위하여(두산 베어스) — 나무위키",
+          "url": "https://namu.wiki/w/%EC%8A%B9%EB%A6%AC%EB%A5%BC%20%EC%9C%84%ED%95%98%EC%97%AC(%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4)",
+          "observation": "한재권 응원단장이 2015년에 발표했다는 서술, 2015~2016년 긴 ver.1과 현재의 짧은 ver.2, 승리 직후·대승 상황 사용, 한양대판의 2016년 사용을 설명한다. 김천 상무 FC의 사용과 사과 내용은 나무위키발 비공식 관련 사례로만 취급한다."
+        },
+        {
+          "title": "Emerald Sword — Rhapsody of Fire 공식 사이트",
+          "url": "https://www.rhapsodyoffire.com/emerald-sword/",
+          "observation": "원곡 ‘Emerald Sword’가 1998년에 발표됐음을 확인한다."
+        },
+        {
+          "title": "두산 베어스 응원가 이야기 — DUGOUT",
+          "url": "https://v.daum.net/v/ba7qVBzc11?f=p",
+          "observation": "‘승리를 위하여’가 2015년에 처음 등장했고 Rhapsody ‘Emerald Sword’를 바탕으로 한다고 설명한다."
+        },
+        {
+          "title": "두산베어스 응원가 ‘승리를 위하여’",
+          "url": "https://taibale.tistory.com/2247",
+          "observation": "긴 ver.1과 Emerald Sword 중심 ver.2, 2015년 사용 정황을 정리한다."
+        },
+        {
+          "title": "2015 두산베어스 전광판 영상",
+          "url": "https://www.youtube.com/watch?v=JeX9EwpmdMM",
+          "observation": "BEARS TV가 2015년에 해당 제목으로 사용했음을 확인한다."
+        }
+      ],
+      "observations": [
+        "나무위키는 한재권 응원단장의 2015년 발표, ver.1·ver.2 구분, 사용 상황과 한양대판의 2016년 사용을 설명한다.",
+        "Rhapsody of Fire 공식 사이트에서 원곡 ‘Emerald Sword’의 1998년 발표를 확인한다.",
+        "DUGOUT은 두산 응원가가 2015년에 처음 등장했고 ‘Emerald Sword’를 바탕으로 한다고 설명한다.",
+        "긴 ver.1과 Emerald Sword 중심 ver.2, 2015년 사용 정황을 정리한다.",
+        "BEARS TV가 2015년에 해당 제목으로 사용했음을 확인한다."
+      ]
+    },
+    {
+      "id": "ev-doosan-bears-seungnireul-wihayeo-yt-0vrj9pmcay4",
+      "candidateId": "doosan-bears-seungnireul-wihayeo",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[두산베어스 전광판 영상] 2017 승리를 위하여",
+      "publisher": "BEARS TV",
+      "url": "https://www.youtube.com/watch?v=0vRJ9pmCAY4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "업로더 설명은 없으며 공식 전광판 영상 제목이 곡명을 확인한다."
+      ],
+      "youtube": {
+        "videoId": "0vRJ9pmCAY4",
+        "channel": "BEARS TV",
+        "descriptionSummary": "업로더 설명은 없으며 공식 전광판 영상 제목이 곡명을 확인한다.",
+        "commentSummary": "타 팀 팬이 두산 경기를 방문했을 때 가장 기억에 남은 곡이라고 평가한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-seungnireul-wihayeo-yt-dqw2daojoho",
+      "candidateId": "doosan-bears-seungnireul-wihayeo",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "두산베어스 응원가｜승리를 위하여 뮤직비디오｜평찡",
+      "publisher": "평찡 PyungZZing",
+      "url": "https://www.youtube.com/watch?v=dqW2DaOjOho",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2021시즌을 기다리며 만든 대표 응원가 경기영상 MV다."
+      ],
+      "youtube": {
+        "videoId": "dqW2DaOjOho",
+        "channel": "평찡 PyungZZing",
+        "descriptionSummary": "2021시즌을 기다리며 만든 대표 응원가 경기영상 MV다.",
+        "commentSummary": "타 구단 팬도 잠실에서 들으면 전율이 난다는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-seungnireul-wihayeo-yt-fflno0ar14",
+      "candidateId": "doosan-bears-seungnireul-wihayeo",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "두산베어스 승리를 위하여 (에메랄드 소드) -20151031 한국시리즈 5차전",
+      "publisher": "준영",
+      "url": "https://www.youtube.com/watch?v=fflno0aR1-4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2015 한국시리즈 5차전 현장이며 제목이 원곡 단서를 명시한다."
+      ],
+      "youtube": {
+        "videoId": "fflno0aR1-4",
+        "channel": "준영",
+        "descriptionSummary": "2015 한국시리즈 5차전 현장이며 제목이 원곡 단서를 명시한다.",
+        "commentSummary": "역전 뒤 이 곡이 나오면 분위기를 확실히 굳힌다는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-seungnireul-wihayeo-yt-jex9ewpmdmm",
+      "candidateId": "doosan-bears-seungnireul-wihayeo",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[2015 두산베어스 전광판 영상] 승리를 위하여!",
+      "publisher": "BEARS TV",
+      "url": "https://www.youtube.com/watch?v=JeX9EwpmdMM",
+      "publishedAt": "2015-11-03",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "업로더 설명은 없으며 2015 공식 전광판 영상이다."
+      ],
+      "youtube": {
+        "videoId": "JeX9EwpmdMM",
+        "channel": "BEARS TV",
+        "descriptionSummary": "업로더 설명은 없으며 2015 공식 전광판 영상이다.",
+        "commentSummary": "두산 전성기와 강팀 이미지를 회상한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-seungnireul-wihayeo-yt-krpuwcczxvq",
+      "candidateId": "doosan-bears-seungnireul-wihayeo",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "두산베어스 승리를 위하여, 두산베어스 응원가, 승리를위하여",
+      "publisher": "메모라버니",
+      "url": "https://www.youtube.com/watch?v=krpuwcCZXVQ",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2017년 두산 팀 응원가 영상이다."
+      ],
+      "youtube": {
+        "videoId": "krpuwcCZXVQ",
+        "channel": "메모라버니",
+        "descriptionSummary": "2017년 두산 팀 응원가 영상이다.",
+        "commentSummary": "원정 팬은 실점 직후 이 노래에서 위압감을 느낀다고 말한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-yayaya-doosan-web-collection",
+      "candidateId": "doosan-bears-yayaya-doosan",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "야야야 두산 웹 교차 확인",
+      "publisher": "공식·언론·음원·나무위키",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "두산 베어스/응원가 — 나무위키 1.9",
+          "url": "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-1.9",
+          "observation": "2006년부터 사용, 어깨동무와 선취점·홈런·대량 득점 때의 사용, 2010년대 초반까지 1절만 부르다가 현재는 전곡을 부르는 변화를 설명하며 TJ미디어 노래방 수록도 언급한다."
+        },
+        {
+          "title": "두산, 다양한 버전의 응원가 선보인다 — 조이뉴스24/네이트",
+          "url": "https://sports.news.nate.com/view/20060324n03101",
+          "observation": "정의송에게 5곡을 의뢰해 2006 개막전에 공개한다고 보도한다."
+        },
+        {
+          "title": "두산 베어스 응원가 — 벅스",
+          "url": "https://music.bugs.co.kr/album/8031705",
+          "observation": "앨범 발매일 2006-04-01, 수록곡과 가수 강성찬을 확인한다."
+        }
+      ],
+      "observations": [
+        "나무위키는 2006년부터 사용, 어깨동무와 주요 득점 상황, 1절에서 전곡 사용으로의 변화와 TJ미디어 수록을 설명한다.",
+        "정의송에게 5곡을 의뢰해 2006 개막전에 공개한다고 보도한다.",
+        "앨범 발매일 2006-04-01, 수록곡과 가수 강성찬을 확인한다."
+      ]
+    },
+    {
+      "id": "ev-doosan-bears-yayaya-doosan-yt-3cpckhhwqd4",
+      "candidateId": "doosan-bears-yayaya-doosan",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "두산베어스 DOOSAN Bears 야야야 두산! - 두산베어스 응원가 | MAGICSING",
+      "publisher": "ASSA KARAOKE MAGICSING",
+      "url": "https://www.youtube.com/watch?v=3cPCkHhwQD4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "노래방 앱·SNS 링크가 포함된 반주형 영상이다."
+      ],
+      "youtube": {
+        "videoId": "3cPCkHhwQD4",
+        "channel": "ASSA KARAOKE MAGICSING",
+        "descriptionSummary": "노래방 앱·SNS 링크가 포함된 반주형 영상이다.",
+        "commentSummary": "들을수록 좋아진다는 반응이 확인된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-yayaya-doosan-yt-ctutkmmkt8",
+      "candidateId": "doosan-bears-yayaya-doosan",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "20260611 사직야구장 두산베어스 응원가 야야야두산",
+      "publisher": "Lotte giants",
+      "url": "https://www.youtube.com/watch?v=ctUTkm-MKT8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2026년 사직 원정 현장 기록이며 별도 설명은 없다."
+      ],
+      "youtube": {
+        "videoId": "ctUTkm-MKT8",
+        "channel": "Lotte giants",
+        "descriptionSummary": "2026년 사직 원정 현장 기록이며 별도 설명은 없다.",
+        "commentSummary": "원정 응원 무대 규모에 대한 관찰이며 곡 정보는 거의 없다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-yayaya-doosan-yt-ihaesizj0s",
+      "candidateId": "doosan-bears-yayaya-doosan",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[그시절] 두산베어스 야야야 두산 팀응원가",
+      "publisher": "gozett",
+      "url": "https://www.youtube.com/watch?v=-IHaEsIzJ0s",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "업로더 설명은 없다."
+      ],
+      "youtube": {
+        "videoId": "-IHaEsIzJ0s",
+        "channel": "gozett",
+        "descriptionSummary": "업로더 설명은 없다.",
+        "commentSummary": "최근 팀 경기력에 대한 실망이 주제이며 곡 자체 정보는 적다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-yayaya-doosan-yt-vyzzyksptmg",
+      "candidateId": "doosan-bears-yayaya-doosan",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[두산베어스]팀응원가 (야야야두산)경기영상M/V | 노래방 자막",
+      "publisher": "두산의 안방",
+      "url": "https://www.youtube.com/watch?v=VYzzYKsPTmg",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "두산 경기영상과 노래방 자막을 결합했다."
+      ],
+      "youtube": {
+        "videoId": "VYzzYKsPTmg",
+        "channel": "두산의 안방",
+        "descriptionSummary": "두산 경기영상과 노래방 자막을 결합했다.",
+        "commentSummary": "가장 좋아하는 두산 응원가라는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-yayaya-doosan-yt-yorqwl5ek",
+      "candidateId": "doosan-bears-yayaya-doosan",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[음원]두산 베어스 응원가 - 야야야 두산",
+      "publisher": "두산베어스",
+      "url": "https://www.youtube.com/watch?v=-yOrqWL5-ek",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "업로더 설명은 없고 제목으로 곡을 확인한다."
+      ],
+      "youtube": {
+        "videoId": "-yOrqWL5-ek",
+        "channel": "두산베어스",
+        "descriptionSummary": "업로더 설명은 없고 제목으로 곡을 확인한다.",
+        "commentSummary": "박자와 응원 순서를 복습하려는 반응이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-haeya-web-collection",
+      "candidateId": "doosan-bears-haeya",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "해야 웹 교차 확인",
+      "publisher": "공식·언론·음원·나무위키",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "두산 베어스/응원가 — 나무위키 1.23",
+          "url": "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-1.23",
+          "observation": "2011~2017·2025~ 사용, 2017년 8월부터 2024년까지의 저작권 중단, 2025년 3월 복귀 예고, 기존 음원의 보컬 증폭, ‘해야떠라’라는 통칭과 초기 가사·음정 변화를 설명한다. 연세대판을 모티브로 삼았다는 주장은 사용자 확정 내용과 충돌하므로 상충 주장으로만 보존한다."
+        },
+        {
+          "title": "1980년 제4회 대학가요제 — MBC",
+          "url": "https://program.imbc.com/Info/1000261100000100000?seq=2089",
+          "observation": "마그마 ‘해야’가 1980년 은상 수상곡임을 확인한다."
+        },
+        {
+          "title": "8년 만에 잠실로 돌아온 ‘해야!’ — BEARS TV",
+          "url": "https://www.youtube.com/watch?v=Hr8ER2a_YbY",
+          "observation": "2025 공식 영상으로 곡명과 8년 만의 복귀를 확인한다."
+        }
+      ],
+      "observations": [
+        "나무위키의 2011년은 정확한 도입 연도가 아닌 비공식 시작 연도로 채택한다.",
+        "나무위키는 사용 기간, 저작권 중단과 2025년 복귀, 기존 음원 보컬 증폭, 통칭과 초기 가사·음정 변화를 설명한다.",
+        "나무위키의 연세대판 모티브 주장은 사용자 결정과 충돌해 상충 주장으로만 남기고, 정본에는 두 곡이 마그마 원곡을 공유하는 별개 개사곡이라고 기록한다.",
+        "마그마 ‘해야’가 1980년 은상 수상곡임을 확인한다.",
+        "2025 공식 영상으로 곡명과 8년 만의 복귀를 확인한다."
+      ]
+    },
+    {
+      "id": "ev-doosan-bears-haeya-yt-hr8er2ayby",
+      "candidateId": "doosan-bears-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "8년 만에 잠실로 돌아온 '해야!' 홈 개막전을 승리로 이끈 응원 직캠📢 [베어스티비]",
+      "publisher": "BEARS TV",
+      "url": "https://www.youtube.com/watch?v=Hr8ER2a_YbY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2025 홈 개막전 응원 직캠과 타임라인을 제공한다."
+      ],
+      "youtube": {
+        "videoId": "Hr8ER2a_YbY",
+        "channel": "BEARS TV",
+        "descriptionSummary": "2025 홈 개막전 응원 직캠과 타임라인을 제공한다.",
+        "commentSummary": "끝내기 승리 직후 빠르게 공개한 구단 영상에 대한 호응이 많다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-haeya-yt-jiv9me9kvpa",
+      "candidateId": "doosan-bears-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "두산 베어스 추억의 응원가 해야 (해야떠라) [함라산스포츠]",
+      "publisher": "Hamrasan Sports",
+      "url": "https://www.youtube.com/watch?v=jiv9me9kvpA",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "여러 종목 응원가를 다루는 채널의 2020년 추억 음원이다."
+      ],
+      "youtube": {
+        "videoId": "jiv9me9kvpA",
+        "channel": "Hamrasan Sports",
+        "descriptionSummary": "여러 종목 응원가를 다루는 채널의 2020년 추억 음원이다.",
+        "commentSummary": "부활이 시급한 응원가라는 의견이 반복된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-haeya-yt-q5onulqzvvm",
+      "candidateId": "doosan-bears-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "해야",
+      "publisher": "야쏭",
+      "url": "https://www.youtube.com/watch?v=q5OnuLqzVvM",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "업로더 설명은 없다."
+      ],
+      "youtube": {
+        "videoId": "q5OnuLqzVvM",
+        "channel": "야쏭",
+        "descriptionSummary": "업로더 설명은 없다.",
+        "commentSummary": "2025년 곡 복귀 결정을 긍정적으로 평가한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-haeya-yt-qvxeg8ywq8",
+      "candidateId": "doosan-bears-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "※팀 응원가 GOAT 부활※ 두산 베어스 해야떠라 음원",
+      "publisher": "KBOPLAYLIST",
+      "url": "https://www.youtube.com/watch?v=qvXEG8y-wQ8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2025년 ‘해야떠라’ 부활 음원으로 소개한다."
+      ],
+      "youtube": {
+        "videoId": "qvXEG8y-wQ8",
+        "channel": "KBOPLAYLIST",
+        "descriptionSummary": "2025년 ‘해야떠라’ 부활 음원으로 소개한다.",
+        "commentSummary": "멈췄던 시간이 다시 흐르는 듯하다는 향수·부활 반응이 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-haeya-yt-zgreu91v1dy",
+      "candidateId": "doosan-bears-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "(부활한 레전드 응원가)[음원]두산 베어스 응원가 - 해야",
+      "publisher": "두산베어스",
+      "url": "https://www.youtube.com/watch?v=zgreU91V1dY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "원곡을 ‘마그마 - 해야’로 명시하고 부활을 요청한다."
+      ],
+      "youtube": {
+        "videoId": "zgreU91V1dY",
+        "channel": "두산베어스",
+        "descriptionSummary": "원곡을 ‘마그마 - 해야’로 명시하고 부활을 요청한다.",
+        "commentSummary": "오랜 중단 뒤 부활을 반기는 반응이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-haeya-haeya-web-collection",
+      "candidateId": "doosan-bears-haeya-haeya",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "해야 해야 웹 교차 확인",
+      "publisher": "공식·언론·음원·나무위키",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "두산 베어스/응원가 — 나무위키 1.13",
+          "url": "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-1.13",
+          "observation": "한재권 응원단장이 취임 뒤 처음 만든 2014년 응원가라는 서술, 김학래 원곡, 흰 타월 응원, 원 가사 ‘해 해 해야’와 현장 발음 ‘헤이 헤이 해야’의 차이를 설명한다."
+        },
+        {
+          "title": "두산 베어스 응원가 이야기 — DUGOUT",
+          "url": "https://v.daum.net/v/ba7qVBzc11?f=p",
+          "observation": "정본 제목 ‘해야 해야’와 첫 구절 ‘해 해 해야’, 현장에서 ‘헤이 헤이 해야’로 들리는 구호 차이를 확인한다."
+        },
+        {
+          "title": "김학래 해야 해야 — 멜론",
+          "url": "https://www.melon.com/song/detail.htm?songId=2507126",
+          "observation": "원곡 제목, 가수, 1986-05-20 발매와 작사·작곡 정보를 확인한다."
+        },
+        {
+          "title": "[음원] 두산 베어스 응원가 - 해야해야",
+          "url": "https://www.youtube.com/watch?v=UQn_YeMh_n8",
+          "observation": "설명에서 ‘해야 해야 해야’가 아니라 ‘헤이 헤이 해야’라고 교정한다."
+        }
+      ],
+      "observations": [
+        "나무위키의 2014년은 정확한 도입 연도가 아닌 비공식 시작 연도로 채택한다.",
+        "나무위키는 한재권 응원단장의 제작, 김학래 원곡, 흰 타월 응원과 구호 발음 차이를 설명한다.",
+        "DUGOUT에서 정본 제목과 ‘해 해 해야’·‘헤이 헤이 해야’의 구분을 교차 확인한다.",
+        "원곡 제목, 가수, 1986-05-20 발매와 작사·작곡 정보를 확인한다.",
+        "설명에서 ‘해야 해야 해야’가 아니라 ‘헤이 헤이 해야’라고 교정한다."
+      ]
+    },
+    {
+      "id": "ev-doosan-bears-haeya-haeya-yt-etggp3ppbu0",
+      "candidateId": "doosan-bears-haeya-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "2019 KS 3차전 두산 해야해야 응원가 떼창",
+      "publisher": "야직영[야구직관영상]",
+      "url": "https://www.youtube.com/watch?v=etGGP3PpbU0",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2019 한국시리즈 3차전 1루 응원석 현장 떼창이다."
+      ],
+      "youtube": {
+        "videoId": "etGGP3PpbU0",
+        "channel": "야직영[야구직관영상]",
+        "descriptionSummary": "2019 한국시리즈 3차전 1루 응원석 현장 떼창이다.",
+        "commentSummary": "원정에서도 홈처럼 큰 두산 응원 함성에 놀라는 반응이 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-haeya-haeya-yt-ijpbzdbhjk",
+      "candidateId": "doosan-bears-haeya-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "해야 해야",
+      "publisher": "야쏭",
+      "url": "https://www.youtube.com/watch?v=ijpb_ZdbHjk",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "업로더 설명은 없다."
+      ],
+      "youtube": {
+        "videoId": "ijpb_ZdbHjk",
+        "channel": "야쏭",
+        "descriptionSummary": "업로더 설명은 없다.",
+        "commentSummary": "‘헤이 헤이 해야’ 발음과 다른 두산 응원가의 박자를 바로잡는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-haeya-haeya-yt-s1g6uecofro",
+      "candidateId": "doosan-bears-haeya-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[두산베어스] 해야해야+승리를 위하여",
+      "publisher": "ChoiWatt",
+      "url": "https://www.youtube.com/watch?v=S1g6UeCOfRo",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "‘해야해야’와 ‘승리를 위하여’를 함께 담은 현장 직캠이다."
+      ],
+      "youtube": {
+        "videoId": "S1g6UeCOfRo",
+        "channel": "ChoiWatt",
+        "descriptionSummary": "‘해야해야’와 ‘승리를 위하여’를 함께 담은 현장 직캠이다.",
+        "commentSummary": "두산 팀 응원가의 완성도를 높게 평가한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-haeya-haeya-yt-slguracfzou",
+      "candidateId": "doosan-bears-haeya-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "두산베어스 응원가 해야해야 (10.12)",
+      "publisher": "wowowo",
+      "url": "https://www.youtube.com/watch?v=SLGUrACFZoU",
+      "publishedAt": "2014-12-05",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "분위기를 이끄는 응원가로 소개한 2014년 영상이다."
+      ],
+      "youtube": {
+        "videoId": "SLGUrACFZoU",
+        "channel": "wowowo",
+        "descriptionSummary": "분위기를 이끄는 응원가로 소개한 2014년 영상이다.",
+        "commentSummary": "타 팀 팬도 두산 응원이 재미있다고 평가한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-doosan-bears-haeya-haeya-yt-uqnyemhn8",
+      "candidateId": "doosan-bears-haeya-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[음원]두산 베어스 응원가 - 해야해야",
+      "publisher": "두산베어스",
+      "url": "https://www.youtube.com/watch?v=UQn_YeMh_n8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "현장의 흔한 오창을 지적하고 ‘헤이 헤이 해야’가 맞다고 안내한다."
+      ],
+      "youtube": {
+        "videoId": "UQn_YeMh_n8",
+        "channel": "두산베어스",
+        "descriptionSummary": "현장의 흔한 오창을 지적하고 ‘헤이 헤이 해야’가 맞다고 안내한다.",
+        "commentSummary": "정확한 발음과 응원 순서를 복습하는 내용이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-hanwha-eagles-saranghanda-eagles-web-collection",
+      "candidateId": "hanwha-eagles-saranghanda-eagles",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "사랑한다 이글스 웹 교차 확인",
+      "publisher": "공식·언론·음원·나무위키 계열",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "한화 이글스/응원가 — 나무위키 2.4",
+          "url": "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-2.4",
+          "observation": "원곡, 2015년 사용, 상대 투수 교체 때의 용례와 연세대 곡으로 이어졌다는 2차 자료상의 주장을 설명한다."
+        },
+        {
+          "title": "프로야구 응원가/연고대 응원가 모티브 — 리브레 위키",
+          "url": "https://librewiki.net/wiki/%EC%9C%84%ED%82%A4%EB%8F%85%3A%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC_%EC%9D%91%EC%9B%90%EA%B0%80/%EC%97%B0%EA%B3%A0%EB%8C%80_%EC%9D%91%EC%9B%90%EA%B0%80_%EB%AA%A8%ED%8B%B0%EB%B8%8C",
+          "observation": "한화가 2015년에 먼저 쓰고 연세대 하늘끝까지가 2016년에 나왔다는 정리다."
+        },
+        {
+          "title": "한화이글스 응원가 Ver.2 — KBO SoundCloud",
+          "url": "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+          "observation": "KBO 명의 2024 응원가 모음이 15:29에 곡을 수록해 현재 팀 응원가임을 확인한다."
+        },
+        {
+          "title": "사랑한다 이글스 — 2015년 동시대 영상",
+          "url": "https://www.youtube.com/watch?v=XJzz9Nu9vjA",
+          "observation": "2015-05-06 게시된 영상으로, 늦어도 이 날짜에 해당 제목의 한화 응원가가 존재했음을 확인한다."
+        },
+        {
+          "title": "뽐뿌 야구포럼 — 사랑한다 이글스 원곡 질문",
+          "url": "https://m.ppomppu.co.kr/new/bbs_view.php?id=baseball&no=490869",
+          "observation": "2015-06-26 게시물에 당시 한화 공식 이미지 서버의 팀 응원가 MP3가 직접 링크돼 있고 동시대 댓글이 원곡을 ‘사랑하면 할수록’으로 식별한다."
+        },
+        {
+          "title": "벅스 — 영화 클래식 OST",
+          "url": "https://music.bugs.co.kr/album/29611",
+          "observation": "2003년 영화 ‘클래식’ OST 수록곡으로 한성민 ‘사랑하면 할수록’을 확인한다."
+        }
+      ],
+      "observations": [
+        "원곡, 2015년 사용, 상대 투수 교체 때의 용례와 연세대 곡으로 이어졌다는 2차 자료상의 주장을 설명한다.",
+        "한화가 2015년에 먼저 쓰고 연세대 하늘끝까지가 2016년에 나왔다는 정리다.",
+        "KBO 명의 2024 응원가 모음이 15:29에 곡을 수록해 현재 팀 응원가임을 확인한다.",
+        "2015-05-06 영상과 2015-06-26 당시 구단 서버 음원 링크가 2015년 선행 사용을 뒷받침한다.",
+        "원곡은 2003년 영화 ‘클래식’ OST의 한성민 ‘사랑하면 할수록’이다.",
+        "연세대 제작자의 공개 발언에는 한화판 참고 언급이 없어 직접 영향은 확정하지 않는다."
+      ]
+    },
+    {
+      "id": "ev-hanwha-eagles-saranghanda-eagles-yt-cdxthb4ume",
+      "candidateId": "hanwha-eagles-saranghanda-eagles",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "사랑한다 이글스",
+      "publisher": "야쏭",
+      "url": "https://www.youtube.com/watch?v=cD_xthB4umE",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "업로더 설명은 없다."
+      ],
+      "youtube": {
+        "videoId": "cD_xthB4umE",
+        "channel": "야쏭",
+        "descriptionSummary": "업로더 설명은 없다.",
+        "commentSummary": "플레이오프 진출의 기쁨을 이 곡과 연결한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-hanwha-eagles-saranghanda-eagles-yt-cnjf0k97qg",
+      "candidateId": "hanwha-eagles-saranghanda-eagles",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "한화의 투런후 잠실을 찢는 사랑한다 이글스 미친 떼창 ㄷㄷㄷㄷㄷ",
+      "publisher": "감자커피",
+      "url": "https://www.youtube.com/watch?v=cnJF0k97Q_g",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "투런 직후 잠실 원정 떼창이며 별도 설명은 없다."
+      ],
+      "youtube": {
+        "videoId": "cnJF0k97Q_g",
+        "channel": "감자커피",
+        "descriptionSummary": "투런 직후 잠실 원정 떼창이며 별도 설명은 없다.",
+        "commentSummary": "한화의 정체성과 감정을 담은 곡이라 울컥한다는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-hanwha-eagles-saranghanda-eagles-yt-gxrehg1mtq",
+      "candidateId": "hanwha-eagles-saranghanda-eagles",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "한화 이글스 응원가 사랑한다 이글스 [함라산스포츠]",
+      "publisher": "Hamrasan Sports",
+      "url": "https://www.youtube.com/watch?v=gX_REHG1MTQ",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "‘사랑하면 할수록’을 개사했으며 연세대에서도 사용한다고 설명한다."
+      ],
+      "youtube": {
+        "videoId": "gX_REHG1MTQ",
+        "channel": "Hamrasan Sports",
+        "descriptionSummary": "‘사랑하면 할수록’을 개사했으며 연세대에서도 사용한다고 설명한다.",
+        "commentSummary": "클리닝타임과 원정 선수 캐치볼 장면에 곡이 잘 어울린다는 관찰이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-hanwha-eagles-saranghanda-eagles-yt-hz66kwereec",
+      "candidateId": "hanwha-eagles-saranghanda-eagles",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[한화 이글스] 팀 응원가 - 사랑한다 이글스",
+      "publisher": "은최",
+      "url": "https://www.youtube.com/watch?v=hZ66kWereec",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "한화 팀 응원가와 관련 검색어를 정리한 음원 영상이다."
+      ],
+      "youtube": {
+        "videoId": "hZ66kWereec",
+        "channel": "은최",
+        "descriptionSummary": "한화 팀 응원가와 관련 검색어를 정리한 음원 영상이다.",
+        "commentSummary": "상대 투수 강판 때 자주 나와 웅장함이 더 커진다는 관찰이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-hanwha-eagles-saranghanda-eagles-yt-un7r90i3wwa",
+      "candidateId": "hanwha-eagles-saranghanda-eagles",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "사랑한다 이글스｜한화이글스 응원가 MV｜평찡",
+      "publisher": "평찡 PyungZZing",
+      "url": "https://www.youtube.com/watch?v=un7R90I3WWA",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "한화 경기영상으로 만든 응원가 MV다."
+      ],
+      "youtube": {
+        "videoId": "un7R90I3WWA",
+        "channel": "평찡 PyungZZing",
+        "descriptionSummary": "한화 경기영상으로 만든 응원가 MV다.",
+        "commentSummary": "오랜만의 포스트시즌·한국시리즈 진출 감정과 연결한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seoul-ui-aria-web-collection",
+      "candidateId": "lg-twins-seoul-ui-aria",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "서울의 아리아 웹 교차 확인",
+      "publisher": "공식·언론·음원·나무위키 계열",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "LG 트윈스/응원가 — 나무위키 1.1.5",
+          "url": "https://namu.wiki/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-1.1.5",
+          "observation": "2011년 도입을 주장하지만 해당 연도에는 직접 출처가 없어 상충 주장으로만 보존한다."
+        },
+        {
+          "title": "[어처구니 질문 위원회] 대학응원가와 프로 응원가는 왜 같을까",
+          "url": "https://sports.news.nate.com/view/20140208n04707",
+          "observation": "LG 홍보팀·구단 관계자를 인용해 2012 시즌 중반부터 사용했다고 보도한다."
+        },
+        {
+          "title": "The Story of LG Twins — HSAD",
+          "url": "https://blog.hsad.co.kr/3367",
+          "observation": "LG 계열사 블로그가 Melodramma와 대학 응원가 편곡 관계를 소개한다."
+        },
+        {
+          "title": "팬이 뽑은 최애 응원가 LG편 — DUGOUT",
+          "url": "https://v.daum.net/v/EDCqEsbvJl",
+          "observation": "LG 팬 투표 1위, 고려대 민족의 아리아와 Bocelli 원곡, 떼창의 웅장함을 설명한다."
+        },
+        {
+          "title": "[DUGOUT Inside The Park] 응원가 가수 황석빈",
+          "url": "https://v.daum.net/v/Pnna1XBEsH",
+          "observation": "황석빈이 서울의 아리아를 처음 녹음한 응원가라고 밝히며, 작사·작곡·편곡에는 관여하지 않고 보컬 녹음만 한다고 설명한다."
+        },
+        {
+          "title": "2023 LG트윈스 응원가 모음 — LGTWINSTV",
+          "url": "https://www.youtube.com/watch?v=Y-cBDnUl5k4",
+          "observation": "공식 타임라인 24:11에 서울의 아리아가 수록된다."
+        }
+      ],
+      "observations": [
+        "LG 구단 관계자 인용 기사에 따라 2012 시즌 중반 도입을 대표값으로 채택한다.",
+        "나무위키의 2011년설은 무인용 상충 주장으로 별도 보존한다.",
+        "LG 계열사 블로그가 Melodramma와 대학 응원가 편곡 관계를 소개한다.",
+        "LG 팬 투표 1위, 고려대 민족의 아리아와 Bocelli 원곡, 떼창의 웅장함을 설명한다.",
+        "황석빈의 역할은 LG판 녹음 보컬이며 작사·편곡 크레딧과 구분한다.",
+        "공식 타임라인 24:11에 서울의 아리아가 수록된다."
+      ]
+    },
+    {
+      "id": "ev-lg-twins-seoul-ui-aria-yt-ar44eddl5pm",
+      "candidateId": "lg-twins-seoul-ui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[4K] 진짜 역대급 서울의 아리아 떼창!!! 그리고, 사랑한다 LG~ 까지!",
+      "publisher": "엘트",
+      "url": "https://www.youtube.com/watch?v=ar44EdDl5PM",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2023-10-06 KIA전 9회 직전 두 곡의 현장 직캠이다."
+      ],
+      "youtube": {
+        "videoId": "ar44EdDl5PM",
+        "channel": "엘트",
+        "descriptionSummary": "2023-10-06 KIA전 9회 직전 두 곡의 현장 직캠이다.",
+        "commentSummary": "무적 LG 정체성과 팀 자부심을 강조한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seoul-ui-aria-yt-vcyp02oxyhy",
+      "candidateId": "lg-twins-seoul-ui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "LG트윈스 응원가｜민족의 아리아 or 서울의 아리아 경기영상 M/V｜평찡",
+      "publisher": "평찡 PyungZZing",
+      "url": "https://www.youtube.com/watch?v=VcYP02oXyhY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "서울의 아리아만 편집한 경기영상 MV다."
+      ],
+      "youtube": {
+        "videoId": "VcYP02oXyhY",
+        "channel": "평찡 PyungZZing",
+        "descriptionSummary": "서울의 아리아만 편집한 경기영상 MV다.",
+        "commentSummary": "2023 통합우승을 축하하는 반응이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seoul-ui-aria-yt-xr6wpzxyhxi",
+      "candidateId": "lg-twins-seoul-ui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "서울의 아리아",
+      "publisher": "야쏭",
+      "url": "https://www.youtube.com/watch?v=xr6wPZxyhxI",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "업로더 설명은 없다."
+      ],
+      "youtube": {
+        "videoId": "xr6wPZxyhxI",
+        "channel": "야쏭",
+        "descriptionSummary": "업로더 설명은 없다.",
+        "commentSummary": "2023 우승 장면에서 선수의 눈물이 감동적이라는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seoul-ui-aria-yt-ycbdnul5k4",
+      "candidateId": "lg-twins-seoul-ui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "🌟직관 전 필수 시청!🌟 2023 LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "publisher": "LGTWINSTV",
+      "url": "https://www.youtube.com/watch?v=Y-cBDnUl5k4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 응원 예습 영상이며 서울의 아리아는 24:11이다."
+      ],
+      "youtube": {
+        "videoId": "Y-cBDnUl5k4",
+        "channel": "LGTWINSTV",
+        "descriptionSummary": "공식 응원 예습 영상이며 서울의 아리아는 24:11이다.",
+        "commentSummary": "영상을 보면 곧바로 잠실에 가고 싶어진다는 반응이 있다.",
+        "commentsAvailable": true,
+        "startSeconds": 1451
+      }
+    },
+    {
+      "id": "ev-lg-twins-seoul-ui-aria-yt-yvjr6fvortc",
+      "candidateId": "lg-twins-seoul-ui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[직캠]13.10.05 LG트윈스, 역전 후 서울의 아리아 떼창 @형도SPORTS+",
+      "publisher": "형도",
+      "url": "https://www.youtube.com/watch?v=YVJr6fVorTc",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2013년 역전 득점 직후 현장 떼창이다."
+      ],
+      "youtube": {
+        "videoId": "YVJr6fVorTc",
+        "channel": "형도",
+        "descriptionSummary": "2013년 역전 득점 직후 현장 떼창이다.",
+        "commentSummary": "당시 관중석의 강한 응원 에너지를 그리워한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seoul-ui-aria-yt-sryqulrbd-e",
+      "candidateId": "lg-twins-seoul-ui-aria",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "같은 곡 다른느낌 - 키움히어로즈 ‘승리를 위한 함성’ vs LG트윈스 ‘서울의 아리아’ - 고척스카이돔 떼창",
+      "publisher": "엘떠",
+      "url": "https://www.youtube.com/watch?v=SrYqulrbd-E",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "키움과 LG가 같은 선율을 서로 다른 가사로 사용하는 모습을 비교한다.",
+        "LG가 키움판을 직접 차용했다는 증거로는 사용하지 않는다."
+      ],
+      "youtube": {
+        "videoId": "SrYqulrbd-E",
+        "channel": "엘떠",
+        "descriptionSummary": "같은 응원곡을 쓰는 두 팀의 고척돔 응원 장면을 비교한다.",
+        "commentSummary": "두 팀의 가사와 현장 분위기 차이를 비교하는 반응이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seoul-ui-aria-press-nate-2014",
+      "candidateId": "lg-twins-seoul-ui-aria",
+      "kind": "web",
+      "sourceClass": "press",
+      "title": "[어처구니 질문 위원회] 대학응원가와 프로 응원가는 왜 같을까",
+      "publisher": "일간스포츠·네이트 스포츠",
+      "url": "https://sports.news.nate.com/view/20140208n04707",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "LG 홍보팀과 구단 관계자를 취재해 LG가 2012 시즌 중반부터 곡을 사용했다고 보도한다.",
+        "고려대학교 ‘민족의 아리아’와 Andrea Bocelli ‘Melodramma’의 계보 및 경기 후반 사용 맥락을 설명한다."
+      ]
+    },
+    {
+      "id": "ev-lg-twins-seoul-ui-aria-interview-dugout-hwang",
+      "candidateId": "lg-twins-seoul-ui-aria",
+      "kind": "web",
+      "sourceClass": "interview",
+      "title": "[DUGOUT Inside The Park] 응원가 가수 황석빈",
+      "publisher": "DUGOUT·대단한미디어",
+      "url": "https://v.daum.net/v/Pnna1XBEsH",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "황석빈이 처음 녹음한 응원가가 LG 트윈스 ‘서울의 아리아’였다고 직접 설명한다.",
+        "본인은 작사·작곡·편곡에 참여하지 않고 보컬 녹음만 담당한다고 명시한다."
+      ]
+    },
+    {
+      "id": "ev-lg-twins-saranghanda-lg-web-collection",
+      "candidateId": "lg-twins-saranghanda-lg",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "사랑한다 LG 웹 교차 확인",
+      "publisher": "공식·언론·음원·나무위키 계열",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "LG 트윈스/응원가 — 나무위키 1.1.7",
+          "url": "https://namu.wiki/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-1.1.7",
+          "observation": "원곡·모티브와 득점·역전 상황 사용을 설명한다."
+        },
+        {
+          "title": "The Story of LG Twins — HSAD",
+          "url": "https://blog.hsad.co.kr/3367",
+          "observation": "Por Una Cabeza, 마지막 선택과 대학 응원가 편곡 관계를 소개한다."
+        },
+        {
+          "title": "팬이 뽑은 최애 응원가 LG편 — DUGOUT",
+          "url": "https://v.daum.net/v/EDCqEsbvJl",
+          "observation": "팬 투표 4위와 연세대 응원가 및 두 원곡의 관계를 설명한다."
+        },
+        {
+          "title": "세계에서 제일 큰 노래방, 프로야구단의 응원가 ①",
+          "url": "https://koreancontent.tistory.com/601",
+          "observation": "2012년 이미 연세대 응원가 개사곡으로 소개한다."
+        },
+        {
+          "title": "사랑한다lg — deedi",
+          "url": "https://soundcloud.com/deedi/lg",
+          "observation": "2011-06-17 생성된 1분 1초 길이의 완성 음원으로 최초 확인 연도를 2011년까지 앞당긴다."
+        },
+        {
+          "title": "2026 LG트윈스 응원가 모음집 — LGTWINSTV",
+          "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8",
+          "observation": "공식 타임라인 17:07에 사랑한다 LG를 수록하고 원곡을 Por una Cabeza로 표기하며 Forever LG를 별도 곡으로 수록한다."
+        },
+        {
+          "title": "2023 LG트윈스 응원가 모음 — LGTWINSTV",
+          "url": "https://www.youtube.com/watch?v=Y-cBDnUl5k4",
+          "observation": "공식 타임라인 07:16에 수록된다."
+        }
+      ],
+      "observations": [
+        "원곡·모티브와 득점·역전 상황 사용을 설명한다.",
+        "Por Una Cabeza, 마지막 선택과 대학 응원가 편곡 관계를 소개한다.",
+        "팬 투표 4위와 연세대 응원가 및 두 원곡의 관계를 설명한다.",
+        "2011-06-17 비공식 공개 음원으로 완성곡의 존재를 직접 확인하되 공식 구장 도입일로 단정하지 않는다.",
+        "2012년 이미 연세대 응원가 개사곡으로 소개한다.",
+        "2026년 LG 공식 영상은 Por una Cabeza만 공식 원곡으로 표기하고 Forever LG를 별도 곡으로 구분한다.",
+        "공식 타임라인 07:16에 수록된다."
+      ]
+    },
+    {
+      "id": "ev-lg-twins-saranghanda-lg-yt-ar44eddl5pm",
+      "candidateId": "lg-twins-saranghanda-lg",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[4K] 진짜 역대급 서울의 아리아 떼창!!! 그리고, 사랑한다 LG~ 까지!",
+      "publisher": "엘트",
+      "url": "https://www.youtube.com/watch?v=ar44EdDl5PM",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2023년 경기 후반 두 응원가가 연달아 나오는 현장 기록이다."
+      ],
+      "youtube": {
+        "videoId": "ar44EdDl5PM",
+        "channel": "엘트",
+        "descriptionSummary": "2023년 경기 후반 두 응원가가 연달아 나오는 현장 기록이다.",
+        "commentSummary": "LG 정체성과 팀 자부심을 강조한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-saranghanda-lg-yt-j4zvvkp6yka",
+      "candidateId": "lg-twins-saranghanda-lg",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "LG트윈스 응원가｜민족의 아리아 + 사랑한다LG 경기영상MV｜평찡",
+      "publisher": "평찡 PyungZZing",
+      "url": "https://www.youtube.com/watch?v=J4zvVkp6ykA",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "서울의 아리아와 사랑한다 LG를 연결한 경기영상 MV다."
+      ],
+      "youtube": {
+        "videoId": "J4zvVkp6ykA",
+        "channel": "평찡 PyungZZing",
+        "descriptionSummary": "서울의 아리아와 사랑한다 LG를 연결한 경기영상 MV다.",
+        "commentSummary": "응원가의 분위기가 좋다는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-saranghanda-lg-yt-krepccwmdgy",
+      "candidateId": "lg-twins-saranghanda-lg",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "LG 트윈스 응원가 - 사랑한다 LG [함라산스포츠]",
+      "publisher": "Hamrasan Sports",
+      "url": "https://www.youtube.com/watch?v=krepCcWmdgY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "채널명 외 별도 곡 설명은 없다."
+      ],
+      "youtube": {
+        "videoId": "krepCcWmdgY",
+        "channel": "Hamrasan Sports",
+        "descriptionSummary": "채널명 외 별도 곡 설명은 없다.",
+        "commentSummary": "우승을 축하하며 승리와 사랑의 상징곡으로 받아들인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-saranghanda-lg-yt-xaaalqghfrm",
+      "candidateId": "lg-twins-saranghanda-lg",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "LG트윈스 응원가 - LG 사랑한다 LG",
+      "publisher": "LG윤빠",
+      "url": "https://www.youtube.com/watch?v=XAAALQGhfRM",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "업로더 설명은 없다."
+      ],
+      "youtube": {
+        "videoId": "XAAALQGhfRM",
+        "channel": "LG윤빠",
+        "descriptionSummary": "업로더 설명은 없다.",
+        "commentSummary": "곡 자체가 좋다는 짧은 호평이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-saranghanda-lg-yt-ycbdnul5k4",
+      "candidateId": "lg-twins-saranghanda-lg",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "🌟직관 전 필수 시청!🌟 2023 LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "publisher": "LGTWINSTV",
+      "url": "https://www.youtube.com/watch?v=Y-cBDnUl5k4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 응원 예습 영상이며 사랑한다 LG는 07:16이다."
+      ],
+      "youtube": {
+        "videoId": "Y-cBDnUl5k4",
+        "channel": "LGTWINSTV",
+        "descriptionSummary": "공식 응원 예습 영상이며 사랑한다 LG는 07:16이다.",
+        "commentSummary": "영상을 보면 잠실 직관 욕구가 커진다는 반응이 있다.",
+        "commentsAvailable": true,
+        "startSeconds": 436
+      }
+    },
+    {
+      "id": "ev-lg-twins-saranghanda-lg-soundcloud-deedi-2011",
+      "candidateId": "lg-twins-saranghanda-lg",
+      "kind": "web",
+      "sourceClass": "audio-user-upload",
+      "title": "사랑한다lg",
+      "publisher": "deedi·SoundCloud",
+      "url": "https://soundcloud.com/deedi/lg",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "페이지 메타데이터의 생성 시각은 2011-06-17T08:20:02Z이고 재생 시간은 약 1분 1초다.",
+        "비공식 업로드이므로 완성 음원의 존재는 확인하지만 정확한 구장 도입일은 확정하지 않는다."
+      ]
+    },
+    {
+      "id": "ev-lg-twins-saranghanda-lg-yt-bhwojfjkaf8",
+      "candidateId": "lg-twins-saranghanda-lg",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧] 엘팬들 직관 준비 끝! 26시즌 LG트윈스 응원가 모음집🎶",
+      "publisher": "LGTWINSTV",
+      "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 타임라인 17:07에 사랑한다 LG를 수록한다.",
+        "설명란은 원곡을 Por una Cabeza, 작사 Alfredo Le Pera, 작곡 Carlos Gardel로 표기하며 20:40에 FOREVER LG를 별도 곡으로 수록한다."
+      ],
+      "youtube": {
+        "videoId": "BhwoJFjkAf8",
+        "channel": "LGTWINSTV",
+        "descriptionSummary": "2026시즌 공식 응원가 모음으로 곡명과 원곡·저작자 정보를 제공한다.",
+        "commentSummary": "직관 예습과 세대별 LG 팬 정체성에 관한 반응이 중심이며 기원·연도 근거로는 사용하지 않는다.",
+        "commentsAvailable": true,
+        "startSeconds": 1027
+      }
+    },
+    {
+      "id": "ev-lg-twins-saranghanda-lg-yt-qdol5kmopxa",
+      "candidateId": "lg-twins-saranghanda-lg",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "중독성 만렙! 2024 LG트윈스 응원가 모음🎧 [트윈스 치얼업]",
+      "publisher": "LGTWINSTV",
+      "url": "https://www.youtube.com/watch?v=QDOl5kmOPXA",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 타임라인 04:24에 사랑한다 LG를 수록한다."
+      ],
+      "youtube": {
+        "videoId": "QDOl5kmOPXA",
+        "channel": "LGTWINSTV",
+        "descriptionSummary": "2024시즌 공식 팀 응원가 현장 직캠 모음이다.",
+        "commentSummary": "어린 팬이 곡을 외우고 집에서도 따라 부른다는 반응 등 높은 친숙도를 보여준다.",
+        "commentsAvailable": true,
+        "startSeconds": 264
+      }
+    },
+    {
+      "id": "ev-lg-twins-saranghanda-lg-yt-cabwzhn8jc",
+      "candidateId": "lg-twins-saranghanda-lg",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "2013 LG 트윈스 선수 응원가 종합(가사) 추가변경본",
+      "publisher": "pendulumjo",
+      "url": "https://www.youtube.com/watch?v=-CaBWZhn8Jc",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "설명란 첫 트랙이 사랑한다 LG이며 당시 사용 음원을 lgtwins.com에서 내려받을 수 있었다고 밝힌다."
+      ],
+      "youtube": {
+        "videoId": "-CaBWZhn8Jc",
+        "channel": "pendulumjo",
+        "descriptionSummary": "2013년 LG 응원가 종합본으로 사랑한다 LG를 첫 트랙에 수록하고 당시 구단 홈페이지를 음원 출처로 안내한다.",
+        "commentSummary": "2013년 무렵부터 곡명을 그대로 언급하는 반응이 있어 장기 사용성을 보조한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seungni-ui-norae-web-collection",
+      "candidateId": "lg-twins-seungni-ui-norae",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "승리의 노래 웹 교차 확인",
+      "publisher": "공식·언론·음원·나무위키 계열",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "LG 트윈스/응원가 — 나무위키 1.1.4",
+          "url": "https://namu.wiki/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-1.1.4",
+          "observation": "원곡·모티브와 승리 직후·큰 점수 차 상황 사용을 설명한다."
+        },
+        {
+          "title": "팬이 뽑은 최애 응원가 LG편 — DUGOUT",
+          "url": "https://v.daum.net/v/EDCqEsbvJl",
+          "observation": "팬 투표 2위, 고려대 Forever와 Stratovarius 원곡, 결정적 승리 순간 사용을 설명한다."
+        },
+        {
+          "title": "지금은 야구 시즌! 야구 응원가 특집 — 채널예스",
+          "url": "https://m.ch.yes24.com/article/details/28080",
+          "observation": "LG가 리드하거나 쐐기 득점 상황에서 Forever 개사곡을 부른다고 설명한다."
+        },
+        {
+          "title": "The Story of LG Twins — HSAD",
+          "url": "https://blog.hsad.co.kr/3367",
+          "observation": "LG 관련 기업 블로그가 Stratovarius Forever 차용 관계를 소개한다."
+        },
+        {
+          "title": "LG트윈스 승리의 노래 2011",
+          "url": "https://www.youtube.com/watch?v=Q_tGsgY26sE",
+          "observation": "2011-06-19 공개 영상의 제목과 설명이 현행곡의 연도와 핵심 구절을 직접 확인한다."
+        },
+        {
+          "title": "승리의 노래 — 프로야구 응원가 LG Twins",
+          "url": "https://music.bugs.co.kr/track/1727036",
+          "observation": "2009년 동명 수록곡은 ‘LG 오 LG’로 시작하는 구버전이므로 현행곡의 선행 기록에서 제외한다."
+        },
+        {
+          "title": "팬들이 염원하던 응원가 Forever LG 부활",
+          "url": "https://www.lg.co.kr/media/release/28767",
+          "observation": "Forever LG는 Secret Garden 곡을 원곡으로 한 별도 응원가임을 공식 확인한다."
+        },
+        {
+          "title": "Episode — Stratovarius",
+          "url": "https://stratovarius.com/episode/",
+          "observation": "공식 음반 페이지가 앨범의 1996년 발매와 12번 트랙 Forever를 확인한다."
+        },
+        {
+          "title": "2023 LG트윈스 응원가 모음 — LGTWINSTV",
+          "url": "https://www.youtube.com/watch?v=Y-cBDnUl5k4",
+          "observation": "공식 타임라인 21:27에 수록된다."
+        }
+      ],
+      "observations": [
+        "원곡·모티브와 승리 직후·큰 점수 차 상황 사용을 설명한다.",
+        "팬 투표 2위, 고려대 Forever와 Stratovarius 원곡, 결정적 승리 순간 사용을 설명한다.",
+        "LG가 리드하거나 쐐기 득점 상황에서 Forever 개사곡을 부른다고 설명한다.",
+        "LG 관련 기업 블로그가 Stratovarius Forever 차용 관계를 소개한다.",
+        "2011-06-19 공개 영상으로 현행곡의 since 2011을 직접 확인한다.",
+        "2009년 동명 음원은 1995년 구버전이며 현행곡과 분리한다.",
+        "Forever LG는 Secret Garden 원곡의 별도 곡으로 분리한다.",
+        "Stratovarius 공식 음반 페이지가 원곡 Forever의 1996년 발매를 확인한다.",
+        "공식 타임라인 21:27에 수록된다."
+      ]
+    },
+    {
+      "id": "ev-lg-twins-seungni-ui-norae-yt-8tqjypz5oi8",
+      "candidateId": "lg-twins-seungni-ui-norae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "29년의 한을 풀고 선수들과 팬들이 하나가 되어 부르는 LG트윈스 \"우승 버전\" 승리의 노래 역대급 떼창 응원!!🏆",
+      "publisher": "야직영[야구직관영상]",
+      "url": "https://www.youtube.com/watch?v=8TQJyPZ5oI8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2023 한국시리즈 우승 행사 현장 떼창이다."
+      ],
+      "youtube": {
+        "videoId": "8TQJyPZ5oI8",
+        "channel": "야직영[야구직관영상]",
+        "descriptionSummary": "2023 한국시리즈 우승 행사 현장 떼창이다.",
+        "commentSummary": "타 팀 팬도 29년 만의 우승과 곡의 상징성을 축하한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seungni-ui-norae-yt-atla6wft368",
+      "candidateId": "lg-twins-seungni-ui-norae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "전주만 들어도 눈물나는 바로 그 음악-엘지트윈스 #승리의노래 [231113/29년만에 한국시리즈 우승 후 모든 관중이 같이 부른 응원가]",
+      "publisher": "토마스홍",
+      "url": "https://www.youtube.com/watch?v=AtLa6wfT368",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2023-11-13 한국시리즈 우승 세리머니 뒤 전체 관중 떼창이다."
+      ],
+      "youtube": {
+        "videoId": "AtLa6wfT368",
+        "channel": "토마스홍",
+        "descriptionSummary": "2023-11-13 한국시리즈 우승 세리머니 뒤 전체 관중 떼창이다.",
+        "commentSummary": "순위 탈환이나 중요한 승리 때 다시 찾아 듣는다는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seungni-ui-norae-yt-cegibg9exg0",
+      "candidateId": "lg-twins-seungni-ui-norae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "LG트윈스 응원가｜승리의 노래 (forever) 경기영상 M/V｜야구장 뽐뿌영상｜평찡",
+      "publisher": "평찡 PyungZZing",
+      "url": "https://www.youtube.com/watch?v=CeGiBg9eXG0",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "잠실에서 어깨동무하고 부르는 장면을 염두에 둔 경기영상 MV다."
+      ],
+      "youtube": {
+        "videoId": "CeGiBg9eXG0",
+        "channel": "평찡 PyungZZing",
+        "descriptionSummary": "잠실에서 어깨동무하고 부르는 장면을 염두에 둔 경기영상 MV다.",
+        "commentSummary": "2023 통합우승을 이 곡과 함께 기념한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seungni-ui-norae-yt-ctzmoiro9fo",
+      "candidateId": "lg-twins-seungni-ui-norae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "LG트윈스 승리의 노래 우승 버전 [고음질]",
+      "publisher": "야구쏭",
+      "url": "https://www.youtube.com/watch?v=CTzmOIRO9Fo",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "업로더 설명은 없으며 우승 버전 고음질 음원이다."
+      ],
+      "youtube": {
+        "videoId": "CTzmOIRO9Fo",
+        "channel": "야구쏭",
+        "descriptionSummary": "업로더 설명은 없으며 우승 버전 고음질 음원이다.",
+        "commentSummary": "영상이 팬들의 우승 성지가 될 것이라는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seungni-ui-norae-yt-olleq6bzcbs",
+      "candidateId": "lg-twins-seungni-ui-norae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "LG - 승리의노래",
+      "publisher": "워즈굿",
+      "url": "https://www.youtube.com/watch?v=oLLEq6bzCBs",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "제목과 동일한 짧은 설명이며 2012-04-10 공개됐다."
+      ],
+      "youtube": {
+        "videoId": "oLLEq6bzCBs",
+        "channel": "워즈굿",
+        "descriptionSummary": "제목과 동일한 짧은 설명이며 2012-04-10 공개됐다.",
+        "commentSummary": "이후 우승 시즌마다 다시 찾는 팬 반응이 이어진다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seungni-ui-norae-yt-ycbdnul5k4",
+      "candidateId": "lg-twins-seungni-ui-norae",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "🌟직관 전 필수 시청!🌟 2023 LG트윈스 응원가 모음.zip [트윈스 치얼업]",
+      "publisher": "LGTWINSTV",
+      "url": "https://www.youtube.com/watch?v=Y-cBDnUl5k4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 응원 예습 영상이며 승리의 노래는 21:27이다."
+      ],
+      "youtube": {
+        "videoId": "Y-cBDnUl5k4",
+        "channel": "LGTWINSTV",
+        "descriptionSummary": "공식 응원 예습 영상이며 승리의 노래는 21:27이다.",
+        "commentSummary": "직관에 가고 싶게 만드는 영상이라는 반응이 있다.",
+        "commentsAvailable": true,
+        "startSeconds": 1287
+      }
+    },
+    {
+      "id": "ev-lg-twins-seungni-ui-norae-yt-qtgsgy26se",
+      "candidateId": "lg-twins-seungni-ui-norae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "LG트윈스 승리의 노래 2011",
+      "publisher": "Blablabla.kr",
+      "url": "https://www.youtube.com/watch?v=Q_tGsgY26sE",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "YouTube 메타데이터 공개일은 2011-06-19이며 설명에 현행곡의 핵심 구절을 명시한다.",
+        "현행 Forever 기반곡의 since 2011 직접 근거다."
+      ],
+      "youtube": {
+        "videoId": "Q_tGsgY26sE",
+        "channel": "Blablabla.kr",
+        "descriptionSummary": "제목에 2011년을, 설명에 현행곡 핵심 구절을 명시한 1분 28초 영상이다.",
+        "commentSummary": "무적 LG와 팀 승리를 연결하는 반응이 있어 현행곡 맥락을 확인한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lg-twins-seungni-ui-norae-bugs-old-version",
+      "candidateId": "lg-twins-seungni-ui-norae",
+      "kind": "web",
+      "sourceClass": "music-catalog",
+      "title": "승리의 노래 — 프로야구 응원가 LG Twins",
+      "publisher": "벅스",
+      "url": "https://music.bugs.co.kr/track/1727036",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "‘LG 오 LG’로 시작하는 가사가 수록되어 2009년 동명 음원이 현행곡이 아닌 1995년 구버전임을 확인한다.",
+        "현행곡의 도입 연도를 2009년으로 소급하는 근거로 사용하지 않는다."
+      ]
+    },
+    {
+      "id": "ev-lg-twins-seungni-ui-norae-lg-forever-separation",
+      "candidateId": "lg-twins-seungni-ui-norae",
+      "kind": "web",
+      "sourceClass": "official-team",
+      "title": "팬들이 염원하던 응원가 ‘Forever LG’ 부활",
+      "publisher": "LG",
+      "url": "https://www.lg.co.kr/media/release/28767",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "Forever LG의 원곡을 Secret Garden ‘Song from a Secret Garden’으로 명시한다.",
+        "현행 ‘승리의 노래’와는 별개의 2016년 응원가로 분리한다."
+      ]
+    },
+    {
+      "id": "ev-lotte-baennorae-press-donga-2009",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "web",
+      "sourceClass": "press",
+      "title": "‘구도부산’ vs ‘최강두산’…응원맞불",
+      "publisher": "스포츠동아",
+      "url": "https://sports.donga.com/article/all/20090929/23101123/1",
+      "publishedAt": "2009-09-29",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2009-09-29 준플레이오프 1차전에서 롯데가 6회 초 리드를 잡자 응원석에 ‘뱃놀이’가 나왔다고 동시대 현장 기사가 기록한다.",
+        "롯데판 사용을 직접 확인하는 가장 오래된 현재 근거로 채택하며, 정확한 최초 도입일로 확대 해석하지 않는다.",
+        "점프와 응원도구를 함께 사용하는 당시 현장 응원 방식도 확인한다."
+      ]
+    },
+    {
+      "id": "ev-lotte-baennorae-press-nate-2014",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "web",
+      "sourceClass": "press",
+      "title": "[어처구니 질문 위원회] 대학응원가와 프로 응원가는 왜 같을까",
+      "publisher": "일간스포츠·네이트 스포츠",
+      "url": "https://sports.news.nate.com/view/20140208n04707",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "롯데가 고려대학교의 ‘뱃노래’를 구단명과 특색에 맞게 개사해 사용한다고 설명한다.",
+        "대학 응원가 차용 시 권리자와의 소통이 부족했다는 당시 고려대 측 의견도 함께 다룬다."
+      ]
+    },
+    {
+      "id": "ev-lotte-baennorae-press-newspim-2014",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "web",
+      "sourceClass": "press",
+      "title": "KBO 응원 자제에도 롯데 응원단장 ‘뱃노래’ 논란 거듭 사과",
+      "publisher": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20140417000468",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2014년 경기에서 롯데 응원단이 ‘뱃노래’를 실제 단체 응원에 사용했음을 보여 준다.",
+        "세월호 참사 직후의 응원 자제 상황을 다룬 기사이므로 곡 자체의 평가 근거가 아니라 사용 시점 확인 근거로만 쓴다."
+      ]
+    },
+    {
+      "id": "ev-lotte-baennorae-web-namu",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "web",
+      "sourceClass": "community-encyclopedia",
+      "title": "롯데 자이언츠/응원가 — 뱃노래",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "현재 대표 표기를 ‘뱃노래’로 두고 편곡 버전과 풀버전을 구분한다.",
+        "2014년 논란 뒤 중단, 2022-07-26 편곡 버전 복귀, 2024년 풀버전 재사용을 서술한다.",
+        "편곡 버전은 수비 시 9회말 2아웃·호수비 직후와 공격 시 승부처 득점 뒤에 주로 사용하며, 풀버전은 상대적으로 드물게 사용한다고 설명한다.",
+        "복귀 시점과 세부 사용 방식은 공식 구단 자료가 아닌 나무위키 기반 보조 정보로 취급한다."
+      ]
+    },
+    {
+      "id": "ev-lotte-baennorae-yt-sffpq58qlhi",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "롯데 - 승리 메들리(부산갈매기, 돌아와요 부산항에, 뱃놀이)",
+      "publisher": "Daniel Jang",
+      "url": "https://www.youtube.com/watch?v=sffpQ58qlHI",
+      "publishedAt": "2011-10-21",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2011년에 공개된 영상 제목이 ‘뱃놀이’를 롯데 승리 메들리의 한 곡으로 직접 명시한다.",
+        "영상 설명은 비어 있어 정확한 촬영일은 확정하지 않는다."
+      ],
+      "youtube": {
+        "videoId": "sffpQ58qlHI",
+        "channel": "Daniel Jang",
+        "descriptionSummary": "설명은 비어 있으며 제목으로 곡명과 메들리 구성을 확인한다.",
+        "commentSummary": "기존 여섯 개 댓글 대조 표본 외의 연대 보강 영상으로 사용한다.",
+        "commentsAvailable": false
+      }
+    },
+    {
+      "id": "ev-lotte-baennorae-yt-ozg9jzxxklc",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[12.5.27] 롯데자이언츠 - 뱃놀이",
+      "publisher": "Daniel Jang",
+      "url": "https://www.youtube.com/watch?v=OZg9JzXXkLc",
+      "publishedAt": "2012-05-29",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "제목과 설명이 2012-05-27 롯데 응원단의 ‘뱃놀이’ 사용을 직접 기록한다.",
+        "현재 표기 ‘뱃노래’와 함께 역사적 별칭 ‘뱃놀이’를 보존할 근거다."
+      ],
+      "youtube": {
+        "videoId": "OZg9JzXXkLc",
+        "channel": "Daniel Jang",
+        "descriptionSummary": "‘롯데 자이언츠 응원단 뱃놀이’라고 간단히 설명한다.",
+        "commentSummary": "기존 여섯 개 댓글 대조 표본 외의 연대·별칭 보강 영상으로 사용한다.",
+        "commentsAvailable": false
+      }
+    },
+    {
+      "id": "ev-lotte-baennorae-yt-3dudjohandk",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "2022년 롯데 자이언츠 팀 응원가 - 뱃노래",
+      "publisher": "다현",
+      "url": "https://www.youtube.com/watch?v=3Dudjohandk",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2022년 팀 응원가라는 제목 외에는 설명 정보가 거의 없다."
+      ],
+      "youtube": {
+        "videoId": "3Dudjohandk",
+        "channel": "다현",
+        "descriptionSummary": "별도 설명 없이 2022년 팀 응원가로 제시한다.",
+        "commentSummary": "비시즌에도 야구장을 그리워하게 하고 ‘근본’으로 느껴지는 노래라는 짧은 반응이 중심이다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lotte-baennorae-yt-3wd6axsubey",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "롯데자이언츠 응원가 - 뱃노래",
+      "publisher": "쉬미시미의 롯데역사창고",
+      "url": "https://www.youtube.com/watch?v=3Wd6axSUBEY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "설명은 2012년 롯데 자이언츠 홈페이지에 올라왔던 공식영상의 재게시라고 밝힌다."
+      ],
+      "youtube": {
+        "videoId": "3Wd6axSUBEY",
+        "channel": "쉬미시미의 롯데역사창고",
+        "descriptionSummary": "2012년 구단 홈페이지 공식영상이라는 출처 설명이 핵심이다.",
+        "commentSummary": "풀버전의 2024년 부활을 반기고 옛 유니폼·응원 문화에 향수를 느낀다는 반응이 두드러진다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lotte-baennorae-yt-8pobs1tmey4",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[잠실야구장] 승리는 누구 - 뱃노래 - 윤동희 현장감 100% 떼창 응원!! | 24.06.15",
+      "publisher": "롯데 현장 직캠",
+      "url": "https://www.youtube.com/watch?v=8pobs1TMEY4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2024-06-15 잠실 원정에서 여러 응원곡과 이어진 현장 떼창을 담았다."
+      ],
+      "youtube": {
+        "videoId": "8pobs1TMEY4",
+        "channel": "롯데 현장 직캠",
+        "descriptionSummary": "롯데 응원과 떼창의 현장감을 강조하는 짧은 설명이다.",
+        "commentSummary": "롯데 응원의 규모와 현장성을 높이 평가하고 타 구단 팬도 따라 부르게 된다는 반응이 반복된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lotte-baennorae-yt-cw3cfwslrqk",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "뱃노래 부를때 개신남😍 뒷풀이에서 부르니 더 신난다!!",
+      "publisher": "롯창근",
+      "url": "https://www.youtube.com/watch?v=cw3cfWsLrQk",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "영상 설명은 뱃노래가 경기 뒤풀이를 포함한 롯데의 야구 문화로 자리 잡았다고 소개한다."
+      ],
+      "youtube": {
+        "videoId": "cw3cfWsLrQk",
+        "channel": "롯창근",
+        "descriptionSummary": "경기 뒤풀이 떼창을 하나의 롯데 팬 문화로 소개한다.",
+        "commentSummary": "부모에서 자녀로 이어지는 팬 경험, 승패를 넘어선 정체성, 선수단이 팬의 열정을 알아주길 바라는 반응이 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lotte-baennorae-yt-o721qdixxiw",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "22.09.22 잠실 롯데자이언츠 팀응원가 메들리 (소리높여외쳐보자-영광의순간-뱃노래",
+      "publisher": "현장응원맛집",
+      "url": "https://www.youtube.com/watch?v=O721qdIXXIw",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2022-09-22 잠실 경기에서 세 곡이 연속된 응원 메들리를 기록했다."
+      ],
+      "youtube": {
+        "videoId": "O721qdIXXIw",
+        "channel": "현장응원맛집",
+        "descriptionSummary": "설명은 비어 있으나 제목이 곡 순서와 경기 날짜를 제공한다.",
+        "commentSummary": "쉬지 않고 이어지는 노래의 강도와 장기간 이어진 팬심, ‘소리높여 외쳐보자’와의 메들리 구성을 언급한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lotte-baennorae-yt-p4ymdoue4",
+      "candidateId": "lotte-giants-baennorae",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "#부산갈매기 #돌아와요부산항에 #뱃노래 떼창 모음🎧 (25.04.25) ⚾ 롯데자이언츠",
+      "publisher": "어게인1992자이언츠",
+      "url": "https://www.youtube.com/watch?v=P4YmD--oue4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2025-04-25 두산전 가요 떼창 모음이며 뱃노래는 설명의 02:13 챕터에 배치된다."
+      ],
+      "youtube": {
+        "videoId": "P4YmD--oue4",
+        "channel": "어게인1992자이언츠",
+        "descriptionSummary": "부산갈매기·돌아와요 부산항에와 함께 묶인 현장 떼창 기록이다.",
+        "commentSummary": "승패와 무관하게 선수의 기를 살려 주자는 응원 태도와 팀에 대한 믿음을 드러낸다.",
+        "commentsAvailable": true,
+        "startSeconds": 133
+      }
+    },
+    {
+      "id": "ev-kia-eungwonhara-web-history",
+      "candidateId": "kia-tigers-kiareul-eungwonhara",
+      "kind": "web-collection",
+      "sourceClass": "mixed",
+      "title": "기아를 응원하라 원곡·연도 상충 주장",
+      "publisher": "나무위키 계열·옛 문서 사본",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "Con te partirò — 나무위키",
+          "url": "https://namu.wiki/w/Con%20te%20partir%C3%B2",
+          "observation": "KIA 응원가의 원곡과 2011~2012 시즌부터 사용했다는 주장을 싣지만 도입 연도의 직접 인용 근거는 제시하지 않는다."
+        },
+        {
+          "title": "KIA 타이거즈/응원가 — 나무위키",
+          "url": "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "observation": "원곡을 ‘Con te partirò’로, 고려대 2011년 신곡 ‘고연가: 고대를 노래하라’와 같은 편곡으로 설명한다."
+        },
+        {
+          "title": "KIA 타이거즈/응원가 — 옛 읽기전용위키",
+          "url": "https://readonly.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+          "observation": "2001년부터 사용했다는 별도 주장을 싣지만 직접 근거가 없고 현재 나무위키 계열 서술과 충돌한다."
+        }
+      ],
+      "observations": [
+        "원곡·편곡 계보는 여러 자료가 ‘Con te partirò’와 고려대 곡으로 수렴한다.",
+        "도입 연도는 2001년설과 2011~2012년설이 충돌하므로 어느 쪽도 정본 연도로 채택하지 않는다.",
+        "직접 확인되는 2013년 영상을 바탕으로 사용자 승인에 따라 2013년을 추정 시작 연도로 표시한다."
+      ]
+    },
+    {
+      "id": "ev-kia-eungwonhara-press-nate-2014",
+      "candidateId": "kia-tigers-kiareul-eungwonhara",
+      "kind": "web",
+      "sourceClass": "press",
+      "title": "[어처구니 질문 위원회] 대학응원가와 프로 응원가는 왜 같을까",
+      "publisher": "일간스포츠·네이트 스포츠",
+      "url": "https://sports.news.nate.com/view/20140208n04707",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "KIA가 고려대학교 ‘고대를 응원하라’를 ‘기아를 응원하라’로 바꾸어 부른다고 직접 설명한다."
+      ]
+    },
+    {
+      "id": "ev-kia-eungwonhara-yt-fjqgfdhvzd0",
+      "candidateId": "kia-tigers-kiareul-eungwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "기아타이거즈응원가 -기아를 응원하라",
+      "publisher": "기아우승",
+      "url": "https://www.youtube.com/watch?v=FJqGFDHVzd0",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "설명에 2015-04-24 날짜만 기록되어 있다."
+      ],
+      "youtube": {
+        "videoId": "FJqGFDHVzd0",
+        "channel": "기아우승",
+        "descriptionSummary": "날짜 외 부가 설명이 없는 단일곡 기록이다.",
+        "commentSummary": "확인 시점에 공개 댓글을 찾지 못했다.",
+        "commentsAvailable": false
+      }
+    },
+    {
+      "id": "ev-kia-eungwonhara-yt-pf6q9u82hrk",
+      "candidateId": "kia-tigers-kiareul-eungwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "기아타이거즈 팀 응원가 기아를 응원하라 M/V",
+      "publisher": "기아타이거즈 팬",
+      "url": "https://www.youtube.com/watch?v=pf6Q9U82HRk",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "설명 해시태그가 팀 응원가·플래시 응원가라는 성격을 반복한다."
+      ],
+      "youtube": {
+        "videoId": "pf6Q9U82HRk",
+        "channel": "기아타이거즈 팬",
+        "descriptionSummary": "팬 제작 M/V로 곡명과 플래시 응원 방식을 명시한다.",
+        "commentSummary": "가장 좋아하는 팀 응원가라는 평가, 뭉클함, 역전 직후 부를 때의 흥분을 강조한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kia-eungwonhara-yt-w3xzqhsxg",
+      "candidateId": "kia-tigers-kiareul-eungwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "약속의 8회! 지금이순간, 기아를 응원하라! [기아 vs LG] 240818",
+      "publisher": "GRIJUA 그리주아TV",
+      "url": "https://www.youtube.com/watch?v=W3xz__QHsXg",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2024-08-18 LG전의 8회 응원으로 곡을 배치한다."
+      ],
+      "youtube": {
+        "videoId": "W3xz__QHsXg",
+        "channel": "GRIJUA 그리주아TV",
+        "descriptionSummary": "8회 공격의 현장 응원과 응원단 구성을 기록한다.",
+        "commentSummary": "가장 좋아하는 응원가이며 개막을 기다리게 한다는 반응이 확인된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kia-eungwonhara-yt-wivyv50vsrk",
+      "candidateId": "kia-tigers-kiareul-eungwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "기아를 응원하라",
+      "publisher": "dsHaha_",
+      "url": "https://www.youtube.com/watch?v=Wivyv50vsrk",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2013-06-10 공개된 영상이며 설명은 KIA 타이거즈 팀 응원가라고 명시한다."
+      ],
+      "youtube": {
+        "videoId": "Wivyv50vsrk",
+        "channel": "dsHaha_",
+        "descriptionSummary": "2013-06-10 공개됐으며 구단명과 곡명을 적은 단일곡 영상이다.",
+        "commentSummary": "KIA 팬의 자부심뿐 아니라 타 구단 팬도 곡을 좋아한다는 반응이 함께 나타난다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kia-eungwonhara-yt-yjjyj4aqul8",
+      "candidateId": "kia-tigers-kiareul-eungwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "지금이순간, 기아를 응원하라! 1루외야까지! 함께하는 떼창! 팀응원가 [기아 vs LG] 240817",
+      "publisher": "GRIJUA 그리주아TV",
+      "url": "https://www.youtube.com/watch?v=yjJYj4AqUl8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2024-08-17 LG전 원정 관중석 전체로 번지는 떼창과 플래시 응원을 보여 준다."
+      ],
+      "youtube": {
+        "videoId": "yjJYj4AqUl8",
+        "channel": "GRIJUA 그리주아TV",
+        "descriptionSummary": "KIA-LG전의 원정 응원단·치어리더와 1루 외야까지 이어지는 합창을 기록한다.",
+        "commentSummary": "멀리 떨어진 좌석의 플래시까지 눈에 띈다는 반응과 고려대 응원가의 가사를 떠올리는 반응이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kia-eungwonhara-yt-zeps5bm3iqc",
+      "candidateId": "kia-tigers-kiareul-eungwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 도입부 듣자마자 야구장 가고 싶어지는 노래 ｜기아타이거즈 선수 & 팀 응원가 모음",
+      "publisher": "기아타이거즈 KIA TIGERS",
+      "url": "https://www.youtube.com/watch?v=ZEPS5Bm3iqc",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "KIA 공식 채널이 2024년 초 기준 팀 응원가로 수록하고 22:19에 ‘기아를 응원하라 (핸드폰 플래쉬 응원)’라고 표시한다."
+      ],
+      "youtube": {
+        "videoId": "ZEPS5Bm3iqc",
+        "channel": "기아타이거즈 KIA TIGERS",
+        "descriptionSummary": "공식 팀·선수 응원가 모음이며 곡명, 시작 시점, 플래시 응원 방식이 명시된다.",
+        "commentSummary": "응원가 모음과 율동의 최신판을 원하는 반응, 도입부만으로 현장 흥분이 살아난다는 반응이 많다.",
+        "commentsAvailable": true,
+        "startSeconds": 1339
+      }
+    },
+    {
+      "id": "ev-kia-eungwonhara-yt-zflzh4twqw8",
+      "candidateId": "kia-tigers-kiareul-eungwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "(KIA타이거즈 응원가)기아를 응원하라",
+      "publisher": "크보뮤지션",
+      "url": "https://www.youtube.com/watch?v=zFLZh4TWqW8",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "설명은 KIA 타이거즈 야구 응원가라고만 간단히 표시한다."
+      ],
+      "youtube": {
+        "videoId": "zFLZh4TWqW8",
+        "channel": "크보뮤지션",
+        "descriptionSummary": "곡명과 구단을 확인하는 짧은 팬 영상이다.",
+        "commentSummary": "공개 댓글 수가 적으며 고려대학교 버전의 구절을 연결해 인식하는 반응이 확인된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lotte-sori-press-inews24-2022",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "web",
+      "sourceClass": "press",
+      "title": "롯데, 국립부산국악원과 MOU 맺어",
+      "publisher": "아이뉴스24",
+      "url": "https://www.inews24.com/view/1518260",
+      "publishedAt": "2022-09-13",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "롯데와 국립부산국악원이 함께 만든 구단 응원가 ‘영원하라’ 국악 버전이 2022-09-10~11 사직 홈 2연전에서 처음 공개됐다고 보도한다.",
+        "‘영원하라’가 공식·언론 표기로 계속 병용되는 근거이자 국악 버전의 제작 관계 근거다."
+      ]
+    },
+    {
+      "id": "ev-lotte-sori-press-dugout",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "web",
+      "sourceClass": "press",
+      "title": "[DUGOUT Live] 팬이 뽑은 최애 응원가 3탄 – 롯데 자이언츠 편",
+      "publisher": "대단한미디어·다음",
+      "url": "https://v.daum.net/v/EoQcWypgcy",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "팬 투표에서 ‘롯데 자이언츠 영원하라’가 1위로 소개된다.",
+        "최근 영상의 ‘소리높여 외쳐보자’와 다른 제목 관습이 공존함을 보여 준다."
+      ]
+    },
+    {
+      "id": "ev-lotte-sori-press-nate-2014",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "web",
+      "sourceClass": "press",
+      "title": "[어처구니 질문 위원회] 대학응원가와 프로 응원가는 왜 같을까",
+      "publisher": "일간스포츠·네이트 스포츠",
+      "url": "https://sports.news.nate.com/view/20140208n04707",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "롯데가 고려대학교의 ‘영원하라’를 구단명과 특색에 맞게 개사해 사용한다고 설명한다."
+      ]
+    },
+    {
+      "id": "ev-lotte-sori-web-namu",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "web",
+      "sourceClass": "community-encyclopedia",
+      "title": "롯데 자이언츠/응원가 — 소리높여 외쳐보자(영원하라)",
+      "publisher": "나무위키",
+      "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.7",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "대표 표기 ‘소리높여 외쳐보자’와 통용명 ‘영원하라’를 병기하고 원곡을 Vanessa-Mae ‘Contradanza’로 설명한다.",
+        "2011년 플레이오프 첫 공개를 서술하지만 직접 당시 자료가 부족하므로 비공식 시작 연도로만 채택한다.",
+        "2019년 전에는 홈 ‘부산 롯데’·원정 ‘최강 롯데’ 구호를 나눴고 이후 ‘최강 롯데’로 통합됐다고 설명한다.",
+        "7·8회와 승부처의 어깨동무 떼창이라는 사용 맥락 및 2022년 국악 버전을 함께 기록한다."
+      ]
+    },
+    {
+      "id": "ev-lotte-sori-yt-atyqkrwmvge",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+      "publisher": "Giants TV",
+      "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE",
+      "publishedAt": "2026-03-27",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 구단 채널의 타임코드가 06:05 곡명을 ‘소리높여 외쳐보자’로 표기한다.",
+        "현재 정본 대표 제목을 확정하는 공식 근거로 사용한다."
+      ],
+      "youtube": {
+        "videoId": "AtyqKrWmvGE",
+        "channel": "Giants TV",
+        "descriptionSummary": "2026 팀 응원가 목록과 타임코드를 제공하며 06:05에 ‘소리높여 외쳐보자’를 수록한다.",
+        "commentSummary": "공식 제목·현행 수록 확인용으로 사용하고 댓글 반응 판단은 기존 일곱 개 영상 표본을 따른다.",
+        "commentsAvailable": false,
+        "startSeconds": 365
+      }
+    },
+    {
+      "id": "ev-lotte-sori-yt-iex-80ewdxa",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "국악이 된 우리의 노래 ‘소리높여 외쳐보자’",
+      "publisher": "Giants TV",
+      "url": "https://www.youtube.com/watch?v=iex-80eWDXA",
+      "publishedAt": "2022-09-10",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 구단 채널 제목이 대표 제목 ‘소리높여 외쳐보자’를 확인한다.",
+        "설명은 국립부산국악원과 전통 공연예술 활성화를 위해 만든 편곡이라고 밝힌다."
+      ],
+      "youtube": {
+        "videoId": "iex-80eWDXA",
+        "channel": "Giants TV",
+        "descriptionSummary": "국립부산국악원과 롯데 자이언츠가 함께 만든 국악 편곡임을 설명한다.",
+        "commentSummary": "공식 제작 관계 확인용으로 사용하고 댓글 반응 판단은 기존 일곱 개 영상 표본을 따른다.",
+        "commentsAvailable": false
+      }
+    },
+    {
+      "id": "ev-lotte-sori-yt-0iqgm5us1k",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "롯데 자이언츠 응원가 - 소리높여 외쳐보자",
+      "publisher": "롯데_앤드",
+      "url": "https://www.youtube.com/watch?v=0Iqg_m5us1k",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "설명은 영상에 사용한 사직야구장 사진의 출처만 밝힌다."
+      ],
+      "youtube": {
+        "videoId": "0Iqg_m5us1k",
+        "channel": "롯데_앤드",
+        "descriptionSummary": "곡 배경보다 시각 자료 출처만 적은 단일곡 영상이다.",
+        "commentSummary": "확인 시점에 공개 댓글을 찾지 못했다.",
+        "commentsAvailable": false
+      }
+    },
+    {
+      "id": "ev-lotte-sori-yt-elpltyqoxiw",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "롯데자이언츠 팀 응원가 소리높여 외쳐보자 (4K)",
+      "publisher": "나오라구",
+      "url": "https://www.youtube.com/watch?v=elPLtyQoXiw",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "현장 4K 영상이 이를 롯데의 팀 응원가로 명시한다."
+      ],
+      "youtube": {
+        "videoId": "elPLtyQoXiw",
+        "channel": "나오라구",
+        "descriptionSummary": "곡명과 구단을 해시태그로 확인할 수 있는 현장 영상이다.",
+        "commentSummary": "첫 구절을 따라 쓰거나 경기력과 별개로 응원가는 최고라는 평가가 확인된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lotte-sori-yt-h13wmh8jtdo",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[롯데 응원 - 소리높여 외쳐보자] 2025년6월27일 사직 (KT 11 vs 롯데 8)",
+      "publisher": "롯데는 승리한다",
+      "url": "https://www.youtube.com/watch?v=h13wmH8jTDo",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2025-06-27 사직 경기에서 사용된 현재형 응원 모습을 기록한다."
+      ],
+      "youtube": {
+        "videoId": "h13wmH8jTDo",
+        "channel": "롯데는 승리한다",
+        "descriptionSummary": "곡의 첫 부분을 적고 경기 날짜·상대·점수를 함께 제공한다.",
+        "commentSummary": "확인 시점에 공개 댓글을 찾지 못했다.",
+        "commentsAvailable": false
+      }
+    },
+    {
+      "id": "ev-lotte-sori-yt-hyzxp9etyr4",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "소리높여 외쳐보자 (롯데자이언츠 응원가)",
+      "publisher": "소탐롯린이",
+      "url": "https://www.youtube.com/watch?v=HyZXp9EtYR4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "최근 팬 영상은 첫 구절을 제목으로 삼아 ‘소리높여 외쳐보자’라고 표기한다."
+      ],
+      "youtube": {
+        "videoId": "HyZXp9EtYR4",
+        "channel": "소탐롯린이",
+        "descriptionSummary": "사용 폰트 출처 외 곡 배경 설명은 없다.",
+        "commentSummary": "응원가 부활 요청, 구호에 자동으로 몸이 반응한다는 농담, 우승과 연결된 감정을 드러낸다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lotte-sori-yt-jdjv7guhdqu",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "롯데자이언츠 응원가 - 영원하라",
+      "publisher": "아이고 대다",
+      "url": "https://www.youtube.com/watch?v=JdjV7GUhdQU",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2012년 공개 영상이 곡명을 ‘영원하라’로 표기하며 설명 첫 구절은 ‘소리높여 외쳐보자’다.",
+        "설명에는 당시 ‘부산 롯데’ 구호가 남아 있다."
+      ],
+      "youtube": {
+        "videoId": "JdjV7GUhdQU",
+        "channel": "아이고 대다",
+        "descriptionSummary": "옛 ‘부산 롯데’ 가사 버전과 ‘영원하라’ 제목을 함께 보존한 초기 공개 영상이다.",
+        "commentSummary": "예전 ‘부산 롯데’ 버전에 대한 향수, 타지에서도 힘이 난다는 정서, 승기를 잡을 때 부르는 곡이라는 인식이 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lotte-sori-yt-nxngkmyc5yg",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[롯데 응원가 - 소리높여 외쳐보자 / 영광의 순간 / ] 2023년 4월 2일 잠실 (롯데 2 vs 두산 0)",
+      "publisher": "롯데는 승리한다",
+      "url": "https://www.youtube.com/watch?v=nxnGKMyC5yg",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "설명에서 ‘소리높여 외쳐보자’와 ‘영광의 순간’을 별도 구간으로 나누어 곡 혼동을 방지한다."
+      ],
+      "youtube": {
+        "videoId": "nxnGKMyC5yg",
+        "channel": "롯데는 승리한다",
+        "descriptionSummary": "2023-04-02 잠실 경기의 두 곡 메들리를 구간별로 설명한다.",
+        "commentSummary": "응원의 강도, 조지훈 응원단장의 선창, 반복해서 듣고 싶은 흥분을 강조한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-lotte-sori-yt-x2vpamxdki",
+      "candidateId": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[부산시리즈] 롯데자이언츠 8회말 소리높여외쳐보자 (영원하라) + 영광의순간",
+      "publisher": "46채널",
+      "url": "https://www.youtube.com/watch?v=_x2vPamxDKI",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "제목이 ‘소리높여 외쳐보자’ 뒤에 ‘영원하라’를 괄호로 병기해 두 표기가 같은 곡임을 직접 보여 준다.",
+        "8회말과 ‘영광의 순간’ 앞뒤 맥락을 제공한다."
+      ],
+      "youtube": {
+        "videoId": "_x2vPamxDKI",
+        "channel": "46채널",
+        "descriptionSummary": "부산시리즈 8회말의 두 곡 연속 응원을 담은 현장 영상이다.",
+        "commentSummary": "로이스터 시절 이후 다시 들은 데 대한 벅참과 월드컵을 연상시키는 관중 규모를 언급한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kiwoom-hamseong-web-history-2013",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "web-collection",
+      "sourceClass": "community-contemporary",
+      "title": "넥센 시절 승리를 위한 함성 2013년 사용 기록",
+      "publisher": "MLBPARK·DC인사이드·히어로즈 영웅게시판",
+      "checkedAt": "2026-08-07",
+      "sources": [
+        {
+          "title": "넥센과 LG 민족의 아리아 응원가 공유 — MLBPARK",
+          "url": "https://mlbpark.donga.com/mlbpark/b.php?b=kbotown&id=1330344",
+          "observation": "2013-10-11 게시물과 동시대 댓글이 넥센의 ‘승리를 위한 함성’ 가사·사용 시점을 구체적으로 기록한다."
+        },
+        {
+          "title": "넥센 응원가 계이름 — 키움 히어로즈 갤러리",
+          "url": "https://gall.dcinside.com/board/view/?id=sh&no=2812684",
+          "observation": "2013-11-19 게시물의 팀 응원가 목록에 ‘승리를 위한 함성’과 계이름을 수록한다."
+        },
+        {
+          "title": "스폰서 변경을 앞둔 팀 응원가 정리 — 영웅게시판",
+          "url": "https://heroesbaseball.co.kr/fans/heroesBbs/view.do?num=63426",
+          "observation": "2018-11-07 게시물이 팀명 가사가 없는 곡이라 스폰서 변경 뒤에도 유지할 수 있다고 설명해 넥센→키움 연속성을 뒷받침한다."
+        }
+      ],
+      "observations": [
+        "2013년 넥센 시절 사용은 동시대 게시물 두 건으로 직접 확인된다.",
+        "정확한 최초 도입일은 확인되지 않아 사용자 승인에 따라 2013년을 추정 시작 연도로 표시한다.",
+        "팀명 없는 가사와 키움 시절 공식 사용을 함께 보면 스폰서 변경 전후의 동일 곡 연속성이 확인된다."
+      ]
+    },
+    {
+      "id": "ev-kiwoom-hamseong-press-spochoo-2017",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "web",
+      "sourceClass": "press",
+      "title": "[엠스플 사실은] 응원가 저작인격권 분쟁, kt만의 문제 아니다?",
+      "publisher": "스포츠춘추",
+      "url": "https://www.spochoo.com/news/articleView.html?idxno=27697",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "넥센 팀 응원가 ‘승리를 위한 함성’의 원곡을 Andrea Bocelli ‘Melodramma’로 명시한다.",
+        "2017년 저작인격권 분쟁 과정에서 이 곡의 사용을 중단했다고 보도한다."
+      ]
+    },
+    {
+      "id": "ev-kiwoom-hamseong-yt-oiwl7wrjre",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "2018년 넥센 히어로즈 '승리를 위한 함성' 새 응원가",
+      "publisher": "Movie SuperHeroes",
+      "url": "https://www.youtube.com/watch?v=o_IwL7wRJrE",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2018년 판을 원곡에 가깝게 재편곡한 새 응원가로 소개한다."
+      ],
+      "youtube": {
+        "videoId": "o_IwL7wRJrE",
+        "channel": "Movie SuperHeroes",
+        "descriptionSummary": "2018년 넥센판이 원곡에 가까운 방향으로 재편곡됐다고 설명한다.",
+        "commentSummary": "재편곡 전후의 차이와 기존 응원가 복귀를 반기는 반응이 확인된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kiwoom-hamseong-official",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "web",
+      "sourceClass": "official",
+      "title": "응원가",
+      "publisher": "키움 히어로즈",
+      "url": "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 목록 제목은 ‘승리의 함성’이다.",
+        "본문에는 ‘승리를 위한 함성 발사’ 선창과 후렴 표기가 있으며 작곡자는 LUCIAN PAOLO로 명시된다."
+      ]
+    },
+    {
+      "id": "ev-kiwoom-hamseong-press-dugout",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "web",
+      "sourceClass": "press",
+      "title": "[DUGOUT Live] 팬이 뽑은 최애 응원가 7탄 – 키움 히어로즈",
+      "publisher": "대단한미디어·다음",
+      "url": "https://v.daum.net/v/ZKIBJ9C29x?f=p",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "기사 제목 표기는 ‘승리를 위한 함성’이며 팬 투표 39%로 1위다.",
+        "고려대학교 ‘민족의 아리아’를 모티브로 했다고 설명하고 경기 후반의 선창·활용, 과거 저작권 문제로 인한 일시 중단을 언급한다."
+      ]
+    },
+    {
+      "id": "ev-kiwoom-hamseong-yt-7p2uyrclq",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[키움히어로즈] 팀응원가 승리를 위한 함성",
+      "publisher": "한화의노토바이",
+      "url": "https://www.youtube.com/watch?v=7p2U-yr-clQ",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "팬 영상 제목은 ‘승리를 위한 함성’을 사용한다."
+      ],
+      "youtube": {
+        "videoId": "7p2U-yr-clQ",
+        "channel": "한화의노토바이",
+        "descriptionSummary": "별도 설명 없이 곡을 단독으로 제시한다.",
+        "commentSummary": "다른 구단의 상징적 응원가와 함께 높이 평가하고 타 구단 팬도 키움의 반등을 응원하며, 고려대 모티브를 연상하는 반응이 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kiwoom-hamseong-yt-dy5bkaujalw",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2022 올스타전] ‘키움의 대표곡’ 승리를 위한 함성 육성 떼창 응원가 (2022.07.16)",
+      "publisher": "야직영[야구직관영상]",
+      "url": "https://www.youtube.com/watch?v=dY5BKAUJalw",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "2022 올스타전 영상이 이 곡을 ‘키움의 대표곡’으로 소개한다."
+      ],
+      "youtube": {
+        "videoId": "dY5BKAUJalw",
+        "channel": "야직영[야구직관영상]",
+        "descriptionSummary": "올스타전 육성 떼창을 키움 대표 응원가로 기록한다.",
+        "commentSummary": "‘하늘 끝까지’와 함께 선호한다는 반응, 야구장에서 가장 부르고 싶은 곡이라는 평가, 이 곡을 계기로 키움 팬이 됐다는 경험이 있다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kiwoom-hamseong-yt-ixfmmgk4sw4",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[더팬] 키움히어로즈팬들의 ‘승리를위한함성’-고척스카이돔",
+      "publisher": "더팬 ThefaN",
+      "url": "https://www.youtube.com/watch?v=ixfMmGK4SW4",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "준플레이오프 고척스카이돔 현장의 팬 떼창을 담았다."
+      ],
+      "youtube": {
+        "videoId": "ixfMmGK4SW4",
+        "channel": "더팬 ThefaN",
+        "descriptionSummary": "키움·준플레이오프·KBO 해시태그로 현장 맥락을 제공한다.",
+        "commentSummary": "팀 자부심이 차오른다는 반응과 포스트시즌·야구장 현장을 다시 경험하고 싶다는 그리움이 보인다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kiwoom-hamseong-yt-ml54vsgml2e",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "키움 히어로즈 응원가 승리를 위한 함성 (0731)",
+      "publisher": "윤병호",
+      "url": "https://www.youtube.com/watch?v=mL54vSGmL2E",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "제목으로 7월 31일 현장 사용과 통용 제목을 확인할 수 있다."
+      ],
+      "youtube": {
+        "videoId": "mL54vSGmL2E",
+        "channel": "윤병호",
+        "descriptionSummary": "별도 설명이 없는 짧은 현장 기록이다.",
+        "commentSummary": "확인 시점에 공개 댓글을 찾지 못했다.",
+        "commentsAvailable": false
+      }
+    },
+    {
+      "id": "ev-kiwoom-hamseong-yt-sdsqc9jwdni",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "youtube",
+      "sourceClass": "youtube-official",
+      "title": "[준PO3⚡️응원캠] 히어로즈 외치다보면 어느새 큠뽕 MAX🤩",
+      "publisher": "키움히어로즈",
+      "url": "https://www.youtube.com/watch?v=sDSqc9JwDNI",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "공식 채널 설명이 ‘승리를 위한 함성 발사’라고 적어 공식 제목과 현장 선창의 차이를 확인시킨다."
+      ],
+      "youtube": {
+        "videoId": "sDSqc9JwDNI",
+        "channel": "키움히어로즈",
+        "descriptionSummary": "준플레이오프 응원캠이며 곡의 대표 선창을 설명에 사용한다.",
+        "commentSummary": "특정 곡 장면의 타임스탬프, 포스트시즌 재현에 대한 바람, 고척돔의 주인이라는 팀 정체성을 강조한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kiwoom-hamseong-yt-sryqulrbde",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "같은 곡 다른느낌 - 키움히어로즈 ‘승리를 위한 함성’ vs LG트윈스 ‘서울의 아리아’ - 고척스카이돔 떼창",
+      "publisher": "엘떠",
+      "url": "https://www.youtube.com/watch?v=SrYqulrbd-E",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "영상은 키움 곡과 LG ‘서울의 아리아’를 같은 선율의 서로 다른 개사로 비교한다."
+      ],
+      "youtube": {
+        "videoId": "SrYqulrbd-E",
+        "channel": "엘떠",
+        "descriptionSummary": "준플레이오프 고척 응원전에서 같은 선율을 쓰는 두 구단을 비교한다.",
+        "commentSummary": "8회말 역전 직후의 흥분, 타 구단 팬도 따라 부르게 되는 중독성과 현장감을 강조한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-kiwoom-hamseong-yt-tsq3ecwlzky",
+      "candidateId": "kiwoom-heroes-seungni-ui-hamseong",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2023.06.24] 2023 KBO리그 키움히어로즈 vs 두산베어스 / 키움히어로즈 팀 응원가 승리를 위한 함성",
+      "publisher": "직관의맛",
+      "url": "https://www.youtube.com/watch?v=TsQ3EcWLzKY",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "설명이 2023-06-24 키움-두산 경기에서 사용된 팀 응원가라고 명시한다."
+      ],
+      "youtube": {
+        "videoId": "TsQ3EcWLzKY",
+        "channel": "직관의맛",
+        "descriptionSummary": "경기 날짜·상대와 팀 응원가임을 명확히 기록한다.",
+        "commentSummary": "확인 시점에 공개 댓글을 찾지 못했다.",
+        "commentsAvailable": false
+      }
+    },
+    {
+      "id": "ev-korea-university-deureora-boara-geurigo-gieokhara-yt-c8jjjhshk18",
+      "candidateId": "korea-university-deureora-boara-geurigo-gieokhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2026 고려대 입실렌티] 대학 최고의 축제, 대학 최고의 응원곡 '민족의 아리아 + 들어라 보아라 그리고 기억하라 + FOREVER' #고려대축제 #입실렌티 [4K]",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=C8jjjhSHK18&t=12s",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "곡이 시작된 뒤 약 00:16의 화면 왼쪽 아래에 ‘since 2007’이 표시된다. 사용자가 도입 연도 근거로 지정했고 브라우저 프레임으로 직접 확인했다."
+      ],
+      "youtube": {
+        "videoId": "C8jjjhSHK18",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "songTimestamp": "00:12",
+        "visualEvidenceTimestamp": "00:16",
+        "descriptionSummary": "2026 입실렌티 2부 응원 하이라이트로 들어라 보아라 그리고 기억하라 00:12, Forever 02:34, 민족의 아리아 05:40의 타임스탬프를 제공한다.",
+        "commentSummary": "입시·공부 동기, 졸업생의 현장 기억, 재학생 가족의 자부심과 대규모 응원의 감동이 반복된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-forever-yt-c8jjjhshk18",
+      "candidateId": "korea-university-forever",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[2026 고려대 입실렌티] 대학 최고의 축제, 대학 최고의 응원곡 '민족의 아리아 + 들어라 보아라 그리고 기억하라 + FOREVER' #고려대축제 #입실렌티 [4K]",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=C8jjjhSHK18&t=154s",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "Forever 시작 뒤 약 02:42의 화면 왼쪽 아래에 ‘Since 2007’이 표시된다. 사용자가 도입 연도 근거로 지정했고 브라우저 프레임으로 직접 확인했다."
+      ],
+      "youtube": {
+        "videoId": "C8jjjhSHK18",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "songTimestamp": "02:34",
+        "visualEvidenceTimestamp": "02:42",
+        "descriptionSummary": "2026 입실렌티 2부 응원 하이라이트로 들어라 보아라 그리고 기억하라 00:12, Forever 02:34, 민족의 아리아 05:40의 타임스탬프를 제공한다.",
+        "commentSummary": "입시·공부 동기, 졸업생의 현장 기억, 재학생 가족의 자부심과 대규모 응원의 감동이 반복된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-korea-university-yeongwonhara-yt-anlmgnwa9c",
+      "candidateId": "korea-university-yeongwonhara",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "고대 응원가 뭘 좋아할지 몰라 다 가져옴. 2024 고려대 입실렌티 판쓸이 응원 I 고려대학교 응원단 #입실렌티 #고려대축제 #포에버 #고려대학교응원단",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "url": "https://www.youtube.com/watch?v=AnLm-gnWA9c&t=263s",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "영원하라 시작 뒤 약 04:32의 화면 왼쪽 아래에 ‘since 2004’가 표시된다. 사용자가 도입 연도 근거로 지정했고 브라우저 프레임으로 직접 확인했다."
+      ],
+      "youtube": {
+        "videoId": "AnLm-gnWA9c",
+        "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "songTimestamp": "04:23",
+        "visualEvidenceTimestamp": "04:32",
+        "descriptionSummary": "2024 입실렌티 2부 판쓸이 응원 19곡 모음으로 영원하라가 04:23부터 시작한다고 타임스탬프를 제공한다.",
+        "commentSummary": "고려대 응원의 열정과 현장감, 수험생의 진학 동기, 동문의 자부심, 응원가가 힘을 준다는 반응이 반복된다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-haeya-yt-mqamtwxrpcu",
+      "candidateId": "yonsei-university-haeya",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[4K] 아카라카 1부 응원 모음.zip [2026 아카라카를 온누리에] | 2026 AKARAKA",
+      "publisher": "청춘테이프",
+      "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU&t=157s",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "02:37 화면 왼쪽 위의 ‘해야 since 1981’ 문구를 사용자가 근거로 지정했고 브라우저 프레임으로 직접 확인했다."
+      ],
+      "youtube": {
+        "videoId": "MqAMtWxrpcU",
+        "channel": "청춘테이프",
+        "songTimestamp": "02:34",
+        "visualEvidenceTimestamp": "02:37",
+        "visualText": "해야 since 1981",
+        "descriptionSummary": "2026-05-23 아카라카 1부 응원 모음이며 설명의 곡별 타임스탬프에서 ‘해야’가 02:34부터 시작한다.",
+        "commentSummary": "공개 댓글 9개 중 표시된 댓글들은 과거 아카라카·연고전의 기억, 운동할 때 들을 만큼 신나는 분위기, 재학생 가족의 자부심을 주로 언급한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-wonsirim-yt-mqamtwxrpcu",
+      "candidateId": "yonsei-university-wonsirim",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[4K] 아카라카 1부 응원 모음.zip [2026 아카라카를 온누리에] | 2026 AKARAKA",
+      "publisher": "청춘테이프",
+      "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1375s",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "22:55 화면 왼쪽 위의 ‘원시림 since 1989’ 문구를 사용자가 근거로 지정했고 브라우저 프레임으로 직접 확인했다."
+      ],
+      "youtube": {
+        "videoId": "MqAMtWxrpcU",
+        "channel": "청춘테이프",
+        "visualEvidenceTimestamp": "22:55",
+        "visualText": "원시림 since 1989",
+        "descriptionSummary": "2026-05-23 아카라카 1부 응원 모음으로, 영상 후반의 ‘원시림’ 공연 화면에 도입 연도 표기가 나온다.",
+        "commentSummary": "공개 댓글 9개 중 표시된 댓글들은 과거 아카라카·연고전의 기억, 운동할 때 들을 만큼 신나는 분위기, 재학생 가족의 자부심을 주로 언급한다.",
+        "commentsAvailable": true
+      }
+    },
+    {
+      "id": "ev-yonsei-university-seosi-yt-mqamtwxrpcu",
+      "candidateId": "yonsei-university-seosi",
+      "kind": "youtube",
+      "sourceClass": "youtube-fan",
+      "title": "[4K] 아카라카 1부 응원 모음.zip [2026 아카라카를 온누리에] | 2026 AKARAKA",
+      "publisher": "청춘테이프",
+      "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1011s",
+      "checkedAt": "2026-08-07",
+      "observations": [
+        "16:51 화면 왼쪽 위의 ‘서시 since 2003’ 문구를 직접 확인했다. 사용자가 다수 출처와 연혁의 정합성을 검토한 뒤 대표 연도를 2003년으로 확정했다."
+      ],
+      "youtube": {
+        "videoId": "MqAMtWxrpcU",
+        "channel": "청춘테이프",
+        "visualEvidenceTimestamp": "16:51",
+        "visualText": "서시 since 2003",
+        "descriptionSummary": "2026-05-23 아카라카 1부 응원 모음으로, ‘서시’ 공연 화면에 도입 연도 표기가 나온다.",
+        "commentSummary": "공개 댓글 9개 중 표시된 댓글들은 과거 아카라카·연고전의 기억, 운동할 때 들을 만큼 신나는 분위기, 재학생 가족의 자부심을 주로 언급한다.",
+        "commentsAvailable": true
+      }
+    }
+  ]
+}

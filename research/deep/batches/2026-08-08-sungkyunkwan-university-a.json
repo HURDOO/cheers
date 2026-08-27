@@ -1,0 +1,1119 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-sungkyunkwan-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-sungkyunkwan",
+    "name": "성균관대학교",
+    "type": "university"
+  },
+  "rightsNote": "저작권이 있는 원곡·응원가의 전체 가사, 영상 설명 전문과 댓글 원문·작성자 식별정보는 저장하지 않는다. 합법적으로 열람 가능한 URL, 권리 상태, 반복 구조와 주제를 기록하고, 공개 댓글은 도입 이력·현장 사용·수용을 확인하는 데 필요한 내용만 익명으로 재서술한다.",
+  "items": [
+    {
+      "id": "sungkyunkwan-university-declare-sungkyun",
+      "title": "성균을 고하리라",
+      "aliases": ["성균을 고하노라"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-munhaeng-festival",
+      "summary": "2021년에 공개된 성균관대학교 자작 응원가로, 오래된 교육기관 성균에 모인 인재라는 정체성과 그 이름을 세상에 알리겠다는 다짐을 두 절로 펼친다. 학교 President's List는 글로벌경영학과 20학번 장준서를 아이디어 제안자이자 작사가로 공식 기록하지만 작곡·편곡 전체 크레딧은 아직 확인되지 않았다. 2025년 대학 공식 퍼포먼스 영상과 ESKARA에서 대표곡처럼 운용됐고, 2026 상반기 응원 OT에서는 동작 교육 뒤 실연, 문행대동제에서는 무반주 떼창 도입을 포함한 공연이 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2021년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-declare-official-2021", "yt-skku-a-declare-2026-ot", "yt-skku-a-declare-2026-festival"],
+          "notes": "공식 킹고응원단의 2026 영상 두 편이 제목에 `(2021)`을 직접 표시하고 2021년 11월 공식 곡별 음원이 보존돼 있다."
+        },
+        {
+          "field": "creationCredit",
+          "value": "장준서(글로벌경영20)가 아이디어를 제안하고 작사; 작곡·편곡자는 미확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-a-president-list", "yt-skku-a-declare-university-2025"],
+          "notes": "학교가 운영하는 President's List의 개인 이력에 적힌 공식 크레딧이다. 작사를 넘어선 제작 크레딧은 확대 해석하지 않았다."
+        },
+        {
+          "field": "themeAndStructure",
+          "value": "성균의 역사·인재·소속감과 사회를 빛낼 책무를 두 절 및 반복 합창으로 전개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-declare-official-2021", "yt-skku-a-declare-university-2025", "yt-skku-a-declare-2025-eskara"],
+          "notes": "가사 전문은 저장하지 않고 대학 공식 영상이 공개한 도입 주제와 1·2절 타임라인, 공연 구조만 요약했다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 ESKARA·대동제와 2026 상반기 응원 OT·문행대동제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-declare-2025-eskara", "yt-skku-a-declare-2025-festival", "yt-skku-a-declare-2026-ot", "yt-skku-a-declare-2026-festival"],
+          "notes": "공식 채널의 서로 다른 행사 기록으로 현재성을 직접 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "ESKARA 응원제에서 무반주 관중 합창으로 시작해 밴드 반주와 1·2절로 확장하는 대표 합창곡으로 배치된다.",
+        "신입생 응원 OT에서는 동작 교육 뒤 실연하는 교육 레퍼토리로 쓰인다.",
+        "인문사회과학캠퍼스·자연과학캠퍼스 대동제와 대학 공식 홍보 퍼포먼스 모두에 사용돼 두 캠퍼스를 아우르는 학교 정체성 곡으로 확인된다.",
+        "입시 준비생·합격생·졸업생이 공식 음원 댓글에서 입학 다짐이나 모교 회상을 남기는 상징곡으로 소비한다."
+      ],
+      "trivia": [
+        {
+          "id": "declare-sungkyun-official-lyricist",
+          "summary": "학교 President's List가 장준서를 이 곡의 아이디어 제안자이자 작사가로 기록해, 댓글 추정보다 강한 공식 제작자 근거를 제공한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-a-president-list"]
+        },
+        {
+          "id": "declare-sungkyun-admission-ritual",
+          "summary": "공식 음원과 대학 퍼포먼스 영상 댓글에는 특정 학번 합격을 기원하거나 합격 뒤 다시 찾아왔다는 반응이 반복된다. 전통의 길이를 강조하는 가사가 수험생의 입학 의례처럼 쓰인 사례로 보되 전체 청취자 성향으로 일반화하지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-declare-official-2021", "yt-skku-a-declare-university-2025"]
+        },
+        {
+          "id": "declare-sungkyun-title-variation",
+          "summary": "일부 검색·구전에서는 `성균을 고하노라`로 잘못 부르지만 공식 응원단·대학 영상과 President's List 표기는 모두 `성균을 고하리라`다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-a-president-list", "yt-skku-a-declare-official-2021", "yt-skku-a-declare-university-2025"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university original cheer song; lyricist is partly identified, but composition, arrangement, choreography, recording and redistribution permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=dpiiCwHXOLE",
+          "https://www.youtube.com/watch?v=YhdSelmjjdM",
+          "https://presidentlist.skku.edu/presidentlist/2025_list.do?article.offset=20&articleLimit=10&mode=list"
+        ],
+        "structureSummary": "짧은 선언적 도입 뒤 성균의 역사와 인재 정체성을 설명하는 1절, 성균인의 책무와 미래를 다짐하는 2절로 전개된다. 현장판은 무반주 떼창 또는 하이라이트로 문을 연 뒤 밴드 반주에 맞춘 두 절과 반복 합창으로 마감한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-a-declare-official-2021",
+        "yt-skku-a-declare-2025-eskara",
+        "yt-skku-a-declare-2026-ot",
+        "yt-skku-a-declare-2026-festival",
+        "yt-skku-a-declare-2024-festival",
+        "yt-skku-a-declare-university-2025",
+        "yt-skku-a-declare-2025-festival"
+      ],
+      "unresolved": [
+        "작곡·편곡·보컬·연주·안무·음원 제작진의 공식 전체 크레딧",
+        "2021년 최초 공개일·행사와 정식 곡 제작 경위",
+        "공식 악보·응원 동작 지침 및 음원 이용 허락 범위",
+        "프로야구 선수 응원에서 유사 선율이 들린다는 댓글의 실제 음악적 관계"
+      ]
+    },
+    {
+      "id": "sungkyunkwan-university-you-my-sungkyun",
+      "title": "그대 나의 성균",
+      "aliases": ["그대, 나의 성균"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot",
+      "summary": "2025 ESKARA에서 확인되는 성균관대학교 자작 응원가다. 공식 곡별 영상은 `(2025)`와 `#자작곡`을 함께 표시하고 1절·2절 구조를 명시한다. 2025년 킹고응원단이 교내 밴드와 응원가 공모전을 추진했다는 총동창회 인터뷰와 시기가 맞지만, 이 곡이 공모전 수상작이라는 직접 자료는 찾지 못했으므로 둘을 연결하지 않는다. 2026 상반기 응원 OT에서 동작 교육과 실연이 모두 확인되어 현행곡으로 판정했다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2025년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-my-2025-eskara", "yt-skku-a-my-2026-ot", "yt-skku-a-my-2025-full"],
+          "notes": "공식 곡별 영상 두 편이 제목·설명에 `(2025)`를 표시한다."
+        },
+        {
+          "field": "originalStatus",
+          "value": "킹고응원단이 자작곡으로 표시; 외부 원곡 없음으로 취급하되 제작자 크레딧은 미확인",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-my-2025-eskara", "yt-skku-a-my-2025-campus-mix"],
+          "notes": "공식 해시태그의 `자작곡`은 외부 상업곡 개사와 구분하는 직접 표기다. 개인 작사·작곡자까지는 공개되지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026-03-06 상반기 응원 OT에서 교육과 실연, 하이라이트 모음에 수록",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-my-2026-ot", "yt-skku-a-my-2026-live", "yt-skku-a-my-2026-mix"],
+          "notes": "생중계 타임라인은 교육 45:20, 본 공연 48:10으로 분리하고 공식 하이라이트도 곡을 12:50에 수록한다."
+        },
+        {
+          "field": "performanceStructure",
+          "value": "두 절로 구성된 서정적 학교 사랑 노래이며 캠퍼스 간 문답형 묶음에도 사용",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-skku-a-my-2025-eskara", "yt-skku-a-my-2025-campus-mix", "yt-skku-a-my-2026-ot"],
+          "notes": "공식 타임라인과 공연 편집을 토대로 한 구조 요약이다. 가사 전문은 저장하지 않았다."
+        }
+      ],
+      "usageContexts": [
+        "2025 ESKARA 응원제에서 1절과 2절을 갖춘 자작곡 순서로 공연됐다.",
+        "`성대를 좋아해`, `성대를 사랑해`와 함께 인사캠 대 자과캠의 학교 사랑 묶음 영상에 배치됐다.",
+        "2026 신입생 응원 OT에서는 동작을 먼저 가르친 뒤 전체 곡을 부르는 참여형 레퍼토리로 운영됐다.",
+        "웅장한 승리곡보다 학교와 구성원의 관계를 직접 호명하는 서정적 애교곡 역할을 한다."
+      ],
+      "trivia": [
+        {
+          "id": "my-sungkyun-self-composed-label",
+          "summary": "공식 2025 ESKARA 곡별 영상은 이 노래에만 `#자작곡`을 명시해 외부 원곡 개사곡과 구분한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-my-2025-eskara"]
+        },
+        {
+          "id": "my-sungkyun-contest-unproven",
+          "summary": "총동창회 인터뷰는 2025년 응원문화 혁신 프로젝트와 교내 밴드 응원가 공모전을 기록하지만, 공개 자료만으로 `그대 나의 성균`이 그 공모전 결과물인지는 확인되지 않는다.",
+          "assessment": "unresolved",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-a-alumni", "yt-skku-a-my-2025-eskara"]
+        },
+        {
+          "id": "my-sungkyun-two-campus-framing",
+          "summary": "공식 혼합 영상은 인사캠과 자과캠의 학교 사랑 대결이라는 장난스러운 틀 안에 이 곡을 넣는다. 댓글은 실제 라이벌이 없다는 농담을 남기지만 두 캠퍼스를 한 노래로 묶는 편집 의도는 분명하다.",
+          "assessment": "anecdotal",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-my-2025-campus-mix"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 2025 university original cheer song; writers, composers, arrangement, choreography, recording and redistribution permissions are not publicly documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=9GIw9bpc2XI",
+          "https://www.youtube.com/watch?v=0SRKMyV9f-E",
+          "https://alumni.skku.edu/alumni/circular/interview.do?article.offset=60&articleLimit=10&articleNo=59367&mode=view"
+        ],
+        "structureSummary": "서정적인 도입에서 성균을 직접 부르는 1절로 시작해 학교와 함께할 미래를 확장하는 2절로 이어진다. 행사판은 각 절 앞뒤에 짧은 하이라이트·관중 응답을 넣고, OT에서는 동작 교육 뒤 같은 두 절을 공연한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-a-my-2025-eskara",
+        "yt-skku-a-my-2026-ot",
+        "yt-skku-a-my-2025-campus-mix",
+        "yt-skku-a-my-2025-full",
+        "yt-skku-a-my-2026-live",
+        "yt-skku-a-my-2026-mix"
+      ],
+      "unresolved": [
+        "작사·작곡·편곡·보컬·연주·안무·음원 제작진의 공식 전체 크레딧",
+        "2025년 최초 공개일과 ESKARA 전 선공개 여부",
+        "2025 응원가 공모전과 이 곡의 직접 관계 및 수상 내역",
+        "공식 가사·악보·응원 동작 자료와 이용 허락 범위"
+      ]
+    },
+    {
+      "id": "sungkyunkwan-university-shout",
+      "title": "함성",
+      "aliases": ["성균관대 함성"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot",
+      "summary": "홍대성이 만든 2014년 영화 《군도: 민란의 시대》 OST `최후의 결투`를 성균관대 분위기에 맞게 록 밴드와 군중 합창으로 편곡한 2022년 응원가다. 성균관대 총학생회 공식 영상은 ESKARA'22 최초 공개, 원곡, 2023 응원제 1398 메인곡 선정과 연주자 8명의 파트별 크레딧을 직접 밝힌다. 2026 응원 OT에서는 단장 독무로 시작해 단원이 등장하는 피날레 성격의 퍼포먼스로 이어져 현행 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2022년, 제1회 응원제 1398/ESKARA'22에서 최초 공개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-shout-first-2022", "yt-skku-a-shout-council-2023", "yt-skku-a-shout-2026-ot"],
+          "notes": "2022년 9월 30일 현장 영상과 2023 총학생회 설명, 2026 공식 영상의 `(2022)` 표기가 일치한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "홍대성 `최후의 결투`, 영화 《군도: 민란의 시대》 OST(2014)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-shout-council-2023", "ev-skku-a-kundo-apple"],
+          "notes": "성균관대 총학생회가 원곡을 직접 밝히고 음원 카탈로그가 제목·아티스트·2014년 OST 수록을 확인한다."
+        },
+        {
+          "field": "arrangementCredits",
+          "value": "2023 메인곡 녹음: 이태인 보컬, 이현승·주재현·유시현 기타, 이장엽 베이스, 우현우 드럼, 안호영·서우석 신시사이저",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-shout-council-2023"],
+          "notes": "총학생회 공식 설명의 파트별 크레딧을 요약했다. 2022 최초판과 같은 녹음·편곡인지 여부는 별도 확인이 필요하다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2025 ESKARA와 2026 상반기 응원 OT 피날레 퍼포먼스에 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-shout-2025-eskara", "yt-skku-a-shout-2026-ot", "yt-skku-a-shout-2026-mix"],
+          "notes": "2026 OT 생중계는 이 곡을 2부 1:50:10 퍼포먼스로 따로 표기한다."
+        }
+      ],
+      "usageContexts": [
+        "2022 제1회 응원제 1398에서 신곡으로 처음 공개됐다.",
+        "2023 건학 625주년 ESKARA 응원제 1398의 메인 응원곡으로 선정됐다.",
+        "2026 응원 OT에서는 1부 동작 교육곡이 아니라 2부 음악부 공연 뒤 단장 독무와 단원 등장을 결합한 피날레 퍼포먼스로 배치됐다.",
+        "영화 결투 장면의 장중한 관현악 주제를 밴드·신시사이저·보컬과 군중 응원으로 확대해 행사 절정에 사용한다."
+      ],
+      "trivia": [
+        {
+          "id": "shout-first-and-main",
+          "summary": "2022년 신곡 공개와 2023년 메인 응원곡 선정은 서로 다른 사건이다. 총학생회 설명 덕분에 `2023 신곡`으로 오인하지 않고 도입연도 2022를 유지할 수 있다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-shout-first-2022", "yt-skku-a-shout-council-2023"]
+        },
+        {
+          "id": "shout-full-band-credit",
+          "summary": "대학 응원가 자료로는 드물게 2023 총학생회 영상이 보컬부터 기타 세 명, 베이스·드럼·신시사이저 두 명까지 실연자 학과와 학번을 모두 공개한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-shout-council-2023"]
+        },
+        {
+          "id": "shout-solo-entrance",
+          "summary": "2026 공식 곡별 영상은 00:00 단장 독무, 01:33 단원 등장으로 장면을 분리한다. 합창만으로 진행되는 다른 응원가와 달리 연출 중심 퍼포먼스라는 특징이 뚜렷하다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-shout-2026-ot"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted 2014 film-score adaptation and university arrangement; original composition, adapted lyrics, arrangement, choreography, performance and recording rights are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=EGEsW84ZT5c",
+          "https://music.apple.com/us/song/904515872",
+          "https://www.youtube.com/watch?v=oSwnhBLFrBI"
+        ],
+        "structureSummary": "원곡의 장중한 결투 주제를 신시사이저와 밴드로 고조시키고 독무 구간에서 긴장을 쌓은 뒤 단원 전원이 합류한다. 절과 후렴을 단순 반복하는 일반 떼창보다 영화음악식 상승·전환과 군중 함성의 결합이 중심이다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-a-shout-2026-ot",
+        "yt-skku-a-shout-2025-eskara",
+        "yt-skku-a-shout-council-2023",
+        "yt-skku-a-shout-first-2022",
+        "yt-skku-a-shout-2025-full",
+        "yt-skku-a-shout-2026-mix"
+      ],
+      "unresolved": [
+        "성균관대판의 작사·편곡·안무 책임자와 2022 최초 녹음 전체 크레딧",
+        "2022 최초판과 2023 메인곡 녹음·편곡 사이의 변경 범위",
+        "영화 OST의 편곡·공연·녹음 이용 허락 관계",
+        "공식 가사·악보·응원 동작 자료"
+      ]
+    },
+    {
+      "id": "sungkyunkwan-university-kingo-shout",
+      "title": "킹고인의 함성",
+      "aliases": ["킹고인의함성", "킹고인의 함성 응원대제전"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-munhaeng-festival",
+      "summary": "2006년에 나온 성균관대학교 대표 응원가로, 학교 구호 `킹고`와 `SKK`를 짧은 합창·호응으로 반복한다. 2016 공식 입학식 영상은 이미 이를 `성균관대학교 대표 응원곡`이라 불렀고 2024~2026 대동제·ESKARA·응원 OT에서도 계속 사용됐다. 다만 같은 이름의 `킹고인의 함성 응원대제전`은 1987년 시작한 행사이므로 2006년 노래의 도입연도와 혼동하면 안 된다. 외부 원곡이나 공식 작사·작곡자는 아직 확인되지 않았으며, 2005학번 김영훈이 불렀다는 댓글은 개인 증언으로만 보존한다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2006년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-kingo-2025-eskara", "yt-skku-a-kingo-2026-ot", "yt-skku-a-kingo-2026-festival"],
+          "notes": "세 편의 공식 최신 영상이 곡 제목에 `(2006)`을 직접 표시한다."
+        },
+        {
+          "field": "representativeStatus",
+          "value": "2016 입학식 공식 영상부터 `성균관대학교 대표 응원곡`으로 소개",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-kingo-2016-entrance", "yt-skku-a-kingo-official-audio", "ev-skku-a-namu"] ,
+          "notes": "공식 설명과 대학 구호 문서가 곡의 핵심인 킹고·SKK 구호를 교차 확인한다."
+        },
+        {
+          "field": "eventTitleDistinction",
+          "value": "노래는 2006년, 동명 응원대제전은 1987년 제1회 개최",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-a-alumni", "ev-skku-a-official-squad", "yt-skku-a-kingo-2026-ot"],
+          "notes": "2026 상반기 응원 OT 자체도 `킹고인의 함성`을 행사명으로 쓴다. 행사명과 곡명을 별도 엔터티로 관리해야 한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024·2025 대동제, 2025 ESKARA, 2026 응원 OT와 문행대동제에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-kingo-2024-festival", "yt-skku-a-kingo-2025-festival", "yt-skku-a-kingo-2025-eskara", "yt-skku-a-kingo-2026-festival"],
+          "notes": "여러 연도와 캠퍼스 행사에서 지속 사용을 확인했다."
+        }
+      ],
+      "usageContexts": [
+        "입학식·신입생 응원 OT에서 학교 구호와 기본 동작을 익히는 대표 교육곡으로 사용한다.",
+        "ESKARA와 대동제에서 1절·2절 구조의 군중 합창곡으로 배치된다.",
+        "2026 응원 OT에서는 교육 뒤 1부 공연에 이어 2부 피날레에서도 두 차례 재등장해 행사 표제곡 역할을 했다.",
+        "짧은 학교 구호와 알파벳 약칭을 반복해 세대와 캠퍼스를 넘어 쉽게 합류할 수 있는 곡으로 운용된다."
+      ],
+      "trivia": [
+        {
+          "id": "kingo-shout-song-event-homonym",
+          "summary": "1987년부터 열린 응원대제전과 2006년 노래가 같은 이름을 쓴다. 2026년에는 상반기 응원 OT의 행사명에도 다시 사용돼 검색 결과에서 행사·곡·영상 제목이 뒤섞인다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-a-alumni", "ev-skku-a-official-squad", "yt-skku-a-kingo-2026-ot"]
+        },
+        {
+          "id": "kingo-etymology",
+          "summary": "학교 공식 소개와 나무위키는 `킹고`가 학교 상징인 은행에서 변형된 말이며 성균인의 구호로 쓰인다고 설명한다. 이 곡은 그 구호를 제목과 반복부의 중심에 둔다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-a-official-squad", "ev-skku-a-namu", "yt-skku-a-kingo-2016-entrance"]
+        },
+        {
+          "id": "kingo-vocalist-memory",
+          "summary": "공식 음원 댓글 한 건은 화학공학과 05학번 김영훈이 노래했다고 주장한다. 당사자·응원단의 공식 크레딧이 없어 보컬 관련 구술 증언으로만 남긴다.",
+          "assessment": "anecdotal",
+          "confidence": "low",
+          "evidenceRefs": ["yt-skku-a-kingo-official-audio"]
+        },
+        {
+          "id": "kingo-long-memory",
+          "summary": "2016 입학식, 2022 축제, 2024~2026 공식 공연의 댓글에는 2000년대·1990년대 학번 동문이 추억을 남긴다. 다만 곡이 2006년 이전에 있었다는 증거로 사용하지 않는다.",
+          "assessment": "anecdotal",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-skku-a-kingo-2016-entrance", "yt-skku-a-kingo-audience-2022", "yt-skku-a-kingo-2024-festival"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university cheer song; writers, composers, vocalist, arrangement, choreography, recording and redistribution permissions are not publicly documented",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=jk1jNAfI2r0",
+          "https://www.youtube.com/watch?v=Ww8Wy3_wnvA",
+          "https://www.skku.edu/skku_bak/campus/activities/cheering_party.do"
+        ],
+        "structureSummary": "두 절의 짧은 선율 블록 사이와 끝에 학교 구호 `킹고`와 약칭 `SKK`를 반복하는 군중 응답을 배치한다. 현장판은 진행자의 선창, 관중의 구호·박수, 같은 합창의 재현으로 마무리한다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-a-kingo-official-audio",
+        "yt-skku-a-kingo-2025-eskara",
+        "yt-skku-a-kingo-2026-ot",
+        "yt-skku-a-kingo-2026-festival",
+        "yt-skku-a-kingo-2024-festival",
+        "yt-skku-a-kingo-audience-2022",
+        "yt-skku-a-kingo-2016-entrance",
+        "yt-skku-a-kingo-2025-festival"
+      ],
+      "unresolved": [
+        "2006년 최초 공개일·행사와 작사·작곡·편곡·안무·녹음 전체 크레딧",
+        "2005학번 김영훈 보컬설의 공식 확인",
+        "외부 원곡 유무와 공식 악보·음원 권리 관계",
+        "1987 응원대제전 명칭이 2006 노래 제목에 채택된 구체적 경위"
+      ]
+    },
+    {
+      "id": "sungkyunkwan-university-for-victory",
+      "title": "승리를 위하여",
+      "aliases": ["성균관대 승리를 위하여", "Emerald Sword 응원가"],
+      "currentStatus": "current-directly-verified-at-2026-cheer-ot-and-munhaeng-festival",
+      "summary": "Rhapsody의 1998년 파워메탈 곡 `Emerald Sword` 후렴 선율을 바탕으로 만든 2016년 성균관대학교 응원가다. 짧은 학교 구호 뒤 성균관의 승리를 선언하는 두 절을 반복하며, 2022 양 캠퍼스 대동제와 2024·2025 ESKARA·대동제, 2026 응원 OT·문행대동제에서 계속 사용됐다. 같은 원곡을 쓰는 두산 베어스 `승리를 위하여`와 한양대 `한양을 위하여`가 있어 댓글에서는 베끼기 논쟁이 반복되지만, 현재 자료만으로 성균관대판이 어느 조직의 개사를 직접 차용했는지는 확정할 수 없다. 따라서 세 곡이 같은 외부 원곡을 공유한다는 사실과 직접 전승 경로를 분리한다.",
+      "claims": [
+        {
+          "field": "introductionYear",
+          "value": "2016년",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-victory-2025-eskara", "yt-skku-a-victory-2026-ot", "yt-skku-a-victory-2026-festival"],
+          "notes": "공식 최신 영상 세 편이 제목·설명에 `(2016)`을 직접 표시한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Rhapsody `Emerald Sword`, 앨범 《Symphony of Enchanted Lands》(1998)",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-a-rhapsody", "yt-skku-a-victory-official-audio", "yt-skku-a-victory-2022-yuljeon"],
+          "notes": "레이블·밴드 공식 원곡 자료와 성균관대 공연의 선율을 대조했다. 공식 응원가 댓글도 같은 원곡을 반복 식별하지만 댓글만으로 판정하지 않았다."
+        },
+        {
+          "field": "sharedMelodyLineage",
+          "value": "두산 베어스 동명곡·한양대 `한양을 위하여`와 같은 외부 원곡을 공유; 직접 차용 경로는 미확정",
+          "assessment": "contested",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-skku-a-doosan-namu", "yt-skku-a-victory-official-audio", "yt-skku-a-victory-2022-yuljeon", "ev-skku-a-rhapsody"],
+          "notes": "두산은 2015년, 성균관대는 2016년 표본이지만 시간 선후만으로 직접 차용을 확정하지 않는다. 댓글의 학교 간 비난은 수용사 자료이지 제작사 근거가 아니다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 응원 OT에서 교육·실연, 2026 문행대동제에서 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-victory-2026-ot", "yt-skku-a-victory-2026-festival", "yt-skku-a-victory-guide-2024"],
+          "notes": "2024 응원법 가이드와 2026 두 행사 영상이 현행 동작·사용을 직접 확인한다."
+        }
+      ],
+      "usageContexts": [
+        "신입생 응원 OT에서 기본 동작을 교육한 뒤 전원이 부르는 승리곡으로 사용한다.",
+        "명륜·율전 대동제와 통합 문행대동제, ESKARA에서 군중의 에너지를 끌어올리는 후반부 곡으로 배치된다.",
+        "2024년에는 교내 밴드 `수선관 그 밴드`와 협업한 야외 라이브 콘텐츠로도 재해석됐다.",
+        "원곡의 빠른 파워메탈 후렴을 학교명과 승리 선언 중심의 짧은 두 절·반복 합창으로 바꿔 사용한다."
+      ],
+      "trivia": [
+        {
+          "id": "victory-shared-original-not-direct-copy",
+          "summary": "영상 댓글은 두산·한양·성균관대 중 누가 누구를 베꼈는지 논쟁하지만, 확인되는 강한 사실은 세 응원가가 Rhapsody의 외부 원곡을 공유한다는 점이다. 직접 개사 전승은 별도 증거가 필요하다.",
+          "assessment": "contested",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-victory-official-audio", "yt-skku-a-victory-2022-yuljeon", "ev-skku-a-doosan-namu", "ev-skku-a-rhapsody"]
+        },
+        {
+          "id": "victory-two-campus-2022",
+          "summary": "2022년 공식 채널은 자연과학캠퍼스 율전과 인문사회과학캠퍼스 명륜 대동제 영상을 따로 공개해 같은 곡이 양 캠퍼스 공통 레퍼토리였음을 보여 준다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-victory-2022-yuljeon", "yt-skku-a-victory-2022-myeongnyun"]
+        },
+        {
+          "id": "victory-band-collaboration",
+          "summary": "2024 `킹고잉: 여름` 영상은 킹고응원단이 교내 밴드 `수선관 그 밴드`와 이 곡을 협업했다고 밝힌다. 정규 행사 외 별도 라이브 콘텐츠로 확장된 사례다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-skku-a-victory-band-2024"]
+        },
+        {
+          "id": "victory-guide",
+          "summary": "공식 Linktree와 2024 Chapter 7 영상이 이 곡을 정식 응원법 가이드에 포함해, 단순 축제 커버가 아니라 킹고응원단의 교육 레퍼토리임을 확인한다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["ev-skku-a-linktree", "yt-skku-a-victory-guide-2024"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "copyrighted university adaptation of Rhapsody's 1998 commercial song; original and adapted lyric, arrangement, choreography, performance and recording permissions are not documented here",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=D-oPBXaGvrU",
+          "https://www.youtube.com/watch?v=nE7pz87rASo",
+          "https://www.youtube.com/watch?v=YqQcu4Zsly8"
+        ],
+        "structureSummary": "`Emerald Sword`의 빠른 후렴 선율을 짧은 학교 구호와 두 절의 승리 선언으로 바꾸고 핵심 합창을 반복한다. OT에서는 동작 교육과 본 공연을 분리하고, 축제판에서는 밴드 반주·관중 떼창을 더 길게 끌어간다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-skku-a-victory-official-audio",
+        "yt-skku-a-victory-2025-eskara",
+        "yt-skku-a-victory-2026-ot",
+        "yt-skku-a-victory-2022-yuljeon",
+        "yt-skku-a-victory-2022-myeongnyun",
+        "yt-skku-a-victory-2026-festival",
+        "yt-skku-a-victory-band-2024",
+        "yt-skku-a-victory-guide-2024"
+      ],
+      "unresolved": [
+        "성균관대판의 작사·편곡·보컬·연주·안무·녹음 전체 크레딧",
+        "2016년 최초 공개일·행사와 제작 제안자",
+        "두산·한양판과의 직접 개사 전승 또는 독립 제작 여부",
+        "Rhapsody 원곡의 편곡·개사·공연·녹음 이용 허락 관계"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-skku-a-official-squad",
+      "type": "university-primary",
+      "url": "https://www.skku.edu/skku_bak/campus/activities/cheering_party.do",
+      "title": "성균관대학교 응원단",
+      "publisher": "성균관대학교",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "킹고응원단을 체육학과 응원부에서 확대된 학교 응원단으로 소개하고 1977년 이래 활동, `킹고`의 은행 상징 유래, 가을 건학기념제의 `킹고인의 함성` 응원대제전을 주요 행사로 설명한다.",
+      "supports": ["응원단 공식성", "킹고 어원", "킹고인의 함성 행사명", "1977 조직 연혁"]
+    },
+    {
+      "id": "ev-skku-a-alumni",
+      "type": "official-alumni-interview",
+      "url": "https://alumni.skku.edu/alumni/circular/interview.do?article.offset=60&articleLimit=10&articleNo=59367&mode=view",
+      "title": "모교 학생 동아리 탐방 - 킹고응원단, 세대를 뛰어넘어 '응원 열정'",
+      "publisher": "성균관대학교 총동창회",
+      "publishedAt": "2025-10-24",
+      "accessedAt": "2026-08-09",
+      "summary": "학교 산하 유일 공식 응원단, 1967 창단·1977 조직 발전, 1987 제1회 `킹고인의 함성` 응원대제전, 2024 ESKARA 2부·어깨동무 응원 도입, 2025 교내 밴드 응원가 공모전과 2026 음악부 신설 계획을 응원단 인터뷰로 기록한다.",
+      "supports": ["조직 연혁 상충", "1987 동명 행사", "2025 응원가 공모전", "공식 응원단", "음악부"]
+    },
+    {
+      "id": "ev-skku-a-president-list",
+      "type": "university-primary-profile",
+      "url": "https://presidentlist.skku.edu/presidentlist/2025_list.do?article.offset=20&articleLimit=10&mode=list",
+      "title": "President's List 7기",
+      "publisher": "성균관대학교",
+      "publishedAt": "2025",
+      "accessedAt": "2026-08-09",
+      "summary": "글로벌경영학과 20학번 장준서의 교내 활동에 성균관대학교 응원가 `성균을 고하리라`의 아이디어 제안 및 작사를 공식 기재한다.",
+      "supports": ["성균을 고하리라 아이디어", "성균을 고하리라 작사"]
+    },
+    {
+      "id": "ev-skku-a-linktree",
+      "type": "official-social-index",
+      "url": "https://linktr.ee/eskarakinggo",
+      "title": "성균관대학교 킹고응원단 Official",
+      "publisher": "성균관대학교 킹고응원단",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "응원단 공식 YouTube·Instagram, 현행 플레이리스트와 응원법 가이드를 연결한다. `성균을 고하리라`는 Chapter 4, `승리를 위하여`는 Chapter 7 가이드로 확인된다.",
+      "supports": ["공식 채널", "현행 응원법", "성균을 고하리라", "승리를 위하여"]
+    },
+    {
+      "id": "ev-skku-a-namu",
+      "type": "community-encyclopedia",
+      "url": "https://d.namu.moe/w/%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90",
+      "title": "성균관대학교",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "학교 상징 은행과 `킹고` 구호의 관계, `SKK`를 포함한 교호, ESKARA가 건학기념제에서 시작된 9월 축제라는 맥락을 제공한다. 곡별 연도 자료는 없어 공식 영상으로 보완했다.",
+      "supports": ["킹고 어원", "학교 교호", "ESKARA 행사 맥락"]
+    },
+    {
+      "id": "ev-skku-a-newspaper-2025",
+      "type": "campus-newspaper",
+      "url": "https://www.skkuw.com/news/articleView.html?idxno=31844",
+      "title": "성균관 유생이 된 여러분을 진심으로 축하합니다",
+      "publisher": "성대신문",
+      "publishedAt": "2025",
+      "accessedAt": "2026-08-09",
+      "summary": "2025 입학식 뒤 킹고응원단이 `승리를 위하여`, `성균을 고하리라` 등에 맞춰 신입생에게 구호와 동작을 전수했다고 현장을 보도한다.",
+      "supports": ["입학식 사용", "응원 동작 교육", "2025 현재성"]
+    },
+    {
+      "id": "ev-skku-a-newspaper-2022",
+      "type": "campus-newspaper",
+      "url": "https://www.skkuw.com/news/articleView.html?idxno=23759",
+      "title": "ESKARA 현장 보도",
+      "publisher": "성대신문",
+      "publishedAt": "2022",
+      "accessedAt": "2026-08-09",
+      "summary": "2022 ESKARA에서 킹고응원단이 `승리를 위하여`, `킹고인의 함성` 등을 공연했다고 보도해 공식 채널 영상 외의 현장 사용을 교차 확인한다.",
+      "supports": ["2022 ESKARA", "승리를 위하여", "킹고인의 함성"]
+    },
+    {
+      "id": "ev-skku-a-kundo-apple",
+      "type": "music-catalog",
+      "url": "https://music.apple.com/us/song/904515872",
+      "title": "최후의 결투 - Hong Dae Sung",
+      "publisher": "Apple Music",
+      "publishedAt": "2014-07-30",
+      "accessedAt": "2026-08-09",
+      "summary": "홍대성의 `최후의 결투`를 2014년 《군도》 오리지널 영화 사운드트랙 수록곡으로 확인한다.",
+      "supports": ["함성 원곡 제목", "원곡 아티스트", "2014 OST"]
+    },
+    {
+      "id": "ev-skku-a-rhapsody",
+      "type": "rights-holder-video-and-artist-primary",
+      "url": "https://www.youtube.com/watch?v=nE7pz87rASo",
+      "title": "RHAPSODY - Emerald Sword (Official Video)",
+      "publisher": "Limb Music",
+      "publishedAt": "2013-10-01",
+      "accessedAt": "2026-08-09",
+      "summary": "레이블 공식 영상이 `Emerald Sword`를 Rhapsody의 1998년 10월 앨범 《Symphony Of Enchanted Lands》 수록곡으로 소개한다.",
+      "supports": ["승리를 위하여 원곡", "Rhapsody", "1998 발매"]
+    },
+    {
+      "id": "ev-skku-a-doosan-namu",
+      "type": "community-encyclopedia",
+      "url": "https://namu.moe/w/%EC%8A%B9%EB%A6%AC%EB%A5%BC%20%EC%9C%84%ED%95%98%EC%97%AC%28%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4%29",
+      "title": "승리를 위하여(두산 베어스)",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "accessedAt": "2026-08-09",
+      "summary": "두산판을 한재권 응원단장이 2015년 발표한 `Emerald Sword` 번안으로 설명하고 한양대 파생 사용을 함께 기록한다. 성균관대판의 직접 전승 경로는 설명하지 않으므로 공통 원곡과 별도로 보존한다.",
+      "supports": ["두산판 2015", "공통 원곡", "한양대 관계", "성균관대 직접 관계 미확정"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-skku-a-declare-official-2021",
+      "songId": "sungkyunkwan-university-declare-sungkyun",
+      "url": "https://www.youtube.com/watch?v=dpiiCwHXOLE",
+      "videoId": "dpiiCwHXOLE",
+      "title": "성균을 고하리라",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2021-11-02",
+      "descriptionSummary": "별도 설명이 없는 응원단 공식 곡별 음원·퍼포먼스 영상으로, 현재 찾은 가장 이른 공식 공개 표본이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["수험생은 합격을 기원하고 졸업생은 모교와 대학 시절을 회상하며, 일부 동문은 재학 시절에도 이 곡이 있었으면 좋았겠다고 반응한다.", "몇몇 댓글은 프로야구 선수 응원에서 비슷한 선율을 들었다고 적지만 구체적인 제작 관계는 제시하지 않는다."],
+      "supports": ["공식 소속", "2021 공개", "입시·동문 수용", "가사 주제"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-declare-2025-eskara",
+      "songId": "sungkyunkwan-university-declare-sungkyun",
+      "url": "https://www.youtube.com/watch?v=V56WtXBO1Io",
+      "videoId": "V56WtXBO1Io",
+      "title": "[2025 ESKARA] ‘성균을 고하리라’🐉 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-27",
+      "descriptionSummary": "2025년 9월 12일 ESKARA 응원제 1398 공연이다. 00:13 무반주 떼창 뒤 00:54 1절, 01:39 2절로 이어지고 곡 연도를 2021로 표시한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 다른 대학과의 정기 교류전을 희망하거나 가사의 학교 정체성 표현을 논평한다."],
+      "supports": ["2021 연도", "2025 ESKARA", "무반주 떼창", "1·2절 구조"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-declare-2026-ot",
+      "songId": "sungkyunkwan-university-declare-sungkyun",
+      "url": "https://www.youtube.com/watch?v=ceuS-k5_yo0",
+      "videoId": "ceuS-k5_yo0",
+      "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '성균을 고하리라' (2021) 🐉 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026년 3월 6일 상반기 응원 OT 곡별 영상으로 공식 제목과 2021년 도입 표기를 직접 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 해마다 영상 콘텐츠의 완성도가 높아진다며 응원단의 기록 작업을 긍정한다."],
+      "supports": ["2026 현행 사용", "응원 OT", "2021 연도"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-declare-2026-festival",
+      "songId": "sungkyunkwan-university-declare-sungkyun",
+      "url": "https://www.youtube.com/watch?v=TM9gAD74XXM",
+      "videoId": "TM9gAD74XXM",
+      "title": "[2026 문행대동제] '성균을 고하리라' (2021) 🐉 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-06-27",
+      "descriptionSummary": "2026년 5월 15일 통합 문행대동제 `은행잎이 이어준 인연` 공연으로, 00:25부터 전곡을 싣고 2021년 곡임을 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 문행대동제", "현재성", "2021 연도"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-declare-2024-festival",
+      "songId": "sungkyunkwan-university-declare-sungkyun",
+      "url": "https://www.youtube.com/watch?v=d9TZII51Y5Q",
+      "videoId": "d9TZII51Y5Q",
+      "title": "[RE-PLAY 킹고] 2024 성균관대학교 명륜 대동제: 성균을 고하리라",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-07-17",
+      "descriptionSummary": "2024 명륜 대동제의 공식 풀캠으로 응원단이 직접 촬영·편집·출연 크레딧을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 이 곡을 성대를 대표하는 노래로 평가하면서 현장 전체를 더 넓게 담은 기록을 바란다."],
+      "supports": ["2024 명륜 대동제", "대표곡 수용", "공식 풀캠"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-declare-university-2025",
+      "songId": "sungkyunkwan-university-declare-sungkyun",
+      "url": "https://www.youtube.com/watch?v=YhdSelmjjdM",
+      "videoId": "YhdSelmjjdM",
+      "title": "'성균을 고하리라' Performance Video",
+      "channel": "성균관대학교SKKU",
+      "publishedAt": "2025-08-11",
+      "descriptionSummary": "대학 본 채널의 공식 퍼포먼스 영상이다. 설명은 성균에 인재가 모여 왔다는 도입 주제를 짧게 제시하며 곡을 학교 공식 홍보 콘텐츠로 사용한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["합격을 기원하는 반응과 연출·응원단 퍼포먼스를 호평하는 반응이 주를 이룬다."],
+      "supports": ["대학 공식성", "가사 도입 주제", "2025 홍보 활용", "입시 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-declare-2025-festival",
+      "songId": "sungkyunkwan-university-declare-sungkyun",
+      "url": "https://www.youtube.com/watch?v=LWozbdyFPtg",
+      "videoId": "LWozbdyFPtg",
+      "title": "[성균관대학교 킹고응원단] Re-play kinggo : 2025 대동제 성균을 고하리라",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-08-01",
+      "descriptionSummary": "2025 대동제 공식 풀캠으로 촬영·편집·출연 주체와 행사 사용을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["여러 학번의 동문이 모교를 응원하고, 밴드와 보컬의 현장 연주를 긍정적으로 평가한다."],
+      "supports": ["2025 대동제", "동문 수용", "라이브 밴드"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-my-2025-eskara",
+      "songId": "sungkyunkwan-university-you-my-sungkyun",
+      "url": "https://www.youtube.com/watch?v=9GIw9bpc2XI",
+      "videoId": "9GIw9bpc2XI",
+      "title": "[2025 ESKARA] ‘그대 나의 성균’🐉 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-26",
+      "descriptionSummary": "2025년 9월 12일 ESKARA 응원제 공연이다. `(2025)`, `#자작곡`을 명시하고 00:10 1절, 01:20 2절로 구분한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 도입", "자작곡", "1·2절", "ESKARA"] ,
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-my-2026-ot",
+      "songId": "sungkyunkwan-university-you-my-sungkyun",
+      "url": "https://www.youtube.com/watch?v=0SRKMyV9f-E",
+      "videoId": "0SRKMyV9f-E",
+      "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '그대 나의 성균' (2025) 🐉 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-30",
+      "descriptionSummary": "2026년 3월 6일 상반기 응원 OT 곡별 영상으로, 곡의 2025년 표기와 2026 현행 사용을 동시에 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현재성", "2025 도입", "응원 OT"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-my-2025-campus-mix",
+      "songId": "sungkyunkwan-university-you-my-sungkyun",
+      "url": "https://www.youtube.com/watch?v=-GYFlabif04",
+      "videoId": "-GYFlabif04",
+      "title": "[Mix] 인사캠 VS 자과캠 성뽕 대결🐉 4K | 관객 교차편집 – ‘성대를 좋아해, 성대를 사랑해, 그대 나의 성균’",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-28",
+      "descriptionSummary": "2025 ESKARA 학교 사랑 3곡 묶음으로 `그대 나의 성균`을 03:59부터 수록하고 인사캠·자과캠의 참여를 장난스러운 대결 구도로 편집한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 두 캠퍼스 사이를 실제 라이벌전으로 부르기 어렵다는 농담을 남긴다."],
+      "supports": ["두 캠퍼스 맥락", "2025 ESKARA", "곡 타임라인"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-my-2025-full",
+      "songId": "sungkyunkwan-university-you-my-sungkyun",
+      "url": "https://www.youtube.com/watch?v=fTeHh_EvuVw",
+      "videoId": "fTeHh_EvuVw",
+      "title": "[Mix] 성균관대 응원가 전곡 총출동!🐉 4K | 관객 교차편집 – 응원가 14개 모음.zip",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-28",
+      "descriptionSummary": "2025 ESKARA 14곡 전체 묶음으로 이 곡을 19:00에 수록해 같은 해 현행 레퍼토리 안의 위치를 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 응원가와 백 밴드의 연주력을 호평하고 동문·수험생이 학교 소속감과 입학 목표를 표현한다."],
+      "supports": ["2025 전체 레퍼토리", "19:00 타임라인", "밴드 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-my-2026-live",
+      "songId": "sungkyunkwan-university-you-my-sungkyun",
+      "url": "https://www.youtube.com/watch?v=LZPuqk93SqQ",
+      "videoId": "LZPuqk93SqQ",
+      "title": "2026 성균관대학교 상반기 응원 OT LIVE🔴 (17:00~19:00)",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-06",
+      "descriptionSummary": "2026 응원 OT 전체 생중계다. `그대 나의 성균` 동작 교육을 45:20, 실연을 48:10에 별도로 기록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 단장·부단장과 단원들의 에너지, 행사의 긴 구성과 공식 편집 기록을 긍정한다."],
+      "supports": ["2026 교육", "2026 실연", "응원 OT 전체 맥락"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-my-2026-mix",
+      "songId": "sungkyunkwan-university-you-my-sungkyun",
+      "url": "https://www.youtube.com/watch?v=yTIbhE5hB-s",
+      "videoId": "yTIbhE5hB-s",
+      "title": "[Mix] 성균관대 2026 상반기 응원 OT 하이라이트만 모아보기! 🐉 4K | 교차편집 모아보기",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-31",
+      "descriptionSummary": "2026 상반기 응원 OT 공식 하이라이트로 이 곡을 12:50에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글 한 건은 다른 대학 응원 문화와 비교하며 단장 비중과 동작 연출을 평가한다."],
+      "supports": ["2026 현행 목록", "12:50 타임라인", "공식 하이라이트"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-shout-2026-ot",
+      "songId": "sungkyunkwan-university-shout",
+      "url": "https://www.youtube.com/watch?v=oSwnhBLFrBI",
+      "videoId": "oSwnhBLFrBI",
+      "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '함성' (2022)🐉 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026 응원 OT 곡별 영상으로 `(2022)`를 표시하고 00:00 단장 독무, 01:33 단원 등장으로 연출을 구분한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2022 연도", "2026 현재성", "단장 독무", "단원 등장"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-shout-2025-eskara",
+      "songId": "sungkyunkwan-university-shout",
+      "url": "https://www.youtube.com/watch?v=atjZuJPL1n0",
+      "videoId": "atjZuJPL1n0",
+      "title": "[2025 ESKARA] ‘함성’🐉 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-27",
+      "descriptionSummary": "2025 ESKARA 응원제 1398 공연으로 `(2022)`, 00:11 1절과 02:03 2절 타임라인을 제공한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2025 ESKARA", "2022 연도", "1·2절 구조"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-shout-council-2023",
+      "songId": "sungkyunkwan-university-shout",
+      "url": "https://www.youtube.com/watch?v=EGEsW84ZT5c",
+      "videoId": "EGEsW84ZT5c",
+      "title": "[건학 625주년 ESKARA:1398 응원제 1398 메인 응원곡 '함성']",
+      "channel": "성균관대학교 총학생회 S'PEAK",
+      "publishedAt": "2023-09-09",
+      "descriptionSummary": "총학생회가 2022 최초 공개, 영화 《군도》 OST `최후의 결투` 원곡, 성균관대식 편곡, 2023 메인곡 선정과 보컬·기타·베이스·드럼·신시사이저 실연자를 직접 공개한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글 한 건은 성균관대 진학 희망을 표현한다."],
+      "supports": ["원곡", "2022 최초 공개", "2023 메인곡", "실연자 크레딧"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-shout-first-2022",
+      "songId": "sungkyunkwan-university-shout",
+      "url": "https://www.youtube.com/watch?v=yemtV-BLGDE",
+      "videoId": "yemtV-BLGDE",
+      "title": "[4K] 킹고응원단 신곡 \"함성\" 최초공개 현장",
+      "channel": "왕이가면킹고",
+      "publishedAt": "2022-09-30",
+      "descriptionSummary": "2022년 9월 30일 제1회 응원제 1398, ESKARA `초록의 파도`에서 촬영한 신곡 최초 공개 현장이라고 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 신곡 퍼포먼스를 호평하고 공연 캠퍼스를 질문하며 당시 응원단 구성을 논평한다."],
+      "supports": ["2022-09-30 최초 공개", "제1회 응원제 1398", "현장 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-shout-2025-full",
+      "songId": "sungkyunkwan-university-shout",
+      "url": "https://www.youtube.com/watch?v=fTeHh_EvuVw",
+      "videoId": "fTeHh_EvuVw",
+      "title": "[Mix] 성균관대 응원가 전곡 총출동!🐉 4K | 관객 교차편집 – 응원가 14개 모음.zip",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-28",
+      "descriptionSummary": "2025 ESKARA 14곡 전체 묶음에서 `함성`을 09:52에 수록한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 응원가의 질과 백 밴드·보컬·기타·드럼의 실연을 긍정하며 동문과 수험생이 학교 소속감을 표현한다."],
+      "supports": ["2025 전체 레퍼토리", "09:52 타임라인", "밴드 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-shout-2026-mix",
+      "songId": "sungkyunkwan-university-shout",
+      "url": "https://www.youtube.com/watch?v=yTIbhE5hB-s",
+      "videoId": "yTIbhE5hB-s",
+      "title": "[Mix] 성균관대 2026 상반기 응원 OT 하이라이트만 모아보기! 🐉 4K | 교차편집 모아보기",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-31",
+      "descriptionSummary": "2026 응원 OT 공식 하이라이트에서 `함성` 퍼포먼스를 23:48에 수록하고 이어지는 피날레 곡들과 구분한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 타 대학 응원과 비교해 행사 구성과 동작 연출을 평가한다."],
+      "supports": ["2026 현재성", "피날레 배치", "23:48 타임라인"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-kingo-official-audio",
+      "songId": "sungkyunkwan-university-kingo-shout",
+      "url": "https://www.youtube.com/watch?v=jk1jNAfI2r0",
+      "videoId": "jk1jNAfI2r0",
+      "title": "킹고인의 함성",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2021-11-02",
+      "descriptionSummary": "별도 설명이 없는 킹고응원단 공식 곡별 음원·퍼포먼스 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["한 댓글은 2005학번 화학공학과 김영훈이 보컬이라고 회상하지만 공식 크레딧은 제시하지 않는다.", "다른 댓글은 응원가는 관중이 쉽게 합류할 수 있도록 단순해야 한다고 곡의 집단 참여성을 논평한다."],
+      "supports": ["공식 소속", "보컬 구술 주장", "단순 반복 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-kingo-2025-eskara",
+      "songId": "sungkyunkwan-university-kingo-shout",
+      "url": "https://www.youtube.com/watch?v=l7yg49AaHDY",
+      "videoId": "l7yg49AaHDY",
+      "title": "[2025 ESKARA] ‘킹고인의 함성’🐉 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-27",
+      "descriptionSummary": "2025 ESKARA 응원제 공연으로 `(2006)`, 00:13 1절, 01:38 2절 타임라인을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["공개 댓글은 곡과 현장 에너지에 대한 짧고 강한 호평이다."],
+      "supports": ["2006 연도", "2025 ESKARA", "1·2절 구조"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-kingo-2026-ot",
+      "songId": "sungkyunkwan-university-kingo-shout",
+      "url": "https://www.youtube.com/watch?v=hwx__jPZ7NM",
+      "videoId": "hwx__jPZ7NM",
+      "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '킹고인의 함성' (2006) 🐉 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026년 3월 6일 동명 상반기 응원 OT의 곡별 영상으로 곡 연도를 2006년이라고 직접 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2006 연도", "2026 현재성", "행사명·곡명 중첩"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-kingo-2026-festival",
+      "songId": "sungkyunkwan-university-kingo-shout",
+      "url": "https://www.youtube.com/watch?v=aCMwqog17I4",
+      "videoId": "aCMwqog17I4",
+      "title": "[2026 문행대동제] '킹고인의 함성' (2006) 🐉 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-06-26",
+      "descriptionSummary": "2026년 5월 15일 통합 문행대동제 곡별 영상으로 00:19부터 공연하고 2006년 곡임을 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 문행대동제", "2006 연도", "현재성"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-kingo-2024-festival",
+      "songId": "sungkyunkwan-university-kingo-shout",
+      "url": "https://www.youtube.com/watch?v=FIi6awLuIpc",
+      "videoId": "FIi6awLuIpc",
+      "title": "[RE-PLAY 킹고] 2024 성균관대학교 명륜 대동제: 킹고인의 함성",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-07-17",
+      "descriptionSummary": "2024 명륜 대동제 공식 풀캠으로 응원단의 촬영·편집·출연 크레딧과 축제 사용을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 이루지 못한 진학의 꿈과 함께 이 노래를 추억한다고 회상한다."],
+      "supports": ["2024 명륜 대동제", "추억 수용", "공식 풀캠"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-kingo-audience-2022",
+      "songId": "sungkyunkwan-university-kingo-shout",
+      "url": "https://www.youtube.com/watch?v=8qyq_ORpQTw",
+      "videoId": "8qyq_ORpQTw",
+      "title": "킹고응원단 '킹고인의 함성' 성균관대 인사캠 축제 220513",
+      "channel": "KOKOLAND",
+      "publishedAt": "2022-05-13",
+      "descriptionSummary": "2022년 5월 13일 인문사회과학캠퍼스 축제에서 모든 학우가 하나 되는 순간으로 소개한 관객 현장 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["2002학번 동문이 옛 기억을 떠올리고 다른 시청자는 공연과 응원단을 호평한다."],
+      "supports": ["2022 인사캠 축제", "동문 기억", "군중 참여"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-kingo-2016-entrance",
+      "songId": "sungkyunkwan-university-kingo-shout",
+      "url": "https://www.youtube.com/watch?v=Ww8Wy3_wnvA",
+      "videoId": "Ww8Wy3_wnvA",
+      "title": "[킹고응원단] 킹고인의 함성 - 2016.02.26 (2016 성균관대학교 입학식)",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2016-03-03",
+      "descriptionSummary": "2016년 2월 26일 입학식 공연으로 이 곡을 `성균관대학교 대표 응원곡`이라 소개하고 핵심 학교 구호를 설명한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 곡에 포함된 별도 학교 구호 영상도 공개해 달라고 요청한다."],
+      "supports": ["2016 입학식", "대표 응원곡", "학교 구호"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-kingo-2025-festival",
+      "songId": "sungkyunkwan-university-kingo-shout",
+      "url": "https://www.youtube.com/watch?v=DJ5LcXVn54o",
+      "videoId": "DJ5LcXVn54o",
+      "title": "[성균관대학교 킹고응원단] Re-play kinggo : 2025 대동제 킹고인의 함성",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-08-01",
+      "descriptionSummary": "2025 대동제 공식 풀캠으로 촬영·편집·출연 주체와 행사 사용을 확인한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 해마다 발전하는 응원단과 단원들의 표정·에너지를 긍정한다."],
+      "supports": ["2025 대동제", "현재성", "응원단 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-victory-official-audio",
+      "songId": "sungkyunkwan-university-for-victory",
+      "url": "https://www.youtube.com/watch?v=D-oPBXaGvrU",
+      "videoId": "D-oPBXaGvrU",
+      "title": "승리를 위하여",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2021-11-02",
+      "descriptionSummary": "별도 설명이 없는 킹고응원단 공식 곡별 음원·퍼포먼스 영상이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["여러 댓글이 원곡을 Rhapsody의 `Emerald Sword`로 식별하고 두산·한양 응원가와의 관계를 논쟁한다.", "동문은 후배들이 대학 생활과 학교 자부심을 즐기길 바라며, 일부는 성대만의 독자 대표곡을 더 원한다고 말한다."],
+      "supports": ["공식 소속", "원곡 수용", "학교 간 논쟁", "동문 반응"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-victory-2025-eskara",
+      "songId": "sungkyunkwan-university-for-victory",
+      "url": "https://www.youtube.com/watch?v=7bNQH9PZmZA",
+      "videoId": "7bNQH9PZmZA",
+      "title": "[2025 ESKARA] ‘승리를 위하여’🐉 4K | 관객 교차편집 – 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2025-12-26",
+      "descriptionSummary": "2025 ESKARA 응원제 공연으로 `(2016)`, 00:10 1절, 01:33 2절 타임라인을 제공한다.",
+      "commentsStatus": "available",
+      "commentSummary": ["동문은 응원단의 최근 변화를 높이 평가하고, 다른 댓글은 두산 응원가를 먼저 떠올리거나 학교 귀속을 질문한다."],
+      "supports": ["2016 연도", "2025 ESKARA", "1·2절 구조", "공통 선율 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-victory-2026-ot",
+      "songId": "sungkyunkwan-university-for-victory",
+      "url": "https://www.youtube.com/watch?v=TPos2AcyLX4",
+      "videoId": "TPos2AcyLX4",
+      "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '승리를 위하여' (2016) 🐉 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-03-29",
+      "descriptionSummary": "2026년 3월 6일 응원 OT 곡별 영상으로 2016년 도입 표기와 현행 사용을 직접 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 현재성", "2016 연도", "응원 OT"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-victory-2022-yuljeon",
+      "songId": "sungkyunkwan-university-for-victory",
+      "url": "https://www.youtube.com/watch?v=VXlYVaRTZxU",
+      "videoId": "VXlYVaRTZxU",
+      "title": "🐉 2022 대동제 ESKARA - 승리를 위하여 🐉",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2022-05-10",
+      "descriptionSummary": "2022년 5월 4일 자연과학캠퍼스 율전 대동제의 공식 공연 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["재학생·동문·타 대학 시청자는 대규모 군중과 단장의 진행을 호평하며, 일부는 두산·한양의 같은 선율을 지적한다."],
+      "supports": ["2022 율전 대동제", "군중 수용", "공통 선율 인식"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-victory-2022-myeongnyun",
+      "songId": "sungkyunkwan-university-for-victory",
+      "url": "https://www.youtube.com/watch?v=7dnbLLgcM7A",
+      "videoId": "7dnbLLgcM7A",
+      "title": "[2022 명륜 대동제 ESKARA] - 승리를 위하여(2022.05.13)",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2022-06-07",
+      "descriptionSummary": "2022년 5월 13일 인문사회과학캠퍼스 명륜 대동제의 공식 공연 기록이다.",
+      "commentsStatus": "available",
+      "commentSummary": ["성대 진학 목표와 동문 응원이 이어지는 한편, 두산·한양과의 같은 선율을 두고 서로 다른 반응이 나온다."],
+      "supports": ["2022 명륜 대동제", "양 캠퍼스 공통곡", "공통 선율 수용"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-victory-2026-festival",
+      "songId": "sungkyunkwan-university-for-victory",
+      "url": "https://www.youtube.com/watch?v=6aOEldaR9XU",
+      "videoId": "6aOEldaR9XU",
+      "title": "[2026 문행대동제] '승리를 위하여' (2016) 🐉 4K | 교차편집 - 성균관대학교 응원가",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2026-06-27",
+      "descriptionSummary": "2026년 5월 15일 통합 문행대동제 곡별 영상으로 00:23부터 공연하고 2016년 곡임을 표시한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["2026 문행대동제", "현재성", "2016 연도"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-victory-band-2024",
+      "songId": "sungkyunkwan-university-for-victory",
+      "url": "https://www.youtube.com/watch?v=qAaMv_KrZNE",
+      "videoId": "qAaMv_KrZNE",
+      "title": "🐉 킹고잉 :‘여름’, 승리를 위하여 🐉",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-08-30",
+      "descriptionSummary": "킹고응원단 기획국이 교내 밴드 `수선관 그 밴드`와 협업한 2024년 야외 라이브 콘텐츠다.",
+      "commentsStatus": "available",
+      "commentSummary": ["댓글은 응원가의 밴드 협업 형식을 반기며 다른 대표곡도 같은 방식으로 제작해 달라고 요청한다."],
+      "supports": ["2024 밴드 협업", "행사 밖 활용", "라이브 편곡"],
+      "accessedAt": "2026-08-09"
+    },
+    {
+      "id": "yt-skku-a-victory-guide-2024",
+      "songId": "sungkyunkwan-university-for-victory",
+      "url": "https://www.youtube.com/watch?v=YqQcu4Zsly8",
+      "videoId": "YqQcu4Zsly8",
+      "title": "킹고응원단 응원법 가이드 영상 : Chapter 7. 승리를 위하여",
+      "channel": "성균관대학교 킹고응원단",
+      "publishedAt": "2024-09-23",
+      "descriptionSummary": "관중이 무대를 더 잘 즐길 수 있도록 제작한 공식 Chapter 7 응원법 가이드로 동작 교육 레퍼토리임을 확인한다.",
+      "commentsStatus": "available-empty",
+      "commentSummary": [],
+      "supports": ["공식 응원법", "Chapter 7", "현행 교육곡"],
+      "accessedAt": "2026-08-09"
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 5,
+    "youtubeSampleCount": 35,
+    "songsMeetingYoutubeMinimum": 5,
+    "openIssueCount": 20
+  }
+}

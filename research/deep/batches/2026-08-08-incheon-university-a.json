@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-08-08-incheon-university-a",
+  "checkedAt": "2026-08-09",
+  "status": "needs-review",
+  "organization": {
+    "id": "university-incheon",
+    "name": "인천대학교",
+    "type": "university"
+  },
+  "rightsNote": "전체 가사, 영상 설명, 댓글 전문은 저장하지 않는다. 공식 곡 영상이 제작·가창 크레딧과 권리자·무단사용 금지를 명시하므로 구조와 역사만 요약하고 재사용 허락으로 해석하지 않는다. 공개 댓글은 접근 가능한 경우에도 작성자를 식별하지 않고 반응만 재서술한다.",
+  "items": [
+    {
+      "id": "incheon-university-naagaja-incheona",
+      "title": "나아가자, 인천아",
+      "aliases": ["나아가자 인천아", "인천대학교 응원가 나아가자, 인천아"],
+      "currentStatus": "current-official-2024-to-2025-recent-song-specific-2026-performance-unresolved",
+      "summary": "인천대학교 포크 음악 동아리 포크라인과 액션 치어리딩 응원단 커플리온스가 공동 제작한 학교 고유 응원가다. 공식 영상 설명은 한지호를 작사·작곡자로, 노태환을 보컬로 명시하고 별도 권리자 표기와 무단사용 금지를 둔다. 현재 확인 가능한 가장 이른 직접 자료는 2024년 공식 곡 영상이며 2024~2025 대학요람과 2025 대학 공식 영상이 학교 레퍼토리 편입을 보조한다. 2026 응원제 영상은 커플리온스의 현역 활동은 확정하지만 대상곡 자체를 담지 않아 모두 맥락 표본으로 구분했다.",
+      "claims": [
+        {
+          "field": "originAndEarliestVerifiedYear",
+          "value": "2024년 공식 곡 영상이 현재 확인된 가장 이른 직접 자료",
+          "assessment": "verified-earliest-record",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-inu-naagaja-official-song", "ev-inu-2024-2025-handbook"],
+          "notes": "2024는 확인된 최초 공개 연도이지 작곡 완료·초연 연도라고 단정하지 않는다."
+        },
+        {
+          "field": "creator",
+          "value": "포크라인·커플리온스 공동 제작; 작사·작곡 한지호; 보컬 노태환",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inu-naagaja-official-song"],
+          "notes": "공식 영상 설명의 자가 크레딧을 사용했다. 편곡·연주·녹음·안무의 개인별 크레딧은 별도 확인이 필요하다."
+        },
+        {
+          "field": "originalSong",
+          "value": "외부 원곡 개사가 아니라 두 교내 단체의 공동 창작곡으로 공개",
+          "assessment": "verified",
+          "confidence": "medium",
+          "evidenceRefs": ["yt-inu-naagaja-official-song"],
+          "notes": "공식 설명은 작사·작곡자를 직접 기재하며 외부 원곡을 제시하지 않는다. 음원 유사성 조사는 별도 수행하지 않았다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2024~2025 학교 자료와 2025 대학 공식 영상에서 현행으로 확인; 커플리온스는 2026 응원제에도 활동",
+          "assessment": "verified-with-recent-song-gap",
+          "confidence": "medium",
+          "evidenceRefs": ["ev-inu-2024-2025-handbook", "ev-inu-2025-official-video", "yt-inu-naagaja-2026-geudaeege-context"],
+          "notes": "2026 응원제 개별 영상들은 다른 액션곡으로, 나아가자, 인천아의 2026 실연을 증명하지 않는다."
+        },
+        {
+          "field": "officialTitle",
+          "value": "쉼표를 포함한 ‘나아가자, 인천아’",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inu-naagaja-official-song"],
+          "notes": "검색·비공식 표기의 쉼표 없는 형태는 별칭으로만 보존한다."
+        }
+      ],
+      "usageContexts": [
+        "밴드 기반 학교 노래와 액션 치어리딩을 결합한 공동 제작물로, 학교명·전진 서사를 관중 합창과 무대 안무에 함께 쓰도록 만든 레퍼토리다.",
+        "최근 커플리온스 영상은 응원제 액션곡 중심이어서 이 곡의 2026 사용 빈도와 배치 순서는 별도로 확인해야 한다."
+      ],
+      "trivia": [
+        {
+          "id": "inu-naagaja-cross-club-production",
+          "summary": "대학 응원단 단독 제작이 아니라 포크 음악 동아리 포크라인과 액션 치어리딩 응원단 커플리온스의 협업으로 공개됐다. 밴드·보컬과 안무 조직을 결합한 제작 방식이 크레딧에 드러난다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inu-naagaja-official-song"]
+        },
+        {
+          "id": "inu-naagaja-rights-warning",
+          "summary": "공식 영상 설명은 제작·가창자뿐 아니라 권리자와 무단사용 금지를 함께 명시한다. 학교 응원가라는 이유만으로 자유 이용 가능한 공공저작물로 취급하면 안 된다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inu-naagaja-official-song"]
+        },
+        {
+          "id": "inu-naagaja-sample-scarcity",
+          "summary": "곡을 직접 식별하는 공개 YouTube 표본은 공식 곡 영상 하나뿐이었다. 나머지 네 영상은 2026 커플리온스 응원제의 다른 곡으로, 응원단의 현재 활동만 보여 주는 맥락 자료다.",
+          "assessment": "verified",
+          "confidence": "high",
+          "evidenceRefs": ["yt-inu-naagaja-official-song", "yt-inu-naagaja-2026-geudaeege-context", "yt-inu-naagaja-2026-hwalju-context"]
+        }
+      ],
+      "lyrics": {
+        "fullTextStored": false,
+        "rightsStatus": "original collaborative school cheer; official video names a rights holder and prohibits unauthorized use, while exact ownership shares, master, arrangement, choreography and reuse permissions remain unresolved",
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=0nnkTykTHAU",
+          "https://www.inu.ac.kr/pdfView/inu/46/fileDownload.do"
+        ],
+        "structureSummary": "공식 곡 영상은 밴드·보컬과 액션 치어리딩을 결합해 학교 공동체가 앞으로 나아가자는 제목 후렴을 중심에 둔다. 전체 절 순서와 공식 가사 원문은 권리 보호와 대학요람 원문 재추출 한계 때문에 저장하지 않았다.",
+        "shortExcerpt": null
+      },
+      "youtubeSampleRefs": [
+        "yt-inu-naagaja-official-song",
+        "yt-inu-naagaja-2026-geudaeege-context",
+        "yt-inu-naagaja-2026-hwalju-context",
+        "yt-inu-naagaja-2026-electric-romeo-context",
+        "yt-inu-naagaja-2026-halsuisse-eo-context"
+      ],
+      "unresolved": [
+        "2024 공식 영상보다 앞선 작곡 완료일·초연일",
+        "편곡·연주·녹음·안무의 전체 제작진과 권리 지분",
+        "2025 대학 공식 영상에서 대상곡이 쓰인 정확한 구간과 공연 맥락",
+        "2026 커플리온스 세트리스트에서 대상곡의 실제 사용 여부와 빈도",
+        "공식 전체 가사·악보의 독립된 현재 공개 URL"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-inu-2024-2025-handbook",
+      "type": "official-university-handbook",
+      "title": "2024~2025 인천대학교 대학요람",
+      "publisher": "인천대학교",
+      "url": "https://www.inu.ac.kr/pdfView/inu/46/fileDownload.do",
+      "publishedAt": "2024~2025 edition",
+      "accessedAt": "2026-08-09",
+      "summary": "학교 공식 대학요람으로 1차 현행 목록 조사에서 나아가자, 인천아의 학교 응원가 편입을 확인한 자료다. 이번 심층 세션에서는 대용량 PDF 재추출이 실패해 페이지 번호·문구를 재검증하지 못했으며, 제작자나 정확한 연도 근거로 확대하지 않았다.",
+      "supports": ["officialSchoolContext", "currentCatalog", "sourceExtractionGap"]
+    },
+    {
+      "id": "ev-inu-2025-official-video",
+      "type": "official-university-video",
+      "title": "인천대학교 2025 공식 응원단 관련 영상 (AULbnHMsv7U)",
+      "publisher": "인천대학교",
+      "url": "https://www.youtube.com/watch?v=AULbnHMsv7U",
+      "publishedAt": "2025",
+      "accessedAt": "2026-08-09",
+      "summary": "대학 공식 채널의 2025 응원단 관련 기록으로 1차 목록에서 곡의 현행성을 보조했다. 이번 심층 단계에서는 정확한 제목·대상곡 구간을 재확인하지 못해 조직·행사 맥락 이상으로 주장하지 않는다.",
+      "supports": ["contextOnly", "currentOrganizationContext", "verificationGap"]
+    },
+    {
+      "id": "ev-inu-namu-scope-gap",
+      "type": "community-wiki-access-note",
+      "title": "인천대학교 나무위키 미러 대조 기록",
+      "publisher": "나무위키 비공식 미러",
+      "url": "https://namu.moe/w/%EC%9D%B8%EC%B2%9C%EB%8C%80%ED%95%99%EA%B5%90",
+      "publishedAt": "continuously edited",
+      "accessedAt": "2026-08-09",
+      "summary": "미러 접근에서 곡별 제작 연혁·원곡·사용법을 안정적으로 확보하지 못했다. 따라서 위키 내용은 주장 근거로 쓰지 않고 곡별 편집 자료가 부족하다는 조사 공백만 기록한다.",
+      "supports": ["sourceGap", "contextOnly"]
+    }
+  ],
+  "youtubeSamples": [
+    {
+      "id": "yt-inu-naagaja-official-song",
+      "songId": "incheon-university-naagaja-incheona",
+      "url": "https://www.youtube.com/watch?v=0nnkTykTHAU",
+      "videoId": "0nnkTykTHAU",
+      "title": "나아가자, 인천아 (인천대학교 응원가)",
+      "channel": "인천대학교 응원단 커플리온스",
+      "publishedAt": "2024 (exact upload day unresolved)",
+      "descriptionSummary": "약 2분 29초 공식 곡 영상이다. 설명이 포크라인·커플리온스 공동 제작, 작사·작곡 한지호, 보컬 노태환을 명시하고 권리자 표기와 무단사용 금지 안내를 둔다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["directSongRecording", "officialTitle", "creatorCredits", "originalProduction", "rightsRestriction"]
+    },
+    {
+      "id": "yt-inu-naagaja-2026-geudaeege-context",
+      "songId": "incheon-university-naagaja-incheona",
+      "url": "https://www.youtube.com/watch?v=7_WPir658EE",
+      "videoId": "7_WPir658EE",
+      "title": "액션 치어리딩ㅣ인천대학교 응원단 - 그대에게 (2026 응원제)",
+      "channel": "인천대학교 응원단 커플리온스",
+      "publishedAt": "2026 (exact upload day unresolved)",
+      "descriptionSummary": "2026 응원제의 별도 액션 치어리딩 곡 ‘그대에게’ 영상이다. 커플리온스의 현역 활동은 보여 주지만 나아가자, 인천아의 공연·사용을 증명하지 않는다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "activeOrganization", "2026CheerFestival"]
+    },
+    {
+      "id": "yt-inu-naagaja-2026-hwalju-context",
+      "songId": "incheon-university-naagaja-incheona",
+      "url": "https://www.youtube.com/watch?v=WlPkp7C5EuU",
+      "videoId": "WlPkp7C5EuU",
+      "title": "액션 치어리딩ㅣ인천대학교 응원단 - 예비역 무대 \"활주\" (2026 응원제)",
+      "channel": "인천대학교 응원단 커플리온스",
+      "publishedAt": "2026 (exact upload day unresolved)",
+      "descriptionSummary": "2026 응원제 예비역 무대의 다른 곡 ‘활주’ 영상이다. 조직의 세대 연속성과 행사 활동을 보조할 뿐 대상곡의 직접 표본은 아니다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "activeOrganization", "alumniStage", "2026CheerFestival"]
+    },
+    {
+      "id": "yt-inu-naagaja-2026-electric-romeo-context",
+      "songId": "incheon-university-naagaja-incheona",
+      "url": "https://www.youtube.com/watch?v=k_Sa9wPV3Qg",
+      "videoId": "k_Sa9wPV3Qg",
+      "title": "액션 치어리딩ㅣ인천대학교 응원단 - 깃발곡 Electric Romeo (2026 응원제)",
+      "channel": "인천대학교 응원단 커플리온스",
+      "publishedAt": "2026 (exact upload day unresolved)",
+      "descriptionSummary": "2026 응원제의 별도 깃발곡 영상이다. 커플리온스의 액션·기수 공연 맥락을 보여 주지만 나아가자, 인천아의 음원이나 안무 자료로 사용하지 않았다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "activeOrganization", "flagRoutine", "2026CheerFestival"]
+    },
+    {
+      "id": "yt-inu-naagaja-2026-halsuisse-eo-context",
+      "songId": "incheon-university-naagaja-incheona",
+      "url": "https://www.youtube.com/watch?v=NF_MJBOKKr8",
+      "videoId": "NF_MJBOKKr8",
+      "title": "액션 치어리딩ㅣ인천대학교 응원단 - 할 수 있어 (2026 응원제)",
+      "channel": "인천대학교 응원단 커플리온스",
+      "publishedAt": "2026 (exact upload day unresolved)",
+      "descriptionSummary": "2026 응원제의 다른 액션곡 ‘할 수 있어’ 영상이다. 최근 응원단 활동을 확인하는 조직 맥락 자료이며 대상곡의 2026 사용 증거가 아니다.",
+      "commentsStatus": "unavailable",
+      "commentSummary": [],
+      "accessedAt": "2026-08-09",
+      "supports": ["contextOnly", "activeOrganization", "2026CheerFestival"]
+    }
+  ],
+  "coverage": {
+    "requiredYoutubeSamplesPerSong": 5,
+    "songCount": 1,
+    "youtubeSampleCount": 5,
+    "songsMeetingYoutubeMinimum": 1,
+    "openIssueCount": 5
+  }
+}
