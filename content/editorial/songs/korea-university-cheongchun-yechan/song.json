@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-cheongchun-yechan",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "청춘예찬",
+    "aliases": [
+      "청춘 예찬"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "어깨동무와 긴 구음 합창으로 청춘·사랑·낭만을 함께 노래하는 2012년 응원가로 알려져 있다. 2012 정기 고연전 신곡이라는 초기 보존 영상과 편집형 자료는 도입 연도를 일치해 적지만 당시 공식 발표문은 아직 없다. 원곡 계보는 상충한다. 고려대 응원단의 2020 공식 온라인 OT는 ‘캐논 변주곡’이라고 적은 반면, 나무위키와 음악 계보 자료는 Sarah Vaughan의 ‘A Lover’s Concerto’를 지목한다. 후자는 Bach의 미뉴에트에 기초한 곡이므로 Pachelbel의 Canon과 같은 작품이 아니며, 제작자 설명을 찾기 전에는 둘 중 하나를 확정하지 않는다.\n\n### 현장에서\n\n- 관중이 옆 사람과 어깨를 걸고 좌우로 흔들며 청춘의 사랑과 낭만을 한 목소리로 노래한다.\n- 짧은 유가사 구간 뒤 긴 구음 합창이 이어져 축제·고연전의 감정적 전환 또는 공동체 결속 구간에 쓰인다.\n- 단과대 합창 프로젝트와 초청가수 공연에서도 사용돼 경기장 응원 밖의 학교 정체성 콘텐츠로 확장됐다.\n\n### 더 알아보기\n\n공식 응원단이 적은 ‘캐논 변주곡’과 편집형 자료의 ‘A Lover’s Concerto’는 음악사적으로 같은 원곡이 아니다. 공식 표기의 세부 판본 또는 오기가 확인될 때까지 두 주장을 나란히 유지해야 한다.[* 참고: https://www.youtube.com/watch?v=_o9U9I-8l3U / https://www.universal-music.co.jp/sarah-vaughan/products/uccu-99086/]\n\nKUTV는 2025 FESTA를 앞두고 17개 단과대 학생이 각자 한 부분을 이어 부르는 영상을 제작했다. 댓글은 특정 출연자보다 단과대 전체의 참여와 학교 공동체 분위기를 응원하는 데 집중한다.[* 참고: https://www.youtube.com/watch?v=z3pH_DEgGIU]\n\n2026 입실렌티에서 10CM가 학생들과 이 곡을 함께 불렀고, 공식 채널 댓글에서는 가수가 관중과 하나가 되는 장면과 타 대학 시청자에게도 전해지는 곡의 정서를 높게 평가했다.[* 참고: https://www.youtube.com/watch?v=yzi9Dd3ZhPI]\n\n### 추가 확인\n\n고려대 교육방송국 KUBS의 2026 합동응원전 편집 영상으로 교내 매체 표본을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=GENKWyguhxA]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2012년"
+      },
+      {
+        "label": "원곡",
+        "value": "고려대 응원단 공식 온라인 OT 설명: ‘캐논 변주곡’"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2025 고연전·FESTA와 2026 합동응원전·입실렌티에서 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 1,
+    "createdAt": "2026-09-05T06:15:38.174Z",
+    "updatedAt": "2026-09-05T06:15:38.174Z"
+  }
+}

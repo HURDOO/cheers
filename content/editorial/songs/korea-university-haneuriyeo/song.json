@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-haneuriyeo",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "하늘이여",
+    "aliases": [
+      "하늘이여!"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "오리엔탱고의 `슬픈 열정 (Pasion Triste)`을 바탕으로 만든 2006년 신곡이다. 웅장한 도입과 소망·승리의 합창 때문에 행사 초반 또는 기수부 레퍼토리에 배치되는 경향이 있으며, 2012 고연전부터 2019·2023 입실렌티와 2026 입실렌티까지 장기 사용이 직접 확인된다.\n\n### 현장에서\n\n- 응원 OT·입실렌티·정기 고연전에서 어깨를 걸거나 좌우로 몸을 기울이며 소망과 승리를 합창한다.\n- 기수부 Young Tigers가 깃발 퍼포먼스를 선보이는 세트의 시작곡으로 반복 확인된다.\n- 긴 모음 발성 뒤 승리 선언을 이어 붙여 행사 초반의 웅장한 분위기를 여는 데 쓰인다.\n\n### 더 알아보기\n\n오리엔탱고 음원이 2005년 12월 공개되고 고려대판이 2006년 신곡으로 등장해 발표 시차가 짧다.[* 참고: https://music.apple.com/jp/song/1452130191 / https://namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80]\n\n나무위키는 롯데 자이언츠 응원가와 해체된 인천 전자랜드 공격 음악에서도 이 선율을 들을 수 있었다고 기록한다. 롯데의 2017 개편 뒤 현행 여부는 별도 확인이 필요하다.[* 참고: https://namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80]\n\n2020 공식 영상 댓글에서는 좋아하지만 당시 자주 하지 않아 아쉽다는 반응이 반복됐고, 2026 입실렌티 댓글에서는 드럼과 기수부의 웅장함이 특히 언급됐다.[* 참고: https://www.youtube.com/watch?v=BD4GSGsE9FQ / https://www.youtube.com/watch?v=a2tIQSqaCWA]\n\n### 추가 확인\n\n2026 입실렌티 기수부 메들리의 별도 촬영 표본을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=2vyDJDlLgm8]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2006년 신곡"
+      },
+      {
+        "label": "원곡",
+        "value": "Duo Orientango `슬픈 열정 (Pasion Triste)`"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2026 입실렌티 2부 기수부 무대의 첫 곡으로 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "duo-orientango-pasion-triste"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.165Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

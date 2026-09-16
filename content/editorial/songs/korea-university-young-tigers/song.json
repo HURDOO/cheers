@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-young-tigers",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "Young Tigers",
+    "aliases": [
+      "영 타이거즈",
+      "YT"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "2017 고연전의 `대박신곡`으로 공개된 밝은 청춘 응원가다. 응원단 공식 2020 설명은 PSY의 `We Are Young`과 N.EX.T의 `Laura`를 원곡으로 함께 표기하지만, 나무위키는 PSY 곡만 적어 출처별 범위 차이를 별도로 남겼다. 곡명은 응원단 기수부 Young Tigers와 같으며 2025·2026에도 해당 기수부 레퍼토리로 사용된다.\n\n### 현장에서\n\n- 응원 OT·입실렌티에서 기수부가 깃발과 군무를 선보이며 관중이 영어 팀명 구호와 한국어 청춘 후렴에 응답한다.\n- 밝고 짧은 반복구를 이용해 다음 곡으로 분위기를 끌어올리는 기수부 중심 구간에 배치된다.\n- 2023 KUBS 밴드 뮤직비디오에서는 대표곡 메들리의 첫 곡으로 편곡됐다.\n\n### 더 알아보기\n\nPSY 원곡이 2017년 5월 공개되고 고려대판이 같은 해 9월 신곡으로 공연돼, 발표 당해에 빠르게 응원가화된 사례다.[* 참고: https://www.youtube.com/watch?v=1ODJTWOrA7M / https://www.youtube.com/watch?v=em2vkHlRY4o]\n\n응원단 공식 영상은 PSY와 N.EX.T 두 곡을 원곡으로 적지만 나무위키는 PSY만 적는다. 공식 설명을 우선하되 실제 편곡에서 각 곡이 담당하는 구간은 악보·세션 자료가 없어 미확정이다.[* 참고: https://www.youtube.com/watch?v=njz0rCD0I7Q / https://namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80]\n\n2017·2025 영상 댓글은 동기들과 부르던 행복감, `이게 청춘`이라는 인상을 반복해 곡의 청춘 서사가 실제 수용에서도 두드러짐을 보여준다.[* 참고: https://www.youtube.com/watch?v=em2vkHlRY4o / https://www.youtube.com/watch?v=ZaqjhO9mbLw]\n\n### 추가 확인\n\n2026 신입생 OT 기수부 레퍼토리 영상의 제목·설명에서 영문명과 약칭 YT를 함께 확인했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=CA_F-Dc8Yis]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2017 고연전 신곡"
+      },
+      {
+        "label": "원곡",
+        "value": "PSY `We Are Young`과 N.EX.T `Laura`"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2025 안암 응원 OT와 2026 입실렌티 기수부 무대에서 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "psy-we-are-young"
+      },
+      {
+        "type": "secondary-original-song",
+        "targetId": "next-laura"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.112Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

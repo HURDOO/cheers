@@ -14,7 +14,8 @@ function fmt(s: number | null) {
 }
 
 function yearBadge(song: CheerSong) {
-  if (song.yearStatus === "confirmed") return String(song.year);
+  if (song.timelineYear === null) return song.yearLabel || "시기 미상";
+  if (song.yearStatus === "confirmed" && song.year !== null) return String(song.year);
   if (song.yearStatus === "earliest-documented") return `${song.timelineYear} 확인`;
   return `${song.timelineYear} (추정)`;
 }
@@ -35,7 +36,9 @@ const SOURCE_SCOPE_LABEL = {
 } as const;
 
 function byOriginal(origId: string) {
-  return CHEER_SONGS.filter((s) => s.originalSongId === origId).sort((a, b) => a.timelineYear - b.timelineYear);
+  return CHEER_SONGS
+    .filter((s) => s.originalSongId === origId)
+    .sort((a, b) => (a.timelineYear ?? Number.MAX_SAFE_INTEGER) - (b.timelineYear ?? Number.MAX_SAFE_INTEGER));
 }
 
 function matchesSearch(song: CheerSong, query: string) {
@@ -55,15 +58,18 @@ function byTeamGroups() {
 }
 
 function byDecade() {
-  const decades: Record<number, CheerSong[]> = {};
+  const decades: Record<string, CheerSong[]> = {};
   CHEER_SONGS.forEach((s) => {
-    const d = Math.floor(s.timelineYear / 10) * 10;
+    const d = s.timelineYear === null ? "unknown" : String(Math.floor(s.timelineYear / 10) * 10);
     if (!decades[d]) decades[d] = [];
     decades[d].push(s);
   });
   return Object.entries(decades)
-    .sort((a, b) => Number(a[0]) - Number(b[0]))
-    .map(([d, songs]) => ({ decade: Number(d), songs: songs.sort((a, b) => a.timelineYear - b.timelineYear) }));
+    .sort((a, b) => (a[0] === "unknown" ? 1 : b[0] === "unknown" ? -1 : Number(a[0]) - Number(b[0])))
+    .map(([d, songs]) => ({
+      decade: d === "unknown" ? null : Number(d),
+      songs: songs.sort((a, b) => (a.timelineYear ?? Number.MAX_SAFE_INTEGER) - (b.timelineYear ?? Number.MAX_SAFE_INTEGER)),
+    }));
 }
 
 function hexToRgb(hex: string) {
@@ -708,9 +714,13 @@ function ByYearView({ query, typeFilter, selectedId, onSelect }: { query: string
   if (!decades.length) return <Empty />;
 
   const byYearMap = (songs: CheerSong[]) => {
-    const m: Record<number, CheerSong[]> = {};
-    songs.forEach((s) => { if (!m[s.timelineYear]) m[s.timelineYear] = []; m[s.timelineYear].push(s); });
-    return Object.entries(m).sort((a, b) => Number(a[0]) - Number(b[0]));
+    const m: Record<string, CheerSong[]> = {};
+    songs.forEach((s) => {
+      const year = s.timelineYear === null ? "unknown" : String(s.timelineYear);
+      if (!m[year]) m[year] = [];
+      m[year].push(s);
+    });
+    return Object.entries(m).sort((a, b) => (a[0] === "unknown" ? 1 : b[0] === "unknown" ? -1 : Number(a[0]) - Number(b[0])));
   };
 
   return (
@@ -718,7 +728,7 @@ function ByYearView({ query, typeFilter, selectedId, onSelect }: { query: string
       {decades.map(({ decade, songs }) => (
         <section key={decade}>
           <div className="mb-6 flex items-center gap-4">
-            <h3 className="text-[30px] font-black leading-none tracking-[-0.035em] text-foreground sm:text-[34px]">{decade}년대</h3>
+            <h3 className="text-[30px] font-black leading-none tracking-[-0.035em] text-foreground sm:text-[34px]">{decade === null ? "시기 미상" : `${decade}년대`}</h3>
             <div className="h-px flex-1 bg-border" />
             <span className="font-mono text-[10px] text-muted-foreground">{songs.length}곡</span>
           </div>
@@ -726,7 +736,7 @@ function ByYearView({ query, typeFilter, selectedId, onSelect }: { query: string
             {byYearMap(songs).map(([year, ys]) => (
               <div key={year} className="grid gap-3 sm:grid-cols-[40px_1fr] sm:gap-5">
                 <div className="border-b border-border pb-2 sm:border-0 sm:pb-0 sm:pt-4">
-                  <span className="font-mono text-[11px] text-muted-foreground">{year}</span>
+                  <span className="font-mono text-[11px] text-muted-foreground">{year === "unknown" ? "—" : year}</span>
                 </div>
                 <div className={`grid min-w-0 grid-cols-2 gap-3 sm:grid-cols-3 ${selectedId ? "lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5" : "lg:grid-cols-4 xl:grid-cols-5"}`}>
                   {ys.map((s) => <CheerCard key={s.id} song={s} isActive={selectedId === s.id} onClick={() => onSelect(s)} />)}
@@ -765,11 +775,31 @@ function Empty() {
 type ViewMode = "origin" | "team" | "year";
 type TypeFilter = "all" | "baseball" | "university";
 
+function initialArchiveParams() {
+  const params = new URLSearchParams(window.location.search);
+  const viewParam = params.get("view");
+  const typeParam = params.get("type");
+  const selectedSong = params.get("song");
+
+  return {
+    view: viewParam === "team" || viewParam === "year" ? viewParam : "origin",
+    typeFilter: typeParam === "baseball" || typeParam === "university" ? typeParam : "all",
+    query: params.get("q") ?? "",
+    selected: selectedSong ? getCheerSong(selectedSong) ?? null : null,
+  } satisfies {
+    view: ViewMode;
+    typeFilter: TypeFilter;
+    query: string;
+    selected: CheerSong | null;
+  };
+}
+
 export default function App() {
-  const [view, setView] = useState<ViewMode>("origin");
-  const [typeFilter, setTypeFilter] = useState<TypeFilter>("all");
-  const [query, setQuery] = useState("");
-  const [selected, setSelected] = useState<CheerSong | null>(null);
+  const [initialParams] = useState(initialArchiveParams);
+  const [view, setView] = useState<ViewMode>(initialParams.view);
+  const [typeFilter, setTypeFilter] = useState<TypeFilter>(initialParams.typeFilter);
+  const [query, setQuery] = useState(initialParams.query);
+  const [selected, setSelected] = useState<CheerSong | null>(initialParams.selected);
 
   const total = CHEER_SONGS.filter((s) => {
     const mt = typeFilter === "all" || s.teamType === typeFilter;

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-elise-reul-wihayeo",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "엘리제를 위하여",
+    "aliases": [
+      "엘리제"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "정미조가 1972년에 발표한 번안곡 ‘정열의 꽃’을 직접적인 음악적 바탕으로 삼고, 그 선율 계보가 Caterina Valente의 ‘Passion Flower’와 Beethoven의 ‘Für Elise’까지 이어지는 고려대의 전통 응원가다. 고려대 교우회 연표와 2024·2025 영상 표기는 1981년 도입에 일치하며, 공식 응원단 영상은 이 곡을 승리의 여신을 부르는 시작 응원으로 설명한다. 2026 입실렌티와 합동응원전에서도 사용을 직접 확인했다.\n\n### 현장에서\n\n- 응원 OT·합동응원전·입실렌티의 초반을 여는 전통적인 시작 응원으로 자주 배치한다.\n- 빠른 팔 동작과 구호, 관중의 반복 합창으로 분위기를 단번에 끌어올리는 역할을 한다.\n- 고연전 경기장뿐 아니라 개교 기념식과 교우 행사에서도 세대 공동의 대표 레퍼토리로 사용된다.\n\n### 더 알아보기\n\n공식 응원 OT는 제목의 엘리제를 승리를 가져오는 여신처럼 의인화하고, 이 곡을 응원의 시작을 여는 존재로 소개한다.[* 참고: https://www.youtube.com/watch?v=1VSZTxcxEcU]\n\n일부 오래된 팬 자료는 동명곡 때문에 가수를 김수희로 잘못 적지만, 공식 응원단과 음원 카탈로그는 고려대판의 직접 참조를 정미조의 1972년 곡으로 지지한다. 더 깊은 선율 계보에는 ‘Passion Flower’와 Beethoven 작품이 있다.[* 참고: https://m.pann.nate.com/feed/116319003 / https://www.youtube.com/watch?v=1VSZTxcxEcU]\n\n서로 다른 시기의 영상 댓글에서 졸업생이 수십 년 전부터 첫 곡으로 불렀던 기억을 남기고, 수험생은 진학 동기로 삼는 반응이 반복된다.[* 참고: https://www.youtube.com/watch?v=BiFQbhph_4U / https://www.youtube.com/watch?v=yqXDONSRZJw&t=10s]\n\n### 추가 확인\n\n2026 입실렌티 KODA 단독 구간 표본을 추가해 기존 장편 영상과 다른 촬영 출처를 확보했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=A8N6So-WNu0]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "1981년"
+      },
+      {
+        "label": "원곡",
+        "value": "정미조 ‘정열의 꽃’(1972)"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2026 입실렌티와 고려대·연세대 합동응원전에서 계속 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "jeong-mi-jo-jeongyeol-ui-kkot"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.090Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

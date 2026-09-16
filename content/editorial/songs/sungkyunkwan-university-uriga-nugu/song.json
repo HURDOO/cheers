@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-uriga-nugu",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "우리가 누구",
+    "aliases": [
+      "우리가 누구 (2024)"
+    ],
+    "symbolicLines": [
+      "우리가 누구",
+      "성균관대학교 자체 제작 응원가"
+    ],
+    "descriptionText": "킹고응원단이 2024년 신곡으로 공개한 성균관대학교 자체 제작 계열의 응원가다. 공식 음원 설명에는 조지훈·윤소영이 작사와 작곡을 함께 맡았다고 명시돼 있다.[* 2024 공식 음원·크레딧: https://www.youtube.com/watch?v=GkQMfq4qsLE] 초기 선행 메모에는 제작 크레딧이 없다고 돼 있었지만, 공식 YouTube 설명에서 이름을 확인했으므로 이를 수정했다.\n\n곡이 공개된 2024년에 응원법 가이드 Chapter 9와 ESKARA 1·2부 영상이 제작됐고, 2025학년도 입학식 플레이리스트와 대동제·ESKARA, 2026 상반기 응원 OT와 문행대동제까지 이어졌다.[* 2024 응원법 가이드 Chapter 9: https://www.youtube.com/watch?v=Ye4fgabsJ5s][* 2025 입학식 플레이리스트: https://www.youtube.com/watch?v=5AM13H1rPKY][* 2026 문행대동제 공식 영상: https://www.youtube.com/watch?v=46e6FOGvIGo]\n\n2026 응원법 가이드는 이 곡의 동작을 ‘숙이고 들고’, 참여 방식을 ‘선창후창’으로 따로 안내한다.[* 2026 응원법 가이드: https://www.youtube.com/watch?v=HQaa_PUz6eQ] 제목 자체가 질문형이어서 선창과 관객 응답을 통해 성균인이라는 집단 정체성을 확인하는 구호형 레퍼토리로 쓰인다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2024 · 공식 음원 표기"
+      },
+      {
+        "label": "작사·작곡",
+        "value": "조지훈·윤소영"
+      },
+      {
+        "label": "응원 방식",
+        "value": "숙이고 들고·선창후창"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.147Z",
+    "updatedAt": "2026-09-02T10:18:38.153Z"
+  }
+}

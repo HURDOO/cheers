@@ -1,0 +1,825 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-09-05-korea-yonsei-games-2026",
+  "checkedAt": "2026-09-05",
+  "status": "research_complete_pending_user_review",
+  "scope": {
+    "rule": "현재 이벤트 범위의 legacyDeepDraft 연결곡 가운데 사용자 confirmedBy=\"user\" 승인 기록이 없는 곡을 전부 보강한다.",
+    "reviewDecisionSource": "research/batches/2026-08-07-initial-cheer-songs/decisions.json",
+    "legacyLinkedCount": 40,
+    "excludedAsUserReviewed": {
+      "count": 10,
+      "candidateIds": [
+        "korea-university-minjogui-aria",
+        "korea-university-forever",
+        "korea-university-deureora-boara-geurigo-gieokhara",
+        "korea-university-baennorae",
+        "korea-university-yeongwonhara",
+        "yonsei-university-wonsirim",
+        "yonsei-university-haeya",
+        "yonsei-university-seosi",
+        "yonsei-university-haneul-kkeutkkaji",
+        "yonsei-university-yonseiyeo-saranghanda"
+      ]
+    },
+    "included": {
+      "count": 30,
+      "byOrganization": {
+        "korea-university": 20,
+        "yonsei-university": 10
+      },
+      "byResearchDepth": {
+        "detailed": 21,
+        "basic": 9
+      }
+    }
+  },
+  "findings": {
+    "supplementalCoverage": "30곡 모두 기존 해당 곡 초안에 없던 근거를 1개 이상 연결했다.",
+    "supplementalSourceCount": 25,
+    "currentUse2026": {
+      "directlyVerifiedCount": 29,
+      "notDirectlyVerifiedCount": 1,
+      "notDirectlyVerifiedCandidateIds": [
+        "yonsei-university-apartment"
+      ],
+      "note": "직접 확인 수는 기존 심층 초안의 직접 표본과 이번 보강 표본을 함께 센 값이다. 아파트는 2025 현역 응원단 직접 사용까지 확인되며, 2026 검색에서는 곡별 표본을 찾지 못했다."
+    },
+    "reviewState": "이 파일을 추가해도 사용자 승인 상태는 바꾸지 않는다. 30곡 모두 pending_user_review다."
+  },
+  "items": [
+    {
+      "candidateId": "korea-university-elise-reul-wihayeo",
+      "title": "엘리제를 위하여",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-b.json",
+        "itemId": "korea-university-elise-reul-wihayeo"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 입실렌티 KODA 단독 구간 표본을 추가해 기존 장편 영상과 다른 촬영 출처를 확보했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-elise-2026-koda"
+      ],
+      "remainingGaps": "기존 초안 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-seoktap",
+      "title": "석탑",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-b.json",
+        "itemId": "korea-university-seoktap"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 신입생 응원 OT의 교육·시범·본 공연 타임라인을 확보했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-ot-2026-part1"
+      ],
+      "remainingGaps": "1981·1982 도입 연도 상충 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-chulsapyo",
+      "title": "출사표",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-b.json",
+        "itemId": "korea-university-chulsapyo"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 입실렌티 KODA의 출사표·쎄쎄쎄 연속 구간을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-chulsapyo-2026-koda"
+      ],
+      "remainingGaps": "두 원곡 결합 크레딧과 권리 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-godaereul-noraehara",
+      "title": "고연가 - 고대를 노래하라",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-e.json",
+        "itemId": "university-korea-goyeonga-sing"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 신입생 OT 설명란의 정확한 곡명과 14:42 시작 타임라인을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-ot-2026-part1"
+      ],
+      "remainingGaps": "2011 최초 공개와 제작진 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-young-tigers",
+      "title": "Young Tigers",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-f.json",
+        "itemId": "university-korea-young-tigers"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 신입생 OT 기수부 레퍼토리 영상의 제목·설명에서 영문명과 약칭 YT를 함께 확인했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-ot-2026-repertoire"
+      ],
+      "remainingGaps": "두 원곡의 구간별 사용과 제작 크레딧 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-hwaryeo-pieonan-hamseong",
+      "title": "화려, 피어난 함성",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-f.json",
+        "itemId": "university-korea-blooming-chant"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 입실렌티 기수부 메들리의 별도 촬영 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-flags-2026-cheerss"
+      ],
+      "remainingGaps": "2018 초연과 kt wiz판 관계 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-jiya-ui-hamseong",
+      "title": "지.야의 함성",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-b.json",
+        "itemId": "korea-university-jiya-ui-hamseong"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 입실렌티 KODA 영상에서 석탑·고래사냥 뒤 지.야의 함성으로 이어지는 현장 배치를 확인했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-jiya-2026-koda"
+      ],
+      "remainingGaps": "Granada의 정확한 참조 판본과 제작 크레딧 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-muindo",
+      "title": "무인도",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-b.json",
+        "itemId": "korea-university-muindo"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 신입생 응원 OT에서 교육 멘트 10:35, 본 공연 11:52인 타임라인을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-ot-2026-part1"
+      ],
+      "remainingGaps": "1984 최초 공연과 현행 권리 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-seungni-ui-hamseong",
+      "title": "승리의 함성",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-h.json",
+        "itemId": "korea-university-victory-shout"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "트랜스픽션에도 2010 월드컵곡 ‘승리의 함성’이 있음을 확인했다. 고려대 2025 신곡과의 관계를 뒷받침하는 자료는 없으므로 동명 외부곡으로 분리하고 원곡으로 오인하지 않는다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-victory-transfixion-disambiguation"
+      ],
+      "remainingGaps": "공모전 금상작 불멸의 함성과 현행곡의 동일성·개명 관계, 외부곡 관계 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-yeongwonhi",
+      "title": "영원히",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-g.json",
+        "itemId": "korea-university-012-yeongwonhi"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "벅스 앨범 페이지에서 원곡 S.O.G ‘012 (영원히)’의 발매일, 작사·작곡·편곡 및 연주 크레딧을 추가 확인했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-yeongwonhi-bugs"
+      ],
+      "remainingGaps": "고려대판 제작진과 사용 허락 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-urineun-korea",
+      "title": "우리는 고대",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-c.json",
+        "itemId": "korea-university-we-are-korea"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 상반기 합동 응원 OT의 KODA 단독곡 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-we-are-korea-2026-koda"
+      ],
+      "remainingGaps": "2014 최초 공연과 두 원곡의 제작·권리 관계 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-yonsei-chicken",
+      "title": "연세치킨",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-d.json",
+        "itemId": "korea-university-yonsei-chicken"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 상반기 합동 응원 OT의 KODA 단독곡 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-yonsei-chicken-2026-koda"
+      ],
+      "remainingGaps": "독수리 사냥에서의 개명 시점과 2018 중단 합의 경위 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-singgeulbeonggeul",
+      "title": "싱글벙글",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-c.json",
+        "itemId": "korea-university-singgeulbeonggeul"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 입실렌티 KODA 영상에서 청춘예찬 뒤 싱글벙글로 이어지는 배치를 확인했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-youth-singgeul-2026-koda"
+      ],
+      "remainingGaps": "직접 창작설의 1차 자료와 동작 변경 시점 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-kkureora-yonsei",
+      "title": "꿇어라 연세",
+      "organizationId": "korea-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-f.json",
+        "itemId": "university-korea-kneel-yonsei"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 상반기 합동응원전 영상에서 연세치킨·K.O.대와 함께 쓰이는 라이벌 응원 문맥을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-kneel-2026-joint"
+      ],
+      "remainingGaps": "2013 초연과 공격적 가사 운용 지침 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-haneuriyeo",
+      "title": "하늘이여",
+      "organizationId": "korea-university",
+      "researchDepth": "basic",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-f.json",
+        "itemId": "university-korea-sky"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 입실렌티 기수부 메들리의 별도 촬영 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-flags-2026-cheerss"
+      ],
+      "remainingGaps": "2006 최초 공개와 프로스포츠판 전승 경로 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-godaereul-saranghara",
+      "title": "고연가 - 고대를 사랑하라",
+      "organizationId": "korea-university",
+      "researchDepth": "basic",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-e.json",
+        "itemId": "university-korea-goyeonga-love"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 입실렌티 현장 제목에서 약칭 ‘고사랑’과 출사표·꿇어라 연세·고래사냥·예예예 뒤 배치를 확인했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-goyeonga-love-2026"
+      ],
+      "remainingGaps": "2011 초연과 Kiss the Rain 이용 허락 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-cheongchun-yechan",
+      "title": "청춘예찬",
+      "organizationId": "korea-university",
+      "researchDepth": "basic",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-d.json",
+        "itemId": "korea-university-cheongchun-yechan"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "고려대 교육방송국 KUBS의 2026 합동응원전 편집 영상으로 교내 매체 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-youth-praise-2026-kubs"
+      ],
+      "remainingGaps": "2012 초연과 캐논·A Lover’s Concerto 계보 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-champs-elysees",
+      "title": "샹젤리제",
+      "organizationId": "korea-university",
+      "researchDepth": "basic",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-c.json",
+        "itemId": "korea-university-champs-elysees"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "KODA의 2023 입실렌티 단독 메들리 표본을 추가해 Go! 100과의 연속 배치를 확인했다. 2026 현행성은 기존 초안 표본이 직접 확인한다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-go100-champs-2023-koda"
+      ],
+      "remainingGaps": "2003 최초 공연과 직접 참조 녹음 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-go-100",
+      "title": "Go! 100",
+      "organizationId": "korea-university",
+      "researchDepth": "basic",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-g.json",
+        "itemId": "korea-university-go-100"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "KODA의 2023 입실렌티 단독 메들리 표본을 추가해 샹젤리제와의 연속 배치를 확인했다. 2026 현행성은 기존 초안 표본이 직접 확인한다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-go100-champs-2023-koda"
+      ],
+      "remainingGaps": "2005 초연과 고려대판 제작진 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "korea-university-yeah-yeah-yeah",
+      "title": "Yeah Yeah Yeah",
+      "organizationId": "korea-university",
+      "researchDepth": "basic",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-korea-university-e.json",
+        "itemId": "university-korea-yeah-yeah-yeah"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 신입생 응원 OT의 예예예·호들갑 연속 구간을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-ku-yeah-2026-ot"
+      ],
+      "remainingGaps": "2014 초연과 제작·권리 관계 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "yonsei-university-seogok",
+      "title": "서곡",
+      "organizationId": "yonsei-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-yonsei-university-b.json",
+        "itemId": "yonsei-university-seogok"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 신입생 응원 OT에서 서곡·해야·파란·원시림을 잇는 별도 촬영 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-yu-seogok-paran-2026-ot"
+      ],
+      "remainingGaps": "1994 최초 공개와 Pet Shop Boys판 직접 제작 증언 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "yonsei-university-paran",
+      "title": "파란",
+      "organizationId": "yonsei-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-yonsei-university-c.json",
+        "itemId": "yonsei-university-paran"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 신입생 응원 OT에서 서곡·해야·파란·원시림을 잇는 별도 촬영 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-yu-seogok-paran-2026-ot"
+      ],
+      "remainingGaps": "2004 최초 공개와 최초 제작자 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "yonsei-university-oneul-bamsae",
+      "title": "오늘 밤새",
+      "organizationId": "yonsei-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-yonsei-university-c.json",
+        "itemId": "yonsei-university-oneul-bamsae"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "연세교육방송국 YBS의 2026 응원 OT 모음집에 오늘밤새가 명시된 교내 매체 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-yu-tonight-sky-2026-ybs"
+      ],
+      "remainingGaps": "2013 최초 공개와 PSY 원곡 이용 관계 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "yonsei-university-onnurie",
+      "title": "온누리에",
+      "organizationId": "yonsei-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-yonsei-university-b.json",
+        "itemId": "yonsei-university-onnurie"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 상반기 합동응원전의 양교 교류 순서에 온누리에가 포함된 별도 촬영 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-joint-exchange-2026"
+      ],
+      "remainingGaps": "2022 최초 공개와 커런트·응원단의 공동 제작 크레딧 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "yonsei-university-haneul-arae",
+      "title": "하늘 아래",
+      "organizationId": "yonsei-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-yonsei-university-c.json",
+        "itemId": "yonsei-university-haneul-arae"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 신입생 응원 OT의 야생마·하늘 아래·Oh My Friend 연속 구간을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-yu-sky-below-2026-ot"
+      ],
+      "remainingGaps": "미래캠퍼스 최초 공개설과 대구FC판 관계 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "yonsei-university-apartment",
+      "title": "아파트",
+      "organizationId": "yonsei-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-yonsei-university-d.json",
+        "itemId": "yonsei-university-apartment"
+      },
+      "legacyCurrentUse": "2025 현역 응원단 직접 확인; 2026 직접 표본 미확인",
+      "supplementalFinding": "2024 동문 아카라카의 별도 장편 표본을 추가해 장기 레퍼토리 지속성은 보강했으나, 2026 현역 응원단 사용은 검색 결과에서 확인하지 못했다.",
+      "supplementalSourceRefs": [
+        "src-supp-yu-apartment-2024-alumni"
+      ],
+      "remainingGaps": "2026 현역 표본과 최초 도입 연도·행사 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "yonsei-university-go-balp-kkum",
+      "title": "고.밟.꿈",
+      "organizationId": "yonsei-university",
+      "researchDepth": "detailed",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-yonsei-university-b.json",
+        "itemId": "yonsei-university-go-bal-kum"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 아카라카의 바다새·아리요·야생마·고밟꿈 연속 구간을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-yu-gobaldream-2026-akaraka"
+      ],
+      "remainingGaps": "1998 최초 공개와 Jesus Is the Rock 정확한 판본 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "yonsei-university-yeongwonhan-hamseong",
+      "title": "영원한 함성",
+      "organizationId": "yonsei-university",
+      "researchDepth": "basic",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-yonsei-university-d.json",
+        "itemId": "yonsei-university-eternal-shout"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 상반기 합동응원전 단장 메들리의 별도 촬영 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-yu-eternal-shout-2026-joint"
+      ],
+      "remainingGaps": "2011 전신·2018 리뉴얼 관계와 KIA판 관계 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "yonsei-university-one-night-only",
+      "title": "One Night Only",
+      "organizationId": "yonsei-university",
+      "researchDepth": "basic",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-yonsei-university-b.json",
+        "itemId": "yonsei-university-one-night-only"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 아카라카 2학년 메들리에서 ONO 약칭과 현장 사용을 확인했다.",
+      "supplementalSourceRefs": [
+        "src-supp-yu-ono-2026-akaraka"
+      ],
+      "remainingGaps": "2007 최초 공개와 Jennifer Hudson 저작자 오기 경위 등 기존 unresolved 유지"
+    },
+    {
+      "candidateId": "yonsei-university-go-yonsei",
+      "title": "GO 연세",
+      "organizationId": "yonsei-university",
+      "researchDepth": "basic",
+      "legacyDeepDraft": {
+        "path": "research/deep/batches/2026-08-08-yonsei-university-c.json",
+        "itemId": "yonsei-university-go-yonsei"
+      },
+      "legacyCurrentUse": "2026 직접 확인",
+      "supplementalFinding": "2026 개교 141주년 아카라카의 KODA 단독곡 표본을 추가했다.",
+      "supplementalSourceRefs": [
+        "src-supp-yu-go-yonsei-2026-koda"
+      ],
+      "remainingGaps": "2002 최초 공개와 두 원곡의 구간별 배치 등 기존 unresolved 유지"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-supp-ku-elise-2026-koda",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=A8N6So-WNu0",
+      "videoId": "A8N6So-WNu0",
+      "title": "2026.05.22 IPSELENTI 지.야의 함성 [엘리제를 위하여]",
+      "channel": "KODA",
+      "publishedAt": "2026-05-31",
+      "duration": "1:37",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-ot-2026-part1",
+      "type": "youtube_direct_performance_with_chapters",
+      "url": "https://www.youtube.com/watch?v=e8PIfcjNhF0",
+      "videoId": "e8PIfcjNhF0",
+      "title": "[2026 고려대 응원OT] 1부 응원단장 풀버전 '입장+응원의 노래+엘리제+석탑+무인도+고연가+포에버'",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "eventDate": "2026-03-17",
+      "publishedAt": "2026-04-26",
+      "duration": "21:27",
+      "chaptersUsed": {
+        "엘리제를 위하여": "05:01",
+        "석탑 교육": "06:36",
+        "석탑": "07:57",
+        "무인도 교육": "10:35",
+        "무인도": "11:52",
+        "고연가 - 고대를 노래하라": "14:42"
+      },
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-chulsapyo-2026-koda",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=wTTezdszINI",
+      "videoId": "wTTezdszINI",
+      "title": "2026.05.22 IPSELENTI 지.야의 함성 [출사표 + 쎄쎄쎄]",
+      "channel": "KODA",
+      "publishedAt": "2026-06-03",
+      "duration": "3:57",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-ot-2026-repertoire",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=CA_F-Dc8Yis",
+      "videoId": "CA_F-Dc8Yis",
+      "title": "'출사표+영원하라+고연가+Young Tigers'-응원단장 & 기수부 레파토리 [2026 고려대 신입생 응원OT]",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "eventDate": "2026-03-17",
+      "publishedAt": "2026-03-20",
+      "duration": "10:46",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-flags-2026-cheerss",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=2vyDJDlLgm8",
+      "videoId": "2vyDJDlLgm8",
+      "title": "2부 기수부 응원 '하늘이여 + 화려, 피어난 함성 + 영원하라 + 영 타이거즈'",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2026-05-24",
+      "duration": "9:26",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-jiya-2026-koda",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=cEI3SLtttUk",
+      "videoId": "cEI3SLtttUk",
+      "title": "2026.05.22 IPSELENTI 지.야의 함성 [석탑 + 고래사냥 +지야의 함성]",
+      "channel": "KODA",
+      "publishedAt": "2026-05-31",
+      "duration": "6:27",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-victory-transfixion-disambiguation",
+      "type": "news_artist_interview",
+      "url": "https://cb.yna.co.kr/gate/big5/m-cn.yna.co.kr/view/AKR20100621044100005",
+      "title": "트랜스픽션 ‘월드컵 응원무대선 록스타가 되죠’",
+      "publisher": "연합뉴스",
+      "publishedAt": "2010-06-21",
+      "supports": [
+        "트랜스픽션의 동명곡 ‘승리의 함성(The Shouts Of Reds)’ 존재",
+        "2010 남아공 월드컵 붉은악마 공식 음반 타이틀곡이라는 별도 계보"
+      ],
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-yeongwonhi-bugs",
+      "type": "music_catalog",
+      "url": "https://music.bugs.co.kr/album/20587314",
+      "title": "012 (영원히) — S.O.G",
+      "publisher": "벅스",
+      "releaseDate": "2023-08-25",
+      "supports": [
+        "원곡 제목·아티스트·발매일",
+        "Written and Composed Arranged by S.O.G N FRIENDS-1",
+        "보컬·코러스·악기·믹싱·마스터링 크레딧"
+      ],
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-we-are-korea-2026-koda",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=GbXAj1tbB9U",
+      "videoId": "GbXAj1tbB9U",
+      "title": "2026.03.20 고연대 합동 응원OT [우리는 고대(KU)]",
+      "channel": "KODA",
+      "publishedAt": "2026-04-26",
+      "duration": "2:07",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-yonsei-chicken-2026-koda",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=RZU3mWWt1LE",
+      "videoId": "RZU3mWWt1LE",
+      "title": "2026.03.20 고연대 합동 응원OT [연세치킨(KU)]",
+      "channel": "KODA",
+      "publishedAt": "2026-04-22",
+      "duration": "1:55",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-youth-singgeul-2026-koda",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=lrThsnaG17I",
+      "videoId": "lrThsnaG17I",
+      "title": "2026.05.22 IPSELENTI 지.야의 함성 [청춘예찬 + 싱글벙글]",
+      "channel": "KODA",
+      "publishedAt": "2026-06-02",
+      "duration": "5:20",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-kneel-2026-joint",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=Gkr3IrQTbxo",
+      "videoId": "Gkr3IrQTbxo",
+      "title": "시험이 망했다? 일단 고대/연대 탓 '연세치킨' 'KO대' '꿇어라 연세' [2026 연고대 상반기 합동응원전]",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-04-23",
+      "duration": "6:05",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-goyeonga-love-2026",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=hOFZ_UdQfko",
+      "videoId": "hOFZ_UdQfko",
+      "title": "초록의 녹지가 붉은 노을이 되었습니다 '출사표 + 꿇어라 연세여 + 고래사냥 + 예예예 + 고사랑'",
+      "channel": "Cheerss 치얼쓰",
+      "publishedAt": "2026-05-25",
+      "duration": "13:55",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-youth-praise-2026-kubs",
+      "type": "youtube_campus_media_performance",
+      "url": "https://www.youtube.com/watch?v=GENKWyguhxA",
+      "videoId": "GENKWyguhxA",
+      "title": "청춘의 목소리가 울려 퍼진 이곳 | 2026 상반기 합동응원전 #청춘예찬 #영타이거즈 #붉은노을",
+      "channel": "고려대학교 교육방송국 KUBS",
+      "publishedAt": "2026-03-21",
+      "duration": "6:39",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-go100-champs-2023-koda",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=B6yrvjVqE5I",
+      "videoId": "B6yrvjVqE5I",
+      "title": "2023.05.26 IPSELENTI 지.야의 함성 [Go!100! - 샹젤리제]",
+      "channel": "KODA",
+      "publishedAt": "2023-06-07",
+      "duration": "4:12",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-ku-yeah-2026-ot",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=A1PtntjnVM0",
+      "videoId": "A1PtntjnVM0",
+      "title": "[2026 고려대 응원OT] Everybody Say! '예예예 + 호들갑'",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-13",
+      "duration": "4:29",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-yu-seogok-paran-2026-ot",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=gpQW33QJ90M",
+      "videoId": "gpQW33QJ90M",
+      "title": "어이 연세대 26학번, 허리는 괜찮아졌지? 다시 시작하자 ‘서곡’ ‘해야’ ‘파란’ ‘원시림’",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-02-16",
+      "duration": "12:03",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-yu-tonight-sky-2026-ybs",
+      "type": "youtube_campus_media_performance",
+      "url": "https://www.youtube.com/watch?v=zTjYgUVsRc8",
+      "videoId": "zTjYgUVsRc8",
+      "title": "[2026 응원 OT] 연세대 응원곡 모음집 (2부) — 해야 / J에게 / 친구야 / 오늘밤새 / 하늘 아래 / 내 이름 그리고 연세",
+      "channel": "연세교육방송국 YBS",
+      "publishedAt": "2026-02-21",
+      "duration": "15:15",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-joint-exchange-2026",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=xNMFhFuvUNo",
+      "videoId": "xNMFhFuvUNo",
+      "title": "[2026 고려대/연세대 합동응원전] 양교 응원가 교류 '파란/고연가/온누리에/출사표/서시/들어라 보아라 그리고 기억하라/하늘끝까지/포에버'",
+      "channel": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-03-21",
+      "duration": "21:24",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-yu-sky-below-2026-ot",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=J48MoBf-rAw",
+      "videoId": "J48MoBf-rAw",
+      "title": "연대생은 지치지 않아 ! ‘야생마’ ‘하늘아래’ ‘Oh my friend’ | 2026 연세대학교 신입생 응원 오리엔테이션",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-02-22",
+      "duration": "7:26",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-yu-apartment-2024-alumni",
+      "type": "youtube_alumni_performance",
+      "url": "https://www.youtube.com/watch?v=ZLw2TUSikxg",
+      "videoId": "ZLw2TUSikxg",
+      "title": "AKARAKA (OB회 응원단) 2024 Avengers ver. '원시림, 여행을떠나요, 아파트, 해야, 서시, 연세여사랑한다, 하늘끝까지, 젊었다'",
+      "channel": "연세여 사랑한다",
+      "publishedAt": "2024-05-31",
+      "duration": "23:36",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-yu-gobaldream-2026-akaraka",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=p7AoNoKoL-c",
+      "videoId": "p7AoNoKoL-c",
+      "title": "부단장님과 함께 날아보자! 달려보자! ‘바다새‘ ’아리요‘ ’야생마‘ ’고밟꿈‘ [2026 아카라카를 온누리에]",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-06-13",
+      "duration": "9:18",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-yu-eternal-shout-2026-joint",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=WywaH5D5MIY",
+      "videoId": "WywaH5D5MIY",
+      "title": "연뽕 고뽕 차는 곡만 모았다! 단장 메들리 승전가 엘리제를 위하여 하늘아래 고래사냥 영원한 함성 청춘예찬 서시 화려, 피어난 함성",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-03-25",
+      "duration": "17:42",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-yu-ono-2026-akaraka",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=nOsorVWKpWk",
+      "videoId": "nOsorVWKpWk",
+      "title": "귀여운 2학년들이 보여주는 신나는 응원곡! ‘흔들흔들’ ‘해피송’ ‘Woo’ ‘ONO’ ‘여행을 떠나요’ [2026 아카라카를 온누리에]",
+      "channel": "청춘테이프",
+      "publishedAt": "2026-06-14",
+      "duration": "12:01",
+      "accessedAt": "2026-09-05"
+    },
+    {
+      "id": "src-supp-yu-go-yonsei-2026-koda",
+      "type": "youtube_direct_performance",
+      "url": "https://www.youtube.com/watch?v=7rE9dkBGBJk",
+      "videoId": "7rE9dkBGBJk",
+      "title": "2026.05.23 개교 141주년 아카라카를 온누리에 [GO연세]",
+      "channel": "KODA",
+      "publishedAt": "2026-05-25",
+      "duration": "2:45",
+      "accessedAt": "2026-09-05"
+    }
+  ],
+  "rightsNote": "가사 전문·응원 음원·영상은 저장하지 않았다. 이 파일에는 사실 확인용 메타데이터와 요약만 기록한다."
+}

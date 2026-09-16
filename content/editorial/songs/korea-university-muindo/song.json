@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-muindo",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "무인도",
+    "aliases": [],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "김추자가 1974년에 발표한 이종택 작사·이봉조 작곡의 ‘무인도’를 고려대 응원 형식으로 바꾼 1984년 레퍼토리다. 원곡의 파도·태양·별·바람 이미지를 유지하면서 독창과 관중 응답, 큰 동작을 결합한다. 교우회 연표와 2024·2025 연도 표기가 1984년 도입에 일치하고, 2026 입실렌티와 신입생 응원 OT에서 계속 사용됨을 확인했다.\n\n### 현장에서\n\n- 응원 OT에서 독창·후창과 큰 팔 동작을 배우고 입실렌티·고연전에서 함께 부른다.\n- 빠른 경쟁 구호 사이에서 비교적 길고 서정적인 자연 이미지를 살리는 전통곡으로 배치된다.\n- 선창자가 고음으로 구절을 끌고 관중이 응답한 뒤 전체 합창으로 합쳐지는 방식이 두드러진다.\n\n### 더 알아보기\n\n공식 응원단은 무인도를 고립의 공간만이 아니라 지친 이가 잠시 쉬어 가는 장소와 자연의 힘으로 해석한다. 전투적인 응원 레퍼토리 안에서 서정적인 대비를 만든다.[* 참고: https://www.youtube.com/watch?v=u080FPwuuy8]\n\n이 곡은 정훈희의 1975년 국제가요제 무대로도 널리 알려졌지만, 고려대 응원단 공식 설명은 직접 원곡 가수를 김추자로 적고 Apple Music은 김추자의 1974년 발표를 확인한다.[* 참고: https://www.youtube.com/watch?v=u080FPwuuy8 / https://music.apple.com/kr/album/kim-choo-ja-desert-island/1752797186]\n\n신입생 OT 영상의 공개 댓글에는 이 곡을 30년 이상 가장 좋아한 응원가로 기억한다는 반응이 나타난다. 공식 연표의 1984년 도입과 세대 기억이 대체로 맞물린다.[* 참고: https://www.youtube.com/watch?v=9pwdAFjHCFo&t=259s / https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0]\n\n### 추가 확인\n\n2026 신입생 응원 OT에서 교육 멘트 10:35, 본 공연 11:52인 타임라인을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=e8PIfcjNhF0]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "1984년"
+      },
+      {
+        "label": "원곡",
+        "value": "김추자 ‘무인도’(1974), 이종택 작사·이봉조 작곡"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2026 입실렌티와 신입생 응원 OT에서 계속 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "kim-choo-ja-muindo"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.127Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-09-05-korea-yonsei-games-2026",
+  "sourceConversation": "https://chatgpt.com/share/6a9ae2a0-d754-83ee-a172-fe272a20eb61",
+  "approvedAt": "2026-09-05",
+  "counts": {
+    "total": 49,
+    "detailed": 38,
+    "basic": 11,
+    "legacyDeepAvailable": 40,
+    "newResearchRequired": 9
+  },
+  "items": [
+    {
+      "id": "korea-university-minjogui-aria",
+      "organizationId": "korea-university",
+      "title": "민족의 아리아",
+      "aliases": ["민아"],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-a.json", "itemId": "korea-university-minjogui-aria"}
+    },
+    {
+      "id": "korea-university-forever",
+      "organizationId": "korea-university",
+      "title": "Forever",
+      "aliases": ["FOREVER"],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-a.json", "itemId": "korea-university-forever"}
+    },
+    {
+      "id": "korea-university-deureora-boara-geurigo-gieokhara",
+      "organizationId": "korea-university",
+      "title": "들어라 보아라 그리고 기억하라",
+      "aliases": ["들보기"],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-a.json", "itemId": "korea-university-deureora-boara-geurigo-gieokhara"}
+    },
+    {
+      "id": "korea-university-baennorae",
+      "organizationId": "korea-university",
+      "title": "뱃노래",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-a.json", "itemId": "korea-university-baennorae"}
+    },
+    {
+      "id": "korea-university-elise-reul-wihayeo",
+      "organizationId": "korea-university",
+      "title": "엘리제를 위하여",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-b.json", "itemId": "korea-university-elise-reul-wihayeo"}
+    },
+    {
+      "id": "korea-university-seoktap",
+      "organizationId": "korea-university",
+      "title": "석탑",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-b.json", "itemId": "korea-university-seoktap"}
+    },
+    {
+      "id": "korea-university-chulsapyo",
+      "organizationId": "korea-university",
+      "title": "출사표",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-b.json", "itemId": "korea-university-chulsapyo"}
+    },
+    {
+      "id": "korea-university-yeongwonhara",
+      "organizationId": "korea-university",
+      "title": "영원하라",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-a.json", "itemId": "korea-university-yeongwonhara"}
+    },
+    {
+      "id": "korea-university-godaereul-noraehara",
+      "organizationId": "korea-university",
+      "title": "고연가 - 고대를 노래하라",
+      "aliases": ["고연가: 고대를 노래하라"],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-e.json", "itemId": "university-korea-goyeonga-sing"}
+    },
+    {
+      "id": "korea-university-young-tigers",
+      "organizationId": "korea-university",
+      "title": "Young Tigers",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-f.json", "itemId": "university-korea-young-tigers"}
+    },
+    {
+      "id": "korea-university-hwaryeo-pieonan-hamseong",
+      "organizationId": "korea-university",
+      "title": "화려, 피어난 함성",
+      "aliases": ["화려 피어난 함성"],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-f.json", "itemId": "university-korea-blooming-chant"}
+    },
+    {
+      "id": "korea-university-jiya-ui-hamseong",
+      "organizationId": "korea-university",
+      "title": "지.야의 함성",
+      "aliases": ["지야의 함성"],
+      "researchDepth": "detailed",
+      "eventPlacement": "detailed_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-b.json", "itemId": "korea-university-jiya-ui-hamseong"}
+    },
+    {
+      "id": "korea-university-goraesanyang",
+      "organizationId": "korea-university",
+      "title": "고래사냥",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "new_research_required",
+      "legacyDeepDraft": null
+    },
+    {
+      "id": "korea-university-muindo",
+      "organizationId": "korea-university",
+      "title": "무인도",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "detailed_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-b.json", "itemId": "korea-university-muindo"}
+    },
+    {
+      "id": "korea-university-seungni-ui-hamseong",
+      "organizationId": "korea-university",
+      "title": "승리의 함성",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-h.json", "itemId": "korea-university-victory-shout"}
+    },
+    {
+      "id": "korea-university-yeongwonhi",
+      "organizationId": "korea-university",
+      "title": "영원히",
+      "aliases": ["012: 영원히"],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-g.json", "itemId": "korea-university-012-yeongwonhi"}
+    },
+    {
+      "id": "korea-university-urineun-korea",
+      "organizationId": "korea-university",
+      "title": "우리는 고대",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "rivalry",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-c.json", "itemId": "korea-university-we-are-korea"}
+    },
+    {
+      "id": "korea-university-yonsei-chicken",
+      "organizationId": "korea-university",
+      "title": "연세치킨",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "rivalry",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-d.json", "itemId": "korea-university-yonsei-chicken"}
+    },
+    {
+      "id": "korea-university-singgeulbeonggeul",
+      "organizationId": "korea-university",
+      "title": "싱글벙글",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "rivalry",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-c.json", "itemId": "korea-university-singgeulbeonggeul"}
+    },
+    {
+      "id": "korea-university-kkureora-yonsei",
+      "organizationId": "korea-university",
+      "title": "꿇어라 연세",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "rivalry",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-f.json", "itemId": "university-korea-kneel-yonsei"}
+    },
+    {
+      "id": "korea-university-haneuriyeo",
+      "organizationId": "korea-university",
+      "title": "하늘이여",
+      "aliases": [],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-f.json", "itemId": "university-korea-sky"}
+    },
+    {
+      "id": "korea-university-godaereul-saranghara",
+      "organizationId": "korea-university",
+      "title": "고연가 - 고대를 사랑하라",
+      "aliases": ["고연가: 고대를 사랑하라"],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-e.json", "itemId": "university-korea-goyeonga-love"}
+    },
+    {
+      "id": "korea-university-cheongchun-yechan",
+      "organizationId": "korea-university",
+      "title": "청춘예찬",
+      "aliases": [],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-d.json", "itemId": "korea-university-cheongchun-yechan"}
+    },
+    {
+      "id": "korea-university-champs-elysees",
+      "organizationId": "korea-university",
+      "title": "샹젤리제",
+      "aliases": ["오 샹젤리제"],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-c.json", "itemId": "korea-university-champs-elysees"}
+    },
+    {
+      "id": "korea-university-domangja",
+      "organizationId": "korea-university",
+      "title": "도망자",
+      "aliases": [],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "new_research_required",
+      "legacyDeepDraft": null
+    },
+    {
+      "id": "korea-university-go-100",
+      "organizationId": "korea-university",
+      "title": "Go! 100",
+      "aliases": ["Go! 100!"],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-g.json", "itemId": "korea-university-go-100"}
+    },
+    {
+      "id": "korea-university-yeah-yeah-yeah",
+      "organizationId": "korea-university",
+      "title": "Yeah Yeah Yeah",
+      "aliases": ["예예예"],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-korea-university-e.json", "itemId": "university-korea-yeah-yeah-yeah"}
+    },
+    {
+      "id": "yonsei-university-wonsirim",
+      "organizationId": "yonsei-university",
+      "title": "원시림",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-a.json", "itemId": "yonsei-university-wonsirim"}
+    },
+    {
+      "id": "yonsei-university-seogok",
+      "organizationId": "yonsei-university",
+      "title": "서곡",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-b.json", "itemId": "yonsei-university-seogok"}
+    },
+    {
+      "id": "yonsei-university-haeya",
+      "organizationId": "yonsei-university",
+      "title": "해야",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-a.json", "itemId": "yonsei-university-haeya"}
+    },
+    {
+      "id": "yonsei-university-paran",
+      "organizationId": "yonsei-university",
+      "title": "파란",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-c.json", "itemId": "yonsei-university-paran"}
+    },
+    {
+      "id": "yonsei-university-seosi",
+      "organizationId": "yonsei-university",
+      "title": "서시",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-a.json", "itemId": "yonsei-university-seosi"}
+    },
+    {
+      "id": "yonsei-university-haneul-kkeutkkaji",
+      "organizationId": "yonsei-university",
+      "title": "하늘끝까지",
+      "aliases": ["하늘 끝까지"],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-a.json", "itemId": "yonsei-university-haneul-kkeutkkaji"}
+    },
+    {
+      "id": "yonsei-university-yonseiyeo-saranghanda",
+      "organizationId": "yonsei-university",
+      "title": "연세여 사랑한다",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-a.json", "itemId": "yonsei-university-yonseiyeo-saranghanda"}
+    },
+    {
+      "id": "yonsei-university-oneul-bamsae",
+      "organizationId": "yonsei-university",
+      "title": "오늘 밤새",
+      "aliases": ["오늘밤새"],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-c.json", "itemId": "yonsei-university-oneul-bamsae"}
+    },
+    {
+      "id": "yonsei-university-oh-my-friend",
+      "organizationId": "yonsei-university",
+      "title": "Oh My Friend",
+      "aliases": ["Oh my friend"],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "new_research_required",
+      "legacyDeepDraft": null
+    },
+    {
+      "id": "yonsei-university-onnurie",
+      "organizationId": "yonsei-university",
+      "title": "온누리에",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-b.json", "itemId": "yonsei-university-onnurie"}
+    },
+    {
+      "id": "yonsei-university-haneul-arae",
+      "organizationId": "yonsei-university",
+      "title": "하늘 아래",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-c.json", "itemId": "yonsei-university-haneul-arae"}
+    },
+    {
+      "id": "yonsei-university-cheongchun-mulgyeol",
+      "organizationId": "yonsei-university",
+      "title": "청춘물결",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "must_know",
+      "coverageStatus": "new_research_required",
+      "legacyDeepDraft": null
+    },
+    {
+      "id": "yonsei-university-apartment",
+      "organizationId": "yonsei-university",
+      "title": "아파트",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-d.json", "itemId": "yonsei-university-apartment"}
+    },
+    {
+      "id": "yonsei-university-badasae",
+      "organizationId": "yonsei-university",
+      "title": "바다새",
+      "aliases": [],
+      "researchDepth": "detailed",
+      "eventPlacement": "memory",
+      "coverageStatus": "new_research_required",
+      "legacyDeepDraft": null
+    },
+    {
+      "id": "yonsei-university-go-balp-kkum",
+      "organizationId": "yonsei-university",
+      "title": "고.밟.꿈",
+      "aliases": ["고밟꿈"],
+      "researchDepth": "detailed",
+      "eventPlacement": "rivalry",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-b.json", "itemId": "yonsei-university-go-bal-kum"}
+    },
+    {
+      "id": "yonsei-university-woo",
+      "organizationId": "yonsei-university",
+      "title": "Woo",
+      "aliases": ["WOO"],
+      "researchDepth": "detailed",
+      "eventPlacement": "rivalry",
+      "coverageStatus": "new_research_required",
+      "legacyDeepDraft": null
+    },
+    {
+      "id": "yonsei-university-ko-dae",
+      "organizationId": "yonsei-university",
+      "title": "K.O.대",
+      "aliases": ["KO대", "K.O. 대"],
+      "researchDepth": "detailed",
+      "eventPlacement": "rivalry",
+      "coverageStatus": "new_research_required",
+      "legacyDeepDraft": null
+    },
+    {
+      "id": "yonsei-university-goyangi-sound",
+      "organizationId": "yonsei-university",
+      "title": "고양이 SOUND",
+      "aliases": ["고양이Sound", "고양이 Sound"],
+      "researchDepth": "detailed",
+      "eventPlacement": "rivalry",
+      "coverageStatus": "new_research_required",
+      "legacyDeepDraft": null
+    },
+    {
+      "id": "yonsei-university-nae-ireum-geurigo-yonsei",
+      "organizationId": "yonsei-university",
+      "title": "내 이름 그리고 연세",
+      "aliases": [],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "new_research_required",
+      "legacyDeepDraft": null
+    },
+    {
+      "id": "yonsei-university-yeongwonhan-hamseong",
+      "organizationId": "yonsei-university",
+      "title": "영원한 함성",
+      "aliases": [],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-d.json", "itemId": "yonsei-university-eternal-shout"}
+    },
+    {
+      "id": "yonsei-university-one-night-only",
+      "organizationId": "yonsei-university",
+      "title": "One Night Only",
+      "aliases": [],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-b.json", "itemId": "yonsei-university-one-night-only"}
+    },
+    {
+      "id": "yonsei-university-go-yonsei",
+      "organizationId": "yonsei-university",
+      "title": "GO 연세",
+      "aliases": ["GO연세", "Go 연세"],
+      "researchDepth": "basic",
+      "eventPlacement": "basic_library",
+      "coverageStatus": "legacy_deep_available",
+      "legacyDeepDraft": {"path": "research/deep/batches/2026-08-08-yonsei-university-c.json", "itemId": "yonsei-university-go-yonsei"}
+    }
+  ]
+}
+

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "yonsei-university-apartment",
+    "organizationId": "yonsei-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "아파트",
+    "aliases": [
+      "APT",
+      "이파트"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "윤수일이 작사·작곡해 1982년 발표한 동명곡을 연세대식 선창·후창과 동작으로 운용하는 장기 응원곡이다. 나무위키는 1980년 전후 선배들이 동문회에서 즐겨 부른 대표곡이라고 서술하지만 정확한 대학 도입연도는 제시하지 않는다. 현재 보존한 가장 이른 직접 영상은 1996 신입생 응원 OT이므로 대표 연도는 `1996 (가장 이른 확인; 1980년대 사용 주장)`으로 둔다. 원곡의 전화 장면을 이용한 벨소리·전화 응답과 즉흥 액션이 특징이며, 한동안 동문 공연 중심이었다는 댓글 기억과 달리 2025 신입생 응원 OT와 아카라카에서 현역 사용이 직접 확인됐다.\n\n### 현장에서\n\n- 신입생 응원 OT에서 전화 응답과 동작을 배우는 참여형 곡으로 사용한다.\n- 아카라카 부단장 순서에서 `야생마`, `ONO`, `고밟꿈` 뒤에 이어지는 빠른 액션곡으로 배치됐다.\n- 동문 아카라카와 역대 응원단 무대에서는 1980~1990년대 세대가 함께 부르는 추억의 레퍼토리로 사용된다.\n- 원곡의 벨소리·전화 소재를 활용해 관중과 응원단 사이에 짧은 문답과 즉흥 동작을 삽입한다.\n\n### 더 알아보기\n\n연세대 공식 `아카라카 101` 1화는 `같은 아파트 사는 사람에게 아파트 응원가 배워봤습니다`라는 제목으로 곡명과 주거 공간을 이용한 말장난을 했다.[* 참고: https://www.youtube.com/watch?v=wI5s2FfSzaM]\n\n2025 OT 댓글에서는 그동안 동문 중심으로 들리던 곡이 현역 레퍼토리로 돌아왔다고 반기는 반응과 편곡·완성도를 비판하는 반응이 함께 나타난다.[* 참고: https://www.youtube.com/watch?v=2HGMpagSdxs / https://www.youtube.com/watch?v=vy7tSfj_n4c]\n\n2025 OT 제목·해시태그는 `APT`와 초인종 표현을 함께 사용했고, 댓글은 로제·브루노 마스의 동명 히트곡 유행과 시기가 맞았다고 받아들였다. 그러나 연세대 응원가의 원곡은 윤수일 곡이다.[* 참고: https://www.youtube.com/watch?v=2HGMpagSdxs / https://www.asiae.co.kr/article/2024111315413484262]\n\n1996 신입생 응원 OT 아카이브는 `한잔의 추억`과 `아파트`를 함께 수록해 최소 30년 가까운 직접 공연 연속성을 확인할 수 있는 가장 이른 현재 표본이다.[* 참고: https://www.youtube.com/watch?v=bZ-PEp2yMyY / https://www.youtube.com/watch?v=2HGMpagSdxs]\n\n### 추가 확인\n\n2024 동문 아카라카의 별도 장편 표본을 추가해 장기 레퍼토리 지속성은 보강했으나, 2026 현역 응원단 사용은 검색 결과에서 확인하지 못했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=ZLw2TUSikxg]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "1996년 (현재 확인한 가장 이른 직접 공연); 1980년 전후부터 동문 대표곡이었다는 2차 주장"
+      },
+      {
+        "label": "원곡",
+        "value": "윤수일 `아파트`, 윤수일 작사·작곡, 1982년 발표"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2025 신입생 응원 OT와 개교 140주년 아카라카에서 현역 응원단이 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "yoon-soo-il-apartment"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.220Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

@@ -1,0 +1,1638 @@
+<!doctype html>
+<html lang="en" data-visualize-standalone>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Cheers Visitor Roadmap</title>
+<style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
+</head>
+<body>
+<iframe sandbox="allow-scripts" referrerpolicy="no-referrer" title="Cheers Visitor Roadmap" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot; data-visualize-standalone&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
+&lt;title&gt;Cheers Visitor Roadmap&lt;/title&gt;
+&lt;style&gt;:root {
+  color-scheme: light dark;
+  background-color: var(
+    --background,
+    var(--color-background-primary, light-dark(rgb(255 255 255), rgb(24 24 24)))
+  ) !important;
+
+  /* Agent-facing contract; keep in sync with SKILL.md. */
+  --background: var(
+    --color-background-primary,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --card: color-mix(in oklab, var(--foreground) 5%, var(--background));
+  --card-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --popover: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255), rgb(45 45 45))
+  );
+  --popover-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --primary: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --primary-foreground: var(
+    --color-text-inverse,
+    light-dark(rgb(255 255 255), rgb(13 13 13))
+  );
+  --secondary: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255 / 96%), rgb(54 54 54 / 96%))
+  );
+  --secondary-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --muted: color-mix(in srgb, var(--foreground) 10%, transparent);
+  --muted-foreground: var(
+    --color-text-secondary,
+    light-dark(rgb(26 28 31 / 49.4%), rgb(255 255 255 / 49.8%))
+  );
+  --accent: var(
+    --color-background-info,
+    light-dark(rgb(229 242 255), rgb(13 39 63))
+  );
+  --accent-foreground: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --destructive: var(
+    --color-text-warning,
+    light-dark(rgb(226 85 7), rgb(255 133 73))
+  );
+  --border: var(
+    --color-border-secondary,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+  --input: var(
+    --color-border-primary,
+    light-dark(
+      rgb(26 28 31 / 11.8%),
+      color-mix(in oklab, rgb(0 0 0) 10%, transparent)
+    )
+  );
+  --ring: var(
+    --color-ring-primary,
+    light-dark(rgb(51 156 255), rgb(131 195 255 / 76%))
+  );
+  --font-size-base: var(--font-text-md-size, 14px);
+  --blue: light-dark(rgb(51 156 255), rgb(51 156 255));
+  --orange: light-dark(rgb(226 85 7), rgb(251 106 34));
+  --green: light-dark(rgb(0 162 64), rgb(64 201 119));
+  --red: light-dark(rgb(224 46 42), rgb(255 103 100));
+  --purple: light-dark(rgb(146 79 247), rgb(173 123 249));
+  --yellow: light-dark(rgb(255 195 0), rgb(255 210 64));
+  --viz-series-1: var(--primary);
+  --viz-series-2: light-dark(rgb(243 136 59), rgb(245 154 86));
+  --viz-series-3: light-dark(rgb(93 201 119), rgb(116 213 139));
+  --viz-series-4: light-dark(rgb(235 119 177), rgb(240 143 192));
+  --viz-series-5: light-dark(rgb(155 121 236), rgb(170 145 239));
+  --viz-series-6: light-dark(rgb(58 185 177), rgb(90 203 194));
+
+  /* Internal implementation variables; not part of the agent contract. */
+  --font-sans: -apple-system, system-ui, &quot;Segoe UI&quot;, sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;,
+    monospace;
+  --font-size-normal: max(11px, var(--font-size-base));
+  --font-size-tooltip: calc(var(--font-size-base) - 1px);
+  --font-size-small: max(11px, calc(var(--font-size-base) - 2px));
+  --font-size-h1: calc(var(--font-size-normal) * 1.7142857143);
+  --font-size-h2: calc(var(--font-size-normal) * 1.4285714286);
+  --font-size-h3: calc(var(--font-size-normal) * 1.2857142857);
+  --font-weight-normal: 430;
+  --font-weight-medium: 500;
+  --icon-size: 16px;
+  --line-height-normal: calc(var(--font-size-normal) * 1.5);
+  --line-height-tooltip: calc(var(--font-size-tooltip) * 1.4285714286);
+  --line-height-small: calc(var(--font-size-small) + 4px);
+  --corner-shape: round;
+  --radius: var(--border-radius-lg, 10px);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-2xl: calc(var(--radius) * 1.6);
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px -1px rgb(0 0 0 / 8%);
+  --checkmark-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 17 17&#x27;%3E%3Cpath d=&#x27;M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z&#x27;/%3E%3C/svg%3E&quot;);
+
+  /* Legacy aliases; not part of the current agent contract. */
+  --viz-bg: transparent;
+  --viz-panel: var(--card);
+  --viz-border: var(--border);
+  --viz-text: var(--foreground);
+  --viz-muted: var(--muted-foreground);
+  --viz-accent: var(--primary);
+  --viz-accent-text: var(--primary-foreground);
+  --viz-accent-bg: var(--accent);
+  --viz-font-size: var(--font-size-base);
+  --viz-warning: var(--destructive);
+}
+
+:root[data-theme=&quot;light&quot;] {
+  color-scheme: light;
+}
+
+:root[data-theme=&quot;dark&quot;] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html &gt; body {
+  /* Preserve MCP aliases for older inline renderers without creating :root cycles. */
+  --color-background-primary: var(
+    --background,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --color-text-primary: var(
+    --foreground,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --color-border-secondary: var(
+    --border,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+
+  margin: 0;
+  padding: var(--visualize-paint-gutter, 0px);
+  color: var(--foreground);
+  background: transparent !important;
+  font-family: var(--font-sans) !important;
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+}
+
+a {
+  color: color-mix(in srgb, var(--viz-accent) 80%, var(--viz-text) 20%);
+  cursor: pointer;
+  font-weight: var(--font-weight-medium, 500);
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+a:is(:hover, :focus-visible) {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.3;
+}
+
+b,
+strong,
+th {
+  font-weight: var(--font-weight-medium);
+}
+
+code:not(pre code) {
+  display: inline;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  corner-shape: var(--corner-shape);
+  background: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  overflow-wrap: anywhere;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  word-break: break-word;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--foreground);
+  font: inherit;
+  text-align: start;
+}
+
+.table :is(th, td) {
+  padding-block: 10px;
+  padding-inline: 0 24px;
+  overflow-wrap: anywhere;
+  border-bottom: 1px solid var(--border);
+  text-align: start;
+  vertical-align: top;
+}
+
+.table-responsive &gt; .table :is(th, td) {
+  overflow-wrap: break-word;
+}
+
+.table :is(th, td):last-child {
+  padding-inline-end: 0;
+}
+
+.table :is(caption, thead th) {
+  font-weight: 600;
+}
+
+.table thead th {
+  padding-block: 8px;
+  border-bottom-color: color-mix(in srgb, var(--foreground) 16%, transparent);
+}
+
+.table tbody tr:last-child :is(th, td) {
+  border-bottom: 0;
+}
+
+.table.table-sm :is(th, td) {
+  padding-block: 6px;
+}
+
+.table.table-sm :is(th, td):not(:last-child) {
+  padding-inline-end: 16px;
+}
+
+.table :is(.text-end, [align=&quot;right&quot;]) {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+
+.table :is(.text-center, [align=&quot;center&quot;]) {
+  text-align: center;
+}
+
+.table .text-nowrap {
+  white-space: nowrap;
+}
+
+#widget {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0;
+  background: transparent !important;
+}
+
+.card {
+  min-width: 0;
+  padding: 12px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  border-radius: var(--radius-2xl);
+  corner-shape: var(--corner-shape);
+  color: var(--card-foreground);
+  background: var(--card);
+}
+
+#widget &gt; :not(.card, .progress) {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: max-content;
+  max-width: min(
+    20rem,
+    var(--tooltip-available-width, calc(100vw - 10px)),
+    calc(100vw - 10px)
+  );
+  max-height: min(
+    var(--tooltip-available-height, calc(100vh - 10px)),
+    calc(100vh - 10px)
+  );
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--popover-foreground);
+  background: var(--popover);
+  box-shadow: none;
+  font-size: var(--font-size-tooltip);
+  line-height: var(--line-height-tooltip);
+  overflow-wrap: break-word;
+  white-space: normal;
+  pointer-events: none;
+  user-select: none;
+}
+
+.viz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(180px, 24%), 1fr));
+  gap: 10px;
+}
+
+.viz-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.viz-stat-value {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+.viz-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  margin-block: 6px;
+  border: 0;
+  background: var(--border);
+}
+
+.nav {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 4px;
+}
+
+.progress {
+  display: flex;
+  height: 8px;
+  margin-block: calc((var(--line-height-normal, 1.5em) - 8px) / 2);
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+}
+
+.progress-bar:only-child {
+  border-radius: var(--radius-full);
+}
+
+.progress-bar {
+  height: 100%;
+  flex-shrink: 0;
+  border: 0;
+  background: var(--viz-series-1);
+}
+
+.viz-badge {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  color: var(--accent-foreground);
+  background: var(--accent);
+  font-weight: var(--font-weight-medium);
+}
+
+small,
+.text-small,
+.viz-badge {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.text-muted {
+  color: var(--muted-foreground);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.viz-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.viz-controls &gt; .form-label {
+  display: grid;
+  min-width: min(100%, 260px);
+  flex: 1 1 280px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 2px 12px;
+  margin-bottom: 0;
+}
+
+.viz-controls &gt; .form-label &gt; :is(.form-control, .form-range, .form-select) {
+  grid-column: 1 / -1;
+}
+
+.btn,
+.nav-link,
+.form-check-input,
+.form-control,
+.form-range,
+.form-select {
+  font: inherit;
+}
+
+.btn,
+.nav-link {
+  appearance: button;
+  display: inline-flex;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-app-region: no-drag;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: var(--cursor-interaction, pointer);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn:is(.btn-block, .viz-tile) {
+  inline-size: 100%;
+}
+
+.btn.viz-tile {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+a.btn {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:not(:disabled):hover,
+.nav-link:not(:disabled):not([aria-disabled=&quot;true&quot;]):hover {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.btn-primary {
+  border-color: transparent;
+  color: var(--primary-foreground);
+  background: var(--foreground);
+  background-clip: padding-box;
+}
+
+.btn-primary .text-muted {
+  color: color-mix(in srgb, var(--primary-foreground) 50%, transparent);
+}
+
+.btn-primary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 80%, transparent);
+  background-clip: padding-box;
+}
+
+.btn-ghost {
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.btn-ghost:not(:disabled):hover {
+  color: var(--foreground);
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.nav-pills .nav-link {
+  min-width: 0;
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.nav-justified .nav-link {
+  flex: 1 1 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.nav-pills .nav-link.active {
+  color: var(--foreground);
+  background: var(--muted);
+}
+
+.btn:disabled,
+.nav-link:disabled,
+.nav-link[aria-disabled=&quot;true&quot;] {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+[data-lucide] {
+  stroke-width: 1.6;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--foreground);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  padding: 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--foreground);
+  background: var(--secondary);
+}
+
+.form-control::placeholder {
+  color: var(--muted-foreground);
+}
+
+.form-control[type=&quot;file&quot;] {
+  padding: 0;
+  overflow: hidden;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control[type=&quot;file&quot;]::file-selector-button {
+  min-height: 26px;
+  margin-right: 8px;
+  padding: 0 8px;
+  border: 0;
+  border-right: 1px solid var(--input);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: inherit;
+  font: inherit;
+}
+
+.form-control[type=&quot;file&quot;]:not(:disabled):hover::file-selector-button {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-control-color[type=&quot;color&quot;] {
+  width: 40px;
+  height: 28px;
+  padding: 3px;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch {
+  border: 0;
+  border-radius: calc(var(--radius-lg) - 4px);
+  corner-shape: var(--corner-shape);
+}
+
+textarea.form-control {
+  height: auto;
+  min-height: 72px;
+  padding: 8px 10px;
+  resize: vertical;
+}
+
+.form-control:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-control:disabled,
+.form-select:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.form-select {
+  appearance: none;
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  margin: 0;
+  padding: 0 32px 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--foreground);
+  background-color: var(--secondary);
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%),
+    linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
+  background-position:
+    calc(100% - 14px) 50%,
+    calc(100% - 10px) 50%;
+  background-repeat: no-repeat;
+  background-size: 4px 4px;
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-select:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-select:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-check {
+  display: flex;
+  min-height: 20px;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-check-input {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  margin: 0;
+  border: 1px solid var(--input);
+  color: var(--primary-foreground);
+  background-color: transparent;
+  cursor: var(--cursor-interaction, default);
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    box-shadow 150ms;
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+  border-color: var(--input);
+  border-radius: var(--radius-sm);
+  corner-shape: var(--corner-shape);
+  background-color: var(--secondary);
+  box-shadow: var(--shadow-sm);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input:not(:disabled):not(:checked):hover {
+  background-color: var(--card);
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;]:checked {
+  border-color: var(--primary);
+  background-color: var(--primary);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input[type=&quot;checkbox&quot;]:checked::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-foreground);
+  content: &quot;&quot;;
+  mask: var(--checkmark-image) center / 12px 12px no-repeat;
+}
+
+.form-check-input[type=&quot;radio&quot;] {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-full);
+}
+
+.form-check-input[type=&quot;radio&quot;]:checked {
+  border: 2px solid var(--primary);
+  background:
+    radial-gradient(circle, var(--primary-foreground) 0 2.5px, transparent 3px),
+    var(--primary);
+}
+
+.form-check:not(.form-switch) .form-check-input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+}
+
+.form-switch .form-check-input:disabled,
+.form-switch .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-check-label {
+  color: var(--foreground);
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-switch .form-check-input {
+  position: relative;
+  width: 32px;
+  height: 20px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+  box-shadow: none;
+  transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border: 1px solid light-dark(var(--primary-foreground), var(--foreground));
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+  box-shadow: var(--shadow-sm);
+  content: &quot;&quot;;
+  transform: translate(2px, -50%);
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input:checked {
+  background: var(--primary);
+}
+
+.form-switch .form-check-input:checked::before {
+  transform: translate(14px, -50%);
+}
+
+.form-switch .form-check-input:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring);
+}
+
+.form-range {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 28px;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  accent-color: var(--primary);
+  background: linear-gradient(
+      color-mix(in srgb, var(--foreground) 7%, transparent),
+      color-mix(in srgb, var(--foreground) 7%, transparent)
+    )
+    center / 100% 2px no-repeat;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-webkit-slider-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range::-moz-range-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-moz-range-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.btn:not(.btn-primary, .viz-tile):is(
+  [aria-pressed=&quot;true&quot;],
+  [aria-selected=&quot;true&quot;],
+  .is-selected
+) {
+  border-color: var(--primary);
+  color: var(--primary-foreground);
+  background: var(--primary);
+}
+
+.btn.viz-tile:is([aria-pressed=&quot;true&quot;], [aria-selected=&quot;true&quot;], .is-selected) {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.btn:focus-visible,
+.nav-link:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+@media (pointer: coarse) {
+  .btn,
+  .nav-link,
+  .form-control,
+  .form-select {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  /* Keep small-screen WebKit from zooming when a text field receives focus. */
+  .form-control,
+  .form-select {
+    font-size: max(16px, var(--font-size-normal));
+  }
+
+  .form-control[type=&quot;file&quot;]::file-selector-button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .form-control-color[type=&quot;color&quot;] {
+    width: 44px;
+    height: 44px;
+  }
+
+  .form-control:is(
+    [type=&quot;date&quot;],
+    [type=&quot;datetime-local&quot;],
+    [type=&quot;month&quot;],
+    [type=&quot;time&quot;],
+    [type=&quot;week&quot;]
+  ) {
+    min-width: 0;
+    max-width: 100%;
+    padding-block: 8px;
+  }
+
+  .form-check {
+    min-height: 44px;
+    padding-inline: 15px;
+  }
+
+  .form-check-input {
+    position: relative;
+  }
+
+  .form-check-input::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    content: &quot;&quot;;
+    transform: translate(-50%, -50%);
+  }
+
+  .form-check-label {
+    display: inline-flex;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+  }
+
+  .form-range {
+    height: 44px;
+    touch-action: pan-y;
+  }
+
+  .form-range::-webkit-slider-runnable-track {
+    height: 44px;
+  }
+
+  .form-range::-moz-range-track {
+    height: 44px;
+  }
+
+  .form-range::-webkit-slider-thumb {
+    margin-top: 12px;
+  }
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#widget &gt; svg {
+  width: 100%;
+}
+
+/* Model-authored chart rules can otherwise stretch icons after these styles load. */
+svg.lucide {
+  display: block;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  flex: none;
+  margin: 0 !important;
+  stroke-width: 1.6;
+}
+
+.text-warning,
+.text-destructive {
+  color: var(--destructive);
+}
+
+html&gt;body{padding:0}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;cheers-visitor-roadmap&quot;&gt;
+  &lt;div class=&quot;nav nav-pills&quot; role=&quot;tablist&quot; aria-label=&quot;방문 목적&quot;&gt;
+    &lt;button class=&quot;nav-link active&quot; id=&quot;cv-tab-prepare&quot; type=&quot;button&quot; role=&quot;tab&quot; aria-selected=&quot;true&quot; aria-controls=&quot;cv-route-prepare&quot;&gt;① 합응 예습&lt;/button&gt;
+    &lt;button class=&quot;nav-link&quot; id=&quot;cv-tab-story&quot; type=&quot;button&quot; role=&quot;tab&quot; aria-selected=&quot;false&quot; aria-controls=&quot;cv-route-story&quot;&gt;② 계보가 궁금해서&lt;/button&gt;
+    &lt;button class=&quot;nav-link&quot; id=&quot;cv-tab-return&quot; type=&quot;button&quot; role=&quot;tab&quot; aria-selected=&quot;false&quot; aria-controls=&quot;cv-route-return&quot;&gt;③ 행사 뒤 다시 듣기&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;cv-route-prepare&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;cv-tab-prepare&quot;&gt;&lt;/div&gt;
+  &lt;div id=&quot;cv-route-story&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;cv-tab-story&quot; hidden&gt;&lt;/div&gt;
+  &lt;div id=&quot;cv-route-return&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;cv-tab-return&quot; hidden&gt;&lt;/div&gt;
+  &lt;div class=&quot;cv-path&quot; id=&quot;cv-path&quot; aria-label=&quot;방문 순서&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;cv-layout&quot;&gt;
+    &lt;section class=&quot;cv-prototype&quot; aria-label=&quot;응원가 아카이브 동선 시안&quot;&gt;
+      &lt;div class=&quot;cv-preview-label&quot;&gt;화면 구성 제안 · 영상 재생은 모의 동작&lt;/div&gt;
+      &lt;div id=&quot;cv-screen&quot; class=&quot;cv-screen&quot;&gt;&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;aside class=&quot;cv-notes&quot; aria-label=&quot;선택한 화면의 목적&quot;&gt;
+      &lt;div class=&quot;text-small text-muted&quot; id=&quot;cv-step-count&quot;&gt;&lt;/div&gt;
+      &lt;h3 id=&quot;cv-stage-title&quot;&gt;&lt;/h3&gt;
+      &lt;dl&gt;
+        &lt;dt&gt;방문자의 생각&lt;/dt&gt;&lt;dd id=&quot;cv-thought&quot;&gt;&lt;/dd&gt;
+        &lt;dt&gt;흥미가 생기는 정확한 지점&lt;/dt&gt;&lt;dd id=&quot;cv-hook&quot;&gt;&lt;/dd&gt;
+        &lt;dt&gt;다음에 누를 버튼&lt;/dt&gt;&lt;dd id=&quot;cv-next&quot;&gt;&lt;/dd&gt;
+        &lt;dt&gt;구현할 연결&lt;/dt&gt;&lt;dd id=&quot;cv-connection&quot;&gt;&lt;/dd&gt;
+        &lt;dt&gt;확인할 행동&lt;/dt&gt;&lt;dd id=&quot;cv-measure&quot;&gt;&lt;/dd&gt;
+      &lt;/dl&gt;
+      &lt;div class=&quot;cv-release text-small&quot; id=&quot;cv-release&quot;&gt;&lt;/div&gt;
+    &lt;/aside&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;cv-announcement&quot; class=&quot;sr-only&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;
+  &lt;hr&gt;
+  &lt;div class=&quot;cv-deadlines&quot; aria-label=&quot;방문 동선별 실행 일정&quot;&gt;
+    &lt;div class=&quot;cv-deadline&quot;&gt;&lt;span class=&quot;text-small&quot;&gt;9/12–14&lt;/span&gt;&lt;strong&gt;연결 완성&lt;/strong&gt;&lt;span&gt;곡 재생 → 다른 버전 → 관련곡&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;cv-deadline&quot;&gt;&lt;span class=&quot;text-small&quot;&gt;9/15&lt;/span&gt;&lt;strong&gt;두 입구로 공개&lt;/strong&gt;&lt;span&gt;예습 글 → 필수곡&lt;br&gt;계보 글 → 비교 화면&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;cv-deadline&quot;&gt;&lt;span class=&quot;text-small&quot;&gt;9/16–22&lt;/span&gt;&lt;strong&gt;멈추는 곳 수정&lt;/strong&gt;&lt;span&gt;첫 재생 · 비교 · 다음 곡&lt;br&gt;각 단계의 이동 확인&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;cv-deadline&quot;&gt;&lt;span class=&quot;text-small&quot;&gt;9/23–10/3&lt;/span&gt;&lt;strong&gt;다시 올 계기&lt;/strong&gt;&lt;span&gt;합응 회상 게시물&lt;br&gt;정기전 직전 예습 게시물&lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;details class=&quot;cv-spec&quot;&gt;
+    &lt;summary&gt;9월 15일 공개 범위와 통과 기준&lt;/summary&gt;
+    &lt;div class=&quot;cv-spec-items&quot;&gt;
+      &lt;div&gt;&lt;strong&gt;① 목적에 맞는 첫 화면&lt;/strong&gt;&lt;span&gt;예습 링크는 학교가 선택된 필수곡 영역, 계보 링크는 해당 두 곡 비교 영역에서 열린다.&lt;/span&gt;&lt;small&gt;게시물에서 클릭한 뒤 메뉴 탐색 없이 약속한 내용을 볼 수 있음&lt;/small&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;② 첫 곡 바로 듣기&lt;/strong&gt;&lt;span&gt;선택된 곡의 대표 영상과 재생 버튼을 먼저 배치한다. 행사 일정은 짧게, 긴 이야기는 접어 둔다.&lt;/span&gt;&lt;small&gt;홍보 링크를 연 뒤 한 번의 탭으로 재생을 요청할 수 있음&lt;/small&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;③ 플레이어 바로 아래 비교 카드&lt;/strong&gt;&lt;span&gt;“이 노래, LG에서도 부른다고?” → 다른 버전의 대응 구간. 원곡 공유와 직접 차용을 구분한다.&lt;/span&gt;&lt;small&gt;두 버전을 바꿔 들을 수 있고, 이전 영상은 멈춤&lt;/small&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;④ 다음 곡까지 이어지는 링크&lt;/strong&gt;&lt;span&gt;관련곡을 클릭하면 상세 내용과 주소가 함께 바뀐다. 뒤로가기로 직전 곡에 돌아온다.&lt;/span&gt;&lt;small&gt;복사한 링크를 새 창에서 열어도 같은 곡·계보가 표시됨&lt;/small&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;⑤ 공유 · 다음 소식 연결&lt;/strong&gt;&lt;span&gt;비교 아래에는 친구에게 공유, 한 이야기를 다 본 뒤에는 사이트 SNS와 다음 편 예고를 둔다.&lt;/span&gt;&lt;small&gt;공유 링크와 SNS 목적지가 맞고, 이동 버튼 클릭을 구분해 기록함&lt;/small&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;검증&lt;/strong&gt;&lt;span&gt;양교 관점, 곡이 적은 상태, 휴대폰과 SNS 앱 내 브라우저에서 ①→⑤를 확인한다.&lt;/span&gt;&lt;small&gt;사용자: 대표 영상·대응 구간·문구 확정 / Codex: 연결·구현·검사&lt;/small&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/details&gt;
+  &lt;details class=&quot;cv-spec&quot;&gt;
+    &lt;summary&gt;유입 후 어디서 멈추느냐에 따른 다음 작업&lt;/summary&gt;
+    &lt;div class=&quot;cv-spec-items&quot;&gt;
+      &lt;div&gt;&lt;strong&gt;방문 → 첫 재생에서 멈춤&lt;/strong&gt;&lt;span&gt;게시물과 첫 화면의 곡이 맞는지, 재생 버튼이 바로 보이는지 먼저 수정한다.&lt;/span&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;첫 재생 → 비교에서 멈춤&lt;/strong&gt;&lt;span&gt;비교 카드를 플레이어 가까이 옮기고, 두 곡의 닮은 구간과 문구를 다듬는다.&lt;/span&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;비교는 하지만 다음 곡으로 안 감&lt;/strong&gt;&lt;span&gt;“전체 아카이브” 링크보다 해당 학교·구단의 구체적인 다음 계보 한 편을 제안한다.&lt;/span&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;strong&gt;읽고 듣지만 재방문이 적음&lt;/strong&gt;&lt;span&gt;같은 SNS에서 합응 회상·정기전 예습 게시물을 내고, 기존 방문자의 행사 기간 재유입을 확인한다.&lt;/span&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/details&gt;
+&lt;/div&gt;
+&lt;style&gt;
+  #cheers-visitor-roadmap { width:100%; }
+  #cheers-visitor-roadmap .cv-path { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin:16px 0; }
+  #cheers-visitor-roadmap .cv-arrow { color:var(--muted-foreground); }
+  #cheers-visitor-roadmap .cv-layout { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:24px; align-items:start; }
+  #cheers-visitor-roadmap .cv-notes { min-width:0; }
+  #cheers-visitor-roadmap .cv-notes h3 { margin:6px 0 18px; }
+  #cheers-visitor-roadmap .cv-notes dl { margin:0; }
+  #cheers-visitor-roadmap .cv-notes dt { margin-top:16px; color:var(--muted-foreground); }
+  #cheers-visitor-roadmap .cv-notes dd { margin:4px 0 0; overflow-wrap:anywhere; }
+  #cheers-visitor-roadmap .cv-release { margin-top:22px; padding-top:12px; border-top:1px solid var(--border); }
+  #cheers-visitor-roadmap .cv-deadlines { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin:20px 0; }
+  #cheers-visitor-roadmap .cv-deadline { display:flex; flex-direction:column; gap:7px; padding-top:12px; border-top:2px solid var(--border); }
+  #cheers-visitor-roadmap .cv-deadline:nth-child(2) { border-top-color:var(--foreground); }
+  #cheers-visitor-roadmap .cv-spec { border-top:1px solid var(--border); padding:16px 0; }
+  #cheers-visitor-roadmap .cv-spec summary { cursor:pointer; min-height:32px; }
+  #cheers-visitor-roadmap .cv-spec-items { display:grid; gap:18px; margin-top:16px; }
+  #cheers-visitor-roadmap .cv-spec-items&gt;div { display:grid; gap:5px; }
+  #cheers-visitor-roadmap .cv-spec-items small { color:var(--muted-foreground); font-size:inherit; }
+  #cheers-visitor-roadmap .cv-prototype {
+    --cp-bg:light-dark(#ffffff,#141c29); --cp-text:light-dark(#172334,#eaf0f8);
+    --cp-dim:light-dark(#526177,#b6c3d5); --cp-line:light-dark(#dce4ed,#354358);
+    --cp-subtle:light-dark(#f0f4f9,#202b3b); --cp-blue:light-dark(#003876,#aacdff);
+    --cp-blue-fill:light-dark(#eaf2ff,#1c3552); --cp-red:light-dark(#8b0029,#ffaabe);
+    --cp-red-fill:light-dark(#fcedf2,#472333); --cp-button:light-dark(#172b44,#dceaff);
+    --cp-button-text:light-dark(#ffffff,#172b44);
+    min-width:0; border:1px solid var(--cp-line); border-radius:18px; overflow:hidden;
+    color:var(--cp-text); background:var(--cp-bg); font-family:Arial,&quot;Apple SD Gothic Neo&quot;,&quot;Malgun Gothic&quot;,sans-serif;
+    font-size:14px; line-height:1.55; color-scheme:light dark;
+  }
+  #cheers-visitor-roadmap .cv-prototype * { box-sizing:border-box; }
+  #cheers-visitor-roadmap .cv-preview-label { padding:9px 15px; color:var(--cp-dim); background:var(--cp-subtle); font-size:12px; border-bottom:1px solid var(--cp-line); }
+  #cheers-visitor-roadmap .cp-header { display:flex; justify-content:space-between; gap:10px; padding:16px 18px; border-bottom:1px solid var(--cp-line); font-size:12px; }
+  #cheers-visitor-roadmap .cp-header span:last-child { color:var(--cp-dim); }
+  #cheers-visitor-roadmap .cp-content { padding:22px 18px; display:flex; flex-direction:column; gap:18px; }
+  #cheers-visitor-roadmap .cp-kicker { color:var(--cp-blue); font-size:12px; font-weight:500; }
+  #cheers-visitor-roadmap .cp-title { font-size:24px; line-height:1.35; letter-spacing:-0.6px; font-weight:500; margin:6px 0 8px; color:var(--cp-text); }
+  #cheers-visitor-roadmap .cp-body { margin:0; font-size:14px; color:var(--cp-dim); }
+  #cheers-visitor-roadmap .cp-caption { color:var(--cp-dim); font-size:12px; }
+  #cheers-visitor-roadmap .cp-button { display:flex; align-items:center; justify-content:center; gap:8px; width:100%; min-height:44px; border:1px solid var(--cp-line); border-radius:10px; padding:11px 12px; font:inherit; line-height:1.4; color:var(--cp-text); background:var(--cp-bg); text-align:center; cursor:pointer; }
+  #cheers-visitor-roadmap .cp-button.cp-primary { color:var(--cp-button-text); background:var(--cp-button); border-color:var(--cp-button); }
+  #cheers-visitor-roadmap .cp-button.cp-quiet { border:none; background:transparent; color:var(--cp-blue); }
+  #cheers-visitor-roadmap .cp-stack { display:flex; flex-direction:column; gap:8px; }
+  #cheers-visitor-roadmap .cp-video { display:flex; flex-direction:column; justify-content:center; align-items:center; gap:10px; padding:22px 12px; min-height:148px; border-radius:12px; background:var(--cp-blue-fill); color:var(--cp-blue); text-align:center; }
+  #cheers-visitor-roadmap .cp-video.cp-lg { background:var(--cp-red-fill); color:var(--cp-red); }
+  #cheers-visitor-roadmap .cp-video .cp-button { width:auto; min-width:150px; }
+  #cheers-visitor-roadmap .cp-wave { display:flex; gap:4px; height:25px; align-items:center; }
+  #cheers-visitor-roadmap .cp-wave span { width:4px; height:12px; background:currentColor; border-radius:2px; }
+  #cheers-visitor-roadmap .cp-wave span:nth-child(3n) { height:24px; }
+  #cheers-visitor-roadmap .cp-wave span:nth-child(2n) { height:18px; }
+  #cheers-visitor-roadmap .cp-focus { padding:16px; border:1px solid var(--cp-line); border-radius:12px; background:var(--cp-subtle); }
+  #cheers-visitor-roadmap .cp-focus&gt;strong { display:block; font-size:17px; font-weight:500; margin-bottom:7px; }
+  #cheers-visitor-roadmap .cp-focus .cp-button { margin-top:12px; }
+  #cheers-visitor-roadmap .cp-row { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:10px 0; border-bottom:1px solid var(--cp-line); }
+  #cheers-visitor-roadmap .cp-row:last-child { border-bottom:0; }
+  #cheers-visitor-roadmap .cp-row strong { font-weight:500; }
+  #cheers-visitor-roadmap .cp-row .cp-caption { margin-top:3px; }
+  #cheers-visitor-roadmap .cp-pill { display:inline-block; color:var(--cp-dim); background:var(--cp-subtle); border-radius:6px; padding:3px 7px; font-size:12px; }
+  #cheers-visitor-roadmap .cp-compare-tabs { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  #cheers-visitor-roadmap .cp-compare-tabs .cp-button[aria-pressed=&quot;true&quot;] { border-color:var(--cp-blue); background:var(--cp-blue-fill); color:var(--cp-blue); }
+  #cheers-visitor-roadmap .cp-compare-tabs .cp-button.cp-lg[aria-pressed=&quot;true&quot;] { border-color:var(--cp-red); background:var(--cp-red-fill); color:var(--cp-red); }
+  #cheers-visitor-roadmap .cp-lineage { display:grid; gap:7px; padding:14px 0; }
+  #cheers-visitor-roadmap .cp-lineage div { padding-left:12px; border-left:2px solid var(--cp-line); }
+  #cheers-visitor-roadmap .cp-lineage span { display:block; color:var(--cp-dim); font-size:12px; }
+  #cheers-visitor-roadmap .cp-position { border-top:1px solid var(--cp-line); padding:10px 18px; font-size:12px; color:var(--cp-dim); overflow-wrap:anywhere; }
+  #cheers-visitor-roadmap .cp-message { padding:12px; border-radius:10px; background:var(--cp-subtle); color:var(--cp-text); }
+  #cheers-visitor-roadmap .cp-focus details { margin-top:12px; }
+  #cheers-visitor-roadmap .cp-focus summary { cursor:pointer; color:var(--cp-blue); min-height:32px; }
+  @media(max-width:580px) {
+    #cheers-visitor-roadmap .cv-layout { grid-template-columns:minmax(0,1fr); gap:20px; }
+    #cheers-visitor-roadmap .cv-deadlines { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    #cheers-visitor-roadmap .cv-notes dl { display:grid; grid-template-columns:minmax(0,1fr); }
+  }
+&lt;/style&gt;
+&lt;script&gt;
+(() =&gt; {
+  const root = document.getElementById(&#x27;cheers-visitor-roadmap&#x27;);
+  const screen = root.querySelector(&#x27;#cv-screen&#x27;);
+  const path = root.querySelector(&#x27;#cv-path&#x27;);
+  const design = { bridge: &#x27;after-player&#x27; };
+  const state = { route:&#x27;prepare&#x27;, step:1, version:&#x27;yonsei&#x27;, played:false, shared:false, followed:false };
+  const routes = {
+    prepare: {
+      labels:[&#x27;예습 게시물&#x27;,&#x27;필수곡 첫 화면&#x27;,&#x27;한 곡 듣기&#x27;,&#x27;다른 버전&#x27;,&#x27;공유·다음 행사&#x27;],
+      steps:[
+        [&#x27;합응 예습 게시물&#x27;,&#x27;“합응 가기 전에 뭘 알아야 하지?”&#x27;,&#x27;학교 이름과 익숙한 곡명. “연세 6곡”처럼 준비 범위가 명확함.&#x27;,&#x27;연세 6곡 바로 듣기&#x27;,&#x27;행사 페이지의 연세 필수곡 영역으로 바로 연결. 상단 행사 포스터를 거치지 않음.&#x27;,&#x27;게시물별 링크 방문&#x27;,&#x27;9/15 · 예습용 게시물 1개와 전용 진입 링크&#x27;],
+        [&#x27;행사 페이지 · 필수곡 영역&#x27;,&#x27;“OT 때 들었던 곡이네. 한번 들어볼까?”&#x27;,&#x27;첫 화면에 선택된 곡과 재생 버튼. 긴 소개를 읽기 전에 아는 소리를 확인함.&#x27;,&#x27;연세여 사랑한다 재생&#x27;,&#x27;학교 선택을 유지하고, 같은 영역에서 영상과 곡 목록을 전환.&#x27;,&#x27;첫 재생 요청 / 예습 링크 방문&#x27;,&#x27;9/15 · 실제 영상 1개로 즉시 시작&#x27;],
+        [&#x27;플레이어 바로 아래 · 계보 입구&#x27;,&#x27;“이 노래를 LG도 부른다고?”&#x27;,&#x27;방금 들은 노래와 구체적인 다른 팀 이름을 연결하는 한 문장.&#x27;,&#x27;LG 버전 들어보기&#x27;,&#x27;해당 두 곡의 비교 영역으로 이동. 먼저 들은 구간과 닮은 구간을 준비.&#x27;,&#x27;비교 카드 클릭 / 첫 곡 재생&#x27;,&#x27;9/15 · 홍보에 쓸 3개 계보에 우선 배치&#x27;],
+        [&#x27;계보 비교 · 한 곡 더 듣기&#x27;,&#x27;“정말 닮았네. 친구도 알까?”&#x27;,&#x27;같은 구간을 두 응원석의 목소리로 바꿔 듣는 순간.&#x27;,&#x27;친구에게 비교 링크 보내기&#x27;,&#x27;학교·곡·비교 대상이 보존된 링크를 공유. 이야기는 같은 화면에서 펼침.&#x27;,&#x27;상대 버전 재생 · 공유 버튼 클릭&#x27;,&#x27;9/15 · 버전 전환 시 이전 영상 정지&#x27;],
+        [&#x27;공유 뒤 · 다음 방문의 계기&#x27;,&#x27;“정기전 전에 다시 열면 되겠다.”&#x27;,&#x27;보낸 링크가 그대로 예습 링크가 됨. 다음 행사에 맞춘 재안내 예고.&#x27;,&#x27;정기전 예습 소식 보기&#x27;,&#x27;사이트 SNS 프로필로 연결. 9/30 전후 예습 게시물로 같은 행사 페이지에 재유입.&#x27;,&#x27;SNS 이동 클릭 · 정기전 기간 재방문&#x27;,&#x27;9/15 · SNS 연결 / 9/30 전후 · 예습 게시물&#x27;]
+      ]
+    },
+    story: {
+      labels:[&#x27;계보 게시물&#x27;,&#x27;비교 첫 화면&#x27;,&#x27;번갈아 듣기&#x27;,&#x27;다음 계보&#x27;,&#x27;다음 편 소식&#x27;],
+      steps:[
+        [&#x27;계보를 소재로 한 텍스트·숏폼&#x27;,&#x27;“우리 팀 응원가가 연세대랑 연결된다고?”&#x27;,&#x27;두 곡을 짧게 들려주거나, 이름을 나란히 보여주는 구체적인 의외성.&#x27;,&#x27;두 응원가 비교해 보기&#x27;,&#x27;해당 계보의 비교 영역으로 바로 연결. 필수곡 목록부터 다시 찾게 하지 않음.&#x27;,&#x27;게시물별 링크 방문&#x27;,&#x27;9/15 · 계보 게시물 1개와 전용 진입 링크&#x27;],
+        [&#x27;계보 비교가 첫 화면&#x27;,&#x27;“방금 영상에서 본 그 두 곡이네.”&#x27;,&#x27;게시물과 똑같은 곡명·학교·구단. 두 버전 재생 버튼이 바로 보임.&#x27;,&#x27;연세 버전 재생&#x27;,&#x27;하나의 플레이어에서 버전을 전환. 비교할 구간은 사용자가 선정.&#x27;,&#x27;비교 화면 첫 재생 / 계보 링크 방문&#x27;,&#x27;9/15 · 이벤트 안의 비교 영역에 직접 진입&#x27;],
+        [&#x27;귀로 확인한 뒤 · 짧은 설명&#x27;,&#x27;“어떤 관계인지 이제 알겠다.”&#x27;,&#x27;듣고 바로 납득되는 설명. 같은 원곡인지, 응원가를 차용했는지 표시.&#x27;,&#x27;LG 버전 재생 → 다른 계보 보기&#x27;,&#x27;같은 팀이나 학교로 연결되는 다음 이야기 한 편을 명시.&#x27;,&#x27;두 버전 모두 재생 · 다음 계보 클릭&#x27;,&#x27;9/15 · 긴 본문 위에 관계 요약&#x27;],
+        [&#x27;다음 계보 · 취향 따라 계속 탐색&#x27;,&#x27;“LG 응원가 중에 이런 곡이 또 있네?”&#x27;,&#x27;좋아하는 팀을 유지하면서 곡만 바뀜. 다음 이야기의 제목이 보임.&#x27;,&#x27;민족의 아리아 ↔ 서울의 아리아&#x27;,&#x27;원곡·곡 상세를 같은 탐색 구조로 연결하고 현재 주소 갱신.&#x27;,&#x27;서로 다른 두 계보 탐색&#x27;,&#x27;9/15 · 관련곡 클릭과 뒤로가기&#x27;],
+        [&#x27;이야기 끝 · 다음 편 구독 경로&#x27;,&#x27;“다음 이야기도 나오면 보고 싶다.”&#x27;,&#x27;관심 팀과 연결된 구체적인 다음 편 예고.&#x27;,&#x27;다음 계보 소식 보기&#x27;,&#x27;사이트 SNS로 이동. 다음 게시물도 해당 곡·계보로 직접 연결.&#x27;,&#x27;SNS 이동 클릭 · 다음 게시물 재유입&#x27;,&#x27;9/15 · 기존 SNS 활용, 회원가입 개발 제외&#x27;]
+      ]
+    },
+    return: {
+      labels:[&#x27;합응 뒤 게시물&#x27;,&#x27;불렀던 곡 찾기&#x27;,&#x27;다시 듣기&#x27;,&#x27;정기전 준비&#x27;,&#x27;행사 전 재방문&#x27;],
+      steps:[
+        [&#x27;9/23 · 합응을 떠올리는 게시물&#x27;,&#x27;“어제 부른 노래 다시 듣고 싶다.”&#x27;,&#x27;행사 경험과 맞닿은 곡명·장면. 참석자가 알아보는 기억.&#x27;,&#x27;어제 부른 노래 다시 듣기&#x27;,&#x27;행사 페이지의 다시 듣기 영역으로 연결. 실제 행사 내용을 확인해 구성.&#x27;,&#x27;합응 회상 게시물 유입&#x27;,&#x27;9/23 · 실제 합응 내용 확인 후 게시&#x27;],
+        [&#x27;행사 페이지 · 다시 듣기 영역&#x27;,&#x27;“제목을 몰랐는데 이 노래였구나.”&#x27;,&#x27;노래 제목과 짧은 상황 설명으로 기억을 찾음.&#x27;,&#x27;연세여 사랑한다 다시 듣기&#x27;,&#x27;기존 곡 DB와 영상을 재사용. 추가 영상이 없으면 기존 대표 영상 제공.&#x27;,&#x27;곡 선택 · 재생 요청&#x27;,&#x27;9/23 · 안내 문구·곡 순서 갱신&#x27;],
+        [&#x27;곡 상세 · 행사 기억 이어 듣기&#x27;,&#x27;“이 부분에서 같이 불렀지.”&#x27;,&#x27;재생되는 곡과 행사 때의 기억. 다음 행사에서 다시 부를 이유.&#x27;,&#x27;정기전 전에도 다시 듣기&#x27;,&#x27;같은 학교의 정기전 필수곡 목록으로 연결.&#x27;,&#x27;다시 듣기 → 정기전 예습 이동&#x27;,&#x27;9/23–29 · 기존 행사 페이지 갱신&#x27;],
+        [&#x27;정기전 준비 · 링크 남기기&#x27;,&#x27;“다음 주 가기 전에 이걸 다시 열자.”&#x27;,&#x27;10/2–3 일정과 이미 익숙해진 예습 목록.&#x27;,&#x27;예습 링크 친구에게 보내기&#x27;,&#x27;로그인 없이 같은 링크를 보관·공유. SNS에는 정기전 예습 게시물을 준비.&#x27;,&#x27;예습 링크 공유 클릭&#x27;,&#x27;9/30 전후 · 예습 게시물 게시&#x27;],
+        [&#x27;9/30 전후 · 게시물이 다시 불러옴&#x27;,&#x27;“정기전이 곧이네. 다시 들어봐야지.”&#x27;,&#x27;익숙한 사이트에 다음 행사 목적이 생김.&#x27;,&#x27;정기전 필수곡 다시 듣기&#x27;,&#x27;같은 행사 주소의 필수곡 영역으로 재진입. 행사명·내용만 현재 시점에 맞춤.&#x27;,&#x27;이전 방문자의 정기전 기간 재유입&#x27;,&#x27;10/2–3 · 예습·현장 다시 듣기&#x27;]
+      ]
+    }
+  };
+  const wave = &#x27;&lt;div class=&quot;cp-wave&quot; aria-hidden=&quot;true&quot;&gt;&#x27;+Array.from({length:17},()=&gt;&#x27;&lt;span&gt;&lt;/span&gt;&#x27;).join(&#x27;&#x27;)+&#x27;&lt;/div&gt;&#x27;;
+  const button = (label, action=&#x27;next&#x27;, primary=true) =&gt; `&lt;button class=&quot;cp-button${primary?&#x27; cp-primary&#x27;:&#x27;&#x27;}&quot; type=&quot;button&quot; data-action=&quot;${action}&quot;&gt;${label}&lt;/button&gt;`;
+  const title = (kicker,heading,body=&#x27;&#x27;) =&gt; `&lt;div&gt;&lt;div class=&quot;cp-kicker&quot;&gt;${kicker}&lt;/div&gt;&lt;h2 class=&quot;cp-title&quot;&gt;${heading}&lt;/h2&gt;${body?`&lt;p class=&quot;cp-body&quot;&gt;${body}&lt;/p&gt;`:&#x27;&#x27;}&lt;/div&gt;`;
+  const page = (content,position,channel=&#x27;2026 연고전&#x27;) =&gt; `&lt;div class=&quot;cp-header&quot;&gt;&lt;span&gt;응원가 아카이브&lt;/span&gt;&lt;span&gt;${channel}&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;cp-content&quot;&gt;${content}&lt;/div&gt;&lt;div class=&quot;cp-position&quot;&gt;${position}&lt;/div&gt;`;
+  const video = (playable=true,lg=false) =&gt; `&lt;div class=&quot;cp-video${lg?&#x27; cp-lg&#x27;:&#x27;&#x27;}&quot;&gt;&lt;span&gt;${lg?&#x27;LG 트윈스&#x27;:&#x27;연세대학교&#x27;}&lt;/span&gt;${wave}&lt;strong&gt;${lg?&#x27;사랑한다 LG&#x27;:&#x27;연세여 사랑한다&#x27;}&lt;/strong&gt;${playable?button(&#x27;▶ &#x27;+(lg?&#x27;LG&#x27;:&#x27;연세&#x27;)+&#x27; 버전 재생&#x27;,&#x27;play&#x27;): &#x27;&lt;span class=&quot;cp-caption&quot;&gt;재생 상태 예시 · 해당 곡 구간&lt;/span&gt;&#x27;}&lt;/div&gt;`;
+  const bridge = () =&gt; `&lt;div class=&quot;cp-focus&quot;&gt;&lt;strong&gt;이 노래, LG에서도 부른다고?&lt;/strong&gt;&lt;p class=&quot;cp-body&quot;&gt;같은 멜로디가 다른 응원석에서는 어떻게 들릴까.&lt;/p&gt;${button(&#x27;LG 버전 들어보기 →&#x27;)}&lt;/div&gt;`;
+  const comparison = (nextLabel=&#x27;다른 계보도 보기 →&#x27;, nextAction=&#x27;next&#x27;) =&gt; {
+    const lg=state.version===&#x27;lg&#x27;;
+    return `${title(&#x27;계보 01 · 연세 × LG&#x27;,&#x27;응원석이 달라도,&lt;br&gt;익숙한 그 멜로디.&#x27;)}&lt;div class=&quot;cp-compare-tabs&quot;&gt;&lt;button class=&quot;cp-button&quot; aria-pressed=&quot;${!lg}&quot; type=&quot;button&quot; data-version=&quot;yonsei&quot;&gt;연세 버전&lt;/button&gt;&lt;button class=&quot;cp-button cp-lg&quot; aria-pressed=&quot;${lg}&quot; type=&quot;button&quot; data-version=&quot;lg&quot;&gt;LG 버전&lt;/button&gt;&lt;/div&gt;${video(!state.played,lg)}&lt;div class=&quot;cp-caption&quot;&gt;대응 구간부터 재생 · 버전을 바꾸면 이전 영상 정지&lt;/div&gt;&lt;div class=&quot;cp-focus&quot;&gt;&lt;span class=&quot;cp-pill&quot;&gt;관계: 대학 응원가 차용&lt;/span&gt;&lt;strong style=&quot;margin-top:8px&quot;&gt;연세여 사랑한다 → 사랑한다 LG&lt;/strong&gt;&lt;p class=&quot;cp-body&quot;&gt;학교와 구단에 맞게 달라진 부분을 들어보세요.&lt;/p&gt;&lt;details&gt;&lt;summary&gt;원곡과 이어진 이야기 펼치기&lt;/summary&gt;&lt;div class=&quot;cp-lineage&quot;&gt;&lt;div&gt;Por una Cabeza&lt;span&gt;원곡 · Carlos Gardel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;연세여 사랑한다&lt;span&gt;「마지막 선택」도 결합한 편곡&lt;/span&gt;&lt;/div&gt;&lt;div&gt;사랑한다 LG&lt;span&gt;연세 응원가와 이어지는 구단 버전&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;cp-caption&quot;&gt;본문·관계 설명은 승인된 DB에서 가져오기&lt;/span&gt;&lt;/details&gt;&lt;/div&gt;${button(nextLabel,nextAction)}`;
+  };
+  function renderScreen(){
+    const r=state.route, s=state.step;
+    if(s===0){
+      if(r===&#x27;prepare&#x27;) return page(`${title(&#x27;단톡방 · 스레드 · X&#x27;,&#x27;합응 가기 전에&lt;br&gt;연세 응원가 6곡만.&#x27;,&#x27;원시림부터 연세여 사랑한다까지. 대표 영상과 따라 부를 포인트를 모았어요.&#x27;)}&lt;div class=&quot;cp-message&quot;&gt;“OT 때 들었는데 기억 안 나는 사람 여기!”&lt;/div&gt;${button(&#x27;연세 6곡 바로 듣기 →&#x27;)}`,&#x27;클릭 목적지: 행사 페이지 → 연세 필수곡&#x27;,&#x27;예습 게시물&#x27;);
+      if(r===&#x27;story&#x27;) return page(`${title(&#x27;스레드 · X · 릴스 · 쇼츠&#x27;,&#x27;연세와 LG,&lt;br&gt;응원가가 닮은 이유.&#x27;)}&lt;div class=&quot;cp-video&quot;&gt;연세여 사랑한다 ${wave} 사랑한다 LG&lt;/div&gt;&lt;p class=&quot;cp-body&quot;&gt;두 버전을 비교하고, 어떤 관계인지 들어보세요.&lt;/p&gt;${button(&#x27;두 응원가 비교해 보기 →&#x27;)}`,&#x27;클릭 목적지: 해당 계보 → 두 곡 비교&#x27;,&#x27;계보 게시물&#x27;);
+      return page(`${title(&#x27;9/23 · 합응 다음 날&#x27;,&#x27;어제 그 떼창,&lt;br&gt;다시 듣고 싶다면.&#x27;,&#x27;합응에서 불렀던 응원가를 한곳에 모았어요.&#x27;)}&lt;div class=&quot;cp-message&quot;&gt;“마지막에 다 같이 부른 그 노래!”&lt;/div&gt;${button(&#x27;어제 부른 노래 다시 듣기 →&#x27;)}`,&#x27;클릭 목적지: 행사 페이지 → 다시 듣기&#x27;,&#x27;합응 회상 게시물&#x27;);
+    }
+    if(r===&#x27;prepare&#x27;){
+      if(s===1) return page(`${title(&#x27;9/22 합동응원전 · 연세 선택됨&#x27;,&#x27;우리 응원부터&lt;br&gt;가볍게 예습.&#x27;,&#x27;노래를 누르면 바로 그 곡부터.&#x27;)}&lt;div class=&quot;cp-video&quot;&gt;&lt;span&gt;먼저 들어볼 곡&lt;/span&gt;${wave}&lt;strong&gt;연세여 사랑한다&lt;/strong&gt;${button(&#x27;▶ 연세여 사랑한다 재생&#x27;)}&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;cp-row&quot;&gt;&lt;strong&gt;다음 · 원시림&lt;/strong&gt;&lt;span class=&quot;cp-caption&quot;&gt;득점의 순간&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;cp-row&quot;&gt;&lt;strong&gt;하늘 끝까지&lt;/strong&gt;&lt;span class=&quot;cp-caption&quot;&gt;함께 부를 대표곡&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;cp-row&quot;&gt;&lt;strong&gt;서시&lt;/strong&gt;&lt;span class=&quot;cp-caption&quot;&gt;응원의 열기를 올릴 때&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;cp-caption&quot;&gt;학교 변경 · 전체 곡 목록 · 행사 일정은 보조 동선&lt;/span&gt;`,&#x27;첫 도착: 큰 행사 포스터 아래의 필수곡 영역&#x27;);
+      if(s===2) return page(`${title(&#x27;지금 듣는 곡&#x27;,&#x27;연세여 사랑한다&#x27;,&#x27;연세대학교&#x27;)}${design.bridge===&#x27;before-player&#x27;?bridge():&#x27;&#x27;}${video(false)}&lt;span class=&quot;cp-caption&quot;&gt;가사 · 현장 포인트는 이 아래에서 펼치기&lt;/span&gt;${design.bridge===&#x27;after-player&#x27;?bridge():&#x27;&#x27;}`,&#x27;곡 재생 영역 → 바로 이어지는 계보 카드&#x27;);
+      if(s===3) return page(comparison(&#x27;친구에게 비교 링크 보내기 →&#x27;,&#x27;share-next&#x27;),&#x27;같은 페이지의 계보 비교 영역&#x27;);
+      return page(`${title(&#x27;공유할 비교 링크&#x27;,&#x27;연세 × LG,&lt;br&gt;친구에게도 알려주기.&#x27;)}&lt;div class=&quot;cp-focus&quot;&gt;&lt;strong&gt;연세여 사랑한다 ↔ 사랑한다 LG&lt;/strong&gt;&lt;span class=&quot;cp-caption&quot;&gt;열면 두 버전 비교가 바로 보이는 링크&lt;/span&gt;${state.shared?&#x27;&lt;div class=&quot;cp-message&quot; style=&quot;margin-top:10px&quot;&gt;공유 링크 구성 예시 확인됨&lt;/div&gt;&#x27;:&#x27;&#x27;}&lt;/div&gt;&lt;div class=&quot;cp-focus&quot;&gt;&lt;strong&gt;정기전 전에 다시 듣자&lt;/strong&gt;&lt;p class=&quot;cp-body&quot;&gt;10/2–3 정기전 전에 예습 목록을 다시 안내해요.&lt;/p&gt;${button(state.followed?&#x27;사이트 SNS 프로필로 연결&#x27;:&#x27;정기전 예습 소식 보기 →&#x27;,&#x27;follow&#x27;)}&lt;/div&gt;`,&#x27;비교 완료 뒤 → 공유 / 사이트 SNS&#x27;);
+    }
+    if(r===&#x27;story&#x27;){
+      if(s===1) return page(`${title(&#x27;연세여 사랑한다 ↔ 사랑한다 LG&#x27;,&#x27;방금 본 두 노래,&lt;br&gt;여기서 비교해요.&#x27;,&#x27;대표 구간을 이어서 들어보세요.&#x27;)}&lt;div class=&quot;cp-focus&quot;&gt;&lt;div class=&quot;cp-row&quot;&gt;&lt;strong&gt;연세여 사랑한다&lt;/strong&gt;&lt;span class=&quot;cp-caption&quot;&gt;연세대학교&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;cp-row&quot;&gt;&lt;strong&gt;사랑한다 LG&lt;/strong&gt;&lt;span class=&quot;cp-caption&quot;&gt;LG 트윈스&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;${video(true)}&lt;span class=&quot;cp-caption&quot;&gt;첫 재생 아래에 관계 설명과 다른 버전 버튼&lt;/span&gt;`,&#x27;첫 도착: 게시물에서 소개한 계보 비교 영역&#x27;);
+      if(s===2) return page(comparison(),&#x27;두 버전 비교 → 관련 계보&#x27;);
+      if(s===3) return page(`${title(&#x27;LG로 이어지는 다음 이야기&#x27;,&#x27;이 응원가도&lt;br&gt;대학에서 들었다면?&#x27;)}&lt;div class=&quot;cp-focus&quot;&gt;&lt;strong&gt;민족의 아리아&lt;br&gt;↔ 서울의 아리아&lt;/strong&gt;&lt;p class=&quot;cp-body&quot;&gt;고려대와 LG의 응원석으로 이어지는 또 다른 곡.&lt;/p&gt;${button(&#x27;이 두 곡도 비교해 보기 →&#x27;)}&lt;/div&gt;&lt;div class=&quot;cp-row&quot;&gt;&lt;span&gt;다른 선택&lt;/span&gt;&lt;strong&gt;LG 응원가 모아보기&lt;/strong&gt;&lt;/div&gt;&lt;span class=&quot;cp-caption&quot;&gt;직전 계보로 돌아가기와 링크 공유 유지&lt;/span&gt;`,&#x27;비교 카드 아래 → 팀이 연결된 다음 계보&#x27;);
+      return page(`${title(&#x27;계보 02 · 고려 × LG&#x27;,&#x27;민족의 아리아&lt;br&gt;↔ 서울의 아리아&#x27;)}&lt;div class=&quot;cp-lineage&quot;&gt;&lt;div&gt;Melodramma&lt;span&gt;원곡 · Andrea Bocelli&lt;/span&gt;&lt;/div&gt;&lt;div&gt;민족의 아리아&lt;span&gt;고려대학교&lt;/span&gt;&lt;/div&gt;&lt;div&gt;서울의 아리아&lt;span&gt;LG 트윈스&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;cp-focus&quot;&gt;&lt;strong&gt;다음 편 · Forever와 승리의 노래&lt;/strong&gt;&lt;p class=&quot;cp-body&quot;&gt;같은 팀의 다른 응원가 이야기도 이어집니다.&lt;/p&gt;${button(state.followed?&#x27;사이트 SNS 프로필로 연결&#x27;:&#x27;다음 계보 소식 보기 →&#x27;,&#x27;follow&#x27;)}&lt;/div&gt;`,&#x27;두 번째 이야기 끝 → 다음 편 예고와 사이트 SNS&#x27;);
+    }
+    if(s===1) return page(`${title(&#x27;합응에서 불렀던 노래&#x27;,&#x27;어제의 함성,&lt;br&gt;다시 듣기.&#x27;,&#x27;곡명을 몰라도 기억나는 장면으로 찾아보세요.&#x27;)}&lt;div class=&quot;cp-focus&quot;&gt;&lt;strong&gt;연세여 사랑한다&lt;/strong&gt;&lt;p class=&quot;cp-body&quot;&gt;모두 함께 불렀던 대표 떼창.&lt;/p&gt;${button(&#x27;▶ 연세여 사랑한다 다시 듣기&#x27;)}&lt;/div&gt;&lt;div class=&quot;cp-row&quot;&gt;&lt;strong&gt;원시림&lt;/strong&gt;&lt;span class=&quot;cp-caption&quot;&gt;함께 뛰던 순간&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;cp-row&quot;&gt;&lt;strong&gt;하늘 끝까지&lt;/strong&gt;&lt;span class=&quot;cp-caption&quot;&gt;같이 외치던 순간&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;cp-caption&quot;&gt;실제 합응 사용곡 확인 후 목록 갱신&lt;/span&gt;`,&#x27;같은 행사 주소 → 다시 듣기 영역&#x27;);
+    if(s===2) return page(`${title(&#x27;다시 듣는 곡&#x27;,&#x27;연세여 사랑한다&#x27;)}${video(false)}&lt;div class=&quot;cp-focus&quot;&gt;&lt;strong&gt;다음은 정기전!&lt;/strong&gt;&lt;p class=&quot;cp-body&quot;&gt;이번에 익힌 응원을 경기장에서도 함께.&lt;/p&gt;${button(&#x27;정기전 전에도 다시 듣기 →&#x27;)}&lt;/div&gt;`,&#x27;곡 상세 아래 → 다음 행사 예습&#x27;);
+    if(s===3) return page(`${title(&#x27;10/2–3 · 정기 연고전&#x27;,&#x27;경기장 가기 전,&lt;br&gt;우리 응원 한 번 더.&#x27;)}&lt;div class=&quot;cp-focus&quot;&gt;&lt;strong&gt;연세 필수 응원가&lt;/strong&gt;&lt;p class=&quot;cp-body&quot;&gt;같은 주소에서 다시 열 수 있는 예습 목록.&lt;/p&gt;${button(state.shared?&#x27;예습 링크 공유 구성 확인됨&#x27;:&#x27;예습 링크 친구에게 보내기&#x27;,&#x27;share&#x27;)}&lt;/div&gt;${button(&#x27;9/30 예습 게시물로 이어보기 →&#x27;,&#x27;next&#x27;,false)}`,&#x27;정기전 예습 목록 → 링크 공유&#x27;);
+    return page(`${title(&#x27;9/30 전후 · 같은 SNS에서&#x27;,&#x27;정기전이 코앞!&lt;br&gt;익숙한 응원부터.&#x27;,&#x27;합응 때 들었던 곡, 경기장 가기 전에 한 번 더.&#x27;)}&lt;div class=&quot;cp-message&quot;&gt;기존 방문자를 다시 부르는 예습 게시물&lt;/div&gt;${button(&#x27;정기전 필수곡 다시 듣기 →&#x27;,&#x27;return&#x27;)}`,&#x27;예습 게시물 → 같은 행사 페이지의 필수곡&#x27;,&#x27;재방문 계기&#x27;);
+  }
+  function render(){
+    const route=routes[state.route], detail=route.steps[state.step];
+    path.innerHTML=route.labels.map((label,i)=&gt;`${i?&#x27;&lt;span class=&quot;cv-arrow&quot; aria-hidden=&quot;true&quot;&gt;→&lt;/span&gt;&#x27;:&#x27;&#x27;}&lt;button class=&quot;btn${i===state.step?&#x27; btn-primary&#x27;:&#x27;&#x27;}&quot; type=&quot;button&quot; data-step=&quot;${i}&quot; aria-pressed=&quot;${i===state.step}&quot;&gt;${i+1}. ${label}&lt;/button&gt;`).join(&#x27;&#x27;);
+    screen.innerHTML=renderScreen();
+    const targets=[&#x27;cv-stage-title&#x27;,&#x27;cv-thought&#x27;,&#x27;cv-hook&#x27;,&#x27;cv-next&#x27;,&#x27;cv-connection&#x27;,&#x27;cv-measure&#x27;,&#x27;cv-release&#x27;];
+    targets.forEach((id,i)=&gt;root.querySelector(&#x27;#&#x27;+id).textContent=detail[i]);
+    root.querySelector(&#x27;#cv-step-count&#x27;).textContent=`${state.step+1} / 5 · ${state.route===&#x27;return&#x27;?&#x27;행사 이후 재방문&#x27;:&#x27;9/15 첫 공개 동선&#x27;}`;
+    root.querySelector(&#x27;#cv-announcement&#x27;).textContent=detail[0];
+  }
+  function selectRoute(route){
+    state.route=route; state.step=1; state.version=&#x27;yonsei&#x27;; state.played=false; state.shared=false; state.followed=false;
+    root.querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;).forEach(tab=&gt;{const active=tab.id===&#x27;cv-tab-&#x27;+route; tab.setAttribute(&#x27;aria-selected&#x27;,String(active));tab.classList.toggle(&#x27;active&#x27;,active);root.querySelector(&#x27;#&#x27;+tab.getAttribute(&#x27;aria-controls&#x27;)).hidden=!active;});
+    render();
+  }
+  root.addEventListener(&#x27;click&#x27;,event=&gt;{
+    const tab=event.target.closest(&#x27;[role=&quot;tab&quot;]&#x27;);
+    if(tab){selectRoute(tab.id.replace(&#x27;cv-tab-&#x27;,&#x27;&#x27;)); return;}
+    const step=event.target.closest(&#x27;[data-step]&#x27;);
+    if(step){state.step=Number(step.dataset.step);state.played=false;render();return;}
+    const version=event.target.closest(&#x27;[data-version]&#x27;);
+    if(version){state.version=version.dataset.version;state.played=false;render();return;}
+    const action=event.target.closest(&#x27;[data-action]&#x27;)?.dataset.action;
+    if(!action)return;
+    if(action===&#x27;follow&#x27;){state.followed=true;render();return;}
+    if(action===&#x27;share&#x27;){state.shared=true;render();return;}
+    if(action===&#x27;return&#x27;){selectRoute(&#x27;prepare&#x27;);return;}
+    if(action===&#x27;play&#x27;){
+      state.played=true;
+      if(state.route===&#x27;story&#x27;&amp;&amp;state.step===1)state.step=2;
+      render();return;
+    }
+    if(action===&#x27;share-next&#x27;)state.shared=true;
+    state.step=Math.min(state.step+1,4);state.played=state.route===&#x27;story&#x27;&amp;&amp;state.step===2;render();
+  });
+  render();
+  if(globalThis.Tweak){
+    const tweak=new Tweak({container:root.querySelector(&#x27;.cv-prototype&#x27;),onChange:render});
+    tweak.addSelect(design,&#x27;bridge&#x27;,{label:&#x27;계보 카드 위치&#x27;,options:[{label:&#x27;첫 재생 바로 아래 · 추천&#x27;,value:&#x27;after-player&#x27;},{label:&#x27;첫 재생 위&#x27;,value:&#x27;before-player&#x27;}]});
+  }
+})();
+&lt;/script&gt;
+
+&lt;script src=&quot;https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  if (window.FloatingUIDOM == null) {
+    return;
+  }
+  const { autoUpdate, computePosition, flip, offset, shift, size } =
+    window.FloatingUIDOM;
+  const tooltipPlacements = new Set([&quot;top&quot;, &quot;right&quot;, &quot;bottom&quot;, &quot;left&quot;]);
+  const tooltipId = `codex-visualization-tooltip-${
+    window.crypto?.randomUUID?.() ?? Date.now().toString(36)
+  }`;
+  const tooltipGap = 5;
+  const hoverDelay = 700;
+  const skipDelay = 300;
+  let activeTrigger = null;
+  let pendingTrigger = null;
+  let tooltip = null;
+  let openTimeout = null;
+  let autoUpdateCleanup = null;
+  let positionRequest = 0;
+  let skipDelayUntil = 0;
+  let lastPointerWasTouch = false;
+  let pinnedByTouch = false;
+
+  const getTrigger = (target) =&gt;
+    target?.nodeType === Node.ELEMENT_NODE
+      ? target.closest(&quot;[data-tooltip]&quot;)
+      : null;
+  const containsTarget = (trigger, target) =&gt;
+    target?.nodeType != null &amp;&amp; trigger.contains(target);
+  const getContent = (trigger) =&gt;
+    trigger.getAttribute(&quot;data-tooltip&quot;)?.trim() ?? &quot;&quot;;
+  const getPlacement = (trigger) =&gt; {
+    const placement = trigger.getAttribute(&quot;data-tooltip-placement&quot;);
+    return tooltipPlacements.has(placement) ? placement : &quot;top&quot;;
+  };
+  const getTooltip = () =&gt; {
+    if (tooltip == null) {
+      tooltip = document.createElement(&quot;div&quot;);
+      tooltip.id = tooltipId;
+      tooltip.className = &quot;tooltip&quot;;
+      tooltip.setAttribute(&quot;role&quot;, &quot;tooltip&quot;);
+    }
+    return tooltip;
+  };
+  const setDescribedBy = (trigger, described) =&gt; {
+    const ids = new Set(
+      (trigger.getAttribute(&quot;aria-describedby&quot;) ?? &quot;&quot;)
+        .split(/\s+/)
+        .filter(Boolean),
+    );
+    if (described) {
+      ids.add(tooltipId);
+    } else {
+      ids.delete(tooltipId);
+    }
+    if (ids.size === 0) {
+      trigger.removeAttribute(&quot;aria-describedby&quot;);
+    } else {
+      trigger.setAttribute(&quot;aria-describedby&quot;, [...ids].join(&quot; &quot;));
+    }
+  };
+  const clearOpenTimeout = () =&gt; {
+    if (openTimeout != null) {
+      window.clearTimeout(openTimeout);
+      openTimeout = null;
+    }
+    pendingTrigger = null;
+  };
+  const closeTooltip = (activateSkipDelay = true) =&gt; {
+    clearOpenTimeout();
+    pinnedByTouch = false;
+    positionRequest += 1;
+    autoUpdateCleanup?.();
+    autoUpdateCleanup = null;
+    if (activeTrigger == null) {
+      return;
+    }
+    setDescribedBy(activeTrigger, false);
+    activeTrigger = null;
+    tooltip?.remove();
+    if (activateSkipDelay) {
+      skipDelayUntil = Date.now() + skipDelay;
+    }
+  };
+  const updatePosition = (trigger, floating) =&gt; {
+    const request = ++positionRequest;
+    void computePosition(trigger, floating, {
+      middleware: [
+        offset(tooltipGap),
+        flip({ padding: tooltipGap }),
+        shift({ padding: tooltipGap }),
+        size({
+          padding: tooltipGap,
+          apply({ availableHeight, availableWidth, elements }) {
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-width&quot;,
+              `${Math.max(0, availableWidth)}px`,
+            );
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-height&quot;,
+              `${Math.max(0, availableHeight)}px`,
+            );
+          },
+        }),
+      ],
+      placement: getPlacement(trigger),
+      strategy: &quot;fixed&quot;,
+    })
+      .then(({ x, y }) =&gt; {
+        if (activeTrigger !== trigger || request !== positionRequest) {
+          return;
+        }
+        const scale = window.devicePixelRatio || 1;
+        floating.style.transform = `translate(${Math.round(x * scale) / scale}px, ${Math.round(y * scale) / scale}px)`;
+        floating.style.visibility = &quot;visible&quot;;
+      })
+      .catch(() =&gt; {
+        if (activeTrigger === trigger &amp;&amp; request === positionRequest) {
+          closeTooltip(false);
+        }
+      });
+  };
+  const openTooltip = (trigger) =&gt; {
+    const content = getContent(trigger);
+    if (!trigger.isConnected || content.length === 0) {
+      return;
+    }
+    clearOpenTimeout();
+    if (activeTrigger === trigger) {
+      return;
+    }
+    closeTooltip();
+    const floating = getTooltip();
+    floating.textContent = content;
+    floating.style.visibility = &quot;hidden&quot;;
+    floating.style.transform = &quot;translate(0, 0)&quot;;
+    document.body.appendChild(floating);
+    activeTrigger = trigger;
+    setDescribedBy(trigger, true);
+    autoUpdateCleanup = autoUpdate(trigger, floating, () =&gt; {
+      updatePosition(trigger, floating);
+    });
+  };
+  const requestOpen = (trigger, immediate = false) =&gt; {
+    if (
+      getContent(trigger).length === 0 ||
+      activeTrigger === trigger ||
+      pendingTrigger === trigger
+    ) {
+      return;
+    }
+    clearOpenTimeout();
+    pendingTrigger = trigger;
+    const delay =
+      immediate || activeTrigger != null || Date.now() &lt; skipDelayUntil
+        ? 0
+        : hoverDelay;
+    if (delay === 0) {
+      openTooltip(trigger);
+      return;
+    }
+    openTimeout = window.setTimeout(() =&gt; {
+      openTimeout = null;
+      pendingTrigger = null;
+      openTooltip(trigger);
+    }, delay);
+  };
+  const handlePointerOpen = (event) =&gt; {
+    if (event.pointerType === &quot;touch&quot;) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    requestOpen(trigger);
+  };
+  const handlePointer = (event) =&gt; {
+    lastPointerWasTouch =
+      event.type === &quot;pointerdown&quot; &amp;&amp; event.pointerType === &quot;touch&quot;;
+  };
+  const handleTouchClick = (event) =&gt; {
+    const isTouch = event.pointerType === &quot;touch&quot; || lastPointerWasTouch;
+    lastPointerWasTouch = false;
+    if (!isTouch || event.detail === 0) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (
+      trigger == null ||
+      !trigger.isConnected ||
+      getContent(trigger).length === 0 ||
+      (pinnedByTouch &amp;&amp; activeTrigger === trigger)
+    ) {
+      if (pinnedByTouch) {
+        closeTooltip();
+      }
+      return;
+    }
+    openTooltip(trigger);
+    pinnedByTouch = activeTrigger === trigger;
+    window.setTimeout(() =&gt; {
+      if (activeTrigger === trigger &amp;&amp; !trigger.isConnected) {
+        closeTooltip(false);
+      }
+    }, 0);
+  };
+  const handleLeave = (event) =&gt; {
+    if (pinnedByTouch) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const handleFocusIn = (event) =&gt; {
+    const trigger = getTrigger(event.target);
+    if (trigger?.matches(&quot;:focus-visible&quot;)) {
+      requestOpen(trigger, true);
+    }
+  };
+  const handleKeyDown = (event) =&gt; {
+    if (event.key === &quot;Escape&quot;) {
+      closeTooltip();
+    }
+  };
+  const handleContextMenu = (event) =&gt; {
+    lastPointerWasTouch = false;
+    const trigger = getTrigger(event.target);
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const destroy = () =&gt; {
+    closeTooltip(false);
+    lastPointerWasTouch = false;
+    document.removeEventListener(&quot;pointerover&quot;, handlePointerOpen);
+    document.removeEventListener(&quot;pointerdown&quot;, handlePointer);
+    document.removeEventListener(&quot;pointercancel&quot;, handlePointer);
+    document.removeEventListener(&quot;click&quot;, handleTouchClick);
+    document.removeEventListener(&quot;pointerout&quot;, handleLeave);
+    document.removeEventListener(&quot;focusin&quot;, handleFocusIn);
+    document.removeEventListener(&quot;focusout&quot;, handleLeave);
+    document.removeEventListener(&quot;keydown&quot;, handleKeyDown);
+    document.removeEventListener(&quot;contextmenu&quot;, handleContextMenu);
+    tooltip = null;
+  };
+
+  document.addEventListener(&quot;pointerover&quot;, handlePointerOpen);
+  document.addEventListener(&quot;pointerdown&quot;, handlePointer);
+  document.addEventListener(&quot;pointercancel&quot;, handlePointer);
+  document.addEventListener(&quot;click&quot;, handleTouchClick);
+  document.addEventListener(&quot;pointerout&quot;, handleLeave);
+  document.addEventListener(&quot;focusin&quot;, handleFocusIn);
+  document.addEventListener(&quot;focusout&quot;, handleLeave);
+  document.addEventListener(&quot;keydown&quot;, handleKeyDown);
+  document.addEventListener(&quot;contextmenu&quot;, handleContextMenu);
+  window.addEventListener(&quot;pagehide&quot;, destroy, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-tabs&quot;&gt;
+(() =&gt; {
+  const selector = &#x27;.nav[role=&quot;tablist&quot;] [role=&quot;tab&quot;]&#x27;;
+  const disabled = &#x27;:disabled,[aria-disabled=&quot;true&quot;]&#x27;;
+  const selectTab = (selected) =&gt; {
+    const panelId = selected.getAttribute(&quot;aria-controls&quot;);
+    for (const tab of selected.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;)) {
+      const active = tab === selected;
+      tab.classList.toggle(&quot;active&quot;, active);
+      tab.setAttribute(&quot;aria-selected&quot;, String(active));
+      const id = tab.getAttribute(&quot;aria-controls&quot;);
+      const panel = id &amp;&amp; document.getElementById(id);
+      if (panel != null) {
+        panel.hidden = id !== panelId;
+        if (!panel.hidden &amp;&amp; selected.id) {
+          panel.setAttribute(&quot;aria-labelledby&quot;, selected.id);
+        }
+      }
+    }
+  };
+  const interact = (event) =&gt; {
+    const tab = event.target?.closest?.(selector);
+    if (event.defaultPrevented || tab == null || tab.matches(disabled)) {
+      return;
+    }
+    if (event.type === &quot;click&quot;) {
+      selectTab(tab);
+      return;
+    }
+    const tabs = Array.from(
+      tab.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;),
+    ).filter((candidate) =&gt; !candidate.matches(disabled));
+    const current = tabs.indexOf(tab);
+    let next;
+    if (event.key === &quot;ArrowRight&quot; || event.key === &quot;ArrowDown&quot;) {
+      next = (current + 1) % tabs.length;
+    } else if (event.key === &quot;ArrowLeft&quot; || event.key === &quot;ArrowUp&quot;) {
+      next = (current + tabs.length - 1) % tabs.length;
+    } else if (event.key === &quot;Home&quot;) {
+      next = 0;
+    } else if (event.key === &quot;End&quot;) {
+      next = tabs.length - 1;
+    } else {
+      return;
+    }
+    event.preventDefault();
+    tabs[next].focus();
+    selectTab(tabs[next]);
+  };
+
+  for (const list of document.querySelectorAll(&#x27;.nav[role=&quot;tablist&quot;]&#x27;)) {
+    const selected =
+      list.querySelector(&#x27;[role=&quot;tab&quot;][aria-selected=&quot;true&quot;]&#x27;) ??
+      list.querySelector(&#x27;[role=&quot;tab&quot;].active&#x27;) ??
+      list.querySelector(&#x27;[role=&quot;tab&quot;]&#x27;);
+    if (selected != null) {
+      selectTab(selected);
+    }
+  }
+  document.addEventListener(&quot;click&quot;, interact);
+  document.addEventListener(&quot;keydown&quot;, interact);
+  window.addEventListener(&quot;pagehide&quot;, () =&gt; {
+    document.removeEventListener(&quot;click&quot;, interact);
+    document.removeEventListener(&quot;keydown&quot;, interact);
+  }, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-lucide&quot; async src=&quot;https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  const initialize = () =&gt; {
+    globalThis.lucide?.createIcons({ attrs: { width: 16, height: 16 } });
+  };
+  if (globalThis.lucide != null) {
+    initialize();
+    return;
+  }
+  document
+    .getElementById(&quot;codex-visualization-lucide&quot;)
+    ?.addEventListener(&quot;load&quot;, initialize, { once: true });
+})();
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+"></iframe>
+</body>
+</html>

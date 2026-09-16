@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "yonsei-university-one-night-only",
+    "organizationId": "yonsei-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "One Night Only",
+    "aliases": [
+      "ONO",
+      "One night only",
+      "원 나잇 온리"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "영화 ‘Dreamgirls’ 사운드트랙의 ‘One Night Only (Disco Version)’을 바탕으로 한 2007년 연세대 응원가로, 현장에서는 ONO라는 약칭도 쓴다. 공식 응원단 영상 설명은 원곡 저작자를 Jennifer Hudson으로 적지만, Columbia·DreamWorks 제공 음원과 Apple Music은 디스코 판본의 실연자를 Beyoncé, Sharon Leal, Anika Noni Rose로, 작사·작곡자를 Tom Eyen과 Henry Krieger로 명시한다. Jennifer Hudson이 부른 별도 발라드 판본과의 혼동으로 보이며, 2007 정기 연고전부터 2025 아카라카까지 장기 사용이 확인된다.\n\n### 현장에서\n\n- 아카라카와 응원 OT에서 영어 후렴을 관중이 크게 따라 부르고 팔을 돌리는 동작을 결합하는 댄스형 레퍼토리다.\n- 다른 빠른 액션곡과 묶어 중반 분위기를 전환하며, 2021 공식 MV에서는 ‘오늘밤새’와 한 영상으로 편성됐다.\n- 원곡의 영어 한 줄을 일부 유지하면서 한국어로 열정·현재 순간을 강조하는 고유 개사를 반복한다.\n\n### 더 알아보기\n\n영화에는 Jennifer Hudson의 발라드 판본과 Beyoncé·Sharon Leal·Anika Noni Rose의 디스코 판본이 따로 있어, 공식 응원단 설명의 Jennifer Hudson 표기는 두 판본을 섞은 것으로 보인다.[* 참고: https://www.youtube.com/watch?v=HS3jqcR3TFw / https://music.apple.com/ca/song/464321088]\n\n나무위키는 관중이 동작을 따라가다가 제목이 반복되는 후렴에서 특히 크게 합창한다고 설명한다. 공식 MV의 반복 구조와 현장 영상도 이런 참여 방식을 뒷받침한다.[* 참고: https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80 / https://www.youtube.com/watch?v=xTpw0L6VMLc]\n\nYouTube에는 2007 정기 연고전 영상이 그해 10월부터 남아 있고, 2025 아카라카 영상까지 이어져 최소 18년의 공개 실연 기록을 이룬다.[* 참고: https://www.youtube.com/watch?v=3hC89e6ADho / https://www.youtube.com/watch?v=SZjovrQEm_Y]\n\n### 추가 확인\n\n2026 아카라카 2학년 메들리에서 ONO 약칭과 현장 사용을 확인했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=nOsorVWKpWk]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2007년"
+      },
+      {
+        "label": "원곡",
+        "value": "‘Dreamgirls’의 ‘One Night Only (Disco Version)’ — Beyoncé Knowles, Sharon Leal, Anika Noni Rose; Henry Krieger·Tom Eyen …"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2025 개교 140주년 아카라카에서 계속 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "dreamgirls-one-night-only-disco"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.235Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

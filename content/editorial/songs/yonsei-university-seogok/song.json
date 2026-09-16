@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "yonsei-university-seogok",
+    "organizationId": "yonsei-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "서곡",
+    "aliases": [],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "응원의 시작을 알리는 역할 때문에 ‘서곡’이라 불리는 1994년 연세대 응원가다. 공식 응원단 영상은 Village People의 1979년 ‘Go West’를 원곡으로 적고, 나무위키는 1993년 Pet Shop Boys 커버를 직접적인 편곡 모델로 설명한다. 따라서 원작과 즉시 참조한 편곡 층위를 분리해 보존했다. 2023년 대학 공식 어쿠스틱 MV, 2025 신입생 OT, 2026 YBS 응원 OT 기록에서도 현행 사용과 상징적 개막 기능이 확인된다.\n\n### 현장에서\n\n- 신입생 응원 OT와 아카라카 3부의 문을 여는 개막곡으로 자주 배치한다.\n- 짧은 선창·후창 뒤 어깨동무하고 함께 뛰는 동작으로 관중을 한 대열로 묶는다.\n- 경기·축제 현장뿐 아니라 대학 공식 어쿠스틱 MV처럼 학교 정체성을 소개하는 재해석에도 사용된다.\n\n### 더 알아보기\n\n공식 응원단은 원작자인 Village People을, 나무위키는 1993년 Pet Shop Boys 판본을 원곡으로 든다. 서로 배타적인 오류라기보다 1979년 작품과 1993년 편곡 영향이라는 서로 다른 계보 층위를 가리킨다.[* 참고: https://www.youtube.com/watch?v=ps0jHnpqZcc / https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84]\n\n연세대학교 공식 채널은 2023년에 미디어센터 SNS기자단이 제작한 어쿠스틱 버전 MV를 공개해, 대형 응원장의 빠른 군중곡을 차분한 학교 홍보 콘텐츠로 다시 해석했다.[* 참고: https://www.youtube.com/watch?v=xhsdz4rLl7k]\n\n공식·대학 채널 댓글에서는 ‘응원의 시작을 알리는 곡’이라는 기억, 입학을 목표로 삼는 수험생의 반응, 동문의 오랜 선호가 반복된다.[* 참고: https://www.youtube.com/watch?v=ps0jHnpqZcc / https://www.youtube.com/watch?v=xhsdz4rLl7k]\n\n### 추가 확인\n\n2026 신입생 응원 OT에서 서곡·해야·파란·원시림을 잇는 별도 촬영 표본을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=gpQW33QJ90M]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "1994년"
+      },
+      {
+        "label": "원곡",
+        "value": "Village People ‘Go West’(1979)"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2025·2026 신입생 응원 OT의 시작 곡으로 계속 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "village-people-go-west"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.195Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

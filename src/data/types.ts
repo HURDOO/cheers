@@ -97,7 +97,7 @@ export interface CheerSongRecord {
   /** 확정 도입 연도. 정확한 연도가 불명확하면 null입니다. */
   year: number | null;
   /** 연도별 보기에서 사용할 확인·추정 기준 연도입니다. */
-  timelineYear: number;
+  timelineYear: number | null;
   yearStatus: CheerSongYearStatus;
   yearLabel: string;
   chronologyNote: string;

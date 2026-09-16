@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "doosan-bears-baennorae",
+    "organizationId": "doosan-bears",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "뱃노래",
+    "aliases": [
+      "두산 뱃노래",
+      "OB 뱃노래"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "두산 베어스의 「뱃노래」는 노래 전체를 길게 부르는 형태가 아니라, 짧은 반주에 맞춰 박수와 구호를 반복하는 약 30초짜리 리듬 응원이다. 2016년에 공개된 음원 아카이브도 제목을 ‘두산 베어스 응원가 - 뱃노래’로 적고 31초 분량의 독립 트랙으로 남겼다.[* 2016 두산 뱃노래 음원 아카이브: https://www.youtube.com/watch?v=Z0HPBk3bMRg]\n\n선율은 한국 전통민요 「뱃노래」를 바탕으로 한 고려대학교 응원가 「뱃노래」의 기악 대목과 이어진다. 고려대판에서 ‘어기여차’ 후렴 사이에 나오는 빠른 반주를 OB·두산이 짧은 야구장 리듬 응원으로 떼어 사용한 계보로 정리된다. 다만 구단이나 제작자가 이 차용 과정을 직접 설명한 자료는 찾지 못했으므로, 정확한 편곡자와 최초 도입 경로는 미확인으로 남겨 둔다.[* 대학·프로 응원가 선율 비교 자료: https://librewiki.net/wiki/%EC%9C%84%ED%82%A4%EB%8F%85%3A%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC_%EC%9D%91%EC%9B%90%EA%B0%80/%EC%97%B0%EA%B3%A0%EB%8C%80_%EC%9D%91%EC%9B%90%EA%B0%80_%EB%AA%A8%ED%8B%B0%EB%B8%8C][* 뱃노래 응원 계보 정리: https://www.namu.moe/w/%EB%B1%83%EB%85%B8%EB%9E%98]\n\n현재 사용 맥락은 공격 상황의 긴 떼창보다는 수비 중 짧게 분위기를 모으는 쪽에 가깝다. 2026년 8월 30일 잠실 경기 기준으로 만든 현장 응원가 목록에서도 이 곡은 ‘수비 시 응원가’ 묶음에 들어가며, 별도 트랙은 41분 49초부터 약 30초간 이어진다.[* 2026년 8월 30일 기준 두산 응원가 현장 정리 - 41:49: https://www.youtube.com/watch?v=O2HC26t5SrY&t=2509s]\n\n득점이나 홈런 뒤 다른 승리곡에 이어 붙는 사례도 확인된다. 2025년 4월 제이크 케이브의 3점 홈런 뒤에는 「승리를 위하여」 다음에 「뱃노래」가 이어졌고, 같은 해 9월 김재환의 3점 홈런 뒤 현장 영상에도 같은 조합이 남아 있다. 즉 정해진 한 상황에만 쓰기보다, 두산에 유리한 흐름에서 짧고 강하게 박자를 이어 가는 연결 응원으로도 활용된다.[* 2025년 4월 홈런 뒤 현장: https://www.youtube.com/watch?v=iqxOQkUHc3U][* 2025년 9월 홈런 뒤 현장: https://www.youtube.com/watch?v=bjNUmGlTdpc]\n\nOB 베어스 시절부터 사용됐다는 기록과 1990년대판 음원도 남아 있지만, 정확한 첫 시즌을 특정할 공식 연표나 구단 발표는 아직 확인되지 않았다. 따라서 도입 시점은 ‘OB 베어스 시절부터 사용된 것으로 전해짐’까지만 기록하고 확정 연도는 두지 않는다.[* 1990년대 OB 베어스판 아카이브: https://www.youtube.com/watch?v=mxx20IrTFRc]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "OB 베어스 시절부터 사용된 것으로 전해짐 · 정확한 연도 미확인"
+      },
+      {
+        "label": "형태",
+        "value": "약 30초 길이의 수비·상황 리듬 응원"
+      },
+      {
+        "label": "원곡 계보",
+        "value": "전승 민요 뱃노래 · 고려대학교 편곡판과 연결"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "korean-traditional-baennorae"
+      },
+      {
+        "type": "source-cheer-song",
+        "targetId": "korea-university-baennorae"
+      }
+    ],
+    "revision": 1,
+    "createdAt": "2026-09-07T16:36:14.000Z",
+    "updatedAt": "2026-09-07T16:36:14.000Z"
+  }
+}

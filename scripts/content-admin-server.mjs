@@ -6,8 +6,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { EditorialError, EditorialStore } from "./content-editorial-store.mjs";
 import { ContentJobStore } from "./content-job-store.mjs";
+import { ContentReleaseStore } from "./content-release-store.mjs";
 import { ReelStore, validateReel } from "./reel-store.mjs";
 import { detectReelTools, renderReel } from "./reel-renderer.mjs";
+import { fetchYouTubeMetadata } from "./youtube-metadata.mjs";
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = process.env.CONTENT_PROJECT_ROOT
@@ -15,11 +17,14 @@ const projectRoot = process.env.CONTENT_PROJECT_ROOT
   : path.resolve(scriptDirectory, "..");
 const adminDirectory = path.join(projectRoot, "admin");
 const sharedDirectory = path.join(projectRoot, "shared");
+const eventCurationPath = path.join(projectRoot, "src", "events", "korea-yonsei-games-2026", "eventCuration.json");
+const originalSongsPath = path.join(projectRoot, "data", "original-songs.json");
 const host = process.env.CONTENT_ADMIN_HOST?.trim() || "0.0.0.0";
 const parsedPort = Number.parseInt(process.env.CONTENT_ADMIN_PORT ?? "4175", 10);
 const port = Number.isInteger(parsedPort) && parsedPort > 0 ? parsedPort : 4175;
 const store = new EditorialStore(projectRoot);
 const jobStore = new ContentJobStore(projectRoot, store);
+const releaseStore = new ContentReleaseStore(projectRoot, store);
 const reelStore = new ReelStore(projectRoot);
 const activeReelRenders = new Map();
 let mutationInProgress = false;
@@ -28,9 +33,25 @@ const staticFiles = new Map([
   ["/", { filePath: path.join(adminDirectory, "index.html"), type: "text/html; charset=utf-8" }],
   ["/admin", { filePath: path.join(adminDirectory, "index.html"), type: "text/html; charset=utf-8" }],
   ["/app.js", { filePath: path.join(adminDirectory, "app.js"), type: "text/javascript; charset=utf-8" }],
+  ["/priority.js", { filePath: path.join(adminDirectory, "priority.js"), type: "text/javascript; charset=utf-8" }],
+  ["/song-editor.js", { filePath: path.join(adminDirectory, "song-editor.js"), type: "text/javascript; charset=utf-8" }],
   ["/styles.css", { filePath: path.join(adminDirectory, "styles.css"), type: "text/css; charset=utf-8" }],
   ["/shared/inline-notes.mjs", { filePath: path.join(sharedDirectory, "inline-notes.mjs"), type: "text/javascript; charset=utf-8" }],
+  ["/shared/youtube.mjs", { filePath: path.join(sharedDirectory, "youtube.mjs"), type: "text/javascript; charset=utf-8" }],
 ]);
+
+async function readPriorityPlan() {
+  const [eventCurationText, originalSongsText] = await Promise.all([
+    readFile(eventCurationPath, "utf8"),
+    readFile(originalSongsPath, "utf8"),
+  ]);
+  const eventCuration = JSON.parse(eventCurationText);
+  const originalSongs = JSON.parse(originalSongsText);
+  return {
+    ...eventCuration,
+    originalSongIds: (originalSongs.items ?? []).map(({ id }) => id),
+  };
+}
 
 function securityHeaders(contentType) {
   return {
@@ -180,16 +201,34 @@ async function validateSongBatch(items) {
 }
 
 async function handleApi(request, response, url) {
+  if (url.pathname === "/api/youtube-metadata" && request.method === "GET") {
+    return sendJson(response, 200, await fetchYouTubeMetadata(url.searchParams.get("url")));
+  }
   if (url.pathname === "/api/health" && request.method === "GET") {
     return sendJson(response, 200, { ok: true });
   }
   if (url.pathname === "/api/state" && request.method === "GET") {
-    const [editorialState, jobs, reels] = await Promise.all([store.state(), jobStore.list(), reelStore.list()]);
+    const [editorialState, jobs, reels, priorityPlan] = await Promise.all([
+      store.state(),
+      jobStore.list(),
+      reelStore.list(),
+      readPriorityPlan(),
+    ]);
+    const publication = await releaseStore.describe(editorialState);
     const songs = await Promise.all(editorialState.songs.map(async (song) => ({
       ...song,
       researchText: await store.readResearch(song.id),
+      publication: publication.songs[song.id],
     })));
-    return sendJson(response, 200, { ...editorialState, songs, jobs, reels, reelTools: detectReelTools() });
+    return sendJson(response, 200, {
+      ...editorialState,
+      songs,
+      jobs,
+      reels,
+      priorityPlan,
+      publication: publication.current,
+      reelTools: detectReelTools(),
+    });
   }
   if (url.pathname === "/api/import" && request.method === "POST") {
     const body = await readRequestJson(request);
@@ -213,6 +252,18 @@ async function handleApi(request, response, url) {
   }
   if (organizationMatch && request.method === "DELETE") {
     const body = await readRequestJson(request);
+    const [editorialState, publication] = await Promise.all([store.state(), releaseStore.describe()]);
+    const publicSong = editorialState.songs.find((song) => (
+      song.organizationId === organizationMatch[1]
+      && publication.songs[song.id]?.status !== "unpublished"
+    ));
+    if (publicSong) {
+      throw new EditorialError(
+        "ORGANIZATION_HAS_PUBLIC_SONGS",
+        `사이트에 공개 중인 '${publicSong.title}'을 포함한 응원가는 먼저 공개를 내려 주세요.`,
+        409,
+      );
+    }
     const result = await withMutation(() => store.deleteOrganization(
       organizationMatch[1],
       body.expectedRevision,
@@ -258,6 +309,38 @@ async function handleApi(request, response, url) {
     return sendJson(response, results.created.length > 0 ? 201 : 200, results);
   }
 
+  if (url.pathname === "/api/songs/bulk" && request.method === "POST" && url.searchParams.get("action") === "publish") {
+    const body = await readRequestJson(request);
+    const result = await withMutation(async () => {
+      const songs = await validateSongBatch(body.items);
+      const release = await releaseStore.publishSongs(body.items);
+      const updatedSongs = [];
+      for (const song of songs) {
+        updatedSongs.push(song.workflowStage === "published"
+          ? song
+          : await store.saveSong(song.id, { workflowStage: "published" }, song.revision));
+      }
+      return { release: release.release, songs: updatedSongs };
+    });
+    return sendJson(response, 201, result);
+  }
+
+  if (url.pathname === "/api/songs/bulk" && request.method === "POST" && url.searchParams.get("action") === "unpublish") {
+    const body = await readRequestJson(request);
+    const result = await withMutation(async () => {
+      const songs = await validateSongBatch(body.items);
+      const release = await releaseStore.unpublishSongs(body.items);
+      const updatedSongs = [];
+      for (const song of songs) {
+        updatedSongs.push(song.workflowStage === "published"
+          ? await store.saveSong(song.id, { workflowStage: "approved" }, song.revision)
+          : song);
+      }
+      return { release: release.release, songs: updatedSongs };
+    });
+    return sendJson(response, 201, result);
+  }
+
   const songMatch = url.pathname.match(/^\/api\/songs\/([a-z0-9-]+)$/u);
   if (songMatch && request.method === "PUT") {
     const body = await readRequestJson(request);
@@ -271,6 +354,10 @@ async function handleApi(request, response, url) {
   }
   if (songMatch && request.method === "DELETE") {
     const body = await readRequestJson(request);
+    const publication = await releaseStore.describe();
+    if (publication.songs[songMatch[1]]?.status !== "unpublished") {
+      throw new EditorialError("SONG_IS_PUBLIC", "사이트에 공개 중인 응원가는 먼저 공개를 내려 주세요.", 409);
+    }
     const result = await withMutation(() => store.deleteSong(songMatch[1], body.expectedRevision));
     return sendJson(response, 200, result);
   }
@@ -342,7 +429,7 @@ async function handleRequest(request, response) {
   }
 }
 
-await Promise.all([store.initialize(), jobStore.initialize(), reelStore.initialize()]);
+await Promise.all([store.initialize(), jobStore.initialize(), reelStore.initialize(), releaseStore.initialize()]);
 const server = createServer(handleRequest);
 server.listen(port, host, () => {
   console.log("응원가 콘텐츠 Admin");

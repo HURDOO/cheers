@@ -1,0 +1,245 @@
+/* D: B's high-contrast color and dimensional focus, with a readable editorial body.
+   Loaded after the shared C and story styles; A/B/C retain their own appearance. */
+.match-page.is-concept-d {
+  --night: #060910;
+  --night-soft: #101723;
+  --surface: #090e17;
+  --text: #f4f7fb;
+  --muted: #b0bdcf;
+  --soft: #92a1b7;
+  --stroke: #ffffff14;
+  --accent: var(--active);
+  --red: #f2366d;
+  --red-deep: #500019;
+  --blue: #4098fa;
+  --blue-deep: #001d48;
+  color: var(--text);
+  background: var(--night);
+}
+.match-page.is-concept-d .match-shell,
+.match-page.is-concept-d .rivalry-story__shell,
+.match-page.is-concept-d .baseball-story__shell { width: min(calc(100% - 64px), 1280px); }
+.match-page.is-concept-d .match-header { min-height: 64px; border-bottom-color: var(--stroke); background: #090e18eF; backdrop-filter: blur(18px); }
+.match-page.is-concept-d .match-header__brand { color: var(--text); font-size: 15px; }
+.match-page.is-concept-d .match-header nav a { font-size: 14px; }
+.match-page.is-concept-d .match-header__brand::after { content: "고려 × 연세"; margin-left: 6px; padding-left: 14px; border-left: 1px solid #ffffff25; color: var(--soft); font-size: 12px; font-weight: 600; }
+.match-page.is-concept-d .match-header__variants :where(a, span) { width: 28px; height: 28px; font-size: 13px; border-radius: 5px; border-color: var(--stroke); }
+.match-page.is-concept-d .match-header__variants span { color: var(--accent); border-color: color-mix(in srgb, var(--active) 45%, transparent); background: color-mix(in srgb, var(--active) 9%, transparent); }
+.match-page.is-concept-d .match-side-picker { background: #ffffff05; }
+.match-page.is-concept-d .match-side-picker button[aria-pressed="true"]::after { box-shadow: none; }
+
+/* Consistent editorial hierarchy. Color belongs to the schools, not every heading. */
+.match-page.is-concept-d .match-schedule,
+.match-page.is-concept-d .match-songs,
+.match-page.is-concept-d .rivalry-story,
+.match-page.is-concept-d .baseball-story { padding: 76px 0; color: var(--text); background: var(--night); }
+.match-page.is-concept-d .match-songs,
+.match-page.is-concept-d .baseball-story { background: var(--surface); }
+.match-page.is-concept-d .match-section-heading { grid-template-columns: 1fr; gap: 18px 64px; color: var(--text); }
+.match-page.is-concept-d .match-section-heading > div { grid-column: 1 / -1; align-items: center; gap: 10px; padding: 0; color: var(--accent); }
+.match-page.is-concept-d .match-section-heading > div span { display: block; width: auto; height: auto; border: 0; color: var(--soft); font-size: 13px; }
+.match-page.is-concept-d .match-section-heading > div strong { font-size: 14px; font-weight: 650; }
+.match-page.is-concept-d .match-section-heading h2,
+.match-page.is-concept-d .rivalry-story__heading h2,
+.match-page.is-concept-d .baseball-story__heading h2 { color: var(--text); font-size: clamp(44px, 5.4vw, 66px); font-weight: 850; letter-spacing: -.065em; line-height: 1.06; }
+.match-page.is-concept-d .match-section-heading h2 em,
+.match-page.is-concept-d .rivalry-story__heading h2 em,
+.match-page.is-concept-d .baseball-story__heading h2 em { color: transparent; background: linear-gradient(110deg, #f4f7fb -25%, color-mix(in srgb, var(--active) 62%, white) 30%, var(--active) 95%); background-clip: text; -webkit-background-clip: text; font: inherit; text-shadow: none; }
+.match-page.is-concept-d .match-section-heading > p { max-width: 370px; padding: 0 0 3px; border: 0; color: var(--muted); font-size: 16px; font-weight: 500; line-height: 1.85; word-break: keep-all; }
+.match-page.is-concept-d .match-schedule .match-section-heading h2 em { display: block; }
+
+/* Schedule: a date anchor and a readable list, without a second visual grid. */
+.match-page.is-concept-d .match-schedule__layout { grid-template-columns: 240px minmax(0, 1fr); gap: 36px; margin-top: 36px; }
+.match-page.is-concept-d .match-schedule__summary { min-height: 0; padding: 27px; border: 1px solid var(--stroke); border-radius: 14px; background: radial-gradient(ellipse at 0% 0%, color-mix(in srgb, var(--active) 13%, transparent), transparent 65%), linear-gradient(145deg, #ffffff09, #ffffff02); box-shadow: inset 0 1px 0 #ffffff0a; }
+.match-page.is-concept-d .match-schedule__summary > svg { color: var(--accent); }
+.match-page.is-concept-d .match-schedule__summary > span { margin-top: 25px; color: var(--muted); font-size: 15px; }
+.match-page.is-concept-d .match-schedule__summary > strong { margin-top: 12px; color: var(--text); font-size: 65px; font-weight: 780; letter-spacing: -.07em; line-height: 1; }
+.match-page.is-concept-d .match-schedule__summary > p { color: var(--muted); font-size: 15px; font-weight: 500; }
+.match-page.is-concept-d .match-schedule__list { border: 0; }
+.match-page.is-concept-d .match-schedule__list li { grid-template-columns: 105px minmax(0, 1fr) 36px 40px; min-height: 84px; gap: 15px; padding: 12px 15px; border-bottom: 1px solid var(--stroke); color: var(--text); }
+.match-page.is-concept-d .match-schedule__list li.is-own { border-radius: 7px; background: color-mix(in srgb, var(--active) 6%, transparent); box-shadow: inset 2px 0 var(--active); }
+.match-page.is-concept-d .match-schedule__list li.is-final { margin-top: 7px; border: 1px solid color-mix(in srgb, var(--active) 25%, transparent); border-radius: 7px; background: color-mix(in srgb, var(--active) 5%, transparent); }
+.match-page.is-concept-d .match-schedule__list li > span,
+.match-page.is-concept-d .match-schedule__list li > small { color: var(--soft); font-size: 13px; }
+.match-page.is-concept-d .match-schedule__list time { color: #d5dce7; font-size: 15px; font-weight: 650; }
+.match-page.is-concept-d .match-schedule__list li > div strong { font-size: 15px; font-weight: 700; }
+.match-page.is-concept-d .match-schedule__list li > div p { margin-top: 5px; color: var(--soft); font-size: 14px; }
+.match-page.is-concept-d .match-schedule__list li > i { width: 32px; height: 32px; border-color: #ffffff1c; color: var(--muted); }
+.match-page.is-concept-d .match-note { margin-top: 18px; color: var(--soft); font-size: 13px; line-height: 1.7; }
+
+/* Listening: one selected song, a restrained playlist, no internal data dashboard. */
+.match-page.is-concept-d .match-song-tabs { gap: 26px; margin-top: 30px; border-color: var(--stroke); }
+.match-page.is-concept-d .match-song-tabs button { color: var(--soft); font-size: 15px; }
+.match-page.is-concept-d .match-song-tabs button[aria-selected="true"] { color: var(--text); }
+.match-page.is-concept-d .match-song-tabs button[aria-selected="true"]::after { height: 2px; background: var(--accent); box-shadow: none; }
+.match-page.is-concept-d .match-songs__layout { grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 36px; margin-top: 26px; }
+.match-page.is-concept-d .match-song-list > button { min-height: 80px; padding: 14px 12px; border-color: var(--stroke); }
+.match-page.is-concept-d .match-song-list > button:hover { padding-left: 12px; background: #ffffff05; }
+.match-page.is-concept-d .match-song-list > button.is-active { border-radius: 8px; background: linear-gradient(100deg, color-mix(in srgb, var(--active) 18%, transparent), #ffffff02); box-shadow: inset 2px 0 var(--active); }
+.match-page.is-concept-d .match-song-list > button > span { color: var(--soft); font-size: 14px; }
+.match-page.is-concept-d .match-song-list > button strong { margin-top: 3px; font-size: 17px; font-weight: 720; }
+.match-page.is-concept-d .match-song-list > button small { font-size: 13px; }
+.match-page.is-concept-d .match-song-list > button p { color: var(--soft); font-size: 14px; }
+.match-page.is-concept-d .match-song-list { border-top-color: var(--stroke); }
+.match-page.is-concept-d .match-song-list > button.is-active > svg { filter: none; }
+.match-page.is-concept-d .match-player { border: 1px solid #ffffff24; border-radius: 18px; background: linear-gradient(140deg, #151e2b, #0b111b 60%); box-shadow: inset 0 1px 0 #ffffff10, 0 22px 45px #0004; }
+.match-page.is-concept-d .match-player__top { min-height: 48px; border-color: var(--stroke); }
+.match-page.is-concept-d .match-player__top button { border-color: var(--stroke); }
+.match-page.is-concept-d .match-player__top > span { color: var(--muted); font-size: 14px; }
+.match-page.is-concept-d .match-player__body { padding: 24px; }
+.match-page.is-concept-d .match-player__body h3 { margin-top: 7px; font-size: 31px; font-weight: 780; }
+.match-page.is-concept-d .match-player__body > span { margin-top: 8px; color: var(--soft); font-size: 14px; }
+.match-page.is-concept-d .match-player__body > p { color: var(--muted); font-size: 15px; line-height: 1.75; }
+.match-page.is-concept-d .match-player__body > p + p { color: var(--soft); }
+.match-page.is-concept-d .match-player__body .match-player__year { margin-top: 14px; color: var(--accent); font-size: 13px; }
+.match-page.is-concept-d .match-player__links { margin-top: 14px; }
+.match-page.is-concept-d .match-player__links a { min-height: 32px; font-size: 14px; }
+
+/* The rivalry story keeps its two lead videos and its unfolded repertoire. */
+.match-page.is-concept-d .rivalry-story__heading { gap: 64px; margin-bottom: 34px; }
+.match-page.is-concept-d .rivalry-story__eyebrow,
+.match-page.is-concept-d .baseball-story__eyebrow { margin-bottom: 18px !important; color: var(--accent); font-size: 14px; font-weight: 650; }
+.match-page.is-concept-d .rivalry-story__eyebrow > span { color: var(--soft); font-size: 13px; }
+.match-page.is-concept-d .rivalry-story__intro { max-width: 370px; color: var(--muted); font-size: 16px; font-weight: 500; line-height: 1.85; }
+.match-page.is-concept-d .rivalry-story__intro strong { color: var(--text); }
+.match-page.is-concept-d .rivalry-story__camp,
+.match-page.is-concept-d .rivalry-story__repertoire { --camp: var(--blue); }
+.match-page.is-concept-d .rivalry-story__camp.is-korea,
+.match-page.is-concept-d .rivalry-story__repertoire.is-korea { --camp: var(--red); }
+.match-page.is-concept-d .rivalry-story__camp { border: 0; padding: 0; }
+.match-page.is-concept-d .rivalry-story__camp-heading { margin-bottom: 14px; }
+.match-page.is-concept-d .rivalry-story__direction > span { color: var(--muted); }
+.match-page.is-concept-d .rivalry-story__direction > svg { color: var(--soft); }
+.match-page.is-concept-d .rivalry-story__camp > h3 { font-size: 29px; }
+.match-page.is-concept-d .rivalry-story__explanation { color: var(--muted); font-size: 16px; font-weight: 500; line-height: 1.7; }
+.match-page.is-concept-d .rivalry-story__screen,
+.match-page.is-concept-d .baseball-story__screen { border-radius: 10px; box-shadow: 0 0 0 1px #ffffff10; }
+.match-page.is-concept-d .rivalry-story__playback-note { color: var(--muted); font-size: 13px; }
+.match-page.is-concept-d .rivalry-story__credit { color: var(--soft); font-size: 13px; }
+.match-page.is-concept-d .rivalry-story__credit button { color: var(--muted); }
+.match-page.is-concept-d .rivalry-story__more { margin-top: 32px; padding-top: 24px; border-top-color: var(--stroke); border-bottom: 0; }
+.match-page.is-concept-d .rivalry-story__more-heading > span { color: var(--soft); }
+.match-page.is-concept-d .rivalry-story__repertoire li { border-color: var(--stroke); }
+.match-page.is-concept-d .rivalry-story__repertoire li p { color: var(--soft); line-height: 1.7; }
+
+/* Baseball: keep the directional lineage compact, with the videos as the focal point. */
+.match-page.is-concept-d .baseball-story { --camp: var(--red); }
+.match-page.is-concept-d .baseball-story[data-camp="yonsei"] { --camp: var(--blue); }
+.match-page.is-concept-d .baseball-story__heading { margin-bottom: 32px; }
+.match-page.is-concept-d .baseball-route__flow li { color: var(--muted); }
+.match-page.is-concept-d .baseball-route__flow li > svg { color: var(--soft); }
+.match-page.is-concept-d .baseball-route__flow a { color: var(--camp); text-decoration-color: color-mix(in srgb, var(--camp) 40%, transparent); }
+.match-page.is-concept-d .baseball-story__version > header p { color: var(--soft); }
+.match-page.is-concept-d .baseball-story__version h3 { font-size: 27px; font-weight: 760; }
+.match-page.is-concept-d .baseball-story__version > footer,
+.match-page.is-concept-d .baseball-route__source { color: var(--soft); }
+.match-page.is-concept-d .baseball-story__version > footer button { color: var(--muted); }
+.match-page.is-concept-d .baseball-story__extras > summary { color: var(--muted); }
+.match-page.is-concept-d .baseball-story__extras > summary:hover { color: var(--text); }
+.match-page.is-concept-d .baseball-story__more > header p,
+.match-page.is-concept-d .baseball-story__more li > p,
+.match-page.is-concept-d .baseball-story__song-pair small,
+.match-page.is-concept-d .baseball-story__relation,
+.match-page.is-concept-d .baseball-story__clubs p,
+.match-page.is-concept-d .baseball-story__origin :where(p, a) { color: var(--soft); }
+.match-page.is-concept-d .baseball-story__song-pair strong { color: var(--text); }
+.match-page.is-concept-d .baseball-story__relation.is-adaptation { color: var(--accent); }
+.match-page.is-concept-d .baseball-story__more li,
+.match-page.is-concept-d .baseball-story__clubs,
+.match-page.is-concept-d .baseball-story__origin { border-color: var(--stroke); }
+.match-page.is-concept-d .baseball-story__clubs { border-top-width: 1px; }
+.match-page.is-concept-d .baseball-story__clubs li > a,
+.match-page.is-concept-d .baseball-story__clubs li > span { border-color: #ffffff22; border-radius: 5px; color: var(--muted); background: transparent; }
+.match-page.is-concept-d .baseball-story__clubs li > a { border-bottom-color: var(--club); }
+.match-page.is-concept-d .baseball-story__clubs li > a:hover { color: var(--text); background: #ffffff08; }
+.match-page.is-concept-d .baseball-story__clubs li > span { color: var(--soft); background: #ffffff03; }
+
+/* A quiet closing, with the cover's school color returning once. */
+.match-page.is-concept-d .match-footer { padding: 76px 0 32px; color: var(--text); background: var(--night); }
+.match-page.is-concept-d .match-footer p { color: var(--accent); font-size: 14px; }
+.match-page.is-concept-d .match-footer h2 { margin-top: 0; font-size: clamp(64px, 8vw, 100px); font-weight: 780; letter-spacing: -.08em; line-height: 1.02; }
+.match-page.is-concept-d .match-footer h2 em { color: var(--accent); }
+.match-page.is-concept-d .match-footer .match-shell > div { gap: 16px; margin-top: 38px; border: 0; }
+.match-page.is-concept-d .match-footer .match-shell > div a { display: flex; align-items: center; justify-content: space-between; min-height: 72px; padding: 16px 22px; border: 1px solid var(--stroke); border-radius: 10px; background: var(--surface); }
+.match-page.is-concept-d .match-footer .match-shell > div a:hover { border-color: color-mix(in srgb, var(--active) 40%, transparent); }
+.match-page.is-concept-d .match-footer .match-shell > div a span { color: var(--soft); font-size: 13px; }
+.match-page.is-concept-d .match-footer .match-shell > div a strong { font-size: 16px; }
+.match-page.is-concept-d .match-footer .match-shell > div a svg { color: var(--accent); }
+.match-page.is-concept-d .match-footer .match-shell > small { color: var(--soft); font-size: 13px; line-height: 1.8; }
+.match-day-dock { display: none; }
+.match-page.is-concept-d :where(a, button, summary):focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.match-page.is-concept-d :where(.rivalry-story__play, .baseball-story__play):focus-visible { outline-color: #fff; outline-offset: -5px; }
+
+@media (max-width: 1040px) {
+  .match-page.is-concept-d .match-header__brand::after { display: none; }
+  .match-page.is-concept-d .match-section-heading { gap: 18px 36px; }
+  .match-page.is-concept-d .match-schedule__layout { grid-template-columns: 210px minmax(0, 1fr); gap: 24px; }
+  .match-page.is-concept-d .match-schedule__list li { grid-template-columns: 87px minmax(0, 1fr) 30px; gap: 10px; }
+  .match-page.is-concept-d .match-schedule__list li > small { display: none; }
+  .match-page.is-concept-d .rivalry-story__heading { gap: 32px; }
+  .match-page.is-concept-d .rivalry-story__intro { max-width: 330px; }
+}
+@media (max-width: 820px) {
+  .match-page.is-concept-d { padding-bottom: 80px; }
+  .match-page.is-concept-d .match-header { min-height: 58px; }
+  .match-page.is-concept-d .match-shell,
+  .match-page.is-concept-d .rivalry-story__shell,
+  .match-page.is-concept-d .baseball-story__shell { width: calc(100% - 40px); }
+  .match-page.is-concept-d .match-schedule,
+  .match-page.is-concept-d .match-songs,
+  .match-page.is-concept-d .rivalry-story,
+  .match-page.is-concept-d .baseball-story { padding: 52px 0; }
+  .match-page.is-concept-d .match-section-heading { grid-template-columns: 1fr; gap: 16px; }
+  .match-page.is-concept-d .match-section-heading h2,
+  .match-page.is-concept-d .rivalry-story__heading h2,
+  .match-page.is-concept-d .baseball-story__heading h2 { font-size: clamp(37px, 6vw, 50px); }
+  .match-page.is-concept-d .match-section-heading > p { max-width: 560px; font-size: 15px; padding: 0; }
+  .match-page.is-concept-d .match-schedule__layout { grid-template-columns: 1fr; margin-top: 28px; gap: 20px; }
+  .match-page.is-concept-d .match-schedule__summary { min-height: 148px; padding: 22px; }
+  .match-page.is-concept-d .match-schedule__summary > span { margin-top: 0; }
+  .match-page.is-concept-d .match-schedule__summary > strong { margin-top: 0; font-size: 47px; }
+  .match-page.is-concept-d .match-schedule__summary > p { padding-top: 5px; }
+  .match-page.is-concept-d .match-songs__layout { display: flex; gap: 22px; }
+  .match-page.is-concept-d .rivalry-story__heading { display: block; margin-bottom: 28px; }
+  .match-page.is-concept-d .rivalry-story__intro { max-width: 560px; margin-top: 20px; font-size: 15px; }
+  .match-page.is-concept-d .rivalry-story__explanation { min-height: 54px; }
+  .match-day-dock { position: fixed; z-index: 120; right: 12px; bottom: calc(10px + env(safe-area-inset-bottom)); left: 12px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); min-height: 58px; padding: 5px; border: 1px solid #ffffff24; border-radius: 15px; color: #b8c5d8; background: #101823ed; box-shadow: 0 8px 30px #0005; backdrop-filter: blur(18px); }
+  .match-day-dock a { display: flex; align-items: center; justify-content: center; gap: 6px; border-radius: 9px; font-size: 14px; font-weight: 700; }
+  .match-day-dock a.is-primary { color: white; background: linear-gradient(120deg, var(--active), color-mix(in srgb, var(--active) 65%, var(--active-deep))); }
+}
+@media (max-width: 640px) {
+  .match-page.is-concept-d .match-header__brand { width: auto; overflow: visible; font-size: 14px; }
+  .match-page.is-concept-d .match-section-heading h2,
+  .match-page.is-concept-d .rivalry-story__heading h2,
+  .match-page.is-concept-d .baseball-story__heading h2 { font-size: clamp(31px, 9.4vw, 43px); }
+  .match-page.is-concept-d .match-schedule__list li { grid-template-columns: 80px minmax(0, 1fr); gap: 8px; padding: 12px 9px; }
+  .match-page.is-concept-d .match-schedule__list li > i,
+  .match-page.is-concept-d .match-schedule__list li > span { display: none; }
+  .match-page.is-concept-d .match-schedule__list li > div strong { font-size: 15px; }
+  .match-page.is-concept-d .match-schedule__list li > div p { font-size: 13px; line-height: 1.5; }
+  .match-page.is-concept-d .match-schedule__list time { font-size: 13px; }
+  .match-page.is-concept-d .match-schedule__summary > strong { font-size: 42px; }
+  .match-page.is-concept-d .match-player__body { padding: 20px; }
+  .match-page.is-concept-d .match-player__body h3 { font-size: 28px; }
+  .match-page.is-concept-d .match-song-list > button { min-height: 64px; }
+  .match-page.is-concept-d .rivalry-story__explanation { min-height: 0; }
+  .match-page.is-concept-d .rivalry-story__camp > h3,
+  .match-page.is-concept-d .baseball-story__version h3 { font-size: 25px; }
+  .match-page.is-concept-d .match-footer { padding-top: 52px; }
+  .match-page.is-concept-d .match-footer h2 { font-size: 68px; }
+  .match-page.is-concept-d .match-footer .match-shell > div { grid-template-columns: 1fr; gap: 12px; margin-top: 30px; }
+  .match-page.is-concept-d .match-footer .match-shell > div a { min-height: 76px; padding: 16px; }
+}
+@media (max-width: 380px) {
+  .match-page.is-concept-d .match-shell,
+  .match-page.is-concept-d .rivalry-story__shell,
+  .match-page.is-concept-d .baseball-story__shell { width: calc(100% - 32px); }
+  .match-page.is-concept-d .match-schedule__summary { padding: 18px; }
+  .match-page.is-concept-d .match-schedule__summary > strong { font-size: 36px; }
+  .match-page.is-concept-d .rivalry-story__direction { font-size: 14px; gap: 5px; }
+  .match-page.is-concept-d .rivalry-story__character { font-size: 13px; }
+  .match-page.is-concept-d .match-footer h2 { font-size: 59px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .match-page.is-concept-d *, .match-page.is-concept-d *::before, .match-page.is-concept-d *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

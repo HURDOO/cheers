@@ -1,0 +1,770 @@
+@keyframes rivalry-bars {
+  0%, 100% { transform: scaleY(0.45); opacity: 0.52; }
+  50% { transform: scaleY(1); opacity: 1; }
+}
+
+@keyframes rivalry-blink {
+  0%, 45% { opacity: 1; }
+  46%, 100% { opacity: 0.38; }
+}
+
+@keyframes rivalry-stripe {
+  to { background-position-x: 64px; }
+}
+
+.rivalry-page {
+  --paper: #f2eee5;
+  --paper-bright: #fffdf8;
+  --ink: #151414;
+  --muted: #77716a;
+  --line: rgba(21, 20, 20, 0.16);
+  --white-line: rgba(255, 255, 255, 0.18);
+  min-width: 320px;
+  min-height: 100vh;
+  overflow: clip;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+}
+
+.rivalry-page *,
+.rivalry-page *::before,
+.rivalry-page *::after { box-sizing: border-box; }
+
+.rivalry-page :where(h1, h2, h3, p, span, strong, small, button, a) {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.rivalry-page :where(button, a) { -webkit-tap-highlight-color: transparent; }
+.rivalry-page button { font: inherit; }
+.rivalry-page a { color: inherit; text-decoration: none; }
+.rivalry-page main > section { scroll-margin-top: 72px; }
+
+.rivalry-page .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.rivalry-section-shell {
+  width: min(90vw, 1280px);
+  margin: 0 auto;
+}
+
+/* Header */
+.rivalry-header {
+  position: sticky;
+  z-index: 90;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  height: 62px;
+  padding: 0 clamp(1rem, 3vw, 3rem);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  color: var(--paper-bright);
+  background: color-mix(in srgb, var(--side-deep) 91%, transparent);
+  backdrop-filter: blur(18px);
+  transition: background-color 420ms ease;
+}
+
+.rivalry-header__brand {
+  display: inline-flex;
+  align-items: center;
+  justify-self: start;
+  gap: 0.5rem;
+  font-size: 0.76rem;
+  font-weight: 720;
+  opacity: 0.78;
+  transition: opacity 160ms ease;
+}
+
+.rivalry-header__brand:hover { opacity: 1; }
+.rivalry-header__switch { justify-self: center; }
+
+.rivalry-header__share {
+  display: inline-flex;
+  align-items: center;
+  justify-self: end;
+  gap: 0.45rem;
+  height: 38px;
+  padding: 0 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.rivalry-header__share:hover { background: rgba(255, 255, 255, 0.13); }
+
+/* Side switch */
+.rivalry-side-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: min(100%, 720px);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.13);
+  box-shadow: 0 18px 70px rgba(0, 0, 0, 0.18);
+}
+
+.rivalry-side-switch button {
+  position: relative;
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr) 12px;
+  align-items: center;
+  gap: 0.85rem;
+  min-height: 82px;
+  padding: 0.8rem 1rem;
+  border: 0;
+  color: rgba(255, 255, 255, 0.68);
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  transition: color 180ms ease, background-color 180ms ease;
+}
+
+.rivalry-side-switch button + button { border-left: 1px solid rgba(255, 255, 255, 0.24); }
+.rivalry-side-switch button[aria-pressed="true"] { color: #fff; background: rgba(255, 255, 255, 0.13); }
+.rivalry-side-switch button:hover { background: rgba(255, 255, 255, 0.09); }
+
+.rivalry-side-switch__mark {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 50%;
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 880;
+}
+
+.rivalry-side-switch button:first-child .rivalry-side-switch__mark { background: #003876; }
+.rivalry-side-switch button:nth-child(2) .rivalry-side-switch__mark { background: #8b0029; }
+.rivalry-side-switch button > span:nth-child(2) { display: grid; gap: 0.2rem; }
+.rivalry-side-switch strong { font-size: 0.9rem; font-weight: 760; }
+.rivalry-side-switch small { font-size: 0.64rem; font-weight: 550; opacity: 0.58; }
+
+.rivalry-side-switch button > i {
+  width: 8px;
+  height: 8px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+}
+
+.rivalry-side-switch button[aria-pressed="true"] > i { border-color: white; background: white; box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.14); }
+
+.rivalry-side-switch.is-compact {
+  width: 260px;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  box-shadow: none;
+}
+
+.rivalry-side-switch.is-compact button {
+  grid-template-columns: 24px 1fr;
+  min-height: 38px;
+  padding: 0.25rem 0.6rem;
+  text-align: center;
+}
+
+.rivalry-side-switch.is-compact .rivalry-side-switch__mark { width: 24px; height: 24px; border: 0; font-size: 0.65rem; }
+.rivalry-side-switch.is-compact button > i { display: none; }
+.rivalry-side-switch.is-compact strong { font-size: 0.66rem; }
+
+/* Hero */
+.rivalry-hero {
+  position: relative;
+  min-height: max(700px, calc(100svh - 62px));
+  overflow: hidden;
+  isolation: isolate;
+  color: var(--paper-bright);
+  background: linear-gradient(104deg, var(--side-deep) 0 76%, var(--opponent) 76% 100%);
+  transition: background 420ms ease;
+}
+
+.rivalry-hero::before {
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  opacity: 0.46;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 42px 42px;
+  content: "";
+}
+
+.rivalry-hero::after {
+  position: absolute;
+  z-index: -1;
+  right: 9%;
+  bottom: -18%;
+  width: min(58vw, 840px);
+  aspect-ratio: 1;
+  border: clamp(26px, 4vw, 58px) solid rgba(255, 255, 255, 0.035);
+  border-radius: 50%;
+  content: "";
+}
+
+.rivalry-hero__wipe {
+  position: absolute;
+  z-index: 9;
+  inset: -10%;
+  pointer-events: none;
+  background: var(--side);
+  transform: skewX(-9deg);
+}
+
+.rivalry-hero__grain,
+.rivalry-lineage__mesh {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.18;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.78' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.22'/%3E%3C/svg%3E");
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+}
+
+.rivalry-hero__score {
+  position: absolute;
+  top: 7%;
+  right: 3.2%;
+  display: grid;
+  justify-items: center;
+  gap: 0.2rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.13em;
+  writing-mode: vertical-rl;
+  opacity: 0.76;
+}
+
+.rivalry-hero__score i { padding: 0.45rem 0; font-size: 0.85rem; font-style: normal; font-weight: 800; }
+
+.rivalry-hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: min(90vw, 1180px);
+  min-height: max(700px, calc(100svh - 62px));
+  margin: 0 auto;
+  padding: 4rem 0 3.5rem;
+  text-align: center;
+}
+
+.rivalry-kicker {
+  margin: 0 0 clamp(1.1rem, 2.7vh, 2rem);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+}
+
+.rivalry-hero__title {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  color: var(--paper-bright);
+  font-size: clamp(7.2rem, 18vw, 15rem);
+  font-weight: 920;
+  letter-spacing: -0.095em;
+  line-height: 0.78;
+}
+
+.rivalry-hero__title-pair { display: flex; }
+
+.rivalry-hero__title strong {
+  display: grid;
+  place-items: center;
+  width: 0.84em;
+  min-width: 0.84em;
+  height: 0.92em;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: white;
+  text-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+.rivalry-hero__title strong.is-yonsei { background: #003876; }
+.rivalry-hero__title strong.is-korea { background: #8b0029; }
+.rivalry-hero__title .rivalry-hero__title-games { color: var(--ink); background: var(--paper); text-shadow: none; }
+
+.rivalry-hero__question {
+  margin: clamp(1.5rem, 4vh, 3rem) 0 0.85rem;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.rivalry-hero__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  min-width: 280px;
+  min-height: 54px;
+  margin-top: 1.25rem;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  color: white;
+  background: rgba(0, 0, 0, 0.14);
+  font-size: 0.76rem;
+  font-weight: 750;
+  cursor: pointer;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.rivalry-hero__cta:hover { background: rgba(255, 255, 255, 0.12); transform: translateY(-2px); }
+
+.rivalry-hero__edge {
+  position: absolute;
+  bottom: 1rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.54rem;
+  letter-spacing: 0.14em;
+  opacity: 0.45;
+}
+
+.rivalry-hero__edge--left { left: 1.25rem; }
+.rivalry-hero__edge--right { right: 1.25rem; }
+
+/* Shared headings */
+.rivalry-section-heading { max-width: 820px; }
+.rivalry-section-heading > p { display: flex; align-items: center; gap: 0.8rem; margin: 0 0 1.2rem; color: var(--side); font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; font-weight: 650; letter-spacing: 0.14em; }
+.rivalry-section-heading > p i { width: 54px; height: 1px; background: currentColor; opacity: 0.5; }
+.rivalry-section-heading h2 { display: grid; margin: 0; font-size: clamp(3.5rem, 7.3vw, 7rem); font-weight: 900; letter-spacing: -0.065em; line-height: 0.9; }
+.rivalry-section-heading h2 > span { color: var(--muted); font-weight: 660; }
+.rivalry-section-heading h2 > strong { color: var(--ink); }
+.rivalry-section-heading__description { max-width: 570px; margin-top: 1.8rem; color: var(--muted); font-size: 0.88rem; font-weight: 540; line-height: 1.75; }
+.rivalry-section-heading.is-inverse > p { color: rgba(255, 255, 255, 0.7); }
+.rivalry-section-heading.is-inverse h2 > span { color: rgba(255, 255, 255, 0.47); }
+.rivalry-section-heading.is-inverse h2 > strong { color: white; }
+.rivalry-section-heading.is-inverse .rivalry-section-heading__description { color: rgba(255, 255, 255, 0.62); }
+
+/* Schedule */
+.rivalry-schedule {
+  position: relative;
+  padding: clamp(5rem, 10vw, 9rem) 0;
+  overflow: hidden;
+  color: white;
+  background: var(--side);
+  transition: background-color 420ms ease;
+}
+
+.rivalry-schedule::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 12px;
+  background: repeating-linear-gradient(115deg, transparent 0 22px, rgba(255, 255, 255, 0.25) 22px 32px, transparent 32px 54px);
+  background-size: 64px 100%;
+  animation: rivalry-stripe 1.7s linear infinite;
+  content: "";
+}
+
+.rivalry-schedule__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 3.5rem; }
+
+.rivalry-schedule-card {
+  min-height: 350px;
+  padding: clamp(1.35rem, 3vw, 2.3rem);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: var(--ink);
+  background: var(--paper-bright);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.17);
+}
+
+.rivalry-schedule-card.is-done { opacity: 0.5; filter: saturate(0.3); }
+.rivalry-schedule-card.is-next { border-width: 4px; transform: translateY(-10px); }
+.rivalry-schedule-card.is-today { outline: 6px solid rgba(255, 255, 255, 0.2); }
+.rivalry-schedule-card.is-today .rivalry-schedule-card__top > span { animation: rivalry-blink 1s steps(1) infinite; }
+.rivalry-schedule-card__top { display: flex; align-items: center; justify-content: space-between; }
+.rivalry-schedule-card__top > span { display: inline-flex; padding: 0.4rem 0.65rem; color: white; background: var(--side); font-size: 0.64rem; font-weight: 760; }
+.rivalry-schedule-card__top small { font-family: "IBM Plex Mono", monospace; font-size: 0.64rem; color: var(--muted); }
+.rivalry-schedule-card__date { display: flex; align-items: flex-end; gap: 0.7rem; margin-top: 2.1rem; }
+.rivalry-schedule-card__date strong { font-size: clamp(4rem, 7vw, 7.2rem); font-weight: 900; letter-spacing: -0.09em; line-height: 0.8; }
+.rivalry-schedule-card__date span { padding-bottom: 0.3rem; color: var(--muted); font-size: 0.8rem; font-weight: 700; }
+.rivalry-schedule-card > p { display: flex; align-items: center; gap: 0.45rem; margin: 2rem 0 0; color: var(--side); font-family: "IBM Plex Mono", monospace; font-size: 0.78rem; font-weight: 650; }
+.rivalry-schedule-card h3 { margin: 1.2rem 0 0; font-size: clamp(1.5rem, 3vw, 2.5rem); font-weight: 860; letter-spacing: -0.045em; }
+.rivalry-schedule-card__venue { display: flex; align-items: center; gap: 0.45rem; margin-top: 0.55rem; color: var(--muted); font-size: 0.75rem; font-weight: 580; }
+.rivalry-data-note { display: flex; align-items: center; gap: 0.45rem; margin: 1.25rem 0 0; color: rgba(255, 255, 255, 0.6); font-size: 0.66rem; }
+
+/* Must know */
+.rivalry-must { padding: clamp(6rem, 11vw, 10rem) 0; background-color: var(--paper); background-image: radial-gradient(rgba(21, 20, 20, 0.11) 0.8px, transparent 0.8px); background-size: 8px 8px; }
+
+.rivalry-cram-button {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr) auto 24px;
+  align-items: center;
+  gap: 1rem;
+  width: min(100%, 720px);
+  min-height: 74px;
+  margin-top: 2.5rem;
+  padding: 0.75rem 1.25rem 0.75rem 0.75rem;
+  border: 0;
+  color: white;
+  background: var(--side);
+  box-shadow: 9px 9px 0 var(--ink);
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 420ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+.rivalry-cram-button:hover { transform: translate(3px, 3px); box-shadow: 6px 6px 0 var(--ink); }
+.rivalry-cram-button > span { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; color: var(--side); background: white; }
+.rivalry-cram-button strong { font-size: 0.94rem; font-weight: 780; }
+.rivalry-cram-button small { font-family: "IBM Plex Mono", monospace; font-size: 0.62rem; opacity: 0.62; }
+
+.rivalry-must__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 4rem; }
+.rivalry-song-card { min-width: 0; border: 1px solid var(--line); background: var(--paper-bright); box-shadow: 0 5px 0 rgba(21, 20, 20, 0.11); transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease; }
+.rivalry-song-card:hover, .rivalry-song-card.is-active { border-color: var(--side); transform: translateY(-5px); box-shadow: 0 10px 0 color-mix(in srgb, var(--side) 22%, transparent); }
+.rivalry-song-card > button { display: flex; flex-direction: column; width: 100%; min-height: 350px; padding: 0; border: 0; color: inherit; background: transparent; text-align: left; cursor: pointer; }
+.rivalry-song-card__top { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 1rem; border-bottom: 1px solid var(--line); font-family: "IBM Plex Mono", monospace; font-size: 0.58rem; letter-spacing: 0.11em; }
+.rivalry-song-card__top i { color: var(--side); font-style: normal; font-weight: 700; }
+.rivalry-song-card__pulse { display: flex; align-items: center; justify-content: center; gap: 4px; width: 100%; height: 72px; padding: 1rem; color: var(--side); background: color-mix(in srgb, var(--side) 7%, var(--paper-bright)); }
+.rivalry-song-card__pulse i { width: 4px; height: var(--bar); background: currentColor; transform-origin: center; animation: rivalry-bars 1.1s calc(var(--bar) * -0.018) ease-in-out infinite; }
+.rivalry-song-card__body { display: flex; flex: 1; flex-direction: column; width: 100%; padding: 1.4rem; }
+.rivalry-song-card__body p { margin: 0; color: var(--side); font-size: 0.62rem; font-weight: 720; }
+.rivalry-song-card__body h3 { margin: 0.75rem 0 0; font-size: clamp(1.5rem, 2.5vw, 2.2rem); font-weight: 880; letter-spacing: -0.052em; line-height: 1.05; }
+.rivalry-song-card__body > span { margin-top: 1rem; color: var(--muted); font-size: 0.7rem; line-height: 1.65; }
+.rivalry-song-card__bottom { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 0.9rem 1.2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.61rem; }
+.rivalry-song-card__bottom strong { display: inline-flex; align-items: center; gap: 0.35rem; color: var(--ink); font-family: "IBM Plex Mono", monospace; }
+
+/* Memory */
+.rivalry-memory { padding: clamp(6rem, 11vw, 10rem) 0; border-top: 1px solid var(--line); background: var(--paper-bright); }
+.rivalry-memory__rail { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin-top: 4rem; border-top: 2px solid var(--ink); }
+.rivalry-memory__rail > button { display: grid; grid-template-columns: 42px minmax(0, 1fr) 40px; align-items: center; gap: 1rem; min-height: 118px; padding: 1rem 1.2rem; border: 0; border-bottom: 1px solid var(--line); color: var(--ink); background: transparent; text-align: left; cursor: pointer; transition: background 160ms ease, color 160ms ease; }
+.rivalry-memory__rail > button:nth-child(odd) { border-right: 1px solid var(--line); }
+.rivalry-memory__rail > button:hover, .rivalry-memory__rail > button.is-active { color: white; background: var(--side); }
+.rivalry-memory__rail > button > span { font-family: "IBM Plex Mono", monospace; font-size: 0.62rem; opacity: 0.55; }
+.rivalry-memory__rail > button > div { display: grid; gap: 0.27rem; min-width: 0; }
+.rivalry-memory__rail small { color: var(--side); font-size: 0.58rem; font-weight: 700; }
+.rivalry-memory__rail > button:hover small, .rivalry-memory__rail > button.is-active small { color: rgba(255, 255, 255, 0.68); }
+.rivalry-memory__rail strong { font-size: 1.12rem; font-weight: 800; letter-spacing: -0.03em; }
+.rivalry-memory__rail p { margin: 0; overflow: hidden; color: var(--muted); font-size: 0.65rem; text-overflow: ellipsis; white-space: nowrap; }
+.rivalry-memory__rail > button:hover p, .rivalry-memory__rail > button.is-active p { color: rgba(255, 255, 255, 0.62); }
+.rivalry-memory__rail > button > i { display: grid; place-items: center; width: 36px; height: 36px; border: 1px solid currentColor; border-radius: 50%; font-style: normal; }
+
+/* Lineage */
+.rivalry-lineage { position: relative; isolation: isolate; padding: clamp(6rem, 11vw, 10rem) 0; overflow: hidden; color: white; background: #11100f; }
+.rivalry-lineage::before { position: absolute; z-index: -2; inset: 0; opacity: 0.25; background: radial-gradient(circle at 80% 20%, var(--side), transparent 32%); content: ""; transition: background 420ms ease; }
+.rivalry-lineage__mesh { z-index: -1; opacity: 0.14; }
+.rivalry-lineage__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 4rem; }
+.rivalry-family-card { display: flex; flex-direction: column; width: 100%; min-height: 390px; padding: 1.4rem; border: 1px solid rgba(255, 255, 255, 0.18); color: white; background: rgba(255, 255, 255, 0.045); text-align: left; cursor: pointer; transition: border-color 180ms ease, background 180ms ease, transform 180ms ease; }
+.rivalry-family-card:hover { border-color: var(--side); background: rgba(255, 255, 255, 0.08); transform: translateY(-4px); }
+.rivalry-family-card__original { display: grid; justify-items: center; gap: 0.33rem; padding: 1rem; text-align: center; }
+.rivalry-family-card__original small { color: var(--side); font-family: "IBM Plex Mono", monospace; font-size: 0.57rem; font-weight: 650; letter-spacing: 0.09em; }
+.rivalry-family-card__original strong { max-width: 100%; font-size: clamp(1.65rem, 3vw, 2.6rem); font-weight: 850; letter-spacing: -0.045em; line-height: 1.05; }
+.rivalry-family-card__original span { color: rgba(255, 255, 255, 0.5); font-size: 0.7rem; }
+.rivalry-family-card__line { position: relative; height: 65px; margin: 0 12%; }
+.rivalry-family-card__line::before { position: absolute; top: 0; left: 50%; width: 1px; height: 50%; background: rgba(255, 255, 255, 0.25); content: ""; }
+.rivalry-family-card__line::after { position: absolute; top: 50%; right: 13%; left: 13%; height: 1px; background: rgba(255, 255, 255, 0.25); content: ""; }
+.rivalry-family-card__line i { position: absolute; z-index: 1; bottom: 7px; width: 7px; height: 7px; border: 2px solid #11100f; border-radius: 50%; background: var(--side); box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.24); }
+.rivalry-family-card__line i:first-child { left: 11.5%; }
+.rivalry-family-card__line i:nth-child(2) { left: calc(50% - 3px); }
+.rivalry-family-card__line i:nth-child(3) { right: 11.5%; }
+.rivalry-family-card__members { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.55rem; }
+.rivalry-family-card__members > div { display: grid; align-content: start; gap: 0.25rem; min-height: 84px; padding: 0.75rem; border: 1px solid rgba(255, 255, 255, 0.11); }
+.rivalry-family-card__members small { color: rgba(255, 255, 255, 0.47); font-size: 0.55rem; }
+.rivalry-family-card__members strong { font-size: 0.72rem; line-height: 1.35; }
+.rivalry-family-card__more { display: inline-flex; align-items: center; gap: 0.4rem; margin: auto 0 0; padding-top: 1rem; color: rgba(255, 255, 255, 0.55); font-size: 0.62rem; }
+
+/* Rivalry tracks */
+.rivalry-tracks { position: relative; padding: clamp(6rem, 11vw, 10rem) 0; overflow: hidden; background: var(--paper); }
+.rivalry-tracks::after { position: absolute; top: 0; right: -5vw; width: 32vw; height: 100%; opacity: 0.05; background: repeating-linear-gradient(125deg, transparent 0 28px, var(--opponent) 28px 56px); content: ""; pointer-events: none; }
+.rivalry-tracks__arena { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1fr) 90px minmax(0, 0.82fr); align-items: center; gap: 1rem; margin-top: 4rem; }
+.rivalry-camp { min-width: 0; overflow: hidden; border: 1px solid var(--line); color: white; box-shadow: 10px 12px 0 rgba(21, 20, 20, 0.12); transition: opacity 300ms ease, filter 300ms ease; }
+.rivalry-camp.is-yonsei { background: #003876; }
+.rivalry-camp.is-korea { background: #8b0029; }
+.rivalry-camp:not(.is-active) { opacity: 0.72; filter: saturate(0.72); }
+.rivalry-camp__head { display: grid; grid-template-columns: 62px minmax(0, 1fr) auto; align-items: center; gap: 1rem; min-height: 94px; padding: 1rem 1.3rem; border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+.rivalry-camp__head > span { display: grid; place-items: center; width: 58px; height: 58px; border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 50%; font-size: 1.5rem; font-weight: 900; }
+.rivalry-camp__head > div { display: grid; gap: 0.2rem; }
+.rivalry-camp__head small { font-family: "IBM Plex Mono", monospace; font-size: 0.55rem; letter-spacing: 0.11em; opacity: 0.58; }
+.rivalry-camp__head strong { font-size: 1.1rem; }
+.rivalry-camp__head > i { font-family: "IBM Plex Mono", monospace; font-size: 0.55rem; font-style: normal; opacity: 0.5; }
+.rivalry-camp__tracks { display: grid; }
+.rivalry-camp__tracks button { display: grid; grid-template-columns: 36px minmax(0, 1fr) 30px; align-items: center; gap: 0.8rem; min-height: 78px; padding: 0.8rem 1.3rem; border: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.15); color: white; background: transparent; text-align: left; cursor: pointer; transition: background 160ms ease, padding-left 160ms ease; }
+.rivalry-camp__tracks button:last-child { border-bottom: 0; }
+.rivalry-camp__tracks button:hover { padding-left: 1.7rem; background: rgba(255, 255, 255, 0.1); }
+.rivalry-camp__tracks button span { font-family: "IBM Plex Mono", monospace; font-size: 0.56rem; opacity: 0.5; }
+.rivalry-camp__tracks button strong { font-size: 1rem; font-weight: 760; }
+.rivalry-camp__tracks button svg { opacity: 0.58; }
+.rivalry-tracks__versus { display: grid; place-items: center; align-content: center; min-height: 170px; color: var(--ink); font-size: 3.8rem; font-weight: 930; line-height: 0.65; }
+.rivalry-tracks__versus i { width: 1px; height: 42px; margin-top: 1rem; background: var(--ink); opacity: 0.25; }
+.rivalry-tracks__note { position: relative; z-index: 1; margin: 1.5rem 0 0; color: var(--muted); font-size: 0.66rem; text-align: center; }
+
+/* Baseball */
+.rivalry-baseball { position: relative; padding: clamp(6rem, 11vw, 10rem) 0; overflow: hidden; color: white; background: #151414; }
+.rivalry-baseball::before { position: absolute; top: -20%; left: -15%; width: 60vw; aspect-ratio: 1; border: 8vw solid color-mix(in srgb, var(--side) 38%, transparent); border-radius: 50%; opacity: 0.24; content: ""; }
+.rivalry-baseball__features { position: relative; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); margin-top: 4rem; border-top: 1px solid rgba(255, 255, 255, 0.2); border-left: 1px solid rgba(255, 255, 255, 0.2); }
+.rivalry-baseball__features button { display: flex; flex-direction: column; min-height: 250px; padding: 1.15rem; border: 0; border-right: 1px solid rgba(255, 255, 255, 0.2); border-bottom: 1px solid rgba(255, 255, 255, 0.2); color: white; background: rgba(255, 255, 255, 0.025); text-align: left; cursor: pointer; transition: background 180ms ease, color 180ms ease; }
+.rivalry-baseball__features button:hover { color: var(--ink); background: var(--paper-bright); }
+.rivalry-baseball__features button > span { font-family: "IBM Plex Mono", monospace; font-size: 0.57rem; opacity: 0.42; }
+.rivalry-baseball__features button > div { display: grid; gap: 0.4rem; margin-top: 2.2rem; }
+.rivalry-baseball__features small { color: var(--side); font-size: 0.61rem; font-weight: 700; }
+.rivalry-baseball__features strong { font-size: 1.3rem; font-weight: 830; letter-spacing: -0.04em; line-height: 1.08; }
+.rivalry-baseball__features p { margin: 0; font-size: 0.59rem; opacity: 0.48; line-height: 1.5; }
+.rivalry-baseball__features button > i { display: grid; place-items: center; width: 38px; height: 38px; margin: auto 0 0 auto; border: 1px solid currentColor; border-radius: 50%; font-style: normal; }
+.rivalry-baseball__teams { position: relative; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid rgba(255, 255, 255, 0.14); }
+.rivalry-baseball__teams > p { display: flex; align-items: center; gap: 0.45rem; margin: 0 0 1rem; font-size: 0.68rem; font-weight: 720; }
+.rivalry-baseball__teams > div { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); border: 1px solid rgba(255, 255, 255, 0.15); }
+.rivalry-baseball__teams a, .rivalry-baseball__teams > div > span { display: grid; align-content: center; justify-items: center; min-height: 96px; padding: 0.65rem; border-right: 1px solid rgba(255, 255, 255, 0.15); text-align: center; transition: background 160ms ease; }
+.rivalry-baseball__teams a:last-child, .rivalry-baseball__teams > div > span:last-child { border-right: 0; }
+.rivalry-baseball__teams a:hover { background: var(--team-color); }
+.rivalry-baseball__teams a > span, .rivalry-baseball__teams > div > span > span { font-family: "IBM Plex Mono", monospace; font-size: 0.58rem; color: var(--team-color); }
+.rivalry-baseball__teams a:hover > span { color: white; }
+.rivalry-baseball__teams strong { margin-top: 0.3rem; font-size: 0.68rem; }
+.rivalry-baseball__teams a svg { margin-top: 0.45rem; opacity: 0.5; }
+.rivalry-baseball__teams .is-pending { opacity: 0.38; }
+.rivalry-baseball__teams .is-pending small { margin-top: 0.35rem; font-size: 0.46rem; }
+
+/* Timeline */
+.rivalry-timeline { padding: clamp(6rem, 11vw, 10rem) 0; background: var(--paper-bright); }
+.rivalry-timeline__list { margin-top: 4rem; border-top: 2px solid var(--ink); }
+.rivalry-timeline-row { position: relative; display: grid; grid-template-columns: 150px 115px minmax(0, 1fr) 44px; align-items: center; gap: 1.5rem; min-height: 122px; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.rivalry-timeline-row.is-done { opacity: 0.35; }
+.rivalry-timeline-row.is-next, .rivalry-timeline-row.is-today { background: color-mix(in srgb, var(--side) 7%, transparent); }
+.rivalry-timeline-row.is-final { min-height: 165px; }
+.rivalry-timeline-row__date { padding-left: 1rem; font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; font-weight: 650; }
+.rivalry-timeline-row__marker { position: relative; display: flex; align-items: center; gap: 0.6rem; height: 100%; }
+.rivalry-timeline-row__marker::after { position: absolute; top: 50%; bottom: -63px; left: 6px; width: 1px; background: var(--line); content: ""; }
+.rivalry-timeline-row:last-child .rivalry-timeline-row__marker::after { display: none; }
+.rivalry-timeline-row__marker i { position: relative; z-index: 1; width: 13px; height: 13px; border: 3px solid var(--paper-bright); border-radius: 50%; background: var(--muted); box-shadow: 0 0 0 1px var(--muted); }
+.rivalry-timeline-row.is-next .rivalry-timeline-row__marker i, .rivalry-timeline-row.is-today .rivalry-timeline-row__marker i { background: var(--side); box-shadow: 0 0 0 5px color-mix(in srgb, var(--side) 15%, transparent); }
+.rivalry-timeline-row__marker span { color: var(--muted); font-size: 0.58rem; font-weight: 720; }
+.rivalry-timeline-row.is-next .rivalry-timeline-row__marker span, .rivalry-timeline-row.is-today .rivalry-timeline-row__marker span { color: var(--side); }
+.rivalry-timeline-row__body h3 { margin: 0; font-size: clamp(1.2rem, 2.6vw, 2rem); font-weight: 830; letter-spacing: -0.04em; }
+.rivalry-timeline-row__body p { margin: 0.35rem 0 0; color: var(--muted); font-size: 0.69rem; }
+.rivalry-timeline-row__side { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; color: white; font-size: 0.72rem; font-weight: 850; }
+.rivalry-timeline-row__side.is-yonsei { background: #003876; }
+.rivalry-timeline-row__side.is-korea { background: #8b0029; }
+.rivalry-timeline-row > svg { color: var(--side); }
+
+/* Footer */
+.rivalry-footer { position: relative; min-height: 700px; overflow: hidden; color: white; background: #11100f; }
+.rivalry-footer__split { position: absolute; inset: 0; display: grid; grid-template-columns: 1fr 1fr; opacity: 0.45; }
+.rivalry-footer__split span { display: grid; place-items: center; overflow: hidden; font-size: min(48vw, 45rem); font-weight: 920; letter-spacing: -0.15em; line-height: 1; }
+.rivalry-footer__split span:first-child { color: rgba(255, 255, 255, 0.1); background: #003876; }
+.rivalry-footer__split span:nth-child(2) { color: rgba(255, 255, 255, 0.1); background: #8b0029; }
+.rivalry-footer__content { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; width: min(90vw, 1000px); min-height: 700px; margin: 0 auto; padding: 6rem 0 2rem; text-align: center; }
+.rivalry-footer__content > p { margin: 0; font-size: 0.8rem; font-weight: 700; }
+.rivalry-footer h2 { margin: 1.2rem 0 0; font-size: clamp(3rem, 7vw, 6.7rem); font-weight: 900; letter-spacing: -0.065em; line-height: 0.94; }
+.rivalry-footer__content > a { display: inline-flex; align-items: center; gap: 2rem; min-height: 58px; margin-top: 2rem; padding: 0.8rem 1.5rem; border: 1px solid rgba(255, 255, 255, 0.44); border-radius: 999px; font-size: 0.76rem; font-weight: 730; transition: color 160ms ease, background 160ms ease; }
+.rivalry-footer__content > a:hover { color: var(--ink); background: white; }
+.rivalry-footer__meta { display: grid; gap: 0.35rem; width: 100%; margin-top: auto; padding-top: 4rem; color: rgba(255, 255, 255, 0.52); font-size: 0.59rem; }
+.rivalry-footer__meta small { margin-top: 0.35rem; font-family: "IBM Plex Mono", monospace; letter-spacing: 0.08em; }
+
+/* Dialogs and player */
+.rivalry-dialog-overlay { position: fixed; z-index: 150; inset: 0; background: rgba(8, 8, 7, 0.82); backdrop-filter: blur(10px); animation: rivalry-dialog-in 180ms ease both; }
+@keyframes rivalry-dialog-in { from { opacity: 0; } to { opacity: 1; } }
+.rivalry-focus-dialog, .rivalry-family-dialog { position: fixed; z-index: 151; top: 50%; left: 50%; width: min(calc(100vw - 2rem), 1040px); max-height: calc(100svh - 2rem); overflow: auto; border: 1px solid rgba(255, 255, 255, 0.16); color: white; background: #141312; box-shadow: 0 40px 120px rgba(0, 0, 0, 0.5); transform: translate(-50%, -50%); }
+.rivalry-focus-dialog__head, .rivalry-family-dialog__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; padding: 1.2rem 1.3rem; border-bottom: 1px solid rgba(255, 255, 255, 0.13); }
+.rivalry-focus-dialog__head > div, .rivalry-family-dialog__head > div { display: grid; gap: 0.28rem; }
+.rivalry-focus-dialog__head small, .rivalry-family-dialog__head small { color: var(--side); font-family: "IBM Plex Mono", monospace; font-size: 0.58rem; letter-spacing: 0.1em; }
+.rivalry-focus-dialog__head h2, .rivalry-family-dialog__head h2 { margin: 0; font-size: 1.65rem; font-weight: 850; letter-spacing: -0.04em; }
+.rivalry-focus-dialog__head span { color: rgba(255, 255, 255, 0.48); font-size: 0.58rem; }
+.rivalry-family-dialog__head span { color: rgba(255, 255, 255, 0.5); font-size: 0.67rem; }
+.rivalry-focus-dialog__head > button, .rivalry-family-dialog__head > button { display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 50%; color: white; background: transparent; cursor: pointer; }
+.rivalry-focus-dialog__main { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(290px, 0.8fr); }
+.rivalry-focus-dialog__media { min-width: 0; border-right: 1px solid rgba(255, 255, 255, 0.13); }
+.rivalry-focus-dialog__screen { aspect-ratio: 16 / 9; background: #050505; }
+.rivalry-focus-dialog__screen iframe { width: 100%; height: 100%; border: 0; }
+.rivalry-player-pending { position: relative; display: grid; place-content: center; justify-items: center; width: 100%; height: 100%; min-height: 280px; overflow: hidden; text-align: center; }
+.rivalry-player-pending > div { position: absolute; inset: 12%; display: flex; align-items: center; justify-content: center; gap: 1.2%; color: var(--side); opacity: 0.22; }
+.rivalry-player-pending > div i { width: 2%; height: var(--bar); background: currentColor; animation: rivalry-bars 1.2s calc(var(--bar) * -0.02) ease-in-out infinite; }
+.rivalry-player-pending > svg { position: relative; color: var(--side); }
+.rivalry-player-pending strong { position: relative; margin-top: 0.8rem; font-size: 0.9rem; }
+.rivalry-player-pending > span { position: relative; margin-top: 0.35rem; color: rgba(255, 255, 255, 0.48); font-size: 0.64rem; }
+.rivalry-focus-dialog__media-meta { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; padding: 0.9rem 1.1rem; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+.rivalry-focus-dialog__media-meta > div { display: grid; gap: 0.22rem; min-width: 0; }
+.rivalry-focus-dialog__media-meta strong { overflow: hidden; font-size: 0.65rem; text-overflow: ellipsis; white-space: nowrap; }
+.rivalry-focus-dialog__media-meta span { color: rgba(255, 255, 255, 0.45); font-size: 0.56rem; }
+.rivalry-focus-dialog__media-meta a { display: inline-flex; flex: 0 0 auto; align-items: center; gap: 0.35rem; color: var(--side); font-size: 0.6rem; font-weight: 700; }
+.rivalry-focus-dialog__details { display: grid; align-content: start; gap: 0; min-width: 0; padding: 1.1rem 1.25rem 1.3rem; }
+.rivalry-focus-dialog__facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1px solid rgba(255, 255, 255, 0.13); }
+.rivalry-focus-dialog__facts > div { display: grid; align-content: center; gap: 0.28rem; min-height: 74px; padding: 0.65rem; border-right: 1px solid rgba(255, 255, 255, 0.13); }
+.rivalry-focus-dialog__facts > div:last-child { border-right: 0; }
+.rivalry-focus-dialog__facts small, .rivalry-focus-dialog__copy small { color: rgba(255, 255, 255, 0.4); font-family: "IBM Plex Mono", monospace; font-size: 0.49rem; letter-spacing: 0.08em; }
+.rivalry-focus-dialog__facts strong { overflow-wrap: anywhere; font-size: 0.65rem; line-height: 1.35; }
+.rivalry-focus-dialog__copy { padding: 1rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.13); }
+.rivalry-focus-dialog__copy p { margin: 0.45rem 0 0; color: rgba(255, 255, 255, 0.72); font-size: 0.7rem; line-height: 1.7; word-break: keep-all; }
+.rivalry-focus-dialog__notice { margin: 1rem 0 0; padding: 0.8rem; border: 1px dashed rgba(255, 255, 255, 0.18); color: rgba(255, 255, 255, 0.48); font-size: 0.58rem; line-height: 1.55; }
+.rivalry-focus-dialog__archive { display: inline-flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 1rem; padding: 0.8rem 0.9rem; color: white; background: var(--side); font-size: 0.63rem; font-weight: 750; }
+.rivalry-focus-dialog__controls { display: flex; align-items: center; justify-content: center; gap: 1rem; padding: 1rem; }
+.rivalry-focus-dialog__controls button, .rivalry-focus-dialog__controls > span { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 50%; color: white; background: transparent; cursor: pointer; }
+.rivalry-focus-dialog__controls > span { color: var(--ink); background: var(--side); }
+.rivalry-focus-dialog__queue { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); border-top: 1px solid rgba(255, 255, 255, 0.13); }
+.rivalry-focus-dialog__queue button { display: grid; gap: 0.3rem; min-height: 76px; padding: 0.7rem; border: 0; border-right: 1px solid rgba(255, 255, 255, 0.12); color: white; background: transparent; text-align: left; cursor: pointer; }
+.rivalry-focus-dialog__queue button:last-child { border-right: 0; }
+.rivalry-focus-dialog__queue button.is-active { background: var(--side); }
+.rivalry-focus-dialog__queue span { font-family: "IBM Plex Mono", monospace; font-size: 0.5rem; opacity: 0.5; }
+.rivalry-focus-dialog__queue strong { font-size: 0.65rem; line-height: 1.3; }
+
+.rivalry-family-dialog { width: min(calc(100vw - 2rem), 720px); padding-bottom: 1.2rem; }
+.rivalry-family-dialog > p { margin: 0; padding: 1.2rem 1.3rem; color: rgba(255, 255, 255, 0.62); font-size: 0.7rem; line-height: 1.65; }
+.rivalry-family-dialog__members { margin: 0 1.3rem; border-top: 1px solid rgba(255, 255, 255, 0.16); }
+.rivalry-family-dialog__members > div { display: grid; grid-template-columns: 35px minmax(0, 1fr) auto; align-items: center; gap: 0.9rem; min-height: 82px; border-bottom: 1px solid rgba(255, 255, 255, 0.13); }
+.rivalry-family-dialog__members > div > span { font-family: "IBM Plex Mono", monospace; font-size: 0.55rem; opacity: 0.4; }
+.rivalry-family-dialog__members > div > div { display: grid; gap: 0.2rem; }
+.rivalry-family-dialog__members small { color: rgba(255, 255, 255, 0.45); font-size: 0.55rem; }
+.rivalry-family-dialog__members strong { font-size: 0.88rem; }
+.rivalry-family-dialog__members p { margin: 0; color: var(--side); font-size: 0.55rem; font-weight: 700; }
+.rivalry-family-dialog__members a { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 50%; }
+.rivalry-family-dialog__members i { color: rgba(255, 255, 255, 0.32); font-size: 0.5rem; font-style: normal; }
+.rivalry-family-dialog__archive { display: inline-flex; align-items: center; gap: 0.45rem; margin: 1rem 1.3rem 0; color: var(--side); font-size: 0.65rem; font-weight: 720; }
+
+.rivalry-mini-player { position: fixed; z-index: 100; right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, env(safe-area-inset-bottom)); display: flex; align-items: stretch; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.18); color: white; background: color-mix(in srgb, var(--side-deep) 94%, transparent); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35); backdrop-filter: blur(16px); }
+.rivalry-mini-player__main { display: grid; grid-template-columns: 38px minmax(150px, 1fr) 18px; align-items: center; gap: 0.75rem; min-width: 260px; padding: 0.65rem 0.8rem; border: 0; color: white; background: transparent; text-align: left; cursor: pointer; }
+.rivalry-mini-player__main > span { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; color: var(--side-deep); background: white; }
+.rivalry-mini-player__main > div { display: grid; gap: 0.18rem; }
+.rivalry-mini-player__main small { font-size: 0.5rem; opacity: 0.54; }
+.rivalry-mini-player__main strong { font-size: 0.73rem; }
+.rivalry-mini-player > a, .rivalry-mini-player__close { display: grid; place-items: center; width: 48px; border: 0; border-left: 1px solid rgba(255, 255, 255, 0.15); color: white; background: transparent; cursor: pointer; }
+.rivalry-mini-player__close { width: 38px; color: rgba(255, 255, 255, 0.5); }
+
+@media (max-width: 1040px) {
+  .rivalry-must__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rivalry-baseball__features { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .rivalry-baseball__teams > div { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .rivalry-baseball__teams a, .rivalry-baseball__teams > div > span { border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+  .rivalry-baseball__teams a:nth-child(5), .rivalry-baseball__teams > div > span:nth-child(5) { border-right: 0; }
+  .rivalry-tracks__arena { grid-template-columns: minmax(0, 1fr) 64px minmax(0, 0.9fr); }
+  .rivalry-camp__head { grid-template-columns: 52px minmax(0, 1fr); }
+  .rivalry-camp__head > i { display: none; }
+}
+
+@media (max-width: 760px) {
+  .rivalry-page main > section { scroll-margin-top: 57px; }
+  .rivalry-section-shell { width: auto; margin: 0; padding-right: 1.1rem; padding-left: 1.1rem; }
+  .rivalry-header { grid-template-columns: 1fr auto 1fr; height: 56px; padding: 0 0.8rem; }
+  .rivalry-header__brand span, .rivalry-header__share span { display: none; }
+  .rivalry-header__brand, .rivalry-header__share { width: 38px; justify-content: center; padding: 0; }
+  .rivalry-header__switch { width: min(64vw, 246px); }
+  .rivalry-side-switch.is-compact { width: 100%; }
+  .rivalry-side-switch.is-compact button { grid-template-columns: 21px 1fr; gap: 0.35rem; min-height: 34px; padding: 0.2rem 0.45rem; }
+  .rivalry-side-switch.is-compact .rivalry-side-switch__mark { width: 21px; height: 21px; }
+  .rivalry-side-switch.is-compact strong { font-size: 0.58rem; }
+
+  .rivalry-hero { min-height: max(660px, calc(100svh - 56px)); background: linear-gradient(105deg, var(--side-deep) 0 88%, var(--opponent) 88% 100%); }
+  .rivalry-hero__content { width: auto; min-height: max(660px, calc(100svh - 56px)); padding: 3.2rem 1rem 2.5rem; }
+  .rivalry-kicker { margin-bottom: 1.3rem; font-size: 0.58rem; }
+  .rivalry-hero__title { font-size: min(31vw, 8.4rem); }
+  .rivalry-hero__title strong { width: 0.87em; min-width: 0.87em; }
+  .rivalry-hero__question { margin-top: 1.8rem; }
+  .rivalry-hero .rivalry-side-switch { width: 100%; }
+  .rivalry-hero .rivalry-side-switch button { grid-template-columns: 42px minmax(0, 1fr) 9px; gap: 0.55rem; min-height: 70px; padding: 0.65rem; }
+  .rivalry-hero .rivalry-side-switch__mark { width: 42px; height: 42px; font-size: 0.92rem; }
+  .rivalry-hero .rivalry-side-switch strong { font-size: 0.74rem; }
+  .rivalry-hero .rivalry-side-switch small { font-size: 0.52rem; }
+  .rivalry-hero__cta { width: 100%; min-width: 0; }
+  .rivalry-hero__score { display: none; }
+  .rivalry-hero__edge { font-size: 0.45rem; }
+
+  .rivalry-section-heading h2 { font-size: clamp(3.1rem, 15.7vw, 5rem); }
+  .rivalry-section-heading__description { margin-top: 1.35rem; font-size: 0.76rem; }
+
+  .rivalry-schedule, .rivalry-must, .rivalry-memory, .rivalry-tracks, .rivalry-baseball, .rivalry-timeline { padding: 5.8rem 0; }
+  .rivalry-schedule__grid { grid-template-columns: 1fr; margin-top: 2.8rem; }
+  .rivalry-schedule-card { min-height: 300px; }
+  .rivalry-schedule-card.is-next { transform: none; }
+  .rivalry-schedule-card__date strong { font-size: 4.4rem; }
+  .rivalry-data-note { align-items: flex-start; line-height: 1.5; }
+
+  .rivalry-cram-button { grid-template-columns: 44px minmax(0, 1fr) 18px; gap: 0.75rem; margin-right: 5px; }
+  .rivalry-cram-button > span { width: 44px; height: 44px; }
+  .rivalry-cram-button small { display: none; }
+  .rivalry-must__grid { display: grid; grid-template-columns: 1fr; gap: 0; margin-top: 3rem; border-top: 2px solid var(--ink); }
+  .rivalry-song-card { border-width: 0 0 1px; box-shadow: none; }
+  .rivalry-song-card:hover, .rivalry-song-card.is-active { transform: none; box-shadow: inset 4px 0 0 var(--side); }
+  .rivalry-song-card > button { display: grid; grid-template-columns: 30px minmax(0, 1fr) 42px; grid-template-rows: auto auto; column-gap: 0.75rem; min-height: 116px; padding: 0 0.8rem; }
+  .rivalry-song-card__top { grid-row: 1 / 3; grid-column: 1; display: block; align-self: center; padding: 0; border: 0; }
+  .rivalry-song-card__top i { display: none; }
+  .rivalry-song-card__pulse { grid-row: 1 / 3; grid-column: 3; align-self: center; gap: 2px; width: 40px; height: 40px; padding: 0.55rem; border-radius: 50%; }
+  .rivalry-song-card__pulse i { width: 2px; }
+  .rivalry-song-card__body { grid-row: 1; grid-column: 2; align-self: end; padding: 1rem 0 0.2rem; }
+  .rivalry-song-card__body h3 { margin-top: 0.35rem; font-size: 1.2rem; }
+  .rivalry-song-card__body > span { display: -webkit-box; margin-top: 0.45rem; overflow: hidden; font-size: 0.62rem; line-height: 1.45; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+  .rivalry-song-card__bottom { grid-row: 2; grid-column: 2; align-self: start; justify-content: flex-start; gap: 0.8rem; padding: 0.35rem 0 1rem; border: 0; }
+
+  .rivalry-memory__rail { display: grid; grid-template-columns: 1fr; gap: 0; margin-top: 3rem; padding: 0; overflow: visible; border-top: 2px solid var(--ink); }
+  .rivalry-memory__rail > button { width: 100%; min-height: 112px; grid-template-columns: 30px minmax(0, 1fr) 38px; padding: 0.9rem 0.8rem; border: 0; border-bottom: 1px solid var(--line); }
+  .rivalry-memory__rail > button:nth-child(odd) { border-right: 0; }
+  .rivalry-memory__rail p { white-space: normal; }
+
+  .rivalry-tracks__arena { display: grid; grid-template-columns: 1fr; gap: 0.8rem; margin-top: 3rem; padding: 0; overflow: visible; }
+  .rivalry-camp { width: 100%; box-shadow: 6px 7px 0 rgba(21, 20, 20, 0.12); }
+  .rivalry-tracks__versus { display: flex; min-height: 54px; gap: 0.08em; font-size: 2.2rem; }
+  .rivalry-tracks__versus i { width: 30px; height: 1px; margin: 0 0 0 0.5rem; }
+  .rivalry-camp:not(.is-active) { opacity: 0.82; }
+
+  .rivalry-baseball__features { display: grid; grid-template-columns: 1fr; gap: 0; margin-top: 3rem; padding: 0; overflow: visible; border: 1px solid rgba(255, 255, 255, 0.2); }
+  .rivalry-baseball__features button { display: grid; grid-template-columns: 30px minmax(0, 1fr) 38px; align-items: center; gap: 0.75rem; min-height: 112px; padding: 0.9rem; border: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+  .rivalry-baseball__features button:last-child { border-bottom: 0; }
+  .rivalry-baseball__features button > div { margin-top: 0; }
+  .rivalry-baseball__features button > i { width: 36px; height: 36px; margin: 0; }
+  .rivalry-baseball__teams > div { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .rivalry-baseball__teams a, .rivalry-baseball__teams > div > span { min-height: 78px; }
+  .rivalry-baseball__teams a:nth-child(n + 6), .rivalry-baseball__teams > div > span:nth-child(n + 6) { border-bottom: 0; }
+
+  .rivalry-timeline__list { margin-top: 3rem; }
+  .rivalry-timeline-row { grid-template-columns: 90px 24px minmax(0, 1fr) 34px; gap: 0.65rem; min-height: 116px; }
+  .rivalry-timeline-row__date { padding-left: 0; font-size: 0.59rem; }
+  .rivalry-timeline-row__marker span { display: none; }
+  .rivalry-timeline-row__body h3 { font-size: 1rem; }
+  .rivalry-timeline-row__body p { font-size: 0.6rem; line-height: 1.5; }
+  .rivalry-timeline-row__side { width: 30px; height: 30px; font-size: 0.58rem; }
+
+  .rivalry-footer, .rivalry-footer__content { min-height: 650px; }
+  .rivalry-footer__content { padding-right: 1.1rem; padding-left: 1.1rem; }
+  .rivalry-footer__split span { align-items: end; padding-bottom: 5rem; font-size: 55vw; }
+  .rivalry-footer h2 { font-size: clamp(3rem, 14vw, 5.2rem); }
+  .rivalry-footer__meta { line-height: 1.45; }
+
+  .rivalry-focus-dialog, .rivalry-family-dialog { top: auto; right: 0; bottom: 0; left: 0; width: 100%; max-height: calc(100svh - 1rem); border-right: 0; border-bottom: 0; border-left: 0; transform: none; }
+  .rivalry-focus-dialog__main { display: block; }
+  .rivalry-focus-dialog__media { border-right: 0; }
+  .rivalry-focus-dialog__screen { aspect-ratio: 16 / 10; }
+  .rivalry-player-pending { min-height: 230px; }
+  .rivalry-focus-dialog__queue { display: flex; overflow-x: auto; }
+  .rivalry-focus-dialog__queue button { flex: 0 0 130px; }
+}
+
+@media (max-width: 390px) {
+  .rivalry-hero__content { padding-right: 0.75rem; padding-left: 0.75rem; }
+  .rivalry-hero .rivalry-side-switch button { grid-template-columns: 34px minmax(0, 1fr) 7px; }
+  .rivalry-hero .rivalry-side-switch__mark { width: 34px; height: 34px; }
+  .rivalry-hero .rivalry-side-switch strong { font-size: 0.67rem; }
+  .rivalry-section-heading h2 { font-size: 3.1rem; }
+  .rivalry-baseball__teams strong { font-size: 0.58rem; }
+  .rivalry-timeline-row { grid-template-columns: 76px 20px minmax(0, 1fr) 30px; }
+  .rivalry-timeline-row__date { font-size: 0.52rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rivalry-page *,
+  .rivalry-page *::before,
+  .rivalry-page *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

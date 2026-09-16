@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-hamseong",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "함성",
+    "aliases": [
+      "함성 (2022)"
+    ],
+    "symbolicLines": [
+      "함성",
+      "성균관대학교 응원가"
+    ],
+    "descriptionText": "킹고응원단 공식 영상이 2022년 곡으로 표시하는 응원가다.[* 2026 상반기 응원 OT 공식 영상: https://www.youtube.com/watch?v=oSwnhBLFrBI] 현재 확인되는 공식 공연 기록으로는 2025 ESKARA와 2026 상반기 응원 OT가 있으며, 두 영상 모두 곡 연도를 2022년으로 표기한다.[* 2025 ESKARA 공식 영상: https://www.youtube.com/watch?v=atjZuJPL1n0]\n\n2026 응원 OT 영상은 공연 구성을 ‘단장 독무’와 ‘단원 등장’으로 나누고, 1분 33초 지점부터 단원이 합류한다고 안내한다. 2025 ESKARA 영상은 하이라이트와 1절·2절을 각각 챕터로 제공해, 독무에서 단체 무대로 확장되는 비교적 긴 공연형 응원가라는 특징을 확인할 수 있다.\n\n사용 시작 연도와 최근 공연 구조는 확인되지만, 작사·작곡·편곡자와 원곡 여부, 2022년 최초 공개 무대는 공개 공식 자료에서 아직 확인되지 않았다. 제목이 일반 명사라 다른 학교·구단의 동명곡과 혼동하지 않도록 반드시 성균관대 소속 정보를 함께 표기해야 한다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2022 · 공식 영상 표기"
+      },
+      {
+        "label": "무대 구성",
+        "value": "단장 독무 후 단원 합류"
+      },
+      {
+        "label": "원곡·제작",
+        "value": "공개 자료 미확인"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.128Z",
+    "updatedAt": "2026-09-02T10:18:38.134Z"
+  }
+}

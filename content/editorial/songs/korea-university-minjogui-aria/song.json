@@ -5,7 +5,7 @@
     "organizationId": "korea-university",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "review_ready",
+    "workflowStage": "published",
     "title": "민족의 아리아",
     "aliases": [
       "민아",
@@ -62,10 +62,28 @@
       {
         "rank": 1,
         "role": "official-or-lyrics",
-        "sourceUrl": "https://www.youtube.com/watch?v=LIxcLsvUjWU",
-        "videoId": "LIxcLsvUjWU",
-        "title": "[고연전 특별영상] 고려대학교 16개 단과대학 학생들이 함께 부르는 ‘민족의 아리아’",
-        "channelName": "고려대학교 교육TV방송국 KUTV",
+        "sourceUrl": "https://youtu.be/NyGY9kQzO04?si=Xo5r60NkN2iKDdjV&t=177",
+        "videoId": "NyGY9kQzO04",
+        "title": "2023 고려대학교 축제 - 응원 3대 명곡 'Forever + 민족의 아리아 + 뱃노래' IPSELENTI 입실렌티 4k 60p 고대 Korea University @녹지운동장",
+        "channelName": "Cheerss 치얼쓰",
+        "attributionText": ""
+      },
+      {
+        "rank": 2,
+        "role": "featured-field",
+        "sourceUrl": "https://youtu.be/v4mp82NpLyk?si=zoQ1wyFiVZRNboiw&t=163",
+        "videoId": "v4mp82NpLyk",
+        "title": "[2026 고려대/연세대 합동응원전] 양교 최고의 응원곡. '민족의 아리아 vs 연세여 사랑한다' #고려대학교응원단 #연세대학교응원단 #합응 #떼창 #고려대 #연세대 [4K60P]",
+        "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "attributionText": ""
+      },
+      {
+        "rank": 3,
+        "role": "additional",
+        "sourceUrl": "https://youtu.be/n7MjpWDO8ZA?si=Q1eXLFPzO7WLefSV",
+        "videoId": "n7MjpWDO8ZA",
+        "title": "고려대 X 연세대, 응원으로 하나 된 순간 | 2026 상반기 합동응원전 #포에버 #연세여사랑한다 #민족의아리아",
+        "channelName": "고려대학교 교육방송국 KUBS",
         "attributionText": ""
       }
     ],
@@ -84,8 +102,8 @@
       "originNote": "Andrea Bocelli의 ‘Melodramma’를 바탕으로 조지훈의 호상비문을 응원가 가사에 반영했다.",
       "chronologyNote": "2003년 아카라카 뒤 같은 해 고연전에서 선보였다는 고려대 응원단 음악부 취재와 교우회 연표가 일치한다."
     },
-    "revision": 5,
+    "revision": 8,
     "createdAt": null,
-    "updatedAt": "2026-08-27T10:14:33.605Z"
+    "updatedAt": "2026-09-12T16:48:22.585Z"
   }
 }

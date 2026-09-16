@@ -2,6 +2,63 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "westlife-you-raise-me-up",
+      "title": "You Raise Me Up",
+      "artist": "Westlife",
+      "kind": "source",
+      "year": 2005,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Official Charts — Westlife You Raise Me Up (2005)",
+          "url": "https://www.officialcharts.com/songs/westlife-you-raise-me-up/",
+          "scope": "origin"
+        },
+        {
+          "label": "Westlife — You Raise Me Up 공식 영상",
+          "url": "https://www.youtube.com/watch?v=9bxc9hbwkkw",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "yonsei-go-balp-kkum-jesus-is-the-rock-unidentified",
+      "title": "Jesus Is the Rock",
+      "artist": "미확인 (가수·작곡자·녹음판 추가 확인)",
+      "kind": "source",
+      "year": null,
+      "yearLabel": "발표 연도 미확인",
+      "genre": null,
+      "country": null,
+      "status": "draft",
+      "sources": [
+        {
+          "label": "연세대학교 응원단 — 고밟꿈 원곡 제목 표기 (Gesus Is the Rock; 작자·판본 미확정)",
+          "url": "https://www.youtube.com/watch?v=OUcWoN6-gUo",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "sog-012-yeongwonhi",
+      "title": "012 (영원히)",
+      "artist": "S.O.G",
+      "kind": "source",
+      "year": 2023,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "벅스 — S.O.G 012 (영원히)",
+          "url": "https://music.bugs.co.kr/album/20587314",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
       "id": "andrea-bocelli-melodramma",
       "title": "Melodramma",
       "artist": "Andrea Bocelli",
@@ -267,6 +324,624 @@
         {
           "label": "멜론 — 김학래 ‘해야 해야’",
           "url": "https://www.melon.com/song/detail.htm?songId=2507126",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "yiruma-kiss-the-rain",
+      "title": "Kiss the Rain",
+      "artist": "이루마",
+      "kind": "source",
+      "year": 2003,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "이루마 — Kiss the Rain 원곡 확인 자료",
+          "url": "https://music.apple.com/us/song/1437487832",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=0hoS4tD3INs",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "taio-cruz-hangover",
+      "title": "Hangover (feat. Flo Rida)",
+      "artist": "Taio Cruz feat. Flo Rida",
+      "kind": "source",
+      "year": 2011,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Taio Cruz feat. Flo Rida — Hangover (feat. Flo Rida) 원곡 확인 자료",
+          "url": "https://music.apple.com/us/album/hangover-feat-flo-rida-single/1445152159",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=LW-_Ta2cGMs",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "kim-choo-ja-muindo",
+      "title": "무인도",
+      "artist": "김추자",
+      "kind": "source",
+      "year": 1974,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "김추자 — 무인도 원곡 확인 자료",
+          "url": "https://music.apple.com/kr/album/kim-choo-ja-desert-island/1752797186",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=u080FPwuuy8",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "jang-ae-hyang-seoktap",
+      "title": "석탑",
+      "artist": "장애향",
+      "kind": "source",
+      "year": 1979,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "장애향 — 석탑 원곡 확인 자료",
+          "url": "https://www.yes24.com/Product/Goods/119809340",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=1--FIQPdAwo",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "jeong-mi-jo-jeongyeol-ui-kkot",
+      "title": "정열의 꽃 (Passion Flower)",
+      "artist": "정미조",
+      "kind": "source",
+      "year": 1972,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "정미조 — 정열의 꽃 (Passion Flower) 원곡 확인 자료",
+          "url": "https://music.apple.com/kr/song/1639643543",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=1VSZTxcxEcU",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "eruption-one-way-ticket",
+      "title": "One Way Ticket",
+      "artist": "Eruption",
+      "kind": "source",
+      "year": null,
+      "yearLabel": "발표 연도 추가 확인",
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Eruption — One Way Ticket 원곡 확인 자료",
+          "url": "https://www.youtube.com/watch?v=LjuI4oTIaPg",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "klaus-badelt-hes-a-pirate",
+      "title": "He's a Pirate",
+      "artist": "Klaus Badelt",
+      "kind": "source",
+      "year": 2003,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Klaus Badelt — He's a Pirate 원곡 확인 자료",
+          "url": "https://music.apple.com/us/song/1440650203",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=TAkrR8ouVpo",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "duo-orientango-pasion-triste",
+      "title": "슬픈 열정 (Pasion Triste)",
+      "artist": "Duo Orientango",
+      "kind": "source",
+      "year": 2005,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Duo Orientango — 슬픈 열정 (Pasion Triste) 원곡 확인 자료",
+          "url": "https://music.apple.com/jp/song/1452130191",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=BD4GSGsE9FQ",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "pachelbel-canon-in-d",
+      "title": "Canon in D major, P.37",
+      "artist": "Johann Pachelbel",
+      "kind": "source",
+      "year": null,
+      "yearLabel": "작곡 연도 미확정",
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Johann Pachelbel — Canon in D major, P.37 원곡 확인 자료",
+          "url": "https://imslp.org/wiki/Canon_in_D_(Pachelbel,_Johann)",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=BW9pzp2WBYs",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "no-brain-rock-it-rocket",
+      "title": "Rock It Rocket",
+      "artist": "노브레인",
+      "kind": "source",
+      "year": 2007,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "노브레인 — Rock It Rocket 원곡 확인 자료",
+          "url": "https://music.apple.com/kr/song/1859254795",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=0tX2SmbErik",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "bellini-samba-de-janeiro",
+      "title": "Samba de Janeiro",
+      "artist": "Bellini",
+      "kind": "source",
+      "year": null,
+      "yearLabel": "발표 연도 추가 확인",
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Bellini — Samba de Janeiro 원곡 확인 자료",
+          "url": "https://www.youtube.com/watch?v=HAiHEQblKeQ",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=QvwLGKrqVxA",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "yoon-soo-il-apartment",
+      "title": "아파트",
+      "artist": "윤수일",
+      "kind": "source",
+      "year": 1982,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "윤수일 — 아파트 원곡 확인 자료",
+          "url": "https://www.asiae.co.kr/article/2024111315413484262",
+          "scope": "origin"
+        },
+        {
+          "label": "RIAK OFFICIAL — 아파트 원곡 음원",
+          "url": "https://www.youtube.com/watch?v=WvP1g7eic0U",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "joe-hisaishi-a-town-with-an-ocean-view",
+      "title": "海の見える街 (A Town with an Ocean View)",
+      "artist": "Joe Hisaishi",
+      "kind": "source",
+      "year": 1989,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Joe Hisaishi — 海の見える街 (A Town with an Ocean View) 원곡 확인 자료",
+          "url": "https://classical.music.apple.com/us/album/882658777",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=B8FMZwfsz7o",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "psy-oneul-bamsae",
+      "title": "오늘밤새",
+      "artist": "싸이 (PSY)",
+      "kind": "source",
+      "year": 2010,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "싸이 (PSY) — 오늘밤새 원곡 확인 자료",
+          "url": "https://music.bugs.co.kr/album/242469",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=woI68V6jMFE",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "alan-walker-on-my-way",
+      "title": "On My Way",
+      "artist": "Alan Walker, Sabrina Carpenter & Farruko",
+      "kind": "source",
+      "year": 2019,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Alan Walker, Sabrina Carpenter & Farruko — On My Way 원곡 확인 자료",
+          "url": "https://music.apple.com/us/song/1596240700",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "judy-garland-over-the-rainbow",
+      "title": "Over the Rainbow",
+      "artist": "Judy Garland",
+      "kind": "source",
+      "year": 1939,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Judy Garland — Over the Rainbow 원곡 확인 자료",
+          "url": "https://www.loc.gov/item/prn-17-029/?loclr=ealn",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=aHJmo_SZzRU",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "dreamgirls-one-night-only-disco",
+      "title": "One Night Only (Disco Version)",
+      "artist": "Beyoncé, Sharon Leal & Anika Noni Rose",
+      "kind": "source",
+      "year": 2006,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Beyoncé, Sharon Leal & Anika Noni Rose — One Night Only (Disco Version) 원곡 확인 자료",
+          "url": "https://music.apple.com/ca/song/464321088",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "joe-dassin-les-champs-elysees",
+      "title": "Les Champs-Élysées",
+      "artist": "Joe Dassin",
+      "kind": "source",
+      "year": 1969,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Joe Dassin — Les Champs-Élysées 원곡 확인 자료",
+          "url": "https://www.sonymusic.fr/artist/joe-dassin-2/",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=HqTxg0K6Uus",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "superkidd-rock-star",
+      "title": "Rock Star",
+      "artist": "슈퍼키드",
+      "kind": "source",
+      "year": null,
+      "yearLabel": "발표 연도 추가 확인",
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "슈퍼키드 — Rock Star 원곡 확인 자료",
+          "url": "https://www.youtube.com/watch?v=A05Mp1fJbvw",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "matvey-blanter-katyusha",
+      "title": "Катюша (Katyusha)",
+      "artist": "Matvey Blanter · Mikhail Isakovsky",
+      "kind": "source",
+      "year": 1938,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Matvey Blanter · Mikhail Isakovsky — Катюша (Katyusha) 원곡 확인 자료",
+          "url": "https://www.trad-culture.ru/en/article/concerning-folk-existence-katyusha-song-and-problem-folkloric-consciousness-variability",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=umGBzyyklyE",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "leo-kim-sejeong-we-the-reds",
+      "title": "우리는 하나 (We, the Reds)",
+      "artist": "레오 · 김세정",
+      "kind": "source",
+      "year": 2018,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "레오 · 김세정 — 우리는 하나 (We, the Reds) 원곡 확인 자료",
+          "url": "https://www.youtube.com/watch?v=DxB2e7DVZf8",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "psy-we-are-young",
+      "title": "We Are Young",
+      "artist": "싸이 (PSY)",
+      "kind": "source",
+      "year": 2017,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "싸이 (PSY) — We Are Young 원곡 확인 자료",
+          "url": "https://www.youtube.com/watch?v=1ODJTWOrA7M",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=njz0rCD0I7Q",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "village-people-go-west",
+      "title": "Go West",
+      "artist": "Village People",
+      "kind": "source",
+      "year": 1979,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Village People — Go West 원곡 확인 자료",
+          "url": "https://www.youtube.com/watch?v=1wc-AQJ2MYo",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=ps0jHnpqZcc",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "no-brain-jingunga",
+      "title": "진군가",
+      "artist": "노브레인",
+      "kind": "source",
+      "year": 2002,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "노브레인 — 진군가 원곡 확인 자료",
+          "url": "https://www.youtube.com/watch?v=l125dHJf8XY",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=-0EI8RqrIy4",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "handel-sarabande-hwv-437",
+      "title": "Sarabande in D minor, HWV 437",
+      "artist": "George Frideric Handel",
+      "kind": "source",
+      "year": null,
+      "yearLabel": "작곡 연도 미확정",
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "George Frideric Handel — Sarabande in D minor, HWV 437 원곡 확인 자료",
+          "url": "https://www.deutschegrammophon.com/en/catalogue/products/handel-sarabande-feuillatre-13139",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=TAkrR8ouVpo",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "glen-check-60s-cardin",
+      "title": "60's Cardin",
+      "artist": "Glen Check",
+      "kind": "source",
+      "year": 2011,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Glen Check — 60's Cardin 원곡 확인 자료",
+          "url": "https://music.apple.com/th/song/1811550029",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=A05Mp1fJbvw",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "coldplay-viva-la-vida",
+      "title": "Viva La Vida",
+      "artist": "Coldplay",
+      "kind": "source",
+      "year": 2008,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Coldplay — Viva La Vida 원곡 확인 자료",
+          "url": "https://www.coldplay.com/release/viva-la-vida/",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=DxB2e7DVZf8",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "next-laura",
+      "title": "〈80's Series 02〉 Laura",
+      "artist": "N.EX.T",
+      "kind": "source",
+      "year": 2004,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "N.EX.T — 〈80's Series 02〉 Laura 원곡 확인 자료",
+          "url": "https://www.youtube.com/watch?v=bRaqh_xghmI",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=njz0rCD0I7Q",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "queen-we-will-rock-you",
+      "title": "We Will Rock You",
+      "artist": "Queen",
+      "kind": "source",
+      "year": 1977,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Queen — We Will Rock You 원곡 확인 자료",
+          "url": "https://www.queenonline.com/news/news-of-the-world47-years-on",
+          "scope": "origin"
+        },
+        {
+          "label": "응원가·원곡 연결 확인 자료",
+          "url": "https://www.youtube.com/watch?v=-0EI8RqrIy4",
           "scope": "origin"
         }
       ]

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "lotte-giants-badasae",
+    "organizationId": "lotte-giants",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "listed",
+    "title": "바다새",
+    "aliases": [],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 1,
+    "createdAt": "2026-09-13T05:32:44.000Z",
+    "updatedAt": "2026-09-13T05:32:44.000Z"
+  }
+}

@@ -1,0 +1,94 @@
+/* White editorial band between the illuminated cover and the dark ballpark. */
+.match-page.is-concept-d :is(.match-songs, .match-memory, .rivalry-story) {
+  --text: #161d29;
+  --muted: #4d596b;
+  --soft: #687487;
+  --stroke: #192e4b20;
+  --blue: #0665bf;
+  --red: #bb194a;
+  --accent: var(--blue);
+  color: var(--text);
+  background: #fff;
+}
+.match-page.is-concept-d[data-side="korea"] :is(.match-songs, .match-memory, .rivalry-story) { --accent: var(--red); }
+.match-page.is-concept-d :is(.match-songs, .match-memory) .match-section-heading h2 em,
+.match-page.is-concept-d .rivalry-story__heading h2 em { color: var(--accent); background: none; text-shadow: none; }
+.match-page.is-concept-d :is(.match-songs, .match-memory) .listening-heading { grid-template-columns: minmax(0, 1fr) 380px; align-items: end; }
+.match-page.is-concept-d .listening-heading > div strong { font-size: 16px; }
+.match-page.is-concept-d .listening-heading > p { font-size: 17px; line-height: 1.8; }
+.match-page.is-concept-d .match-songs__layout { gap: 48px; margin-top: 36px; }
+.match-page.is-concept-d .match-song-list > button { min-height: 96px; padding: 16px 14px; color: var(--text); }
+.match-page.is-concept-d .match-song-list > button:hover { padding-left: 14px; background: #14294505; }
+.match-page.is-concept-d .match-song-list > button.is-active { background: color-mix(in srgb, var(--accent) 7%, white); box-shadow: inset 3px 0 var(--accent); }
+.match-page.is-concept-d .match-song-list > button strong,
+.match-page.is-concept-d .match-memory__rail strong { display: block; margin: 0; font-size: 25px; font-weight: 750; line-height: 1.35; letter-spacing: -.04em; word-break: keep-all; }
+.listening-song-line { display: block; margin-top: 7px; color: var(--muted); font-size: 15px; font-weight: 500; line-height: 1.55; word-break: keep-all; }
+.match-page.is-concept-d[data-side="yonsei"] .listening-song-line { font-size: 16px; font-weight: 550; }
+.match-page.is-concept-d .match-song-list > button > svg { color: var(--soft); }
+.match-page.is-concept-d .match-song-list > button.is-active > svg { color: var(--accent); }
+.match-page.is-concept-d .listening-player { border: 1px solid var(--stroke); border-radius: 12px; color: var(--text); background: #fff; box-shadow: 0 12px 34px #172d4810; }
+.match-page.is-concept-d .listening-player .match-player__top { background: #f6f8fb; }
+.match-page.is-concept-d .listening-player .match-player__top > div { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 48px; }
+.match-page.is-concept-d .listening-player .match-player__top button { color: var(--text); }
+.match-page.is-concept-d .listening-player .match-player__body { padding: 26px; }
+.match-page.is-concept-d .listening-player .match-player__body h3 { font-size: 34px; }
+.match-page.is-concept-d .listening-player__line { color: var(--accent); }
+.match-page.is-concept-d .listening-player__find { color: #fff; }
+.match-page.is-concept-d .match-player__links { align-items: center; justify-content: space-between; gap: 16px; margin-top: 22px; }
+.match-page.is-concept-d .match-player__links a { color: var(--accent); }
+.match-page.is-concept-d .match-player__links .listening-player__detail { justify-content: center; min-height: 44px; padding: 10px 16px; border: 1px solid var(--accent); border-radius: 7px; color: #fff; background: var(--accent); font-size: 15px; }
+.match-page.is-concept-d .match-player__links .listening-player__detail:hover { filter: brightness(.92); }
+.match-page.is-concept-d .match-memory { padding-top: 0; }
+.match-memory > .match-shell { padding-top: 56px; }
+.match-memory__rail > button { min-height: 100px; }
+.match-memory__rail > button > div { min-width: 0; }
+.match-memory__rail > button:hover, .match-memory__rail > button[aria-pressed="true"] { background: color-mix(in srgb, var(--accent) 7%, white); }
+.match-page.is-concept-d .rivalry-story { padding-top: 60px; }
+.match-page.is-concept-d .rivalry-story__screen { box-shadow: none; }
+.match-page.is-concept-d .rivalry-story__credit { font-size: 14px; }
+.match-page.is-concept-d .rivalry-story__repertoire li strong { font-size: 20px; }
+.match-page.is-concept-d .rivalry-story__explanation { min-height: 0; margin-bottom: 10px !important; }
+.rivalry-story__lyric { min-height: 64px; margin: 0 0 18px; color: var(--camp); font-size: 22px; font-weight: 750; letter-spacing: -.03em; line-height: 1.5; word-break: keep-all; }
+.match-page.is-concept-d .rivalry-story__repertoire li { min-height: 112px; gap: 22px; }
+.match-page.is-concept-d .rivalry-story__repertoire li p { max-width: 470px; margin-top: 8px; color: var(--muted); font-size: 16px; line-height: 1.65; word-break: keep-all; }
+.rivalry-story__repertoire li > button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; flex-shrink: 0; min-height: 44px; padding: 9px 12px; border: 1px solid color-mix(in srgb, var(--camp) 32%, white); border-radius: 6px; color: var(--camp); background: #fff; font-size: 15px; font-weight: 700; }
+.rivalry-story__repertoire li > button:hover,
+.rivalry-story__repertoire li > button[aria-expanded="true"] { color: white; border-color: var(--camp); background: var(--camp); }
+.rivalry-story__repertoire li.is-selected strong { color: var(--camp); }
+.rivalry-story__more-player { margin-top: 24px; scroll-margin-top: 80px; outline: none; }
+.rivalry-story__more-player[hidden] { display: none; }
+.rivalry-story__more-player[data-school="korea"] { --accent: var(--red); --active: var(--red); }
+.rivalry-story__more-player[data-school="yonsei"] { --accent: var(--blue); --active: var(--blue); }
+.match-page.is-concept-d .rivalry-story__more-player .listening-player { display: grid; grid-template-columns: 1.1fr 1fr; }
+.rivalry-story__more-player .match-player__top { grid-column: 1 / -1; }
+.rivalry-story__more-player .match-player__screen,
+.rivalry-story__more-player .match-player__body { align-self: center; }
+@media (max-width: 1040px) {
+  .match-page.is-concept-d :is(.match-songs, .match-memory) .listening-heading { grid-template-columns: minmax(0, 1fr) 280px; gap: 18px 32px; }
+  .match-page.is-concept-d .match-songs .listening-heading h2 { font-size: 50px; }
+  .match-page.is-concept-d .match-songs__layout { gap: 28px; }
+}
+@media (max-width: 820px) {
+  .match-page.is-concept-d :is(.match-songs, .match-memory) .listening-heading { grid-template-columns: 1fr; }
+  .match-page.is-concept-d .rivalry-story__more-player .listening-player { display: block; }
+  .rivalry-story__lyric { min-height: 0; font-size: 20px; }
+  .match-page.is-concept-d .match-songs .listening-heading h2 { font-size: clamp(29px, 8vw, 50px); }
+  .match-page.is-concept-d .listening-heading > p { max-width: none; font-size: 16px; }
+  .match-page.is-concept-d .listening-heading > p br { display: none; }
+  .match-page.is-concept-d .match-song-list > button strong,
+  .match-page.is-concept-d .match-memory__rail strong { font-size: 22px; }
+}
+@media (max-width: 640px) {
+  .match-page.is-concept-d .rivalry-story__repertoire li { gap: 14px; }
+  .match-page.is-concept-d .rivalry-story__repertoire li p { font-size: 15px; }
+  .rivalry-story__repertoire li > button { padding: 9px 10px; font-size: 14px; }
+  .match-page.is-concept-d .match-song-list > button { grid-template-columns: 25px minmax(0, 1fr) 18px; gap: 10px; min-height: 92px; padding: 16px 10px; }
+  .match-page.is-concept-d .match-song-list > button:hover { padding-left: 10px; }
+  .match-page.is-concept-d .match-memory__rail strong { font-size: 23px; }
+  .match-page.is-concept-d .listening-player .match-player__body { padding: 20px; }
+  .match-page.is-concept-d .listening-player .match-player__body h3 { font-size: 29px; }
+  .match-page.is-concept-d .listening-heading > div strong { font-size: 15px; }
+  .listening-song-line { font-size: 14px; }
+  .match-page.is-concept-d[data-side="yonsei"] .listening-song-line { font-size: 15px; }
+  .match-memory__rail > button { min-height: 92px; }
+}

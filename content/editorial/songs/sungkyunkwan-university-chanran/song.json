@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-chanran",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "찬란",
+    "aliases": [
+      "찬란 (2026)"
+    ],
+    "symbolicLines": [
+      "찬란",
+      "성균인의 청춘을 노래하는 신곡"
+    ],
+    "descriptionText": "킹고응원단이 2026년 문행대동제를 앞두고 공개한 신곡이다. 공식 플레이리스트 설명은 ‘성균인의 청춘을 노래하는 새로운 응원가’라고 소개하고, 9곡 가운데 다섯 번째 트랙으로 배치했다.[* 2026 문행대동제 플레이리스트: https://www.youtube.com/watch?v=5TuN6DY8fdQ]\n\n2026년 5월 15일 문행대동제 무대에서 공연됐으며, 6월 26일 공개된 공식 교차편집 영상이 제목과 설명 모두에 2026년 곡이라고 표기한다.[* 2026 문행대동제 찬란 공식 영상: https://www.youtube.com/watch?v=FGSLLhPxB30] 영상은 16초 하이라이트 뒤 본곡으로 들어가는 구성이다.\n\n2025년 공식 인터뷰에서 킹고응원단은 2026년부터 음악부를 신설하고 새로운 응원곡 제작에 힘쓸 계획이라고 밝혔다.[* 성균관대 총동창회 킹고응원단 인터뷰: https://alumni.skku.edu/alumni/circular/interview.do?article.offset=30&articleLimit=10&articleNo=59367&mode=view] ‘찬란’이 이 계획과 같은 시기에 등장한 곡이라는 점은 확인되지만, 음악부가 직접 제작했다는 문구나 작사·작곡·편곡 크레딧은 현재 공개 자료에서 확인하지 못했다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2026 · 공식 영상 표기"
+      },
+      {
+        "label": "공식 소개",
+        "value": "성균인의 청춘을 노래하는 신곡"
+      },
+      {
+        "label": "제작진",
+        "value": "공개 자료 미확인"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.174Z",
+    "updatedAt": "2026-09-02T10:18:38.180Z"
+  }
+}

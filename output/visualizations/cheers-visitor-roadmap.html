@@ -1,0 +1,245 @@
+<div id="cheers-visitor-roadmap">
+  <div class="nav nav-pills" role="tablist" aria-label="방문 목적">
+    <button class="nav-link active" id="cv-tab-prepare" type="button" role="tab" aria-selected="true" aria-controls="cv-route-prepare">① 합응 예습</button>
+    <button class="nav-link" id="cv-tab-story" type="button" role="tab" aria-selected="false" aria-controls="cv-route-story">② 계보가 궁금해서</button>
+    <button class="nav-link" id="cv-tab-return" type="button" role="tab" aria-selected="false" aria-controls="cv-route-return">③ 행사 뒤 다시 듣기</button>
+  </div>
+  <div id="cv-route-prepare" role="tabpanel" aria-labelledby="cv-tab-prepare"></div>
+  <div id="cv-route-story" role="tabpanel" aria-labelledby="cv-tab-story" hidden></div>
+  <div id="cv-route-return" role="tabpanel" aria-labelledby="cv-tab-return" hidden></div>
+  <div class="cv-path" id="cv-path" aria-label="방문 순서"></div>
+  <div class="cv-layout">
+    <section class="cv-prototype" aria-label="응원가 아카이브 동선 시안">
+      <div class="cv-preview-label">화면 구성 제안 · 영상 재생은 모의 동작</div>
+      <div id="cv-screen" class="cv-screen"></div>
+    </section>
+    <aside class="cv-notes" aria-label="선택한 화면의 목적">
+      <div class="text-small text-muted" id="cv-step-count"></div>
+      <h3 id="cv-stage-title"></h3>
+      <dl>
+        <dt>방문자의 생각</dt><dd id="cv-thought"></dd>
+        <dt>흥미가 생기는 정확한 지점</dt><dd id="cv-hook"></dd>
+        <dt>다음에 누를 버튼</dt><dd id="cv-next"></dd>
+        <dt>구현할 연결</dt><dd id="cv-connection"></dd>
+        <dt>확인할 행동</dt><dd id="cv-measure"></dd>
+      </dl>
+      <div class="cv-release text-small" id="cv-release"></div>
+    </aside>
+  </div>
+  <div id="cv-announcement" class="sr-only" aria-live="polite"></div>
+  <hr>
+  <div class="cv-deadlines" aria-label="방문 동선별 실행 일정">
+    <div class="cv-deadline"><span class="text-small">9/12–14</span><strong>연결 완성</strong><span>곡 재생 → 다른 버전 → 관련곡</span></div>
+    <div class="cv-deadline"><span class="text-small">9/15</span><strong>두 입구로 공개</strong><span>예습 글 → 필수곡<br>계보 글 → 비교 화면</span></div>
+    <div class="cv-deadline"><span class="text-small">9/16–22</span><strong>멈추는 곳 수정</strong><span>첫 재생 · 비교 · 다음 곡<br>각 단계의 이동 확인</span></div>
+    <div class="cv-deadline"><span class="text-small">9/23–10/3</span><strong>다시 올 계기</strong><span>합응 회상 게시물<br>정기전 직전 예습 게시물</span></div>
+  </div>
+  <details class="cv-spec">
+    <summary>9월 15일 공개 범위와 통과 기준</summary>
+    <div class="cv-spec-items">
+      <div><strong>① 목적에 맞는 첫 화면</strong><span>예습 링크는 학교가 선택된 필수곡 영역, 계보 링크는 해당 두 곡 비교 영역에서 열린다.</span><small>게시물에서 클릭한 뒤 메뉴 탐색 없이 약속한 내용을 볼 수 있음</small></div>
+      <div><strong>② 첫 곡 바로 듣기</strong><span>선택된 곡의 대표 영상과 재생 버튼을 먼저 배치한다. 행사 일정은 짧게, 긴 이야기는 접어 둔다.</span><small>홍보 링크를 연 뒤 한 번의 탭으로 재생을 요청할 수 있음</small></div>
+      <div><strong>③ 플레이어 바로 아래 비교 카드</strong><span>“이 노래, LG에서도 부른다고?” → 다른 버전의 대응 구간. 원곡 공유와 직접 차용을 구분한다.</span><small>두 버전을 바꿔 들을 수 있고, 이전 영상은 멈춤</small></div>
+      <div><strong>④ 다음 곡까지 이어지는 링크</strong><span>관련곡을 클릭하면 상세 내용과 주소가 함께 바뀐다. 뒤로가기로 직전 곡에 돌아온다.</span><small>복사한 링크를 새 창에서 열어도 같은 곡·계보가 표시됨</small></div>
+      <div><strong>⑤ 공유 · 다음 소식 연결</strong><span>비교 아래에는 친구에게 공유, 한 이야기를 다 본 뒤에는 사이트 SNS와 다음 편 예고를 둔다.</span><small>공유 링크와 SNS 목적지가 맞고, 이동 버튼 클릭을 구분해 기록함</small></div>
+      <div><strong>검증</strong><span>양교 관점, 곡이 적은 상태, 휴대폰과 SNS 앱 내 브라우저에서 ①→⑤를 확인한다.</span><small>사용자: 대표 영상·대응 구간·문구 확정 / Codex: 연결·구현·검사</small></div>
+    </div>
+  </details>
+  <details class="cv-spec">
+    <summary>유입 후 어디서 멈추느냐에 따른 다음 작업</summary>
+    <div class="cv-spec-items">
+      <div><strong>방문 → 첫 재생에서 멈춤</strong><span>게시물과 첫 화면의 곡이 맞는지, 재생 버튼이 바로 보이는지 먼저 수정한다.</span></div>
+      <div><strong>첫 재생 → 비교에서 멈춤</strong><span>비교 카드를 플레이어 가까이 옮기고, 두 곡의 닮은 구간과 문구를 다듬는다.</span></div>
+      <div><strong>비교는 하지만 다음 곡으로 안 감</strong><span>“전체 아카이브” 링크보다 해당 학교·구단의 구체적인 다음 계보 한 편을 제안한다.</span></div>
+      <div><strong>읽고 듣지만 재방문이 적음</strong><span>같은 SNS에서 합응 회상·정기전 예습 게시물을 내고, 기존 방문자의 행사 기간 재유입을 확인한다.</span></div>
+    </div>
+  </details>
+</div>
+<style>
+  #cheers-visitor-roadmap { width:100%; }
+  #cheers-visitor-roadmap .cv-path { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin:16px 0; }
+  #cheers-visitor-roadmap .cv-arrow { color:var(--muted-foreground); }
+  #cheers-visitor-roadmap .cv-layout { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:24px; align-items:start; }
+  #cheers-visitor-roadmap .cv-notes { min-width:0; }
+  #cheers-visitor-roadmap .cv-notes h3 { margin:6px 0 18px; }
+  #cheers-visitor-roadmap .cv-notes dl { margin:0; }
+  #cheers-visitor-roadmap .cv-notes dt { margin-top:16px; color:var(--muted-foreground); }
+  #cheers-visitor-roadmap .cv-notes dd { margin:4px 0 0; overflow-wrap:anywhere; }
+  #cheers-visitor-roadmap .cv-release { margin-top:22px; padding-top:12px; border-top:1px solid var(--border); }
+  #cheers-visitor-roadmap .cv-deadlines { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin:20px 0; }
+  #cheers-visitor-roadmap .cv-deadline { display:flex; flex-direction:column; gap:7px; padding-top:12px; border-top:2px solid var(--border); }
+  #cheers-visitor-roadmap .cv-deadline:nth-child(2) { border-top-color:var(--foreground); }
+  #cheers-visitor-roadmap .cv-spec { border-top:1px solid var(--border); padding:16px 0; }
+  #cheers-visitor-roadmap .cv-spec summary { cursor:pointer; min-height:32px; }
+  #cheers-visitor-roadmap .cv-spec-items { display:grid; gap:18px; margin-top:16px; }
+  #cheers-visitor-roadmap .cv-spec-items>div { display:grid; gap:5px; }
+  #cheers-visitor-roadmap .cv-spec-items small { color:var(--muted-foreground); font-size:inherit; }
+  #cheers-visitor-roadmap .cv-prototype {
+    --cp-bg:light-dark(#ffffff,#141c29); --cp-text:light-dark(#172334,#eaf0f8);
+    --cp-dim:light-dark(#526177,#b6c3d5); --cp-line:light-dark(#dce4ed,#354358);
+    --cp-subtle:light-dark(#f0f4f9,#202b3b); --cp-blue:light-dark(#003876,#aacdff);
+    --cp-blue-fill:light-dark(#eaf2ff,#1c3552); --cp-red:light-dark(#8b0029,#ffaabe);
+    --cp-red-fill:light-dark(#fcedf2,#472333); --cp-button:light-dark(#172b44,#dceaff);
+    --cp-button-text:light-dark(#ffffff,#172b44);
+    min-width:0; border:1px solid var(--cp-line); border-radius:18px; overflow:hidden;
+    color:var(--cp-text); background:var(--cp-bg); font-family:Arial,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    font-size:14px; line-height:1.55; color-scheme:light dark;
+  }
+  #cheers-visitor-roadmap .cv-prototype * { box-sizing:border-box; }
+  #cheers-visitor-roadmap .cv-preview-label { padding:9px 15px; color:var(--cp-dim); background:var(--cp-subtle); font-size:12px; border-bottom:1px solid var(--cp-line); }
+  #cheers-visitor-roadmap .cp-header { display:flex; justify-content:space-between; gap:10px; padding:16px 18px; border-bottom:1px solid var(--cp-line); font-size:12px; }
+  #cheers-visitor-roadmap .cp-header span:last-child { color:var(--cp-dim); }
+  #cheers-visitor-roadmap .cp-content { padding:22px 18px; display:flex; flex-direction:column; gap:18px; }
+  #cheers-visitor-roadmap .cp-kicker { color:var(--cp-blue); font-size:12px; font-weight:500; }
+  #cheers-visitor-roadmap .cp-title { font-size:24px; line-height:1.35; letter-spacing:-0.6px; font-weight:500; margin:6px 0 8px; color:var(--cp-text); }
+  #cheers-visitor-roadmap .cp-body { margin:0; font-size:14px; color:var(--cp-dim); }
+  #cheers-visitor-roadmap .cp-caption { color:var(--cp-dim); font-size:12px; }
+  #cheers-visitor-roadmap .cp-button { display:flex; align-items:center; justify-content:center; gap:8px; width:100%; min-height:44px; border:1px solid var(--cp-line); border-radius:10px; padding:11px 12px; font:inherit; line-height:1.4; color:var(--cp-text); background:var(--cp-bg); text-align:center; cursor:pointer; }
+  #cheers-visitor-roadmap .cp-button.cp-primary { color:var(--cp-button-text); background:var(--cp-button); border-color:var(--cp-button); }
+  #cheers-visitor-roadmap .cp-button.cp-quiet { border:none; background:transparent; color:var(--cp-blue); }
+  #cheers-visitor-roadmap .cp-stack { display:flex; flex-direction:column; gap:8px; }
+  #cheers-visitor-roadmap .cp-video { display:flex; flex-direction:column; justify-content:center; align-items:center; gap:10px; padding:22px 12px; min-height:148px; border-radius:12px; background:var(--cp-blue-fill); color:var(--cp-blue); text-align:center; }
+  #cheers-visitor-roadmap .cp-video.cp-lg { background:var(--cp-red-fill); color:var(--cp-red); }
+  #cheers-visitor-roadmap .cp-video .cp-button { width:auto; min-width:150px; }
+  #cheers-visitor-roadmap .cp-wave { display:flex; gap:4px; height:25px; align-items:center; }
+  #cheers-visitor-roadmap .cp-wave span { width:4px; height:12px; background:currentColor; border-radius:2px; }
+  #cheers-visitor-roadmap .cp-wave span:nth-child(3n) { height:24px; }
+  #cheers-visitor-roadmap .cp-wave span:nth-child(2n) { height:18px; }
+  #cheers-visitor-roadmap .cp-focus { padding:16px; border:1px solid var(--cp-line); border-radius:12px; background:var(--cp-subtle); }
+  #cheers-visitor-roadmap .cp-focus>strong { display:block; font-size:17px; font-weight:500; margin-bottom:7px; }
+  #cheers-visitor-roadmap .cp-focus .cp-button { margin-top:12px; }
+  #cheers-visitor-roadmap .cp-row { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:10px 0; border-bottom:1px solid var(--cp-line); }
+  #cheers-visitor-roadmap .cp-row:last-child { border-bottom:0; }
+  #cheers-visitor-roadmap .cp-row strong { font-weight:500; }
+  #cheers-visitor-roadmap .cp-row .cp-caption { margin-top:3px; }
+  #cheers-visitor-roadmap .cp-pill { display:inline-block; color:var(--cp-dim); background:var(--cp-subtle); border-radius:6px; padding:3px 7px; font-size:12px; }
+  #cheers-visitor-roadmap .cp-compare-tabs { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  #cheers-visitor-roadmap .cp-compare-tabs .cp-button[aria-pressed="true"] { border-color:var(--cp-blue); background:var(--cp-blue-fill); color:var(--cp-blue); }
+  #cheers-visitor-roadmap .cp-compare-tabs .cp-button.cp-lg[aria-pressed="true"] { border-color:var(--cp-red); background:var(--cp-red-fill); color:var(--cp-red); }
+  #cheers-visitor-roadmap .cp-lineage { display:grid; gap:7px; padding:14px 0; }
+  #cheers-visitor-roadmap .cp-lineage div { padding-left:12px; border-left:2px solid var(--cp-line); }
+  #cheers-visitor-roadmap .cp-lineage span { display:block; color:var(--cp-dim); font-size:12px; }
+  #cheers-visitor-roadmap .cp-position { border-top:1px solid var(--cp-line); padding:10px 18px; font-size:12px; color:var(--cp-dim); overflow-wrap:anywhere; }
+  #cheers-visitor-roadmap .cp-message { padding:12px; border-radius:10px; background:var(--cp-subtle); color:var(--cp-text); }
+  #cheers-visitor-roadmap .cp-focus details { margin-top:12px; }
+  #cheers-visitor-roadmap .cp-focus summary { cursor:pointer; color:var(--cp-blue); min-height:32px; }
+  @media(max-width:580px) {
+    #cheers-visitor-roadmap .cv-layout { grid-template-columns:minmax(0,1fr); gap:20px; }
+    #cheers-visitor-roadmap .cv-deadlines { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    #cheers-visitor-roadmap .cv-notes dl { display:grid; grid-template-columns:minmax(0,1fr); }
+  }
+</style>
+<script>
+(() => {
+  const root = document.getElementById('cheers-visitor-roadmap');
+  const screen = root.querySelector('#cv-screen');
+  const path = root.querySelector('#cv-path');
+  const design = { bridge: 'after-player' };
+  const state = { route:'prepare', step:1, version:'yonsei', played:false, shared:false, followed:false };
+  const routes = {
+    prepare: {
+      labels:['예습 게시물','필수곡 첫 화면','한 곡 듣기','다른 버전','공유·다음 행사'],
+      steps:[
+        ['합응 예습 게시물','“합응 가기 전에 뭘 알아야 하지?”','학교 이름과 익숙한 곡명. “연세 6곡”처럼 준비 범위가 명확함.','연세 6곡 바로 듣기','행사 페이지의 연세 필수곡 영역으로 바로 연결. 상단 행사 포스터를 거치지 않음.','게시물별 링크 방문','9/15 · 예습용 게시물 1개와 전용 진입 링크'],
+        ['행사 페이지 · 필수곡 영역','“OT 때 들었던 곡이네. 한번 들어볼까?”','첫 화면에 선택된 곡과 재생 버튼. 긴 소개를 읽기 전에 아는 소리를 확인함.','연세여 사랑한다 재생','학교 선택을 유지하고, 같은 영역에서 영상과 곡 목록을 전환.','첫 재생 요청 / 예습 링크 방문','9/15 · 실제 영상 1개로 즉시 시작'],
+        ['플레이어 바로 아래 · 계보 입구','“이 노래를 LG도 부른다고?”','방금 들은 노래와 구체적인 다른 팀 이름을 연결하는 한 문장.','LG 버전 들어보기','해당 두 곡의 비교 영역으로 이동. 먼저 들은 구간과 닮은 구간을 준비.','비교 카드 클릭 / 첫 곡 재생','9/15 · 홍보에 쓸 3개 계보에 우선 배치'],
+        ['계보 비교 · 한 곡 더 듣기','“정말 닮았네. 친구도 알까?”','같은 구간을 두 응원석의 목소리로 바꿔 듣는 순간.','친구에게 비교 링크 보내기','학교·곡·비교 대상이 보존된 링크를 공유. 이야기는 같은 화면에서 펼침.','상대 버전 재생 · 공유 버튼 클릭','9/15 · 버전 전환 시 이전 영상 정지'],
+        ['공유 뒤 · 다음 방문의 계기','“정기전 전에 다시 열면 되겠다.”','보낸 링크가 그대로 예습 링크가 됨. 다음 행사에 맞춘 재안내 예고.','정기전 예습 소식 보기','사이트 SNS 프로필로 연결. 9/30 전후 예습 게시물로 같은 행사 페이지에 재유입.','SNS 이동 클릭 · 정기전 기간 재방문','9/15 · SNS 연결 / 9/30 전후 · 예습 게시물']
+      ]
+    },
+    story: {
+      labels:['계보 게시물','비교 첫 화면','번갈아 듣기','다음 계보','다음 편 소식'],
+      steps:[
+        ['계보를 소재로 한 텍스트·숏폼','“우리 팀 응원가가 연세대랑 연결된다고?”','두 곡을 짧게 들려주거나, 이름을 나란히 보여주는 구체적인 의외성.','두 응원가 비교해 보기','해당 계보의 비교 영역으로 바로 연결. 필수곡 목록부터 다시 찾게 하지 않음.','게시물별 링크 방문','9/15 · 계보 게시물 1개와 전용 진입 링크'],
+        ['계보 비교가 첫 화면','“방금 영상에서 본 그 두 곡이네.”','게시물과 똑같은 곡명·학교·구단. 두 버전 재생 버튼이 바로 보임.','연세 버전 재생','하나의 플레이어에서 버전을 전환. 비교할 구간은 사용자가 선정.','비교 화면 첫 재생 / 계보 링크 방문','9/15 · 이벤트 안의 비교 영역에 직접 진입'],
+        ['귀로 확인한 뒤 · 짧은 설명','“어떤 관계인지 이제 알겠다.”','듣고 바로 납득되는 설명. 같은 원곡인지, 응원가를 차용했는지 표시.','LG 버전 재생 → 다른 계보 보기','같은 팀이나 학교로 연결되는 다음 이야기 한 편을 명시.','두 버전 모두 재생 · 다음 계보 클릭','9/15 · 긴 본문 위에 관계 요약'],
+        ['다음 계보 · 취향 따라 계속 탐색','“LG 응원가 중에 이런 곡이 또 있네?”','좋아하는 팀을 유지하면서 곡만 바뀜. 다음 이야기의 제목이 보임.','민족의 아리아 ↔ 서울의 아리아','원곡·곡 상세를 같은 탐색 구조로 연결하고 현재 주소 갱신.','서로 다른 두 계보 탐색','9/15 · 관련곡 클릭과 뒤로가기'],
+        ['이야기 끝 · 다음 편 구독 경로','“다음 이야기도 나오면 보고 싶다.”','관심 팀과 연결된 구체적인 다음 편 예고.','다음 계보 소식 보기','사이트 SNS로 이동. 다음 게시물도 해당 곡·계보로 직접 연결.','SNS 이동 클릭 · 다음 게시물 재유입','9/15 · 기존 SNS 활용, 회원가입 개발 제외']
+      ]
+    },
+    return: {
+      labels:['합응 뒤 게시물','불렀던 곡 찾기','다시 듣기','정기전 준비','행사 전 재방문'],
+      steps:[
+        ['9/23 · 합응을 떠올리는 게시물','“어제 부른 노래 다시 듣고 싶다.”','행사 경험과 맞닿은 곡명·장면. 참석자가 알아보는 기억.','어제 부른 노래 다시 듣기','행사 페이지의 다시 듣기 영역으로 연결. 실제 행사 내용을 확인해 구성.','합응 회상 게시물 유입','9/23 · 실제 합응 내용 확인 후 게시'],
+        ['행사 페이지 · 다시 듣기 영역','“제목을 몰랐는데 이 노래였구나.”','노래 제목과 짧은 상황 설명으로 기억을 찾음.','연세여 사랑한다 다시 듣기','기존 곡 DB와 영상을 재사용. 추가 영상이 없으면 기존 대표 영상 제공.','곡 선택 · 재생 요청','9/23 · 안내 문구·곡 순서 갱신'],
+        ['곡 상세 · 행사 기억 이어 듣기','“이 부분에서 같이 불렀지.”','재생되는 곡과 행사 때의 기억. 다음 행사에서 다시 부를 이유.','정기전 전에도 다시 듣기','같은 학교의 정기전 필수곡 목록으로 연결.','다시 듣기 → 정기전 예습 이동','9/23–29 · 기존 행사 페이지 갱신'],
+        ['정기전 준비 · 링크 남기기','“다음 주 가기 전에 이걸 다시 열자.”','10/2–3 일정과 이미 익숙해진 예습 목록.','예습 링크 친구에게 보내기','로그인 없이 같은 링크를 보관·공유. SNS에는 정기전 예습 게시물을 준비.','예습 링크 공유 클릭','9/30 전후 · 예습 게시물 게시'],
+        ['9/30 전후 · 게시물이 다시 불러옴','“정기전이 곧이네. 다시 들어봐야지.”','익숙한 사이트에 다음 행사 목적이 생김.','정기전 필수곡 다시 듣기','같은 행사 주소의 필수곡 영역으로 재진입. 행사명·내용만 현재 시점에 맞춤.','이전 방문자의 정기전 기간 재유입','10/2–3 · 예습·현장 다시 듣기']
+      ]
+    }
+  };
+  const wave = '<div class="cp-wave" aria-hidden="true">'+Array.from({length:17},()=>'<span></span>').join('')+'</div>';
+  const button = (label, action='next', primary=true) => `<button class="cp-button${primary?' cp-primary':''}" type="button" data-action="${action}">${label}</button>`;
+  const title = (kicker,heading,body='') => `<div><div class="cp-kicker">${kicker}</div><h2 class="cp-title">${heading}</h2>${body?`<p class="cp-body">${body}</p>`:''}</div>`;
+  const page = (content,position,channel='2026 연고전') => `<div class="cp-header"><span>응원가 아카이브</span><span>${channel}</span></div><div class="cp-content">${content}</div><div class="cp-position">${position}</div>`;
+  const video = (playable=true,lg=false) => `<div class="cp-video${lg?' cp-lg':''}"><span>${lg?'LG 트윈스':'연세대학교'}</span>${wave}<strong>${lg?'사랑한다 LG':'연세여 사랑한다'}</strong>${playable?button('▶ '+(lg?'LG':'연세')+' 버전 재생','play'): '<span class="cp-caption">재생 상태 예시 · 해당 곡 구간</span>'}</div>`;
+  const bridge = () => `<div class="cp-focus"><strong>이 노래, LG에서도 부른다고?</strong><p class="cp-body">같은 멜로디가 다른 응원석에서는 어떻게 들릴까.</p>${button('LG 버전 들어보기 →')}</div>`;
+  const comparison = (nextLabel='다른 계보도 보기 →', nextAction='next') => {
+    const lg=state.version==='lg';
+    return `${title('계보 01 · 연세 × LG','응원석이 달라도,<br>익숙한 그 멜로디.')}<div class="cp-compare-tabs"><button class="cp-button" aria-pressed="${!lg}" type="button" data-version="yonsei">연세 버전</button><button class="cp-button cp-lg" aria-pressed="${lg}" type="button" data-version="lg">LG 버전</button></div>${video(!state.played,lg)}<div class="cp-caption">대응 구간부터 재생 · 버전을 바꾸면 이전 영상 정지</div><div class="cp-focus"><span class="cp-pill">관계: 대학 응원가 차용</span><strong style="margin-top:8px">연세여 사랑한다 → 사랑한다 LG</strong><p class="cp-body">학교와 구단에 맞게 달라진 부분을 들어보세요.</p><details><summary>원곡과 이어진 이야기 펼치기</summary><div class="cp-lineage"><div>Por una Cabeza<span>원곡 · Carlos Gardel</span></div><div>연세여 사랑한다<span>「마지막 선택」도 결합한 편곡</span></div><div>사랑한다 LG<span>연세 응원가와 이어지는 구단 버전</span></div></div><span class="cp-caption">본문·관계 설명은 승인된 DB에서 가져오기</span></details></div>${button(nextLabel,nextAction)}`;
+  };
+  function renderScreen(){
+    const r=state.route, s=state.step;
+    if(s===0){
+      if(r==='prepare') return page(`${title('단톡방 · 스레드 · X','합응 가기 전에<br>연세 응원가 6곡만.','원시림부터 연세여 사랑한다까지. 대표 영상과 따라 부를 포인트를 모았어요.')}<div class="cp-message">“OT 때 들었는데 기억 안 나는 사람 여기!”</div>${button('연세 6곡 바로 듣기 →')}`,'클릭 목적지: 행사 페이지 → 연세 필수곡','예습 게시물');
+      if(r==='story') return page(`${title('스레드 · X · 릴스 · 쇼츠','연세와 LG,<br>응원가가 닮은 이유.')}<div class="cp-video">연세여 사랑한다 ${wave} 사랑한다 LG</div><p class="cp-body">두 버전을 비교하고, 어떤 관계인지 들어보세요.</p>${button('두 응원가 비교해 보기 →')}`,'클릭 목적지: 해당 계보 → 두 곡 비교','계보 게시물');
+      return page(`${title('9/23 · 합응 다음 날','어제 그 떼창,<br>다시 듣고 싶다면.','합응에서 불렀던 응원가를 한곳에 모았어요.')}<div class="cp-message">“마지막에 다 같이 부른 그 노래!”</div>${button('어제 부른 노래 다시 듣기 →')}`,'클릭 목적지: 행사 페이지 → 다시 듣기','합응 회상 게시물');
+    }
+    if(r==='prepare'){
+      if(s===1) return page(`${title('9/22 합동응원전 · 연세 선택됨','우리 응원부터<br>가볍게 예습.','노래를 누르면 바로 그 곡부터.')}<div class="cp-video"><span>먼저 들어볼 곡</span>${wave}<strong>연세여 사랑한다</strong>${button('▶ 연세여 사랑한다 재생')}</div><div><div class="cp-row"><strong>다음 · 원시림</strong><span class="cp-caption">득점의 순간</span></div><div class="cp-row"><strong>하늘 끝까지</strong><span class="cp-caption">함께 부를 대표곡</span></div><div class="cp-row"><strong>서시</strong><span class="cp-caption">응원의 열기를 올릴 때</span></div></div><span class="cp-caption">학교 변경 · 전체 곡 목록 · 행사 일정은 보조 동선</span>`,'첫 도착: 큰 행사 포스터 아래의 필수곡 영역');
+      if(s===2) return page(`${title('지금 듣는 곡','연세여 사랑한다','연세대학교')}${design.bridge==='before-player'?bridge():''}${video(false)}<span class="cp-caption">가사 · 현장 포인트는 이 아래에서 펼치기</span>${design.bridge==='after-player'?bridge():''}`,'곡 재생 영역 → 바로 이어지는 계보 카드');
+      if(s===3) return page(comparison('친구에게 비교 링크 보내기 →','share-next'),'같은 페이지의 계보 비교 영역');
+      return page(`${title('공유할 비교 링크','연세 × LG,<br>친구에게도 알려주기.')}<div class="cp-focus"><strong>연세여 사랑한다 ↔ 사랑한다 LG</strong><span class="cp-caption">열면 두 버전 비교가 바로 보이는 링크</span>${state.shared?'<div class="cp-message" style="margin-top:10px">공유 링크 구성 예시 확인됨</div>':''}</div><div class="cp-focus"><strong>정기전 전에 다시 듣자</strong><p class="cp-body">10/2–3 정기전 전에 예습 목록을 다시 안내해요.</p>${button(state.followed?'사이트 SNS 프로필로 연결':'정기전 예습 소식 보기 →','follow')}</div>`,'비교 완료 뒤 → 공유 / 사이트 SNS');
+    }
+    if(r==='story'){
+      if(s===1) return page(`${title('연세여 사랑한다 ↔ 사랑한다 LG','방금 본 두 노래,<br>여기서 비교해요.','대표 구간을 이어서 들어보세요.')}<div class="cp-focus"><div class="cp-row"><strong>연세여 사랑한다</strong><span class="cp-caption">연세대학교</span></div><div class="cp-row"><strong>사랑한다 LG</strong><span class="cp-caption">LG 트윈스</span></div></div>${video(true)}<span class="cp-caption">첫 재생 아래에 관계 설명과 다른 버전 버튼</span>`,'첫 도착: 게시물에서 소개한 계보 비교 영역');
+      if(s===2) return page(comparison(),'두 버전 비교 → 관련 계보');
+      if(s===3) return page(`${title('LG로 이어지는 다음 이야기','이 응원가도<br>대학에서 들었다면?')}<div class="cp-focus"><strong>민족의 아리아<br>↔ 서울의 아리아</strong><p class="cp-body">고려대와 LG의 응원석으로 이어지는 또 다른 곡.</p>${button('이 두 곡도 비교해 보기 →')}</div><div class="cp-row"><span>다른 선택</span><strong>LG 응원가 모아보기</strong></div><span class="cp-caption">직전 계보로 돌아가기와 링크 공유 유지</span>`,'비교 카드 아래 → 팀이 연결된 다음 계보');
+      return page(`${title('계보 02 · 고려 × LG','민족의 아리아<br>↔ 서울의 아리아')}<div class="cp-lineage"><div>Melodramma<span>원곡 · Andrea Bocelli</span></div><div>민족의 아리아<span>고려대학교</span></div><div>서울의 아리아<span>LG 트윈스</span></div></div><div class="cp-focus"><strong>다음 편 · Forever와 승리의 노래</strong><p class="cp-body">같은 팀의 다른 응원가 이야기도 이어집니다.</p>${button(state.followed?'사이트 SNS 프로필로 연결':'다음 계보 소식 보기 →','follow')}</div>`,'두 번째 이야기 끝 → 다음 편 예고와 사이트 SNS');
+    }
+    if(s===1) return page(`${title('합응에서 불렀던 노래','어제의 함성,<br>다시 듣기.','곡명을 몰라도 기억나는 장면으로 찾아보세요.')}<div class="cp-focus"><strong>연세여 사랑한다</strong><p class="cp-body">모두 함께 불렀던 대표 떼창.</p>${button('▶ 연세여 사랑한다 다시 듣기')}</div><div class="cp-row"><strong>원시림</strong><span class="cp-caption">함께 뛰던 순간</span></div><div class="cp-row"><strong>하늘 끝까지</strong><span class="cp-caption">같이 외치던 순간</span></div><span class="cp-caption">실제 합응 사용곡 확인 후 목록 갱신</span>`,'같은 행사 주소 → 다시 듣기 영역');
+    if(s===2) return page(`${title('다시 듣는 곡','연세여 사랑한다')}${video(false)}<div class="cp-focus"><strong>다음은 정기전!</strong><p class="cp-body">이번에 익힌 응원을 경기장에서도 함께.</p>${button('정기전 전에도 다시 듣기 →')}</div>`,'곡 상세 아래 → 다음 행사 예습');
+    if(s===3) return page(`${title('10/2–3 · 정기 연고전','경기장 가기 전,<br>우리 응원 한 번 더.')}<div class="cp-focus"><strong>연세 필수 응원가</strong><p class="cp-body">같은 주소에서 다시 열 수 있는 예습 목록.</p>${button(state.shared?'예습 링크 공유 구성 확인됨':'예습 링크 친구에게 보내기','share')}</div>${button('9/30 예습 게시물로 이어보기 →','next',false)}`,'정기전 예습 목록 → 링크 공유');
+    return page(`${title('9/30 전후 · 같은 SNS에서','정기전이 코앞!<br>익숙한 응원부터.','합응 때 들었던 곡, 경기장 가기 전에 한 번 더.')}<div class="cp-message">기존 방문자를 다시 부르는 예습 게시물</div>${button('정기전 필수곡 다시 듣기 →','return')}`,'예습 게시물 → 같은 행사 페이지의 필수곡','재방문 계기');
+  }
+  function render(){
+    const route=routes[state.route], detail=route.steps[state.step];
+    path.innerHTML=route.labels.map((label,i)=>`${i?'<span class="cv-arrow" aria-hidden="true">→</span>':''}<button class="btn${i===state.step?' btn-primary':''}" type="button" data-step="${i}" aria-pressed="${i===state.step}">${i+1}. ${label}</button>`).join('');
+    screen.innerHTML=renderScreen();
+    const targets=['cv-stage-title','cv-thought','cv-hook','cv-next','cv-connection','cv-measure','cv-release'];
+    targets.forEach((id,i)=>root.querySelector('#'+id).textContent=detail[i]);
+    root.querySelector('#cv-step-count').textContent=`${state.step+1} / 5 · ${state.route==='return'?'행사 이후 재방문':'9/15 첫 공개 동선'}`;
+    root.querySelector('#cv-announcement').textContent=detail[0];
+  }
+  function selectRoute(route){
+    state.route=route; state.step=1; state.version='yonsei'; state.played=false; state.shared=false; state.followed=false;
+    root.querySelectorAll('[role="tab"]').forEach(tab=>{const active=tab.id==='cv-tab-'+route; tab.setAttribute('aria-selected',String(active));tab.classList.toggle('active',active);root.querySelector('#'+tab.getAttribute('aria-controls')).hidden=!active;});
+    render();
+  }
+  root.addEventListener('click',event=>{
+    const tab=event.target.closest('[role="tab"]');
+    if(tab){selectRoute(tab.id.replace('cv-tab-','')); return;}
+    const step=event.target.closest('[data-step]');
+    if(step){state.step=Number(step.dataset.step);state.played=false;render();return;}
+    const version=event.target.closest('[data-version]');
+    if(version){state.version=version.dataset.version;state.played=false;render();return;}
+    const action=event.target.closest('[data-action]')?.dataset.action;
+    if(!action)return;
+    if(action==='follow'){state.followed=true;render();return;}
+    if(action==='share'){state.shared=true;render();return;}
+    if(action==='return'){selectRoute('prepare');return;}
+    if(action==='play'){
+      state.played=true;
+      if(state.route==='story'&&state.step===1)state.step=2;
+      render();return;
+    }
+    if(action==='share-next')state.shared=true;
+    state.step=Math.min(state.step+1,4);state.played=state.route==='story'&&state.step===2;render();
+  });
+  render();
+  if(globalThis.Tweak){
+    const tweak=new Tweak({container:root.querySelector('.cv-prototype'),onChange:render});
+    tweak.addSelect(design,'bridge',{label:'계보 카드 위치',options:[{label:'첫 재생 바로 아래 · 추천',value:'after-player'},{label:'첫 재생 위',value:'before-player'}]});
+  }
+})();
+</script>

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-godaereul-noraehara",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "고연가 - 고대를 노래하라",
+    "aliases": [
+      "고연가: 고대를 노래하라",
+      "고연가(노래)",
+      "고노래",
+      "고대를 노래하라"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "Andrea Bocelli의 `Con te partirò`를 Sarah Brightman과 함께 영어 제목으로 다시 녹음한 `Time to Say Goodbye` 계열 선율을 사용한 웅장한 합창곡이다. 고려대학교 응원단은 이 곡을 `2011 정기 고연전 신곡`으로 명시했고, 2020 공식 영상은 원곡명을 적었다. 2022 고연전, 2023·2024·2025 입실렌티와 합동응원, 2026 합동응원에서 계속 확인된다. 2022 교내 데이터인문학 연구도 2016~2022 경기에서 평균보다 자주 불린 2010년대 곡으로 분석했다.\n\n### 현장에서\n\n- 입실렌티·정기 고연전·합동응원에서 관중이 긴 호흡으로 학교와 청춘을 노래하는 웅장한 합창곡으로 사용한다.\n- 2026 합동응원에서는 양교 응원단장이 서로의 대표곡을 교류하는 친선 구간에 배치됐다.\n- 2022 교내 연구 표본에서는 오래 지속될 가능성이 높은 고빈도 2010년대 곡으로 분류됐다.\n\n### 더 알아보기\n\n응원단이 적은 `Time to Say Goodbye`는 독립된 최초곡이라기보다 Bocelli의 이탈리아어곡 `Con te partirò`를 Brightman과 듀엣으로 재작업한 버전이다.[* 참고: https://sarahbrightman.com/discography/time-to-say-goodbye-single/]\n\n2026 합동응원 영상은 고려대·연세대 단장이 상대 학교 곡까지 함께 이끄는 교류 구간에 이 곡을 포함해, 라이벌전 응원이 경쟁뿐 아니라 상호 학습의 장이기도 함을 보여준다.[* 참고: https://www.youtube.com/watch?v=xNMFhFuvUNo]\n\n2023 입실렌티 영상 댓글은 연기 사이 단장의 동작과 한복 의상을 곡의 웅장함과 함께 강하게 기억하는 반응이 많다.[* 참고: https://www.youtube.com/watch?v=LhvXKRLd3As]\n\n### 추가 확인\n\n2026 신입생 OT 설명란의 정확한 곡명과 14:42 시작 타임라인을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=e8PIfcjNhF0]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2011 정기 고연전 신곡"
+      },
+      {
+        "label": "원곡",
+        "value": "Sarah Brightman·Andrea Bocelli `Time to Say Goodbye` 계열"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2026 상반기 합동응원에서 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "andrea-bocelli-con-te-partiro"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.107Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

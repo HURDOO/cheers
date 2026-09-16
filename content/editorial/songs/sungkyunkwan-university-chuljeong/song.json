@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-chuljeong",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "출정",
+    "aliases": [
+      "출정 (2025)"
+    ],
+    "symbolicLines": [
+      "출정",
+      "성균관대학교 응원가"
+    ],
+    "descriptionText": "2025년 하반기 응원 OT에서 공개된 성균관대학교 응원가다. 킹고응원단 공식 영상은 Bellini의 1997년 곡 〈Samba de Janeiro〉를 원곡으로 명시하며, 기획·작사 조준범, 제작·편곡 김민기, 기타 천우진, 보컬 남재헌, 믹싱·마스터링 오권호로 세부 크레딧을 공개했다.[* 출정 공식 영상·전체 크레딧: https://www.youtube.com/watch?v=QvwLGKrqVxA][* Bellini 공식 아티스트 채널 원곡: https://www.youtube.com/watch?v=HAiHEQblKeQ]\n\n공식 설명의 구성표를 보면 전주 뒤 어깨동무, 본 절, ‘성대’ 연호와 선창·후창, 반복 절, 다시 전주형 구간으로 돌아가는 순서다. 전체 가사는 공식 영상 설명에 공개돼 있지만, 이 데이터에는 별도의 게시 권리 검토 전까지 옮기지 않았다.\n\n2025 ESKARA와 2026 상반기 응원 OT·문행대동제에서 사용됐고, 2026 응원법 가이드에서는 첫 곡으로 배치해 ‘숙이고 들고’ 동작을 안내한다.[* 2025 ESKARA 공식 영상: https://www.youtube.com/watch?v=GEPnnswGbM8][* 2026 상반기 응원 OT 공식 영상: https://www.youtube.com/watch?v=-NJDbftqcIc][* 2026 응원법 가이드: https://www.youtube.com/watch?v=HQaa_PUz6eQ] 2026 문행대동제 플레이리스트에서도 오프닝 트랙이다.[* 2026 문행대동제 플레이리스트: https://www.youtube.com/watch?v=5TuN6DY8fdQ]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2025 · 공식 영상 표기"
+      },
+      {
+        "label": "원곡",
+        "value": "Bellini · Samba de Janeiro"
+      },
+      {
+        "label": "기획·작사",
+        "value": "조준범"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "bellini-samba-de-janeiro"
+      }
+    ],
+    "revision": 3,
+    "createdAt": "2026-09-02T10:18:38.157Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

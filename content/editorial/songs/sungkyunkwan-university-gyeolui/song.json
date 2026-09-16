@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-gyeolui",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "결의",
+    "aliases": [
+      "결의 (2024)"
+    ],
+    "symbolicLines": [
+      "결의",
+      "성균관대학교 응원가"
+    ],
+    "descriptionText": "킹고응원단이 2024년 공식 음원과 응원법 가이드에서 독립된 성균관대학교 응원가로 소개한 곡이다.[* 2024 공식 음원: https://www.youtube.com/watch?v=CH_zRglbRMM][* 응원법 가이드 Chapter 1: https://www.youtube.com/watch?v=Q8Zz0QJijNk] 공식 음원 제목은 ‘결의 (2024)’로 표기돼 있으므로 편집 데이터의 기준 연도도 우선 2024년으로 입력했다.\n\n2024년 5월 공개된 공식 플레이리스트에 ‘킹고인의 함성’, ‘승리를 위하여’, ‘성대를 좋아해’, ‘성균가’와 함께 다섯 번째 트랙으로 수록됐고, 같은 해 명륜·율전 대동제 공연 기록도 남아 있다.[* 2024 공식 플레이리스트: https://www.youtube.com/watch?v=KmSnSWHs4s4][* 2024 명륜 대동제: https://www.youtube.com/watch?v=a1sV98sCe3o][* 2024 율전 대동제: https://www.youtube.com/watch?v=9JtGxmSDc5M]\n\n선행 메모에는 ‘이전부터 사용’이라고 적혀 있었지만, 이번에 확인된 공식 공개 자료는 2024년부터다. 공식 제목의 2024가 제작·도입 연도를 뜻하는지, 2024 녹음 버전을 뜻하는지는 별도 제작 기록이 없어 완전히 분리하기 어렵다. 작사·작곡자와 원곡 계보 역시 현재 공개 자료에서 확인되지 않았다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "공식 표기 2024 · 의미 추가 확인 필요"
+      },
+      {
+        "label": "공식 가이드",
+        "value": "2024 Chapter 1"
+      },
+      {
+        "label": "원곡·제작",
+        "value": "공개 자료 미확인"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.183Z",
+    "updatedAt": "2026-09-02T10:18:38.189Z"
+  }
+}

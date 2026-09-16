@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-seongdaereul-joahae",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "성대를 좋아해",
+    "aliases": [
+      "성대를 좋아해 (2005)"
+    ],
+    "symbolicLines": [
+      "성대를 좋아해",
+      "성균관대학교 응원가"
+    ],
+    "descriptionText": "킹고응원단 공식 영상이 사용 시작을 2005년으로 표시하는 성균관대학교 응원가다.[* 2026 상반기 응원 OT 공식 영상: https://www.youtube.com/watch?v=CqETueNW-7w] 공식 채널에는 2019년 양 캠퍼스 대동제, 2020년 입학식 다시보기, 2021년 입학식과 독립 음원, 2022년 ESKARA, 2024·2025·2026년 공연 기록이 이어져 있어 장기간 반복 사용된 레퍼토리라는 점을 확인할 수 있다.[* 2019 율전 대동제: https://www.youtube.com/watch?v=SC5Fd0dxsHA][* 2024 응원법 가이드 Chapter 6: https://www.youtube.com/watch?v=1c6WNlHev-4]\n\n2026 상반기 응원 OT에서는 여명·승리를 위하여와 함께 1부 교육곡으로 다뤄졌고, 같은 해 문행대동제 9곡 플레이리스트에서는 여섯 번째 곡으로 배치됐다.[* 성균웹진 응원 OT 기사: https://www.skku.edu/skkuzine/section/coverStory.do?articleNo=135895&mode=list&pager.offset=40&pagerLimit=10][* 2026 문행대동제 플레이리스트: https://www.youtube.com/watch?v=5TuN6DY8fdQ]\n\n2005년이라는 연도와 현재 사용 여부는 공식 자료로 확인되지만, 공개된 영상 설명에서는 작사·작곡자나 기존 원곡을 밝히지 않는다. 따라서 현재 단계에서는 성균관대 자체 제작곡인지 기성곡을 개사·편곡한 곡인지 확정하지 않는다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2005 · 공식 영상 표기"
+      },
+      {
+        "label": "현재 사용",
+        "value": "2026 응원 OT·문행대동제"
+      },
+      {
+        "label": "원곡·제작",
+        "value": "공개 자료 미확인"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.070Z",
+    "updatedAt": "2026-09-02T10:18:38.077Z"
+  }
+}

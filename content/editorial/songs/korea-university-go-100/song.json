@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-go-100",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "Go! 100",
+    "aliases": [
+      "Go! 100!",
+      "고백"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "고려대학교 개교 100주년인 2005년에 공개된 기념 응원가다. 고려대 응원단은 원곡을 ‘캐논 변주곡’으로 밝히며, 나무위키와 악보 자료를 교차하면 요한 파헬벨의 ‘Canon and Gigue in D major, P.37’ 선율을 가리키는 것으로 확인된다. 붉은 응원봉지를 흔들며 학교의 100년을 넘어 더 먼 미래를 함께 외치는 곡으로 운용되고, 2025 입실렌티와 2026 신입생 응원 OT에서 현행 사용을 직접 확인했다. 공식 채널 안에서도 `Go!100!`과 `Go! 100!` 띄어쓰기가 병존하며, ‘고백’은 현장·해시태그에서 널리 쓰는 줄임말이다.\n\n### 현장에서\n\n- 신입생 응원 OT·합동응원전·입실렌티에서 붉은 응원봉지를 흔드는 참여형 레퍼토리로 사용한다.\n- 관중이 짧은 학교 구호에 응답하고 무가사 합창을 반복해, 개교 100주년과 세대 연속성을 함께 강조한다.\n- 나무위키는 붉은 노을 다음에 자주 배치된다고 기록하며, 2025 입실렌티 영상에서도 두 곡이 연속으로 나온다.\n\n### 더 알아보기\n\n공식 응원단은 1905년 보성전문학교 개교에서 2005년 100주년으로 이어지는 맥락을 직접 설명하고, 100년·1000년을 넘어 영원할 학교를 함께 외치는 곡으로 소개한다.[* 참고: https://www.youtube.com/watch?v=BW9pzp2WBYs / https://www.korea.edu/en/1029/subview.do?enc=Zm5jdDF8QEB8JTJGaGlzdCUyRmVuJTJGNSUyRnZpZXcuZG8lM0ZmaW5kQ2xTZXElM0Q0OSUyNg%3D%3D]\n\n‘고백’은 별도 곡명이 아니라 Go와 100의 한국어 독음을 압축한 현장 별칭이다. 공식 응원단 해시태그와 2025 입실렌티 제목에도 함께 표기된다.[* 참고: https://www.youtube.com/watch?v=BW9pzp2WBYs / https://www.youtube.com/watch?v=2V6SMuW_DI8]\n\n댓글에서는 붉은 봉지 물결을 곡의 핵심 장면으로 기억하는 반응이 이어지고, 일회용 비닐 대신 종이 소재를 쓰자는 환경 관련 제안도 확인된다.[* 참고: https://www.youtube.com/watch?v=BW9pzp2WBYs / https://www.youtube.com/watch?v=CzQqRncTmaE]\n\n2024 합동응원 영상 제목과 게시일은 2024년을 가리키지만 설명 본문은 행사일을 2023년 3월 15일로 적는다. 곡의 현행성은 다른 2025·2026 표본으로 판정했다.[* 참고: https://www.youtube.com/watch?v=CzQqRncTmaE / https://www.youtube.com/watch?v=2V6SMuW_DI8]\n\n### 추가 확인\n\nKODA의 2023 입실렌티 단독 메들리 표본을 추가해 샹젤리제와의 연속 배치를 확인했다. 2026 현행성은 기존 초안 표본이 직접 확인한다.[* 추가 조사 자료: https://www.youtube.com/watch?v=B6yrvjVqE5I]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2005년"
+      },
+      {
+        "label": "원곡",
+        "value": "요한 파헬벨 ‘Canon and Gigue in D major, P.37’ 중 Canon 선율(통칭 캐논 변주곡)"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2025 입실렌티와 2026 신입생 응원 OT에서 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "pachelbel-canon-in-d"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.184Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

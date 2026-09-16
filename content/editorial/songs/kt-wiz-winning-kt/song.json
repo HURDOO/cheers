@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "kt-wiz-winning-kt",
+    "organizationId": "kt-wiz",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "listed",
+    "title": "Winning KT",
+    "aliases": [
+      "위닝케이티"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 1,
+    "createdAt": "2026-09-13T05:32:44.000Z",
+    "updatedAt": "2026-09-13T05:32:44.000Z"
+  }
+}

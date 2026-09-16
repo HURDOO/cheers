@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-yeomyeong",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "여명",
+    "aliases": [
+      "여명 (2011)"
+    ],
+    "symbolicLines": [
+      "여명",
+      "성균관대학교 응원가"
+    ],
+    "descriptionText": "킹고응원단 공식 영상이 2011년 곡으로 표시하는 응원가다.[* 2026 상반기 응원 OT 공식 영상: https://www.youtube.com/watch?v=_WXaVWEQTlY] 공식 채널에는 2019년 입학식과 율전 대동제, 2020년 입학식 다시보기, 2021년 독립 음원, 2024 ESKARA, 2025·2026년 공연 영상이 남아 있다.[* 2019 입학식: https://www.youtube.com/watch?v=J9Kz7aLI5c8][* 2024 ESKARA: https://www.youtube.com/watch?v=QnMkwIw1vvs]\n\n2024년 응원법 가이드에서는 Chapter 8, 2026년 문행대동제 응원법 가이드에서는 ‘민!족!성!대!’ 구호가 핵심 포인트로 소개됐다.[* 2024 응원법 가이드 Chapter 8: https://www.youtube.com/watch?v=3RBUSWVOKCU][* 2026 응원법 가이드: https://www.youtube.com/watch?v=HQaa_PUz6eQ] 2026 상반기 응원 OT에서도 초반 교육곡으로 다뤄졌고 문행대동제 9곡 플레이리스트의 세 번째 곡으로 편성됐다.[* 성균웹진 응원 OT 기사: https://www.skku.edu/skkuzine/section/coverStory.do?articleNo=135895&mode=list&pager.offset=40&pagerLimit=10][* 2026 문행대동제 플레이리스트: https://www.youtube.com/watch?v=5TuN6DY8fdQ]\n\n사용 연도와 현재 레퍼토리라는 점은 확인되지만 작사·작곡자, 제목의 명명 배경, 원곡·선행 응원가 여부는 공식 공개 자료에서 확인되지 않았다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2011 · 공식 영상 표기"
+      },
+      {
+        "label": "응원 포인트",
+        "value": "민!족!성!대! 구호"
+      },
+      {
+        "label": "원곡·제작",
+        "value": "공개 자료 미확인"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.092Z",
+    "updatedAt": "2026-09-02T10:18:38.098Z"
+  }
+}

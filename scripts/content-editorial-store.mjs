@@ -1,6 +1,8 @@
 import { createHash, randomBytes } from "node:crypto";
 import { readFile, readdir, mkdir, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { extractYouTubeVideoId } from "../shared/youtube.mjs";
+export { extractYouTubeVideoId } from "../shared/youtube.mjs";
 
 const ORGANIZATION_TYPES = new Set(["baseball", "university"]);
 const DISCOVERED_BY = new Set(["user", "ai"]);
@@ -46,30 +48,6 @@ export function parseBulkTitles(value) {
   }
 
   return titles;
-}
-
-export function extractYouTubeVideoId(value) {
-  const source = String(value ?? "").trim();
-  if (!source) return null;
-
-  try {
-    const url = new URL(source);
-    const hostname = url.hostname.toLowerCase().replace(/^www\./u, "");
-    let candidate = null;
-
-    if (hostname === "youtu.be") candidate = url.pathname.split("/").filter(Boolean)[0] ?? null;
-    if (new Set(["youtube.com", "m.youtube.com", "music.youtube.com"]).has(hostname)) {
-      candidate = url.searchParams.get("v");
-      if (!candidate) {
-        const [kind, id] = url.pathname.split("/").filter(Boolean);
-        if (["shorts", "embed", "live"].includes(kind)) candidate = id ?? null;
-      }
-    }
-
-    return candidate && /^[A-Za-z0-9_-]{11}$/u.test(candidate) ? candidate : null;
-  } catch {
-    return null;
-  }
 }
 
 export class EditorialStore {

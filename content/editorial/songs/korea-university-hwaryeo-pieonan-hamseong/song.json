@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-hwaryeo-pieonan-hamseong",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "화려, 피어난 함성",
+    "aliases": [
+      "화려 피어난 함성",
+      "화려",
+      "화피함"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "2018 정기 고연전 응원 OT에서 `대박신곡`으로 공개된 떼창형 응원가다. 고려대학교 응원단의 2020 공식 영상은 레오·김세정의 국가대표팀 응원곡 `우리는 하나 (We, the Reds)`와 Coldplay의 `Viva La Vida`를 원곡으로 함께 적는다. 2025 합동응원과 2026 응원 OT·입실렌티·KUBS 뮤직비디오까지 사용이 직접 확인된다.\n\n### 현장에서\n\n- 합동응원·입실렌티·응원 OT에서 긴 모음 발성 후렴을 관중 전체가 함께 부르는 고조 구간에 사용한다.\n- 2025 합동응원에서는 양교 단장이 함께 이끄는 교류 레퍼토리로, 2026 KUBS 영상에서는 새내기의 시작과 청춘을 상징하는 곡으로 제시됐다.\n- 짧은 본가사와 반복되는 선율 때문에 대규모 관중의 떼창 및 기수부 퍼포먼스와 결합된다.\n\n### 더 알아보기\n\n구성 재료 중 하나인 `우리는 하나`가 2018년 5월 국가대표팀 응원곡으로 공개된 뒤 같은 해 9월 고려대 신곡에 반영돼, 매우 짧은 시차의 편곡 사례다.[* 참고: https://music.bugs.co.kr/track/31098084 / https://www.youtube.com/watch?v=FPlrQ1WoQko]\n\n2018·2019 영상의 공개 댓글에서는 여러 시청자가 `Viva La Vida`와 국가대표 응원곡의 결합을 독립적으로 알아보고 조합과 개사를 호평했다.[* 참고: https://www.youtube.com/watch?v=FPlrQ1WoQko / https://www.youtube.com/watch?v=UTYS_8FDU70]\n\nKUBS의 2026 뮤직비디오는 이 곡을 단순 공연 기록이 아니라 합격과 대학 생활의 시작을 축하하는 청춘 서사로 재구성했다.[* 참고: https://www.youtube.com/watch?v=0h0wsQWLtTM]\n\n### 추가 확인\n\n2026 입실렌티 기수부 메들리의 별도 촬영 표본을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=2vyDJDlLgm8]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2018 정기 고연전 신곡"
+      },
+      {
+        "label": "원곡",
+        "value": "레오·김세정 `우리는 하나 (We, the Reds)`와 Coldplay `Viva La Vida`를 결합한 편곡"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2025 합동응원과 2026 응원 OT·공식 교육방송 뮤직비디오에서 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "leo-kim-sejeong-we-the-reds"
+      },
+      {
+        "type": "secondary-original-song",
+        "targetId": "coldplay-viva-la-vida"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.118Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

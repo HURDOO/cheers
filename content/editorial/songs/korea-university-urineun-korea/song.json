@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-urineun-korea",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "우리는 고대",
+    "aliases": [
+      "우리는 고대!",
+      "승리호 응원가"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "고려대학교의 승리호를 모티브로 만든 2014년 신곡이다. 고대신문의 발표 기사와 공식 응원 OT는 슈퍼키드 ‘Rock Star’와 Glen Check ‘60's Cardin’을 결합한 빠른 선창·후창 및 랩형 응원임을 보여 준다. 응원단은 운동부 선수들도 승부 전 의기를 모을 때 승리호를 외친다고 설명하며, 2024 KUBS 목록과 2025·2026 입실렌티에서도 현행 사용이 확인된다.\n\n### 현장에서\n\n- 응원 OT에서 전통 승리호를 소개하고 빠른 선창·후창과 전원 합창을 교육한다.\n- 입실렌티의 경쾌한 중반 응원 묶음에서 호랑이·싱글벙글과 연속 배치되는 경우가 많다.\n- 합동응원전에서는 라이벌 학교 곡과 교차 배치해 학교 정체성과 승리 의지를 직접 대조한다.\n\n### 더 알아보기\n\n2014 고대신문은 전년도 교호 모티브 신곡과 대비해 이 곡을 승리호 모티브 신곡으로 소개했다. 편집형 자료는 잊혀 가던 승리호를 되살린 곡이라고 덧붙이지만 그 표현의 원본 게시물은 현재 직접 확인하지 못했다.[* 참고: https://www.kunews.ac.kr/news/articleView.html?idxno=21014 / https://d.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80]\n\n독립 음원 영상 댓글에는 원곡을 한 곡으로만 오해하지 말고 Rock Star와 60's Cardin 두 곡을 함께 표기해 달라는 정정이 남아 있다. 공식 OT 설명도 두 곡을 병기한다.[* 참고: https://www.youtube.com/watch?v=F1njeAPsX3g / https://www.youtube.com/watch?v=A05Mp1fJbvw]\n\n공식 OT는 승리호를 일반 관중뿐 아니라 고려대 운동부 선수들이 경기 전 결의를 모을 때도 외친다고 설명한다. 다만 특정 종목·경기의 1차 영상은 이번 표본에서 별도 확보하지 못했다.[* 참고: https://www.youtube.com/watch?v=A05Mp1fJbvw]\n\n### 추가 확인\n\n2026 상반기 합동 응원 OT의 KODA 단독곡 표본을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=GbXAj1tbB9U]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2014 정기 고연전 신곡"
+      },
+      {
+        "label": "원곡",
+        "value": "슈퍼키드 — Rock Star; Glen Check — 60's Cardin"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2024 KUBS 공식 플레이리스트, 2025 입실렌티, 2026-05-22 입실렌티에서 직접 확인"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "superkidd-rock-star"
+      },
+      {
+        "type": "secondary-original-song",
+        "targetId": "glen-check-60s-cardin"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.144Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

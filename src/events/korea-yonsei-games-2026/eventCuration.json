@@ -1,0 +1,106 @@
+{
+  "eventId": "korea-yonsei-games-2026",
+  "label": "2026 정기 고연전",
+  "sides": {
+    "yonsei": {
+      "mustKnowSongIds": [
+        "yonsei-university-wonsirim",
+        "yonsei-university-yonseiyeo-saranghanda",
+        "yonsei-university-haneul-kkeutkkaji",
+        "yonsei-university-seosi",
+        "yonsei-university-paran",
+        "yonsei-university-cheongchun-mulgyeol"
+      ],
+      "memorySongIds": [
+        "yonsei-university-haeya",
+        "yonsei-university-seogok",
+        "yonsei-university-oneul-bamsae",
+        "yonsei-university-oh-my-friend",
+        "yonsei-university-onnurie",
+        "yonsei-university-haneul-arae",
+        "yonsei-university-apartment",
+        "yonsei-university-badasae"
+      ],
+      "lineageFamilyIds": [
+        "han-sung-min-saranghamyeon-halssurok",
+        "carlos-gardel-por-una-cabeza",
+        "magma-haeya",
+        "andrea-bocelli-melodramma"
+      ],
+      "rivalrySongIds": [
+        "yonsei-university-go-balp-kkum",
+        "yonsei-university-woo",
+        "yonsei-university-ko-dae",
+        "yonsei-university-goyangi-sound"
+      ],
+      "baseballSongIds": [
+        "hanwha-eagles-saranghanda-eagles",
+        "lg-twins-saranghanda-lg",
+        "doosan-bears-haeya",
+        "lotte-giants-badasae",
+        "kt-wiz-apartment"
+      ]
+    },
+    "korea": {
+      "mustKnowSongIds": [
+        "korea-university-minjogui-aria",
+        "korea-university-forever",
+        "korea-university-baennorae",
+        "korea-university-deureora-boara-geurigo-gieokhara",
+        "korea-university-yeongwonhi",
+        "korea-university-seungni-ui-hamseong"
+      ],
+      "memorySongIds": [
+        "korea-university-elise-reul-wihayeo",
+        "korea-university-seoktap",
+        "korea-university-chulsapyo",
+        "korea-university-yeongwonhara",
+        "korea-university-godaereul-noraehara",
+        "korea-university-young-tigers",
+        "korea-university-hwaryeo-pieonan-hamseong",
+        "korea-university-goraesanyang"
+      ],
+      "lineageFamilyIds": [
+        "andrea-bocelli-melodramma",
+        "coldplay-viva-la-vida",
+        "stratovarius-forever",
+        "kimi-wo-nosete"
+      ],
+      "rivalrySongIds": [
+        "korea-university-yonsei-chicken",
+        "korea-university-singgeulbeonggeul",
+        "korea-university-kkureora-yonsei",
+        "korea-university-urineun-korea"
+      ],
+      "baseballSongIds": [
+        "doosan-bears-baennorae",
+        "lg-twins-seoul-ui-aria",
+        "lg-twins-seungni-ui-norae",
+        "kt-wiz-winning-kt",
+        "kt-wiz-seungnireul-wihayeo",
+        "lotte-giants-sori-nop-yeo-oechyeoboja"
+      ]
+    }
+  },
+  "titles": {
+    "doosan-bears-baennorae": "뱃노래",
+    "yonsei-university-cheongchun-mulgyeol": "청춘물결",
+    "yonsei-university-oh-my-friend": "Oh My Friend",
+    "yonsei-university-badasae": "바다새",
+    "yonsei-university-woo": "Woo",
+    "yonsei-university-ko-dae": "고.대",
+    "yonsei-university-goyangi-sound": "고양이 소리",
+    "lotte-giants-badasae": "바다새",
+    "kt-wiz-apartment": "아파트",
+    "korea-university-goraesanyang": "고래사냥",
+    "kt-wiz-winning-kt": "Winning KT",
+    "kt-wiz-seungnireul-wihayeo": "승리를 위하여",
+    "han-sung-min-saranghamyeon-halssurok": "사랑하면 할수록",
+    "carlos-gardel-por-una-cabeza": "Por una Cabeza",
+    "magma-haeya": "해야",
+    "andrea-bocelli-melodramma": "Melodramma",
+    "coldplay-viva-la-vida": "Viva la Vida",
+    "stratovarius-forever": "Forever",
+    "kimi-wo-nosete": "君をのせて"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "yonsei-university-ko-dae",
+    "organizationId": "yonsei-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "listed",
+    "title": "고.대",
+    "aliases": [],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 1,
+    "createdAt": "2026-09-13T05:32:44.000Z",
+    "updatedAt": "2026-09-13T05:32:44.000Z"
+  }
+}

@@ -1,3 +1,7 @@
+import { buildPriorityItems, priorityGroups, prioritySummary } from "./priority.js";
+import { descriptionPreview, lyricsPreview, readSongDraft, canRestoreSongDraft, draftText } from "./song-editor.js";
+import { extractYouTubeVideoId, youtubeStartSeconds } from "../shared/youtube.mjs";
+
 const viewRoot = document.querySelector("#view-root");
 const pageBreadcrumb = document.querySelector("#page-breadcrumb");
 const syncState = document.querySelector("#sync-state");
@@ -5,6 +9,7 @@ const refreshButton = document.querySelector("#refresh-button");
 const navigation = document.querySelector(".main-nav");
 const organizationCount = document.querySelector("#nav-organization-count");
 const songCount = document.querySelector("#nav-song-count");
+const priorityCount = document.querySelector("#nav-priority-count");
 const reelCount = document.querySelector("#nav-reel-count");
 const drawerLayer = document.querySelector("#drawer-layer");
 const drawerBackdrop = document.querySelector("#drawer-backdrop");
@@ -18,6 +23,7 @@ const entityForm = document.querySelector("#entity-form");
 const deleteEntityButton = document.querySelector("#delete-entity-button");
 const cancelEntityButton = document.querySelector("#cancel-entity-button");
 const saveEntityButton = document.querySelector("#save-entity-button");
+const saveNextSongButton = document.querySelector("#save-next-song-button");
 const confirmDialog = document.querySelector("#confirm-dialog");
 const confirmTitle = document.querySelector("#confirm-title");
 const confirmMessage = document.querySelector("#confirm-message");
@@ -32,6 +38,7 @@ const toastRegion = document.querySelector("#toast-region");
 
 const VIEW_LABELS = {
   overview: "대시보드",
+  priorities: "작업 순서",
   organizations: "대학·구단",
   songs: "응원가",
   reels: "릴스 제작",
@@ -52,6 +59,11 @@ const STAGE_LABELS = {
   review_ready: "검수 대기",
   approved: "승인",
   published: "공개",
+};
+const PUBLICATION_LABELS = {
+  unpublished: "미공개",
+  current: "사이트 반영됨",
+  changes_pending: "재공개 필요",
 };
 const JOB_STATUS_LABELS = {
   none: "작업 없음",
@@ -74,8 +86,12 @@ const RENDER_STATUS_LABELS = {
   completed: "영상 완성",
   failed: "실패",
 };
-const VIDEO_LABELS = ["공식·가사 영상", "대표 현장 직캠", "추가 영상 1", "추가 영상 2", "추가 영상 3"];
+const VIDEO_LABELS = ["대표 영상", "추가 영상 1", "추가 영상 2", "추가 영상 3", "추가 영상 4"];
 const ACTIVE_JOB_STATUSES = new Set(["queued", "running"]);
+const SONG_TITLE_COLUMN_WIDTH_KEY = "cheers-admin-song-title-column-width";
+const SONG_TITLE_COLUMN_MIN_WIDTH = 220;
+const SONG_TITLE_COLUMN_MAX_WIDTH = 560;
+const SONG_TITLE_COLUMN_DEFAULT_WIDTH = 340;
 
 const icons = {
   plus: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6V5Z" /></svg>',
@@ -88,15 +104,21 @@ const icons = {
   video: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm0 2v3h3V5H5Zm5 0v3h4V5h-4Zm6 0v3h3V5h-3ZM5 10v9h14v-9H5Zm5 2.2 5 2.8-5 2.8v-5.6Z" /></svg>',
   check: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 16.2-4-4L4 13.6l5.5 5.5L20 8.6 18.6 7.2l-9.1 9Z" /></svg>',
   spark: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 1.5 5.2L19 9l-5.5 1.8L12 16l-1.5-5.2L5 9l5.5-1.8L12 2Zm7 12 .8 2.7 2.7.8-2.7.8L19 21l-.8-2.7-2.7-.8 2.7-.8L19 14Z" /></svg>',
+  copy: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h3Zm2 0h4a2 2 0 0 1 2 2v6h3V4h-9v4Zm4 2H5v10h9V10Z" /></svg>',
+  arrow: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13.6 5.6 5 5a2 2 0 0 1 0 2.8l-5 5-1.4-1.4 4-4H5v-2h11.2l-4-4 1.4-1.4Z" /></svg>',
 };
 
-let database = { organizations: [], songs: [], jobs: [], reels: [], reelTools: { ready: false } };
+let database = { organizations: [], songs: [], jobs: [], reels: [], priorityPlan: null, publication: null, reelTools: { ready: false } };
 let currentView = validView(location.hash.slice(1)) ?? "overview";
 let busy = false;
 let drawerState = null;
 let drawerOpener = null;
 let reelPollInProgress = false;
+let draftTimer;
+const videoTimers = new WeakMap();
+const videoRequests = new Set();
 const selectedSongIds = new Set();
+let songTitleColumnWidth = readSongTitleColumnWidth();
 const filters = {
   organizationSearch: "",
   organizationType: "all",
@@ -105,6 +127,9 @@ const filters = {
   songScope: "all",
   songStage: "all",
   songJobStatus: "all",
+  prioritySide: "all",
+  priorityGroup: "all",
+  priorityStatus: "remaining",
   reelSearch: "",
   reelStatus: "all",
   reelRenderStatus: "all",
@@ -125,6 +150,84 @@ function escapeHtml(value) {
 
 function normalizeSearch(value) {
   return String(value ?? "").normalize("NFKC").toLocaleLowerCase("ko").replace(/\s+/gu, "");
+}
+
+function clampSongTitleColumnWidth(value) {
+  const width = Number(value);
+  if (!Number.isFinite(width)) return SONG_TITLE_COLUMN_DEFAULT_WIDTH;
+  return Math.min(SONG_TITLE_COLUMN_MAX_WIDTH, Math.max(SONG_TITLE_COLUMN_MIN_WIDTH, Math.round(width)));
+}
+
+function readSongTitleColumnWidth() {
+  try {
+    const storedWidth = window.localStorage.getItem(SONG_TITLE_COLUMN_WIDTH_KEY);
+    return storedWidth ? clampSongTitleColumnWidth(storedWidth) : SONG_TITLE_COLUMN_DEFAULT_WIDTH;
+  } catch {
+    return SONG_TITLE_COLUMN_DEFAULT_WIDTH;
+  }
+}
+
+function applySongTitleColumnWidth(value, { persist = false } = {}) {
+  songTitleColumnWidth = clampSongTitleColumnWidth(value);
+  const table = document.querySelector(".song-data-table");
+  const column = table?.querySelector(".song-title-column");
+  const handle = table?.querySelector("[data-song-title-resizer]");
+  if (table) table.style.setProperty("--song-title-column-width", `${songTitleColumnWidth}px`);
+  if (column) column.style.width = `${songTitleColumnWidth}px`;
+  if (handle) handle.setAttribute("aria-valuenow", String(songTitleColumnWidth));
+  if (persist) {
+    try {
+      window.localStorage.setItem(SONG_TITLE_COLUMN_WIDTH_KEY, String(songTitleColumnWidth));
+    } catch {
+      // 브라우저가 로컬 저장소를 막아도 현재 화면의 열 조절은 유지한다.
+    }
+  }
+}
+
+function attachSongTitleColumnResizer() {
+  const handle = document.querySelector("[data-song-title-resizer]");
+  if (!handle) return;
+
+  let startX = 0;
+  let startWidth = songTitleColumnWidth;
+  let resizing = false;
+
+  const finishResize = () => {
+    if (!resizing) return;
+    resizing = false;
+    document.body.classList.remove("is-resizing-column");
+    applySongTitleColumnWidth(songTitleColumnWidth, { persist: true });
+  };
+
+  handle.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0) return;
+    event.preventDefault();
+    resizing = true;
+    startX = event.clientX;
+    startWidth = songTitleColumnWidth;
+    document.body.classList.add("is-resizing-column");
+    handle.setPointerCapture(event.pointerId);
+  });
+  handle.addEventListener("pointermove", (event) => {
+    if (!resizing) return;
+    applySongTitleColumnWidth(startWidth + event.clientX - startX);
+  });
+  handle.addEventListener("pointerup", finishResize);
+  handle.addEventListener("lostpointercapture", finishResize);
+  handle.addEventListener("dblclick", () => {
+    applySongTitleColumnWidth(SONG_TITLE_COLUMN_DEFAULT_WIDTH, { persist: true });
+  });
+  handle.addEventListener("keydown", (event) => {
+    if (!new Set(["ArrowLeft", "ArrowRight", "Home"]).has(event.key)) return;
+    event.preventDefault();
+    const step = event.shiftKey ? 40 : 16;
+    const width = event.key === "Home"
+      ? SONG_TITLE_COLUMN_DEFAULT_WIDTH
+      : songTitleColumnWidth + (event.key === "ArrowRight" ? step : -step);
+    applySongTitleColumnWidth(width, { persist: true });
+  });
+
+  applySongTitleColumnWidth(songTitleColumnWidth);
 }
 
 function splitList(value) {
@@ -173,6 +276,8 @@ function setBusy(nextBusy, label = "처리 중") {
   refreshButton.disabled = nextBusy;
   saveEntityButton.disabled = nextBusy;
   deleteEntityButton.disabled = nextBusy;
+  saveNextSongButton.disabled = nextBusy || !drawerState?.nextSongId;
+  entityForm.inert = nextBusy;
 }
 
 function toast(message, type = "success") {
@@ -181,6 +286,24 @@ function toast(message, type = "success") {
   element.textContent = message;
   toastRegion.append(element);
   window.setTimeout(() => element.remove(), 4200);
+}
+
+async function copyText(value) {
+  const text = String(value ?? "");
+  if (navigator.clipboard?.writeText && window.isSecureContext) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+  const field = document.createElement("textarea");
+  field.value = text;
+  field.setAttribute("readonly", "");
+  field.style.position = "fixed";
+  field.style.opacity = "0";
+  document.body.append(field);
+  field.select();
+  const copied = document.execCommand("copy");
+  field.remove();
+  if (!copied) throw new Error("클립보드에 복사하지 못했습니다.");
 }
 
 async function api(path, options = {}) {
@@ -218,6 +341,7 @@ async function loadState({ render = true } = {}) {
     }
     organizationCount.textContent = database.organizations.length;
     songCount.textContent = database.songs.length;
+    priorityCount.textContent = prioritySummary(buildPriorityItems(database)).remaining;
     reelCount.textContent = database.reels?.length ?? 0;
     populateImportOrganizations();
     if (render) renderCurrentView();
@@ -241,6 +365,7 @@ function renderCurrentView() {
     button.classList.toggle("is-active", button.dataset.view === currentView);
   });
   if (currentView === "organizations") renderOrganizationsView();
+  else if (currentView === "priorities") renderPrioritiesView();
   else if (currentView === "songs") renderSongsView();
   else if (currentView === "reels") renderReelsView();
   else renderOverview();
@@ -255,9 +380,12 @@ function pageHeader(title, description, actions = "") {
 }
 
 function renderOverview() {
-  const published = database.songs.filter((song) => song.workflowStage === "published").length;
+  const published = database.publication?.songCount ?? 0;
   const activeJobs = database.jobs.filter((job) => ACTIVE_JOB_STATUSES.has(job.status)).length;
   const edited = database.songs.filter((song) => song.persisted).length;
+  const priorityItems = buildPriorityItems(database);
+  const priorityState = prioritySummary(priorityItems);
+  const nextPriority = priorityItems.find(({ action }) => !["complete", "waiting"].includes(action));
   const recentSongs = [...database.songs]
     .filter((song) => song.updatedAt)
     .sort((left, right) => right.updatedAt.localeCompare(left.updatedAt, "en"))
@@ -278,6 +406,18 @@ function renderOverview() {
       ${metricCard("진행 중 AI 작업", activeJobs, "orange", icons.spark)}
       ${metricCard("릴스 프로젝트", database.reels?.length ?? 0, "blue", icons.video)}
     </section>
+    <section class="priority-dashboard-card">
+      <div class="priority-dashboard-copy">
+        <span class="priority-dashboard-eyebrow">2026 고연전 · NEXT</span>
+        <strong>${nextPriority ? `${nextPriority.code} · ${escapeHtml(nextPriority.title)}` : "우선순위 작업 완료"}</strong>
+        <p>${nextPriority ? `${escapeHtml(nextPriority.chatgptTask)} → ${escapeHtml(nextPriority.userTask)}` : "현재 우선순위 큐에 남은 작업이 없습니다."}</p>
+      </div>
+      <div class="priority-dashboard-meta">
+        <span><strong>${priorityState.remaining}</strong>남은 작업</span>
+        <span><strong>${priorityState.finalReview}</strong>사용자 확인</span>
+        <button type="button" class="button button-primary" data-go-view="priorities">작업 순서 보기${icons.arrow}</button>
+      </div>
+    </section>
     <section class="dashboard-grid">
       <article class="panel">
         <header class="panel-header"><div><h2>구단별 응원가</h2><p>구단을 선택하면 해당 응원가 목록으로 이동해요.</p></div><button type="button" class="button button-ghost" data-go-view="organizations">전체 관리</button></header>
@@ -292,6 +432,122 @@ function renderOverview() {
         </div>
       </article>
     </section>`;
+}
+
+function filteredPriorityItems(items) {
+  return items.filter((item) => {
+    const sideMatches = filters.prioritySide === "all" || item.sideKeys.includes(filters.prioritySide);
+    const groupMatches = filters.priorityGroup === "all" || item.groupKey === filters.priorityGroup;
+    const statusMatches = filters.priorityStatus === "all"
+      || (filters.priorityStatus === "remaining" && item.action !== "complete")
+      || (filters.priorityStatus === "chatgpt" && ["final_review", "editorial_review", "collect", "add_missing", "check_lineage"].includes(item.action))
+      || (filters.priorityStatus === "user" && ["final_review", "publish"].includes(item.action))
+      || (filters.priorityStatus === "waiting" && item.action === "waiting")
+      || (filters.priorityStatus === "complete" && item.action === "complete");
+    return sideMatches && groupMatches && statusMatches;
+  });
+}
+
+function renderPrioritiesView() {
+  const allItems = buildPriorityItems(database);
+  const summary = prioritySummary(allItems);
+  const items = filteredPriorityItems(allItems);
+  const nextItem = items.find(({ action }) => !["complete", "waiting"].includes(action));
+  const groupOptions = priorityGroups.map((group) => (
+    `<option value="${escapeHtml(group.key)}" ${filters.priorityGroup === group.key ? "selected" : ""}>${escapeHtml(group.code)} · ${escapeHtml(group.label)}</option>`
+  )).join("");
+
+  viewRoot.innerHTML = `
+    ${pageHeader(
+      "고연전 작업 순서",
+      "행사 중요도와 현재 작업 상태를 함께 계산해, 지금 ChatGPT와 처리할 일부터 보여줘요.",
+      `<button type="button" class="button button-primary" data-copy-priority-next ${nextItem ? "" : "disabled"}>${icons.copy}다음 요청 복사</button>`,
+    )}
+    <section class="priority-hero">
+      <div class="priority-hero-copy">
+        <span class="priority-dashboard-eyebrow">${escapeHtml(database.priorityPlan?.label ?? "2026 정기 고연전")}</span>
+        <h2>필수 암기부터 공개하고, 곡마다 같은 검수 루프를 반복합니다.</h2>
+        <p>등급은 P0 필수 암기 → P1 라이벌전 → P2 추억곡 → P3 원곡 계보 → P4 야구장 연결 → P5 양교 추가곡 순입니다. 같은 등급에서는 최종 확인만 남은 곡을 먼저 배치했어요.</p>
+      </div>
+      <ol class="priority-workflow" aria-label="권장 작업 흐름">
+        <li><span>1</span><div><strong>ChatGPT 작업</strong><small>요청문을 복사해 조사·편집·QA 진행</small></div></li>
+        <li><span>2</span><div><strong>사용자 확인</strong><small>영상, 가사, 상징문구, 불확실성 검토</small></div></li>
+        <li><span>3</span><div><strong>로컬 공개</strong><small>승인 뒤 공개·재공개로 테스트 사이트 반영</small></div></li>
+      </ol>
+    </section>
+    <section class="priority-metric-grid" aria-label="고연전 작업 현황">
+      ${priorityMetric("남은 작업", summary.remaining, "전체 우선순위 큐")}
+      ${priorityMetric("사용자 최종 확인", summary.finalReview, "곧 공개할 수 있는 항목")}
+      ${priorityMetric("ChatGPT와 진행", summary.aiReady, "조사·편집·QA·계보 보강")}
+      ${priorityMetric("Admin 미등록", summary.missing, "먼저 새 레코드가 필요한 곡")}
+      ${priorityMetric("완료", summary.complete, "현재 공개본과 일치")}
+    </section>
+    <section class="data-card priority-data-card">
+      <div class="table-toolbar priority-toolbar">
+        <div class="toolbar-group">
+          <select id="priority-side-filter" class="filter-select" aria-label="학교 필터">
+            <option value="all">양교·연결곡 전체</option>
+            <option value="yonsei" ${filters.prioritySide === "yonsei" ? "selected" : ""}>연세 기준</option>
+            <option value="korea" ${filters.prioritySide === "korea" ? "selected" : ""}>고려 기준</option>
+          </select>
+          <select id="priority-group-filter" class="filter-select" aria-label="우선순위 그룹 필터"><option value="all">모든 우선순위</option>${groupOptions}</select>
+          <select id="priority-status-filter" class="filter-select" aria-label="담당 작업 필터">
+            <option value="remaining" ${filters.priorityStatus === "remaining" ? "selected" : ""}>남은 작업</option>
+            <option value="chatgpt" ${filters.priorityStatus === "chatgpt" ? "selected" : ""}>ChatGPT 작업</option>
+            <option value="user" ${filters.priorityStatus === "user" ? "selected" : ""}>내가 확인할 작업</option>
+            <option value="waiting" ${filters.priorityStatus === "waiting" ? "selected" : ""}>AI 진행 중</option>
+            <option value="complete" ${filters.priorityStatus === "complete" ? "selected" : ""}>완료</option>
+            <option value="all" ${filters.priorityStatus === "all" ? "selected" : ""}>완료 포함 전체</option>
+          </select>
+        </div>
+        <span class="table-result">${items.length}개 표시 · 전체 ${allItems.length}개</span>
+      </div>
+      <ol class="priority-list">
+        ${items.map((item) => priorityItemCard(item)).join("") || `<li>${emptySmall("조건에 맞는 작업이 없어요")}</li>`}
+      </ol>
+    </section>`;
+}
+
+function priorityMetric(label, value, detail) {
+  return `<article class="priority-metric"><span>${escapeHtml(label)}</span><strong>${Number(value).toLocaleString("ko-KR")}</strong><small>${escapeHtml(detail)}</small></article>`;
+}
+
+function priorityItemCard(item) {
+  const detail = item.kind === "lineage"
+    ? `${item.organizationName} · ${item.entityId}`
+    : `${item.organizationName || item.organizationId || "소속 확인 필요"} · ${item.entityId}`;
+  const editAction = item.kind === "song" && item.exists
+    ? `<button type="button" class="button button-secondary" data-edit-song="${escapeHtml(item.entityId)}">편집 열기</button>`
+    : item.kind === "song"
+      ? `<button type="button" class="button button-secondary" data-create-priority-song="${escapeHtml(item.key)}">빈 레코드 추가</button>`
+      : item.relatedSongIds?.[0]
+        ? `<button type="button" class="button button-secondary" data-edit-song="${escapeHtml(item.relatedSongIds[0])}">연결곡 열기</button>`
+        : "";
+  const publishAction = item.action === "publish"
+    ? `<button type="button" class="button button-primary" data-publish-song="${escapeHtml(item.entityId)}">${item.song?.publication?.status === "changes_pending" ? "재공개" : "공개"}</button>`
+    : "";
+  const promptAction = item.action === "complete"
+    ? ""
+    : `<button type="button" class="button button-ghost priority-copy-button" data-copy-priority-prompt="${escapeHtml(item.key)}">${icons.copy}ChatGPT 요청 복사</button>`;
+  return `
+    <li class="priority-item ${item.action === "complete" ? "is-complete" : ""}" data-priority-item="${escapeHtml(item.key)}">
+      <div class="priority-rank"><strong>${item.rank}</strong><span>${escapeHtml(item.code)}</span></div>
+      <div class="priority-item-main">
+        <div class="priority-item-heading">
+          <div class="priority-item-title">
+            <div class="priority-item-pills"><span class="pill priority-code">${escapeHtml(item.groupLabel)}</span>${item.sideLabels.map((label) => `<span class="pill gray">${escapeHtml(label)}</span>`).join("")}<span class="pill ${escapeHtml(item.tone)}">${escapeHtml(item.actionLabel)}</span></div>
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(detail)}</p>
+          </div>
+          <div class="priority-item-actions">${promptAction}${editAction}${publishAction}</div>
+        </div>
+        <div class="priority-task-grid">
+          <article><span class="priority-task-owner is-ai">ChatGPT</span><p>${escapeHtml(item.chatgptTask)}</p></article>
+          <article><span class="priority-task-owner is-user">나</span><p>${escapeHtml(item.userTask)}</p></article>
+        </div>
+        ${item.gaps.length ? `<div class="priority-gaps"><span>확인 항목</span>${item.gaps.map((gap) => `<small>${escapeHtml(gap)}</small>`).join("")}</div>` : ""}
+      </div>
+    </li>`;
 }
 
 function metricCard(label, value, color, icon) {
@@ -396,7 +652,7 @@ function renderSongsView() {
   viewRoot.innerHTML = `
     ${pageHeader(
       "응원가",
-      "작업 라벨을 자유롭게 바꾸고 AI 수집·작성 작업을 필요한 만큼 반복해요.",
+      "검수를 마친 revision을 공개하면 로컬 사이트용 릴리스와 카탈로그가 함께 갱신돼요.",
       `<button type="button" class="button button-secondary" data-open-import>${icons.upload}목록 추가</button><button type="button" class="button button-primary" data-create-song>${icons.plus}새 응원가</button>`,
     )}
     <section class="data-card">
@@ -420,17 +676,18 @@ function renderSongsView() {
         </div>
       </div>
       <div class="table-scroll">
-        <table class="data-table song-data-table">
-          <colgroup><col style="width:4%"><col style="width:22%"><col style="width:16%"><col style="width:11%"><col style="width:13%"><col style="width:10%"><col style="width:7%"><col style="width:11%"><col style="width:6%"></colgroup>
-          <thead><tr><th><input id="song-select-visible" class="selection-checkbox" type="checkbox" aria-label="현재 표시된 응원가 모두 선택" /></th><th>응원가</th><th>대학·구단</th><th>조사 범위</th><th>작업 라벨</th><th>AI 작업</th><th>영상</th><th>최근 수정</th><th><span class="sr-only">작업</span></th></tr></thead>
+        <table class="data-table song-data-table" style="--song-title-column-width:${songTitleColumnWidth}px">
+          <colgroup><col class="song-select-column"><col class="song-title-column"><col class="song-organization-column"><col class="song-scope-column"><col class="song-stage-column"><col class="song-publication-column"><col class="song-job-column"><col class="song-video-column"><col class="song-updated-column"><col class="song-actions-column"></colgroup>
+          <thead><tr><th><input id="song-select-visible" class="selection-checkbox" type="checkbox" aria-label="현재 표시된 응원가 모두 선택" /></th><th class="song-title-header"><span>응원가</span><button type="button" class="column-resizer" data-song-title-resizer aria-label="응원가 제목 열 너비 조절" aria-valuemin="${SONG_TITLE_COLUMN_MIN_WIDTH}" aria-valuemax="${SONG_TITLE_COLUMN_MAX_WIDTH}" aria-valuenow="${songTitleColumnWidth}" title="드래그해 제목 열 너비 조절 · 더블클릭해 초기화"></button></th><th>대학·구단</th><th>조사 범위</th><th>작업 라벨</th><th>사이트 공개</th><th>AI 작업</th><th>영상</th><th>최근 수정</th><th><span class="sr-only">작업</span></th></tr></thead>
           <tbody id="song-table-body">
             ${database.songs.map((song) => songRow(song)).join("")}
-            <tr id="song-empty-row" hidden><td colspan="9"><div class="empty-table"><span class="empty-table-icon">♪</span><strong>조건에 맞는 응원가가 없어요</strong><p>필터를 바꾸거나 새 응원가를 추가해 보세요.</p></div></td></tr>
+            <tr id="song-empty-row" hidden><td colspan="10"><div class="empty-table"><span class="empty-table-icon">♪</span><strong>조건에 맞는 응원가가 없어요</strong><p>필터를 바꾸거나 새 응원가를 추가해 보세요.</p></div></td></tr>
           </tbody>
         </table>
       </div>
     </section>`;
   applySongFilters();
+  attachSongTitleColumnResizer();
 }
 
 function songRow(song) {
@@ -439,18 +696,29 @@ function songRow(song) {
   const latestJob = latestJobForSong(song.id);
   const jobStatus = latestJob?.status ?? "none";
   const jobColor = { queued: "orange", running: "blue", completed: "green", stale: "red", none: "gray" }[jobStatus];
+  const publication = publicationCell(song);
   return `
     <tr class="row-clickable ${selectedSongIds.has(song.id) ? "is-selected" : ""}" data-song-row="${escapeHtml(song.id)}" tabindex="0">
       <td><input class="selection-checkbox" data-select-song="${escapeHtml(song.id)}" type="checkbox" aria-label="${escapeHtml(song.title)} 선택" ${selectedSongIds.has(song.id) ? "checked" : ""} /></td>
-      <td><div class="entity-primary"><span class="entity-avatar song-avatar">♪</span><div class="entity-primary-copy"><strong>${escapeHtml(song.title)}</strong><small>${escapeHtml(song.aliases?.join(", ") || song.id)}</small></div></div></td>
+      <td><div class="entity-primary song-title-primary"><div class="entity-primary-copy"><strong>${escapeHtml(song.title)}</strong><small>${escapeHtml(song.aliases?.join(", ") || song.id)}</small></div></div></td>
       <td><div class="entity-primary">${organization ? organizationAvatar(organization, "entity-avatar") : ""}<div class="entity-primary-copy"><strong>${escapeHtml(organization?.name ?? "알 수 없음")}</strong><small>${escapeHtml(organization?.abbreviation ?? song.organizationId)}</small></div></div></td>
       <td><span class="pill ${scopeColor}">${escapeHtml(SCOPE_LABELS[song.scopeStatus])}</span></td>
       <td><select class="inline-stage-select" data-inline-song-stage="${escapeHtml(song.id)}" aria-label="${escapeHtml(song.title)} 작업 라벨">${selectOptions(STAGE_LABELS, song.workflowStage)}</select></td>
+      <td>${publication}</td>
       <td><span class="pill ${jobColor}">${escapeHtml(JOB_STATUS_LABELS[jobStatus])}</span></td>
-      <td><strong>${song.videos?.length ?? 0}</strong> / 5</td>
-      <td><div class="stage-cell"><span>${escapeHtml(formatDate(song.updatedAt))}</span><small>rev ${song.revision}${song.isPublished ? " · 정본" : ""}</small></div></td>
+      <td>${song.videos?.length ? `<strong>${song.videos.length}개</strong>` : "미등록"}</td>
+      <td><div class="stage-cell"><span>${escapeHtml(formatDate(song.updatedAt))}</span><small>rev ${song.revision}</small></div></td>
       <td><div class="row-actions"><button type="button" class="table-action" data-edit-song="${escapeHtml(song.id)}" aria-label="${escapeHtml(song.title)} 수정">${icons.edit}</button><button type="button" class="table-action is-danger" data-delete-song="${escapeHtml(song.id)}" aria-label="${escapeHtml(song.title)} 삭제">${icons.trash}</button></div></td>
     </tr>`;
+}
+
+function publicationCell(song) {
+  const status = song.publication?.status ?? "unpublished";
+  const color = { unpublished: "gray", current: "green", changes_pending: "orange" }[status] ?? "gray";
+  const action = status === "changes_pending"
+    ? `<button type="button" class="publication-action" data-publish-song="${escapeHtml(song.id)}">재공개</button>`
+    : "";
+  return `<div class="publication-cell"><span class="pill ${color}">${escapeHtml(PUBLICATION_LABELS[status] ?? status)}</span>${action}</div>`;
 }
 
 function selectOptions(labels, selected) {
@@ -530,6 +798,64 @@ async function bulkUpdateSongs(patch, label) {
     toast(`${items.length}곡을 '${label}'로 바꿨어요.`);
   } catch (error) {
     showError(error);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function publishSongIds(ids, { confirm = true, reopenDrawer = false } = {}) {
+  const songs = ids.map(songById).filter(Boolean);
+  if (songs.length === 0 || busy) return false;
+  if (confirm) {
+    const confirmed = await askConfirm({
+      title: songs.length === 1 ? `${songs[0].title}을 사이트에 공개할까요?` : `${songs.length}곡을 사이트에 공개할까요?`,
+      message: "현재 revision으로 불변 릴리스를 만들고 로컬 테스트 사이트의 공개 카탈로그를 갱신합니다. 운영 배포는 실행하지 않습니다.",
+      confirmLabel: songs.some((song) => song.publication?.status === "changes_pending") ? "수정본 공개" : "사이트에 공개",
+      danger: false,
+    });
+    if (!confirmed) return false;
+  }
+  setBusy(true, "사이트 데이터 반영 중");
+  try {
+    const result = await api("/api/songs/bulk?action=publish", {
+      method: "POST",
+      body: { items: songs.map(({ id, revision }) => ({ id, expectedRevision: revision })) },
+    });
+    await loadState({ render: !reopenDrawer });
+    if (reopenDrawer && songs.length === 1) openSongDrawer(songs[0].id);
+    toast(`${songs.length}곡을 로컬 사이트에 반영했어요. · ${result.release.releaseId}`);
+    return true;
+  } catch (error) {
+    showError(error);
+    return false;
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function unpublishSongIds(ids, { reopenDrawer = false } = {}) {
+  const songs = ids.map(songById).filter(Boolean);
+  if (songs.length === 0 || busy) return false;
+  const confirmed = await askConfirm({
+    title: songs.length === 1 ? `${songs[0].title}의 공개를 내릴까요?` : `${songs.length}곡의 공개를 내릴까요?`,
+    message: "새 로컬 릴리스에서 선택한 곡을 제외합니다. 이전 릴리스 파일은 기록으로 남고 운영 배포는 실행하지 않습니다.",
+    confirmLabel: "공개 내리기",
+    danger: true,
+  });
+  if (!confirmed) return false;
+  setBusy(true, "공개 내리는 중");
+  try {
+    const result = await api("/api/songs/bulk?action=unpublish", {
+      method: "POST",
+      body: { items: songs.map(({ id, revision }) => ({ id, expectedRevision: revision })) },
+    });
+    await loadState({ render: !reopenDrawer });
+    if (reopenDrawer && songs.length === 1) openSongDrawer(songs[0].id);
+    toast(`${songs.length}곡을 로컬 사이트에서 내렸어요. · ${result.release.releaseId}`);
+    return true;
+  } catch (error) {
+    showError(error);
+    return false;
   } finally {
     setBusy(false);
   }
@@ -678,27 +1004,39 @@ function updateOrganizationPreview() {
   document.querySelector("#organization-preview-meta").textContent = `${type}${region ? ` · ${region}` : ""}`;
 }
 
-function openSongDrawer(id = null, defaultOrganizationId = null) {
+function openSongDrawer(id = null, defaultOrganizationId = null, seed = null) {
   const song = id ? songById(id) : null;
   const organizationId = song?.organizationId ?? defaultOrganizationId ?? (filters.songOrganization !== "all" ? filters.songOrganization : database.organizations[0]?.id);
   drawerOpener = document.activeElement;
-  drawerState = { type: "song", mode: song ? "edit" : "create", id, dirty: false, revision: song?.revision ?? null };
+  drawerState = {
+    type: "song",
+    mode: song ? "edit" : "create",
+    id,
+    dirty: false,
+    revision: song?.revision ?? null,
+    initialWorkflowStage: song?.workflowStage ?? null,
+    draftKey: `cheers-song-draft:${song?.id ?? seed?.id ?? `new-${organizationId}`}`,
+    nextSongId: nextEditableSongId(id),
+  };
   drawerEyebrow.textContent = song ? "CHEER SONG ROW" : "NEW CHEER SONG";
   drawerTitle.textContent = song ? song.title : "응원가 추가";
   drawerSubtitle.textContent = song ? `${song.id} · revision ${song.revision}` : "새 응원가 행을 만들어요";
   deleteEntityButton.hidden = !song;
-  drawerBody.innerHTML = songForm(song, organizationId);
+  drawerBody.innerHTML = songForm(song, organizationId, seed);
+  setupSongEditor(song ? "description" : "settings");
   showDrawer();
+  offerSongDraft();
 }
 
-function songForm(song, organizationId) {
+function songForm(song, organizationId, seed = null) {
+  const existing = Boolean(song && drawerState?.mode !== "create");
   const value = song ?? {
-    id: "",
+    id: seed?.id ?? "",
     organizationId,
     discoveredBy: "user",
     scopeStatus: "target",
     workflowStage: "listed",
-    title: "",
+    title: seed?.title ?? "",
     aliases: [],
     symbolicLines: ["", ""],
     descriptionText: "",
@@ -714,7 +1052,7 @@ function songForm(song, organizationId) {
     <section class="form-section">
       <header class="form-section-header"><div><h3>기본 정보</h3><p>응원가를 식별하고 어느 구단에 속하는지 정해요.</p></div></header>
       <div class="form-grid">
-        <label class="field field-wide"><span>데이터 ID <small>생성 후 변경할 수 없음</small></span><input name="id" value="${escapeHtml(value.id)}" ${song ? "readonly" : 'placeholder="비워두면 자동 생성" pattern="[a-z0-9]+(?:-[a-z0-9]+)*"'} /></label>
+        <label class="field field-wide"><span>데이터 ID <small>생성 후 변경할 수 없음</small></span><input name="id" value="${escapeHtml(value.id)}" ${existing ? "readonly" : 'placeholder="비워두면 자동 생성" pattern="[a-z0-9]+(?:-[a-z0-9]+)*"'} /></label>
         <label class="field field-wide"><span>곡 제목</span><input name="title" value="${escapeHtml(value.title)}" required maxlength="200" /></label>
         <label class="field field-wide"><span>대학·구단</span><select name="organizationId" required>${database.organizations.map((organization) => `<option value="${escapeHtml(organization.id)}" ${value.organizationId === organization.id ? "selected" : ""}>${escapeHtml(organization.name)}</option>`).join("")}</select></label>
         <label class="field field-wide"><span>별칭 <small>쉼표 또는 줄바꿈으로 구분</small></span><input name="aliases" value="${escapeHtml(value.aliases?.join(", ") ?? "")}" /></label>
@@ -730,6 +1068,7 @@ function songForm(song, organizationId) {
         <label class="field"><span>작업 라벨</span><select name="workflowStage">${selectOptions(STAGE_LABELS, value.workflowStage)}</select></label>
       </div>
     </section>
+    ${existing ? publicationSection(value) : ""}
     <section class="form-section">
       <header class="form-section-header"><div><h3>원곡·응원가 관계</h3><p>ID 기준으로 원곡 계보를 연결해요. 비워둘 수 있어요.</p></div></header>
       <div class="form-grid">
@@ -738,12 +1077,12 @@ function songForm(song, organizationId) {
         <label class="field"><span>원본 응원가 ID</span><input name="sourceCheerSongId" value="${escapeHtml(relationship("source-cheer-song")[0] ?? "")}" /></label>
       </div>
     </section>
-    <section class="form-section">
+    <section class="form-section" data-song-panel="description">
       <header class="form-section-header"><div><h3>소개·사용 맥락·TMI</h3><p>출처 없이 작성할 수 있고, 필요할 때만 <code>[* 주석]</code>을 넣어요.</p></div><button type="button" class="button button-ghost" data-insert-note>[* 주석] 넣기</button></header>
       <label class="field"><span>공개 본문</span><textarea id="description-input" name="descriptionText" rows="14" maxlength="60000" placeholder="AI 초안을 검수하고 자유롭게 고치는 공간">${escapeHtml(value.descriptionText)}</textarea><p class="field-help">예: 흥미로운 이야기.[* 원문 출처: https://example.com]</p></label>
     </section>
-    ${song ? researchSection(value, latestJob) : ""}
-    <section class="form-section">
+    ${existing ? researchSection(value, latestJob) : ""}
+    <section class="form-section" data-song-panel="lyrics">
       <header class="form-section-header"><div><h3>가사</h3><p>한 줄씩 입력해요. 공개 화면에서는 처음 두 줄만 먼저 보여요.</p></div></header>
       <label class="field"><span>전체 가사</span><textarea name="lyrics" rows="9">${escapeHtml(value.lyrics?.lines?.join("\n") ?? "")}</textarea></label>
     </section>
@@ -751,9 +1090,33 @@ function songForm(song, organizationId) {
       <header class="form-section-header"><div><h3>간단 정보</h3><p>세 항목까지 표시해요. 첫 라벨은 사용 시작으로 고정돼요.</p></div></header>
       <div class="fact-editor-grid">${Array.from({ length: 3 }, (_, index) => factRow(value.quickFacts?.[index], index)).join("")}</div>
     </section>
-    <section class="form-section">
-      <header class="form-section-header"><div><h3>영상</h3><p>사용자가 고른 순서대로 다섯 슬롯을 관리해요.</p></div></header>
-      <div class="video-editor-list">${Array.from({ length: 5 }, (_, index) => videoSlot(value.videos?.find((video) => video.rank === index + 1), index)).join("")}</div>
+    <section class="form-section" data-song-panel="videos">
+      <header class="form-section-header"><div><h3>대표 영상</h3><p>떼창과 분위기가 잘 드러나는 영상 하나를 골라 주세요. 추가 영상은 선택이에요.</p></div></header>
+      <div class="video-editor-list">${Array.from({ length: Math.max(1, ...(value.videos ?? []).map((video) => video.rank)) }, (_, index) => videoSlot(value.videos?.find((video) => video.rank === index + 1), index)).join("")}</div>
+      <button type="button" class="button button-secondary add-song-video" data-add-song-video>추가 영상 넣기</button>
+    </section>`;
+}
+
+function publicationSection(song) {
+  const status = song.publication?.status ?? "unpublished";
+  const isPublic = status !== "unpublished";
+  const statusCopy = {
+    unpublished: "아직 로컬 사이트 카탈로그에 포함되지 않았어요.",
+    current: "현재 편집 내용과 로컬 사이트에 반영된 내용이 같아요.",
+    changes_pending: "공개한 뒤 수정된 내용이 있어요. 사이트에는 이전 공개본이 유지되고 있어요.",
+  }[status];
+  const publishLabel = status === "changes_pending" ? "수정본 재공개" : "사이트에 공개";
+  return `
+    <section class="form-section publication-panel">
+      <header class="form-section-header">
+        <div><h3>사이트 공개</h3><p>${escapeHtml(statusCopy)}</p></div>
+        <span class="pill ${{ unpublished: "gray", current: "green", changes_pending: "orange" }[status]}">${escapeHtml(PUBLICATION_LABELS[status])}</span>
+      </header>
+      <div class="publication-panel-actions">
+        ${status !== "current" ? `<button type="button" class="button button-primary" data-publish-drawer-song>${icons.upload}${escapeHtml(publishLabel)}</button>` : ""}
+        ${isPublic ? `<button type="button" class="button button-secondary" data-unpublish-drawer-song>공개 내리기</button>` : ""}
+        <small>이 동작은 로컬 릴리스와 사이트 데이터만 갱신하며 운영 배포는 실행하지 않아요.</small>
+      </div>
     </section>`;
 }
 
@@ -775,15 +1138,180 @@ function factRow(fact = {}, index) {
 function videoSlot(video = {}, index) {
   const rank = index + 1;
   return `
-    <details class="video-editor-slot" data-video-slot="${rank}" ${rank <= 2 ? "open" : ""}>
+    <details class="video-editor-slot" data-video-slot="${rank}" data-source-id="${escapeHtml(extractYouTubeVideoId(video.sourceUrl) ?? "")}" ${rank === 1 ? "open" : ""}>
       <summary><span class="video-slot-title"><span class="video-rank">${rank}</span>${escapeHtml(VIDEO_LABELS[index])}</span><span class="video-slot-status">${video.videoId ? "영상 입력됨" : "비어 있음"}</span></summary>
       <div class="video-slot-fields">
-        <label class="field field-wide"><span>YouTube URL</span><input data-video-field="sourceUrl" value="${escapeHtml(video.sourceUrl ?? "")}" placeholder="https://www.youtube.com/watch?v=..." /></label>
+        <label class="field field-wide"><span>YouTube URL</span><input data-video-field="sourceUrl" value="${escapeHtml(video.sourceUrl ?? "")}" placeholder="YouTube 링크를 붙여 넣으면 정보를 불러와요" /></label>
+        <div class="field-wide video-lookup-row"><span data-video-message role="status"></span><button type="button" class="button button-ghost" data-fetch-video>정보 불러오기</button></div>
+        <div class="field-wide" data-video-preview></div>
         <label class="field"><span>영상 제목</span><input data-video-field="title" value="${escapeHtml(video.title ?? "")}" /></label>
         <label class="field"><span>채널명</span><input data-video-field="channelName" value="${escapeHtml(video.channelName ?? "")}" /></label>
         <label class="field field-wide"><span>공개 출처 문구 <small>선택</small></span><input data-video-field="attributionText" value="${escapeHtml(video.attributionText ?? "")}" /></label>
       </div>
     </details>`;
+}
+
+function nextEditableSongId(id) {
+  const ids = currentView === "priorities"
+    ? filteredPriorityItems(buildPriorityItems(database)).filter((item) => item.kind === "song" && item.exists).map((item) => item.entityId)
+    : [...viewRoot.querySelectorAll("[data-song-row]")].filter((row) => !row.hidden).map((row) => row.dataset.songRow);
+  const unique = [...new Set(ids)];
+  const index = unique.indexOf(id);
+  return index >= 0 ? unique[index + 1] ?? null : null;
+}
+
+function setupSongEditor(tab) {
+  const settings = document.createElement("div");
+  settings.dataset.songPanel = "settings";
+  [...drawerBody.children].filter((section) => !section.dataset.songPanel).forEach((section) => settings.append(section));
+  drawerBody.append(settings);
+  drawerBody.insertAdjacentHTML("afterbegin", `
+    <div class="song-editor-tabs" role="tablist" aria-label="응원가 편집 항목">
+      ${[["description", "설명"], ["lyrics", "가사"], ["videos", "영상"], ["settings", "기본·관리"]].map(([key, label]) => `<button type="button" id="song-tab-${key}" role="tab" data-song-tab="${key}" aria-controls="song-panel-${key}">${label}</button>`).join("")}
+    </div>
+    <div id="song-draft-notice" class="song-draft-notice" hidden></div>
+    <p id="song-draft-status" class="song-draft-status" role="status">붙여 넣은 원고를 그대로 저장해요.</p>`);
+  for (const panel of drawerBody.querySelectorAll("[data-song-panel]")) {
+    panel.id = `song-panel-${panel.dataset.songPanel}`;
+    panel.setAttribute("role", "tabpanel");
+    panel.setAttribute("aria-labelledby", `song-tab-${panel.dataset.songPanel}`);
+  }
+  for (const kind of ["description", "lyrics"]) {
+    drawerBody.querySelector(`[data-song-panel="${kind}"]`).insertAdjacentHTML("beforeend", `<details class="editor-preview"><summary>공개 화면 미리보기</summary><div class="editor-reading" data-text-preview="${kind}"></div></details>`);
+  }
+  setSongTab(tab);
+  updateSongPreviews();
+  drawerBody.querySelectorAll("[data-video-slot]").forEach(updateVideoPreview);
+  updateAddVideoButton();
+}
+
+function setSongTab(tab, focus = false) {
+  if (!drawerBody.querySelector(`[data-song-tab="${tab}"]`)) return;
+  drawerState.tab = tab;
+  drawerBody.querySelectorAll("[data-song-tab]").forEach((button) => {
+    const selected = button.dataset.songTab === tab;
+    button.setAttribute("aria-selected", String(selected));
+    button.tabIndex = selected ? 0 : -1;
+    if (selected && focus) button.focus();
+  });
+  drawerBody.querySelectorAll("[data-song-panel]").forEach((panel) => { panel.hidden = panel.dataset.songPanel !== tab; });
+  drawerBody.scrollTop = 0;
+}
+
+function updateSongPreviews() {
+  const description = entityForm.elements.namedItem("descriptionText");
+  const lyrics = entityForm.elements.namedItem("lyrics");
+  if (description) drawerBody.querySelector('[data-text-preview="description"]').innerHTML = descriptionPreview(description.value);
+  if (lyrics) drawerBody.querySelector('[data-text-preview="lyrics"]').innerHTML = lyricsPreview(lyrics.value);
+}
+
+function currentSongDraft() {
+  try { return readSongDraft(window.localStorage, drawerState.draftKey); } catch { return null; }
+}
+
+function offerSongDraft() {
+  const draft = currentSongDraft();
+  if (!draft) return;
+  drawerState.pendingDraft = draft;
+  const restorable = canRestoreSongDraft(draft, drawerState.revision);
+  const notice = drawerBody.querySelector("#song-draft-notice");
+  notice.hidden = false;
+  notice.innerHTML = `<div><strong>저장하지 않은 임시본이 있어요.</strong><p>${restorable ? "이 브라우저에서 작성하던 내용을 이어갈 수 있어요." : "그동안 저장된 곡이 변경됐어요. 이전 임시본에서 필요한 내용을 복사해 주세요."}</p></div><div class="draft-actions">${restorable ? '<button type="button" class="button button-secondary" data-restore-song-draft>이어서 편집</button>' : ""}<button type="button" class="button button-ghost" data-view-song-draft>임시본 보기</button><button type="button" class="button button-ghost" data-discard-song-draft>임시본 지우기</button></div><label class="field draft-source" hidden><span>이전 작업 내용</span><textarea rows="14" readonly>${escapeHtml(draftText(draft))}</textarea></label>`;
+}
+
+function persistSongDraft() {
+  window.clearTimeout(draftTimer);
+  if (drawerState?.type !== "song" || !drawerState.dirty || drawerState.pendingDraft) return false;
+  const status = drawerBody.querySelector("#song-draft-status");
+  try {
+    window.localStorage.setItem(drawerState.draftKey, JSON.stringify({
+      version: 1, revision: drawerState.revision, savedAt: new Date().toISOString(), tab: drawerState.tab, form: captureSong(),
+    }));
+    status.textContent = "이 브라우저에 임시 보관됨 · 곡에 반영하려면 저장해 주세요.";
+    return true;
+  } catch {
+    status.textContent = "브라우저에 임시 보관하지 못했어요. 창을 닫기 전에 저장해 주세요.";
+    return false;
+  }
+}
+
+function clearSongDraft() {
+  window.clearTimeout(draftTimer);
+  try { window.localStorage.removeItem(drawerState.draftKey); } catch { /* Saving still works without local storage. */ }
+  drawerState.pendingDraft = null;
+  const notice = drawerBody.querySelector("#song-draft-notice");
+  if (notice) notice.hidden = true;
+}
+
+function restoreSongDraft() {
+  const draft = drawerState.pendingDraft;
+  if (!canRestoreSongDraft(draft, drawerState.revision)) return;
+  const song = songById(drawerState.id);
+  drawerBody.innerHTML = songForm({ ...song, ...draft.form }, draft.form.organizationId);
+  drawerState.pendingDraft = null;
+  drawerState.dirty = true;
+  setupSongEditor(draft.tab ?? "description");
+  persistSongDraft();
+}
+
+function updateAddVideoButton() {
+  const button = drawerBody.querySelector("[data-add-song-video]");
+  if (button) button.hidden = drawerBody.querySelectorAll("[data-video-slot]").length >= 5;
+}
+
+function updateVideoPreview(slot) {
+  const url = slot.querySelector('[data-video-field="sourceUrl"]').value.trim();
+  const id = extractYouTubeVideoId(url);
+  const preview = slot.querySelector("[data-video-preview]");
+  slot.querySelector(".video-slot-status").textContent = id ? "영상 입력됨" : "비어 있음";
+  if (!id) { preview.innerHTML = ""; return; }
+  preview.innerHTML = `<div class="song-video-card"><button type="button" class="song-video-play" data-play-song-video aria-label="선택한 영상 재생"><img src="https://i.ytimg.com/vi/${id}/hqdefault.jpg" alt="선택한 영상 썸네일" loading="lazy" /><span>▶ 재생</span></button><a href="https://www.youtube.com/watch?v=${id}&t=${youtubeStartSeconds(url)}s" target="_blank" rel="noreferrer">YouTube에서 확인 ↗</a></div>`;
+}
+
+function queueVideoMetadata(slot) {
+  window.clearTimeout(videoTimers.get(slot));
+  const sourceUrl = slot.querySelector('[data-video-field="sourceUrl"]').value.trim();
+  const id = extractYouTubeVideoId(sourceUrl);
+  // Invalidating the token also prevents an older request from filling a new URL.
+  slot.requestToken = {};
+  if (id && slot.dataset.sourceId && slot.dataset.sourceId !== id) {
+    for (const name of ["title", "channelName", "attributionText"]) slot.querySelector(`[data-video-field="${name}"]`).value = "";
+  }
+  if (id) slot.dataset.sourceId = id;
+  slot.dataset.lookupNeeded = id ? "true" : "false";
+  slot.querySelector("[data-video-message]").textContent = sourceUrl && !id ? "YouTube 영상 주소를 확인해 주세요." : "";
+  updateVideoPreview(slot);
+  if (id) videoTimers.set(slot, window.setTimeout(() => lookupVideoMetadata(slot), 500));
+}
+
+function lookupVideoMetadata(slot) {
+  window.clearTimeout(videoTimers.get(slot));
+  if (!slot.isConnected || drawerState?.type !== "song") return Promise.resolve();
+  const url = slot.querySelector('[data-video-field="sourceUrl"]').value.trim();
+  const id = extractYouTubeVideoId(url);
+  if (!id) return Promise.resolve();
+  const session = drawerState;
+  const token = {};
+  slot.requestToken = token;
+  slot.dataset.lookupNeeded = "false";
+  const message = slot.querySelector("[data-video-message]");
+  message.textContent = "영상 정보를 불러오는 중…";
+  const fields = ["title", "channelName"].map((name) => ({ name, input: slot.querySelector(`[data-video-field="${name}"]`) }));
+  const task = (async () => {
+    try {
+      const metadata = await api(`/api/youtube-metadata?url=${encodeURIComponent(url)}`);
+      if (!slot.isConnected || drawerState !== session || slot.requestToken !== token) return;
+      for (const { name, input } of fields) if (!input.value.trim()) input.value = metadata[name];
+      message.textContent = "영상 정보를 불러왔어요. 제목과 채널명은 수정할 수 있어요.";
+      drawerState.dirty = true;
+      persistSongDraft();
+    } catch (error) {
+      if (slot.isConnected && drawerState === session && slot.requestToken === token) message.textContent = error.message;
+    }
+  })();
+  videoRequests.add(task);
+  task.finally(() => videoRequests.delete(task));
+  return task;
 }
 
 function openReelDrawer(id = null) {
@@ -919,14 +1447,25 @@ function updateReelPreview() {
 }
 
 function showDrawer() {
+  const isSong = drawerState?.type === "song";
+  drawerLayer.classList.toggle("is-song-editor", isSong);
+  saveNextSongButton.hidden = !isSong;
+  saveNextSongButton.disabled = busy || !drawerState?.nextSongId;
+  saveNextSongButton.title = drawerState?.nextSongId ? `다음: ${songById(drawerState.nextSongId)?.title ?? ""}` : "현재 목록의 마지막 곡이에요";
+  saveEntityButton.textContent = isSong ? "저장하고 계속" : "저장";
+  cancelEntityButton.textContent = isSong ? "닫기" : "취소";
   setDrawerExpanded(false);
   drawerLayer.hidden = false;
   document.body.style.overflow = "hidden";
-  window.setTimeout(() => drawerBody.querySelector("input:not([readonly]), select, textarea")?.focus(), 30);
+  window.setTimeout(() => [...drawerBody.querySelectorAll("input:not([readonly]), select, textarea")].find((field) => field.getClientRects().length > 0)?.focus(), 30);
 }
 
 async function attemptCloseDrawer() {
-  if (!drawerState) return;
+  if (!drawerState || busy) return;
+  if (drawerState.type === "song" && drawerState.dirty && persistSongDraft()) {
+    closeDrawer();
+    return;
+  }
   if (drawerState.dirty) {
     const confirmed = await askConfirm({
       title: "변경사항을 버릴까요?",
@@ -940,6 +1479,7 @@ async function attemptCloseDrawer() {
 }
 
 function closeDrawer() {
+  window.clearTimeout(draftTimer);
   setDrawerExpanded(false);
   drawerLayer.hidden = true;
   document.body.style.overflow = "";
@@ -1039,8 +1579,13 @@ function captureReel() {
   };
 }
 
-async function saveDrawerEntity() {
+async function saveDrawerEntity({ next = false } = {}) {
   if (!drawerState || busy) return;
+  const isSong = drawerState.type === "song";
+  const nextSongId = drawerState.nextSongId;
+  const tab = drawerState.tab;
+  const expanded = drawerLayer.classList.contains("is-expanded");
+  let savedSongId;
   setBusy(true, "저장 중");
   saveEntityButton.textContent = "저장 중…";
   try {
@@ -1057,16 +1602,32 @@ async function saveDrawerEntity() {
         toast("대학·구단 정보를 저장했어요.");
       }
     } else if (drawerState.type === "song") {
+      for (const slot of drawerBody.querySelectorAll('[data-video-slot][data-lookup-needed="true"]')) lookupVideoMetadata(slot);
+      await Promise.allSettled([...videoRequests]);
       const song = captureSong();
+      let savedSong;
       if (drawerState.mode === "create") {
-        await api("/api/songs", { method: "POST", body: { song } });
+        const result = await api("/api/songs", { method: "POST", body: { song } });
+        savedSong = result.song;
         toast("새 응원가를 추가했어요.");
       } else {
-        await api(`/api/songs/${encodeURIComponent(drawerState.id)}`, {
+        const result = await api(`/api/songs/${encodeURIComponent(drawerState.id)}`, {
           method: "PUT",
           body: { song, expectedRevision: drawerState.revision },
         });
+        savedSong = result.song;
         toast("응원가 정보를 저장했어요.");
+      }
+      savedSongId = savedSong.id;
+      drawerState.revision = savedSong.revision;
+      const newlyMarkedPublic = song.workflowStage === "published"
+        && (drawerState.mode === "create" || drawerState.initialWorkflowStage !== "published");
+      if (newlyMarkedPublic) {
+        const result = await api("/api/songs/bulk?action=publish", {
+          method: "POST",
+          body: { items: [{ id: savedSong.id, expectedRevision: savedSong.revision }] },
+        });
+        toast(`로컬 사이트에도 반영했어요. · ${result.release.releaseId}`);
       }
     } else {
       const reel = captureReel();
@@ -1081,13 +1642,22 @@ async function saveDrawerEntity() {
         toast("릴스 프로젝트를 저장했어요.");
       }
     }
+    if (isSong && !drawerState.pendingDraft) clearSongDraft();
     drawerState.dirty = false;
-    closeDrawer();
-    await loadState();
+    if (isSong) {
+      await loadState();
+      openSongDrawer(next && nextSongId && songById(nextSongId) ? nextSongId : savedSongId);
+      if (!next) setSongTab(tab);
+      setDrawerExpanded(expanded);
+      drawerBody.querySelector("#song-draft-status").textContent = next ? "다음 곡을 편집하고 있어요." : "저장 완료 · 계속 편집할 수 있어요.";
+    } else {
+      closeDrawer();
+      await loadState();
+    }
   } catch (error) {
     showError(error);
   } finally {
-    saveEntityButton.textContent = "저장";
+    saveEntityButton.textContent = drawerState?.type === "song" ? "저장하고 계속" : "저장";
     setBusy(false);
   }
 }
@@ -1284,6 +1854,11 @@ async function requestEnrichment() {
 async function updateSongStage(id, workflowStage, select) {
   const song = songById(id);
   if (!song || busy || song.workflowStage === workflowStage) return;
+  if (workflowStage === "published") {
+    const published = await publishSongIds([id]);
+    if (!published) select.value = song.workflowStage;
+    return;
+  }
   select.disabled = true;
   setBusy(true, "라벨 변경 중");
   try {
@@ -1323,8 +1898,24 @@ viewRoot.addEventListener("click", (event) => {
   const reelRow = target.closest("[data-reel-row]");
   const linkedOrganization = target.closest("[data-view-songs-organization]");
   const goView = target.closest("[data-go-view]");
+  const publishSongButton = target.closest("[data-publish-song]");
+  const priorityPromptButton = target.closest("[data-copy-priority-prompt]");
+  const nextPriorityButton = target.closest("[data-copy-priority-next]");
+  const createPrioritySongButton = target.closest("[data-create-priority-song]");
 
-  if (createOrganizationButton) openOrganizationDrawer();
+  if (priorityPromptButton || nextPriorityButton) {
+    const items = filteredPriorityItems(buildPriorityItems(database));
+    const item = priorityPromptButton
+      ? buildPriorityItems(database).find(({ key }) => key === priorityPromptButton.dataset.copyPriorityPrompt)
+      : items.find(({ action }) => !["complete", "waiting"].includes(action));
+    if (item) copyText(item.prompt).then(() => toast(`${item.title} 작업 요청을 복사했어요.`)).catch(showError);
+  }
+  else if (createPrioritySongButton) {
+    const item = buildPriorityItems(database).find(({ key }) => key === createPrioritySongButton.dataset.createPrioritySong);
+    if (item) openSongDrawer(null, item.organizationId, { id: item.entityId, title: item.title });
+  }
+  else if (publishSongButton) publishSongIds([publishSongButton.dataset.publishSong]);
+  else if (createOrganizationButton) openOrganizationDrawer();
   else if (createSongButton) openSongDrawer();
   else if (createReelButton) openReelDrawer();
   else if (editOrganizationButton) openOrganizationDrawer(editOrganizationButton.dataset.editOrganization);
@@ -1405,6 +1996,10 @@ viewRoot.addEventListener("change", (event) => {
   if (event.target.id === "song-stage-filter") filters.songStage = event.target.value;
   if (event.target.id === "song-job-filter") filters.songJobStatus = event.target.value;
   if (["song-organization-filter", "song-scope-filter", "song-stage-filter", "song-job-filter"].includes(event.target.id)) applySongFilters();
+  if (event.target.id === "priority-side-filter") filters.prioritySide = event.target.value;
+  if (event.target.id === "priority-group-filter") filters.priorityGroup = event.target.value;
+  if (event.target.id === "priority-status-filter") filters.priorityStatus = event.target.value;
+  if (["priority-side-filter", "priority-group-filter", "priority-status-filter"].includes(event.target.id)) renderPrioritiesView();
   if (event.target.matches("[data-inline-song-stage]")) {
     updateSongStage(event.target.dataset.inlineSongStage, event.target.value, event.target);
   }
@@ -1414,7 +2009,8 @@ viewRoot.addEventListener("change", (event) => {
   if (event.target.id === "bulk-song-stage" && event.target.value) {
     const value = event.target.value;
     event.target.value = "";
-    bulkUpdateSongs({ workflowStage: value }, STAGE_LABELS[value]);
+    if (value === "published") publishSongIds([...selectedSongIds]);
+    else bulkUpdateSongs({ workflowStage: value }, STAGE_LABELS[value]);
   }
   if (event.target.id === "bulk-song-scope" && event.target.value) {
     const value = event.target.value;
@@ -1425,7 +2021,22 @@ viewRoot.addEventListener("change", (event) => {
 
 entityForm.addEventListener("submit", (event) => {
   event.preventDefault();
-  saveDrawerEntity();
+  saveDrawerEntity({ next: event.submitter === saveNextSongButton });
+});
+
+entityForm.addEventListener("invalid", (event) => {
+  const panel = event.target.closest("[data-song-panel]");
+  if (panel) setSongTab(panel.dataset.songPanel);
+}, true);
+
+drawerBody.addEventListener("keydown", (event) => {
+  const tab = event.target.closest("[data-song-tab]");
+  if (!tab || !["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+  event.preventDefault();
+  const tabs = [...drawerBody.querySelectorAll("[data-song-tab]")];
+  const index = tabs.indexOf(tab);
+  const nextIndex = event.key === "Home" ? 0 : event.key === "End" ? tabs.length - 1 : (index + (event.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length;
+  setSongTab(tabs[nextIndex].dataset.songTab, true);
 });
 
 entityForm.addEventListener("input", (event) => {
@@ -1443,6 +2054,12 @@ entityForm.addEventListener("input", (event) => {
     updateOrganizationPreview();
   }
   if (drawerState.type === "reel") updateReelPreview();
+  if (drawerState.type === "song") {
+    if (event.target.matches('[data-video-field="sourceUrl"]')) queueVideoMetadata(event.target.closest("[data-video-slot]"));
+    if (["descriptionText", "lyrics"].includes(event.target.name)) updateSongPreviews();
+    window.clearTimeout(draftTimer);
+    draftTimer = window.setTimeout(persistSongDraft, 250);
+  }
 });
 
 entityForm.addEventListener("change", () => {
@@ -1450,9 +2067,44 @@ entityForm.addEventListener("change", () => {
   drawerState.dirty = true;
   if (drawerState.type === "organization") updateOrganizationPreview();
   if (drawerState.type === "reel") updateReelPreview();
+  if (drawerState.type === "song") persistSongDraft();
 });
 
 drawerBody.addEventListener("click", (event) => {
+  if (busy) return;
+  const songTab = event.target.closest("[data-song-tab]");
+  if (songTab) { setSongTab(songTab.dataset.songTab); return; }
+  const note = event.target.closest("[data-preview-note]");
+  if (note) {
+    const body = note.nextElementSibling;
+    body.hidden = !body.hidden;
+    note.setAttribute("aria-expanded", String(!body.hidden));
+    return;
+  }
+  if (event.target.closest("[data-restore-song-draft]")) { restoreSongDraft(); return; }
+  if (event.target.closest("[data-view-song-draft]")) {
+    drawerBody.querySelector(".draft-source").hidden = false;
+    return;
+  }
+  if (event.target.closest("[data-discard-song-draft]")) { clearSongDraft(); persistSongDraft(); return; }
+  if (event.target.closest("[data-add-song-video]")) {
+    const list = drawerBody.querySelector(".video-editor-list");
+    const count = list.children.length;
+    if (count >= 5) return;
+    list.insertAdjacentHTML("beforeend", videoSlot({}, count));
+    list.lastElementChild.open = true;
+    list.lastElementChild.querySelector("input").focus();
+    updateAddVideoButton();
+    return;
+  }
+  if (event.target.closest("[data-fetch-video]")) { lookupVideoMetadata(event.target.closest("[data-video-slot]")); return; }
+  const playButton = event.target.closest("[data-play-song-video]");
+  if (playButton) {
+    const source = playButton.closest("[data-video-slot]").querySelector('[data-video-field="sourceUrl"]').value.trim();
+    const id = extractYouTubeVideoId(source);
+    if (id) playButton.outerHTML = `<iframe class="song-video-player" src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&playsinline=1&start=${youtubeStartSeconds(source)}" title="선택한 영상 재생" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+    return;
+  }
   if (event.target.closest("[data-add-reel-clip]")) {
     const list = document.querySelector("#reel-clip-list");
     list.querySelector(".reel-empty-clips")?.remove();
@@ -1489,8 +2141,18 @@ drawerBody.addEventListener("click", (event) => {
     input.setRangeText(`[* ${selected || "원문 출처: https://"}]`, start, end, "end");
     input.focus();
     drawerState.dirty = true;
+    updateSongPreviews();
+    persistSongDraft();
   }
   if (event.target.closest("[data-request-enrichment]")) requestEnrichment();
+  if (event.target.closest("[data-publish-drawer-song]")) {
+    if (drawerState?.dirty) toast("사이트에 공개하기 전에 변경 내용을 먼저 저장해 주세요.", "error");
+    else publishSongIds([drawerState.id], { reopenDrawer: true });
+  }
+  if (event.target.closest("[data-unpublish-drawer-song]")) {
+    if (drawerState?.dirty) toast("공개를 내리기 전에 변경 내용을 먼저 저장하거나 취소해 주세요.", "error");
+    else unpublishSongIds([drawerState.id], { reopenDrawer: true });
+  }
   if (event.target.closest("[data-render-reel]")) requestReelRender();
   const linked = event.target.closest("[data-view-linked-songs]");
   if (linked) {
@@ -1536,7 +2198,11 @@ window.addEventListener("hashchange", () => {
 });
 window.addEventListener("beforeunload", (event) => {
   if (!drawerState?.dirty) return;
+  persistSongDraft();
   event.preventDefault();
+});
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") persistSongDraft();
 });
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && !drawerLayer.hidden && !confirmDialog.open && !importDialog.open) {

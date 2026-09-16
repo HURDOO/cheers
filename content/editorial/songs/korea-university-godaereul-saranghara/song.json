@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-godaereul-saranghara",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "고연가 - 고대를 사랑하라",
+    "aliases": [
+      "고연가: 고대를 사랑하라",
+      "고연가(사랑)",
+      "고사랑",
+      "고대를 사랑하라"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "이루마의 피아노곡 `Kiss the Rain` 선율에 학교를 향한 변하지 않는 애정을 얹은 서정형 고연가다. 고려대학교 응원단의 과거 공식 영상은 `2011 정기 고연전 신곡`이라고 명시하고, 2020 공식 영상은 원곡과 곡 구성을 밝힌다. 2022~2026 입실렌티·합동응원·응원OT 표본이 계속되며, 느린 합창과 선창·후창을 통해 경기 상황보다 학교 공동체에 대한 애정을 표현하는 성격이 강하다.\n\n### 현장에서\n\n- 응원OT·입실렌티·합동응원에서 학교를 향한 애정을 느린 대합창으로 확인하는 서정 구간에 사용한다.\n- 2025 입실렌티에서는 `고대를 노래하라`, `고대를 빛내리라`와 3종 세트로 연속 공연됐다.\n- 2026 입실렌티에서는 부단장 턴 후반에 배치되고, 신입생 응원OT에서는 별도의 곡 교육 뒤 실연됐다.\n\n### 더 알아보기\n\n서로 다른 시기 영상 댓글에서 이 곡을 들으면 학창 시절이 떠오르거나 마음이 편안해진다는 졸업생·관객 반응이 반복된다.[* 참고: https://www.youtube.com/watch?v=ZcGwS-YV5ks / https://www.youtube.com/watch?v=XA-5cDl2gVA]\n\n2025 고연가 3종 영상의 제목·해시태그는 세 번째 곡을 `고대를 빛내리라`로 적지만 설명의 연도 목록은 실수로 `고대를 사랑하라(2024)`라고 중복 표기한다. 이를 별도 영상·2024 신곡 설명과 대조해 오기로 판정했다.[* 참고: https://www.youtube.com/watch?v=CMognvKFbHM / https://www.youtube.com/watch?v=EaiDQR_r4U4]\n\n### 추가 확인\n\n2026 입실렌티 현장 제목에서 약칭 ‘고사랑’과 출사표·꿇어라 연세·고래사냥·예예예 뒤 배치를 확인했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=hOFZ_UdQfko]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2011 정기 고연전 신곡"
+      },
+      {
+        "label": "원곡",
+        "value": "이루마 `Kiss the Rain`"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2026 신입생 응원OT와 입실렌티에서 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "yiruma-kiss-the-rain"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.170Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

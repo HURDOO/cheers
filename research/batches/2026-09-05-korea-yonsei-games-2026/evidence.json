@@ -1,0 +1,752 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-09-05-korea-yonsei-games-2026",
+  "checkedAt": "2026-09-05",
+  "status": "second_pass",
+  "rightsNote": "전체 가사는 저장하지 않았다. 영상 후보는 조사 근거일 뿐이며 최종 5개와 순서는 사용자 검토 대상이다.",
+  "items": [
+    {
+      "candidateId": "korea-university-goraesanyang",
+      "summary": "송창식의 대중가요를 함께 부르는 고려대 현장 레퍼토리다. 과거 인벤토리에서는 범용 공연곡으로 제외됐지만 이번 이벤트의 승인된 상세 목록이므로 다시 포함한다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "송창식 ‘고래사냥’",
+          "assessment": "reported",
+          "confidence": "medium",
+          "sourceRefs": ["src-song-whale-bugs", "src-ku-whale-2026"],
+          "notes": "음원 서비스는 송창식의 곡을 확인하고 2026 현장 영상은 같은 제목의 고려대 공연을 확인한다. 응원단의 직접 원곡 크레딧은 추가 확인한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 입실렌티에서 공연",
+          "assessment": "verified",
+          "confidence": "high",
+          "sourceRefs": ["src-ku-whale-2026", "src-koda-ku-whale-2026", "src-ku-whale-2026-ot"],
+          "notes": "입실렌티와 신입생 OT를 포함한 서로 다른 2026 현장 기록에서 반복 확인했다."
+        }
+      ],
+      "videoCandidateRefs": ["src-ku-whale-2026", "src-koda-ku-whale-2026", "src-ku-whale-2026-ot", "src-ku-whale-2026-joint", "src-ku-whale-2022"],
+      "unresolved": ["고려대 레퍼토리로 편입된 정확한 연도와 주체", "KIA 고래사냥과의 관계를 같은 원곡 이상으로 볼 직접 근거", "현행 음원·가사 사용 권리"]
+    },
+    {
+      "candidateId": "korea-university-domangja",
+      "summary": "고려대 응원단 공식 채널이 곡과 동작 교육용 영상을 보존하고 있다. 현행 사용은 아직 2026 자료로 확인하지 못했다.",
+      "claims": [
+        {
+          "field": "officialRepertoireEvidence",
+          "value": "고려대학교 응원단 공식 채널의 온라인 응원 OT 영상",
+          "assessment": "verified",
+          "confidence": "high",
+          "sourceRefs": ["src-ku-domangja-official"]
+        },
+        {
+          "field": "originalSong",
+          "value": "Dschinghis Khan ‘Moskau’",
+          "assessment": "reported",
+          "confidence": "medium",
+          "sourceRefs": ["src-ku-domangja-origin-lead", "src-local-kt-euratchacha"],
+          "notes": "고려대 쪽은 편집형 자료의 주장이고, KT ‘으랏차차’ 심층 초안은 같은 원곡을 별도로 확인한다. 고려대 응원단의 직접 크레딧은 미확인이다."
+        },
+        {
+          "field": "sportsRelationship",
+          "value": "KT 위즈 ‘으랏차차’와 같은 외부 원곡을 공유",
+          "assessment": "reported",
+          "confidence": "medium",
+          "relationKind": "same_original",
+          "sourceRefs": ["src-ku-domangja-origin-lead", "src-local-kt-euratchacha"]
+        }
+      ],
+      "videoCandidateRefs": ["src-ku-domangja-official", "src-ku-domangja-2010"],
+      "unresolved": ["최근 2025~2026 사용 여부", "정확한 도입 연도", "편곡·개사자"]
+    },
+    {
+      "candidateId": "yonsei-university-oh-my-friend",
+      "summary": "2022 아카라카에서 등장한 신곡으로 정리되며, 2026 연세교육방송국의 신입생 응원 OT와 아카라카 기록에서 현행 사용을 직접 확인했다.",
+      "claims": [
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원 OT와 아카라카에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "sourceRefs": ["src-ybs-ot-2026-1", "src-oh-my-friend-2026-field", "src-oh-my-friend-2026-akaraka"]
+        },
+        {
+          "field": "introduction",
+          "value": "2022 아카라카에서 공개된 신곡",
+          "assessment": "reported",
+          "confidence": "high",
+          "sourceRefs": ["src-koda-oh-my-friend-2022", "src-yonsei-cheers-2020s-editorial"],
+          "notes": "2022 현장 영상과 편집형 연혁이 일치한다. ‘최초 공개’는 응원단 공식 공지 원문을 확보하기 전까지 보도됨으로 유지한다."
+        }
+      ],
+      "videoCandidateRefs": ["src-ybs-ot-2026-1", "src-oh-my-friend-2026-field", "src-oh-my-friend-2026-akaraka", "src-oh-my-friend-2024-official", "src-koda-oh-my-friend-2022"],
+      "unresolved": ["작곡·작사·편곡 크레딧", "응원단 공식 최초 공개 공지 원문", "공식 가사·음원 게시 권리"]
+    },
+    {
+      "candidateId": "yonsei-university-cheongchun-mulgyeol",
+      "summary": "2026년 5월 23일 아카라카에서 신곡으로 공개된 최신 앵커 곡이다.",
+      "claims": [
+        {
+          "field": "introduction",
+          "value": "2026-05-23 아카라카를 온누리에에서 신곡으로 공개",
+          "assessment": "reported",
+          "confidence": "high",
+          "sourceRefs": ["src-koda-cheongchun-mulgyeol-2026", "src-cheongchun-mulgyeol-editorial"],
+          "notes": "직접 현장 영상은 행사 날짜와 신곡 표기를 확인하고 편집형 연혁은 최초 공개라고 적는다. 학교·응원단 공식 공지 전에는 최초 공개를 보도됨으로 유지한다."
+        },
+        {
+          "field": "originalSong",
+          "value": "Westlife ‘You Raise Me Up’",
+          "assessment": "reported",
+          "confidence": "medium",
+          "sourceRefs": ["src-cheongchun-mulgyeol-editorial", "src-westlife-you-raise-me-up"],
+          "notes": "원곡 주장은 편집형 문서, 원음 식별은 공식 아티스트 영상이다. 응원단 직접 크레딧을 추가 확인한다."
+        }
+      ],
+      "videoCandidateRefs": ["src-koda-cheongchun-mulgyeol-2026", "src-cheongchun-mulgyeol-2026-wide", "src-cheongchun-mulgyeol-2026-medley"],
+      "unresolved": ["연세대 응원단의 공식 신곡 공지", "편곡·개사자", "원곡 이용 허락 범위"]
+    },
+    {
+      "candidateId": "yonsei-university-badasae",
+      "summary": "연세대 응원단 공식 영상이 원곡과 저작자를 그룹 바다새의 ‘바다새’로 직접 표기하고, 2026 응원 OT 현장에서도 사용됐다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "그룹 바다새 ‘바다새’",
+          "assessment": "verified",
+          "confidence": "high",
+          "sourceRefs": ["src-akaraka-badasae-official", "src-badasae-history"],
+          "notes": "공식 응원단 영상 설명의 원곡 표기와 1986 강변가요제 자료를 교차한다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원 OT와 아카라카에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "sourceRefs": ["src-yu-badasae-2026-field", "src-yu-badasae-2026-akaraka"]
+        },
+        {
+          "field": "sportsRelationship",
+          "value": "롯데 자이언츠 ‘바다새’와 같은 그룹 바다새 원곡을 공유",
+          "assessment": "verified",
+          "confidence": "high",
+          "relationKind": "same_original",
+          "sourceRefs": ["src-akaraka-badasae-official", "src-local-lotte-badasae"]
+        }
+      ],
+      "videoCandidateRefs": ["src-akaraka-badasae-official", "src-yu-badasae-2026-field", "src-yu-badasae-2026-akaraka", "src-yu-badasae-2024-official", "src-yu-badasae-2022-field"],
+      "unresolved": ["2017년 아카라카 최초 공개를 확인할 응원단 공식 공지", "연세대판과 롯데판 사이에 직접 전승이 있었는지", "연세대판 편곡·개사자"]
+    },
+    {
+      "candidateId": "yonsei-university-woo",
+      "summary": "연세대 응원단 공식 영상이 원곡을 직접 밝힌 라이벌리 곡이다. 과거 가사 논란과 개정은 대학 방송 보도로 분리해 기록하고, 가사 전문은 저장하지 않는다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "3OH!3 feat. Ke$ha ‘My First Kiss’",
+          "assessment": "verified",
+          "confidence": "high",
+          "sourceRefs": ["src-akaraka-woo-official", "src-3oh3-my-first-kiss"]
+        },
+        {
+          "field": "lyricRevision",
+          "value": "차별적 표현 비판 뒤 2017 신입생 응원 OT에서 제외됐고 응원단이 개정을 결정",
+          "assessment": "reported",
+          "confidence": "high",
+          "sourceRefs": ["src-ybs-woo-revision"],
+          "notes": "과거 표현은 재현하지 않는다. 이벤트 페이지에는 현재 사용판만 다룬다."
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 아카라카와 합동응원에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "sourceRefs": ["src-woo-2026-akaraka", "src-woo-2026-joint", "src-woo-2026-joint-wide"]
+        },
+        {
+          "field": "introduction",
+          "value": "2010년 신곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "sourceRefs": ["src-yonsei-cheers-2010s-editorial"],
+          "notes": "편집형 연혁의 단일 주장이다. 공식 당시 공지나 날짜가 특정된 2010 원본은 추가 확인한다."
+        }
+      ],
+      "videoCandidateRefs": ["src-akaraka-woo-official", "src-woo-2026-akaraka", "src-woo-2026-joint", "src-woo-2026-joint-wide", "src-woo-2025-joint", "src-woo-2019-field"],
+      "unresolved": ["현재 가사판의 정확한 개정 시점", "2010 도입을 확인할 공식 당시 자료", "편곡·개사자"]
+    },
+    {
+      "candidateId": "yonsei-university-ko-dae",
+      "summary": "연세대 응원단 공식 영상이 원곡을 직접 밝히며, 2023 신입생 응원 OT에서도 사용이 확인된다.",
+      "claims": [
+        {
+          "field": "originalSong",
+          "value": "Nickelback ‘Burn It to the Ground’",
+          "assessment": "verified",
+          "confidence": "high",
+          "sourceRefs": ["src-akaraka-ko-dae-official", "src-nickelback-burn-it-to-the-ground"]
+        },
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원 OT와 합동응원에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "sourceRefs": ["src-ko-dae-2026-ot", "src-ko-dae-2026-joint"]
+        },
+        {
+          "field": "introduction",
+          "value": "2012년 2학기 신촌 응원 OT에서 공개된 신곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "sourceRefs": ["src-yonsei-cheers-2010s-editorial"]
+        }
+      ],
+      "videoCandidateRefs": ["src-akaraka-ko-dae-official", "src-ko-dae-2026-ot", "src-ko-dae-2026-joint", "src-koda-ko-dae-2023", "src-ko-dae-2019-field"],
+      "unresolved": ["2012 도입을 확인할 공식 당시 자료", "편곡·개사자"]
+    },
+    {
+      "candidateId": "yonsei-university-goyangi-sound",
+      "summary": "2023년 2학기 송도 응원 OT 신곡으로 정리되며, 2023·2024·2025 현장에서 ‘연세치킨’과 맞붙는 라이벌리 곡으로 확인된다. 2026 직접 사용은 아직 확인하지 못했다.",
+      "claims": [
+        {
+          "field": "introductionWindow",
+          "value": "2023년 2학기 송도 응원 OT에서 공개된 신곡",
+          "assessment": "reported",
+          "confidence": "medium",
+          "sourceRefs": ["src-koda-goyangi-sound-2023", "src-yonsei-cheers-2020s-editorial"],
+          "notes": "직접 현장 기록은 2023 사용을 확인하고 편집형 연혁은 최초 공개 장소를 제시한다. 공식 인스타그램 원문을 확인하기 전까지 최초 공개는 보도됨으로 둔다."
+        },
+        {
+          "field": "originalSong",
+          "value": "HoneyWorks ‘可愛くてごめん’",
+          "assessment": "reported",
+          "confidence": "medium",
+          "sourceRefs": ["src-goyangi-sound-editorial"],
+          "notes": "편집형 문서가 공식 응원단 인스타그램 릴을 근거로 제시한다. 원문 접근과 권리자 원음을 다음 단계에서 교차한다."
+        },
+        {
+          "field": "recentUse",
+          "value": "2025 합동응원에서 사용",
+          "assessment": "verified",
+          "confidence": "medium",
+          "sourceRefs": ["src-goyangi-sound-2025-joint"]
+        }
+      ],
+      "videoCandidateRefs": ["src-koda-goyangi-sound-2023", "src-goyangi-sound-2024-ot", "src-goyangi-sound-2025-joint"],
+      "unresolved": ["응원단 공식 최초 공개 게시물 원문", "2026 직접 사용 영상", "편곡·개사자"]
+    },
+    {
+      "candidateId": "yonsei-university-nae-ireum-geurigo-yonsei",
+      "summary": "2026 신입생 응원 OT에서 기수단 합동 퍼포먼스로 사용됐다. KIA ‘외쳐라 최강 KIA’와 같은 영화 선율을 사용하지만, 대학 곡에서 프로 곡으로의 직접 전승은 아직 보도 수준이다.",
+      "claims": [
+        {
+          "field": "currentUse",
+          "value": "2026 신입생 응원 OT에서 사용",
+          "assessment": "verified",
+          "confidence": "high",
+          "sourceRefs": ["src-ybs-nae-ireum-2026", "src-koda-nae-ireum-2026", "src-nae-ireum-2026-field"]
+        },
+        {
+          "field": "originalSong",
+          "value": "영화 ‘Gloomy Sunday’의 피아노 테마 ‘András Spielt’ 계열",
+          "assessment": "reported",
+          "confidence": "medium",
+          "sourceRefs": ["src-local-kia-shout", "src-gloomy-sunday-film-credits"]
+        },
+        {
+          "field": "introduction",
+          "value": "2013년 신곡, 이후 재공개·재활성화",
+          "assessment": "reported",
+          "confidence": "medium",
+          "sourceRefs": ["src-yonsei-cheers-2010s-editorial"],
+          "notes": "편집형 연혁은 2013년 신곡과 2017년 재공개를 적는다. 당시 공식 공지는 추가 확인한다."
+        },
+        {
+          "field": "sportsRelationship",
+          "value": "KIA ‘외쳐라 최강 KIA’가 연세대 곡을 모티프로 제작했다는 주장",
+          "assessment": "reported",
+          "confidence": "medium",
+          "relationKind": "inspired_by",
+          "sourceRefs": ["src-local-kia-shout"],
+          "notes": "KIA 제작자의 직접 확인이 없어 정본 관계로 승격하지 않는다. 같은 외부 원곡 공유는 별도로 확인 가능하다."
+        }
+      ],
+      "videoCandidateRefs": ["src-ybs-nae-ireum-2026", "src-koda-nae-ireum-2026", "src-nae-ireum-2026-field", "src-nae-ireum-2021-official"],
+      "unresolved": ["2013 도입·2017 재공개를 확인할 공식 당시 자료와 제작자", "KIA 제작자의 직접 모티프 확인", "영화 음원과 대학 편곡 사이의 정확한 버전 계보"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-ku-whale-2026",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=fw49Km7AQ9Q",
+      "title": "[2026 고려대 입실렌티] 출사표 + 꿇어라 연세 + 고래사냥 + 예예예 + 고연가 사랑하라 + 붉은노을",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-05-31",
+      "summary": "2026 입실렌티 현장에서 고래사냥을 포함한 공연 순서를 직접 기록한다."
+    },
+    {
+      "id": "src-ku-whale-2022",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=NoI-epCENMw&t=130s",
+      "title": "[2022 고려대 입실렌티 3부 응원제(2)] 고래사냥 - 우리는 고대",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022",
+      "summary": "2022 입실렌티에서 고래사냥과 우리는 고대를 이어 부른 현장 기록이다."
+    },
+    {
+      "id": "src-song-whale-bugs",
+      "type": "music-catalog",
+      "url": "https://music.bugs.co.kr/artist/4877/tracks?type=RELEASE&wl_ref=S_ar_09_01",
+      "title": "송창식 곡 목록",
+      "publisher": "벅스",
+      "publishedAt": null,
+      "summary": "송창식의 곡 목록에 ‘고래사냥’을 수록한다. 가사 전문은 사용하지 않았다."
+    },
+    {
+      "id": "src-ku-domangja-official",
+      "type": "official-cheer-video",
+      "url": "https://www.youtube.com/watch?v=c13houseKpc",
+      "title": "도망자 - [고려대학교 응원단 온라인 응원OT]",
+      "publisher": "고려대학교 응원단",
+      "publishedAt": "2013-04-24",
+      "summary": "공식 응원단 채널이 곡명과 교육용 공연을 제공한다. 가사 전문은 저장하지 않았다."
+    },
+    {
+      "id": "src-ku-domangja-2010",
+      "type": "school-media-field-video",
+      "url": "https://www.youtube.com/watch?v=gRzGkPXqtSk",
+      "title": "[SPORTS KU] 2010 정기 고연전 - 도망자",
+      "publisher": "SPORTS KU",
+      "publishedAt": null,
+      "summary": "2010 정기 고연전에서의 직접 사용 기록이다."
+    },
+    {
+      "id": "src-ku-domangja-origin-lead",
+      "type": "community-reference",
+      "url": "https://m.namu.moe/w/고려대학교/응원가/2000년대%20이전",
+      "title": "고려대학교/응원가/2000년대 이전",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "summary": "도망자의 원곡을 Dschinghis Khan의 ‘Moskau’로 적는다. 공식 근거 전까지 보도됨 수준의 단서로만 사용한다."
+    },
+    {
+      "id": "src-local-kt-euratchacha",
+      "type": "local-deep-research",
+      "path": "research/deep/batches/2026-08-08-kt-e.json",
+      "itemId": "kt-wiz-euratchacha",
+      "summary": "KT ‘으랏차차’가 Dschinghis Khan의 ‘Moskau’를 원곡으로 사용한다는 기존 심층 초안이다."
+    },
+    {
+      "id": "src-ybs-ot-2026-1",
+      "type": "school-broadcast-video",
+      "url": "https://www.youtube.com/watch?v=wlcxZc5APPE",
+      "title": "[2026 응원 OT] 연세대 응원곡 모음집 (1부)",
+      "publisher": "연세교육방송국 YBS",
+      "publishedAt": "2026-02-21",
+      "summary": "Oh My Friend를 포함한 2026 신입생 응원 OT 1부를 기록한다."
+    },
+    {
+      "id": "src-koda-oh-my-friend-2022",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=F1xzELUgJDc",
+      "title": "2022 아카라카를 온누리에 [Oh My Friend]",
+      "publisher": "KODA",
+      "publishedAt": "2022-09-27",
+      "summary": "2022 아카라카에서 Oh My Friend를 공연한 직접 기록이다."
+    },
+    {
+      "id": "src-oh-my-friend-2026-field",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=J48MoBf-rAw",
+      "title": "야생마 / 하늘아래 / Oh My Friend | 2026 연세대학교 신입생 응원 OT",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-02-21",
+      "summary": "2026 현장에서 Oh My Friend를 별도 각도로 기록한다."
+    },
+    {
+      "id": "src-koda-cheongchun-mulgyeol-2026",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=PwnnaK1YXlQ",
+      "title": "2026.05.23 개교 141주년 아카라카를 온누리에 [청춘물결(신곡)]",
+      "publisher": "KODA",
+      "publishedAt": "2026-05-24",
+      "summary": "행사 날짜와 신곡 표기를 함께 제공하는 청춘물결 단독 현장 기록이다."
+    },
+    {
+      "id": "src-cheongchun-mulgyeol-2026-wide",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=bdunwzpzhpw",
+      "title": "신곡 ‘청춘물결’ / GO연세 / 원시림 | 2026 아카라카",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026",
+      "summary": "청춘물결 공개와 이어지는 응원 흐름을 기록한다."
+    },
+    {
+      "id": "src-cheongchun-mulgyeol-editorial",
+      "type": "community-reference",
+      "url": "https://www.namu.moe/w/연세대학교/응원가/2020년대",
+      "title": "연세대학교/응원가/2020년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "summary": "청춘물결을 2026년 5월 23일 공개 신곡으로 분류하고 원곡을 Westlife ‘You Raise Me Up’으로 적는다. 공식 공지 전까지 원곡 주장은 보도됨으로 둔다."
+    },
+    {
+      "id": "src-westlife-you-raise-me-up",
+      "type": "official-artist-video",
+      "url": "https://www.youtube.com/watch?v=9bxc9hbwkkw",
+      "title": "Westlife - You Raise Me Up",
+      "publisher": "Westlife",
+      "publishedAt": null,
+      "summary": "원곡 식별을 위한 공식 아티스트 영상이다."
+    },
+    {
+      "id": "src-akaraka-badasae-official",
+      "type": "official-cheer-video",
+      "url": "https://www.youtube.com/watch?v=QtzesPt6W2M",
+      "title": "바다새",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-05",
+      "summary": "영상 설명이 원곡과 저작자를 그룹 바다새의 ‘바다새’로 직접 표기한다. 가사는 저장하지 않았다."
+    },
+    {
+      "id": "src-yu-badasae-2026-field",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=HofMsKPsr1o",
+      "title": "푸른 연세 / 친구야 / 바다새 / 오늘밤새 | 2026 연세대학교 신입생 응원 OT",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-02-17",
+      "summary": "2026 응원 OT에서 바다새를 포함한 공연을 기록한다."
+    },
+    {
+      "id": "src-yu-badasae-2022-field",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=oSC8k9PbTd8",
+      "title": "아리요 / One Night Only / 바다새 | 2022 아카라카",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2022-10-02",
+      "summary": "2022 아카라카에서 바다새를 공연한 직접 기록이다."
+    },
+    {
+      "id": "src-badasae-history",
+      "type": "media",
+      "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20140503.22012192135",
+      "title": "‘바다새’ 가수의 척박한 삶",
+      "publisher": "국제신문",
+      "publishedAt": "2014-05-03",
+      "summary": "그룹 바다새의 동명곡이 1986년 강변가요제 동상 수상곡임을 확인한다."
+    },
+    {
+      "id": "src-local-lotte-badasae",
+      "type": "local-deep-research",
+      "path": "research/deep/batches/2026-08-08-lotte-a.json",
+      "itemId": "lotte-giants-seabird",
+      "summary": "롯데판 바다새의 원곡, 2026 공식 목록과 현장 사용을 정리한 기존 심층 초안이다."
+    },
+    {
+      "id": "src-akaraka-woo-official",
+      "type": "official-cheer-video",
+      "url": "https://www.youtube.com/watch?v=3qu-Wxwv8Ng",
+      "title": "Woo",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-11",
+      "summary": "영상 설명이 원곡을 3OH!3의 ‘My First Kiss’로 직접 표기한다. 현재 조사에는 가사를 저장하지 않았다."
+    },
+    {
+      "id": "src-3oh3-my-first-kiss",
+      "type": "official-artist-video",
+      "url": "https://www.youtube.com/watch?v=VgD1DgnG3_g",
+      "title": "My First Kiss (feat. Ke$ha)",
+      "publisher": "3OH!3 Official Artist Channel",
+      "publishedAt": "2017-01-25",
+      "summary": "레이블 제공 메타데이터가 2010년 음원과 크레딧을 확인한다."
+    },
+    {
+      "id": "src-ybs-woo-revision",
+      "type": "school-media",
+      "url": "https://www.iybs.co.kr/news/articleView.html?idxno=9312",
+      "title": "응원가 ‘Woo’ 가사 논란 관련 보도",
+      "publisher": "연세교육방송국 YBS News",
+      "publishedAt": "2017-03-02",
+      "summary": "차별적 표현 비판, 2017 신입생 응원 OT 제외, 응원단의 가사 개정 결정을 보도한다. 과거 가사는 재현하지 않는다."
+    },
+    {
+      "id": "src-woo-2025-joint",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=-LKKPuk2uO4",
+      "title": "2025 합동응원 2부 | WOO 포함",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-03-30",
+      "summary": "2025 합동응원에서 Woo를 포함한 라이벌리 곡 공연을 기록한다."
+    },
+    {
+      "id": "src-woo-2019-field",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=UIojJPyrE90",
+      "title": "흔들흔들 / 야생마 / WOO | 2019 아카라카",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2019-05-21",
+      "summary": "2019 아카라카에서 Woo를 공연한 직접 기록이다."
+    },
+    {
+      "id": "src-akaraka-ko-dae-official",
+      "type": "official-cheer-video",
+      "url": "https://www.youtube.com/watch?v=2t-fnYPbplc",
+      "title": "KO대",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2020-08-11",
+      "summary": "영상 설명이 원곡을 Nickelback의 ‘Burn It to the Ground’로 직접 표기한다. 가사는 저장하지 않았다."
+    },
+    {
+      "id": "src-nickelback-burn-it-to-the-ground",
+      "type": "artist-and-industry-source",
+      "url": "https://www.wwe.com/inside/wwemusic/3242484/nickelbackrawtheme",
+      "title": "Nickelback and WWE team up for new Raw theme",
+      "publisher": "WWE",
+      "publishedAt": null,
+      "summary": "Nickelback의 ‘Burn It to the Ground’와 앨범 정보를 확인한다."
+    },
+    {
+      "id": "src-koda-ko-dae-2023",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=KVMolmabbcM",
+      "title": "2023.02.15 연세대학교 신입생 응원 OT [K.O.대]",
+      "publisher": "KODA",
+      "publishedAt": "2023-02-26",
+      "summary": "2023 신입생 응원 OT에서 K.O.대를 공연한 직접 기록이다."
+    },
+    {
+      "id": "src-ko-dae-2019-field",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=pTlYCt0metY",
+      "title": "아리요 & KO대 | 2019 아카라카",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2019",
+      "summary": "2019 아카라카에서 K.O.대를 공연한 직접 기록이다."
+    },
+    {
+      "id": "src-koda-goyangi-sound-2023",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=DO2IJreNRn0",
+      "title": "2023.09.05 합동OT [연세치킨 + 고양이Sound]",
+      "publisher": "KODA",
+      "publishedAt": "2023-09-19",
+      "summary": "2023 합동 응원 OT에서 연세치킨과 고양이 SOUND를 함께 기록한다."
+    },
+    {
+      "id": "src-goyangi-sound-editorial",
+      "type": "community-reference",
+      "url": "https://www.namu.moe/w/연세대학교/응원가/2020년대",
+      "title": "연세대학교/응원가/2020년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "summary": "고양이 SOUND를 2023년 신곡으로 분류하고 원곡을 HoneyWorks ‘可愛くてごめん’으로 적으며 공식 응원단 인스타그램 릴을 연결한다."
+    },
+    {
+      "id": "src-goyangi-sound-2025-joint",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=-LKKPuk2uO4",
+      "title": "2025 합동응원 2부 | 고양이 SOUND 포함",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2025-03-30",
+      "summary": "2025 합동응원에서 고양이 SOUND를 포함한 라이벌리 응원을 기록한다."
+    },
+    {
+      "id": "src-nae-ireum-2026-field",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=Qpa0eeJFd4k",
+      "title": "기수단 합동 퍼포먼스 / 내 이름 그리고 연세 / 승전가 | 2026 신입생 응원 OT",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-02-17",
+      "summary": "2026 신입생 응원 OT에서 내 이름 그리고 연세를 공연한 직접 기록이다."
+    },
+    {
+      "id": "src-nae-ireum-2021-official",
+      "type": "official-cheer-video",
+      "url": "https://www.youtube.com/watch?v=IjktQdNmlMw",
+      "title": "[2021 연세의 꽃길] 응원 메들리",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2021",
+      "summary": "공식 응원단 메들리의 챕터에 내 이름 그리고 연세를 수록한다."
+    },
+    {
+      "id": "src-local-kia-shout",
+      "type": "local-deep-research",
+      "path": "research/deep/batches/2026-08-08-kia-d.json",
+      "itemId": "kia-tigers-shout-strongest-kia",
+      "summary": "KIA 곡의 공식 2023 공개, 영화 선율, 2026 현행 사용을 검증하고 연세대 모티프 주장은 제작자 확인이 없는 보도됨으로 남긴 기존 심층 초안이다."
+    },
+    {
+      "id": "src-gloomy-sunday-film-credits",
+      "type": "film-database-primary",
+      "url": "https://www.filmportal.de/film/ein-lied-von-liebe-und-tod-gloomy-sunday_d0e545236f8a4dd2916b11f0bd06ee77",
+      "title": "Ein Lied von Liebe und Tod - Gloomy Sunday",
+      "publisher": "filmportal.de",
+      "publishedAt": null,
+      "summary": "독일 영화 아카이브가 영화 음악을 Detlef Petersen에게 크레딧한다."
+    },
+    {
+      "id": "src-koda-ku-whale-2026",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=cEI3SLtttUk",
+      "title": "2026.05.22 IPSELENTI 지.야의 함성 [석탑 + 고래사냥 + 지야의 함성]",
+      "publisher": "KODA",
+      "publishedAt": "2026-05-31",
+      "summary": "2026 입실렌티 무대에서 고래사냥을 포함한 연속 응원을 기록한다."
+    },
+    {
+      "id": "src-ku-whale-2026-ot",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=cc_p_GKSydQ",
+      "title": "고래사냥 + 우리는 고대 | 2026 고려대 응원 OT",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-04-25",
+      "summary": "2026 신입생 응원 OT에서 고래사냥을 사용한 현장 기록이다."
+    },
+    {
+      "id": "src-ku-whale-2026-joint",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=sHTjdE0JbWs",
+      "title": "서곡·엘리제를 위하여·석탑·해야·룩셈부르크·고래사냥 | 2026 상반기 합동응원전",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-03-24",
+      "summary": "2026 상반기 합동응원전에서 고래사냥을 포함한 메들리를 기록한다."
+    },
+    {
+      "id": "src-yonsei-cheers-2020s-editorial",
+      "type": "community-reference",
+      "url": "https://www.namu.moe/w/연세대학교/응원가/2020년대",
+      "title": "연세대학교/응원가/2020년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "summary": "Oh My Friend의 2022 아카라카 공개, 고양이 SOUND의 2023년 2학기 송도 OT 공개, 청춘물결의 2026 아카라카 공개 연혁을 제시한다. 공식 당시 자료 전에는 보조 근거로만 사용한다."
+    },
+    {
+      "id": "src-oh-my-friend-2026-akaraka",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=ockPfR7Iwzo",
+      "title": "서곡·해야·파란·GO연세·친구야·Oh My Friend·하늘 아래 | 2026 아카라카",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-06-16",
+      "summary": "2026 아카라카 3부에서 Oh My Friend를 포함한 현행 응원 흐름을 기록한다."
+    },
+    {
+      "id": "src-oh-my-friend-2024-official",
+      "type": "official-cheer-video",
+      "url": "https://www.youtube.com/watch?v=pdKxpPUEeG4",
+      "title": "[2024 아카라카를 온누리에] 하늘 아래 + Oh My Friend",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2024-07-02",
+      "summary": "연세대 응원단 공식 채널이 2024 아카라카에서 Oh My Friend를 공연한 기록이다."
+    },
+    {
+      "id": "src-cheongchun-mulgyeol-2026-medley",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU",
+      "title": "아카라카 1부 응원 모음 | 2026 아카라카",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-06-09",
+      "summary": "청춘물결을 포함한 2026 아카라카 1부 전체 흐름을 기록한 장편 표본이다."
+    },
+    {
+      "id": "src-yu-badasae-2026-akaraka",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=p7AoNoKoL-c",
+      "title": "바다새·아리요·야생마·고밟꿈 | 2026 아카라카",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-06-13",
+      "summary": "2026 아카라카에서 바다새를 포함한 연속 응원을 기록한다."
+    },
+    {
+      "id": "src-yu-badasae-2024-official",
+      "type": "official-cheer-video",
+      "url": "https://www.youtube.com/watch?v=AvLfWU8RXHk",
+      "title": "[2024 아카라카를 온누리에] 파란 + 해야 + 룩셈부르크 + 바다새",
+      "publisher": "아카라카TV [연세대학교 응원단]",
+      "publishedAt": "2024-07-02",
+      "summary": "연세대 응원단 공식 채널이 2024 아카라카의 바다새 사용을 기록한다."
+    },
+    {
+      "id": "src-woo-2026-akaraka",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=nOsorVWKpWk",
+      "title": "흔들흔들·해피송·Woo·One Night Only·여행을 떠나요 | 2026 아카라카",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-06-14",
+      "summary": "2026 아카라카에서 Woo의 현재판 공연을 기록한다. 가사는 저장하지 않았다."
+    },
+    {
+      "id": "src-woo-2026-joint",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=Tbex2Oh9YqM",
+      "title": "Woo vs 싱글벙글 | 2026 상반기 합동응원전",
+      "publisher": "디카츄의 사진창고 / Dicachoo's Photoclub",
+      "publishedAt": "2026-03-23",
+      "summary": "2026 합동응원전에서 라이벌리 곡 Woo를 직접 기록한다. 가사는 저장하지 않았다."
+    },
+    {
+      "id": "src-woo-2026-joint-wide",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=tVXxs_h_8n0",
+      "title": "토요일은 밤이 좋아·입실렌티·Woo·싱글벙글 | 2026 상반기 합동응원전",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-03-29",
+      "summary": "Woo가 포함된 2026 합동응원전 연속 공연을 다른 각도로 기록한다."
+    },
+    {
+      "id": "src-yonsei-cheers-2010s-editorial",
+      "type": "community-reference",
+      "url": "https://www.namu.moe/w/연세대학교/응원가/2010년대",
+      "title": "연세대학교/응원가/2010년대",
+      "publisher": "나무위키 미러",
+      "publishedAt": null,
+      "summary": "Woo 2010년, K.O.대 2012년, 내 이름 그리고 연세 2013년, 바다새 2017년의 연혁과 원곡을 정리한다. 공식 당시 자료 전에는 보조 근거로만 사용한다."
+    },
+    {
+      "id": "src-ko-dae-2026-ot",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=KefPsix1wQs",
+      "title": "K.O.대 | 2026 연세대학교 신입생 응원 OT",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-02-22",
+      "summary": "2026 신입생 응원 OT에서 K.O.대를 사용한 단독 현장 기록이다."
+    },
+    {
+      "id": "src-ko-dae-2026-joint",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=Gkr3IrQTbxo",
+      "title": "연세치킨·K.O.대·꿇어라 연세 | 2026 상반기 합동응원전",
+      "publisher": "청춘테이프",
+      "publishedAt": "2026-04-23",
+      "summary": "2026 합동응원전에서 K.O.대를 라이벌리 응원 흐름 안에서 기록한다."
+    },
+    {
+      "id": "src-goyangi-sound-2024-ot",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=fkELbEKZhhg",
+      "title": "2024.02.15 연세대학교 신입생 응원 OT [고양이 SOUND]",
+      "publisher": "KODA",
+      "publishedAt": "2024-02-24",
+      "summary": "2024 신입생 응원 OT에서 고양이 SOUND를 공연한 단독 기록이다."
+    },
+    {
+      "id": "src-ybs-nae-ireum-2026",
+      "type": "school-broadcast-video",
+      "url": "https://www.youtube.com/watch?v=zTjYgUVsRc8",
+      "title": "[2026 응원 OT] 연세대 응원곡 모음집 (2부)",
+      "publisher": "연세교육방송국 YBS",
+      "publishedAt": "2026-02-21",
+      "summary": "교내 방송이 내 이름 그리고 연세를 포함한 2026 신입생 응원 OT 2부를 기록한다."
+    },
+    {
+      "id": "src-koda-nae-ireum-2026",
+      "type": "direct-field-video",
+      "url": "https://www.youtube.com/watch?v=lOeXbNJ0r7I",
+      "title": "2026.02.11 신입생 응원 OT [내 이름 그리고 연세 + 승전가]",
+      "publisher": "KODA",
+      "publishedAt": "2026-02-18",
+      "summary": "2026 신입생 응원 OT의 내 이름 그리고 연세 공연을 별도 각도로 기록한다."
+    }
+  ]
+}

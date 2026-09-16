@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-seongdaereul-saranghae",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "성대를 사랑해",
+    "aliases": [
+      "성대를 사랑해 (2014)"
+    ],
+    "symbolicLines": [
+      "성대를 사랑해",
+      "성균관대학교 응원가"
+    ],
+    "descriptionText": "킹고응원단 공식 영상이 2014년 곡으로 표시하는 응원가다.[* 2026 상반기 응원 OT 공식 영상: https://www.youtube.com/watch?v=U5tLx_cZXA8] 공식 채널에는 2021년 독립 음원, 2022년 양 캠퍼스 ESKARA, 2024년 응원법 가이드, 2025 ESKARA와 2026 문행대동제 기록이 이어진다.[* 2021 공식 음원: https://www.youtube.com/watch?v=g_gQaRuMA6Y][* 2024 응원법 가이드 Chapter 5: https://www.youtube.com/watch?v=bfia6tm0yu0]\n\n2026 문행대동제 9곡 플레이리스트에서는 네 번째 곡으로 배치돼 현재도 정규 레퍼토리로 사용됨을 확인할 수 있다.[* 2026 문행대동제 플레이리스트: https://www.youtube.com/watch?v=5TuN6DY8fdQ] 제목이 비슷한 ‘성대를 좋아해’와는 공식 자료에서 서로 다른 연도와 별도 영상을 가진 독립된 곡으로 다뤄진다.\n\n2014년이라는 사용 시작 표기 외에 작사·작곡자, 제작 계기와 원곡 계보는 공개 공식 자료에서 확인하지 못했다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2014 · 공식 영상 표기"
+      },
+      {
+        "label": "현재 사용",
+        "value": "2026 문행대동제"
+      },
+      {
+        "label": "원곡·제작",
+        "value": "공개 자료 미확인"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.102Z",
+    "updatedAt": "2026-09-02T10:18:38.107Z"
+  }
+}

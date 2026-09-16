@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "yonsei-university-yeongwonhan-hamseong",
+    "organizationId": "yonsei-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "영원한 함성",
+    "aliases": [
+      "영원한함성",
+      "영원한 힘성"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "히사이시 조가 작곡한 1989년 영화 `마녀 배달부 키키` OST `海の見える街`(A Town with an Ocean View, 통용 번역 `바다가 보이는 마을`)의 선율을 바탕으로 한 연세대학교 응원가다. 연세대 응원단 공식 영상이 제목·원곡·작곡가를 직접 밝힌다. 현행판은 2017 정기 연고전 전승을 기념해 2011년 곡을 고친 2018년 리뉴얼로 소개되므로, `2018 신곡`과 `2011 전신`을 함께 보존한다. 하나 된 관중의 함성과 열정을 번갈아 반복하는 어깨동무곡이며 2025 아카라카·합동응원, 2026 신입생 응원 OT에서 계속 쓰였다.\n\n### 현장에서\n\n- 신입생 응원 OT와 아카라카에서 관중이 어깨동무하고 함께 부르는 합창곡으로 사용한다.\n- 양교 합동응원에서 고려대 곡 사이에 연세대 대표곡으로 교차 배치된다.\n- 2024 동문 아카라카에서 2020·2021 현역 연합 응원단이 공연해 동문 행사 레퍼토리로도 확인됐다.\n- 짧고 동일한 두 주제 블록을 누적 반복해 군중의 일체감과 기억을 강조한다.\n\n### 더 알아보기\n\n2018 영상은 이를 신곡이라 부르면서도 설명에서 2011년 곡을 2017 전승 기념으로 리뉴얼했다고 적는다. 따라서 `2018 신곡`은 완전 신규 작곡보다 현행판 공개를 뜻한다.[* 참고: https://www.youtube.com/watch?v=aA36nhG2S_k / https://www.youtube.com/watch?v=Sjchl33DyBw]\n\n2018 영상 댓글 중 한 명은 2012년에도 들었다고 회상해 2011 전신 서술과 정합적이지만, 개인 기억이므로 정확한 초연 증거로 쓰지 않았다.[* 참고: https://www.youtube.com/watch?v=aA36nhG2S_k]\n\n2018 영상 설명에는 `영원한 힘성`이라는 오기가 한 차례 있지만 제목·다른 공식 자료는 모두 `영원한 함성`이므로 별도 곡이 아닌 검색용 오기로만 보존한다.[* 참고: https://www.youtube.com/watch?v=aA36nhG2S_k / https://www.youtube.com/watch?v=B8FMZwfsz7o]\n\n댓글은 원곡을 지브리 영화 음악으로 빠르게 식별하고 서정적인 분위기를 호평하며, 일부는 KIA 응원에서 같은 선율을 들었다고 인식한다.[* 참고: https://www.youtube.com/watch?v=B8FMZwfsz7o / https://www.youtube.com/watch?v=aA36nhG2S_k]\n\n### 추가 확인\n\n2026 상반기 합동응원전 단장 메들리의 별도 촬영 표본을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=WywaH5D5MIY]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2011년 전신을 2017 전승 기념으로 리뉴얼해 2018 신입생 응원 OT에서 현행판 공개"
+      },
+      {
+        "label": "원곡",
+        "value": "히사이시 조 `海の見える街` / `A Town with an Ocean View`, 영화 `마녀 배달부 키키` OST(1989)"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2025 상반기 합동응원·아카라카와 2026 신입생 응원 OT에서 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "joe-hisaishi-a-town-with-an-ocean-view"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.230Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

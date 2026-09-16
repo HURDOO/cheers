@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-seonggyuneul-goharira",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "성균을 고하리라",
+    "aliases": [
+      "성균을 고하리라 (2021)",
+      "Sing for Sungkyun"
+    ],
+    "symbolicLines": [
+      "성균을 고하리라",
+      "성균관대학교 응원가"
+    ],
+    "descriptionText": "킹고응원단 공식 영상이 2021년 곡으로 표시하는 응원가다.[* 2026 상반기 응원 OT 공식 영상: https://www.youtube.com/watch?v=ceuS-k5_yo0] 공식 채널에는 2021년 11월 2일 독립 음원이 공개돼 있고, 2022년 양 캠퍼스 ESKARA부터 2024년 응원법 가이드, 2025·2026년 주요 행사까지 사용 기록이 이어진다.[* 2021 공식 음원: https://www.youtube.com/watch?v=dpiiCwHXOLE][* 2024 응원법 가이드 Chapter 4: https://www.youtube.com/watch?v=mCRNs0fyXPQ]\n\n성균관대 President’s List 공개 이력에는 글로벌경영학과 장준서 동문이 이 곡의 아이디어 제안과 작사에 참여했다고 명시돼 있다.[* 성균관대 President’s List: https://presidentlist.skku.edu/presidentlist/2025_list.do?article.offset=20&articleLimit=10&mode=list] 다만 이 기록은 단독 작사를 뜻하지는 않으며, 공동 작사자와 작곡·편곡 담당자는 현재 공개 자료에서 확인하지 못했다.\n\n킹고응원단은 2025 ESKARA 시네마틱 영상에서 이 곡을 ‘성균인이 제일 사랑하는 응원가’, 영문으로는 ‘SKKU's most iconic cheering song’이라고 소개했고, 영상은 무반주 떼창에서 본곡으로 넘어가는 구성을 별도 챕터로 나눴다.[* 2025 ESKARA 시네마틱 영상: https://www.youtube.com/watch?v=ujMgH2gY5XE] 2025학년도 입학식에서 신입생에게 동작과 구호를 가르친 곡이기도 하며, 2026 상반기 응원 OT에서도 주요 교육곡으로 다뤄졌다.[* 성대신문 2025 입학식 기사: https://www.skkuw.com/news/articleView.html?idxno=31844][* 성균웹진 2026 응원 OT: https://www.skku.edu/skkuzine/section/coverStory.do?articleNo=135895&mode=list&pager.offset=40&pagerLimit=10]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2021 · 공식 영상 표기"
+      },
+      {
+        "label": "작사 참여",
+        "value": "장준서 동문"
+      },
+      {
+        "label": "현장 특징",
+        "value": "무반주 떼창 후 본곡"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.120Z",
+    "updatedAt": "2026-09-02T10:18:38.125Z"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "organization": {
+    "id": "kt-wiz",
+    "name": "KT 위즈",
+    "abbreviation": "KT",
+    "type": "baseball",
+    "region": "수원",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#E60012"
+    },
+    "revision": 1,
+    "createdAt": "2026-09-13T05:32:44.000Z",
+    "updatedAt": "2026-09-13T05:32:44.000Z"
+  }
+}

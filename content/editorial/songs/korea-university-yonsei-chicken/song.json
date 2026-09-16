@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-yonsei-chicken",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "연세치킨",
+    "aliases": [
+      "독수리 사냥",
+      "연.세.치.킨"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "Eruption의 ‘One Way Ticket’을 바탕으로 2014년에 발표된 라이벌 공격 응원가다. 고대신문의 당시 신곡 기사와 고려대 응원단 공식 OT가 원곡을 일치해 명시한다. 편집형 자료는 원래 제목이 ‘독수리 사냥’이었으나 원곡 제목의 소리가 ‘연세치킨’처럼 들리는 언어유희에 맞춰 제목과 동작을 고쳤다고 전한다. 2018년 3월 초 총학생회가 채식주의자·동물권 배려를 이유로 사용 중단을 알렸지만 열흘 뒤 합동응원 영상에는 ‘돌아온 연세치킨’으로 등장했고, 2022·2025·2026 현장에서도 사용돼 장기 폐곡으로 볼 수 없다.\n\n### 현장에서\n\n- 연세대의 독수리 상징을 닭에 빗대는 유머형 공격 응원으로 합동응원전·고연전 OT에서 사용한다.\n- 응원단은 부리·볏·꼬리를 연상시키는 동작을 가르치고 관중은 짧은 후렴과 학교 구호를 반복한다.\n- 가볍고 알아보기 쉬운 선율 때문에 고려대 쪽만이 아니라 합동응원의 연세대 관중도 동작에 참여하는 모습이 영상과 댓글에 반복된다.\n\n### 더 알아보기\n\n편집형 자료는 ‘One Way Ticket’이 빠르게 들릴 때 ‘연세치킨’처럼 들리는 점이 현재 제목의 계기였다고 전한다. 공식 OT도 원곡명을 병기하지만 제목 변경 당시의 회의록은 없다.[* 참고: https://www.namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80 / https://www.youtube.com/watch?v=LjuI4oTIaPg]\n\n2018 합동응원 영상 댓글에서는 연세대 관중도 동작을 함께 하는 장면과 경쟁보다 장난스러운 교류가 돋보인다는 반응이 반복된다.[* 참고: https://www.youtube.com/watch?v=PeiY9iaPSQk]\n\n고려대 교육방송국은 2022년 교외 치킨 가게를 배경으로 좀비 코미디 형식의 별도 뮤직비디오를 제작했다. 곡의 말장난과 B급 유머가 교내 콘텐츠로 확장된 사례다.[* 참고: https://www.youtube.com/watch?v=KpKE5N225nU]\n\n### 추가 확인\n\n2026 상반기 합동 응원 OT의 KODA 단독곡 표본을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=RZU3mWWt1LE]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2014년"
+      },
+      {
+        "label": "원곡",
+        "value": "Eruption ‘One Way Ticket’"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2025 합동응원전과 2026 입실렌티에서 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "eruption-one-way-ticket"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.149Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

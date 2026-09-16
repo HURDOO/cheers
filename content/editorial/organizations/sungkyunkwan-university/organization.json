@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "organization": {
+    "id": "sungkyunkwan-university",
+    "name": "성균관대학교",
+    "abbreviation": "SKKU",
+    "type": "university",
+    "region": "서울·수원",
+    "colors": {
+      "primary": "#072A60",
+      "secondary": "#8DC63F"
+    },
+    "revision": 1,
+    "createdAt": "2026-09-02T10:18:38.065Z",
+    "updatedAt": "2026-09-02T10:18:38.065Z"
+  }
+}

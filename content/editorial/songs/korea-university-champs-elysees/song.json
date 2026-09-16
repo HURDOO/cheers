@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-champs-elysees",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "샹젤리제",
+    "aliases": [
+      "오 샹젤리제",
+      "Champs-Élysées"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "Joe Dassin의 1969년 프랑스어 곡 ‘Les Champs-Élysées’를 바탕으로 만든 봉지응원곡이다. 고려대학교 응원단이 2013년에 올린 공식 온라인 OT 설명은 제작년도를 2003년으로 명시하지만, 현존하는 2003년 행사 프로그램이나 초연 영상은 찾지 못했다. 2025 입실렌티와 2026 신입생 응원 OT·입실렌티에서 계속 사용되며, 관중은 붉은 봉지를 흔들고 간주에서 나팔을 부는 듯한 동작을 한다.\n\n### 현장에서\n\n- 신입생 응원 OT에서는 봉지에 공기를 넣고 흔드는 법과 간주 동작을 교육하는 입문용 곡으로 쓰인다.\n- 입실렌티의 빠르고 밝은 곡 묶음에서 KOREA 같은 다른 봉지응원곡과 연속 배치된다.\n- 관중이 짧은 구음과 제목 후렴을 반복해 신규 참가자도 바로 합류할 수 있는 전곡형 응원이다.\n\n### 더 알아보기\n\n현재 널리 보이는 2020 공식 OT와 나무위키 미러에는 연도가 없지만, 응원단의 2013 공식 영상 설명에는 ‘제작년도 2003년’이 남아 있다. 검색 노출만으로는 놓치기 쉬운 메타데이터 근거다.[* 참고: https://www.youtube.com/watch?v=XkVmvKwo6Kc / https://www.youtube.com/watch?v=HqTxg0K6Uus]\n\n졸업생 댓글은 붉은 봉지를 들고 뛰던 기억을 반복해서 회상한다. 2026 OT에서도 같은 도구가 살아 있어, 단순 음원보다 응원도구와 결합된 기억이 강한 곡임을 보여 준다.[* 참고: https://www.youtube.com/watch?v=bhPi3rMVEB8 / https://www.youtube.com/watch?v=pZnAKBeS46w&t=178s]\n\n학교 자료가 원곡으로 적는 Joe Dassin판은 그 자체가 영국 밴드 Jason Crest의 Waterloo Road를 프랑스어로 옮긴 곡이다. 응원가의 직접 참조곡과 더 오래된 작곡 계보를 분리해 기록해야 한다.[* 참고: https://www.sonymusic.fr/artist/joe-dassin-2/ / https://musicbrainz.org/work/07fad918-e68c-333c-a602-7791c21897d3]\n\n### 추가 확인\n\nKODA의 2023 입실렌티 단독 메들리 표본을 추가해 Go! 100과의 연속 배치를 확인했다. 2026 현행성은 기존 초안 표본이 직접 확인한다.[* 추가 조사 자료: https://www.youtube.com/watch?v=B6yrvjVqE5I]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "고려대학교 응원단의 2013 공식 OT 설명에 제작년도 2003년으로 표기"
+      },
+      {
+        "label": "원곡",
+        "value": "Joe Dassin — Les Champs-Élysées(1969); 상위 계보는 Jason Crest의 Waterloo Road(1968)"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2025 입실렌티, 2026-03-17 신입생 응원 OT, 2026-05-22 입실렌티에서 직접 확인"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "joe-dassin-les-champs-elysees"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.180Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

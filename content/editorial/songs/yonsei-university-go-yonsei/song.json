@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "yonsei-university-go-yonsei",
+    "organizationId": "yonsei-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "GO 연세",
+    "aliases": [
+      "GO연세",
+      "고연세"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "2002년에 도입된 것으로 정리되는 연세대학교 응원가다. 공식 응원단 영상은 원곡을 노브레인의 ‘진군가’와 Queen의 ‘We Will Rock You’ 두 곡으로 동시에 명시하므로 어느 하나를 배제하지 않는다. 음원 자료는 ‘진군가’가 2002년 붉은악마 공식 앨범에 수록됐음을, Queen 공식 자료는 Brian May가 쓴 ‘We Will Rock You’가 1977년 ‘News of the World’에 실렸음을 확인한다. 표제는 공식 영상의 ‘GO연세’를 채택하고 현장형 표기 ‘고연세’, ‘GO 연세’를 별칭으로 유지한다.\n\n### 현장에서\n\n- 아카라카와 응원 OT에서 강한 북·박수 도입 뒤 관중이 짧은 전진 구호에 응답하는 곡으로 사용한다.\n- 관중이 어깨를 걸고 좌우로 이동하거나 점프하면서 경기·축제의 승부 의지를 고조하는 구간에 배치한다.\n- 친구야·파란 같은 대표곡과 이어지는 메들리, 응원단 공식 뮤직비디오와 온라인 공연에서도 사용한다.\n\n### 더 알아보기\n\n공식 설명이 두 원곡을 쉼표로 함께 제시한다는 점이 핵심이다. ‘진군가’만을 원곡으로 정리하거나 ‘We Will Rock You’만을 리듬 출처로 정리하면 공식 크레딧의 절반을 잃게 된다.[* 참고: https://www.youtube.com/watch?v=-0EI8RqrIy4 / https://www.genie.co.kr/detail/albumInfo?axnm=33430703]\n\n응원단은 2021년 별도 뮤직비디오를 제작해 곡과 동작을 독립 콘텐츠로 제시했다. 설명에 전문이 보이더라도 이 데이터에는 구조 요약과 출처 링크만 남긴다.[* 참고: https://www.youtube.com/watch?v=z6FGpKrlRDU]\n\n2021년 ‘연세의 꽃길’ 응원 메들리는 관중이 제한된 시기의 온라인형 무대와 밴드 소나기의 라이브 연주를 기록한다. 댓글은 무관중 상황에서도 응원문화와 밴드 사운드를 이어 간 점을 기억한다.[* 참고: https://www.youtube.com/watch?v=IjktQdNmlMw&t=1200s]\n\n공식 음원 댓글에는 같은 원곡 계열의 프로야구 구호를 먼저 떠올리는 반응이 나타난다. 이는 선율·리듬의 교차 종목 인지 사례이며 특정 야구 응원가와의 직접 차용 방향을 입증하지 않는다.[* 참고: https://www.youtube.com/watch?v=-0EI8RqrIy4]\n\n### 추가 확인\n\n2026 개교 141주년 아카라카의 KODA 단독곡 표본을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=7rE9dkBGBJk]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2002년"
+      },
+      {
+        "label": "원곡",
+        "value": "노브레인 ‘진군가’, 붉은악마 2002 공식 앨범 수록·2002-07-24 발매"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2018·2020·2021·2025·2026 표본에서 확인되며 2026 아카라카에서도 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "no-brain-jingunga"
+      },
+      {
+        "type": "secondary-original-song",
+        "targetId": "queen-we-will-rock-you"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.241Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

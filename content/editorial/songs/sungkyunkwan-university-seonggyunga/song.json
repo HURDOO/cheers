@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-seonggyunga",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "성균가",
+    "aliases": [
+      "성균가 (2024)"
+    ],
+    "symbolicLines": [
+      "성균가",
+      "성균관대학교 자체 제작 응원가"
+    ],
+    "descriptionText": "2024년 킹고응원단 응원가 공모전 당선곡이다. 킹고응원단은 2024년 5월 10일 컨셉 영상을 공개하며 공모전 당선작임을 알렸고, 같은 해 공식 음원을 별도로 게시했다.[* 신곡 공개·공모전 당선 안내: https://www.youtube.com/watch?v=cNdJ-HEz5i8][* 2024 공식 음원: https://www.youtube.com/watch?v=s-ANfw8H5sE]\n\n공식 음원 크레딧에 따르면 작사는 서우석·이태인·유시현, 작곡은 서우석이 맡았다. 현재 확인된 14곡 가운데 작사·작곡 크레딧과 교내 공모전 선정 경위가 모두 공식 자료에 명시된 드문 사례다.[* 공식 음원 설명의 제작 크레딧: https://www.youtube.com/watch?v=s-ANfw8H5sE]\n\n공개 직후 2024년 양 캠퍼스 대동제 무대에 올랐고, 2024 ESKARA와 응원법 가이드 Chapter 3에도 포함됐다.[* 2024 명륜 대동제: https://www.youtube.com/watch?v=qwI0k8DjMWI][* 2024 ESKARA: https://www.youtube.com/watch?v=IeHHPafRV3Q][* 응원법 가이드 Chapter 3: https://www.youtube.com/watch?v=8wJGhCE2g6I] 다만 이후 2025·2026년 전체 주요 행사에서의 고정 사용 여부는 현재 수집한 공식 자료만으로 단정하지 않는다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2024 · 공모전 당선곡"
+      },
+      {
+        "label": "작사",
+        "value": "서우석·이태인·유시현"
+      },
+      {
+        "label": "작곡",
+        "value": "서우석"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.137Z",
+    "updatedAt": "2026-09-02T10:18:38.144Z"
+  }
+}

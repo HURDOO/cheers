@@ -1,0 +1,245 @@
+.rivalry-story {
+  color: #16191f;
+  background: #fff;
+  padding: 36px 0 24px;
+}
+
+.rivalry-story__shell {
+  width: min(calc(100% - 48px), 1080px);
+  margin: 0 auto;
+}
+
+.rivalry-story__heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 22px;
+}
+
+.rivalry-story__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px !important;
+  color: #4e5663;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.rivalry-story__eyebrow > span { color: #171b22; font-variant-numeric: tabular-nums; }
+
+.rivalry-story__heading h2 {
+  font-size: clamp(32px, 3.2vw, 44px);
+  font-weight: 840;
+  line-height: 1.12;
+  letter-spacing: -0.055em;
+}
+
+.rivalry-story__intro {
+  max-width: 490px;
+  padding-bottom: 3px;
+  color: #424a56;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 1.65;
+}
+
+.rivalry-story__intro strong { color: #222832; font-weight: 750; }
+
+.rivalry-story__matchup {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+}
+
+.rivalry-story__camp,
+.rivalry-story__repertoire { --camp: #004b9a; }
+.rivalry-story__camp.is-korea,
+.rivalry-story__repertoire.is-korea { --camp: #9c1739; }
+
+.rivalry-story__camp {
+  min-width: 0;
+  border-top: 4px solid var(--camp);
+  padding-top: 12px;
+}
+
+.rivalry-story__camp-heading,
+.rivalry-story__direction {
+  display: flex;
+  align-items: center;
+}
+
+.rivalry-story__camp-heading { justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.rivalry-story__direction { gap: 7px; font-size: 16px; }
+.rivalry-story__direction img { display: block; width: 30px; height: 30px; object-fit: contain; margin-right: 3px; }
+.rivalry-story__direction strong { color: var(--camp); font-weight: 800; }
+.rivalry-story__direction > span { color: #414a57; font-weight: 650; }
+.rivalry-story__direction > svg { color: #6a727d; }
+.rivalry-story__character { color: var(--camp); font-size: 15px; font-weight: 750; }
+
+.rivalry-story__camp > h3 {
+  margin-bottom: 8px;
+  font-size: 29px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+.rivalry-story__explanation {
+  min-height: 48px;
+  margin-bottom: 12px !important;
+  color: #3e4652;
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 1.6;
+}
+
+.rivalry-story__screen {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #111820;
+}
+
+.rivalry-story__screen iframe,
+.rivalry-story__play {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.rivalry-story__play {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  padding: 0;
+  color: #fff !important;
+  background: var(--camp);
+}
+
+.rivalry-story__play > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 200ms ease;
+}
+
+.rivalry-story__play > img[hidden] { display: none; }
+.rivalry-story__play:hover > img { transform: scale(1.025); }
+
+.rivalry-story__play::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(transparent 40%, rgba(0, 0, 0, 0.8));
+  content: "";
+}
+
+.rivalry-story__play-label {
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+}
+
+.rivalry-story__play-label > span {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding-left: 2px;
+  color: #111820;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.rivalry-story__play-label > strong { font-weight: 750; }
+
+.rivalry-story__playback-note {
+  margin-top: 10px !important;
+  color: #414a57;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.rivalry-story__credit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 34px;
+  color: #59616b;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.rivalry-story__credit a,
+.rivalry-story__credit button { display: inline-flex; align-items: center; gap: 4px; }
+.rivalry-story__credit a:hover { color: var(--camp); text-decoration: underline; }
+.rivalry-story__credit button { flex-shrink: 0; min-height: 34px; padding: 0 4px; border: 0; color: #343c48; background: transparent; }
+
+.rivalry-story__more { margin-top: 12px; border-top: 1px solid #cfd4dc; border-bottom: 1px solid #cfd4dc; }
+.rivalry-story__more-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; padding: 14px 0; }
+.rivalry-story__more-heading h3 { font-size: 17px; font-weight: 750; line-height: 1.45; letter-spacing: -0.025em; }
+.rivalry-story__more-heading > span { flex-shrink: 0; color: #515b67; font-size: 15px; font-weight: 650; }
+.rivalry-story__other-songs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; padding: 8px 0 24px; }
+.rivalry-story__repertoire h4 { margin-bottom: 8px; color: var(--camp); font-size: 15px; font-weight: 750; }
+.rivalry-story__repertoire ul { margin: 0; padding: 0; list-style: none; }
+.rivalry-story__repertoire li { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 84px; padding: 12px 0; border-top: 1px solid #e1e5ea; }
+.rivalry-story__repertoire li strong { font-size: 16px; font-weight: 750; }
+.rivalry-story__repertoire li p { margin-top: 4px; color: #535d6b; font-size: 15px; line-height: 1.5; }
+.rivalry-story__repertoire li a { display: inline-flex; align-items: center; gap: 4px; min-height: 44px; flex-shrink: 0; color: var(--camp); font-size: 14px; font-weight: 750; }
+.rivalry-story__repertoire li a:hover { text-decoration: underline; }
+
+.rivalry-story :where(button, a):focus-visible { outline: 3px solid #176bc1; outline-offset: 4px; }
+.rivalry-story__play:focus-visible { outline-color: #fff; outline-offset: -5px; }
+
+@media (min-width: 1440px) {
+  .rivalry-story { padding-top: 56px; }
+}
+
+@media (max-width: 900px) {
+  .rivalry-story__heading { gap: 24px; }
+  .rivalry-story__intro { max-width: 320px; font-size: 15px; }
+  .rivalry-story__desktop-break { display: none; }
+  .rivalry-story__matchup,
+  .rivalry-story__other-songs { gap: 24px; }
+  .rivalry-story__camp-heading { flex-wrap: wrap; gap: 8px; }
+  .rivalry-story__explanation { min-height: 72px; }
+}
+
+@media (max-width: 640px) {
+  .rivalry-story { padding: 32px 0 24px; }
+  .rivalry-story__shell { width: calc(100% - 36px); }
+  .rivalry-story__heading { display: block; margin-bottom: 24px; }
+  .rivalry-story__heading h2 { font-size: 34px; }
+  .rivalry-story__eyebrow { font-size: 14px; }
+  .rivalry-story__intro { max-width: none; margin-top: 16px !important; font-size: 15px; }
+  .rivalry-story__intro br { display: none; }
+  .rivalry-story__matchup,
+  .rivalry-story__other-songs { grid-template-columns: 1fr; gap: 28px; }
+  .rivalry-story__camp-heading { flex-wrap: nowrap; }
+  .rivalry-story__direction { font-size: 15px; }
+  .rivalry-story__character { font-size: 14px; }
+  .rivalry-story__camp > h3 { font-size: 27px; }
+  .rivalry-story__explanation { min-height: 0; }
+  .rivalry-story__play-label { bottom: 14px; left: 14px; font-size: 16px; }
+  .rivalry-story__credit { min-height: 44px; }
+  .rivalry-story__credit button { min-height: 44px; }
+  .rivalry-story__more { margin-top: 20px; }
+  .rivalry-story__more-heading { gap: 12px; }
+  .rivalry-story__more-heading h3 { font-size: 16px; }
+  .rivalry-story__more-heading > span { font-size: 14px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rivalry-story *,
+  .rivalry-story *::before,
+  .rivalry-story *::after { transition: none !important; }
+}

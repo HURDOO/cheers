@@ -1,0 +1,125 @@
+/* B's saturated light and dimensional type, now staged as a two-school duel.
+   No metallic medals, decorative English captions or orbiting UI. */
+.rivalry-hero {
+  --hero-blue: #1889ef;
+  --hero-red: #ef1459;
+  --hero-active: var(--hero-blue);
+  --hero-opponent: var(--hero-red);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  color: #f4f7fb;
+  background: radial-gradient(ellipse at 64% 43%, #172135 0%, #080d17 40%, #03050a 82%);
+}
+.match-page[data-side="korea"] .rivalry-hero { --hero-active: var(--hero-red); --hero-opponent: var(--hero-blue); }
+.rivalry-hero::before { content: ""; position: absolute; z-index: -2; inset: 0; background: linear-gradient(110deg, color-mix(in srgb, #001d48 70%, transparent), transparent 46%, color-mix(in srgb, #500019 65%, transparent)); }
+.rivalry-hero__lights { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: -1; }
+.rivalry-hero__lights i { position: absolute; top: -25%; width: 30%; height: 150%; filter: blur(36px); opacity: .3; transform: rotate(19deg); }
+.rivalry-hero__lights i:first-child { left: 12%; background: linear-gradient(90deg, transparent, var(--hero-blue), transparent); }
+.rivalry-hero__lights i:last-child { right: 2%; background: linear-gradient(90deg, transparent, var(--hero-red), transparent); transform: rotate(-23deg); opacity: .19; }
+.rivalry-hero__shell { display: flex; flex-direction: column; width: min(calc(100% - 80px), 1120px); min-height: max(720px, calc(100svh - 64px)); margin: 0 auto; }
+.rivalry-hero__choose { padding-top: 34px; text-align: center; }
+.rivalry-hero__composition { display: grid; grid-template-columns: 1.08fr 1fr; align-items: center; flex: 1; padding: 40px 0 28px; }
+.rivalry-hero__heading { position: relative; z-index: 2; min-width: 0; }
+.rivalry-hero__eyebrow { display: flex; align-items: center; gap: 18px; color: #b9c0ce; font-size: 14px; font-weight: 600; }
+.rivalry-hero__eyebrow > span { color: #f4f7fb; }
+.rivalry-hero__eyebrow time { font-variant-numeric: tabular-nums; letter-spacing: .025em; }
+.rivalry-hero__heading h1 { display: flex; align-items: flex-end; margin: 31px 0 35px; font-size: clamp(146px, 18vw, 224px); font-weight: 920; line-height: .86; letter-spacing: -.12em; }
+.rivalry-hero__heading h1 > span { position: relative; display: inline-block; padding-right: .02em; }
+/* Separate layout movement from optical scale/lift so repeated swaps cannot drift. */
+.rivalry-hero__glyph { display: block; transform-origin: center bottom; text-shadow: 0 2px 0 #ffffff20, 0 5px 0 color-mix(in srgb, currentColor 55%, black), 0 14px 32px color-mix(in srgb, currentColor 32%, transparent); }
+.rivalry-hero__heading h1 > span:first-child { z-index: 1; }
+.rivalry-hero__heading h1 > span { transform-origin: center bottom; }
+.rivalry-hero__heading h1 .is-korea { color: #f12365; }
+.rivalry-hero__heading h1 .is-yonsei { color: #248eec; }
+.rivalry-hero__heading h1 strong { margin: 0 0 .05em .12em; font-size: .33em; color: #f4f7fb; font-weight: 850; letter-spacing: -.06em; }
+.rivalry-hero__statement { font-size: clamp(23px, 2.5vw, 30px); font-weight: 750; line-height: 1.35; letter-spacing: -.045em; }
+.rivalry-hero__actions { display: flex; align-items: flex-start; flex-direction: column; gap: 13px; margin-top: 30px; }
+.rivalry-hero__actions a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: 14px; font-weight: 650; }
+.rivalry-hero__actions > a:not(.rivalry-hero__primary) { color: #b5c0d1; min-height: 36px; }
+.rivalry-hero__actions > a:not(.rivalry-hero__primary):hover { color: #fff; }
+.rivalry-hero__actions .rivalry-hero__primary { display: grid; grid-template-columns: 40px 1fr 18px; gap: 13px; width: 245px; min-height: 58px; padding: 8px 16px 8px 8px; border: 1px solid #ffffff29; border-radius: 15px; color: #f4f7fb; background: linear-gradient(130deg, #ffffff12, #ffffff05); box-shadow: inset 0 1px 0 #ffffff12, 0 16px 32px #0003; backdrop-filter: blur(16px); transition: background .2s ease, transform .2s ease; }
+.rivalry-hero__primary > span { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; color: white; background: var(--hero-active); box-shadow: 0 0 20px color-mix(in srgb, var(--hero-active) 32%, transparent); }
+.rivalry-hero__primary > strong { font-size: 15px; font-weight: 700; }
+.rivalry-hero__actions .rivalry-hero__primary:hover { background: color-mix(in srgb, var(--hero-active) 13%, #ffffff0e); transform: translateY(-3px); }
+.rivalry-hero__stage { position: relative; width: 100%; aspect-ratio: 1; perspective: 1100px; min-width: 0; }
+.rivalry-hero__backlight { position: absolute; inset: -8%; background: radial-gradient(ellipse at 20% 40%, #1889ef2e, transparent 48%), radial-gradient(ellipse at 85% 48%, #ef14592e, transparent 48%); filter: blur(22px); }
+.rivalry-hero__camp { --camp-color: #ef1459; --camp-deep: #500019; position: absolute; top: 22%; right: 0; width: 44%; text-align: center; }
+.rivalry-hero__camp.is-yonsei { --camp-color: #1889ef; --camp-deep: #001d48; left: 0; right: auto; }
+.rivalry-hero__camp[data-active="true"] { z-index: 2; }
+.rivalry-hero__crest { --crest-rim: #ffffff99; position: relative; width: 100%; aspect-ratio: 1; transform: rotateX(var(--tilt-x)) rotateY(var(--tilt-y)); transition: transform .35s ease-out; }
+/* Shadows follow the PNG's alpha contour: no enclosing disc or frame. */
+.rivalry-hero__crest > img { position: absolute; inset: 0; display: block; width: 92%; height: 92%; margin: auto; object-fit: contain; filter: drop-shadow(1px 0 0 var(--crest-rim)) drop-shadow(-1px 0 0 var(--crest-rim)) drop-shadow(0 1px 0 var(--crest-rim)) drop-shadow(0 -1px 0 var(--crest-rim)) drop-shadow(0 0 12px var(--camp-color)) drop-shadow(0 0 32px color-mix(in srgb, var(--camp-color) 55%, transparent)) drop-shadow(0 15px 12px #0009); }
+.rivalry-hero__camp.is-korea .rivalry-hero__crest > img { width: 100%; height: 100%; }
+/* School-colored filters stay fixed while only the camp's position/scale changes. */
+.rivalry-hero__camp > p { margin-top: 24px; color: #f4f7fb; font-size: 19px; font-weight: 750; letter-spacing: -.035em; }
+.rivalry-hero__versus { position: absolute; z-index: 3; top: 43%; left: 50%; color: #f4f7fb; font-size: 27px; font-weight: 850; font-style: italic; letter-spacing: -.07em; transform: translate(-50%, -50%); text-shadow: 0 2px 20px #000; }
+.rivalry-hero__closing { display: flex; align-items: center; justify-content: center; gap: 18px; min-height: 64px; color: #9ba8bc; font-size: 13px; font-weight: 550; }
+.rivalry-hero__closing a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: #d7dfeb; }
+
+/* Let the duel fill a large display, while the height cap keeps it in one fold.
+   The picker and composition form one centered group; the scroll cue stays below. */
+@media (min-width: 1800px) {
+  .rivalry-hero { --hero-scene-width: clamp(1120px, min(80vw, calc(150svh - 240px)), 2240px); }
+  .rivalry-hero__shell {
+    display: grid;
+    grid-template-rows: minmax(32px, .75fr) auto auto minmax(24px, 1fr) 64px;
+    width: min(calc(100% - 120px), var(--hero-scene-width));
+  }
+  .rivalry-hero__choose { grid-row: 2; padding-top: 0; }
+  .rivalry-hero__composition { grid-row: 3; padding: 28px 0; }
+  .rivalry-hero__eyebrow { gap: 24px; font-size: clamp(16px, 1vw, 20px); }
+  .rivalry-hero__heading h1 { margin: .14em 0 .16em; font-size: calc(var(--hero-scene-width) * .2); }
+  .rivalry-hero__statement { font-size: clamp(30px, calc(var(--hero-scene-width) * .024), 48px); }
+  .rivalry-hero__actions { margin-top: clamp(30px, 2vw, 44px); }
+  .rivalry-hero__actions .rivalry-hero__primary { grid-template-columns: 48px 1fr 20px; gap: 16px; width: 300px; min-height: 68px; border-radius: 17px; }
+  .rivalry-hero__primary > span { width: 48px; height: 48px; border-radius: 12px; }
+  .rivalry-hero__primary > strong { font-size: 18px; }
+  .rivalry-hero__primary svg { width: 20px; height: 20px; }
+  .rivalry-hero__stage { aspect-ratio: 1.25; }
+  .rivalry-hero__camp { top: 16%; }
+  .rivalry-hero__camp > p { margin-top: 28px; font-size: clamp(20px, calc(var(--hero-scene-width) * .014), 28px); }
+  .rivalry-hero__versus { font-size: clamp(28px, calc(var(--hero-scene-width) * .023), 48px); }
+  .rivalry-hero__closing { grid-row: 5; font-size: 15px; }
+}
+
+@media (max-width: 1040px) {
+  .rivalry-hero__shell { width: calc(100% - 64px); min-height: 700px; }
+  .rivalry-hero__composition { grid-template-columns: 1.08fr 1fr; padding: 46px 0 30px; }
+  .rivalry-hero__heading h1 { font-size: 18vw; }
+  .rivalry-hero__statement { font-size: 25px; }
+  .rivalry-hero__stage { height: 370px; }
+  .rivalry-hero__camp { top: 19%; }
+  .rivalry-hero__camp > p { font-size: 16px; }
+  .rivalry-hero__versus { font-size: 24px; }
+}
+@media (max-width: 760px) {
+  .rivalry-hero__shell { width: calc(100% - 40px); min-height: 0; }
+  .rivalry-hero__choose { padding-top: 16px; }
+  .rivalry-hero__composition { display: flex; flex-direction: column; align-items: stretch; padding: 24px 0 16px; }
+  .rivalry-hero__eyebrow { font-size: 13px; gap: 14px; }
+  .rivalry-hero__heading h1 { font-size: clamp(125px, 29vw, 182px); margin: 18px 0 20px; }
+  .rivalry-hero__statement { font-size: clamp(24px, 5.7vw, 29px); }
+  .rivalry-hero__actions { flex-direction: row; align-items: center; flex-wrap: wrap; gap: 5px 18px; margin-top: 18px; }
+  .rivalry-hero__actions .rivalry-hero__primary { width: 245px; }
+  .rivalry-hero__actions > a:not(.rivalry-hero__primary) { font-size: 13px; }
+  .rivalry-hero__stage { width: min(100%, 370px); height: 245px; margin: 10px auto 0; }
+  .rivalry-hero__camp { top: 8%; }
+  .rivalry-hero__camp > p { margin-top: 15px; font-size: 16px; }
+  .rivalry-hero__versus { top: 40%; font-size: 23px; }
+  .rivalry-hero__closing { min-height: 56px; font-size: 13px; gap: 12px; }
+}
+@media (max-width: 380px) {
+  .rivalry-hero__shell { width: calc(100% - 32px); }
+  .rivalry-hero__composition { padding-top: 24px; }
+  .rivalry-hero__heading h1 { font-size: 112px; margin-top: 18px; }
+  .rivalry-hero__statement { font-size: 23px; }
+  .rivalry-hero__actions { gap: 3px; margin-top: 20px; }
+  .rivalry-hero__stage { height: 235px; margin-top: 18px; }
+  .rivalry-hero__camp > p { font-size: 16px; }
+  .rivalry-hero__versus { font-size: 21px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rivalry-hero *, .rivalry-hero *::before, .rivalry-hero *::after { animation: none !important; transition: none !important; }
+  .rivalry-hero__crest { transform: none; }
+}

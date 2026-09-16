@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-chulsapyo",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "출사표",
+    "aliases": [],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "영화 ‘Pirates of the Caribbean: The Curse of the Black Pearl’의 2003년 트랙 ‘He's a Pirate’와 Handel의 D단조 건반 모음곡 HWV 437 중 Sarabande 선율을 결합한 2005년 고려대 응원가다. 공식 응원단 영상은 두 음악 출처를 직접 적지만 ‘Srabande no.11 – Handle’로 오기해 정확한 작품번호는 권리자·악보 자료로 보정했다. 2026 입실렌티와 신입생 OT에서 응원단장·기수부 레퍼토리로 계속 사용된다.\n\n### 현장에서\n\n- 응원단장 또는 부단장이 중심에 서고 기수부 Young Tigers가 결합하는 강한 시각적 레퍼토리로 공연한다.\n- 입장·오프닝 또는 고연전 직전의 전의를 끌어올리는 구간에 ‘입장 출사표’라는 배치명으로 쓰이기도 한다.\n- 입실렌티 후반 응원에서도 등장하며, 영화음악의 빠른 동력과 바로크 선율의 장중함을 교차시킨다.\n\n### 더 알아보기\n\n공식 응원단이 대중적으로 익숙한 해적 영화 테마와 Handel의 느린 Sarabande를 한 곡의 음악 출처로 함께 제시한다. 서로 시대가 다른 두 선율을 결합한 점이 이 곡의 독특한 긴장감을 만든다.[* 참고: https://www.youtube.com/watch?v=TAkrR8ouVpo / https://music.apple.com/us/song/1440650203]\n\n공식 영상 설명의 ‘Srabande no.11 – Handle’은 표준 작품 표기와 맞지 않는다. 권리자·악보 자료가 확인하는 작품은 Handel의 Suite in D Minor, HWV 437 중 세 번째 악장 Sarabande다.[* 참고: https://www.youtube.com/watch?v=TAkrR8ouVpo / https://www.deutschegrammophon.com/en/catalogue/products/handel-sarabande-feuillatre-13139]\n\n2026 신입생 OT 영상은 출사표를 응원단장과 기수부의 연속 레퍼토리 첫 곡으로 묶는다. 공개 댓글은 동작의 체력 소모와 곡의 전투적인 분위기를 반복해 언급한다.[* 참고: https://www.youtube.com/watch?v=CA_F-Dc8Yis / https://www.youtube.com/watch?v=TAkrR8ouVpo]\n\n### 추가 확인\n\n2026 입실렌티 KODA의 출사표·쎄쎄쎄 연속 구간을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=wTTezdszINI]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2005년"
+      },
+      {
+        "label": "원곡",
+        "value": "Klaus Badelt ‘He's a Pirate’, 영화 ‘Pirates of the Caribbean: The Curse of the Black Pearl’ 사운드트랙(2003)"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2026 입실렌티 2부·3부와 신입생 응원 OT에서 계속 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "klaus-badelt-hes-a-pirate"
+      },
+      {
+        "type": "secondary-original-song",
+        "targetId": "handel-sarabande-hwv-437"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.102Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

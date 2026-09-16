@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-yeah-yeah-yeah",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "Yeah Yeah Yeah",
+    "aliases": [
+      "예예예",
+      "Yeah! Yeah! Yeah!"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "노브레인의 2007년 곡 `Rock It Rocket`을 바탕으로 한 춤 중심 응원가다. 고려대학교 응원단의 2014년 11월 공식 학습 영상과 같은 해 안암 응원OT 표본이 가장 이르며, 2018 입실렌티·2020 공식 교육 영상·2025 입실렌티와 고연전 라이브·2026 입실렌티까지 지속된다. 공식 설명이 원곡과 전체 반복 구조를 직접 밝히고, 현장 댓글은 원을 만들거나 한쪽으로 몰려 움직이는 집단 동작과 트위스트를 이 곡의 특징으로 반복해서 언급한다.\n\n### 현장에서\n\n- 입실렌티·응원OT·고연전에서 관중이 트위스트와 좌우 이동을 함께 하는 빠른 춤 응원으로 사용한다.\n- 2025 정기 고연전에서는 응원단 음악부 엘리제의 라이브 연주 표본이 남아 있다.\n- 2026 입실렌티 3부 전반부에서 행사 후반의 조단장 턴을 마무리하는 곡으로 배치됐다.\n\n### 더 알아보기\n\n2018·2022 영상 댓글은 원을 만들거나 한 방향으로 몰려가는 동작을 이 곡의 재미로 반복해서 회상한다. 2025 댓글도 응원단의 앞뒤 대형 이동을 특징으로 지목한다.[* 참고: https://www.youtube.com/watch?v=Vsw0NpxXpdY / https://www.youtube.com/watch?v=pdK6pXssBgk]\n\n고려대 교우회 인터뷰에는 외국인 교우가 이 곡을 가장 좋아해 가사의 한 구절을 팔에 새겼다는 사연이 소개됐다.[* 참고: https://www.kuaascholarship.or.kr/member/bulletin/interview.do]\n\n원곡과 고려대판은 제목 구호의 반복과 분노·활력 이미지를 공유하지만, 고려대판은 호랑이와 학교 상징 중심으로 새로 구성된다.[* 참고: https://www.youtube.com/watch?v=gTSkY-JMMRk / https://www.youtube.com/watch?v=0tX2SmbErik]\n\n### 추가 확인\n\n2026 신입생 응원 OT의 예예예·호들갑 연속 구간을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=A1PtntjnVM0]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "늦어도 2014년"
+      },
+      {
+        "label": "원곡",
+        "value": "노브레인 `Rock It Rocket`"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2026 입실렌티에서 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "no-brain-rock-it-rocket"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.190Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

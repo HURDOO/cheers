@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-09-05-korea-yonsei-games-2026",
+  "counts": {"direct": 25, "representative": 8, "conditional": 6},
+  "direct": [
+    {"organization": "LG 트윈스", "title": "서울의 아리아", "relatedAnchorIds": ["korea-university-minjogui-aria"], "expectedRelationKind": "cheer_to_cheer_adaptation"},
+    {"organization": "LG 트윈스", "title": "승리의 노래", "relatedAnchorIds": ["korea-university-forever"], "expectedRelationKind": "cheer_to_cheer_adaptation"},
+    {"organization": "LG 트윈스", "title": "사랑한다 LG", "relatedAnchorIds": ["yonsei-university-yonseiyeo-saranghanda"], "expectedRelationKind": "cheer_to_cheer_adaptation"},
+    {"organization": "KT 위즈", "title": "위닝케이티", "relatedAnchorIds": ["korea-university-hwaryeo-pieonan-hamseong"], "expectedRelationKind": "same_original"},
+    {"organization": "KT 위즈", "title": "승리를 위하여", "relatedAnchorIds": ["korea-university-deureora-boara-geurigo-gieokhara"], "expectedRelationKind": "same_original"},
+    {"organization": "KT 위즈", "title": "으랏차차", "relatedAnchorIds": ["korea-university-domangja"], "expectedRelationKind": "same_original"},
+    {"organization": "KT 위즈", "title": "아파트", "relatedAnchorIds": ["yonsei-university-apartment"], "expectedRelationKind": "same_original"},
+    {"organization": "롯데 자이언츠", "title": "바다새", "relatedAnchorIds": ["yonsei-university-badasae"], "expectedRelationKind": "same_original"},
+    {"organization": "롯데 자이언츠", "title": "하늘이여", "relatedAnchorIds": ["korea-university-haneuriyeo"], "expectedRelationKind": "cheer_to_cheer_adaptation"},
+    {"organization": "롯데 자이언츠", "title": "오 최강롯데", "relatedAnchorIds": ["korea-university-champs-elysees"], "expectedRelationKind": "same_original"},
+    {"organization": "롯데 자이언츠", "title": "소리높여 외쳐보자", "aliases": ["영원하라"], "relatedAnchorIds": ["korea-university-yeongwonhara"], "expectedRelationKind": "cheer_to_cheer_adaptation"},
+    {"organization": "롯데 자이언츠", "title": "롯데는 승리한다", "aliases": ["과거 Time to Say Goodbye 계열 응원가"], "relatedAnchorIds": ["korea-university-godaereul-noraehara"], "expectedRelationKind": "same_original"},
+    {"organization": "롯데 자이언츠", "title": "뱃노래", "aliases": ["뱃놀이"], "relatedAnchorIds": ["korea-university-baennorae"], "expectedRelationKind": "cheer_to_cheer_adaptation"},
+    {"organization": "KIA 타이거즈", "title": "고래사냥", "relatedAnchorIds": ["korea-university-goraesanyang"], "expectedRelationKind": "same_original"},
+    {"organization": "KIA 타이거즈", "title": "김선빈 응원가", "relatedAnchorIds": ["yonsei-university-badasae"], "expectedRelationKind": "same_original"},
+    {"organization": "KIA 타이거즈", "title": "외쳐라 최강 KIA 계열", "relatedAnchorIds": ["yonsei-university-nae-ireum-geurigo-yonsei"], "expectedRelationKind": "inspired_by"},
+    {"organization": "KIA 타이거즈", "title": "Beethoven Virus 계열 응원", "relatedAnchorIds": ["yonsei-university-seosi"], "expectedRelationKind": "same_original"},
+    {"organization": "KIA 타이거즈", "title": "바다가 보이는 마을 계열 응원", "relatedAnchorIds": ["yonsei-university-yeongwonhan-hamseong"], "expectedRelationKind": "same_original"},
+    {"organization": "키움·넥센 히어로즈", "title": "승리를 위하여", "aliases": ["승리를 위한 함성 계열"], "relatedAnchorIds": ["korea-university-jiya-ui-hamseong"], "expectedRelationKind": "same_original"},
+    {"organization": "키움·넥센 히어로즈", "title": "하늘이여", "relatedAnchorIds": ["korea-university-haneuriyeo"], "expectedRelationKind": "same_original"},
+    {"organization": "키움·넥센 히어로즈", "title": "스나이더 응원가", "relatedAnchorIds": ["yonsei-university-one-night-only"], "expectedRelationKind": "same_original"},
+    {"organization": "한화 이글스", "title": "사랑한다 이글스", "relatedAnchorIds": ["yonsei-university-haneul-kkeutkkaji"], "expectedRelationKind": "same_original"},
+    {"organization": "두산 베어스", "title": "해야", "relatedAnchorIds": ["yonsei-university-haeya"], "expectedRelationKind": "same_original"},
+    {"organization": "SSG 랜더스", "title": "투혼의 랜더스", "relatedAnchorIds": ["korea-university-godaereul-saranghara"], "expectedRelationKind": "same_original"},
+    {"organization": "삼성 라이온즈", "title": "이승엽 응원가", "relatedAnchorIds": ["korea-university-deureora-boara-geurigo-gieokhara"], "expectedRelationKind": "same_original"}
+  ],
+  "representative": [
+    {"organization": "롯데 자이언츠", "title": "부산갈매기", "status": "research_target"},
+    {"organization": "KIA 타이거즈", "title": "남행열차", "status": "research_target"},
+    {"organization": "키움 히어로즈", "title": "영웅출정가", "status": "research_target"},
+    {"organization": "한화 이글스", "title": "나는 행복합니다", "status": "research_target"},
+    {"organization": "두산 베어스", "title": "두산 승리를 위하여", "status": "research_target"},
+    {"organization": "SSG 랜더스", "title": "연안부두", "status": "research_target"},
+    {"organization": "삼성 라이온즈", "title": "엘도라도", "status": "research_target"},
+    {"organization": "NC 다이노스", "title": "마산 스트리트", "status": "research_target"}
+  ],
+  "conditional": [
+    {"organization": "대구 FC", "title": "그 겨울", "relatedAnchorIds": ["yonsei-university-haneul-arae"], "status": "discovered_pending"},
+    {"organization": "창원 LG", "title": "연세여 사랑한다 계열 후보", "relatedAnchorIds": ["yonsei-university-yonseiyeo-saranghanda"], "status": "discovered_pending"},
+    {"organization": "서울 이랜드", "title": "연세여 사랑한다 계열 후보", "relatedAnchorIds": ["yonsei-university-yonseiyeo-saranghanda"], "status": "discovered_pending"},
+    {"organization": "안양 한라", "title": "연세여 사랑한다 계열 후보", "relatedAnchorIds": ["yonsei-university-yonseiyeo-saranghanda"], "status": "discovered_pending"},
+    {"organization": "KCC", "title": "지.야의 함성 계열 후보", "relatedAnchorIds": ["korea-university-jiya-ui-hamseong"], "status": "discovered_pending"},
+    {"organization": "2002 월드컵 응원", "title": "Go West 계열", "relatedAnchorIds": ["yonsei-university-seogok"], "status": "discovered_pending"}
+  ]
+}

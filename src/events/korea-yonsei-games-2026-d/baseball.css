@@ -1,0 +1,131 @@
+.baseball-story {
+  --camp: #9c1739;
+  padding: 48px 0 32px;
+  color: #171d25;
+  background: #f6f7f9;
+}
+.baseball-story[data-camp="yonsei"] { --camp: #004b9a; }
+.baseball-story__shell { width: min(calc(100% - 48px), 1080px); margin: 0 auto; }
+.baseball-story__heading { margin-bottom: 28px; }
+.baseball-story__eyebrow { margin-bottom: 12px !important; color: #65717e; font-size: 14px; font-weight: 650; }
+.baseball-story__heading h2 { font-size: clamp(38px, 4.8vw, 62px); font-weight: 850; line-height: 1.1; letter-spacing: -0.06em; }
+
+.baseball-story__routes { display: grid; gap: 32px; }
+.baseball-story__routes.is-paired { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.baseball-route { min-width: 0; }
+.baseball-route__flow { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; min-height: 24px; margin: 0 0 20px !important; padding: 0; list-style: none; }
+.baseball-route__flow li { display: inline-flex; align-items: center; gap: 10px; color: #66727e; font-size: 15px; font-weight: 550; line-height: 1.7; }
+.baseball-route__flow li > svg { flex-shrink: 0; color: #7d8995; }
+.baseball-route__flow a { display: inline-flex; align-items: center; gap: 2px; color: #394858; font-weight: 650; text-decoration: underline; text-decoration-color: #bcc4cd; text-underline-offset: 4px; }
+.baseball-route__flow a:hover { color: var(--camp); text-decoration-color: currentColor; }
+.baseball-route__videos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
+.baseball-story__routes.is-paired .baseball-route__videos { grid-template-columns: 1fr; }
+.baseball-story__version { min-width: 0; }
+.baseball-story__version > header { margin-bottom: 12px; }
+.baseball-story__version > header p { margin-bottom: 5px; color: #5b6774; font-size: 14px; font-weight: 600; }
+.baseball-story__version h3 { margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.04em; line-height: 1.25; }
+
+.baseball-story__screen { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #151c27; }
+.baseball-story__screen iframe,
+.baseball-story__play { display: block; width: 100%; height: 100%; border: 0; }
+.baseball-story__play { position: absolute; inset: 0; padding: 0; overflow: hidden; color: #fff !important; background: #151c27; }
+.baseball-story__play > img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 180ms ease; }
+.baseball-story__play > img[hidden] { display: none; }
+.baseball-story__play:hover > img { transform: scale(1.025); }
+.baseball-story__play::after { position: absolute; inset: 0; background: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.75)); content: ""; }
+.baseball-story__play > span { position: absolute; z-index: 1; bottom: 18px; left: 18px; display: flex; align-items: center; gap: 10px; font-size: 16px; }
+.baseball-story__play i { display: grid; place-items: center; width: 44px; height: 44px; padding-left: 2px; border-radius: 50%; color: #141b25; background: #fff; }
+.baseball-story__play strong { font-weight: 750; }
+.baseball-story__unavailable { display: flex; align-items: center; justify-content: center; gap: 8px; height: 100%; padding: 16px; color: #fff !important; font-size: 15px; }
+.baseball-story__version > footer { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; min-height: 36px; padding-top: 8px; color: #64707e; font-size: 13px; font-weight: 550; line-height: 1.6; }
+.baseball-story__version > footer a,
+.baseball-story__version > footer button { display: inline-flex; align-items: center; gap: 4px; }
+.baseball-story__version > footer a > svg { flex-shrink: 0; }
+.baseball-story__version > footer button { min-height: 32px; flex-shrink: 0; margin-top: -6px; padding: 0 4px; border: 0; color: #343c48; background: transparent; }
+.baseball-story__version > footer a:hover { color: var(--camp); text-decoration: underline; }
+.baseball-route__source { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 7px; margin-top: 8px !important; color: #64707e; font-size: 14px; font-weight: 500; line-height: 1.7; }
+.baseball-route__source a { display: inline-flex; align-items: center; gap: 3px; }
+.baseball-route__source a > svg { flex-shrink: 0; }
+.baseball-route__source a:hover { color: var(--camp); text-decoration: underline; }
+
+.baseball-story__extras { margin-top: 18px; }
+.baseball-story__extras > summary { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: #465362; font-size: 15px; font-weight: 650; list-style: none; cursor: pointer; }
+.baseball-story__extras > summary::-webkit-details-marker { display: none; }
+.baseball-story__extras > summary::marker { content: ""; }
+.baseball-story__extras[open] > summary > svg { transform: rotate(180deg); }
+.baseball-story__extras > summary:hover { color: #151c26; }
+.baseball-story__extras > summary:focus-visible { outline: 3px solid #176bc1; outline-offset: 4px; }
+
+.baseball-story__origin { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 12px; padding: 12px 0 18px; border-bottom: 1px solid #cfd4dc; font-size: 14px; line-height: 1.6; }
+.baseball-story__origin p { color: #4d5664; }
+.baseball-story__origin a { display: inline-flex; align-items: center; gap: 4px; color: #444e5c; font-weight: 650; }
+.baseball-story__origin a:hover { text-decoration: underline; }
+
+.baseball-story__more { padding-top: 28px; }
+.baseball-story__more > header h3 { margin-bottom: 6px; font-size: 22px; font-weight: 800; letter-spacing: -0.035em; }
+.baseball-story__more > header p { color: #535d6b; font-size: 16px; font-weight: 550; line-height: 1.6; }
+.baseball-story__more ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; margin: 18px 0 0; padding: 0; list-style: none; }
+.baseball-story__more li { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-content: start; gap: 8px 16px; padding: 18px 0; border-top: 1px solid #dce1e8; }
+.baseball-story__song-pair { display: grid; grid-template-columns: minmax(0, 1fr) 106px minmax(0, 1fr); align-items: center; gap: 12px; grid-column: 1 / -1; }
+.baseball-story__song-pair > div { display: grid; gap: 5px; }
+.baseball-story__song-pair small { color: #5b6572; font-size: 14px; font-weight: 550; }
+.baseball-story__song-pair strong { color: #262d38; font-size: 16px; font-weight: 750; line-height: 1.4; }
+.baseball-story__relation { display: flex; flex-direction: column; align-items: center; gap: 5px; color: #5c6673; font-size: 13px; font-weight: 600; }
+.baseball-story__relation.is-adaptation { color: #842446; }
+.baseball-story__relation > span:last-child { height: 18px; font-size: 17px; line-height: 18px; }
+.baseball-story__more li > p { grid-column: 1 / -1; color: #596372; font-size: 14px; line-height: 1.6; }
+.baseball-story__more li > a { display: inline-flex; align-items: center; gap: 4px; justify-self: start; grid-column: 1 / -1; min-height: 30px; color: var(--camp); font-size: 14px; font-weight: 750; }
+.baseball-story__more li > a:hover { text-decoration: underline; }
+
+.baseball-story__clubs { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-top: 20px; padding-top: 22px; border-top: 2px solid #232b36; }
+.baseball-story__clubs h3 { font-size: 16px; font-weight: 750; }
+.baseball-story__clubs p { margin-top: 6px; color: #5b6572; font-size: 14px; }
+.baseball-story__clubs ul { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; max-width: 590px; margin: 0; padding: 0; list-style: none; }
+.baseball-story__clubs li > a,
+.baseball-story__clubs li > span { display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-width: 48px; min-height: 40px; padding: 6px 10px; border: 1px solid #d7dde5; color: #293342; font-size: 14px; font-weight: 750; }
+.baseball-story__clubs li > a { border-bottom: 3px solid var(--club); }
+.baseball-story__clubs li > a:hover { background: #f0f3f7; }
+.baseball-story__clubs li > span { color: #858b94; background: #f5f6f8; }
+.baseball-story :where(button, a):focus-visible { outline: 3px solid #176bc1; outline-offset: 4px; }
+.baseball-story__play:focus-visible { outline-color: #fff; outline-offset: -5px; }
+
+
+
+@media (max-width: 900px) {
+  .baseball-story__heading h2 { font-size: 48px; }
+  .baseball-route__flow { min-height: 46px; align-content: start; }
+  .baseball-story__song-pair { grid-template-columns: minmax(0, 1fr) 90px minmax(0, 1fr); gap: 8px; }
+  .baseball-story__origin { align-items: flex-start; flex-direction: column; gap: 4px; }
+  .baseball-story__clubs { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .baseball-story__clubs ul { justify-content: flex-start; max-width: none; }
+}
+
+@media (max-width: 640px) {
+  .baseball-story { padding: 36px 0 24px; }
+  .baseball-story__shell { width: calc(100% - 36px); }
+  .baseball-story__heading { margin-bottom: 22px; }
+  .baseball-story__heading h2 { font-size: clamp(30px, 8.8vw, 38px); }
+  .baseball-story__routes.is-paired,
+  .baseball-route__videos { grid-template-columns: 1fr; gap: 28px; }
+  .baseball-route__flow { min-height: 0; gap: 3px 8px; margin-bottom: 16px !important; }
+  .baseball-route__flow li { gap: 8px; font-size: 14px; }
+  .baseball-story__version h3 { font-size: 24px; }
+  .baseball-story__play > span { bottom: 14px; left: 14px; font-size: 15px; }
+  .baseball-story__version > footer { min-height: 40px; }
+  .baseball-story__version > footer button { min-height: 44px; margin-top: -8px; }
+  .baseball-story__origin { padding: 12px 0; }
+  .baseball-story__origin a { min-height: 44px; }
+  .baseball-story__more > header h3 { font-size: 21px; }
+  .baseball-story__more ul { grid-template-columns: 1fr; }
+  .baseball-story__song-pair { grid-template-columns: minmax(0, 1fr) 94px minmax(0, 1fr); }
+  .baseball-story__song-pair strong { font-size: 15px; }
+  .baseball-story__more li > a { min-height: 44px; }
+  .baseball-story__clubs { margin-top: 8px; }
+  .baseball-story__clubs li > a,
+  .baseball-story__clubs li > span { min-height: 44px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .baseball-story *,
+  .baseball-story *::after { transition: none !important; }
+}

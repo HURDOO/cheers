@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "yonsei-university-haneul-arae",
+    "organizationId": "yonsei-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "하늘 아래",
+    "aliases": [
+      "하늘아래",
+      "연세대 하늘 아래"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "2024년 ‘신곡’으로 소개된 연세대학교 응원가다. 나무위키는 미래캠퍼스 축제에서 먼저 공개됐다고 서술하지만 해당 순간의 직접 영상은 아직 확보하지 못했다. 공개 녹음을 비교하면 대구FC가 2020년에 발매한 구단 응원가 ‘그 겨울’과 선율·구조가 사실상 같은 계보임을 확인할 수 있고, 2024 영상 댓글에서도 그 유사성이 반복 지적된다. 그러나 제작자가 직접 차용 경위나 허락 관계를 밝힌 자료가 없어 ‘같은 음악 재료를 쓴 후발 응원가’라는 음악적 판정과 법적·제작 경로를 분리한다.\n\n### 현장에서\n\n- 아카라카와 신입생·합동 응원 OT에서 대규모 어깨동무 합창으로 공연한다.\n- 느린 도입에서 넓은 후렴으로 올라가는 구조를 이용해 세대·관중 전체가 함께 부르는 감정적 고조 구간에 배치한다.\n- 2024년 신곡 교육 이후 2025·2026 행사에서도 반복돼 신규곡이 정규 레퍼토리로 정착하는 양상을 보인다.\n\n### 더 알아보기\n\n미래캠퍼스 축제 최초 공개설과 별개로, 현재 직접 날짜를 붙일 수 있는 가장 이른 확보 영상은 2024-05-25 신촌 아카라카 공연과 그 직후의 동문 행사 기록이다. ‘최초’와 ‘가장 오래된 확보 영상’을 혼동하지 않아야 한다.[* 참고: https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80 / https://www.youtube.com/watch?v=pdKxpPUEeG4]\n\n2024년 신곡 영상 댓글에는 대구FC ‘그 겨울’을 먼저 알던 시청자들이 선율과 가사의 강한 유사성을 지적하고 대구 응원 영상 링크를 제시하는 반응이 반복된다. 이는 인지·논쟁의 기록이지 제작 허락의 증거는 아니다.[* 참고: https://www.youtube.com/watch?v=0xj3CB4ut1k / https://www.youtube.com/watch?v=FnS8N8wuWFk]\n\n공식 2024 아카라카 영상 댓글에서는 비가 온 공연을 즐거운 기억으로 회상하고 신곡의 현장 정서를 긍정적으로 평가하는 반응이 보인다.[* 참고: https://www.youtube.com/watch?v=pdKxpPUEeG4]\n\n일부 댓글은 해외 스포츠 선율과의 추가 유사성을 언급하지만 작곡·배급 메타데이터나 제작자 진술로 교차되지 않았다. 따라서 대구FC 이전의 제3원곡 주장으로 승격하지 않는다.[* 참고: https://www.youtube.com/watch?v=pdKxpPUEeG4]\n\n### 추가 확인\n\n2026 신입생 응원 OT의 야생마·하늘 아래·Oh My Friend 연속 구간을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=J48MoBf-rAw]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "2024년 신곡"
+      },
+      {
+        "label": "원곡",
+        "value": "대구FC ‘그 겨울’ — 2020-05-13 발매된 구단 응원가"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2024 합동응원 OT·아카라카, 2025 신입생 응원 OT, 2026 신입생 응원 OT·아카라카에서 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 1,
+    "createdAt": "2026-09-05T06:15:38.215Z",
+    "updatedAt": "2026-09-05T06:15:38.215Z"
+  }
+}

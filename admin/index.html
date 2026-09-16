@@ -21,6 +21,11 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13h6V4H4v9Zm0 7h6v-4H4v4Zm10 0h6v-9h-6v9Zm0-16v4h6V4h-6Z" /></svg>
             <span>대시보드</span>
           </button>
+          <button type="button" class="nav-item" data-view="priorities">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11v2H5V4Zm0 7h8v2H5v-2Zm0 7h5v2H5v-2Zm12.6-7.6L21 12l-3.4 1.6L16 17l-1.6-3.4L11 12l3.4-1.6L16 7l1.6 3.4Z" /></svg>
+            <span>작업 순서</span>
+            <span id="nav-priority-count" class="nav-count">0</span>
+          </button>
           <button type="button" class="nav-item" data-view="organizations">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V8l8-5 8 5v13h-6v-6h-4v6H4Zm3-3h1v-5h8v5h1V9.7l-5-3.1-5 3.1V18Z" /></svg>
             <span>대학·구단</span>
@@ -89,7 +94,8 @@
             <button id="delete-entity-button" type="button" class="button button-danger-ghost" hidden>삭제</button>
             <div class="drawer-footer-main">
               <button id="cancel-entity-button" type="button" class="button button-secondary">취소</button>
-              <button id="save-entity-button" type="submit" class="button button-primary">저장</button>
+              <button id="save-next-song-button" type="submit" value="next" class="button button-secondary" hidden>저장 후 다음 곡</button>
+              <button id="save-entity-button" type="submit" value="stay" class="button button-primary">저장</button>
             </div>
           </footer>
         </form>

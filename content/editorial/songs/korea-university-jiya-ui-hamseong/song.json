@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "korea-university-jiya-ui-hamseong",
+    "organizationId": "korea-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "지.야의 함성",
+    "aliases": [
+      "지야의 함성",
+      "지야"
+    ],
+    "symbolicLines": [
+      "",
+      ""
+    ],
+    "descriptionText": "1938년 소비에트 대중가요 ‘Katyusha’를 중심 선율로 삼고, 고려대 응원단이 공식 설명에서 Leningrad Cowboys의 ‘Katjusha’와 ‘Granada’로 표기한 전주·편곡 요소를 결합한 1984년 응원가다. ‘지야’는 지성과 야성을 함께 내세우는 이름으로 설명되며, 대학의 대표 축제 정식명 ‘입실렌티 지야의 함성’에도 들어간다. 교우회 연표, 현장 연도 표기와 2026 입실렌티 영상이 역사와 현행성을 함께 지지한다.\n\n### 현장에서\n\n- 입실렌티·고연전·응원 OT에서 전주 뒤 힘찬 행진성 리듬과 집단 합창으로 공연한다.\n- 붉은색·꽃·석탑·포효 같은 학교 상징을 연속해 환기하며 관중의 단결감을 높인다.\n- 곡명은 대표 축제 ‘입실렌티 지야의 함성’의 정식 명칭 일부로도 사용된다.\n\n### 더 알아보기\n\n고려대 공식 학생행사 페이지의 축제 명칭 자체가 ‘입실렌티 지야의 함성’이다. 한 응원곡 제목이 대학 대표 축제의 브랜드 일부가 된 사례다.[* 참고: https://www.korea.ac.kr/ko/496/subview.do]\n\n현장에서는 원곡을 흔히 러시아 민요나 군가로 부르지만, 러시아 문화기관과 연구 자료는 1938년 Blanter·Isakovsky의 작가곡이 이후 민속화되고 군가처럼 널리 변주됐다고 설명한다.[* 참고: https://www.culture.ru/materials/171149/katyusha-zhdi-menya-i-chernoglazaya-kazachka-sovetskie-khity-kompozitora-matveya-blantera / https://www.trad-culture.ru/en/article/concerning-folk-existence-katyusha-song-and-problem-folkloric-consciousness-variability]\n\n편집형 자료는 2000년 교내방송 패러디 ‘지하의 함성’과 프로야구 등 다른 응원 현장의 같은 선율 사용을 소개한다. 이는 선율의 폭넓은 유통을 보여주지만 직접 차용 관계까지 증명하지는 않는다.[* 참고: https://namu.moe/w/%EC%B9%B4%EC%B8%84%EC%83%A4%28%EB%85%B8%EB%9E%98%29]\n\n### 추가 확인\n\n2026 입실렌티 KODA 영상에서 석탑·고래사냥 뒤 지.야의 함성으로 이어지는 현장 배치를 확인했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=cEI3SLtttUk]",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "1984년"
+      },
+      {
+        "label": "원곡",
+        "value": "Matvey Blanter 작곡·Mikhail Isakovsky 작사 ‘Katyusha’(1938); 고려대 공식 설명은 Leningrad Cowboys ‘Katjusha’와 ‘Granada’ 요소를 함께 표기"
+      },
+      {
+        "label": "현행 확인",
+        "value": "2026 입실렌티 1부에서 계속 사용"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "matvey-blanter-katyusha"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-05T06:15:38.122Z",
+    "updatedAt": "2026-09-13T16:44:06.816Z"
+  }
+}

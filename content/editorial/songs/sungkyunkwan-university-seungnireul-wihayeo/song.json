@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-seungnireul-wihayeo",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "승리를 위하여",
+    "aliases": [
+      "성대 승리를 위하여",
+      "에메랄드 소드 응원가"
+    ],
+    "symbolicLines": [
+      "승리를 위하여",
+      "성균관대학교 응원가"
+    ],
+    "descriptionText": "킹고응원단 공식 영상이 2016년 곡으로 표시하는 성균관대학교 응원가다.[* 2026 상반기 응원 OT 공식 영상: https://www.youtube.com/watch?v=TPos2AcyLX4] 2019년 대동제, 2021년 독립 음원, 2022년 ESKARA, 2024년 응원법 가이드, 2025·2026년 공식 공연까지 지속적인 사용 기록이 남아 있다.[* 2019 율전 대동제: https://www.youtube.com/watch?v=WA0Ctsii3WQ][* 2024 응원법 가이드 Chapter 7: https://www.youtube.com/watch?v=YqQcu4Zsly8]\n\n선율의 출발점은 이탈리아 메탈 밴드 Rhapsody가 1998년에 발표한 〈Emerald Sword〉다.[* Rhapsody of Fire 공식 곡 페이지: https://www.rhapsodyoffire.com/emerald-sword/] 두산 베어스가 2015년 같은 원곡의 ‘승리를 위하여’를 새 응원가로 사용했고, 성균관대 버전은 이듬해인 2016년으로 표기된다.[* BEARS TV 2015 현장 영상: https://www.youtube.com/watch?v=qveDS_8Cyl0] 공개 자료와 동일한 제목·MR 계열을 고려하면 두산판을 거쳐 대학 응원가로 파생됐다는 설명이 널리 쓰이지만, 킹고응원단 공식 설명에서 두산판을 직접 크레딧한 자료는 이번 조사에서 찾지 못했다. 따라서 ‘Rhapsody 원곡’은 확정적으로, ‘두산판에서 직접 파생’은 강한 정황이 있는 계보로 구분한다.\n\n2026 상반기 응원 OT에서는 초반 교육곡으로 다뤄졌고, 문행대동제 9곡 플레이리스트에서는 여덟 번째 곡으로 배치됐다.[* 성균웹진 응원 OT 기사: https://www.skku.edu/skkuzine/section/coverStory.do?articleNo=135895&mode=list&pager.offset=40&pagerLimit=10][* 2026 문행대동제 플레이리스트: https://www.youtube.com/watch?v=5TuN6DY8fdQ] 성균관대판의 개사·편곡 담당자는 공개 자료에서 확인되지 않았다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2016 · 공식 영상 표기"
+      },
+      {
+        "label": "원곡",
+        "value": "Rhapsody · Emerald Sword"
+      },
+      {
+        "label": "계보",
+        "value": "두산 2015판 파생 정황"
+      }
+    ],
+    "videos": [],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "rhapsody-emerald-sword"
+      },
+      {
+        "type": "source-cheer-song",
+        "targetId": "doosan-bears-seungnireul-wihayeo"
+      }
+    ],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.111Z",
+    "updatedAt": "2026-09-02T10:18:38.116Z"
+  }
+}

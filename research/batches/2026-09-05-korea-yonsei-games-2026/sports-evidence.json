@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-09-05-korea-yonsei-games-2026",
+  "checkedAt": "2026-09-05",
+  "status": "second_pass",
+  "interpretationNote": "same_original은 같은 외부 원곡·선율을 공유한다는 뜻이며 대학 응원가가 프로 구단으로 직접 전승됐다는 뜻이 아니다. 직접 차용을 뒷받침하는 자료가 있을 때만 cheer_to_cheer_adaptation으로 분류했다.",
+  "counts": {
+    "total": 25,
+    "cheerToCheerAdaptation": 6,
+    "sameOriginal": 18,
+    "inspiredBy": 1,
+    "unclassified": 0
+  },
+  "items": [
+    {
+      "organization": "LG 트윈스",
+      "inputTitle": "서울의 아리아",
+      "normalizedTitle": "서울의 아리아",
+      "relatedAnchorIds": ["korea-university-minjogui-aria"],
+      "relationKind": "cheer_to_cheer_adaptation",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-lg-b.json#lg-twins-seoul-ui-aria",
+        "https://sports.news.nate.com/view/20140208n04707"
+      ],
+      "notes": "LG 심층 초안과 2014년 일간스포츠 보도가 고려대 민족의 아리아를 알고 직접 차용한 계보를 지지한다."
+    },
+    {
+      "organization": "LG 트윈스",
+      "inputTitle": "승리의 노래",
+      "normalizedTitle": "승리의 노래",
+      "relatedAnchorIds": ["korea-university-forever"],
+      "relationKind": "cheer_to_cheer_adaptation",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-lg-c.json#lg-twins-seungni-ui-norae",
+        "https://sports.news.nate.com/view/20140208n04707"
+      ]
+    },
+    {
+      "organization": "LG 트윈스",
+      "inputTitle": "사랑한다 LG",
+      "normalizedTitle": "사랑한다 LG",
+      "relatedAnchorIds": ["yonsei-university-yonseiyeo-saranghanda"],
+      "relationKind": "cheer_to_cheer_adaptation",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-lg-a.json#lg-twins-saranghanda-lg",
+        "https://sports.news.nate.com/view/20140208n04707"
+      ]
+    },
+    {
+      "organization": "KT 위즈",
+      "inputTitle": "위닝케이티",
+      "normalizedTitle": "위닝케이티",
+      "relatedAnchorIds": ["korea-university-hwaryeo-pieonan-hamseong"],
+      "relationKind": "same_original",
+      "sharedSource": "Coldplay ‘Viva la Vida’ 계열",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-kt-e.json#kt-wiz-winning-kt",
+        "research/deep/batches/2026-08-08-korea-university-f.json#university-korea-blooming-chant"
+      ],
+      "notes": "고려대 곡은 복수 선율을 결합하므로 공통 지점은 Viva la Vida 구간으로 한정한다."
+    },
+    {
+      "organization": "KT 위즈",
+      "inputTitle": "승리를 위하여",
+      "normalizedTitle": "승리를 위하여",
+      "relatedAnchorIds": ["korea-university-deureora-boara-geurigo-gieokhara"],
+      "relationKind": "same_original",
+      "sharedSource": "히사이시 조 ‘君をのせて’",
+      "assessment": "reported",
+      "confidence": "high",
+      "evidence": [
+        "https://www.namu.moe/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+        "research/deep/batches/2026-08-08-korea-university-a.json#korea-university-deureora-boara-geurigo-gieokhara"
+      ],
+      "notes": "KT 공식 음원 링크가 걸린 편집형 자료와 고려대 공식 크레딧을 대조했다. KT 제작자가 대학판을 참고했다는 직접 근거는 없다."
+    },
+    {
+      "organization": "KT 위즈",
+      "inputTitle": "으랏차차",
+      "normalizedTitle": "으랏차차",
+      "relatedAnchorIds": ["korea-university-domangja"],
+      "relationKind": "same_original",
+      "sharedSource": "Dschinghis Khan ‘Moskau’",
+      "assessment": "reported",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-kt-e.json#kt-wiz-euratchacha",
+        "evidence.json#korea-university-domangja"
+      ]
+    },
+    {
+      "organization": "KT 위즈",
+      "inputTitle": "아파트",
+      "normalizedTitle": "아파트",
+      "relatedAnchorIds": ["yonsei-university-apartment"],
+      "relationKind": "same_original",
+      "sharedSource": "윤수일 ‘아파트’",
+      "assessment": "reported",
+      "confidence": "high",
+      "evidence": [
+        "https://www.namu.moe/w/kt%20wiz/%EC%9D%91%EC%9B%90%EA%B0%80",
+        "research/deep/batches/2026-08-08-yonsei-university-d.json#yonsei-university-apartment"
+      ]
+    },
+    {
+      "organization": "롯데 자이언츠",
+      "inputTitle": "바다새",
+      "normalizedTitle": "바다새",
+      "relatedAnchorIds": ["yonsei-university-badasae"],
+      "relationKind": "same_original",
+      "sharedSource": "그룹 바다새 ‘바다새’",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-lotte-a.json#lotte-giants-seabird",
+        "evidence.json#yonsei-university-badasae"
+      ]
+    },
+    {
+      "organization": "롯데 자이언츠",
+      "inputTitle": "하늘이여",
+      "normalizedTitle": "하늘이여",
+      "relatedAnchorIds": ["korea-university-haneuriyeo"],
+      "relationKind": "cheer_to_cheer_adaptation",
+      "assessment": "reported",
+      "confidence": "high",
+      "currentStatus": "historical_or_retired",
+      "evidence": [
+        "https://sports.news.nate.com/view/20140208n04707",
+        "https://m.namu.moe/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80",
+        "research/deep/batches/2026-08-08-korea-university-f.json#university-korea-sky"
+      ],
+      "notes": "2014년 보도는 고려대 하늘이여를 롯데가 개사했다고 적고, 현행 편집형 목록은 2018년 무렵부터 미사용으로 분류한다."
+    },
+    {
+      "organization": "롯데 자이언츠",
+      "inputTitle": "오 최강롯데",
+      "normalizedTitle": "오 최강롯데",
+      "relatedAnchorIds": ["korea-university-champs-elysees"],
+      "relationKind": "same_original",
+      "sharedSource": "‘Les Champs-Élysées’로 알려진 선율",
+      "assessment": "reported",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-lotte-c.json#lotte-giants-oh-strongest",
+        "research/deep/batches/2026-08-08-korea-university-c.json#korea-university-champs-elysees"
+      ]
+    },
+    {
+      "organization": "롯데 자이언츠",
+      "inputTitle": "소리높여 외쳐보자",
+      "normalizedTitle": "소리높여 외쳐보자",
+      "aliases": ["영원하라"],
+      "relatedAnchorIds": ["korea-university-yeongwonhara"],
+      "relationKind": "cheer_to_cheer_adaptation",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-lotte-b.json#lotte-giants-sori-nop-yeo-oechyeoboja",
+        "https://sports.news.nate.com/view/20140208n04707"
+      ]
+    },
+    {
+      "organization": "롯데 자이언츠",
+      "inputTitle": "롯데는 승리한다",
+      "normalizedTitle": "롯데는 승리한다",
+      "relatedAnchorIds": ["korea-university-godaereul-noraehara"],
+      "relationKind": "same_original",
+      "sharedSource": "Sarah Brightman·Andrea Bocelli ‘Time to Say Goodbye’ 계열",
+      "assessment": "reported",
+      "confidence": "medium",
+      "currentStatus": "retired",
+      "evidence": [
+        "https://m.namu.moe/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80",
+        "research/deep/batches/2026-08-08-korea-university-e.json#university-korea-goyeonga-sing"
+      ],
+      "notes": "동일 문구가 여러 현행곡 가사에도 나오지만, 목록의 독립 대상은 Time to Say Goodbye 선율을 쓰던 과거 응원가로 해석했다. 당시 롯데 음원·영상 원본을 추가 확보해야 한다."
+    },
+    {
+      "organization": "롯데 자이언츠",
+      "inputTitle": "뱃노래",
+      "normalizedTitle": "뱃노래",
+      "aliases": ["뱃놀이"],
+      "relatedAnchorIds": ["korea-university-baennorae"],
+      "relationKind": "cheer_to_cheer_adaptation",
+      "assessment": "reported",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-lotte-a.json#lotte-giants-baennorae",
+        "https://sports.news.nate.com/view/20140208n04707",
+        "research/deep/batches/2026-08-08-korea-university-a.json#korea-university-baennorae"
+      ]
+    },
+    {
+      "organization": "KIA 타이거즈",
+      "inputTitle": "고래사냥",
+      "normalizedTitle": "고래사냥",
+      "relatedAnchorIds": ["korea-university-goraesanyang"],
+      "relationKind": "same_original",
+      "sharedSource": "송창식 ‘고래사냥’",
+      "assessment": "reported",
+      "confidence": "medium",
+      "evidence": [
+        "https://www.youtube.com/watch?v=i3buHU51sOM",
+        "evidence.json#korea-university-goraesanyang"
+      ],
+      "notes": "KIA판 제작 계보와 현행 여부는 추가 확인한다."
+    },
+    {
+      "organization": "KIA 타이거즈",
+      "inputTitle": "김선빈 응원가",
+      "normalizedTitle": "김선빈 응원가 1 (바다새)",
+      "relatedAnchorIds": ["yonsei-university-badasae"],
+      "relationKind": "same_original",
+      "sharedSource": "그룹 바다새 ‘바다새’",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "https://www.youtube.com/watch?v=92keH5nM6YM",
+        "evidence.json#yonsei-university-badasae"
+      ]
+    },
+    {
+      "organization": "KIA 타이거즈",
+      "inputTitle": "외쳐라 최강 KIA 계열",
+      "normalizedTitle": "외쳐라 최강 KIA",
+      "relatedAnchorIds": ["yonsei-university-nae-ireum-geurigo-yonsei"],
+      "relationKind": "inspired_by",
+      "assessment": "reported",
+      "confidence": "medium",
+      "evidence": [
+        "research/deep/batches/2026-08-08-kia-d.json#kia-tigers-shout-strongest-kia",
+        "evidence.json#yonsei-university-nae-ireum-geurigo-yonsei"
+      ],
+      "notes": "같은 영화 피아노 테마를 쓰는 사실은 확인되지만 연세대판을 직접 모티프로 했다는 제작자 확인은 없다."
+    },
+    {
+      "organization": "KIA 타이거즈",
+      "inputTitle": "Beethoven Virus 계열 응원",
+      "normalizedTitle": "라인업송",
+      "relatedAnchorIds": ["yonsei-university-seosi"],
+      "relationKind": "same_original",
+      "sharedSource": "BanYa ‘Beethoven Virus’ 계열",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-kia-a.json#kia-tigers-lineup-song",
+        "research/deep/batches/2026-08-08-yonsei-university-a.json#yonsei-university-seosi"
+      ]
+    },
+    {
+      "organization": "KIA 타이거즈",
+      "inputTitle": "바다가 보이는 마을 계열 응원",
+      "normalizedTitle": "승리를 위해 함께 부르자",
+      "relatedAnchorIds": ["yonsei-university-yeongwonhan-hamseong"],
+      "relationKind": "same_original",
+      "sharedSource": "히사이시 조 ‘A Town with an Ocean View’",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-kia-e.json#kia-tigers-sing-together-for-victory",
+        "research/deep/batches/2026-08-08-yonsei-university-d.json#yonsei-university-eternal-shout"
+      ]
+    },
+    {
+      "organization": "키움·넥센 히어로즈",
+      "inputTitle": "승리를 위한 함성 계열",
+      "normalizedTitle": "승리를 위하여",
+      "relatedAnchorIds": ["korea-university-jiya-ui-hamseong"],
+      "relationKind": "same_original",
+      "sharedSource": "‘카츄샤’ 선율",
+      "assessment": "reported",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-kiwoom-b.json#kiwoom-heroes-for-victory",
+        "research/deep/batches/2026-08-08-korea-university-b.json#korea-university-jiya-ui-hamseong"
+      ],
+      "notes": "입력 명칭은 키움의 별도 곡 ‘승리의 함성’과 혼동될 수 있다. Melodramma를 쓰는 ‘승리의 함성’이 아니라 카츄샤를 쓰는 ‘승리를 위하여’로 정규화했다."
+    },
+    {
+      "organization": "키움·넥센 히어로즈",
+      "inputTitle": "하늘이여",
+      "normalizedTitle": "하늘이여",
+      "relatedAnchorIds": ["korea-university-haneuriyeo"],
+      "relationKind": "same_original",
+      "assessment": "reported",
+      "confidence": "medium",
+      "evidence": [
+        "https://mlbpark.donga.com/mlbpark/b.php?b=kbotown2&id=714136",
+        "research/deep/batches/2026-08-08-korea-university-f.json#university-korea-sky"
+      ],
+      "notes": "팬 문답과 편집형 자료만 확보돼 직접 차용인지 같은 선율 공유인지 확정하지 않는다."
+    },
+    {
+      "organization": "키움·넥센 히어로즈",
+      "inputTitle": "스나이더 응원가",
+      "normalizedTitle": "브래드 스나이더 응원가",
+      "relatedAnchorIds": ["yonsei-university-one-night-only"],
+      "relationKind": "same_original",
+      "sharedSource": "뮤지컬 《Dreamgirls》 ‘One Night Only’",
+      "assessment": "reported",
+      "confidence": "high",
+      "currentStatus": "historical_player_cheer",
+      "evidence": [
+        "https://www.readonly.wiki/w/%EB%B8%8C%EB%9E%98%EB%93%9C%20%EC%8A%A4%EB%82%98%EC%9D%B4%EB%8D%94",
+        "research/deep/batches/2026-08-08-yonsei-university-b.json#yonsei-university-one-night-only"
+      ]
+    },
+    {
+      "organization": "한화 이글스",
+      "inputTitle": "사랑한다 이글스",
+      "normalizedTitle": "사랑한다 이글스",
+      "relatedAnchorIds": ["yonsei-university-haneul-kkeutkkaji"],
+      "relationKind": "same_original",
+      "sharedSource": "한성민 ‘사랑하면 할수록’",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-hanwha-a.json#hanwha-eagles-saranghanda-eagles",
+        "research/deep/batches/2026-08-08-yonsei-university-a.json#yonsei-university-haneul-kkeutkkaji"
+      ],
+      "notes": "한화판 2015년, 연세대판 2016년으로 한화가 앞서지만 직접 제작 영향은 미확정이다."
+    },
+    {
+      "organization": "두산 베어스",
+      "inputTitle": "해야",
+      "normalizedTitle": "해야",
+      "relatedAnchorIds": ["yonsei-university-haeya"],
+      "relationKind": "same_original",
+      "sharedSource": "마그마 ‘해야’",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-doosan-d.json#doosan-bears-haeya",
+        "research/deep/batches/2026-08-08-yonsei-university-a.json#yonsei-university-haeya"
+      ],
+      "notes": "두 곡은 같은 원곡을 쓰지만 가사가 다른 별도 개사곡이다."
+    },
+    {
+      "organization": "SSG 랜더스",
+      "inputTitle": "투혼의 랜더스",
+      "normalizedTitle": "투혼의 랜더스",
+      "relatedAnchorIds": ["korea-university-godaereul-saranghara"],
+      "relationKind": "same_original",
+      "sharedSource": "이루마 ‘Kiss the Rain’",
+      "assessment": "verified",
+      "confidence": "high",
+      "evidence": [
+        "research/deep/batches/2026-08-08-ssg-b.json#ssg-landers-fighting-landers",
+        "research/deep/batches/2026-08-08-korea-university-e.json#university-korea-goyeonga-love"
+      ]
+    },
+    {
+      "organization": "삼성 라이온즈",
+      "inputTitle": "이승엽 응원가",
+      "normalizedTitle": "이승엽 응원가",
+      "relatedAnchorIds": ["korea-university-deureora-boara-geurigo-gieokhara"],
+      "relationKind": "same_original",
+      "sharedSource": "애니메이션 《천공의 성 라퓨타》 주제곡 ‘君をのせて’",
+      "assessment": "verified",
+      "confidence": "high",
+      "currentStatus": "historical_player_cheer",
+      "evidence": [
+        "https://www.sportschosun.com/baseball/2012-05-04/201205040100039980002771",
+        "research/deep/batches/2026-08-08-korea-university-a.json#korea-university-deureora-boara-geurigo-gieokhara"
+      ]
+    }
+  ],
+  "unresolved": [
+    "롯데 ‘롯데는 승리한다’의 당시 원본 음원·영상과 정확한 사용 연도",
+    "KIA ‘고래사냥’의 도입·현행 여부와 제작 계보",
+    "KIA ‘외쳐라 최강 KIA’ 제작자가 연세대판을 직접 참고했다는 1차 확인",
+    "키움·넥센 ‘하늘이여’의 제작·전승 계보",
+    "스나이더 응원가의 구단 공식 크레딧"
+  ]
+}

@@ -1,0 +1,508 @@
+@keyframes arena-grid-travel {
+  to { background-position: 0 72px, 72px 0; }
+}
+
+@keyframes arena-float {
+  0%, 100% { transform: translate3d(0, 0, 50px) rotate(-3deg); }
+  50% { transform: translate3d(0, -16px, 70px) rotate(2deg); }
+}
+
+@keyframes arena-orbit {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes arena-orbit-reverse {
+  to { transform: translate(-50%, -50%) rotate(-360deg); }
+}
+
+@keyframes arena-pulse {
+  0%, 100% { opacity: 0.45; transform: scale(0.88); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+@keyframes arena-scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(750%); }
+}
+
+@keyframes arena-shine {
+  0%, 60% { transform: translateX(-170%) skewX(-22deg); }
+  100% { transform: translateX(280%) skewX(-22deg); }
+}
+
+@keyframes arena-bars {
+  0%, 100% { transform: scaleY(0.35); opacity: 0.35; }
+  50% { transform: scaleY(1); opacity: 1; }
+}
+
+.arena-page {
+  --blue: #0060d2;
+  --blue-deep: #001d48;
+  --red: #d10b48;
+  --red-deep: #500019;
+  --active: var(--blue);
+  --active-deep: var(--blue-deep);
+  --opponent: var(--red);
+  --opponent-deep: var(--red-deep);
+  --ink: #f4f7fb;
+  --muted: rgba(232, 239, 249, 0.58);
+  --line: rgba(255, 255, 255, 0.13);
+  --panel: rgba(14, 20, 31, 0.68);
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: clip;
+  color: var(--ink);
+  background: #060910;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+}
+
+.arena-page[data-side="korea"] {
+  --active: var(--red);
+  --active-deep: var(--red-deep);
+  --opponent: var(--blue);
+  --opponent-deep: var(--blue-deep);
+}
+
+.arena-page *,
+.arena-page *::before,
+.arena-page *::after { box-sizing: border-box; }
+.arena-page :where(h1, h2, h3, p, dl, dd) { margin: 0; }
+.arena-page :where(button, a) { color: inherit; font: inherit; -webkit-tap-highlight-color: transparent; }
+.arena-page button { cursor: pointer; }
+.arena-page a { text-decoration: none; }
+.arena-page :where(h1, h2, h3, strong, p, span) { word-break: keep-all; overflow-wrap: break-word; }
+.arena-shell { width: min(calc(100% - 3rem), 1320px); margin: 0 auto; }
+.arena-page main > section { scroll-margin-top: 76px; }
+.arena-school-mark { display: block; width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.24)); }
+.arena-school-mark.is-korea { transform: scale(1.06); }
+
+.arena-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Header */
+.arena-header {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr auto auto 1fr;
+  align-items: center;
+  gap: clamp(0.8rem, 2vw, 2rem);
+  min-height: 70px;
+  padding: 0 clamp(1rem, 3vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  background: rgba(5, 8, 14, 0.76);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(22px) saturate(150%);
+}
+
+.arena-header__brand { display: inline-flex; align-items: center; justify-self: start; gap: 0.7rem; font-size: 0.72rem; letter-spacing: -0.01em; }
+.arena-header__brand > span { position: relative; display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 50%; color: var(--active); background: rgba(255, 255, 255, 0.04); box-shadow: inset 0 0 18px color-mix(in srgb, var(--active) 26%, transparent), 0 0 24px color-mix(in srgb, var(--active) 18%, transparent); }
+.arena-header__brand > span::after { position: absolute; inset: -4px; border: 1px dashed color-mix(in srgb, var(--active) 42%, transparent); border-radius: inherit; content: ""; animation: arena-orbit 9s linear infinite; }
+.arena-header__signal { display: flex; align-items: center; gap: 0.65rem; font-size: 0.68rem; letter-spacing: 0; }
+.arena-header__signal > i { width: 6px; height: 6px; border-radius: 50%; background: #40ef9a; box-shadow: 0 0 14px #40ef9a; animation: arena-pulse 1.6s ease-in-out infinite; }
+.arena-header__signal small { color: var(--muted); }
+.arena-header__compare { display: inline-flex; align-items: center; justify-self: end; gap: 0.4rem; padding-bottom: 0.22rem; border-bottom: 1px solid rgba(255, 255, 255, 0.45); color: var(--muted); font-size: 0.6rem; font-weight: 680; transition: color 160ms ease; }
+.arena-header__compare:hover { color: white; }
+
+/* Toggle */
+.arena-school-toggle { position: relative; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: min(100%, 430px); padding: 5px; border: 1px solid var(--line); border-radius: 18px; background: rgba(255, 255, 255, 0.045); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 16px 38px rgba(0, 0, 0, 0.25); backdrop-filter: blur(16px); }
+.arena-school-toggle > span { position: absolute; z-index: 0; top: 5px; bottom: 5px; left: 5px; width: calc(50% - 5px); border-radius: 13px; background: linear-gradient(135deg, color-mix(in srgb, var(--active) 88%, white), var(--active-deep)); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.26), 0 6px 26px color-mix(in srgb, var(--active) 40%, transparent); }
+.arena-school-toggle > span.is-korea { left: 50%; }
+.arena-school-toggle button { position: relative; z-index: 1; display: grid; grid-template-columns: 38px minmax(0, 1fr); align-items: center; gap: 0.65rem; min-height: 56px; padding: 0.45rem 0.7rem; border: 0; color: rgba(255, 255, 255, 0.48); background: transparent; text-align: left; }
+.arena-school-toggle button[aria-pressed="true"] { color: white; }
+.arena-school-toggle button > i { display: grid; place-items: center; width: 34px; height: 34px; padding: 4px; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 50%; background: rgba(255, 255, 255, 0.1); font-style: normal; }
+.arena-school-toggle button > span { display: grid; gap: 0.1rem; }
+.arena-school-toggle strong { font-size: 0.78rem; }
+.arena-school-toggle.is-compact { width: 104px; border-radius: 999px; }
+.arena-school-toggle.is-compact > span { border-radius: 50%; }
+.arena-school-toggle.is-compact button { display: grid; place-items: center; min-height: 42px; padding: 0; }
+.arena-school-toggle.is-compact button > i { width: 30px; height: 30px; padding: 3px; border: 0; }
+
+/* Hero */
+.arena-hero { position: relative; isolation: isolate; display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(440px, 1.05fr); min-height: max(790px, calc(100svh - 70px)); overflow: hidden; background: radial-gradient(circle at 50% 42%, #192236 0, #080d17 38%, #03050a 78%); }
+.arena-hero::before { position: absolute; z-index: -5; inset: 0; background: linear-gradient(110deg, color-mix(in srgb, var(--active-deep) 78%, transparent) 0%, transparent 46%, color-mix(in srgb, var(--opponent-deep) 58%, transparent) 100%); content: ""; transition: background 650ms ease; }
+.arena-hero__grid { position: absolute; z-index: -2; right: -10%; bottom: -38%; left: -10%; height: 82%; background-image: linear-gradient(rgba(255, 255, 255, 0.095) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.095) 1px, transparent 1px); background-size: 72px 72px; mask-image: linear-gradient(to bottom, transparent, black 26%, black 80%, transparent); transform: perspective(700px) rotateX(63deg) scale(1.25); transform-origin: center bottom; animation: arena-grid-travel 5s linear infinite; }
+.arena-hero__beam { position: absolute; z-index: -3; top: -35%; width: 32vw; height: 150%; filter: blur(28px); opacity: 0.28; transform: rotate(18deg); }
+.arena-hero__beam.is-blue { left: 16%; background: linear-gradient(90deg, transparent, var(--blue), transparent); }
+.arena-hero__beam.is-red { right: 5%; background: linear-gradient(90deg, transparent, var(--red), transparent); transform: rotate(-20deg); }
+.arena-hero__spot { position: absolute; z-index: -1; top: 10%; width: 34vw; height: 34vw; border-radius: 50%; background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent 67%); filter: blur(20px); transform: translateX(-50%); pointer-events: none; }
+.arena-hero__particles { position: absolute; z-index: -1; inset: 0; overflow: hidden; }
+.arena-hero__particles i { --x: calc((var(--particle) * 47) % 100); --y: calc((var(--particle) * 71) % 100); position: absolute; top: calc(var(--y) * 1%); left: calc(var(--x) * 1%); width: calc(2px + (var(--particle) % 3) * 1px); height: calc(2px + (var(--particle) % 3) * 1px); border-radius: 50%; background: white; box-shadow: 0 0 12px white; animation: arena-pulse calc(2.4s + (var(--particle) % 4) * 0.6s) ease-in-out infinite; animation-delay: calc(var(--particle) * -0.17s); }
+
+.arena-hero__copy { position: relative; z-index: 4; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; width: min(92%, 640px); margin-left: max(1.5rem, 7vw); padding: 7rem 0 6rem; }
+.arena-hero__copy > p { display: inline-flex; align-items: center; gap: 0.45rem; color: #86f3bf; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em; text-shadow: 0 0 18px rgba(64, 239, 154, 0.4); }
+.arena-hero h1 { display: flex; align-items: flex-end; margin: 2rem 0 0; perspective: 900px; font-size: clamp(8rem, 15vw, 14.5rem); font-weight: 920; letter-spacing: -0.13em; line-height: 0.74; }
+.arena-hero h1 > span { position: relative; display: inline-block; color: white; text-shadow: 0 2px 0 rgba(255, 255, 255, 0.15), 0 5px 0 color-mix(in srgb, currentColor 66%, black), 0 14px 32px currentColor; transform-style: preserve-3d; }
+.arena-hero h1 > span.is-active { z-index: 2; }
+.arena-hero h1 > span.is-yonsei.is-active { font-size: 1em; }
+.arena-hero h1 > span.is-korea.is-opponent { font-size: 0.94em; }
+.arena-hero h1 > span.is-korea.is-active { font-size: 1em; }
+.arena-hero h1 > span.is-yonsei.is-opponent { font-size: 0.91em; }
+.arena-hero h1 > span.is-yonsei { color: #3f91ee; }
+.arena-hero h1 > span.is-korea { color: #e5366d; }
+.arena-hero h1 > strong { margin: 0 0 0.14em 0.1em; color: rgba(255, 255, 255, 0.9); font-size: 0.31em; letter-spacing: -0.05em; text-shadow: 0 6px 24px rgba(0, 0, 0, 0.45); }
+.arena-hero__intro { display: flex; align-items: flex-start; gap: 1.6rem; margin-top: 2.2rem; padding-left: 0.2rem; }
+.arena-hero__intro > span { color: var(--active); font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-shadow: 0 0 18px color-mix(in srgb, var(--active) 55%, transparent); }
+.arena-hero__intro p { padding-left: 1.6rem; border-left: 1px solid var(--line); color: var(--muted); font-size: 0.86rem; line-height: 1.6; }
+.arena-hero__copy > .arena-school-toggle { margin-top: 2rem; }
+.arena-hero__cta { display: grid; grid-template-columns: 40px minmax(0, 1fr) 20px; align-items: center; gap: 0.8rem; min-width: 260px; min-height: 58px; margin-top: 1rem; padding: 0.55rem 0.9rem 0.55rem 0.55rem; border: 1px solid var(--line); border-radius: 17px; color: white; background: rgba(255, 255, 255, 0.06); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.09), 0 14px 38px rgba(0, 0, 0, 0.28); backdrop-filter: blur(16px); text-align: left; transition: transform 180ms ease, background 180ms ease; }
+.arena-hero__cta:hover { background: color-mix(in srgb, var(--active) 22%, rgba(255, 255, 255, 0.06)); transform: translateY(-4px); }
+.arena-hero__cta > span { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 13px; color: white; background: var(--active); box-shadow: 0 0 22px color-mix(in srgb, var(--active) 48%, transparent); }
+.arena-hero__cta strong { font-size: 0.7rem; }
+
+.arena-stage { position: relative; z-index: 3; align-self: center; justify-self: center; width: min(44vw, 590px); aspect-ratio: 1; transform-style: preserve-3d; will-change: transform; }
+.arena-stage::before { position: absolute; inset: 8%; border-radius: 50%; background: radial-gradient(circle at 42% 36%, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.03) 32%, transparent 64%); filter: blur(2px); content: ""; transform: translateZ(-20px); }
+.arena-stage__orbit { position: absolute; top: 50%; left: 50%; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 50%; transform: translate(-50%, -50%); transform-style: preserve-3d; }
+.arena-stage__orbit.is-one { width: 82%; height: 82%; animation: arena-orbit 17s linear infinite; }
+.arena-stage__orbit.is-two { width: 108%; height: 56%; border-color: color-mix(in srgb, var(--active) 55%, transparent); transform: translate(-50%, -50%) rotateX(68deg); animation: arena-orbit-reverse 14s linear infinite; }
+.arena-stage__orbit i { position: absolute; width: 11px; height: 11px; border: 2px solid rgba(255, 255, 255, 0.75); border-radius: 50%; background: var(--active); box-shadow: 0 0 18px var(--active); }
+.arena-stage__orbit.is-one i:first-child { top: 10%; left: 18%; }
+.arena-stage__orbit.is-one i:nth-child(2) { right: 3%; bottom: 30%; }
+.arena-stage__orbit.is-one i:nth-child(3) { bottom: 4%; left: 38%; background: var(--opponent); box-shadow: 0 0 18px var(--opponent); }
+.arena-stage__orbit.is-two i:first-child { top: 20%; right: 12%; }
+.arena-stage__orbit.is-two i:nth-child(2) { bottom: 10%; left: 16%; background: var(--opponent); }
+.arena-stage__core { position: absolute; z-index: 4; top: 50%; left: 50%; display: grid; place-content: center; justify-items: center; width: 45%; aspect-ratio: 1; border: 1px solid rgba(255, 255, 255, 0.32); border-radius: 50%; background: radial-gradient(circle at 35% 28%, rgba(255, 255, 255, 0.52), transparent 16%), radial-gradient(circle at 40% 35%, color-mix(in srgb, var(--active) 95%, white), var(--active-deep) 72%); box-shadow: inset -22px -26px 50px rgba(0, 0, 0, 0.42), inset 14px 12px 28px rgba(255, 255, 255, 0.12), 0 0 60px color-mix(in srgb, var(--active) 50%, transparent), 0 40px 80px rgba(0, 0, 0, 0.55); transform: translate(-50%, -50%) translateZ(90px); }
+.arena-stage__core::after { position: absolute; inset: -10px; border: 1px solid color-mix(in srgb, var(--active) 56%, transparent); border-radius: inherit; content: ""; box-shadow: 0 0 34px color-mix(in srgb, var(--active) 23%, transparent); }
+.arena-stage__core > span { display: block; width: clamp(88px, 10vw, 150px); aspect-ratio: 1; }
+.arena-stage__core small { margin-top: 0.5rem; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.04em; }
+.arena-stage__glass { position: absolute; z-index: 5; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 18px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.035)); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 24px 55px rgba(0, 0, 0, 0.36); backdrop-filter: blur(18px) saturate(140%); transform-style: preserve-3d; }
+.arena-stage__glass::after { position: absolute; top: 0; bottom: 0; left: -35%; width: 24%; background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.23), transparent); content: ""; animation: arena-shine 5.5s ease-in-out infinite; }
+.arena-stage__glass.is-date { top: 10%; right: 2%; display: grid; min-width: 170px; padding: 1rem 1.2rem; animation: arena-float 6s ease-in-out infinite; }
+.arena-stage__glass.is-date small, .arena-stage__glass.is-school small { color: var(--muted); font-size: 0.62rem; letter-spacing: 0; }
+.arena-stage__glass.is-date strong { margin-top: 0.35rem; font-size: 2rem; letter-spacing: -0.06em; }
+.arena-stage__glass.is-date > span { margin-top: 0.2rem; color: var(--active); font-size: 0.62rem; }
+.arena-stage__glass.is-guide { right: 6%; bottom: 17%; display: flex; align-items: center; gap: 0.55rem; padding: 0.8rem 1rem; font-size: 0.62rem; font-weight: 650; transform: translateZ(85px) rotate(4deg); }
+.arena-stage__glass.is-guide svg { color: #65f5ae; }
+.arena-stage__glass.is-guide i { width: 6px; height: 6px; border-radius: 50%; background: #65f5ae; box-shadow: 0 0 10px #65f5ae; animation: arena-pulse 1.6s ease-in-out infinite; }
+.arena-stage__glass.is-school { bottom: 14%; left: 1%; display: grid; min-width: 150px; padding: 0.9rem 1.1rem; transform: translateZ(40px) rotate(-7deg); }
+.arena-stage__glass.is-school strong { margin-top: 0.25rem; color: var(--active); font-size: 0.86rem; }
+.arena-stage__floor { position: absolute; z-index: -1; right: 5%; bottom: 4%; left: 5%; height: 18%; border-radius: 50%; background: radial-gradient(ellipse, color-mix(in srgb, var(--active) 38%, transparent), transparent 68%); filter: blur(18px); transform: rotateX(76deg) translateZ(-30px); }
+
+/* Shared section title */
+.arena-section-title { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 0.58fr); align-items: end; gap: 2rem; perspective: 900px; }
+.arena-section-title > div { grid-column: 1 / -1; display: flex; align-items: center; gap: 0.8rem; color: var(--active); font-family: "IBM Plex Mono", monospace; }
+.arena-section-title > div span { display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid color-mix(in srgb, var(--active) 70%, transparent); border-radius: 50%; background: color-mix(in srgb, var(--active) 12%, transparent); box-shadow: 0 0 24px color-mix(in srgb, var(--active) 18%, transparent); font-size: 0.5rem; }
+.arena-section-title > div small { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.02em; }
+.arena-section-title h2 { font-size: clamp(3.6rem, 6.5vw, 6rem); font-weight: 850; letter-spacing: -0.075em; line-height: 0.9; }
+.arena-section-title h2 strong { color: transparent; background: linear-gradient(105deg, white 5%, color-mix(in srgb, var(--active) 55%, white), var(--active)); background-clip: text; -webkit-background-clip: text; text-shadow: 0 12px 45px color-mix(in srgb, var(--active) 18%, transparent); }
+.arena-section-title > p { max-width: 460px; padding-left: 1.2rem; border-left: 1px solid var(--line); color: var(--muted); font-size: 0.84rem; line-height: 1.65; }
+
+/* Schedule */
+.arena-schedule { position: relative; padding: clamp(5.5rem, 8vw, 8rem) 0; overflow: hidden; }
+.arena-schedule::before { position: absolute; top: 18%; left: -18%; width: 55vw; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, color-mix(in srgb, var(--active) 16%, transparent), transparent 68%); filter: blur(25px); content: ""; }
+.arena-schedule__deck { position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-top: 3rem; perspective: 1400px; }
+.arena-schedule__deck article { position: relative; display: flex; min-width: 0; min-height: 360px; flex-direction: column; overflow: hidden; padding: 1.15rem; border: 1px solid var(--line); border-radius: 26px; background: linear-gradient(145deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.025)); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 30px 65px rgba(0, 0, 0, 0.28); backdrop-filter: blur(18px); transform-style: preserve-3d; }
+.arena-schedule__deck article::before { position: absolute; inset: auto -25% -30% auto; width: 75%; aspect-ratio: 1; border-radius: 50%; background: var(--red); filter: blur(60px); opacity: 0.12; content: ""; }
+.arena-schedule__deck article.is-yonsei::before { background: var(--blue); }
+.arena-schedule__deck article.is-active { border-color: color-mix(in srgb, var(--active) 72%, white); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16), 0 28px 75px rgba(0, 0, 0, 0.35), 0 0 38px color-mix(in srgb, var(--active) 17%, transparent); }
+.arena-schedule__shine { position: absolute; z-index: 0; top: 0; bottom: 0; left: -42%; width: 28%; background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent); transform: skewX(-17deg); animation: arena-shine 6s ease-in-out infinite; animation-delay: calc(var(--index, 0) * 0.3s); }
+.arena-schedule__deck article > *:not(.arena-schedule__shine) { position: relative; z-index: 1; }
+.arena-schedule__deck header { display: flex; align-items: center; justify-content: space-between; font-family: "IBM Plex Mono", monospace; font-size: 0.62rem; }
+.arena-schedule__deck header > span { color: var(--muted); }
+.arena-schedule__deck header > i { padding: 0.35rem 0.48rem; border: 1px solid var(--line); border-radius: 999px; color: #75efb5; font-style: normal; }
+.arena-schedule__symbol { display: grid; place-content: center; justify-items: center; width: 84px; height: 84px; margin: 1.4rem auto 0; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 50%; background: radial-gradient(circle at 36% 28%, rgba(255, 255, 255, 0.34), transparent 18%), linear-gradient(145deg, color-mix(in srgb, var(--red) 80%, white), var(--red-deep)); box-shadow: inset -10px -12px 24px rgba(0, 0, 0, 0.35), 0 14px 32px rgba(0, 0, 0, 0.32), 0 0 28px color-mix(in srgb, var(--red) 25%, transparent); font-size: 2rem; font-weight: 900; transform: translateZ(38px); }
+.arena-schedule__deck article.is-yonsei .arena-schedule__symbol { background: radial-gradient(circle at 36% 28%, rgba(255, 255, 255, 0.34), transparent 18%), linear-gradient(145deg, color-mix(in srgb, var(--blue) 80%, white), var(--blue-deep)); box-shadow: inset -10px -12px 24px rgba(0, 0, 0, 0.35), 0 14px 32px rgba(0, 0, 0, 0.32), 0 0 28px color-mix(in srgb, var(--blue) 25%, transparent); }
+.arena-schedule__symbol span { margin-top: 0.25rem; font-size: 0.58rem; font-weight: 700; }
+.arena-schedule__symbol > .arena-school-mark { width: 52px; height: 52px; }
+.arena-schedule__deck time { display: flex; align-items: flex-end; gap: 0.45rem; margin-top: 1.2rem; }
+.arena-schedule__deck time strong { font-size: clamp(2.2rem, 3.5vw, 3.1rem); letter-spacing: -0.07em; line-height: 0.85; }
+.arena-schedule__deck time span { padding-bottom: 0.1rem; color: var(--muted); font-size: 0.66rem; }
+.arena-schedule__info { display: grid; gap: 0.32rem; margin-top: auto; padding-top: 0.9rem; border-top: 1px solid var(--line); }
+.arena-schedule__info p, .arena-schedule__info > span { display: flex; align-items: center; gap: 0.35rem; color: var(--muted); font-size: 0.66rem; }
+.arena-schedule__info h3 { margin: 0.4rem 0 0.1rem; font-size: 0.9rem; }
+.arena-note { display: flex; align-items: center; gap: 0.45rem; margin-top: 1rem; color: rgba(255, 255, 255, 0.46); font-size: 0.66rem; }
+
+/* Song console */
+.arena-songs { position: relative; padding: clamp(5.5rem, 8vw, 8rem) 0; background: linear-gradient(180deg, #060910, #0a101d 48%, #060910); }
+.arena-songs::before { position: absolute; inset: 0; opacity: 0.13; background-image: linear-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.15) 1px, transparent 1px); background-size: 92px 92px; mask-image: radial-gradient(circle at 50% 50%, black, transparent 74%); content: ""; pointer-events: none; }
+.arena-songs > .arena-shell { position: relative; }
+.arena-song-tabs { display: inline-grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 2rem; padding: 5px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255, 255, 255, 0.045); }
+.arena-song-tabs button { display: inline-flex; align-items: center; justify-content: center; gap: 0.42rem; min-width: 150px; min-height: 44px; padding: 0 0.9rem; border: 0; border-radius: 11px; color: var(--muted); background: transparent; font-size: 0.7rem; font-weight: 700; }
+.arena-song-tabs button[aria-selected="true"] { color: white; background: linear-gradient(135deg, var(--active), var(--active-deep)); box-shadow: 0 7px 24px color-mix(in srgb, var(--active) 30%, transparent); }
+.arena-song-console { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(400px, 1.1fr); align-items: start; gap: clamp(1.3rem, 3vw, 3rem); margin-top: 1.6rem; perspective: 1400px; }
+.arena-song-list { overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: rgba(14, 20, 31, 0.58); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07), 0 30px 70px rgba(0, 0, 0, 0.26); backdrop-filter: blur(16px); }
+.arena-song-row { display: grid; grid-template-columns: 38px minmax(0, 1fr) 42px; align-items: center; gap: 0.8rem; width: 100%; min-height: 92px; padding: 0.8rem 1rem; border: 0; border-bottom: 1px solid var(--line); color: white; background: transparent; text-align: left; }
+.arena-song-row:last-child { border-bottom: 0; }
+.arena-song-row::before { position: absolute; left: 0; width: 3px; height: 0; border-radius: 999px; background: var(--active); box-shadow: 0 0 16px var(--active); content: ""; transition: height 180ms ease; }
+.arena-song-row:hover, .arena-song-row.is-active { background: linear-gradient(90deg, color-mix(in srgb, var(--active) 18%, transparent), rgba(255, 255, 255, 0.025)); }
+.arena-song-row.is-active::before { height: 62%; }
+.arena-song-row > span { color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: 0.6rem; }
+.arena-song-row > div { display: grid; gap: 0.2rem; min-width: 0; }
+.arena-song-row small { color: var(--active); font-size: 0.6rem; }
+.arena-song-row strong { font-size: 0.96rem; }
+.arena-song-row p { display: -webkit-box; margin-top: 0.18rem; overflow: hidden; color: var(--muted); font-size: 0.68rem; line-height: 1.45; -webkit-box-orient: vertical; -webkit-line-clamp: 1; }
+.arena-song-row > i { display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; color: var(--muted); font-style: normal; transition: color 160ms ease, background 160ms ease, transform 160ms ease; }
+.arena-song-row:hover > i, .arena-song-row.is-active > i { color: white; background: var(--active); box-shadow: 0 0 22px color-mix(in srgb, var(--active) 42%, transparent); transform: scale(1.07); }
+
+.arena-player { position: sticky; top: 90px; min-width: 0; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 28px; background: linear-gradient(145deg, rgba(27, 36, 54, 0.88), rgba(10, 14, 23, 0.9)); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 40px 90px rgba(0, 0, 0, 0.44), 0 0 55px color-mix(in srgb, var(--active) 12%, transparent); backdrop-filter: blur(24px); transform-style: preserve-3d; }
+.arena-player::after { position: absolute; top: -20%; right: -22%; width: 55%; aspect-ratio: 1; border-radius: 50%; background: var(--active); filter: blur(90px); opacity: 0.12; content: ""; pointer-events: none; }
+.arena-player__halo { position: absolute; z-index: 0; right: 8%; bottom: 12%; width: 34%; aspect-ratio: 1; border: 1px solid color-mix(in srgb, var(--active) 38%, transparent); border-radius: 50%; box-shadow: inset 0 0 35px color-mix(in srgb, var(--active) 13%, transparent), 0 0 35px color-mix(in srgb, var(--active) 13%, transparent); animation: arena-orbit 14s linear infinite; }
+.arena-player > *:not(.arena-player__halo) { position: relative; z-index: 1; }
+.arena-player > header { display: flex; align-items: center; justify-content: space-between; min-height: 46px; padding: 0 1rem; border-bottom: 1px solid var(--line); font-size: 0.62rem; }
+.arena-player > header > div { display: inline-flex; align-items: center; gap: 0.45rem; color: #75efb5; }
+.arena-player > header small { color: var(--muted); }
+.arena-player__screen { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #010204; }
+.arena-player__screen::after { position: absolute; z-index: 3; right: 0; left: 0; height: 18%; background: linear-gradient(transparent, rgba(255, 255, 255, 0.055), transparent); content: ""; animation: arena-scan 5s linear infinite; pointer-events: none; }
+.arena-player__screen > div { width: 100%; height: 100%; }
+.arena-player__screen iframe { width: 100%; height: 100%; border: 0; }
+.arena-player__pending { position: relative; display: grid; place-content: center; justify-items: center; width: 100%; height: 100%; text-align: center; }
+.arena-player__pending > div { position: absolute; inset: 16%; display: flex; align-items: center; justify-content: center; gap: 1.1%; color: var(--active); opacity: 0.3; }
+.arena-player__pending > div i { width: 2.1%; height: var(--bar); background: currentColor; animation: arena-bars 1.2s calc(var(--bar) * -0.02) ease-in-out infinite; }
+.arena-player__pending > svg { position: relative; color: var(--active); filter: drop-shadow(0 0 12px var(--active)); }
+.arena-player__pending strong { position: relative; margin-top: 0.7rem; font-size: 0.78rem; }
+.arena-player__pending span { position: relative; margin-top: 0.3rem; color: var(--muted); font-size: 0.66rem; }
+.arena-player__heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; padding: 1.15rem; border-bottom: 1px solid var(--line); }
+.arena-player__heading > div:first-child { display: grid; gap: 0.24rem; min-width: 0; }
+.arena-player__heading small { color: var(--active); font-size: 0.62rem; }
+.arena-player__heading h3 { font-size: clamp(1.5rem, 3vw, 2.25rem); letter-spacing: -0.045em; }
+.arena-player__heading span { color: var(--muted); font-size: 0.64rem; }
+.arena-player__heading > div:last-child { display: flex; flex: 0 0 auto; }
+.arena-player__heading button { display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid var(--line); color: white; background: rgba(255, 255, 255, 0.045); }
+.arena-player__heading button:first-child { border-radius: 12px 0 0 12px; }
+.arena-player__heading button:last-child { border-left: 0; border-radius: 0 12px 12px 0; }
+.arena-player__facts { display: grid; grid-template-columns: 1.3fr 0.7fr 0.8fr; border-bottom: 1px solid var(--line); }
+.arena-player__facts > div { display: grid; gap: 0.28rem; min-height: 70px; padding: 0.75rem 1rem; border-right: 1px solid var(--line); }
+.arena-player__facts > div:last-child { border-right: 0; }
+.arena-player__facts dt { color: var(--muted); font-size: 0.6rem; }
+.arena-player__facts dd { align-self: end; overflow-wrap: anywhere; font-size: 0.7rem; font-weight: 700; }
+.arena-player__story { display: grid; gap: 0.5rem; padding: 1rem 1.15rem; border-bottom: 1px solid var(--line); }
+.arena-player__story small { color: var(--active); font-size: 0.62rem; font-weight: 700; }
+.arena-player__story p { color: var(--muted); font-size: 0.7rem; line-height: 1.58; }
+.arena-player__story p:first-of-type { color: rgba(255, 255, 255, 0.82); font-weight: 580; }
+.arena-player > footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.8rem 1.15rem; }
+.arena-player > footer a { display: inline-flex; align-items: center; gap: 0.38rem; font-size: 0.66rem; font-weight: 700; }
+.arena-player > footer a:last-child { color: var(--active); }
+.arena-player > footer span { color: var(--muted); font-size: 0.62rem; }
+
+/* Rivalry */
+.arena-rivalry { position: relative; isolation: isolate; padding: clamp(5.5rem, 8vw, 8rem) 0; overflow: hidden; background: #03050a; }
+.arena-rivalry__lights { position: absolute; z-index: -2; inset: 0; }
+.arena-rivalry__lights i { position: absolute; top: 12%; width: 48vw; height: 75%; filter: blur(75px); opacity: 0.18; }
+.arena-rivalry__lights i:first-child { left: -24%; background: var(--blue); transform: rotate(18deg); }
+.arena-rivalry__lights i:last-child { right: -24%; background: var(--red); transform: rotate(-18deg); }
+.arena-duel { position: relative; display: grid; grid-template-columns: minmax(0, 1.08fr) 86px minmax(0, 0.92fr); align-items: center; margin-top: 3rem; perspective: 1500px; }
+.arena-duel__camp:first-child { grid-row: 1; grid-column: 1; }
+.arena-duel__camp:nth-child(2) { grid-row: 1; grid-column: 3; }
+.arena-duel__camp { position: relative; min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 30px; background: linear-gradient(145deg, rgba(27, 36, 54, 0.82), rgba(8, 11, 18, 0.9)); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.11), 0 40px 80px rgba(0, 0, 0, 0.42); backdrop-filter: blur(20px); }
+.arena-duel__camp.is-front { z-index: 2; border-color: color-mix(in srgb, var(--active) 65%, white); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 48px 95px rgba(0, 0, 0, 0.5), 0 0 45px color-mix(in srgb, var(--active) 14%, transparent); transform: translateZ(30px); }
+.arena-duel__camp > header { position: relative; min-height: 150px; padding: 1.2rem; overflow: hidden; background: radial-gradient(circle at 25% 18%, rgba(255, 255, 255, 0.27), transparent 16%), linear-gradient(135deg, color-mix(in srgb, var(--red) 78%, black), var(--red-deep)); }
+.arena-duel__camp.is-yonsei > header { background: radial-gradient(circle at 25% 18%, rgba(255, 255, 255, 0.27), transparent 16%), linear-gradient(135deg, color-mix(in srgb, var(--blue) 82%, black), var(--blue-deep)); }
+.arena-duel__camp > header::after { position: absolute; right: -6%; bottom: -42%; width: 60%; aspect-ratio: 1; border: 1px solid rgba(255, 255, 255, 0.26); border-radius: 50%; box-shadow: 0 0 0 28px rgba(255, 255, 255, 0.04), 0 0 0 56px rgba(255, 255, 255, 0.025); content: ""; }
+.arena-duel__camp > header > div { display: flex; align-items: center; justify-content: space-between; }
+.arena-duel__camp > header > div span { display: grid; place-items: center; width: 52px; height: 52px; border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 50%; background: rgba(255, 255, 255, 0.08); box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.08); font-size: 1.2rem; font-weight: 900; }
+.arena-duel__camp > header > div span .arena-school-mark { width: 76%; height: 76%; }
+.arena-duel__camp > header > div i { width: 40%; height: 1px; background: rgba(255, 255, 255, 0.3); }
+.arena-duel__camp > header small { display: block; margin-top: 1.2rem; font-size: 0.64rem; opacity: 0.7; }
+.arena-duel__camp > header strong { display: block; margin-top: 0.4rem; font-size: clamp(1.5rem, 3vw, 2.3rem); }
+.arena-duel__camp > div:last-child { display: grid; }
+.arena-duel__camp > div:last-child button { display: grid; grid-template-columns: 34px minmax(0, 1fr) 26px; align-items: center; gap: 0.8rem; min-height: 82px; padding: 0.8rem 1.1rem; border: 0; border-bottom: 1px solid var(--line); color: white; background: transparent; text-align: left; }
+.arena-duel__camp > div:last-child button:last-child { border-bottom: 0; }
+.arena-duel__camp > div:last-child button:hover { background: rgba(255, 255, 255, 0.075); }
+.arena-duel__camp button > span { color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: 0.6rem; }
+.arena-duel__camp button > div { display: grid; gap: 0.2rem; }
+.arena-duel__camp button strong { font-size: 0.9rem; }
+.arena-duel__camp button small { color: var(--muted); font-size: 0.62rem; }
+.arena-duel__camp button svg { opacity: 0.6; }
+.arena-duel__vs { z-index: 5; grid-row: 1; grid-column: 2; display: grid; place-content: center; justify-items: center; width: 86px; height: 86px; margin: 0 auto; border: 1px solid rgba(255, 255, 255, 0.26); border-radius: 50%; background: radial-gradient(circle at 35% 28%, rgba(255, 255, 255, 0.35), transparent 18%), linear-gradient(145deg, #2a3140, #07090d); box-shadow: inset -9px -10px 18px rgba(0, 0, 0, 0.5), 0 18px 36px rgba(0, 0, 0, 0.5), 0 0 24px rgba(255, 255, 255, 0.1); font-size: 1.2rem; font-weight: 900; line-height: 0.72; transform: translateZ(70px); }
+.arena-duel__vs i { width: 20px; height: 1px; margin-top: 0.55rem; background: linear-gradient(90deg, var(--blue), var(--red)); }
+
+/* Baseball */
+.arena-baseball { position: relative; padding: clamp(5.5rem, 8vw, 8rem) 0; overflow: hidden; background: linear-gradient(145deg, #0e1117, #07090d 55%, #10100d); }
+.arena-baseball::before { position: absolute; top: -28%; right: -8%; width: 54vw; aspect-ratio: 1; border: clamp(60px, 9vw, 140px) solid rgba(205, 165, 84, 0.08); border-radius: 50%; content: ""; box-shadow: 0 0 90px rgba(205, 165, 84, 0.08); }
+.arena-baseball .arena-section-title > div { color: #d8b86d; }
+.arena-baseball .arena-section-title > div span { border-color: rgba(216, 184, 109, 0.55); background: rgba(216, 184, 109, 0.1); }
+.arena-baseball .arena-section-title h2 strong { background: linear-gradient(105deg, white, #e8d49e, #b88d38); background-clip: text; -webkit-background-clip: text; }
+.arena-baseball__panel { position: relative; display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(420px, 1.05fr); gap: 1.5rem; margin-top: 3rem; }
+.arena-baseball__songs { overflow: hidden; border: 1px solid rgba(216, 184, 109, 0.23); border-radius: 24px; background: rgba(255, 255, 255, 0.035); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07), 0 28px 65px rgba(0, 0, 0, 0.34); backdrop-filter: blur(16px); }
+.arena-baseball__songs button { display: grid; grid-template-columns: 34px minmax(0, 1fr) 30px; align-items: center; gap: 0.8rem; width: 100%; min-height: 82px; padding: 0.75rem 1rem; border: 0; border-bottom: 1px solid var(--line); color: white; background: transparent; text-align: left; }
+.arena-baseball__songs button:last-child { border-bottom: 0; }
+.arena-baseball__songs button:hover { background: linear-gradient(90deg, rgba(216, 184, 109, 0.13), transparent); }
+.arena-baseball__songs button > span { color: rgba(216, 184, 109, 0.72); font-family: "IBM Plex Mono", monospace; font-size: 0.6rem; }
+.arena-baseball__songs button > div { display: grid; gap: 0.2rem; }
+.arena-baseball__songs small { color: #d8b86d; font-size: 0.6rem; }
+.arena-baseball__songs strong { font-size: 0.92rem; }
+.arena-baseball__songs p { color: var(--muted); font-size: 0.64rem; }
+.arena-clubs { overflow: hidden; border: 1px solid rgba(216, 184, 109, 0.23); border-radius: 24px; background: radial-gradient(circle at 50% 45%, rgba(216, 184, 109, 0.1), transparent 62%), rgba(255, 255, 255, 0.025); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07), 0 28px 65px rgba(0, 0, 0, 0.34); backdrop-filter: blur(16px); }
+.arena-clubs > header { display: flex; align-items: center; gap: 0.45rem; min-height: 48px; padding: 0 1rem; border-bottom: 1px solid rgba(216, 184, 109, 0.2); color: #d8b86d; font-size: 0.64rem; }
+.arena-clubs > header small { margin-left: auto; color: var(--muted); }
+.arena-clubs > div { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 1rem; perspective: 1000px; }
+.arena-clubs > div > a, .arena-clubs > div > span { position: relative; display: grid; align-content: center; justify-items: center; min-width: 0; min-height: 100px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--club) 20%, transparent), transparent 64%); transform-style: preserve-3d; }
+.arena-clubs > div > :nth-child(5n) { border-right: 0; }
+.arena-clubs > div > :nth-child(n + 6) { border-bottom: 0; }
+.arena-clubs > div > a::before, .arena-clubs > div > span::before { width: 42px; height: 42px; border: 1px solid color-mix(in srgb, var(--club) 75%, white); border-radius: 50%; background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.34), transparent 22%), var(--club); box-shadow: inset -6px -7px 12px rgba(0, 0, 0, 0.3), 0 7px 18px rgba(0, 0, 0, 0.3), 0 0 18px color-mix(in srgb, var(--club) 32%, transparent); content: ""; }
+.arena-clubs > div > span.is-pending { filter: grayscale(0.75); }
+.arena-clubs > div span span, .arena-clubs > div a span { position: absolute; top: calc(50% - 9px); width: 42px; color: white; font-family: "IBM Plex Mono", monospace; font-size: 0.56rem; font-weight: 700; text-align: center; }
+.arena-clubs > div strong { margin-top: 0.5rem; overflow: hidden; max-width: 90%; font-size: 0.64rem; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Timeline */
+.arena-timeline { position: relative; padding: clamp(5.5rem, 8vw, 8rem) 0; overflow: hidden; background: radial-gradient(circle at 18% 65%, color-mix(in srgb, var(--active) 13%, transparent), transparent 36%), #060910; }
+.arena-timeline__path { position: relative; display: grid; gap: 0.7rem; max-width: 980px; margin: 3rem auto 0; perspective: 1200px; }
+.arena-timeline__beam { position: absolute; z-index: 0; top: 0; bottom: 0; left: 118px; width: 2px; background: linear-gradient(transparent, var(--active) 12%, var(--opponent) 80%, transparent); box-shadow: 0 0 18px color-mix(in srgb, var(--active) 55%, transparent); }
+.arena-timeline__path article { position: relative; z-index: 1; display: grid; grid-template-columns: 44px 120px minmax(0, 1fr) 46px; align-items: center; gap: 1rem; min-height: 94px; padding: 0.8rem 1rem; border: 1px solid var(--line); border-radius: 20px; background: linear-gradient(110deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.025)); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 20px 50px rgba(0, 0, 0, 0.25); backdrop-filter: blur(14px); }
+.arena-timeline__path article.is-active { border-color: color-mix(in srgb, var(--active) 52%, transparent); background: linear-gradient(110deg, color-mix(in srgb, var(--active) 15%, transparent), rgba(255, 255, 255, 0.03)); }
+.arena-timeline__path article.is-final { min-height: 118px; border-color: rgba(255, 255, 255, 0.28); background: linear-gradient(110deg, var(--active-deep), color-mix(in srgb, var(--opponent-deep) 60%, #090c13)); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 30px 75px rgba(0, 0, 0, 0.4), 0 0 40px color-mix(in srgb, var(--active) 18%, transparent); }
+.arena-timeline__path article > span, .arena-timeline__path time { font-family: "IBM Plex Mono", monospace; font-size: 0.62rem; }
+.arena-timeline__path article > span { color: var(--muted); }
+.arena-timeline__path article > div { display: grid; gap: 0.24rem; }
+.arena-timeline__path article > div small { color: var(--active); font-size: 0.62rem; font-weight: 700; }
+.arena-timeline__path h3 { font-size: 1rem; }
+.arena-timeline__path p { color: var(--muted); font-size: 0.68rem; }
+.arena-timeline__path article > i { display: grid; place-items: center; width: 36px; height: 36px; border: 1px solid rgba(255, 255, 255, 0.24); border-radius: 50%; background: var(--red); box-shadow: 0 0 18px color-mix(in srgb, var(--red) 34%, transparent); font-size: 0.62rem; font-style: normal; font-weight: 850; }
+.arena-timeline__path article > i.is-yonsei { background: var(--blue); box-shadow: 0 0 18px color-mix(in srgb, var(--blue) 34%, transparent); }
+.arena-timeline__path article > i .arena-school-mark { width: 72%; height: 72%; }
+.arena-timeline__path article > svg { color: white; filter: drop-shadow(0 0 10px white); }
+
+/* Footer */
+.arena-footer { position: relative; min-height: 540px; overflow: hidden; background: radial-gradient(circle at 50% 90%, color-mix(in srgb, var(--active) 42%, transparent), transparent 38%), linear-gradient(180deg, #060910, #020306); }
+.arena-footer::before { position: absolute; right: -10%; bottom: -52%; left: -10%; height: 88%; border: 1px solid rgba(255, 255, 255, 0.13); border-radius: 50%; box-shadow: 0 0 0 80px rgba(255, 255, 255, 0.018), 0 0 0 160px rgba(255, 255, 255, 0.012); content: ""; }
+.arena-footer__orb { position: absolute; bottom: -23vw; left: 50%; width: min(70vw, 850px); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 38% 28%, rgba(255, 255, 255, 0.42), transparent 12%), radial-gradient(circle at 42% 38%, var(--active), var(--active-deep) 67%); box-shadow: inset -70px -80px 130px rgba(0, 0, 0, 0.55), 0 0 90px color-mix(in srgb, var(--active) 42%, transparent); transform: translateX(-50%); opacity: 0.72; }
+.arena-footer > .arena-shell { position: relative; z-index: 2; display: grid; align-content: center; justify-items: center; min-height: 540px; padding: 3.5rem 0 1.5rem; text-align: center; }
+.arena-footer .arena-shell > p { display: inline-flex; align-items: center; gap: 0.45rem; color: #75efb5; font-size: 0.66rem; font-weight: 700; }
+.arena-footer h2 { margin-top: 1.4rem; font-size: clamp(5rem, 11vw, 10rem); font-weight: 900; letter-spacing: -0.09em; line-height: 0.82; text-shadow: 0 16px 50px rgba(0, 0, 0, 0.5); }
+.arena-footer h2 span { color: transparent; background: linear-gradient(100deg, white, color-mix(in srgb, var(--active) 60%, white), var(--active)); background-clip: text; -webkit-background-clip: text; }
+.arena-footer .arena-shell > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: min(100%, 640px); margin-top: 1.8rem; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.22); border-radius: 18px; background: rgba(4, 7, 12, 0.44); backdrop-filter: blur(18px); }
+.arena-footer .arena-shell > div a { display: grid; grid-template-columns: minmax(0, 1fr) 24px; gap: 0.3rem; min-height: 78px; padding: 1rem; text-align: left; transition: background 160ms ease; }
+.arena-footer .arena-shell > div a + a { border-left: 1px solid rgba(255, 255, 255, 0.18); }
+.arena-footer .arena-shell > div a:hover { background: rgba(255, 255, 255, 0.1); }
+.arena-footer .arena-shell > div small { grid-column: 1; color: var(--muted); font-size: 0.62rem; }
+.arena-footer .arena-shell > div strong { grid-column: 1; font-size: 0.78rem; }
+.arena-footer .arena-shell > div svg { grid-row: 1 / 3; grid-column: 2; align-self: center; }
+.arena-footer .arena-shell > span { align-self: end; width: 100%; margin-top: auto; color: rgba(255, 255, 255, 0.44); font-size: 0.62rem; }
+.arena-compare-float { position: fixed; z-index: 75; right: 1rem; bottom: 1rem; display: inline-flex; align-items: center; gap: 0.38rem; min-height: 38px; padding: 0 0.8rem; border: 1px solid var(--line); border-radius: 999px; color: white; background: rgba(6, 9, 16, 0.75); box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35); backdrop-filter: blur(16px); font-size: 0.55rem; font-weight: 700; }
+
+@media (max-width: 1080px) {
+  .arena-hero { grid-template-columns: minmax(0, 0.92fr) minmax(400px, 1.08fr); }
+  .arena-hero__copy { margin-left: 3rem; }
+  .arena-stage { width: min(48vw, 540px); }
+  .arena-schedule__deck { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .arena-schedule__deck article { min-height: 350px; }
+  .arena-baseball__panel { grid-template-columns: minmax(0, 0.88fr) minmax(390px, 1.12fr); }
+}
+
+@media (max-width: 860px) {
+  .arena-shell { width: calc(100% - 2rem); }
+  .arena-page main > section { scroll-margin-top: 62px; }
+  .arena-header { grid-template-columns: auto 1fr auto; min-height: 60px; padding: 0 0.75rem; }
+  .arena-header__brand strong, .arena-header__signal, .arena-header__compare { display: none; }
+  .arena-header__brand > span { width: 30px; height: 30px; }
+  .arena-header .arena-school-toggle { justify-self: center; }
+
+  .arena-hero { display: flex; min-height: 0; flex-direction: column; }
+  .arena-hero__copy { align-items: center; width: auto; margin: 0; padding: 5.5rem 1rem 1rem; text-align: center; }
+  .arena-hero h1 { margin-top: 1.5rem; font-size: min(35vw, 9.8rem); }
+  .arena-hero__intro { justify-content: center; width: 100%; text-align: left; }
+  .arena-hero__copy > .arena-school-toggle { width: 100%; }
+  .arena-hero__cta { width: 100%; }
+  .arena-stage { width: min(94vw, 540px); margin: 0 auto 2rem; }
+  .arena-stage__glass.is-date { top: 8%; right: 0; min-width: 142px; }
+  .arena-stage__glass.is-school { bottom: 9%; left: 0; }
+  .arena-stage__glass.is-guide { right: 1%; bottom: 12%; }
+
+  .arena-section-title { grid-template-columns: 1fr; gap: 1rem; }
+  .arena-section-title h2 { font-size: clamp(3.4rem, 15vw, 5rem); }
+  .arena-section-title > p { padding-left: 1rem; }
+
+  .arena-schedule, .arena-songs, .arena-rivalry, .arena-baseball, .arena-timeline { padding: 4.5rem 0; }
+  .arena-schedule__deck { grid-template-columns: 1fr; gap: 0.8rem; margin-top: 2.2rem; }
+  .arena-schedule__deck article { display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; grid-template-rows: auto auto; gap: 0.8rem; min-height: 150px; padding: 1rem; border-radius: 20px; }
+  .arena-schedule__deck header { grid-row: 1; grid-column: 2 / 4; }
+  .arena-schedule__symbol { grid-row: 1 / 3; grid-column: 1; align-self: center; width: 62px; height: 62px; margin: 0; font-size: 1.4rem; }
+  .arena-schedule__symbol > .arena-school-mark { width: 38px; height: 38px; }
+  .arena-schedule__deck time { grid-row: 2; grid-column: 2; align-self: end; margin: 0; }
+  .arena-schedule__deck time strong { font-size: 1.8rem; }
+  .arena-schedule__info { grid-row: 2; grid-column: 3; align-self: end; min-width: 124px; margin: 0; padding: 0 0 0 0.8rem; border-top: 0; border-left: 1px solid var(--line); }
+  .arena-schedule__info p { display: none; }
+  .arena-note { align-items: flex-start; line-height: 1.5; }
+
+  .arena-song-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; }
+  .arena-song-tabs button { min-width: 0; }
+  .arena-song-console { display: flex; flex-direction: column; gap: 1rem; }
+  .arena-player { position: static; order: -1; width: 100%; scroll-margin-top: 74px; border-radius: 22px; }
+  .arena-song-list { width: 100%; border-radius: 20px; }
+  .arena-song-row { min-height: 92px; }
+
+  .arena-duel { grid-template-columns: 1fr; grid-template-rows: auto 58px auto; gap: 0.8rem; margin-top: 2.2rem; }
+  .arena-duel__camp:first-child { grid-row: 1; grid-column: 1; }
+  .arena-duel__camp:nth-child(2) { grid-row: 3; grid-column: 1; }
+  .arena-duel__camp { border-radius: 22px; }
+  .arena-duel__camp.is-front { transform: none; }
+  .arena-duel__camp > header { min-height: 150px; }
+  .arena-duel__vs { position: relative; z-index: 6; grid-row: 2; grid-column: 1; width: 58px; height: 58px; }
+
+  .arena-baseball__panel { grid-template-columns: 1fr; gap: 1rem; margin-top: 3rem; }
+  .arena-clubs > div > a, .arena-clubs > div > span { min-height: 102px; }
+
+  .arena-timeline__path { margin-top: 3rem; }
+  .arena-timeline__beam { left: 78px; }
+  .arena-timeline__path article { grid-template-columns: 30px 80px minmax(0, 1fr) 38px; gap: 0.6rem; padding: 0.8rem 0.65rem; }
+
+  .arena-footer, .arena-footer > .arena-shell { min-height: 520px; }
+  .arena-footer h2 { font-size: clamp(4.5rem, 20vw, 7rem); }
+  .arena-footer__orb { bottom: -30vw; width: 100vw; }
+  .arena-compare-float { display: none; }
+}
+
+@media (max-width: 470px) {
+  .arena-shell { width: calc(100% - 1.4rem); }
+  .arena-hero__copy { padding-right: 0.7rem; padding-left: 0.7rem; }
+  .arena-hero__copy > p { font-size: 0.64rem; }
+  .arena-hero__intro { gap: 0.8rem; }
+  .arena-hero__intro p { padding-left: 0.8rem; font-size: 0.68rem; }
+  .arena-school-toggle button { grid-template-columns: 30px minmax(0, 1fr); gap: 0.35rem; min-height: 52px; padding: 0.35rem; }
+  .arena-school-toggle button > i { width: 28px; height: 28px; }
+  .arena-stage { width: 104vw; margin-left: -2vw; }
+  .arena-stage__core { width: 42%; }
+  .arena-stage__glass.is-date { right: 5%; min-width: 126px; padding: 0.75rem 0.9rem; }
+  .arena-stage__glass.is-date strong { font-size: 1.55rem; }
+  .arena-stage__glass.is-guide { right: 4%; padding: 0.65rem 0.75rem; }
+  .arena-stage__glass.is-school { left: 5%; min-width: 125px; }
+  .arena-section-title h2 { font-size: 3.35rem; }
+  .arena-schedule__deck article { grid-template-columns: 60px minmax(0, 1fr); min-height: 170px; }
+  .arena-schedule__symbol { width: 54px; height: 54px; }
+  .arena-schedule__symbol > .arena-school-mark { width: 32px; height: 32px; }
+  .arena-schedule__deck header { grid-column: 2; }
+  .arena-schedule__deck time { grid-column: 2; }
+  .arena-schedule__info { grid-row: 3; grid-column: 1 / 3; padding: 0.8rem 0 0; border-top: 1px solid var(--line); border-left: 0; }
+  .arena-song-row { grid-template-columns: 28px minmax(0, 1fr) 38px; padding: 0.75rem; }
+  .arena-song-row p { display: none; }
+  .arena-player__heading h3 { font-size: 1.4rem; }
+  .arena-player__facts { grid-template-columns: 1.2fr 0.8fr 0.8fr; }
+  .arena-player__facts > div { padding: 0.65rem; }
+  .arena-player__facts dd { font-size: 0.52rem; }
+  .arena-duel__camp > header { min-height: 132px; }
+  .arena-duel__camp > div:last-child button { min-height: 75px; }
+  .arena-clubs > div { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .arena-clubs > div > :nth-child(5n) { border-right: 1px solid var(--line); }
+  .arena-clubs > div > :nth-child(n + 6) { border-bottom: 1px solid var(--line); }
+  .arena-clubs > div > :nth-child(2n) { border-right: 0; }
+  .arena-clubs > div > :nth-child(n + 9) { border-bottom: 0; }
+  .arena-timeline__beam { left: 63px; }
+  .arena-timeline__path article { grid-template-columns: 24px 62px minmax(0, 1fr); }
+  .arena-timeline__path article > i, .arena-timeline__path article > svg { display: none; }
+  .arena-timeline__path h3 { font-size: 0.82rem; }
+  .arena-footer .arena-shell > div { grid-template-columns: 1fr; }
+  .arena-footer .arena-shell > div a + a { border-top: 1px solid rgba(255, 255, 255, 0.18); border-left: 0; }
+  .arena-footer .arena-shell > span { line-height: 1.6; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .arena-page *,
+  .arena-page *::before,
+  .arena-page *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

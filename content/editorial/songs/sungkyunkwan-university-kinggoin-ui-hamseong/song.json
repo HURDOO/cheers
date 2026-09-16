@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "song": {
+    "id": "sungkyunkwan-university-kinggoin-ui-hamseong",
+    "organizationId": "sungkyunkwan-university",
+    "discoveredBy": "user",
+    "scopeStatus": "target",
+    "workflowStage": "research_ready",
+    "title": "킹고인의 함성",
+    "aliases": [
+      "킹고인의 함성 (응원가)"
+    ],
+    "symbolicLines": [
+      "킹고인의 함성",
+      "성균관대학교 응원가"
+    ],
+    "descriptionText": "킹고응원단 공식 영상이 2006년 곡으로 소개하는 응원가다.[* 2026 상반기 응원 OT 공식 영상: https://www.youtube.com/watch?v=hwx__jPZ7NM] 공식 채널에는 2019년 대동제와 입학식, 2021년 독립 음원, 2022년 ESKARA, 2024년 응원법 가이드와 ESKARA 앙코르, 2025·2026년 공연 기록이 이어진다.[* 2024 응원법 가이드 Chapter 10: https://www.youtube.com/watch?v=1z--bvFfMvA][* 2024 ESKARA 앙코르: https://www.youtube.com/watch?v=k5jn4ho6vfY]\n\n곡 제목은 킹고응원단의 대표 행사명과도 겹친다. 성균관대 총동창회 인터뷰에 따르면 ‘킹고인의 함성 응원 대제전’은 1987년에 처음 열렸고, 현재 공식 영상이 표시하는 동명 응원가의 연도는 2006년이다.[* 성균관대 총동창회 킹고응원단 인터뷰: https://alumni.skku.edu/alumni/circular/interview.do?article.offset=30&articleLimit=10&articleNo=59367&mode=view] 따라서 1987년은 행사 계보, 2006년은 현행 곡의 공식 표기로 구분해 기록할 필요가 있다.\n\n2026 응원법 가이드는 이 곡에서 ‘성!균!관!악!’과 킹고 구호를 별도 포인트로 제시한다.[* 2026 응원법 가이드: https://www.youtube.com/watch?v=HQaa_PUz6eQ] 다만 작사·작곡자, 2006년 제작 경위와 원곡 여부는 공개 자료에서 확인하지 못했다.",
+    "lyrics": {
+      "lines": [],
+      "collapsedPreviewLineCount": 2
+    },
+    "quickFacts": [
+      {
+        "label": "사용 시작",
+        "value": "since 2006 · 공식 영상 표기"
+      },
+      {
+        "label": "응원 포인트",
+        "value": "성균관악·킹고 구호"
+      },
+      {
+        "label": "동명 행사",
+        "value": "응원 대제전은 1987년 시작"
+      }
+    ],
+    "videos": [],
+    "relationships": [],
+    "revision": 2,
+    "createdAt": "2026-09-02T10:18:38.081Z",
+    "updatedAt": "2026-09-02T10:18:38.088Z"
+  }
+}
