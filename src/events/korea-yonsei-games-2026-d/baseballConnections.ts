@@ -48,7 +48,7 @@ export const BASEBALL_PREVIEW_SONGS: Record<string, SongSummary> = {
     teamId: "kia-tigers", teamName: "KIA 타이거즈", teamShortName: "KIA",
     description: "연세대 서시와 베토벤 바이러스 계열 선율을 공유합니다.",
     tags: ["연세대 연결", "같은 원곡"], dataStatus: "mock",
-    media: { kind: "youtube", videoId: "l7XROs9lYSo", startSeconds: 22,
+    media: { kind: "youtube", videoId: "l7XROs9lYSo", startSeconds: 22, embeddable: false,
       sourceUrl: "https://www.youtube.com/watch?v=l7XROs9lYSo", channelName: "기아타이거즈 KIA TIGERS" },
   },
 };

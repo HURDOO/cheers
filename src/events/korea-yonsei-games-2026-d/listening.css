@@ -1,6 +1,7 @@
-/* Two visible listening sections, with a single active player between them. */
+/* One page-level playback state; list players unfold directly below their trigger. */
 .match-page.is-concept-d .listening-heading { margin-bottom: 30px; }
 .match-page.is-concept-d .listening-heading h2 { max-width: 100%; }
+.match-page.is-concept-d .match-songs__layout.is-inline { display: block; }
 .match-page.is-concept-d .listening-player { position: static; align-self: start; }
 .listening-player .match-player__screen { position: relative; overflow: hidden; aspect-ratio: 16 / 9; }
 .match-page.is-concept-d .listening-player .match-player__body h3 { margin-top: 0; }
@@ -12,6 +13,11 @@
 .listening-player__play:hover > span { transform: scale(1.08); background: var(--active); }
 .match-page.is-concept-d .listening-player__play:focus-visible { outline: 3px solid #fff; outline-offset: -5px; }
 .listening-player__find { display: flex; justify-content: center; align-items: center; gap: 8px; height: 100%; padding: 24px; font-size: 16px; text-align: center; }
+.listening-inline-player { width: 100%; padding: 24px 0 32px; scroll-margin-top: 80px; }
+.match-page.is-concept-d .listening-inline-player .listening-player { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+.listening-inline-player .match-player__top { grid-column: 1 / -1; }
+.listening-inline-player .match-player__screen,
+.listening-inline-player .match-player__body { align-self: center; }
 .match-memory { padding: 76px 0; color: var(--text); background: #090e17; }
 .match-memory > .match-shell { padding-top: 54px; border-top: 1px solid var(--stroke); }
 .match-memory__rail { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; margin-top: 32px; }
@@ -20,7 +26,7 @@
 .match-memory__rail > button > strong { font-size: 19px; font-weight: 700; word-break: keep-all; }
 .match-memory__rail > button > svg { color: var(--accent); }
 .match-memory__rail > button:hover, .match-memory__rail > button[aria-pressed="true"] { border-radius: 7px; background: color-mix(in srgb, var(--active) 12%, transparent); }
-.match-memory__player { margin-top: 30px; scroll-margin-top: 80px; }
+.match-memory__player { grid-column: 1 / -1; margin: 0; scroll-margin-top: 80px; }
 .match-memory__player[hidden] { display: none; }
 .match-page.is-concept-d .match-memory__player .listening-player { display: grid; grid-template-columns: 1.1fr 1fr; }
 .match-memory__player .match-player__top { grid-column: 1 / -1; }
@@ -30,6 +36,7 @@
   .match-memory { padding: 0 0 52px; }
   .match-memory > .match-shell { padding-top: 44px; }
   .match-page.is-concept-d .listening-heading h2 { font-size: clamp(35px, 6vw, 50px); }
+  .match-page.is-concept-d .listening-inline-player .listening-player,
   .match-page.is-concept-d .match-memory__player .listening-player { display: block; }
   .match-memory__rail { gap: 0 20px; }
   .match-memory__rail > button { gap: 10px; padding: 14px 4px; }
@@ -40,4 +47,5 @@
   .match-page.is-concept-d .listening-player__line { font-size: 19px; }
   .match-memory__rail { grid-template-columns: 1fr; margin-top: 24px; }
   .match-memory__rail > button { min-height: 64px; }
+  .listening-inline-player { padding: 16px 0 24px; }
 }

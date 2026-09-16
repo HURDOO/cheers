@@ -14,12 +14,13 @@ const server = await createServer({
 try {
   const { getPreviewSideContent, getSideContent } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026/eventContent.ts");
   const { BaseballStory } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/BaseballStory.tsx");
-  const { BASEBALL_CONNECTIONS } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/baseballConnections.ts");
+  const { BASEBALL_CONNECTIONS, BASEBALL_PREVIEW_SONGS } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/baseballConnections.ts");
   const { RivalryHero, getTitlePose } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/RivalryHero.tsx");
   const { RivalrySwitch, getSwitchPlacement } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/RivalrySwitch.tsx");
   const { RivalryStory, RIVALRY_LINES, getRivalryPlaybackSong } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/RivalryStory.tsx");
   const { SongSections, getListeningNote } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/SongSections.tsx");
   const { Finale, CHEER_INSTAGRAM } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/Finale.tsx");
+  const { DPlaybackProvider } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/playback.tsx");
   const { SCHEDULES, TIMELINE } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026/eventConfig.ts");
   const { KoreaYonseiGamesCPage } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-c/KoreaYonseiGamesCPage.tsx");
   const contents = { korea: getPreviewSideContent("korea"), yonsei: getPreviewSideContent("yonsei") };
@@ -50,24 +51,25 @@ try {
     assert.equal((html.match(/원곡 계보 자세히 알아보기/g) ?? []).length, side === "korea" ? 1 : 2);
     assert.ok(html.includes("구단별 응원가 더 알아보기") && html.includes('href="/?view=team&amp;type=baseball"'));
     assert.ok(!html.includes("대학·야구 응원가 관련 기사"));
-    if (side === "yonsei") assert.ok(html.includes("전 구단 아파트 응원 영상 찾기"));
+    if (side === "yonsei") assert.ok(html.includes("전 구단 아파트 응원 펼쳐 듣기"));
     assert.ok(html.includes("같은 원곡"), "Keep the distinction between shared originals and direct adaptations");
     const connections = [...html.matchAll(/data-relation="([^"]+)" data-campus-song="([^"]+)" data-club-song="([^"]+)"/g)].map(([, kind, campusId, clubId]) => ({kind, campusId, clubId}));
     assert.deepEqual(connections, BASEBALL_CONNECTIONS[side].map(({kind, campusId, clubId}) => ({kind, campusId, clubId})), "Every curated connection renders, including songs outside the six/eight playlists");
     assert.equal(connections.length, side === "korea" ? 5 : 4);
     if (side === "korea") {
       assert.ok(!html.includes("위닝케이티"), "Replace the repeated KT club with SSG");
-      assert.ok(html.includes('href="/?song=kia-tigers-kiareul-eungwonhara"'), "Approved KIA song opens the main archive");
+      assert.ok(html.includes('aria-label="KIA 타이거즈 기아를 응원하라 펼쳐 듣기"'), "Approved KIA song opens the inline player");
       assert.ok(html.includes("고연가 — 고대를 노래하라") && html.includes("고연가 — 고대를 사랑하라"), "Do not conflate the two 고연가 songs");
       assert.ok(connections.some(c => c.clubId === "ssg-landers-tuhon-ui-landers" && c.campusId === "korea-university-godaereul-saranghara" && c.kind === "shared"));
       assert.ok(connections.some(c => c.clubId === "kia-tigers-kiareul-eungwonhara" && c.campusId === "korea-university-godaereul-noraehara"));
-      assert.ok(html.includes("t=831s"), "SSG's official playlist opens at 투혼의 랜더스");
+      assert.equal(BASEBALL_PREVIEW_SONGS["ssg-landers-tuhon-ui-landers"].media.startSeconds, 831, "SSG's inline player starts at 투혼의 랜더스");
     } else {
       assert.ok(connections.some(c => c.clubId === "kia-tigers-lineup-song" && c.campusId === "yonsei-university-seosi" && c.kind === "shared"));
-      assert.ok(html.includes("t=22s"), "KIA's official playlist opens at the lineup song");
+      assert.equal(BASEBALL_PREVIEW_SONGS["kia-tigers-lineup-song"].media.startSeconds, 22, "KIA's inline player starts at the lineup song");
+      assert.equal(BASEBALL_PREVIEW_SONGS["kia-tigers-lineup-song"].media.embeddable, false, "The KIA source falls back to its watch page instead of a blocked iframe");
       assert.ok(!html.includes("대구FC"), "Do not classify a football connection as baseball");
     }
-    if (side === "yonsei") assert.match(html, /href="\/\?song=doosan-bears-haeya" aria-label="두산 베어스 해야 자세히 알아보기"/, "Doosan's card opens the main archive, not YouTube");
+    if (side === "yonsei") assert.ok(html.includes('aria-label="두산 베어스 해야 펼쳐 듣기"'), "Doosan's card opens the shared inline player");
     if (side === "korea") assert.ok(html.includes("관계 확인 중"), "Do not imply the unresolved KT relationship is confirmed");
     assert.ok(html.includes(`data-camp="${side}"`));
     assert.ok(!html.includes("aria-pressed"), "No independent school selector in the baseball section");
@@ -100,8 +102,8 @@ try {
     assert.ok(!rivalry.includes("<details"), "Other rivalry songs stay unfolded");
     assert.ok(rivalry.includes("꿇어라 연세") && rivalry.includes("Woo"), "Keep both lead rivalry performances");
     assert.ok(!rivalry.includes("rivalry-story__playback-note"), "Remove redundant playback notes without losing video start times");
-    assert.equal((rivalry.match(/aria-controls="rivalry-more-player"/g) ?? []).length, 6, "All six supporting songs open the shared inline player");
-    assert.equal((rivalry.match(/id="rivalry-more-player"/g) ?? []).length, 1);
+    assert.equal((rivalry.match(/aria-controls="rivalry-player-/g) ?? []).length, 6, "All six supporting songs target their inline player position");
+    assert.equal((rivalry.match(/id="rivalry-player-/g) ?? []).length, 0, "No supporting player is mounted before selection");
     assert.ok(!rivalry.includes("<iframe"), "No rivalry playback before the user requests it");
     for (const line of Object.values(RIVALRY_LINES)) assert.ok(rivalry.includes(line), "Preserve the user's rivalry lyrics");
     assert.ok(rivalry.includes("신촌은 골로골로 골로간다~") && rivalry.includes("고대가 꿈틀거리네, 꽉 밟아라!"));
@@ -119,7 +121,7 @@ try {
     assert.equal((listening.match(/aria-pressed=/g) ?? []).length, 14, "All six essentials and eight memory songs are initially visible");
     assert.ok(!listening.includes("<iframe"), "Listening videos load on request");
     assert.ok(listening.includes("행사 전 꼭 들을 6곡") && listening.includes("대표 응원가부터 올해 신곡까지."));
-    assert.ok(listening.includes('class="listening-player__detail"') && listening.includes("자세히 보기"));
+    assert.equal((listening.match(/aria-expanded="false"/g) ?? []).length, 14, "All list players start collapsed");
     assert.ok(listening.includes(side === "korea" ? "지성의 힘으로 야성의 힘으로" : "일어나 이제는 응원을 해야지!"), "Representative lines appear under playlist titles");
     assert.ok(listening.includes("응원석에서 함께 부를 여섯 곡을 미리 들어보세요.") && listening.includes("1학기 합동응원전에서 들었던,"));
     const finale = renderToStaticMarkup(createElement(Finale, {side}));
@@ -147,7 +149,7 @@ try {
   for (const caption of ["FAST TRACK", "우리 응원석", "상대 응원석", "같은 무대. 다른 함성.", "첫 곡부터 바로 재생", "선택한 응원가"]) {
     assert.ok(!redesignedD.includes(caption), `Remove redundant UI copy: ${caption}`);
   }
-  const playlist = redesignedD.match(/class="match-song-list"[^>]*>([\s\S]*?)<\/div><aside/)?.[1] ?? "";
+  const playlist = redesignedD.match(/class="match-song-list"[^>]*>([\s\S]*?)<\/div><\/div><\/section>/)?.[1] ?? "";
   assert.ok(playlist && playlist.includes('class="listening-song-line"') && !playlist.includes("<p>"), "Short representative lyrics support titles without repeating long descriptions");
   assert.ok(!redesignedD.includes("일정은 기획용 데이터입니다."), "Remove the requested draft disclaimer");
   assert.ok(redesignedD.includes("10월 2일부터 3일까지") && redesignedD.includes("9월 22일 (화)"), "Use Korean dates");
@@ -172,6 +174,18 @@ try {
   const heroCss = await readFile(new URL("../src/events/korea-yonsei-games-2026-d/hero.css", import.meta.url), "utf8");
   assert.ok(!/transition:\s*filter/.test(heroCss) && !/data-active[^\n]+filter:/.test(heroCss), "School changes must not tween crest glow colors");
   assert.ok(redesignedD.includes("디카츄") && redesignedD.includes("baseball-route__source"), "Keep video attribution and original-song lineage");
+
+  const activePlayback = renderToStaticMarkup(createElement(
+    DPlaybackProvider,
+    { initialKey: "rivalry-featured:yonsei:yonsei-university-woo" },
+    createElement("div", null,
+      createElement(SongSections, { side: "yonsei", content: contents.yonsei }),
+      createElement(RivalryStory, { side: "yonsei", contents }),
+      createElement(BaseballStory, { side: "yonsei", contents }),
+    ),
+  ));
+  assert.equal((activePlayback.match(/<iframe/g) ?? []).length, 1, "The page-level playback key mounts exactly one iframe across every section");
+  assert.ok(activePlayback.includes("youtube.com/embed/Tbex2Oh9YqM"), "The active featured thumbnail is replaced in place");
   assert.ok(getTitlePose("korea", "korea").scale > getTitlePose("yonsei", "yonsei").scale, "Optically compensate for the lighter 고 glyph");
   for (const side of ["yonsei", "korea"]) {
     const other = side === "korea" ? "yonsei" : "korea";

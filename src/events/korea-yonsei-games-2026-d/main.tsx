@@ -9,6 +9,7 @@ import { RivalryHero } from "./RivalryHero";
 import { RivalrySwitch } from "./RivalrySwitch";
 import { SongSections } from "./SongSections";
 import { Finale } from "./Finale";
+import { DPlaybackProvider, useDPlayback } from "./playback";
 import "../korea-yonsei-games-2026-c/styles.css";
 import "./hero.css";
 import "./rivalry.css";
@@ -29,17 +30,28 @@ function ListenDeepLink() {
   return null;
 }
 
-createRoot(document.getElementById("root")!).render(
-  <MotionConfig reducedMotion="user">
+function PlaybackAwareSwitch({ side, onChange }: Parameters<typeof RivalrySwitch>[0]) {
+  const { close } = useDPlayback();
+  return <RivalrySwitch side={side} onChange={(nextSide) => { close(); onChange(nextSide); }} />;
+}
+
+function ConceptDPage() {
+  return <DPlaybackProvider>
     <ListenDeepLink />
     <KoreaYonseiGamesCPage
       concept="D"
-      renderSchoolPicker={({ side, onChange }) => <RivalrySwitch side={side} onChange={onChange} />}
+      renderSchoolPicker={(props) => <PlaybackAwareSwitch {...props} />}
       renderHero={({ side }) => <RivalryHero side={side} />}
       renderSongs={({ side, content }) => <SongSections key={`songs-${side}`} side={side} content={content} />}
       renderFooter={({ side }) => <Finale side={side} />}
       renderRivalry={({ side, contents }) => <RivalryStory key={`rivalry-${side}`} side={side} contents={contents} />}
       renderBaseball={({ side, contents }) => <BaseballStory key={`baseball-${side}`} side={side} contents={contents} />}
     />
+  </DPlaybackProvider>;
+}
+
+createRoot(document.getElementById("root")!).render(
+  <MotionConfig reducedMotion="user">
+    <ConceptDPage />
   </MotionConfig>,
 );

@@ -1,10 +1,12 @@
-import { useEffect, useRef, useState, type CSSProperties } from "react";
+import { Fragment, useEffect, useRef, useState, type CSSProperties } from "react";
 import { ArrowUpRight, Play, X } from "lucide-react";
 import { getOriginalSong } from "../../data/catalog";
 import { catalogSongSource } from "../korea-yonsei-games-2026/catalogSongSource";
 import { KBO_TEAMS } from "../korea-yonsei-games-2026/eventContent";
 import type { ResolvedSideContent, Side, SongMedia, SongSummary } from "../korea-yonsei-games-2026/eventTypes";
 import { BASEBALL_CONNECTIONS, BASEBALL_PREVIEW_SONGS } from "./baseballConnections";
+import { ListeningPlayer } from "./SongSections";
+import { SharedYouTubeFrame, useDPlayback } from "./playback";
 
 interface LineageStep {
   songId: string;
@@ -87,13 +89,12 @@ function BaseballVideo({ song, step, isPlaying, onPlay, onClose, lineage }: {
         >(<span aria-hidden="true">{lineage.direction === "to" ? "→" : "←"}</span> {lineage.title})</a>}</h3></header>
         <div className="baseball-story__screen">
           {media ? isPlaying ? (
-            <iframe
-              ref={player}
-              src={`https://www.youtube.com/embed/${media.videoId}?autoplay=1&playsinline=1&rel=0&start=${media.startSeconds ?? 0}${step.endSeconds ? `&end=${step.endSeconds}` : ""}`}
+            <SharedYouTubeFrame
+              iframeRef={player}
+              videoId={media.videoId}
+              startSeconds={media.startSeconds}
+              endSeconds={step.endSeconds}
               title={`${song.teamName} ${title} 영상`}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
             />
           ) : (
             <button ref={playButton} className="baseball-story__play" type="button" onClick={onPlay} aria-label={`${title} 야구장 버전 재생`}>
@@ -116,10 +117,41 @@ function BaseballVideo({ song, step, isPlaying, onPlay, onClose, lineage }: {
 }
 
 export function BaseballStory({ side, contents }: { side: Side; contents: Record<Side, ResolvedSideContent> }) {
-  const [playing, setPlaying] = useState<string | null>(null);
+  const { activeKey, activate, close } = useDPlayback();
+  const [moreSong, setMoreSong] = useState<SongSummary | null>(null);
+  const morePanels = useRef<Record<string, HTMLLIElement | null>>({});
+  const moreButtons = useRef<Record<string, HTMLButtonElement | null>>({});
   const content = contents[side];
   const campusSongs = [...content.mustKnowSongs, ...content.memorySongs];
   const songs = [...campusSongs, ...content.baseballSongs, ...content.lineageFamilies.flatMap((family) => family.members.map((member) => member.song))];
+  const connectionSongs = BASEBALL_CONNECTIONS[side].flatMap((connection) => {
+    const campus = campusSongs.find((song) => song.id === connection.campusId) ?? BASEBALL_PREVIEW_SONGS[connection.campusId];
+    const club = content.baseballSongs.find((song) => song.id === connection.clubId)
+      ?? catalogSongSource.getSong(connection.clubId) ?? BASEBALL_PREVIEW_SONGS[connection.clubId];
+    return campus && club ? [{ connection, campus, club, allClubs: connection.campusId === "yonsei-university-apartment" }] : [];
+  });
+  const moreQueue = connectionSongs.map(({ club }) => club);
+
+  function selectMore(song: SongSummary) {
+    const key = `baseball-more:${song.id}`;
+    if (activeKey === key) {
+      closeMore();
+      return;
+    }
+    setMoreSong(song);
+    activate(key);
+    requestAnimationFrame(() => morePanels.current[song.id]?.scrollIntoView({
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+      block: "nearest",
+    }));
+  }
+
+  function closeMore() {
+    const id = moreSong?.id;
+    setMoreSong(null);
+    close();
+    requestAnimationFrame(() => { if (id) moreButtons.current[id]?.focus({ preventScroll: true }); });
+  }
 
   return (
     <section className="baseball-story" id="match-baseball" aria-labelledby="match-baseball-title" data-camp={side}>
@@ -142,7 +174,8 @@ export function BaseballStory({ side, contents }: { side: Side; contents: Record
                     const index = route.steps.indexOf(step);
                     const linkedStep = side === "korea" ? route.steps[0] : index === 0 ? route.steps[index + 1] : route.steps[index - 1];
                     const linkedSong = songs.find((item) => item.id === linkedStep?.songId);
-                    return song ? <BaseballVideo key={song.id} song={song} step={step} isPlaying={playing === song.id} onPlay={() => setPlaying(song.id)} onClose={() => setPlaying(null)}
+                    const playbackKey = `baseball-featured:${route.id}:${song?.id ?? step.songId}`;
+                    return song ? <BaseballVideo key={song.id} song={song} step={step} isPlaying={activeKey === playbackKey} onPlay={() => { setMoreSong(null); activate(playbackKey); }} onClose={close}
                       lineage={linkedSong ? { song: linkedSong, direction: index === 0 ? "to" : "from", title: linkedStep.displayTitle ?? linkedSong.title } : undefined} /> : null;
                   })}
                 </div>
@@ -155,20 +188,22 @@ export function BaseballStory({ side, contents }: { side: Side; contents: Record
         <section className="baseball-story__more" aria-labelledby="baseball-story-more-title">
           <h3 id="baseball-story-more-title">야구장에서 더 듣기</h3>
           <ul className="baseball-story__rail">
-            {BASEBALL_CONNECTIONS[side].map((connection) => {
-              const campus = campusSongs.find((song) => song.id === connection.campusId) ?? BASEBALL_PREVIEW_SONGS[connection.campusId];
-              const club = content.baseballSongs.find((song) => song.id === connection.clubId)
-                ?? catalogSongSource.getSong(connection.clubId) ?? BASEBALL_PREVIEW_SONGS[connection.clubId];
-              if (!campus || !club) return null;
-              const allClubs = connection.campusId === "yonsei-university-apartment";
-              return <li key={club.id} data-relation={connection.kind} data-campus-song={campus.id} data-club-song={club.id}>
-                <a href={club.archiveHref ?? (allClubs ? `https://www.youtube.com/results?search_query=${encodeURIComponent("프로야구 아파트 응원")}` : songLink(club))} target={club.archiveHref ? undefined : "_blank"} rel={club.archiveHref ? undefined : "noreferrer"} aria-label={club.archiveHref ? `${club.teamName} ${club.title} 자세히 알아보기` : allClubs ? "전 구단 아파트 응원 영상 찾기" : `${club.teamName} ${club.title} ${club.media ? "영상 보기" : "영상 찾기"}`}>
-                  <small>{allClubs ? "전 구단" : club.teamName}</small><strong>{club.title}</strong>
-                  <span className="baseball-story__rail-origin">{campus.teamShortName} · {connection.campusTitle ?? campus.title}</span>
-                  <span className={`baseball-story__rail-relation is-${connection.kind}`}>{RELATION_LABELS[connection.kind]}</span>
-                  <i>{club.archiveHref ? <ArrowUpRight size={19} aria-hidden="true" /> : <Play size={17} fill="currentColor" aria-hidden="true" />}</i>
-                </a>
-              </li>;
+            {connectionSongs.map(({ connection, campus, club, allClubs }) => {
+              const playbackKey = `baseball-more:${club.id}`;
+              const isPlaying = activeKey === playbackKey && moreSong?.id === club.id;
+              return <Fragment key={club.id}>
+                <li className={isPlaying ? "is-selected" : ""} data-relation={connection.kind} data-campus-song={campus.id} data-club-song={club.id}>
+                  <button ref={(element) => { moreButtons.current[club.id] = element; }} type="button" aria-label={allClubs ? "전 구단 아파트 응원 펼쳐 듣기" : `${club.teamName} ${club.title} 펼쳐 듣기`} aria-expanded={isPlaying} aria-controls={`baseball-player-${club.id}`} onClick={() => selectMore(club)}>
+                    <small>{allClubs ? "전 구단" : club.teamName}</small><strong>{club.title}</strong>
+                    <span className="baseball-story__rail-origin">{campus.teamShortName} · {connection.campusTitle ?? campus.title}</span>
+                    <span className={`baseball-story__rail-relation is-${connection.kind}`}>{RELATION_LABELS[connection.kind]}</span>
+                    <i><Play size={17} fill={isPlaying ? "currentColor" : "none"} aria-hidden="true" /></i>
+                  </button>
+                </li>
+                {isPlaying && <li className="baseball-story__rail-player" id={`baseball-player-${club.id}`} ref={(element) => { morePanels.current[club.id] = element; }} data-playback-key={playbackKey}>
+                  <ListeningPlayer song={club} queue={moreQueue} playing onPlay={() => activate(playbackKey)} onSelect={selectMore} onClose={closeMore} closeLabel="야구 응원가 플레이어 닫기" />
+                </li>}
+              </Fragment>;
             })}
           </ul>
           <a className="baseball-story__reference" href="/?view=team&type=baseball">야구 응원가 더 알아보기<ArrowUpRight size={16} aria-hidden="true" /></a>

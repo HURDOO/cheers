@@ -13,6 +13,7 @@ export interface SongMedia {
   videoId: string;
   sourceUrl: string;
   startSeconds?: number;
+  embeddable?: boolean;
   title?: string;
   channelName?: string;
 }

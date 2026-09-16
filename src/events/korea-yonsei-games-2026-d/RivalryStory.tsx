@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { ArrowRight, ArrowUpRight, Play, X } from "lucide-react";
 import { SIDE_META } from "../korea-yonsei-games-2026/eventConfig";
 import type { ResolvedSideContent, Side, SongSummary } from "../korea-yonsei-games-2026/eventTypes";
 import { ListeningPlayer } from "./SongSections";
+import { SharedYouTubeFrame, useDPlayback } from "./playback";
 
 // Performance examples for this design preview, from the existing event research.
 // These do not change the archive's editorial records or selected video slots.
@@ -73,11 +74,11 @@ export function RivalryStory({ side, contents }: {
   side: Side;
   contents: Record<Side, ResolvedSideContent>;
 }) {
-  const [playingId, setPlayingId] = useState<string | null>(null);
+  const { activeKey, activate, close } = useDPlayback();
   const [moreSong, setMoreSong] = useState<SongSummary | null>(null);
   const player = useRef<HTMLIFrameElement>(null);
   const playButtons = useRef<Partial<Record<Side, HTMLButtonElement | null>>>({});
-  const morePanel = useRef<HTMLDivElement>(null);
+  const morePanels = useRef<Record<string, HTMLLIElement | null>>({});
   const moreButtons = useRef<Record<string, HTMLButtonElement | null>>({});
   const order: Side[] = [side, side === "yonsei" ? "korea" : "yonsei"];
   const moreSongs = order.map((camp) => ({
@@ -90,27 +91,32 @@ export function RivalryStory({ side, contents }: {
   const moreQueue = moreSongs.flatMap(({ songs }) => songs);
 
   useEffect(() => {
-    if (playingId) player.current?.focus({ preventScroll: true });
-  }, [playingId]);
+    if (activeKey?.startsWith("rivalry-featured:")) player.current?.focus({ preventScroll: true });
+  }, [activeKey]);
 
   function closeVideo(camp: Side) {
-    setPlayingId(null);
+    close();
     requestAnimationFrame(() => playButtons.current[camp]?.focus());
   }
 
-  function selectMore(song: SongSummary, scroll = true) {
+  function selectMore(song: SongSummary) {
+    const key = `rivalry-more:${song.id}`;
+    if (activeKey === key) {
+      closeMore();
+      return;
+    }
     setMoreSong(song);
-    setPlayingId(song.id);
-    if (scroll) requestAnimationFrame(() => {
-      morePanel.current?.focus({ preventScroll: true });
-      morePanel.current?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+    activate(key);
+    requestAnimationFrame(() => {
+      morePanels.current[song.id]?.focus({ preventScroll: true });
+      morePanels.current[song.id]?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
     });
   }
 
   function closeMore() {
     const id = moreSong?.id;
     setMoreSong(null);
-    setPlayingId(null);
+    close();
     requestAnimationFrame(() => { if (id) moreButtons.current[id]?.focus(); });
   }
 
@@ -129,7 +135,8 @@ export function RivalryStory({ side, contents }: {
             const example = EXAMPLES[camp];
             const song = contents[camp].rivalrySongs.find((item) => item.id === example.songId);
             if (!song) return null;
-            const isPlaying = playingId === song.id;
+            const playbackKey = `rivalry-featured:${camp}:${song.id}`;
+            const isPlaying = activeKey === playbackKey;
             const playerId = `rivalry-story-video-${camp}`;
 
             return (
@@ -149,14 +156,11 @@ export function RivalryStory({ side, contents }: {
 
                 <div className="rivalry-story__screen" id={playerId}>
                   {isPlaying ? (
-                    <iframe
-                      ref={player}
-                      key={example.videoId}
-                      src={`https://www.youtube.com/embed/${example.videoId}?autoplay=1&playsinline=1&rel=0&start=${example.startSeconds}`}
+                    <SharedYouTubeFrame
+                      iframeRef={player}
+                      videoId={example.videoId}
+                      startSeconds={example.startSeconds}
                       title={`${SIDE_META[camp].name} ${song.title} 현장 영상`}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerPolicy="strict-origin-when-cross-origin"
-                      allowFullScreen
                     />
                   ) : (
                     <button
@@ -164,7 +168,7 @@ export function RivalryStory({ side, contents }: {
                       type="button"
                       className="rivalry-story__play"
                       aria-label={`${song.title} 현장 영상 재생`}
-                      onClick={() => { setMoreSong(null); setPlayingId(song.id); }}
+                      onClick={() => { setMoreSong(null); activate(playbackKey); }}
                     >
                       <img
                         src={`https://i.ytimg.com/vi/${example.videoId}/hqdefault.jpg`}
@@ -197,20 +201,24 @@ export function RivalryStory({ side, contents }: {
               <div className={`rivalry-story__repertoire is-${camp}`} key={camp}>
                 <h4>{SIDE_META[camp].name}</h4>
                 <ul>
-                  {songs.map((song) => (
-                      <li key={song.id} className={moreSong?.id === song.id ? "is-selected" : ""}>
+                  {songs.map((song) => {
+                    const playbackKey = `rivalry-more:${song.id}`;
+                    const isPlaying = activeKey === playbackKey && moreSong?.id === song.id;
+                    return <Fragment key={song.id}>
+                      <li className={isPlaying ? "is-selected" : ""}>
                         <div><strong>{song.title}</strong><p>{RIVALRY_LINES[song.id]}</p></div>
-                        <button ref={(element) => { moreButtons.current[song.id] = element; }} type="button" aria-label={`${song.title} 영상 재생`} aria-expanded={moreSong?.id === song.id} aria-controls="rivalry-more-player" onClick={() => selectMore(song)}>
+                        <button ref={(element) => { moreButtons.current[song.id] = element; }} type="button" aria-label={`${song.title} 영상 재생`} aria-expanded={isPlaying} aria-controls={`rivalry-player-${song.id}`} onClick={() => selectMore(song)}>
                           <Play size={15} aria-hidden="true" />재생
                         </button>
                       </li>
-                  ))}
+                      {isPlaying && <li className="rivalry-story__more-player" id={`rivalry-player-${song.id}`} ref={(element) => { morePanels.current[song.id] = element; }} tabIndex={-1} data-school={song.teamId === "korea-university" ? "korea" : "yonsei"} data-playback-key={playbackKey} onKeyDown={(event) => { if (event.key === "Escape") { event.stopPropagation(); closeMore(); } }}>
+                        <ListeningPlayer song={song} queue={moreQueue} playing onPlay={() => activate(playbackKey)} onSelect={selectMore} onClose={closeMore} closeLabel="라이벌리 플레이어 닫기" />
+                      </li>}
+                    </Fragment>;
+                  })}
                 </ul>
               </div>
             ))}
-          </div>
-          <div className="rivalry-story__more-player" id="rivalry-more-player" ref={morePanel} tabIndex={-1} hidden={!moreSong} data-school={moreSong?.teamId === "korea-university" ? "korea" : "yonsei"} onKeyDown={(event) => { if (event.key === "Escape") { event.stopPropagation(); closeMore(); } }}>
-            {moreSong && <ListeningPlayer song={moreSong} queue={moreQueue} playing={playingId === moreSong.id} onPlay={() => setPlayingId(moreSong.id)} onSelect={(song) => selectMore(song, false)} onClose={closeMore} closeLabel="라이벌리 플레이어 닫기" />}
           </div>
         </section>
       </div>
