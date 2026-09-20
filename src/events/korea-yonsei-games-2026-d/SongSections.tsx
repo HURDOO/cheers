@@ -4,28 +4,35 @@ import { getCheerSong } from "../../data/catalog";
 import type { ResolvedSideContent, Side, SongSummary } from "../korea-yonsei-games-2026/eventTypes";
 import { SharedYouTubeFrame, useDPlayback } from "./playback";
 
-// Short excerpt checked against the official cheer squad's online OT.
-// https://www.youtube.com/watch?v=1VSZTxcxEcU — D preview only, not a catalog publication.
+// Event-only fallbacks for songs that are not in the published catalog yet.
+// Once a song is published, the catalog's representative lines always win.
 const PREVIEW_LINES: Record<string, string> = {
   "korea-university-elise-reul-wihayeo": "지성의 힘으로 야성의 힘으로",
-  // Sentence-like excerpts for D's editorial list, not the main archive's chant cards.
-  // https://namu.moe/w/연세대학교/응원가/2000년%20이전
-  "yonsei-university-wonsirim": "일어나 이제는 응원을 해야지!",
-  // https://tcatmon.com/wiki/연세대학교/응원가
-  "yonsei-university-yonseiyeo-saranghanda": "내 가슴속에 영원히 남을 사랑이 되어라",
-  // Correct the preview's '외쳐랴' typo without editing the approved catalog.
-  "yonsei-university-haneul-kkeutkkaji": "승리를 향해 외쳐라 하늘 끝까지",
 };
 
-export function getListeningNote(song: SongSummary) {
+function firstSentence(value: string) {
+  const paragraph = value.split(/\n\s*\n/u)[0]?.replace(/\[\*[\s\S]*$/u, "").trim() ?? "";
+  const match = paragraph.match(/^.*?[.!?](?=\s|$)/u);
+  return match?.[0] ?? paragraph;
+}
+
+export function getRepresentativeLine(song: SongSummary, fallback?: string) {
   const canonical = getCheerSong(song.id);
-  // Keep D's reviewed preview excerpts, then reuse available lyrics or approved lines.
-  const line = PREVIEW_LINES[song.id] ?? song.lyrics?.find((text) => text.trim())
-    ?? canonical?.symbolicLines.filter(Boolean).join(" ");
-  const description = song.id === "yonsei-university-wonsirim"
-    ? "연고전에서 점수가 날 때마다 부르는 응원곡. 고대의 뱃노래와 대조된다."
-    : canonical?.description ?? song.description;
-  return { line, description };
+  const representative = canonical?.symbolicLines.filter((line) => line.trim());
+  if (representative?.length) return representative.join(" / ");
+  return fallback ?? PREVIEW_LINES[song.id] ?? song.lyrics?.find((line) => line.trim());
+}
+
+export function getSongIntroduction(song: SongSummary, fallback?: string) {
+  const canonical = getCheerSong(song.id);
+  return firstSentence(canonical?.description ?? song.description ?? fallback ?? "");
+}
+
+export function getListeningNote(song: SongSummary) {
+  return {
+    line: getRepresentativeLine(song),
+    description: getSongIntroduction(song),
+  };
 }
 
 export function ListeningPlayer({ song, queue, playing, onPlay, onSelect, onClose, closeLabel = "다시 듣기 플레이어 닫기" }: {

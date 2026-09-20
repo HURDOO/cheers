@@ -111,12 +111,11 @@ function Header({ side, onChange, concept, externalSchoolPicker = false }: { sid
         {concept === "D" && <a href="#match-baseball">야구 응원</a>}
       </nav>
       {externalSchoolPicker ? <div id="rivalry-school-dock" className="rivalry-school-dock" aria-hidden="true" /> : <SidePicker side={side} onChange={onChange} compact />}
-      <div className="match-header__variants" aria-label="시안 비교">
+      {concept === "C" && <div className="match-header__variants" aria-label="시안 비교">
         <a href={`/events/korea-yonsei-games-2026/?school=${side}`}>A</a>
         <a href={`/events/korea-yonsei-games-2026-alt/?school=${side}`}>B</a>
-        {concept === "C" ? <span aria-current="page">C</span> : <a href={`/events/korea-yonsei-games-2026-c/?school=${side}`}>C</a>}
-        {concept === "D" && <span aria-current="page">D</span>}
-      </div>
+        <span aria-current="page">C</span>
+      </div>}
     </header>
   );
 }

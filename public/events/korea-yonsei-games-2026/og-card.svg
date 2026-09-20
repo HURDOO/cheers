@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">2026 연고전·고연전 응원가 예습</title>
+  <desc id="description">연세대학교와 고려대학교의 합동응원전 및 정기전 응원가 가이드</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a30"/>
+      <stop offset="0.48" stop-color="#0a101c"/>
+      <stop offset="1" stop-color="#250711"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="0" cy="0.5" r="0.8">
+      <stop offset="0" stop-color="#0872d9" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0872d9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="redGlow" cx="1" cy="0.5" r="0.78">
+      <stop offset="0" stop-color="#c41449" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#c41449" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2c91ec"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#e43e70"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <rect width="1200" height="630" fill="url(#blueGlow)"/>
+  <rect width="1200" height="630" fill="url(#redGlow)"/>
+  <path d="M0 517C194 459 329 470 491 518C655 568 798 585 1200 485V630H0Z" fill="#ffffff" opacity="0.035"/>
+  <path d="M0 550C211 493 360 507 531 553C713 602 864 602 1200 518" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="2"/>
+
+  <g font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+    <text x="72" y="86" fill="#dbe8f6" font-size="21" font-weight="700" letter-spacing="4">2026 MATCHDAY GUIDE</text>
+    <rect x="72" y="110" width="480" height="4" rx="2" fill="url(#rule)"/>
+
+    <text x="68" y="237" fill="#ffffff" font-size="80" font-weight="850" letter-spacing="-5">연고전 · 고연전</text>
+    <text x="72" y="302" fill="#ffffff" fill-opacity="0.82" font-size="30" font-weight="560" letter-spacing="-1.4">합동응원전 가기 전, 다시 듣는 우리의 응원가</text>
+
+    <g transform="translate(72 358)">
+      <rect width="244" height="64" rx="32" fill="#ffffff" fill-opacity="0.09" stroke="#ffffff" stroke-opacity="0.19"/>
+      <circle cx="31" cy="32" r="6" fill="#64b5ff"/>
+      <text x="54" y="41" fill="#ffffff" font-size="22" font-weight="720">09.22 합동응원전</text>
+    </g>
+    <g transform="translate(330 358)">
+      <rect width="228" height="64" rx="32" fill="#ffffff" fill-opacity="0.09" stroke="#ffffff" stroke-opacity="0.19"/>
+      <circle cx="31" cy="32" r="6" fill="#f25b86"/>
+      <text x="54" y="41" fill="#ffffff" font-size="22" font-weight="720">10.02–03 정기전</text>
+    </g>
+
+    <text x="72" y="553" fill="#ffffff" fill-opacity="0.58" font-size="20" font-weight="600">응원가 아카이브 · 비공식 가이드</text>
+
+    <g transform="translate(822 147)" filter="url(#shadow)">
+      <circle cx="114" cy="114" r="112" fill="#0757a7" stroke="#75beff" stroke-opacity="0.65" stroke-width="3"/>
+      <circle cx="114" cy="114" r="92" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="2"/>
+      <text x="114" y="151" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="112" font-weight="700">Y</text>
+    </g>
+    <g transform="translate(952 279)" filter="url(#shadow)">
+      <circle cx="98" cy="98" r="96" fill="#92002e" stroke="#ff789d" stroke-opacity="0.67" stroke-width="3"/>
+      <circle cx="98" cy="98" r="78" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="2"/>
+      <text x="98" y="132" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="96" font-weight="700">K</text>
+    </g>
+    <g transform="translate(926 299)">
+      <circle cx="0" cy="0" r="32" fill="#0d1320" stroke="#ffffff" stroke-opacity="0.4"/>
+      <text x="0" y="8" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="850" letter-spacing="1">VS</text>
+    </g>
+  </g>
+</svg>

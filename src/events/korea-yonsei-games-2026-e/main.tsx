@@ -244,7 +244,7 @@ export function FeaturePage() {
     <header className="match-header e-header">
       <a className="match-header__brand" href="/"><ArrowLeft size={16} aria-hidden="true" /> 응원가 아카이브</a>
       <nav aria-label="페이지 바로가기"><a href="#baseball">야구 응원가</a><a href="#campus">응원 현장</a><a href="#rivalry">라이벌리</a><a href="#match-songs">대표곡</a><a href="#match-schedule">일정</a></nav>
-      <div className="match-header__variants" aria-label="시안 비교"><a href="/events/korea-yonsei-games-2026-d/">D</a><span aria-current="page">E</span></div>
+      <div className="match-header__variants" aria-label="시안 비교"><a href="/events/korea-yonsei-games-2026/">D</a><span aria-current="page">E</span></div>
     </header>
 
     <main>
@@ -275,7 +275,7 @@ export function FeaturePage() {
       <section className="match-schedule e-schedule" id="match-schedule" aria-labelledby="e-schedule-title"><div className="match-shell e-shell"><header className="match-section-heading e-heading"><div><strong>{EVENT.title}</strong></div><h2 id="e-schedule-title">합동응원부터<br /><em>정기전까지.</em></h2><p>정기전은 야구·농구·럭비·축구·빙구 다섯 종목에서 열린다.</p></header><div className="match-schedule__layout"><ol className="match-schedule__list">{scheduleItems.map((item) => <li key={item.id} data-camp={item.side ?? "neutral"}><time dateTime={item.dateTime}>{item.dateLabel.replace(/^0?(\d+)\.0?(\d+) (.)$/, "$1월 $2일 ($3)")}{item.timeLabel && <span className="match-schedule__time">{item.timeLabel}</span>}</time><div><strong>{item.title}</strong><p>{item.detail}</p></div><i aria-hidden="true">{item.side ? SIDE_META[item.side].symbol : "VS"}</i></li>)}</ol><div className="match-schedule__summary"><div className="match-schedule__final-date"><span>2026 정기 연고전 · 고연전</span><strong className="match-schedule__korean-date" aria-label="10월 2일부터 3일까지">10월 2~3일</strong></div><p>야구·농구는 잠실 / 빙구·럭비·축구는 목동</p></div></div></div></section>
     </main>
 
-    <footer className="e-footer"><div className="match-shell e-shell"><div><p>2026 정기 연고전 · 고연전</p><h2>응원가와 일정 더 보기</h2></div><nav aria-label="더 알아보기"><a className="e-footer__primary" href="/events/korea-yonsei-games-2026-d/">연고전 행사 안내 보기<ArrowUpRight size={17} aria-hidden="true" /></a><a href="/">전체 응원가 둘러보기<ArrowUpRight size={17} aria-hidden="true" /></a></nav></div></footer>
+    <footer className="e-footer"><div className="match-shell e-shell"><div><p>2026 정기 연고전 · 고연전</p><h2>응원가와 일정 더 보기</h2></div><nav aria-label="더 알아보기"><a className="e-footer__primary" href="/events/korea-yonsei-games-2026/">연고전 행사 안내 보기<ArrowUpRight size={17} aria-hidden="true" /></a><a href="/">전체 응원가 둘러보기<ArrowUpRight size={17} aria-hidden="true" /></a></nav></div></footer>
   </div></MotionConfig>;
 }
 

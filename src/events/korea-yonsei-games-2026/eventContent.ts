@@ -1,5 +1,6 @@
+import { getCheerSong } from "../../data/catalog";
 import { KBO_TEAM_IDS, SIDE_CURATION } from "./eventConfig";
-import type { CheerSongSource, ResolvedSideContent, Side } from "./eventTypes";
+import type { CheerSongSource, ResolvedSideContent, Side, SongSummary } from "./eventTypes";
 import { mockSongSource } from "./mockSongSource";
 import { songSource } from "./songSource";
 
@@ -18,10 +19,28 @@ export function getSideContent(side: Side, source: CheerSongSource = songSource)
   };
 }
 
-// D is a design preview: keep its curated tracks visible while unpublished
-// records are being prepared. Published records always take precedence.
+// The event guide keeps its curated tracks visible while unpublished records
+// are being prepared. Published catalog records always take precedence.
+function withEventCorrections(song: SongSummary | undefined) {
+  if (!song || song.id !== "korea-university-seungni-ui-hamseong") return song;
+  // The uploader's chapter marks 승리의 함성 at 18:00. The former preferred
+  // video was 영원히; keep the event correct until the user republishes revision 5.
+  const fieldVideo = getCheerSong(song.id)?.youtubeMediaList.find((media) => media.videoId === "f32A-jjTbjE");
+  return fieldVideo ? {
+    ...song,
+    media: {
+      kind: "youtube" as const,
+      videoId: fieldVideo.videoId,
+      sourceUrl: "https://www.youtube.com/watch?v=f32A-jjTbjE&t=1080s",
+      startSeconds: 1080,
+      title: fieldVideo.title,
+      channelName: fieldVideo.channelName,
+    },
+  } : song;
+}
+
 const previewSongSource: CheerSongSource = {
-  getSong: (id) => songSource.getSong(id) ?? mockSongSource.getSong(id),
+  getSong: (id) => withEventCorrections(songSource.getSong(id) ?? mockSongSource.getSong(id)),
   getTeam: (id) => songSource.getTeam(id) ?? mockSongSource.getTeam(id),
   getFamily: (id) => songSource.getFamily(id) ?? mockSongSource.getFamily(id),
 };

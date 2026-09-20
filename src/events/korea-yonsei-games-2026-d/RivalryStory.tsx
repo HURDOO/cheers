@@ -2,7 +2,7 @@ import { Fragment, useEffect, useRef, useState } from "react";
 import { ArrowRight, ArrowUpRight, Play, X } from "lucide-react";
 import { SIDE_META } from "../korea-yonsei-games-2026/eventConfig";
 import type { ResolvedSideContent, Side, SongSummary } from "../korea-yonsei-games-2026/eventTypes";
-import { ListeningPlayer } from "./SongSections";
+import { getRepresentativeLine, getSongIntroduction, ListeningPlayer } from "./SongSections";
 import { SharedYouTubeFrame, useDPlayback } from "./playback";
 
 // Performance examples for this design preview, from the existing event research.
@@ -63,9 +63,10 @@ function videoUrl(videoId: string, startSeconds = 0) {
 
 export function getRivalryPlaybackSong(song: SongSummary): SongSummary {
   const performance = MORE_PERFORMANCES[song.id];
+  const representativeLine = getRepresentativeLine(song, RIVALRY_LINES[song.id]);
   return {
     ...song,
-    lyrics: RIVALRY_LINES[song.id] ? [RIVALRY_LINES[song.id]] : song.lyrics,
+    lyrics: representativeLine ? [representativeLine] : song.lyrics,
     media: song.media ?? (performance && { kind: "youtube", ...performance, sourceUrl: videoUrl(performance.videoId) }),
   };
 }
@@ -151,8 +152,8 @@ export function RivalryStory({ side, contents }: {
                 </div>
 
                 <h3 id={`rivalry-story-title-${camp}`}>{song.title}</h3>
-                <p className="rivalry-story__explanation">{example.description}</p>
-                <blockquote className="rivalry-story__lyric">{RIVALRY_LINES[song.id]}</blockquote>
+                <p className="rivalry-story__explanation">{getSongIntroduction(song, example.description)}</p>
+                <blockquote className="rivalry-story__lyric">{getRepresentativeLine(song, RIVALRY_LINES[song.id])}</blockquote>
 
                 <div className="rivalry-story__screen" id={playerId}>
                   {isPlaying ? (
@@ -206,7 +207,7 @@ export function RivalryStory({ side, contents }: {
                     const isPlaying = activeKey === playbackKey && moreSong?.id === song.id;
                     return <Fragment key={song.id}>
                       <li className={isPlaying ? "is-selected" : ""}>
-                        <div><strong>{song.title}</strong><p>{RIVALRY_LINES[song.id]}</p></div>
+                        <div><strong>{song.title}</strong><p>{getRepresentativeLine(song, RIVALRY_LINES[song.id])}</p></div>
                         <button ref={(element) => { moreButtons.current[song.id] = element; }} type="button" aria-label={`${song.title} 영상 재생`} aria-expanded={isPlaying} aria-controls={`rivalry-player-${song.id}`} onClick={() => selectMore(song)}>
                           <Play size={15} aria-hidden="true" />재생
                         </button>

@@ -53,24 +53,15 @@
     "videos": [
       {
         "rank": 1,
-        "role": "official-or-lyrics",
-        "sourceUrl": "https://youtu.be/6M41kbUyd7E?si=W_R1xiQuwR308d4p&t=12",
-        "videoId": "6M41kbUyd7E",
-        "title": "#고려대학교응원단 I 2026 고려대 대박신곡 '영원히' [2026 고려대 신입생 응원OT] #고려대응원가 #응원OT #서울OT #영원히 #012  [4K]",
-        "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
-        "attributionText": ""
-      },
-      {
-        "rank": 2,
         "role": "featured-field",
-        "sourceUrl": "https://youtu.be/f32A-jjTbjE?si=5p64LnWny-JW85Gp&t=1083",
+        "sourceUrl": "https://youtu.be/f32A-jjTbjE?si=5p64LnWny-JW85Gp&t=1080",
         "videoId": "f32A-jjTbjE",
         "title": "[4k] 2026 고려대 입실렌티 1부 응원제(1) '엘리제를 위하여' 부터 '민족의 아리아' 까지!  #입실렌티 #고려대응원가 #민족의아리아 #고려대축제 #엘리제 #석탑",
         "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
         "attributionText": ""
       },
       {
-        "rank": 3,
+        "rank": 2,
         "role": "additional",
         "sourceUrl": "https://youtu.be/u39SUZ-HPQU?si=ZxfM0Nb_iOOjnTTZ&t=54",
         "videoId": "u39SUZ-HPQU",
@@ -80,8 +71,8 @@
       }
     ],
     "relationships": [],
-    "revision": 4,
+    "revision": 5,
     "createdAt": "2026-09-05T06:15:38.133Z",
-    "updatedAt": "2026-09-12T17:59:31.438Z"
+    "updatedAt": "2026-09-20T16:26:34.000Z"
   }
 }

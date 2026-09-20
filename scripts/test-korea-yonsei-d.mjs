@@ -12,13 +12,14 @@ const server = await createServer({
 });
 
 try {
+  const { getCheerSong } = await server.ssrLoadModule("/src/data/catalog.ts");
   const { getPreviewSideContent, getSideContent } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026/eventContent.ts");
   const { BaseballStory } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/BaseballStory.tsx");
   const { BASEBALL_CONNECTIONS, BASEBALL_PREVIEW_SONGS } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/baseballConnections.ts");
   const { RivalryHero, getTitlePose } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/RivalryHero.tsx");
   const { RivalrySwitch, getSwitchPlacement } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/RivalrySwitch.tsx");
   const { RivalryStory, RIVALRY_LINES, getRivalryPlaybackSong } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/RivalryStory.tsx");
-  const { SongSections, getListeningNote } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/SongSections.tsx");
+  const { SongSections, getListeningNote, getRepresentativeLine, getSongIntroduction } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/SongSections.tsx");
   const { Finale, CHEER_INSTAGRAM } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/Finale.tsx");
   const { DPlaybackProvider } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026-d/playback.tsx");
   const { SCHEDULES, TIMELINE } = await server.ssrLoadModule("/src/events/korea-yonsei-games-2026/eventConfig.ts");
@@ -29,6 +30,19 @@ try {
     assert.equal(contents[side].memorySongs.length, 8, `${side}: all eight D memory songs remain visible`);
     assert.equal(contents[side].rivalrySongs.length, 4, `${side}: all four D rivalry songs remain visible`);
     assert.ok(getSideContent(side).mustKnowSongs.every((song) => song.dataStatus !== "mock"), "The public source remains release-only");
+  }
+  const eventSongs = [...new Map(Object.values(contents).flatMap((content) => [
+    ...content.mustKnowSongs,
+    ...content.memorySongs,
+    ...content.rivalrySongs,
+    ...content.baseballSongs,
+    ...content.lineageFamilies.flatMap((family) => family.members.map((member) => member.song)),
+  ]).map((song) => [song.id, song])).values()];
+  for (const song of eventSongs) {
+    const canonical = getCheerSong(song.id);
+    if (!canonical) continue;
+    assert.equal(getRepresentativeLine(song), canonical.symbolicLines.filter(Boolean).join(" / "), `${song.id}: event lyrics follow the catalog`);
+    assert.ok(canonical.description.startsWith(getSongIntroduction(song)), `${song.id}: event introduction is derived from the catalog`);
   }
   const expected = {
     korea: [["korea-university-minjogui-aria", "kiwoom-heroes-seungni-ui-hamseong"], ["korea-university-minjogui-aria", "lg-twins-seoul-ui-aria"]],
@@ -105,13 +119,17 @@ try {
     assert.equal((rivalry.match(/aria-controls="rivalry-player-/g) ?? []).length, 6, "All six supporting songs target their inline player position");
     assert.equal((rivalry.match(/id="rivalry-player-/g) ?? []).length, 0, "No supporting player is mounted before selection");
     assert.ok(!rivalry.includes("<iframe"), "No rivalry playback before the user requests it");
-    for (const line of Object.values(RIVALRY_LINES)) assert.ok(rivalry.includes(line), "Preserve the user's rivalry lyrics");
-    assert.ok(rivalry.includes("신촌은 골로골로 골로간다~") && rivalry.includes("고대가 꿈틀거리네, 꽉 밟아라!"));
+    for (const camp of ["korea", "yonsei"]) {
+      for (const song of contents[camp].rivalrySongs) {
+        assert.ok(rivalry.includes(getRepresentativeLine(song, RIVALRY_LINES[song.id])), "Published representative lines replace event fallbacks");
+      }
+    }
+    assert.ok(rivalry.includes("신촌은 골로골로 골로간다~") && rivalry.includes("저기 고대 겁도 없구나 / 빱 뚜밥 뚜밥 후"));
     assert.ok(rivalry.includes("마지막 필살기 한방에 넉다운 K.O.") && !rivalry.includes("한방이"));
     for (const song of contents[side].rivalrySongs.filter((song) => !/woo$|kkureora-yonsei$/.test(song.id))) {
       const playable = getRivalryPlaybackSong(song);
       assert.match(playable.media.videoId, /^[A-Za-z0-9_-]{11}$/);
-      assert.equal(playable.lyrics[0], RIVALRY_LINES[song.id]);
+      assert.equal(playable.lyrics[0], getRepresentativeLine(song, RIVALRY_LINES[song.id]));
     }
     const listening = renderToStaticMarkup(createElement(SongSections, { side, content: contents[side] }));
     assert.ok(listening.includes(side === "yonsei" ? "함성 발사!" : "애니멀 사운드 발사!"));
@@ -122,7 +140,7 @@ try {
     assert.ok(!listening.includes("<iframe"), "Listening videos load on request");
     assert.ok(listening.includes("행사 전 꼭 들을 6곡") && listening.includes("대표 응원가부터 올해 신곡까지."));
     assert.equal((listening.match(/aria-expanded="false"/g) ?? []).length, 14, "All list players start collapsed");
-    assert.ok(listening.includes(side === "korea" ? "지성의 힘으로 야성의 힘으로" : "일어나 이제는 응원을 해야지!"), "Representative lines appear under playlist titles");
+    assert.ok(listening.includes(side === "korea" ? "조국의 영원한 / 고동이 되리라" : "앉고 서고 STOP / 뛰고뛰고뛰고"), "Catalog representative lines appear under playlist titles");
     assert.ok(listening.includes("응원석에서 함께 부를 여섯 곡을 미리 들어보세요.") && listening.includes("1학기 합동응원전에서 들었던,"));
     const finale = renderToStaticMarkup(createElement(Finale, {side}));
     assert.ok(finale.includes(`2026년 ${side === "korea" ? "고연전" : "연고전"}도`) && finale.includes("필승, 전승, 압승!"));
@@ -143,6 +161,13 @@ try {
   assert.ok(originalC.includes("목록은 단정하게,") && originalC.includes("<dt>데이터</dt>"), "C keeps its existing copy and player metadata");
   assert.ok(!originalC.includes("is-concept-d") && !originalC.includes("rivalry-hero__medallion"), "D's cover is opt-in");
   assert.ok(redesignedD.includes("함성 발사!") && !redesignedD.includes("<dt>데이터</dt>"), "D prioritizes visitor-facing listening guidance");
+  assert.ok(!redesignedD.includes('aria-label="시안 비교"'), "The public D header does not expose design variants");
+  const publicEntry = await readFile(new URL("../events/korea-yonsei-games-2026/index.html", import.meta.url), "utf8");
+  assert.ok(publicEntry.includes('/src/events/korea-yonsei-games-2026-d/main.tsx'), "The canonical event URL renders D");
+  assert.ok(publicEntry.includes('content="index, follow"') && publicEntry.includes("og-card.png"), "The public entry has launch metadata and a share image");
+  const victoryEditorial = JSON.parse(await readFile(new URL("../content/editorial/songs/korea-university-seungni-ui-hamseong/song.json", import.meta.url), "utf8"));
+  assert.equal(victoryEditorial.song.videos[0].videoId, "f32A-jjTbjE");
+  assert.ok(!victoryEditorial.song.videos.some((video) => video.videoId === "6M41kbUyd7E"), "Do not keep 영원히 in 승리의 함성's video list");
   assert.equal((redesignedD.match(/aria-label="학교 관점 선택"/g) ?? []).length, 1, "There is only one live school selector");
   assert.ok(redesignedD.includes('class="match-page is-concept-d" data-side="yonsei"'), "Without an explicit school setting, D defaults to Yonsei");
   assert.ok(redesignedD.includes('aria-label="2026 정기 연고전"'), "The default cover uses this year's Yon-Ko title");
@@ -165,12 +190,16 @@ try {
   for (const camp of ["yonsei", "korea", "neutral"]) assert.equal((schedule.match(new RegExp(`data-camp="${camp}"`, "g")) ?? []).length, 2, "Schedule colors are tied to the event, not selected school");
   assert.ok(redesignedD.includes('class="rivalry-finale"') && redesignedD.includes("rivalry-finale__horizon"));
   const wonsirimNote = getListeningNote(contents.yonsei.mustKnowSongs[0]);
-  assert.equal(wonsirimNote.line, "일어나 이제는 응원을 해야지!");
-  assert.equal(getListeningNote(contents.yonsei.mustKnowSongs[1]).line, "내 가슴속에 영원히 남을 사랑이 되어라");
-  assert.equal(getListeningNote(contents.yonsei.mustKnowSongs[2]).line, "승리를 향해 외쳐라 하늘 끝까지");
-  assert.ok(wonsirimNote.description.includes("고대의 뱃노래"));
+  assert.equal(wonsirimNote.line, "앉고 서고 STOP / 뛰고뛰고뛰고");
+  assert.equal(getListeningNote(contents.yonsei.mustKnowSongs[1]).line, "사랑한다 연세 / 사랑한다 연세");
+  assert.equal(getListeningNote(contents.yonsei.mustKnowSongs[2]).line, "승리를 향해 외쳐라 / 하늘 끝까지");
+  assert.equal(wonsirimNote.description, "빠른 템포와 앉기·서기·멈추기·뛰기 동작이 결합된 대표 고강도 응원가다.");
   assert.equal(getListeningNote(contents.korea.memorySongs[0]).line, "지성의 힘으로 야성의 힘으로");
   assert.equal(getListeningNote({id: "unknown-song", title: "Unknown"}).line, undefined, "Do not fabricate lyrics for unresolved records");
+  assert.equal(getSongIntroduction(contents.korea.mustKnowSongs[0]), "고려대학교를 대표하는 장중한 군중 응원곡이다.");
+  const victory = contents.korea.mustKnowSongs.find((song) => song.id === "korea-university-seungni-ui-hamseong");
+  assert.equal(victory.media.videoId, "f32A-jjTbjE", "The event uses the verified 승리의 함성 performance, not 영원히");
+  assert.equal(victory.media.startSeconds, 1080);
   const heroCss = await readFile(new URL("../src/events/korea-yonsei-games-2026-d/hero.css", import.meta.url), "utf8");
   assert.ok(!/transition:\s*filter/.test(heroCss) && !/data-active[^\n]+filter:/.test(heroCss), "School changes must not tween crest glow colors");
   assert.ok(redesignedD.includes("디카츄") && redesignedD.includes("baseball-route__source"), "Keep video attribution and original-song lineage");
