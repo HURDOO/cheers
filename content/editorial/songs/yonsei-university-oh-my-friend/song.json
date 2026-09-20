@@ -7,20 +7,53 @@
     "scopeStatus": "target",
     "workflowStage": "listed",
     "title": "Oh My Friend",
-    "aliases": [],
+    "aliases": [
+      "오마이프랜드",
+      "친구야"
+    ],
     "symbolicLines": [
-      "",
-      ""
+      "Oh my friend",
+      "그대의 별들이 되리"
     ],
     "descriptionText": "",
     "lyrics": {
-      "lines": [],
+      "lines": [
+        "해가 져도 우린 지치지 않아",
+        "별이 떠도 우린 지치지 않아",
+        "Tonight 함께한다면",
+        "오늘 밤 빛나는거야",
+        "",
+        "Oh my friend Oh my friend",
+        "그대의 별들이 되리",
+        "Oh my friend Oh my friend",
+        "잊지마 지금 이 순간을",
+        "Oh my friend Oh my friend",
+        "그대의 별들이 되리",
+        "Oh my friend Oh my friend",
+        "My friend 사랑해 친구야",
+        "",
+        "오 오 오오오 오",
+        "오 오 오오오 오",
+        "오 오 오오오 오오",
+        "오 오 오오오 오",
+        "오 오 오오오 오",
+        "오 오 오오오 오오",
+        "",
+        "Oh my friend Oh my friend",
+        "그대의 별들이 되리",
+        "Oh my friend Oh my friend",
+        "잊지마 지금 이 순간을",
+        "Oh my friend Oh my friend",
+        "그대의 별들이 되리",
+        "Oh my friend Oh my friend",
+        "My friend 사랑해 친구야"
+      ],
       "collapsedPreviewLineCount": 2
     },
     "quickFacts": [
       {
-        "label": "",
-        "value": ""
+        "label": "사용 시작",
+        "value": "2022"
       },
       {
         "label": "",
@@ -31,10 +64,25 @@
         "value": ""
       }
     ],
-    "videos": [],
-    "relationships": [],
-    "revision": 1,
+    "videos": [
+      {
+        "rank": 1,
+        "role": "official-or-lyrics",
+        "sourceUrl": "https://youtu.be/prK69jAEMCQ?si=Cjh_y6T0tDwWK6vP",
+        "videoId": "prK69jAEMCQ",
+        "title": "연대단장이 이끄는 함성은 신화가 되리라 'Oh my friend + Forever' 2023 정기전 합동 응원 OT 4K 60p 합응 고연전 연고전 @연세대학교노천극장",
+        "channelName": "Cheerss 치얼쓰",
+        "attributionText": ""
+      }
+    ],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "bigbang-oh-my-friend-feat-no-brain"
+      }
+    ],
+    "revision": 3,
     "createdAt": "2026-09-13T05:32:44.000Z",
-    "updatedAt": "2026-09-13T05:32:44.000Z"
+    "updatedAt": "2026-09-20T17:20:06.523Z"
   }
 }

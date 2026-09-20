@@ -5,16 +5,34 @@
     "organizationId": "yonsei-university",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "research_ready",
+    "workflowStage": "published",
     "title": "온누리에",
     "aliases": [],
     "symbolicLines": [
-      "",
-      ""
+      "온누리에 외치리라",
+      "연/세/대/학"
     ],
     "descriptionText": "Alan Walker·Sabrina Carpenter·Farruko의 2019년 곡 ‘On My Way’를 바탕으로 만든 2022년 연세대 응원가다. 2022 아카라카 현장 영상이 이 곡을 신곡으로 명시하고, 나무위키는 미래캠퍼스 밴드동아리 커런트가 제작했다고 기록한다. 제작자 개인별 크레딧은 찾지 못했지만 커런트의 교내 동아리 실재는 대학 자료로 교차했고, 2025 아카라카와 2026 신입생 응원 OT에서 현행 사용을 직접 확인했다.\n\n### 현장에서\n\n- 신입생 응원 OT에서 학교명 구호와 집단 응답을 익히는 현행 교육곡으로 사용한다.\n- 아카라카의 대표곡 메들리와 후반 집단 응원에서 대규모 떼창·어깨동무 응원으로 배치한다.\n- 짧은 선율 단위를 반복하고 학교 이름을 음절별로 응답해 처음 듣는 관중도 빠르게 참여하도록 구성한다.\n\n### 더 알아보기\n\n곡명은 응원단의 대표 행사명 ‘아카라카를 온누리에’에 이미 들어 있던 표현을 그대로 가져와, 행사명과 신곡의 후렴 이미지를 연결한다.[* 참고: https://akaraka.yonsei.ac.kr/ / https://www.youtube.com/watch?v=Yovi2X-rGew]\n\n신촌 응원단의 대표 레퍼토리이지만 제작 주체로는 미래캠퍼스 록 밴드 커런트가 거론된다. 교내 자료로 동아리의 존재와 성격은 확인되나, 참여 단원과 역할은 공개되지 않았다.[* 참고: https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80 / https://yiec.yonsei.ac.kr/yiec_en/board/data-useful.do?articleNo=53352&attachNo=57200&mode=download]\n\n2022 신곡 영상 댓글에서는 공개 직후부터 원곡 ‘On My Way’를 알아본 반응과 응원가 음원 공개를 바라는 반응이 함께 나타난다.[* 참고: https://www.youtube.com/watch?v=Yovi2X-rGew]\n\n### 추가 확인\n\n2026 상반기 합동응원전의 양교 교류 순서에 온누리에가 포함된 별도 촬영 표본을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=xNMFhFuvUNo]",
     "lyrics": {
-      "lines": [],
+      "lines": [
+        "오오오 그대여",
+        "오오오 연세여",
+        "온누리에 외치리라",
+        "연!(연!) 세!(세!) 대!(대!) 학!(학!)",
+        "x2",
+        "",
+        "외쳐라! (외쳐라!) 그대여! (그대여!)",
+        "울려라! (울려라!) 연세여! (연세여!)",
+        "",
+        "오오오 그대여",
+        "오오오 연세여",
+        "온누리에 외치리라",
+        "연!(연!) 세!(세!) 대!(대!) 학!(학!)",
+        "x2",
+        "",
+        "온누리에 외치리라",
+        "연!(연!) 세!(세!) 대!(대!) 학!(학!)"
+      ],
       "collapsedPreviewLineCount": 2
     },
     "quickFacts": [
@@ -23,23 +41,33 @@
         "value": "2022년, 아카라카를 온누리에에서 신곡으로 공개"
       },
       {
-        "label": "원곡",
-        "value": "Alan Walker, Sabrina Carpenter & Farruko ‘On My Way’(2019)"
+        "label": "",
+        "value": ""
       },
       {
-        "label": "현행 확인",
-        "value": "2025 아카라카와 2026 신입생 응원 OT에서 계속 사용"
+        "label": "",
+        "value": ""
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "rank": 1,
+        "role": "official-or-lyrics",
+        "sourceUrl": "https://youtu.be/drluN8D62hI?si=xnBT9B3IrcEChsK3&t=308",
+        "videoId": "drluN8D62hI",
+        "title": "고려대/연세대 응원곡 교환 '들어라 보아라 그리고 기억하라 / 서시 vs 온누리에 / 포에버 FOREVER' I 2025 정기 고연전 합동응원OT #합응 #2025합응[4k60p]",
+        "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "attributionText": ""
+      }
+    ],
     "relationships": [
       {
         "type": "original-song",
         "targetId": "alan-walker-on-my-way"
       }
     ],
-    "revision": 2,
+    "revision": 4,
     "createdAt": "2026-09-05T06:15:38.210Z",
-    "updatedAt": "2026-09-13T16:44:06.816Z"
+    "updatedAt": "2026-09-20T17:01:08.348Z"
   }
 }

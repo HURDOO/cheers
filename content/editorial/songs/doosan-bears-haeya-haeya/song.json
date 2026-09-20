@@ -5,7 +5,7 @@
     "organizationId": "doosan-bears",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "research_ready",
+    "workflowStage": "published",
     "title": "해야 해야",
     "aliases": [
       "해야해야"
@@ -59,8 +59,8 @@
       "originNote": "김학래의 ‘해야 해야’를 원곡으로 한다. ‘해야’와는 별도 곡이며 현장에서는 첫 구절이 ‘헤이 헤이 해야’처럼 들리기도 한다.",
       "chronologyNote": "2014년은 나무위키 기반 추정 시작 연도이며 2014년 12월 5일 공개된 현장 영상으로 같은 해 사용을 확인한다."
     },
-    "revision": 1,
+    "revision": 2,
     "createdAt": null,
-    "updatedAt": "2026-08-26T05:08:30.182Z"
+    "updatedAt": "2026-09-20T16:36:49.543Z"
   }
 }

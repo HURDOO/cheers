@@ -1,0 +1,2778 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "20260920T163742317Z-b576afe8ae",
+  "generatedAt": "2026-09-20T16:37:42.317Z",
+  "organizations": [
+    {
+      "id": "doosan-bears",
+      "name": "두산 베어스",
+      "abbreviation": "DOO",
+      "type": "baseball",
+      "region": "서울",
+      "colors": {
+        "primary": "#131230",
+        "secondary": "#ED1C24"
+      }
+    },
+    {
+      "id": "hanwha-eagles",
+      "name": "한화 이글스",
+      "abbreviation": "HAN",
+      "type": "baseball",
+      "region": "대전",
+      "colors": {
+        "primary": "#F37321",
+        "secondary": "#111111"
+      }
+    },
+    {
+      "id": "hanyang-university",
+      "name": "한양대학교",
+      "abbreviation": "HYU",
+      "type": "university",
+      "region": "서울",
+      "colors": {
+        "primary": "#0E4A84",
+        "secondary": "#00A5E3"
+      }
+    },
+    {
+      "id": "kia-tigers",
+      "name": "KIA 타이거즈",
+      "abbreviation": "KIA",
+      "type": "baseball",
+      "region": "광주",
+      "colors": {
+        "primary": "#EA0029",
+        "secondary": "#06141F"
+      }
+    },
+    {
+      "id": "kiwoom-heroes",
+      "name": "키움 히어로즈",
+      "abbreviation": "KIW",
+      "type": "baseball",
+      "region": "서울",
+      "colors": {
+        "primary": "#570514",
+        "secondary": "#B07F4A"
+      }
+    },
+    {
+      "id": "korea-university",
+      "name": "고려대학교",
+      "abbreviation": "KU",
+      "type": "university",
+      "region": "서울",
+      "colors": {
+        "primary": "#8B0029",
+        "secondary": "#540018"
+      }
+    },
+    {
+      "id": "lg-twins",
+      "name": "LG 트윈스",
+      "abbreviation": "LG",
+      "type": "baseball",
+      "region": "서울",
+      "colors": {
+        "primary": "#C30452",
+        "secondary": "#241F20"
+      }
+    },
+    {
+      "id": "lotte-giants",
+      "name": "롯데 자이언츠",
+      "abbreviation": "LOT",
+      "type": "baseball",
+      "region": "부산",
+      "colors": {
+        "primary": "#041E42",
+        "secondary": "#D00F31"
+      }
+    },
+    {
+      "id": "yonsei-university",
+      "name": "연세대학교",
+      "abbreviation": "YU",
+      "type": "university",
+      "region": "서울",
+      "colors": {
+        "primary": "#003876",
+        "secondary": "#001F4D"
+      }
+    }
+  ],
+  "songs": [
+    {
+      "id": "doosan-bears-haeya",
+      "organizationId": "doosan-bears",
+      "title": "해야",
+      "aliases": [
+        "해야떠라",
+        "두산 해야",
+        "두산 해야떠라"
+      ],
+      "symbolicLines": [
+        "최강 두산",
+        "오오오 두산 베어스"
+      ],
+      "descriptionText": "두산 베어스의 대표적인 팀 응원가 중 하나다. 선취점을 내거나 역전에 성공했을 때, 경기 후반 우세 상황처럼 분위기가 두산 쪽으로 크게 넘어온 순간에 관중이 팀명을 길게 부르며 기세를 끌어올리는 곡이다. 2025년 4월 KIA전에서도 7회 빅이닝 이후 이 곡이 울려 퍼지며 달아오른 분위기를 이어갔다.[* 2025년 KIA전 7회 빅이닝 현장: https://www.youtube.com/watch?v=MtxkdKIMuho]\n\n원곡은 마그마가 1980년 제4회 MBC 대학가요제에서 은상을 받은 〈해야〉다. 박두진의 시 〈해〉를 바탕으로 조하문이 가사를 개사하고, 조하문과 김광현이 곡을 붙였다. 두산판은 원곡의 ‘해야 떠라’로 시작하는 치솟는 후렴 선율을 중심으로 짧은 팀명 구호를 얹어 경기장에서 반복해서 부를 수 있는 응원가로 바꿨다.[* MBC 대학가요제 수상 기록: https://program.imbc.com/Info/1000261100000100000?seq=2089][* 마그마 〈해야〉 음원 정보: https://www.maniadb.com/album/100198]\n\n두산에서는 2010년대 초반부터 사용한 것으로 알려져 있다. 정확한 첫 경기나 구단의 공식 도입 발표는 확인되지 않았지만, 일반적으로 2017년까지 사용한 뒤 저작권 문제로 중단된 것으로 전해진다. 정확한 권리자나 당시 계약 내용까지 공개된 것은 아니며, 2020년에 올라온 영상에서도 이미 ‘추억의 응원가’로 소개될 만큼 한동안 잠실에서 사라진 곡으로 기억되고 있었다.[* 두산 베어스 응원가 관련 기록: https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80][* 중단기에 올라온 ‘해야’ 아카이브: https://www.youtube.com/watch?v=jiv9me9kvpA]\n\n그러다 2025년 3월 구단 공식 응원가 플레이리스트에 다시 수록됐고, 3월 28일 홈 개막전에서 관중들과 함께 잠실에 복귀했다. 구단 역시 당시 응원 직캠 제목에 ‘8년 만에 잠실로 돌아온 해야’라고 직접 표현했다. 기존 기록에서 2017년까지 사용한 것으로 알려진 점과 구단의 ‘8년 만’이라는 표현이 맞물리면서, 2025년의 복귀는 새로운 응원가의 추가라기보다 오랫동안 사라져 있던 옛 인기 응원가의 귀환에 가까웠다.[* 2025 두산 공식 응원가 플레이리스트 - 25:00부터 ‘해야’: https://www.youtube.com/watch?v=M4ZjtWK3UqI&t=1500s][* 2025 홈 개막전 ‘8년 만에 잠실로 돌아온 해야’: https://www.youtube.com/watch?v=Hr8ER2a_YbY&t=1194s]\n\n복귀 이후에도 큰 득점이나 역전처럼 경기 분위기를 한껏 끌어올릴 필요가 있는 상황에서 다시 사용되고 있다. 원곡의 높은 후렴을 관중 전체가 길게 이어 부르는 구조라 복잡한 가사나 동작보다는 목소리 자체가 중심이 되는 응원가다. 2026년 구단 공식 응원가 플레이리스트에도 다시 수록돼, 2025년의 복귀가 한 시즌짜리 이벤트가 아니라 현재까지 이어지고 있음을 확인할 수 있다.[* 2026 두산 공식 응원가 플레이리스트 - 25:06부터 ‘해야’: https://www.youtube.com/watch?v=Cs6u1CZzkbE&t=1506s]\n\n- 2025년 복귀판은 완전히 새로 녹음한 음원이라기보다 과거 음원을 손본 버전에 가깝다는 설명이 전해진다. 홈 개막전 영상에서도 복귀 자체를 반기는 반응과 함께 과거 버전에 있던 전주가 사라진 점을 아쉬워하는 반응을 찾아볼 수 있다. 다만 구단이 별도의 편곡·믹싱 크레딧을 공개하지 않아 정확한 제작 과정은 확인되지 않았다.[* 두산 베어스 응원가 관련 기록: https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80][* 2025 홈 개막전 복귀 영상: https://www.youtube.com/watch?v=Hr8ER2a_YbY&t=1194s]\n- 공식 제목은 ‘해야’지만 원곡의 첫 구절을 따라 ‘해야떠라’ 또는 ‘해야 떠라’라고 부르는 경우도 많다. 같은 두산 응원가 가운데 김학래의 노래를 원곡으로 하는 ‘해야 해야’가 따로 있어 검색 결과에서 두 곡이 자주 섞인다. ‘해야’가 마그마의 곡을 바탕으로 한 장중한 팀명 떼창이라면, ‘해야 해야’는 빠른 박자에 흰 수건을 돌리는 별개의 응원가다.[* 2026 두산 공식 응원가 플레이리스트 - ‘해야’ 25:06, ‘해야 해야’ 26:35: https://www.youtube.com/watch?v=Cs6u1CZzkbE]\n- 연세대학교에도 마그마의 같은 원곡을 사용하는 동명의 응원가 ‘해야’가 있다. 두 곡 모두 ‘해야 떠라’로 시작하는 익숙한 후렴 때문에 같은 원곡임을 바로 알아차릴 수 있지만, 실제 응원가의 구성과 분위기는 상당히 다르다. 연세대판은 〈해야〉의 원곡 가사와 선율을 상당 부분 그대로 사용해 기존 노래 자체를 응원곡으로 부르는 형태에 가까운 반면, 두산판은 후렴 선율 일부를 가져와 짧은 팀명 구호를 반복하는 경기장용 응원가로 재구성했다. 연세대판이 두산판 제작에 직접적인 영향을 줬다는 설명도 있으나 이를 확인할 제작자나 구단 측 자료는 현재 확인되지 않아, 같은 원곡을 서로 다른 방식으로 응원가화한 관계로 보는 편이 자연스럽다.[* 연세대학교 ‘해야’ 관련 기록: https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84]",
+      "lyrics": {
+        "lines": [
+          ""
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2011년 추정"
+        },
+        {
+          "label": "사용 시기",
+          "value": "2011~2017 · 2025~현재"
+        },
+        {
+          "label": "원곡",
+          "value": "마그마 〈해야〉"
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=Hr8ER2a_YbY",
+          "videoId": "Hr8ER2a_YbY",
+          "title": "8년 만에 잠실로 돌아온 ‘해야!’",
+          "channelName": "BEARS TV",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "magma-haeya"
+        }
+      ],
+      "legacy": {
+        "year": null,
+        "timelineYear": 2011,
+        "yearStatus": "reported",
+        "yearLabel": "추정 시작 연도 2011 · 정확한 도입 연도 불명확",
+        "originType": "adaptation",
+        "originNote": "마그마의 ‘해야’를 원곡으로 한다. 연세대학교 ‘해야’와는 같은 원곡을 공유하지만 가사가 완전히 다른 별개 개사곡이다.",
+        "chronologyNote": "2011년은 나무위키 기반 추정 시작 연도다. 2011~2017년 사용 뒤 중단됐고 BEARS TV가 2025년 복귀를 ‘8년 만’이라고 공식 표현했다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "BEARS TV — 8년 만에 잠실로 돌아온 해야",
+            "url": "https://www.youtube.com/watch?v=Hr8ER2a_YbY",
+            "scope": "chronology"
+          },
+          {
+            "label": "나무위키 — 두산 베어스/응원가 1.23",
+            "url": "https://namu.wiki/w/%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-1.23",
+            "scope": "chronology"
+          },
+          {
+            "label": "MBC — 1980년 제4회 대학가요제",
+            "url": "https://program.imbc.com/Info/1000261100000100000?seq=2089",
+            "scope": "origin"
+          }
+        ],
+        "description": "웅장하게 팀명을 반복하며 역전·선취점·경기 후반 분위기를 끌어올리는 응원가다.",
+        "usageContext": "큰 선취점이나 역전, 경기 종료 무렵 우세 상황에서 사용된다. ‘해야 해야’와는 서로 다른 곡이다."
+      },
+      "sourceRevision": 3,
+      "contentHash": "86216c55c5a71cd1f8ba24a4c02baa99bf64da5bd1a253b8b8cb92ed88a1c094"
+    },
+    {
+      "id": "doosan-bears-haeya-haeya",
+      "organizationId": "doosan-bears",
+      "title": "해야 해야",
+      "aliases": [
+        "해야해야"
+      ],
+      "symbolicLines": [
+        "헤이 헤이 헤야",
+        "해야 내가 간다"
+      ],
+      "descriptionText": "제목 때문에 두산의 다른 응원가 ‘해야’와 늘 섞이지만, 이 곡은 원곡부터 완전히 다르다. ‘해야’가 마그마의 록 음악을 가져온 곡이라면, ‘해야 해야’는 김학래가 1986년에 발표한 동명곡의 후렴을 경기장용으로 바꾼 노래다.[* 김학래 원곡 정보: https://music.bugs.co.kr/track/1965755]\n\n김학래가 직접 작사·작곡한 원곡은 서정적인 대중가요지만 두산판은 후렴의 추진력만 남겼다. 짧은 승리 문구와 팀명 구호, 길게 이어지는 모음 합창을 반복해 원곡보다 훨씬 빠르고 공격적인 행진곡처럼 들린다.[* KBS 원곡 무대 아카이브: https://www.youtube.com/watch?v=jNL_mJSCjx8]\n\n한재권 응원단장이 2014년 두산에 부임한 뒤 처음 만든 응원가라고 알려져 있다. 구단의 제작 크레딧 원본은 아직 확인되지 않았지만, 2014년 10월 12일 경기로 표시된 현장 영상이 남아 있어 최소한 그 시즌에 사용 중이었다는 점은 확인된다.[* 2014년 초기 현장 영상: https://www.youtube.com/watch?v=SLGUrACFZoU]\n\n이 곡에는 구단이 직접 나선 유명한 ‘발음 정정’이 있다. 관중이 제목대로 첫 구호를 부르기 쉽지만, 두산 공식 음원 설명은 해당 부분을 ‘헤이 헤이 해야’로 불러야 한다고 따로 안내했다. 제목은 ‘해야 해야’인데 시작은 ‘해야 해야’가 아닌 묘한 곡이다.[* 두산 공식 음원과 발음 안내: https://www.youtube.com/watch?v=UQn_YeMh_n8]\n\n빠른 행진감과 흰색 타월 응원을 결합한 승리 지향 곡이다. 관중은 흰 수건이나 유니폼을 머리 위로 돌리고, 응원단의 큰 흰 깃발까지 합쳐지면 관중석 전체가 하얀 파도처럼 보인다. 예전에는 흰 풍선까지 함께 흔들었다.\n\n2018년 한국시리즈 영상은 이 시각 효과를 특히 잘 보여 준다. 제목에는 짧게 ‘해야’라고 적혔지만 실제 영상 속 노래는 ‘해야 해야’이고, 흰 풍선과 대형 깃발이 관중석을 채운다. 검색 제목만 믿으면 두 곡이 더 쉽게 뒤섞이는 이유이기도 하다.[* 2018 한국시리즈 현장: https://www.youtube.com/watch?v=ziOAmkOwE0U]\n\n주로 역전 직후나 응원 분위기가 최고조에 올랐을 때 사용된다. 북소리와 긴 모음 떼창이 결합돼 가사를 정확히 모르는 사람도 소리만으로 합류할 수 있다. 2019년 한국시리즈 원정 응원에서도 잠실 못지않은 합창이 남아 있다.[* 2019 한국시리즈 3차전 떼창: https://www.youtube.com/watch?v=etGGP3PpbU0]\n\n‘해야’와 구별하는 가장 쉬운 방법은 소품이다. 마그마 원곡의 ‘해야’가 장중한 팀명 합창과 복귀 서사로 기억된다면, 김학래 원곡의 ‘해야 해야’는 빠른 박자에 흰 수건을 돌리는 장면으로 기억된다. 구단 공식 플레이리스트도 두 곡을 서로 다른 챕터로 연달아 싣는다.\n\n현장 영상 댓글에는 롯데·키움·LG 등 타 구단 팬을 자처하면서도 이 곡의 웅장함과 단합 효과는 인정한다는 반응이 이어진다. 특히 다른 팀 팬이 원정석에서 들은 뒤 제목을 찾아오는 경우가 적지 않은데, 비슷한 제목 때문에 엉뚱한 ‘해야’에 도착하는 것도 이 곡만의 작은 함정이다.\n\n2025년과 2026년 구단 공식 플레이리스트에 연속 수록된 현역 응원가다. 2026년 영상에서는 26분 35초부터 나오며, 바로 앞 25분 6초의 ‘해야’와 나란히 놓여 두 곡이 별개라는 사실을 가장 깔끔하게 보여 준다.[* 2026 두산 공식 응원가 플레이리스트: https://www.youtube.com/watch?v=Cs6u1CZzkbE]",
+      "lyrics": {
+        "lines": [],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "추정 시작 연도 2014 · 정확한 도입 연도 불명확"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=UQn_YeMh_n8",
+          "videoId": "UQn_YeMh_n8",
+          "title": "[음원] 두산 베어스 응원가 - 해야해야",
+          "channelName": "두산베어스",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "kim-hak-rae-haeya-haeya"
+        }
+      ],
+      "legacy": {
+        "year": null,
+        "timelineYear": 2014,
+        "yearStatus": "reported",
+        "yearLabel": "추정 시작 연도 2014 · 정확한 도입 연도 불명확",
+        "originType": "adaptation",
+        "originNote": "김학래의 ‘해야 해야’를 원곡으로 한다. ‘해야’와는 별도 곡이며 현장에서는 첫 구절이 ‘헤이 헤이 해야’처럼 들리기도 한다.",
+        "chronologyNote": "2014년은 나무위키 기반 추정 시작 연도이며 2014년 12월 5일 공개된 현장 영상으로 같은 해 사용을 확인한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "DUGOUT — 두산 베어스 응원가 이야기",
+            "url": "https://v.daum.net/v/ba7qVBzc11?f=p",
+            "scope": "title"
+          },
+          {
+            "label": "2014년 현장 영상",
+            "url": "https://www.youtube.com/watch?v=SLGUrACFZoU",
+            "scope": "chronology"
+          },
+          {
+            "label": "멜론 — 김학래 ‘해야 해야’",
+            "url": "https://www.melon.com/song/detail.htm?songId=2507126",
+            "scope": "origin"
+          }
+        ],
+        "description": "빠른 행진감과 흰색 타월 응원을 결합한 승리 지향 곡으로 ‘해야’와는 별도 곡이다.",
+        "usageContext": "흰색 응원 타월을 흔드는 동작이 특징이며 현장 발음과 정식 첫 구절을 구분해 기록한다."
+      },
+      "sourceRevision": 1,
+      "contentHash": "b1f028894d468d925df3dd7a5495bb4ffb6f6c09b380acedde1cdbe05d0e87bb"
+    },
+    {
+      "id": "doosan-bears-seungnireul-wihayeo",
+      "organizationId": "doosan-bears",
+      "title": "승리를 위하여",
+      "aliases": [
+        "두산 승리를 위하여",
+        "두산의 승리를 위하여",
+        "에메랄드 소드 응원가"
+      ],
+      "symbolicLines": [
+        "두산의 승리를 위하여",
+        "오늘도 힘차게 외쳐라"
+      ],
+      "descriptionText": "두산 베어스를 가장 잘 대표하는 팀 응원가. 경기 중 승기를 잡았을 때 분위기를 끌어올리는 데 사용되는 곡이다. 야구장에서 이 노래가 나온다면 그날은 승리를 기대해 보아도 좋다.\n\n특히 역전에 성공했거나 상대가 따라오기 어려울 정도로 점수 차를 벌렸을 때 자주 등장한다. 전주가 울리는 것 자체가 사실상 ‘이제 승기는 넘어왔다’는 선언에 가까운 셈이다.[* 2023년 LG전 역전 직후 현장: https://www.youtube.com/watch?v=OpBz5jZuP6A]\n\n원곡은 이탈리아 심포닉 메탈 밴드 Rhapsody의 1998년 곡 〈Emerald Sword〉. 판타지 세계관을 바탕으로 한 원곡의 웅장한 후렴구에 두산의 승리를 기원하는 가사를 붙였다. 그래서 응원가라는 사실을 모르고 처음 들으면 야구장 음악보다는 판타지 영화의 전투 장면에 더 가까운 인상을 주기도 한다.[* Rhapsody of Fire 공식 곡 페이지: https://www.rhapsodyoffire.com/emerald-sword/]\n\n두산에서는 한재권 응원단장이 활동하던 2015시즌부터 사용되기 시작했다. 구단이 2015년 6월 공개한 현장 영상에서도 당시 ‘새로운 응원가’로 소개된다.[* BEARS TV 2015년 현장 영상: https://www.youtube.com/watch?v=qveDS_8Cyl0]\n\n현재 사용되는 버전은 처음부터 지금과 같지는 않았다. 2015~2016년에는 본곡 앞에 장중한 도입부가 붙어 있어 전체 길이가 2분을 넘겼다. 이후 경기장에서 사용하기에는 지나치게 길다는 반응이 나오면서 도입부가 삭제됐고, 2017년 무렵부터 현재와 비슷한 1분 30초 안팎의 구성이 자리잡았다.[* 2015년 전광판판: https://www.youtube.com/watch?v=JeX9EwpmdMM][* 2017년 전광판판: https://www.youtube.com/watch?v=0vRJ9pmCAY4] 팬들 사이에서는 편의상 초기 버전을 ver.1, 단축된 버전을 ver.2라고 부르기도 한다.\n\n이 곡이 팬들에게 강하게 각인된 계기 중 하나는 2015년 한국시리즈다. 10월 31일 5차전, 정수빈의 쐐기 3점 홈런 이후 관중석에서 ‘승리를 위하여’가 울려 퍼졌고 두산은 이날 14년 만의 한국시리즈 우승을 확정했다.[* 당시 현장 영상: https://www.youtube.com/watch?v=fflno0aR1-4]\n\n공교롭게도 이 응원가가 등장한 2015년부터 두산은 2021년까지 7년 연속 한국시리즈에 진출했다. 곡이 가장 많이 울리던 시기와 구단의 전성기가 거의 그대로 겹치는 셈이다. 덕분에 당시 상대팀 팬들에게는 썩 반갑지 않은 노래이기도 했다. 두산이 한창 강하던 시절, 이미 승기를 잡은 상황에서 이 웅장한 전주까지 나오기 시작하면 ‘오늘은 여기까지인가’ 싶은 느낌을 줬다는 것.\n\n노래의 하이라이트는 마지막 부분의 떼창이다. 한재권 응원단장이 마지막 음절을 짧게 끊지 않고 길게 뻗어 부르도록 따로 안내하기도 했는데, 수만 명이 같은 음을 길게 끄는 것이 이 곡 특유의 웅장함을 만드는 요소 중 하나다.[* 두산 공식 2025 안무 영상: https://www.youtube.com/watch?v=24v6P_paiSQ]\n\n여담\n- DUGOUT의 두산 팬 대상 선호 응원가 투표에서 79%로 1위를 기록한 적이 있다.[* DUGOUT 팬 투표 기사: https://v.daum.net/v/ba7qVBzc11?f=p]\n- 2016년부터 한양대학교에서도 가사를 학교에 맞게 바꾼 **‘한양을 위하여’**를 사용하고 있다. 대학 응원가가 프로스포츠 응원가로 넘어오는 경우가 많은 것을 생각하면, 프로야구에서 사용되던 응원가가 반대로 대학가로 넘어간 사례라는 점이 특이하다.\n- 2026년 두산 베어스 공식 응원가 플레이리스트에도 독립 트랙으로 수록되어 현재도 사용되고 있다.[* 2026 두산 공식 응원가 플레이리스트 11:13: https://www.youtube.com/watch?v=Cs6u1CZzkbE]",
+      "lyrics": {
+        "lines": [
+          "최!강!두!산!",
+          "최!강!두!산!",
+          "오~ 오오오~ 오~ 오오오~",
+          "",
+          "두산의 승리를 위하여",
+          "오늘도 힘차게 외쳐라",
+          "나가자 싸우자 우리의 베어스",
+          "두산의 승리를 위~하여~!",
+          "",
+          "두산의 승리를 위하여",
+          "오늘도 힘차게 외쳐라",
+          "나가자 싸우자 우리의 베어스",
+          "두산의 승리를 위~하여~!",
+          "",
+          "두산의 승리를 위하여",
+          "오늘도 힘차게 외쳐라",
+          "나가자 싸우자 우리의 베어스",
+          "두산의 승리를 위~하여~!"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "since 2015"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=JeX9EwpmdMM",
+          "videoId": "JeX9EwpmdMM",
+          "title": "[2015 두산베어스 전광판 영상] 승리를 위하여!",
+          "channelName": "BEARS TV",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "rhapsody-emerald-sword"
+        }
+      ],
+      "legacy": {
+        "year": 2015,
+        "timelineYear": 2015,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2015",
+        "originType": "adaptation",
+        "originNote": "Rhapsody의 ‘Emerald Sword’를 바탕으로 하며 한재권 응원단장 제작설이 있다. 초기 긴 버전과 현재의 짧은 버전이 구분된다.",
+        "chronologyNote": "2015년 첫 등장이라는 DUGOUT 설명과 2015년 11월 3일 공개된 BEARS TV 전광판 영상이 일치한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "DUGOUT — 두산 베어스 응원가 이야기",
+            "url": "https://v.daum.net/v/ba7qVBzc11?f=p",
+            "scope": "chronology"
+          },
+          {
+            "label": "BEARS TV — 2015 전광판 영상",
+            "url": "https://www.youtube.com/watch?v=JeX9EwpmdMM",
+            "scope": "chronology"
+          },
+          {
+            "label": "Rhapsody of Fire 공식 사이트 — Emerald Sword",
+            "url": "https://www.rhapsodyoffire.com/emerald-sword/",
+            "scope": "origin"
+          }
+        ],
+        "description": "팀 승리와 투지를 반복적으로 고조시키는 대형 떼창곡이다.",
+        "usageContext": "승리 직후 또는 뒤집기 어려운 큰 점수 차로 앞설 때 주로 사용된다."
+      },
+      "sourceRevision": 6,
+      "contentHash": "cfa0f500cfef2539551a733287991e8863aca27a1836cdb2cd2046bf208b3b32"
+    },
+    {
+      "id": "doosan-bears-yayaya-doosan",
+      "organizationId": "doosan-bears",
+      "title": "야야야 두산",
+      "aliases": [
+        "야야야! 두산",
+        "야야야야야야",
+        "오 두산"
+      ],
+      "symbolicLines": [
+        "야야야야야야",
+        "오 두산!"
+      ],
+      "descriptionText": "두산 베어스의 대표적인 득점 응원가 중 하나다. 주로 경기 초반 가벼운 득점이 나왔을 때 분위기를 끌어올리기 위해 사용하며, 노래가 시작되면 일행이나 주변 관중들과 어깨동무를 하고 함께 몸을 앞뒤로 숙이며 부르는 것이 특징이다. 가사가 단순하고 반복적이라 처음 야구장을 찾은 사람도 금방 따라 할 수 있다.\n\n비슷하게 득점 상황에서 등장하는 ‘승리를 위하여’와는 쓰임새가 조금 다르다. ‘야야야 두산’이 경기 초반의 득점을 신나게 즐기며 분위기를 띄우는 곡이라면, ‘승리를 위하여’는 대량 득점이나 역전 등 두산이 확실하게 승기를 잡았을 때 등장하는 경우가 많다. 때문에 오랫동안 두산의 득점 응원은 초반에는 ‘야야야 두산’, 경기가 기울기 시작하면 ‘승리를 위하여’로 넘어가는 흐름이 자연스럽게 이어졌다. 2026년에는 새로운 응원가 ‘서울의 베어스’가 추가되면서 초반 득점 상황에서 ‘야야야 두산’과 함께 사용되고 있다.\n\n의외로 역사도 꽤 오래됐다. 2006년 두산은 작곡가 정의송에게 여러 장르의 새로운 응원가 5곡을 의뢰했고, ‘야야야 두산’도 이때 만들어졌다. 강성찬이 노래를 불렀으며, 같은 해 4월 잠실 홈 개막전을 통해 다른 신곡들과 함께 공개됐다.[* 2006년 당시 보도: https://sports.news.nate.com/view/20060324n03101]\n\n음원도 정식으로 발매됐다. 2006년 4월 1일 발매된 《두산 베어스 응원가》 앨범의 3번 트랙으로 수록되어 있으며, 현재도 발매일과 가수 등의 정보를 확인할 수 있다.[* 벅스 앨범 정보: https://music.bugs.co.kr/album/8031705]\n\n곡 자체는 오랫동안 큰 변화 없이 이어졌지만, 야구장에서 사용하는 방식은 조금 달라졌다. 지금은 전곡을 부르며 어깨동무를 하는 모습이 익숙하지만, 2010년대 초반까지는 주로 1절까지만 짧게 사용했다. 당시에는 1절의 ‘왔어 왔어 우리가 왔어 허슬두’ 연호 뒤 곧바로 뱃노래로 넘어가는 흐름이 흔했다. 이후 어느 시점부터 곡을 끝까지 부르며 어깨동무를 하는 현재의 방식이 자리잡았다.\n\n현재의 ‘야야야 두산’을 상징하는 것도 역시 어깨동무다. 함께 몸을 움직이고, 후렴에서는 옆 사람과 어깨를 건 채 관중석 전체가 같이 출렁인다. 특히 응원석 전체가 큰 소리로 ‘야!’를 외치는 부분은 타팀 팬 입장에서도 꽤 위압적으로 들리는 포인트다. 포스트시즌이나 만원 관중이 들어찬 경기에서는 응원석 전체가 한꺼번에 움직이는 모습 자체가 하나의 볼거리가 된다.[* 2025년 현장 영상: https://www.youtube.com/watch?v=axap15ZyAbo]\n\n- 2025년에는 야구 응원가로는 드물게 TJ미디어 노래방에도 정식 수록됐다. 곡번호는 44843이며, 노래방에서는 제목을 붙여 쓴 **‘야야야두산’*으로 등록되어 있다.[ TJ노래방 공식 영상: https://www.youtube.com/watch?v=G3uJzZwdVIs]\n- 2000년대 중반에 만들어진 곡이 큰 변화 없이 지금까지 살아남았다는 점에서도 두산의 대표적인 장수 응원가 중 하나다.",
+      "lyrics": {
+        "lines": [
+          "짝짝 짝짝짝 짝짝짝짝 두산!",
+          "짝짝 짝짝짝 짝짝짝짝 두산!",
+          "",
+          "야 야야 야야야~ (오~) 두산!",
+          "야 야야 야야야~ (오~) 두산!",
+          "야 야야 야야 야 야야 야야",
+          "야 야야 야야야~ (오~) 두산!",
+          "",
+          "달려 달려 나가자 (야!)",
+          "으쌰 으쌰 베어스 (야!)",
+          "싸워 싸워 이기자 (야!)",
+          "두산 베어스",
+          "",
+          "왔어 왔어 우리가 왔어 허슬두!",
+          "왔어 왔어 우리가 왔어 허슬두!",
+          "",
+          "야 야야 야야야~ (오~) 두산!",
+          "야 야야 야야야~ (오~) 두산!",
+          "야 야야 야야 야 야야 야야",
+          "야 야야 야야야~ (오~) 두산!",
+          "",
+          "마지막 순간까지 (야!)",
+          "우린 해낼수 있다 (야!)",
+          "소리 높여 부르자 (야!)",
+          "두산 베어스~",
+          "",
+          "야야야!"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "since 2006"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=-yOrqWL5-ek",
+          "videoId": "-yOrqWL5-ek",
+          "title": "[음원] 두산 베어스 응원가 - 야야야 두산",
+          "channelName": "두산베어스",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "doosan-yayaya-doosan-original"
+        }
+      ],
+      "legacy": {
+        "year": 2006,
+        "timelineYear": 2006,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2006",
+        "originType": "commissioned-original",
+        "originNote": "두산이 정의송에게 의뢰한 신규 응원가 가운데 하나로 강성찬이 불렀다.",
+        "chronologyNote": "2006년 개막전 공개 보도와 2006년 4월 1일 응원가 앨범 발매 정보가 일치한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "두산, 다양한 버전의 응원가 선보인다",
+            "url": "https://sports.news.nate.com/view/20060324n03101",
+            "scope": "chronology"
+          },
+          {
+            "label": "벅스 — 두산 베어스 응원가",
+            "url": "https://music.bugs.co.kr/album/8031705",
+            "scope": "chronology"
+          }
+        ],
+        "description": "짧은 구호와 팀명을 반복하며 어깨동무·호응을 유도하는 빠른 응원가다.",
+        "usageContext": "선취점, 홈런, 대량 득점 등 분위기가 크게 오를 때 어깨동무를 하고 사용된다."
+      },
+      "sourceRevision": 4,
+      "contentHash": "36775257cf587dd49c80a6c7074fc6577e3f9caebad1e19455ffb958f6ba3d67"
+    },
+    {
+      "id": "hanwha-eagles-saranghanda-eagles",
+      "organizationId": "hanwha-eagles",
+      "title": "사랑한다 이글스",
+      "aliases": [
+        "사랑한다이글스"
+      ],
+      "symbolicLines": [
+        "승리를 위한 함성을",
+        "다같이 외쳐"
+      ],
+      "descriptionText": "한화 이글스를 대표하는 팀 응원가 중 하나다. 홈런이나 역전, 주요 득점처럼 분위기가 크게 올라오는 순간에 자주 등장하며, 짧은 구호보다는 곡 전체를 길게 부르는 대형 떼창 응원가에 가깝다. 특히 상대 투수 교체처럼 경기가 잠시 멈추는 상황에서는 전곡을 부르며 그 시간을 통째로 채우기도 한다.\n\n득점 직후에는 올라온 분위기를 그대로 이어가는 역할을 하고, 투수 교체 상황에서는 새 투수가 몸을 푸는 동안 한화 응원석 전체의 떼창이 계속된다. 홈구장뿐 아니라 원정에서도 한화 팬들이 많이 모인 경기라면 그대로 대규모 합창이 만들어지기 때문에, 한화 팬들의 응집력을 보여주는 대표적인 응원가로 꼽힌다.[* 2025년 잠실 원정 떼창: https://www.youtube.com/watch?v=cnJF0k97Q_g]\n\n원곡은 2003년 영화 《클래식》의 OST로 사용된 한성민의 〈사랑하면 할수록〉이다. 원곡 특유의 애절한 멜로디는 그대로 알아볼 수 있지만, 응원가에서는 빠른 박자와 북소리를 더하고 팀에 대한 사랑과 승리를 외치는 내용으로 바뀌면서 분위기가 완전히 달라졌다.[* 영화 《클래식》 OST 수록 정보: https://music.bugs.co.kr/album/29611]\n\n한화에서는 2015년부터 사용되기 시작했다. 같은 해 5월에 올라온 초창기 응원 영상이 남아 있으며, 당시 한화 이글스 공식 서버를 통해 배포된 MP3 링크도 확인할 수 있다.[* 2015년 초창기 영상: https://www.youtube.com/watch?v=XJzz9Nu9vjA][* 당시 공식 서버 MP3 링크가 남은 게시물: https://m.ppomppu.co.kr/new/bbs_view.php?id=baseball&no=490869]\n\n이 곡의 특징은 특별한 안무나 복잡한 가사보다는 긴 시간 동안 이어지는 떼창 자체에 있다. 홈런이나 역전 직후처럼 분위기가 최고조에 오른 순간에도 잘 어울리고, 투수 교체나 클리닝타임처럼 경기 흐름이 잠시 멈춘 상황에서는 오히려 곡을 길게 부를 수 있다는 점이 강점이 된다. 처음에는 응원단을 따라 부르기 시작하지만 곡이 진행될수록 관중의 목소리가 커지면서 응원석 전체가 하나의 합창처럼 변한다.\n\n제목 그대로 팀에 대한 사랑을 직접적으로 표현하는 노래라는 점도 이 곡의 특징이다. 승리나 특정 선수의 활약을 강조하는 대부분의 응원가와 달리, 경기 상황과 관계없이 이글스라는 팀 자체를 향해 ‘사랑한다’고 외치는 내용이 중심을 이룬다. 여기에 원곡의 서정적인 멜로디와 대규모 떼창이 더해지면서 단순한 분위기 전환용 응원가를 넘어 한화를 상징하는 대표곡 중 하나로 자리잡았다.\n\n= 연세대학교의 대표 응원가 ‘하늘 끝까지’는 이 곡과 매우 밀접한 관계가 있다. 두 곡 모두 한성민의 〈사랑하면 할수록〉을 원곡으로 하며, 한화가 2015년 ‘사랑한다 이글스’를 먼저 사용한 뒤 연세대학교에서 2016년 ‘하늘 끝까지’를 공개했다. 여러 인터넷 자료에서도 일반적으로 ‘사랑한다 이글스’를 바탕으로 ‘하늘 끝까지’가 만들어진 것으로 소개되며, 당시 연세대학교 응원단 관계자도 2016년 아카라카를 준비하며 해당 곡의 가사와 응원 동작을 만들었다고 회고했다. 공교롭게도 한화 이글스와 연세대학교 모두 독수리를 상징으로 사용한다.[* 연세춘추 인터뷰: https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=31561]\n- 이름이 비슷한 ‘사랑한다 최강한화’와는 별개의 응원가다. KBO 공식 응원가 모음에서도 두 곡이 각각 독립된 트랙으로 수록되어 있다.[* KBO 공식 한화 응원가 모음: https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles]",
+      "lyrics": {
+        "lines": [
+          "사랑한다 이글스 영원하라 이글스",
+          "승리를 향한 함성을 다같이 외쳐",
+          "사랑한다 이글스 영원하라 이글스",
+          "승리를 향한 함성을 다같이 외쳐",
+          "",
+          "필! 승! 불! 패! 최! 강! 한! 화!",
+          "워어어어 워어어 워어어어 워어어",
+          "워어어 워어 워어어 워어어어어",
+          "",
+          "사랑한다 이글스 영원하라 이글스",
+          "승리를 향한 함성을 다같이 외쳐",
+          "다~ 같~ 이~ 외~ 쳐~"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "since 2015"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=hZ66kWereec",
+          "videoId": "hZ66kWereec",
+          "title": "[한화 이글스] 팀 응원가 - 사랑한다 이글스",
+          "channelName": "은최",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "han-sung-min-saranghamyeon-halssurok"
+        }
+      ],
+      "legacy": {
+        "year": 2015,
+        "timelineYear": 2015,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2015",
+        "originType": "adaptation",
+        "originNote": "영화 ‘클래식’ OST인 한성민의 ‘사랑하면 할수록’을 한화 이글스 응원가로 개사·편곡했다. 한화판의 제작·편곡 크레딧은 아직 확인되지 않았다.",
+        "chronologyNote": "사용자 승인에 따라 나무위키의 2015년부터 사용 서술을 정본 도입 연도로 채택했다. 2015년 5월 6일 공개된 영상과 같은 해 당시 구단 서버의 응원가 음원 링크도 보조 근거로 사용한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "나무위키 — 한화 이글스/응원가 2.4",
+            "url": "https://namu.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4%2F%EC%9D%91%EC%9B%90%EA%B0%80#s-2.4",
+            "scope": "chronology"
+          },
+          {
+            "label": "사랑한다 이글스 — 2015년 동시대 영상",
+            "url": "https://www.youtube.com/watch?v=XJzz9Nu9vjA",
+            "scope": "chronology"
+          },
+          {
+            "label": "벅스 — 영화 클래식 OST",
+            "url": "https://music.bugs.co.kr/album/29611",
+            "scope": "origin"
+          },
+          {
+            "label": "KBO SoundCloud — 2024 한화 이글스 응원가",
+            "url": "https://soundcloud.com/ku0ex2wfzymo/playlist-2024-hanhwa-eagles",
+            "scope": "usage"
+          }
+        ],
+        "description": "애절한 원곡을 빠르고 웅장한 4박 응원가로 바꿔 팀에 대한 사랑과 승리 열망을 표현한다.",
+        "usageContext": "한화 공격 중 상대 투수 교체로 경기가 멈췄을 때 자주 부르며, 득점 직후나 클리닝타임에도 대형 떼창으로 사용된다."
+      },
+      "sourceRevision": 3,
+      "contentHash": "c5d183d0229759e64903243196126062a94738a803eefb15fbf467b32fde3c85"
+    },
+    {
+      "id": "hanyang-university-hanyangeul-wihayeo",
+      "organizationId": "hanyang-university",
+      "title": "한양을 위하여",
+      "aliases": [
+        "승리를 위하여",
+        "한양대 승리를 위하여",
+        "한양의 승리를 위하여"
+      ],
+      "symbolicLines": [
+        "한양의 승리를 위하여",
+        "오늘도 힘차게 외치자"
+      ],
+      "descriptionText": "한양대학교를 대표하는 응원가로, 한양대 응원가 가운데 가장 널리 알려지고 사랑받는 곡 중 하나다. 익숙한 멜로디와 함께 수많은 학생이 한꺼번에 참여하는 대형 떼창곡으로, 축제와 응원제에서 특히 큰 호응을 얻는다.[* 한대신문 「하나의 한양을 응원하는 이름, RHooters」: https://www.hynews.ac.kr/news/articleView.html?idxno=13296]\n\n본곡에 들어가기 전에는 전주의 “오~ 오오오” 선율에 맞춰 ‘애국한양! 무적한대! 영원토록! 승리하라!’라는 구호를 외친다. 이때 허리를 뒤로 크게 젖히며 구호를 외치는 것이 포인트로, 본곡이 시작되면 서로 어깨를 걸고 한양의 승리를 함께 노래한다. 응원석 전체가 같은 구호와 동작으로 움직이다 곧바로 대규모 떼창으로 이어지는 것이 이 곡의 가장 큰 특징이다.[* 한양대학교 응원가 관련 기록: https://namu.wiki/w/%ED%95%9C%EC%96%91%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80][* RHooters 공식 ‘한양을 위하여’ 영상: https://www.youtube.com/watch?v=sovNdLkcpG0]\n\n전주가 끝나고 본곡이 시작되면 관중들은 서로 어깨를 걸고 몸을 숙였다 펴며 한양의 승리를 외친다. 짧은 구호보다는 응원석 전체가 같은 선율과 동작으로 움직이는 데 초점이 맞춰져 있어, 음원으로 들을 때보다 실제 축제나 응원제 현장에서 더욱 존재감이 큰 곡이다.[* RHooters 공식 ‘한양을 위하여’ 영상: https://www.youtube.com/watch?v=sovNdLkcpG0]\n\n원곡은 이탈리아 심포닉 메탈 밴드 Rhapsody의 1998년 곡 〈Emerald Sword〉다. 두산 베어스가 2015년부터 같은 곡을 개사한 ‘승리를 위하여’를 사용한 뒤, 한양대학교에서는 2016년 이를 다시 학교에 맞게 변형한 ‘한양을 위하여’를 사용하기 시작했다. [* Rhapsody of Fire 공식 곡 페이지: https://www.rhapsodyoffire.com/emerald-sword/][* 2025년 루터스 창단 50주년 공연에서는 2016년 당시 응원단이 직접 이 곡을 다시 공연했으며, 영상에도 ‘SINCE 2016’이라고 명시되어 있다. https://www.youtube.com/watch?v=yW3x77vFT3o]\n\n때문에 두산의 ‘승리를 위하여’를 알고 있는 사람에게는 처음부터 상당히 익숙하게 들린다. 선율뿐 아니라 승리를 반복해서 외치는 가사 구조와 응원 방식도 비슷해, 야구장에서 먼저 이 곡을 접한 사람이라면 한양대 응원가를 처음 듣고도 금방 따라갈 수 있다. 반대로 한양대 학생이 잠실야구장에서 두산판을 들으면 익숙한 선율에서 학교 이름 대신 두산을 외치는 묘한 경험을 하게 된다.\n\n‘한양을 위하여’는 라치오스를 비롯한 각종 교내 행사에서 꾸준히 사용되며 한양대학교 축제의 대표적인 떼창곡으로 자리잡았다. 응원단 공연에서만 끝나는 것도 아니어서, 축제에 초청된 아티스트가 직접 이 곡을 부르며 학생들의 떼창을 유도하기도 한다.\n\n특히 잔나비와의 인연이 유명하다. 2022년 라치오스에서 잔나비가 ‘한양을 위하여’를 준비해 왔지만 코로나19 이후 대면 응원 문화가 끊겼던 탓에 학생들이 곡을 제대로 따라 부르지 못하는 일이 있었다. 이후 2024년 잔나비가 다시 같은 곡을 부르자 이번에는 관객들이 곧바로 떼창에 참여했고, 한양교지는 이를 한양의 응원 문화가 다시 자리잡은 장면으로 소개했다.[* 한양교지 「라치오스: 파도가 지나간 자리」: https://hygyoji.com/boards/144/view][* 2024 라치오스 잔나비 무대: https://www.youtube.com/watch?v=ddRnTqmokFg]\n\n한양대학교 응원단 루터스가 최근 신규 응원가를 여럿 발표하고 응원제를 확대하고 있는데, 그중에서도 ‘한양을 위하여’는 여전히 기존 한양 응원 문화를 상징하는 대표곡의 위치를 유지하고 있다. 2025년 한대신문 인터뷰에서도 루터스 단장이 가장 많이 알려진 곡으로 ‘한양을 위하여’를 가장 먼저 꼽았고, 부단장 역시 직접 이 곡을 대표 응원가로 표현했다.[* 한대신문 「하나의 한양을 응원하는 이름, RHooters」: https://www.hynews.ac.kr/news/articleView.html?idxno=13296]\n\n서울캠퍼스에서만 사용하는 응원가도 아니다. 서울캠퍼스의 라치오스뿐 아니라 ERICA캠퍼스의 응원 행사에서도 사용되며, 두 캠퍼스가 각자 다른 축제와 응원 문화를 가지고 있으면서도 이 곡에서는 같은 ‘한양’의 이름으로 응원한다.[* 2026 서울캠퍼스 공연: https://www.youtube.com/watch?v=IEubV-pE9ZA][* 2026 ERICA 공연: https://www.youtube.com/watch?v=eG5vI8VYmnM]\n\n- 공식 제목은 ‘한양을 위하여’다. 루터스 공식 채널에서도 이 제목으로 독립된 응원가 영상을 공개하고 있다.[* RHooters 공식 단독 영상: https://www.youtube.com/watch?v=sovNdLkcpG0] 다만 두산 베어스의 ‘승리를 위하여’와 같은 선율과 비슷한 구성을 사용하기 때문에, 일부 학생들은 이 곡 역시 ‘승리를 위하여’라고 부르기도 한다.",
+      "lyrics": {
+        "lines": [
+          "오~오오오 (애국한양! 무적한대!)",
+          "오~오오오(영원토록! 승리하라!)",
+          "",
+          "한양의 승리를 위하여",
+          "오늘도 힘차게 외치자",
+          "하늘에 소리쳐 우리의 함성을",
+          "한양의 승리를 위하여",
+          "",
+          "한양의 승리를 위하여",
+          "오늘도 힘차게 외치자",
+          "하늘에 소리쳐 우리의 함성을",
+          "한양의 승리를 위하여",
+          "",
+          "한양의 승리를 위하여",
+          "오늘도 힘차게 외치자",
+          "하늘에 소리쳐 우리의 함성을",
+          "한양의 승리를 위하여",
+          "",
+          "한양의 승리를 위하여",
+          "오늘도 힘차게 외치자",
+          "하늘에 소리쳐 우리의 함성을",
+          "한양의 승리를 위하여"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "추정 시작 연도 2016 · 정확한 도입 연도 불명확"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=sovNdLkcpG0",
+          "videoId": "sovNdLkcpG0",
+          "title": "[한양대학교 응원가] 한양을 위하여",
+          "channelName": "한양대학교 응원단 RHooters",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "rhapsody-emerald-sword"
+        },
+        {
+          "type": "source-cheer-song",
+          "targetId": "doosan-bears-seungnireul-wihayeo"
+        }
+      ],
+      "legacy": {
+        "year": null,
+        "timelineYear": 2016,
+        "yearStatus": "reported",
+        "yearLabel": "추정 시작 연도 2016 · 정확한 도입 연도 불명확",
+        "originType": "adaptation",
+        "originNote": "두산 베어스 ‘승리를 위하여’를 한양대학교용으로 개사한 곡이며 기반 원곡은 Rhapsody의 ‘Emerald Sword’다.",
+        "chronologyNote": "나무위키의 2016년 서술을 추정 시작 연도로 인용한다. 공식 RHooters 영상으로는 2020년부터 사용을 직접 확인한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "한양대학교 응원단 RHooters — 한양을 위하여",
+            "url": "https://www.youtube.com/watch?v=sovNdLkcpG0",
+            "scope": "title"
+          },
+          {
+            "label": "나무위키 — 승리를 위하여(두산 베어스)",
+            "url": "https://namu.wiki/w/%EC%8A%B9%EB%A6%AC%EB%A5%BC%20%EC%9C%84%ED%95%98%EC%97%AC(%EB%91%90%EC%82%B0%20%EB%B2%A0%EC%96%B4%EC%8A%A4)",
+            "scope": "chronology"
+          }
+        ],
+        "description": "한양대 응원단 RHooters가 축제·응원행사에서 사용하는 집단 합창곡이다. 공식 제목은 ‘한양을 위하여’다.",
+        "usageContext": "라치오스 축제, 응원단 공식 영상, 교내 방송과 아티스트 협업 무대에서 사용된다."
+      },
+      "sourceRevision": 3,
+      "contentHash": "c99c0180a24eeb0977bf8fa564814b2617ed1df8d0975e07477d3ec5bc517f89"
+    },
+    {
+      "id": "kia-tigers-kiareul-eungwonhara",
+      "organizationId": "kia-tigers",
+      "title": "기아를 응원하라",
+      "aliases": [
+        "KIA를 응원하라"
+      ],
+      "symbolicLines": [
+        "지금 이 순간",
+        "기아를 응원하라"
+      ],
+      "descriptionText": "야간 경기에서 이 곡이 시작되면 응원석보다 먼저 휴대전화가 켜진다. 수천 개의 플래시가 좌우로 움직이는 장면 때문에, KIA 공식 영상도 곡명 옆에 아예 ‘핸드폰 플래쉬 응원’이라고 적어 놓았다.[* KIA 공식 2024 응원가 모음 22:19: https://www.youtube.com/watch?v=ZEPS5Bm3iqc]\n\n원곡은 Andrea Bocelli가 1995년에 발표한 ‘Con te partirò’다. 성악적인 장음과 서서히 고조되는 선율이 경기 후반의 대형 합창에 그대로 어울린다. 원곡 제목은 ‘그대와 함께 떠나리’라는 뜻인데 광주에서는 ‘지금 이 순간 KIA를 응원하라’는 집단 선언으로 바뀐다.[* Apple Music 원곡 정보: https://music.apple.com/br/song/1440840587?l=en-GB]\n\n정확한 도입 연도는 자료가 충돌한다. 2011~2012년부터 불렀다는 설명이 널리 퍼져 있지만, 날짜가 분명한 단독 영상 중 현재 확인한 가장 오래된 것은 2013년 6월 10일 업로드다. 따라서 2013년은 ‘확인 가능한 시점’이지 반드시 경기장 첫 사용일은 아니다.[* 2013년 초기 단독 영상: https://www.youtube.com/watch?v=Wivyv50vsrk]\n\n주 무대는 경기 후반 7~8회다. 야간이 깊어질수록 플래시가 더 선명해지고, 긴 전주와 느린 합창이 응원석 전체를 한 장면으로 묶는다. 짧게 소리치고 끝나는 득점 구호와 달리 불빛을 켜고 흔드는 시간까지 곡의 일부다.\n\n극적인 추격이나 역전 직후에도 나온다. 경기 흐름이 KIA 쪽으로 급격히 넘어왔을 때 흥분을 빠르게 소진하지 않고 길게 끌고 가는 역할을 한다. 상대 투수 교체처럼 경기가 멈춘 시간에도 장엄한 전주로 응원 흐름을 이어 간다.\n\n광주에서만 볼 수 있는 연출도 아니다. 2024년 LG전 원정에서는 KIA 응원석을 넘어 1루 외야 쪽까지 불빛과 떼창이 번지는 장면이 남았다. 원정 관중 수가 많을수록 ‘작은 광주’를 만드는 곡이다.[* 2024년 잠실 원정 플래시 떼창: https://www.youtube.com/watch?v=yjJYj4AqUl8]\n\n고려대학교 응원가 ‘고대를 노래하라’도 같은 ‘Con te partirò’ 계열 선율과 비슷한 편곡을 쓴다고 알려져 있다. 양쪽 팬이 서로의 버전을 알아보는 반응은 많지만, KIA가 고려대판을 직접 가져왔는지 혹은 공통 편곡에서 갈라졌는지는 확인되지 않았다. 계보의 방향은 열어 두는 편이 맞다.\n\n표기도 조금씩 바뀌었다. 오래된 영상과 2024 공식 영상에는 ‘기아를 응원하라’가 보이고, 2026 공식 챕터는 브랜드 표기에 맞춰 ‘KIA를 응원하라’를 쓴다. 곡이 바뀐 것이 아니라 한글과 영문 팀명 표기가 혼용된 것이다.\n\n팬들이 이 곡을 기억하는 방식도 음원보다 장면에 가깝다. 역전 직후 가장 벅찬 노래, 타 팀 팬도 불빛 장관만큼은 인정하는 노래라는 반응이 반복된다. 2025년 현장 영상 역시 제목부터 ‘플래시 응원’을 전면에 내세운다.[* 2025 플래시 응원 현장: https://www.youtube.com/watch?v=6yi4MNKBHIE]\n\n2026년 구단 공식 응원가 총정리 영상에는 23분 12초부터 실렸다. 지금도 후반부의 대표 응원으로 사용되며, 가사를 몰라도 휴대전화 불빛 하나만 켜면 관중석의 일부가 될 수 있다는 점이 이 곡의 가장 강한 참여 장치다.[* KIA 공식 2026 응원가 총정리: https://www.youtube.com/watch?v=l7XROs9lYSo]",
+      "lyrics": {
+        "lines": [],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "추정 시작 연도 2013 · 정확한 도입 연도 불명확"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=ZEPS5Bm3iqc&t=1339s",
+          "videoId": "ZEPS5Bm3iqc",
+          "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 도입부 듣자마자 야구장 가고 싶어지는 노래 ｜기아타이거즈 선수 & 팀 응원가 모음",
+          "channelName": "기아타이거즈 KIA TIGERS",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "andrea-bocelli-con-te-partiro"
+        }
+      ],
+      "legacy": {
+        "year": null,
+        "timelineYear": 2013,
+        "yearStatus": "reported",
+        "yearLabel": "추정 시작 연도 2013 · 정확한 도입 연도 불명확",
+        "originType": "adaptation",
+        "originNote": "Andrea Bocelli의 ‘Con te partirò’를 기반으로 한 고려대학교 응원가 ‘고대를 응원하라’ 계열을 KIA 타이거즈용으로 개사했다.",
+        "chronologyNote": "2013년 6월 10일 공개된 영상이 직접 확인 가능한 가장 오래된 사용 자료여서 2013년을 추정 시작 연도로 둔다. 나무위키 계열의 2011~2012년설과 옛 문서 사본의 2001년설은 직접 근거가 없고 서로 충돌해 채택하지 않았다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "KIA 공식 — 선수·팀 응원가 모음",
+            "url": "https://www.youtube.com/watch?v=ZEPS5Bm3iqc&t=1339s",
+            "scope": "title"
+          },
+          {
+            "label": "일간스포츠 — 대학응원가와 프로 응원가는 왜 같을까",
+            "url": "https://sports.news.nate.com/view/20140208n04707",
+            "scope": "origin"
+          },
+          {
+            "label": "기아를 응원하라 — 2013년 영상",
+            "url": "https://www.youtube.com/watch?v=Wivyv50vsrk",
+            "scope": "chronology"
+          },
+          {
+            "label": "나무위키 — KIA 타이거즈/응원가",
+            "url": "https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EC%9D%91%EC%9B%90%EA%B0%80",
+            "scope": "origin"
+          }
+        ],
+        "description": "고려대학교 ‘고대를 응원하라’ 계열을 KIA 타이거즈용으로 개사한 팀 응원가다.",
+        "usageContext": "KIA 공식 영상에서 휴대전화 플래시 응원곡으로 분류한다. 주로 경기 후반, 특히 7·8회와 역전 분위기에서 대규모 떼창으로 사용된다."
+      },
+      "sourceRevision": 1,
+      "contentHash": "1ba67d420cdd7553eb49a89b7d507be7a88719c69794c8d5f5dd662ed26b6329"
+    },
+    {
+      "id": "kiwoom-heroes-seungni-ui-hamseong",
+      "organizationId": "kiwoom-heroes",
+      "title": "승리의 함성",
+      "aliases": [
+        "승리를 위한 함성"
+      ],
+      "symbolicLines": [
+        "승리를 위한 함성",
+        "다 함께 외쳐라"
+      ],
+      "descriptionText": "응원단장이 ‘승리를 위한 함성, 발사!’를 외치면 관중석이 한꺼번에 반응한다. 재미있는 점은 팬들이 외치는 이름과 구단 홈페이지 제목이 다르다는 것이다. 공식 제목은 ‘승리의 함성’이지만 ‘승리를 위한 함성’도 구단 영상에서 계속 병용된다.[* 키움 공식 응원가 페이지: https://heroesbaseball.co.kr/fans/cheer/introSong-list.do]\n\n원곡은 Andrea Bocelli의 2001년 곡 ‘Melodramma’다. 고려대학교 ‘민족의 아리아’, LG ‘서울의 아리아’와 같은 선율 계열이라 첫 몇 음만으로도 다른 팀 응원가를 떠올리는 사람이 많다.[* 원곡 음반 정보: https://musicbrainz.org/release/8930f9ec-8cad-4cd0-b590-dac57455de60]\n\n공식 페이지에는 작곡자를 ‘LUCIAN PAOLO’라고 적어 놓았지만 원곡 카탈로그의 표기는 Paolo Luciani와 Pierpaolo Guerrini다. 이름 순서와 철자가 뒤집히고 공동 작곡자 한 명이 빠져 있으므로, 이 표기를 키움판 단독 편곡자 크레딧으로 읽으면 곤란하다.\n\n곡은 한 번에 만들어진 것이 아니라 여러 번 길어졌다. 2009년에 한 구절 형태로 시작했다는 설이 있고, 2012년에는 짧은 후렴형으로 손봤다고 전해진다. 날짜가 분명한 직접 영상은 2013년 6월 22일의 18초짜리 현장 기록부터 확인된다.[* 2013년 짧은 버전 현장: https://www.youtube.com/watch?v=755L2QkhMSA]\n\n2018년에는 절과 팀 구호를 앞에 더한 풀 버전이 ‘새 응원가’로 등장했다. 예전 목동 시절의 짧은 후렴만 기억하는 팬에게는 같은 노래가 갑자기 한 곡 분량으로 늘어난 셈이다. 후렴의 동사도 ‘부르자’에서 ‘외쳐라’로 바뀌었다고 알려져 있다.[* 2018년 신버전 초기 영상: https://www.youtube.com/watch?v=o_IwL7wRJrE]\n\n중간에는 잠시 사라질 뻔한 시기도 있었다. 2017년 KBO 전반에 응원가 저작인격권 분쟁이 불거지면서 넥센 응원가도 바뀌거나 중단됐고, 이 곡 역시 한동안 못 들었다는 팬들의 기억이 남아 있다. 다만 정확한 중단·복구 날짜와 계약 내용은 공개되지 않았다.[* 2017년 당시 MBC 보도: https://imnews.imbc.com/replay/2017/nwdesk/article/4318266_30213.html]\n\n득점 직후나 경기 후반의 승부처에 전곡을 부르며 기세를 올리는 대표 떼창이다. 특이하게 앞서는 상황뿐 아니라 뒤지고 있을 때도 분위기를 다시 끌어올리는 용도로 쓰인다. ‘승리’가 결과 보고라기보다 관중이 먼저 던지는 주문에 가깝다.\n\n2022년 DUGOUT의 키움 팬 투표에서는 39%로 팀 응원가 1위를 차지했다. 창단을 상징하는 ‘영웅출정가’보다도 높은 표를 받았다는 점에서, 현재 팬이 가장 강하게 대표곡으로 느끼는 노래가 무엇인지 드러난다.[* DUGOUT 팬 투표 기사: https://v.daum.net/v/ZKIBJ9C29x?f=m]\n\nLG ‘서울의 아리아’와 같은 원곡이라 두 팀 버전을 한 영상에 붙여 비교하는 콘텐츠도 인기가 높다. 2019년 준플레이오프 고척 영상에서는 같은 멜로디를 홈과 원정 응원석이 전혀 다른 가사와 편곡으로 주고받는다. 어느 쪽이 더 낫다는 댓글 싸움까지 포함해 같은 원곡 응원가의 재미를 보여 준다.[* 키움·LG 비교 현장 영상: https://www.youtube.com/watch?v=SrYqulrbd-E]\n\n2024~2026 구단 공식 목록에 계속 실렸고, 2026년 5월에는 5연승 현장을 담은 공식 응원석 직캠도 공개됐다. 넥센 시절의 짧은 구호에서 키움 시대의 풀 버전까지 팀명과 길이는 변했지만, ‘발사’ 선창 뒤 터지는 후렴은 그대로 남았다.[* 2026 키움 공식 응원석 직캠: https://www.youtube.com/watch?v=QcFm2dsiAQY]",
+      "lyrics": {
+        "lines": [],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "추정 시작 연도 2013 · 정확한 도입 연도 불명확"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=sDSqc9JwDNI",
+          "videoId": "sDSqc9JwDNI",
+          "title": "[준PO3⚡️응원캠] 히어로즈 외치다보면 어느새 큠뽕 MAX🤩",
+          "channelName": "키움히어로즈",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "andrea-bocelli-melodramma"
+        },
+        {
+          "type": "source-cheer-song",
+          "targetId": "korea-university-minjogui-aria"
+        }
+      ],
+      "legacy": {
+        "year": null,
+        "timelineYear": 2013,
+        "yearStatus": "reported",
+        "yearLabel": "추정 시작 연도 2013 · 정확한 도입 연도 불명확",
+        "originType": "adaptation",
+        "originNote": "고려대학교 ‘민족의 아리아’를 모티브로 한 히어로즈 응원가이며 기반 원곡은 Andrea Bocelli의 ‘Melodramma’다. 공식 페이지의 ‘LUCIAN PAOLO’ 표기는 키움판 단독 편곡자 크레딧으로 확정하지 않는다.",
+        "chronologyNote": "2013년 넥센 시절 게시물 두 건으로 당시 사용을 확인해 2013년을 추정 시작 연도로 둔다. 2017년 저작인격권 분쟁 때 잠시 중단됐고 2018년 재편곡된 뒤 키움 시절까지 같은 곡의 판본 변화로 이어졌다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "키움 히어로즈 공식 응원가 — 승리의 함성",
+            "url": "https://heroesbaseball.co.kr/fans/cheer/introSong-list.do",
+            "scope": "title"
+          },
+          {
+            "label": "DUGOUT — 팬이 뽑은 최애 응원가 키움편",
+            "url": "https://v.daum.net/v/ZKIBJ9C29x?f=p",
+            "scope": "origin"
+          },
+          {
+            "label": "MLBPARK — 2013년 넥센 응원가 기록",
+            "url": "https://mlbpark.donga.com/mlbpark/b.php?b=kbotown&id=1330344",
+            "scope": "chronology"
+          },
+          {
+            "label": "키움 히어로즈 갤러리 — 2013년 넥센 응원가 계이름",
+            "url": "https://gall.dcinside.com/board/view/?id=sh&no=2812684",
+            "scope": "chronology"
+          },
+          {
+            "label": "스포츠춘추 — 응원가 저작인격권 분쟁",
+            "url": "https://www.spochoo.com/news/articleView.html?idxno=27697",
+            "scope": "origin"
+          }
+        ],
+        "description": "구단 공식 제목은 ‘승리의 함성’이며, 현장 선창과 팬·언론에서는 ‘승리를 위한 함성’이라는 이름으로 널리 통용된다.",
+        "usageContext": "응원단장의 ‘승리를 위한 함성 발사’ 선창 뒤 경기 후반의 기세를 끌어올리는 대표 떼창으로 사용된다. 팬 투표에서는 39%로 1위를 기록했다."
+      },
+      "sourceRevision": 1,
+      "contentHash": "0f81458a309e1563fa957fbe831ba777c571c301ad06af73745b82eb4efb26df"
+    },
+    {
+      "id": "korea-university-baennorae",
+      "organizationId": "korea-university",
+      "title": "뱃노래",
+      "aliases": [
+        "민족의 노래",
+        "승리의 노래",
+        "승리의 뱃노래"
+      ],
+      "symbolicLines": [
+        "즐거운 고연전 날에",
+        "연대생 우는 소리"
+      ],
+      "descriptionText": "고려대학교에서 가장 오래 살아남은 현역 응원가 가운데 하나이자, 득점과 승리, 그리고 응원의 마지막을 책임지는 곡이다. 곡을 소개할 때도 “민족의 노래! 승리의 노래! 뱃노래!”라는 선창이 거의 한 세트처럼 따라붙는다. 「민족의 아리아」가 오늘날 고려대를 상징하는 대표적인 떼창이라면, 「뱃노래」는 그보다 훨씬 오래전부터 고대의 ‘승리’를 맡아온 노래에 가깝다.\n[* 참고: 2025 입실렌티 「민족의 노래! 승리의 노래! 뱃노래!」 영상: https://www.youtube.com/watch?v=lcixKZpZYwU]\n\n고연전에서는 역할이 아주 명확하다. 고려대가 득점했을 때, 경기를 이겼을 때, 그리고 응원 전체를 마칠 때 꺼내는 승리곡이다. 그래서 경기를 보지 않고 응원에만 정신이 팔려 있어도 「뱃노래」가 시작되면 점수가 났다는 사실을 알 수 있을 정도다. 특히 농구처럼 득점이 잦은 경기에서는 이 곡을 계속 반복하게 되는데, 허리를 크게 움직이는 응원법까지 겹쳐 다음 날 몸이 남아나지 않는다는 농담도 따라붙는다.\n[* 참고: 2014 정기 고연전 농구 승리 후 뱃노래 현장 영상: https://www.youtube.com/watch?v=XjjAVWMSoac]\n\n무엇보다 유명한 것은 제목 그대로 ‘배를 타는’ 응원 동작이다. 경기장 관중석에서는 옆 사람과 어깨를 걸고 몸을 크게 앞뒤로 움직이고, 합동응원전이나 입실렌티에서는 아예 바닥에 줄지어 앉아 앞사람의 어깨를 잡은 채 일제히 앞뒤로 몸을 젓는다. 수많은 사람이 같은 박자로 상체를 숙였다 일으키는 모습을 멀리서 보면 정말 한 배에 탄 뱃사공들이 함께 노를 젓는 듯하다. 노래 제목과 응원 동작이 이보다 직접적으로 맞아떨어지는 곡도 드물다.\n[* 참고: 고려대학교 「뱃노래」 응원법·조정 퍼포먼스 정리: https://m.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80%20%EC%9D%B4%EC%A0%84]\n\n경기장에서 부르는 「뱃노래」와 입실렌티에서 듣는 「뱃노래」는 느낌도 조금 다르다. 경기 중에는 득점 직후 필요한 부분을 반복하며 빠르게 분위기를 끌어올리는 반면, 판쓸이 응원에서는 곡을 길게 이어가며 마지막을 장식한다. 주요 공연과 응원이 모두 끝난 뒤 남은 사람들이 다시 바닥에 앉아 서로의 어깨를 잡고 「뱃노래」를 부르는 장면은 사실상 입실렌티의 엔딩처럼 자리 잡았다. 그래서 이 곡은 고연전에서 이겼을 때만 부르는 승리곡을 넘어, ‘오늘 응원의 피날레를 장식한다’는 신호이기도 하다.\n[* 참고: 2022 입실렌티 판쓸이 응원 영상: https://www.youtube.com/watch?v=WFLXcX9xICQ]\n[* 참고: 2026 입실렌티 3부 피날레 영상: https://www.youtube.com/watch?v=0I68AUpqaqc&t=1114s]\n\n「뱃노래」가 처음 등장한 것은 1974년이다. 고려대학교 교우회의 고연전 연표에도 그해의 주요 사건으로 ‘응원곡 뱃노래 등장’이 기록돼 있으며, 당시 자료를 정리한 고대신문에는 신곡 「뱃노래」가 ‘최고의 극찬’을 받았다고 적혀 있다. 등장하자마자 강한 인상을 남긴 곡이 반세기를 넘겨 현역으로 살아남은 셈이다. 원곡은 경상도 민요 「뱃노래」로, 익숙한 ‘어기여차’ 가락에 고려대식 편곡과 연세대를 겨냥한 가사가 붙었다.\n[* 참고: 고려대학교 교우회 고연전 연표: https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0]\n[* 참고: 고대신문 「열정과 우정, 고연전의 역사-5」: https://www.kunews.ac.kr/news/articleView.html?idxno=12010]\n[* 참고: 고려대학교 응원단 공식 OT: https://www.youtube.com/watch?v=YbADjuEahzg]\n[* 참고: 국립국악원 교과서 표준악보집 「뱃노래」: https://www.gugak.go.kr/userfiles/files/textbook_final.pdf]\n[* 참고: 민요 「뱃노래」는 뱃일에서 불리던 노동요가 통속민요로 다듬어진 계통으로, ‘뱃노래’라는 이름 자체는 여러 지역의 어업 노동요에도 폭넓게 쓰인다. 고려대판의 정확한 1974년 편곡·개사자는 현재 확인되는 자료만으로는 명확하지 않다. - 국립국악원 국악사전 「뱃노래」: https://www.gugak.go.kr/ency/topic/view/842]\n\n1974년에 등장한 노래가 50년 넘게 최신 응원가들과 나란히 현역으로 남아 있는 이유는 의외로 단순하다. 점수가 나면 부르고, 이기면 부르고, 마지막에는 모두가 서로의 어깨를 잡고 다시 부른다. 언제 이 노래를 꺼내야 하고, 나오면 무엇을 해야 하는지가 세대를 넘어 공유되어 있는 곡이다. 고려대의 수많은 응원가 중에서도 「뱃노래」가 유독 오래 살아남은 힘은 바로 거기에 있다.\n\n- 지금 입실렌티나 합동응원전에서 볼 수 있는 바닥에 줄지어 앉아 노를 젓는 ‘조정 퍼포먼스’는 곡 자체보다 훨씬 늦게 생겼다. 2012년경부터 시작된 것으로 알려져 있는데, Young Tigers·조정부 계열에서 시작됐다는 설과 2012 입실렌티에서 자작자동차공학회가 처음 했다는 설이 함께 전해진다. 2014년 고연전 5전 전승 때에는 응원단 주도로 수백 명이 함께 노를 젓는 대형 퍼포먼스로까지 확대됐다. 따라서 1974년 기록에 등장하는 ‘힘찬 율동’과 오늘날의 앉아서 노 젓기는 구분해서 보는 편이 맞다. [* 참고: 고려대학교 「뱃노래」 응원법·조정 퍼포먼스 정리: https://m.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80%20%EC%9D%B4%EC%A0%84]\n- 오래된 곡답게 세대에 따른 작은 가사 차이도 있다. 오늘날에는 첫 구절을 ‘즐거운 고연전 날에’라고 부르지만, 1980~90년대에는 ‘신나는 고연전 날에’라고 부르는 경우도 많았다고 전해진다.\n[* 참고: 고려대학교 「뱃노래」 과거 가사 정리: https://www.readonly.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80]\n- 프로야구에서도 이 곡의 서로 다른 부분을 들을 수 있다. 두산 베어스는 가사 없이 ‘빰빰빠밤빰’으로 이어지는 대목을 짧은 리듬 응원으로, 롯데 자이언츠는 ‘어기여차’가 반복되는 대목을 중심으로 사용한다. 두산의 정확한 최초 도입 연도는 확인되지 않지만 관련 응원가 자료에서는 적어도 구단명이 두산으로 바뀐 1999년 이전 OB 베어스 시절부터 사용한 것으로 정리한다. 반면 롯데가 고려대 「뱃노래」를 구단에 맞게 개사해 사용한다는 사실은 2014년 일간스포츠의 대학·프로 응원가 계보 기사에서도 확인된다. 고려대판 한 곡을 듣다 보면 두 구단 팬들에게 각각 익숙한 대목이 차례로 나타나는 셈이다.\n[* 참고: 「뱃노래」의 KBO 사용 계보 정리: https://www.namu.moe/w/%EB%B1%83%EB%85%B8%EB%9E%98]\n[* 참고: 일간스포츠 「대학응원가와 프로 응원가는 왜 같을까」: https://sports.news.nate.com/view/20140208n04707]",
+      "lyrics": {
+        "lines": [
+          "즐거운 고연전 날에 연대생 우는 소리",
+          "지고 가는 연대생이 처량도 하구나",
+          "어기야 디어차 (어기여차) 어기야 디여 어기여차",
+          "뱃놀이 가잔다",
+          "",
+          "어기여차 에헤 어기여차쿵 (X4)",
+          "빰빰빠밤빰 빰빰빠밤빰 빰빰빠밤빰빰빠빰 빰빰빠밤빰",
+          "",
+          "즐거운 고연전 날에 연대생 우는 소리",
+          "지고 가는 연대생이 처량도 하구나",
+          "어기야 디어차 (어기여차) 어기야 디여 어기여차",
+          "뱃놀이 가잔다 (X2)"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "since 1974"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/fiSn0Jh2TX0?si=UTKTK09AonEoW_fJ&t=972",
+          "videoId": "fiSn0Jh2TX0",
+          "title": "[2025 고연전 응원_야구] 선취점을 내준 이유? 동점 역전 뱃노래 도파민 터뜨리려고! #고연전야구 #고려대응원가 #2025고연전 #고연전 #뱃노래 #민족의아리아 [4k60p]",
+          "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+          "attributionText": ""
+        },
+        {
+          "rank": 2,
+          "role": "featured-field",
+          "sourceUrl": "https://youtu.be/WFLXcX9xICQ?si=IAU8Y5HparJom2rJ&t=121",
+          "videoId": "WFLXcX9xICQ",
+          "title": "",
+          "channelName": "",
+          "attributionText": ""
+        },
+        {
+          "rank": 4,
+          "role": "additional",
+          "sourceUrl": "https://youtu.be/WTD_tXiKBoI?si=n05aK46cy425zkSA&t=201",
+          "videoId": "WTD_tXiKBoI",
+          "title": "[4K] 연세대학교, 고려대학교 승리의 응원곡! 원시림 뱃노래 [2026 연고대 상반기 합동응원전]",
+          "channelName": "청춘테이프",
+          "attributionText": ""
+        },
+        {
+          "rank": 5,
+          "role": "additional",
+          "sourceUrl": "https://youtu.be/xm9pn5VwvN0?si=xbpALcng-d_o_lFb",
+          "videoId": "xm9pn5VwvN0",
+          "title": "2023.05.26 IPSELENTI 지.야의 함성 [뱃노래]",
+          "channelName": "KODA",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "korean-traditional-baennorae"
+        }
+      ],
+      "legacy": {
+        "year": 1974,
+        "timelineYear": 1974,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 1974",
+        "originType": "arrangement",
+        "originNote": "한국 전통민요 ‘뱃노래’를 응원용으로 편곡했다. 정확한 지역·전승 계통은 아직 확정하지 않았다.",
+        "chronologyNote": "고려대학교 응원단 설명과 교우회 고연전 100주년 연표가 1974년 등장으로 일치한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "고려대학교 응원단 온라인 응원 OT — 뱃노래",
+            "url": "https://www.youtube.com/watch?v=YbADjuEahzg",
+            "scope": "chronology"
+          },
+          {
+            "label": "고려대학교 교우회 고연전 100주년 연표",
+            "url": "https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0",
+            "scope": "chronology"
+          },
+          {
+            "label": "고대신문 — 고대답게 탐색하고, 고대답게 고민해라",
+            "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=32516",
+            "scope": "usage"
+          }
+        ],
+        "description": "한국 전통민요를 응원용으로 편곡한 고려대의 대표 승리곡으로, 득점이나 경기 승리 직후 모두 어깨를 걸고 앞뒤로 움직이는 모습이 핵심이다.",
+        "usageContext": "고연전 득점·골·승리 직후, 입실렌티 피날레와 판쓸이 응원, 단과대·뒤풀이 응원에서 반복된다."
+      },
+      "sourceRevision": 6,
+      "contentHash": "4ce8bd7566575f71fbb81c4a071261aca2ef202381a08b92fa281af9fc11f846"
+    },
+    {
+      "id": "korea-university-deureora-boara-geurigo-gieokhara",
+      "organizationId": "korea-university",
+      "title": "들어라 보아라 그리고 기억하라",
+      "aliases": [
+        "들보기",
+        "들어라 보아라 기억하라"
+      ],
+      "symbolicLines": [
+        "기억하라 우리의",
+        "붉은 함성을"
+      ],
+      "descriptionText": "고려대학교를 대표하는 응원가 중 하나로, 긴 제목 때문에 흔히 ‘들보기’라는 약칭으로 불린다. 웅장한 멜로디에 맞춰 서로 어깨동무를 하고 움직이는 대형 떼창곡으로, 2007년 처음 등장한 이후 현재까지 입실렌티와 정기 고연전 등 주요 응원 행사에서 꾸준히 사용되고 있다.[* 고려대학교 응원가 관련 기록: https://namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80][* 2026 입실렌티 현장 영상: https://www.youtube.com/watch?v=C8jjjhSHK18&t=12s]\n\n입실렌티에서는 행사 후반의 ‘판쓸이 응원’을 장식하는 대표곡으로도 사용된다. 들보기 이후 Forever, 민족의 아리아가 이어지고 마지막에는 뱃노래로 응원을 마무리하는 구성이 자주 등장한다. [* 2023 입실렌티 판쓸이 응원: https://www.youtube.com/watch?v=ZpXWQZ3Nm1I][* 2026 입실렌티 3부 판쓸이 응원: https://www.youtube.com/watch?v=0I68AUpqaqc]\n\n응원은 전주부터 응원단과 관중의 선창·후창으로 시작한다. 이어 본곡에서는 어깨동무를 한 채 좌우로 움직이고, ‘아-아’로 이어지는 부분에서는 관중석 전체가 앞뒤로 몸을 크게 젖히며 노래한다. 중간의 ‘기억하라 우리의 붉은 함성을’ 뒤에는 ‘민족고대’를 네 박자로 끊어 외치는 구호도 들어간다. 단순히 노래만 따라 부르기보다 수천 명이 같은 박자와 동작을 맞추는 데서 현장감이 살아나는 곡이다.[* 고려대학교 자유전공학부 2020 새내기 자료집: https://sis.korea.ac.kr/sis/join/notice.do?articleNo=179103&attachNo=146961&mode=download][* 고려대학교 응원가 관련 기록: https://namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80]\n\n원곡은 1986년 애니메이션 영화 《천공의 성 라퓨타》의 엔딩곡 〈君をのせて(너를 태우고, Carrying You)〉다. 미야자키 하야오가 작사하고 히사이시 조가 작곡했으며 이노우에 아즈미가 불렀다. 원곡의 서정적인 선율을 거의 그대로 사용하면서도, 고려대에서는 붉은 함성과 학교를 향한 구호를 더해 장중한 응원가로 완전히 다른 분위기를 만들어낸다.[* 스튜디오 지브리 〈君をのせて〉 관련 소개: https://www.ghibli.jp/info/004156/][* 원곡 작사·작곡 정보: https://www.uta-net.com/song/5063/?target=composer]\n\n이 곡은 2007년에 만들어졌다. 고려대학교 교우회보에서도 같은 해 발표된 응원가로 기록하고 있으며, 이후 오랜 기간 살아남아 고려대의 대표적인 장수 응원가로 자리잡았다. 2023년 신입생 입학식에서도 응원단이 ‘엘리제를 위하여’, ‘민족의 아리아’와 함께 이 곡의 응원 동작을 신입생들에게 가르치는 등 새로 입학한 학생들이 처음 배우는 주요 응원가 중 하나로 사용되고 있다.[* 고려대학교 교우회보 제628호 「응원가도 진화한다」: https://www.scribd.com/document/1004670663/%25EA%25B5%2590%25EC%259A%25B0%25ED%259A%258C%25EB%25B3%25B4-628][* 고대신문 「마음속 ‘고대 정신’ 품고, 새로운 길 개척하라」: https://www.kunews.ac.kr/news/articleView.html?idxno=40571]\n\n특히 제작 과정에서부터 ‘모두가 함께하는 응원’을 의도했다는 점이 이 곡의 특징이다. 도입부에는 ‘기억하라 우리의 붉은 함성을’이라는 내용에 맞춘 수어 동작이 들어가 있는데, 고려대학교 교우회보에서도 응원전에서 소외될 수 있는 청각장애인을 배려해 수어를 사용했다고 설명한다.[* 고려대학교 교우회보 제628호 「응원가도 진화한다」: https://www.scribd.com/document/1004670663/%25EA%25B5%2590%25EC%259A%25B0%25ED%259A%258C%25EB%25B3%25B4-628]\n\n당시 응원단 부단장으로 이 곡을 기획했다고 밝힌 정우성 역시 훗날 “소외 없는 함성을 만들고 싶었다”고 제작 당시를 회고했다. 청각장애가 있는 학우들도 함께 어깨를 걸 수 있도록 수어를 넣었으며, 자신이 알기로는 고려대학교 응원곡 가운데 처음으로 수어 동작을 도입한 곡이었다고 설명했다. ‘들어라, 보아라, 그리고 기억하라’라는 제목 자체가 이 제작 의도와 묘하게 맞아떨어지는 부분이기도 하다.[* 당시 기획자의 공개 회고: https://kr.linkedin.com/in/ji-yun-park-7331a3aa]\n\n이 곡에서 가장 눈에 띄는 장면은 후반의 ‘아-아’ 부분이다. 관중들이 어깨를 건 상태에서 선율에 맞춰 일제히 허리를 뒤로 젖히며 소리를 내는데, 수천 명이 동시에 같은 음과 동작을 반복하면서 관중석 전체가 크게 출렁인다. 곡의 마지막에는 음을 한층 높여 같은 부분을 반복해 분위기를 더욱 끌어올린다.[* 고려대학교 응원가 관련 기록: https://namu.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80][* 고려대학교 응원단 공식 영상: https://www.youtube.com/watch?v=8iGlLcy2TXc]\n\n- 2008년 정기 고연전에 친선 방문한 일본 와세다대학교 법대·로스쿨 학생들이 이 곡을 특히 좋아했고, 원곡인 〈君をのせて〉를 일본어로 함께 불렀다는 일화가 전해진다. 일본 애니메이션의 주제가가 고려대 응원가가 된 뒤 다시 일본 대학생들과 함께 불렸다는 재미있는 사례다. 다만 당시 영상이나 와세다 측 기록이 확인된 이야기는 아니어서 구전 일화 정도로 보는 것이 좋다.[* 관련 일화를 소개한 스포츠니어스 기사: https://www.sports-g.com/news/articleView.html?idxno=10058]\n- 원곡의 선율은 프로야구장에서도 익숙하다. ‘들어라 보아라 그리고 기억하라’의 후반부 선율은 이승엽의 삼성 라이온즈 응원가에, 앞부분의 선율은 kt wiz의 팀 응원가 ‘승리를 위하여’에도 사용됐다.[* 관련 응원가 비교 자료: https://librewiki.net/wiki/%EC%9C%84%ED%82%A4%EB%8F%85%3A%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC_%EC%9D%91%EC%9B%90%EA%B0%80/%EC%97%B0%EA%B3%A0%EB%8C%80_%EC%9D%91%EC%9B%90%EA%B0%80_%EB%AA%A8%ED%8B%B0%EB%B8%8C]\n- 연세대학교와 합동응원을 할 때는 연세대의 ‘서시’와 서로 교환해 부르는 경우도 있다. 두 곡 모두 느리고 웅장한 선율에 대규모 떼창이 중심이라는 공통점이 있어 양교를 대표하는 장중한 응원가끼리 맞붙는 구도가 만들어진다.[* 2024 합동응원 영상: https://www.youtube.com/watch?v=OzdKakiI7N8]",
+      "lyrics": {
+        "lines": [
+          "기억하라! 우리의! 붉은! 함성을!",
+          "들어라! 보아라! 그리고! 기억하라!",
+          "",
+          "들어라 그대여 보아라 그대여",
+          "기억하라 우리의 붉은 함성을 (민족고대!)",
+          "들어라 그대여 보아라 그대여",
+          "기억하라 우리의 붉은 함성을",
+          "",
+          "아아 외쳐라 하늘이 듣도록",
+          "아아 뛰어라 땅이 울리도록",
+          "",
+          "(X2)"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "since 2007"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/C8jjjhSHK18?si=lBZTpX8avZybaWA9",
+          "videoId": "C8jjjhSHK18",
+          "title": "[2026 고려대 입실렌티] 대학 최고의 축제, 대학 최고의 응원곡 '민족의 아리아 + 들어라 보아라 그리고 기억하라 + FOREVER'  #고려대축제 #입실렌티  [4K]",
+          "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "kimi-wo-nosete"
+        }
+      ],
+      "legacy": {
+        "year": 2007,
+        "timelineYear": 2007,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2007",
+        "originType": "adaptation",
+        "originNote": "애니메이션 ‘천공의 성 라퓨타’ 엔딩 테마 ‘君をのせて (Carrying You)’를 바탕으로 한다.",
+        "chronologyNote": "사용자가 지정한 2026 입실렌티 영상의 곡 시작 화면에 ‘since 2007’이 표시된다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "고려대학교 응원단 온라인 응원 OT",
+            "url": "https://www.youtube.com/watch?v=8iGlLcy2TXc",
+            "scope": "title"
+          },
+          {
+            "label": "2026 입실렌티 — since 2007 화면",
+            "url": "https://www.youtube.com/watch?v=C8jjjhSHK18&t=12s",
+            "scope": "chronology"
+          },
+          {
+            "label": "고대신문 — 2023학년도 입학식",
+            "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=40571",
+            "scope": "usage"
+          }
+        ],
+        "description": "응원단과 관중의 선창·후창, 어깨동무, 좌우 이동이 결합된 장중한 응원곡이며 긴 정식명 때문에 현장에서 ‘들보기’로 줄여 부른다.",
+        "usageContext": "응원 OT·입학식 교육, 입실렌티·고연전 대규모 어깨동무 응원, 합동응원전에서 연세대 ‘서시’와 교차 배치되는 곡이다."
+      },
+      "sourceRevision": 12,
+      "contentHash": "a93878e432184be4df71cb349786da52f702ba213684e7e3338047c837a201f0"
+    },
+    {
+      "id": "korea-university-forever",
+      "organizationId": "korea-university",
+      "title": "Forever",
+      "aliases": [
+        "FOREVER",
+        "포에버",
+        "포레버"
+      ],
+      "symbolicLines": [
+        "우리의 함성은",
+        "신화가 되리라"
+      ],
+      "descriptionText": "고려대학교를 대표하는 대형 떼창 응원가 중 하나다. 2007년 신곡으로 등장한 뒤 지금까지 합동응원전과 입실렌티의 막바지를 책임지는 곡으로 자리 잡았다. 가사는 “우리의 함성은 신화가 되리라”라는 짧은 문장을 중심으로 반복될 뿐이지만, 서서히 치솟는 선율에 어깨동무와 점프가 붙으면서 수많은 사람이 함께 부르기 좋은 구조를 갖췄다.\n[* 참고: 2026 입실렌티 Forever 영상(Since 2007 표기): https://www.youtube.com/watch?v=C8jjjhSHK18&t=154s]\n\n원곡부터 조금 독특하다. 기본 선율은 핀란드 파워메탈 밴드 Stratovarius가 1996년 앨범 《Episode》에 수록한 발라드 「Forever」인데, 고려대판은 여기에 영화 《시네마 천국》의 「Love Theme」까지 간주로 끼워 넣었다. 고려대학교 응원단도 공식 응원 OT에서 두 곡을 각각 원곡으로 소개한다.\n[* 참고: Stratovarius 공식 디스코그래피 《Episode》: https://stratovarius.com/episode/]\n[* 참고: 고려대학교 응원단 공식 응원 OT - Forever 원곡 설명: https://www.youtube.com/watch?v=GxSU75-9n4M]\n\n현장에서는 이 두 선율의 대비가 그대로 응원의 흐름이 된다. 서로 어깨를 걸고 ‘워-워-워’ 구음을 따라가다가 후렴에서는 다 함께 뛰며 “Forever”를 외치고, 《시네마 천국》의 간주가 나오면 잠시 숨을 고른다. 야간에는 이때 휴대전화 불빛을 흔들기도 하며, 간주가 끝나고 후렴으로 돌아오면 다시 한 번 응원이 폭발한다.\n[* 참고: 고려대학교 응원단 공식 응원 OT: https://www.youtube.com/watch?v=GxSU75-9n4M]\n[* 참고: 2026 입실렌티 Forever 현장 영상: https://www.youtube.com/watch?v=C8jjjhSHK18&t=154s]\n\n행사에서도 주로 후반부의 핵심곡으로 쓰인다. 입실렌티의 판쓸이 응원에서는 「들어라 보아라 그리고 기억하라 → Forever → 민족의 아리아 → 뱃노래」가 대표적인 피날레 조합으로 자리 잡았다. 합동응원전에서는 양교의 서정적인 대표곡이라는 점에서 연세대학교의 「하늘 끝까지」와 맞대응하는 곡처럼 다뤄진다. 2024년에는 연세대 밴드 메두사와 고려대 밴드 엘리제가 아예 두 곡을 하나로 합친 리믹스를 함께 선보이기도 했다.\n[* 참고: 2023 입실렌티 「들보기 - Forever - 민족의 아리아 - 뱃노래」 영상: https://www.youtube.com/watch?v=ZpXWQZ3Nm1I]\n[* 참고: 고려대학교 응원곡 배치 분석 - 후반 주요곡 Forever·민족의 아리아·뱃노래: https://dh.aks.ac.kr/~jisun/edu/index.php/TeamCheerUpKU22]\n[* 참고: 2018 고려대·연세대 합동응원OT 「하늘 끝까지 vs Forever」: https://www.youtube.com/watch?v=BtvAP95UZVc]\n[* 참고: 2024 「하늘 끝까지 FOREVER」 연세대 메두사 × 고려대 엘리제 리믹스: https://www.youtube.com/watch?v=i0xQzFzU9V8]\n\n- 지금 익숙한 전반부의 ‘워-워-워’는 원래부터 구음으로 만들어진 부분이 아니었다고 전해진다. 2007년 공개 당시에는 달빛과 별빛, 낙엽 등을 소재로 한 별도의 가사가 있었지만 관중이 따라 부르기 어려워 멜로디를 ‘워’로 부르기 시작했고, 이것이 결국 현재 형태로 굳었다는 것. 현재 고려대학교 교우회 공식 응원가 자료에서도 이 부분은 아예 ‘구음’으로 표기돼 있다.\n[* 참고: 고려대학교 교우회 공식 응원가 자료 「FOREVER」: https://www.kuaa.or.kr/member/community/userDefaultBoardList.do?boardKind=pds_song]\n[* 참고: 고려대학교 응원가/2000년대 - Forever 과거 가사 정리: https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80]\n- 지금 후렴 사이에 들어가는 ‘에버!’ 추임새 역시 초창기부터 있던 것은 아니라고 전해진다. 후대에 자연스럽게 추가됐으며 처음에는 곡의 웅장한 분위기를 깨뜨린다는 반응도 있었다고 한다. 이제는 점프와 함께 빠질 수 없는 포인트가 됐으니, 관중이 실제로 부르는 과정에서 응원가 자체가 조금씩 바뀐 사례인 셈이다. 마지막 반복의 정식 가사도 미묘한 함정이 있는데, 교우회 공식 자료에는 앞부분의 ‘우리의 함성은 신화가 되리라’와 달리 마지막에는 ‘우리의 함성은 신화 되리라’로 적혀 있다. [* 참고: 고려대학교 교우회 공식 응원가 자료 「FOREVER」: https://www.kuaa.or.kr/member/community/userDefaultBoardList.do?boardKind=pds_song] [* 참고: 고려대학교 응원가/2000년대 - Forever 응원법 변화 정리: https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80]\n- 초청 가수가 이 응원가를 직접 부르는 장면도 종종 나온다. 특히 에이핑크는 2013년 입실렌티에서 편곡된 「Forever」를 부른 데 이어, 11년 뒤인 2024년 석탑대동제에서도 다시 이 곡을 불렀다. 정은지의 높은 음역과 학생들의 떼창이 그대로 맞물리는 덕분에 일반적인 초청가수 공연과는 조금 다른 장면이 만들어진다. [* 참고: KUTV 2024 석탑대동제 에이핑크 Forever 공연: https://www.youtube.com/watch?v=5G8MgU63K5A]\n- 프로야구에서는 LG 트윈스의 「승리의 노래」로도 계보가 이어졌다. 2014년 일간스포츠는 LG 응원단이 고려대의 「FOREVER」를 가져와 구단에 맞게 사용하고 있다고 직접 소개했다. LG에서는 이름 그대로 경기 후반 승리가 확정적이거나 승리한 뒤 부르는 곡으로 발전했다. [* 참고: 일간스포츠 「대학응원가와 프로 응원가는 왜 같을까」: https://sports.news.nate.com/view/20140208n04707]",
+      "lyrics": {
+        "lines": [
+          "워-워-워워워 워워워워",
+          "워-어어 워워 워워워워 (x2)",
+          "",
+          "우리의 함성은 신화가 되리라",
+          "울려라 이곳에 Forever (x2)",
+          "",
+          "(고대 연호)",
+          "",
+          "우리의 함성은 신화가 되리라",
+          "울려라 이곳에 Forever (x2)",
+          "",
+          "우리의 함성은 신화 되리라",
+          "울려라 이곳에 Forever",
+          "울려라 이곳에 Forever"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2007"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/ue2aWHrw4d8?si=Rblvg2NnLXLtkSlV&t=5",
+          "videoId": "ue2aWHrw4d8",
+          "title": "우리의 함성은 신화가 되리라! 'FOREVER 포에버' (KU) - [2024 고려대/연세대 합동응원OT]",
+          "channelName": "디카츄의 사진창고",
+          "attributionText": ""
+        },
+        {
+          "rank": 4,
+          "role": "additional",
+          "sourceUrl": "https://youtu.be/0I68AUpqaqc?si=7T8pHJp7zO4nHKuP&t=586",
+          "videoId": "0I68AUpqaqc",
+          "title": "[2026 고려대 입실렌티] 3부 응원제 - 불꽃놀이가 끝나고, 우리들의 청춘을 응원하는 시간 '고연가 / 화려 / 영타이거즈 / 포에버 / 민족의 아리아 / 뱃노래' 등 [4K]",
+          "channelName": "디카츄의 사진창고",
+          "attributionText": ""
+        },
+        {
+          "rank": 5,
+          "role": "additional",
+          "sourceUrl": "https://youtu.be/LhvXKRLd3As?si=hhVKKtatGqDXKOnH",
+          "videoId": "LhvXKRLd3As",
+          "title": "3부 응원의 시작, 'Forever + 엘리제를 위하여 + 들보기 + Young Tigers + 고노래' 2023 고려대학교 축제 IPSELENTI 4k 60p @녹지운동장",
+          "channelName": "Cheerss 치얼쓰",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "stratovarius-forever"
+        }
+      ],
+      "legacy": {
+        "year": 2007,
+        "timelineYear": 2007,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2007",
+        "originType": "adaptation",
+        "originNote": "Stratovarius의 ‘Forever’를 바탕으로 하며 간주에는 영화 ‘Cinema Paradiso’의 Love Theme가 쓰인다.",
+        "chronologyNote": "사용자가 지정한 2026 입실렌티 영상의 곡 시작 화면에 ‘Since 2007’이 표시된다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "고려대학교 응원단 온라인 응원 OT — Forever",
+            "url": "https://www.youtube.com/watch?v=GxSU75-9n4M",
+            "scope": "origin"
+          },
+          {
+            "label": "2026 입실렌티 — Since 2007 화면",
+            "url": "https://www.youtube.com/watch?v=C8jjjhSHK18&t=154s",
+            "scope": "chronology"
+          },
+          {
+            "label": "고대신문 — 2025 상반기 합동응원전",
+            "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=43692",
+            "scope": "usage"
+          }
+        ],
+        "description": "짧고 반복적인 후렴과 웅장한 선율로 대규모 떼창을 만드는 대표곡이며 민족의 아리아와 함께 인기 응원가의 양대 축으로 취급된다.",
+        "usageContext": "입실렌티와 합동응원전의 절정·마무리, 어깨동무와 점프 동작, 야간 휴대전화 조명, 신입생 응원 OT와 아티스트 축제 공연에 쓰인다."
+      },
+      "sourceRevision": 4,
+      "contentHash": "d7a8886b3107865783c1a5390721a9722de1a8c93f7b29719a043af6d3f8e7c1"
+    },
+    {
+      "id": "korea-university-kkureora-yonsei",
+      "organizationId": "korea-university",
+      "title": "꿇어라 연세",
+      "aliases": [
+        "꿇연",
+        "꿇어라 연세여"
+      ],
+      "symbolicLines": [
+        "꿇어라 연세여",
+        "이유도 묻지 말고 꿇어"
+      ],
+      "descriptionText": "제목부터 숨길 생각이 없는 고려대학교의 대표적인 라이벌 도발곡이다. “꿇어라 연세여”, “이것이 너와 나의 눈높이”처럼 처음부터 끝까지 연세대학교를 직접 겨냥한 가사로 채워져 있다. 2013년 신곡으로 등장한 뒤 정기 고연전과 양교가 함께하는 합동응원전에서 꾸준히 불려왔다. 상대 학교를 놀리는 가사와 관중 전체가 함께하는 야유 동작이 결합돼, 고려대의 라이벌 응원가 가운데서도 특히 직설적인 축에 속한다. [* 참고: 2013 고려대·연세대 합동 응원 OT 「꿇어라 연세」: https://www.youtube.com/watch?v=Gl7MqcE9ehA] [* 참고: 고려대학교 응원가 「꿇어라 연세」 정리: https://www.readonly.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80]\n\n원곡은 Taio Cruz가 Flo Rida와 함께 2011년 발표한 「Hangover」다. 술을 마신 다음 날의 숙취를 노래하던 원곡의 강한 전자음과 반복적인 ‘워어어’ 후렴을 거의 그대로 살리면서, 고려대판에서는 그 자리에 “꿇어라 연세여”를 집어넣었다. 이어지는 “이것이 너와 나의 눈높이”까지 더해지면서 원곡의 파티 음악은 상대 학교를 대놓고 약 올리는 응원가로 완전히 성격이 바뀌었다. [* 참고: Taio Cruz feat. Flo Rida 「Hangover」 공식 음원: https://www.youtube.com/watch?v=5ydnBckk_yM] [* 참고: Apple Music Taio Cruz 「Hangover」: https://music.apple.com/us/album/hangover-feat-flo-rida-single/1445152159] [* 참고: 고려대학교 「꿇어라 연세」 원곡·가사 정리: https://www.readonly.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80]\n\n동작 역시 가사만큼 노골적이다. 연세대학교를 상징하는 Y자를 양팔로 크게 만들었다가 야유와 함께 내리고, “꿇어라”라는 가사에 맞춰 몸을 낮췄다가 다시 일어나는 동작이 반복된다. “이것이 너와 나의 눈높이”에서는 상대를 아래에 두는 가사의 의미까지 몸동작으로 그대로 표현한다. 단순히 연세대를 언급하는 정도가 아니라 가사, 야유, 동작이 모두 같은 농담을 향하고 있다는 점이 이 곡의 특징이다. [* 참고: 고려대학교 「꿇어라 연세」 응원법 정리: https://www.readonly.wiki/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80] [* 참고: 2018 고려대·연세대 합동응원전 「꿇어라 연세」: https://www.youtube.com/watch?v=4-nXQHePLzc]\n\n흥미로운 점은 이렇게 노골적인 디스곡이 상대 학교가 바로 앞에 앉아 있는 합동응원전에서도 정식으로 불린다는 것이다. 고려대가 「꿇어라 연세」를 부르면 연세대 역시 「고밟꿈」이나 「K.O.대」처럼 고려대를 겨냥한 곡으로 받아치는 식으로, 서로를 놀리는 것 자체가 양교 합동응원의 한 순서가 됐다. 고대신문 역시 합동응원 현장을 두고 양교가 초반에는 서로를 향해 공격적인 구호와 노래를 주고받다가 이후에는 상대 학교 응원가까지 함께 부르는 모습을 기록했다. 그래서 「꿇어라 연세」의 거친 가사는 행사 전체의 적대감을 뜻한다기보다, 고연전 특유의 라이벌 놀이에 가까운 셈이다. [* 참고: 고대신문 「호랑이와 독수리, 사활 건 응원 전쟁」: https://www.kunews.ac.kr/news/articleView.html?idxno=40685] [* 참고: 2018 고려대·연세대 합동응원전 「꿇어라 연세」: https://www.youtube.com/watch?v=4-nXQHePLzc]\n\n최근에도 이런 라이벌곡 묶음 속에서 살아남아 있다. 2026년 신입생 응원 OT에서는 또 다른 연세대 도발곡인 「쎄쎄쎄」와 연이어 등장했고, 같은 해 합동응원에서도 「연세치킨」과 연세대의 「K.O.대」 같은 양교 라이벌곡들이 한 구간에 몰려 공연됐다. 평소 입실렌티의 대표곡처럼 언제나 부르는 노래라기보다, 상대 학교가 있을 때 가장 제맛이 나는 고연전·합동응원 특화곡에 가깝다. [* 참고: 2026 고려대 신입생 응원 OT 「꿇어라 연세」·「쎄쎄쎄」 공연 기록] [* 참고: 2026 상반기 고려대·연세대 합동응원전 라이벌 응원 구간: https://www.youtube.com/watch?v=Gkr3IrQTbxo]\n\n-「꿇어라 연세」는 등장 초기부터 합동응원에서 공연됐다. 상대 학교를 직접 겨냥하는 곡을 상대 학생들이 보는 앞에서 부르는 지금의 방식이 나중에 생긴 것이 아니라, 적어도 2013년 합동 응원 OT 때부터 이미 확인된다. 10년 넘게 같은 구조가 유지됐다는 점에서 양교의 라이벌 도발 자체가 하나의 응원 문화로 정착한 사례라고 볼 수 있다. [* 참고: 2013 고려대·연세대 합동 응원 OT --「꿇어라 연세」: https://www.youtube.com/watch?v=Gl7MqcE9ehA]\n가사 중 “이것이 너와 나의 눈높이”는 곡이 처음 등장하던 2013년 고연전 현수막에서도 그대로 사용될 만큼 빠르게 유행했다. 당시 고연전 현수막에는 「꿇어라 연세」의 문구를 비롯해 양교가 서로를 놀리는 각종 유행어와 패러디가 함께 등장했다. 응원가의 한 구절이 노래 밖의 라이벌 문화로까지 번진 사례다. [* 참고: 「흔한 연고전 현수막 2013.ver」: https://m.pann.nate.com/feed/319446878]",
+      "lyrics": {
+        "lines": [
+          "꿇어라 연세여 워어어",
+          "이유도 묻지 말고 꿇어",
+          "꿇어라 연세여 워어어",
+          "이유도 묻지 말고 빌어",
+          "",
+          "이것이 너와 나의 눈높이 (x4)",
+          "",
+          "워어 워어어어 워어어 (x4)",
+          "",
+          "이러다 새되겠네 연세",
+          "우리가 잘나가는 고대 이예",
+          "이러다 새되겠네 연세",
+          "우리가 잘나가는 고대 이예",
+          "",
+          "워어 워어어어 워어어 (x4)",
+          "",
+          "꿇어라 연세여 워어어",
+          "이유도 묻지 말고 꿇어",
+          "꿇어라 연세여 워어어",
+          "이유도 묻지 말고 빌어",
+          "",
+          "이것이 너와 나의 눈높이 (x4)",
+          "",
+          "꿇어라 연세여 워어어",
+          "꿇어라 연세여 워어어",
+          "꿇어라 연세여 워어어",
+          "꿇어라 연세여"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2013년 신곡"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/-LKKPuk2uO4?si=vRfv6meWHv3ztsQx&t=169",
+          "videoId": "-LKKPuk2uO4",
+          "title": "2025 합동응원 2부 I 고양이vs참새, 사이좋게 긁는 시간 I 야생마(Y) / 꿇어라 연세(K) / 아리요(Y) / 우리는 고대(K) / WOO(Y) / 연세치킨(K) #합응",
+          "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+          "attributionText": ""
+        },
+        {
+          "rank": 2,
+          "role": "featured-field",
+          "sourceUrl": "https://youtu.be/T-Zm5qt03xU?si=6CXJRIxmitAo6UVU&t=194",
+          "videoId": "T-Zm5qt03xU",
+          "title": "[2022 합동응원] '룩셈부르크' vs '꿇어라 연세'  - 합응 I 고연전 I 연고전",
+          "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "taio-cruz-hangover"
+        }
+      ],
+      "sourceRevision": 5,
+      "contentHash": "afa206b8daeab18e00e41671ecf3a273c9099abe329a9e9c7d4cfe42e5d6753c"
+    },
+    {
+      "id": "korea-university-minjogui-aria",
+      "organizationId": "korea-university",
+      "title": "민족의 아리아",
+      "aliases": [
+        "민아",
+        "아리아",
+        "서울의 아리아"
+      ],
+      "symbolicLines": [
+        "조국의 영원한",
+        "고동이 되리라"
+      ],
+      "descriptionText": "고려대학교를 대표하는 응원가이자, 고려대 응원가 가운데 가장 사랑받는 곡 중 하나다. 장중한 선율과 수천 명이 함께 부르는 무반주 떼창이 특히 유명하며, 입실렌티와 정기 고연전을 비롯한 주요 응원 행사에서 빠지지 않는 대표곡으로 자리잡았다. 고려대학교 역시 개교 120주년 사업에서 이 곡을 직접 ‘고려대에서 가장 사랑받는 응원가’라고 소개하고 있다.[* 고려대학교 120주년 ‘제2의 민족의 아리아’ 공모전: https://120.korea.ac.kr/project/view?idx=54]\n\n원곡은 이탈리아의 팝페라 테너 Andrea Bocelli가 2001년 발표한 〈Melodramma〉다. 고려대학교 응원단은 2003년 정기 고연전을 앞두고 새로운 응원가를 준비하던 중 온라인 음원 사이트의 가곡·클래식 차트에서 이 곡을 찾아 응원가로 편곡했고, 조지훈의 ‘호상비문’을 바탕으로 가사를 붙여 ‘민족의 아리아’를 만들었다. 고려대학교 교우회 연표에도 2003년 ‘민족의 아리아 초연’이 공식적으로 기록돼 있다.[* 응원단 음악부 제작 과정 취재: https://sports.news.nate.com/view/20140208n04707][* 고려대학교 교우회 연표: https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0]\n\n당시 연세대학교의 ‘서시’가 큰 인기를 얻은 것도 제작 배경 중 하나로 전해진다. ‘서시’의 장중한 분위기가 좋은 반응을 얻자 고려대에서도 이에 맞설 수 있는 신곡을 준비했고, 그렇게 등장한 곡이 ‘민족의 아리아’였다. 직접적인 멜로디나 가사를 가져온 관계는 아니지만, 양교가 고연전의 응원 문화로 서로 영향을 주고받던 과정에서 탄생한 곡이라고 볼 수 있다.[* 2014년 고려대학교 응원단 음악부 취재: https://sports.news.nate.com/view/20140208n04707]\n\n가사의 뿌리는 곡보다 훨씬 오래됐다. 1965년 학생들의 성금으로 세워진 고려대학교 호상 아래에는 당시 국어국문학과 교수였던 조지훈이 지은 ‘호상비문’이 새겨져 있다. ‘자유’, ‘정의’, ‘진리’, ‘지축을 박차고 포효하라’와 같이 현재 민족의 아리아에서 익숙한 표현들이 이 비문에서 나왔다. 응원가에서는 호상비문의 핵심 구절을 압축하고 재구성해 가사로 사용한다.[* 고대신문의 호상비문 설명: https://www.kunews.ac.kr/news/articleView.html?idxno=30353][* 고려대학교 교우회 공식 ‘민족의 아리아’ 가사: https://www.kuaa.or.kr/member/community/userDefaultBoardView.do?boardKind=pds_song&seqStr=37&actionMode=R]\n\n이러한 관계 때문에 응원 행사에서는 노래에 앞서 호상비문을 먼저 낭독하기도 한다. 2024년 공식 응원 OT에서도 호상비문을 낭독한 직후 민족의 아리아로 이어지는 순서를 확인할 수 있다. 1965년 호상에 새겨진 글이 수십 년 뒤 응원가의 가사가 되고, 다시 현재의 학생들이 그 원문을 읽은 뒤 노래를 부르는 방식으로 이어지고 있는 셈이다.[* KUTV 2024 응원 OT - 호상비문 및 민족의 아리아: https://www.youtube.com/watch?v=0S19q-wYtgQ&t=12690s]\n\n실제로 합동응원전에서는 응원단장이 “민족 고대생이 가장 사랑하는 응원곡”, “가슴에서 가슴으로 부르는 응원곡”과 같은 소개와 함께 분위기를 끌어올린 뒤 민족의 아리아로 넘어가는 모습을 볼 수 있다. 라이벌인 연세대 학생들이 가장 부러워하는 고려대 응원가라는 소개도 자주 붙을 만큼, 고려대 내부를 넘어 양교 응원 문화에서도 특별한 위치를 차지한다.[* 2024 합동응원 ‘민족의 아리아’ 소개: https://www.youtube.com/shorts/Icx_EDPJizo][* 2024 합동응원 후기 및 곡 소개: https://hermeshyun.tistory.com/296][* DUGOUT LG 트윈스 응원가 기사 - LG 트윈스 응원가를 소개하면서도 고려대의 민족의 아리아를 연세대생들이 부러워할 정도의 응원가로 언급한다: https://v.daum.net/v/EDCqEsbvJl]\n\n현장에서 가장 유명한 부분은 후반부의 무반주 떼창이다. 반주가 멈추고 관중의 목소리만 남은 상태에서 수천 명이 같은 선율을 육성으로 이어가며, 이 장면이 사실상 민족의 아리아를 상징하는 하이라이트로 자리잡았다. 특히 호상비문에서 가져온 장중한 가사와 무반주 합창이 겹치면서 다른 응원가와는 상당히 다른 분위기를 만든다.[* 2026 합동응원 본곡·무반주 구간: https://www.youtube.com/watch?v=v4mp82NpLyk&t=287s]\n\n이 무반주에는 유명한 탄생 일화도 있다. 2003년 정기전 축구장에서 응원하던 중 고려대 측 스피커에 문제가 생겨 우연히 반주가 끊겼는데, 학생들이 오히려 더 큰 목소리로 노래를 이어간 것이 좋은 반응을 얻어 이후 현재의 무반주 응원으로 굳어졌다는 이야기다. 여러 응원가 관련 자료와 기사에서 반복해서 전해지지만 당시 현장 기록까지 확인된 것은 아니므로 일종의 전설에 가까운 이야기로 보는 편이 좋다.[* 무반주 탄생 일화를 소개한 스포츠니어스 기사: https://www.sports-g.com/news/articleView.html?idxno=10058]\n\n석탑대동제에 초청된 가수들이 직접 이 곡을 부르는 모습도 자주 볼 수 있다. 2022년 잔나비를 비롯해 2023·2024년 YB, 2024년 이무진, 2025년 비투비 등 여러 아티스트가 자신의 공연 도중 민족의 아리아를 학생들과 함께 불렀다. 단순히 응원단의 레퍼토리에 머무르지 않고, 초청 가수가 관객과 함께 부르는 일종의 축제 레퍼토리로도 자리잡은 셈이다. 특히 YB는 이 곡을 록 스타일로 편곡해 공연하며 원곡과는 또 다른 분위기를 만들어냈다.[* 2022 석탑대동제 잔나비 ‘민족의 아리아’: https://www.youtube.com/watch?v=EXQP6ZJ1nlY][* 2024 석탑대동제 이무진 ‘민족의 아리아’: https://www.youtube.com/watch?v=X1X8IksCGVM][* 2024 석탑대동제 YB ‘민족의 아리아’: https://www.youtube.com/watch?v=PjPRGRPt1ew][* 2025 석탑대동제 비투비 공연 - 13:06부터 민족의 아리아: https://www.youtube.com/watch?v=TRPgLbxMzDU]\n\n민족의 아리아가 받는 호평은 고려대학교 안에만 머물지 않는다. 합동응원에서도 곡의 인기를 언급할 정도이고, 공연 영상에는 고려대와 관계없는 시청자들이 웅장한 선율과 무반주 떼창을 높게 평가하는 반응이 꾸준히 이어진다. ‘애국가로 선정해야 한다’는 식의 과장 섞인 찬사까지 등장할 만큼, 학교에 대한 배경지식 없이 곡 자체만 듣고도 강한 인상을 받는 사람이 많은 응원가다. 여러 초청 가수들이 자신의 무대에서 직접 부르고, 프로스포츠에서도 같은 선율을 가져가 응원가로 사용하고 있다는 점 역시 이러한 대중성을 보여주는 사례다.[* 민족의 아리아에 대한 타교·타팀 팬 반응을 소개한 스포츠니어스 기사: https://www.sports-g.com/news/articleView.html?idxno=10058][* DUGOUT LG 트윈스 응원가 기사: https://v.daum.net/v/EDCqEsbvJl]\n\n20년이 넘는 시간이 흘렀지만 여전히 고려대 대표 응원가의 기준점으로 취급된다. 실제로 개교 120주년을 맞은 2025년에는 학교가 아예 ‘제2의 민족의 아리아’를 찾는 응원곡 공모전을 개최했다. 새로운 대표 응원가를 찾는 공식 행사에서조차 ‘민족의 아리아’가 기준으로 제시됐다는 점에서 이 곡이 현재 고려대 응원 문화에서 갖는 위치를 확인할 수 있다. 총 5곡이 수상작으로 선정됐으며 금상에는 ‘불멸의 함성’이 뽑혔다.[* 고려대학교 ‘제2의 민족의 아리아’ 공모전: https://120.korea.ac.kr/project/view?idx=54][* 고려대학교 공모전 시상 보도: https://www.korea.ac.kr/bbs/ko/42/120849/artclView.do]\n\n- 곡 선정 과정에는 꽤 유명한 일화가 있다. 2003년 신곡 회의를 앞둔 응원단원이 전날 막걸리를 마신 뒤 늦잠을 자는 바람에 급하게 벅스뮤직 가곡 부문 인기곡을 훑어 후보곡을 가져왔고, 그 가운데 있던 〈Melodramma〉가 결국 민족의 아리아의 원곡으로 선택됐다는 이야기다. 당시 온라인 음원 사이트의 가곡·클래식 차트에서 후보곡을 찾았다는 사실까지는 응원단 음악부 취재를 통해 확인되지만, 막걸리와 늦잠에 관한 부분은 공식적으로 확인되지 않은 유명한 일화에 가깝다.[* 2014년 고려대학교 응원단 음악부 취재: https://sports.news.nate.com/view/20140208n04707][* 민족의 아리아 관련 기록: https://namu.wiki/w/%EB%AF%BC%EC%A1%B1%EC%9D%98%20%EC%95%84%EB%A6%AC%EC%95%84]\n- 2019년 KUTV에서는 고려대학교 16개 단과대학 학생들이 각자의 공간에서 민족의 아리아를 한 부분씩 나눠 부른 뒤 하나의 곡으로 연결한 영상을 제작하기도 했다. 경기장이나 응원제를 벗어나 고려대학교 전체를 상징하는 곡으로 활용되는 모습을 잘 보여준다.[* KUTV 16개 단과대학 ‘민족의 아리아’: https://www.youtube.com/watch?v=LIxcLsvUjWU]\n- 고려대학교 입학처가 2013년 공개한 공식 학교 홍보영상에도 민족의 아리아가 사용됐다. 이후 영상 댓글에 자신의 목표 학번을 적었다가 실제 합격 후 다시 찾아오는 수험생들이 이어지면서, 응원가 영상이 예비 고려대생들의 작은 소원 게시판처럼 사용되기도 했다.[* 고려대학교 입학처 2013 홍보영상: https://www.youtube.com/watch?v=v4jTwzvwb98]\n- 2025년 개교 120주년 열린음악회에서는 김경호가 민족의 아리아를 부르며 관객들과 대규모 합창을 만들기도 했다. 대동제뿐 아니라 개교 기념 행사에서도 학교를 대표하는 곡으로 사용되는 모습을 보여준다.[* 김경호 2025 KBS 공연: https://www.youtube.com/watch?v=LB_ne2nQ4wM]\n- 2003년에 만들어진 곡인 만큼 그보다 앞서 학교를 다닌 교우들에게는 오히려 후배 세대의 응원가이기도 하다. 2025년 고려대 경영대 행사에서는 98학번 교우들이 가족들과 함께 민족의 아리아 응원을 새로 배우는 모습도 나왔다. 오래된 전통이 선배에게서 후배에게 내려오는 것과 반대로, 후대에 만들어진 응원 문화가 이전 세대 교우들에게 다시 전해지는 모습인 셈이다.[* 고려대학교 경영대 교우·가족 행사: https://biz.korea.ac.kr/user/search_view?fd=s21&no=4219&tkey=]\n- 선율과 가사 구성은 프로스포츠에도 널리 퍼졌다. 프로야구에서는 키움 히어로즈의 ‘승리를 위한 함성’, LG 트윈스의 ‘서울의 아리아’, kt wiz의 ‘승리의 함성’이 같은 〈Melodramma〉 선율을 바탕으로 만들어졌다. 특히 키움과 LG의 응원가는 선율뿐 아니라 민족의 아리아와 비슷한 가사 구성까지 사용한다. 프로농구 창원 LG 세이커스에서도 ‘창원의 아리아’라는 이름으로 사용해 같은 계열의 응원가가 야구와 농구 양쪽에 자리잡았다.[* 프로야구의 대학 응원가 차용 관련 기록: https://enhawiki.kr/wiki/%EC%9C%84%ED%82%A4%EB%8F%85%3A%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC_%EC%9D%91%EC%9B%90%EA%B0%80/%EC%97%B0%EA%B3%A0%EB%8C%80_%EC%9D%91%EC%9B%90%EA%B0%80_%EB%AA%A8%ED%8B%B0%EB%B8%8C][* LG 트윈스 ‘서울의 아리아’ 및 창원 LG 세이커스 사용 기록: https://namu.wiki/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80]",
+      "lyrics": {
+        "lines": [
+          "타오르는 자유",
+          "나아가는 정의",
+          "솟구치는 진리",
+          "민족의 힘으로",
+          "",
+          "자 지축을 박차고 자 포효하라 그대",
+          "조국의 영원한 고동이 되리라",
+          "자 지축을 박차고 자 포효하라 그대",
+          "조국의 영원한 고동이 되리라",
+          "",
+          "",
+          "타오르는 자유",
+          "나아가는 정의",
+          "솟구치는 진리",
+          "민족의 힘으로",
+          "",
+          "자 지축을 박차고 자 포효하라 그대",
+          "조국의 영원한 고동이 되리라",
+          "자 지축을 박차고 자 포효하라 그대",
+          "조국의 영원한 고동이 되리라",
+          "",
+          "조국의 영원한 고동이 되리라"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "since 2003"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/NyGY9kQzO04?si=Xo5r60NkN2iKDdjV&t=177",
+          "videoId": "NyGY9kQzO04",
+          "title": "2023 고려대학교 축제 - 응원 3대 명곡 'Forever + 민족의 아리아 + 뱃노래' IPSELENTI 입실렌티 4k 60p 고대 Korea University @녹지운동장",
+          "channelName": "Cheerss 치얼쓰",
+          "attributionText": ""
+        },
+        {
+          "rank": 2,
+          "role": "featured-field",
+          "sourceUrl": "https://youtu.be/v4mp82NpLyk?si=zoQ1wyFiVZRNboiw&t=163",
+          "videoId": "v4mp82NpLyk",
+          "title": "[2026 고려대/연세대 합동응원전] 양교 최고의 응원곡. '민족의 아리아 vs 연세여 사랑한다' #고려대학교응원단 #연세대학교응원단 #합응 #떼창 #고려대 #연세대 [4K60P]",
+          "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+          "attributionText": ""
+        },
+        {
+          "rank": 3,
+          "role": "additional",
+          "sourceUrl": "https://youtu.be/n7MjpWDO8ZA?si=Q1eXLFPzO7WLefSV",
+          "videoId": "n7MjpWDO8ZA",
+          "title": "고려대 X 연세대, 응원으로 하나 된 순간 | 2026 상반기 합동응원전 #포에버 #연세여사랑한다 #민족의아리아",
+          "channelName": "고려대학교 교육방송국 KUBS",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "andrea-bocelli-melodramma"
+        }
+      ],
+      "legacy": {
+        "year": 2003,
+        "timelineYear": 2003,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2003",
+        "originType": "adaptation",
+        "originNote": "Andrea Bocelli의 ‘Melodramma’를 바탕으로 조지훈의 호상비문을 응원가 가사에 반영했다.",
+        "chronologyNote": "2003년 아카라카 뒤 같은 해 고연전에서 선보였다는 고려대 응원단 음악부 취재와 교우회 연표가 일치한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "대학응원가와 프로 응원가는 왜 같을까",
+            "url": "https://sports.news.nate.com/view/20140208n04707",
+            "scope": "chronology"
+          },
+          {
+            "label": "고려대학교 교우회 고연전 100주년 연표",
+            "url": "https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0",
+            "scope": "chronology"
+          },
+          {
+            "label": "고대신문 — 청록색의 정신을 보다",
+            "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=40181",
+            "scope": "origin"
+          }
+        ],
+        "description": "고려대학교를 대표하는 장중한 군중 응원곡이다. 학교의 자유·정의·진리와 호랑이상을 연결하고, 후반부 무반주 떼창이 강한 상징으로 인식된다.",
+        "usageContext": "입실렌티와 고연전의 절정, 응원 OT·입학식, 무반주 육성 떼창, 학교 홍보와 교내 합창·축제 편곡 공연에 쓰인다."
+      },
+      "sourceRevision": 8,
+      "contentHash": "9bf9e28c780fb4d2a4156f90cd76105c4f94a5f4a9bccc99f66bba1f352dde93"
+    },
+    {
+      "id": "korea-university-seungni-ui-hamseong",
+      "organizationId": "korea-university",
+      "title": "승리의 함성",
+      "aliases": [
+        "승리의 라인업"
+      ],
+      "symbolicLines": [
+        "승리의 함성 외쳐라 고대",
+        "영원한 승리 노래하라"
+      ],
+      "descriptionText": "고려대학교 개교 120주년과 정기 고연전 60주년이 겹친 2025년에 등장한 신곡이다. 제목 그대로 ‘함성’을 전면에 내세운 곡으로, 길고 복잡한 가사보다는 모두가 하나 된 목소리로 승리를 만들어낸다는 메시지와 선창·후창을 중심으로 구성돼 있다. 단장이 승리를 외치면 관중이 곧바로 받아치는 구간이 반복돼, 처음 듣더라도 현장에서 빠르게 끼어들 수 있는 것이 특징이다. 2025년 서울 응원 OT와 하반기 합동응원전에서 신곡으로 선보인 뒤 이듬해 입실렌티까지 이어졌다. [* 참고: 고려대학교 120주년 기념사업 「제2의 민족의 아리아」 응원곡 공모전: https://120.korea.ac.kr/project/view?idx=54] [* 참고: 2025 고려대·연세대 합동응원전 「승리의 함성」: https://www.youtube.com/watch?v=2IGQJiu_5dI]\n\n2025 정기 고연전 야구에서는 이 응원가를 선수 소개에 맞게 바꾼 「승리의 라인업」이 등장해, 고려대 선수들이 차례로 소개되는 동안 관중이 함께 구호를 외치는 방식으로 활용됐다. 이어 2026년 입실렌티에서는 같은 시기 신곡인 「012: 영원히」에 이어 별도의 곡으로 다시 공연됐다. 공개 당시에는 120주년 기념 응원가라는 성격이 강했지만, 다음 해에도 정식 무대에 다시 올라오면서 일반 응원 레퍼토리로 이어지는 모습이 확인됐다. 아직 등장한 지 1년 남짓이라 앞으로 고연전이나 합동응원에서 어떤 자리를 맡게 될지는 더 지켜봐야 하지만, 적어도 일회성 기념곡에서 끝나지는 않은 셈이다. [* 참고: 2026 입실렌티 「012: 영원히」·「승리의 함성」 공연 기록: https://www.youtube.com/watch?v=bUelhg5cc0E]\n\n- 「승리의 함성」의 탄생 과정에는 흥미로운 제목 변화가 남아 있다. 고려대학교는 개교 120주년을 맞아 ‘제2의 민족의 아리아’를 찾는 응원곡 공모전을 열었고, 2025년 6월 금상으로 전민(미디어21)의 「불멸의 함성」을 선정했다. 이후 응원단이 수상곡에 편곡과 응원 동작을 더해 정기 고연전 등에서 공식 응원곡으로 활용할 예정이라고 밝혔다. 그런데 같은 120주년 기념사업 페이지에는 그해 10월 최종 결과가 ‘개교 120주년 기념 응원가 「승리의 함성」’이라는 제목으로 올라왔다. 금상 수상자 본인 역시 이후 자신의 이력에 ‘고려대학교 응원가 공모전 「승리의 함성」 금상 수상’이라고 적고 있어, 「불멸의 함성」이 실제 응원가로 다듬어지는 과정에서 「승리의 함성」으로 제목이 바뀐 정황이 강하다. 다만 학교가 제목 변경 과정을 직접 설명한 자료는 아직 확인되지 않는다. [* 참고: 고려대학교 120주년 기념사업 「제2의 민족의 아리아」 응원곡 공모전 및 「승리의 함성」 공지: https://120.korea.ac.kr/project/view?idx=54]\n- 공모전 금상 수상자 전민은 당시 군 복무 중에 곡을 완성했다. 학교 공식 시상식 기사에서 그는 “모두가 하나 되어 열띤 응원을 펼칠 수 있는 곡”을 만들고 싶었다고 제작 의도를 설명했다. 실제 완성된 「승리의 함성」 역시 한 명이 길게 노래하기보다 짧은 합창과 관중의 응답을 반복하는 구조라, 이 제작 의도가 현장 응원 방식에도 그대로 남아 있다고 볼 수 있다.\n- 공개 직후부터 재학생 무대에만 머문 것은 아니다. 2025년 말에는 고려대 95학번 동기회가 「승리의 함성」을 별도로 공연한 영상도 남아 있어, 나온 지 얼마 되지 않은 신곡을 동문들이 바로 다시 부르는 모습도 확인할 수 있다. [* 참고: 고려대학교 95학번 동기회 「승리의 함성」 공연: https://www.youtube.com/watch?v=ZWD2IfY_SW0]\n- 같은 제목의 다른 유명한 곡으로는 트랜스픽션이 2010년 남아공 월드컵을 앞두고 발표한 「승리의 함성(The Shouts of Reds)」이 있다. 빅뱅과 김연아 등이 참여한 버전으로도 널리 알려졌지만, 현재 확인되는 자료상 고려대학교가 2025년에 발표한 「승리의 함성」과 음악적인 관계는 없다. 이름만 같은 별개의 응원가이므로 검색하거나 관련 자료를 찾아볼 때 서로 혼동하지 않도록 주의할 필요가 있다. [* 참고: 연합뉴스 「빅뱅ㆍ김연아ㆍ트랜스픽션, 월드컵 응원」: https://cb.yna.co.kr/gate/big5/m-cn.yna.co.kr/view/AKR20100621044100005]",
+      "lyrics": {
+        "lines": [
+          "우리의 응원 하나가 되어",
+          "뜨거운 오늘을 노래하라",
+          "승리의 함성 외쳐라 고대",
+          "영원한 승리 노래하라",
+          "",
+          "",
+          "승리를 위하여 함성을 외쳐라",
+          "우리는 승리한다 (x2)",
+          "",
+          "",
+          "우리의 응원 하나가 되어",
+          "뜨거운 오늘을 노래하라",
+          "승리의 함성 외쳐라 고대",
+          "영원한 승리 노래하라",
+          "",
+          "영원한 승리 노래하라"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2025"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "featured-field",
+          "sourceUrl": "https://youtu.be/f32A-jjTbjE?si=5p64LnWny-JW85Gp&t=1080",
+          "videoId": "f32A-jjTbjE",
+          "title": "[4k] 2026 고려대 입실렌티 1부 응원제(1) '엘리제를 위하여' 부터 '민족의 아리아' 까지!  #입실렌티 #고려대응원가 #민족의아리아 #고려대축제 #엘리제 #석탑",
+          "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+          "attributionText": ""
+        },
+        {
+          "rank": 2,
+          "role": "additional",
+          "sourceUrl": "https://youtu.be/u39SUZ-HPQU?si=ZxfM0Nb_iOOjnTTZ&t=54",
+          "videoId": "u39SUZ-HPQU",
+          "title": "[2025 고연전 응원] 야구 경기 시작. '승리의 라인업 & Young Tigers' #고연전야구 #고려대응원가 #2025고연전 #고연전 #부단장 바람 [4k60p]",
+          "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [],
+      "sourceRevision": 5,
+      "contentHash": "cff3f79473ee3531f8205904e939249aa01fb3a1fa33cbb60caaecd1aa0a6768"
+    },
+    {
+      "id": "korea-university-yeongwonhara",
+      "organizationId": "korea-university",
+      "title": "영원하라",
+      "aliases": [
+        "고대여 영원하라"
+      ],
+      "symbolicLines": [
+        "새 역사를 이루리라",
+        "고/려/대/학"
+      ],
+      "descriptionText": "바이올린이 이렇게까지 공격적일 수 있나 싶은 곡이다. 2004년 등장한 「영원하라」는 빠르게 몰아치는 전자 바이올린 위에 고려대의 혼과 단결, 새로운 역사를 외치는 가사를 얹은 응원가다. 20년 넘은 곡이지만 시작부터 귀를 잡아끄는 날카로운 바이올린 리프 덕분에 지금도 쉽게 묻히지 않는다. 특히 입실렌티에서는 기수부 응원에 자주 사용되며, 매년 빠지지 않고 꾸준히 등장하는 오래된 현역 레퍼토리이기도 하다. [* 참고: 2024 입실렌티 「영원하라」 영상(Since 2004 표기): https://www.youtube.com/watch?v=AnLm-gnWA9c&t=263s] [* 참고: 2026 입실렌티 기수부 「영원하라」 공연: https://www.youtube.com/watch?v=2vyDJDlLgm8&t=264s]\n\n원곡은 전자 바이올리니스트 Vanessa-Mae가 1995년 앨범 《The Violin Player》에 수록한 「Contradanza」다. Mike Batt가 작곡한 기악곡으로 원래부터 보컬이 없기 때문에, 고려대판에서는 빠른 바이올린 선율 위에 새로운 가사와 구호를 얹었다. 1990년대 크로스오버 바이올린 음악과 ‘민족의 혼’, ‘새 역사’ 같은 전통적인 고려대식 표현이 한 곡 안에서 만나는 의외의 조합이다. [* 참고: Apple Music Classical Vanessa-Mae 《The Violin Player》 - Contradanza: https://classical.music.apple.com/us/album/1465123736]\n\n응원 동작은 어깨동무를 한 채 빠른 박자에 맞춰 '왼쪽, 오른쪽, 숙이고, 들고'를 반복하는 것이 기본이다. 이 동작에 구호를 넣어 박자를 맞추기도 해 「Forever」처럼 줄 전체가 같은 타이밍으로 움직이는 것이 중요하다. 그러다가 “고! 려! 대! 학!” 구간에 들어가면 동작이 단순해져, 각 음절 사이의 “어이!”에 맞춰 숙이고 들기를 빠르게 반복한다. 곡 자체의 속도가 빠른 데다 상체를 계속 크게 움직여야 해서 보기보다 체력 소모도 상당하다. [* 참고: 고려대학교 「영원하라」 응원법 정리: https://www.namu.moe/w/%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%EB%8C%80]\n\n「영원하라」가 특히 눈에 띄는 순간은 기수부와 함께할 때다. 입실렌티에서는 대형 깃발이 빠른 전자 바이올린에 맞춰 움직이고, 그 아래에서는 관중들이 어깨를 걸고 같은 동작을 반복한다. 이 때문에 곡만 들을 때보다 실제 현장에서 훨씬 강한 인상을 남긴다. [* 참고: 2018 입실렌티 단장·Young Tigers 「영원하라」 공연: https://www.youtube.com/watch?v=XIMC4SZjx8I] [* 참고: 2026 입실렌티 기수부 「영원하라」 공연: https://www.youtube.com/watch?v=2vyDJDlLgm8&t=264s]\n\n합동응원전에서도 빠르고 몰아치는 성격을 살려 비슷한 템포의 곡과 함께 배치된다. 2026년 합동응원에서는 연세대학교의 「오늘 밤 새」와 연속으로 등장해 양교의 빠른 응원곡이 차례로 이어지는 구도를 만들었다. 「민족의 아리아」나 「Forever」처럼 길게 떼창하는 곡보다는, 빠른 구호와 반복 동작으로 한 번에 분위기를 끌어올리는 쪽에 가까운 응원가다. [* 참고: 2026 고려대·연세대 합동응원 「영원하라 - 오늘 밤 새」: https://www.youtube.com/watch?v=Mx2Mw4fqyRU]\n\n- 프로야구에서는 롯데 자이언츠의 「소리높여 외쳐보자」, 통칭 「영원하라」로도 이어졌다. 고려대판을 롯데의 승리와 구단명을 외치는 내용으로 바꾼 응원가로, 원곡의 빠른 전자 바이올린과 합창 구조가 그대로 남아 있다. 그래서 롯데 응원가를 먼저 접한 사람이 고려대 「영원하라」를 듣고 익숙함을 느끼는 경우도 있다. [* 참고: 일간스포츠 「대학응원가와 프로 응원가는 왜 같을까」: https://sports.news.nate.com/view/20140208n04707]\n- 2004년 「영원하라」가 처음 등장한 입실렌티에서는 전자 바이올리니스트 유진 박이 직접 반주했다는 이야기도 오래 전해진다. 원곡 자체가 전자 바이올린을 전면에 내세운 곡이라 상당히 그럴듯한 일화지만, 현재 확인할 수 있는 당시 공식 프로그램이나 영상 자료는 부족해 제작 당시의 기록이라기보다는 전승되는 일화 정도로 보는 편이 안전하다.",
+      "lyrics": {
+        "lines": [
+          "자 고대여 민족의 혼",
+          "깨어나라 영원하라",
+          "",
+          "아 가슴속 믿음으로",
+          "아 너와나 하나되어",
+          "새 역사를 이루리라",
+          "고!(어이!) 려!(어이!) 대!(어이!) 학!(어이!)",
+          "",
+          "아 가슴속 믿음으로",
+          "아 너와나 하나되어",
+          "새 역사를 이루리로다",
+          "",
+          "(X2)"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2004"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=AnLm-gnWA9c&t=263s",
+          "videoId": "AnLm-gnWA9c",
+          "title": "2024 고려대 입실렌티 판쓸이 응원 — 영원하라",
+          "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "vanessa-mae-contradanza"
+        }
+      ],
+      "legacy": {
+        "year": 2004,
+        "timelineYear": 2004,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2004",
+        "originType": "adaptation",
+        "originNote": "Vanessa-Mae의 전자 바이올린 곡 ‘Contradanza’를 응원가로 개사·편곡했다.",
+        "chronologyNote": "사용자가 지정한 2024 입실렌티 영상의 곡 시작 화면에 ‘since 2004’가 표시된다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "2024 입실렌티 — since 2004 화면",
+            "url": "https://www.youtube.com/watch?v=AnLm-gnWA9c&t=263s",
+            "scope": "chronology"
+          },
+          {
+            "label": "Apple Music Classical — The Violin Player",
+            "url": "https://classical.music.apple.com/us/album/1465123736",
+            "scope": "origin"
+          },
+          {
+            "label": "대학응원가와 프로 응원가는 왜 같을까",
+            "url": "https://sports.news.nate.com/view/20140208n04707",
+            "scope": "usage"
+          }
+        ],
+        "description": "빠른 전자 바이올린 선율 위에 학교의 혼·단결·새 역사를 강조하는 응원곡으로 어깨동무와 좌우 이동, 반복적인 고개 동작이 현장 특징이다.",
+        "usageContext": "입실렌티와 고연전 응원 OT 중후반부, 기수부와 함께하는 공연에 쓰이며 롯데 자이언츠 ‘소리높여 외쳐보자’ 계열로 개사됐다."
+      },
+      "sourceRevision": 4,
+      "contentHash": "db6ef26035772d4f58f524e53e26cffe6c6f4da83aa1e938c565fdbc06341a72"
+    },
+    {
+      "id": "korea-university-yeongwonhi",
+      "organizationId": "korea-university",
+      "title": "012 : 영원히",
+      "aliases": [
+        "영원히",
+        "012",
+        "memory",
+        "하나되어 함께가자"
+      ],
+      "symbolicLines": [
+        "워 어어어어 어어어어",
+        "이 순간을 memory"
+      ],
+      "descriptionText": "2026년 새롭게 등장한 고려대학교의 록 응원가다. 기존 고려대 응원가에서 익숙한 장엄하고 웅장한 곡들과 달리, 경쾌한 밴드 사운드와 밝고 청량하게 달려 나가는 분위기가 두드러진다. 2026년 신입생 응원 OT에서 신곡으로 처음 교육된 뒤 같은 해 입실렌티에서도 바로 공연되며 새로운 레퍼토리에 합류했다. [* 참고: 2026 고려대학교 신입생 응원 OT 전체 기록 - 「012: 영원히」: https://www.youtube.com/watch?v=x11ylOMxco0] [* 참고: 2026 입실렌티 「012: 영원히」 공연 기록: https://www.youtube.com/watch?v=bUelhg5cc0E]\n\n원곡은 밴드 S.O.G가 2023년 발표한 「012 (영원히)」다. S.O.G는 이 곡을 ‘사춘기 학생의 사랑’을 담은 노래라고 소개했는데, 좋아하는 사람을 온종일 생각하고 다음 만남을 기다리는 풋풋한 감정을 빠른 록 사운드에 담았다. 고려대판에서는 이런 개인적인 연애 이야기를 덜어내고 서로 함께하며 앞으로 나아가는 내용으로 방향을 틀었다. 원곡에서 두 사람 사이의 시간이 계속되기를 바라던 ‘영원히’가 고려대판에서는 함께하는 사람들을 향한 말로 확장된 셈이다. [* 참고: S.O.G 「012 (영원히)」 벅스 앨범 정보 및 곡 소개: https://music.bugs.co.kr/album/20587314] [* 참고: CJ문화재단 TUNE UP S.O.G 「012 (영원히)」 소개: https://www.cjazit.org/support/tune-up/entry/64/26104?p=4]\n\n현장에서도 원곡의 젊고 경쾌한 분위기가 많이 남아 있다. 반복적인 록 후렴에 짧은 구호와 관중의 응답을 붙여 처음 접해도 비교적 빠르게 따라갈 수 있는 곡으로 구성됐고, 신입생 응원 OT에서는 동작을 따로 배운 뒤 부단장 순서의 신곡으로 선보였다. 아직 등장한 지 얼마 되지 않은 만큼 고연전이나 합동응원전에서 어떤 위치의 곡으로 자리 잡을지는 더 지켜봐야 하지만, 신입생 OT에서 배우고 곧바로 입실렌티에서 다시 부르는 과정을 거치며 2026년 고려대 응원 레퍼토리에 들어온 것은 확실하다. [* 참고: 2026 고려대학교 신입생 응원 OT 전체 기록: https://www.youtube.com/watch?v=x11ylOMxco0] [* 참고: 2026 입실렌티 신곡 공연 기록: https://www.youtube.com/watch?v=bUelhg5cc0E]\n\n제목의 ‘012’는 원곡에서 그대로 가져왔다. 삐삐가 널리 쓰이던 시절 숫자로 짧은 메시지를 주고받던 문화에서 ‘012’는 ‘영원히’를 뜻하는 암호로 사용됐다. 1990년대의 숫자 암호가 2023년에는 청춘 록의 제목으로 되살아났고, 다시 2026년 고려대 응원가의 이름으로 이어진 셈이다. 정식 표기는 「012: 영원히」로 확인되지만, 단독 현장 영상에서는 간단히 「영원히」라고 부르는 경우도 있다. [* 참고: 한국경제 「20세기 소녀」 인터뷰 - 012 등 삐삐 암호: https://plus.hankyung.com/apps/newsinside.view?aid=2022101980044&category=&sns=y] [* 참고: 고려대학교 응원가 분류 - 「012: 영원히」: https://dark.namu.moe/w/%EB%B6%84%EB%A5%98%3A%EA%B3%A0%EB%A0%A4%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80] [* 참고: 2026 「영원히」 단독 현장 영상: https://www.youtube.com/watch?v=6M41kbUyd7E]\n",
+      "lyrics": {
+        "lines": [
+          "워 워어어어 워어어어 울려퍼질 메아리",
+          "워 워어어어 워어어어 이 순간을 memory",
+          "(x2)",
+          "",
+          "워어어 우리는 이곳에 소중한 추억이 되어",
+          "워어어 우리는 이곳에 영원한 기억이 되어",
+          "",
+          "워 워어어어 워어어어 울려퍼질 메아리",
+          "워 워어어어 워어어어 이 순간을 memory",
+          "",
+          "",
+          "하 나 되 어 / 고 려 대 학",
+          "함 께 가 자 / 고 려 대 학",
+          "",
+          "워 워어어어 워어어어 울려퍼질 메아리",
+          "워 워어어어 워어어어 이 순간을 memory",
+          "(x2)"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2026"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/6M41kbUyd7E?si=W_R1xiQuwR308d4p&t=12",
+          "videoId": "6M41kbUyd7E",
+          "title": "#고려대학교응원단 I 2026 고려대 대박신곡 '영원히' [2026 고려대 신입생 응원OT] #고려대응원가 #응원OT #서울OT #영원히 #012  [4K]",
+          "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "sog-012-yeongwonhi"
+        }
+      ],
+      "sourceRevision": 7,
+      "contentHash": "2b4ecf9f3dd338a001c2a3e6a04c9f444b8ff24ce654379605b63b88f2557616"
+    },
+    {
+      "id": "lg-twins-saranghanda-lg",
+      "organizationId": "lg-twins",
+      "title": "사랑한다 LG",
+      "aliases": [
+        "LG 사랑한다 LG",
+        "사랑한다LG",
+        "사랑한다 엘지"
+      ],
+      "symbolicLines": [
+        "사랑한다 LG",
+        "사랑한다 LG"
+      ],
+      "descriptionText": "짧고 반복적인 선율로 팀에 대한 애정과 승리 염원을 표현한다.\n\n득점, 동점·역전, 득점권 기회 등 경기 흐름이 LG 쪽으로 넘어올 때 사용된다.",
+      "lyrics": {
+        "lines": [],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "최초 확인 2011 · 공식 도입 연도 불명확"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1027s",
+          "videoId": "BhwoJFjkAf8",
+          "title": "2026 LG트윈스 응원가 모음집 — 사랑한다 LG",
+          "channelName": "LGTWINSTV",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "carlos-gardel-por-una-cabeza"
+        },
+        {
+          "type": "secondary-original-song",
+          "targetId": "kim-seon-gyeong-majimag-seontaeg"
+        },
+        {
+          "type": "source-cheer-song",
+          "targetId": "yonsei-university-yonseiyeo-saranghanda"
+        }
+      ],
+      "legacy": {
+        "year": null,
+        "timelineYear": 2011,
+        "yearStatus": "earliest-documented",
+        "yearLabel": "최초 확인 2011 · 공식 도입 연도 불명확",
+        "originType": "combined-adaptation",
+        "originNote": "연세대학교 ‘연세여 사랑한다’를 직접 개사했다. LG 공식 표기의 원곡은 ‘Por una Cabeza’이며 ‘마지막 선택’은 연세대판 계보의 보조 모티브로만 기록한다. ‘Forever LG’와는 별도 곡이다.",
+        "chronologyNote": "2011년 6월 17일 SoundCloud에 완성 음원이 공개됐지만 비공식 업로드라 실제 구장 첫 사용일은 확정하지 않았다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "SoundCloud — 사랑한다lg",
+            "url": "https://soundcloud.com/deedi/lg",
+            "scope": "chronology"
+          },
+          {
+            "label": "LG 트윈스 공식 2026 응원가 모음집",
+            "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1027s",
+            "scope": "origin"
+          },
+          {
+            "label": "DUGOUT — 팬이 뽑은 최애 응원가 LG편",
+            "url": "https://v.daum.net/v/EDCqEsbvJl",
+            "scope": "origin"
+          }
+        ],
+        "description": "짧고 반복적인 선율로 팀에 대한 애정과 승리 염원을 표현한다.",
+        "usageContext": "득점, 동점·역전, 득점권 기회 등 경기 흐름이 LG 쪽으로 넘어올 때 사용된다."
+      },
+      "sourceRevision": 0,
+      "contentHash": "1de10cb054ba11b48ec711d2675d900b571ff0d6581e3eaedb127bbc2b39e0ec"
+    },
+    {
+      "id": "lg-twins-seoul-ui-aria",
+      "organizationId": "lg-twins",
+      "title": "서울의 아리아",
+      "aliases": [
+        "민족의 아리아",
+        "승리의 아리아"
+      ],
+      "symbolicLines": [
+        "외쳐라 무적 LG",
+        "자 승리하라 LG"
+      ],
+      "descriptionText": "서울과 LG의 승리를 웅장한 선율과 대규모 떼창으로 표현하는 대표 응원가다.\n\n주로 경기 후반이나 리드가 굳어질 때 사용되지만 극적인 역전 직후 또는 초반부터 크게 앞선 상황에도 나와 특정 이닝 전용곡으로 한정하지 않는다.",
+      "lyrics": {
+        "lines": [],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "since 2012"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=Y-cBDnUl5k4&t=1451s",
+          "videoId": "Y-cBDnUl5k4",
+          "title": "2023 LG트윈스 응원가 모음.zip — 서울의 아리아",
+          "channelName": "LGTWINSTV",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "andrea-bocelli-melodramma"
+        },
+        {
+          "type": "source-cheer-song",
+          "targetId": "korea-university-minjogui-aria"
+        }
+      ],
+      "legacy": {
+        "year": 2012,
+        "timelineYear": 2012,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2012",
+        "originType": "adaptation",
+        "originNote": "고려대학교 ‘민족의 아리아’를 LG 트윈스용으로 개사했으며 기반 원곡은 Andrea Bocelli의 ‘Melodramma’다. 황석빈은 녹음 보컬로만 확인됐다.",
+        "chronologyNote": "2014년 일간스포츠가 LG 홍보팀·구단 관계자를 인용해 2012 시즌 중반부터 사용했다고 보도했다. 나무위키의 2011년설은 상충 주장으로만 보존한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "일간스포츠 — 대학응원가와 프로 응원가는 왜 같을까",
+            "url": "https://sports.news.nate.com/view/20140208n04707",
+            "scope": "chronology"
+          },
+          {
+            "label": "DUGOUT — 팬이 뽑은 최애 응원가 LG편",
+            "url": "https://v.daum.net/v/EDCqEsbvJl",
+            "scope": "origin"
+          },
+          {
+            "label": "DUGOUT — 응원가 가수 황석빈",
+            "url": "https://v.daum.net/v/Pnna1XBEsH",
+            "scope": "origin"
+          }
+        ],
+        "description": "서울과 LG의 승리를 웅장한 선율과 대규모 떼창으로 표현하는 대표 응원가다.",
+        "usageContext": "주로 경기 후반이나 리드가 굳어질 때 사용되지만 극적인 역전 직후 또는 초반부터 크게 앞선 상황에도 나와 특정 이닝 전용곡으로 한정하지 않는다."
+      },
+      "sourceRevision": 0,
+      "contentHash": "95c295427da9e23aac144c5f045b7d2d747b69d9004258a903fbd8cfb6cd3cda"
+    },
+    {
+      "id": "lg-twins-seungni-ui-norae",
+      "organizationId": "lg-twins",
+      "title": "승리의 노래",
+      "aliases": [
+        "LG 승리의 노래",
+        "승리의노래",
+        "승리의 노래 (Forever)"
+      ],
+      "symbolicLines": [
+        "승리의 함성을",
+        "다같이 외쳐라"
+      ],
+      "descriptionText": "전주 뒤 점프와 구호, 어깨동무형 떼창으로 승리의 기쁨을 나누는 대표곡이다.\n\n경기 종료 후 승리 확정 시점 또는 후반에 크게 앞서 승리가 사실상 굳어진 상황에 사용된다.",
+      "lyrics": {
+        "lines": [],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "since 2011"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=Y-cBDnUl5k4&t=1287s",
+          "videoId": "Y-cBDnUl5k4",
+          "title": "2023 LG트윈스 응원가 모음.zip — 승리의 노래",
+          "channelName": "LGTWINSTV",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "stratovarius-forever"
+        },
+        {
+          "type": "source-cheer-song",
+          "targetId": "korea-university-forever"
+        }
+      ],
+      "legacy": {
+        "year": 2011,
+        "timelineYear": 2011,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2011",
+        "originType": "adaptation",
+        "originNote": "고려대학교 ‘Forever’를 LG 트윈스용으로 개사했으며 기반 원곡은 Stratovarius의 ‘Forever’다. 1995년 동명 구버전 및 2016년 ‘Forever LG’와는 별도 곡이다.",
+        "chronologyNote": "2011년 6월 19일 공개된 현행곡 영상의 제목과 설명으로 같은 해 사용을 직접 확인했다. 정확한 최초 사용 경기는 미확인이다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "LG트윈스 승리의 노래 2011",
+            "url": "https://www.youtube.com/watch?v=Q_tGsgY26sE",
+            "scope": "chronology"
+          },
+          {
+            "label": "Stratovarius 공식 디스코그래피 — Episode",
+            "url": "https://stratovarius.com/episode/",
+            "scope": "origin"
+          },
+          {
+            "label": "LG 공식 — Forever LG 부활 보도자료",
+            "url": "https://www.lg.co.kr/media/release/28767",
+            "scope": "title"
+          }
+        ],
+        "description": "전주 뒤 점프와 구호, 어깨동무형 떼창으로 승리의 기쁨을 나누는 대표곡이다.",
+        "usageContext": "경기 종료 후 승리 확정 시점 또는 후반에 크게 앞서 승리가 사실상 굳어진 상황에 사용된다."
+      },
+      "sourceRevision": 0,
+      "contentHash": "73106e7370eaba339e68778be10569deb705205fc0ed911c1f7de1cd678cbfc2"
+    },
+    {
+      "id": "lotte-giants-baennorae",
+      "organizationId": "lotte-giants",
+      "title": "뱃노래",
+      "aliases": [
+        "뱃놀이"
+      ],
+      "symbolicLines": [
+        "어기야 디여 어기여차",
+        "승리로 가잔다"
+      ],
+      "descriptionText": "고려대학교 응원가 ‘뱃노래’를 롯데 자이언츠에 맞게 개사한 집단 응원곡이다. 과거에는 ‘뱃놀이’로도 불렸고, 현재는 짧은 편곡판과 풀버전이 함께 확인된다.\n\n어깨동무와 점프를 곁들인 대규모 떼창이다. 짧은 편곡판은 호수비나 승부처 득점 뒤 분위기를 끌어올릴 때, 풀버전은 큰 응원 흐름이나 경기 뒤풀이에서 간헐적으로 사용된다.",
+      "lyrics": {
+        "lines": [],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "최초 확인 2009 · 정확한 도입 연도 불명확"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=3Wd6axSUBEY",
+          "videoId": "3Wd6axSUBEY",
+          "title": "롯데자이언츠 응원가 - 뱃노래",
+          "channelName": "쉬미시미의 롯데역사창고",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "korean-traditional-baennorae"
+        },
+        {
+          "type": "source-cheer-song",
+          "targetId": "korea-university-baennorae"
+        }
+      ],
+      "legacy": {
+        "year": null,
+        "timelineYear": 2009,
+        "yearStatus": "earliest-documented",
+        "yearLabel": "최초 확인 2009 · 정확한 도입 연도 불명확",
+        "originType": "adaptation",
+        "originNote": "한국 전통민요를 바탕으로 한 고려대학교 응원가 ‘뱃노래’를 롯데 자이언츠용으로 개사했다.",
+        "chronologyNote": "2009년 9월 29일 준플레이오프 1차전에서 ‘뱃놀이’가 사용된 사실을 동시대 기사가 기록한다. 2014년 이후 중단됐다가 2022년 짧은 편곡판이 복귀했고, 2024년부터 풀버전도 간헐적으로 다시 사용된다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "스포츠동아 — 2009 준플레이오프 1차전",
+            "url": "https://sports.donga.com/article/all/20090929/23101123/1",
+            "scope": "chronology"
+          },
+          {
+            "label": "일간스포츠 — 대학응원가와 프로 응원가는 왜 같을까",
+            "url": "https://sports.news.nate.com/view/20140208n04707",
+            "scope": "origin"
+          },
+          {
+            "label": "나무위키 — 롯데 자이언츠/응원가 2.1.4",
+            "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.4",
+            "scope": "usage"
+          },
+          {
+            "label": "롯데 뱃노래 — 2024년 현장 영상",
+            "url": "https://www.youtube.com/watch?v=8pobs1TMEY4",
+            "scope": "usage"
+          }
+        ],
+        "description": "고려대학교 응원가 ‘뱃노래’를 롯데 자이언츠에 맞게 개사한 집단 응원곡이다. 과거에는 ‘뱃놀이’로도 불렸고, 현재는 짧은 편곡판과 풀버전이 함께 확인된다.",
+        "usageContext": "어깨동무와 점프를 곁들인 대규모 떼창이다. 짧은 편곡판은 호수비나 승부처 득점 뒤 분위기를 끌어올릴 때, 풀버전은 큰 응원 흐름이나 경기 뒤풀이에서 간헐적으로 사용된다."
+      },
+      "sourceRevision": 0,
+      "contentHash": "748388d9fb6e7f89e18c0ce3b2b32985580d6bb29ac5b30ef1873c016e74a08d"
+    },
+    {
+      "id": "lotte-giants-sori-nop-yeo-oechyeoboja",
+      "organizationId": "lotte-giants",
+      "title": "소리높여 외쳐보자",
+      "aliases": [
+        "영원하라",
+        "롯데 자이언츠 영원하라"
+      ],
+      "symbolicLines": [
+        "아 롯데는 승리한다",
+        "최/강/롯/데"
+      ],
+      "descriptionText": "오래된 영상은 ‘영원하라’, 최근 영상은 첫 구절을 딴 ‘소리높여 외쳐보자’로 부르는 동일 개사곡이다.\n\n보통 7·8회나 승기를 잡은 승부처에 옆 사람과 어깨동무하고 부르는 대형 떼창곡이다. 부산 롯데 구판, 최강 롯데 통합판, 2022년 국립부산국악원 협업 국악판이 확인된다.",
+      "lyrics": {
+        "lines": [],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "추정 시작 연도 2011 · 최초 직접 확인 2012 · 정확한 도입 연도 불명확"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=AtyqKrWmvGE&t=365s",
+          "videoId": "AtyqKrWmvGE",
+          "title": "[Playlist] 2026 롯데자이언츠 팀 응원가 + 신규 응원가 포함! #직관전필수시청",
+          "channelName": "Giants TV",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "vanessa-mae-contradanza"
+        },
+        {
+          "type": "source-cheer-song",
+          "targetId": "korea-university-yeongwonhara"
+        }
+      ],
+      "legacy": {
+        "year": null,
+        "timelineYear": 2011,
+        "yearStatus": "reported",
+        "yearLabel": "추정 시작 연도 2011 · 최초 직접 확인 2012 · 정확한 도입 연도 불명확",
+        "originType": "adaptation",
+        "originNote": "Vanessa-Mae의 ‘Contradanza’를 바탕으로 한 고려대학교 응원가 ‘영원하라’를 롯데 자이언츠용으로 개사했다.",
+        "chronologyNote": "나무위키와 옛 문서 사본이 2011년 플레이오프 최초 공개라고 서술해 2011년을 추정 시작 연도로 둔다. 제목과 설명으로 직접 확인되는 가장 오래된 영상은 2012년이며 정확한 첫 경기는 확인되지 않았다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "Giants TV — 2026 팀 응원가 모음",
+            "url": "https://www.youtube.com/watch?v=AtyqKrWmvGE&t=365s",
+            "scope": "title"
+          },
+          {
+            "label": "일간스포츠 — 대학응원가와 프로 응원가는 왜 같을까",
+            "url": "https://sports.news.nate.com/view/20140208n04707",
+            "scope": "origin"
+          },
+          {
+            "label": "나무위키 — 롯데 자이언츠/응원가 2.1.7",
+            "url": "https://namu.wiki/w/%EB%A1%AF%EB%8D%B0%20%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0/%EC%9D%91%EC%9B%90%EA%B0%80#s-2.1.7",
+            "scope": "chronology"
+          },
+          {
+            "label": "롯데 자이언츠 응원가 — 영원하라",
+            "url": "https://www.youtube.com/watch?v=JdjV7GUhdQU",
+            "scope": "chronology"
+          },
+          {
+            "label": "아이뉴스24 — 롯데 응원가 국악 버전",
+            "url": "https://www.inews24.com/view/1518260",
+            "scope": "usage"
+          }
+        ],
+        "description": "오래된 영상은 ‘영원하라’, 최근 영상은 첫 구절을 딴 ‘소리높여 외쳐보자’로 부르는 동일 개사곡이다.",
+        "usageContext": "보통 7·8회나 승기를 잡은 승부처에 옆 사람과 어깨동무하고 부르는 대형 떼창곡이다. 부산 롯데 구판, 최강 롯데 통합판, 2022년 국립부산국악원 협업 국악판이 확인된다."
+      },
+      "sourceRevision": 0,
+      "contentHash": "1f1ba8c5453186c3a0fc0b040001ab2050945c4d067429d0db85f7c9c08ea1e9"
+    },
+    {
+      "id": "yonsei-university-cheongchun-mulgyeol",
+      "organizationId": "yonsei-university",
+      "title": "청춘물결",
+      "aliases": [
+        "청춘을 모으리라"
+      ],
+      "symbolicLines": [
+        "우리들의 청춘",
+        "청춘을 모으리라"
+      ],
+      "descriptionText": "2026년 새롭게 등장한 연세대학교의 응원가다. 지금 이 순간을 함께 보내는 학생들의 ‘청춘’ 자체를 전면에 내세운 곡으로, 가사에서도 청춘과 지금, 물결이라는 이미지를 반복하며 여러 사람의 목소리를 하나로 모으는 데 집중한다. 2026년 아카라카에서 처음 공개되었다. [* 참고: 연세대학교/응원가/2020년대 - 청춘물결: https://www.namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80] [* 참고: 2026 아카라카 신곡 「청춘물결」 현장 영상: https://www.youtube.com/watch?v=bdunwzpzhpw]\n\n연세대판이 직접 바탕으로 삼은 곡은 Westlife가 2005년 발표한 「You Raise Me Up」이다. 원곡 특유의 서서히 벅차오르는 선율은 살리되, 누군가의 존재 덕분에 다시 일어설 힘을 얻는다는 내용 대신 연세대판에서는 모두의 청춘과 지금을 함께 모아 하나의 물결을 만든다는 내용으로 바뀌었다. 특히 “청춘을 모으리라”는 짧은 문장이 곡의 성격을 잘 보여준다. 개인에게 힘을 주는 노래였던 「You Raise Me Up」을 수천 명의 ‘지금’을 함께 노래하는 응원가로 바꾼 셈이다. [* 참고: Westlife 「You Raise Me Up」 공식 음원: https://www.youtube.com/watch?v=BKRcN2JxQME] [* 참고: 연세대학교/응원가/2020년대 - 청춘물결 가사·원곡 정리: https://www.namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80]\n\n현장에서는 긴 가사를 부르기보다 ‘오오오’ 구음과 짧은 문장을 반복하며 관중 전체의 합창을 키우는 구조가 두드러진다. ‘모두의 / 연세여 / 찬란한 / 연세여’ 같은 짧은 구호를 외치는 구간도 있어, 처음 듣는 사람도 비교적 쉽게 함께 외칠 수 있다. [* 참고: 연세대학교/응원가/2020년대 - 청춘물결 응원법: https://www.namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2020%EB%85%84%EB%8C%80] [* 참고: 2026 아카라카 「청춘물결」 현장 영상: https://www.youtube.com/watch?v=bdunwzpzhpw]\n\n- Westlife의 「You Raise Me Up」 역시 원곡을 리메이크한 곡이다. Rolf Løvland가 작곡하고 Brendan Graham이 가사를 붙여 Secret Garden이 2002년 처음 발표했으며, 이후 수많은 가수가 다시 불렀다. Westlife는 2005년 이 곡을 커버해 영국 싱글 차트 1위까지 올렸고, 연세대 「청춘물결」은 그 Westlife 버전을 직접적인 원곡으로 표기한다. [* 참고: Brendan Graham 공식 홈페이지 「You Raise Me Up」 제작 배경: https://www.brendangraham.ie/you-raise-me-up-1] [* 참고: Official Charts - Westlife 「You Raise Me Up」: https://www.officialcharts.com/songs/westlife-you-raise-me-up/] [* 참고: Westlife 「You Raise Me Up」 공식 영상: https://www.youtube.com/watch?v=9bxc9hbwkkw]",
+      "lyrics": {
+        "lines": [
+          "오오오오 우리들의 청춘",
+          "오오오오 우리들의 지금(어깨동무)",
+          "오오오오 우리들의 물결",
+          "청춘을 모으리라",
+          "(연 세 대 학)",
+          "",
+          "모두의 (모두의)",
+          "연세여 (연세여)",
+          "찬란한 (찬란한)",
+          "연세여 (연세여)",
+          "",
+          "오오오오 오오오오 오오",
+          "오오오 오오오오오",
+          "",
+          "오오오오 우리들의 청춘",
+          "오오오오 우리들의 지금(어깨동무)",
+          "오오오오 우리들의 물결",
+          "청춘을 모으리라",
+          "(연 세 대 학)",
+          "",
+          "청춘을 모으리라"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2026"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/PwnnaK1YXlQ?si=W0lAGnrjonpoc8dq&t=3",
+          "videoId": "PwnnaK1YXlQ",
+          "title": "2026.05.23 개교 141주년 아카라카를 온누리에 [청춘물결(신곡)]",
+          "channelName": "KODA",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "westlife-you-raise-me-up"
+        }
+      ],
+      "sourceRevision": 6,
+      "contentHash": "e7f668048c6a8be6d5b1ae30cf873d2911d6fb71005eb2daf8e8a2634a2ec854"
+    },
+    {
+      "id": "yonsei-university-go-balp-kkum",
+      "organizationId": "yonsei-university",
+      "title": "고.밟.꿈",
+      "aliases": [
+        "고밟꿈",
+        "고대도 밟으면 꿈틀거린다"
+      ],
+      "symbolicLines": [
+        "저기 고대 겁도 없구나",
+        "빱 뚜밥 뚜밥 후"
+      ],
+      "descriptionText": "“고대도 밟으면 꿈틀거린다.” 이 문장을 그대로 줄인 제목부터 정체성이 분명한 연세대학교의 대표적인 라이벌 응원가다. 1998년 등장한 뒤 30년 가까이 정기 연고전과 합동응원전에서 고려대학교를 직접 겨냥하는 안티콜로 살아남았다. “꽉꽉 밟아라”에서 시작해 결국 “고대가 꿈틀거리네”로 이어지는 가사 전체가 제목의 말장난 하나를 끝까지 밀어붙이는 구조다. [* 참고: 연세대학교/응원가/2000년 이전 - 고.밟.꿈: https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84] [* 참고: 2026 신입생 응원 OT 「고밟꿈」 현장 영상: https://www.youtube.com/watch?v=SGM8pWJsocs]\n\n동작 역시 제목의 말장난을 따라간다. 특히 후반의 “고대가 꿈틀거리네”에 들어서면 관중들이 몸을 좌우로 비트는 트위스트 동작으로 바뀌는데, 밟힌 고대가 정말 ‘꿈틀거린다’는 가사를 몸으로 표현하는 셈이다. 짧은 언어유희를 가사뿐 아니라 응원 동작까지 이어간 것이 이 곡의 가장 기억에 남는 부분이다. [* 참고: 연세대학교/응원가/2000년 이전 - 고.밟.꿈 응원법: https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84]\n\n「고밟꿈」은 양교가 주고받는 수많은 라이벌 응원가 가운데서도 오래된 축에 속한다. 고려대에는 「꿇어라 연세」, 「연세치킨」처럼 연세대를 직접 겨냥하는 곡들이 있고, 연세대 역시 「K.O.대」를 비롯해 고려대를 놀리는 여러 응원가를 가지고 있다. 합동응원전에서는 이런 곡들이 한 구간에 몰려 등장하며 양쪽 관중석이 서로의 학교를 향해 야유와 도발을 주고받는다. 가사만 떼어놓으면 상당히 공격적으로 들리지만, 상대 학교가 바로 앞에 있는 공식 합동응원에서도 거리낌 없이 공연된다는 점에서 고연전 특유의 라이벌 놀이에 더 가깝다. 「고밟꿈」은 그 문화가 적어도 1990년대부터 이어져 왔음을 보여주는 대표적인 곡이다. [* 참고: 고대신문 「호랑이와 독수리, 사활 건 응원 전쟁」: https://www.kunews.ac.kr/news/articleView.html?idxno=40685] [* 참고: 2026 상반기 고려대·연세대 합동응원전 라이벌 응원 구간: https://www.youtube.com/watch?v=Gkr3IrQTbxo]\n\n- 연세대학교 응원단은 원곡을 「Jesus Is the Rock」으로 소개한다. 다만 공식 자료에서도 제목을 ‘Gesus’로 잘못 표기하는 경우가 있고 작곡자를 별도로 밝히지 않는다. 더구나 「Jesus Is the Rock」이라는 제목의 복음곡이 여러 작곡가·가수의 작품으로 존재해, 현재 공개된 자료만으로는 연세대판이 어느 특정 녹음이나 작곡을 직접 가져온 것인지 확정하기 어렵다. 따라서 원곡 계보는 ‘Jesus Is the Rock이라는 복음곡을 바탕으로 했다’ 정도로만 정리하는 편이 안전하다. [* 참고: 연세대학교 응원단 공식 「고밟꿈」 원곡 표기: https://www.youtube.com/watch?v=OUcWoN6-gUo]\n- 제목은 「고밟꿈」, 「고.밟.꿈」 두 표기가 모두 쓰인다. 풀어 쓰면 ‘고대도 밟으면 꿈틀거린다’라는 뜻으로, 짧은 세 글자 자체가 가사 전체의 내용을 압축한다. 문서에서는 점을 찍은 표기를 볼 수 있지만 실제 현장과 영상 제목에서는 붙여 쓴 「고밟꿈」이 더 흔하다. [* 참고: 연세대학교/응원가/2000년 이전 - 고.밟.꿈: https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84]",
+      "lyrics": {
+        "lines": [
+          "저기 고대 겁도 없구나 빱 뚜밥 뚜밥 후~~~ ×2",
+          "꽉꽉 밟아라 꽉꽉 밟아라 꽉꽉 밟아라 밟아버리자~~",
+          "",
+          "저기 고대 겁도 없구나 빱 뚜밥 뚜밥 후~~~ ×2",
+          "꽉꽉 밟아라 꽉꽉 밟아라 꽉꽉 밟아라 밟아버리자~~",
+          "",
+          "고대가 꿈틀거리네 고대가 꿈틀거리네 고대가 꿈틀거리네",
+          "꽉 밟아라~~~",
+          "",
+          "고대가 꿈틀거리네 고대가 꿈틀거리네 고대가 꿈틀거리네",
+          "꽉 밟아라~~~",
+          "",
+          "×2"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "1998년"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/XHp864M2qTs?si=DSWuG02wD9EjEk4m&t=158",
+          "videoId": "XHp864M2qTs",
+          "title": "[2024 고려대/연세대 합동응원OT] 부단장 바람 '출사표(KU) vs 고밟꿈(YU)'   #합응 #고려대응원가 #연세대응원가",
+          "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "yonsei-go-balp-kkum-jesus-is-the-rock-unidentified"
+        }
+      ],
+      "sourceRevision": 4,
+      "contentHash": "bfd977af54882c88eb6d0b504a306eeba56499957a2fdd3d3c8a85b3226cbe77"
+    },
+    {
+      "id": "yonsei-university-haeya",
+      "organizationId": "yonsei-university",
+      "title": "해야",
+      "aliases": [
+        "해야 떠라",
+        "해야떠라"
+      ],
+      "symbolicLines": [
+        "해야 떠라",
+        "말갛게 해야 솟아라"
+      ],
+      "descriptionText": "해가 떠오르는 이미지를 승리와 연결하는 고전 응원가로 큰 손동작과 집단 합창이 특징이다.\n\n응원 OT와 아카라카에서 세대를 이어 사용된다. 두산 베어스의 동명 응원가와는 직접 차용 관계로 보지 않는다.",
+      "lyrics": {
+        "lines": [],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "since 1981"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://www.youtube.com/watch?v=kaoZ_oPuTQo",
+          "videoId": "kaoZ_oPuTQo",
+          "title": "해야",
+          "channelName": "아카라카TV [연세대학교 응원단]",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "magma-haeya"
+        }
+      ],
+      "legacy": {
+        "year": 1981,
+        "timelineYear": 1981,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 1981",
+        "originType": "adaptation",
+        "originNote": "박두진의 시에 조하문이 곡을 붙인 마그마의 ‘해야’를 원곡으로 한다. 두산의 ‘해야’와는 같은 원곡을 공유하지만 가사가 다른 별개 개사곡이다.",
+        "chronologyNote": "사용자가 지정한 2026 아카라카 영상 02:37의 화면에 ‘해야 since 1981’이 표시된다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "2026 아카라카 — since 1981 화면",
+            "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU&t=157s",
+            "scope": "chronology"
+          },
+          {
+            "label": "연세대학교 응원단 — 해야",
+            "url": "https://www.youtube.com/watch?v=kaoZ_oPuTQo",
+            "scope": "origin"
+          },
+          {
+            "label": "MBC강원영동 대학가요제 아카이브",
+            "url": "https://www.youtube.com/watch?v=UCBHUcdYCWo",
+            "scope": "origin"
+          }
+        ],
+        "description": "해가 떠오르는 이미지를 승리와 연결하는 고전 응원가로 큰 손동작과 집단 합창이 특징이다.",
+        "usageContext": "응원 OT와 아카라카에서 세대를 이어 사용된다. 두산 베어스의 동명 응원가와는 직접 차용 관계로 보지 않는다."
+      },
+      "sourceRevision": 0,
+      "contentHash": "c5c0eea8618deb54c2da57efa7861cee97b43cce575a7a3330d8a989fdec8016"
+    },
+    {
+      "id": "yonsei-university-haneul-kkeutkkaji",
+      "organizationId": "yonsei-university",
+      "title": "하늘 끝까지",
+      "aliases": [
+        "하늘끝까지",
+        "아카라카",
+        "아라칭 아라쵸 아라칭칭 쵸쵸쵸",
+        "피어나라",
+        "승리를 향해 외쳐라"
+      ],
+      "symbolicLines": [
+        "승리를 향해 외쳐라",
+        "하늘 끝까지"
+      ],
+      "descriptionText": "“아라칭 아라쵸 아라칭칭 쵸쵸쵸! 랄랄라 시스붐바 연세선수 라플라! 헤이 연세 야!”\n\n2016년 등장한 뒤 빠르게 연세대학교의 대표적인 응원가로 자리 잡은 곡이다. 「하늘끝까지」의 매력은 서정적인 멜로디와 힘을 북돋는 응원가의 분위기가 절묘하게 겹친다는 데 있다. 처음에는 ‘오오오’ 구음과 함께 감성적으로 시작하지만, 곡이 진행될수록 관중의 목소리가 커지고 연세대의 교호까지 터져 나오면서 분위기가 완전히 달라진다. ‘피어나라’는 가사와 승리를 향한 외침이 벅차오르는 선율 위에 겹치면서, 연세대 응원가 가운데서도 특히 감성적이면서 동시에 파이팅 넘치는 곡으로 꼽힌다. [* 참고: 연세대학교 응원단 공식 「하늘끝까지」 MV: https://www.youtube.com/watch?v=wwVZjMlWjwo] [* 참고: 2016 아카라카 신곡 「하늘끝까지」 첫 공개 영상: https://www.youtube.com/watch?v=QRn673QHZbg]\n\n현장에서는 선창과 응답이 이 감정선을 더욱 크게 만든다. 잔잔한 구음으로 시작해 넓게 뻗는 후렴을 관중 전체가 받아 부르고, 중간에는 연세대의 대표 교호인 “아라칭! 아라쵸!”가 통째로 들어간다. 이 부분에서는 노천극장이나 응원석 전체가 한 목소리로 교호를 외치면서 곡의 분위기가 한 번 더 치솟는다. 이후 다시 서정적인 선율로 돌아가 마지막에는 제목 그대로 ‘하늘끝까지’ 목소리를 끌어올리듯 마무리된다. [* 참고: 연세대학교 응원단 공식 「하늘끝까지」 MV: https://www.youtube.com/watch?v=wwVZjMlWjwo] [* 참고: 연세춘추 「하나로 뭉치는 연세, 그 역사를 찾아서」 - 연세대학교 교호: https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=20571]\n\n원곡은 영화 《클래식》의 OST로 잘 알려진 한성민의 「사랑하면 할수록」이다. 이 원곡을 연세대보다 먼저 응원가로 사용한 곳은 한화 이글스다. 한화는 2015년부터 「사랑하면 할수록」을 바탕으로 한 「사랑한다 이글스」를 사용했고, 이후 연세대학교에서 같은 원곡 기반의 2016년 「하늘끝까지」를 발표했다. 서정적인 구음에서 승리를 외치는 대형 합창으로 넘어가는 구조 역시 두 곡이 상당히 닮아 있고, 공교롭게도 두 팀 모두 독수리를 상징으로 사용하기 때문에 더욱 자주 비교된다. 다만 「하늘끝까지」 제작자가 한화 응원가를 직접 참고했다고 밝힌 기록은 확인되지 않는다. [* 참고: 영화 《클래식》 OST 「사랑하면 할수록」 정보: https://music.bugs.co.kr/album/29611] [* 참고: 한화 이글스 「사랑한다 이글스」 - 2015년 사용 및 원곡 정리: https://readonly.wiki/w/%ED%95%9C%ED%99%94%20%EC%9D%B4%EA%B8%80%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80] [* 참고: 연세대학교 「하늘끝까지」 초기 기록: https://tcatmon.com/wiki/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80]\n\n아카라카에서는 「서시 → 하늘끝까지 → 연세여 사랑한다 → 원시림」으로 이어지는 대표적인 마지막부 레퍼토리의 두 번째 자리를 맡는다. 합동응원전에서는 비슷하게 서정적인 선율에서 시작해 거대한 합창으로 커지는 고려대학교의 「Forever」와 주로 대응된다. 양교가 각자 가진 감성적인 대형 합창곡끼리 맞붙는 구도인 셈이다. [* 참고: 2019 아카라카 3부 피날레 「서시 - 하늘끝까지 - 연세여 사랑한다 - 원시림」: https://www.youtube.com/watch?v=bVX7Ssh6UmU] [* 참고: 2018 고려대·연세대 합동응원OT 「하늘끝까지 vs Forever」: https://www.youtube.com/watch?v=BtvAP95UZVc]\n\n- 「하늘끝까지」는 학생의 제안에서 출발한 응원가이기도 하다. 2016년 ‘응원곡을 부탁해’ 공모를 통해 경영학과 임강우 학생이 「사랑하면 할수록」의 선율을 추천했고, 당시 부단장이던 임현택 동문은 응원단장과 함께 가사와 응원 동작을 만들었다고 회고했다. 임 동문은 잠깐 쓰이고 사라지는 신곡보다 오래 남을 수 있는 곡을 만들고 싶었다고 설명했는데, 실제로 10년 뒤까지 주요 레퍼토리로 살아남았다. [* 참고: 연세대학교 「하늘끝까지」 초기 제작·공모 기록: https://tcatmon.com/wiki/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80] [* 참고: 연세춘추 임현택 동문 인터뷰: https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=31561]\n- 「하늘끝까지」와 고려대학교 「Forever」의 대응 관계는 2024년 아예 하나의 곡으로 이어졌다. 고연전 특별 콘텐츠로 두 곡을 결합한 「하늘 끝까지 FOREVER」 리믹스가 제작됐고, 연세대 밴드 메두사와 고려대 밴드 엘리제의 보컬이 함께 참여했다. 평소 합동응원전에서는 서로 맞붙는 두 학교의 감성적인 응원가를 한 곡 안에서 직접 이어 붙인 독특한 사례다. [* 참고: 2024 「하늘 끝까지 FOREVER」 연세대 메두사 × 고려대 엘리제 리믹스: https://www.youtube.com/watch?v=i0xQzFzU9V8]\n- 2022년 이후 「하늘끝까지」 현장 영상에는 드라마 《치얼업》을 보고 실제 대학 응원가와 응원 동작을 찾아왔다는 반응도 눈에 띈다. 대학 응원단을 소재로 한 드라마가 방영되면서 실제 연세대학교의 응원 문화까지 다시 외부에 알려진 사례다. [* 참고: 2022 아카라카 「하늘끝까지」 현장 영상: https://www.youtube.com/watch?v=VDBqyV-0WPs]",
+      "lyrics": {
+        "lines": [
+          "오오오오 오오오",
+          "오오오오 오오오",
+          "오오오 오오 오오오",
+          "오오오오오",
+          "",
+          "피어나라 그대여",
+          "피어나라 연세여",
+          "승리를 향해 외쳐라",
+          "하늘 끝까지 (X2)",
+          "",
+          "아카라카 (아카라카)",
+          "아라칭 아라쵸 아라칭칭 쵸쵸쵸",
+          "랄랄라 시스붐바 연세선수 라플라",
+          "헤이 연세야",
+          "",
+          "오오오오 오오오",
+          "오오오오 오오오",
+          "오오오 오오 오오오",
+          "오오오오오",
+          "",
+          "피어나라 그대여",
+          "피어나라 연세여",
+          "승리를 향해 외쳐라",
+          "하늘 끝까지 (x2)",
+          "",
+          "하늘 끝까지"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2016"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/epthGnKmHCU?si=BSNHnl9uXRIc4mVS&t=429",
+          "videoId": "epthGnKmHCU",
+          "title": "[2022 합동응원] 친선 끝. 진검승부 시작. '엘리제 / 서시 / 출사표 / 하늘 끝까지 / 포레버 / 연세여 사랑한다 / 민족의 아리아' - 합응 I 고연전 I 연고전",
+          "channelName": "디카츄의 사진창",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "han-sung-min-saranghamyeon-halssurok"
+        }
+      ],
+      "legacy": {
+        "year": 2016,
+        "timelineYear": 2016,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2016",
+        "originType": "adaptation",
+        "originNote": "한성민의 ‘사랑하면 할수록’을 원곡으로 한다. 먼저 사용된 한화 이글스 ‘사랑한다 이글스’의 영향을 받은 관계로 보되, 공개 제작자 자료에서 직접 언급되지 않아 유력한 영향으로 표시한다.",
+        "chronologyNote": "임현택 동문의 제작 회고와 2016년 5월 21일 아카라카의 ‘신곡 첫 공개’ 영상이 일치한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "연세춘추 — 임현택 동문 인터뷰",
+            "url": "https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=31561",
+            "scope": "chronology"
+          },
+          {
+            "label": "2016 아카라카 — 신곡 첫 공개",
+            "url": "https://www.youtube.com/watch?v=Zqtk3gIPuKU&t=605s",
+            "scope": "chronology"
+          },
+          {
+            "label": "연세대학교 응원단 — 하늘끝까지",
+            "url": "https://www.youtube.com/watch?v=-UYGsQLVJgc",
+            "scope": "origin"
+          }
+        ],
+        "description": "선창과 대규모 후렴 응답이 두드러지는 현대 대표곡으로 학교 구성원 전체가 함께 외치는 곡이다.",
+        "usageContext": "아카라카, 합동응원, 신입생·동문 행사에서 사용되며 훈련 과정도 공식 콘텐츠로 소개됐다."
+      },
+      "sourceRevision": 3,
+      "contentHash": "1d7acad530ad70b9566db5ff0f584c3caba93f65497fed456f462a40ce2b3266"
+    },
+    {
+      "id": "yonsei-university-paran",
+      "organizationId": "yonsei-university",
+      "title": "파란",
+      "aliases": [
+        "연세대 파란"
+      ],
+      "symbolicLines": [
+        "파란 수평선 너머",
+        "울리는 메아리"
+      ],
+      "descriptionText": "제목부터 연세대학교의 \"파란\" 상징색을 그대로 품은 응원가다. “파란 수평선 너머 울리는 함성”을 반복하는 가사와 함께 관중석 전체가 뛰고 흔들리면서, 말 그대로 파란 물결을 만들어내는 곡이다. 2004년 등장한 뒤 20년 넘게 아카라카와 신입생 응원 OT에서 꾸준히 사용되고 있으며, 서정적인 대표곡들과 달리 처음부터 끝까지 밝고 빠르게 분위기를 끌어올리는 쪽에 가깝다. [* 참고: 연세대학교 응원단 공식 「파란」 영상: https://www.youtube.com/watch?v=aHJmo_SZzRU] [* 참고: 2026 신입생 응원 OT 「파란」 포함 공연 기록: https://www.youtube.com/watch?v=gpQW33QJ90M]\n\n원곡은 영화 《오즈의 마법사》에서 Judy Garland가 부른 「Over the Rainbow」다. 무지개 너머의 세상을 꿈꾸는 느리고 서정적인 원곡과 달리, 「파란」에서는 익숙한 선율을 빠르게 몰아붙이며 “We can! We do!” 같은 구호와 점프를 붙였다. 원곡의 흔적은 분명히 들리지만 분위기와 사용법은 거의 정반대라, 원곡을 알고 처음 접하면 같은 노래가 맞나 싶을 정도다. 정확히는 Harold Arlen이 작곡하고 E. Y. Harburg가 작사했으며, Judy Garland는 1939년 영화와 음반에서 이 곡을 부른 가창자다. [* 참고: 미국 의회도서관 National Recording Registry 「Over the Rainbow」: https://www.loc.gov/item/prn-17-029/] [* 참고: 연세대학교 응원단 공식 「파란」 원곡 표기: https://www.youtube.com/watch?v=aHJmo_SZzRU]\n\n현장에서는 점프와 어깨동무, 짧은 구호가 빠르게 이어진다. ‘파란 수평선’ 구간에서는 연속해서 뛰고, “We can! We do!”가 나오면 옆 사람과 어깨를 걸어 함께 몸을 움직인다. 한 동작을 오래 반복하기보다 구간마다 움직임이 계속 바뀌기 때문에 곡의 흐름을 알고 주변 사람들과 박자를 맞추는 것이 중요하다. 노래 자체보다 관중석 전체가 쉬지 않고 움직이는 모습이 눈에 먼저 들어오는 응원가이기도 하다. [* 참고: 연세대학교 「파란」 응원법 정리: https://seore.org/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80] [* 참고: 「파란」 현장 영상: https://www.youtube.com/watch?v=RAoGrQLcSbE]\n\n곡의 인상은 고려대 학생들에게도 꽤 강했던 모양이다. 2007년 연세춘추가 당시 고려대학교 응원단장 조현범 동문에게 가장 좋아하는 연세대 응원곡을 묻자 그는 「파란」을 꼽았다. 자신이 1학년이던 해 처음 나온 곡이었고, 연세대 학생들이 서로 어깨동무를 하며 응원하는 모습이 타학교 학생인 자신에게도 큰 감동을 줬다고 회고했다. 2004년 등장한 신곡이 불과 몇 년 만에 상대 학교 응원단장에게까지 강한 인상을 남겼던 셈이다. [* 참고: 연세춘추 「‘파란’을 좋아하는 붉은 그대」: https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=11264]\n\n- 연세대학교 응원단 자료에서는 원곡과 함께 Judy Garland의 이름이 표시되기도 하지만, 그가 「Over the Rainbow」를 작곡한 것은 아니다. 곡은 Harold Arlen이 작곡하고 E. Y. Harburg가 작사했으며, Judy Garland는 《오즈의 마법사》에서 노래를 불러 가장 유명한 녹음을 남긴 가창자다. 미국 의회도서관도 1939년 Judy Garland 녹음을 국가 녹음자료로 보존하면서 이 관계를 명확히 설명하고 있다. [* 참고: 미국 의회도서관 National Recording Registry 「Over the Rainbow」: https://www.loc.gov/item/prn-17-029/]",
+      "lyrics": {
+        "lines": [
+          "오오~ 오오오오오 오오오~",
+          "파란 수평선 너머 울리는 함성을",
+          "오오~ 오오오오오 오오오~",
+          "파란 수평선 너머 울리는 메아리",
+          "",
+          "We can! We do!",
+          "We can! We do!",
+          "We can! we go!",
+          "오오 오레오레",
+          "",
+          "(X2)",
+          "",
+          "나 나나나",
+          "나나나 나나나 나나나",
+          "나나나 나나나 나나나",
+          "나나나 나나나 나나나",
+          "",
+          "오오~ 오오오오오 오오오~",
+          "파란 수평선 너머 울리는 함성을",
+          "오오~ 오오오오오 오오오~",
+          "파란 수평선 너머 울리는 메아리",
+          "",
+          "파란 수평선 넘어 힘차게 나가자"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2004"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/jdiD91Fuaos?si=IDfRpXlEZHcXVW6v",
+          "videoId": "jdiD91Fuaos",
+          "title": "2023 연세대학교 축제 파란 물결이 가득한 대학교 '파란 + 해야 + Go연세 + 바다새' AKARAKA 아카라카 4k 60p @연세대학교 노천극장",
+          "channelName": "Cheerss 치얼쓰",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "judy-garland-over-the-rainbow"
+        }
+      ],
+      "sourceRevision": 4,
+      "contentHash": "ba61369474957845e3ad78e59478e9a58f6d7ba7e490ddf2c689bec7f471211d"
+    },
+    {
+      "id": "yonsei-university-seosi",
+      "organizationId": "yonsei-university",
+      "title": "서시",
+      "aliases": [
+        "연세대 서시"
+      ],
+      "symbolicLines": [
+        "죽어도 하늘을 우러러",
+        "한점 부끄럼 없길"
+      ],
+      "descriptionText": "\"하늘에 계신 윤동주 선배님께 바칩니다. 서시, 서시, 준비!\"\n\n연세대학교를 대표하는 장중한 응원가 가운데 하나이자, 윤동주라는 학교의 선배를 기리는 헌정곡이다. 곡을 시작하기 전 응원단장이 “하늘에 계신 윤동주 선배님께 바칩니다”라고 외치는 것이 사실상 노래의 일부처럼 굳어져 있다. 윤동주가 연세대학교의 전신인 연희전문학교를 졸업한 인물이기 때문에, 학교가 자신의 선배를 응원 문화를 통해 기억하는 셈이다. [* 참고: 연세대학교 응원단 공식 「서시」 영상: https://www.youtube.com/watch?v=sHZY36KlQn8] [* 참고: 세계일보 「지못미, 윤동주 시인!」: https://www.segye.com/newsView/20250217513506]\n\n음악의 계보는 그 진지한 분위기와 달리 꽤 의외다. 연세대판 「서시」가 직접 바탕으로 삼은 곡은 리듬게임 《펌프 잇 업》으로 유명한 BanYa의 「베토벤 바이러스」이며, 이 곡은 다시 베토벤의 피아노 소나타 제8번 「비창」 3악장을 빠르게 편곡한 곡이다. 베토벤의 피아노 소나타가 리듬게임 음악을 거쳐 윤동주의 시를 부르는 대학 응원가가 된 셈이다. [* 참고: 연세대학교 응원단 공식 원곡 표기: https://www.youtube.com/watch?v=sHZY36KlQn8] [* 참고: 펌프 잇 업 공식 곡 목록: https://xx.piugame.com/piu.prime2/intro/pdf/PumpItUp_Prime2_FullSongList.pdf]\n\n가사는 윤동주의 「서시」를 응원가에 맞게 압축하고 일부 표현을 바꿔 구성했다. 원작의 차분한 시어 위에 「베토벤 바이러스」의 빠르고 극적인 반주가 붙으면서 묘한 대비가 생긴다. 관중은 서로 어깨를 걸고 몸을 크게 움직이며 시구를 함께 부르고, 주요 단어와 문장 사이에는 짧은 함성이 끼어든다. 혼자 읽으면 내면을 돌아보게 만드는 시가 수천 명이 동시에 외치는 집단 합창으로 뒤집히는 것이 「서시」만의 독특한 맛이다. [* 참고: 연세대학교 응원단 공식 「서시」 영상: https://www.youtube.com/watch?v=sHZY36KlQn8]\n\n이 때문에 다른 응원가와는 곡을 시작하는 순간의 분위기도 조금 다른데, 바로 반주를 트는 대신 윤동주의 이름을 먼저 부르고 곡을 헌정한 뒤 응원을 시작한다. 2003년 등장한 뒤 20년 넘게 이 의례가 이어지면서 「서시」는 응원가이면서 학교의 문학적 정체성을 드러내는 곡으로 자리 잡았다. [* 참고: 2026 아카라카 「서시」 영상(Since 2003 표기): https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1001s] [* 참고: 2026 신입생 응원 OT 「서시」: https://www.youtube.com/watch?v=wlcxZc5APPE&t=548s]\n\n행사에서의 위치도 확실하다. 아카라카에서는 마지막부의 장중한 응원 레퍼토리를 여는 곡으로 자주 등장하며, 「서시 → 하늘끝까지 → 연세여 사랑한다 → 원시림」으로 이어지는 흐름은 대표적인 피날레 조합 중 하나다. 합동응원전에서는 고려대학교의 「들어라 보아라 그리고 기억하라」와 자주 맞붙는다. 두 곡 모두 느린 도입에서 시작해 거대한 합창으로 커지는 양교의 대표적인 웅장한 응원가라는 공통점이 있어, 합응에서는 사실상 서로 대응되는 카드처럼 쓰인다. [* 참고: 2019 아카라카 3부 피날레 「승리의 물결 - 서시 - 하늘끝까지 - 연세여 사랑한다 - 원시림」: https://www.youtube.com/watch?v=bVX7Ssh6UmU] [* 참고: 2024 고려대·연세대 합동응원OT 「서시(YU) vs 들어라 보아라 그리고 기억하라(KU)」: https://www.youtube.com/watch?v=OzdKakiI7N8] [* 참고: 2024 합동응원 3부 판쓸이 A급 응원곡 대결: https://www.youtube.com/watch?v=0fjI1qAVDDQ]\n\n- 같은 2003년 고려대학교에서는 「민족의 아리아」가 등장했는데, 「서시」의 반응을 의식해 만들어졌다는 이야기가 널리 전해진다. 「민족의 아리아」 또한 조지훈 선생의 「호상비문」에서 가사를 차용했기에, 두 학교가 같은 해에 시·비문 같은 문학적 텍스트를 장중한 선율에 얹은 대표적인 대형 합창곡을 하나씩 갖게 됐다는 점은 흥미롭다.\n- 2021년에는 연세대학교 공식 채널에서 한국어를 비롯해 영어·중국어·러시아어·독일어·프랑스어로 「서시」를 이어 부르는 다국어 영상도 제작했다. 윤동주의 시를 바탕으로 한 한국 대학 응원가를 외국인 학생들이 각자의 언어로 다시 부른 독특한 사례다. [* 참고: 연세대학교 공식 6개 국어 「서시」: https://www.youtube.com/watch?v=IAgmDb4Undw]\n- 초청 가수가 「서시」를 직접 부르면 일반적인 응원가 공연과는 또 다른 분위기가 난다. 2025년 아카라카에서는 10CM가, 2026년에는 잔나비가 각자의 편곡으로 「서시」를 선보였다. 특히 원래부터 시 낭독과 헌정의 성격이 강한 곡이라 밴드나 가수가 맡으면 응원 무대와 윤동주 헌정 공연의 경계가 흐려지는 곡이기도 하다. [* 참고: 10CM 2025 아카라카 「서시」 공연: https://www.youtube.com/watch?v=jeXikLVIBr4] [* 참고: 잔나비 2026 「서시」 공연: https://www.youtube.com/watch?v=jfEpnsvzvoY]\n- 「서시」가 등장한 것은 2003년으로 보는 것이 가장 자연스럽다. 2026 아카라카 현장 화면에도 ‘Since 2003’이 표시되고, 언론 자료 역시 2003년부터 불리기 시작했다고 소개한다. 일부 과거 자료에는 2002년이라는 표기도 남아 있어 세부 연표에 혼선이 있지만, 현재 연세대 현장 표기를 기준으로는 2003년으로 정리하는 편이 타당하다. [* 참고: 2026 아카라카 「서시」 영상: https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1001s] [* 참고: 세계일보 「지못미, 윤동주 시인!」: https://www.segye.com/newsView/20250217513506]",
+      "lyrics": {
+        "lines": [
+          "죽어도 하늘을 우러러 한 점 부끄럼 없길",
+          "잎새에 이는 바람에도 나는 괴로워했다",
+          "별을 노래하는 마음으로 모든 죽어가는 것을",
+          "사랑해야지 그리고 내 길을 걸어가겠다 (X2)",
+          "",
+          "오늘 밤에도 별이 바람에 스치운다"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2003"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/CNDcUtNrIkI?si=k19dLhk1dK36xeKn&t=986",
+          "videoId": "CNDcUtNrIkI",
+          "title": "2025 정기 고연전 D-Day! 합응 마지막 3부 판쓸이 진검승부 37분!",
+          "channelName": "디카츄의 사진창고",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "banya-beethoven-virus"
+        }
+      ],
+      "legacy": {
+        "year": 2003,
+        "timelineYear": 2003,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2003",
+        "originType": "adaptation",
+        "originNote": "BanYa의 ‘베토벤 바이러스’를 바탕으로 윤동주의 「서시」를 응원가 형식에 맞게 일부 개작한 헌정곡이다.",
+        "chronologyNote": "영상 화면과 다수 자료가 2003년으로 수렴한다. 고려대학교 교우회보의 2002년 표기는 상충 주장으로 보존하되 대표 연도로 채택하지 않았다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "연세대학교 응원단 — 서시",
+            "url": "https://www.youtube.com/watch?v=sHZY36KlQn8",
+            "scope": "origin"
+          },
+          {
+            "label": "2026 아카라카 — since 2003 화면",
+            "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1011s",
+            "scope": "chronology"
+          },
+          {
+            "label": "세계일보 — 연세대 응원가 된 윤동주의 서시",
+            "url": "https://www.segye.com/newsView/20250217513506",
+            "scope": "chronology"
+          },
+          {
+            "label": "고려대학교 교우회보 제628호 — 2002년 상충 주장",
+            "url": "https://www.scribd.com/document/1004670663/%25EA%25B5%2590%25EC%259A%25B0%25ED%259A%258C%25EB%25B3%25B4-628",
+            "scope": "chronology"
+          }
+        ],
+        "description": "윤동주 시인을 기리는 헌정 성격의 대표 응원가다. 차분한 도입과 집단 합창으로 학교 정체성과 연대감을 강조한다.",
+        "usageContext": "응원 OT, 아카라카, 연고전과 학교 공식 다국어 콘텐츠에서 사용된다."
+      },
+      "sourceRevision": 4,
+      "contentHash": "f6a60ebff4e68e5783e5829fcafde70de48efcb8c3cd5b24a27030a4dc992d35"
+    },
+    {
+      "id": "yonsei-university-wonsirim",
+      "organizationId": "yonsei-university",
+      "title": "원시림",
+      "aliases": [
+        "타잔",
+        "지구최고",
+        "우주최고",
+        "앉고서고"
+      ],
+      "symbolicLines": [
+        "앉고 서고 STOP",
+        "뛰고뛰고뛰고"
+      ],
+      "descriptionText": "연세대학교를 대표하는 고전 응원가이자, 한 번 시작하면 관중을 가만히 놔두지 않는 대표적인 고강도 응원곡이다. 응원단부터 이 곡을 소개할 때 “지구 최고, 아니 우주 최고의 응원곡”이라는 과장된 수식어를 붙인다. 고릴라와 타잔이 등장하는 장난스러운 가사에서 시작해 ‘앉고, 서고, STOP’과 연속 점프로 이어지는데, 노래를 잘 부르는 것보다 수천 명이 같은 순간에 앉았다 일어나고 멈췄다가 다시 뛰는 광경 자체가 이 곡의 핵심이다. [* 참고: 연세대학교 응원단 공식 「원시림」 영상: https://www.youtube.com/watch?v=qwKuY1SfPPE]\n\n특히 ‘STOP’에서는 다 같이 멈췄다가 주변 사람 가운데 한 명을 몰래 지목한 뒤, 이후 ‘뛰고 뛰고’ 구간에서 주변 사람들이 그 사람에게 인디언밥을 하는 장난이 붙는다. 곡 전체가 정해진 동작을 일제히 따라가는 응원이지만, 이 구간만큼은 주변 사람들과 직접 놀 수 있는 작은 이벤트가 되는 셈이다. 「원시림」 특유의 소란스러운 분위기가 가장 잘 드러나는 부분이기도 하다. [* 참고: 응원단·기록영상단 2023 응원 교육 콘텐츠: https://www.youtube.com/watch?v=RhtnLw7ZlBI] [* 참고: 2026 신입생 응원 OT 「원시림」: https://www.youtube.com/watch?v=gpQW33QJ90M&t=515s]\n\n원곡은 미국 록 밴드 Styx의 「Music Time」이다. 1984년 라이브 앨범 《Caught in the Act》에 유일한 신곡으로 수록된 곡으로, 연세대에서는 빠른 한국어 구호와 전신을 사용하는 응원 동작을 붙여 전혀 다른 성격의 노래로 바꿨다. 연세대판은 1989년 등장했으며, 2026년 아카라카 화면에서도 ‘Since 1989’로 소개된다. [* 참고: A&M Records Styx 《Caught in the Act Live》 음반 자료: https://www.onamrecords.com/artists/styx/discography/united-states/a-m-records/sp-6514/caught-in-the-act-live] [* 참고: 2026 아카라카 「원시림」 영상(Since 1989 표기): https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1370s]\n\n연고전에서는 역할도 아주 명확하다. 연세대가 득점하면 하던 응원을 멈추고 곧바로 「원시림」을 틀 정도로 대표적인 득점곡이며, 이 점에서 고려대학교의 「뱃노래」와 정확히 대응한다. 실제 정기 연고전에서는 양교가 점수를 낼 때마다 「원시림」과 「뱃노래」가 번갈아 울리는 모습을 쉽게 볼 수 있고, 합동응원전에서도 두 곡을 서로 맞붙는 카드처럼 배치한다. [* 참고: 연세춘추 「승부는 럭비공처럼 어디로 튈지 몰랐다」 - 원시림과 뱃노래가 번갈아 울린 2023 정기 연고전: https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=30381] [* 참고: 연세춘추 「최종 점수 2:3, 아쉬움 남긴 2023 정기 연고전」 - 개막식 원시림·뱃노래: https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=30386] [* 참고: 고대신문 「호랑이와 독수리, 사활 건 응원 전쟁」: https://www.kunews.ac.kr/news/articleView.html?idxno=40685]\n\n아카라카에서는 정반대로 응원의 가장 마지막까지 아껴뒀다가 체력을 완전히 쏟아내는 곡으로 쓰인다. 「서시 → 하늘끝까지 → 연세여 사랑한다 → 원시림」으로 이어지는 대표적인 피날레 흐름에서도 맨 끝을 맡는다. 앞의 세 곡이 어깨를 걸고 거대한 합창으로 감정을 쌓아 올린다면, 「원시림」에서는 그 분위기를 그대로 받아 앉고 서고 뛰면서 한꺼번에 폭발시킨다. [* 참고: 2019 아카라카 3부 피날레 「서시 - 하늘끝까지 - 연세여 사랑한다 - 원시림」: https://www.youtube.com/watch?v=bVX7Ssh6UmU] [* 참고: 2026 신입생 응원 OT 「원시림」 - ‘허리는 괜찮아졌지?’: https://www.youtube.com/watch?v=gpQW33QJ90M&t=515s]\n\n- 「원시림」이 등장한 1989년은 연세대 응원 음악의 제작 방식 자체가 바뀌던 시기였다. 당시 응원단 총무였던 이경훈 동문의 회고에 따르면 전년도까지는 음악대학의 브라스밴드가 응원 반주를 맡았지만, 새로운 시도를 위해 1989년 처음으로 교내 록밴드 ‘소나기’에 반주를 맡겼다. 기존 취주악부와 응원단 OB들의 반대도 적지 않았지만, 응원단 선배와 단장, 소나기 멤버들이 함께 만든 결과물이 「원시림」이었다. 지금은 대표적인 고전곡이지만 처음 등장했을 때는 오히려 기존 응원 방식을 깨뜨린 ‘혁신의 결과물’이었던 셈이다. [* 참고: 연세대학교 동문회보 SISBOOMBAH 2022년 9월호 - 1989년 응원단 총무 이경훈 인터뷰: https://fliphtml5.com/zklxi/dicr/2022.09_3%EC%B0%A8_%EC%8B%9C%EC%95%88_compressed/55/]\n- 현재는 인디언밥으로 장난치는 형태로 이어지지만, 과거 STOP 구간은 훨씬 거칠었다. 오래된 응원법 자료에는 지목된 사람을 주변에서 발로 차거나 밀치는 방식도 있었다고 전해진다. 같은 장난의 틀은 남아 있으면서도 실제 방식은 시대에 맞게 훨씬 순화된 셈이다. [* 참고: 연세대학교 「원시림」 과거 응원법 정리: https://namu.moe/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2000%EB%85%84%20%EC%9D%B4%EC%A0%84] [* 참고: 응원단·기록영상단 2023 응원 교육 콘텐츠: https://www.youtube.com/watch?v=RhtnLw7ZlBI]",
+      "lyrics": {
+        "lines": [
+          "저 멀리서 (유후!) 들려오는 북소리 (아 연세!)",
+          "고릴라는 (고릴라는!) 가슴 치며 춤춘다 (와다다다!)",
+          "식인종의 (유후!) 가마솥은 끓는데 (아 연세!)",
+          "타잔 녀석 (타잔 녀석!) 지금쯤은 졸 거다",
+          "",
+          "일어나 (빰빰빠밤) 이제는 (빰빰빠밤)",
+          "응원을 (빰빰빠밤) 해야지~~~",
+          "",
+          "앉고 (안고!) 서고 (서고!) STOP!",
+          "뛰고 뛰고 뛰고 뛰고 (X2)",
+          "",
+          "소리 치며",
+          "다시 한번 힘을 내서 뛰어라~~~",
+          "",
+          "(×2)"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "1989"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/WTD_tXiKBoI?si=YJhNNiYM6Fd4Xo6F",
+          "videoId": "WTD_tXiKBoI",
+          "title": "[4K] 연세대학교, 고려대학교 승리의 응원곡! 원시림 뱃노래 [2026 연고대 상반기 합동응원전]",
+          "channelName": "청춘테이프",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "styx-music-time"
+        }
+      ],
+      "legacy": {
+        "year": 1989,
+        "timelineYear": 1989,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 1989",
+        "originType": "adaptation",
+        "originNote": "Styx의 ‘Music Time’을 원곡으로 하며 당시 응원단과 록밴드 소나기가 제작에 참여한 것으로 전해진다.",
+        "chronologyNote": "전 응원단장 회고와 사용자가 지정한 2026 아카라카 영상 22:55의 ‘원시림 since 1989’ 화면이 일치한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "연세대학교 동문회보 인터뷰",
+            "url": "https://fliphtml5.com/zklxi/dicr/2022.09_3%EC%B0%A8_%EC%8B%9C%EC%95%88_compressed/55/",
+            "scope": "chronology"
+          },
+          {
+            "label": "2026 아카라카 — since 1989 화면",
+            "url": "https://www.youtube.com/watch?v=MqAMtWxrpcU&t=1375s",
+            "scope": "chronology"
+          },
+          {
+            "label": "연세대학교 응원단 — 원시림",
+            "url": "https://www.youtube.com/watch?v=qwKuY1SfPPE",
+            "scope": "origin"
+          }
+        ],
+        "description": "빠른 템포와 앉기·서기·멈추기·뛰기 동작이 결합된 대표 고강도 응원가다.",
+        "usageContext": "연고전 득점 직후 승리 분위기를 끌어올리고 아카라카·합동응원·동문 행사에서도 핵심곡으로 쓰인다."
+      },
+      "sourceRevision": 4,
+      "contentHash": "e9aaf4ea243fefb0f5ff4b5fcbdfa9fa33f32367a42bfe40d5856e1b205b467a"
+    },
+    {
+      "id": "yonsei-university-yonseiyeo-saranghanda",
+      "organizationId": "yonsei-university",
+      "title": "연세여 사랑한다",
+      "aliases": [
+        "사랑한다 연세"
+      ],
+      "symbolicLines": [
+        "사랑한다 연세",
+        "사랑한다 연세"
+      ],
+      "descriptionText": "연세대학교의 명실상부한 대표 응원가다. 2005년 등장한 뒤 지금까지도 아카라카와 정기 연고전의 마지막부를 책임져 왔으며, 연세춘추가 학생들 사이에서 ‘진정한 교가’라 불릴 정도라고 소개했을 만큼 대표곡의 위치를 굳혔다. 서정적이면서도 점점 벅차오르는 선율과 대규모 떼창이 만들어내는 분위기 덕분에 수많은 연세대 응원가 가운데서도 특히 강한 상징성을 갖는다. [* 참고: 연세춘추 「마성의 중독성! 응원곡 그 배후를 밝히다」: https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=15489]\n\n이 곡이 남기는 인상은 재학생들 사이에만 머물지 않는다. 관련 영상이나 수험생 커뮤니티에서는 「연세여 사랑한다」와 연세대의 응원 문화를 접한 뒤 연세대를 목표로 삼고 싶어졌다는 반응도 반복해서 찾아볼 수 있다. 단순히 학교에 들어간 뒤 부르는 응원가가 아니라, ‘언젠가 저 자리에서 함께 부르고 싶다’는 연세대에 대한 로망을 만드는 곡이기도 한 셈이다. [* 참고: 메가스터디 수험생 콘텐츠 댓글 - 연세대 관련 목표 변화 반응: https://megastudy.net/campaign/study/qcc_view_rep_ax.asp?page=1&pidx=10549]\n\n원곡의 조합도 상당히 독특하다. 하나는 Carlos Gardel이 1935년에 발표한 아르헨티나 탱고의 고전 「Por una Cabeza」이고, 다른 하나는 2004년 드라마 《미안하다, 사랑한다》에 삽입된 김선경의 「마지막 선택」이다. 연세대학교 응원단은 이 두 곡을 편곡해 2005년 「연세여 사랑한다」를 만들었다고 공식적으로 설명한다. [* 참고: 연세대학교 응원단 FAQ: https://akaraka.yonsei.ac.kr/faq] [* 참고: Carlos Gardel 재단 1935년 디스코그래피 「Por una Cabeza」: https://fundacioncarlosgardel.org/discografia/discografia-1935] [* 참고: 김선경 「마지막 선택」 공식 유통 영상: https://www.youtube.com/watch?v=aP9CzVTxQPE]\n\n가사는 단순한 편이다. ‘사랑한다 연세’라는 짧은 문장을 중심으로 같은 선율을 반복하지만, 반주가 점차 고조되면서 수천 명의 목소리가 겹치면 곡의 규모는 전혀 다르게 느껴진다. 특히 한 차례 노래가 끝난 뒤 단장이 “나는! 연세를! 사랑한다!”를 선창하고, 반주를 완전히 끈 채 관중의 육성만으로 후렴을 다시 부르는 구간이 백미다. 악기가 사라졌는데 오히려 노래가 더 크게 들리는 순간으로, 복잡한 동작이나 긴 가사 없이 순수한 떼창만으로 분위기를 압도하는 이 곡의 성격이 가장 잘 드러난다. [* 참고: 연세대학교 응원단 공식 「연세여 사랑한다」 영상: https://www.youtube.com/watch?v=cGdOCYiQNyg] [* 참고: 2026 고려대·연세대 합동응원전 「연세여 사랑한다」 무반주 구간: https://www.youtube.com/watch?v=v4mp82NpLyk&t=33s]\n\n행사에서 맡는 자리 역시 대표곡답다. 아카라카에서는 「서시 → 하늘끝까지 → 연세여 사랑한다 → 원시림」으로 이어지는 장중한 마지막부 레퍼토리의 핵심으로 자주 들어간다. 「서시」와 「하늘끝까지」에서 쌓아 올린 감정을 「연세여 사랑한다」의 거대한 떼창으로 끌어올린 뒤, 마지막 「원시림」에서 완전히 뛰어노는 흐름이다. 합동응원전에서는 고려대학교의 「민족의 아리아」와 직접 대응한다. 양교를 상징하는 대표곡끼리의 맞대결인 셈이다. [* 참고: 2019 아카라카 3부 피날레 「서시 - 하늘끝까지 - 연세여 사랑한다 - 원시림」: https://www.youtube.com/watch?v=bVX7Ssh6UmU] [* 참고: KUBS 2023 합동응원전 「민족의 아리아 vs 연세여 사랑한다」: https://www.youtube.com/watch?v=JON8RrrGjLw] [* 참고: 2025 고려대·연세대 합동응원 「연세여 사랑한다 vs 민족의 아리아」: https://www.youtube.com/watch?v=uazFj9ZYjPE]\n\n- 지금의 단순한 가사가 처음부터 정해져 있었던 것은 아니다. 응원단 FAQ에 따르면 초기에는 ‘단 하나의 진리, 단 하나의 자유’를 앞세운 전혀 다른 가사가 붙어 있었지만, 응원 OT를 앞두고 여러 차례 고친 끝에 지금의 형태가 탄생했다. 연세춘추 역시 당시 응원단장의 회고를 통해 막판까지 가사와 곡을 두고 고민하다 현재 가사가 정해졌다고 전한다. 결과적으로 복잡한 가사를 버린 것이 누구나 한 번만 들어도 따라 부르는 대표곡을 만드는 데 결정적인 선택이 됐다. [* 참고: 연세대학교 응원단 FAQ: https://akaraka.yonsei.ac.kr/faq] [* 참고: 연세춘추 「마성의 중독성! 응원곡 그 배후를 밝히다」: https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=15489]\n- 제작 주체에 대해서는 기록이 조금 엇갈린다. 연세대학교 응원단 FAQ는 응원단원들이 두 원곡을 편곡하고 가사를 고민해 만든 곡이라고 설명하지만, 2025년 미래캠퍼스 공식 영상에서는 미래캠퍼스 록 동아리 ‘커런트’가 제작한 곡이라고 소개한다. 연세춘추가 취재한 일반적인 응원가 제작 과정에서는 응원단이 곡을 선정·개사·편곡한 뒤 학내 밴드 동아리에 녹음을 의뢰하기도 했다고 하므로, 양측이 서로 다른 제작 단계를 맡았을 가능성도 있다. 다만 「연세여 사랑한다」에서 실제 역할이 어떻게 나뉘었는지는 공개된 기록만으로 확정하기 어렵다. [* 참고: 연세대학교 응원단 FAQ: https://akaraka.yonsei.ac.kr/faq] [* 참고: 연세대학교 미래캠퍼스 2025 「연세여 사랑한다」 영상: https://www.youtube.com/watch?v=yRmq1WGs_vQ] [* 참고: 연세춘추 「연세여 사랑한다 부르는 게 불법?」: https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=24694]\n- 곡의 이름은 이제 학교 행사명으로까지 확장됐다. 과거 ‘동문 아카라카’로 열리던 동문 행사는 현재 「연세여 사랑한다」라는 이름으로 개최되고 있으며, 재학생과 졸업생이 함께 응원가를 부르는 것이 주요 프로그램 중 하나다. 한 응원가의 제목이 세대를 아우르는 행사 브랜드까지 된 사례다. [* 참고: 연세대학교 국제학대학원 「Yonseiyo Saranghanda: Celebrating 140 Years of Yonsei with Music and Pride」: https://gsis.yonsei.ac.kr/gsis/community/boards2_01.do?articleNo=449708&mode=view]\n- 2018년 아카라카에서 수지가 부른 「연세여 사랑한다」 역시 널리 알려져 있다. 초청가수가 부르다가 후렴을 관중에게 넘기면 노천극장 전체가 그대로 합창으로 받아내는 구조라, 이 곡이 연세대 밖에 알려지는 데도 이런 축제 영상들이 큰 역할을 했다. [* 참고: 2018 아카라카 수지 「연세여 사랑한다」 직캠: https://www.youtube.com/watch?v=wDU6Y1PNAt8]\n- 2021년에는 연세대학교 학생들이 한국어·영어·중국어·러시아어·독일어·프랑스어로 이어 부르는 공식 6개 국어 버전도 제작했다. 짧고 반복적인 가사 구조 덕분에 언어가 바뀌어도 곡의 핵심적인 떼창 구조가 비교적 그대로 남는다. [* 참고: 연세대학교 공식 6개 국어 「연세여 사랑한다」: https://www.youtube.com/watch?v=oS7q5QnETdQ]\n- 프로야구에서는 LG 트윈스의 「사랑한다 LG」로도 계보가 이어졌다. 연세대판의 선율과 ‘사랑한다 ○○’라는 기본 구조를 구단에 맞게 가져온 응원가로, LG에서는 득점이나 역전 등 경기 분위기가 팀 쪽으로 넘어오는 순간에 쓰인다. [* 참고: DUGOUT 「팬이 뽑은 최애 응원가 - LG 트윈스 편」: https://v.daum.net/v/EDCqEsbvJl] [* 참고: LG 트윈스 「사랑한다 LG」 응원가 정리: https://namu.moe/w/LG%20%ED%8A%B8%EC%9C%88%EC%8A%A4/%EC%9D%91%EC%9B%90%EA%B0%80]",
+      "lyrics": {
+        "lines": [
+          "사랑한다 연세",
+          "사랑한다 연세",
+          "내 가슴속에 영원히 남을",
+          "사랑이 되어라",
+          "",
+          "사랑한다 연세",
+          "사랑한다 연세",
+          "내 가슴 속에 영원히 남을",
+          "사랑이어라",
+          "(X2)",
+          "",
+          "내 가슴 속에 영원히 남을 사랑이어라"
+        ],
+        "collapsedPreviewLineCount": 2
+      },
+      "quickFacts": [
+        {
+          "label": "사용 시작",
+          "value": "2005"
+        },
+        {
+          "label": "",
+          "value": ""
+        },
+        {
+          "label": "",
+          "value": ""
+        }
+      ],
+      "videos": [
+        {
+          "rank": 1,
+          "role": "official-or-lyrics",
+          "sourceUrl": "https://youtu.be/RQUCsN86KYQ?si=fH1uKpEIjLWr-mG9&t=226",
+          "videoId": "RQUCsN86KYQ",
+          "title": "2023 연세대학교 축제 '서시 + 연세여 사랑한다 + 원시림 + 하늘 끝까지' 아카라카 AKARAKA 4k 60p 연대 축제 @노천극장",
+          "channelName": "Cheerss 치얼쓰",
+          "attributionText": ""
+        }
+      ],
+      "relationships": [
+        {
+          "type": "original-song",
+          "targetId": "carlos-gardel-por-una-cabeza"
+        },
+        {
+          "type": "secondary-original-song",
+          "targetId": "kim-seon-gyeong-majimag-seontaeg"
+        }
+      ],
+      "legacy": {
+        "year": 2005,
+        "timelineYear": 2005,
+        "yearStatus": "confirmed",
+        "yearLabel": "since 2005",
+        "originType": "combined-adaptation",
+        "originNote": "‘Por una Cabeza’와 ‘마지막 선택’을 결합·편곡한 응원가다. ‘커런트’ 제작설은 나무위키발 보조 주장으로만 남기고 공식 제작 크레딧으로 확정하지 않았다.",
+        "chronologyNote": "연세대학교 응원단 FAQ가 2005년 제작을 명시한다.",
+        "durationSeconds": null,
+        "status": "verified",
+        "sources": [
+          {
+            "label": "연세대학교 응원단 FAQ",
+            "url": "https://akaraka.yonsei.ac.kr/faq",
+            "scope": "chronology"
+          },
+          {
+            "label": "연세춘추 — 마성의 중독성 ‘응원가’",
+            "url": "https://chunchu.yonsei.ac.kr/news/articleView.html?idxno=15489",
+            "scope": "origin"
+          },
+          {
+            "label": "연세대학교 응원단 — 연세여 사랑한다",
+            "url": "https://www.youtube.com/watch?v=cGdOCYiQNyg",
+            "scope": "title"
+          }
+        ],
+        "description": "장중한 분위기와 학교에 대한 애정을 전면에 둔 곡으로 경기·행사 후반부에 단결과 소속감을 표현한다.",
+        "usageContext": "아카라카, 합동응원, 미래캠퍼스와 동문 행사, 행사 마무리 구간에서 널리 사용된다."
+      },
+      "sourceRevision": 2,
+      "contentHash": "64804c5c5da6d33c12eb95d677ba2c3d10c039891683a111b6a88e78c7356aa3"
+    }
+  ],
+  "parentReleaseId": "20260920T163737085Z-c54960e5fd",
+  "action": "publish",
+  "changedSongIds": [
+    "korea-university-seungni-ui-hamseong"
+  ]
+}

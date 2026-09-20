@@ -5,43 +5,67 @@
     "organizationId": "yonsei-university",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "research_ready",
+    "workflowStage": "published",
     "title": "오늘 밤새",
     "aliases": [
       "오늘밤새"
     ],
     "symbolicLines": [
-      "",
-      ""
+      "오늘 밤 새",
+      "놀다가 밤 새"
     ],
     "descriptionText": "PSY의 2010년 곡 ‘오늘밤새’를 원곡으로 한 2013년 응원가다. 공식 응원단 음원이 원곡을 PSY로 명시하고 음원 카탈로그가 앨범 ‘Psyfive’의 수록곡과 발매일을 확인한다. 단순한 반복 구호와 춤 중심 동작 때문에 응원 OT·아카라카에서 빠르게 따라 하기 쉬운 곡으로 쓰이며, 2018~2026의 직접 표본에서 사용이 확인된다. 데이터 표제는 인벤토리의 ‘오늘 밤새’를 유지하되 공식 영상의 붙여쓰기와 현장 영상의 ‘오늘 밤 새’를 별칭으로 보존한다.\n\n### 현장에서\n\n- 신입생 응원 OT에서 짧고 반복적인 구호와 춤 동작을 익히는 참여형 곡으로 사용한다.\n- 아카라카 1부와 연속 메들리에서 빠르게 분위기를 전환하고 관중 전체의 점프·박수·응답을 유도한다.\n- 연세대 스포츠 경기 응원을 먼저 접한 시청자가 축제 응원가로 다시 발견하는 교차 맥락도 댓글에서 확인된다.\n\n### 더 알아보기\n\n과거 편집형 자료는 2013년에 발표된 신곡들 가운데 오늘 밤새만 후대 정규 응원에서 살아남았다고 설명한다. 당시 전체 신곡 목록과 퇴출 시점을 확인할 공식 문서는 아직 없다.[* 참고: https://tcatmon.com/wiki/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80 / https://namu.wiki/w/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90/%EC%9D%91%EC%9B%90%EA%B0%80/2010%EB%85%84%EB%8C%80]\n\n2022 현장 영상 댓글에서는 동작이 단순해 처음 보는 관중도 쉽게 따라가는 점이 장점으로 언급된다. 영상 자체도 반복되는 박수·몸동작 중심의 구성을 보여준다.[* 참고: https://www.youtube.com/watch?v=LaXCouypn8w]\n\n2018·2022·2024 영상 댓글에서는 드라마 ‘치얼업’을 통해 곡과 실제 대학 응원문화를 찾아왔다는 반응이 반복된다.[* 참고: https://www.youtube.com/watch?v=HOzGsNblDLU / https://www.youtube.com/watch?v=LaXCouypn8w]\n\n2024 합동응원 OT 영상은 제목·게시 맥락은 2024년인데 설명 본문에는 2023-03-15라고 적혀 있다. 행사 연도 판정에는 제목과 게시일을 사용하고 설명의 날짜 불일치를 별도 보존한다.[* 참고: https://www.youtube.com/watch?v=bITbfVZDY7A]\n\n### 추가 확인\n\n연세교육방송국 YBS의 2026 응원 OT 모음집에 오늘밤새가 명시된 교내 매체 표본을 추가했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=zTjYgUVsRc8]",
     "lyrics": {
-      "lines": [],
+      "lines": [
+        "어머나 세상에 내가 이상해",
+        "(오늘밤 밤밤밤 바바밤새~)",
+        "너 혹시 나와 같은 상상을 해",
+        "(오늘밤 밤밤밤 바바밤새~)",
+        "BABE BABE 가지마 집에",
+        "(오늘밤 밤밤밤 바바밤새~)",
+        "이 밤은 짧다고 젊음도 짧다고",
+        "내일은 진짜로 철 들겠다구",
+        "",
+        "오늘밤새 놀다가 밤새 (x3)",
+        "오늘밤 밤밤밤 바바밤새~",
+        "",
+        "(X2)"
+      ],
       "collapsedPreviewLineCount": 2
     },
     "quickFacts": [
       {
         "label": "사용 시작",
-        "value": "2013년"
+        "value": "2013"
       },
       {
-        "label": "원곡",
-        "value": "PSY ‘오늘밤새’ — 앨범 ‘Psyfive’(2010)"
+        "label": "",
+        "value": ""
       },
       {
-        "label": "현행 확인",
-        "value": "2018·2019·2020·2022·2024·2025·2026 표본에서 확인되며 2026 응원 OT와 아카라카에 모두 등장"
+        "label": "",
+        "value": ""
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "rank": 1,
+        "role": "official-or-lyrics",
+        "sourceUrl": "https://youtu.be/KQzMi6jwtE4?si=yO6Ku02cS7adOLDV&t=9",
+        "videoId": "KQzMi6jwtE4",
+        "title": "가장 신나는 연대 응원곡 '오늘 밤 새' vs 응원봉지로 만든 붉은 물결 '붉은 노을' - [2025 고려대/연세대 합동응원] #합응",
+        "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "attributionText": ""
+      }
+    ],
     "relationships": [
       {
         "type": "original-song",
         "targetId": "psy-oneul-bamsae"
       }
     ],
-    "revision": 2,
+    "revision": 4,
     "createdAt": "2026-09-05T06:15:38.205Z",
-    "updatedAt": "2026-09-13T16:44:06.816Z"
+    "updatedAt": "2026-09-20T16:56:53.578Z"
   }
 }

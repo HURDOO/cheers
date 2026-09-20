@@ -2,6 +2,185 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "daegu-fc-geu-gyeoul",
+      "title": "그 겨울 (feat. 더 베인)",
+      "artist": "대구FC feat. 더 베인 (THE VANE)",
+      "kind": "source",
+      "year": 2020,
+      "genre": "인디 록",
+      "country": "KR",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "벅스 — 대구FC ‘그 겨울’ 곡·참여 정보",
+          "url": "https://music.bugs.co.kr/track/31910622",
+          "scope": "origin"
+        },
+        {
+          "label": "벅스 — ‘그 겨울’ 앨범 및 2020-05-13 발매 정보",
+          "url": "https://music.bugs.co.kr/album/20324198",
+          "scope": "chronology"
+        },
+        {
+          "label": "대구FC 공식 영상 — 응원가 ‘그 겨울’",
+          "url": "https://www.youtube.com/watch?v=bhlFv9qiKIM",
+          "scope": "usage"
+        }
+      ]
+    },
+    {
+      "id": "korea-university-seungni-ui-hamseong-original",
+      "title": "승리의 함성",
+      "artist": "고려대학교 (세부 제작진 미공개)",
+      "kind": "commissioned",
+      "year": 2025,
+      "genre": null,
+      "country": "KR",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "고려대학교 120주년 기념사업 — 기념 응원가 ‘승리의 함성’ 공지",
+          "url": "https://120.korea.ac.kr/project/view?idx=54",
+          "scope": "origin"
+        },
+        {
+          "label": "고려대학교 뉴스 — 응원곡 공모전 수상·편곡·공식 활용 계획",
+          "url": "https://www.korea.ac.kr/ko/552/subview.do?enc=Zm5jdDF8QEB8JTJGa3VzdG9yeSUyRmtvJTJGYXJ0Y2xWaWV3LmRvJTNGYXJ0Y2xTZXElM0QyNzkwMCUyNg%3D%3D",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "samaksajang-j-ege",
+      "title": "J에게",
+      "artist": "4막5장 (이선희·임성균)",
+      "kind": "source",
+      "year": 1984,
+      "genre": null,
+      "country": "KR",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "MBC 아카이브 — 1984 강변가요제 대상곡 4막5장 ‘J에게’",
+          "url": "https://www.youtube.com/watch?v=pdV4sRQRsxc",
+          "scope": "origin"
+        },
+        {
+          "label": "iMBC — 1984 강변가요제 4막5장 ‘J에게’ 대상 기록",
+          "url": "https://enews.imbc.com/News/ViewAmp/182195",
+          "scope": "chronology"
+        },
+        {
+          "label": "매일경제 — 이선희와 작곡가 이세건의 ‘J에게’ 탄생 일화",
+          "url": "https://www.mk.co.kr/news/culture/6023155",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "lee-seung-gi-j-ege",
+      "title": "J에게",
+      "artist": "이승기",
+      "kind": "source",
+      "year": 2004,
+      "genre": null,
+      "country": "KR",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "벅스 — 이승기 ‘J에게’, 나방의 꿈",
+          "url": "https://music.bugs.co.kr/track/530128",
+          "scope": "origin"
+        },
+        {
+          "label": "IZM — 이승기 ‘나방의 꿈’ 리뷰 및 ‘J에게’ 리메이크·편곡 정보",
+          "url": "https://izm.co.kr/posts?id=4960",
+          "scope": "origin"
+        },
+        {
+          "label": "SSG 랜더스 공식 영상 — 2023 신규 응원가 ‘J에게’",
+          "url": "https://www.youtube.com/watch?v=rlna-kEHy4c",
+          "scope": "usage"
+        }
+      ]
+    },
+    {
+      "id": "song-chang-sik-goraesanyang",
+      "title": "고래사냥",
+      "artist": "송창식",
+      "kind": "source",
+      "year": 1975,
+      "genre": null,
+      "country": "KR",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "벅스 — 송창식 곡 목록 ‘고래사냥’",
+          "url": "https://music.bugs.co.kr/artist/4877/tracks?type=RELEASE&wl_ref=S_ar_09_01",
+          "scope": "origin"
+        },
+        {
+          "label": "국가기록원 — 1975년 ‘고래사냥’ 및 금지곡 기록",
+          "url": "https://www.archives.go.kr/next/common/archivedata/render.do?filePath=2F757046696c652F70616c67616e2F313434343230393530363933302e706466",
+          "scope": "chronology"
+        },
+        {
+          "label": "경향신문 — 영화 ‘바보들의 행진’ OST ‘고래사냥’",
+          "url": "https://www.khan.co.kr/article/201808262107025",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "bigbang-oh-my-friend-feat-no-brain",
+      "title": "Oh My Friend (feat. No Brain)",
+      "artist": "BIGBANG feat. No Brain",
+      "kind": "source",
+      "year": 2008,
+      "genre": null,
+      "country": "KR",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "YG Entertainment — BIGBANG Stand Up 디스코그래피",
+          "url": "https://ygfamily.com/en/artists/bigbang/discography/276",
+          "scope": "origin"
+        },
+        {
+          "label": "Apple Music — Oh My Friend (feat. No Brain)",
+          "url": "https://music.apple.com/us/song/1346470980",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "badasae-badasae",
+      "title": "바다새",
+      "artist": "바다새",
+      "kind": "source",
+      "year": 1986,
+      "genre": null,
+      "country": "KR",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "벅스 — 바다새 아티스트·제7회 MBC 강변가요제 수록 정보",
+          "url": "https://music.bugs.co.kr/artist/21138",
+          "scope": "origin"
+        },
+        {
+          "label": "iMBC — 1986년 강변가요제 ‘바다새’·김혜정",
+          "url": "https://enews.imbc.com/News/ViewAmp/182195",
+          "scope": "chronology"
+        },
+        {
+          "label": "연세대학교 응원단 — 바다새 원곡·저작자 표기",
+          "url": "https://www.youtube.com/watch?v=QtzesPt6W2M",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
       "id": "westlife-you-raise-me-up",
       "title": "You Raise Me Up",
       "artist": "Westlife",

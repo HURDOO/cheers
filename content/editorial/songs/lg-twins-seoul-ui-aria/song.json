@@ -5,7 +5,7 @@
     "organizationId": "lg-twins",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "review_ready",
+    "workflowStage": "published",
     "title": "서울의 아리아",
     "aliases": [
       "민족의 아리아",
@@ -86,8 +86,8 @@
       "originNote": "고려대학교 ‘민족의 아리아’를 LG 트윈스용으로 개사했으며 기반 원곡은 Andrea Bocelli의 ‘Melodramma’다. 황석빈은 녹음 보컬로만 확인됐다.",
       "chronologyNote": "2014년 일간스포츠가 LG 홍보팀·구단 관계자를 인용해 2012 시즌 중반부터 사용했다고 보도했다. 나무위키의 2011년설은 상충 주장으로만 보존한다."
     },
-    "revision": 3,
+    "revision": 4,
     "createdAt": null,
-    "updatedAt": "2026-08-27T10:14:30.104Z"
+    "updatedAt": "2026-09-20T16:38:19.661Z"
   }
 }

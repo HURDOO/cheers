@@ -5,7 +5,7 @@
     "organizationId": "doosan-bears",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "review_ready",
+    "workflowStage": "published",
     "title": "해야",
     "aliases": [
       "해야떠라",
@@ -63,8 +63,8 @@
       "originNote": "마그마의 ‘해야’를 원곡으로 한다. 연세대학교 ‘해야’와는 같은 원곡을 공유하지만 가사가 완전히 다른 별개 개사곡이다.",
       "chronologyNote": "2011년은 나무위키 기반 추정 시작 연도다. 2011~2017년 사용 뒤 중단됐고 BEARS TV가 2025년 복귀를 ‘8년 만’이라고 공식 표현했다."
     },
-    "revision": 3,
+    "revision": 4,
     "createdAt": null,
-    "updatedAt": "2026-08-27T11:33:25.478Z"
+    "updatedAt": "2026-09-20T16:36:46.233Z"
   }
 }

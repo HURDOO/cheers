@@ -170,7 +170,8 @@ try {
   assert.ok(!redesignedD.includes('aria-label="시안 비교"'), "The public D header does not expose design variants");
   const publicEntry = await readFile(new URL("../events/korea-yonsei-games-2026/index.html", import.meta.url), "utf8");
   assert.ok(publicEntry.includes('/src/events/korea-yonsei-games-2026-d/main.tsx'), "The canonical event URL renders D");
-  assert.ok(publicEntry.includes('content="index, follow"') && publicEntry.includes("og-card.png"), "The public entry has launch metadata and a share image");
+  assert.ok(publicEntry.includes('content="index, follow"') && publicEntry.includes('property="og:url" content="https://cheers.app.hurdoo.kr/events/korea-yonsei-games-2026/"'), "The public entry has canonical launch metadata");
+  assert.ok(publicEntry.includes('content="https://cheers.app.hurdoo.kr/events/korea-yonsei-games-2026/og-card.png"'), "The public entry uses an absolute share image URL");
   const victoryEditorial = JSON.parse(await readFile(new URL("../content/editorial/songs/korea-university-seungni-ui-hamseong/song.json", import.meta.url), "utf8"));
   assert.equal(victoryEditorial.song.videos[0].videoId, "f32A-jjTbjE");
   assert.ok(!victoryEditorial.song.videos.some((video) => video.videoId === "6M41kbUyd7E"), "Do not keep 영원히 in 승리의 함성's video list");

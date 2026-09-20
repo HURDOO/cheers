@@ -5,7 +5,7 @@
     "organizationId": "hanyang-university",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "review_ready",
+    "workflowStage": "published",
     "title": "한양을 위하여",
     "aliases": [
       "승리를 위하여",
@@ -88,8 +88,8 @@
       "originNote": "두산 베어스 ‘승리를 위하여’를 한양대학교용으로 개사한 곡이며 기반 원곡은 Rhapsody의 ‘Emerald Sword’다.",
       "chronologyNote": "나무위키의 2016년 서술을 추정 시작 연도로 인용한다. 공식 RHooters 영상으로는 2020년부터 사용을 직접 확인한다."
     },
-    "revision": 3,
+    "revision": 4,
     "createdAt": null,
-    "updatedAt": "2026-08-27T09:05:51.424Z"
+    "updatedAt": "2026-09-20T16:36:53.410Z"
   }
 }

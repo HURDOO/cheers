@@ -9,18 +9,42 @@
     "title": "바다새",
     "aliases": [],
     "symbolicLines": [
-      "",
-      ""
+      "어두운 바닷가 홀로 나는",
+      "새야 새야"
     ],
     "descriptionText": "",
     "lyrics": {
-      "lines": [],
+      "lines": [
+        "어두운 바닷가 홀로 나는 새야 (새야)",
+        "갈 곳을 잃었나 하얀 바다새야 (우후후)",
+        "힘없는 소리로 홀로 우는 새야 (새야)",
+        "단짝을 잃었나 하얀 바다새야 (우후후)",
+        "",
+        "모두가 가고없는데",
+        "바다도 잠이드는데",
+        "",
+        "새야 해지고 어두운데",
+        "새야 어디로 떠나갈까",
+        "새야 달마저 기우는데",
+        "새야 아픈맘 어이하나",
+        "",
+        "우우우우 새야 x4",
+        "",
+        "모두가 가고없는데",
+        "바다도 잠이드는데",
+        "",
+        "새야 해지고 어두운데",
+        "새야 어디로 떠나갈까",
+        "새야 달마저 기우는데",
+        "새야 아픈맘 어이하나",
+        ""
+      ],
       "collapsedPreviewLineCount": 2
     },
     "quickFacts": [
       {
-        "label": "",
-        "value": ""
+        "label": "사용 시작",
+        "value": "2017"
       },
       {
         "label": "",
@@ -31,10 +55,25 @@
         "value": ""
       }
     ],
-    "videos": [],
-    "relationships": [],
-    "revision": 1,
+    "videos": [
+      {
+        "rank": 1,
+        "role": "official-or-lyrics",
+        "sourceUrl": "https://youtu.be/HofMsKPsr1o?si=uaKC9UxScTD4QVps&t=248",
+        "videoId": "HofMsKPsr1o",
+        "title": "[4K] 연대생이랑 친구 할 사람? “푸른 연세” “친구야” “바다새” “오늘밤새” | 2026 연세대학교 신입생 응원 오리엔테이션",
+        "channelName": "청춘테이프",
+        "attributionText": ""
+      }
+    ],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "badasae-badasae"
+      }
+    ],
+    "revision": 3,
     "createdAt": "2026-09-13T05:32:44.000Z",
-    "updatedAt": "2026-09-13T05:32:44.000Z"
+    "updatedAt": "2026-09-20T17:15:44.735Z"
   }
 }

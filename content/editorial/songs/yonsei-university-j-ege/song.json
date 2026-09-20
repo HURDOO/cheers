@@ -7,20 +7,32 @@
     "scopeStatus": "target",
     "workflowStage": "listed",
     "title": "J에게",
-    "aliases": [],
+    "aliases": [
+      "좋아 가는거야"
+    ],
     "symbolicLines": [
-      "",
-      ""
+      "J 난 너를 못잊어",
+      "(좋아! 가는거야!)"
     ],
     "descriptionText": "",
     "lyrics": {
-      "lines": [],
+      "lines": [
+        "J (J J J) 스치는 바람에 (으쌰라으쌰)",
+        "J (J J J) 그대모습 보이면 (으쌰라으쌰)",
+        "난 (난 난 난) 오늘도 조용히 (으쌰라으쌰)",
+        "그대 (그대 그대 그대) 그리워하네",
+        "X2",
+        "",
+        "J 난 너를 못잊어 (좋아! 가는 거야!)",
+        "J 난 너를 사랑해",
+        "X2"
+      ],
       "collapsedPreviewLineCount": 2
     },
     "quickFacts": [
       {
-        "label": "",
-        "value": ""
+        "label": "사용 시작",
+        "value": "2005"
       },
       {
         "label": "",
@@ -31,10 +43,34 @@
         "value": ""
       }
     ],
-    "videos": [],
-    "relationships": [],
-    "revision": 1,
+    "videos": [
+      {
+        "rank": 1,
+        "role": "official-or-lyrics",
+        "sourceUrl": "https://youtu.be/YP5jUhsqjfM?si=Fxle-eb8sk8Wl1dt&t=9",
+        "videoId": "YP5jUhsqjfM",
+        "title": "예쁜 누나가 불러주는 꽤 오래된 응원곡 'J에게' 고려대학교 2024 하반기 합동 응원 OT 4k 60p 연세대 고려대 @연세대학교노천극장",
+        "channelName": "Cheerss 치얼쓰",
+        "attributionText": ""
+      },
+      {
+        "rank": 2,
+        "role": "featured-field",
+        "sourceUrl": "https://youtu.be/QNeMSJCX5GY?si=QQZVWHdychllTYJ6&t=4",
+        "videoId": "QNeMSJCX5GY",
+        "title": "[2018 연세대 아카라카] J에게 & 고밟꿈 - 연세대학교 응원단 / AKARAKA / 연세대 축제 / 연세대 응원가",
+        "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "attributionText": ""
+      }
+    ],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "samaksajang-j-ege"
+      }
+    ],
+    "revision": 3,
     "createdAt": "2026-09-13T05:32:44.000Z",
-    "updatedAt": "2026-09-13T05:32:44.000Z"
+    "updatedAt": "2026-09-20T17:57:26.657Z"
   }
 }

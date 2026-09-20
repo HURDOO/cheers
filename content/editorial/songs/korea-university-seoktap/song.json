@@ -5,41 +5,64 @@
     "organizationId": "korea-university",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "research_ready",
+    "workflowStage": "published",
     "title": "석탑",
-    "aliases": [],
+    "aliases": [
+      "은은한 너의 모습"
+    ],
     "symbolicLines": [
-      "",
-      ""
+      "하늘을 향해 불쑥 솟아오른",
+      "거대한 돌덩이"
     ],
     "descriptionText": "장애향의 1979년 곡 ‘석탑’을 바탕으로 고려대의 석탑 상징을 강직함·의지·지성의 이미지와 결합한 전통 응원가다. 도입 연도는 고려대 교우회 연표가 1981년으로 적는 반면 2024 플레이리스트와 2025 영상 화면은 1982년으로 표기해 상충한다. 사용자가 정한 원칙에 따라 가장 이른 확인 연도인 1981년을 보존하되 불명확성을 명시했고, 2026 입실렌티와 신입생 응원 OT에서 현행 사용을 확인했다.\n\n### 현장에서\n\n- 신입생 응원 OT에서 동작을 교육하고 입실렌티·고연전에서 전통 레퍼토리로 부른다.\n- 탑을 쌓고 솟구치는 이미지를 큰 상체 동작, 관중 구호와 결합한다.\n- 개교 기념식과 교우 행사에서도 엘리제·지야의 함성과 함께 세대 연결을 상징하는 곡으로 사용된다.\n\n### 더 알아보기\n\n공식 응원단은 실제 건축물만이 아니라 절개·의지·지성을 석탑에 겹쳐 설명한다. 영상 설명과 댓글에서는 몸을 크게 부딪치거나 굽혔다 펴는 동작이 강한 기억으로 남는다.[* 참고: https://www.youtube.com/watch?v=1--FIQPdAwo / https://www.youtube.com/watch?v=J_RtsEU-20g]\n\n2025년 개교 120주년 기념식에서 응원단이 엘리제·지야의 함성과 함께 석탑을 공연했다. 경기장 밖 공식 기념행사에서도 전통 레퍼토리로 기능함을 보여준다.[* 참고: https://www.kunews.ac.kr/news/articleView.html?idxno=43933]\n\n장애향 원곡의 1979년 음반 발매와 고려대 도입 연도는 서로 다른 사건이다. 자료에 따라 고려대 도입이 1981년 또는 1982년으로 갈리므로 두 연도를 원곡 연도와 혼합하지 않았다.[* 참고: https://www.yes24.com/Product/Goods/119809340 / https://kuaa.or.kr/member/bulletin/coverStoryFeature.do?actionMode=S&contentsIdx=0&currentPage=5&numPerPage=10&searchStr=&search_numPerPage=10&seqStr=0]\n\n### 추가 확인\n\n2026 신입생 응원 OT의 교육·시범·본 공연 타임라인을 확보했다.[* 추가 조사 자료: https://www.youtube.com/watch?v=e8PIfcjNhF0]",
     "lyrics": {
-      "lines": [],
+      "lines": [
+        "하늘을 향해 불쑥 솟아오른 거대한 돌덩이(돌덩이)",
+        "이름모를 석공의 땀과 눈물이 흘러내리네(내리네)",
+        "은은한 너의 모습(아 너의 모습) 은은한 너의 모습",
+        "x2",
+        "",
+        "바람이 놀다간 바람이 놀다간 너의 가슴 속에(가슴 속에)",
+        "석공의 땀이 어린 석공의 손때 묻은 정과 쇠망치 그 소리가",
+        "아- 들려온다(고대!) 들려온다!(고대!) 들려-온-다!",
+        "",
+        "X2"
+      ],
       "collapsedPreviewLineCount": 2
     },
     "quickFacts": [
       {
         "label": "사용 시작",
-        "value": "1981년(가장 이른 확인; 1982년 표기 병존)"
+        "value": "1981년"
       },
       {
-        "label": "원곡",
-        "value": "장애향 ‘석탑’(1979)"
+        "label": "",
+        "value": ""
       },
       {
-        "label": "현행 확인",
-        "value": "2026 입실렌티와 신입생 응원 OT에서 계속 사용"
+        "label": "",
+        "value": ""
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "rank": 1,
+        "role": "official-or-lyrics",
+        "sourceUrl": "https://youtu.be/EY_OjeeKpeg?si=RZ0bO34mXeB29JMs&t=408",
+        "videoId": "EY_OjeeKpeg",
+        "title": "2025 합동응원 3부 I 고려대/연세대 A급 응원곡 모음집 I 영원한 함성/엘리제/하늘아래/석탑/온누리에/고래사냥/하늘이여/하늘끝까지/FOREVER/연세여 사랑한다/민족의 아리아",
+        "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "attributionText": ""
+      }
+    ],
     "relationships": [
       {
         "type": "original-song",
         "targetId": "jang-ae-hyang-seoktap"
       }
     ],
-    "revision": 2,
+    "revision": 4,
     "createdAt": "2026-09-05T06:15:38.097Z",
-    "updatedAt": "2026-09-13T16:44:06.816Z"
+    "updatedAt": "2026-09-20T17:29:00.056Z"
   }
 }

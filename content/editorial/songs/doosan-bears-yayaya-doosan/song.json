@@ -5,7 +5,7 @@
     "organizationId": "doosan-bears",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "review_ready",
+    "workflowStage": "published",
     "title": "야야야 두산",
     "aliases": [
       "야야야! 두산",
@@ -89,8 +89,8 @@
       "originNote": "두산이 정의송에게 의뢰한 신규 응원가 가운데 하나로 강성찬이 불렀다.",
       "chronologyNote": "2006년 개막전 공개 보도와 2006년 4월 1일 응원가 앨범 발매 정보가 일치한다."
     },
-    "revision": 4,
+    "revision": 5,
     "createdAt": null,
-    "updatedAt": "2026-08-27T06:51:30.080Z"
+    "updatedAt": "2026-09-20T16:36:44.248Z"
   }
 }

@@ -19,6 +19,12 @@ npm run dev
 npm run check
 ```
 
+## 운영 배포
+
+운영 주소는 <https://cheers.app.hurdoo.kr>이며, 정적 프로덕션 빌드를 `ghcr.io/hurdoo/cheers` 이미지로 게시해 deployd에서 실행합니다. 운영 컨테이너에는 빌드 결과물만 포함하고 Admin, 편집 정본, 릴리스 작업 파일과 로컬 도구는 포함하지 않습니다. 콘텐츠 공개와 운영 이미지 배포는 서로 다른 승인 단계입니다.
+
+배포 계약과 확인 순서는 [배포 연결 시 확인할 사항](docs/DEPLOYMENT_NOTES.md)을 따릅니다.
+
 ## 콘텐츠 Admin과 AI 수집·작성
 
 Admin은 다음 명령으로 실행합니다.

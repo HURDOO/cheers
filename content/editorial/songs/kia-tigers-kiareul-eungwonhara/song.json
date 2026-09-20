@@ -5,7 +5,7 @@
     "organizationId": "kia-tigers",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "research_ready",
+    "workflowStage": "published",
     "title": "기아를 응원하라",
     "aliases": [
       "KIA를 응원하라"
@@ -59,8 +59,8 @@
       "originNote": "Andrea Bocelli의 ‘Con te partirò’를 기반으로 한 고려대학교 응원가 ‘고대를 응원하라’ 계열을 KIA 타이거즈용으로 개사했다.",
       "chronologyNote": "2013년 6월 10일 공개된 영상이 직접 확인 가능한 가장 오래된 사용 자료여서 2013년을 추정 시작 연도로 둔다. 나무위키 계열의 2011~2012년설과 옛 문서 사본의 2001년설은 직접 근거가 없고 서로 충돌해 채택하지 않았다."
     },
-    "revision": 1,
+    "revision": 2,
     "createdAt": null,
-    "updatedAt": "2026-08-26T05:11:36.589Z"
+    "updatedAt": "2026-09-20T16:36:56.923Z"
   }
 }

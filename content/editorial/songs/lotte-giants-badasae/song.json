@@ -32,9 +32,14 @@
       }
     ],
     "videos": [],
-    "relationships": [],
-    "revision": 1,
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "badasae-badasae"
+      }
+    ],
+    "revision": 2,
     "createdAt": "2026-09-13T05:32:44.000Z",
-    "updatedAt": "2026-09-13T05:32:44.000Z"
+    "updatedAt": "2026-09-20T17:15:44.735Z"
   }
 }

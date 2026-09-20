@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "appId": "cheers",
+  "imageRepository": "ghcr.io/hurdoo/cheers",
+  "displayName": "응원가 아카이브",
+  "description": "대학과 야구 응원가 아카이브 및 2026 정기 연고전·고연전 응원가 가이드",
+  "containerPort": 8080,
+  "healthPath": "/healthz",
+  "access": "public",
+  "dataEnabled": false,
+  "resources": {
+    "memoryMiB": 128,
+    "cpus": 1,
+    "pids": 64
+  },
+  "ingressProfile": "standard",
+  "environment": {},
+  "requiredSecrets": [],
+  "optionalSecrets": [],
+  "platform": "linux/arm64",
+  "dockerfile": "Dockerfile",
+  "context": ".",
+  "checks": [
+    ["npm", "run", "check"],
+    ["node", "scripts/test-korea-yonsei-d.mjs"]
+  ]
+}

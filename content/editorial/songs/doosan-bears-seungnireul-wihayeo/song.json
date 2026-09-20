@@ -5,7 +5,7 @@
     "organizationId": "doosan-bears",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "review_ready",
+    "workflowStage": "published",
     "title": "승리를 위하여",
     "aliases": [
       "두산 승리를 위하여",
@@ -80,8 +80,8 @@
       "originNote": "Rhapsody의 ‘Emerald Sword’를 바탕으로 하며 한재권 응원단장 제작설이 있다. 초기 긴 버전과 현재의 짧은 버전이 구분된다.",
       "chronologyNote": "2015년 첫 등장이라는 DUGOUT 설명과 2015년 11월 3일 공개된 BEARS TV 전광판 영상이 일치한다."
     },
-    "revision": 6,
+    "revision": 7,
     "createdAt": null,
-    "updatedAt": "2026-08-27T06:51:26.934Z"
+    "updatedAt": "2026-09-20T16:36:42.021Z"
   }
 }

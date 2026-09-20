@@ -5,22 +5,47 @@
     "organizationId": "korea-university",
     "discoveredBy": "user",
     "scopeStatus": "target",
-    "workflowStage": "listed",
+    "workflowStage": "published",
     "title": "고래사냥",
-    "aliases": [],
+    "aliases": [
+      "자 떠나자 동해바다로",
+      "고래",
+      "지랄하고자빠졌네"
+    ],
     "symbolicLines": [
-      "",
-      ""
+      "자 떠나자 동해바다로",
+      "삼등삼등 완행열차 기차를타고"
     ],
     "descriptionText": "",
     "lyrics": {
-      "lines": [],
+      "lines": [
+        "술마시고 노래하고 춤을 춰봐도",
+        "가슴에는 하나 가득 슬픔 뿐이네",
+        "(아 고래 아 고래 아 고래고래고래고래)",
+        "무엇을 할 것인가 둘러보아도",
+        "보이는 건 모두 다 돌아앉았네",
+        "(아 고래 아 고래 아 고래고래고래고래)",
+        "",
+        "자 떠나자 (어디로) 동해바다로 (어떻게)",
+        "삼등 삼등 완행 열차 (뭐타고) 기차를 타고",
+        "",
+        "간밤에 꾸어왔던 꿈의 세계는",
+        "아침에 일어나면 잊혀지지만",
+        "(아 고래 아 고래 아 고래고래고래고래)",
+        "그래도 생각나는 내 꿈 하나는",
+        "조그만 예쁜 고래 한 마리",
+        "(아 고래 아 고래 아 고래고래고래고래)",
+        "",
+        "자 떠나자 (어디로) 동해바다로 (어떻게)",
+        "삼등 삼등 완행 열차 (뭐타고) 기차를 타고",
+        "X2"
+      ],
       "collapsedPreviewLineCount": 2
     },
     "quickFacts": [
       {
-        "label": "",
-        "value": ""
+        "label": "사용 시작",
+        "value": "-"
       },
       {
         "label": "",
@@ -31,10 +56,25 @@
         "value": ""
       }
     ],
-    "videos": [],
-    "relationships": [],
-    "revision": 1,
+    "videos": [
+      {
+        "rank": 1,
+        "role": "official-or-lyrics",
+        "sourceUrl": "https://youtu.be/EY_OjeeKpeg?si=zsUau58ClktW-0Pc&t=729",
+        "videoId": "EY_OjeeKpeg",
+        "title": "2025 합동응원 3부 I 고려대/연세대 A급 응원곡 모음집 I 영원한 함성/엘리제/하늘아래/석탑/온누리에/고래사냥/하늘이여/하늘끝까지/FOREVER/연세여 사랑한다/민족의 아리아",
+        "channelName": "디카츄의 사진창고 / Dicachoo's Photoclub",
+        "attributionText": ""
+      }
+    ],
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "song-chang-sik-goraesanyang"
+      }
+    ],
+    "revision": 5,
     "createdAt": "2026-09-13T05:32:44.000Z",
-    "updatedAt": "2026-09-13T05:32:44.000Z"
+    "updatedAt": "2026-09-20T17:49:37.456Z"
   }
 }

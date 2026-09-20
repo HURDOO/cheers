@@ -22,10 +22,8 @@
         "승리의 함성 외쳐라 고대",
         "영원한 승리 노래하라",
         "",
-        "",
         "승리를 위하여 함성을 외쳐라",
         "우리는 승리한다 (x2)",
-        "",
         "",
         "우리의 응원 하나가 되어",
         "뜨거운 오늘을 노래하라",
@@ -53,7 +51,7 @@
     "videos": [
       {
         "rank": 1,
-        "role": "featured-field",
+        "role": "official-or-lyrics",
         "sourceUrl": "https://youtu.be/f32A-jjTbjE?si=5p64LnWny-JW85Gp&t=1080",
         "videoId": "f32A-jjTbjE",
         "title": "[4k] 2026 고려대 입실렌티 1부 응원제(1) '엘리제를 위하여' 부터 '민족의 아리아' 까지!  #입실렌티 #고려대응원가 #민족의아리아 #고려대축제 #엘리제 #석탑",
@@ -62,7 +60,7 @@
       },
       {
         "rank": 2,
-        "role": "additional",
+        "role": "featured-field",
         "sourceUrl": "https://youtu.be/u39SUZ-HPQU?si=ZxfM0Nb_iOOjnTTZ&t=54",
         "videoId": "u39SUZ-HPQU",
         "title": "[2025 고연전 응원] 야구 경기 시작. '승리의 라인업 & Young Tigers' #고연전야구 #고려대응원가 #2025고연전 #고연전 #부단장 바람 [4k60p]",
@@ -70,9 +68,14 @@
         "attributionText": ""
       }
     ],
-    "relationships": [],
-    "revision": 5,
+    "relationships": [
+      {
+        "type": "original-song",
+        "targetId": "korea-university-seungni-ui-hamseong-original"
+      }
+    ],
+    "revision": 7,
     "createdAt": "2026-09-05T06:15:38.133Z",
-    "updatedAt": "2026-09-20T16:26:34.000Z"
+    "updatedAt": "2026-09-20T18:13:47.253Z"
   }
 }
