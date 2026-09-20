@@ -128,7 +128,7 @@ export function BaseballStory({ side, contents }: { side: Side; contents: Record
     const campus = campusSongs.find((song) => song.id === connection.campusId) ?? BASEBALL_PREVIEW_SONGS[connection.campusId];
     const club = content.baseballSongs.find((song) => song.id === connection.clubId)
       ?? catalogSongSource.getSong(connection.clubId) ?? BASEBALL_PREVIEW_SONGS[connection.clubId];
-    return campus && club ? [{ connection, campus, club, allClubs: connection.campusId === "yonsei-university-apartment" }] : [];
+    return campus && club ? [{ connection, campus, club }] : [];
   });
   const moreQueue = connectionSongs.map(({ club }) => club);
 
@@ -188,13 +188,13 @@ export function BaseballStory({ side, contents }: { side: Side; contents: Record
         <section className="baseball-story__more" aria-labelledby="baseball-story-more-title">
           <h3 id="baseball-story-more-title">야구장에서 더 듣기</h3>
           <ul className="baseball-story__rail">
-            {connectionSongs.map(({ connection, campus, club, allClubs }) => {
+            {connectionSongs.map(({ connection, campus, club }) => {
               const playbackKey = `baseball-more:${club.id}`;
               const isPlaying = activeKey === playbackKey && moreSong?.id === club.id;
               return <Fragment key={club.id}>
                 <li className={isPlaying ? "is-selected" : ""} data-relation={connection.kind} data-campus-song={campus.id} data-club-song={club.id}>
-                  <button ref={(element) => { moreButtons.current[club.id] = element; }} type="button" aria-label={allClubs ? "전 구단 아파트 응원 펼쳐 듣기" : `${club.teamName} ${club.title} 펼쳐 듣기`} aria-expanded={isPlaying} aria-controls={`baseball-player-${club.id}`} onClick={() => selectMore(club)}>
-                    <small>{allClubs ? "전 구단" : club.teamName}</small><strong>{club.title}</strong>
+                  <button ref={(element) => { moreButtons.current[club.id] = element; }} type="button" aria-label={`${club.teamName} ${club.title} 펼쳐 듣기`} aria-expanded={isPlaying} aria-controls={`baseball-player-${club.id}`} onClick={() => selectMore(club)}>
+                    <small>{club.teamName}</small><strong>{club.title}</strong>
                     <span className="baseball-story__rail-origin">{campus.teamShortName} · {connection.campusTitle ?? campus.title}</span>
                     <span className={`baseball-story__rail-relation is-${connection.kind}`}>{RELATION_LABELS[connection.kind]}</span>
                     <i><Play size={17} fill={isPlaying ? "currentColor" : "none"} aria-hidden="true" /></i>

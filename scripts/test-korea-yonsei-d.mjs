@@ -65,7 +65,7 @@ try {
     assert.equal((html.match(/원곡 계보 자세히 알아보기/g) ?? []).length, side === "korea" ? 1 : 2);
     assert.ok(html.includes("구단별 응원가 더 알아보기") && html.includes('href="/?view=team&amp;type=baseball"'));
     assert.ok(!html.includes("대학·야구 응원가 관련 기사"));
-    if (side === "yonsei") assert.ok(html.includes("전 구단 아파트 응원 펼쳐 듣기"));
+    if (side === "yonsei") assert.ok(html.includes('aria-label="SSG 랜더스 J에게 펼쳐 듣기"'));
     assert.ok(html.includes("같은 원곡"), "Keep the distinction between shared originals and direct adaptations");
     const connections = [...html.matchAll(/data-relation="([^"]+)" data-campus-song="([^"]+)" data-club-song="([^"]+)"/g)].map(([, kind, campusId, clubId]) => ({kind, campusId, clubId}));
     assert.deepEqual(connections, BASEBALL_CONNECTIONS[side].map(({kind, campusId, clubId}) => ({kind, campusId, clubId})), "Every curated connection renders, including songs outside the six/eight playlists");
@@ -79,6 +79,8 @@ try {
       assert.equal(BASEBALL_PREVIEW_SONGS["ssg-landers-tuhon-ui-landers"].media.startSeconds, 831, "SSG's inline player starts at 투혼의 랜더스");
     } else {
       assert.ok(connections.some(c => c.clubId === "kia-tigers-lineup-song" && c.campusId === "yonsei-university-seosi" && c.kind === "shared"));
+      assert.ok(connections.some(c => c.clubId === "ssg-landers-j-ege" && c.campusId === "yonsei-university-j-ege" && c.kind === "shared"));
+      assert.ok(!connections.some(c => c.clubId === "kt-wiz-apartment" || c.campusId === "yonsei-university-apartment"));
       assert.equal(BASEBALL_PREVIEW_SONGS["kia-tigers-lineup-song"].media.startSeconds, 22, "KIA's inline player starts at the lineup song");
       assert.equal(BASEBALL_PREVIEW_SONGS["kia-tigers-lineup-song"].media.embeddable, false, "The KIA source falls back to its watch page instead of a blocked iframe");
       assert.ok(!html.includes("대구FC"), "Do not classify a football connection as baseball");
@@ -142,6 +144,10 @@ try {
     assert.equal((listening.match(/aria-expanded="false"/g) ?? []).length, 14, "All list players start collapsed");
     assert.ok(listening.includes(side === "korea" ? "조국의 영원한 / 고동이 되리라" : "앉고 서고 STOP / 뛰고뛰고뛰고"), "Catalog representative lines appear under playlist titles");
     assert.ok(listening.includes("응원석에서 함께 부를 여섯 곡을 미리 들어보세요.") && listening.includes("1학기 합동응원전에서 들었던,"));
+    if (side === "yonsei") {
+      assert.ok(listening.includes("J에게"), "Yonsei memory listening includes J에게");
+      assert.ok(!listening.includes("아파트"), "Yonsei memory listening no longer includes 아파트");
+    }
     const finale = renderToStaticMarkup(createElement(Finale, {side}));
     assert.ok(finale.includes(`2026년 ${side === "korea" ? "고연전" : "연고전"}도`) && finale.includes("필승, 전승, 압승!"));
     assert.ok(finale.includes(CHEER_INSTAGRAM[side]) && finale.includes("응원단 인스타그램") && !finale.includes("우리 응원 다시 듣기"));
@@ -194,7 +200,7 @@ try {
   assert.equal(getListeningNote(contents.yonsei.mustKnowSongs[1]).line, "사랑한다 연세 / 사랑한다 연세");
   assert.equal(getListeningNote(contents.yonsei.mustKnowSongs[2]).line, "승리를 향해 외쳐라 / 하늘 끝까지");
   assert.equal(wonsirimNote.description, "빠른 템포와 앉기·서기·멈추기·뛰기 동작이 결합된 대표 고강도 응원가다.");
-  assert.equal(getListeningNote(contents.korea.memorySongs[0]).line, "지성의 힘으로 야성의 힘으로");
+  assert.equal(getListeningNote(contents.korea.memorySongs[0]).line, getRepresentativeLine(contents.korea.memorySongs[0]), "Published representative lyrics override the event fallback");
   assert.equal(getListeningNote({id: "unknown-song", title: "Unknown"}).line, undefined, "Do not fabricate lyrics for unresolved records");
   assert.equal(getSongIntroduction(contents.korea.mustKnowSongs[0]), "고려대학교를 대표하는 장중한 군중 응원곡이다.");
   const victory = contents.korea.mustKnowSongs.find((song) => song.id === "korea-university-seungni-ui-hamseong");

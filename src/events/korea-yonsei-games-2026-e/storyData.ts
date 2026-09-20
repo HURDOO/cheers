@@ -65,9 +65,9 @@ const EXTRA_MEDIA: Record<string, { baseball: VideoClip; campus: VideoClip }> = 
     baseball: preview({ id: "lotte-badasae-extra", label: "롯데 자이언츠", title: "바다새", videoId: "AtyqKrWmvGE", startSeconds: 1916, credit: "Giants TV · 2026 팀 응원가", archiveSongId: "lotte-giants-badasae" }),
     campus: preview({ id: "yonsei-badasae-extra", label: "연세대학교", title: "바다새", videoId: "QtzesPt6W2M", credit: "아카라카TV", archiveSongId: "yonsei-university-badasae" }),
   },
-  "kt-wiz-apartment": {
-    baseball: preview({ id: "kt-apartment-extra", label: "KT 위즈 · 2019 현장", title: "아파트", videoId: "nY_vi4v_6UM", credit: "DJ Landers · 2019 현장", archiveSongId: "kt-wiz-apartment" }),
-    campus: preview({ id: "yonsei-apartment-extra", label: "연세대학교 · 2025 응원 OT", title: "아파트", videoId: "2HGMpagSdxs", credit: "KODA · 2025 신입생 응원 OT", archiveSongId: "yonsei-university-apartment" }),
+  "ssg-landers-j-ege": {
+    baseball: preview({ id: "ssg-j-ege-extra", label: "SSG 랜더스 · 2026 공식 응원가", title: "J에게", videoId: "zPGEpmBj4iw", startSeconds: 1432, credit: "SSG랜더스", archiveSongId: "ssg-landers-j-ege" }),
+    campus: preview({ id: "yonsei-j-ege-extra", label: "연세대학교 · 2024 합동 응원 OT", title: "J에게", videoId: "YP5jUhsqjfM", startSeconds: 9, credit: "Cheerss 치얼쓰", archiveSongId: "yonsei-university-j-ege" }),
   },
 };
 

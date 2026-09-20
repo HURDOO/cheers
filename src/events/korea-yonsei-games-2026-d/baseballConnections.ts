@@ -21,7 +21,7 @@ export const BASEBALL_CONNECTIONS: Record<Side, BaseballConnection[]> = {
     { campusId: "yonsei-university-haeya", clubId: "doosan-bears-haeya", kind: "shared" },
     { campusId: "yonsei-university-seosi", clubId: "kia-tigers-lineup-song", kind: "shared" },
     { campusId: "yonsei-university-badasae", clubId: "lotte-giants-badasae", kind: "shared" },
-    { campusId: "yonsei-university-apartment", clubId: "kt-wiz-apartment", kind: "shared" },
+    { campusId: "yonsei-university-j-ege", clubId: "ssg-landers-j-ege", kind: "shared" },
   ],
 };
 

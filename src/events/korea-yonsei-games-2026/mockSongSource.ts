@@ -83,7 +83,7 @@ const SONGS: SongSummary[] = [
   makeSong({ id: "yonsei-university-oh-my-friend", title: "Oh My Friend", teamId: "yonsei-university", description: "1학기 현장의 기억을 정기전까지 이어주는 응원가.", tags: ["1학기", "현역"] }),
   makeSong({ id: "yonsei-university-onnurie", title: "온누리에", teamId: "yonsei-university", description: "넓게 퍼지는 후렴이 응원석을 하나로 묶는 곡.", tags: ["1학기", "떼창"] }),
   makeSong({ id: "yonsei-university-haneul-arae", title: "하늘 아래", teamId: "yonsei-university", description: "다른 스포츠 응원문화까지 이어지는 계보가 기대되는 곡.", tags: ["원곡 계보", "현역"] }),
-  makeSong({ id: "yonsei-university-apartment", title: "아파트", teamId: "yonsei-university", description: "세대를 넘어 금세 따라 부르게 되는 익숙한 응원가.", tags: ["클래식", "떼창"] }),
+  makeSong({ id: "yonsei-university-j-ege", title: "J에게", teamId: "yonsei-university", description: "오랫동안 연세 응원석에서 불린 곡으로, 반복되는 추임새와 후렴을 함께 익히기 좋습니다.", tags: ["응원 OT", "떼창"], lyrics: ["J 난 너를 못잊어", "J 난 너를 사랑해"], media: youtube("YP5jUhsqjfM", 9) }),
   makeSong({ id: "yonsei-university-badasae", title: "바다새", teamId: "yonsei-university", description: "대학과 야구 응원석을 오가는 흥미로운 계보의 노래.", tags: ["원곡 계보", "아카라카"] }),
 
   makeSong({ id: "yonsei-university-go-balp-kkum", title: "고.밟.꿈", teamId: "yonsei-university", description: "오래 이어진 연세 라이벌리 응원가.", tags: ["라이벌리", "클래식"] }),
@@ -122,7 +122,7 @@ const SONGS: SongSummary[] = [
   makeSong({ id: "lg-twins-saranghanda-lg", title: "사랑한다 LG", teamId: "lg-twins", description: "연세여 사랑한다에서 프로야구 응원석으로 이어진 응원가.", tags: ["연세대 연결", "직접 차용"], media: youtube("BhwoJFjkAf8", 1027), archiveHref: "/?song=lg-twins-saranghanda-lg", dataStatus: "verified" }),
   makeSong({ id: "doosan-bears-haeya", title: "해야", teamId: "doosan-bears", description: "연세 해야와 같은 원곡이 잠실 응원석에서 다시 울리는 곡.", tags: ["연세대 연결", "같은 원곡"], media: youtube("Hr8ER2a_YbY"), archiveHref: "/?song=doosan-bears-haeya", dataStatus: "verified" }),
   makeSong({ id: "lotte-giants-badasae", title: "바다새", teamId: "lotte-giants", description: "대학과 부산 야구 응원문화 사이를 잇는 친숙한 멜로디.", tags: ["연세대 연결", "같은 원곡"] }),
-  makeSong({ id: "kt-wiz-apartment", title: "아파트", teamId: "kt-wiz", description: "연세 응원석에서도 익숙한 멜로디를 야구장에서 만나는 곡.", tags: ["연세대 연결", "같은 원곡"] }),
+  makeSong({ id: "ssg-landers-j-ege", title: "J에게", teamId: "ssg-landers", description: "연세 J에게와 같은 뿌리의 노래를 SSG 응원석에서 만나는 곡.", tags: ["연세대 연결", "같은 원곡"], media: youtube("zPGEpmBj4iw", 1432) }),
 ];
 
 const songById = new Map(SONGS.map((song) => [song.id, song]));
