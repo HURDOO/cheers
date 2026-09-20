@@ -19,7 +19,7 @@ function firstSentence(value: string) {
 export function getRepresentativeLine(song: SongSummary, fallback?: string) {
   const canonical = getCheerSong(song.id);
   const representative = canonical?.symbolicLines.filter((line) => line.trim());
-  if (representative?.length) return representative.join(" / ");
+  if (representative?.length) return representative.join(" ");
   return fallback ?? PREVIEW_LINES[song.id] ?? song.lyrics?.find((line) => line.trim());
 }
 

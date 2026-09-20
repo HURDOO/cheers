@@ -41,7 +41,7 @@ try {
   for (const song of eventSongs) {
     const canonical = getCheerSong(song.id);
     if (!canonical) continue;
-    assert.equal(getRepresentativeLine(song), canonical.symbolicLines.filter(Boolean).join(" / "), `${song.id}: event lyrics follow the catalog`);
+    assert.equal(getRepresentativeLine(song), canonical.symbolicLines.filter(Boolean).join(" "), `${song.id}: event lyrics follow the catalog without separators`);
     assert.ok(canonical.description.startsWith(getSongIntroduction(song)), `${song.id}: event introduction is derived from the catalog`);
   }
   const expected = {
@@ -126,7 +126,7 @@ try {
         assert.ok(rivalry.includes(getRepresentativeLine(song, RIVALRY_LINES[song.id])), "Published representative lines replace event fallbacks");
       }
     }
-    assert.ok(rivalry.includes("신촌은 골로골로 골로간다~") && rivalry.includes("저기 고대 겁도 없구나 / 빱 뚜밥 뚜밥 후"));
+    assert.ok(rivalry.includes("신촌은 골로골로 골로간다~") && rivalry.includes("저기 고대 겁도 없구나 빱 뚜밥 뚜밥 후"));
     assert.ok(rivalry.includes("마지막 필살기 한방에 넉다운 K.O.") && !rivalry.includes("한방이"));
     for (const song of contents[side].rivalrySongs.filter((song) => !/woo$|kkureora-yonsei$/.test(song.id))) {
       const playable = getRivalryPlaybackSong(song);
@@ -142,7 +142,7 @@ try {
     assert.ok(!listening.includes("<iframe"), "Listening videos load on request");
     assert.ok(listening.includes("행사 전 꼭 들을 6곡") && listening.includes("대표 응원가부터 올해 신곡까지."));
     assert.equal((listening.match(/aria-expanded="false"/g) ?? []).length, 14, "All list players start collapsed");
-    assert.ok(listening.includes(side === "korea" ? "조국의 영원한 / 고동이 되리라" : "앉고 서고 STOP / 뛰고뛰고뛰고"), "Catalog representative lines appear under playlist titles");
+    assert.ok(listening.includes(side === "korea" ? "조국의 영원한 고동이 되리라" : "앉고 서고 STOP 뛰고뛰고뛰고"), "Catalog representative lines appear under playlist titles without separators");
     assert.ok(listening.includes("응원석에서 함께 부를 여섯 곡을 미리 들어보세요.") && listening.includes("1학기 합동응원전에서 들었던,"));
     if (side === "yonsei") {
       assert.ok(listening.includes("J에게"), "Yonsei memory listening includes J에게");
@@ -196,9 +196,9 @@ try {
   for (const camp of ["yonsei", "korea", "neutral"]) assert.equal((schedule.match(new RegExp(`data-camp="${camp}"`, "g")) ?? []).length, 2, "Schedule colors are tied to the event, not selected school");
   assert.ok(redesignedD.includes('class="rivalry-finale"') && redesignedD.includes("rivalry-finale__horizon"));
   const wonsirimNote = getListeningNote(contents.yonsei.mustKnowSongs[0]);
-  assert.equal(wonsirimNote.line, "앉고 서고 STOP / 뛰고뛰고뛰고");
-  assert.equal(getListeningNote(contents.yonsei.mustKnowSongs[1]).line, "사랑한다 연세 / 사랑한다 연세");
-  assert.equal(getListeningNote(contents.yonsei.mustKnowSongs[2]).line, "승리를 향해 외쳐라 / 하늘 끝까지");
+  assert.equal(wonsirimNote.line, "앉고 서고 STOP 뛰고뛰고뛰고");
+  assert.equal(getListeningNote(contents.yonsei.mustKnowSongs[1]).line, "사랑한다 연세 사랑한다 연세");
+  assert.equal(getListeningNote(contents.yonsei.mustKnowSongs[2]).line, "승리를 향해 외쳐라 하늘 끝까지");
   assert.equal(wonsirimNote.description, "빠른 템포와 앉기·서기·멈추기·뛰기 동작이 결합된 대표 고강도 응원가다.");
   assert.equal(getListeningNote(contents.korea.memorySongs[0]).line, getRepresentativeLine(contents.korea.memorySongs[0]), "Published representative lyrics override the event fallback");
   assert.equal(getListeningNote({id: "unknown-song", title: "Unknown"}).line, undefined, "Do not fabricate lyrics for unresolved records");
