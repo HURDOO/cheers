@@ -8,6 +8,6 @@ if [ -n "$measurement_id" ] && ! printf '%s' "$measurement_id" | grep -Eq '^G-[A
 fi
 
 printf 'window.__CHEERS_GA_MEASUREMENT_ID__ = "%s";\n' "$measurement_id" \
-  > /usr/share/nginx/html/analytics-config.js
+  > /tmp/analytics-config.js
 
 exec nginx -g 'daemon off;'
