@@ -2,6 +2,149 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "andrea-bocelli-melodramma",
+      "title": "Melodramma",
+      "artist": "Andrea Bocelli",
+      "kind": "source",
+      "year": 2001,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Andrea Bocelli 공식 디스코그래피 — Cieli Di Toscana",
+          "url": "https://www.andreabocelli.com/discography/cieli-di-toscana/",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "carlos-gardel-por-una-cabeza",
+      "title": "Por una Cabeza",
+      "artist": "Carlos Gardel",
+      "kind": "source",
+      "year": null,
+      "yearLabel": "발표 연도 미확인",
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "LG 트윈스 공식 2026 응원가 모음집",
+          "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1027s",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "rhapsody-emerald-sword",
+      "title": "Emerald Sword",
+      "artist": "Rhapsody",
+      "kind": "source",
+      "year": 1998,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Rhapsody of Fire 공식 사이트 — Emerald Sword",
+          "url": "https://www.rhapsodyoffire.com/emerald-sword/",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "han-sung-min-saranghamyeon-halssurok",
+      "title": "사랑하면 할수록",
+      "artist": "한성민",
+      "kind": "source",
+      "year": 2003,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "벅스 — 영화 클래식 OST",
+          "url": "https://music.bugs.co.kr/album/29611",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "korean-traditional-baennorae",
+      "title": "뱃노래",
+      "artist": "전승 민요",
+      "kind": "source",
+      "year": null,
+      "yearLabel": "전승 민요",
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "고려대학교 응원단 온라인 응원 OT — 뱃노래",
+          "url": "https://www.youtube.com/watch?v=YbADjuEahzg",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "andrea-bocelli-con-te-partiro",
+      "title": "Con te partirò",
+      "artist": "Andrea Bocelli",
+      "kind": "source",
+      "year": 1995,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Andrea Bocelli 공식 디스코그래피 — Bocelli",
+          "url": "https://www.andreabocelli.com/discography/bocelli/",
+          "scope": "origin"
+        },
+        {
+          "label": "Apple Music — Con te partirò",
+          "url": "https://music.apple.com/it/song/1440840587",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "stratovarius-forever",
+      "title": "Forever",
+      "artist": "Stratovarius",
+      "kind": "source",
+      "year": 1996,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Stratovarius 공식 디스코그래피 — Episode",
+          "url": "https://stratovarius.com/episode/",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
+      "id": "vanessa-mae-contradanza",
+      "title": "Contradanza",
+      "artist": "Vanessa-Mae",
+      "kind": "source",
+      "year": 1995,
+      "genre": null,
+      "country": null,
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Apple Music Classical — The Violin Player",
+          "url": "https://classical.music.apple.com/us/album/1465123736",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
       "id": "daegu-fc-geu-gyeoul",
       "title": "그 겨울 (feat. 더 베인)",
       "artist": "대구FC feat. 더 베인 (THE VANE)",
@@ -238,62 +381,6 @@
       ]
     },
     {
-      "id": "andrea-bocelli-melodramma",
-      "title": "Melodramma",
-      "artist": "Andrea Bocelli",
-      "kind": "source",
-      "year": 2001,
-      "genre": null,
-      "country": null,
-      "status": "verified",
-      "sources": [
-        {
-          "label": "Andrea Bocelli 공식 디스코그래피 — Cieli Di Toscana",
-          "url": "https://www.andreabocelli.com/discography/cieli-di-toscana/",
-          "scope": "origin"
-        }
-      ]
-    },
-    {
-      "id": "andrea-bocelli-con-te-partiro",
-      "title": "Con te partirò",
-      "artist": "Andrea Bocelli",
-      "kind": "source",
-      "year": 1995,
-      "genre": null,
-      "country": null,
-      "status": "verified",
-      "sources": [
-        {
-          "label": "Andrea Bocelli 공식 디스코그래피 — Bocelli",
-          "url": "https://www.andreabocelli.com/discography/bocelli/",
-          "scope": "origin"
-        },
-        {
-          "label": "Apple Music — Con te partirò",
-          "url": "https://music.apple.com/it/song/1440840587",
-          "scope": "origin"
-        }
-      ]
-    },
-    {
-      "id": "stratovarius-forever",
-      "title": "Forever",
-      "artist": "Stratovarius",
-      "kind": "source",
-      "year": 1996,
-      "genre": null,
-      "country": null,
-      "status": "verified",
-      "sources": [
-        {
-          "label": "Stratovarius 공식 디스코그래피 — Episode",
-          "url": "https://stratovarius.com/episode/",
-          "scope": "origin"
-        }
-      ]
-    },
-    {
       "id": "kimi-wo-nosete",
       "title": "君をのせて (Kimi wo Nosete / Carrying You)",
       "artist": "Azumi Inoue",
@@ -306,41 +393,6 @@
         {
           "label": "Castle in the Sky Press Kit",
           "url": "https://www.nausicaa.net/presskit/kits/ghiblink/castle/lpk-press.pdf",
-          "scope": "origin"
-        }
-      ]
-    },
-    {
-      "id": "korean-traditional-baennorae",
-      "title": "뱃노래",
-      "artist": "전승 민요",
-      "kind": "source",
-      "year": null,
-      "yearLabel": "전승 민요",
-      "genre": null,
-      "country": null,
-      "status": "verified",
-      "sources": [
-        {
-          "label": "고려대학교 응원단 온라인 응원 OT — 뱃노래",
-          "url": "https://www.youtube.com/watch?v=YbADjuEahzg",
-          "scope": "origin"
-        }
-      ]
-    },
-    {
-      "id": "vanessa-mae-contradanza",
-      "title": "Contradanza",
-      "artist": "Vanessa-Mae",
-      "kind": "source",
-      "year": 1995,
-      "genre": null,
-      "country": null,
-      "status": "verified",
-      "sources": [
-        {
-          "label": "Apple Music Classical — The Violin Player",
-          "url": "https://classical.music.apple.com/us/album/1465123736",
           "scope": "origin"
         }
       ]
@@ -359,41 +411,6 @@
         {
           "label": "연세대학교 응원단 — 서시",
           "url": "https://www.youtube.com/watch?v=sHZY36KlQn8",
-          "scope": "origin"
-        }
-      ]
-    },
-    {
-      "id": "han-sung-min-saranghamyeon-halssurok",
-      "title": "사랑하면 할수록",
-      "artist": "한성민",
-      "kind": "source",
-      "year": 2003,
-      "genre": null,
-      "country": null,
-      "status": "verified",
-      "sources": [
-        {
-          "label": "벅스 — 영화 클래식 OST",
-          "url": "https://music.bugs.co.kr/album/29611",
-          "scope": "origin"
-        }
-      ]
-    },
-    {
-      "id": "carlos-gardel-por-una-cabeza",
-      "title": "Por una Cabeza",
-      "artist": "Carlos Gardel",
-      "kind": "source",
-      "year": null,
-      "yearLabel": "발표 연도 미확인",
-      "genre": null,
-      "country": null,
-      "status": "verified",
-      "sources": [
-        {
-          "label": "LG 트윈스 공식 2026 응원가 모음집",
-          "url": "https://www.youtube.com/watch?v=BhwoJFjkAf8&t=1027s",
           "scope": "origin"
         }
       ]
@@ -447,23 +464,6 @@
         {
           "label": "MBC — 1980년 제4회 대학가요제",
           "url": "https://program.imbc.com/Info/1000261100000100000?seq=2089",
-          "scope": "origin"
-        }
-      ]
-    },
-    {
-      "id": "rhapsody-emerald-sword",
-      "title": "Emerald Sword",
-      "artist": "Rhapsody",
-      "kind": "source",
-      "year": 1998,
-      "genre": null,
-      "country": null,
-      "status": "verified",
-      "sources": [
-        {
-          "label": "Rhapsody of Fire 공식 사이트 — Emerald Sword",
-          "url": "https://www.rhapsodyoffire.com/emerald-sword/",
           "scope": "origin"
         }
       ]

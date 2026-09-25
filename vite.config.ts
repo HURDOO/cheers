@@ -19,6 +19,15 @@ function figmaAssetResolver() {
 export default defineConfig({
   plugins: [
     figmaAssetResolver(),
+    {
+      name: 'public-analytics',
+      transformIndexHtml() {
+        return [
+          { tag: 'script', attrs: { src: '/analytics-config.js', defer: true }, injectTo: 'head' },
+          { tag: 'script', attrs: { src: '/analytics.js', defer: true }, injectTo: 'head' },
+        ]
+      },
+    },
     // The React and Tailwind plugins are both required for Make, even if
     // Tailwind is not being actively used – do not remove them
     react(),

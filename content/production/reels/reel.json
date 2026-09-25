@@ -1,0 +1,39 @@
+{
+  "id": "reel",
+  "title": "고려대가 부르는 연세대 응원가 <하늘 끝까지>",
+  "originalSongTitle": "",
+  "hookText": "같은 원곡, 전혀 다른 응원가",
+  "endCardText": "전체 응원가는 프로필 링크에서",
+  "postCaption": "",
+  "status": "draft",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "clips": [
+    {
+      "id": "clip-muh65n57",
+      "songId": "yonsei-university-haneul-kkeutkkaji",
+      "sourceUrl": "https://www.youtube.com/watch?v=Wyp-1N68Tas&t=327s",
+      "startSeconds": 91,
+      "endSeconds": 119,
+      "headline": "2026 합동응원전 @ 연세대학교 노천극장",
+      "attributionText": "@Dicachoo",
+      "lyricsLines": [
+        "오오오오 오오오",
+        "오오오오 오오오",
+        "오오오오오 오오오",
+        "오오오오오",
+        "피어나라 그대여",
+        "피어나라 연세여",
+        "승리를 향해 외쳐라",
+        "하늘 끝까지"
+      ],
+      "crop": "center"
+    }
+  ],
+  "revision": 1,
+  "createdAt": "2026-09-25T16:25:37.368Z",
+  "updatedAt": "2026-09-25T16:25:37.368Z"
+}

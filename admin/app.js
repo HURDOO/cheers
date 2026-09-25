@@ -9,6 +9,7 @@ const refreshButton = document.querySelector("#refresh-button");
 const navigation = document.querySelector(".main-nav");
 const organizationCount = document.querySelector("#nav-organization-count");
 const songCount = document.querySelector("#nav-song-count");
+const originalCount = document.querySelector("#nav-original-count");
 const priorityCount = document.querySelector("#nav-priority-count");
 const reelCount = document.querySelector("#nav-reel-count");
 const drawerLayer = document.querySelector("#drawer-layer");
@@ -41,6 +42,7 @@ const VIEW_LABELS = {
   priorities: "작업 순서",
   organizations: "대학·구단",
   songs: "응원가",
+  originals: "원곡 순서",
   reels: "릴스 제작",
 };
 const TYPE_LABELS = { baseball: "프로야구", university: "대학교" };
@@ -108,9 +110,13 @@ const icons = {
   arrow: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13.6 5.6 5 5a2 2 0 0 1 0 2.8l-5 5-1.4-1.4 4-4H5v-2h11.2l-4-4 1.4-1.4Z" /></svg>',
 };
 
-let database = { organizations: [], songs: [], jobs: [], reels: [], priorityPlan: null, publication: null, reelTools: { ready: false } };
+let database = { organizations: [], songs: [], originalSongs: [], jobs: [], reels: [], priorityPlan: null, publication: null, reelTools: { ready: false } };
 let currentView = validView(location.hash.slice(1)) ?? "overview";
 let busy = false;
+let originalOrderIds = [];
+let originalOrderSavedIds = [];
+let originalOrderRevision = null;
+let draggedOriginalId = null;
 let drawerState = null;
 let drawerOpener = null;
 let reelPollInProgress = false;
@@ -333,6 +339,11 @@ async function loadState({ render = true } = {}) {
   setBusy(true, "불러오는 중");
   try {
     database = await api("/api/state");
+    if (!originalOrderDirty()) {
+      originalOrderIds = database.originalSongs.map(({ id }) => id);
+      originalOrderSavedIds = [...originalOrderIds];
+      originalOrderRevision = database.originalOrderRevision;
+    }
     const currentSongIds = new Set(database.songs.map(({ id }) => id));
     for (const id of selectedSongIds) if (!currentSongIds.has(id)) selectedSongIds.delete(id);
     if (filters.songOrganization !== "all"
@@ -341,6 +352,7 @@ async function loadState({ render = true } = {}) {
     }
     organizationCount.textContent = database.organizations.length;
     songCount.textContent = database.songs.length;
+    originalCount.textContent = database.originalSongs.length;
     priorityCount.textContent = prioritySummary(buildPriorityItems(database)).remaining;
     reelCount.textContent = database.reels?.length ?? 0;
     populateImportOrganizations();
@@ -367,6 +379,7 @@ function renderCurrentView() {
   if (currentView === "organizations") renderOrganizationsView();
   else if (currentView === "priorities") renderPrioritiesView();
   else if (currentView === "songs") renderSongsView();
+  else if (currentView === "originals") renderOriginalOrderView();
   else if (currentView === "reels") renderReelsView();
   else renderOverview();
 }
@@ -377,6 +390,102 @@ function pageHeader(title, description, actions = "") {
       <div class="page-heading"><h1>${escapeHtml(title)}</h1><p>${escapeHtml(description)}</p></div>
       ${actions ? `<div class="page-actions">${actions}</div>` : ""}
     </header>`;
+}
+
+function originalOrderDirty() {
+  return originalOrderIds.length !== originalOrderSavedIds.length
+    || originalOrderIds.some((id, index) => id !== originalOrderSavedIds[index]);
+}
+
+function originalOrderLinkedSong(song) {
+  const organization = organizationById(song.organizationId);
+  const status = song.publication?.status ?? "unpublished";
+  const label = { current: "공개", changes_pending: "재공개 필요", unpublished: "미공개" }[status] ?? "미공개";
+  const tone = status === "current" ? "green" : status === "changes_pending" ? "orange" : "gray";
+  return `<button type="button" class="original-order-linked-song" data-edit-song="${escapeHtml(song.id)}">
+    <strong>${escapeHtml(song.title)}</strong>
+    <span>${escapeHtml(organization?.name ?? song.organizationId)}</span>
+    <em class="pill ${tone}">${label}</em>
+  </button>`;
+}
+
+function renderOriginalOrderView({ focusId = null, focusControl = "" } = {}) {
+  const byId = new Map(database.originalSongs.map((song) => [song.id, song]));
+  const linkedByOriginal = new Map(database.originalSongs.map(({ id }) => [id, { primary: [], secondary: [] }]));
+  for (const song of database.songs) {
+    for (const relationship of song.relationships ?? []) {
+      const linked = linkedByOriginal.get(relationship.targetId);
+      if (relationship.type === "original-song" && linked) linked.primary.push(song);
+      if (relationship.type === "secondary-original-song" && linked) linked.secondary.push(song);
+    }
+  }
+  const dirty = originalOrderDirty();
+  viewRoot.innerHTML = `
+    ${pageHeader("원곡 순서", "메인페이지 ‘원곡별’ 목록의 위에서 아래 순서입니다. 변경 후 저장하면 로컬 사이트에 반영되며, 운영 사이트에는 다음 배포 때 반영됩니다.", `
+      <button type="button" class="button button-secondary" data-reset-original-order ${dirty ? "" : "disabled"}>변경 취소</button>
+      <button type="button" class="button button-primary" data-save-original-order ${dirty ? "" : "disabled"}>순서 저장</button>`)}
+    <p class="original-order-help">행을 드래그하거나 화살표·위치 번호로 옮길 수 있어요. 대표 원곡으로 연결된 공개 응원가만 메인페이지의 해당 원곡 아래에 표시됩니다.</p>
+    <p class="original-order-status" role="status">${dirty ? "저장하지 않은 순서 변경이 있어요." : "현재 저장된 순서입니다."}</p>
+    <ol class="original-order-list">
+      ${originalOrderIds.map((id, index) => {
+        const song = byId.get(id);
+        if (!song) return "";
+        const linked = linkedByOriginal.get(id);
+        const count = linked.primary.filter((item) => ["current", "changes_pending"].includes(item.publication?.status)).length;
+        return `<li class="original-order-item" draggable="true" data-original-id="${escapeHtml(id)}">
+          <span class="original-order-grip" aria-hidden="true">⋮⋮</span>
+          <span class="original-order-index">${String(index + 1).padStart(2, "0")}</span>
+          <span class="original-order-copy"><strong>${escapeHtml(song.title)}</strong><small>${escapeHtml(song.artist)} · ${escapeHtml(id)}</small></span>
+          <span class="pill ${count ? "green" : "gray"}">${count ? `공개 ${count}곡` : "미노출"}</span>
+          <label class="original-order-position"><span class="sr-only">${escapeHtml(song.title)} 이동 위치</span><input type="number" min="1" max="${originalOrderIds.length}" value="${index + 1}" data-original-position="${escapeHtml(id)}" aria-label="${escapeHtml(song.title)} 이동 위치" /></label>
+          <div class="original-order-arrows">
+            <button type="button" data-move-original="up" data-original-id="${escapeHtml(id)}" aria-label="${escapeHtml(song.title)} 위로 이동" ${index === 0 ? "disabled" : ""}>↑</button>
+            <button type="button" data-move-original="down" data-original-id="${escapeHtml(id)}" aria-label="${escapeHtml(song.title)} 아래로 이동" ${index === originalOrderIds.length - 1 ? "disabled" : ""}>↓</button>
+          </div>
+          <div class="original-order-connections">
+            <span class="original-order-connection-heading">대표 원곡 연결 · 응원가 ${linked.primary.length}곡</span>
+            <div class="original-order-song-list">${linked.primary.length ? linked.primary.map(originalOrderLinkedSong).join("") : '<span class="original-order-no-songs">등록된 응원가 없음</span>'}</div>
+            ${linked.secondary.length ? `<span class="original-order-connection-heading">보조 원곡 연결 · 응원가 ${linked.secondary.length}곡</span>
+              <div class="original-order-song-list">${linked.secondary.map(originalOrderLinkedSong).join("")}</div>` : ""}
+          </div>
+        </li>`;
+      }).join("")}
+    </ol>`;
+  if (focusId) {
+    const row = [...viewRoot.querySelectorAll("[data-original-id]")].find((item) => item.matches(".original-order-item") && item.dataset.originalId === focusId);
+    const control = row?.querySelector(focusControl || "[data-original-position]");
+    (control?.disabled ? row.querySelector("[data-original-position]") : control)?.focus({ preventScroll: true });
+  }
+}
+
+function moveOriginalSongTo(id, destinationIndex, focusControl = "") {
+  if (busy) return;
+  const currentIndex = originalOrderIds.indexOf(id);
+  if (currentIndex < 0 || !Number.isInteger(destinationIndex)) return;
+  const nextIndex = Math.max(0, Math.min(originalOrderIds.length - 1, destinationIndex));
+  if (currentIndex === nextIndex) return;
+  originalOrderIds.splice(currentIndex, 1);
+  originalOrderIds.splice(nextIndex, 0, id);
+  renderOriginalOrderView({ focusId: id, focusControl });
+}
+
+async function saveOriginalOrder() {
+  if (busy || !originalOrderDirty()) return;
+  setBusy(true, "순서 저장 중");
+  try {
+    const result = await api("/api/original-songs/order", {
+      method: "PUT",
+      body: { ids: originalOrderIds, expectedRevision: originalOrderRevision },
+    });
+    originalOrderSavedIds = [...originalOrderIds];
+    originalOrderRevision = result.revision;
+    await loadState();
+    toast("원곡 순서를 저장했어요.");
+  } catch (error) {
+    showError(error);
+  } finally {
+    setBusy(false);
+  }
 }
 
 function renderOverview() {
@@ -1884,6 +1993,19 @@ navigation.addEventListener("click", (event) => {
 
 viewRoot.addEventListener("click", (event) => {
   const target = event.target;
+  const moveOriginalButton = target.closest("[data-move-original]");
+  if (moveOriginalButton) {
+    const id = moveOriginalButton.dataset.originalId;
+    const currentIndex = originalOrderIds.indexOf(id);
+    moveOriginalSongTo(id, currentIndex + (moveOriginalButton.dataset.moveOriginal === "up" ? -1 : 1), `[data-move-original="${moveOriginalButton.dataset.moveOriginal}"]`);
+    return;
+  }
+  if (target.closest("[data-save-original-order]")) { saveOriginalOrder(); return; }
+  if (target.closest("[data-reset-original-order]")) {
+    originalOrderIds = [...originalOrderSavedIds];
+    renderOriginalOrderView();
+    return;
+  }
   const createOrganizationButton = target.closest("[data-create-organization]");
   const createSongButton = target.closest("[data-create-song]");
   const createReelButton = target.closest("[data-create-reel]");
@@ -1974,6 +2096,16 @@ viewRoot.addEventListener("input", (event) => {
 });
 
 viewRoot.addEventListener("change", (event) => {
+  if (event.target.matches("[data-original-position]")) {
+    const id = event.target.dataset.originalPosition;
+    const position = event.target.valueAsNumber;
+    if (Number.isInteger(position) && position >= 1 && position <= originalOrderIds.length) {
+      moveOriginalSongTo(id, position - 1, "[data-original-position]");
+    } else {
+      renderOriginalOrderView({ focusId: id, focusControl: "[data-original-position]" });
+    }
+    return;
+  }
   if (event.target.matches("[data-select-song]")) {
     if (event.target.checked) selectedSongIds.add(event.target.dataset.selectSong);
     else selectedSongIds.delete(event.target.dataset.selectSong);
@@ -2017,6 +2149,43 @@ viewRoot.addEventListener("change", (event) => {
     event.target.value = "";
     bulkUpdateSongs({ scopeStatus: value }, SCOPE_LABELS[value]);
   }
+});
+
+viewRoot.addEventListener("dragstart", (event) => {
+  const row = event.target.closest(".original-order-item");
+  if (!row || busy) return;
+  draggedOriginalId = row.dataset.originalId;
+  event.dataTransfer.effectAllowed = "move";
+  event.dataTransfer.setData("text/plain", draggedOriginalId);
+  row.classList.add("is-dragging");
+});
+
+viewRoot.addEventListener("dragover", (event) => {
+  const row = event.target.closest(".original-order-item");
+  if (!row || !draggedOriginalId || row.dataset.originalId === draggedOriginalId) return;
+  event.preventDefault();
+  event.dataTransfer.dropEffect = "move";
+  viewRoot.querySelectorAll(".original-order-item").forEach((item) => item.classList.remove("is-drop-before", "is-drop-after"));
+  row.classList.add(event.clientY < row.getBoundingClientRect().top + row.offsetHeight / 2 ? "is-drop-before" : "is-drop-after");
+});
+
+viewRoot.addEventListener("drop", (event) => {
+  const row = event.target.closest(".original-order-item");
+  if (!row || !draggedOriginalId) return;
+  event.preventDefault();
+  const sourceId = draggedOriginalId;
+  const targetId = row.dataset.originalId;
+  const after = row.classList.contains("is-drop-after");
+  draggedOriginalId = null;
+  const withoutSource = originalOrderIds.filter((id) => id !== sourceId);
+  const targetIndex = withoutSource.indexOf(targetId);
+  if (targetIndex >= 0) moveOriginalSongTo(sourceId, targetIndex + (after ? 1 : 0));
+  else renderOriginalOrderView();
+});
+
+viewRoot.addEventListener("dragend", () => {
+  draggedOriginalId = null;
+  viewRoot.querySelectorAll(".original-order-item").forEach((item) => item.classList.remove("is-dragging", "is-drop-before", "is-drop-after"));
 });
 
 entityForm.addEventListener("submit", (event) => {
@@ -2174,6 +2343,10 @@ drawerExpand.addEventListener("click", () => setDrawerExpanded(!drawerLayer.clas
 drawerBackdrop.addEventListener("click", attemptCloseDrawer);
 
 refreshButton.addEventListener("click", async () => {
+  if (originalOrderDirty()) {
+    toast("원곡 순서 변경을 저장하거나 '변경 취소'를 눌러 주세요.", "error");
+    return;
+  }
   if (drawerState?.dirty) {
     toast("열려 있는 편집 내용을 저장하거나 닫은 뒤 새로고침해 주세요.", "error");
     return;
@@ -2197,8 +2370,8 @@ window.addEventListener("hashchange", () => {
   if (view && view !== currentView) setView(view, { updateHash: false });
 });
 window.addEventListener("beforeunload", (event) => {
-  if (!drawerState?.dirty) return;
-  persistSongDraft();
+  if (!drawerState?.dirty && !originalOrderDirty()) return;
+  if (drawerState?.dirty) persistSongDraft();
   event.preventDefault();
 });
 document.addEventListener("visibilitychange", () => {
@@ -2213,7 +2386,7 @@ document.addEventListener("keydown", (event) => {
 
 window.setInterval(async () => {
   const hasActiveRender = database.reels?.some((reel) => ["queued", "rendering"].includes(reel.render?.status));
-  if (!hasActiveRender || busy || drawerState?.dirty || reelPollInProgress) return;
+  if (!hasActiveRender || busy || drawerState?.dirty || originalOrderDirty() || reelPollInProgress) return;
   reelPollInProgress = true;
   const openReelId = drawerState?.type === "reel" ? drawerState.id : null;
   try {

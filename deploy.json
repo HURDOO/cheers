@@ -14,7 +14,9 @@
     "pids": 64
   },
   "ingressProfile": "standard",
-  "environment": {},
+  "environment": {
+    "GA_MEASUREMENT_ID": "G-8TSWVPVC8T"
+  },
   "requiredSecrets": [],
   "optionalSecrets": [],
   "platform": "linux/arm64",

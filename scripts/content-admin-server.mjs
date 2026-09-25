@@ -10,6 +10,7 @@ import { ContentReleaseStore } from "./content-release-store.mjs";
 import { ReelStore, validateReel } from "./reel-store.mjs";
 import { detectReelTools, renderReel } from "./reel-renderer.mjs";
 import { fetchYouTubeMetadata } from "./youtube-metadata.mjs";
+import { readOriginalSongCatalog, saveOriginalSongOrder } from "./original-song-order.mjs";
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = process.env.CONTENT_PROJECT_ROOT
@@ -208,11 +209,12 @@ async function handleApi(request, response, url) {
     return sendJson(response, 200, { ok: true });
   }
   if (url.pathname === "/api/state" && request.method === "GET") {
-    const [editorialState, jobs, reels, priorityPlan] = await Promise.all([
+    const [editorialState, jobs, reels, priorityPlan, originalCatalog] = await Promise.all([
       store.state(),
       jobStore.list(),
       reelStore.list(),
       readPriorityPlan(),
+      readOriginalSongCatalog(originalSongsPath),
     ]);
     const publication = await releaseStore.describe(editorialState);
     const songs = await Promise.all(editorialState.songs.map(async (song) => ({
@@ -226,9 +228,16 @@ async function handleApi(request, response, url) {
       jobs,
       reels,
       priorityPlan,
+      originalSongs: originalCatalog.catalog.items,
+      originalOrderRevision: originalCatalog.revision,
       publication: publication.current,
       reelTools: detectReelTools(),
     });
+  }
+  if (url.pathname === "/api/original-songs/order" && request.method === "PUT") {
+    const body = await readRequestJson(request);
+    const result = await withMutation(() => saveOriginalSongOrder(originalSongsPath, body.ids, body.expectedRevision));
+    return sendJson(response, 200, result);
   }
   if (url.pathname === "/api/import" && request.method === "POST") {
     const body = await readRequestJson(request);
