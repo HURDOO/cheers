@@ -18,24 +18,30 @@ export function songStyle(song: CheerSong, lines: string[] = [song.symbolicLine1
   } as CSSProperties;
 }
 
-export function LyricCard({ song, navigate, showOrigin = true }: { song: CheerSong; navigate: Navigate; showOrigin?: boolean }) {
+export function LyricCard({ song, navigate, showOrigin = true, matchedLines }: {
+  song: CheerSong;
+  navigate: Navigate;
+  showOrigin?: boolean;
+  /** 검색어가 걸린 가사 줄. 있으면 대표 가사 대신 밝게 보여 줍니다. */
+  matchedLines?: string[] | null;
+}) {
   const origin = showOrigin ? originLine(song) : null;
+  const lines = matchedLines ?? [song.symbolicLine1, song.symbolicLine2];
 
   return (
     <a
       className="lcard"
       href={songHref(song.id)}
       onClick={(event) => openSongLink(event, song.id, navigate)}
-      style={songStyle(song)}
+      style={songStyle(song, lines)}
       aria-label={`${song.title} · ${song.team}`}
     >
       <span className="lcard__top">
         <span className="lcard__abbr">{song.abbr}</span>
         {yearBadge(song) && <span className="lcard__year">{yearBadge(song)}</span>}
       </span>
-      <span className="lcard__lyrics" aria-hidden="true">
-        <span>{song.symbolicLine1}</span>
-        <span>{song.symbolicLine2}</span>
+      <span className={`lcard__lyrics ${matchedLines ? "is-match" : ""}`} aria-hidden={!matchedLines}>
+        {lines.map((line, index) => <span key={index}>{line}</span>)}
       </span>
       <span className="lcard__bottom">
         <span className="lcard__title">{song.title}</span>

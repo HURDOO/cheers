@@ -3,17 +3,21 @@ import { ArrowLeft, Moon, Sun } from "lucide-react";
 import { getCheerSong } from "../data/catalog";
 import { HomePage } from "./archive/HomePage";
 import { SongPage } from "./archive/SongPage";
-import { FILTER_TEAMS, type TeamFilter } from "./archive/lib";
+import { FILTER_TEAMS, songHref, type TeamFilter } from "./archive/lib";
 import "./archive/archive.css";
 
 const SITE_TITLE = "응원가 아카이브";
 const EVENT_URL = "/events/korea-yonsei-games-2026/";
 
-type Route = { songId: string | null; filter: TeamFilter; query: string };
+type Route = { songId: string | null; filter: TeamFilter; query: string; sing: boolean };
 
+const SONG_PATH = /^\/songs\/([^/]+)\/?$/u;
+
+/** 곡 주소는 /songs/<id>/ 입니다. 예전 ?song=<id> 링크도 그대로 엽니다. */
 function readRoute(): Route {
   const params = new URLSearchParams(window.location.search);
-  const songId = params.get("song");
+  const pathMatch = window.location.pathname.match(SONG_PATH);
+  const songId = pathMatch ? decodeURIComponent(pathMatch[1]) : params.get("song");
   const team = params.get("team") ?? params.get("type") ?? "all";
   const validFilter = team === "baseball" || team === "university" || FILTER_TEAMS.some(({ id }) => id === team);
 
@@ -21,18 +25,17 @@ function readRoute(): Route {
     songId: songId && getCheerSong(songId) ? songId : null,
     filter: validFilter ? team : "all",
     query: params.get("q") ?? "",
+    sing: params.get("mode") === "sing",
   };
 }
 
-function routeUrl({ songId, filter, query }: Route) {
+function routeUrl({ songId, filter, query, sing }: Route) {
+  if (songId) return `${songHref(songId)}${sing ? "?mode=sing" : ""}`;
   const params = new URLSearchParams();
-  if (songId) params.set("song", songId);
-  else {
-    if (filter !== "all") params.set("team", filter);
-    if (query) params.set("q", query);
-  }
+  if (filter !== "all") params.set("team", filter);
+  if (query) params.set("q", query);
   const search = params.toString();
-  return `${window.location.pathname}${search ? `?${search}` : ""}`;
+  return `/${search ? `?${search}` : ""}`;
 }
 
 type Theme = "light" | "dark";
@@ -95,7 +98,7 @@ export default function App() {
         window.history.go(-depth);
         return;
       }
-      const next = { ...current, songId: null };
+      const next = { ...current, songId: null, sing: false };
       window.history.pushState(null, "", routeUrl(next));
       setRoute(next);
       window.scrollTo({ top: 0 });
@@ -103,16 +106,38 @@ export default function App() {
     }
 
     if (!current.songId) homeScroll.current = window.scrollY;
-    const next = { ...current, songId };
+    const next = { ...current, songId, sing: false };
     window.history.pushState({ songDepth: current.songId ? (depth > 0 ? depth + 1 : 0) : 1 }, "", routeUrl(next));
     setRoute(next);
     window.scrollTo({ top: 0 });
   }, []);
 
+  // 따라 부르기는 기록을 하나 쌓아 두고, 휴대폰 뒤로 가기로도 닫히게 합니다.
+  const setSing = useCallback((sing: boolean) => {
+    const current = routeRef.current;
+    if (!current.songId || current.sing === sing) return;
+    const next = { ...current, sing };
+    if (sing) window.history.pushState({ ...window.history.state, sing: true }, "", routeUrl(next));
+    else if (window.history.state?.sing) {
+      window.history.back();
+      return;
+    } else window.history.replaceState(window.history.state, "", routeUrl(next));
+    setRoute(next);
+  }, []);
+
+  useEffect(() => {
+    // 예전 ?song= 링크로 들어오면 공유용 주소(/songs/<id>/)로 바꿔 둡니다.
+    if (routeRef.current.songId && !SONG_PATH.test(window.location.pathname)) {
+      window.history.replaceState(window.history.state, "", routeUrl(routeRef.current));
+    }
+  }, []);
+
   useEffect(() => {
     function handlePopState() {
+      const previous = routeRef.current;
       const next = readRoute();
       setRoute(next);
+      if (next.songId && next.songId === previous.songId) return;
       if (!next.songId) requestAnimationFrame(() => window.scrollTo({ top: homeScroll.current }));
       else window.scrollTo({ top: 0 });
     }
@@ -142,13 +167,13 @@ export default function App() {
           {song ? (
             <a
               className="topbar__back"
-              href={window.location.pathname}
+              href="/"
               onClick={(event) => { event.preventDefault(); navigate(null); }}
             >
               <ArrowLeft size={18} /> 전체 응원가
             </a>
           ) : (
-            <a className="brand" href={window.location.pathname}>
+            <a className="brand" href="/">
               <span className="brand__mark" aria-hidden="true">응</span>
               {SITE_TITLE}
             </a>
@@ -165,7 +190,7 @@ export default function App() {
 
       <main>
         {song ? (
-          <SongPage song={song} navigate={navigate} />
+          <SongPage song={song} navigate={navigate} singing={route.sing} onSing={setSing} />
         ) : (
           <HomePage
             filter={route.filter}

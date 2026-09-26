@@ -564,6 +564,10 @@ html[data-theme="light"] .archive {
   font-size: 15px;
 }
 
+.search input:focus-visible {
+  outline: none;
+}
+
 .search input::placeholder {
   color: var(--text-3);
 }
@@ -872,6 +876,7 @@ html[data-theme="light"] .archive {
   text-wrap: balance;
 }
 
+.lcard__lyrics.is-match,
 .lcard:hover .lcard__lyrics,
 .lcard:focus-visible .lcard__lyrics {
   color: rgba(255, 255, 255, 0.94);
@@ -1364,6 +1369,177 @@ html[data-theme="light"] .archive {
   font-weight: 700;
   line-height: 1.7;
   letter-spacing: -0.025em;
+}
+
+.lyrics__head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.lyrics__head .section-label {
+  flex: 1;
+  margin: 0;
+}
+
+/* 따라 부르기 */
+
+.sing-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 44px;
+  margin-top: 24px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: 999px;
+  background: #fff;
+  color: #151311 !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s;
+}
+
+.sing-button:hover {
+  transform: translateY(-1px);
+}
+
+.song__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.song__actions .sing-button {
+  margin-top: 0;
+}
+
+.sing-button--ghost {
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: rgba(0, 0, 0, 0.16);
+  color: #fff !important;
+  box-shadow: none;
+}
+
+.sing-button--quiet {
+  height: 36px;
+  margin: 0;
+  padding: 0 14px;
+  border: 1px solid var(--line-strong);
+  background: transparent;
+  color: var(--text) !important;
+  font-size: 13px !important;
+  box-shadow: none;
+}
+
+.sing {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(160deg, var(--c1), var(--c2));
+  color: #fff;
+  animation: fade-up 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.sing::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35));
+  pointer-events: none;
+}
+
+.sing__bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: max(14px, env(safe-area-inset-top)) var(--gutter) 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.sing__heading {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.sing__heading strong {
+  overflow: hidden;
+  font-size: 17px;
+  font-weight: 800;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sing__heading span {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sing__controls {
+  display: flex;
+  flex-shrink: 0;
+  gap: 6px;
+}
+
+.sing__controls button {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff !important;
+}
+
+.sing__controls button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.sing__body {
+  position: relative;
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 32px var(--gutter) max(48px, env(safe-area-inset-bottom));
+  -webkit-overflow-scrolling: touch;
+}
+
+.sing__stanza {
+  max-width: 900px;
+  margin: 0 auto 1.4em;
+  font-size: calc(clamp(26px, 7vw, 46px) * var(--sing-scale, 1));
+  font-weight: 800;
+  line-height: 1.4;
+  letter-spacing: -0.035em;
+}
+
+.sing__stanza span {
+  display: block;
+  text-wrap: balance;
+}
+
+.sing__top {
+  display: block;
+  margin: 24px auto 0;
+  height: 44px;
+  padding: 0 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 999px;
+  background: transparent;
+  color: #fff !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
 }
 
 /* 이야기 */

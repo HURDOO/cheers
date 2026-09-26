@@ -74,6 +74,12 @@ npm run reels:render -- <reel-id>
 
 기획 데이터는 `content/production/reels/`에 버전 관리되고, 다운로드 캐시와 결과 MP4는 Git에서 제외되는 `.local/`에 저장됩니다. 자세한 제작 규칙은 [릴스·쇼츠 제작 도구](docs/REELS_WORKFLOW.md)를 참고하세요.
 
+## 곡 주소와 공유 미리보기
+
+곡 페이지 주소는 `/songs/<song-id>/`입니다. 예전 `?song=<song-id>` 링크도 열리며 새 주소로 바뀝니다. 가사가 있는 곡은 `따라 부르기`(`?mode=sing`)로 가사를 화면 가득 띄우고, 지원하는 브라우저에서는 보는 동안 화면이 꺼지지 않습니다.
+
+운영 Nginx는 실제 파일만 서빙하므로 `npm run build`가 곡마다 `dist/songs/<song-id>/index.html`과 `sitemap.xml`을 만듭니다. 앱 번들은 같고 메신저가 읽는 제목·설명·공유 이미지만 곡별로 다릅니다(`share/`). 공유 이미지(`public/og/`)는 배포를 준비하는 에이전트가 `npm run share:images`로 만들어 커밋합니다. 절차와 배포 후 확인 방법은 [배포 연결 시 확인할 사항](docs/DEPLOYMENT_NOTES.md)을 따릅니다. 개발 서버의 `/share-preview/`에서 곡별 공유 카드 모양을 한눈에 볼 수 있습니다.
+
 ## 데이터 구조
 
 - `data/teams.json`: 구단과 학교
@@ -103,5 +109,6 @@ npm run reels:render -- <reel-id>
 | `npm run build` | 프로덕션 빌드 |
 | `npm run check` | 위 세 검사를 한 번에 실행 |
 | `npm run reels:render -- <reel-id>` | 저장된 릴스 프로젝트를 MP4로 렌더 |
+| `npm run share:images` | 곡별 공유 미리보기 이미지를 `public/og/`에 생성 |
 
 원본 Figma 파일: <https://www.figma.com/design/tBEvz22FWSKS0OngtoO2Um/%EC%A0%9C%EB%AA%A9-%EC%97%86%EC%9D%8C>

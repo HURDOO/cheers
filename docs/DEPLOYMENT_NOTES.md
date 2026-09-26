@@ -37,6 +37,25 @@
 
 배포 대상과 런타임 계약은 저장소 루트의 `deploy.json`, `Dockerfile`, `.dockerignore`와 `deploy/nginx.conf`에 정의한다. 실제 이미지 게시는 배포 대상 콘텐츠와 생성 카탈로그를 함께 커밋하고 전체 검사를 통과한 뒤 수행한다.
 
+## 배포 전 에이전트 작업: 곡별 공유 이미지
+
+곡 주소는 `/songs/<song-id>/`이고, `npm run build`가 공개 카탈로그의 곡마다 공유용 `index.html`(제목·설명·공유 이미지 메타 태그)과 `sitemap.xml`을 만든다. 공유 이미지(`public/og/songs/<song-id>.jpg`, 1200×630)는 빌드가 만들지 않으므로 **배포를 준비하는 에이전트가 직접 실행하고 커밋한다.** 사용자에게 따로 요청하지 않는다.
+
+1. 새 곡을 공개했거나 곡 제목·대표 가사·팀·원곡을 고쳤다면 실행한다.
+   - 새 곡만: `npm run share:images`
+   - 고친 곡: `npm run share:images -- <song-id> [song-id...]`
+   - 이미지 디자인을 바꿨을 때: `npm run share:images -- --all`
+2. 이 Mac의 Google Chrome과 macOS `sips`를 사용한다. 다른 경로의 Chrome은 `CHROME_PATH`로 지정한다.
+3. `npm run build` 로그에 "공유 이미지가 없어 기본 이미지를 쓰는 곡"이 남지 않았는지 확인한다.
+4. 개발 서버의 `/share-preview/`에서 곡별 공유 카드 모양(이미지·제목·설명)을 훑어보고, 생성된 이미지를 카탈로그와 같은 커밋에 넣는다.
+
+## 배포 후 확인: 공유 미리보기와 검색 노출
+
+- 카카오톡은 주소별로 미리보기를 캐시한다. 배포 뒤 [카카오 공유 디버거](https://developers.kakao.com/tool/debugger/sharing)에 곡 주소를 넣어 캐시를 초기화하고 새 이미지·제목이 뜨는지 확인한다(카카오 개발자 계정 로그인 필요).
+- 다른 메신저·SNS 미리보기는 페이지 소스의 `og:` 태그를 읽는 [opengraph.xyz](https://www.opengraph.xyz/) 같은 도구로 확인할 수 있다.
+- 아카이브 홈과 곡 페이지는 검색 노출(`index, follow`) 대상이다. `robots.txt`가 `sitemap.xml`을 알리며, 이벤트 시안 페이지는 각자 `noindex`를 유지한다.
+- 최초 한 번 사용자가 [Google Search Console](https://search.google.com/search-console)과 [네이버 서치어드바이저](https://searchadvisor.naver.com/)에 사이트를 등록하고 `https://cheers.app.hurdoo.kr/sitemap.xml`을 제출한다. 소유 확인 방식(HTML 태그 또는 파일)은 등록 화면에서 받은 값을 이 저장소에 반영해 배포한다.
+
 ## 방문 분석
 
 공개 사이트의 모든 빌드 페이지는 공통 GA4 태그를 포함한다. 브라우저가 `cheers.app.hurdoo.kr`에서 페이지를 열었을 때만 `GA_MEASUREMENT_ID`로 기본 페이지 조회를 전송한다. 로컬 개발 서버와 다른 도메인에서는 전송하지 않으며, Admin과 리뷰 도구는 운영 빌드에 포함되지 않는다. 측정 ID는 비밀값이 아니며, 대시보드에서 검토하는 공개 환경 설정으로 관리한다. 설정 변경은 컨테이너 재시작 시 반영된다.

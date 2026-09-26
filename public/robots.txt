@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cheers.app.hurdoo.kr/sitemap.xml

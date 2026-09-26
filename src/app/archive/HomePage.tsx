@@ -8,6 +8,7 @@ import {
   ORDERED_SONGS,
   SHARED_ORIGINALS,
   STATS,
+  matchedLyricLines,
   matchesFilter,
   matchesSearch,
   originalYearLabel,
@@ -94,7 +95,7 @@ function FilterBar({ filter, query, onFilter, onQuery }: {
         <input
           value={query}
           onChange={(event) => onQuery(event.target.value)}
-          placeholder="응원가, 가사, 원곡, 가수로 찾기"
+          placeholder="응원가, 가사 한 구절, 원곡으로 찾기"
           aria-label="응원가 검색"
           type="search"
         />
@@ -179,7 +180,9 @@ export function HomePage({ filter, query, onFilter, onQuery, navigate }: {
           </header>
           {results.length ? (
             <div className="grid">
-              {results.map((song) => <LyricCard key={song.id} song={song} navigate={navigate} />)}
+              {results.map((song) => (
+                <LyricCard key={song.id} song={song} navigate={navigate} matchedLines={matchedLyricLines(song, query)} />
+              ))}
             </div>
           ) : (
             <div className="empty">

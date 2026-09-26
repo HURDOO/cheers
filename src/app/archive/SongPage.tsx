@@ -1,9 +1,10 @@
-import { useEffect, useRef } from "react";
-import { ExternalLink } from "lucide-react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { Check, ExternalLink, Mic, Share2 } from "lucide-react";
 import { InlineNotes } from "../components/InlineNotes";
 import { getCheerSong, getOriginalSong } from "../../data/catalog";
 import type { CheerSong, OriginalSong } from "../../data/types";
 import { LyricCard, openSongLink, songStyle, type Navigate } from "./LyricCard";
+import { SingAlong } from "./SingAlong";
 import { VideoPlayer } from "./VideoPlayer";
 import {
   ORDERED_SONGS,
@@ -12,6 +13,7 @@ import {
   originalYearLabel,
   songHref,
   songsOfOriginal,
+  toStanzas,
   yearBadge,
 } from "./lib";
 
@@ -68,21 +70,51 @@ function OriginPanel({ song, original, navigate }: { song: CheerSong; original: 
   );
 }
 
-function Lyrics({ song }: { song: CheerSong }) {
-  const meaningful = song.lyrics.filter((line) => line.trim());
-  if (!meaningful.length) return null;
+/** 폰에서는 기본 공유 창을, 그 외에는 링크 복사를 씁니다. 주소는 곡별 미리보기가 붙는 /songs/<id>/ 입니다. */
+function ShareButton({ song }: { song: CheerSong }) {
+  const [copied, setCopied] = useState(false);
 
-  const stanzas: string[][] = [[]];
-  song.lyrics.forEach((line) => {
-    if (line.trim()) stanzas[stanzas.length - 1].push(line);
-    else if (stanzas[stanzas.length - 1].length) stanzas.push([]);
-  });
+  async function share() {
+    const url = `${window.location.origin}${songHref(song.id)}`;
+    const title = `${song.title} · ${song.team} 응원가`;
+    if (navigator.share) {
+      try {
+        await navigator.share({ title, url });
+      } catch {
+        // 사용자가 공유 창을 닫은 경우입니다.
+      }
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 2000);
+    } catch {
+      window.prompt("링크를 복사하세요", url);
+    }
+  }
+
+  return (
+    <button type="button" className="sing-button sing-button--ghost" onClick={share}>
+      {copied ? <><Check size={16} /> 링크 복사됨</> : <><Share2 size={16} /> 공유</>}
+    </button>
+  );
+}
+
+function Lyrics({ song, onSing }: { song: CheerSong; onSing: () => void }) {
+
+  const stanzas = toStanzas(song.lyrics);
 
   return (
     <section className="lyrics" aria-labelledby="lyrics-title">
-      <h2 id="lyrics-title" className="section-label">가사</h2>
+      <div className="lyrics__head">
+        <h2 id="lyrics-title" className="section-label">가사</h2>
+        <button type="button" className="sing-button sing-button--quiet" onClick={onSing}>
+          <Mic size={15} /> 따라 부르기
+        </button>
+      </div>
       <div className="lyrics__body">
-        {stanzas.filter((stanza) => stanza.length).map((stanza, index) => (
+        {stanzas.map((stanza, index) => (
           <p key={index}>
             {stanza.map((line, lineIndex) => <span key={lineIndex}>{line}</span>)}
           </p>
@@ -122,7 +154,12 @@ function Facts({ song }: { song: CheerSong }) {
   );
 }
 
-export function SongPage({ song, navigate }: { song: CheerSong; navigate: Navigate }) {
+export function SongPage({ song, navigate, singing, onSing }: {
+  song: CheerSong;
+  navigate: Navigate;
+  singing: boolean;
+  onSing: (singing: boolean) => void;
+}) {
   const original = getOriginalSong(song.originalSongId)!;
   const titleRef = useRef<HTMLHeadingElement>(null);
   const story = song.descriptionText
@@ -134,6 +171,9 @@ export function SongPage({ song, navigate }: { song: CheerSong; navigate: Naviga
     .filter(({ id }) => !siblingIds.has(id))
     .slice(0, 3);
   const heroLines = [song.symbolicLine1, song.symbolicLine2].filter(Boolean);
+  const hasLyrics = song.lyrics.some((line) => line.trim());
+  const openSing = () => onSing(true);
+  const closeSing = useCallback(() => onSing(false), [onSing]);
 
   useEffect(() => {
     titleRef.current?.focus({ preventScroll: true });
@@ -141,6 +181,7 @@ export function SongPage({ song, navigate }: { song: CheerSong; navigate: Naviga
 
   return (
     <article className="song" style={songStyle(song, heroLines)}>
+      {singing && hasLyrics && <SingAlong song={song} onClose={closeSing} />}
       <header className="song__hero">
         <div className="song__heading">
           <p className="song__meta">
@@ -149,6 +190,14 @@ export function SongPage({ song, navigate }: { song: CheerSong; navigate: Naviga
             {yearBadge(song) && <span>{yearBadge(song)}</span>}
           </p>
           <h1 ref={titleRef} tabIndex={-1} className="song__title">{song.title}</h1>
+          <div className="song__actions">
+            {hasLyrics && (
+              <button type="button" className="sing-button" onClick={openSing}>
+                <Mic size={16} /> 따라 부르기
+              </button>
+            )}
+            <ShareButton song={song} />
+          </div>
           {heroLines.length > 0 && (
             <p className="song__lyrics" aria-label={`대표 가사: ${heroLines.join(" ")}`}>
               {heroLines.map((line) => <span key={line}>{line}</span>)}
@@ -164,7 +213,7 @@ export function SongPage({ song, navigate }: { song: CheerSong; navigate: Naviga
         </aside>
 
         <div className="song__main">
-          <Lyrics song={song} />
+          {hasLyrics && <Lyrics song={song} onSing={openSing} />}
           <Facts song={song} />
           {story && (
             <section className="story" aria-labelledby="story-title">

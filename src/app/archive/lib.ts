@@ -102,9 +102,35 @@ export function matchesSearch(song: CheerSong, query: string) {
   if (!normalizedQuery) return true;
 
   const original = getOriginalSong(song.originalSongId);
-  return [song.title, ...song.aliases, ...song.symbolicLines, song.team, song.region, original?.title, original?.artist]
+  return [song.title, ...song.aliases, ...song.symbolicLines, ...song.lyrics, song.team, song.region, original?.title, original?.artist]
     .filter(Boolean)
     .some((value) => value!.toLocaleLowerCase("ko").includes(normalizedQuery));
+}
+
+/**
+ * 검색어가 대표 가사가 아닌 전체 가사에서 걸린 경우, 카드에 대신 보여 줄 가사 두 줄.
+ * 제목·팀·원곡으로 걸린 경우에는 대표 가사를 그대로 둡니다.
+ */
+export function matchedLyricLines(song: CheerSong, query: string) {
+  const normalizedQuery = query.trim().toLocaleLowerCase("ko");
+  if (!normalizedQuery) return null;
+  const includes = (value: string) => value.toLocaleLowerCase("ko").includes(normalizedQuery);
+  if (song.symbolicLines.some(includes)) return null;
+
+  const lines = song.lyrics.filter((line) => line.trim());
+  const index = lines.findIndex(includes);
+  if (index < 0) return null;
+  return lines[index + 1] ? [lines[index], lines[index + 1]] : [lines[index - 1] ?? "", lines[index]].filter(Boolean);
+}
+
+/** 빈 줄을 기준으로 가사를 절 단위로 나눕니다. */
+export function toStanzas(lyrics: string[]) {
+  const stanzas: string[][] = [[]];
+  lyrics.forEach((line) => {
+    if (line.trim()) stanzas[stanzas.length - 1].push(line);
+    else if (stanzas[stanzas.length - 1].length) stanzas.push([]);
+  });
+  return stanzas.filter((stanza) => stanza.length);
 }
 
 /** 가사 줄이 카드 폭을 꽉 채우도록 쓰는 대략적인 글자 폭(공백은 좁게). */
@@ -123,6 +149,6 @@ export function teamGradient(song: Pick<CheerSong, "teamColor" | "teamColorAlt">
 }
 
 export function songHref(songId: string) {
-  return `?song=${encodeURIComponent(songId)}`;
+  return `/songs/${encodeURIComponent(songId)}/`;
 }
 
