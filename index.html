@@ -6,9 +6,21 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>응원가 아카이브</title>
-      <meta name="description" content="야구와 대학 응원가를 원곡, 구단, 연도별로 살펴보는 응원가 아카이브" />
+      <meta name="description" content="응원석에서 부르는 대학·야구 응원가와 그 원곡, 응원가가 된 이야기를 모은 아카이브" />
+      <meta name="theme-color" content="#0c0b0a" />
       <meta name="robots" content="noindex, nofollow" />
-      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
+      <style>html, body { height: 100%; margin: 0; background: #0c0b0a; } html[data-theme="light"], html[data-theme="light"] body { background: #f6f4f0; } #root { height: 100%; }</style>
+      <script>
+        (function () {
+          var theme;
+          try { theme = localStorage.getItem("cheers-theme"); } catch (error) {}
+          if (theme !== "light" && theme !== "dark") {
+            theme = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+          }
+          document.documentElement.dataset.theme = theme;
+          if (theme === "light") document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f4f0");
+        })();
+      </script>
       
     </head>
 
