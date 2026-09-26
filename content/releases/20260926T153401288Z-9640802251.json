@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "releaseId": "20260926T153805038Z-748af2f71d",
-  "generatedAt": "2026-09-26T15:38:05.038Z",
+  "releaseId": "20260926T153401288Z-9640802251",
+  "generatedAt": "2026-09-26T15:34:01.288Z",
   "organizations": [
     {
       "id": "doosan-bears",
@@ -2652,14 +2652,14 @@
       "lyrics": {
         "lines": [
           "오오오 오오오 오오오오",
-          "오오 오오오 오오오오 (어깨동무!)",
+          "오오 오오오 오오오오 (어꺠동무!)",
           "외쳐라 그대여 우리의 승리를",
           "빛나라 그대여 영원히",
           "",
           "(성대 연호)",
           "",
           "오오오 오오오 오오오오",
-          "오오 오오오 오오오오 (어깨동무!)",
+          "오오 오오오 오오오오 (어꺠동무!)",
           "외쳐라 그대여 우리의 승리를",
           "빛나라 그대여 영원히",
           "(X2)"
@@ -2710,8 +2710,8 @@
           "targetId": "doosan-bears-seungnireul-wihayeo"
         }
       ],
-      "sourceRevision": 6,
-      "contentHash": "81ca5b25b858d26ffa159b9c2ca6d6060c5dacc5fed42fa21374c5d4c5453611"
+      "sourceRevision": 4,
+      "contentHash": "b006f92652f030d4b77b66a9fcf55dddc5f50a73619e72d6a426f918e0080255"
     },
     {
       "id": "yonsei-university-badasae",
@@ -3912,5 +3912,10 @@
       "sourceRevision": 2,
       "contentHash": "64804c5c5da6d33c12eb95d677ba2c3d10c039891683a111b6a88e78c7356aa3"
     }
+  ],
+  "parentReleaseId": "20260926T151516981Z-702344a37f",
+  "action": "publish",
+  "changedSongIds": [
+    "sungkyunkwan-university-seungnireul-wihayeo"
   ]
 }

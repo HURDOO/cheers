@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "releaseId": "20260926T153805038Z-748af2f71d",
-  "generatedAt": "2026-09-26T15:38:05.038Z",
+  "releaseId": "20260926T150722595Z-8fcc46680f",
+  "generatedAt": "2026-09-26T15:07:22.595Z",
   "organizations": [
     {
       "id": "doosan-bears",
@@ -89,17 +89,6 @@
       "colors": {
         "primary": "#041E42",
         "secondary": "#D00F31"
-      }
-    },
-    {
-      "id": "sungkyunkwan-university",
-      "name": "성균관대학교",
-      "abbreviation": "SKKU",
-      "type": "university",
-      "region": "서울·수원",
-      "colors": {
-        "primary": "#072A60",
-        "secondary": "#8DC63F"
       }
     },
     {
@@ -618,20 +607,34 @@
       "lyrics": {
         "lines": [
           "오~오오오 (애국한양! 무적한대!)",
-          "오~오오오 (영원토록! 승리하라!)",
+          "오~오오오(영원토록! 승리하라!)",
           "",
           "한양의 승리를 위하여",
           "오늘도 힘차게 외치자",
           "하늘에 소리쳐 우리의 함성을",
           "한양의 승리를 위하여",
-          "(X4)"
+          "",
+          "한양의 승리를 위하여",
+          "오늘도 힘차게 외치자",
+          "하늘에 소리쳐 우리의 함성을",
+          "한양의 승리를 위하여",
+          "",
+          "한양의 승리를 위하여",
+          "오늘도 힘차게 외치자",
+          "하늘에 소리쳐 우리의 함성을",
+          "한양의 승리를 위하여",
+          "",
+          "한양의 승리를 위하여",
+          "오늘도 힘차게 외치자",
+          "하늘에 소리쳐 우리의 함성을",
+          "한양의 승리를 위하여"
         ],
         "collapsedPreviewLineCount": 2
       },
       "quickFacts": [
         {
           "label": "사용 시작",
-          "value": "2016 (추정)"
+          "value": "추정 시작 연도 2016 · 정확한 도입 연도 불명확"
         },
         {
           "label": "",
@@ -646,28 +649,10 @@
         {
           "rank": 1,
           "role": "official-or-lyrics",
-          "sourceUrl": "https://youtu.be/IEubV-pE9ZA?si=MrcOplm53_llc5YG&t=42",
-          "videoId": "IEubV-pE9ZA",
-          "title": "루터스 | 한양을 위하여 | 한양대학교 축제 | [2026] 라치오스 : 찬란 | HUBS",
-          "channelName": "HUBS 한양대학교 교육방송국",
-          "attributionText": ""
-        },
-        {
-          "rank": 2,
-          "role": "featured-field",
-          "sourceUrl": "https://youtu.be/bK-4T00OnxE?si=JSRNFvxKH8pxCtaq",
-          "videoId": "bK-4T00OnxE",
-          "title": "[4K] SINCE | 한양을 위하여 | 한양대학교 축제 | [2026] 라치오스 : 찬란 | HUBS",
-          "channelName": "HUBS 한양대학교 교육방송국",
-          "attributionText": ""
-        },
-        {
-          "rank": 3,
-          "role": "additional",
-          "sourceUrl": "https://youtu.be/ddRnTqmokFg?si=vMA5oO7Ku---dW0J&t=10",
-          "videoId": "ddRnTqmokFg",
-          "title": "한양을 위하여 - [2024] 한양대학교 축제 라치오스 : 파도 I 3일차 무대 _잔나비 I HUBS",
-          "channelName": "HUBS 한양대학교 교육방송국",
+          "sourceUrl": "https://www.youtube.com/watch?v=sovNdLkcpG0",
+          "videoId": "sovNdLkcpG0",
+          "title": "[한양대학교 응원가] 한양을 위하여",
+          "channelName": "한양대학교 응원단 RHooters",
           "attributionText": ""
         }
       ],
@@ -706,8 +691,8 @@
         "description": "한양대 응원단 RHooters가 축제·응원행사에서 사용하는 집단 합창곡이다. 공식 제목은 ‘한양을 위하여’다.",
         "usageContext": "라치오스 축제, 응원단 공식 영상, 교내 방송과 아티스트 협업 무대에서 사용된다."
       },
-      "sourceRevision": 5,
-      "contentHash": "a4468f0d4ed9c1e8835a029f368e686a4dbdfc8fe8938d5acb611cf17e329fdd"
+      "sourceRevision": 3,
+      "contentHash": "c99c0180a24eeb0977bf8fa564814b2617ed1df8d0975e07477d3ec5bc517f89"
     },
     {
       "id": "kia-tigers-kiareul-eungwonhara",
@@ -2637,83 +2622,6 @@
       "contentHash": "c0ba92870585be4360652826a08af8b1f93f3622fc04a324776af772328f9914"
     },
     {
-      "id": "sungkyunkwan-university-seungnireul-wihayeo",
-      "organizationId": "sungkyunkwan-university",
-      "title": "승리를 위하여",
-      "aliases": [
-        "성대 승리를 위하여",
-        "에메랄드 소드 응원가"
-      ],
-      "symbolicLines": [
-        "승리를 위하여",
-        "성균관대학교 응원가"
-      ],
-      "descriptionText": "",
-      "lyrics": {
-        "lines": [
-          "오오오 오오오 오오오오",
-          "오오 오오오 오오오오 (어깨동무!)",
-          "외쳐라 그대여 우리의 승리를",
-          "빛나라 그대여 영원히",
-          "",
-          "(성대 연호)",
-          "",
-          "오오오 오오오 오오오오",
-          "오오 오오오 오오오오 (어깨동무!)",
-          "외쳐라 그대여 우리의 승리를",
-          "빛나라 그대여 영원히",
-          "(X2)"
-        ],
-        "collapsedPreviewLineCount": 2
-      },
-      "quickFacts": [
-        {
-          "label": "사용 시작",
-          "value": "2016"
-        },
-        {
-          "label": "",
-          "value": ""
-        },
-        {
-          "label": "",
-          "value": ""
-        }
-      ],
-      "videos": [
-        {
-          "rank": 1,
-          "role": "official-or-lyrics",
-          "sourceUrl": "https://youtu.be/TPos2AcyLX4?si=oH3svwdvAcQSYq5n&t=26",
-          "videoId": "TPos2AcyLX4",
-          "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '승리를 위하여' (2016) 🐉 4K | 교차편집 - 성균관대학교 응원가",
-          "channelName": "성균관대학교 킹고응원단",
-          "attributionText": ""
-        },
-        {
-          "rank": 2,
-          "role": "featured-field",
-          "sourceUrl": "https://youtu.be/7bNQH9PZmZA?si=Rn_VEBBdV5lw7TDm&t=45",
-          "videoId": "7bNQH9PZmZA",
-          "title": "[2025 ESKARA] ‘승리를 위하여’🐉 4K | 관객 교차편집 – 성균관대학교 응원가",
-          "channelName": "성균관대학교 킹고응원단",
-          "attributionText": ""
-        }
-      ],
-      "relationships": [
-        {
-          "type": "original-song",
-          "targetId": "rhapsody-emerald-sword"
-        },
-        {
-          "type": "source-cheer-song",
-          "targetId": "doosan-bears-seungnireul-wihayeo"
-        }
-      ],
-      "sourceRevision": 6,
-      "contentHash": "81ca5b25b858d26ffa159b9c2ca6d6060c5dacc5fed42fa21374c5d4c5453611"
-    },
-    {
       "id": "yonsei-university-badasae",
       "organizationId": "yonsei-university",
       "title": "바다새",
@@ -3912,5 +3820,10 @@
       "sourceRevision": 2,
       "contentHash": "64804c5c5da6d33c12eb95d677ba2c3d10c039891683a111b6a88e78c7356aa3"
     }
+  ],
+  "parentReleaseId": "20260920T183245548Z-f9abb7f8fe",
+  "action": "publish",
+  "changedSongIds": [
+    "doosan-bears-seungnireul-wihayeo"
   ]
 }

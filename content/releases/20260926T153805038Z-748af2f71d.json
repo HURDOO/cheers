@@ -3912,5 +3912,10 @@
       "sourceRevision": 2,
       "contentHash": "64804c5c5da6d33c12eb95d677ba2c3d10c039891683a111b6a88e78c7356aa3"
     }
+  ],
+  "parentReleaseId": "20260926T153401288Z-9640802251",
+  "action": "publish",
+  "changedSongIds": [
+    "sungkyunkwan-university-seungnireul-wihayeo"
   ]
 }

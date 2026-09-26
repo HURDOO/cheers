@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "releaseId": "20260926T153805038Z-748af2f71d",
-  "generatedAt": "2026-09-26T15:38:05.038Z",
+  "releaseId": "20260926T151516981Z-702344a37f",
+  "generatedAt": "2026-09-26T15:15:16.981Z",
   "organizations": [
     {
       "id": "doosan-bears",
@@ -89,17 +89,6 @@
       "colors": {
         "primary": "#041E42",
         "secondary": "#D00F31"
-      }
-    },
-    {
-      "id": "sungkyunkwan-university",
-      "name": "성균관대학교",
-      "abbreviation": "SKKU",
-      "type": "university",
-      "region": "서울·수원",
-      "colors": {
-        "primary": "#072A60",
-        "secondary": "#8DC63F"
       }
     },
     {
@@ -2637,83 +2626,6 @@
       "contentHash": "c0ba92870585be4360652826a08af8b1f93f3622fc04a324776af772328f9914"
     },
     {
-      "id": "sungkyunkwan-university-seungnireul-wihayeo",
-      "organizationId": "sungkyunkwan-university",
-      "title": "승리를 위하여",
-      "aliases": [
-        "성대 승리를 위하여",
-        "에메랄드 소드 응원가"
-      ],
-      "symbolicLines": [
-        "승리를 위하여",
-        "성균관대학교 응원가"
-      ],
-      "descriptionText": "",
-      "lyrics": {
-        "lines": [
-          "오오오 오오오 오오오오",
-          "오오 오오오 오오오오 (어깨동무!)",
-          "외쳐라 그대여 우리의 승리를",
-          "빛나라 그대여 영원히",
-          "",
-          "(성대 연호)",
-          "",
-          "오오오 오오오 오오오오",
-          "오오 오오오 오오오오 (어깨동무!)",
-          "외쳐라 그대여 우리의 승리를",
-          "빛나라 그대여 영원히",
-          "(X2)"
-        ],
-        "collapsedPreviewLineCount": 2
-      },
-      "quickFacts": [
-        {
-          "label": "사용 시작",
-          "value": "2016"
-        },
-        {
-          "label": "",
-          "value": ""
-        },
-        {
-          "label": "",
-          "value": ""
-        }
-      ],
-      "videos": [
-        {
-          "rank": 1,
-          "role": "official-or-lyrics",
-          "sourceUrl": "https://youtu.be/TPos2AcyLX4?si=oH3svwdvAcQSYq5n&t=26",
-          "videoId": "TPos2AcyLX4",
-          "title": "[2026 상반기 응원 OT: '킹고인의 함성'] '승리를 위하여' (2016) 🐉 4K | 교차편집 - 성균관대학교 응원가",
-          "channelName": "성균관대학교 킹고응원단",
-          "attributionText": ""
-        },
-        {
-          "rank": 2,
-          "role": "featured-field",
-          "sourceUrl": "https://youtu.be/7bNQH9PZmZA?si=Rn_VEBBdV5lw7TDm&t=45",
-          "videoId": "7bNQH9PZmZA",
-          "title": "[2025 ESKARA] ‘승리를 위하여’🐉 4K | 관객 교차편집 – 성균관대학교 응원가",
-          "channelName": "성균관대학교 킹고응원단",
-          "attributionText": ""
-        }
-      ],
-      "relationships": [
-        {
-          "type": "original-song",
-          "targetId": "rhapsody-emerald-sword"
-        },
-        {
-          "type": "source-cheer-song",
-          "targetId": "doosan-bears-seungnireul-wihayeo"
-        }
-      ],
-      "sourceRevision": 6,
-      "contentHash": "81ca5b25b858d26ffa159b9c2ca6d6060c5dacc5fed42fa21374c5d4c5453611"
-    },
-    {
       "id": "yonsei-university-badasae",
       "organizationId": "yonsei-university",
       "title": "바다새",
@@ -3912,5 +3824,10 @@
       "sourceRevision": 2,
       "contentHash": "64804c5c5da6d33c12eb95d677ba2c3d10c039891683a111b6a88e78c7356aa3"
     }
+  ],
+  "parentReleaseId": "20260926T150722595Z-8fcc46680f",
+  "action": "publish",
+  "changedSongIds": [
+    "hanyang-university-hanyangeul-wihayeo"
   ]
 }
