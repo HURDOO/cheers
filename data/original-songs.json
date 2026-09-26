@@ -145,6 +145,28 @@
       ]
     },
     {
+      "id": "righeira-lestate-sta-finendo",
+      "title": "L'estate sta finendo",
+      "artist": "Righeira",
+      "kind": "source",
+      "year": 1985,
+      "genre": "이탈로 디스코",
+      "country": "IT",
+      "status": "verified",
+      "sources": [
+        {
+          "label": "Wikipedia — L'estate sta finendo (1985년 5월 싱글, 이탈리아 1위)",
+          "url": "https://en.wikipedia.org/wiki/L%27estate_sta_finendo",
+          "scope": "origin"
+        },
+        {
+          "label": "대구일보 — 대구FC ‘그 겨울’ 원곡 소개",
+          "url": "https://www.idaegu.com/news/articleView.html?idxno=397780",
+          "scope": "origin"
+        }
+      ]
+    },
+    {
       "id": "daegu-fc-geu-gyeoul",
       "title": "그 겨울 (feat. 더 베인)",
       "artist": "대구FC feat. 더 베인 (THE VANE)",

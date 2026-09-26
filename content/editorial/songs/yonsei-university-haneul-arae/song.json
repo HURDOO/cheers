@@ -38,7 +38,7 @@
       },
       {
         "label": "원곡",
-        "value": "대구FC ‘그 겨울’ — 2020-05-13 발매된 구단 응원가"
+        "value": "Righeira ‘L’estate sta finendo’(1985) → 대구FC ‘그 겨울’"
       },
       {
         "label": "",
@@ -59,12 +59,16 @@
     "relationships": [
       {
         "type": "original-song",
+        "targetId": "righeira-lestate-sta-finendo"
+      },
+      {
+        "type": "secondary-original-song",
         "targetId": "daegu-fc-geu-gyeoul"
       }
     ],
-    "revision": 7,
+    "revision": 8,
     "createdAt": "2026-09-05T06:15:38.215Z",
-    "updatedAt": "2026-09-26T09:30:50.588Z",
+    "updatedAt": "2026-09-26T15:42:39.217Z",
     "descriptionStatus": "polished"
   }
 }
