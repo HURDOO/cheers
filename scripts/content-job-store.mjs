@@ -3,7 +3,7 @@ import { mkdir, open, readFile, rename, unlink, writeFile } from "node:fs/promis
 import path from "node:path";
 import { EditorialError } from "./content-editorial-store.mjs";
 
-const POLICY_VERSION = "2026-08-25-loop-v2";
+const POLICY_VERSION = "2026-09-26-notes-v3";
 const ACTIVE_STATUSES = new Set(["queued", "running"]);
 const SAFE_JOB_ID = /^[a-z0-9-]+$/u;
 
@@ -90,22 +90,20 @@ export class ContentJobStore {
           song,
           previousResearchText: await this.editorialStore.readResearch(job.songId),
           instructions: [
-            "수집·작성·자체 검토를 직렬 단계로 나누지 말고, 조사 중 원고를 쓰고 원고의 빈틈을 다시 조사하는 식으로 반복한다.",
-            "현재 descriptionText를 반드시 먼저 읽고, 가치 있는 사용자 문장은 보존하면서 부족한 맥락과 TMI를 보완한다.",
-            "흥미로운 소재 약 10개를 목표로 폭넓게 찾되 자료가 적거나 많으면 억지로 수량을 맞추지 않는다.",
-            "결과는 사실 목록이 아니라 나무위키처럼 편하게 읽히는 공개용 본문으로 완성한다. 뻔한 대표곡 소개보다 의외성 있는 이야기부터 쓴다.",
-            "카더라·구전·상충하는 설도 흥미가 있으면 포함할 수 있다. 단정하지 말고 '~라고 전해진다', '~라는 이야기가 있다'처럼 자연스럽게 범위를 드러낸다.",
-            "출처는 선택 사항이며 본문 흐름을 끊지 않도록 필요한 문장 뒤에 [* 주석 내용: URL] 형식으로 넣는다.",
-            "각 문단은 한 가지 이야기에 집중하고, 중복·AI식 총평·근거 없는 인과관계·과도한 수식은 자체 검토에서 걷어낸다.",
-            "추가 응원가를 발견하면 '## 추가 발견곡' 아래에 제목과 발견 경로를 적는다.",
-            "영상 순서, 가사, 간단 정보, 관계 데이터는 수정하지 않는다. 공개 본문 descriptionText와 AI 작업 기록 researchText만 제출한다.",
-            "제출된 공개 본문은 사용자 검수 대상이며 작업 라벨은 자동으로 '수집 완료'가 된다. 최종 승인은 사용자가 한다.",
+            "이 작업은 조사 전용이다. 공개용 문장은 별도 다듬기 단계(ChatGPT)에서 쓰므로, 산문을 다듬는 데 시간을 쓰지 말고 소재를 넓고 정확하게 모은다.",
+            "현재 descriptionText와 이전 작업 기록을 반드시 먼저 읽고, 이미 있는 내용은 새 소재로 반복하지 않는다.",
+            "흥미로운 소재 약 10개를 목표로 폭넓게 찾되 자료가 적거나 많으면 억지로 수량을 맞추지 않는다. 뻔한 대표곡 소개보다 의외성 있는 이야기를 우선한다.",
+            "researchText는 아래 소재 노트 형식의 Markdown으로 작성한다. 소재마다 '### 번호. 한 줄 제목' 아래 '- 내용:', '- 확신도: 확실 | 구전 | 설 대립 | 추정', '- 출처: URL 또는 없음' 세 항목을 적는다.",
+            "카더라·구전·상충하는 설도 흥미가 있으면 소재로 남기고 확신도로 범위를 표시한다. 서로 다른 설은 한 소재 안에 함께 적는다.",
+            "출처는 선택 사항이다. 자료를 만들거나 없는 링크를 붙이지 않는다.",
+            "소재 노트 뒤에 '## 확인 필요'(사용자가 판단해야 할 사실·민감한 표현)와 '## 추가 발견곡'(제목과 발견 경로)을 둔다.",
+            "descriptionText는 제출하지 않는다. 공개 본문, 영상 순서, 가사, 간단 정보, 관계 데이터는 수정하지 않는다.",
+            "제출하면 작업 라벨은 자동으로 '수집 완료'가 되고, 사용자가 작업 모드의 '다듬기'에서 ChatGPT로 공개 본문을 만든다.",
           ],
           outputFormat: {
             fileType: "json",
             fields: {
-              descriptionText: "사용자 기존 글을 반영해 완성한 공개용 전체 본문. 부분 패치가 아니라 전체 문자열.",
-              researchText: "사용자 검수용 작업 기록. 새로 확인한 핵심, 불확실한 부분, 추가 발견곡을 간결한 Markdown으로 정리.",
+              researchText: "소재 노트 Markdown. '## 소재' 아래 소재별 내용·확신도·출처, '## 확인 필요', '## 추가 발견곡'.",
             },
           },
         };
@@ -145,9 +143,10 @@ export class ContentJobStore {
         return { job, stale: true, song };
       }
 
+      // 이전 계약의 본문 제출도 받되, AI 문장은 다듬기 전 초안으로만 저장한다.
       const updatedSong = await this.editorialStore.saveSong(job.songId, {
         workflowStage: "research_ready",
-        descriptionText: normalized.descriptionText,
+        ...(normalized.descriptionText ? { descriptionText: normalized.descriptionText, descriptionStatus: "draft" } : {}),
       }, song.revision);
       const researchPath = path.join(this.projectRoot, "content", "editorial", "songs", job.songId, "research.md");
       await this.#writeTextAtomic(researchPath, `${normalized.researchText}\n`);
@@ -213,12 +212,11 @@ export class ContentJobStore {
 
 function normalizeEnrichmentResult(result) {
   if (!result || typeof result !== "object" || Array.isArray(result)) {
-    throw new EditorialError("INVALID_RESULT_FORMAT", "AI 결과는 descriptionText와 researchText가 있는 JSON 객체여야 합니다.");
+    throw new EditorialError("INVALID_RESULT_FORMAT", "AI 결과는 researchText가 있는 JSON 객체여야 합니다.");
   }
   const descriptionText = String(result.descriptionText ?? "").replace(/\r\n/gu, "\n").trim();
   const researchText = String(result.researchText ?? "").replace(/\r\n/gu, "\n").trim();
-  if (!descriptionText) throw new EditorialError("EMPTY_DESCRIPTION", "AI가 작성한 공개 본문이 비어 있습니다.");
-  if (!researchText) throw new EditorialError("EMPTY_RESEARCH_LOG", "AI 작업 기록이 비어 있습니다.");
+  if (!researchText) throw new EditorialError("EMPTY_RESEARCH_LOG", "AI 소재 노트가 비어 있습니다.");
   if (descriptionText.length > 60_000 || researchText.length > 150_000) {
     throw new EditorialError("RESULT_TOO_LARGE", "AI 결과가 너무 깁니다.", 413);
   }

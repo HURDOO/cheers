@@ -11,6 +11,7 @@ import { ReelStore, validateReel } from "./reel-store.mjs";
 import { detectReelTools, renderReel } from "./reel-renderer.mjs";
 import { fetchYouTubeMetadata } from "./youtube-metadata.mjs";
 import { readOriginalSongCatalog, saveOriginalSongOrder } from "./original-song-order.mjs";
+import { VideoCandidateStore, collectVideoCandidates, runYtDlp } from "./video-candidates.mjs";
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = process.env.CONTENT_PROJECT_ROOT
@@ -28,6 +29,10 @@ const jobStore = new ContentJobStore(projectRoot, store);
 const releaseStore = new ContentReleaseStore(projectRoot, store);
 const reelStore = new ReelStore(projectRoot);
 const activeReelRenders = new Map();
+const candidateStore = new VideoCandidateStore(projectRoot);
+const candidateTasks = new Map();
+const candidateQueue = [];
+let candidateWorkerRunning = false;
 let mutationInProgress = false;
 
 const staticFiles = new Map([
@@ -35,6 +40,7 @@ const staticFiles = new Map([
   ["/admin", { filePath: path.join(adminDirectory, "index.html"), type: "text/html; charset=utf-8" }],
   ["/app.js", { filePath: path.join(adminDirectory, "app.js"), type: "text/javascript; charset=utf-8" }],
   ["/priority.js", { filePath: path.join(adminDirectory, "priority.js"), type: "text/javascript; charset=utf-8" }],
+  ["/workbench.js", { filePath: path.join(adminDirectory, "workbench.js"), type: "text/javascript; charset=utf-8" }],
   ["/song-editor.js", { filePath: path.join(adminDirectory, "song-editor.js"), type: "text/javascript; charset=utf-8" }],
   ["/styles.css", { filePath: path.join(adminDirectory, "styles.css"), type: "text/css; charset=utf-8" }],
   ["/shared/inline-notes.mjs", { filePath: path.join(sharedDirectory, "inline-notes.mjs"), type: "text/javascript; charset=utf-8" }],
@@ -116,6 +122,47 @@ function startReelRender(reelId) {
     .finally(() => activeReelRenders.delete(reelId));
   activeReelRenders.set(reelId, task);
   return true;
+}
+
+function enqueueCandidateCollection(songIds) {
+  const queued = [];
+  for (const songId of songIds) {
+    if (["queued", "running"].includes(candidateTasks.get(songId)?.status)) continue;
+    candidateTasks.set(songId, { status: "queued", phase: "대기", error: null, updatedAt: new Date().toISOString() });
+    candidateQueue.push(songId);
+    queued.push(songId);
+  }
+  if (!candidateWorkerRunning) runCandidateWorker();
+  return queued;
+}
+
+// yt-dlp 호출은 한 곡씩 순서대로 처리해 검색 차단과 과부하를 피한다.
+async function runCandidateWorker() {
+  candidateWorkerRunning = true;
+  try {
+    while (candidateQueue.length > 0) {
+      const songId = candidateQueue.shift();
+      const update = (patch) => candidateTasks.set(songId, { ...candidateTasks.get(songId), ...patch, updatedAt: new Date().toISOString() });
+      update({ status: "running", phase: "검색 준비" });
+      try {
+        const binary = detectReelTools().ytdlp;
+        if (!binary) throw new EditorialError("YTDLP_MISSING", "영상 후보 수집에는 yt-dlp 설치가 필요합니다.", 503);
+        const [song, state] = await Promise.all([store.getSong(songId), store.state()]);
+        const organization = state.organizations.find(({ id }) => id === song.organizationId);
+        const result = await collectVideoCandidates({ song, organization }, {
+          run: (args, options) => runYtDlp(args, { ...options, binary }),
+          onProgress: (phase) => update({ phase }),
+        });
+        await candidateStore.write(result);
+        update({ status: "completed", phase: `후보 ${result.items.length}개`, error: null });
+      } catch (error) {
+        console.error(`영상 후보 수집 실패 (${songId})`, error);
+        update({ status: "failed", phase: "실패", error: error instanceof EditorialError ? error.message : "영상 후보를 수집하지 못했습니다." });
+      }
+    }
+  } finally {
+    candidateWorkerRunning = false;
+  }
 }
 
 function sendJson(response, status, payload) {
@@ -209,12 +256,13 @@ async function handleApi(request, response, url) {
     return sendJson(response, 200, { ok: true });
   }
   if (url.pathname === "/api/state" && request.method === "GET") {
-    const [editorialState, jobs, reels, priorityPlan, originalCatalog] = await Promise.all([
+    const [editorialState, jobs, reels, priorityPlan, originalCatalog, videoCandidates] = await Promise.all([
       store.state(),
       jobStore.list(),
       reelStore.list(),
       readPriorityPlan(),
       readOriginalSongCatalog(originalSongsPath),
+      candidateStore.summaries(),
     ]);
     const publication = await releaseStore.describe(editorialState);
     const songs = await Promise.all(editorialState.songs.map(async (song) => ({
@@ -232,7 +280,19 @@ async function handleApi(request, response, url) {
       originalOrderRevision: originalCatalog.revision,
       publication: publication.current,
       reelTools: detectReelTools(),
+      videoCandidates,
+      candidateTasks: Object.fromEntries(candidateTasks),
     });
+  }
+  if (url.pathname === "/api/video-candidates/collect" && request.method === "POST") {
+    const body = await readRequestJson(request);
+    const songIds = Array.isArray(body.songIds) ? body.songIds.map(String) : [];
+    if (songIds.length === 0 || songIds.length > 200) {
+      throw new EditorialError("INVALID_CANDIDATE_REQUEST", "후보를 수집할 응원가를 1~200곡 선택해 주세요.");
+    }
+    await Promise.all(songIds.map((id) => store.getSong(id)));
+    const queued = enqueueCandidateCollection(songIds);
+    return sendJson(response, 202, { queued, tasks: Object.fromEntries(candidateTasks) });
   }
   if (url.pathname === "/api/original-songs/order" && request.method === "PUT") {
     const body = await readRequestJson(request);
@@ -318,6 +378,21 @@ async function handleApi(request, response, url) {
     return sendJson(response, results.created.length > 0 ? 201 : 200, results);
   }
 
+  if (url.pathname === "/api/songs/bulk" && request.method === "POST" && url.searchParams.get("action") === "apply-polish") {
+    const body = await readRequestJson(request);
+    const songs = await withMutation(async () => {
+      await validateSongBatch(body.items);
+      const updated = [];
+      for (const item of body.items) {
+        const descriptionText = String(item.descriptionText ?? "").trim();
+        if (!descriptionText) throw new EditorialError("EMPTY_DESCRIPTION", "다듬은 본문이 비어 있는 곡이 있습니다.");
+        updated.push(await store.saveSong(item.id, { descriptionText, descriptionStatus: "polished" }, item.expectedRevision));
+      }
+      return updated;
+    });
+    return sendJson(response, 200, { songs });
+  }
+
   if (url.pathname === "/api/songs/bulk" && request.method === "POST" && url.searchParams.get("action") === "publish") {
     const body = await readRequestJson(request);
     const result = await withMutation(async () => {
@@ -348,6 +423,12 @@ async function handleApi(request, response, url) {
       return { release: release.release, songs: updatedSongs };
     });
     return sendJson(response, 201, result);
+  }
+
+  const candidateMatch = url.pathname.match(/^\/api\/songs\/([a-z0-9-]+)\/video-candidates$/u);
+  if (candidateMatch && request.method === "GET") {
+    await store.getSong(candidateMatch[1]);
+    return sendJson(response, 200, { candidates: await candidateStore.read(candidateMatch[1]) });
   }
 
   const songMatch = url.pathname.match(/^\/api\/songs\/([a-z0-9-]+)$/u);

@@ -7,6 +7,7 @@ const SAFE_ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/u;
 const VIDEO_ROLES = ["official-or-lyrics", "featured-field", "additional", "additional", "additional"];
 const INTERNAL_SONG_FIELDS = new Set([
   "workflowStage",
+  "descriptionStatus",
   "scopeStatus",
   "discoveredBy",
   "researchText",
@@ -255,7 +256,8 @@ export function toPublicSong(song, canonical = null) {
     title: String(song.title),
     aliases: [...(song.aliases ?? [])],
     symbolicLines: [...(song.symbolicLines ?? [])].slice(0, 2),
-    descriptionText: String(song.descriptionText ?? ""),
+    // 다듬기 전 초안은 공개 카탈로그에 넣지 않고, 다듬은 뒤 재공개할 때 노출한다.
+    descriptionText: song.descriptionStatus === "draft" ? "" : String(song.descriptionText ?? ""),
     lyrics: {
       lines: [...(song.lyrics?.lines ?? [])],
       collapsedPreviewLineCount: 2,

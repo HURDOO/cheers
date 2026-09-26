@@ -17,6 +17,7 @@ const WORKFLOW_STAGES = new Set([
   "approved",
   "published",
 ]);
+const DESCRIPTION_STATUSES = new Set(["draft", "polished"]);
 const RELATIONSHIP_TYPES = new Set(["original-song", "secondary-original-song", "source-cheer-song"]);
 const VIDEO_ROLES = ["official-or-lyrics", "featured-field", "additional", "additional", "additional"];
 const SAFE_ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/u;
@@ -119,9 +120,10 @@ export class EditorialStore {
       }
       validateEditorialSong(overlay, activeOrganizations);
       const canonical = canonicalSongById.get(overlay.id);
+      const merged = { ...(canonical ?? {}), ...overlay };
       mergedSongs.set(overlay.id, {
-        ...(canonical ?? {}),
-        ...overlay,
+        ...merged,
+        descriptionStatus: merged.descriptionStatus ?? defaultDescriptionStatus(merged),
         isPublished: Boolean(canonical),
         persisted: true,
       });
@@ -387,6 +389,7 @@ export class EditorialStore {
       aliases: song.aliases ?? [],
       symbolicLines: song.symbolicLines ?? [],
       descriptionText: storyParts.join("\n\n"),
+      descriptionStatus: "polished",
       lyrics: { lines: song.lyrics ?? [], collapsedPreviewLineCount: 2 },
       quickFacts: [
         { label: "사용 시작", value: song.yearLabel ?? "" },
@@ -469,6 +472,7 @@ export function validateEditorialSong(song, organizations) {
   if (!DISCOVERED_BY.has(song.discoveredBy)) details.push("발견 주체가 올바르지 않습니다.");
   if (!SCOPE_STATUSES.has(song.scopeStatus)) details.push("조사 범위가 올바르지 않습니다.");
   if (!WORKFLOW_STAGES.has(song.workflowStage)) details.push("진행 상태가 올바르지 않습니다.");
+  if (song.descriptionStatus !== undefined && !DESCRIPTION_STATUSES.has(song.descriptionStatus)) details.push("본문 상태가 올바르지 않습니다.");
   if (!Number.isInteger(song.revision) || song.revision < 0) details.push("revision이 올바르지 않습니다.");
   try {
     requiredText(song.title, "제목", 200);
@@ -510,6 +514,8 @@ function normalizeSongInput(input, defaults = {}) {
   if (!DISCOVERED_BY.has(discoveredBy)) throw new EditorialError("INVALID_DISCOVERY", "발견 주체를 확인해 주세요.");
   if (!SCOPE_STATUSES.has(scopeStatus)) throw new EditorialError("INVALID_SCOPE", "조사 범위를 확인해 주세요.");
   if (!WORKFLOW_STAGES.has(workflowStage)) throw new EditorialError("INVALID_STAGE", "진행 상태를 확인해 주세요.");
+  const descriptionStatus = String(input?.descriptionStatus ?? defaults.descriptionStatus ?? defaultDescriptionStatus({ workflowStage }));
+  if (!DESCRIPTION_STATUSES.has(descriptionStatus)) throw new EditorialError("INVALID_DESCRIPTION_STATUS", "본문 상태를 확인해 주세요.");
 
   const title = requiredText(input?.title ?? defaults.title, "제목", 200);
   return {
@@ -521,11 +527,17 @@ function normalizeSongInput(input, defaults = {}) {
     aliases: uniqueTexts(input?.aliases ?? defaults.aliases ?? [], "별칭", 100),
     symbolicLines: normalizeSymbolicLines(input?.symbolicLines ?? defaults.symbolicLines ?? [title, ""]),
     descriptionText: limitedText(input?.descriptionText ?? defaults.descriptionText ?? "", "설명", 60_000),
+    descriptionStatus,
     lyrics: normalizeLyrics(input?.lyrics ?? defaults.lyrics ?? { lines: [] }),
     quickFacts: normalizeQuickFacts(input?.quickFacts ?? defaults.quickFacts ?? []),
     videos: normalizeVideos(input?.videos ?? defaults.videos ?? []),
     relationships: normalizeRelationships(input?.relationships ?? defaults.relationships ?? []),
   };
+}
+
+// 본문 상태가 없던 기존 레코드는 이미 공개한 곡만 다듬은 본문으로 본다.
+function defaultDescriptionStatus(song) {
+  return song.workflowStage === "published" ? "polished" : "draft";
 }
 
 function validateTombstone(entity, label) {

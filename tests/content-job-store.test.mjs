@@ -63,6 +63,31 @@ test("AI가 현재 글을 보강한 공개 본문과 작업 기록을 제출하�
   assert.equal(await editorialStore.readResearch(song.id), `${result.researchText}\n`);
 });
 
+test("Codex는 소재 노트만 제출하고 공개 본문과 다듬기 상태는 그대로 둔다", async () => {
+  const { editorialStore, jobStore, song } = await fixture();
+  const seeded = await editorialStore.saveSong(song.id, { descriptionText: "다듬은 본문", descriptionStatus: "polished" }, song.revision);
+  const request = await jobStore.createEnrichmentJob(song.id, seeded.revision);
+  const work = await jobStore.claimNext();
+  assert.deepEqual(Object.keys(work.outputFormat.fields), ["researchText"]);
+
+  await jobStore.submitEnrichment(request.job.id, { researchText: "## 소재\n\n### 1. 새 이야기\n- 내용: 구전\n- 확신도: 구전\n- 출처: 없음" });
+  const updated = await editorialStore.getSong(song.id);
+  assert.equal(updated.descriptionText, "다듬은 본문");
+  assert.equal(updated.descriptionStatus, "polished");
+  assert.equal(updated.workflowStage, "research_ready");
+});
+
+test("이전 계약처럼 본문을 함께 제출하면 다듬기 전 초안으로 저장한다", async () => {
+  const { editorialStore, jobStore, song } = await fixture();
+  const seeded = await editorialStore.saveSong(song.id, { descriptionStatus: "polished" }, song.revision);
+  const request = await jobStore.createEnrichmentJob(song.id, seeded.revision);
+  await jobStore.claimNext();
+  await jobStore.submitEnrichment(request.job.id, { descriptionText: "AI 문장", researchText: "노트" });
+  const updated = await editorialStore.getSong(song.id);
+  assert.equal(updated.descriptionText, "AI 문장");
+  assert.equal(updated.descriptionStatus, "draft");
+});
+
 test("요청 뒤 곡 revision이 바뀌면 오래된 조사를 자동 적용하지 않는다", async () => {
   const { editorialStore, jobStore, song } = await fixture();
   await jobStore.createResearchJob(song.id, song.revision);

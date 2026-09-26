@@ -1,6 +1,18 @@
 import { buildPriorityItems, priorityGroups, prioritySummary } from "./priority.js";
 import { descriptionPreview, lyricsPreview, readSongDraft, canRestoreSongDraft, draftText } from "./song-editor.js";
 import { extractYouTubeVideoId, youtubeStartSeconds } from "../shared/youtube.mjs";
+import {
+  WORK_MODES,
+  buildPolishPrompt,
+  formatTimestamp,
+  parsePolishResponse,
+  parseTimestamp,
+  pickPolishExemplars,
+  songReadiness,
+  videoUrlWithStart,
+  workQueue,
+  workSummary,
+} from "./workbench.js";
 
 const viewRoot = document.querySelector("#view-root");
 const pageBreadcrumb = document.querySelector("#page-breadcrumb");
@@ -11,6 +23,7 @@ const organizationCount = document.querySelector("#nav-organization-count");
 const songCount = document.querySelector("#nav-song-count");
 const originalCount = document.querySelector("#nav-original-count");
 const priorityCount = document.querySelector("#nav-priority-count");
+const workbenchCount = document.querySelector("#nav-workbench-count");
 const reelCount = document.querySelector("#nav-reel-count");
 const drawerLayer = document.querySelector("#drawer-layer");
 const drawerBackdrop = document.querySelector("#drawer-backdrop");
@@ -40,6 +53,7 @@ const toastRegion = document.querySelector("#toast-region");
 const VIEW_LABELS = {
   overview: "대시보드",
   priorities: "작업 순서",
+  workbench: "작업 모드",
   organizations: "대학·구단",
   songs: "응원가",
   originals: "원곡 순서",
@@ -61,6 +75,10 @@ const STAGE_LABELS = {
   review_ready: "검수 대기",
   approved: "승인",
   published: "공개",
+};
+const DESCRIPTION_STATUS_LABELS = {
+  draft: "초안 · 사이트에 숨김",
+  polished: "다듬기 완료 · 사이트에 표시",
 };
 const PUBLICATION_LABELS = {
   unpublished: "미공개",
@@ -297,8 +315,12 @@ function toast(message, type = "success") {
 async function copyText(value) {
   const text = String(value ?? "");
   if (navigator.clipboard?.writeText && window.isSecureContext) {
-    await navigator.clipboard.writeText(text);
-    return;
+    try {
+      await navigator.clipboard.writeText(text);
+      return;
+    } catch {
+      // 창에 초점이 없거나 권한이 막히면 아래 방식으로 다시 시도한다.
+    }
   }
   const field = document.createElement("textarea");
   field.value = text;
@@ -354,6 +376,7 @@ async function loadState({ render = true } = {}) {
     songCount.textContent = database.songs.length;
     originalCount.textContent = database.originalSongs.length;
     priorityCount.textContent = prioritySummary(buildPriorityItems(database)).remaining;
+    workbenchCount.textContent = workSummary(database).publish;
     reelCount.textContent = database.reels?.length ?? 0;
     populateImportOrganizations();
     if (render) renderCurrentView();
@@ -378,6 +401,7 @@ function renderCurrentView() {
   });
   if (currentView === "organizations") renderOrganizationsView();
   else if (currentView === "priorities") renderPrioritiesView();
+  else if (currentView === "workbench") renderWorkbenchView();
   else if (currentView === "songs") renderSongsView();
   else if (currentView === "originals") renderOriginalOrderView();
   else if (currentView === "reels") renderReelsView();
@@ -1149,6 +1173,7 @@ function songForm(song, organizationId, seed = null) {
     aliases: [],
     symbolicLines: ["", ""],
     descriptionText: "",
+    descriptionStatus: "draft",
     lyrics: { lines: [] },
     quickFacts: [{ label: "사용 시작", value: "" }, { label: "", value: "" }, { label: "", value: "" }],
     videos: [],
@@ -1188,6 +1213,7 @@ function songForm(song, organizationId, seed = null) {
     </section>
     <section class="form-section" data-song-panel="description">
       <header class="form-section-header"><div><h3>소개·사용 맥락·TMI</h3><p>출처 없이 작성할 수 있고, 필요할 때만 <code>[* 주석]</code>을 넣어요.</p></div><button type="button" class="button button-ghost" data-insert-note>[* 주석] 넣기</button></header>
+      <label class="field description-status-field"><span>본문 상태 <small>초안은 곡을 공개해도 사이트에 본문이 보이지 않아요</small></span><select name="descriptionStatus">${selectOptions(DESCRIPTION_STATUS_LABELS, value.descriptionStatus ?? "draft")}</select></label>
       <label class="field"><span>공개 본문</span><textarea id="description-input" name="descriptionText" rows="14" maxlength="60000" placeholder="AI 초안을 검수하고 자유롭게 고치는 공간">${escapeHtml(value.descriptionText)}</textarea><p class="field-help">예: 흥미로운 이야기.[* 원문 출처: https://example.com]</p></label>
     </section>
     ${existing ? researchSection(value, latestJob) : ""}
@@ -1653,6 +1679,7 @@ function captureSong() {
     scopeStatus: String(formData.get("scopeStatus") ?? "target"),
     workflowStage: String(formData.get("workflowStage") ?? "listed"),
     descriptionText: String(formData.get("descriptionText") ?? ""),
+    descriptionStatus: String(formData.get("descriptionStatus") ?? "draft"),
     lyrics: { lines: String(formData.get("lyrics") ?? "").replace(/\r\n/gu, "\n").split("\n") },
     quickFacts,
     videos,
@@ -1986,13 +2013,770 @@ async function updateSongStage(id, workflowStage, select) {
   }
 }
 
-navigation.addEventListener("click", (event) => {
+// ─── 작업 모드: 같은 종류의 작업을 곡마다 이어서 처리한다 ───
+
+const HINT_SOURCE_LABELS = { chapter: "챕터", description: "설명란", comment: "댓글" };
+const YOUTUBE_EMBED_ORIGIN = "https://www.youtube-nocookie.com";
+const workbench = {
+  mode: "videos",
+  songId: null,
+  includeDone: false,
+  candidates: new Map(),
+  selection: null,
+  starts: new Map(),
+  playerTimes: new Map(),
+  lyrics: null,
+  polishSelected: null,
+  polishText: "",
+  polishParsed: null,
+  publishSelected: new Set(),
+  publishShowAll: false,
+};
+
+function workbenchDirty() {
+  return Boolean(workbench.selection?.dirty || workbench.lyrics?.dirty);
+}
+
+async function confirmDiscardWorkbench() {
+  if (!workbenchDirty()) return true;
+  const confirmed = await askConfirm({
+    title: "저장하지 않은 작업을 버릴까요?",
+    message: "현재 곡에서 고른 영상이나 입력한 가사가 저장되지 않았어요.",
+    confirmLabel: "버리고 이동",
+    danger: false,
+  });
+  if (confirmed) {
+    workbench.selection = null;
+    workbench.lyrics = null;
+  }
+  return confirmed;
+}
+
+function currentWorkQueue() {
+  const includeDone = workbench.includeDone && ["videos", "lyrics"].includes(workbench.mode);
+  return workQueue(database, workbench.mode, { includeDone });
+}
+
+function currentWorkSong(queue) {
+  const pinned = workbench.songId ? songById(workbench.songId) : null;
+  if (pinned) return pinned;
+  const first = queue[0] ?? null;
+  workbench.songId = first?.id ?? null;
+  return first;
+}
+
+function nextWorkSongId(queue, id) {
+  const index = queue.findIndex((song) => song.id === id);
+  return queue.slice(index + 1).concat(queue.slice(0, Math.max(0, index))).find((song) => song.id !== id)?.id ?? null;
+}
+
+function renderWorkbenchView() {
+  const summary = workSummary(database);
+  const queue = currentWorkQueue();
+  const body = {
+    videos: () => workSplitLayout(queue, renderVideoWorkPanel),
+    lyrics: () => workSplitLayout(queue, renderLyricsWorkPanel),
+    polish: () => renderPolishMode(queue),
+    publish: () => renderPublishMode(),
+  }[workbench.mode]();
+  viewRoot.innerHTML = `
+    ${pageHeader("작업 모드", "같은 종류의 작업을 곡마다 이어서 처리해요. 영상·가사가 채워진 곡부터 공개하고, 본문은 다듬은 뒤 재공개해요.")}
+    <div class="work-mode-tabs" role="tablist" aria-label="작업 종류">
+      ${Object.entries(WORK_MODES).map(([mode, label]) => `<button type="button" role="tab" class="work-mode-tab" aria-selected="${mode === workbench.mode}" data-work-mode="${mode}"><span>${escapeHtml(label)}</span><strong>${summary[mode]}</strong></button>`).join("")}
+    </div>
+    ${body}`;
+  if (workbench.mode === "lyrics") updateWorkLyricsPreview();
+}
+
+function workSplitLayout(queue, renderPanel) {
+  const song = currentWorkSong(queue);
+  const doneLabel = workbench.mode === "videos" ? "영상 있는 곡도 보기" : "가사 있는 곡도 보기";
+  return `
+    <div class="work-layout">
+      <aside class="work-queue data-card" aria-label="작업할 곡">
+        <div class="work-queue-header">
+          <strong>${queue.length}곡</strong>
+          <label class="work-toggle"><input type="checkbox" data-work-include-done ${workbench.includeDone ? "checked" : ""} />${doneLabel}</label>
+        </div>
+        ${workbench.mode === "videos" ? `<button type="button" class="button button-secondary work-queue-bulk" data-collect-missing-candidates>후보 없는 곡 모두 수집</button>` : ""}
+        <ol class="work-queue-list">
+          ${queue.map((item) => workQueueItem(item, item.id === song?.id)).join("") || `<li>${emptySmall("남은 곡이 없어요")}</li>`}
+        </ol>
+      </aside>
+      <section class="work-panel data-card">${song ? renderPanel(song) : emptySmall("작업할 곡을 골라 주세요")}</section>
+    </div>`;
+}
+
+function workQueueItem(song, active) {
+  const organization = organizationById(song.organizationId);
+  let badge = "";
+  if (workbench.mode === "videos") {
+    const task = database.candidateTasks?.[song.id];
+    const summary = database.videoCandidates?.[song.id];
+    badge = ["queued", "running"].includes(task?.status)
+      ? `<span class="pill orange">수집 중</span>`
+      : summary ? `<span class="pill blue">후보 ${summary.count}</span>` : `<span class="pill gray">후보 없음</span>`;
+  } else {
+    badge = songReadiness(song).hasVideo ? `<span class="pill green">영상</span>` : `<span class="pill gray">영상 없음</span>`;
+  }
+  return `<li><button type="button" class="work-queue-item ${active ? "is-active" : ""}" data-work-song="${escapeHtml(song.id)}" ${active ? 'aria-current="true"' : ""}>
+    <span><strong>${escapeHtml(song.title)}</strong><small>${escapeHtml(organization?.name ?? song.organizationId)}</small></span>${badge}
+  </button></li>`;
+}
+
+function workPanelHeader(song, actions = "") {
+  const organization = organizationById(song.organizationId);
+  return `<header class="work-panel-header">
+    <div><span class="work-panel-eyebrow">${escapeHtml(organization?.name ?? song.organizationId)}</span><h2>${escapeHtml(song.title)}</h2>${song.aliases?.length ? `<p>${escapeHtml(song.aliases.join(" · "))}</p>` : ""}</div>
+    <div class="work-panel-actions">${actions}<button type="button" class="button button-ghost" data-edit-song="${escapeHtml(song.id)}">전체 편집</button></div>
+  </header>`;
+}
+
+function workSaveButtons() {
+  return `<button type="button" class="button button-secondary" data-work-save>저장</button><button type="button" class="button button-primary" data-work-save-next>저장 후 다음 곡</button>`;
+}
+
+// 영상 고르기
+
+function ensureVideoSelection(song) {
+  const current = workbench.selection;
+  if (current?.songId === song.id && (current.dirty || current.revision === song.revision)) return current;
+  workbench.starts.clear();
+  workbench.playerTimes.clear();
+  workbench.selection = {
+    songId: song.id,
+    revision: song.revision,
+    dirty: false,
+    items: (song.videos ?? []).map((video) => ({
+      videoId: video.videoId,
+      title: video.title,
+      channelName: video.channelName,
+      attributionText: video.attributionText ?? "",
+      startSeconds: youtubeStartSeconds(video.sourceUrl),
+    })),
+  };
+  return workbench.selection;
+}
+
+async function loadCandidates(songId, { force = false } = {}) {
+  if (!force && workbench.candidates.has(songId)) return;
+  workbench.candidates.set(songId, "loading");
+  try {
+    const result = await api(`/api/songs/${encodeURIComponent(songId)}/video-candidates`);
+    workbench.candidates.set(songId, result.candidates);
+  } catch (error) {
+    workbench.candidates.delete(songId);
+    showError(error);
+    return;
+  }
+  if (currentView === "workbench" && workbench.mode === "videos" && workbench.songId === songId) renderWorkbenchView();
+}
+
+function renderVideoWorkPanel(song) {
+  const selection = ensureVideoSelection(song);
+  const task = database.candidateTasks?.[song.id];
+  const collecting = ["queued", "running"].includes(task?.status);
+  const summary = database.videoCandidates?.[song.id];
+  const candidates = workbench.candidates.get(song.id);
+  if (candidates === undefined && summary) loadCandidates(song.id);
+  const collectLabel = collecting ? `수집 중 · ${task.phase}` : summary ? "후보 다시 수집" : "영상 후보 수집";
+  const taskNote = task?.status === "failed" ? `<p class="work-error" role="alert">${escapeHtml(task.error ?? "수집에 실패했어요.")}</p>` : "";
+  const items = candidates && candidates !== "loading" ? candidates.items ?? [] : [];
+  const selectedIds = new Set(selection.items.map(({ videoId }) => videoId));
+  const extraSelected = selection.items.filter(({ videoId }) => !items.some((item) => item.videoId === videoId));
+
+  let grid;
+  if (candidates === "loading") grid = `<p class="field-help">후보를 불러오는 중…</p>`;
+  else if (!summary && !collecting) grid = emptySmall("아직 수집한 후보가 없어요. ‘영상 후보 수집’을 누르면 10개를 모아 와요.");
+  else if (collecting && !items.length) grid = `<p class="field-help">YouTube에서 후보를 찾고 있어요. 곡당 15초 정도 걸려요.</p>`;
+  else grid = `<div class="candidate-grid">${items.map((item) => candidateCard(item, selection, selectedIds)).join("")}${extraSelected.map((item) => candidateCard({ ...item, startHints: [], manual: true }, selection, selectedIds)).join("")}</div>`;
+
+  return `
+    ${workPanelHeader(song, `<button type="button" class="button button-secondary" data-collect-candidates="${escapeHtml(song.id)}" ${collecting ? "disabled" : ""}>${icons.search}${escapeHtml(collectLabel)}</button>`)}
+    ${taskNote}
+    <section class="work-selection" aria-label="선택한 영상">
+      <div class="work-selection-header">
+        <div><h3>선택한 영상 ${selection.items.length}/5</h3><p>1번이 대표 영상이에요. 시작 초는 사이트에서도 그 지점부터 재생돼요.</p></div>
+        <div class="work-selection-actions">${selection.dirty ? `<span class="pill orange">저장 안 됨</span>` : ""}${workSaveButtons()}</div>
+      </div>
+      <ol class="work-selection-list">
+        ${selection.items.map((item, index) => `<li>
+          <span class="video-rank">${index + 1}</span>
+          <img src="https://i.ytimg.com/vi/${escapeHtml(item.videoId)}/mqdefault.jpg" alt="" loading="lazy" />
+          <span class="work-selection-copy"><strong>${escapeHtml(item.title || item.videoId)}</strong><small>${index === 0 ? "대표" : "추가"} · ${escapeHtml(formatTimestamp(item.startSeconds))}부터</small></span>
+          <span class="work-selection-controls">
+            <button type="button" class="clip-icon-button" data-move-selected="-1" data-selected-index="${index}" aria-label="위로" ${index === 0 ? "disabled" : ""}>↑</button>
+            <button type="button" class="clip-icon-button" data-move-selected="1" data-selected-index="${index}" aria-label="아래로" ${index === selection.items.length - 1 ? "disabled" : ""}>↓</button>
+            <button type="button" class="clip-icon-button is-danger" data-remove-selected="${index}" aria-label="선택 해제">×</button>
+          </span>
+        </li>`).join("") || `<li class="work-selection-empty">아래 후보에서 영상을 골라 주세요.</li>`}
+      </ol>
+      <div class="work-manual-url">
+        <input id="work-manual-url" type="url" placeholder="직접 찾은 YouTube URL 추가 (t= 시작 초 포함 가능)" aria-label="직접 찾은 YouTube URL" />
+        <button type="button" class="button button-secondary" data-add-manual-video ${selection.items.length >= 5 ? "disabled" : ""}>추가</button>
+      </div>
+    </section>
+    ${candidates && candidates !== "loading" ? `<p class="field-help work-candidate-meta">${escapeHtml(formatDate(candidates.collectedAt))} 수집 · 검색어 ${escapeHtml(candidates.queries?.join(" / ") ?? "")}${candidates.errors?.length ? ` · 오류 ${candidates.errors.length}건` : ""}</p>` : ""}
+    ${grid}`;
+}
+
+function candidateStart(item, selection) {
+  const selected = selection.items.find(({ videoId }) => videoId === item.videoId);
+  return workbench.starts.get(item.videoId) ?? selected?.startSeconds ?? item.startHints?.[0]?.seconds ?? 0;
+}
+
+function candidateCard(item, selection, selectedIds) {
+  const id = escapeHtml(item.videoId);
+  const start = candidateStart(item, selection);
+  const rank = selection.items.findIndex(({ videoId }) => videoId === item.videoId) + 1;
+  const selected = selectedIds.has(item.videoId);
+  const meta = [
+    item.channelName,
+    item.durationSeconds ? formatTimestamp(item.durationSeconds) : "",
+    Number.isFinite(item.viewCount) ? `조회 ${Number(item.viewCount).toLocaleString("ko-KR")}` : "",
+    item.uploadDate ? `${item.uploadDate.slice(0, 4)}.${item.uploadDate.slice(4, 6)}.${item.uploadDate.slice(6)}` : "",
+  ].filter(Boolean).join(" · ");
+  const hints = item.startHints ?? [];
+  return `<article class="candidate-card ${selected ? "is-selected" : ""}" data-candidate="${id}">
+    <div class="candidate-player" data-candidate-player="${id}">
+      <button type="button" class="song-video-play" data-candidate-play="${id}" aria-label="${escapeHtml(item.title)} ${escapeHtml(formatTimestamp(start))}부터 재생"><img src="https://i.ytimg.com/vi/${id}/mqdefault.jpg" alt="" loading="lazy" /><span>▶ ${escapeHtml(formatTimestamp(start))}부터</span></button>
+    </div>
+    <div class="candidate-body">
+      <a class="candidate-title" href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noreferrer">${escapeHtml(item.title || item.videoId)}</a>
+      <p class="candidate-meta">${escapeHtml(meta)}</p>
+      ${item.matchedBy?.length || item.manual ? `<div class="candidate-chips">${item.manual ? `<span class="pill purple">직접 추가</span>` : ""}${(item.matchedBy ?? []).map((label) => `<span class="pill gray">${escapeHtml(label)}</span>`).join("")}</div>` : ""}
+      <div class="candidate-start">
+        <label><span>시작</span><input data-candidate-start="${id}" value="${escapeHtml(formatTimestamp(start))}" inputmode="numeric" aria-label="${escapeHtml(item.title)} 시작 시각" /></label>
+        ${[-5, -1, 1, 5].map((delta) => `<button type="button" class="candidate-nudge" data-nudge="${delta}" data-nudge-video="${id}">${delta > 0 ? `+${delta}` : `−${Math.abs(delta)}`}</button>`).join("")}
+        <button type="button" class="candidate-nudge is-wide" data-capture-time="${id}">현재 위치</button>
+      </div>
+      ${hints.length ? `<div class="candidate-hints"><span>단서</span>${hints.map((hint) => `<button type="button" data-hint-video="${id}" data-hint-seconds="${hint.seconds}" title="${escapeHtml(hint.text)}">${escapeHtml(formatTimestamp(hint.seconds))} · ${escapeHtml(HINT_SOURCE_LABELS[hint.source] ?? hint.source)}${hint.votes > 1 ? ` ×${hint.votes}` : ""}</button>`).join("")}</div>` : `<p class="candidate-no-hint">시작 초 단서 없음 · 재생하며 직접 찾아 주세요</p>`}
+      <div class="candidate-actions">
+        ${selected
+          ? `<span class="pill blue">${rank}번 ${rank === 1 ? "대표" : "추가"}</span><button type="button" class="button button-ghost" data-unselect-video="${id}">해제</button>`
+          : `<button type="button" class="button button-primary" data-select-video="${id}" ${selection.items.length >= 5 ? "disabled" : ""}>${selection.items.length ? "추가 영상으로" : "대표 영상으로"}</button>`}
+      </div>
+    </div>
+  </article>`;
+}
+
+function candidateItem(videoId) {
+  const candidates = workbench.candidates.get(workbench.songId);
+  return (candidates && candidates !== "loading" ? candidates.items ?? [] : []).find((item) => item.videoId === videoId)
+    ?? workbench.selection?.items.find((item) => item.videoId === videoId)
+    ?? null;
+}
+
+function setCandidateStart(videoId, seconds, { seek = false } = {}) {
+  const value = Math.max(0, Math.floor(seconds));
+  workbench.starts.set(videoId, value);
+  const input = viewRoot.querySelector(`[data-candidate-start="${CSS.escape(videoId)}"]`);
+  if (input) input.value = formatTimestamp(value);
+  const selected = workbench.selection?.items.find((item) => item.videoId === videoId);
+  if (selected && selected.startSeconds !== value) {
+    selected.startSeconds = value;
+    workbench.selection.dirty = true;
+    renderWorkbenchSelectionOnly();
+  }
+  if (seek) seekCandidate(videoId, value);
+}
+
+// 선택 목록만 다시 그려 재생 중인 후보 플레이어를 유지한다.
+function renderWorkbenchSelectionOnly() {
+  const song = songById(workbench.songId);
+  const current = viewRoot.querySelector(".work-selection");
+  if (!song || !current) return;
+  const template = document.createElement("div");
+  template.innerHTML = renderVideoWorkPanel(song);
+  current.replaceWith(template.querySelector(".work-selection"));
+  for (const card of viewRoot.querySelectorAll("[data-candidate]")) {
+    const fresh = template.querySelector(`[data-candidate="${CSS.escape(card.dataset.candidate)}"] .candidate-actions`);
+    if (fresh) card.querySelector(".candidate-actions").replaceWith(fresh);
+    card.classList.toggle("is-selected", workbench.selection.items.some(({ videoId }) => videoId === card.dataset.candidate));
+  }
+}
+
+function candidateFrame(videoId) {
+  return viewRoot.querySelector(`iframe[data-yt-video="${CSS.escape(videoId)}"]`);
+}
+
+function postToPlayer(frame, func, args = []) {
+  frame?.contentWindow?.postMessage(JSON.stringify({ event: "command", func, args, id: frame.id, channel: "widget" }), YOUTUBE_EMBED_ORIGIN);
+}
+
+function playCandidate(videoId, startSeconds) {
+  for (const frame of viewRoot.querySelectorAll("iframe[data-yt-video]")) {
+    if (frame.dataset.ytVideo !== videoId) postToPlayer(frame, "pauseVideo");
+  }
+  const holder = viewRoot.querySelector(`[data-candidate-player="${CSS.escape(videoId)}"]`);
+  if (!holder) return;
+  const params = new URLSearchParams({ enablejsapi: "1", origin: location.origin, autoplay: "1", playsinline: "1", start: String(startSeconds) });
+  holder.innerHTML = `<iframe id="wb-player-${escapeHtml(videoId)}" data-yt-video="${escapeHtml(videoId)}" class="song-video-player" src="${YOUTUBE_EMBED_ORIGIN}/embed/${escapeHtml(videoId)}?${params}" title="후보 영상 재생" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+  const frame = holder.querySelector("iframe");
+  const listen = () => frame.contentWindow?.postMessage(JSON.stringify({ event: "listening", id: frame.id, channel: "widget" }), YOUTUBE_EMBED_ORIGIN);
+  frame.addEventListener("load", () => {
+    listen();
+    window.setTimeout(listen, 800);
+  });
+  workbench.playerTimes.set(videoId, startSeconds);
+}
+
+function seekCandidate(videoId, seconds) {
+  const frame = candidateFrame(videoId);
+  if (!frame) {
+    playCandidate(videoId, seconds);
+    return;
+  }
+  postToPlayer(frame, "seekTo", [seconds, true]);
+  postToPlayer(frame, "playVideo");
+  workbench.playerTimes.set(videoId, seconds);
+}
+
+window.addEventListener("message", (event) => {
+  if (!/^https:\/\/www\.youtube(?:-nocookie)?\.com$/u.test(event.origin)) return;
+  const frame = [...document.querySelectorAll("iframe[data-yt-video]")].find((item) => item.contentWindow === event.source);
+  if (!frame) return;
+  let data;
+  try {
+    data = typeof event.data === "string" ? JSON.parse(event.data) : event.data;
+  } catch {
+    return;
+  }
+  const time = data?.info?.currentTime;
+  if (typeof time === "number" && Number.isFinite(time)) workbench.playerTimes.set(frame.dataset.ytVideo, time);
+});
+
+function selectCandidate(videoId) {
+  const selection = workbench.selection;
+  const item = candidateItem(videoId);
+  if (!selection || !item || selection.items.length >= 5 || selection.items.some((entry) => entry.videoId === videoId)) return;
+  selection.items.push({
+    videoId,
+    title: item.title ?? "",
+    channelName: item.channelName ?? "",
+    attributionText: item.attributionText ?? "",
+    startSeconds: candidateStart(item, selection),
+  });
+  selection.dirty = true;
+  renderWorkbenchSelectionOnly();
+}
+
+function unselectCandidate(index) {
+  const selection = workbench.selection;
+  if (!selection?.items[index]) return;
+  selection.items.splice(index, 1);
+  selection.dirty = true;
+  renderWorkbenchSelectionOnly();
+}
+
+async function addManualVideo() {
+  const input = viewRoot.querySelector("#work-manual-url");
+  const url = input?.value.trim() ?? "";
+  const videoId = extractYouTubeVideoId(url);
+  const selection = workbench.selection;
+  if (!videoId) {
+    toast("YouTube 영상 주소를 확인해 주세요.", "error");
+    return;
+  }
+  if (!selection || selection.items.length >= 5) return;
+  if (selection.items.some((item) => item.videoId === videoId)) {
+    toast("이미 선택한 영상이에요.", "error");
+    return;
+  }
+  let metadata = { title: "", channelName: "" };
+  try {
+    metadata = await api(`/api/youtube-metadata?url=${encodeURIComponent(url)}`);
+  } catch {
+    toast("영상 정보를 불러오지 못해 URL만 추가했어요. 제목은 전체 편집에서 입력할 수 있어요.", "error");
+  }
+  selection.items.push({ videoId, title: metadata.title, channelName: metadata.channelName, attributionText: "", startSeconds: youtubeStartSeconds(url) });
+  selection.dirty = true;
+  renderWorkbenchView();
+}
+
+async function collectCandidates(songIds) {
+  if (busy || songIds.length === 0) return;
+  setBusy(true, "후보 수집 요청 중");
+  try {
+    const result = await api("/api/video-candidates/collect", { method: "POST", body: { songIds } });
+    for (const id of result.queued) workbench.candidates.delete(id);
+    database.candidateTasks = result.tasks;
+    toast(result.queued.length ? `${result.queued.length}곡의 영상 후보를 수집하고 있어요.` : "이미 수집 중인 곡이에요.");
+  } catch (error) {
+    showError(error);
+  } finally {
+    setBusy(false);
+    renderWorkbenchView();
+  }
+}
+
+// 가사
+
+function ensureLyricsDraft(song) {
+  const current = workbench.lyrics;
+  if (current?.songId === song.id && (current.dirty || current.revision === song.revision)) return current;
+  workbench.lyrics = { songId: song.id, revision: song.revision, text: (song.lyrics?.lines ?? []).join("\n"), dirty: false };
+  return workbench.lyrics;
+}
+
+function renderLyricsWorkPanel(song) {
+  const draft = ensureLyricsDraft(song);
+  const organization = organizationById(song.organizationId);
+  const video = song.videos?.[0];
+  const query = `${organization?.name ?? ""} ${song.title} 응원가 가사`;
+  return `
+    ${workPanelHeader(song)}
+    <div class="work-lyrics-grid">
+      <div class="work-lyrics-reference">
+        ${video ? `<div class="song-video-card"><button type="button" class="song-video-play" data-lyrics-play="${escapeHtml(video.videoId)}" data-lyrics-start="${youtubeStartSeconds(video.sourceUrl)}" aria-label="대표 영상 재생"><img src="https://i.ytimg.com/vi/${escapeHtml(video.videoId)}/hqdefault.jpg" alt="" loading="lazy" /><span>▶ 대표 영상 재생</span></button></div>` : `<p class="field-help">대표 영상이 아직 없어요. ‘영상 고르기’에서 먼저 고르면 들으며 받아 적을 수 있어요.</p>`}
+        <div class="work-search-links">
+          <a class="button button-ghost" href="https://www.google.com/search?q=${encodeURIComponent(query)}" target="_blank" rel="noreferrer">Google에서 가사 찾기 ↗</a>
+          <a class="button button-ghost" href="https://www.youtube.com/results?search_query=${encodeURIComponent(`${organization?.name ?? ""} ${song.title} 가사`)}" target="_blank" rel="noreferrer">YouTube 가사 영상 ↗</a>
+        </div>
+      </div>
+      <div class="work-lyrics-editor">
+        <label class="field"><span>전체 가사 <small>한 줄씩 · 공개 화면에서는 처음 두 줄을 먼저 보여요</small></span><textarea id="work-lyrics-input" rows="16">${escapeHtml(draft.text)}</textarea></label>
+        <details class="editor-preview" open><summary>공개 화면 미리보기</summary><div class="editor-reading" id="work-lyrics-preview"></div></details>
+      </div>
+    </div>
+    <footer class="work-panel-footer">${draft.dirty ? `<span class="pill orange">저장 안 됨</span>` : ""}${workSaveButtons()}</footer>`;
+}
+
+function updateWorkLyricsPreview() {
+  const preview = viewRoot.querySelector("#work-lyrics-preview");
+  if (preview) preview.innerHTML = lyricsPreview(workbench.lyrics?.text ?? "");
+}
+
+async function saveWorkSong({ next = false } = {}) {
+  const song = songById(workbench.songId);
+  if (!song || busy) return;
+  const queueBefore = currentWorkQueue();
+  let patch;
+  if (workbench.mode === "videos") {
+    const selection = ensureVideoSelection(song);
+    patch = {
+      videos: selection.items.map((item, index) => ({
+        rank: index + 1,
+        sourceUrl: videoUrlWithStart(item.videoId, item.startSeconds),
+        title: item.title,
+        channelName: item.channelName,
+        attributionText: item.attributionText,
+      })),
+    };
+  } else {
+    patch = { lyrics: { lines: String(ensureLyricsDraft(song).text).replace(/\r\n/gu, "\n").split("\n") } };
+  }
+  setBusy(true, "저장 중");
+  try {
+    await api(`/api/songs/${encodeURIComponent(song.id)}`, { method: "PUT", body: { song: patch, expectedRevision: song.revision } });
+    workbench.selection = null;
+    workbench.lyrics = null;
+    if (next) workbench.songId = nextWorkSongId(queueBefore, song.id);
+    await loadState({ render: false });
+    toast(next ? `${song.title}을 저장하고 다음 곡으로 넘어왔어요.` : `${song.title}을 저장했어요.`);
+  } catch (error) {
+    showError(error);
+  } finally {
+    setBusy(false);
+    renderWorkbenchView();
+  }
+}
+
+// 다듬기
+
+function renderPolishMode(queue) {
+  if (!workbench.polishSelected) workbench.polishSelected = new Set(queue.slice(0, 5).map(({ id }) => id));
+  for (const id of workbench.polishSelected) if (!queue.some((song) => song.id === id)) workbench.polishSelected.delete(id);
+  const parsed = workbench.polishParsed;
+  return `
+    <div class="work-polish">
+      <section class="data-card work-step">
+        <header class="panel-header">
+          <div><h2>1. 요청문 복사</h2><p>소재 노트가 있는 초안 곡을 골라 ChatGPT에 한 번에 보내요. 이미 공개한 본문 2개가 문체 예시로 함께 들어가요. 5곡 안팎을 권장해요.</p></div>
+          <button type="button" class="button button-primary" data-copy-polish-prompt ${workbench.polishSelected.size ? "" : "disabled"}>${icons.copy}${workbench.polishSelected.size}곡 요청문 복사</button>
+        </header>
+        <ul class="polish-song-list">
+          ${queue.map((song) => {
+            const organization = organizationById(song.organizationId);
+            return `<li><label><input type="checkbox" class="selection-checkbox" data-polish-select="${escapeHtml(song.id)}" ${workbench.polishSelected.has(song.id) ? "checked" : ""} /><span><strong>${escapeHtml(song.title)}</strong><small>${escapeHtml(organization?.name ?? song.organizationId)} · 소재 노트 ${String(song.researchText ?? "").trim().length.toLocaleString("ko-KR")}자 · 초안 ${String(song.descriptionText ?? "").trim().length.toLocaleString("ko-KR")}자</small></span></label><button type="button" class="button button-ghost" data-edit-song="${escapeHtml(song.id)}">직접 다듬기</button></li>`;
+          }).join("") || `<li>${emptySmall("다듬을 초안이 없어요")}</li>`}
+        </ul>
+      </section>
+      <section class="data-card work-step">
+        <header class="panel-header"><div><h2>2. 답변 붙여 넣기</h2><p>ChatGPT 답변 전체를 붙여 넣으면 <code>===== 곡 ID =====</code> 기준으로 나눠요. 반영한 곡은 ‘다듬기 완료’가 되고, 이미 공개한 곡은 재공개하면 사이트에 본문이 나타나요.</p></div></header>
+        <label class="field"><span class="sr-only">ChatGPT 답변</span><textarea id="polish-response" rows="10" placeholder="===== song-id =====&#10;공개 본문…&#10;===== END =====">${escapeHtml(workbench.polishText)}</textarea></label>
+        <div class="work-step-actions"><button type="button" class="button button-secondary" data-parse-polish>결과 확인</button></div>
+        ${parsed ? polishPreview(parsed) : ""}
+      </section>
+    </div>`;
+}
+
+function polishPreview(parsed) {
+  const warnings = [
+    parsed.unknownIds.length ? `알 수 없는 곡 ID: ${parsed.unknownIds.join(", ")}` : "",
+    parsed.emptyIds.length ? `본문이 비어 있음: ${parsed.emptyIds.map((id) => songById(id)?.title ?? id).join(", ")}` : "",
+    parsed.missingIds.length ? `답변에 없는 선택 곡: ${parsed.missingIds.map((id) => songById(id)?.title ?? id).join(", ")}` : "",
+  ].filter(Boolean);
+  return `
+    <div class="polish-preview">
+      ${warnings.map((warning) => `<p class="work-error">${escapeHtml(warning)}</p>`).join("")}
+      ${parsed.items.map((item) => {
+        const song = songById(item.id);
+        return `<details class="polish-preview-item"><summary><strong>${escapeHtml(song?.title ?? item.id)}</strong><span>${item.descriptionText.length.toLocaleString("ko-KR")}자${song?.descriptionStatus === "polished" ? " · 기존 다듬은 본문 교체" : ""}</span></summary><div class="editor-reading">${descriptionPreview(item.descriptionText)}</div></details>`;
+      }).join("")}
+      <div class="work-step-actions"><button type="button" class="button button-primary" data-apply-polish ${parsed.items.length ? "" : "disabled"}>${parsed.items.length}곡 본문 반영</button></div>
+    </div>`;
+}
+
+async function copyPolishPrompt() {
+  const songs = [...workbench.polishSelected].map(songById).filter(Boolean);
+  if (!songs.length) return;
+  const prompt = buildPolishPrompt(songs, {
+    organizations: database.organizations,
+    exemplars: pickPolishExemplars(database.songs, new Set(songs.map(({ id }) => id))),
+  });
+  try {
+    await copyText(prompt);
+    toast(`${songs.length}곡 다듬기 요청문을 복사했어요. ChatGPT에 붙여 넣어 주세요.`);
+  } catch (error) {
+    showError(error);
+  }
+}
+
+async function applyPolish() {
+  const items = workbench.polishParsed?.items ?? [];
+  if (!items.length || busy) return;
+  setBusy(true, "본문 반영 중");
+  try {
+    const body = { items: items.map(({ id, descriptionText }) => ({ id, descriptionText, expectedRevision: songById(id).revision })) };
+    await api("/api/songs/bulk?action=apply-polish", { method: "POST", body });
+    workbench.polishText = "";
+    workbench.polishParsed = null;
+    workbench.polishSelected = null;
+    await loadState({ render: false });
+    toast(`${items.length}곡의 본문을 다듬기 완료로 반영했어요. 공개 중인 곡은 ‘공개 준비’에서 재공개해 주세요.`);
+  } catch (error) {
+    showError(error);
+  } finally {
+    setBusy(false);
+    renderWorkbenchView();
+  }
+}
+
+// 공개 준비
+
+function renderPublishMode() {
+  const songs = workbench.publishShowAll
+    ? database.songs.filter((song) => song.scopeStatus !== "rejected" && song.publication?.status !== "current")
+    : workQueue(database, "publish");
+  for (const id of workbench.publishSelected) if (!songs.some((song) => song.id === id)) workbench.publishSelected.delete(id);
+  const check = (ok, yes, no) => `<span class="pill ${ok ? "green" : "gray"}">${escapeHtml(ok ? yes : no)}</span>`;
+  return `
+    <section class="data-card">
+      <div class="table-toolbar">
+        <div class="toolbar-group">
+          <label class="work-toggle"><input type="checkbox" data-publish-show-all ${workbench.publishShowAll ? "checked" : ""} />영상·가사가 없는 곡도 보기</label>
+          <span class="table-result">초안 본문은 곡을 공개해도 사이트에 표시되지 않아요.</span>
+        </div>
+        <button type="button" class="button button-primary" data-publish-selected ${workbench.publishSelected.size ? "" : "disabled"}>${icons.upload}${workbench.publishSelected.size}곡 공개</button>
+      </div>
+      <div class="table-scroll">
+        <table class="data-table work-publish-table">
+          <thead><tr><th><input type="checkbox" class="selection-checkbox" data-publish-select-all aria-label="모두 선택" ${songs.length && songs.every((song) => workbench.publishSelected.has(song.id)) ? "checked" : ""} /></th><th>응원가</th><th>영상</th><th>가사</th><th>본문</th><th>사이트 공개</th></tr></thead>
+          <tbody>
+            ${songs.map((song) => {
+              const readiness = songReadiness(song);
+              const organization = organizationById(song.organizationId);
+              const description = !String(song.descriptionText ?? "").trim()
+                ? `<span class="pill gray">비어 있음</span>`
+                : readiness.polished ? `<span class="pill green">다듬음</span>` : `<span class="pill orange">초안 · 숨김</span>`;
+              return `<tr>
+                <td><input type="checkbox" class="selection-checkbox" data-publish-select="${escapeHtml(song.id)}" aria-label="${escapeHtml(song.title)} 선택" ${workbench.publishSelected.has(song.id) ? "checked" : ""} /></td>
+                <td><button type="button" class="work-link-button" data-edit-song="${escapeHtml(song.id)}"><strong>${escapeHtml(song.title)}</strong><small>${escapeHtml(organization?.name ?? song.organizationId)}</small></button></td>
+                <td>${check(readiness.hasVideo, `${song.videos.length}개`, "없음")}</td>
+                <td>${check(readiness.hasLyrics, "있음", "없음")}</td>
+                <td>${description}</td>
+                <td>${publicationCell(song)}</td>
+              </tr>`;
+            }).join("") || `<tr><td colspan="6">${emptySmall("공개를 기다리는 곡이 없어요")}</td></tr>`}
+          </tbody>
+        </table>
+      </div>
+    </section>`;
+}
+
+async function switchWorkbench({ mode = workbench.mode, songId = null }) {
+  if (mode === workbench.mode && songId && songId === workbench.songId) return;
+  if (!(await confirmDiscardWorkbench())) return;
+  if (mode !== workbench.mode) workbench.includeDone = false;
+  workbench.mode = mode;
+  workbench.songId = songId;
+  renderWorkbenchView();
+  if (songId) viewRoot.querySelector(".work-panel")?.scrollIntoView({ block: "start", behavior: "smooth" });
+}
+
+function handleWorkbenchClick(target) {
+  const modeButton = target.closest("[data-work-mode]");
+  if (modeButton) {
+    if (modeButton.dataset.workMode !== workbench.mode) switchWorkbench({ mode: modeButton.dataset.workMode });
+    return true;
+  }
+  const songButton = target.closest("[data-work-song]");
+  if (songButton) {
+    switchWorkbench({ songId: songButton.dataset.workSong });
+    return true;
+  }
+  if (target.closest("[data-work-save]")) { saveWorkSong(); return true; }
+  if (target.closest("[data-work-save-next]")) { saveWorkSong({ next: true }); return true; }
+  const collectButton = target.closest("[data-collect-candidates]");
+  if (collectButton) { collectCandidates([collectButton.dataset.collectCandidates]); return true; }
+  if (target.closest("[data-collect-missing-candidates]")) {
+    const ids = currentWorkQueue().filter((song) => !database.videoCandidates?.[song.id]).map(({ id }) => id);
+    if (ids.length) collectCandidates(ids);
+    else toast("모든 곡에 후보가 이미 있어요.");
+    return true;
+  }
+  const playButton = target.closest("[data-candidate-play]");
+  if (playButton) {
+    const videoId = playButton.dataset.candidatePlay;
+    playCandidate(videoId, candidateStart(candidateItem(videoId) ?? { videoId }, workbench.selection));
+    return true;
+  }
+  const lyricsPlay = target.closest("[data-lyrics-play]");
+  if (lyricsPlay) {
+    const params = new URLSearchParams({ autoplay: "1", playsinline: "1", start: lyricsPlay.dataset.lyricsStart });
+    lyricsPlay.outerHTML = `<iframe class="song-video-player" src="${YOUTUBE_EMBED_ORIGIN}/embed/${escapeHtml(lyricsPlay.dataset.lyricsPlay)}?${params}" title="대표 영상 재생" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+    return true;
+  }
+  const nudge = target.closest("[data-nudge]");
+  if (nudge) {
+    const videoId = nudge.dataset.nudgeVideo;
+    const current = workbench.starts.get(videoId) ?? candidateStart(candidateItem(videoId) ?? { videoId }, workbench.selection);
+    setCandidateStart(videoId, current + Number(nudge.dataset.nudge), { seek: true });
+    return true;
+  }
+  const capture = target.closest("[data-capture-time]");
+  if (capture) {
+    const videoId = capture.dataset.captureTime;
+    if (!candidateFrame(videoId)) toast("먼저 영상을 재생한 뒤 원하는 지점에서 눌러 주세요.", "error");
+    else setCandidateStart(videoId, workbench.playerTimes.get(videoId) ?? 0);
+    return true;
+  }
+  const hint = target.closest("[data-hint-video]");
+  if (hint) { setCandidateStart(hint.dataset.hintVideo, Number(hint.dataset.hintSeconds), { seek: true }); return true; }
+  const select = target.closest("[data-select-video]");
+  if (select) { selectCandidate(select.dataset.selectVideo); return true; }
+  const unselect = target.closest("[data-unselect-video]");
+  if (unselect) {
+    unselectCandidate(workbench.selection?.items.findIndex(({ videoId }) => videoId === unselect.dataset.unselectVideo) ?? -1);
+    return true;
+  }
+  const remove = target.closest("[data-remove-selected]");
+  if (remove) { unselectCandidate(Number(remove.dataset.removeSelected)); return true; }
+  const move = target.closest("[data-move-selected]");
+  if (move) {
+    const items = workbench.selection?.items ?? [];
+    const index = Number(move.dataset.selectedIndex);
+    const nextIndex = index + Number(move.dataset.moveSelected);
+    if (items[index] && items[nextIndex]) {
+      [items[index], items[nextIndex]] = [items[nextIndex], items[index]];
+      workbench.selection.dirty = true;
+      renderWorkbenchSelectionOnly();
+    }
+    return true;
+  }
+  if (target.closest("[data-add-manual-video]")) { addManualVideo(); return true; }
+  if (target.closest("[data-copy-polish-prompt]")) { copyPolishPrompt(); return true; }
+  if (target.closest("[data-parse-polish]")) {
+    workbench.polishParsed = parsePolishResponse(workbench.polishText, {
+      knownIds: database.songs.map(({ id }) => id),
+      expectedIds: [...(workbench.polishSelected ?? [])],
+    });
+    renderWorkbenchView();
+    return true;
+  }
+  if (target.closest("[data-apply-polish]")) { applyPolish(); return true; }
+  if (target.closest("[data-publish-selected]")) {
+    publishSongIds([...workbench.publishSelected]).then((published) => {
+      if (published) workbench.publishSelected.clear();
+      if (currentView === "workbench") renderWorkbenchView();
+    });
+    return true;
+  }
+  return false;
+}
+
+function handleWorkbenchChange(target) {
+  if (target.matches("[data-work-include-done]")) {
+    workbench.includeDone = target.checked;
+    renderWorkbenchView();
+    return true;
+  }
+  if (target.matches("[data-candidate-start]")) {
+    const seconds = parseTimestamp(target.value);
+    if (seconds === null) {
+      toast("시작 시각은 2:40 또는 160처럼 입력해 주세요.", "error");
+      target.value = formatTimestamp(workbench.starts.get(target.dataset.candidateStart) ?? 0);
+    } else {
+      setCandidateStart(target.dataset.candidateStart, seconds, { seek: Boolean(candidateFrame(target.dataset.candidateStart)) });
+    }
+    return true;
+  }
+  if (target.matches("[data-polish-select]")) {
+    if (target.checked) workbench.polishSelected.add(target.dataset.polishSelect);
+    else workbench.polishSelected.delete(target.dataset.polishSelect);
+    renderWorkbenchView();
+    return true;
+  }
+  if (target.matches("[data-publish-show-all]")) {
+    workbench.publishShowAll = target.checked;
+    renderWorkbenchView();
+    return true;
+  }
+  if (target.matches("[data-publish-select]")) {
+    if (target.checked) workbench.publishSelected.add(target.dataset.publishSelect);
+    else workbench.publishSelected.delete(target.dataset.publishSelect);
+    renderWorkbenchView();
+    return true;
+  }
+  if (target.matches("[data-publish-select-all]")) {
+    for (const input of viewRoot.querySelectorAll("[data-publish-select]")) {
+      if (target.checked) workbench.publishSelected.add(input.dataset.publishSelect);
+      else workbench.publishSelected.delete(input.dataset.publishSelect);
+    }
+    renderWorkbenchView();
+    return true;
+  }
+  return false;
+}
+
+function handleWorkbenchInput(target) {
+  if (target.id === "work-lyrics-input" && workbench.lyrics) {
+    workbench.lyrics.text = target.value;
+    if (!workbench.lyrics.dirty) {
+      workbench.lyrics.dirty = true;
+      viewRoot.querySelector(".work-panel-footer")?.insertAdjacentHTML("afterbegin", `<span class="pill orange">저장 안 됨</span>`);
+    }
+    updateWorkLyricsPreview();
+    return true;
+  }
+  if (target.id === "polish-response") {
+    workbench.polishText = target.value;
+    return true;
+  }
+  return false;
+}
+
+navigation.addEventListener("click", async (event) => {
   const button = event.target.closest("[data-view]");
-  if (button) setView(button.dataset.view);
+  if (!button) return;
+  if (currentView === "workbench" && button.dataset.view !== "workbench" && !(await confirmDiscardWorkbench())) return;
+  setView(button.dataset.view);
 });
 
 viewRoot.addEventListener("click", (event) => {
   const target = event.target;
+  if (currentView === "workbench" && handleWorkbenchClick(target)) return;
   const moveOriginalButton = target.closest("[data-move-original]");
   if (moveOriginalButton) {
     const id = moveOriginalButton.dataset.originalId;
@@ -2081,6 +2865,7 @@ viewRoot.addEventListener("keydown", (event) => {
 });
 
 viewRoot.addEventListener("input", (event) => {
+  if (currentView === "workbench" && handleWorkbenchInput(event.target)) return;
   if (event.target.id === "organization-search") {
     filters.organizationSearch = event.target.value;
     applyOrganizationFilters();
@@ -2096,6 +2881,7 @@ viewRoot.addEventListener("input", (event) => {
 });
 
 viewRoot.addEventListener("change", (event) => {
+  if (currentView === "workbench" && handleWorkbenchChange(event.target)) return;
   if (event.target.matches("[data-original-position]")) {
     const id = event.target.dataset.originalPosition;
     const position = event.target.valueAsNumber;
@@ -2351,6 +3137,10 @@ refreshButton.addEventListener("click", async () => {
     toast("열려 있는 편집 내용을 저장하거나 닫은 뒤 새로고침해 주세요.", "error");
     return;
   }
+  if (workbenchDirty()) {
+    toast("작업 모드에서 저장하지 않은 내용을 먼저 저장해 주세요.", "error");
+    return;
+  }
   try {
     await loadState();
     toast("최신 데이터를 불러왔어요.");
@@ -2370,7 +3160,7 @@ window.addEventListener("hashchange", () => {
   if (view && view !== currentView) setView(view, { updateHash: false });
 });
 window.addEventListener("beforeunload", (event) => {
-  if (!drawerState?.dirty && !originalOrderDirty()) return;
+  if (!drawerState?.dirty && !originalOrderDirty() && !workbenchDirty()) return;
   if (drawerState?.dirty) persistSongDraft();
   event.preventDefault();
 });
@@ -2383,6 +3173,37 @@ document.addEventListener("keydown", (event) => {
     attemptCloseDrawer();
   }
 });
+
+// 영상 후보 수집은 서버에서 한 곡씩 진행되므로, 작업 모드를 보는 동안 상태만 가볍게 갱신한다.
+window.setInterval(async () => {
+  const tasks = Object.entries(database.candidateTasks ?? {});
+  if (!tasks.some(([, task]) => ["queued", "running"].includes(task.status)) || busy || reelPollInProgress) return;
+  reelPollInProgress = true;
+  try {
+    const previous = new Map(tasks.map(([id, task]) => [id, task.status]));
+    const next = await api("/api/state");
+    database = { ...database, ...next };
+    for (const [id, task] of Object.entries(database.candidateTasks ?? {})) {
+      if (task.status === "completed" && previous.get(id) !== "completed") workbench.candidates.delete(id);
+    }
+    if (currentView === "workbench" && workbench.mode === "videos") {
+      const currentStatus = database.candidateTasks?.[workbench.songId]?.status;
+      const changedCurrent = previous.get(workbench.songId) !== currentStatus;
+      const queueList = viewRoot.querySelector(".work-queue-list");
+      const collectButton = viewRoot.querySelector("[data-collect-candidates]");
+      if (changedCurrent) renderWorkbenchView();
+      else if (currentStatus === "running" && collectButton) collectButton.lastChild.textContent = `수집 중 · ${database.candidateTasks[workbench.songId].phase}`;
+      if (!changedCurrent && queueList) {
+        const queue = currentWorkQueue();
+        queueList.innerHTML = queue.map((item) => workQueueItem(item, item.id === workbench.songId)).join("");
+      }
+    }
+  } catch (error) {
+    showError(error);
+  } finally {
+    reelPollInProgress = false;
+  }
+}, 2500);
 
 window.setInterval(async () => {
   const hasActiveRender = database.reels?.some((reel) => ["queued", "rendering"].includes(reel.render?.status));

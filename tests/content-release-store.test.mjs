@@ -150,3 +150,21 @@ test("오래된 revision으로 공개하면 현재 릴리스를 바꾸지 않는
   );
   assert.equal((await releaseStore.readCurrent()).releaseId, initial.releaseId);
 });
+
+test("다듬기 전 초안 본문은 곡을 공개해도 사이트 카탈로그에 넣지 않는다", async () => {
+  const { editorialStore, releaseStore } = await fixture();
+  await releaseStore.initialize();
+  assert.equal((await editorialStore.getSong("approved-song")).descriptionStatus, "polished");
+
+  const [draftSong] = (await editorialStore.importSongs({ organizationId: "test-university", targetText: "새 응원가" })).created;
+  assert.equal(draftSong.descriptionStatus, "draft");
+  const withDraft = await editorialStore.saveSong(draftSong.id, { descriptionText: "Codex가 모은 초안" }, draftSong.revision);
+  const first = await releaseStore.publishSongs([{ id: withDraft.id, expectedRevision: withDraft.revision }]);
+  assert.equal(first.catalog.songs.find((song) => song.id === withDraft.id).descriptionText, "");
+  assert.equal("descriptionStatus" in first.catalog.songs[0], false);
+
+  const polished = await editorialStore.saveSong(withDraft.id, { descriptionText: "다듬은 본문", descriptionStatus: "polished" }, withDraft.revision);
+  assert.equal((await releaseStore.describe()).songs[polished.id].status, "changes_pending");
+  const second = await releaseStore.publishSongs([{ id: polished.id, expectedRevision: polished.revision }]);
+  assert.equal(second.catalog.songs.find((song) => song.id === polished.id).descriptionText, "다듬은 본문");
+});

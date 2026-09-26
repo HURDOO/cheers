@@ -215,12 +215,14 @@ export function SongPage({ song, navigate, singing, onSing }: {
         <div className="song__main">
           {hasLyrics && <Lyrics song={song} onSing={openSing} />}
           <Facts song={song} />
-          {story && (
-            <section className="story" aria-labelledby="story-title">
-              <h2 id="story-title" className="section-label">이야기</h2>
+          <section className="story" aria-labelledby="story-title">
+            <h2 id="story-title" className="section-label">이야기</h2>
+            {story.trim() ? (
               <InlineNotes text={story} className="story__body" />
-            </section>
-          )}
+            ) : (
+              <p className="story__body">이 곡의 이야기는 정리하고 있어요.</p>
+            )}
+          </section>
           {(song.sources?.length ?? 0) > 0 && (
             <section className="refs" aria-labelledby="refs-title">
               <h2 id="refs-title" className="section-label">참고 자료</h2>
